@@ -1,0 +1,164 @@
+{
+  "root": "wTn",
+  "arabic": "وطن",
+  "root_idea": {
+    "summary": "The root centers on a settled place or locus of residence, especially a human dwelling or home.",
+    "development": "The place-of-residence notion extends to taking land as a homeland and settling in a country; derived uses also describe preparing oneself for, or submitting oneself to, an undertaking.",
+    "source_refs": [
+      "maqayis:row:5147",
+      "lane:entry:30574",
+      "lane:entry:30577"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wTn:mawaATin:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wTn-mawtin",
+      "reason": "The Quranic plural is presented under the normalized singular citation form مَوْطِن."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wTn-mawtin",
+      "form_group_ids": [
+        "qac-form:wTn:mawaATin:nominal:-"
+      ],
+      "headword_arabic": "مَوْطِن",
+      "public_pos_label": "Noun · plural form attested",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wTn-mawtin-s1",
+          "definition": "A place of settlement or residence; in the Quranic plural, a locality or region.",
+          "usage_conditions": "Attested in the Quran only as the plural مَوَاطِنَ. The supplied occurrence is contextually rendered “regions”; this is treated as the place or locality sense rather than as a separate meaning.",
+          "source_refs": [
+            "lane:entry:30578"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:25",
+          "word_location": "9:25:5",
+          "sense_ids": [
+            "wTn-mawtin-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wTn-watan",
+      "headword_arabic": "وَطَنٌ",
+      "definition": "A settled place of abode or residence; a dwelling or home.",
+      "usage_conditions": "The plural أَوْطَان is also used for the resting places of sheep.",
+      "source_refs": [
+        "lane:entry:30578",
+        "maqayis:row:5147"
+      ]
+    },
+    {
+      "meaning_id": "wTn-awtana",
+      "headword_arabic": "أَوْطَنَ",
+      "definition": "To make a land one's homeland; to take it as a settled place of residence.",
+      "usage_conditions": "Explicitly attested in the construction involving taking the land as a homeland.",
+      "source_refs": [
+        "maqayis:row:5147"
+      ]
+    },
+    {
+      "meaning_id": "wTn-wattana",
+      "headword_arabic": "وَطَّنَ",
+      "definition": "To prepare, discipline, or persuade oneself to undertake a thing; to make oneself disposed to it.",
+      "usage_conditions": "Used with the self or mind in constructions expressing preparation or inducement to an undertaking, including constructions with عَلَى or لِـ.",
+      "source_refs": [
+        "lane:entry:30574"
+      ]
+    },
+    {
+      "meaning_id": "wTn-tawattana",
+      "headword_arabic": "تَوَطَّنَ",
+      "definition": "To undertake a thing and submit oneself to it; to become disposed to do it.",
+      "usage_conditions": "A reflexive construction describing the mind or person becoming prepared and subjecting itself to an undertaking.",
+      "source_refs": [
+        "lane:entry:30576"
+      ]
+    },
+    {
+      "meaning_id": "wTn-istawtana",
+      "headword_arabic": "اِسْتَوْطَنَ",
+      "definition": "To take a country or place as one's home; to settle there.",
+      "usage_conditions": "The construction may express adopting a country as a home or settling in a settled place of abode.",
+      "source_refs": [
+        "lane:entry:30577"
+      ]
+    },
+    {
+      "meaning_id": "wTn-mitan",
+      "headword_arabic": "المِيطَان",
+      "definition": "A goal or endpoint.",
+      "usage_conditions": "A distinct derivative listed in the root's Classical lexical material.",
+      "source_refs": [
+        "maqayis:row:5147"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wTn:30574:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wTn-wattana"
+      ],
+      "note": "Form II self-disposition and preparation meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:wTn:30574:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wTn-wattana"
+      ],
+      "note": "Inducing or persuading oneself to undertake the thing is included in the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:wTn:30575:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit referring to Form X."
+    },
+    {
+      "unit_id": "lane-unit:wTn:30576:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wTn-tawattana"
+      ],
+      "note": "Form V undertaking, submission, and self-disposition meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:wTn:30577:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wTn-istawtana"
+      ],
+      "note": "Form X taking a country as home or settling meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:wTn:30578:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wTn-mawtin-s1",
+        "wTn-watan"
+      ],
+      "note": "The place-of-abode meaning is represented for the Quranic locality sense and the distinct Classical noun وَطَن."
+    }
+  ],
+  "cautions": [
+    "The sole Quran occurrence is the plural مَوَاطِنَ; مَوْطِن is used as the normalized dictionary citation form.",
+    "The Form IV Lane unit is pointer-only; its independent meaning is retained from the explicit Classical expression أَوْطَنَتِ الأرضَ rather than inferred from the pointer alone.",
+    "The contextual rendering “regions” does not create an additional Quranic sense beyond the lexical place or locality meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

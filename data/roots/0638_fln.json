@@ -1,0 +1,113 @@
+{
+  "root": "fln",
+  "arabic": "فلن",
+  "root_idea": {
+    "summary": "A conventional placeholder used in place of an unnamed or unspecified individual, especially a person; related usage extends the designation to a particular nonhuman animal.",
+    "development": "The root's lexical orientation is substitution by a nonspecific name: فلان serves as a kināyah for a person, while related definite and relational forms support animal designation and reference by association.",
+    "source_refs": [
+      "maqayis:row:3650",
+      "mufradat:row:1135"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fln:fulaAn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fln_fulan",
+      "reason": "Displayed under the normalized masculine singular citation form فلان rather than the Quranic accusative surface form فلانًا."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "fln_fulan",
+      "form_group_ids": [
+        "qac-form:fln:fulaAn:nominal:-"
+      ],
+      "headword_arabic": "فُلَان",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "fln_fulan_s1",
+          "definition": "An unnamed or unspecified human person; “such a one.”",
+          "usage_conditions": "A substitute for a person's proper name, including reference to either a male or a female. In the Quranic occurrence it appears in the accusative construction فُلَانًا خَلِيلًا, referring to the person taken as an intimate friend.",
+          "source_refs": [
+            "lane:entry:34967",
+            "mufradat:row:1135"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:28",
+          "word_location": "25:28:5",
+          "sense_ids": [
+            "fln_fulan_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "fln_fulan_nonhuman",
+      "headword_arabic": "الفُلَان",
+      "definition": "A particular nonhuman animal designated without naming it, such as a particular camel or other beast.",
+      "usage_conditions": "Recorded with the definite article, in constructions such as riding or milking the particular animal. This is distinct from the Quranic human-placeholder use of فُلَانٌ.",
+      "source_refs": [
+        "lane:entry:34967"
+      ]
+    },
+    {
+      "meaning_id": "fln_fulani",
+      "headword_arabic": "فُلَانِيّ",
+      "definition": "A relational adjective derived from فُلَان, referring to someone in relation to an unnamed “such a one.”",
+      "usage_conditions": "The suffix ي renders the form indeterminate; adding the definite article makes it determinate, as in a person identified in relation to such a one.",
+      "source_refs": [
+        "lane:entry:34970"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fln:34967:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fln_fulan_s1",
+        "fln_fulan_nonhuman"
+      ],
+      "note": "Human placeholder and definite nonhuman-animal branches are represented; inflectional and vocative details are not separate meanings."
+    },
+    {
+      "unit_id": "lane-unit:fln:34968:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:fln:34969:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the main فلان entry."
+    },
+    {
+      "unit_id": "lane-unit:fln:34970:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fln_fulani"
+      ],
+      "note": "Relational-adjective usage is represented as a Classical Arabic meaning."
+    },
+    {
+      "unit_id": "lane-unit:fln:34971:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the main فلان entry."
+    }
+  ],
+  "cautions": [
+    "The Quran attests only the human-placeholder form in the supplied occurrence; the definite-article animal designation is a separate broader Classical Arabic construction."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

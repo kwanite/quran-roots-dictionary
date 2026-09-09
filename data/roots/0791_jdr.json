@@ -1,0 +1,552 @@
+{
+  "root": "jdr",
+  "arabic": "جدر",
+  "root_idea": {
+    "summary": "The root centers on a raised wall or boundary and, in a second branch, on something emerging or protruding.",
+    "development": "The wall sense extends to foundations, enclosures, dams, and walled gardens; the emergence branch describes vegetation, bodily eruptions, and smallpox. The suitability branch develops through the idea of an endpoint or fitting place.",
+    "source_refs": [
+      "maqayis:row:1104",
+      "mufradat:row:235"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jdr:>ajodar:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-jdr-ajdar",
+      "reason": "Presented as the comparative adjective أَجْدَرُ, ‘more fitting, apt, or likely,’ despite the QAC nominal tag."
+    },
+    {
+      "form_group_id": "qac-form:jdr:jidaAr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-jdr-jidar",
+      "reason": "Displayed under the singular dictionary citation form جِدَار."
+    },
+    {
+      "form_group_id": "qac-form:jdr:judur:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qf-jdr-jidar",
+      "reason": "جُدُر is the Quran-attested plural of جِدَار and is grouped under its singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-jdr-ajdar",
+      "form_group_ids": [
+        "qac-form:jdr:>ajodar:nominal:-"
+      ],
+      "headword_arabic": "أَجْدَرُ",
+      "public_pos_label": "Adjective · comparative",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-jdr-ajdar-s1",
+          "definition": "More fitting, apt, suitable, or worthy; hence more likely to do or be something.",
+          "usage_conditions": "Used in comparative constructions with بِـ, لِـ, or أَنْ; the Quranic occurrence expresses greater likelihood or aptitude rather than a physical meaning.",
+          "source_refs": [
+            "mufradat:row:235",
+            "lane:entry:46156",
+            "lane:entry:46165"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:97",
+          "word_location": "9:97:5",
+          "sense_ids": [
+            "qf-jdr-ajdar-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-jdr-jidar",
+      "form_group_ids": [
+        "qac-form:jdr:jidaAr:nominal:-",
+        "qac-form:jdr:judur:nominal:-"
+      ],
+      "headword_arabic": "جِدَار",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qf-jdr-jidar-s1",
+          "definition": "A wall; a raised, upright barrier or structure.",
+          "usage_conditions": "In the Quranic usage, جِدَار emphasizes the wall’s projection and elevation, in contrast with حائط, which can emphasize enclosure. The plural form جُدُر is included under this citation form.",
+          "source_refs": [
+            "mufradat:row:235",
+            "lane:entry:46159"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:77",
+          "word_location": "18:77:14",
+          "sense_ids": [
+            "qf-jdr-jidar-s1"
+          ]
+        },
+        {
+          "verse_key": "18:82",
+          "word_location": "18:82:2",
+          "sense_ids": [
+            "qf-jdr-jidar-s1"
+          ]
+        },
+        {
+          "verse_key": "59:14",
+          "word_location": "59:14:11",
+          "sense_ids": [
+            "qf-jdr-jidar-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-jdr-jadara-wallbuild",
+      "headword_arabic": "جَدَرَ",
+      "definition": "To make, build, raise, or found a wall.",
+      "usage_conditions": "A transitive Form I verb used of constructing a wall or enclosure.",
+      "source_refs": [
+        "lane:entry:46154",
+        "mufradat:row:235"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadara-smallpox",
+      "headword_arabic": "جَدَرَ",
+      "definition": "To be attacked by smallpox; of smallpox, to break out or come forth.",
+      "usage_conditions": "Used of a person, especially a child, contracting the disease, and of the disease erupting.",
+      "source_refs": [
+        "lane:entry:46154",
+        "mufradat:row:235"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadara-fit",
+      "headword_arabic": "جَدُرَ",
+      "definition": "To be adapted, apt, suitable, competent, proper, or worthy.",
+      "usage_conditions": "Constructed with بِـ or لِـ for the thing for which someone or something is suited, and with أَنْ for an action.",
+      "source_refs": [
+        "lane:entry:46154"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadara-makefit",
+      "headword_arabic": "جَدَرَهُ",
+      "definition": "To make or deem someone or something fit, suitable, proper, or worthy.",
+      "usage_conditions": "A transitive causative use applied to a person or thing.",
+      "source_refs": [
+        "lane:entry:46154"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-ajtadara-build",
+      "headword_arabic": "اِجْتَدَرَ",
+      "definition": "To raise a building high or construct it firmly and strongly.",
+      "usage_conditions": "A Form VIII building verb, especially of substantial or elevated construction.",
+      "source_refs": [
+        "lane:entry:46157"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jandara-restore",
+      "headword_arabic": "جَنْدَرَ",
+      "definition": "To retrace obliterated writing so that it becomes distinct, or to renew a faded figured design in cloth.",
+      "usage_conditions": "A specialized Form Q.Q. verb used of restoring legibility or renewing patterned work.",
+      "source_refs": [
+        "lane:entry:46158"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadr-foundation",
+      "headword_arabic": "جَدْر",
+      "definition": "The foundation or base of a wall; also its side.",
+      "usage_conditions": "The word is also applied specifically to the ḥaṭīm of the Kaaba in one traditional usage because part of the original foundation is present there.",
+      "source_refs": [
+        "lane:entry:46159"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadr-waterfence",
+      "headword_arabic": "جَدْر",
+      "definition": "A fence or dam made to retain or confine water.",
+      "usage_conditions": "May refer to a branch-built water barrier or to fences between houses that retain water.",
+      "source_refs": [
+        "lane:entry:46159"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadr-walledgarden",
+      "headword_arabic": "جُدُور",
+      "definition": "Walled gardens, especially gardens of grapevines.",
+      "usage_conditions": "A plural usage referring to enclosed cultivated plots.",
+      "source_refs": [
+        "lane:entry:46159"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-judari-smallpox",
+      "headword_arabic": "جُدَرِيّ",
+      "definition": "Smallpox, a disease producing fluid-filled pustules that later open and form thick matter.",
+      "usage_conditions": "A conventional disease name; the related verb describes the eruption of its pustules.",
+      "source_refs": [
+        "lane:entry:46161",
+        "mufradat:row:235"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-judari-truffles",
+      "headword_arabic": "جُدَرِيّ الأَرْض",
+      "definition": "Truffles, in an expression of disapproval.",
+      "usage_conditions": "A figurative or transferred appellation recorded in traditional usage.",
+      "source_refs": [
+        "lane:entry:46161"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadir-walledplace",
+      "headword_arabic": "جَدِير",
+      "definition": "A place enclosed by a wall; a walled place.",
+      "usage_conditions": "A nominal use distinct from the adjective meaning suitable or worthy.",
+      "source_refs": [
+        "lane:entry:46163"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadir-fit",
+      "headword_arabic": "جَدِير",
+      "definition": "Adapted, apt, suitable, proper, or worthy; naturally drawn toward something.",
+      "usage_conditions": "Used with بِـ, لِـ, or أَنْ for the object or action concerned; this is the positive adjective corresponding to the comparative Quranic form أَجْدَرُ.",
+      "source_refs": [
+        "lane:entry:46163"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadira-enclosure",
+      "headword_arabic": "جَدِيرَة",
+      "definition": "An enclosure for camels, young livestock, sheep, or goats, especially one made of masses of stone.",
+      "usage_conditions": "A livestock enclosure; the materials and animals named are conventional applications in the lexical evidence.",
+      "source_refs": [
+        "lane:entry:46164"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadira-disposition",
+      "headword_arabic": "جَدِيرَة",
+      "definition": "Nature, natural disposition, temperament, or an inherent property.",
+      "usage_conditions": "An abstract noun for an innate character or disposition.",
+      "source_refs": [
+        "lane:entry:46164"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-majdaraland",
+      "headword_arabic": "مَجْدَرَة",
+      "definition": "Land in which smallpox is present or abundant.",
+      "usage_conditions": "An attributive description of land associated with the disease.",
+      "source_refs": [
+        "lane:entry:46166"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-mujaddar-smallpoxmarked",
+      "headword_arabic": "مُجَدَّر",
+      "definition": "Having smallpox or being marked by smallpox, especially with a pockmarked face.",
+      "usage_conditions": "A passive participial adjective describing a person or a bodily appearance.",
+      "source_refs": [
+        "lane:entry:46167"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadar-plantemergence",
+      "headword_arabic": "جَدَر",
+      "definition": "Newly emerging vegetation or growth protruding from the ground.",
+      "usage_conditions": "A noun for plant growth as it appears above the earth.",
+      "source_refs": [
+        "mufradat:row:235"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-ajdara-vegetation",
+      "headword_arabic": "أَجْدَرَ",
+      "definition": "Of land, to put forth emerging vegetation.",
+      "usage_conditions": "A Form IV use describing the land’s production of such growth.",
+      "source_refs": [
+        "mufradat:row:235"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadara-plantshoot",
+      "headword_arabic": "جَدَرَة",
+      "definition": "A single shoot or piece of vegetation emerging from the ground.",
+      "usage_conditions": "The singular designation for the emergent plant growth called جَدَر.",
+      "source_refs": [
+        "mufradat:row:235"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadara-bodylump",
+      "headword_arabic": "جَدَرَة",
+      "definition": "A swelling or lump appearing on the body.",
+      "usage_conditions": "The related adjective جَدْرَاء may describe a sheep affected by the corresponding skin condition; this usage is distinguished from ordinary smallpox terminology in some lexical reports.",
+      "source_refs": [
+        "mufradat:row:235"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jaydar-short",
+      "headword_arabic": "جَيْدَر",
+      "definition": "A short person.",
+      "usage_conditions": "A figurative or humorous derivative associated with the wall sense.",
+      "source_refs": [
+        "mufradat:row:235"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadir-endpoint",
+      "headword_arabic": "جَدِير",
+      "definition": "An endpoint or terminus, conceived as the point to which a matter comes.",
+      "usage_conditions": "An abstract extension explained through the image of something reaching a wall or limit.",
+      "source_refs": [
+        "mufradat:row:235"
+      ]
+    },
+    {
+      "meaning_id": "cm-jdr-jadr-bitemark",
+      "headword_arabic": "جَدْر",
+      "definition": "A raised mark or swelling caused by biting, especially at an animal’s neck.",
+      "usage_conditions": "A specialized bodily mark explained through the protruding appearance of the swelling.",
+      "source_refs": [
+        "maqayis:row:1104"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jdr:46154:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadara-wallbuild"
+      ],
+      "note": "Wall-building verb."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46154:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Illustrative wall-related example; it adds no independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46154:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadara-smallpox"
+      ],
+      "note": "Smallpox and its eruption."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46154:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadara-fit"
+      ],
+      "note": "Form I suitability meaning."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46154:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadara-makefit"
+      ],
+      "note": "Causative suitability meaning."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46155:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46155:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46156:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-jdr-ajdar-s1"
+      ],
+      "note": "Comparative suitability and worthiness expression."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46157:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-ajtadara-build"
+      ],
+      "note": "Firm or elevated building construction."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46158:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jandara-restore"
+      ],
+      "note": "Restoration of writing or figured textile work."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46159:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-jdr-jidar-s1"
+      ],
+      "note": "Wall and wall-of-enclosure meaning."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46159:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadr-foundation"
+      ],
+      "note": "Foundation and side of a wall, including the Kaaba application."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46159:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadr-waterfence"
+      ],
+      "note": "Fence or dam for retaining water."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46159:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadr-walledgarden"
+      ],
+      "note": "Walled grape gardens."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46160:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46161:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-judari-smallpox"
+      ],
+      "note": "Smallpox disease."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46161:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-judari-truffles"
+      ],
+      "note": "Transferred appellation for truffles."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46162:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the wall entry."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46163:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadir-walledplace"
+      ],
+      "note": "Walled-place meaning."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46163:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46163:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadir-fit"
+      ],
+      "note": "Positive adjective of suitability or worthiness."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46164:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadira-enclosure"
+      ],
+      "note": "Livestock enclosure."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46164:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-jadira-disposition"
+      ],
+      "note": "Nature or inherent disposition."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46165:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-jdr-ajdar-s1"
+      ],
+      "note": "Comparative suitability or worthiness."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46166:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-majdaraland"
+      ],
+      "note": "Land associated with smallpox."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46166:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46167:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jdr-mujaddar-smallpoxmarked"
+      ],
+      "note": "Having or showing smallpox marks."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46168:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jdr:46168:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "أَجْدَرُ is presented as a comparative adjective because its lexical construction is one of comparative aptitude or worthiness, although QAC assigns it a nominal tag.",
+    "The plural Quranic form جُدُر is grouped with جِدَار under the singular dictionary citation form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

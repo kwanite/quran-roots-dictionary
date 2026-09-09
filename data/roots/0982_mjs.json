@@ -1,0 +1,132 @@
+{
+  "root": "mjs",
+  "arabic": "مجس",
+  "root_idea": {
+    "summary": "The evidence does not establish a native Arabic root principle for مجس; it treats the word as a Persian-origin designation associated with the Magians.",
+    "development": "The designation مَجُوس names the Magian community. Related lexical formations include مَجُوسِيّ for an individual Magian, مَجُوسِيَّة for the Magian religion, Form II مَجَّسَ for making someone a Magian or teaching the Magian religion, and Form V تَمَجَّسَ for becoming a Magian.",
+    "source_refs": [
+      "maqayis:row:4294",
+      "lane:entry:12273",
+      "lane:entry:12274",
+      "lane:entry:12275",
+      "lane:entry:12276"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mjs:majuws:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mjs-majus",
+      "reason": "The Quranic occurrence is the established collective/proper designation مَجُوس, attested in Lane as the Magians and a certain nation."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mjs-majus",
+      "form_group_ids": [
+        "qac-form:mjs:majuws:nominal:-"
+      ],
+      "headword_arabic": "مَجُوس",
+      "public_pos_label": "Proper noun · collective designation",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "mjs-majus-s1",
+          "definition": "The Magians: a named community or nation.",
+          "usage_conditions": "Used as a collective or plural designation. The lexical discussion describes مَجُوس as either the plural of مَجُوسِيّ or a collective generic noun; in the Quran it occurs as the name of the Magians.",
+          "source_refs": [
+            "lane:entry:12275"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:17",
+          "word_location": "22:17:8",
+          "sense_ids": [
+            "mjs-majus-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mjs-cm-form2",
+      "headword_arabic": "مَجَّسَ",
+      "definition": "To make someone a Magian; to teach someone the religion of the Magians.",
+      "usage_conditions": "Form II causative verb; the two explanations describe the related effects of causing affiliation with, or instruction in, the Magian religion.",
+      "source_refs": [
+        "lane:entry:12273"
+      ]
+    },
+    {
+      "meaning_id": "mjs-cm-form5",
+      "headword_arabic": "تَمَجَّسَ",
+      "definition": "To become a Magian; to enter the religion of the Magians.",
+      "usage_conditions": "Form V verb expressing adoption of Magian affiliation or religion.",
+      "source_refs": [
+        "lane:entry:12274"
+      ]
+    },
+    {
+      "meaning_id": "mjs-cm-majusi",
+      "headword_arabic": "مَجُوسِيّ",
+      "definition": "An individual Magian; one belonging to the Magian religion.",
+      "usage_conditions": "Singular relational noun associated with the collective designation مَجُوس; the lexical description applies it as an epithet to a man.",
+      "source_refs": [
+        "lane:entry:12275"
+      ]
+    },
+    {
+      "meaning_id": "mjs-cm-majusiyya",
+      "headword_arabic": "مَجُوسِيَّة",
+      "definition": "The religion of the Magians; Magianism.",
+      "usage_conditions": "The term is also used in a reported theological comparison involving the Qadariyya and the Magians; that comparison does not create a separate denotation.",
+      "source_refs": [
+        "lane:entry:12276"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mjs:12273:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mjs-cm-form2"
+      ],
+      "note": "The Form II causative meanings are represented together."
+    },
+    {
+      "unit_id": "lane-unit:mjs:12274:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mjs-cm-form5"
+      ],
+      "note": "The Form V meaning of becoming Magian is represented."
+    },
+    {
+      "unit_id": "lane-unit:mjs:12275:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mjs-majus-s1",
+        "mjs-cm-majusi"
+      ],
+      "note": "The community designation and its singular relational term are represented; historical and etymological remarks add no separate lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:mjs:12276:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mjs-cm-majusiyya"
+      ],
+      "note": "The religion name is represented; the Qadariyya comparison is treated as contextual usage."
+    }
+  ],
+  "cautions": [
+    "QAC supplies a Proper noun analysis while also tagging the occurrence with a PASSIVE_PARTICIPLE nominal type; the public headword follows the established lexical designation مَجُوس rather than treating it as an ordinary passive participle.",
+    "Lane reports variant Persian etymologies and differing historical identifications concerning the name; these are etymological or historical notes, not additional lexical senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,539 @@
+{
+  "root": "Afk",
+  "arabic": "أفك",
+  "root_idea": {
+    "summary": "A single root principle of turning something over or diverting it from its proper direction.",
+    "development": "The root develops from physical or directional turning to diverting people from truth, falsehood in speech, impaired judgment, overturned settlements, and winds that depart from their normal quarters. These developments are kept distinct from the lexical meanings of individual Quranic forms.",
+    "source_refs": [
+      "maqayis:row:116",
+      "mufradat:row:44",
+      "lane:entry:6920",
+      "lane:entry:6934"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Afk:>ufika:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "afk_form_afaKa",
+      "reason": "Distinct Quran-attested Form I verb."
+    },
+    {
+      "form_group_id": "qac-form:Afk:<ifok:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "afk_form_ifk",
+      "reason": "Distinct Quran-attested noun."
+    },
+    {
+      "form_group_id": "qac-form:Afk:>af~aAk:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "afk_form_affak",
+      "reason": "Distinct Quran-attested intensive agent noun."
+    },
+    {
+      "form_group_id": "qac-form:Afk:mu&otafikap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "afk_form_mutafika",
+      "reason": "Distinct Quran-attested Form VIII active participle used substantivally."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "afk_form_afaKa",
+      "form_group_ids": [
+        "qac-form:Afk:>ufika:verb:I"
+      ],
+      "headword_arabic": "أَفَكَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 16,
+      "senses": [
+        {
+          "sense_id": "afk_v_turn",
+          "definition": "To turn or divert someone or something from its proper direction, especially from truth; in the passive, to be turned away or deluded.",
+          "usage_conditions": "The construction with عَنْ identifies what a person or thing is turned away from. Quranic usage includes diversion from truth in belief, judgment, or conduct, and an active attempt to turn people away from a deity or other object of commitment.",
+          "source_refs": [
+            "lane:entry:6920",
+            "mufradat:row:44"
+          ]
+        },
+        {
+          "sense_id": "afk_v_lie",
+          "definition": "To lie, utter falsehood, or falsify.",
+          "usage_conditions": "The active Quranic occurrences describe the production or assertion of falsehood; the sense is understood as speech turned away from truth rather than merely a change of direction.",
+          "source_refs": [
+            "lane:entry:6920",
+            "mufradat:row:44"
+          ]
+        },
+        {
+          "sense_id": "afk_v_weakjudgment",
+          "definition": "To be weak in intellect or judgment, so as to be turned away from the truth.",
+          "usage_conditions": "This is a reported interpretation of the passive expression in 51:9 and is not a blanket restriction on every passive occurrence of the verb.",
+          "source_refs": [
+            "lane:entry:6920"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "46:22",
+          "word_location": "46:22:3",
+          "sense_ids": [
+            "afk_v_turn"
+          ]
+        },
+        {
+          "verse_key": "7:117",
+          "word_location": "7:117:11",
+          "sense_ids": [
+            "afk_v_lie"
+          ]
+        },
+        {
+          "verse_key": "51:9",
+          "word_location": "51:9:4",
+          "sense_ids": [
+            "afk_v_weakjudgment"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "afk_form_ifk",
+      "form_group_ids": [
+        "qac-form:Afk:<ifok:nominal:-"
+      ],
+      "headword_arabic": "إِفْك",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "afk_n_falsehood",
+          "definition": "A lie or falsehood: something turned away from truth or what is proper.",
+          "usage_conditions": "In the construction of 37:86, the alleged deities may themselves be characterized as falsehood, or as objects produced by falsehood, rather than the noun referring only to a spoken lie. The noun also appears for a specifically circulated false allegation.",
+          "source_refs": [
+            "lane:entry:6924",
+            "mufradat:row:44"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:11",
+          "word_location": "24:11:4",
+          "sense_ids": [
+            "afk_n_falsehood"
+          ]
+        },
+        {
+          "verse_key": "37:86",
+          "word_location": "37:86:1",
+          "sense_ids": [
+            "afk_n_falsehood"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "afk_form_affak",
+      "form_group_ids": [
+        "qac-form:Afk:>af~aAk:nominal:-"
+      ],
+      "headword_arabic": "أَفَّاك",
+      "public_pos_label": "Intensive active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "afk_affak_habitual_liar",
+          "definition": "A habitual or gross liar; one who persistently utters falsehood.",
+          "usage_conditions": "The intensive pattern presents the person as characterized by repeated or emphatic lying, rather than by a single false statement.",
+          "source_refs": [
+            "lane:entry:6931",
+            "mufradat:row:44"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:222",
+          "word_location": "26:222:4",
+          "sense_ids": [
+            "afk_affak_habitual_liar"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "afk_form_mutafika",
+      "form_group_ids": [
+        "qac-form:Afk:mu&otafikap:nominal:-"
+      ],
+      "headword_arabic": "مُؤْتَفِكَة",
+      "public_pos_label": "Active participle · Form VIII",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "afk_mutafika_overturned_town",
+          "definition": "An overturned or subverted town or city, especially a settlement destroyed together with its inhabitants.",
+          "usage_conditions": "The Quranic plural refers to the overturned towns associated especially with the people of Lot. The public headword is the singular feminine citation form underlying the supplied inflected and plural occurrences.",
+          "source_refs": [
+            "lane:entry:6934",
+            "mufradat:row:44"
+          ]
+        },
+        {
+          "sense_id": "afk_mutafika_wind",
+          "definition": "A wind that departs from its normal quarter or blows from differing directions.",
+          "usage_conditions": "This is a distinct lexical use of the same active-participle form, explicitly connected in the Quran-focused discussion with the cited Quranic expression; the supplied QAC contextual glosses, however, render the listed occurrences as overturned towns.",
+          "source_refs": [
+            "lane:entry:6934",
+            "mufradat:row:44"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "53:53",
+          "word_location": "53:53:1",
+          "sense_ids": [
+            "afk_mutafika_overturned_town"
+          ]
+        },
+        {
+          "verse_key": "69:9",
+          "word_location": "69:9:5",
+          "sense_ids": [
+            "afk_mutafika_overturned_town"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "afk_cm_make_lie",
+      "headword_arabic": "أَفَكَ",
+      "definition": "To make someone lie or say what is untrue.",
+      "usage_conditions": "A transitive construction in which the subject causes another person to utter falsehood.",
+      "source_refs": [
+        "lane:entry:6920"
+      ]
+    },
+    {
+      "meaning_id": "afk_cm_barren_place",
+      "headword_arabic": "أَفَكَ",
+      "definition": "Of a place, to receive no rain and have no vegetation or herbage.",
+      "usage_conditions": "A rare tropical use describing a place or land rather than a person's speech or judgment.",
+      "source_refs": [
+        "lane:entry:6920"
+      ]
+    },
+    {
+      "meaning_id": "itafaka_cm_submerged",
+      "headword_arabic": "اِئْتَفَكَتْ",
+      "definition": "Of a land, district, or town, to be submerged together with its inhabitants.",
+      "usage_conditions": "A figurative extension of overturning or subversion, recorded of Basrah.",
+      "source_refs": [
+        "lane:entry:6923"
+      ]
+    },
+    {
+      "meaning_id": "itafaka_cm_drought",
+      "headword_arabic": "اِئْتَفَكَتْ",
+      "definition": "Of land, to be burned up or ruined by drought.",
+      "usage_conditions": "A tropical use referring to land affected by severe drought.",
+      "source_refs": [
+        "lane:entry:6923"
+      ]
+    },
+    {
+      "meaning_id": "afka_cm_punishment",
+      "headword_arabic": "افكة",
+      "definition": "A divine punishment in which a people's dwellings are overturned.",
+      "usage_conditions": "A rare noun reported in a tradition concerning the people of Lot; the source leaves its vocalization somewhat uncertain.",
+      "source_refs": [
+        "lane:entry:6925"
+      ]
+    },
+    {
+      "meaning_id": "afika_cm_drought_year",
+      "headword_arabic": "أَفِكَةٌ",
+      "definition": "A year of drought or sterility.",
+      "usage_conditions": "A feminine descriptive noun for a year lacking productive rain.",
+      "source_refs": [
+        "lane:entry:6926"
+      ]
+    },
+    {
+      "meaning_id": "afik_cm_perverted_judgment",
+      "headword_arabic": "أَفِيكٌ",
+      "definition": "One whose judgment or opinion has been turned from its proper course, especially through deceit or guile.",
+      "usage_conditions": "The meaning belongs to the derived personal noun أَفِيكٌ and is not simply another citation form of the Quranic verb.",
+      "source_refs": [
+        "lane:entry:6928",
+        "lane:entry:6933"
+      ]
+    },
+    {
+      "meaning_id": "afik_cm_weak_prudence",
+      "headword_arabic": "أَفِيكٌ",
+      "definition": "One lacking strength, ability, prudence, or practical resourcefulness.",
+      "usage_conditions": "A related personal description emphasizing weakness of intellect, judgment, or capacity.",
+      "source_refs": [
+        "lane:entry:6928",
+        "lane:entry:6933"
+      ]
+    },
+    {
+      "meaning_id": "ufayka_cm_calamity",
+      "headword_arabic": "أُفَيِّكَةٌ",
+      "definition": "A severe or distressing calamity.",
+      "usage_conditions": "A diminutive-form noun used with an augmentative or emphatic force in this lexical report.",
+      "source_refs": [
+        "lane:entry:6929"
+      ]
+    },
+    {
+      "meaning_id": "afik_cm_barren_land",
+      "headword_arabic": "أَفِيكٌ",
+      "definition": "A place or land not rained upon and lacking vegetation or herbage.",
+      "usage_conditions": "An adjectival use applied to a place or tract of land.",
+      "source_refs": [
+        "lane:entry:6933"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Afk:6920:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_v_turn",
+        "afk_v_lie",
+        "afk_v_weakjudgment"
+      ],
+      "note": "Turned away, deceived, false speech, and the reported weak-judgment interpretation are covered by the verb senses."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6920:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_v_lie"
+      ],
+      "note": "Lying or uttering falsehood."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6920:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_v_lie"
+      ],
+      "note": "Telling people what is false."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6920:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_cm_make_lie"
+      ],
+      "note": "Making another person lie."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6920:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_v_weakjudgment"
+      ],
+      "note": "Weakness in intellect and judgment is stated explicitly."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6920:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_cm_barren_place"
+      ],
+      "note": "Tropical use for a rainless, unproductive place."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6921:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6922:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6923:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_mutafika_overturned_town"
+      ],
+      "note": "Overturned or subverted land or town with its inhabitants."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6923:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "itafaka_cm_submerged"
+      ],
+      "note": "Figurative submersion of a land or town with its inhabitants."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6923:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "itafaka_cm_drought"
+      ],
+      "note": "Land ruined by drought."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6924:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_n_falsehood"
+      ],
+      "note": "Lie or falsehood."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6925:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afka_cm_punishment"
+      ],
+      "note": "Punishment involving overturned dwellings."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6926:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afika_cm_drought_year"
+      ],
+      "note": "Drought or sterile year."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6927:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to أَفَّاكٌ."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6928:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afik_cm_perverted_judgment"
+      ],
+      "note": "A person turned from judgment by deceit."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6928:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afik_cm_weak_prudence"
+      ],
+      "note": "Lack of strength, ability, prudence, or resourcefulness."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6928:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6929:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to إِفْكٌ."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6929:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ufayka_cm_calamity"
+      ],
+      "note": "Severe or distressing calamity."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6930:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to إِفْكٌ."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6931:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_affak_habitual_liar"
+      ],
+      "note": "Great or habitual liar."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6932:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to افكة."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6932:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the drought-year entry."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6933:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afik_cm_perverted_judgment"
+      ],
+      "note": "Afiik as turned from a thing or proper judgment."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6933:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afik_cm_weak_prudence"
+      ],
+      "note": "Weakness in intellect, judgment, or ability."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6933:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afik_cm_barren_land"
+      ],
+      "note": "A rainless, vegetationless place or land."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6934:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_mutafika_overturned_town"
+      ],
+      "note": "Quranic overturned cities associated with Lot's people."
+    },
+    {
+      "unit_id": "lane-unit:Afk:6934:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "afk_mutafika_wind"
+      ],
+      "note": "Winds from differing quarters or turning over the earth."
+    }
+  ],
+  "cautions": [
+    "The passive and active Quranic verb translations vary between being turned away, being deluded, and falsifying; these reflect related constructions and lexical branches rather than one uniform English equivalent.",
+    "Printed Arabic lexicon citations use historical conventions; Quran examples here use only the independently supplied QAC locations.",
+    "The wind interpretation of مُؤْتَفِكَة is lexically explicit, but the supplied contextual glosses identify the listed QAC occurrences as overturned towns, so no individual QAC occurrence is assigned to the wind sense.",
+    "The rare headword افكة is reported with uncertain vocalization in the lexical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The wind sense of مُؤْتَفِكَة is assigned to the public form from explicit lexical discussion, but the packet does not independently establish that any particular supplied QAC occurrence should be glossed as wind rather than overturned towns."
+  ]
+}

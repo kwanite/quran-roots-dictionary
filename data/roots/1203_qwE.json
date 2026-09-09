@@ -1,0 +1,111 @@
+{
+  "root": "qwE",
+  "arabic": "قوع",
+  "root_idea": {
+    "summary": "The principal semantic orientation is spreading or flattening in a place, yielding level, smooth, low ground.",
+    "development": "The spatial idea appears in قَاعٌ, a level plain, and in the reported قَوْعٌ, a flat surface for spreading dates. The mating term قَوْعٌ is explicitly treated as belonging to the inverted root قَعْو, while قُواعٌ ‘male rabbit’ is reported as an anomalous usage.",
+    "source_refs": [
+      "maqayis:row:3897"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qwE:qaAE:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-qwE-qa",
+      "reason": "Directly supported as the principal dictionary citation form for level or low plain."
+    },
+    {
+      "form_group_id": "qac-form:qwE:qiyEap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form-qwE-qa",
+      "reason": "No independent Lane or Mufradat entry for قِيعَة is supplied; its Quran occurrence is contextualized as a lowland and is subsumed under the directly evidenced level-ground branch of قَاعٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-qwE-qa",
+      "form_group_ids": [
+        "qac-form:qwE:qaAE:nominal:-",
+        "qac-form:qwE:qiyEap:nominal:-"
+      ],
+      "headword_arabic": "قَاعٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "form-qwE-qa-s1",
+          "definition": "A level, flat lowland or plain.",
+          "usage_conditions": "A terrain noun for land spread out at a low level and free of prominent elevations. The two supplied Quran occurrences express the level-ground or lowland sense.",
+          "source_refs": [
+            "lane:entry:21175"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:106",
+          "word_location": "20:106:2",
+          "sense_ids": [
+            "form-qwE-qa-s1"
+          ]
+        },
+        {
+          "verse_key": "24:39",
+          "word_location": "24:39:5",
+          "sense_ids": [
+            "form-qwE-qa-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-qwE-qa-barren",
+      "headword_arabic": "قَاعٌ",
+      "definition": "Plain or soft, level land that is low, free of mountains, and produces nothing.",
+      "usage_conditions": "A broader Classical description of the terrain noun; the supplied Quran evidence establishes the level or lowland aspect without independently requiring every listed descriptive property.",
+      "source_refs": [
+        "lane:entry:21175"
+      ]
+    },
+    {
+      "meaning_id": "cm-qwE-qaw-flat-date",
+      "headword_arabic": "قَوْعٌ",
+      "definition": "A flat surface on which dates are spread.",
+      "usage_conditions": "A reported Classical usage associated with the root's flat-surface branch and distinct in vocalization from the Quranic citation form قَاعٌ.",
+      "source_refs": [
+        "maqayis:row:3897"
+      ]
+    },
+    {
+      "meaning_id": "cm-qwE-quwa-rabbit",
+      "headword_arabic": "قُواعٌ",
+      "definition": "A male rabbit.",
+      "usage_conditions": "A rare usage reported as anomalous and outside the principal flat-place semantic branch.",
+      "source_refs": [
+        "maqayis:row:3897"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qwE:21175:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form-qwE-qa-s1",
+        "cm-qwE-qa-barren"
+      ],
+      "note": "Its level, low, mountain-free, and non-productive terrain content is represented across the Quranic sense and the broader Classical meaning."
+    }
+  ],
+  "cautions": [
+    "The packet contains no unique Mufradat discussion for either Quranic form; the Quran Foundation glosses provide context only.",
+    "The reported mating sense of قَوْعٌ is not assigned here because the lexical evidence explicitly derives it from the inverted root قَعْو rather than this root."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "قِيعَةٌ has no headword-specific Lane or Mufradat evidence in the packet; it is therefore merged under قَاعٌ rather than assigned an independent sense."
+  ]
+}

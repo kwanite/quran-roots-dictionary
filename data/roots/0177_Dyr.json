@@ -1,0 +1,78 @@
+{
+  "root": "Dyr",
+  "arabic": "ضير",
+  "root_idea": {
+    "summary": "The root centers on harm, injury, damage, and detriment.",
+    "development": "The noun ضَيْر denotes harm or detriment, while the related verb ضَارَهُ means to harm, injure, or damage, and is equated with ضَرَّهُ and أَضَرَّ بِهِ.",
+    "source_refs": [
+      "maqayis:row:2974",
+      "mufradat:row:883"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Dyr:Dayor:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Dyr:dayr",
+      "reason": "Quran-attested noun with an independently supported lexical meaning."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "Dyr:dayr",
+      "form_group_ids": [
+        "qac-form:Dyr:Dayor:nominal:-"
+      ],
+      "headword_arabic": "ضَيْر",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "Dyr:dayr:s1",
+          "definition": "Harm, injury, damage, or detriment.",
+          "usage_conditions": "Occurs in the Quranic construction لَا ضَيْرَ, meaning “there is no harm” or “no harm will befall.”",
+          "source_refs": [
+            "lane:entry:18168",
+            "mufradat:row:883"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:50",
+          "word_location": "26:50:3",
+          "sense_ids": [
+            "Dyr:dayr:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "Dyr:classical:verb-darah",
+      "headword_arabic": "ضَارَهُ",
+      "definition": "To harm, injure, hurt, damage, or do mischief to someone or something.",
+      "usage_conditions": "Form I verb; also reported with the imperfect يَضِيرُ or يَضُورُ and the verbal nouns ضَيْرٌ and ضَوْرٌ. Equivalent to ضَرَّهُ or أَضَرَّ بِهِ.",
+      "source_refs": [
+        "lane:entry:18168"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Dyr:18168:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Dyr:dayr:s1",
+        "Dyr:classical:verb-darah"
+      ],
+      "note": "Covers the noun ضَيْر for harm and the related verb ضَارَهُ meaning to harm or damage."
+    }
+  ],
+  "cautions": [
+    "The Quranic noun is attested once, in لَا ضَيْرَ. The cited evidence for آل عمران 3:120 concerns a related verb form and does not constitute a second occurrence of this noun."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

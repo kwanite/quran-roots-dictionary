@@ -1,0 +1,1386 @@
+{
+  "root": "fwq",
+  "arabic": "فوق",
+  "root_idea": {
+    "summary": "The root has two principal semantic orientations: elevation or being above, and return or recurrence after an interval.",
+    "development": "The elevation branch extends from physical position to superiority, excess, and domination. A related recurrent-return branch describes milk returning to the udder, intervals between milkings, recovery of health or awareness, and actions performed piecemeal.",
+    "source_refs": [
+      "maqayis:row:3677",
+      "mufradat:row:1144"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fwq:>afaAqa:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:fwq:afaqa",
+      "reason": "The Quranic Form IV verb is a distinct lexical item meaning to recover."
+    },
+    {
+      "form_group_id": "qac-form:fwq:fawaAq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:fwq:fuwaq",
+      "reason": "The Quranic interval noun is displayed with its attested vocalic variant."
+    },
+    {
+      "form_group_id": "qac-form:fwq:fawoq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:fwq:fawq",
+      "reason": "The nominal occurrences are displayed under the normalized citation form فَوْق."
+    },
+    {
+      "form_group_id": "qac-form:fwq:fawoq:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:fwq:fawq",
+      "reason": "The LOC-tagged occurrences are syntactic uses of the same lexical item فَوْق and are merged with the nominal form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:fwq:afaqa",
+      "form_group_ids": [
+        "qac-form:fwq:>afaAqa:verb:IV"
+      ],
+      "headword_arabic": "أَفَاقَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:fwq:afaqa:recover",
+          "definition": "To recover; to return to a sound state of body, mind, or awareness.",
+          "usage_conditions": "Used of recovery from illness, intoxication, a swoon, or loss of reason; the Quranic occurrence describes recovery after a state of overwhelming collapse.",
+          "source_refs": [
+            "lane:entry:35246",
+            "mufradat:row:1144"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:143",
+          "word_location": "7:143:34",
+          "sense_ids": [
+            "sense:fwq:afaqa:recover"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:fwq:fuwaq",
+      "form_group_ids": [
+        "qac-form:fwq:fawaAq:nominal:-"
+      ],
+      "headword_arabic": "فَوَاقٌ / فُوَاقٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:fwq:fuwaq:norespite",
+          "definition": "A pause, respite, or return; in the Quranic expression, no respite or recurrence is granted.",
+          "usage_conditions": "The verse is read with either فَوَاقٍ or فُوَاقٍ. Interpretations include no delay, no waiting, no pause comparable to the interval between milkings, and no return or repetition.",
+          "source_refs": [
+            "lane:entry:35263",
+            "mufradat:row:1144",
+            "maqayis:row:3677"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "38:15",
+          "word_location": "38:15:10",
+          "sense_ids": [
+            "sense:fwq:fuwaq:norespite"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:fwq:fawq",
+      "form_group_ids": [
+        "qac-form:fwq:fawoq:nominal:-",
+        "qac-form:fwq:fawoq:other:-"
+      ],
+      "headword_arabic": "فَوْقٌ",
+      "public_pos_label": "Noun · Adverbial preposition",
+      "verb_form": null,
+      "occurrence_count": 41,
+      "senses": [
+        {
+          "sense_id": "sense:fwq:fawq:above",
+          "definition": "Above, over, or on top of something; the upper side or direction relative to another.",
+          "usage_conditions": "Used spatially and directionally, including movement or arrival from an upper side. It may function as an adverb of place or as a preposition with a following noun or pronoun.",
+          "source_refs": [
+            "lane:entry:35252",
+            "mufradat:row:1144"
+          ]
+        },
+        {
+          "sense_id": "sense:fwq:fawq:beyond",
+          "definition": "More than, exceeding, or beyond another amount, number, or comparative measure.",
+          "usage_conditions": "Used in numerical and comparative expressions. In فَمَا فَوْقَهَا, the phrase denotes what lies beyond the comparison in scale; the reported interpretations concern greater or lesser size, not an independent general meaning “below.”",
+          "source_refs": [
+            "lane:entry:35252",
+            "mufradat:row:1144"
+          ]
+        },
+        {
+          "sense_id": "sense:fwq:fawq:superior",
+          "definition": "Higher or superior in rank, status, merit, or station.",
+          "usage_conditions": "Applies to worldly or eschatological standing and to one party being raised above another in degree.",
+          "source_refs": [
+            "lane:entry:35252",
+            "mufradat:row:1144"
+          ]
+        },
+        {
+          "sense_id": "sense:fwq:fawq:dominion",
+          "definition": "Over, in the sense of exercising mastery, power, or dominance over others.",
+          "usage_conditions": "Used in constructions describing authority, conquest, or prevailing power rather than merely physical location.",
+          "source_refs": [
+            "lane:entry:35252",
+            "mufradat:row:1144"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:63",
+          "word_location": "2:63:5",
+          "sense_ids": [
+            "sense:fwq:fawq:above"
+          ]
+        },
+        {
+          "verse_key": "33:10",
+          "word_location": "33:10:4",
+          "sense_ids": [
+            "sense:fwq:fawq:above"
+          ]
+        },
+        {
+          "verse_key": "4:11",
+          "word_location": "4:11:12",
+          "sense_ids": [
+            "sense:fwq:fawq:beyond"
+          ]
+        },
+        {
+          "verse_key": "2:26",
+          "word_location": "2:26:11",
+          "sense_ids": [
+            "sense:fwq:fawq:beyond"
+          ]
+        },
+        {
+          "verse_key": "3:55",
+          "word_location": "3:55:16",
+          "sense_ids": [
+            "sense:fwq:fawq:superior"
+          ]
+        },
+        {
+          "verse_key": "2:212",
+          "word_location": "2:212:12",
+          "sense_ids": [
+            "sense:fwq:fawq:superior"
+          ]
+        },
+        {
+          "verse_key": "7:127",
+          "word_location": "7:127:20",
+          "sense_ids": [
+            "sense:fwq:fawq:dominion"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:fwq:faq:excel",
+      "headword_arabic": "فَاقَ",
+      "definition": "To surpass, excel, or be higher than another; to overcome someone in an argument.",
+      "usage_conditions": "A Form I verb used of a person surpassing companions or others in eminence, dignity, nobility, or excellence.",
+      "source_refs": [
+        "lane:entry:35244"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faq:hiccup",
+      "headword_arabic": "فَاقَ",
+      "definition": "To hiccup, pant, or experience an involuntary rising or repeated sound of breath from the chest.",
+      "usage_conditions": "The related noun may denote the wind, sobbing, or short breathing itself.",
+      "source_refs": [
+        "lane:entry:35244"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faq:death",
+      "headword_arabic": "فَاقَ بِنَفْسِهِ",
+      "definition": "To be at the point of death or give up the spirit; in some reports, to die.",
+      "usage_conditions": "Also describes the gasping or breath-catching condition associated with dying.",
+      "source_refs": [
+        "lane:entry:35244"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faq:camelmilk",
+      "headword_arabic": "فَاقَتِ النَّاقَةُ",
+      "definition": "Of a she-camel, to have milk collected in the udder between two milkings or to reach the time for milking.",
+      "usage_conditions": "The related usage may describe her being brought back from pasture and left to rest so that the milk returns.",
+      "source_refs": [
+        "lane:entry:35244"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faq:break",
+      "headword_arabic": "فَاقَ",
+      "definition": "To break; of an arrow, for its notch to break, split, or crack.",
+      "usage_conditions": "The transitive use may mean to break a thing, especially the notch of an arrow.",
+      "source_refs": [
+        "lane:entry:35244"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fawwaq:excel",
+      "headword_arabic": "فَوَّقَ",
+      "definition": "To make or judge someone superior or excellent.",
+      "usage_conditions": "Causative Form II usage corresponding to making another person excel.",
+      "source_refs": [
+        "lane:entry:35245"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fawwaq:milk",
+      "headword_arabic": "فَوَّقَ",
+      "definition": "To give or draw out accumulated milk in successive portions.",
+      "usage_conditions": "Used of giving a young camel the milk collected between milkings; by extension, supplies may be given repeatedly rather than all at once.",
+      "source_refs": [
+        "lane:entry:35245"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fawwaq:arrow",
+      "headword_arabic": "فَوَّقَ السَّهْمَ",
+      "definition": "To make a notch in an arrow.",
+      "usage_conditions": "The object is an arrow being prepared for use with a bow.",
+      "source_refs": [
+        "lane:entry:35245"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fawwaq:vulva",
+      "headword_arabic": "فَوَّقَ المَرْأَةَ",
+      "definition": "In a reported figurative usage, to slit the vulva.",
+      "usage_conditions": "This is an attributed tropical usage and is kept separate from the arrow-notch meaning.",
+      "source_refs": [
+        "lane:entry:35245"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:ifaqa:rest",
+      "headword_arabic": "إِفَاقَةٌ",
+      "definition": "A rest or interval between two milkings.",
+      "usage_conditions": "A reported noun usage connected with the period in which milk is allowed to collect.",
+      "source_refs": [
+        "lane:entry:35246"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:ifaqa:camel",
+      "headword_arabic": "أَفَاقَتِ النَّاقَةُ",
+      "definition": "Of a she-camel, to rest or recover her milk after grazing, so that it returns to the udder.",
+      "usage_conditions": "Describes the camel being brought back and left until the milk is restored.",
+      "source_refs": [
+        "lane:entry:35246"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:ifaqa:herbage",
+      "headword_arabic": "أَفَاقَ الزَّمَانُ",
+      "definition": "For a season or time to become abundant in herbage after barrenness or drought.",
+      "usage_conditions": "A figurative Form IV usage of renewed abundance.",
+      "source_refs": [
+        "lane:entry:35246"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:ifaqa:arrow",
+      "headword_arabic": "أَفَاقَ السَّهْمَ",
+      "definition": "To put an arrow’s notch onto the bowstring in preparation for shooting.",
+      "usage_conditions": "The related form أَوْفَقَهُ is also reported for this action.",
+      "source_refs": [
+        "lane:entry:35246"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:tafawwaq:exalt",
+      "headword_arabic": "تَفَوَّقَ عَلَى",
+      "definition": "To exalt oneself above a people or party.",
+      "usage_conditions": "Reflexive Form V usage describing self-elevation over a group.",
+      "source_refs": [
+        "lane:entry:35247"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:tafawwaq:piecemeal",
+      "headword_arabic": "تَفَوَّقَ",
+      "definition": "To take, draw, or consume something in successive portions rather than all at once.",
+      "usage_conditions": "Used literally of a young camel drinking accumulated milk and of milking a camel repeatedly; also of drinking a beverage piecemeal and, figuratively, reciting or performing something in portions.",
+      "source_refs": [
+        "lane:entry:35247"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:infaqa:break",
+      "headword_arabic": "اِنْفَاقَ",
+      "definition": "To break or become broken.",
+      "usage_conditions": "A quasi-passive Form VII usage corresponding to breaking a thing.",
+      "source_refs": [
+        "lane:entry:35248"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:infaqa:lean",
+      "headword_arabic": "اِنْفَاقَ",
+      "definition": "Of a camel, to become lean or emaciated.",
+      "usage_conditions": "A specialized animal-related usage.",
+      "source_refs": [
+        "lane:entry:35248"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:infaqa:die",
+      "headword_arabic": "اِنْفَاقَ",
+      "definition": "To perish or die.",
+      "usage_conditions": "Reported as another Form VII usage, especially of a camel.",
+      "source_refs": [
+        "lane:entry:35248"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:iftaq:poverty",
+      "headword_arabic": "اِفْتَاقَ",
+      "definition": "To become poor, needy, or in want.",
+      "usage_conditions": "The source explicitly distinguishes this Form VIII verb from the unaugmented verb فَاقَ in this sense.",
+      "source_refs": [
+        "lane:entry:35249"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:iftaq:death",
+      "headword_arabic": "اِفْتَاقَ",
+      "definition": "To die while experiencing repeated hiccupping, gasping, or short catching of the breath.",
+      "usage_conditions": "A reported usage associated with the respiratory condition at death.",
+      "source_refs": [
+        "lane:entry:35249"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:istafwaq:delay",
+      "headword_arabic": "اِسْتَفْوَقَ",
+      "definition": "To delay milking a she-camel until her milk collects in the udder.",
+      "usage_conditions": "The imperative is used to tell someone not to milk the camel before the proper time.",
+      "source_refs": [
+        "lane:entry:35250"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:istafwaq:drink",
+      "headword_arabic": "اِسْتَفْوَقَ",
+      "definition": "To keep drinking without abstaining or without restricting drinking to an appointed time.",
+      "usage_conditions": "Reported especially of continuous drinking of wine or another beverage.",
+      "source_refs": [
+        "lane:entry:35250"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faq:bowl",
+      "headword_arabic": "فَاقٌ",
+      "definition": "A large bowl or dish filled with food.",
+      "usage_conditions": "A rare nominal usage identified with a large جَفْنَة.",
+      "source_refs": [
+        "lane:entry:35251"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faq:oil",
+      "headword_arabic": "فَاقٌ",
+      "definition": "Cooked olive oil; a variant explanation gives fresh olive oil.",
+      "usage_conditions": "The alternatives occur in the interpretation of a poetic expression and are reported as lexical explanations rather than a single settled identification.",
+      "source_refs": [
+        "lane:entry:35251"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faq:desert",
+      "headword_arabic": "فَاقٌ",
+      "definition": "The desert or a certain broad, open tract of land.",
+      "usage_conditions": "A geographical noun attributed to named authorities.",
+      "source_refs": [
+        "lane:entry:35251"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faq:bencomb",
+      "headword_arabic": "فَاقٌ",
+      "definition": "Oil of ben, or a comb.",
+      "usage_conditions": "These are alternative explanations reported for the word in a cited verse.",
+      "source_refs": [
+        "lane:entry:35251"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuq:arrow",
+      "headword_arabic": "فُوقٌ",
+      "definition": "The notch of an arrow where the bowstring is placed.",
+      "usage_conditions": "The noun may be masculine or feminine; its dual can denote the two cusps of the notch.",
+      "source_refs": [
+        "lane:entry:35253"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuq:share",
+      "headword_arabic": "فُوقٌ",
+      "definition": "A complete share, and figuratively a person’s share or degree of good fortune.",
+      "usage_conditions": "The metaphor derives from an arrow complete with its notch; related expressions can describe the largest religious share or an incomplete share of fortune.",
+      "source_refs": [
+        "lane:entry:35253"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuq:course",
+      "headword_arabic": "فُوقٌ",
+      "definition": "A course, way, or manner of action or speech.",
+      "usage_conditions": "Conventional expressions use the word for attending to one’s affair, entering a manner of speech, taking the first way, or returning to a former state of close communion.",
+      "source_refs": [
+        "lane:entry:35253"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuq:shot",
+      "headword_arabic": "فُوقٌ",
+      "definition": "A bout or discharge of shooting in one direction.",
+      "usage_conditions": "Used in the expression for shooting one round or one directional volley.",
+      "source_refs": [
+        "lane:entry:35253"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuq:deathidiom",
+      "headword_arabic": "فُوقٌ",
+      "definition": "In idioms, a first shot associated with dying, death, or departure without return.",
+      "usage_conditions": "Reported expressions describe a person as dying, being choked without recovery, or going away and not returning.",
+      "source_refs": [
+        "lane:entry:35253"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuq:vulva",
+      "headword_arabic": "فُوقٌ",
+      "definition": "The vulva or the rima of the vulva.",
+      "usage_conditions": "An anatomical metaphor comparing the opening with an arrow notch; the identification is attributed and not the ordinary meaning of the headword.",
+      "source_refs": [
+        "lane:entry:35253"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuq:ear",
+      "headword_arabic": "فُوقٌ",
+      "definition": "Possibly the front edge of the lobe of the ear.",
+      "usage_conditions": "The source marks this identification as tentative and raises the possibility of a transcription error.",
+      "source_refs": [
+        "lane:entry:35253"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuq:mouth",
+      "headword_arabic": "فُوقٌ",
+      "definition": "The opening of the mouth, or the extremity of the tongue.",
+      "usage_conditions": "A reported anatomical usage for an opening or extremity.",
+      "source_refs": [
+        "lane:entry:35253"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuq:glans",
+      "headword_arabic": "فُوقٌ",
+      "definition": "The uppermost part of the penis or the glans.",
+      "usage_conditions": "A reported anatomical usage.",
+      "source_refs": [
+        "lane:entry:35253"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faqa:poverty",
+      "headword_arabic": "فَاقَةٌ",
+      "definition": "Poverty, want, or need.",
+      "usage_conditions": "A noun used in expressions for a person who is in need; it has no unaugmented verb in this sense.",
+      "source_refs": [
+        "lane:entry:35256"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fiqa:milk",
+      "headword_arabic": "فِيقَةٌ",
+      "definition": "The milk collected in a she-camel’s udder between two milkings.",
+      "usage_conditions": "The word is reported as originally containing و and has several plural forms.",
+      "source_refs": [
+        "lane:entry:35260"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fiqa:cloudwater",
+      "headword_arabic": "أَفَاوِيقُ",
+      "definition": "Water gathered in clouds and then released as rain, especially in successive falls.",
+      "usage_conditions": "A plural usage connected with repeated accumulation and release.",
+      "source_refs": [
+        "lane:entry:35260"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fiqa:night",
+      "headword_arabic": "أَفَاوِيقُ",
+      "definition": "The greater part, or successive portions, of the night.",
+      "usage_conditions": "Used in expressions describing departure after much or several portions of the night have passed.",
+      "source_refs": [
+        "lane:entry:35260"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fiqa:forenoon",
+      "headword_arabic": "فِيقَةُ الصُّحَى",
+      "definition": "A period of the forenoon, either its early portion or the time when the sun has risen high.",
+      "usage_conditions": "The authorities differ over which portion of the ضحى is intended.",
+      "source_refs": [
+        "lane:entry:35260"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fawqani:relative",
+      "headword_arabic": "فَوْقَانِيٌّ",
+      "definition": "Upper, superior, or relating to what is above.",
+      "usage_conditions": "A relational adjective derived from فَوْق.",
+      "source_refs": [
+        "lane:entry:35261"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fawqani:garment",
+      "headword_arabic": "فَوْقَانِيَّةٌ",
+      "definition": "An upper garment worn over the clothing next to the body.",
+      "usage_conditions": "A later or dialectal clothing term, especially an ample long upper coat.",
+      "source_refs": [
+        "lane:entry:35261"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fawaq:milkreturn",
+      "headword_arabic": "فَوَاقٌ",
+      "definition": "The returning supply of milk after sucking or milking.",
+      "usage_conditions": "This vocalization denotes the return of milk, distinct from the interval noun used in the Quranic reading discussion.",
+      "source_refs": [
+        "lane:entry:35262"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:fuwaq:interval",
+      "headword_arabic": "فُوَاقٌ",
+      "definition": "The interval between two milkings or two suckings; by extension, a very short time or quick action.",
+      "usage_conditions": "The interval may be understood as the return of milk to the udder or the pause between grasping and releasing the udder. In a reported idiomatic interpretation it can mean proceeding quickly or distributing with unequal distinction.",
+      "source_refs": [
+        "lane:entry:35263"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faiq:superior",
+      "headword_arabic": "فَائِقٌ",
+      "definition": "Superior, excellent, surpassing, or choice and pure in its kind.",
+      "usage_conditions": "Used of people or things, including excellence in knowledge, wealth, beauty, or quality; the plural may refer to elegant scholars or orators.",
+      "source_refs": [
+        "lane:entry:35265"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:faiq:neck",
+      "headword_arabic": "فَائِقٌ",
+      "definition": "The junction of the neck with the head.",
+      "usage_conditions": "The anatomical term is associated with a long neck when the junction is high.",
+      "source_refs": [
+        "lane:entry:35265"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:afwaq:broken",
+      "headword_arabic": "أَفْوَقُ",
+      "definition": "An arrow whose notch is broken or absent.",
+      "usage_conditions": "Figuratively, an expression involving such an arrow denotes an incomplete share of good fortune or disappointment in attaining one’s aim.",
+      "source_refs": [
+        "lane:entry:35266"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:afwaq:glans",
+      "headword_arabic": "فَوْقَاءُ",
+      "definition": "A glans whose extremity tapers to a point.",
+      "usage_conditions": "A specialized anatomical adjective.",
+      "source_refs": [
+        "lane:entry:35266"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:mufiq:camel",
+      "headword_arabic": "مُفِيقٌ",
+      "definition": "A she-camel whose udder contains milk collected between two milkings.",
+      "usage_conditions": "The feminine form and plural forms are also reported.",
+      "source_refs": [
+        "lane:entry:35267"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:mufiq:poet",
+      "headword_arabic": "مُفِيقٌ",
+      "definition": "Of a poet, exceptionally or wonderfully eloquent.",
+      "usage_conditions": "A specialized usage equating the word with an admirable poetizer.",
+      "source_refs": [
+        "lane:entry:35267"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:mufawwaq:piecemeal",
+      "headword_arabic": "مُفَوَّقٌ",
+      "definition": "Food or drink taken little by little.",
+      "usage_conditions": "A passive participial adjective describing consumption in successive portions.",
+      "source_refs": [
+        "lane:entry:35268"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:mufawwaq:arrow",
+      "headword_arabic": "مُفَوَّقٌ",
+      "definition": "An arrow provided with a notch and having the bowstring placed in it for shooting.",
+      "usage_conditions": "The word can also be used figuratively in a blessing about being rightly prepared for generosity.",
+      "source_refs": [
+        "lane:entry:35268"
+      ]
+    },
+    {
+      "meaning_id": "cm:fwq:mustafiq:sleep",
+      "headword_arabic": "مُسْتَفِيقٌ",
+      "definition": "A person who sleeps much.",
+      "usage_conditions": "A rare and explicitly marked unusual usage.",
+      "source_refs": [
+        "lane:entry:35269"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fwq:35244:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faq:excel"
+      ],
+      "note": "Surpassing and overcoming are represented under فَاقَ."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35244:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faq:hiccup"
+      ],
+      "note": "Hiccupping and rising chest-wind are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35244:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:faq:hiccup"
+      ],
+      "note": "Panting is grouped with the respiratory usage."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35244:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faq:death"
+      ],
+      "note": "The death or gasping usage is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35244:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faq:camelmilk"
+      ],
+      "note": "The she-camel milk usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35244:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faq:break"
+      ],
+      "note": "Breaking an arrow notch is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35244:g4:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:faq:break"
+      ],
+      "note": "The transitive breaking usage is grouped with the arrow-break branch."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35244:g5:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Usage prohibition and grammatical lexicographic comment only."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35245:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fawwaq:excel"
+      ],
+      "note": "Causative superiority is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35245:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fawwaq:milk"
+      ],
+      "note": "Repeatedly giving accumulated milk is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35245:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fawwaq:milk"
+      ],
+      "note": "The figurative recurrent-giving extension is stated in the target conditions."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35245:g2:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35245:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fawwaq:arrow"
+      ],
+      "note": "Making an arrow notch is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35245:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fawwaq:vulva"
+      ],
+      "note": "The attributed anatomical tropical usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35245:g3:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35246:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:ifaqa:rest"
+      ],
+      "note": "Rest between milkings is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35246:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:ifaqa:camel"
+      ],
+      "note": "The she-camel recovery/rest usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35246:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:fwq:afaqa:recover"
+      ],
+      "note": "The Quran-attested recovery usage is represented under أَفَاقَ."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35246:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:ifaqa:herbage"
+      ],
+      "note": "Renewed seasonal abundance is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35246:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:ifaqa:arrow"
+      ],
+      "note": "Putting the arrow notch on the string is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35247:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:tafawwaq:exalt"
+      ],
+      "note": "Self-exaltation is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35247:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:tafawwaq:piecemeal"
+      ],
+      "note": "Repeated milk-taking is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35247:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:tafawwaq:piecemeal"
+      ],
+      "note": "Repeated camel milking is covered by the same successive-portions meaning."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35247:g2:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:tafawwaq:piecemeal"
+      ],
+      "note": "Piecemeal Quran recitation is covered as a figurative extension."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35247:g2:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:tafawwaq:piecemeal"
+      ],
+      "note": "Part-by-part drinking is covered by the successive-portions meaning."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35248:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:infaqa:break"
+      ],
+      "note": "Breaking or becoming broken is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35248:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35248:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:infaqa:lean"
+      ],
+      "note": "The camel-specific meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35248:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:infaqa:die"
+      ],
+      "note": "Perishing or dying is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35249:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:iftaq:poverty"
+      ],
+      "note": "Poverty and need are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35249:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:iftaq:death"
+      ],
+      "note": "Death with gasping is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35250:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form IV."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35250:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:istafwaq:delay"
+      ],
+      "note": "Delayed camel milking is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35250:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:istafwaq:drink"
+      ],
+      "note": "Continuous drinking is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35251:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faq:bowl"
+      ],
+      "note": "The large food bowl sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35251:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faq:oil"
+      ],
+      "note": "The cooked or possibly fresh olive-oil sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35251:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faq:desert"
+      ],
+      "note": "The desert or broad-land sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35251:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faq:bencomb"
+      ],
+      "note": "The reported ben-oil or comb alternatives are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35251:g5:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "The text corrects the form to a different two-kāf word."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35251:g6:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "The text corrects the bird name to a different two-kāf word."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35252:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:fwq:fawq:above",
+        "sense:fwq:fawq:beyond",
+        "sense:fwq:fawq:superior",
+        "sense:fwq:fawq:dominion"
+      ],
+      "note": "The unit contains the spatial, comparative, superiority, and dominance branches, including Quran-attested usages."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fuq:arrow"
+      ],
+      "note": "The arrow-notch meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fuq:share"
+      ],
+      "note": "The complete-share metaphor is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:fuq:course"
+      ],
+      "note": "The affair-directed idiom is covered under course or way."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fuq:shot"
+      ],
+      "note": "The shooting-bout meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fuq:deathidiom"
+      ],
+      "note": "The first-shot and dying idiom is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:fuq:course"
+      ],
+      "note": "The mode-of-speech usage is covered under manner or course."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub7",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:fuq:course"
+      ],
+      "note": "The first-way usage is covered under way or course."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub8",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:fuq:course"
+      ],
+      "note": "The return to close communion is stated as an idiomatic former state under course or way."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub8:occ2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:fuq:deathidiom"
+      ],
+      "note": "The no-return imprecation is covered under the death and no-return idioms."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub9",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:fuq:deathidiom"
+      ],
+      "note": "Departure without return is covered under the no-return idioms."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fuq:vulva"
+      ],
+      "note": "The vulva and rima usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fuq:ear"
+      ],
+      "note": "The tentative ear-edge sense is preserved."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fuq:mouth"
+      ],
+      "note": "The mouth-opening or tongue-extremity sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g1:sub13",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fuq:glans"
+      ],
+      "note": "The penile-upper-part sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "The text explicitly corrects the bird form to قُوقٌ."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35253:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35254:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35254:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35255:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35256:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faqa:poverty"
+      ],
+      "note": "Poverty, want, and need are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35257:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35257:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35258:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35259:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35260:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fiqa:milk"
+      ],
+      "note": "Collected udder milk is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35260:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35260:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fiqa:cloudwater"
+      ],
+      "note": "Accumulated cloud water and rain are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35260:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fiqa:night"
+      ],
+      "note": "The greater or successive portions of night are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35260:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fiqa:forenoon"
+      ],
+      "note": "The forenoon-period usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35261:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fawqani:relative"
+      ],
+      "note": "The relational adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35261:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fawqani:garment"
+      ],
+      "note": "The upper garment sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35262:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:fawaq:milkreturn"
+      ],
+      "note": "Returning milk is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35262:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35263:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35263:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35263:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35263:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:fwq:fuwaq:norespite",
+        "cm:fwq:fuwaq:interval"
+      ],
+      "note": "The Quranic no-respite interpretation and the broader interval/quickness usage are both represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35263:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35264:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35265:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faiq:superior"
+      ],
+      "note": "Superiority and excellence are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35265:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:faiq:neck"
+      ],
+      "note": "The neck-head junction is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35266:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35266:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:afwaq:broken"
+      ],
+      "note": "The broken or absent arrow-notch sense and its fortune idiom are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35266:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "The passage flags a likely transcription error and offers no secure lexical assignment."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35266:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:afwaq:glans"
+      ],
+      "note": "The tapered-glans sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35267:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:mufiq:camel"
+      ],
+      "note": "The milk-bearing she-camel sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35267:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:mufiq:poet"
+      ],
+      "note": "The excellent-poet sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35268:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:mufawwaq:piecemeal"
+      ],
+      "note": "Food or drink taken little by little is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35268:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:mufawwaq:arrow"
+      ],
+      "note": "The arrow-with-notch sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35268:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:mufawwaq:arrow"
+      ],
+      "note": "Having the string placed in the notch is covered by the prepared-arrow meaning."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35268:g2:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:fwq:mufawwaq:arrow"
+      ],
+      "note": "The figurative prepared-for-generosity usage is covered in the target conditions."
+    },
+    {
+      "unit_id": "lane-unit:fwq:35269:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fwq:mustafiq:sleep"
+      ],
+      "note": "The rare heavy-sleeper usage is represented."
+    }
+  ],
+  "cautions": [
+    "فَوَاقٌ and فُوَاقٌ are reported as alternative Quranic readings at 38:15; their interpretations overlap but include slightly different emphases on delay, return, and the interval between milkings.",
+    "The reported anatomical sense of فُوقٌ referring to the ear edge is explicitly tentative, and the source itself raises the possibility of a transcription error.",
+    "Several rare Classical meanings are attributed to particular authorities or marked as tropical; they are retained as Classical evidence but are not treated as Quranic senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

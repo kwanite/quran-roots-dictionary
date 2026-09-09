@@ -1,0 +1,324 @@
+{
+  "root": "Ady",
+  "arabic": "أدي",
+  "root_idea": {
+    "summary": "The root centers on causing something to reach another thing, or on its reaching it by itself.",
+    "development": "From this relation of reaching and causing to reach develop the senses of delivering an entrusted object, discharging a due, fulfilling an obligation, and the arrival of information. The Form II verb is causative, while Form V describes information reaching someone.",
+    "source_refs": [
+      "maqayis:row:55",
+      "lane:entry:6410",
+      "lane:entry:6412"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Ady:yu&ad~i:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ady-ii",
+      "reason": "Displayed under the normalized Form II perfect citation form أَدَّى rather than the imperfect QAC lemma يُؤَدِّ."
+    },
+    {
+      "form_group_id": "qac-form:Ady:>adaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ady-ada",
+      "reason": "Displayed as the verbal noun أَدَاءٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "ady-ii",
+      "form_group_ids": [
+        "qac-form:Ady:yu&ad~i:verb:II"
+      ],
+      "headword_arabic": "أَدَّى",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "ady-ii-s1",
+          "definition": "To deliver, convey, or hand over something to its intended recipient or destination; to render an entrusted thing.",
+          "usage_conditions": "Used transitively for bringing an object to its recipient, giving it up, or surrendering it. The object may be a trust, a possession, or persons being handed over.",
+          "source_refs": [
+            "lane:entry:6410",
+            "mufradat:row:23"
+          ]
+        },
+        {
+          "sense_id": "ady-ii-s2",
+          "definition": "To discharge or render a due, right, or obligation; to pay what is owed and thereby acquit oneself of a liability.",
+          "usage_conditions": "May refer to payment of a debt, bloodwit, tax, or other liability, and more broadly to rendering what one is responsible for. In Quranic usage, the obligation may be represented by an entrusted right or trust rather than money.",
+          "source_refs": [
+            "lane:entry:6410",
+            "mufradat:row:23"
+          ]
+        },
+        {
+          "sense_id": "ady-ii-s3",
+          "definition": "To perform, fulfill, or accomplish what is incumbent.",
+          "usage_conditions": "Used with an obligation, command, religious rite, or other task that is to be carried out. This is a fulfillment sense rather than the physical transfer of an object.",
+          "source_refs": [
+            "lane:entry:6410"
+          ]
+        },
+        {
+          "sense_id": "ady-ii-s4",
+          "definition": "To give ear or listen to someone.",
+          "usage_conditions": "An alternative interpretation of the Quranic construction أَدُّوا إِلَيَّ in which the verb is understood with an implicit object such as “your hearing”; this is an idiomatic or interpretive use, not the ordinary delivery sense.",
+          "source_refs": [
+            "lane:entry:6410"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:283",
+          "word_location": "2:283:14",
+          "sense_ids": [
+            "ady-ii-s2"
+          ]
+        },
+        {
+          "verse_key": "3:75",
+          "word_location": "3:75:8",
+          "sense_ids": [
+            "ady-ii-s1"
+          ]
+        },
+        {
+          "verse_key": "4:58",
+          "word_location": "4:58:5",
+          "sense_ids": [
+            "ady-ii-s1",
+            "ady-ii-s2"
+          ]
+        },
+        {
+          "verse_key": "44:18",
+          "word_location": "44:18:2",
+          "sense_ids": [
+            "ady-ii-s1",
+            "ady-ii-s3",
+            "ady-ii-s4"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "ady-ada",
+      "form_group_ids": [
+        "qac-form:Ady:>adaA^':nominal:-"
+      ],
+      "headword_arabic": "أَدَاءٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "ady-ada-s1",
+          "definition": "Payment or discharge of a due or right.",
+          "usage_conditions": "In the Quranic legal context, it denotes rendering the required compensation or payment honorably to the party entitled to it.",
+          "source_refs": [
+            "lane:entry:6414",
+            "mufradat:row:23"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:178",
+          "word_location": "2:178:23",
+          "sense_ids": [
+            "ady-ada-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "ady-ii-class-01",
+      "headword_arabic": "أَدَّى",
+      "definition": "To lead or conduce to a consequence, result, or state.",
+      "usage_conditions": "Especially used in the construction أَدَّى إِلَى, “it led or brought about such a thing.”",
+      "source_refs": [
+        "lane:entry:6410"
+      ]
+    },
+    {
+      "meaning_id": "ady-v-class-01",
+      "headword_arabic": "تَأَدَّى",
+      "definition": "For information or news to reach someone.",
+      "usage_conditions": "An intransitive Form V construction, as in تَأَدَّى إِلَيْهِ الْخَبَرُ, “the news reached him.”",
+      "source_refs": [
+        "lane:entry:6412"
+      ]
+    },
+    {
+      "meaning_id": "ady-x-class-01",
+      "headword_arabic": "اسْتَأْدَى",
+      "definition": "To demand or seek property from someone and obtain, extract, take, or receive it from him.",
+      "usage_conditions": "Used for pursuing a property claim or pressing someone to provide what is sought.",
+      "source_refs": [
+        "lane:entry:6413"
+      ]
+    },
+    {
+      "meaning_id": "ady-ada-class-01",
+      "headword_arabic": "أَدَاءٌ",
+      "definition": "The act of causing something to reach its recipient, including delivery, handover, or surrender.",
+      "usage_conditions": "A nominal use of the verbal noun distinct from the Quranic occurrence specifically referring to payment or discharge.",
+      "source_refs": [
+        "lane:entry:6414"
+      ]
+    },
+    {
+      "meaning_id": "ady-ada-class-02",
+      "headword_arabic": "أَدَاءٌ",
+      "definition": "Performance, fulfillment, or accomplishment of an obligation, task, or act.",
+      "usage_conditions": "Used for carrying out what is incumbent, including the completion of an assigned or prescribed action.",
+      "source_refs": [
+        "lane:entry:6414"
+      ]
+    },
+    {
+      "meaning_id": "ady-ada-class-03",
+      "headword_arabic": "أَدَاءٌ",
+      "definition": "The manner or act of pronouncing and uttering letters.",
+      "usage_conditions": "A specialized usage concerning articulation and pronunciation.",
+      "source_refs": [
+        "lane:entry:6414"
+      ]
+    },
+    {
+      "meaning_id": "ady-ada-class-04",
+      "headword_arabic": "أَدَاءٌ",
+      "definition": "Performance of a religious service at its appointed time.",
+      "usage_conditions": "A legal technical term contrasted with قَضَاءٌ, performance after the appointed time.",
+      "source_refs": [
+        "lane:entry:6414"
+      ]
+    },
+    {
+      "meaning_id": "ady-aada-class-01",
+      "headword_arabic": "آدَى",
+      "definition": "More or better disposed to deliver, surrender, or hand over what has been entrusted.",
+      "usage_conditions": "A comparative or superlative adjective used with لِـ, as in being more disposed to deliver a trust than another person.",
+      "source_refs": [
+        "lane:entry:6416"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Ady:6410:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ady-ii-s1",
+        "ady-ii-s2",
+        "ady-ii-s3",
+        "ady-ii-s4"
+      ],
+      "note": "Covers delivery and surrender, discharge of dues, fulfillment, and the Quranic interpretive sense “listen.”"
+    },
+    {
+      "unit_id": "lane-unit:Ady:6410:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ady-ii-class-01"
+      ],
+      "note": "Covers the أدّى إلى resultative construction."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6411:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article without a lexical definition in this unit."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6412:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ady-v-class-01"
+      ],
+      "note": "Covers information reaching someone in Form V."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6412:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6413:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ady-x-class-01"
+      ],
+      "note": "Covers demanding and obtaining property in Form X."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6413:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6414:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ady-ada-s1",
+        "ady-ada-class-01",
+        "ady-ada-class-02"
+      ],
+      "note": "Covers the verbal noun’s payment, delivery, surrender, and fulfillment branches."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6414:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ady-ada-class-03"
+      ],
+      "note": "Covers the pronunciation use of أداء."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6414:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ady-ada-class-04"
+      ],
+      "note": "Covers the legal technical use for timely religious performance."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6415:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article without a lexical definition in this unit."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6416:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ady-aada-class-01"
+      ],
+      "note": "Covers the comparative use آدَى لِلْأَمَانَةِ."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6416:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ady:6417:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article without a lexical definition in this unit."
+    }
+  ],
+  "cautions": [
+    "The discussion of أَدُّوا إِلَيَّ in 44:18 presents delivery, fulfillment, and listening as alternative interpretations; the listening sense is therefore construction-specific and interpretive.",
+    "The public verb headword أَدَّى is the normalized perfect citation form for the QAC group whose occurrences are imperfect or imperative forms. The broader Classical uses of the noun أَدَاءٌ are kept separate from its Quranic payment sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

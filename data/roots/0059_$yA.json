@@ -1,0 +1,504 @@
+{
+  "root": "$yA",
+  "arabic": "شيأ",
+  "root_idea": {
+    "summary": "The root's documented semantic field centers on willing or bringing something about, with شَيْءٌ understood as what may be known, willed, or brought into existence. It also preserves a separate lexical branch for making a face or bodily form ugly.",
+    "development": "The noun شَيْءٌ is analyzed as related to شَاءَ and can thereby denote what is willed or caused to exist, while also functioning as the broadest term for an entity or matter. Independent derived branches concern inciting someone, compelling someone, appeasing anger, and rendering a form unsound or ugly.",
+    "source_refs": [
+      "maqayis:row:2733",
+      "mufradat:row:801",
+      "lane:entry:39701",
+      "lane:entry:39702",
+      "lane:entry:39711"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$yA:$aA^'a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-shaa-verb-I",
+      "reason": "Independent Quran-attested Form I verb, normalized to the classical perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:$yA:$aYo':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-shay-noun",
+      "reason": "Independent Quran-attested nominal headword, normalized to the classical citation form شَيْءٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-shaa-verb-I",
+      "form_group_ids": [
+        "qac-form:$yA:$aA^'a:verb:I"
+      ],
+      "headword_arabic": "شَاءَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 236,
+      "senses": [
+        {
+          "sense_id": "form-shaa-v1-s1",
+          "definition": "To will, wish, desire, or intend something.",
+          "usage_conditions": "Used of human or divine willing. The subject, person, number, tense, and voice vary throughout the Quran without creating separate lexical senses.",
+          "source_refs": [
+            "lane:entry:39701",
+            "mufradat:row:801"
+          ]
+        },
+        {
+          "sense_id": "form-shaa-v1-s2",
+          "definition": "To will something effectively, determining that it occur or come into existence.",
+          "usage_conditions": "Especially in statements concerning God's will, the willing is presented as effectual and connected with the realization of what is willed. Human willing may instead express desire or intention without guaranteeing realization; the lexical tradition also records ordinary overlap with إرادة.",
+          "source_refs": [
+            "lane:entry:39701",
+            "mufradat:row:801"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:29",
+          "word_location": "18:29:6",
+          "sense_ids": [
+            "form-shaa-v1-s1"
+          ]
+        },
+        {
+          "verse_key": "16:9",
+          "word_location": "16:9:8",
+          "sense_ids": [
+            "form-shaa-v1-s2"
+          ]
+        },
+        {
+          "verse_key": "2:20",
+          "word_location": "2:20:15",
+          "sense_ids": [
+            "form-shaa-v1-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-shay-noun",
+      "form_group_ids": [
+        "qac-form:$yA:$aYo':nominal:-"
+      ],
+      "headword_arabic": "شَيْءٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 283,
+      "senses": [
+        {
+          "sense_id": "form-shay-n1-s1",
+          "definition": "A thing, entity, matter, or anything that can be known or have something predicated of it.",
+          "usage_conditions": "A very broad generic noun covering concrete or abstract referents. In Quranic usage it can occur in singular form with a distributive or generic sense, including 'any one or more'; in the expression أَيُّ شَيْءٍ أَكْبَرُ شَهَادَةً, the thing is construed as the bearer of the stated predicate. The extension of the term to nonexistent objects is a recorded but disputed theoretical analysis.",
+          "source_refs": [
+            "lane:entry:39705",
+            "mufradat:row:801"
+          ]
+        },
+        {
+          "sense_id": "form-shay-n1-s2",
+          "definition": "What is willed, intended, brought into being, or caused to exist; a willed or created thing.",
+          "usage_conditions": "The noun may function as a verbal noun in the sense of a passive participle, especially in Quranic statements about universal creation or what is brought into existence. This use presents the referent as the object or result of willing or making, without restricting it to a previously existing material object.",
+          "source_refs": [
+            "lane:entry:39705",
+            "mufradat:row:801"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:101",
+          "word_location": "11:101:16",
+          "sense_ids": [
+            "form-shay-n1-s1"
+          ]
+        },
+        {
+          "verse_key": "13:16",
+          "word_location": "13:16:42",
+          "sense_ids": [
+            "form-shay-n1-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-shayya-incite",
+      "headword_arabic": "شَيَّأَ",
+      "definition": "To incite or induce someone to undertake an affair.",
+      "usage_conditions": "Form II transitive usage, commonly construed with the person induced and the matter undertaken.",
+      "source_refs": [
+        "lane:entry:39702"
+      ]
+    },
+    {
+      "meaning_id": "cm-shayya-uglify",
+      "headword_arabic": "شَيَّأَ",
+      "definition": "To render someone's face or bodily make foul, unseemly, or ugly.",
+      "usage_conditions": "A Form II causative usage applied to a person's face or physical make.",
+      "source_refs": [
+        "lane:entry:39702"
+      ]
+    },
+    {
+      "meaning_id": "cm-ashaa-compel",
+      "headword_arabic": "أَشَاءَهُ",
+      "definition": "To compel, constrain, or necessitate someone to have recourse to something.",
+      "usage_conditions": "Form IV dialectal usage, identified as a dialect variant of أَجَاءَهُ and associated with the speech of Temeem.",
+      "source_refs": [
+        "lane:entry:39703"
+      ]
+    },
+    {
+      "meaning_id": "cm-tashayaa-appease",
+      "headword_arabic": "تَشَيَّأَ",
+      "definition": "For anger to become appeased.",
+      "usage_conditions": "Form V intransitive usage, said of a man.",
+      "source_refs": [
+        "lane:entry:39704"
+      ]
+    },
+    {
+      "meaning_id": "cm-shay-nothing",
+      "headword_arabic": "شَيْءٌ",
+      "definition": "Nothing; for nothing.",
+      "usage_conditions": "A conventional negative construction, especially لَا شَيْئًا, لِلَا شَيْءٍ, or لَا شَيْءٌ, whose interpretation is supplied by the surrounding syntax.",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-laysa-bishay",
+      "headword_arabic": "لَيْسَ بِشَيْءٍ",
+      "definition": "To be of no account, weight, or worth; not to be worthy of notice.",
+      "usage_conditions": "Fixed negative idiom rather than a separate ordinary noun sense.",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-no-concern",
+      "headword_arabic": "لَيْسَ مِنَ الأَمْرِ فِي شَيْءٍ",
+      "definition": "To have no concern or involvement with an affair.",
+      "usage_conditions": "Conventional phrase governing the relation of a person to an affair.",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-shay-somewhat",
+      "headword_arabic": "شَيْءٌ",
+      "definition": "Somewhat; to some degree.",
+      "usage_conditions": "Adverbial or comparative use, as in فِيهِ شَيْءٌ مِنَ الطُّولِ or هُوَ أَحْسَنُ مِنْكَ شَيْئًا.",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-ma-aghfalahu",
+      "headword_arabic": "مَا أَغْفَلَهُ عَنْكَ شَيْئًا",
+      "definition": "A disputed idiomatic expression interpreted as dismissing doubt about someone's being occupied with a matter.",
+      "usage_conditions": "The grammatical and semantic analysis is explicitly uncertain; شيئا has been explained either as an accusative verbal noun or as a specificative element.",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-shayan-fashayan",
+      "headword_arabic": "شَيْئًا فَشَيْئًا",
+      "definition": "Thing by thing; bit by bit, gradually, or piecemeal.",
+      "usage_conditions": "Reduplicated sequential construction expressing progressive small increments.",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-shay-anatomical",
+      "headword_arabic": "شَيْءٌ",
+      "definition": "The penis of a man.",
+      "usage_conditions": "A rare anatomical application marked in the evidence as an assumed tropical usage.",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-shay-algebra",
+      "headword_arabic": "شَيْءٌ",
+      "definition": "In technical mathematics, a square root or an unknown number multiplied by itself.",
+      "usage_conditions": "Technical usage in algebra and related mathematical terminology, distinct from the ordinary noun.",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-shay-water",
+      "headword_arabic": "شَيْءٌ",
+      "definition": "Water.",
+      "usage_conditions": "A rare sense attributed to Lth and explicitly disputed by AM; retained as a reported Classical usage rather than a secure ordinary meaning.",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-ya-shay-exclamation",
+      "headword_arabic": "يَا شَيْءَ",
+      "definition": "An exclamation of regret, wonder, or admiration: 'Oh!' or 'O my wonder!'",
+      "usage_conditions": "Occurs in the exclamatory construction يَا شَيْءَ مَا لِي and related variants; the same construction may express admiration such as 'How good or beautiful this is.'",
+      "source_refs": [
+        "lane:entry:39705"
+      ]
+    },
+    {
+      "meaning_id": "cm-shia-will-noun",
+      "headword_arabic": "شِيْئَةٌ",
+      "definition": "Will, wish, or desire.",
+      "usage_conditions": "A substantive derived from شَاءَ; the related form مَشِيْئَةٌ is used in the same sense.",
+      "source_refs": [
+        "lane:entry:39706"
+      ]
+    },
+    {
+      "meaning_id": "cm-mushayya-illformed",
+      "headword_arabic": "مُشَيَّأٌ",
+      "definition": "Incongruous, unsound, foul, or ugly in bodily make or formation.",
+      "usage_conditions": "The evidence also applies the word specifically to a child born preposterously with the legs emerging before the arms.",
+      "source_refs": [
+        "lane:entry:39711"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$yA:39701:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form-shaa-v1-s1",
+        "form-shaa-v1-s2"
+      ],
+      "note": "Form I willing, wishing, desiring, and the effective-will distinction are represented."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39701:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39702:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shayya-incite"
+      ],
+      "note": "Form II inciting or inducing usage."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39702:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shayya-uglify"
+      ],
+      "note": "Form II causative uglifying usage."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39703:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ashaa-compel"
+      ],
+      "note": "Form IV compelling or necessitating usage."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39704:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tashayaa-appease"
+      ],
+      "note": "Form V appeasement usage."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form-shay-n1-s1",
+        "form-shay-n1-s2"
+      ],
+      "note": "Core noun meanings, existence-related analysis, and Quran-attested uses."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shay-nothing"
+      ],
+      "note": "Negative construction meaning 'nothing'."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-laysa-bishay"
+      ],
+      "note": "Fixed idiom meaning of no account."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-no-concern"
+      ],
+      "note": "Fixed idiom expressing lack of concern with an affair."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shay-somewhat"
+      ],
+      "note": "Adverbial degree sense."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-shay-somewhat"
+      ],
+      "note": "Comparative example of the same degree sense."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ma-aghfalahu"
+      ],
+      "note": "Disputed idiomatic and grammatical construction retained explicitly."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shayan-fashayan"
+      ],
+      "note": "Sequential reduplicated construction."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub9",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Orthographic and contraction information only."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub10",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "form-shay-n1-s1"
+      ],
+      "note": "Quranic singular generic or distributive use of the ordinary noun."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shay-anatomical"
+      ],
+      "note": "Rare anatomical application."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shay-algebra"
+      ],
+      "note": "Technical mathematical usage."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shay-water"
+      ],
+      "note": "Reported but disputed water sense."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ya-shay-exclamation"
+      ],
+      "note": "Exclamatory usage expressing regret or wonder."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39705:g3:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-ya-shay-exclamation"
+      ],
+      "note": "Admiring variant of the same exclamation."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39706:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shia-will-noun"
+      ],
+      "note": "Substantive meaning will, wish, or desire."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39707:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to diminutive and plural discussion under شَيْءٌ."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39708:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article without an independent lexical statement here."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39709:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive pointer only."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39710:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to شِيْئَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39710:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer back to شَيْءٌ."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39711:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mushayya-illformed"
+      ],
+      "note": "Ill-formed, foul, or ugly bodily make."
+    },
+    {
+      "unit_id": "lane-unit:$yA:39711:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-mushayya-illformed"
+      ],
+      "note": "Specific feet-first birth case within abnormal formation."
+    }
+  ],
+  "cautions": [
+    "The effective-will sense is especially associated with divine willing; human willing may denote desire or intention without implying realization, and the evidence records theological disagreement about how مشيئة relates to إرادة.",
+    "The noun's extension to nonexistent objects is reported as a disputed theoretical analysis, not an unqualified Quranic definition.",
+    "The reported water sense is attributed to Lth but rejected or not recognized by AM; it is retained only as a qualified Classical report. "
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

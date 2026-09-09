@@ -1,0 +1,204 @@
+{
+  "root": "jby",
+  "arabic": "جبي",
+  "root_idea": {
+    "summary": "The root centers on gathering something together, especially collecting it into a receptacle or toward a destination.",
+    "development": "The lexical evidence develops from gathering water in a basin to collecting revenue, while Form VIII extends the gathering notion into selecting or singling out. The Quranic noun preserves the concrete receptacle sense.",
+    "source_refs": [
+      "maqayis:row:1077",
+      "mufradat:row:227"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jby:yujobaY`^:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-jby-jaba",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jby:{jotabaY`:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-jby-ijtaba",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jby:jawaAb2:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-jby-jabiya",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf-jby-jaba",
+      "form_group_ids": [
+        "qac-form:jby:yujobaY`^:verb:I"
+      ],
+      "headword_arabic": "جَبَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-jby-jaba-01",
+          "definition": "To be gathered or brought together to a place or destination.",
+          "usage_conditions": "The Quranic occurrence is the passive imperfect يُجْبَىٰ and describes fruits being brought toward a specified place, emphasizing their collection there.",
+          "source_refs": [
+            "mufradat:row:227"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:57",
+          "word_location": "28:57:14",
+          "sense_ids": [
+            "sense-jby-jaba-01"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf-jby-ijtaba",
+      "form_group_ids": [
+        "qac-form:jby:{jotabaY`:verb:VIII"
+      ],
+      "headword_arabic": "اِجْتَبَى",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "sense-jby-ijtaba-01",
+          "definition": "To select or choose someone or a group, singling them out for favor.",
+          "usage_conditions": "In Quranic usage this commonly describes divine selection, through which the chosen receive special favor, guidance, and blessings without prior effort; the form retains the notion of gathering by selection.",
+          "source_refs": [
+            "mufradat:row:227"
+          ]
+        },
+        {
+          "sense_id": "sense-jby-ijtaba-02",
+          "definition": "To devise, contrive, or fabricate something by putting it together.",
+          "usage_conditions": "In the Quranic usage at 7:203, the object is an alleged sign or message; the expression conveys the insinuation that it was assembled or invented rather than divinely given.",
+          "source_refs": [
+            "mufradat:row:227"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:6",
+          "word_location": "12:6:2",
+          "sense_ids": [
+            "sense-jby-ijtaba-01"
+          ]
+        },
+        {
+          "verse_key": "22:78",
+          "word_location": "22:78:7",
+          "sense_ids": [
+            "sense-jby-ijtaba-01"
+          ]
+        },
+        {
+          "verse_key": "7:203",
+          "word_location": "7:203:7",
+          "sense_ids": [
+            "sense-jby-ijtaba-02"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf-jby-jabiya",
+      "form_group_ids": [
+        "qac-form:jby:jawaAb2:nominal:-"
+      ],
+      "headword_arabic": "جَابِيَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-jby-jabiya-01",
+          "definition": "A water-collecting basin, vessel, or reservoir.",
+          "usage_conditions": "The supplied Quran occurrence is the plural جَوَابِ, understood as a plural of جَابِيَة, in a simile comparing serving basins to such water-collecting receptacles.",
+          "source_refs": [
+            "mufradat:row:227"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "34:13",
+          "word_location": "34:13:9",
+          "sense_ids": [
+            "sense-jby-jabiya-01"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning-jby-water-collection",
+      "headword_arabic": "جَبَى",
+      "definition": "To collect water in a basin or other receptacle.",
+      "usage_conditions": "An active Form I use describing water gathered into a container.",
+      "source_refs": [
+        "mufradat:row:227"
+      ]
+    },
+    {
+      "meaning_id": "meaning-jby-revenue-collection",
+      "headword_arabic": "جَبَى",
+      "definition": "To collect a tax, tribute, or other revenue.",
+      "usage_conditions": "A figurative extension of gathering, applied to the collection of a levy or public revenue.",
+      "source_refs": [
+        "mufradat:row:227"
+      ]
+    },
+    {
+      "meaning_id": "meaning-jby-well-surroundings",
+      "headword_arabic": "جَبَا",
+      "definition": "The area surrounding a well.",
+      "usage_conditions": "A nominal use distinct from the water collected in the well or basin.",
+      "source_refs": [
+        "maqayis:row:1077"
+      ]
+    },
+    {
+      "meaning_id": "meaning-jby-collected-water",
+      "headword_arabic": "جِبَا",
+      "definition": "Water collected in a basin or other receptacle.",
+      "usage_conditions": "Also reported with the forms جِبْوَة and جِبَاوَة.",
+      "source_refs": [
+        "maqayis:row:1077"
+      ]
+    },
+    {
+      "meaning_id": "meaning-jby-prostration",
+      "headword_arabic": "جَبَّى",
+      "definition": "To prostrate oneself.",
+      "usage_conditions": "A distinct doubled Form II usage.",
+      "source_refs": [
+        "maqayis:row:1077"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jby:45973:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit referring to جبو; it contains no lexical statement for this root."
+    }
+  ],
+  "cautions": [
+    "The Form I public headword is normalized to the perfect جَبَى although the supplied Quran occurrence is the passive imperfect يُجْبَىٰ.",
+    "The nominal public headword is normalized to singular جَابِيَة; the supplied Quran occurrence is the plural جَوَابِ.",
+    "The supplied Lane primary material is only a cross-reference pointer, so no additional Lane lexical branch can be extracted."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

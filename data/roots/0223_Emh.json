@@ -1,0 +1,193 @@
+{
+  "root": "Emh",
+  "arabic": "عمه",
+  "root_idea": {
+    "summary": "The root centers on confusion, hesitation, and lack of guidance.",
+    "development": "The evidence presents a movement from not knowing where to turn and repeatedly wandering to mental or spiritual perplexity; related descriptions extend the lack of guidance to land without way-signs.",
+    "source_refs": [
+      "maqayis:row:3316",
+      "lane:entry:4834"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Emh:yaEomahu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Emh:FormI",
+      "reason": "Displayed under the normalized Form I perfect citation form عَمِهَ rather than the QAC imperfect lemma يَعْمَهُ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:Emh:FormI",
+      "form_group_ids": [
+        "qac-form:Emh:yaEomahu:verb:I"
+      ],
+      "headword_arabic": "عَمِهَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "sense:Emh:FormI:confusedwandering",
+          "definition": "To be confused or perplexed and wander without knowing or following the right course.",
+          "usage_conditions": "In Quranic usage, the imperfect active form commonly occurs with فِي and a domain of transgression or error. It describes mental or spiritual loss of direction and wandering, not physical blindness.",
+          "source_refs": [
+            "lane:entry:4834",
+            "mufradat:row:1011"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:15",
+          "word_location": "2:15:7",
+          "sense_ids": [
+            "sense:Emh:FormI:confusedwandering"
+          ]
+        },
+        {
+          "verse_key": "10:11",
+          "word_location": "10:11:18",
+          "sense_ids": [
+            "sense:Emh:FormI:confusedwandering"
+          ]
+        },
+        {
+          "verse_key": "27:4",
+          "word_location": "27:4:10",
+          "sense_ids": [
+            "sense:Emh:FormI:confusedwandering"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Emh:landexpression",
+      "headword_arabic": "عَمِهَ",
+      "definition": "Of land, to be destitute of signs or landmarks of the way.",
+      "usage_conditions": "A tropical expression applied to land that gives no guidance to safety.",
+      "source_refs": [
+        "lane:entry:4834"
+      ]
+    },
+    {
+      "meaning_id": "cm:Emh:FormII:wrongwithoutinformation",
+      "headword_arabic": "عَمَّهَ",
+      "definition": "To wrong someone without sure information.",
+      "usage_conditions": "A transitive Form II construction.",
+      "source_refs": [
+        "lane:entry:4835"
+      ]
+    },
+    {
+      "meaning_id": "cm:Emh:Amih",
+      "headword_arabic": "عَمِهٌ",
+      "definition": "Confused or perplexed, unable to see the right course, and going repeatedly to and fro in error.",
+      "usage_conditions": "An adjectival description; it may also describe failure to know the right argument, plea, or allegation.",
+      "source_refs": [
+        "lane:entry:4837"
+      ]
+    },
+    {
+      "meaning_id": "cm:Emh:Ummaha",
+      "headword_arabic": "العُمَّهَى",
+      "definition": "In the expression ذَهَبَتْ إِبِلُهُ العُمَّهَى: his camels went away and no one knew where they had gone.",
+      "usage_conditions": "A fixed idiomatic expression concerning camels.",
+      "source_refs": [
+        "lane:entry:4838"
+      ]
+    },
+    {
+      "meaning_id": "cm:Emh:Amhaa",
+      "headword_arabic": "عَمْهَاءُ",
+      "definition": "Having no signs of the way to guide to safety.",
+      "usage_conditions": "The feminine adjective is applied to land.",
+      "source_refs": [
+        "lane:entry:4841"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Emh:4834:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Emh:FormI:confusedwandering",
+        "cm:Emh:landexpression"
+      ],
+      "note": "Covers the core verb sense and the distinct land expression."
+    },
+    {
+      "unit_id": "lane-unit:Emh:4834:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Emh:landexpression"
+      ],
+      "note": "Defines the land-specific tropical usage."
+    },
+    {
+      "unit_id": "lane-unit:Emh:4835:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Emh:FormII:wrongwithoutinformation"
+      ],
+      "note": "Defines the Form II transitive usage."
+    },
+    {
+      "unit_id": "lane-unit:Emh:4836:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the first paragraph; adds no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:Emh:4837:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Emh:Amih"
+      ],
+      "note": "Defines the adjectival state of confusion and error."
+    },
+    {
+      "unit_id": "lane-unit:Emh:4838:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Emh:Ummaha"
+      ],
+      "note": "Defines the idiom for camels whose whereabouts are unknown."
+    },
+    {
+      "unit_id": "lane-unit:Emh:4839:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding idiomatic entry."
+    },
+    {
+      "unit_id": "lane-unit:Emh:4840:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the عَمِهٌ entry."
+    },
+    {
+      "unit_id": "lane-unit:Emh:4841:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the عَمِهٌ entry; the following unit contains the material definition."
+    },
+    {
+      "unit_id": "lane-unit:Emh:4841:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Emh:Amhaa"
+      ],
+      "note": "Defines the feminine adjective applied to land."
+    }
+  ],
+  "cautions": [
+    "The public headword is the normalized perfect citation form عَمِهَ; the supplied Quranic occurrences are active imperfect forms.",
+    "The contextual rendering “wandering blindly” should be understood as loss of guidance or discernment rather than physical blindness."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

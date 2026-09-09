@@ -1,0 +1,194 @@
+{
+  "root": "zHzH",
+  "arabic": "زحزح",
+  "root_idea": {
+    "summary": "The root centers on distance and separation.",
+    "development": "This notion develops into removing or driving something away, putting it at a distance, being moved aside, or withdrawing to a remote place.",
+    "source_refs": [
+      "maqayis:row:2225",
+      "lane:entry:30928"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zHzH:zuHoziHa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_zahzaha_verbI",
+      "reason": "A Quran-attested verb group, presented under the normalized Classical Arabic perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:zHzH:muzaHoziH:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_muzahzih_ap",
+      "reason": "A Quran-attested active participle with an independently useful nominal headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_zahzaha_verbI",
+      "form_group_ids": [
+        "qac-form:zHzH:zuHoziHa:verb:I"
+      ],
+      "headword_arabic": "زَحْزَحَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_zahzaha_verbI_s1",
+          "definition": "To be removed or driven away from something, especially to a distance.",
+          "usage_conditions": "The Quranic occurrence is the passive perfect زُحْزِحَ, with عَنْ marking what a person is removed from; it describes being removed far from Hellfire.",
+          "source_refs": [
+            "lane:entry:30928"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:185",
+          "word_location": "3:185:11",
+          "sense_ids": [
+            "qform_zahzaha_verbI_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_muzahzih_ap",
+      "form_group_ids": [
+        "qac-form:zHzH:muzaHoziH:nominal:-"
+      ],
+      "headword_arabic": "مُزَحْزِحٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_muzahzih_ap_s1",
+          "definition": "One who or something that removes a person or thing from something else or puts it at a distance.",
+          "usage_conditions": "The active participle occurs in a بِـ construction with مِنْ, expressing inability to remove someone from punishment.",
+          "source_refs": [
+            "lane:entry:30928"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:96",
+          "word_location": "2:96:17",
+          "sense_ids": [
+            "qform_muzahzih_ap_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_zahha_pull_haste",
+      "headword_arabic": "زَحَّهُ",
+      "definition": "To draw, drag, or pull someone or something away in haste.",
+      "usage_conditions": "This is a transitive use associated with the contracted form زَحَّهُ.",
+      "source_refs": [
+        "lane:entry:30928"
+      ]
+    },
+    {
+      "meaning_id": "cm_tazahzaha_move_aside",
+      "headword_arabic": "تَزَحْزَحَ",
+      "definition": "To move away, become removed, or move aside; transitively, to remove something or someone away.",
+      "usage_conditions": "The form may be used transitively or intransitively; moving aside to make room is an attested construction.",
+      "source_refs": [
+        "lane:entry:30930"
+      ]
+    },
+    {
+      "meaning_id": "cm_zahzah_distance",
+      "headword_arabic": "زَحْزَحٌ",
+      "definition": "Distance; a position at a remove from someone or something.",
+      "usage_conditions": "Used in the expression بِزَحْزَحٍ مِنْهُ, meaning to be at a distance from him or it.",
+      "source_refs": [
+        "lane:entry:30931"
+      ]
+    },
+    {
+      "meaning_id": "cm_zahzah_remote",
+      "headword_arabic": "زَحْزَاحٌ",
+      "definition": "Distant or remote.",
+      "usage_conditions": "An adjectival description of remoteness.",
+      "source_refs": [
+        "lane:entry:30932"
+      ]
+    },
+    {
+      "meaning_id": "cm_mutazahzah_remote_place",
+      "headword_arabic": "مُتَزَحْزَحٌ",
+      "definition": "A place to which one withdraws or moves away; a remote place.",
+      "usage_conditions": "Used for a place of retreat or removal, including one far away.",
+      "source_refs": [
+        "lane:entry:30933"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zHzH:30928:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_zahzaha_verbI_s1",
+        "qform_muzahzih_ap_s1",
+        "cm_zahha_pull_haste"
+      ],
+      "note": "The removal-and-distance branch supports both Quranic forms; the pulling-away-in-haste specialization is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:zHzH:30929:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other paragraphs; it adds no independent lexical content."
+    },
+    {
+      "unit_id": "lane-unit:zHzH:30929:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following paragraph; it adds no independent lexical content."
+    },
+    {
+      "unit_id": "lane-unit:zHzH:30930:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tazahzaha_move_aside"
+      ],
+      "note": "The transitive, intransitive, and moving-aside uses are represented together."
+    },
+    {
+      "unit_id": "lane-unit:zHzH:30931:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zahzah_distance"
+      ],
+      "note": "The nominal meaning of distance is represented."
+    },
+    {
+      "unit_id": "lane-unit:zHzH:30932:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zahzah_remote"
+      ],
+      "note": "The adjectival meaning of remoteness is represented."
+    },
+    {
+      "unit_id": "lane-unit:zHzH:30933:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mutazahzah_remote_place"
+      ],
+      "note": "The place-of-retreat meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The verb is displayed under the normalized citation form زَحْزَحَ, while the supplied QAC occurrence is passive زُحْزِحَ; the supplied QAC Form I label is retained.",
+    "Lane's printed Quran citation uses historical notation and is not converted into a modern verse location; the examples here use only the independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

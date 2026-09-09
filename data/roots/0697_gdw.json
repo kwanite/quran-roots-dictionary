@@ -1,0 +1,661 @@
+{
+  "root": "gdw",
+  "arabic": "غدو",
+  "root_idea": {
+    "summary": "The root centers on time, especially the early part of the day, and on going forth during that period.",
+    "development": "From the temporal notion of the early morning developed the verb غَدَا, nouns for morning periods and tomorrow, the morning meal, morning-related clouds, and places or activities associated with morning.",
+    "source_refs": [
+      "maqayis:row:3388",
+      "mufradat:row:1038"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:gdw:gada:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-gdw-gada",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gdw:gad:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-gdw-gad",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gdw:gadaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-gdw-gadaa",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gdw:gadaw`p:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-gdw-gadah",
+      "reason": "The QAC lemma spelling غَدَوٰة is normalized to the established citation form غَدَاةٌ for the supplied Quran occurrences."
+    },
+    {
+      "form_group_id": "qac-form:gdw:guduw~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-gdw-guduw",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf-gdw-gada",
+      "form_group_ids": [
+        "qac-form:gdw:gada:verb:I"
+      ],
+      "headword_arabic": "غَدَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s-gdw-gada-1",
+          "definition": "To go forth or depart in the early part of the morning.",
+          "usage_conditions": "The Quranic usage includes going early to or toward a person, place, or thing, especially in the construction غَدَا عَلَى. The supplied occurrences include perfect and imperative forms.",
+          "source_refs": [
+            "lane:entry:28954",
+            "mufradat:row:1038"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:121",
+          "word_location": "3:121:2",
+          "sense_ids": [
+            "s-gdw-gada-1"
+          ]
+        },
+        {
+          "verse_key": "68:22",
+          "word_location": "68:22:2",
+          "sense_ids": [
+            "s-gdw-gada-1"
+          ]
+        },
+        {
+          "verse_key": "68:25",
+          "word_location": "68:25:1",
+          "sense_ids": [
+            "s-gdw-gada-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf-gdw-gad",
+      "form_group_ids": [
+        "qac-form:gdw:gad:nominal:-"
+      ],
+      "headword_arabic": "غَدٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "s-gdw-gad-1",
+          "definition": "Tomorrow; the day following the present day.",
+          "usage_conditions": "The Quranic form is used for the coming day, including in expressions such as غَدًا and لِغَدٍ.",
+          "source_refs": [
+            "lane:entry:28959",
+            "mufradat:row:1038"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:12",
+          "word_location": "12:12:3",
+          "sense_ids": [
+            "s-gdw-gad-1"
+          ]
+        },
+        {
+          "verse_key": "59:18",
+          "word_location": "59:18:10",
+          "sense_ids": [
+            "s-gdw-gad-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf-gdw-gadaa",
+      "form_group_ids": [
+        "qac-form:gdw:gadaA^':nominal:-"
+      ],
+      "headword_arabic": "غَدَاءٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s-gdw-gadaa-1",
+          "definition": "The morning meal; a meal eaten in the early part of the day.",
+          "usage_conditions": "The Quranic occurrence denotes the meal itself, not the time at which it is eaten.",
+          "source_refs": [
+            "lane:entry:28967",
+            "mufradat:row:1038"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:62",
+          "word_location": "18:62:6",
+          "sense_ids": [
+            "s-gdw-gadaa-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf-gdw-gadah",
+      "form_group_ids": [
+        "qac-form:gdw:gadaw`p:nominal:-"
+      ],
+      "headword_arabic": "غَدَاةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "s-gdw-gadah-1",
+          "definition": "The early morning; the first part of the day.",
+          "usage_conditions": "In the Quranic construction بِالْغَدَاةِ وَالْعَشِيِّ, it is paired with the evening period. The expression has been interpreted as the times of the dawn and afternoon prayers, or more generally as regularity in worship.",
+          "source_refs": [
+            "lane:entry:28961",
+            "mufradat:row:1038"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:52",
+          "word_location": "6:52:6",
+          "sense_ids": [
+            "s-gdw-gadah-1"
+          ]
+        },
+        {
+          "verse_key": "18:28",
+          "word_location": "18:28:7",
+          "sense_ids": [
+            "s-gdw-gadah-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf-gdw-guduw",
+      "form_group_ids": [
+        "qac-form:gdw:guduw~:nominal:-"
+      ],
+      "headword_arabic": "غُدُوٌّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "s-gdw-guduw-1",
+          "definition": "Morning time or morning going-forth; a morning course or activity.",
+          "usage_conditions": "As a verbal noun, it can denote the early-morning period or movement in it. Quranic usage contrasts it with evening or return and includes the sense of a morning course.",
+          "source_refs": [
+            "lane:entry:28954",
+            "lane:entry:28963",
+            "mufradat:row:1038"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "13:15",
+          "word_location": "13:15:10",
+          "sense_ids": [
+            "s-gdw-guduw-1"
+          ]
+        },
+        {
+          "verse_key": "34:12",
+          "word_location": "34:12:3",
+          "sense_ids": [
+            "s-gdw-guduw-1"
+          ]
+        },
+        {
+          "verse_key": "40:46",
+          "word_location": "40:46:4",
+          "sense_ids": [
+            "s-gdw-guduw-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-gdw-depart-anytime",
+      "headword_arabic": "غَدَا",
+      "definition": "To go, depart, or hasten to a person, place, or task at any time.",
+      "usage_conditions": "This is an extension from the primary early-morning sense; the construction may indicate going to or attending something without restricting the time of day.",
+      "source_refs": [
+        "lane:entry:28954"
+      ]
+    },
+    {
+      "meaning_id": "cm-gd2-feed-morning",
+      "headword_arabic": "غَدَّى",
+      "definition": "To feed someone the meal called غَدَاءٌ.",
+      "usage_conditions": "A Form II causative verb referring to providing the morning meal.",
+      "source_refs": [
+        "lane:entry:28955"
+      ]
+    },
+    {
+      "meaning_id": "cm-tgdy-eat-breakfast",
+      "headword_arabic": "تَغَدَّى",
+      "definition": "To eat the morning meal.",
+      "usage_conditions": "The same verb may refer to eating the pre-dawn meal during Ramadan, because it serves the corresponding function for a fasting person.",
+      "source_refs": [
+        "lane:entry:28957"
+      ]
+    },
+    {
+      "meaning_id": "cm-tgdy-camel-graze",
+      "headword_arabic": "تَغَدَّى",
+      "definition": "Of camels, to pasture in the first part of the day.",
+      "usage_conditions": "A specialized intransitive use applied to camels.",
+      "source_refs": [
+        "lane:entry:28957"
+      ]
+    },
+    {
+      "meaning_id": "cm-gad-future-time",
+      "headword_arabic": "غَدٌ",
+      "definition": "A future time expected to come, whether near or relatively remote.",
+      "usage_conditions": "This is an extended temporal use beyond the ordinary designation of the next day.",
+      "source_refs": [
+        "lane:entry:28959"
+      ]
+    },
+    {
+      "meaning_id": "cm-ibn-ghadatayn",
+      "headword_arabic": "غَدَاةٌ",
+      "definition": "In the expression ابن غداتين, two days old.",
+      "usage_conditions": "A conventional age expression meaning literally one who belongs to two mornings or days.",
+      "source_refs": [
+        "lane:entry:28961"
+      ]
+    },
+    {
+      "meaning_id": "cm-gadwah-journey",
+      "headword_arabic": "غَدْوَةٌ",
+      "definition": "A journey made in the first part of the day.",
+      "usage_conditions": "It is opposed to رَوْحَةٌ, a journey or departure in the later part of the day.",
+      "source_refs": [
+        "lane:entry:28962"
+      ]
+    },
+    {
+      "meaning_id": "cm-gudwah-morning-period",
+      "headword_arabic": "غُدْوَةٌ",
+      "definition": "The early part of the morning or first part of the day.",
+      "usage_conditions": "It may refer specifically to the period between the dawn prayer and sunrise, or more broadly to the morning before or after sunrise.",
+      "source_refs": [
+        "lane:entry:28963"
+      ]
+    },
+    {
+      "meaning_id": "cm-gadawi-unborn-offspring",
+      "headword_arabic": "غَدَوِيٌّ",
+      "definition": "The unborn offspring of a pregnant animal; also a sale made in exchange for such unborn offspring.",
+      "usage_conditions": "A technical term for a hazardous transaction involving what an animal will give birth to; variant forms are reported in the lexical tradition.",
+      "source_refs": [
+        "lane:entry:28965"
+      ]
+    },
+    {
+      "meaning_id": "cm-gadyan-breakfasting",
+      "headword_arabic": "غَدْيَانُ",
+      "definition": "Eating the meal called غَدَاءٌ; breakfast-eating.",
+      "usage_conditions": "The source also records related feminine forms used adjectivally.",
+      "source_refs": [
+        "lane:entry:28966"
+      ]
+    },
+    {
+      "meaning_id": "cm-gadaa-camel-pasture",
+      "headword_arabic": "غَدَاءٌ",
+      "definition": "The pasture of camels in the first part of the day.",
+      "usage_conditions": "This is distinct from the meal noun غَدَاءٌ and is understood from the morning-time association.",
+      "source_refs": [
+        "lane:entry:28967"
+      ]
+    },
+    {
+      "meaning_id": "cm-gadi-related-morrow",
+      "headword_arabic": "غَدِيٌّ",
+      "definition": "Of or relating to tomorrow or the morrow.",
+      "usage_conditions": "A relational adjective derived from غَدٌ.",
+      "source_refs": [
+        "lane:entry:28969"
+      ]
+    },
+    {
+      "meaning_id": "cm-gadi-lion",
+      "headword_arabic": "الغَادِي",
+      "definition": "The lion.",
+      "usage_conditions": "A figurative designation based on the lion's going forth against prey in the early morning.",
+      "source_refs": [
+        "lane:entry:28973"
+      ]
+    },
+    {
+      "meaning_id": "cm-gadiyah-cloud",
+      "headword_arabic": "غَادِيَةٌ",
+      "definition": "A cloud arising in the morning, or a morning rain.",
+      "usage_conditions": "The term may denote either the morning cloud or the rain associated with it.",
+      "source_refs": [
+        "lane:entry:28974"
+      ]
+    },
+    {
+      "meaning_id": "cm-magda-morning-destination",
+      "headword_arabic": "مَغْدًى",
+      "definition": "A place to which people go or return in the morning.",
+      "usage_conditions": "It is opposed to مَرَاحٌ or مَرَاحَةٌ, a destination or movement associated with the later part of the day.",
+      "source_refs": [
+        "lane:entry:28975"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:gdw:28954:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-gdw-gada-1",
+        "s-gdw-guduw-1",
+        "cm-gdw-depart-anytime"
+      ],
+      "note": "Covers early departure, the غَدَا عَلَى construction, the extended departure use, and غُدُوّ as morning going-forth."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28954:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gdw-depart-anytime"
+      ],
+      "note": "Generalized departure at any time."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28954:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial correction of an erroneous gloss."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28954:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28955:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gd2-feed-morning"
+      ],
+      "note": "Feeding someone the morning meal."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28956:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry with an example referred to elsewhere."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28957:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tgdy-eat-breakfast"
+      ],
+      "note": "Eating the morning meal, including the Ramadan application."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28957:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tgdy-camel-graze"
+      ],
+      "note": "Morning grazing by camels."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28958:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "Pointer to غَدَا combined with an explicitly unsupported report equating اِسْتَغْدَى with تَغَدَّى."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28959:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-gdw-gad-1",
+        "cm-gad-future-time"
+      ],
+      "note": "Tomorrow and the temporal extension of the noun."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28959:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gad-future-time"
+      ],
+      "note": "Extension to expected near or remote time."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28959:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Poetic and declensional usage information."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28959:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Morphological note about the absence of a diminutive."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28960:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28961:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-gdw-gadah-1"
+      ],
+      "note": "Early morning and the Quranic morning-and-evening construction."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28961:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ibn-ghadatayn"
+      ],
+      "note": "Conventional expression for being two days old."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28961:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive formation and illustrative usage."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28962:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gadwah-journey"
+      ],
+      "note": "A journey in the first part of the day."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28962:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28962:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28963:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-gdw-guduw-1",
+        "cm-gudwah-morning-period"
+      ],
+      "note": "Morning period, related morning forms, and Quranic time usage."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28964:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28965:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28965:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gadawi-unborn-offspring"
+      ],
+      "note": "Unborn offspring and the associated hazardous sale."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28965:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another root article."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28966:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gadyan-breakfasting"
+      ],
+      "note": "Eating the morning meal."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28967:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-gdw-gadaa-1"
+      ],
+      "note": "The morning meal."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28967:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gadaa-camel-pasture"
+      ],
+      "note": "Morning pasture of camels."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28968:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to a related morning-time entry."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28969:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gadi-related-morrow"
+      ],
+      "note": "Relational adjective meaning pertaining to the morrow."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28969:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another root article."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28970:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only synonym reference."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28971:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28972:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28973:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gadi-lion"
+      ],
+      "note": "Figurative name for the lion."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28974:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gadiyah-cloud"
+      ],
+      "note": "Morning cloud or morning rain."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28975:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-magda-morning-destination"
+      ],
+      "note": "Morning destination or place of going."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28975:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Illustrative idiom referring back to the same meaning."
+    },
+    {
+      "unit_id": "lane-unit:gdw:28976:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    }
+  ],
+  "cautions": [
+    "The QAC lemma written غَدَوٰة corresponds in the supplied Quran occurrences to the citation form غَدَاةٌ; related forms غَدْوَةٌ and غُدْوَةٌ are also recorded in Classical Arabic.",
+    "Quran examples use the supplied QAC verse locations. Historical citation notation in the lexical evidence was not used to infer or alter modern verse numbering."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:gdw:28958:g1:main contains a pointer to غَدَا and an unsupported report that اِسْتَغْدَى is synonymous with تَغَدَّى. The unsupported Form X claim is retained as an ambiguity rather than presented as an established meaning."
+  ]
+}

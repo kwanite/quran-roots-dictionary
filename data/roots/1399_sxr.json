@@ -1,0 +1,650 @@
+{
+  "root": "sxr",
+  "arabic": "سخر",
+  "root_idea": {
+    "summary": "The root centers on lowering or bringing under control: contempt and derision in one branch, and subjection or manageable service in another.",
+    "development": "From the underlying notion of treating something as low or submissive, Form I develops the meaning “to mock,” while the causative Form II develops the meaning “to subject, render subservient, or make operate according to an intended purpose.” Related nouns denote mockery, a laughingstock, forced service, and obedient ships.",
+    "source_refs": [
+      "maqayis:row:2384"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sxr:saxira:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sxr_sakhira",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:sxr:sax~ara:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sxr_sakhkara",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:sxr:yasotasoxiru:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sxr_istaskhara",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:sxr:musax~ar:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sxr_musakhkhar",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:sxr:musax~ara`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "sxr_musakhkhar",
+      "reason": "Inflected plural passive participle; presented under the singular participial citation form."
+    },
+    {
+      "form_group_id": "qac-form:sxr:sixoriy~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sxr_sikhriyy",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:sxr:suxoriy~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sxr_sukhriyy",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:sxr:s~a`xiriyn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "sxr_sakhir",
+      "reason": "Quranic plural active participle; presented under the singular active-participle citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "sxr_sakhira",
+      "form_group_ids": [
+        "qac-form:sxr:saxira:verb:I"
+      ],
+      "headword_arabic": "سَخِرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "sxr_sakhira_s1",
+          "definition": "To mock, scoff at, deride, or ridicule someone.",
+          "usage_conditions": "The Quranic construction commonly takes مِنْ or بِـ; reciprocal usage can express treating the other as ignorant or foolish in return.",
+          "source_refs": [
+            "lane:entry:40530",
+            "mufradat:row:671"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:38",
+          "word_location": "11:38:13",
+          "sense_ids": [
+            "sxr_sakhira_s1"
+          ]
+        },
+        {
+          "verse_key": "2:212",
+          "word_location": "2:212:6",
+          "sense_ids": [
+            "sxr_sakhira_s1"
+          ]
+        },
+        {
+          "verse_key": "49:11",
+          "word_location": "49:11:5",
+          "sense_ids": [
+            "sxr_sakhira_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "sxr_sakhkara",
+      "form_group_ids": [
+        "qac-form:sxr:sax~ara:verb:II"
+      ],
+      "headword_arabic": "سَخَّرَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 22,
+      "senses": [
+        {
+          "sense_id": "sxr_sakhkara_s1",
+          "definition": "To subject, bring under control, or render subservient or manageable, directing a person, thing, or natural force to an intended purpose.",
+          "usage_conditions": "In the Quran this is used of celestial bodies, natural phenomena, animals, ships, and other created things made to serve an appointed order or purpose.",
+          "source_refs": [
+            "lane:entry:40531",
+            "mufradat:row:671"
+          ]
+        },
+        {
+          "sense_id": "sxr_sakhkara_s2",
+          "definition": "To make a force prevail against someone, sending it upon them with overpowering force.",
+          "usage_conditions": "A result-focused causative use, explicitly applied to the wind imposed upon a people.",
+          "source_refs": [
+            "lane:entry:40531"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:32",
+          "word_location": "14:32:16",
+          "sense_ids": [
+            "sxr_sakhkara_s1"
+          ]
+        },
+        {
+          "verse_key": "16:12",
+          "word_location": "16:12:1",
+          "sense_ids": [
+            "sxr_sakhkara_s1"
+          ]
+        },
+        {
+          "verse_key": "69:7",
+          "word_location": "69:7:1",
+          "sense_ids": [
+            "sxr_sakhkara_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "sxr_istaskhara",
+      "form_group_ids": [
+        "qac-form:sxr:yasotasoxiru:verb:X"
+      ],
+      "headword_arabic": "اِسْتَسْخَرَ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sxr_istaskhara_s1",
+          "definition": "To invite or induce one another to mock, scoff at, or ridicule.",
+          "usage_conditions": "The Quranic occurrence has a reciprocal construction in which people encourage each other to engage in mockery.",
+          "source_refs": [
+            "lane:entry:40530",
+            "mufradat:row:671"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:14",
+          "word_location": "37:14:4",
+          "sense_ids": [
+            "sxr_istaskhara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "sxr_musakhkhar",
+      "form_group_ids": [
+        "qac-form:sxr:musax~ar:nominal:-",
+        "qac-form:sxr:musax~ara`t:nominal:-"
+      ],
+      "headword_arabic": "مُسَخَّر",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sxr_musakhkhar_s1",
+          "definition": "Made subservient, controlled, or appointed to operate under command.",
+          "usage_conditions": "The Quranic uses describe created things, including stars and other natural phenomena, as operating in an ordered course under divine control.",
+          "source_refs": [
+            "lane:entry:40540",
+            "mufradat:row:671"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:164",
+          "word_location": "2:164:37",
+          "sense_ids": [
+            "sxr_musakhkhar_s1"
+          ]
+        },
+        {
+          "verse_key": "16:12",
+          "word_location": "16:12:8",
+          "sense_ids": [
+            "sxr_musakhkhar_s1"
+          ]
+        },
+        {
+          "verse_key": "16:79",
+          "word_location": "16:79:5",
+          "sense_ids": [
+            "sxr_musakhkhar_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "sxr_sikhriyy",
+      "form_group_ids": [
+        "qac-form:sxr:sixoriy~:nominal:-"
+      ],
+      "headword_arabic": "سِخْرِيّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sxr_sikhriyy_s1",
+          "definition": "Mockery, scoffing, derision; in the construction of taking people as objects of ridicule or laughingstocks.",
+          "usage_conditions": "The Quranic occurrences are in a context of derision. The occurrence in 23:110 is also associated with an alternative interpretation of subjection or forced service.",
+          "source_refs": [
+            "lane:entry:40534",
+            "lane:entry:40536",
+            "mufradat:row:671"
+          ]
+        },
+        {
+          "sense_id": "sxr_sikhriyy_s2",
+          "definition": "Subjection or forced service: a person made subject to another’s will.",
+          "usage_conditions": "This is the alternative Quranic interpretation explicitly recognized for 23:110, alongside the interpretation “mockery.”",
+          "source_refs": [
+            "lane:entry:40531",
+            "mufradat:row:671"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "23:110",
+          "word_location": "23:110:2",
+          "sense_ids": [
+            "sxr_sikhriyy_s1",
+            "sxr_sikhriyy_s2"
+          ]
+        },
+        {
+          "verse_key": "38:63",
+          "word_location": "38:63:2",
+          "sense_ids": [
+            "sxr_sikhriyy_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "sxr_sukhriyy",
+      "form_group_ids": [
+        "qac-form:sxr:suxoriy~:nominal:-"
+      ],
+      "headword_arabic": "سُخْرِيّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sxr_sukhriyy_s1",
+          "definition": "Service or subjection: a person made subject to another’s will and available for that person’s purposes.",
+          "usage_conditions": "The Quranic occurrence presents human differences in provision and status as a means by which some people are made to serve or depend on others.",
+          "source_refs": [
+            "lane:entry:40531",
+            "mufradat:row:671"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "43:32",
+          "word_location": "43:32:20",
+          "sense_ids": [
+            "sxr_sukhriyy_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "sxr_sakhir",
+      "form_group_ids": [
+        "qac-form:sxr:s~a`xiriyn:nominal:-"
+      ],
+      "headword_arabic": "سَاخِر",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sxr_sakhir_s1",
+          "definition": "One who mocks, scoffs at, or ridicules others.",
+          "usage_conditions": "The Quranic form is a definite plural active participle referring to mockers.",
+          "source_refs": [
+            "lane:entry:40535",
+            "lane:entry:40539"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:56",
+          "word_location": "39:56:14",
+          "sense_ids": [
+            "sxr_sakhir_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "sxr_cm_sakhira_position",
+      "headword_arabic": "سَخِرَ",
+      "definition": "In a reported extended usage, to put someone in a position he does not regard as his right, producing a kind of mockery.",
+      "usage_conditions": "A tropical or figurative usage reported in a traditional example.",
+      "source_refs": [
+        "lane:entry:40530"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_sakhira_jest",
+      "headword_arabic": "سَخِرَ",
+      "definition": "To jest or speak playfully rather than seriously.",
+      "usage_conditions": "Reported in an idiomatic statement asserting that the speaker is telling the truth and is not jesting.",
+      "source_refs": [
+        "lane:entry:40530"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_sakhira_ship",
+      "headword_arabic": "سَخِرَ",
+      "definition": "Of a ship, to have a favorable wind and voyage, obeying the wind and running its course.",
+      "usage_conditions": "A tropical nautical usage.",
+      "source_refs": [
+        "lane:entry:40530"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_taskhir_unpaid",
+      "headword_arabic": "سَخَّرَ",
+      "definition": "To compel a servant or beast to work or serve against its will without recompense, hire, or wages; to make use of it without payment.",
+      "usage_conditions": "The evidence explicitly applies this use to servants and beasts and to unpaid work.",
+      "source_refs": [
+        "lane:entry:40531"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_sukhrah_laughingstock",
+      "headword_arabic": "سُخْرَة",
+      "definition": "A person who is mocked at, scoffed at, or made a laughingstock.",
+      "usage_conditions": "The form can function as a singular and, in some usage, as a plural collective.",
+      "source_refs": [
+        "lane:entry:40534"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_sukhrah_forced",
+      "headword_arabic": "سُخْرَة",
+      "definition": "A person or animal compelled to work or serve without pay; the word is also reported for one who employs such a subjected person or animal.",
+      "usage_conditions": "Applied especially to servants or beasts. The extension to the employer is explicitly reported as disputed, with another authority correcting it to the employed subject.",
+      "source_refs": [
+        "lane:entry:40534"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_sukharah_mocker",
+      "headword_arabic": "سُخَرَة",
+      "definition": "A habitual or frequent mocker of others.",
+      "usage_conditions": "An intensive agent noun.",
+      "source_refs": [
+        "lane:entry:40535"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_sukhriyy_mockery",
+      "headword_arabic": "سُخْرِيّ",
+      "definition": "Mockery, scoffing, derision, or ridicule.",
+      "usage_conditions": "A broader Classical Arabic nominal use; the Quranic occurrence under this vocalization is separately presented with the service or subjection sense.",
+      "source_refs": [
+        "lane:entry:40536"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_sukhar_herb",
+      "headword_arabic": "سُخَّر",
+      "definition": "A herb or leguminous plant identified in the evidence with the plant called سَيْكُرَان.",
+      "usage_conditions": "A rare regional botanical usage associated with Khurasan.",
+      "source_refs": [
+        "lane:entry:40537"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_sawakhir_ships",
+      "headword_arabic": "سَوَاخِر",
+      "definition": "Ships that obey and have a favorable wind.",
+      "usage_conditions": "A plural nautical expression for ships making a good voyage.",
+      "source_refs": [
+        "lane:entry:40538"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_sakhkara_ship",
+      "headword_arabic": "سَخَّرَ",
+      "definition": "To make a ship obey and run its course, with a favorable wind and voyage.",
+      "usage_conditions": "A tropical causative nautical construction.",
+      "source_refs": [
+        "lane:entry:40531"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_maskharah_cause",
+      "headword_arabic": "مَسْخَرَة",
+      "definition": "An occasion or cause of mockery, scoffing, derision, or ridicule.",
+      "usage_conditions": "It may describe a circumstance or a person who becomes an object of ridicule.",
+      "source_refs": [
+        "lane:entry:40539"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_maskharah_mocker",
+      "headword_arabic": "مَسْخَرَة",
+      "definition": "A person who mocks, scoffs at, or ridicules others.",
+      "usage_conditions": "A secondary Classical Arabic agent use of the same noun.",
+      "source_refs": [
+        "lane:entry:40539"
+      ]
+    },
+    {
+      "meaning_id": "sxr_cm_musakhkhar_constrained",
+      "headword_arabic": "مُسَخَّر",
+      "definition": "One constrained or compelled, brought into subjection, and unable to free himself from the constraint.",
+      "usage_conditions": "A general passive-participial description of a subjected person or thing, distinct from the Quranic natural-order use presented above.",
+      "source_refs": [
+        "lane:entry:40540"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sxr:40530:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_sakhira_s1",
+        "sxr_istaskhara_s1"
+      ],
+      "note": "Mockery is represented, including the Quranic invitation-to-mock usage."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40530:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_sakhira_position"
+      ],
+      "note": "Reported tropical usage involving an unwanted or improper position."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40530:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_sakhira_jest"
+      ],
+      "note": "Idiomatic use meaning to jest."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40530:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_sakhira_s1"
+      ],
+      "note": "Quranic reciprocal interpretation is covered under mockery."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40530:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40530:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_sakhira_ship"
+      ],
+      "note": "Nautical usage of a ship obeying and making its course."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40531:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_taskhir_unpaid",
+        "sxr_sikhriyy_s2",
+        "sxr_sukhriyy_s1"
+      ],
+      "note": "Covers unpaid compelled service and the related Quranic subjection/service nominal uses."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40531:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_sakhkara_s1",
+        "sxr_sakhkara_s2",
+        "sxr_cm_sakhkara_ship"
+      ],
+      "note": "Covers subjection, prevailing force, and the tropical ship construction."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40532:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form II discussion."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40533:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40534:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_sikhriyy_s1",
+        "sxr_cm_sukhrah_laughingstock"
+      ],
+      "note": "Covers mockery/laughingstock usage and the Quranic reading context."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40534:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_sukhrah_forced"
+      ],
+      "note": "Covers compelled unpaid service and the disputed employer interpretation."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40534:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Synonymic pointer to تسخير without an additional lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40535:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_sukharah_mocker"
+      ],
+      "note": "Intensive noun for a habitual mocker."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40536:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_sikhriyy_s1",
+        "sxr_cm_sukhriyy_mockery"
+      ],
+      "note": "Covers the mockery noun and its two vocalized forms."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40536:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سخرة."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40537:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_sukhar_herb"
+      ],
+      "note": "Rare botanical meaning."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40538:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_sawakhir_ships"
+      ],
+      "note": "Nautical plural noun for ships with favorable wind."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40539:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_maskharah_cause"
+      ],
+      "note": "A cause or occasion of mockery."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40539:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_maskharah_mocker"
+      ],
+      "note": "Agent use meaning one who mocks."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40540:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_cm_musakhkhar_constrained"
+      ],
+      "note": "General meaning of one constrained and unable to escape."
+    },
+    {
+      "unit_id": "lane-unit:sxr:40540:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sxr_musakhkhar_s1"
+      ],
+      "note": "Quran-attested passive-participial use for subservient celestial bodies."
+    }
+  ],
+  "cautions": [
+    "سِخْرِيّ in 23:110 is explicitly reported with two interpretations: mockery and subjection or forced service; the examples and senses preserve both rather than forcing a single reading.",
+    "The vocalized forms سِخْرِيّ and سُخْرِيّ overlap in broader Classical Arabic evidence, while the Quranic contexts supplied here favor mockery for 23:110 and 38:63 and service or subjection for 43:32."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

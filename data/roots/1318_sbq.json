@@ -1,0 +1,941 @@
+{
+  "root": "sbq",
+  "arabic": "سبق",
+  "root_idea": {
+    "summary": "The root centers on going ahead: precedence in movement, order, attainment, or rank.",
+    "development": "From physical or temporal precedence it extends to racing and competition, priority in an affair, being foremost in merit, hastening toward an objective, and the stake awarded to a winner.",
+    "source_refs": [
+      "maqayis:row:2350",
+      "mufradat:row:657"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sbq:sabaqa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:sbq:sabaqa",
+      "reason": "The Form I verb is a distinct Quranic lexical form."
+    },
+    {
+      "form_group_id": "qac-form:sbq:saAbiqu:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:sbq:saabaqa",
+      "reason": "The Form III verb has a distinct reciprocal or competitive construction."
+    },
+    {
+      "form_group_id": "qac-form:sbq:{sotabaqa:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:sbq:istabaqa",
+      "reason": "The Form VIII verb has distinct Quranic racing and hastening constructions."
+    },
+    {
+      "form_group_id": "qac-form:sbq:masobuwqiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:sbq:masbuq",
+      "reason": "The passive participle is presented under its singular citation form."
+    },
+    {
+      "form_group_id": "qac-form:sbq:saAbiq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:sbq:saabiq",
+      "reason": "The active participle is a distinct Quranic nominal form."
+    },
+    {
+      "form_group_id": "qac-form:sbq:saboq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:sbq:sabq",
+      "reason": "The verbal noun is presented as its own Quranic form."
+    },
+    {
+      "form_group_id": "qac-form:sbq:s~a`biqa`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:sbq:saabiq",
+      "reason": "This is the feminine plural active participle and is covered under the normalized active-participle headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:sbq:sabaqa",
+      "form_group_ids": [
+        "qac-form:sbq:sabaqa:verb:I"
+      ],
+      "headword_arabic": "سَبَقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 20,
+      "senses": [
+        {
+          "sense_id": "qsen:sbq:sabaqa:1",
+          "definition": "To precede, get ahead of, or outstrip another.",
+          "usage_conditions": "Used of being earlier or farther ahead in movement, order, or attainment; in negative contexts, it can mean to escape or elude being overtaken.",
+          "source_refs": [
+            "lane:entry:40101",
+            "mufradat:row:657"
+          ]
+        },
+        {
+          "sense_id": "qsen:sbq:sabaqa:2",
+          "definition": "To precede in time or occurrence; to have already gone forth or been established.",
+          "usage_conditions": "Used especially of a decree, term, word, or prior event that has taken effect before another event; this is a temporal development of precedence rather than a racing sense.",
+          "source_refs": [
+            "lane:entry:40101",
+            "mufradat:row:657"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:27",
+          "word_location": "21:27:2",
+          "sense_ids": [
+            "qsen:sbq:sabaqa:1"
+          ]
+        },
+        {
+          "verse_key": "29:4",
+          "word_location": "29:4:7",
+          "sense_ids": [
+            "qsen:sbq:sabaqa:1"
+          ]
+        },
+        {
+          "verse_key": "20:129",
+          "word_location": "20:129:3",
+          "sense_ids": [
+            "qsen:sbq:sabaqa:2"
+          ]
+        },
+        {
+          "verse_key": "23:43",
+          "word_location": "23:43:2",
+          "sense_ids": [
+            "qsen:sbq:sabaqa:2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:sbq:saabaqa",
+      "form_group_ids": [
+        "qac-form:sbq:saAbiqu:verb:III"
+      ],
+      "headword_arabic": "سَابَقَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:sbq:saabaqa:1",
+          "definition": "To compete or strive with another to get ahead; to race one another toward a goal.",
+          "usage_conditions": "A reciprocal competitive construction, used literally of racing and figuratively of striving eagerly toward an objective.",
+          "source_refs": [
+            "lane:entry:40103",
+            "lane:entry:40105"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "57:21",
+          "word_location": "57:21:1",
+          "sense_ids": [
+            "qsen:sbq:saabaqa:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:sbq:istabaqa",
+      "form_group_ids": [
+        "qac-form:sbq:{sotabaqa:verb:VIII"
+      ],
+      "headword_arabic": "اِسْتَبَقَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qsen:sbq:istabaqa:1",
+          "definition": "To race or compete with one another to be ahead.",
+          "usage_conditions": "Used of people or parties contending to reach or obtain something first, including literal running or a contest.",
+          "source_refs": [
+            "lane:entry:40105",
+            "mufradat:row:657"
+          ]
+        },
+        {
+          "sense_id": "qsen:sbq:istabaqa:2",
+          "definition": "To hasten or strive eagerly toward an objective.",
+          "usage_conditions": "In the construction استبق الخيرات, the competitive image is extended to earnest haste toward good deeds and other desirable aims.",
+          "source_refs": [
+            "lane:entry:40106"
+          ]
+        },
+        {
+          "sense_id": "qsen:sbq:istabaqa:3",
+          "definition": "To hasten along or get ahead to a route, with the resulting possibility of passing beyond it.",
+          "usage_conditions": "In the interpretation of 36:66, the expression can describe getting to or along the road and leaving it behind, hence losing the familiar way.",
+          "source_refs": [
+            "lane:entry:40106"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:17",
+          "word_location": "12:17:5",
+          "sense_ids": [
+            "qsen:sbq:istabaqa:1"
+          ]
+        },
+        {
+          "verse_key": "12:25",
+          "word_location": "12:25:1",
+          "sense_ids": [
+            "qsen:sbq:istabaqa:1"
+          ]
+        },
+        {
+          "verse_key": "2:148",
+          "word_location": "2:148:5",
+          "sense_ids": [
+            "qsen:sbq:istabaqa:2"
+          ]
+        },
+        {
+          "verse_key": "36:66",
+          "word_location": "36:66:6",
+          "sense_ids": [
+            "qsen:sbq:istabaqa:3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:sbq:masbuq",
+      "form_group_ids": [
+        "qac-form:sbq:masobuwqiyn:nominal:-"
+      ],
+      "headword_arabic": "مَسْبُوق",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen:sbq:masbuq:1",
+          "definition": "Outstripped, overtaken, or unable to elude another.",
+          "usage_conditions": "In the Quranic negative construction, it denotes one who cannot escape being overtaken or brought within another's reach.",
+          "source_refs": [
+            "mufradat:row:657",
+            "lane:entry:40101"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:60",
+          "word_location": "56:60:7",
+          "sense_ids": [
+            "qsen:sbq:masbuq:1"
+          ]
+        },
+        {
+          "verse_key": "70:41",
+          "word_location": "70:41:8",
+          "sense_ids": [
+            "qsen:sbq:masbuq:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:sbq:saabiq",
+      "form_group_ids": [
+        "qac-form:sbq:saAbiq:nominal:-",
+        "qac-form:sbq:s~a`biqa`t:nominal:-"
+      ],
+      "headword_arabic": "سَابِق",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "qsen:sbq:saabiq:1",
+          "definition": "One who precedes, gets ahead, or outstrips; a forerunner.",
+          "usage_conditions": "The form can denote being ahead in an ordinary or comparative sense, including the inability of one body or party to outstrip another in a negative construction.",
+          "source_refs": [
+            "lane:entry:40113",
+            "mufradat:row:657"
+          ]
+        },
+        {
+          "sense_id": "qsen:sbq:saabiq:2",
+          "definition": "One who is foremost in merit and advances toward divine reward through righteous deeds.",
+          "usage_conditions": "A figurative use of precedence for distinction and priority in good works; it is especially associated with those foremost in attaining reward and paradise.",
+          "source_refs": [
+            "mufradat:row:657"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "29:39",
+          "word_location": "29:39:13",
+          "sense_ids": [
+            "qsen:sbq:saabiq:1"
+          ]
+        },
+        {
+          "verse_key": "36:40",
+          "word_location": "36:40:10",
+          "sense_ids": [
+            "qsen:sbq:saabiq:1"
+          ]
+        },
+        {
+          "verse_key": "9:100",
+          "word_location": "9:100:1",
+          "sense_ids": [
+            "qsen:sbq:saabiq:2"
+          ]
+        },
+        {
+          "verse_key": "56:10",
+          "word_location": "56:10:1",
+          "sense_ids": [
+            "qsen:sbq:saabiq:2"
+          ]
+        },
+        {
+          "verse_key": "79:4",
+          "word_location": "79:4:1",
+          "sense_ids": [
+            "qsen:sbq:saabiq:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:sbq:sabq",
+      "form_group_ids": [
+        "qac-form:sbq:saboq:nominal:-"
+      ],
+      "headword_arabic": "سَبْق",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:sbq:sabq:1",
+          "definition": "Precedence or racing ahead.",
+          "usage_conditions": "In the Quranic oath construction, it denotes the act of going ahead or racing forward.",
+          "source_refs": [
+            "lane:entry:40101",
+            "mufradat:row:657"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "79:4",
+          "word_location": "79:4:2",
+          "sense_ids": [
+            "qsen:sbq:sabq:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_sabaqa_preconception",
+      "headword_arabic": "سَبَقَ",
+      "definition": "To anticipate mentally or preconceive something, sometimes leading to an error.",
+      "usage_conditions": "A figurative use in which the mind or supposition goes ahead of reflection.",
+      "source_refs": [
+        "lane:entry:40101"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabaqa_hastening",
+      "headword_arabic": "سَبَقَ",
+      "definition": "To go or pass hastily to someone.",
+      "usage_conditions": "Used with إِلَى to describe quick movement toward a person or party.",
+      "source_refs": [
+        "lane:entry:40101"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabaqa_premature",
+      "headword_arabic": "سَبَقَ",
+      "definition": "To proceed or come out before the expected time or before awareness.",
+      "usage_conditions": "Applied to speech that escapes prematurely, to vomit reaching the mouth before awareness, or to a pen that skips ahead while copying.",
+      "source_refs": [
+        "lane:entry:40101"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabaqa_exceed_generosity",
+      "headword_arabic": "سَبَقَ",
+      "definition": "To overcome or exceed another, including in generosity.",
+      "usage_conditions": "Used with عَلَى or فِي for surpassing someone in a quality or achievement rather than merely arriving first.",
+      "source_refs": [
+        "lane:entry:40101"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabaq_priority",
+      "headword_arabic": "سَبْق",
+      "definition": "Priority or precedence in undertaking an affair.",
+      "usage_conditions": "A nominal expression for being the first to apply oneself to or undertake a matter.",
+      "source_refs": [
+        "lane:entry:40101"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabbaqa_stake",
+      "headword_arabic": "سَبَّقَ",
+      "definition": "To take or receive the stake in a race or shooting match, or to give that stake.",
+      "usage_conditions": "The verb is reported with two contrary valencies: receiving the wager and assigning or giving it.",
+      "source_refs": [
+        "lane:entry:40102"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabbaqa_race_dispatch",
+      "headword_arabic": "سَبَّقَ",
+      "definition": "To send horses or other competitors out to race and determine which will outstrip the others.",
+      "usage_conditions": "Used of arranging or initiating a race, sometimes with the competitors' stakes in view.",
+      "source_refs": [
+        "lane:entry:40102"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabbaqa_miscarry",
+      "headword_arabic": "سَبَّقَ",
+      "definition": "Of a ewe or she-goat, to cast an incomplete fetus.",
+      "usage_conditions": "A rare reported usage; the form with غ is stated to be better known for this meaning.",
+      "source_refs": [
+        "lane:entry:40102"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabbaqa_jesses",
+      "headword_arabic": "سَبَّقَ",
+      "definition": "To put a pair of jesses on a bird's legs and shackle it.",
+      "usage_conditions": "A specialized falconry construction.",
+      "source_refs": [
+        "lane:entry:40102"
+      ]
+    },
+    {
+      "meaning_id": "cm_asbaqa_hasten",
+      "headword_arabic": "أَسْبَقَ",
+      "definition": "To hasten toward an affair or employ one's full force in getting to it.",
+      "usage_conditions": "The reported Form IV entry is used with إِلَى and is presented as a synonym of hastening or acting promptly.",
+      "source_refs": [
+        "lane:entry:40104"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasabaqa_race",
+      "headword_arabic": "تَسَابَقَ",
+      "definition": "To compete or race with one another to gain precedence.",
+      "usage_conditions": "Used of running, shooting, or striving toward any contested objective.",
+      "source_refs": [
+        "lane:entry:40105"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasabaqa_wager",
+      "headword_arabic": "تَسَابَقَ",
+      "definition": "To lay wagers or stakes against one another.",
+      "usage_conditions": "A competitive extension of the reciprocal race construction.",
+      "source_refs": [
+        "lane:entry:40105"
+      ]
+    },
+    {
+      "meaning_id": "cm_istabaqa_event",
+      "headword_arabic": "اِسْتَبَقَ",
+      "definition": "For an event to happen or come quickly and beforehand.",
+      "usage_conditions": "Used with إِلَى for something that comes to a person hastily or before he expected it; a Classical Arabic Form VIII construction distinct from the Quranic hastening and racing uses.",
+      "source_refs": [
+        "lane:entry:40106"
+      ]
+    },
+    {
+      "meaning_id": "cm_sibq_competitor",
+      "headword_arabic": "سِبْق",
+      "definition": "A competitor who strives to precede or outstrip another.",
+      "usage_conditions": "The noun may be used collectively or in the plural for competing parties.",
+      "source_refs": [
+        "lane:entry:40107"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabaq_stake",
+      "headword_arabic": "سَبَق",
+      "definition": "A stake or wager laid in a race or shooting match.",
+      "usage_conditions": "The successful competitor takes the stake; the term is also used for the property assigned as the prize.",
+      "source_refs": [
+        "lane:entry:40108"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabaq_lesson",
+      "headword_arabic": "سَبَق",
+      "definition": "A boy's daily lesson learned at school.",
+      "usage_conditions": "A specialized educational usage, also called إِمَامٌ.",
+      "source_refs": [
+        "lane:entry:40108"
+      ]
+    },
+    {
+      "meaning_id": "cm_sibaq_race",
+      "headword_arabic": "سِبَاق",
+      "definition": "A race or contest in running.",
+      "usage_conditions": "A nominal form associated with reciprocal competition.",
+      "source_refs": [
+        "lane:entry:40110"
+      ]
+    },
+    {
+      "meaning_id": "cm_sibaq_context",
+      "headword_arabic": "سِبَاق",
+      "definition": "The preceding part of a discourse, together with its following context.",
+      "usage_conditions": "In the expression سِبَاقُ الكَلَامِ وَسِيَاقُهُ, it denotes the preceding and following context of speech.",
+      "source_refs": [
+        "lane:entry:40110"
+      ]
+    },
+    {
+      "meaning_id": "cm_sibaq_jesses",
+      "headword_arabic": "سِبَاق",
+      "definition": "A pair of jesses or shackles for a hawk or falcon.",
+      "usage_conditions": "A specialized falconry term.",
+      "source_refs": [
+        "lane:entry:40110"
+      ]
+    },
+    {
+      "meaning_id": "cm_sabbaq_winner",
+      "headword_arabic": "سَبَّاق",
+      "definition": "One who habitually wins races or repeatedly obtains the prize.",
+      "usage_conditions": "Used in the idiom سَبَّاقُ غَايَاتٍ for a frequent winner.",
+      "source_refs": [
+        "lane:entry:40112"
+      ]
+    },
+    {
+      "meaning_id": "cm_saabiq_racing_horse",
+      "headword_arabic": "سَابِق",
+      "definition": "A horse that outstrips the others in a race.",
+      "usage_conditions": "A specialized racing use of the active participle, distinct from the Quranic figurative use of being foremost in merit.",
+      "source_refs": [
+        "lane:entry:40113"
+      ]
+    },
+    {
+      "meaning_id": "cm_subbaq_early_palms",
+      "headword_arabic": "سُبَّق",
+      "definition": "Palm trees that produce their fruit early.",
+      "usage_conditions": "A figurative or transferred plural use applied to palms.",
+      "source_refs": [
+        "lane:entry:40113"
+      ]
+    },
+    {
+      "meaning_id": "cm_saabiqa_priority",
+      "headword_arabic": "سَابِقَة",
+      "definition": "Priority or precedence in an affair.",
+      "usage_conditions": "A noun formed from the active participle for being first to undertake a matter.",
+      "source_refs": [
+        "lane:entry:40114"
+      ]
+    },
+    {
+      "meaning_id": "cm_saabiqa_medical_predisposition",
+      "headword_arabic": "سَابِقَة",
+      "definition": "A predisposition to disease.",
+      "usage_conditions": "A technical medical usage.",
+      "source_refs": [
+        "lane:entry:40114"
+      ]
+    },
+    {
+      "meaning_id": "cm_saabiquiyya_precedence",
+      "headword_arabic": "سَابِقِيَّة",
+      "definition": "The state or condition of preceding.",
+      "usage_conditions": "An abstract noun describing precedence as a state or quality.",
+      "source_refs": [
+        "lane:entry:40115"
+      ]
+    },
+    {
+      "meaning_id": "cm_asbaq_comparative",
+      "headword_arabic": "أَسْبَق",
+      "definition": "More or most preceding, prevenient, outgoing, or outstripping.",
+      "usage_conditions": "A comparative or superlative form used in expressions comparing precedence or priority.",
+      "source_refs": [
+        "lane:entry:40116"
+      ]
+    },
+    {
+      "meaning_id": "cm_musabbaq_often_outstripped",
+      "headword_arabic": "مُسَبَّق",
+      "definition": "A horse that is often or repeatedly outstripped.",
+      "usage_conditions": "A specialized passive participial description in racing.",
+      "source_refs": [
+        "lane:entry:40117"
+      ]
+    },
+    {
+      "meaning_id": "cm_masbuqiyya_precedence",
+      "headword_arabic": "مَسْبُوقِيَّة",
+      "definition": "The state or condition of being preceded.",
+      "usage_conditions": "An abstract noun corresponding to being overtaken or preceded.",
+      "source_refs": [
+        "lane:entry:40118"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sbq:40101:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbq:sabaqa:1",
+        "qsen:sbq:sabaqa:2"
+      ],
+      "note": "General precedence and the Quranic prior-speech reading are covered."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40101:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsen:sbq:sabaqa:1"
+      ],
+      "note": "Racing precedence is covered by preceding or outstripping."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40101:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabaq_priority"
+      ],
+      "note": "Priority in undertaking an affair is retained as a classical nominal branch."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40101:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabaqa_preconception"
+      ],
+      "note": "Mental anticipation is a distinct figurative use."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40101:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabaqa_hastening"
+      ],
+      "note": "The quick movement construction is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40101:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbq:sabaqa:2",
+        "cm_sabaqa_premature"
+      ],
+      "note": "Prior speech and premature bodily or written occurrence are both covered."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40101:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabaqa_exceed_generosity"
+      ],
+      "note": "Surpassing another in generosity or excellence is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40102:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabbaqa_stake"
+      ],
+      "note": "The contrary stake-taking and stake-giving valencies are stated in the target."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40102:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sabbaqa_stake"
+      ],
+      "note": "The additional stake-giving examples belong to the same contrary-valency entry."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40102:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabbaqa_race_dispatch"
+      ],
+      "note": "Sending horses out to race is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40102:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabbaqa_miscarry"
+      ],
+      "note": "The rare reported miscarriage usage is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40102:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabbaqa_jesses"
+      ],
+      "note": "The specialized falconry construction is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40103:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbq:saabaqa:1"
+      ],
+      "note": "Form III striving to precede or race is the Quranic form sense."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40103:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40103:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40104:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asbaqa_hasten"
+      ],
+      "note": "The reported Form IV hastening construction is retained as classical evidence."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40105:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbq:istabaqa:1",
+        "qsen:sbq:saabaqa:1",
+        "cm_tasabaqa_race"
+      ],
+      "note": "The unit discusses reciprocal racing and the related Quranic competitive constructions."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40105:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbq:istabaqa:1",
+        "cm_tasabaqa_race"
+      ],
+      "note": "Competition in shooting or running is covered."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40105:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tasabaqa_wager"
+      ],
+      "note": "Reciprocal wagering is retained separately."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40106:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbq:istabaqa:2"
+      ],
+      "note": "Hastening toward good acts is a Quranic Form VIII construction."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40106:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istabaqa_event"
+      ],
+      "note": "The Form VIII construction for an event happening quickly and beforehand is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40106:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbq:istabaqa:3"
+      ],
+      "note": "The road and passing-beyond interpretation of 36:66 is covered."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40106:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40107:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sibq_competitor"
+      ],
+      "note": "Competitor terminology is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40108:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabaq_stake"
+      ],
+      "note": "The race or shooting stake is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40108:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabaq_lesson"
+      ],
+      "note": "The specialized school-lesson meaning is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40109:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding stake entry."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40110:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional and cross-reference information only."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40110:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sibaq_race"
+      ],
+      "note": "Race or running contest is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40110:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sibaq_context"
+      ],
+      "note": "The discourse-context meaning is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40110:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sibaq_jesses"
+      ],
+      "note": "The falconry meaning is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40111:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سَابِق."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40112:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sabbaq_winner"
+      ],
+      "note": "Habitual winning is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40113:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbq:saabiq:1",
+        "cm_saabiq_racing_horse"
+      ],
+      "note": "General precedence and the horse-racing specialization are both covered."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40113:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbq:saabiq:1"
+      ],
+      "note": "The Quranic preceding interpretations for the feminine participle are covered under the normalized active-participle form."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40113:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_subbaq_early_palms"
+      ],
+      "note": "The early-fruiting palm-tree usage is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40114:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_saabiqa_priority"
+      ],
+      "note": "The nominal priority meaning is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40114:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_saabiqa_medical_predisposition"
+      ],
+      "note": "The technical medical meaning is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40115:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_saabiquiyya_precedence"
+      ],
+      "note": "The abstract state of preceding is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40116:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asbaq_comparative"
+      ],
+      "note": "The comparative and superlative meaning is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40117:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_musabbaq_often_outstripped"
+      ],
+      "note": "The specialized racing description is retained."
+    },
+    {
+      "unit_id": "lane-unit:sbq:40118:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masbuqiyya_precedence"
+      ],
+      "note": "The abstract state of being preceded is retained."
+    }
+  ],
+  "cautions": [
+    "The Quranic active participle in 79:4 has several reported referents, including angels, souls, horses, and stars; the public definition therefore preserves the common meaning of going ahead rather than selecting one referent.",
+    "The Form IV Lane entry is explicitly marked as possibly mistranscribed; its reported hastening meaning is retained only as a broader Classical Arabic meaning, not as a Quranic Form IV entry.",
+    "The public headwords normalize Quranic imperatives, inflected plurals, and feminine forms to standard dictionary citation forms."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

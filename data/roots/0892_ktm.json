@@ -1,0 +1,174 @@
+{
+  "root": "ktm",
+  "arabic": "كتم",
+  "root_idea": {
+    "summary": "The root denotes hiding, covering, or withholding something from disclosure, especially speech, knowledge, or a report.",
+    "development": "The concealment principle extends in Classical Arabic to suppressing outward manifestations such as sound, leakage, or vocalization, as in descriptions of a quiet riding camel, a silent cloud, watertight stitching, and a non-resounding bow.",
+    "source_refs": [
+      "maqayis:row:3932"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ktm:katama:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ktm-verb-I",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "ktm-verb-I",
+      "form_group_ids": [
+        "qac-form:ktm:katama:verb:I"
+      ],
+      "headword_arabic": "كَتَمَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 21,
+      "senses": [
+        {
+          "sense_id": "ktm-q-s1",
+          "definition": "To conceal, suppress, or withhold a secret, report, truth, testimony, or other known matter from disclosure.",
+          "usage_conditions": "Used transitively for withholding speech or knowledge. Quranic applications include concealing testimony and truth, and concealing a report before God; the object need not be a physical thing.",
+          "source_refs": [
+            "lane:entry:32781",
+            "mufradat:row:1234"
+          ]
+        },
+        {
+          "sense_id": "ktm-q-s2",
+          "definition": "To conceal what God has bestowed of favor, thereby showing ingratitude for the blessing.",
+          "usage_conditions": "A specific Quranic use with divine favor: concealing the favor is explained as كفران النعمة, ingratitude or failure to acknowledge the blessing.",
+          "source_refs": [
+            "mufradat:row:1234"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:146",
+          "word_location": "2:146:11",
+          "sense_ids": [
+            "ktm-q-s1"
+          ]
+        },
+        {
+          "verse_key": "2:283",
+          "word_location": "2:283:25",
+          "sense_ids": [
+            "ktm-q-s1"
+          ]
+        },
+        {
+          "verse_key": "4:37",
+          "word_location": "4:37:6",
+          "sense_ids": [
+            "ktm-q-s2"
+          ]
+        },
+        {
+          "verse_key": "4:42",
+          "word_location": "4:42:12",
+          "sense_ids": [
+            "ktm-q-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "ktm-cl-01",
+      "headword_arabic": "تَكَتَّمَ",
+      "definition": "To conceal or hide oneself.",
+      "usage_conditions": "Form V reflexive or intransitive construction, distinct from the basic transitive verb.",
+      "source_refs": [
+        "lane:entry:32782"
+      ]
+    },
+    {
+      "meaning_id": "ktm-cl-02",
+      "headword_arabic": "تَكَاتَمُوا",
+      "definition": "To conceal things from one another; to practice mutual concealment.",
+      "usage_conditions": "Form VI reciprocal construction involving concealment between or among participants.",
+      "source_refs": [
+        "lane:entry:32783"
+      ]
+    },
+    {
+      "meaning_id": "ktm-cl-03",
+      "headword_arabic": "كَتُومٌ",
+      "definition": "A strict concealer of secrets.",
+      "usage_conditions": "An intensive descriptive adjective for one characterized by rigorous secrecy.",
+      "source_refs": [
+        "lane:entry:32784"
+      ]
+    },
+    {
+      "meaning_id": "ktm-cl-04",
+      "headword_arabic": "كَاتِمٌ",
+      "definition": "Concealed or hidden, with the form كَاتِمٌ used in the meaning of مَكْتُومٌ.",
+      "usage_conditions": "A lexicalized usage in which the active-participle form carries a passive meaning.",
+      "source_refs": [
+        "lane:entry:32785"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ktm:32781:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ktm-q-s1"
+      ],
+      "note": "Basic concealment or suppression of a secret is covered by the first Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:ktm:32781:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to a verse in another article; no lexical explanation is supplied here."
+    },
+    {
+      "unit_id": "lane-unit:ktm:32782:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ktm-cl-01"
+      ],
+      "note": "Reflexive self-concealment is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:ktm:32783:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ktm-cl-02"
+      ],
+      "note": "Reciprocal concealment is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:ktm:32784:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ktm-cl-03"
+      ],
+      "note": "The intensive adjective for a strict secret-keeper is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktm:32785:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ktm-cl-04"
+      ],
+      "note": "The passive lexical use of كَاتِمٌ is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktm:32785:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to a cited phrase in another article; no additional lexical explanation is supplied here."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

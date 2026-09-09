@@ -1,0 +1,100 @@
+{
+  "root": "lqf",
+  "arabic": "لقف",
+  "root_idea": {
+    "summary": "Swift, deft taking up or catching of something.",
+    "development": "The lexical range connects skilled taking by the mouth or hand with the Quranic sense of swallowing up, and with the derived Form V sense of catching and retaining speech quickly.",
+    "source_refs": [
+      "mufradat:row:1317",
+      "lane:entry:20682",
+      "lane:entry:20683"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lqf:taloqafu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:lqf:laqifa",
+      "reason": "Displayed under the normalized Form I perfect citation form لَقِفَ rather than the imperfect Quranic lemma تَلْقَفُ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:lqf:laqifa",
+      "form_group_ids": [
+        "qac-form:lqf:taloqafu:verb:I"
+      ],
+      "headword_arabic": "لَقِفَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsense:lqf:laqifa:1",
+          "definition": "To take up swiftly and deftly; in the Quranic construction, to swallow or engulf what is taken in.",
+          "usage_conditions": "The action is described as skilled taking whether by mouth or hand, while the supplied Quranic occurrences use the mouth-oriented sense of swallowing up.",
+          "source_refs": [
+            "lane:entry:20682",
+            "mufradat:row:1317"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:117",
+          "word_location": "7:117:9",
+          "sense_ids": [
+            "qsense:lqf:laqifa:1"
+          ]
+        },
+        {
+          "verse_key": "20:69",
+          "word_location": "20:69:5",
+          "sense_ids": [
+            "qsense:lqf:laqifa:1"
+          ]
+        },
+        {
+          "verse_key": "26:45",
+          "word_location": "26:45:6",
+          "sense_ids": [
+            "qsense:lqf:laqifa:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:lqf:talaqqafa",
+      "headword_arabic": "تَلَقَّفَ",
+      "definition": "To catch and retain something quickly.",
+      "usage_conditions": "Form V transitive construction; the attested example applies the action to words caught from another's mouth.",
+      "source_refs": [
+        "lane:entry:20683"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lqf:20682:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:lqf:laqifa:1"
+      ],
+      "note": "The swift, deft taking-up meaning is represented in the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:lqf:20683:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lqf:talaqqafa"
+      ],
+      "note": "The Form V catching-and-retaining construction is represented as a Classical meaning."
+    }
+  ],
+  "cautions": [
+    "The QAC group contains imperfect active Form I occurrences; the public headword is normalized to the perfect citation form لَقِفَ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

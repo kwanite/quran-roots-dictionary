@@ -1,0 +1,163 @@
+{
+  "root": "bjs",
+  "arabic": "بجس",
+  "root_idea": {
+    "summary": "The root denotes opening or splitting a thing so that water emerges, especially through a fissure, vent, or narrow outlet.",
+    "development": "The semantic development runs from making a passage for water to water's issuing through that passage. The Form VII usage describes the resulting welling or gushing forth; Quran-focused evidence distinguishes this narrower emergence from the more general use of انفجار.",
+    "source_refs": [
+      "maqayis:row:689",
+      "mufradat:row:94"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bjs:{n[bajasato:verb:VII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-bjs-inbajas",
+      "reason": "The Quran-attested Form VII verb is presented under its normalized perfect-tense dictionary citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-bjs-inbajas",
+      "form_group_ids": [
+        "qac-form:bjs:{n[bajasato:verb:VII"
+      ],
+      "headword_arabic": "اِنْبَجَسَ",
+      "public_pos_label": "Verb · Form VII",
+      "verb_form": "VII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-bjs-inbajas-q1",
+          "definition": "To gush or well forth through an opening; in the Quran, water gushes from the rock and forms springs.",
+          "usage_conditions": "The Quranic usage is associated with emergence through a relatively narrow outlet. The Quran-focused lexical discussion contrasts انبجاس with انفجار, which can also describe emergence from a wider opening.",
+          "source_refs": [
+            "lane:entry:35585",
+            "mufradat:row:94"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:160",
+          "word_location": "7:160:16",
+          "sense_ids": [
+            "sense-bjs-inbajas-q1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical-bjs-bajasa-transitive",
+      "headword_arabic": "بَجَسَ",
+      "definition": "To open a way, passage, vent, or channel for water and make it flow; said by tropical extension of opening a wound so that it discharges.",
+      "usage_conditions": "Transitive Form I usage; the application to a wound is explicitly described as tropical.",
+      "source_refs": [
+        "lane:entry:35582"
+      ]
+    },
+    {
+      "meaning_id": "classical-bjs-inbijas-crack",
+      "headword_arabic": "اِنْبِجَاسٌ",
+      "definition": "A cracking or fissuring in a water-skin, stone, or earth through which water issues.",
+      "usage_conditions": "Nominal designation of the fissure or opening that allows water to escape.",
+      "source_refs": [
+        "lane:entry:35585"
+      ]
+    },
+    {
+      "meaning_id": "classical-bjs-inbajas-cloud",
+      "headword_arabic": "اِنْبَجَسَ",
+      "definition": "Of clouds, to pour forth rain; more generally, to pour forth abundantly.",
+      "usage_conditions": "This extends the intransitive outpouring usage to rain-bearing clouds and abundant pouring outside the Quranic rock-and-springs context.",
+      "source_refs": [
+        "lane:entry:35585"
+      ]
+    },
+    {
+      "meaning_id": "classical-bjs-tabajasa-dish",
+      "headword_arabic": "تَبَجَّسَ",
+      "definition": "Of a dish of food, to stream with seasoning or grease because of an abundance of fat.",
+      "usage_conditions": "A conventional figurative or culinary usage describing abundant liquid fat in the dish.",
+      "source_refs": [
+        "lane:entry:35585",
+        "maqayis:row:689"
+      ]
+    },
+    {
+      "meaning_id": "classical-bjs-bajs-nominal",
+      "headword_arabic": "بَجْسٌ",
+      "definition": "Flowing or pouring water, especially water having an opened vent or channel; also a copious spring or a cloud pouring rain.",
+      "usage_conditions": "Used nominally or adjectivally in expressions such as ماء بجس, عين بجس, and سحاب بجس.",
+      "source_refs": [
+        "lane:entry:35586"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bjs:35582:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-bjs-bajasa-transitive"
+      ],
+      "note": "The transitive opening-and-flowing meaning, including the tropical wound use, is represented."
+    },
+    {
+      "unit_id": "lane-unit:bjs:35582:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bjs:35583:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:bjs:35584:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form VII."
+    },
+    {
+      "unit_id": "lane-unit:bjs:35585:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-bjs-inbajas-q1",
+        "classical-bjs-inbijas-crack",
+        "classical-bjs-inbajas-cloud",
+        "classical-bjs-tabajasa-dish"
+      ],
+      "note": "The unit's Quran-attested outpouring, fissuring, cloud-rain, and culinary branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:bjs:35586:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-bjs-bajs-nominal"
+      ],
+      "note": "The nominal and adjectival uses for flowing water, springs, and rain-pouring clouds are represented."
+    },
+    {
+      "unit_id": "lane-unit:bjs:35587:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بجس."
+    },
+    {
+      "unit_id": "lane-unit:bjs:35588:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بجس."
+    }
+  ],
+  "cautions": [
+    "The public headword اِنْبَجَسَ is the normalized Form VII perfect citation form; the sole Quran occurrence is the feminine perfect form ٱنۢبَجَسَتْ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

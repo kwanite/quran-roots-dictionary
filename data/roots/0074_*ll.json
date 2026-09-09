@@ -1,0 +1,953 @@
+{
+  "root": "*ll",
+  "arabic": "ذلل",
+  "root_idea": {
+    "summary": "The root centers on yielding, lowliness, submission, and softness, in contrast with strength, resistance, or difficulty.",
+    "development": "It develops both toward abasement or weakness and toward becoming tractable, tamed, smoothed, or made easy; this latter branch includes compliant animals, passable paths, and fruit made accessible.",
+    "source_refs": [
+      "maqayis:row:1907",
+      "mufradat:row:509"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:*ll:n~a*il~a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "f-dhalla-I",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:*ll:*ul~ilato:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "f-dhallala-II",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:*ll:tu*il~u:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "f-adhalla-IV",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:*ll:*aluwl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "f-dhalul",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:*ll:*il~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "f-dhilla",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:*ll:*ulul:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "f-dhalul",
+      "reason": "ذُلُل is the Quranic plural of the citation form ذَلُول."
+    },
+    {
+      "form_group_id": "qac-form:*ll:*~ul~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "f-dhull",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:*ll:>a*al~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "f-adhal",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:*ll:>a*il~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "f-adhilla",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:*ll:ta*oliyl:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "f-dhallala-II",
+      "reason": "تَذْلِيل is the verbal noun of Form II ذَلَّلَ and occurs in the same Quranic fruit-accessibility construction."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "f-dhalla-I",
+      "form_group_ids": [
+        "qac-form:*ll:n~a*il~a:verb:I"
+      ],
+      "headword_arabic": "ذَلَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s-dhalla-abased",
+          "definition": "To become lowly, weak, or humiliated.",
+          "usage_conditions": "Used of entering a condition of abasement or weakness.",
+          "source_refs": [
+            "lane:entry:21637",
+            "mufradat:row:509"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:134",
+          "word_location": "20:134:18",
+          "sense_ids": [
+            "s-dhalla-abased"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "f-dhallala-II",
+      "form_group_ids": [
+        "qac-form:*ll:*ul~ilato:verb:II",
+        "qac-form:*ll:ta*oliyl:nominal:-"
+      ],
+      "headword_arabic": "ذَلَّلَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s-dhallala-tame",
+          "definition": "To make tractable; to tame, subdue, or place at one's service.",
+          "usage_conditions": "Used of rendering living creatures manageable or subject to use.",
+          "source_refs": [
+            "lane:entry:21638",
+            "mufradat:row:509"
+          ]
+        },
+        {
+          "sense_id": "s-dhallala-fruitaccessible",
+          "definition": "To make fruit-clusters hang low, arranged, and easy to reach or pick.",
+          "usage_conditions": "Used of the fruit-clusters in Paradise; the verbal noun denotes this making accessible.",
+          "source_refs": [
+            "lane:entry:21638",
+            "mufradat:row:509"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "36:72",
+          "word_location": "36:72:1",
+          "sense_ids": [
+            "s-dhallala-tame"
+          ]
+        },
+        {
+          "verse_key": "76:14",
+          "word_location": "76:14:4",
+          "sense_ids": [
+            "s-dhallala-fruitaccessible"
+          ]
+        },
+        {
+          "verse_key": "76:14",
+          "word_location": "76:14:6",
+          "sense_ids": [
+            "s-dhallala-fruitaccessible"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "f-adhalla-IV",
+      "form_group_ids": [
+        "qac-form:*ll:tu*il~u:verb:IV"
+      ],
+      "headword_arabic": "أَذَلَّ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s-adhalla-humiliate",
+          "definition": "To lower, abase, humiliate, or render weak.",
+          "usage_conditions": "A causative use: the subject brings another into a state of lowness or humiliation.",
+          "source_refs": [
+            "lane:entry:21639",
+            "mufradat:row:509"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:26",
+          "word_location": "3:26:16",
+          "sense_ids": [
+            "s-adhalla-humiliate"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "f-dhalul",
+      "form_group_ids": [
+        "qac-form:*ll:*aluwl:nominal:-",
+        "qac-form:*ll:*ulul:nominal:-"
+      ],
+      "headword_arabic": "ذَلُول",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s-dhalul-tractable",
+          "definition": "Tractable, compliant, or made easy to use or traverse.",
+          "usage_conditions": "Used of an animal that is not refractory, and of land or paths made accessible and yielding.",
+          "source_refs": [
+            "lane:entry:21647",
+            "mufradat:row:509"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:71",
+          "word_location": "2:71:7",
+          "sense_ids": [
+            "s-dhalul-tractable"
+          ]
+        },
+        {
+          "verse_key": "67:15",
+          "word_location": "67:15:6",
+          "sense_ids": [
+            "s-dhalul-tractable"
+          ]
+        },
+        {
+          "verse_key": "16:69",
+          "word_location": "16:69:9",
+          "sense_ids": [
+            "s-dhalul-tractable"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "f-dhilla",
+      "form_group_ids": [
+        "qac-form:*ll:*il~ap:nominal:-"
+      ],
+      "headword_arabic": "ذِلَّة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "s-dhilla-humiliation",
+          "definition": "Humiliation, abasement, or a condition of lowliness and weakness.",
+          "usage_conditions": "Used of disgrace or humbling that comes upon people.",
+          "source_refs": [
+            "lane:entry:21644",
+            "mufradat:row:509"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:61",
+          "word_location": "2:61:39",
+          "sense_ids": [
+            "s-dhilla-humiliation"
+          ]
+        },
+        {
+          "verse_key": "70:44",
+          "word_location": "70:44:4",
+          "sense_ids": [
+            "s-dhilla-humiliation"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "f-dhull",
+      "form_group_ids": [
+        "qac-form:*ll:*~ul~:nominal:-"
+      ],
+      "headword_arabic": "ذُلّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s-dhull-humility",
+          "definition": "Humility, gentle submissiveness, or yielding deference.",
+          "usage_conditions": "In the expression about lowering the wing toward one's parents, it denotes gentleness expressed through humble compliance.",
+          "source_refs": [
+            "lane:entry:21645",
+            "mufradat:row:509"
+          ]
+        },
+        {
+          "sense_id": "s-dhull-lowliness",
+          "definition": "Lowliness, weakness, abasement, or disgrace.",
+          "usage_conditions": "Used both for a condition of weakness and for humiliating disgrace.",
+          "source_refs": [
+            "lane:entry:21644",
+            "mufradat:row:509"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:24",
+          "word_location": "17:24:4",
+          "sense_ids": [
+            "s-dhull-humility"
+          ]
+        },
+        {
+          "verse_key": "17:111",
+          "word_location": "17:111:19",
+          "sense_ids": [
+            "s-dhull-lowliness"
+          ]
+        },
+        {
+          "verse_key": "42:45",
+          "word_location": "42:45:6",
+          "sense_ids": [
+            "s-dhull-lowliness"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "f-adhal",
+      "form_group_ids": [
+        "qac-form:*ll:>a*al~:nominal:-"
+      ],
+      "headword_arabic": "أَذَلّ",
+      "public_pos_label": "Comparative adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "s-adhal-lowest",
+          "definition": "Lower, more lowly, or most humiliated.",
+          "usage_conditions": "A comparative or superlative adjective, with the precise comparison supplied by context.",
+          "source_refs": [
+            "lane:entry:21655"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "58:20",
+          "word_location": "58:20:8",
+          "sense_ids": [
+            "s-adhal-lowest"
+          ]
+        },
+        {
+          "verse_key": "63:8",
+          "word_location": "63:8:9",
+          "sense_ids": [
+            "s-adhal-lowest"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "f-adhilla",
+      "form_group_ids": [
+        "qac-form:*ll:>a*il~ap:nominal:-"
+      ],
+      "headword_arabic": "أَذِلَّة",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "s-adhilla-gentle",
+          "definition": "Humble, gentle, and merciful in one's bearing toward others.",
+          "usage_conditions": "Used of a commendable self-humbling disposition toward the believers.",
+          "source_refs": [
+            "lane:entry:21648",
+            "mufradat:row:509"
+          ]
+        },
+        {
+          "sense_id": "s-adhilla-lowly",
+          "definition": "Lowly, weak, or reduced to humiliation.",
+          "usage_conditions": "Used of persons characterized as weak or brought into a low and humiliated state.",
+          "source_refs": [
+            "lane:entry:21648",
+            "mufradat:row:509"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:54",
+          "word_location": "5:54:15",
+          "sense_ids": [
+            "s-adhilla-gentle"
+          ]
+        },
+        {
+          "verse_key": "3:123",
+          "word_location": "3:123:6",
+          "sense_ids": [
+            "s-adhilla-lowly"
+          ]
+        },
+        {
+          "verse_key": "27:37",
+          "word_location": "27:37:11",
+          "sense_ids": [
+            "s-adhilla-lowly"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "c-rhyme-easy",
+      "headword_arabic": "ذَلَّ",
+      "definition": "To come easily or readily, said of rhymes to a poet.",
+      "usage_conditions": "A figurative literary use.",
+      "source_refs": [
+        "lane:entry:21637"
+      ]
+    },
+    {
+      "meaning_id": "c-trough-broken",
+      "headword_arabic": "ذَلَّ",
+      "definition": "To become much broken or demolished at the edge.",
+      "usage_conditions": "Said of a watering-trough, tank, or its upper edge.",
+      "source_refs": [
+        "lane:entry:21637"
+      ]
+    },
+    {
+      "meaning_id": "c-formII-roadsmooth",
+      "headword_arabic": "ذَلَّلَ",
+      "definition": "To beat or tread a road so that it becomes even and easy to travel.",
+      "usage_conditions": "A figurative extension of making tractable.",
+      "source_refs": [
+        "lane:entry:21638"
+      ]
+    },
+    {
+      "meaning_id": "c-formII-makeeasy",
+      "headword_arabic": "ذَلَّلَ",
+      "definition": "To make an affair easy for someone.",
+      "usage_conditions": "Used with an affair or matter as object.",
+      "source_refs": [
+        "lane:entry:21638"
+      ]
+    },
+    {
+      "meaning_id": "c-formIV-lowcompanions",
+      "headword_arabic": "أَذَلَّ",
+      "definition": "To become a person whose companions are lowly or base.",
+      "usage_conditions": "An intransitive Form IV usage.",
+      "source_refs": [
+        "lane:entry:21639"
+      ]
+    },
+    {
+      "meaning_id": "c-formIV-lowcondition",
+      "headword_arabic": "أَذَلَّ",
+      "definition": "To enter a low or base condition.",
+      "usage_conditions": "An intransitive Form IV usage.",
+      "source_refs": [
+        "lane:entry:21639"
+      ]
+    },
+    {
+      "meaning_id": "c-formX-findlow",
+      "headword_arabic": "اِسْتَذَلَّ",
+      "definition": "To deem or find someone lowly or contemptible.",
+      "usage_conditions": "Form X.",
+      "source_refs": [
+        "lane:entry:21641"
+      ]
+    },
+    {
+      "meaning_id": "c-formX-camelticks",
+      "headword_arabic": "اِسْتَذَلَّ",
+      "definition": "To remove ticks from a refractory camel in order to obtain relief and ease with it.",
+      "usage_conditions": "A specialized camel-related expression.",
+      "source_refs": [
+        "lane:entry:21641"
+      ]
+    },
+    {
+      "meaning_id": "c-tadhaldhal",
+      "headword_arabic": "تَذَلْذَلَ",
+      "definition": "To be in commotion or agitation, and become lax, slack, or pendulous.",
+      "usage_conditions": "A reduplicated quadriliteral form.",
+      "source_refs": [
+        "lane:entry:21643"
+      ]
+    },
+    {
+      "meaning_id": "c-dhill-trackcourse",
+      "headword_arabic": "ذِلّ",
+      "definition": "A beaten and level part of a road; figuratively, an easy or proper course in which affairs proceed.",
+      "usage_conditions": "Also occurs in the plural أَذْلَال in sayings about letting matters take their fitting course.",
+      "source_refs": [
+        "lane:entry:21645"
+      ]
+    },
+    {
+      "meaning_id": "c-dhalul-spearheads",
+      "headword_arabic": "ذُلُل",
+      "definition": "Made easy to pierce, said of spearheads sharpened thin and slender.",
+      "usage_conditions": "A poetic application of the plural.",
+      "source_refs": [
+        "lane:entry:21647"
+      ]
+    },
+    {
+      "meaning_id": "c-dhalil-lowly",
+      "headword_arabic": "ذَلِيل",
+      "definition": "Low, base, abased, humiliated, or weak.",
+      "usage_conditions": "An adjective, with plurals including أَذِلَّة.",
+      "source_refs": [
+        "lane:entry:21648"
+      ]
+    },
+    {
+      "meaning_id": "c-dhalil-road",
+      "headword_arabic": "ذَلِيل",
+      "definition": "Even, smooth, beaten, and easy to travel.",
+      "usage_conditions": "Said of a road, land, or ground.",
+      "source_refs": [
+        "lane:entry:21648"
+      ]
+    },
+    {
+      "meaning_id": "c-dhalil-lowphysical",
+      "headword_arabic": "ذَلِيل",
+      "definition": "Low; also low and thin, or short.",
+      "usage_conditions": "Said, according to context, of a wall, building, mountain, or spear.",
+      "source_refs": [
+        "lane:entry:21648"
+      ]
+    },
+    {
+      "meaning_id": "c-dhalil-abasing",
+      "headword_arabic": "ذَلِيل",
+      "definition": "Intensely low or abasing; an intensive adjective that can mean one who lowers or abases.",
+      "usage_conditions": "An intensive adjectival use.",
+      "source_refs": [
+        "lane:entry:21648"
+      ]
+    },
+    {
+      "meaning_id": "c-dhaluliy-goodnatured",
+      "headword_arabic": "ذَلُولِيّ",
+      "definition": "Good and easy in natural disposition.",
+      "usage_conditions": "An adjective of character or temperament.",
+      "source_refs": [
+        "lane:entry:21649"
+      ]
+    },
+    {
+      "meaning_id": "c-dhuldhul-hems",
+      "headword_arabic": "ذُلْذُل",
+      "definition": "The lower trailing parts of a long shirt; figuratively, the last or lowest people.",
+      "usage_conditions": "The figurative use can denote the baser or meaner among a group.",
+      "source_refs": [
+        "lane:entry:21651"
+      ]
+    },
+    {
+      "meaning_id": "c-madhalla-peg",
+      "headword_arabic": "مَذَلَّة",
+      "definition": "A wooden pin, peg, or stake.",
+      "usage_conditions": "An idiomatic nominal use, associated with a battered or broken head.",
+      "source_refs": [
+        "lane:entry:21657"
+      ]
+    },
+    {
+      "meaning_id": "c-mudhalla-palms",
+      "headword_arabic": "مُذَلَّل",
+      "definition": "Having fruit-racemes bent down so that the fruit may be easily gathered.",
+      "usage_conditions": "Especially said of palm-trees; also discussed in relation to making access easy.",
+      "source_refs": [
+        "lane:entry:21658"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:*ll:21637:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-dhalla-abased"
+      ],
+      "note": "Form I lowliness and weakness are represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21637:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s-dhalul-tractable"
+      ],
+      "note": "Tractability and submissiveness are covered."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21637:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s-dhalul-tractable"
+      ],
+      "note": "The easy, trodden-road extension is covered."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21637:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-rhyme-easy"
+      ],
+      "note": "Literary ease of rhymes is distinct."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21637:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-trough-broken"
+      ],
+      "note": "The damaged-edge use is distinct."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21638:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-dhallala-tame"
+      ],
+      "note": "Making tractable or taming is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21638:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-formII-roadsmooth"
+      ],
+      "note": "Road smoothing is a separate Form II use."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21638:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-formII-makeeasy"
+      ],
+      "note": "Making an affair easy is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21638:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-dhallala-fruitaccessible"
+      ],
+      "note": "The Quranic fruit-cluster construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21638:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21639:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-adhalla-humiliate"
+      ],
+      "note": "Causative abasement is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21639:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21639:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-formIV-lowcompanions"
+      ],
+      "note": "The intransitive companions use is distinct."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21639:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-formIV-lowcondition"
+      ],
+      "note": "The intransitive condition use is distinct."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21640:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference only; no independent definition is supplied."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21641:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-formX-findlow"
+      ],
+      "note": "Form X evaluation or finding use is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21641:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21641:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-formX-camelticks"
+      ],
+      "note": "Specialized camel expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21642:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial notice assigning the form to another root article."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21643:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-tadhaldhal"
+      ],
+      "note": "Agitation and pendulous laxness are represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21644:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-dhull-lowliness"
+      ],
+      "note": "Lowness, weakness, and the Quranic expression are covered."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21644:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21645:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s-dhull-humility"
+      ],
+      "note": "Yielding tractability and submissiveness are covered."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21645:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-dhull-humility"
+      ],
+      "note": "The Quranic parental-gentleness construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21645:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-dhill-trackcourse"
+      ],
+      "note": "The track and conventional-course senses are represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21645:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21646:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21646:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s-dhilla-humiliation"
+      ],
+      "note": "The cited sense is lowliness or humiliation."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21647:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-dhalul-tractable",
+        "c-dhalul-spearheads"
+      ],
+      "note": "Quranic tractability and the poetic spearhead use are both represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21647:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21648:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-adhilla-lowly",
+        "c-dhalil-lowly"
+      ],
+      "note": "Both the Quranic plural and the distinct singular adjective are represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21648:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-adhilla-gentle"
+      ],
+      "note": "The Quranic gentle and merciful sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21648:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-dhalil-road"
+      ],
+      "note": "The road and ground adjective is distinct."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21648:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-dhalil-lowphysical"
+      ],
+      "note": "Physical lowness, thinness, and shortness are represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21648:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-dhalil-abasing"
+      ],
+      "note": "The intensive or abasing adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21649:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-dhaluliy-goodnatured"
+      ],
+      "note": "Disposition adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21650:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21651:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-dhuldhul-hems"
+      ],
+      "note": "Lower parts of a garment are represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21651:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-dhuldhul-hems"
+      ],
+      "note": "The figurative lowest people use is represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21652:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21653:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21654:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21655:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-adhal-lowest"
+      ],
+      "note": "Comparative and superlative lowliness are represented."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21656:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer and morphological note only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21656:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21657:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21657:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-madhalla-peg"
+      ],
+      "note": "The peg or stake meaning is distinct."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21658:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:*ll:21658:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c-mudhalla-palms"
+      ],
+      "note": "The palm-raceme participial use is represented."
+    }
+  ],
+  "cautions": [
+    "Classical sources distinguish ذُلّ, abasement imposed through overpowering, from ذِلّ, yielding or tractability after resistance; Quranic readings and context can bring the two semantic shades close together, especially in 17:24."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

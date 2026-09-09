@@ -1,0 +1,353 @@
+{
+  "root": "bky",
+  "arabic": "بكي",
+  "root_idea": {
+    "summary": "The root centers on grief expressed outwardly through weeping, whether by shedding tears, uttering a lamenting cry, or experiencing grief without both of these manifestations.",
+    "development": "The lexical evidence distinguishes audible lamentation from tears, while allowing either to predominate or occur alone. Derived forms extend the field to causing, competing in, feigning, or soliciting weeping.",
+    "source_refs": [
+      "lane:entry:36973",
+      "mufradat:row:152",
+      "lane:entry:36976",
+      "lane:entry:36977",
+      "lane:entry:36978"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bky:bakato:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bky_f1_baka",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:bky:>abokaY`:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bky_f4_abka",
+      "reason": "Displayed as the distinct Form IV causative verb."
+    },
+    {
+      "form_group_id": "qac-form:bky:bukiy~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bky_nom_bakin",
+      "reason": "Displayed under the singular active-participial citation form supported by the evidence; the Quranic occurrence is its plural form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bky_f1_baka",
+      "form_group_ids": [
+        "qac-form:bky:bakato:verb:I"
+      ],
+      "headword_arabic": "بَكَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "bky_f1_s1",
+          "definition": "To weep or grieve, through shedding tears, uttering a lamenting cry, or either occurring alone.",
+          "usage_conditions": "Audible lamentation and tears may occur together or separately, and grief need not entail both. The verb can describe weeping as an expression of grief without requiring a particular bodily manifestation.",
+          "source_refs": [
+            "lane:entry:36973",
+            "mufradat:row:152"
+          ]
+        },
+        {
+          "sense_id": "bky_f1_s2",
+          "definition": "To weep for or over someone or something; to mourn or lament.",
+          "usage_conditions": "The person or thing mourned may be introduced with لِ or عَلَى. In the Quranic expression concerning the sky and earth weeping over them, the statement is understood either literally or figuratively; the construction is not restricted to a human subject.",
+          "source_refs": [
+            "lane:entry:36973",
+            "mufradat:row:152"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:82",
+          "word_location": "9:82:3",
+          "sense_ids": [
+            "bky_f1_s1"
+          ]
+        },
+        {
+          "verse_key": "44:29",
+          "word_location": "44:29:2",
+          "sense_ids": [
+            "bky_f1_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bky_f4_abka",
+      "form_group_ids": [
+        "qac-form:bky:>abokaY`:verb:IV"
+      ],
+      "headword_arabic": "أَبْكَى",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bky_f4_s1",
+          "definition": "To make or cause someone to weep.",
+          "usage_conditions": "A causative construction in which the person caused to weep may be stated or understood.",
+          "source_refs": [
+            "lane:entry:36976"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "53:43",
+          "word_location": "53:43:4",
+          "sense_ids": [
+            "bky_f4_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bky_nom_bakin",
+      "form_group_ids": [
+        "qac-form:bky:bukiy~:nominal:-"
+      ],
+      "headword_arabic": "بَاكٍ",
+      "public_pos_label": "Active participle · Quranic plural بُكِيًّا",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bky_nom_s1",
+          "definition": "A weeper; one who weeps.",
+          "usage_conditions": "The supplied Quran occurrence is the plural form بُكِيًّا, used substantivally and rendered contextually as “weeping” or “weepers.”",
+          "source_refs": [
+            "lane:entry:36981",
+            "mufradat:row:152"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:58",
+          "word_location": "19:58:29",
+          "sense_ids": [
+            "bky_nom_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "bky_cl_rain",
+      "headword_arabic": "بَكَى",
+      "definition": "Of a cloud, to rain.",
+      "usage_conditions": "A tropical or figurative use predicated of a cloud.",
+      "source_refs": [
+        "lane:entry:36973"
+      ]
+    },
+    {
+      "meaning_id": "bky_cl_sing",
+      "headword_arabic": "بَكَى",
+      "definition": "To sing.",
+      "usage_conditions": "Reported especially of a pigeon and similar creatures, and also attested of a person.",
+      "source_refs": [
+        "lane:entry:36973"
+      ]
+    },
+    {
+      "meaning_id": "bky_cl_compete",
+      "headword_arabic": "بَاكَى",
+      "definition": "To vie with another in weeping and surpass him in it; to be the greater weeper.",
+      "usage_conditions": "A Form III comparative or competitive construction concerning relative ability or intensity in weeping.",
+      "source_refs": [
+        "lane:entry:36975"
+      ]
+    },
+    {
+      "meaning_id": "bky_cl_causative_mourning",
+      "headword_arabic": "أَبْكَى",
+      "definition": "To prompt or provoke mourning for someone dead or for something lost.",
+      "usage_conditions": "A specialized causative construction with عَلَيْهِ; this classical mourning context is distinct from the general Quran-attested causative sense.",
+      "source_refs": [
+        "lane:entry:36976"
+      ]
+    },
+    {
+      "meaning_id": "bky_cl_affected_weeping",
+      "headword_arabic": "تَبَاكَى",
+      "definition": "To affect or feign weeping, or to strive or force oneself to weep.",
+      "usage_conditions": "A Form VI reflexive or affected-weeping construction; the outward display need not reflect spontaneous grief.",
+      "source_refs": [
+        "lane:entry:36977"
+      ]
+    },
+    {
+      "meaning_id": "bky_cl_request_weeping",
+      "headword_arabic": "اِسْتَبْكَى",
+      "definition": "To seek, request, or require weeping from someone.",
+      "usage_conditions": "A Form X construction expressing a desire or requirement that another person weep.",
+      "source_refs": [
+        "lane:entry:36978"
+      ]
+    },
+    {
+      "meaning_id": "bky_cl_frequent_weeper",
+      "headword_arabic": "بَكِيّ",
+      "definition": "One who weeps much; a habitual or frequent weeper.",
+      "usage_conditions": "An intensive descriptive adjective or noun for a person characterized by abundant weeping.",
+      "source_refs": [
+        "lane:entry:36979"
+      ]
+    },
+    {
+      "meaning_id": "bky_cl_comparative",
+      "headword_arabic": "أَبْكَى",
+      "definition": "More given to weeping than another; a greater weeper.",
+      "usage_conditions": "A comparative adjective, distinct from the homographic Form IV causative verb.",
+      "source_refs": [
+        "lane:entry:36982"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bky:36973:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_f1_s1",
+        "bky_f1_s2"
+      ],
+      "note": "The primary weeping, grief, tears, lamentation, and prepositional constructions are covered by the two Form I senses."
+    },
+    {
+      "unit_id": "lane-unit:bky:36973:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_cl_rain"
+      ],
+      "note": "Cloud-related use is represented as a classical branch."
+    },
+    {
+      "unit_id": "lane-unit:bky:36973:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_cl_sing"
+      ],
+      "note": "The singing use is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:bky:36973:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form III entry."
+    },
+    {
+      "unit_id": "lane-unit:bky:36974:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:bky:36974:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to entry 4."
+    },
+    {
+      "unit_id": "lane-unit:bky:36975:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_cl_compete"
+      ],
+      "note": "Competitive weeping use is represented under the Form III headword."
+    },
+    {
+      "unit_id": "lane-unit:bky:36976:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_f4_s1",
+        "bky_cl_causative_mourning"
+      ],
+      "note": "The general causative and specialized mourning construction are both represented."
+    },
+    {
+      "unit_id": "lane-unit:bky:36977:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_cl_affected_weeping"
+      ],
+      "note": "Affected or effortful weeping is represented under Form VI."
+    },
+    {
+      "unit_id": "lane-unit:bky:36977:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bky_cl_affected_weeping"
+      ],
+      "note": "Feigned or displayed weeping is covered by the same Form VI meaning."
+    },
+    {
+      "unit_id": "lane-unit:bky:36978:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form IV entry."
+    },
+    {
+      "unit_id": "lane-unit:bky:36978:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_cl_request_weeping"
+      ],
+      "note": "Seeking or requiring another's weeping is represented under Form X."
+    },
+    {
+      "unit_id": "lane-unit:bky:36979:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_cl_frequent_weeper"
+      ],
+      "note": "The intensive sense 'one who weeps much' is represented."
+    },
+    {
+      "unit_id": "lane-unit:bky:36979:g2:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "The speechlessness sense is explicitly questioned as possibly belonging to بكأ rather than بكي."
+    },
+    {
+      "unit_id": "lane-unit:bky:36980:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the frequent-weeper entry."
+    },
+    {
+      "unit_id": "lane-unit:bky:36981:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_nom_s1"
+      ],
+      "note": "The active participle and its plural are represented by the normalized nominal form."
+    },
+    {
+      "unit_id": "lane-unit:bky:36982:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bky_cl_comparative"
+      ],
+      "note": "The comparative adjective is represented separately from the Form IV verb."
+    }
+  ],
+  "cautions": [
+    "The Quranic nominal occurrence is the plural بُكِيًّا; it is presented under the supported singular active-participial citation form بَاكٍ.",
+    "أَبْكَى is represented both as the Quranic Form IV causative verb and, separately, as a classical comparative adjective meaning “more given to weeping.”",
+    "A Lane discussion of Form VI تَبَاكَى is retained as a classical derived-form meaning because no corresponding Form VI QAC form group is supplied.",
+    "No Maqayis entry was supplied; the root orientation is therefore based on the available direct lexical discussions."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:bky:36979:g2:main reports بَكِيٌّ for “a man unable to speak,” but the same unit suggests that the form may instead be بَكِئٌ from the separate root بكأ; the meaning is not assigned confidently to بكي."
+  ]
+}

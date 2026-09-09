@@ -1,0 +1,108 @@
+{
+  "root": "mHn",
+  "arabic": "محن",
+  "root_idea": {
+    "summary": "Classical evidence records three distinct, non-analogical branches for this root: testing or trial, giving or withholding, and striking with a whip.",
+    "development": "The Quranic Form VIII verb develops the testing-and-trial branch, alongside the related noun مِحْنَةٌ. The reported giving and striking branches remain separate Classical Arabic usages rather than extensions of the Quranic verb's sense.",
+    "source_refs": [
+      "maqayis:row:4309",
+      "mufradat:row:1349"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mHn:{motaHana:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:mHn:imtahana:v8",
+      "reason": "Quran-attested Form VIII verb with an independently supported testing/trial meaning."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:mHn:imtahana:v8",
+      "form_group_ids": [
+        "qac-form:mHn:{motaHana:verb:VIII"
+      ],
+      "headword_arabic": "اِمْتَحَنَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform:mHn:imtahana:v8:s1",
+          "definition": "To test, examine, or put through trial.",
+          "usage_conditions": "Used of testing people or hearts. The Quranic usages include examining persons and describing hearts as tested in relation to piety; these are applications of the same testing or trial construction.",
+          "source_refs": [
+            "mufradat:row:1349",
+            "maqayis:row:4309"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "60:10",
+          "word_location": "60:10:8",
+          "sense_ids": [
+            "qform:mHn:imtahana:v8:s1"
+          ]
+        },
+        {
+          "verse_key": "49:3",
+          "word_location": "49:3:10",
+          "sense_ids": [
+            "qform:mHn:imtahana:v8:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical:mHn:miHna:trial",
+      "headword_arabic": "مِحْنَةٌ",
+      "definition": "A trial, ordeal, or afflicting test.",
+      "usage_conditions": "Noun; plural مِحَنٌ.",
+      "source_refs": [
+        "lane:entry:5644"
+      ]
+    },
+    {
+      "meaning_id": "classical:mHn:maHana:give",
+      "headword_arabic": "مَحَنَ",
+      "definition": "To give someone something.",
+      "usage_conditions": "Attested in a negative construction meaning, “I came to him, but he gave me nothing.”",
+      "source_refs": [
+        "maqayis:row:4309"
+      ]
+    },
+    {
+      "meaning_id": "classical:mHn:maHana:strike",
+      "headword_arabic": "مَحَنَ",
+      "definition": "To strike someone with a whip.",
+      "usage_conditions": "A transitive construction specifying the whip as the instrument.",
+      "source_refs": [
+        "maqayis:row:4309"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mHn:5644:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:mHn:miHna:trial"
+      ],
+      "note": "Defines مِحْنَةٌ as a trial or afflicting ordeal."
+    },
+    {
+      "unit_id": "lane-unit:mHn:5645:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer and orthographic correction directing the reader elsewhere; it supplies no lexical definition for this root."
+    }
+  ],
+  "cautions": [
+    "The Classical record explicitly treats testing, giving, and striking as separate non-analogical branches; the latter two should not be inferred as meanings of the Quranic Form VIII verb."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

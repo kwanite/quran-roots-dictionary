@@ -1,0 +1,100 @@
+{
+  "root": "xrdl",
+  "arabic": "خردل",
+  "root_idea": {
+    "summary": "The attested lexical orientation is mustard, especially the mustard seed or grain.",
+    "development": "The supplied evidence does not establish a broader root-level semantic development beyond this plant-name.",
+    "source_refs": [
+      "lane:entry:18777"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:xrdl:xarodal:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-xrdl-khurdal",
+      "reason": "The Quranic nominal is presented under the normalized dictionary citation form خَرْدَل."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-xrdl-khurdal",
+      "form_group_ids": [
+        "qac-form:xrdl:xarodal:nominal:-"
+      ],
+      "headword_arabic": "خَرْدَل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform-xrdl-khurdal-s1",
+          "definition": "Mustard seed; mustard, specifically the grain of the mustard plant.",
+          "usage_conditions": "The Quranic occurrences refer to the mustard seed or grain; renderings such as “mustard” and “mustard seed” represent the same lexical sense.",
+          "source_refs": [
+            "lane:entry:18777"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:47",
+          "word_location": "21:47:15",
+          "sense_ids": [
+            "qform-xrdl-khurdal-s1"
+          ]
+        },
+        {
+          "verse_key": "31:16",
+          "word_location": "31:16:8",
+          "sense_ids": [
+            "qform-xrdl-khurdal-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-xrdl-medicinal-uses",
+      "headword_arabic": "خَرْدَل",
+      "definition": "Mustard used as a medicinal and practical substance: heating, emollient, drawing, phlegmagogue, lenitive, and digestive; used in liniments and remedies, with its juice or oil applied for earache, its powder for toothache, and its smoke used to repel serpents and other harmful reptiles.",
+      "usage_conditions": "These are broader Classical Arabic properties and applications of mustard, not separate Quranic senses.",
+      "source_refs": [
+        "lane:entry:18777"
+      ]
+    },
+    {
+      "meaning_id": "cm-xrdl-persian-mustard",
+      "headword_arabic": "الخَرْدَلُ الفَارِسِيّ",
+      "definition": "A particular plant in Egypt known as حَشِيشَةُ السُّلْطَانِ.",
+      "usage_conditions": "A specific regional plant designation within the broader mustard entry.",
+      "source_refs": [
+        "lane:entry:18777"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:xrdl:18777:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-xrdl-khurdal-s1",
+        "cm-xrdl-medicinal-uses"
+      ],
+      "note": "The unit supplies the mustard-seed identification and distinct medicinal and practical applications."
+    },
+    {
+      "unit_id": "lane-unit:xrdl:18777:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xrdl-persian-mustard"
+      ],
+      "note": "The unit identifies a specific Egyptian plant designation."
+    }
+  ],
+  "cautions": [
+    "The medicinal and practical properties recorded in Classical Arabic are not asserted as additional Quranic meanings."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

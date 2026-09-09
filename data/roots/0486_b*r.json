@@ -1,0 +1,688 @@
+{
+  "root": "b*r",
+  "arabic": "بذر",
+  "root_idea": {
+    "summary": "The root centers on scattering or dispersing something by casting it forth, especially seed.",
+    "development": "The concrete notion of sowing and scattering seed extends to general dispersal, the dissemination of speech, and figuratively the dissipative expenditure of wealth.",
+    "source_refs": [
+      "maqayis:row:725",
+      "mufradat:row:106"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:b*r:tuba*~iro:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdr_badhdhara",
+      "reason": "The Quran-attested Form II verb is presented under its normalized perfect-tense citation form."
+    },
+    {
+      "form_group_id": "qac-form:b*r:muba*~iriyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdr_mubadhdhir",
+      "reason": "The Quranic plural active participle is presented under the supported singular participial citation form."
+    },
+    {
+      "form_group_id": "qac-form:b*r:tabo*iyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdr_tabdhir",
+      "reason": "The Quran-attested verbal noun is presented as its own lexical form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bdr_badhdhara",
+      "form_group_ids": [
+        "qac-form:b*r:tuba*~iro:verb:II"
+      ],
+      "headword_arabic": "بَذَّرَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bdr_badhdhara_s1",
+          "definition": "To squander or dissipate wealth through extravagant or improper expenditure.",
+          "usage_conditions": "Form II use with wealth or property; it denotes expenditure beyond what is right or befitting, including consuming, wasting, or ruining what is possessed, rather than ordinary spending.",
+          "source_refs": [
+            "lane:entry:35896",
+            "mufradat:row:106"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:26",
+          "word_location": "17:26:9",
+          "sense_ids": [
+            "bdr_badhdhara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bdr_mubadhdhir",
+      "form_group_ids": [
+        "qac-form:b*r:muba*~iriyn:nominal:-"
+      ],
+      "headword_arabic": "مُبَذِّر",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bdr_mubadhdhir_s1",
+          "definition": "One who squanders or dissipates wealth through extravagant or improper expenditure.",
+          "usage_conditions": "Active participle of the Form II expenditure sense; it characterizes a person by such dissipation.",
+          "source_refs": [
+            "lane:entry:35896",
+            "lane:entry:35916",
+            "mufradat:row:106"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:27",
+          "word_location": "17:27:2",
+          "sense_ids": [
+            "bdr_mubadhdhir_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bdr_tabdhir",
+      "form_group_ids": [
+        "qac-form:b*r:tabo*iyr:nominal:-"
+      ],
+      "headword_arabic": "تَبْذِير",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bdr_tabdhir_s1",
+          "definition": "Squandering or dissipating wealth through extravagant or improper expenditure.",
+          "usage_conditions": "Verbal noun of the Form II expenditure sense; it denotes wasteful expenditure rather than the ordinary dispersal of seed.",
+          "source_refs": [
+            "lane:entry:35896",
+            "lane:entry:35910",
+            "mufradat:row:106"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:26",
+          "word_location": "17:26:10",
+          "sense_ids": [
+            "bdr_tabdhir_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_badhara_sow",
+      "headword_arabic": "بَذَرَ",
+      "definition": "To sow seed or grain by casting it upon the ground; to sow a field.",
+      "usage_conditions": "The basic concrete use; the object may be the seed, grain, or the land being sown.",
+      "source_refs": [
+        "lane:entry:35895"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhdhara_seedscatter",
+      "headword_arabic": "بَذَّرَ",
+      "definition": "To sow or scatter seed intensively; to scatter or disperse something abundantly.",
+      "usage_conditions": "An intensive Form II use related to the concrete scattering of seed, distinct from the Quranic expenditure use.",
+      "source_refs": [
+        "lane:entry:35895"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhara_scatter",
+      "headword_arabic": "بَذَرَ",
+      "definition": "To scatter or disperse a thing; to disperse people across the earth.",
+      "usage_conditions": "The object may be a thing or a group of people; the latter is an attested conventional use, not a restriction on the verb.",
+      "source_refs": [
+        "lane:entry:35895"
+      ]
+    },
+    {
+      "meaning_id": "cm_tabdhir_seedscatter",
+      "headword_arabic": "تَبْذِير",
+      "definition": "The intensive sowing or scattering of seed.",
+      "usage_conditions": "A concrete seed-scattering use of the verbal noun, distinct from its Quranic figurative use for dissipating wealth.",
+      "source_refs": [
+        "lane:entry:35895"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhara_speech",
+      "headword_arabic": "بَذَرَ",
+      "definition": "To disseminate, spread, or diffuse speech among people.",
+      "usage_conditions": "Figurative use modeled on scattering seed; the speech may be spread extensively.",
+      "source_refs": [
+        "lane:entry:35895"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhara_sprout",
+      "headword_arabic": "بَذَرَ",
+      "definition": "Of the earth: to put forth plants, herbage, or seed in a scattered state.",
+      "usage_conditions": "Intransitive use with the land as subject.",
+      "source_refs": [
+        "lane:entry:35895"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhura_reveal",
+      "headword_arabic": "بَذُرَ",
+      "definition": "To divulge what was secret or reveal what one had heard.",
+      "usage_conditions": "A figurative Form I use concerning disclosure of information.",
+      "source_refs": [
+        "lane:entry:35895"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhira_verb_loquacious",
+      "headword_arabic": "بَذِرَ",
+      "definition": "To talk much or be loquacious.",
+      "usage_conditions": "Form I verbal use describing excessive talkativeness.",
+      "source_refs": [
+        "lane:entry:35895"
+      ]
+    },
+    {
+      "meaning_id": "cm_tabadhdhara_scattered",
+      "headword_arabic": "تَبَذَّرَ",
+      "definition": "To become scattered or dispersed.",
+      "usage_conditions": "Intransitive Form V use; it can also indicate becoming much scattered.",
+      "source_refs": [
+        "lane:entry:35898"
+      ]
+    },
+    {
+      "meaning_id": "cm_tabadhdhara_speech",
+      "headword_arabic": "تَبَذَّرَ",
+      "definition": "Of speech: to become widely disseminated, scattered, or diffused.",
+      "usage_conditions": "Figurative intransitive use with speech or talk as the subject.",
+      "source_refs": [
+        "lane:entry:35898"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhru_seed",
+      "headword_arabic": "بَذْرٌ",
+      "definition": "Seed or grain set apart for sowing; any seed or sown grain.",
+      "usage_conditions": "The term may be distinguished from seed of sweet-smelling plants or leguminous herbs in one reported usage.",
+      "source_refs": [
+        "lane:entry:35899"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhru_sprout",
+      "headword_arabic": "بَذْرٌ",
+      "definition": "A newly emerged plant or herbage just come forth from the earth.",
+      "usage_conditions": "It may refer especially to the first growth while it has only two leaves, or before its kind is fully apparent.",
+      "source_refs": [
+        "lane:entry:35899"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhru_progeny",
+      "headword_arabic": "بَذْرٌ",
+      "definition": "Progeny or offspring.",
+      "usage_conditions": "Figurative extension from seed to its resulting descendants.",
+      "source_refs": [
+        "lane:entry:35899"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadhara_badhara",
+      "headword_arabic": "شَذَرَ بَذَرَ",
+      "definition": "To disperse in every direction.",
+      "usage_conditions": "Fixed expression used of people and, by extension, the like of a man's camels.",
+      "source_refs": [
+        "lane:entry:35901"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhir_adjective_loquacious",
+      "headword_arabic": "بَذِرٌ",
+      "definition": "Loquacious; a great or frivolous babbler.",
+      "usage_conditions": "Adjectival use for one who talks excessively or irrationally.",
+      "source_refs": [
+        "lane:entry:35902"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhir_food_abundance",
+      "headword_arabic": "بَذِرٌ",
+      "definition": "Food or grain characterized by increase, redundance, exuberance, or abundance.",
+      "usage_conditions": "Used of wheat or other food in which there is abundant increase.",
+      "source_refs": [
+        "lane:entry:35902"
+      ]
+    },
+    {
+      "meaning_id": "cm_budhurra_false",
+      "headword_arabic": "البُذُرَّى",
+      "definition": "What is false, vain, or ineffectual.",
+      "usage_conditions": "A figurative lexical use associated with the idea of dispersion.",
+      "source_refs": [
+        "lane:entry:35905"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhur_divulger",
+      "headword_arabic": "بَذُورٌ",
+      "definition": "One who divulges secrets or cannot keep a secret.",
+      "usage_conditions": "Descriptive noun or adjective for a person who reveals confidential information.",
+      "source_refs": [
+        "lane:entry:35906"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhur_slanderer",
+      "headword_arabic": "بَذُورٌ",
+      "definition": "A calumniator or slanderer.",
+      "usage_conditions": "A figurative extension involving the spreading of damaging speech.",
+      "source_refs": [
+        "lane:entry:35906"
+      ]
+    },
+    {
+      "meaning_id": "cm_badhir_scattered",
+      "headword_arabic": "بَذِيرٌ",
+      "definition": "Scattered or dispersed.",
+      "usage_conditions": "The interpretation is disputed; the form is also treated as an imitative or variant expression associated with كثِير, “many.”",
+      "source_refs": [
+        "lane:entry:35907"
+      ]
+    },
+    {
+      "meaning_id": "cm_budharah_abundance",
+      "headword_arabic": "بُذَارَةٌ",
+      "definition": "Increase, redundance, exuberance, plenty, or abundance in wheat or food.",
+      "usage_conditions": "Used in expressions describing food or grain with abundant increase.",
+      "source_refs": [
+        "lane:entry:35909"
+      ]
+    },
+    {
+      "meaning_id": "cm_badharra_squandering",
+      "headword_arabic": "بَذَارَّةٌ",
+      "definition": "The dissipation or squandering of wealth or property in an improper way.",
+      "usage_conditions": "A nominal form for wasteful expenditure, synonymous in meaning with the expenditure branch of تبذير.",
+      "source_refs": [
+        "lane:entry:35910"
+      ]
+    },
+    {
+      "meaning_id": "cm_tibdharah_squanderer",
+      "headword_arabic": "تِبْذَارَةٌ",
+      "definition": "One who dissipates or squanders wealth or property through extravagant expenditure.",
+      "usage_conditions": "Agent noun describing a person characterized by consuming, ruining, or improperly spending possessions.",
+      "source_refs": [
+        "lane:entry:35916"
+      ]
+    },
+    {
+      "meaning_id": "cm_mibdhar_land",
+      "headword_arabic": "مِبْذَارٌ",
+      "definition": "Land that yields increase or abundant vegetation.",
+      "usage_conditions": "Adjectival use with land and its plant growth.",
+      "source_refs": [
+        "lane:entry:35918"
+      ]
+    },
+    {
+      "meaning_id": "cm_mabdhur_abundant",
+      "headword_arabic": "مَبْذُورٌ",
+      "definition": "Many, much, or abundant; blessed with plenty or increase.",
+      "usage_conditions": "Used especially of abundant water or other plentiful things.",
+      "source_refs": [
+        "lane:entry:35919"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:b*r:35895:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhara_sow",
+        "cm_badhdhara_seedscatter",
+        "cm_tabdhir_seedscatter"
+      ],
+      "note": "Concrete sowing and the associated intensive derived forms are represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35895:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhara_sow",
+        "cm_badhdhara_seedscatter",
+        "cm_tabdhir_seedscatter"
+      ],
+      "note": "Sowing a field is covered with the seed-scattering branch."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35895:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhara_scatter",
+        "cm_badhdhara_seedscatter",
+        "cm_tabdhir_seedscatter"
+      ],
+      "note": "General and intensive scattering are represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35895:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhara_scatter"
+      ],
+      "note": "Dispersing mankind is explicitly included in the general scattering sense."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35895:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhara_speech"
+      ],
+      "note": "Disseminating speech is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35895:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhara_sprout"
+      ],
+      "note": "The intransitive land-and-growth use is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35895:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhura_reveal"
+      ],
+      "note": "Disclosure of secrets is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35895:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhira_verb_loquacious"
+      ],
+      "note": "The loquacious Form I use is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35896:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35896:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdr_badhdhara_s1",
+        "bdr_tabdhir_s1"
+      ],
+      "note": "Form II dissipation and its verbal noun are Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35897:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35898:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tabadhdhara_scattered"
+      ],
+      "note": "Intransitive becoming scattered is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35898:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tabadhdhara_speech"
+      ],
+      "note": "The speech-dissemination use is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35899:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhru_seed",
+        "cm_badhru_sprout"
+      ],
+      "note": "Seed and newly emerged growth are distinct uses."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35899:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhru_progeny"
+      ],
+      "note": "The figurative progeny use is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35900:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35901:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shadhara_badhara"
+      ],
+      "note": "The fixed dispersion expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35902:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35902:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhir_adjective_loquacious"
+      ],
+      "note": "The adjectival loquacity use is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35902:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35902:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhir_food_abundance"
+      ],
+      "note": "The food-abundance use is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35903:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35904:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35905:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_budhurra_false"
+      ],
+      "note": "The false, vain, or ineffectual meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35906:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhur_divulger"
+      ],
+      "note": "The secret-divulging use is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35906:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhur_slanderer"
+      ],
+      "note": "The calumniatory use is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35907:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badhir_scattered"
+      ],
+      "note": "The disputed scattered/dispersed interpretation is preserved."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35907:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35908:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35909:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_budharah_abundance"
+      ],
+      "note": "Abundance in wheat or food is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35909:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35910:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badharra_squandering"
+      ],
+      "note": "The independent nominal form for improper squandering is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35911:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35912:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35913:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35914:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35914:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35915:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35916:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tibdharah_squanderer"
+      ],
+      "note": "The agent noun for dissipating wealth is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35917:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35918:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mibdhar_land"
+      ],
+      "note": "The land-yielding-increase adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35919:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35919:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mabdhur_abundant"
+      ],
+      "note": "The abundant or plentiful use is represented."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35920:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:b*r:35921:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrences supplied here are all Form II expenditure derivatives; the seed-sowing, general scattering, and other branches listed separately are broader Classical Arabic evidence.",
+    "The interpretation of بَذِيرٌ as “scattered or dispersed” is explicitly disputed in the lexical evidence and is therefore presented with that qualification."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

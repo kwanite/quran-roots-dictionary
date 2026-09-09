@@ -1,0 +1,909 @@
+{
+  "root": "$rr",
+  "arabic": "شرر",
+  "root_idea": {
+    "summary": "The root's basic orientation is spreading, scattering, and flying apart. Its principal lexical branches include evil as the opposite of good and sparks flying from fire.",
+    "development": "The same image extends to sparks, cutting or separating, spreading things out to dry, scattered herds, and figurative concentration of one's scattered aims or whole self upon something.",
+    "source_refs": [
+      "maqayis:row:2606"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$rr:$arar:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_sharar",
+      "reason": "Displayed under the normalized noun شَرَر for the Quranic meaning of sparks."
+    },
+    {
+      "form_group_id": "qac-form:$rr:$ar~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_sharr",
+      "reason": "Displayed under the standard noun شَرّ, including its substantivized, comparative, and superlative uses."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_sharr",
+      "form_group_ids": [
+        "qac-form:$rr:$ar~:nominal:-"
+      ],
+      "headword_arabic": "شَرّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 30,
+      "senses": [
+        {
+          "sense_id": "sense_sharr_evil",
+          "definition": "Evil, badness, wrongdoing, injustice, corruption, or harmful misfortune; also a person or group characterized by such qualities.",
+          "usage_conditions": "Used as an abstract noun for what is opposed to good, and substantivally for bad or evil people. The context may specify moral evil, physical harm, or an evil condition.",
+          "source_refs": [
+            "lane:entry:38166",
+            "mufradat:row:755"
+          ]
+        },
+        {
+          "sense_id": "sense_sharr_comparative",
+          "definition": "Worse or worst in comparison.",
+          "usage_conditions": "Used comparatively with مِنْ for “worse than,” and in superlative or elliptical constructions for “the worst.”",
+          "source_refs": [
+            "lane:entry:38166"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:216",
+          "word_location": "2:216:19",
+          "sense_ids": [
+            "sense_sharr_evil"
+          ]
+        },
+        {
+          "verse_key": "5:60",
+          "word_location": "5:60:4",
+          "sense_ids": [
+            "sense_sharr_comparative"
+          ]
+        },
+        {
+          "verse_key": "38:62",
+          "word_location": "38:62:10",
+          "sense_ids": [
+            "sense_sharr_evil"
+          ]
+        },
+        {
+          "verse_key": "113:2",
+          "word_location": "113:2:2",
+          "sense_ids": [
+            "sense_sharr_evil"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_sharar",
+      "form_group_ids": [
+        "qac-form:$rr:$arar:nominal:-"
+      ],
+      "headword_arabic": "شَرَر",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_sharar_sparks",
+          "definition": "A spark or sparks flying from a fire.",
+          "usage_conditions": "A noun for fiery particles emitted and scattered from a flame.",
+          "source_refs": [
+            "lane:entry:38170",
+            "mufradat:row:755"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "77:32",
+          "word_location": "77:32:3",
+          "sense_ids": [
+            "sense_sharar_sparks"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_sharra_becomeevil",
+      "headword_arabic": "شَرَّ",
+      "definition": "To become evil, wicked, unjust, corrupt, mischievous, or depraved; also to increase in evil.",
+      "usage_conditions": "An intransitive Form I verb describing a person’s becoming or growing worse.",
+      "source_refs": [
+        "lane:entry:38158"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharra_blame",
+      "headword_arabic": "شَرَّهُ",
+      "definition": "To blame, find fault with, or charge someone with a vice, defect, or other fault.",
+      "usage_conditions": "A transitive Form I construction taking the person blamed or charged as its object.",
+      "source_refs": [
+        "lane:entry:38158"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharra_spread",
+      "headword_arabic": "شَرَّهُ",
+      "definition": "To spread something in the sun, or lay it out to dry; also to sprinkle salt.",
+      "usage_conditions": "Used of garments, cloth, food, salt, and similar things placed on a mat or other surface for drying or treatment.",
+      "source_refs": [
+        "lane:entry:38158"
+      ]
+    },
+    {
+      "meaning_id": "cm_formII_notorious",
+      "headword_arabic": "شَرَّرَهُ",
+      "definition": "To make someone notorious or infamous among people.",
+      "usage_conditions": "A Form II causative/intensive verb.",
+      "source_refs": [
+        "lane:entry:38159"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIII_hostility",
+      "headword_arabic": "شَارَّهُ",
+      "definition": "To act evilly or hostilely toward someone, contend or dispute with him, or do him evil that obliges a reciprocal response.",
+      "usage_conditions": "A reciprocal Form III construction describing hostile interaction.",
+      "source_refs": [
+        "lane:entry:38160"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIV_impute",
+      "headword_arabic": "أَشَرَّهُ",
+      "definition": "To attribute or impute evil, wrongdoing, injustice, or a fault to someone.",
+      "usage_conditions": "A Form IV construction; its usage is reported with some grammatical disagreement.",
+      "source_refs": [
+        "lane:entry:38161"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIV_banish",
+      "headword_arabic": "أَشَرُّوهُ",
+      "definition": "To banish or drive someone away, leaving him alone.",
+      "usage_conditions": "A reported Form IV usage in the plural verbal form.",
+      "source_refs": [
+        "lane:entry:38161"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIV_reveal",
+      "headword_arabic": "أَشَرَّهُ",
+      "definition": "To manifest, reveal, publish, or make something known.",
+      "usage_conditions": "A reported tropical usage, with the cited poetic attribution itself treated as tentative in the lexical evidence.",
+      "source_refs": [
+        "lane:entry:38161"
+      ]
+    },
+    {
+      "meaning_id": "cm_formVIII_ruminate",
+      "headword_arabic": "اِشْتَرَّ",
+      "definition": "Of a camel or other cloven-hoofed animal, to ruminate or chew the cud.",
+      "usage_conditions": "A Form VIII animal-related usage.",
+      "source_refs": [
+        "lane:entry:38162"
+      ]
+    },
+    {
+      "meaning_id": "cm_formX_herd",
+      "headword_arabic": "اِسْتَشَرَّ",
+      "definition": "To become the possessor of a great herd of camels.",
+      "usage_conditions": "A Form X usage associated with a herd called إِشْرَارَة.",
+      "source_refs": [
+        "lane:entry:38163"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharsharah_split",
+      "headword_arabic": "شَرْشَرَهُ",
+      "definition": "To split, cleave, or cut something into many pieces.",
+      "usage_conditions": "A reduplicated Form I usage describing extensive cutting or division.",
+      "source_refs": [
+        "lane:entry:38164"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharsharah_bite",
+      "headword_arabic": "شَرْشَرَهُ",
+      "definition": "To bite and then shake an object; of a serpent, to bite someone.",
+      "usage_conditions": "The object bitten may be a thing or a person; the serpent construction specifically denotes biting.",
+      "source_refs": [
+        "lane:entry:38164"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharsharah_cattle",
+      "headword_arabic": "شَرْشَرَتِ المَاشِيَةُ",
+      "definition": "For livestock to eat vegetation.",
+      "usage_conditions": "An intransitive animal construction with herbage as the consumed vegetation.",
+      "source_refs": [
+        "lane:entry:38164"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharsharah_sharpen",
+      "headword_arabic": "شَرْشَرَ السِّكِّينَ",
+      "definition": "To sharpen or rub a knife against a stone so that its edge becomes rough.",
+      "usage_conditions": "A transitive construction describing treatment of a knife edge.",
+      "source_refs": [
+        "lane:entry:38164"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharsharah_flap",
+      "headword_arabic": "شَرْشَرَ",
+      "definition": "For a bird to expand and flap its wings without alighting.",
+      "usage_conditions": "An intransitive bird-related usage.",
+      "source_refs": [
+        "lane:entry:38164"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasharshara_scatter",
+      "headword_arabic": "تَشَرْشَرَ",
+      "definition": "To become separated or scattered.",
+      "usage_conditions": "A Form V-like reflexive/intransitive usage describing dispersal.",
+      "source_refs": [
+        "lane:entry:38165"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharr_poverty",
+      "headword_arabic": "شَرّ",
+      "definition": "Poverty.",
+      "usage_conditions": "A reported tropical extension of the noun’s lexical range.",
+      "source_refs": [
+        "lane:entry:38166"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharr_fever",
+      "headword_arabic": "شَرّ",
+      "definition": "Fever.",
+      "usage_conditions": "A separately reported tropical extension of the noun’s lexical range.",
+      "source_refs": [
+        "lane:entry:38166"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharr_iblis",
+      "headword_arabic": "الشَّرّ",
+      "definition": "The Evil One, namely Iblis.",
+      "usage_conditions": "A conventional epithet referring specifically to Iblis.",
+      "source_refs": [
+        "lane:entry:38166"
+      ]
+    },
+    {
+      "meaning_id": "cm_shurr_fault",
+      "headword_arabic": "شُرّ",
+      "definition": "A vice, fault, defect, blemish, or thing disapproved of, disliked, or hated.",
+      "usage_conditions": "A distinct vocalized noun for an objectionable defect or matter.",
+      "source_refs": [
+        "lane:entry:38167"
+      ]
+    },
+    {
+      "meaning_id": "cm_shirrah_eagerness",
+      "headword_arabic": "شِرَّة",
+      "definition": "Inordinate desire or eagerness, youthful sprightliness, sharpness, or anger.",
+      "usage_conditions": "The noun may describe energetic eagerness generally, including the idiom of eagerness for something.",
+      "source_refs": [
+        "lane:entry:38168"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharir_shore",
+      "headword_arabic": "شَرِير",
+      "definition": "The side or shore of a sea or great river, or the area near it.",
+      "usage_conditions": "A distinct nominal usage, with a plural referring also to seas or great rivers.",
+      "source_refs": [
+        "lane:entry:38171"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharir_tree",
+      "headword_arabic": "شَرِير",
+      "definition": "A kind of tree that grows in a sea or great river.",
+      "usage_conditions": "A reported botanical usage attributed to some authorities.",
+      "source_refs": [
+        "lane:entry:38171"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharirah_needle",
+      "headword_arabic": "شَرِيرَة",
+      "definition": "A large iron needle or bodkin.",
+      "usage_conditions": "A specialized concrete noun for a large needle used as a مِسَلَّة.",
+      "source_refs": [
+        "lane:entry:38173"
+      ]
+    },
+    {
+      "meaning_id": "cm_shirrar_sparks",
+      "headword_arabic": "شِرَّار",
+      "definition": "Emitting many sparks; a fire that throws off many sparks.",
+      "usage_conditions": "An intensive adjective applied especially to fire.",
+      "source_refs": [
+        "lane:entry:38174"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharran_insects",
+      "headword_arabic": "شَرَّان",
+      "definition": "Certain small insects resembling gnats that cover a person’s face without biting.",
+      "usage_conditions": "A dialectal regional term, reported for the people of al-Sawad.",
+      "source_refs": [
+        "lane:entry:38175"
+      ]
+    },
+    {
+      "meaning_id": "cm_shirrير_aboundingevil",
+      "headword_arabic": "شِرِّير",
+      "definition": "Abounding in evil or wrongdoing; very evil.",
+      "usage_conditions": "An intensive adjective applied to a person.",
+      "source_refs": [
+        "lane:entry:38176"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharshar_plant",
+      "headword_arabic": "شَرْشَر",
+      "definition": "A desert plant that spreads along the ground in long, rope-like growths.",
+      "usage_conditions": "A botanical noun for a known plant of the desert plain.",
+      "source_refs": [
+        "lane:entry:38177"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharshar_roastedmeat",
+      "headword_arabic": "شِوَاءٌ شَرْشَر",
+      "definition": "Roasted meat from which the grease or gravy drips.",
+      "usage_conditions": "A fixed descriptive expression for dripping roasted meat.",
+      "source_refs": [
+        "lane:entry:38177"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharsharah_extremities",
+      "headword_arabic": "شَرْشَرَة",
+      "definition": "A fringe-like extremity of a tail or wing.",
+      "usage_conditions": "Usually encountered in the plural شَرَاشِر for projecting or dangling extremities.",
+      "source_refs": [
+        "lane:entry:38179"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharsharah_whole",
+      "headword_arabic": "شَرَاشِر",
+      "definition": "The whole body, self, weight, or burdens carried by a person.",
+      "usage_conditions": "A figurative plural usage, especially in the expression أَلْقَى عَلَيْهِ شَرَاشِرَهُ, “he cast his whole self or weight upon it.”",
+      "source_refs": [
+        "lane:entry:38179"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharsharah_love",
+      "headword_arabic": "شَرَاشِر",
+      "definition": "Intense desire, eagerness, or love directed toward something.",
+      "usage_conditions": "A figurative idiomatic usage describing complete absorption or devotion.",
+      "source_refs": [
+        "lane:entry:38179"
+      ]
+    },
+    {
+      "meaning_id": "cm_shirshirah_piece",
+      "headword_arabic": "شِرْشِرَة",
+      "definition": "A piece or fragment of anything.",
+      "usage_conditions": "A concrete noun for an individual piece.",
+      "source_refs": [
+        "lane:entry:38181"
+      ]
+    },
+    {
+      "meaning_id": "cm_shurshur_bird",
+      "headword_arabic": "شُرْشُور",
+      "definition": "A small dust-colored bird.",
+      "usage_conditions": "A regional bird name, especially associated with the Hijaz and desert Arabs.",
+      "source_refs": [
+        "lane:entry:38182"
+      ]
+    },
+    {
+      "meaning_id": "cm_shurra_imputer",
+      "headword_arabic": "شُرَّى",
+      "definition": "A woman who greatly imputes vices, faults, or similar defects to others.",
+      "usage_conditions": "A specialized feminine usage of the comparative-related form.",
+      "source_refs": [
+        "lane:entry:38183"
+      ]
+    },
+    {
+      "meaning_id": "cm_ishrara_dryingmat",
+      "headword_arabic": "إِشْرَارَة",
+      "definition": "A mat, cloth, or tablet on which curd, meat, or other food is spread to dry.",
+      "usage_conditions": "A concrete drying surface; its plural may also denote strips of meat cut and dried.",
+      "source_refs": [
+        "lane:entry:38184"
+      ]
+    },
+    {
+      "meaning_id": "cm_ishrara_herd",
+      "headword_arabic": "إِشْرَارَة",
+      "definition": "A great herd of camels.",
+      "usage_conditions": "A specialized noun explained as referring to a scattered herd.",
+      "source_refs": [
+        "lane:entry:38184"
+      ]
+    },
+    {
+      "meaning_id": "cm_musharshir_lion",
+      "headword_arabic": "المُشَرْشِر",
+      "definition": "The lion.",
+      "usage_conditions": "An epithet derived from biting and shaking its prey.",
+      "source_refs": [
+        "lane:entry:38186"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$rr:38158:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharra_becomeevil"
+      ],
+      "note": "Form I intransitive meaning."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38158:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sharra_becomeevil"
+      ],
+      "note": "Increasing in evil is covered by the same worsening branch."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38158:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38158:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharra_blame"
+      ],
+      "note": "Blaming or imputing fault."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38158:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharra_spread"
+      ],
+      "note": "Spreading, drying, and sprinkling usage."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38159:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formII_notorious"
+      ],
+      "note": "Form II causative meaning."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38159:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38160:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIII_hostility"
+      ],
+      "note": "Reciprocal hostile conduct."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38161:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIV_impute"
+      ],
+      "note": "Form IV attribution of evil."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38161:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIV_banish"
+      ],
+      "note": "Banishment usage."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38161:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38161:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIV_reveal"
+      ],
+      "note": "Reported tropical reveal or publication usage."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38161:g3:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_sharr_evil"
+      ],
+      "note": "Formula meaning “how evil” is covered by the evil sense."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38162:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formVIII_ruminate"
+      ],
+      "note": "Animal ruminating usage."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38163:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formX_herd"
+      ],
+      "note": "Great camel herd usage."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38164:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharsharah_split"
+      ],
+      "note": "Splitting and cutting usage."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38164:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharsharah_bite"
+      ],
+      "note": "Biting and shaking usage."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38164:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sharsharah_bite"
+      ],
+      "note": "Serpent biting is covered by the biting branch."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38164:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharsharah_cattle"
+      ],
+      "note": "Livestock eating vegetation."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38164:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharsharah_sharpen"
+      ],
+      "note": "Sharpening or rubbing a knife."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38164:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38164:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharsharah_flap"
+      ],
+      "note": "Bird wing-flapping usage."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38165:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tasharshara_scatter"
+      ],
+      "note": "Becoming separated or scattered."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38166:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_sharr_evil"
+      ],
+      "note": "General evil and its moral and physical branches."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38166:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharr_poverty"
+      ],
+      "note": "Reported poverty extension."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38166:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharr_fever"
+      ],
+      "note": "Reported fever extension."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38166:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_sharr_evil",
+        "cm_sharr_iblis"
+      ],
+      "note": "Bad-person epithet and the conventional Iblis epithet."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38166:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_sharr_comparative"
+      ],
+      "note": "Comparative and superlative use."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38166:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38167:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shurr_fault"
+      ],
+      "note": "Distinct noun for a fault or defect."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38167:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38168:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_sharr_evil"
+      ],
+      "note": "Cross-reference identifying a related infinitive."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38168:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shirrah_eagerness"
+      ],
+      "note": "Eagerness, sprightliness, and sharpness."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38169:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Definition-unit pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38170:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_sharar_sparks"
+      ],
+      "note": "Sparks of fire."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38171:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38171:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharir_shore",
+        "cm_sharir_tree"
+      ],
+      "note": "Shore and botanical meanings."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38171:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sharir_tree"
+      ],
+      "note": "Alternative botanical report is covered by the tree meaning."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38172:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive and pointer-only information."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38173:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharirah_needle"
+      ],
+      "note": "Specialized needle meaning."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38174:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shirrar_sparks"
+      ],
+      "note": "Intensive spark-emitting adjective."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38175:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharran_insects"
+      ],
+      "note": "Regional insect term."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38176:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shirrير_aboundingevil"
+      ],
+      "note": "Adjective meaning abounding in evil."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38177:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharshar_plant"
+      ],
+      "note": "Plant meaning."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38177:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharshar_roastedmeat"
+      ],
+      "note": "Fixed roasted-meat expression."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38178:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38179:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharsharah_extremities",
+        "cm_sharsharah_whole",
+        "cm_sharsharah_love"
+      ],
+      "note": "Literal extremities and figurative whole-self and desire branches."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38179:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sharsharah_whole",
+        "cm_sharsharah_love"
+      ],
+      "note": "Idiomatic figurative explanations are covered by the two figurative branches."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38180:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38181:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shirshirah_piece"
+      ],
+      "note": "Piece or fragment meaning."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38181:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38182:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shurshur_bird"
+      ],
+      "note": "Bird name."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38183:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to comparative material."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38183:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shurra_imputer"
+      ],
+      "note": "Specialized feminine imputer usage."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38184:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ishrara_dryingmat"
+      ],
+      "note": "Drying surface and dried-meat material."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38184:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ishrara_herd"
+      ],
+      "note": "Great camel herd meaning."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38185:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rr:38186:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_musharshir_lion"
+      ],
+      "note": "Lion epithet."
+    }
+  ],
+  "cautions": [
+    "The Lane and Maqayis evidence is indexed under the contracted heading شر, while the canonical QAC root is the geminate root شرر.",
+    "The Quranic شَرّ group includes ordinary evil, substantivized bad people, and comparative or superlative contexts; English renderings therefore vary between “evil,” “bad,” “worse,” and “worst.”",
+    "The reported Form IV meaning “to reveal or publish” is marked as tropical and accompanied by a disputed poetic reading; it is retained as a Classical meaning rather than treated as Quranic evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

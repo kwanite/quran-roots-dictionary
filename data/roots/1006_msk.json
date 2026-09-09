@@ -1,0 +1,762 @@
+{
+  "root": "msk",
+  "arabic": "مسك",
+  "root_idea": {
+    "summary": "The root centers on holding something back, retaining it, or remaining held fast.",
+    "development": "From this central idea develop meanings of retention, restraint, adherence, cohesion, containment, and withholding. Related nominal branches include objects that hold or contain, such as a bracelet or hide; the lexical association of musk is treated as a separate nominal branch.",
+    "source_refs": [
+      "maqayis:row:4372",
+      "mufradat:row:1368"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:msk:yumas~iku:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "msk-massaka",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:msk:>amosaka:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "msk-amsaka",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:msk:{sotamosaka:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "msk-istamsaka",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:msk:<imosaAk:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "msk-imsak",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:msk:misok:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "msk-misk",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:msk:mumosik:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "msk-mumsik",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:msk:mumosika`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "msk-mumsik",
+      "reason": "This feminine plural active-participle occurrence is presented under the normalized singular citation form."
+    },
+    {
+      "form_group_id": "qac-form:msk:musotamosikuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "msk-mustamsik",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "msk-massaka",
+      "form_group_ids": [
+        "qac-form:msk:yumas~iku:verb:II"
+      ],
+      "headword_arabic": "مَسَّكَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "msk-massaka-1",
+          "definition": "To hold fast to or adhere to something.",
+          "usage_conditions": "The Quranic occurrence describes firm adherence to what has been received or followed; the construction does not impose a restriction on the general type of object.",
+          "source_refs": [
+            "mufradat:row:1368"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:170",
+          "word_location": "7:170:2",
+          "sense_ids": [
+            "msk-massaka-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "msk-amsaka",
+      "form_group_ids": [
+        "qac-form:msk:>amosaka:verb:IV"
+      ],
+      "headword_arabic": "أَمْسَكَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 18,
+      "senses": [
+        {
+          "sense_id": "msk-amsaka-1",
+          "definition": "To hold, retain, keep, seize, or keep something or someone in place.",
+          "usage_conditions": "This covers retaining a person, detaining or confining someone, catching or grasping something, and preserving something in position, including keeping something from falling. It includes the legal construction of retaining a spouse and the general sense of holding onto something.",
+          "source_refs": [
+            "lane:entry:5700",
+            "mufradat:row:1368"
+          ]
+        },
+        {
+          "sense_id": "msk-amsaka-2",
+          "definition": "To withhold, prevent, or refrain from releasing or giving something.",
+          "usage_conditions": "Used with the sense of holding something back from another, preventing it, or abstaining from an act; withholding what one possesses may convey refusal or stinginess in context.",
+          "source_refs": [
+            "lane:entry:5700",
+            "mufradat:row:1368"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:231",
+          "word_location": "2:231:6",
+          "sense_ids": [
+            "msk-amsaka-1"
+          ]
+        },
+        {
+          "verse_key": "4:15",
+          "word_location": "4:15:12",
+          "sense_ids": [
+            "msk-amsaka-1"
+          ]
+        },
+        {
+          "verse_key": "22:65",
+          "word_location": "22:65:15",
+          "sense_ids": [
+            "msk-amsaka-1"
+          ]
+        },
+        {
+          "verse_key": "35:41",
+          "word_location": "35:41:3",
+          "sense_ids": [
+            "msk-amsaka-1"
+          ]
+        },
+        {
+          "verse_key": "17:100",
+          "word_location": "17:100:9",
+          "sense_ids": [
+            "msk-amsaka-2"
+          ]
+        },
+        {
+          "verse_key": "35:2",
+          "word_location": "35:2:11",
+          "sense_ids": [
+            "msk-amsaka-2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "msk-istamsaka",
+      "form_group_ids": [
+        "qac-form:msk:{sotamosaka:verb:X"
+      ],
+      "headword_arabic": "اِسْتَمْسَكَ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "msk-istamsaka-1",
+          "definition": "To grasp, cling to, or hold fast to something; to seek to lay hold of it.",
+          "usage_conditions": "The construction commonly takes بِـ and expresses intentional attachment or adherence. Quranic usage includes figurative holding fast to a firm support or to revealed guidance.",
+          "source_refs": [
+            "lane:entry:5704",
+            "mufradat:row:1368"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:256",
+          "word_location": "2:256:16",
+          "sense_ids": [
+            "msk-istamsaka-1"
+          ]
+        },
+        {
+          "verse_key": "31:22",
+          "word_location": "31:22:9",
+          "sense_ids": [
+            "msk-istamsaka-1"
+          ]
+        },
+        {
+          "verse_key": "43:43",
+          "word_location": "43:43:1",
+          "sense_ids": [
+            "msk-istamsaka-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "msk-imsak",
+      "form_group_ids": [
+        "qac-form:msk:<imosaAk:nominal:-"
+      ],
+      "headword_arabic": "إِمْسَاكٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "msk-imsak-1",
+          "definition": "Retention or keeping hold of something or someone.",
+          "usage_conditions": "In the Quranic legal construction, it denotes retaining a spouse in a recognized and proper manner, as opposed to release.",
+          "source_refs": [
+            "lane:entry:5700",
+            "mufradat:row:1368"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:229",
+          "word_location": "2:229:3",
+          "sense_ids": [
+            "msk-imsak-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "msk-misk",
+      "form_group_ids": [
+        "qac-form:msk:misok:nominal:-"
+      ],
+      "headword_arabic": "مِسْكٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "msk-misk-1",
+          "definition": "Musk, the fragrant substance obtained from the musk deer.",
+          "usage_conditions": "A nominal meaning associated with the root but lexically distinct from the verbal senses of holding and retaining.",
+          "source_refs": [
+            "lane:entry:5705"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "83:26",
+          "word_location": "83:26:2",
+          "sense_ids": [
+            "msk-misk-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "msk-mumsik",
+      "form_group_ids": [
+        "qac-form:msk:mumosik:nominal:-",
+        "qac-form:msk:mumosika`t:nominal:-"
+      ],
+      "headword_arabic": "مُمْسِكٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "msk-mumsik-1",
+          "definition": "One who or that which withholds, retains, or prevents something from being released.",
+          "usage_conditions": "The Quranic uses include withholding divine mercy or other provision; the feminine plural occurrence is represented by the same normalized participial headword.",
+          "source_refs": [
+            "lane:entry:5700",
+            "mufradat:row:1368"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "35:2",
+          "word_location": "35:2:8",
+          "sense_ids": [
+            "msk-mumsik-1"
+          ]
+        },
+        {
+          "verse_key": "39:38",
+          "word_location": "39:38:29",
+          "sense_ids": [
+            "msk-mumsik-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "msk-mustamsik",
+      "form_group_ids": [
+        "qac-form:msk:musotamosikuwn:nominal:-"
+      ],
+      "headword_arabic": "مُسْتَمْسِكٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "msk-mustamsik-1",
+          "definition": "One who holds fast, clings, or adheres firmly.",
+          "usage_conditions": "A participial description of intentional adherence or reliance, including holding fast to a teaching or inherited position.",
+          "source_refs": [
+            "lane:entry:5704",
+            "mufradat:row:1368"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "43:21",
+          "word_location": "43:21:8",
+          "sense_ids": [
+            "msk-mustamsik-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "msk-classic-yumsik-alramaq",
+      "headword_arabic": "يُمْسِكُ الرَّمَقَ",
+      "definition": "To sustain or prolong a person's remaining breath or life.",
+      "usage_conditions": "A conventional expression referring to preserving the last remnant of life or vitality.",
+      "source_refs": [
+        "lane:entry:5698"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-massaka-fire",
+      "headword_arabic": "مَسَّكَ بِالنَّارِ",
+      "definition": "To pierce or bore with fire.",
+      "usage_conditions": "A specialized Form II construction.",
+      "source_refs": [
+        "lane:entry:5699"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-amsaka-niggardly",
+      "headword_arabic": "أَمْسَكَ",
+      "definition": "To be tenacious or niggardly; to hold back from giving.",
+      "usage_conditions": "A Classical extension of withholding, including the characterization of a miserly person.",
+      "source_refs": [
+        "lane:entry:5700",
+        "maqayis:row:4372"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-amsaka-belly",
+      "headword_arabic": "أَمْسَكَ بَطْنَهُ",
+      "definition": "To bind or confine the belly or bowels.",
+      "usage_conditions": "A specialized expression said of the effect of medicine.",
+      "source_refs": [
+        "lane:entry:5700"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-tamassaka-covenant",
+      "headword_arabic": "تَمَسَّكَ بِحَبْلِهِ",
+      "definition": "To hold fast by a covenant or bond.",
+      "usage_conditions": "The object is expressed through the image of holding fast to a person's cord or bond.",
+      "source_refs": [
+        "lane:entry:5701"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-tamasaka-restraint",
+      "headword_arabic": "تَمَاسَكَ",
+      "definition": "To restrain oneself; by extension, to be capable or powerful.",
+      "usage_conditions": "The corresponding negative construction denotes being unable to restrain oneself from doing something.",
+      "source_refs": [
+        "lane:entry:5702"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-tamasaka-cohesion",
+      "headword_arabic": "تَمَاسَكَ",
+      "definition": "To hold together or cohere.",
+      "usage_conditions": "Used of things that remain joined or structurally cohesive.",
+      "source_refs": [
+        "lane:entry:5702"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-tamasaka-intelligence",
+      "headword_arabic": "تَمَاسُكٌ",
+      "definition": "Figuratively, intelligence or sound capacity; lack of it may signify lack of good.",
+      "usage_conditions": "A figurative application of cohesion and inner firmness.",
+      "source_refs": [
+        "lane:entry:5702"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-amtasaka-grip",
+      "headword_arabic": "اِمْتَسَكَ بِهِ",
+      "definition": "To clutch or grip someone or something.",
+      "usage_conditions": "A Form VIII construction equivalent in sense to laying hold of the object.",
+      "source_refs": [
+        "lane:entry:5703"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-istamsaka-belly",
+      "headword_arabic": "اِسْتَمْسَكَ البَطْنُ",
+      "definition": "For the belly or bowels to become bound or confined.",
+      "usage_conditions": "A specialized bodily expression, distinct from the Quranic Form X sense of holding fast to an object.",
+      "source_refs": [
+        "lane:entry:5704"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-muskah-sustenance",
+      "headword_arabic": "مُسْكَةٌ",
+      "definition": "Food or drink that sustains the last breath or keeps a person alive.",
+      "usage_conditions": "A noun for the small amount sufficient to preserve remaining vitality.",
+      "source_refs": [
+        "mufradat:row:1368"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-masak-bracelet",
+      "headword_arabic": "مَسَكٌ",
+      "definition": "A bracelet or anklet made of tortoise-shell, ivory, or horn.",
+      "usage_conditions": "The noun denotes the article worn or fastened around the wrist or ankle.",
+      "source_refs": [
+        "lane:entry:5706",
+        "mufradat:row:1368"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-muska-intelligence",
+      "headword_arabic": "مُسْكَةٌ",
+      "definition": "Intelligence, judgment, or inner strength.",
+      "usage_conditions": "A figurative noun for the mental or personal capacity on which one relies.",
+      "source_refs": [
+        "lane:entry:5707"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-musaka-escape",
+      "headword_arabic": "مُسَكَةٌ",
+      "definition": "A person who is not easily caught or held and manages to get free.",
+      "usage_conditions": "An expression describing freedom from being attached or detained.",
+      "source_refs": [
+        "maqayis:row:4372"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-misak-needles",
+      "headword_arabic": "مِسَاكٌ",
+      "definition": "A kind of needle.",
+      "usage_conditions": "An isolated technical nominal use; an alternate vocalization is also reported.",
+      "source_refs": [
+        "lane:entry:5709"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-masak-skin",
+      "headword_arabic": "مَسْكٌ",
+      "definition": "Skin or hide, especially as the covering that contains and holds the body.",
+      "usage_conditions": "A nominal branch based on the containing function of hide.",
+      "source_refs": [
+        "mufradat:row:1368",
+        "maqayis:row:4372"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-masakah-well",
+      "headword_arabic": "مَسَكَةُ البِئْرِ",
+      "definition": "The hard, firm place in a well that does not require lining.",
+      "usage_conditions": "A geological or structural noun explained through the idea of cohesion and firmness.",
+      "source_refs": [
+        "maqayis:row:4372"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-massakat-rainplaces",
+      "headword_arabic": "مَسَّاكاتٌ",
+      "definition": "Places in the land where rainwater flows and is retained.",
+      "usage_conditions": "A regional or topographical plural noun.",
+      "source_refs": [
+        "lane:entry:5711"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-mumsak-horse",
+      "headword_arabic": "مُمْسَكٌ",
+      "definition": "A horse marked with white on both forelegs and one hind leg on the same side.",
+      "usage_conditions": "A specialized description of the horse's leg markings.",
+      "source_refs": [
+        "lane:entry:5712"
+      ]
+    },
+    {
+      "meaning_id": "msk-classic-mutamasik-compact",
+      "headword_arabic": "مُتَمَاسِكٌ",
+      "definition": "Compact or closely knit in the limbs or flesh.",
+      "usage_conditions": "A physical description of a body or its flesh as firmly held together.",
+      "source_refs": [
+        "lane:entry:5713"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:msk:5698:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-yumsik-alramaq"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5699:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-massaka-fire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5700:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-amsaka-1",
+        "msk-amsaka-2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5700:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-amsaka-niggardly"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5700:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-amsaka-1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5700:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-amsaka-1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5700:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-amsaka-2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5700:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-amsaka-1",
+        "msk-amsaka-2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5700:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-amsaka-belly"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5700:g1:sub8",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an unusual application in another entry; no lexical definition is supplied here."
+    },
+    {
+      "unit_id": "lane-unit:msk:5701:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to other entries."
+    },
+    {
+      "unit_id": "lane-unit:msk:5701:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-tamassaka-covenant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5702:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-tamasaka-restraint"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5702:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "msk-classic-tamasaka-restraint"
+      ],
+      "note": "The negative construction is covered by the restraint meaning."
+    },
+    {
+      "unit_id": "lane-unit:msk:5702:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-tamasaka-cohesion"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5702:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-tamasaka-intelligence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5703:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-amtasaka-grip"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5704:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-istamsaka-belly"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5704:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-istamsaka-1"
+      ],
+      "note": "The unit explicitly gives a Quran-linked interpretation of seeking to lay hold."
+    },
+    {
+      "unit_id": "lane-unit:msk:5704:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Example pointer without a lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:msk:5705:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-misk-1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5706:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-masak-bracelet"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5707:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-muska-intelligence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5707:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "msk-classic-muska-intelligence"
+      ],
+      "note": "Strength is included in the broader figurative capacity meaning."
+    },
+    {
+      "unit_id": "lane-unit:msk:5708:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another root entry."
+    },
+    {
+      "unit_id": "lane-unit:msk:5709:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-misak-needles"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5710:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the مُسْكَة entry."
+    },
+    {
+      "unit_id": "lane-unit:msk:5711:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-massakat-rainplaces"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5712:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-mumsak-horse"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:msk:5713:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "msk-classic-mutamasik-compact"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The Form X Lane citation uses historical Quran-reference notation; it has not been converted into a modern verse location. Modern examples use only independently supplied QAC locations.",
+    "The noun مِسْكٌ is lexically supported as musk, while the root-level holding principle does not by itself derive or define this nominal branch."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

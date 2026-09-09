@@ -1,0 +1,260 @@
+{
+  "root": "kyl",
+  "arabic": "كيل",
+  "root_idea": {
+    "summary": "The principal lexical branch of كيل concerns measuring and the regulated allocation of measured quantities.",
+    "development": "The measuring branch extends from measuring food or goods to giving and taking a measured amount, the measured quantity itself, and the instrument or capacity used for measuring. Classical sources also record separate homonymous branches unrelated to measurement.",
+    "source_refs": [
+      "maqayis:row:4079",
+      "mufradat:row:1281",
+      "lane:entry:33008"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kyl:kaAlu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "kyl-kala",
+      "reason": "Displayed under the normalized Form I perfect citation form كَالَ."
+    },
+    {
+      "form_group_id": "qac-form:kyl:{kotaAlu:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "kyl-iktala",
+      "reason": "Displayed under the normalized Form VIII perfect citation form اِكْتَالَ."
+    },
+    {
+      "form_group_id": "qac-form:kyl:kayol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "kyl-kayl",
+      "reason": "Displayed under the lexical citation form كَيْل."
+    },
+    {
+      "form_group_id": "qac-form:kyl:mikoyaAl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "kyl-mikyal",
+      "reason": "Displayed under the lexical citation form مِكْيَال."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "kyl-kala",
+      "form_group_ids": [
+        "qac-form:kyl:kaAlu:verb:I"
+      ],
+      "headword_arabic": "كَالَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "kyl-kala-s1",
+          "definition": "To measure out food or goods for someone, and hence to give them a measured amount.",
+          "usage_conditions": "The construction may express measuring for another party or giving something to someone by measure; the complements determine the direction of the measuring transaction.",
+          "source_refs": [
+            "mufradat:row:1281"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:35",
+          "word_location": "17:35:4",
+          "sense_ids": [
+            "kyl-kala-s1"
+          ]
+        },
+        {
+          "verse_key": "83:3",
+          "word_location": "83:3:2",
+          "sense_ids": [
+            "kyl-kala-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "kyl-iktala",
+      "form_group_ids": [
+        "qac-form:kyl:{kotaAlu:verb:VIII"
+      ],
+      "headword_arabic": "اِكْتَالَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "kyl-iktala-s1",
+          "definition": "To take or obtain a measured quantity.",
+          "usage_conditions": "Often used for taking a measure from another party; with عَلَيْهِ, the construction can mean taking a measure from him or them.",
+          "source_refs": [
+            "mufradat:row:1281",
+            "lane:entry:33005"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:63",
+          "word_location": "12:63:13",
+          "sense_ids": [
+            "kyl-iktala-s1"
+          ]
+        },
+        {
+          "verse_key": "83:2",
+          "word_location": "83:2:3",
+          "sense_ids": [
+            "kyl-iktala-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "kyl-kayl",
+      "form_group_ids": [
+        "qac-form:kyl:kayol:nominal:-"
+      ],
+      "headword_arabic": "كَيْل",
+      "public_pos_label": "Noun · verbal noun / measure",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "kyl-kayl-s1",
+          "definition": "The act or practice of measuring out food or goods.",
+          "usage_conditions": "Used for the process or practice of measuring, especially in commands or transactions involving measured allotments.",
+          "source_refs": [
+            "mufradat:row:1281"
+          ]
+        },
+        {
+          "sense_id": "kyl-kayl-s2",
+          "definition": "A measured quantity or allotment; in كَيْلُ بَعِيرٍ, the amount carried by a camel.",
+          "usage_conditions": "This sense denotes the quantity assigned or obtained by measuring, including a specified load or portion.",
+          "source_refs": [
+            "mufradat:row:1281"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:88",
+          "word_location": "12:88:15",
+          "sense_ids": [
+            "kyl-kayl-s1"
+          ]
+        },
+        {
+          "verse_key": "12:65",
+          "word_location": "12:65:21",
+          "sense_ids": [
+            "kyl-kayl-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "kyl-mikyal",
+      "form_group_ids": [
+        "qac-form:kyl:mikoyaAl:nominal:-"
+      ],
+      "headword_arabic": "مِكْيَال",
+      "public_pos_label": "Noun · measuring instrument",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "kyl-mikyal-s1",
+          "definition": "A measuring vessel or instrument; a measure of capacity.",
+          "usage_conditions": "The term can denote either the implement or the capacity standard by which commodities are measured.",
+          "source_refs": [
+            "lane:entry:33008"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:84",
+          "word_location": "11:84:16",
+          "sense_ids": [
+            "kyl-mikyal-s1"
+          ]
+        },
+        {
+          "verse_key": "11:85",
+          "word_location": "11:85:3",
+          "sense_ids": [
+            "kyl-mikyal-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "kyl-classical-kayyal",
+      "headword_arabic": "كَيَّال",
+      "definition": "A person who measures grain and similar commodities.",
+      "usage_conditions": "An occupational or agent noun referring to one who performs measuring.",
+      "source_refs": [
+        "lane:entry:33007"
+      ]
+    },
+    {
+      "meaning_id": "kyl-classical-kala-firestick",
+      "headword_arabic": "كَالَ",
+      "definition": "Of a firestick: to fail to produce fire.",
+      "usage_conditions": "A separate homonymous Classical Arabic usage specifically predicated of the firestick or fire-drill.",
+      "source_refs": [
+        "maqayis:row:4079"
+      ]
+    },
+    {
+      "meaning_id": "kyl-classical-kayyul",
+      "headword_arabic": "كَيُّول",
+      "definition": "The rear of the line in battle.",
+      "usage_conditions": "A separate military term for the back or rear rank of a battle formation.",
+      "source_refs": [
+        "maqayis:row:4079"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kyl:33005:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "kyl-iktala-s1"
+      ],
+      "note": "The Form VIII taking-measure construction and its عَلَيْهِ / مِنْ relation are covered."
+    },
+    {
+      "unit_id": "lane-unit:kyl:33006:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مِكْيَال."
+    },
+    {
+      "unit_id": "lane-unit:kyl:33007:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "kyl-classical-kayyal"
+      ],
+      "note": "The agent noun for a measurer of grain and similar commodities is represented."
+    },
+    {
+      "unit_id": "lane-unit:kyl:33008:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "kyl-mikyal-s1"
+      ],
+      "note": "The measuring instrument and capacity measure are represented together."
+    }
+  ],
+  "cautions": [
+    "The Form I translations “measure” and “give by measure” reflect related argument structures of the same measuring branch rather than separate lexical meanings.",
+    "The firestick and battle-line terms are recorded as separate homonymous Classical Arabic branches, not as developments of the Quranic measuring vocabulary."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,804 @@
+{
+  "root": "snw",
+  "arabic": "سنو",
+  "root_idea": {
+    "summary": "The supplied evidence centers on elevation, upward movement, and the projection or drawing of something: water is drawn or made to irrigate, light rises and shines, and elevation extends figuratively to rank.",
+    "development": "The same semantic field links drawing water upward through a well, bright or rising light, physical ascent, and exalted condition. These root-level relationships should not be read as meanings of every individual Quranic form.",
+    "source_refs": [
+      "lane:entry:42447",
+      "lane:entry:42450",
+      "lane:entry:42463",
+      "mufradat:row:728"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:snw:sanaA:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "snw-sana",
+      "reason": "Independent Quranic nominal meaning: bright or flashing light."
+    },
+    {
+      "form_group_id": "qac-form:snw:sanap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "snw-sanah",
+      "reason": "Displayed under the normalized singular citation form سنة."
+    },
+    {
+      "form_group_id": "qac-form:snw:siniyn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "snw-sanah",
+      "reason": "The Quranic plural سنين is the plural of سنة and is presented under the singular dictionary headword."
+    },
+    {
+      "form_group_id": "qac-form:snw:siniyn:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "snw-sanah",
+      "reason": "The non-nominal temporal occurrence uses the same lexical item and is presented under سنة rather than as a separate form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "snw-sana",
+      "form_group_ids": [
+        "qac-form:snw:sanaA:nominal:-"
+      ],
+      "headword_arabic": "سَنَا",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "snw-sana-s1",
+          "definition": "Bright, shining light or gleam; in the Quranic occurrence, the flash or glare of lightning.",
+          "usage_conditions": "Used of the conspicuous radiance or flash of light. The Quranic expression concerns lightning.",
+          "source_refs": [
+            "lane:entry:42447",
+            "lane:entry:42453",
+            "mufradat:row:728"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:43",
+          "word_location": "24:43:35",
+          "sense_ids": [
+            "snw-sana-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "snw-sanah",
+      "form_group_ids": [
+        "qac-form:snw:sanap:nominal:-",
+        "qac-form:snw:siniyn:nominal:-",
+        "qac-form:snw:siniyn:other:-"
+      ],
+      "headword_arabic": "سَنَة",
+      "public_pos_label": "Noun · year (including plural and temporal use)",
+      "verb_form": null,
+      "occurrence_count": 19,
+      "senses": [
+        {
+          "sense_id": "snw-sanah-s1",
+          "definition": "A year: a recurring period of time measured by a solar or lunar cycle; plural سنين, “years.”",
+          "usage_conditions": "The form occurs in singular, plural, and temporal constructions. The evidence allows both solar and lunar reckoning without making either one obligatory in every occurrence.",
+          "source_refs": [
+            "lane:entry:42455"
+          ]
+        },
+        {
+          "sense_id": "snw-sanah-s2",
+          "definition": "A year understood as a period of hardship, difficulty, or dearth, especially in contrast with عام.",
+          "usage_conditions": "This is a reported Quranic lexical nuance in the contrast between سنة and عام; it is not a restriction that applies to every occurrence of سنة.",
+          "source_refs": [
+            "lane:entry:42455"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "29:14",
+          "word_location": "29:14:9",
+          "sense_ids": [
+            "snw-sanah-s2"
+          ]
+        },
+        {
+          "verse_key": "12:47",
+          "word_location": "12:47:4",
+          "sense_ids": [
+            "snw-sanah-s1"
+          ]
+        },
+        {
+          "verse_key": "20:40",
+          "word_location": "20:40:26",
+          "sense_ids": [
+            "snw-sanah-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-sana-water",
+      "headword_arabic": "سَنَا",
+      "definition": "To water or irrigate land; of rain or a cloud, to supply land with water.",
+      "usage_conditions": "Also used of a camel, beast, or people engaged in drawing water from a well for irrigation.",
+      "source_refs": [
+        "lane:entry:42447"
+      ]
+    },
+    {
+      "meaning_id": "cm-sana-rise",
+      "headword_arabic": "سَنَا",
+      "definition": "To rise or aspire to eminence; to become high or exalted in rank.",
+      "usage_conditions": "A figurative extension from upward movement or height.",
+      "source_refs": [
+        "lane:entry:42447"
+      ]
+    },
+    {
+      "meaning_id": "cm-sanna-mount",
+      "headword_arabic": "سَنَّى",
+      "definition": "To ascend or mount upon something; of a male animal, to mount a female for mating.",
+      "usage_conditions": "The sexual sense is a specific animal-mounting construction, not a general restriction on the verb.",
+      "source_refs": [
+        "lane:entry:42448"
+      ]
+    },
+    {
+      "meaning_id": "cm-sanna-open",
+      "headword_arabic": "سَنَّى",
+      "definition": "To open or unlock; to make a matter or way easy.",
+      "usage_conditions": "Used of a knot, lock, door, affair, or course of action.",
+      "source_refs": [
+        "lane:entry:42448"
+      ]
+    },
+    {
+      "meaning_id": "cm-sanaya-agreement",
+      "headword_arabic": "سَانَى",
+      "definition": "To seek agreement or conciliation through gentleness; to treat someone with tact, soothing, or blandishment.",
+      "usage_conditions": "Includes consenting, harmonizing with another, and behaving well in social dealings.",
+      "source_refs": [
+        "lane:entry:42449"
+      ]
+    },
+    {
+      "meaning_id": "cm-sanaya-annual-contract",
+      "headword_arabic": "سَانَى",
+      "definition": "To hire or contract with someone by the year.",
+      "usage_conditions": "A contractual or employment arrangement measured annually.",
+      "source_refs": [
+        "lane:entry:42449"
+      ]
+    },
+    {
+      "meaning_id": "cm-asna-raise",
+      "headword_arabic": "أَسْنَى",
+      "definition": "To raise, exalt, or elevate someone or something; to increase an amount or reward.",
+      "usage_conditions": "Includes raising a fire’s light and making a payment, prize, or remuneration larger.",
+      "source_refs": [
+        "lane:entry:42450"
+      ]
+    },
+    {
+      "meaning_id": "cm-asna-protection",
+      "headword_arabic": "أَسْنَى",
+      "definition": "To make good or improve a protective covenant or grant of protection.",
+      "usage_conditions": "An idiomatic use applied to a person’s protective relationship or covenant.",
+      "source_refs": [
+        "lane:entry:42450"
+      ]
+    },
+    {
+      "meaning_id": "cm-asna-lightning",
+      "headword_arabic": "أَسْنَى",
+      "definition": "Of lightning, to send or cast its light into a house, tent, or chamber, onto the ground, or along the clouds.",
+      "usage_conditions": "The described occurrence is specifically nocturnal lightning illumination.",
+      "source_refs": [
+        "lane:entry:42450"
+      ]
+    },
+    {
+      "meaning_id": "cm-asna-yearstay",
+      "headword_arabic": "أَسْنَى",
+      "definition": "Of a people, to remain in a place for a year, or until a year has passed over them.",
+      "usage_conditions": "Describes residence or duration measured by the passing of a year.",
+      "source_refs": [
+        "lane:entry:42450"
+      ]
+    },
+    {
+      "meaning_id": "cm-asnatu-drought",
+      "headword_arabic": "أَسْنَتُوا",
+      "definition": "To be afflicted with drought or barrenness.",
+      "usage_conditions": "This is reported as an orthographically distinguished form from أَسْنَى, with the final radical represented by ت in this drought sense.",
+      "source_refs": [
+        "lane:entry:42450"
+      ]
+    },
+    {
+      "meaning_id": "cm-tasanna-ascend",
+      "headword_arabic": "تَسَنَّى",
+      "definition": "To ascend or rise.",
+      "usage_conditions": "Reported as a use of the verb for a person.",
+      "source_refs": [
+        "lane:entry:42451"
+      ]
+    },
+    {
+      "meaning_id": "cm-tasanna-open",
+      "headword_arabic": "تَسَنَّى",
+      "definition": "To open or become open.",
+      "usage_conditions": "Used of a lock or similar object.",
+      "source_refs": [
+        "lane:entry:42451"
+      ]
+    },
+    {
+      "meaning_id": "cm-tasanna-easy",
+      "headword_arabic": "تَسَنَّى",
+      "definition": "To become facilitated, ready, or easy; to find ease in one’s affairs.",
+      "usage_conditions": "The verb may describe either the becoming easy of a matter or a person’s experiencing ease in affairs.",
+      "source_refs": [
+        "lane:entry:42451"
+      ]
+    },
+    {
+      "meaning_id": "cm-tasanna-please",
+      "headword_arabic": "تَسَنَّى",
+      "definition": "To seek to please, content, or satisfy someone.",
+      "usage_conditions": "A conventional interpersonal use involving effort to gain another’s satisfaction.",
+      "source_refs": [
+        "lane:entry:42451"
+      ]
+    },
+    {
+      "meaning_id": "cm-tasanna-stay",
+      "headword_arabic": "تَسَنَّى",
+      "definition": "To remain or dwell with someone, or at someone’s abode, for a year or several years.",
+      "usage_conditions": "The duration may be understood as one year or, in another explanation, several years.",
+      "source_refs": [
+        "lane:entry:42451"
+      ]
+    },
+    {
+      "meaning_id": "cm-tasanna-age",
+      "headword_arabic": "تَسَنَّى",
+      "definition": "To become altered or lose freshness through the lapse of years.",
+      "usage_conditions": "The reported derivation is disputed; the meaning is preserved as an independently attested lexical use without assigning Lane’s historical Quran citation a modern verse location.",
+      "source_refs": [
+        "lane:entry:42451"
+      ]
+    },
+    {
+      "meaning_id": "cm-istana-fire",
+      "headword_arabic": "اِسْتَنَى",
+      "definition": "To look at the light of a fire.",
+      "usage_conditions": "A specialized visual-response construction involving firelight.",
+      "source_refs": [
+        "lane:entry:42452"
+      ]
+    },
+    {
+      "meaning_id": "cm-sana-senna",
+      "headword_arabic": "سَنًا",
+      "definition": "The senna plant, used medicinally and also as a collyrium.",
+      "usage_conditions": "A plant-name homonym, distinct from سَنَا meaning light.",
+      "source_refs": [
+        "lane:entry:42453"
+      ]
+    },
+    {
+      "meaning_id": "cm-sana-abyssinian-good",
+      "headword_arabic": "سَنَا",
+      "definition": "In an Abyssinian expression, to be or become good.",
+      "usage_conditions": "A dialectal or borrowed expression, distinct from the Arabic light and irrigation meanings.",
+      "source_refs": [
+        "lane:entry:42453"
+      ]
+    },
+    {
+      "meaning_id": "cm-sanin-aged-food",
+      "headword_arabic": "سَنٍ",
+      "definition": "Food or grain that has undergone the lapse of years and become aged.",
+      "usage_conditions": "An adjectival use applied to food or wheat.",
+      "source_refs": [
+        "lane:entry:42454"
+      ]
+    },
+    {
+      "meaning_id": "cm-sanah-drought",
+      "headword_arabic": "سَنَة",
+      "definition": "Drought, barrenness, or severe drought; of land, a drought-affected condition.",
+      "usage_conditions": "A tropicalized use of سنة, including its use as an epithet of land, distinct from the ordinary temporal meaning “year.”",
+      "source_refs": [
+        "lane:entry:42455"
+      ]
+    },
+    {
+      "meaning_id": "cm-sanwaa-hard-year",
+      "headword_arabic": "سَنْوَاء",
+      "definition": "A hard, rigorous, or distressing year; of land, affected by drought or barrenness.",
+      "usage_conditions": "An adjectival form describing severity or drought.",
+      "source_refs": [
+        "lane:entry:42456"
+      ]
+    },
+    {
+      "meaning_id": "cm-sanaa-brightness",
+      "headword_arabic": "سَنَاء",
+      "definition": "Brightness or light emitted by fire or lightning.",
+      "usage_conditions": "A verbal noun and lexical form distinct in shape from the Quranic noun سَنَا.",
+      "source_refs": [
+        "lane:entry:42457"
+      ]
+    },
+    {
+      "meaning_id": "cm-sanaa-rank",
+      "headword_arabic": "سَنَاء",
+      "definition": "High or exalted rank or condition.",
+      "usage_conditions": "A substantivized use referring to status or condition.",
+      "source_refs": [
+        "lane:entry:42457"
+      ]
+    },
+    {
+      "meaning_id": "cm-sani-rank",
+      "headword_arabic": "سَنِيّ",
+      "definition": "High or exalted in rank or condition.",
+      "usage_conditions": "An adjective applied to a person or to status.",
+      "source_refs": [
+        "lane:entry:42458"
+      ]
+    },
+    {
+      "meaning_id": "cm-sinaya-whole",
+      "headword_arabic": "سِنَايَة",
+      "definition": "Wholly or entirely; in the idiom, to take something in its entirety.",
+      "usage_conditions": "Occurs in the idiomatic expression أخذَهُ بِسِنَايَتِهِ.",
+      "source_refs": [
+        "lane:entry:42460"
+      ]
+    },
+    {
+      "meaning_id": "cm-sani-watering",
+      "headword_arabic": "سَانٍ",
+      "definition": "A person or camel that waters land or draws water.",
+      "usage_conditions": "An active-participial designation applied to either the human operator or the animal used in the work.",
+      "source_refs": [
+        "lane:entry:42462"
+      ]
+    },
+    {
+      "meaning_id": "cm-saniya-water-animal",
+      "headword_arabic": "سَانِيَة",
+      "definition": "A camel or other beast used to draw water from a well.",
+      "usage_conditions": "The animal may be male or female and may operate a drawing arrangement or water wheel.",
+      "source_refs": [
+        "lane:entry:42463"
+      ]
+    },
+    {
+      "meaning_id": "cm-saniya-gear",
+      "headword_arabic": "سَانِيَة",
+      "definition": "The large water-drawing bucket together with its gear or apparatus.",
+      "usage_conditions": "A metonymic equipment sense of the same lexical item.",
+      "source_refs": [
+        "lane:entry:42463"
+      ]
+    },
+    {
+      "meaning_id": "cm-saniya-cloud",
+      "headword_arabic": "سَانِيَة",
+      "definition": "A cloud that waters the earth.",
+      "usage_conditions": "A figurative extension from the water-drawing or watering function.",
+      "source_refs": [
+        "lane:entry:42463"
+      ]
+    },
+    {
+      "meaning_id": "cm-musanna-dam",
+      "headword_arabic": "مُسَنَّاة",
+      "definition": "A dam, sluice-bearing structure, or wall built to hold back or regulate flowing water.",
+      "usage_conditions": "A constructed water-control work, including a structure with openings through which water is regulated.",
+      "source_refs": [
+        "lane:entry:42465"
+      ]
+    },
+    {
+      "meaning_id": "cm-masnawiyya-well",
+      "headword_arabic": "مَسْنَوِيَّة",
+      "definition": "A well with a long rope from which water is drawn using a سَانِيَة.",
+      "usage_conditions": "The well’s depth or rope arrangement makes animal-powered drawing necessary.",
+      "source_refs": [
+        "lane:entry:42466"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:snw:42447:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sana-water"
+      ],
+      "note": "Watering and irrigating land."
+    },
+    {
+      "unit_id": "lane-unit:snw:42447:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sana-water"
+      ],
+      "note": "Drawing water by animal, people, or bucket."
+    },
+    {
+      "unit_id": "lane-unit:snw:42447:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "snw-sana-s1",
+        "cm-sana-rise"
+      ],
+      "note": "Shining or rising light and figurative ascent or exaltation."
+    },
+    {
+      "unit_id": "lane-unit:snw:42447:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:snw:42447:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:snw:42448:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sanna-mount"
+      ],
+      "note": "Ascending or mounting, including the animal mating construction."
+    },
+    {
+      "unit_id": "lane-unit:snw:42448:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sanna-open"
+      ],
+      "note": "Opening, unlocking, and making easy."
+    },
+    {
+      "unit_id": "lane-unit:snw:42448:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:snw:42449:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sanaya-agreement"
+      ],
+      "note": "Conciliation, agreement, and gentle treatment."
+    },
+    {
+      "unit_id": "lane-unit:snw:42449:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sanaya-annual-contract"
+      ],
+      "note": "Hiring or contracting by the year."
+    },
+    {
+      "unit_id": "lane-unit:snw:42450:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asna-raise"
+      ],
+      "note": "Raising, exalting, or elevating."
+    },
+    {
+      "unit_id": "lane-unit:snw:42450:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-asna-raise"
+      ],
+      "note": "Raising the light of a fire."
+    },
+    {
+      "unit_id": "lane-unit:snw:42450:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-asna-raise"
+      ],
+      "note": "Increasing a prize or payment."
+    },
+    {
+      "unit_id": "lane-unit:snw:42450:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asna-protection"
+      ],
+      "note": "Improving a protective covenant."
+    },
+    {
+      "unit_id": "lane-unit:snw:42450:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asna-lightning"
+      ],
+      "note": "Lightning casting or sending its light."
+    },
+    {
+      "unit_id": "lane-unit:snw:42450:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asna-yearstay",
+        "cm-asnatu-drought"
+      ],
+      "note": "Remaining through a year and the separately distinguished drought form."
+    },
+    {
+      "unit_id": "lane-unit:snw:42451:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:snw:42451:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tasanna-ascend"
+      ],
+      "note": "Ascending."
+    },
+    {
+      "unit_id": "lane-unit:snw:42451:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tasanna-open"
+      ],
+      "note": "Becoming open."
+    },
+    {
+      "unit_id": "lane-unit:snw:42451:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tasanna-easy"
+      ],
+      "note": "Becoming facilitated, ready, or easy."
+    },
+    {
+      "unit_id": "lane-unit:snw:42451:g2:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-tasanna-easy"
+      ],
+      "note": "Finding ease in one’s affairs."
+    },
+    {
+      "unit_id": "lane-unit:snw:42451:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tasanna-please"
+      ],
+      "note": "Seeking to please or satisfy."
+    },
+    {
+      "unit_id": "lane-unit:snw:42451:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tasanna-stay"
+      ],
+      "note": "Remaining or dwelling for a year or years."
+    },
+    {
+      "unit_id": "lane-unit:snw:42451:g4:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tasanna-age"
+      ],
+      "note": "Becoming altered or losing freshness with age."
+    },
+    {
+      "unit_id": "lane-unit:snw:42452:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:snw:42452:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-istana-fire"
+      ],
+      "note": "Looking at firelight."
+    },
+    {
+      "unit_id": "lane-unit:snw:42453:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "snw-sana-s1"
+      ],
+      "note": "Bright or shining light, including the Quranic lightning use."
+    },
+    {
+      "unit_id": "lane-unit:snw:42453:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sana-senna"
+      ],
+      "note": "Senna plant."
+    },
+    {
+      "unit_id": "lane-unit:snw:42453:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sana-abyssinian-good"
+      ],
+      "note": "Abyssinian expression meaning to be good."
+    },
+    {
+      "unit_id": "lane-unit:snw:42454:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sanin-aged-food"
+      ],
+      "note": "Aged food or grain."
+    },
+    {
+      "unit_id": "lane-unit:snw:42455:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "snw-sanah-s1",
+        "snw-sanah-s2",
+        "cm-sanah-drought"
+      ],
+      "note": "Year, the سنة/عام nuance, and the independently reported drought use."
+    },
+    {
+      "unit_id": "lane-unit:snw:42455:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sanah-drought"
+      ],
+      "note": "سنة used alone for drought or barrenness."
+    },
+    {
+      "unit_id": "lane-unit:snw:42455:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sanah-drought"
+      ],
+      "note": "Drought-affected land."
+    },
+    {
+      "unit_id": "lane-unit:snw:42456:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sanwaa-hard-year"
+      ],
+      "note": "Hard year and drought-stricken land."
+    },
+    {
+      "unit_id": "lane-unit:snw:42457:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sanaa-brightness"
+      ],
+      "note": "Verbal noun for fire or lightning brightness."
+    },
+    {
+      "unit_id": "lane-unit:snw:42457:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sanaa-rank"
+      ],
+      "note": "High or exalted rank."
+    },
+    {
+      "unit_id": "lane-unit:snw:42457:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:snw:42458:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sani-rank"
+      ],
+      "note": "High or exalted in rank."
+    },
+    {
+      "unit_id": "lane-unit:snw:42459:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive and plural morphology only."
+    },
+    {
+      "unit_id": "lane-unit:snw:42460:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sinaya-whole"
+      ],
+      "note": "Idiomatic sense of taking something wholly."
+    },
+    {
+      "unit_id": "lane-unit:snw:42461:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:snw:42462:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sani-watering"
+      ],
+      "note": "Watering or water-drawing agent."
+    },
+    {
+      "unit_id": "lane-unit:snw:42463:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-saniya-water-animal"
+      ],
+      "note": "Animal used to draw water."
+    },
+    {
+      "unit_id": "lane-unit:snw:42463:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-saniya-gear"
+      ],
+      "note": "Water-drawing bucket and apparatus."
+    },
+    {
+      "unit_id": "lane-unit:snw:42463:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-saniya-cloud"
+      ],
+      "note": "Cloud watering the earth."
+    },
+    {
+      "unit_id": "lane-unit:snw:42464:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:snw:42465:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musanna-dam"
+      ],
+      "note": "Dam or water-regulating wall."
+    },
+    {
+      "unit_id": "lane-unit:snw:42466:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-masnawiyya-well"
+      ],
+      "note": "Well designed for animal-powered water drawing."
+    }
+  ],
+  "cautions": [
+    "The plural and temporal non-nominal Quran occurrences of سِنِينَ are merged under the normalized singular headword سَنَة.",
+    "The reported سنة/عام hardship nuance is lexical rather than a condition on every occurrence of سنة.",
+    "The derivation and Quranic association reported for تَسَنَّى in the sense “become altered with age” are disputed; no modern verse location is assigned from that discussion.",
+    "Lane’s historical Quran citation for the سنة/عام discussion is not used as a modern location; Quran examples here use independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

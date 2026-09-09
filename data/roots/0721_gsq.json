@@ -1,0 +1,358 @@
+{
+  "root": "gsq",
+  "arabic": "غسق",
+  "root_idea": {
+    "summary": "A core semantic orientation toward darkness, especially the onset or intensification of night.",
+    "development": "The lexical family covers night and darkness, becoming or entering darkness, and loss of light. It also preserves independent branches for flowing or pouring, while the Quranic غَسَّاق denotes a hellish discharge and is also explained as intense cold.",
+    "source_refs": [
+      "maqayis:row:3414",
+      "mufradat:row:1050"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:gsq:gaAsiq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-gsq-ghasiq",
+      "reason": "A distinct Quran-attested active-participial nominal form."
+    },
+    {
+      "form_group_id": "qac-form:gsq:gasaq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-gsq-ghasaq",
+      "reason": "A distinct Quran-attested noun denoting darkness."
+    },
+    {
+      "form_group_id": "qac-form:gsq:gas~aAq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-gsq-ghassaq",
+      "reason": "A distinct Quran-attested noun with specialized Quranic meanings."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-gsq-ghasiq",
+      "form_group_ids": [
+        "qac-form:gsq:gaAsiq:nominal:-"
+      ],
+      "headword_arabic": "غَاسِق",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-ghasiq-night",
+          "definition": "The darkening night, especially as it enters and its darkness intensifies.",
+          "usage_conditions": "In وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ (113:3), it refers to the night as it comes on, particularly after the disappearance of twilight; the expression may also denote a nocturnal affliction or visitor.",
+          "source_refs": [
+            "lane:entry:29282",
+            "mufradat:row:1050"
+          ]
+        },
+        {
+          "sense_id": "sense-ghasiq-moon",
+          "definition": "The moon when eclipsed and darkened.",
+          "usage_conditions": "An alternative interpretation of غَاسِقٍ in 113:3 identifies the term with the darkened moon during an eclipse.",
+          "source_refs": [
+            "lane:entry:29282",
+            "mufradat:row:1050"
+          ]
+        },
+        {
+          "sense_id": "sense-ghasiq-cold",
+          "definition": "The cold or cold-related harm associated with night.",
+          "usage_conditions": "A further interpretation of 113:3 takes the term for nocturnal cold or the harmful effect accompanying the night.",
+          "source_refs": [
+            "lane:entry:29282"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "113:3",
+          "word_location": "113:3:3",
+          "sense_ids": [
+            "sense-ghasiq-night",
+            "sense-ghasiq-moon",
+            "sense-ghasiq-cold"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-gsq-ghasaq",
+      "form_group_ids": [
+        "qac-form:gsq:gasaq:nominal:-"
+      ],
+      "headword_arabic": "غَسَق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-ghasaq-darkness",
+          "definition": "The intense darkness of night, especially its beginning or onset.",
+          "usage_conditions": "In the construction غَسَقِ اللَّيْلِ in 17:78, it denotes the darkness that enters or intensifies at night, including the time when twilight has disappeared.",
+          "source_refs": [
+            "lane:entry:29278",
+            "mufradat:row:1050"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:78",
+          "word_location": "17:78:6",
+          "sense_ids": [
+            "sense-ghasaq-darkness"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-gsq-ghassaq",
+      "form_group_ids": [
+        "qac-form:gsq:gas~aAq:nominal:-"
+      ],
+      "headword_arabic": "غَسَّاق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense-ghassaq-fluid",
+          "definition": "A watery or thick purulent discharge, including ichor, washings, or tears dripping from the skins of the inmates of Hell.",
+          "usage_conditions": "This is the Quranic substance mentioned alongside boiling liquid in 38:57 and 78:25; variant explanations describe its consistency and identify it as matter flowing from the skins of Hell's inhabitants.",
+          "source_refs": [
+            "lane:entry:29279",
+            "mufradat:row:1050"
+          ]
+        },
+        {
+          "sense_id": "sense-ghassaq-cold",
+          "definition": "Intense cold, said to burn by reason of its coldness.",
+          "usage_conditions": "An alternative explanation of the Quranic term takes it for extreme cold rather than a dripping substance.",
+          "source_refs": [
+            "lane:entry:29279"
+          ]
+        },
+        {
+          "sense_id": "sense-ghassaq-stench",
+          "definition": "A stinking or foul-smelling substance.",
+          "usage_conditions": "Some explanations characterize the Quranic item by its stench, sometimes combining foulness with intense cold.",
+          "source_refs": [
+            "lane:entry:29279"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "38:57",
+          "word_location": "38:57:4",
+          "sense_ids": [
+            "sense-ghassaq-fluid"
+          ]
+        },
+        {
+          "verse_key": "78:25",
+          "word_location": "78:25:3",
+          "sense_ids": [
+            "sense-ghassaq-fluid"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning-gsqa-become-dark",
+      "headword_arabic": "غَسَقَ",
+      "definition": "To become dark or intensely dark.",
+      "usage_conditions": "Said of the night; also said of the moon when it loses its light and becomes dark.",
+      "source_refs": [
+        "lane:entry:29276"
+      ]
+    },
+    {
+      "meaning_id": "meaning-gsqa-eye-dark",
+      "headword_arabic": "غَسَقَ",
+      "definition": "Of the eye, to become dark.",
+      "usage_conditions": "A specific usage describing darkening of the eye.",
+      "source_refs": [
+        "lane:entry:29276"
+      ]
+    },
+    {
+      "meaning_id": "meaning-gsqa-eye-tears",
+      "headword_arabic": "غَسَقَ",
+      "definition": "Of the eye, to shed, overflow with, or pour forth tears.",
+      "usage_conditions": "Used of an eye whose tears flow out abundantly.",
+      "source_refs": [
+        "lane:entry:29276"
+      ]
+    },
+    {
+      "meaning_id": "meaning-gsqa-flow",
+      "headword_arabic": "غَسَقَ",
+      "definition": "To flow or pour forth.",
+      "usage_conditions": "Said of yellow fluid flowing from a wound, light rain falling from the sky, milk flowing from the udder, and fluids generally.",
+      "source_refs": [
+        "lane:entry:29276"
+      ]
+    },
+    {
+      "meaning_id": "meaning-agsqa-enter-darkness",
+      "headword_arabic": "أَغْسَقَ",
+      "definition": "To enter upon the beginning of darkness; to delay an action until nightfall.",
+      "usage_conditions": "Said of a person entering the darkness; also of a muezzin delaying the sunset prayer until the غَسَق of night.",
+      "source_refs": [
+        "lane:entry:29277"
+      ]
+    },
+    {
+      "meaning_id": "meaning-ghasaq-refuse",
+      "headword_arabic": "غَسَقٌ",
+      "definition": "Refuse mixed among wheat, such as darnel and similar matter.",
+      "usage_conditions": "A nominal usage referring to unwanted material found among grain.",
+      "source_refs": [
+        "lane:entry:29278"
+      ]
+    },
+    {
+      "meaning_id": "meaning-ghasiqat-red",
+      "headword_arabic": "غَسِيقَاتٌ",
+      "definition": "Intensely red.",
+      "usage_conditions": "Applied to she-camels in a Classical poetic usage.",
+      "source_refs": [
+        "lane:entry:29280"
+      ]
+    },
+    {
+      "meaning_id": "meaning-alghasiq-flowing",
+      "headword_arabic": "الغَاسِقُ",
+      "definition": "Flowing.",
+      "usage_conditions": "Applied poetically to a source or spring; this usage is unrelated to darkness.",
+      "source_refs": [
+        "lane:entry:29282"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:gsq:29276:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-gsqa-become-dark"
+      ],
+      "note": "The darkening verb meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29276:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning-gsqa-become-dark"
+      ],
+      "note": "The moon application is covered by the same darkening branch."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29276:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-gsqa-eye-dark",
+        "meaning-gsqa-eye-tears"
+      ],
+      "note": "The eye-darkening and tear-flowing branches are represented separately."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29276:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-gsqa-flow"
+      ],
+      "note": "The wound, rain, milk, and general pouring uses are grouped under flowing or pouring."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29277:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29277:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-agsqa-enter-darkness"
+      ],
+      "note": "The Form IV entry and prayer-delay construction are represented."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29278:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-ghasaq-darkness"
+      ],
+      "note": "The Quran-attested noun's darkness branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29278:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-ghasaq-refuse"
+      ],
+      "note": "The independent grain-refuse meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29279:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-ghassaq-fluid",
+        "sense-ghassaq-cold",
+        "sense-ghassaq-stench"
+      ],
+      "note": "The Quran-linked fluid, intense-cold, and stench explanations are represented."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29280:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-ghasiqat-red"
+      ],
+      "note": "The Classical adjective meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29281:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the غَسَاق entry."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29281:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial pointer to a following paragraph, with no independent lexical content."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29282:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-ghasiq-night",
+        "sense-ghasiq-moon",
+        "sense-ghasiq-cold"
+      ],
+      "note": "The Quran-linked night, eclipsed-moon, and cold interpretations are represented."
+    },
+    {
+      "unit_id": "lane-unit:gsq:29282:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-alghasiq-flowing"
+      ],
+      "note": "The independent flowing-source usage is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic expression غَاسِقٍ إِذَا وَقَبَ has multiple reported interpretations, including the entering night, the eclipsed moon, nocturnal cold or harm, and less common identifications such as the setting sun, day entering night, a striking serpent, Iblīs, or an erect male organ. These additional identifications are preserved as interpretive alternatives rather than separate ordinary senses.",
+    "The lexical discussion treats غَسَاق and غَسَّاق as variant readings in the passages at 38:57 and 78:25; the public form here follows the supplied QAC grouping غَسَّاق."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

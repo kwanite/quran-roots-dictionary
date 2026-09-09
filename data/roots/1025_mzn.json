@@ -1,0 +1,134 @@
+{
+  "root": "mzn",
+  "arabic": "مزن",
+  "root_idea": {
+    "summary": "The root is cloud-centered: مُزْن denotes cloud, while related branches develop through cloud imagery and several distinct lexical uses.",
+    "development": "The cloud is proposed as the likely primary image. Related usages include a piece of cloud, a crescent seen through clouds, generosity modeled on cloud-like munificence, ant eggs, the ant, and filling a water-skin.",
+    "source_refs": [
+      "maqayis:row:4364",
+      "mufradat:row:1363",
+      "lane:entry:5692"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mzn:muzon:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:mzn:muzn",
+      "reason": "Quran-attested nominal displayed under the normalized citation form مُزْن."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:mzn:muzn",
+      "form_group_ids": [
+        "qac-form:mzn:muzon:nominal:-"
+      ],
+      "headword_arabic": "مُزْن",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsense:mzn:muzn:cloud",
+          "definition": "Cloud; in the Quranic occurrence, the bright or rain-bearing cloud associated with the sending down of water.",
+          "usage_conditions": "Occurs in the expression مِنَ الْمُزْنِ, “from the clouds,” in 56:69. The lexical range includes clouds generally, including white clouds and clouds containing water.",
+          "source_refs": [
+            "lane:entry:5691",
+            "mufradat:row:1363"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:69",
+          "word_location": "56:69:4",
+          "sense_ids": [
+            "qsense:mzn:muzn:cloud"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:mzn:ibn-muzna:crescent",
+      "headword_arabic": "ابْنُ مُزْنَةٍ",
+      "definition": "The crescent moon seen through a cloud.",
+      "usage_conditions": "A conventional expression for the crescent appearing through clouds.",
+      "source_refs": [
+        "maqayis:row:4364",
+        "mufradat:row:1363"
+      ]
+    },
+    {
+      "meaning_id": "cm:mzn:mazin:ant-eggs",
+      "headword_arabic": "المازِن",
+      "definition": "Ant eggs.",
+      "usage_conditions": "A reported lexical use of المازن.",
+      "source_refs": [
+        "maqayis:row:4364",
+        "mufradat:row:1363"
+      ]
+    },
+    {
+      "meaning_id": "cm:mzn:ibn-mazin:ant",
+      "headword_arabic": "ابْنُ مَازِنٍ",
+      "definition": "The ant.",
+      "usage_conditions": "A conventional compound expression.",
+      "source_refs": [
+        "lane:entry:5692"
+      ]
+    },
+    {
+      "meaning_id": "cm:mzn:mazana:fill-waterskin",
+      "headword_arabic": "مَزَنَ",
+      "definition": "To fill a water-skin.",
+      "usage_conditions": "Attested in the transitive construction مَزَنَ قِرْبَتَهُ.",
+      "source_refs": [
+        "maqayis:row:4364"
+      ]
+    },
+    {
+      "meaning_id": "cm:mzn:tamazzana:generosity",
+      "headword_arabic": "تَمَزَّنَ",
+      "definition": "To act generously toward others, emulating the munificence of a cloud.",
+      "usage_conditions": "A derived use describing generous conduct modeled on the cloud.",
+      "source_refs": [
+        "maqayis:row:4364",
+        "mufradat:row:1363"
+      ]
+    },
+    {
+      "meaning_id": "cm:mzn:mazzana:liken-cloud",
+      "headword_arabic": "مَزَّنَ",
+      "definition": "To liken someone to a cloud.",
+      "usage_conditions": "A causative construction meaning to compare or liken a person to the cloud.",
+      "source_refs": [
+        "mufradat:row:1363"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mzn:5691:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:mzn:muzn:cloud"
+      ],
+      "note": "Cloud meanings, including general, white, and water-containing clouds, are covered by the Quranic cloud sense."
+    },
+    {
+      "unit_id": "lane-unit:mzn:5692:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mzn:ibn-mazin:ant"
+      ],
+      "note": "The compound ابن مازن meaning “the ant” is represented as a distinct Classical Arabic meaning."
+    }
+  ],
+  "cautions": [
+    "The Quranic surface form is the genitive مُزْنِ; the public headword is normalized to مُزْن. The additional branches are Classical Arabic uses of related forms or compounds, not additional Quranic senses of مُزْن."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

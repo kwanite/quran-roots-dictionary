@@ -1,0 +1,475 @@
+{
+  "root": "*wq",
+  "arabic": "ذوق",
+  "root_idea": {
+    "summary": "The root centers on testing or knowing something through tasting, with direct sensory perception providing the basis for broader experience.",
+    "development": "From perceiving a taste—especially by sampling a small amount—the lexicon extends to trying or testing, undergoing conditions and consequences, and figurative intellectual or inward experience. Quranic usage prominently applies this extension to punishment, hardship, mercy, and other states.",
+    "source_refs": [
+      "maqayis:row:1923",
+      "mufradat:row:516"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:*wq:*aAqu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-wq-dhaqa",
+      "reason": "Displayed under the normalized Form I perfect citation form ذَاقَ."
+    },
+    {
+      "form_group_id": "qac-form:*wq:>a*aAqa:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-wq-adhaqa",
+      "reason": "Displayed under the normalized Form IV perfect citation form أَذَاقَ."
+    },
+    {
+      "form_group_id": "qac-form:*wq:*aA^}iqap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-wq-dhaaiq",
+      "reason": "Displayed under the normalized singular active-participle citation form ذَائِقٌ."
+    },
+    {
+      "form_group_id": "qac-form:*wq:*aA^}iquwA:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qf-wq-dhaaiq",
+      "reason": "Masculine plural active-participle occurrences are consolidated with the singular participial headword ذَائِقٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-wq-dhaqa",
+      "form_group_ids": [
+        "qac-form:*wq:*aAqu:verb:I"
+      ],
+      "headword_arabic": "ذَاقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 36,
+      "senses": [
+        {
+          "sense_id": "qf-wq-dhaqa-s1",
+          "definition": "To taste or perceive the flavor of something by the tongue; to sample food or drink.",
+          "usage_conditions": "The ordinary physical sense is associated with taking a small amount, in contrast with eating a large quantity. This quantitative association does not restrict the Quran's extended uses.",
+          "source_refs": [
+            "lane:entry:21859"
+          ]
+        },
+        {
+          "sense_id": "qf-wq-dhaqa-s2",
+          "definition": "To experience or perceive something directly, including undergoing a condition, consequence, harm, punishment, or other state, and thereby to try or test it.",
+          "usage_conditions": "The extended construction is not restricted to the mouth: it may concern other sensory objects or an experienced state. In the Quran it is used for tasting physical things and for undergoing consequences, punishment, death, and other conditions; the separate sexual idiom is a broader Classical Arabic use.",
+          "source_refs": [
+            "lane:entry:21859",
+            "mufradat:row:516"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:22",
+          "word_location": "7:22:4",
+          "sense_ids": [
+            "qf-wq-dhaqa-s1"
+          ]
+        },
+        {
+          "verse_key": "78:24",
+          "word_location": "78:24:2",
+          "sense_ids": [
+            "qf-wq-dhaqa-s1"
+          ]
+        },
+        {
+          "verse_key": "5:95",
+          "word_location": "5:95:35",
+          "sense_ids": [
+            "qf-wq-dhaqa-s2"
+          ]
+        },
+        {
+          "verse_key": "32:14",
+          "word_location": "32:14:1",
+          "sense_ids": [
+            "qf-wq-dhaqa-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-wq-adhaqa",
+      "form_group_ids": [
+        "qac-form:*wq:>a*aAqa:verb:IV"
+      ],
+      "headword_arabic": "أَذَاقَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 22,
+      "senses": [
+        {
+          "sense_id": "qf-wq-adhaqa-s1",
+          "definition": "To cause someone to experience or undergo something; to give someone a taste of a condition, consequence, punishment, hardship, mercy, or blessing.",
+          "usage_conditions": "A causative construction in which the object is made to experience the thing named. Quranic uses include both adverse experiences such as punishment, hunger, fear, and hardship and favorable experiences such as mercy and blessing; the object need not be food.",
+          "source_refs": [
+            "lane:entry:21861",
+            "mufradat:row:516"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:10",
+          "word_location": "11:10:2",
+          "sense_ids": [
+            "qf-wq-adhaqa-s1"
+          ]
+        },
+        {
+          "verse_key": "41:27",
+          "word_location": "41:27:1",
+          "sense_ids": [
+            "qf-wq-adhaqa-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-wq-dhaaiq",
+      "form_group_ids": [
+        "qac-form:*wq:*aA^}iqap:nominal:-",
+        "qac-form:*wq:*aA^}iquwA:nominal:-"
+      ],
+      "headword_arabic": "ذَائِقٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qf-wq-dhaaiq-s1",
+          "definition": "One who tastes or experiences something directly.",
+          "usage_conditions": "In the supplied Quranic occurrences, the participle describes those who will taste or experience death or painful punishment; singular feminine and masculine plural forms are included under this citation headword.",
+          "source_refs": [
+            "lane:entry:21859",
+            "mufradat:row:516"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:35",
+          "word_location": "21:35:3",
+          "sense_ids": [
+            "qf-wq-dhaaiq-s1"
+          ]
+        },
+        {
+          "verse_key": "37:31",
+          "word_location": "37:31:6",
+          "sense_ids": [
+            "qf-wq-dhaaiq-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl-wq-sexual-experience",
+      "headword_arabic": "ذَاقَ",
+      "definition": "To experience sexual pleasure or sexual intercourse, expressed through the conventional euphemism of tasting.",
+      "usage_conditions": "A specialized Classical Arabic construction; it is kept distinct from the Quranic senses.",
+      "source_refs": [
+        "lane:entry:21859"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-bow-test",
+      "headword_arabic": "ذَاقَ القَوْسَ",
+      "definition": "To pull a bowstring in order to test its strength and resilience.",
+      "usage_conditions": "A specialized construction referring to testing a bow by drawing its string.",
+      "source_refs": [
+        "lane:entry:21859"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-intellectual-taste",
+      "headword_arabic": "الذَّوْقُ",
+      "definition": "Intellectual or inward discernment and relish, especially sensitivity to the subtleties of language and poetry; figuratively, the experience of knowledge or faith as nourishment.",
+      "usage_conditions": "A figurative faculty of perception modeled on the sense of taste.",
+      "source_refs": [
+        "lane:entry:21859"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-formII-give-taste",
+      "headword_arabic": "ذَوَّقَ",
+      "definition": "To give someone something to taste.",
+      "usage_conditions": "Form II causation of the act of tasting.",
+      "source_refs": [
+        "lane:entry:21860"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-formIV-display-quality",
+      "headword_arabic": "أَذَاقَ",
+      "definition": "To display or cause a quality to become known through experience, as when someone proves generous or a horse proves a good runner.",
+      "usage_conditions": "An idiomatic extension in which a quality becomes apparent after it has been experienced or observed.",
+      "source_refs": [
+        "lane:entry:21861"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-formV-gradual-taste",
+      "headword_arabic": "تَذَوَّقَ",
+      "definition": "To taste gradually or repeatedly; figuratively, to test a person's character or experience a separation.",
+      "usage_conditions": "The derived form emphasizes gradual or repeated tasting in the literal construction.",
+      "source_refs": [
+        "lane:entry:21862"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-formVI-mutual-test",
+      "headword_arabic": "تَذَاوَقَ",
+      "definition": "To handle or test something mutually, taking it in turn; specifically, to take spears from one another to test their qualities.",
+      "usage_conditions": "A reciprocal construction, especially attested of people testing weapons or their qualities by passing them between one another.",
+      "source_refs": [
+        "lane:entry:21863"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-formX-test-person",
+      "headword_arabic": "اِسْتَذَاقَ",
+      "definition": "To seek to test a person and ascertain his inner character or condition.",
+      "usage_conditions": "A Form X construction of deliberate investigation by experience.",
+      "source_refs": [
+        "lane:entry:21864"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-formX-feasible",
+      "headword_arabic": "اِسْتَذَاقَ لِـ",
+      "definition": "To become easy or feasible for someone, of an affair, poetry, or versification.",
+      "usage_conditions": "A distinct impersonal construction in which the matter becomes workable or comes easily to a person.",
+      "source_refs": [
+        "lane:entry:21864"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-dhawwaaq-object",
+      "headword_arabic": "ذَوَاقٌ",
+      "definition": "A thing tasted or sampled; figuratively, knowledge or discipline received as nourishment for the mind and soul.",
+      "usage_conditions": "The noun may denote either the tasted object or, in an extended expression, received intellectual nourishment.",
+      "source_refs": [
+        "lane:entry:21866"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-dhawwaaq-marriage",
+      "headword_arabic": "ذَوَّاقٌ",
+      "definition": "A person who repeatedly enters new marriages, marrying and divorcing quickly and not remaining long in one marital state.",
+      "usage_conditions": "An idiomatic personal description, with corresponding masculine and feminine usage.",
+      "source_refs": [
+        "lane:entry:21867"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-madhaaq",
+      "headword_arabic": "مَذَاقٌ",
+      "definition": "A place or time of tasting.",
+      "usage_conditions": "A noun of place or time derived from the act of tasting.",
+      "source_refs": [
+        "lane:entry:21868"
+      ]
+    },
+    {
+      "meaning_id": "cl-wq-mustadhaaq",
+      "headword_arabic": "مُسْتَذَاقٌ",
+      "definition": "Tried or tested and thereby known, of an affair or a person.",
+      "usage_conditions": "The description concerns something or someone whose qualities have been ascertained through experience.",
+      "source_refs": [
+        "lane:entry:21869"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:*wq:21859:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-wq-dhaqa-s1",
+        "qf-wq-dhaqa-s2"
+      ],
+      "note": "Covers physical tasting and trying or knowing through tasting."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21859:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-wq-dhaqa-s2",
+        "cl-wq-sexual-experience",
+        "cl-wq-intellectual-taste"
+      ],
+      "note": "Covers extended sensory and experiential use, sexual experience, and inward or intellectual relish."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21859:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-bow-test"
+      ],
+      "note": "Bowstring testing construction."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21859:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-intellectual-taste"
+      ],
+      "note": "Intellectual discernment and relish."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21859:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-sexual-experience"
+      ],
+      "note": "Sensuality or voluptuousness branch."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21860:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-formII-give-taste"
+      ],
+      "note": "Form II causative tasting."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21860:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the earlier discussion."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21861:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-wq-adhaqa-s1"
+      ],
+      "note": "Form IV causative physical or experiential tasting."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21861:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-wq-adhaqa-s1"
+      ],
+      "note": "Quran-attested causative experience of hardship, punishment, mercy, and related states."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21861:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-formIV-display-quality"
+      ],
+      "note": "Idiomatic display of a quality through experience."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21862:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-formV-gradual-taste"
+      ],
+      "note": "Gradual or repeated tasting."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21862:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-formV-gradual-taste"
+      ],
+      "note": "Figurative testing and experiencing separation."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21863:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-formVI-mutual-test"
+      ],
+      "note": "Reciprocal tasting or testing."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21863:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-formVI-mutual-test"
+      ],
+      "note": "Taking spears in turn to test their qualities."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21864:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-formX-test-person"
+      ],
+      "note": "Testing a person to ascertain inner condition."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21864:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-formX-feasible"
+      ],
+      "note": "Construction meaning easy or feasible."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21865:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive-noun and plural information with a pointer to an already represented discussion; no new lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21866:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-dhawwaaq-object"
+      ],
+      "note": "Thing tasted or sampled."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21866:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-dhawwaaq-object"
+      ],
+      "note": "Figurative knowledge and discipline received as nourishment."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21867:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-dhawwaaq-marriage"
+      ],
+      "note": "Repeated-marriage idiom."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21868:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-madhaaq"
+      ],
+      "note": "Place or time of tasting."
+    },
+    {
+      "unit_id": "lane-unit:*wq:21869:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wq-mustadhaaq"
+      ],
+      "note": "Something or someone tried, tested, and known."
+    }
+  ],
+  "cautions": [
+    "The ordinary association of ذوق with a small amount is extended in Quranic usage to undergoing substantial punishment, hardship, mercy, and other conditions.",
+    "Lane's printed Quran references use historical citation conventions; the modern verse locations shown here are taken from the supplied QAC occurrences, not reconstructed from Lane's bracketed references."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

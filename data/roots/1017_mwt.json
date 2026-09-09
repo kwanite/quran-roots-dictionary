@@ -1,0 +1,1508 @@
+{
+  "root": "mwt",
+  "arabic": "موت",
+  "root_idea": {
+    "summary": "The root centers on the loss or departure of force, vitality, or life from something; hence موت is the opposite of life.",
+    "development": "From physical death, the lexical field extends to lifeless land, loss of sensation or understanding, sleep, stillness, exhaustion, mortality, and figurative states resembling death. Derived forms also express causing death, seeking or feigning death, and states associated with mortality.",
+    "source_refs": [
+      "maqayis:row:4480",
+      "mufradat:row:1395"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mwt:m~aAta:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mwt_fi",
+      "reason": "Form I verb displayed under its normalized Classical Arabic citation form."
+    },
+    {
+      "form_group_id": "qac-form:mwt:>amaAta:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mwt_fiv",
+      "reason": "Form IV causative verb displayed separately from Form I."
+    },
+    {
+      "form_group_id": "qac-form:mwt:mamaAt:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mwt_mamat",
+      "reason": "Distinct Quran-attested verbal noun or death-state noun."
+    },
+    {
+      "form_group_id": "qac-form:mwt:mawot:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mwt_mawt",
+      "reason": "Core Quran-attested noun for death and lifelessness."
+    },
+    {
+      "form_group_id": "qac-form:mwt:mawotat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mwt_mawtah",
+      "reason": "Distinct noun denoting one death or a single instance of dying."
+    },
+    {
+      "form_group_id": "qac-form:mwt:mayotap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mwt_maytah",
+      "reason": "Distinct feminine adjective/noun, including the Quranic legal and lexical sense of carrion."
+    },
+    {
+      "form_group_id": "qac-form:mwt:m~ayot:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "mwt_mayyit",
+      "reason": "مَيْت is treated as the contracted or variant form of مَيِّت in the lexical evidence; its Quranic occurrences are covered under the normalized public form مَيِّت."
+    },
+    {
+      "form_group_id": "qac-form:mwt:m~ay~it:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mwt_mayyit",
+      "reason": "Normalized public citation form for the adjective/noun مَيِّت and its plural forms."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mwt_fi",
+      "form_group_ids": [
+        "qac-form:mwt:m~aAta:verb:I"
+      ],
+      "headword_arabic": "مَاتَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 39,
+      "senses": [
+        {
+          "sense_id": "mwt_fi_s1",
+          "definition": "to die; to undergo the departure of life",
+          "usage_conditions": "Used literally of a person or other living being. Perfect, imperfect, imperative, and passive-context translations reflect grammatical form rather than separate lexical meanings.",
+          "source_refs": [
+            "lane:entry:13103"
+          ]
+        },
+        {
+          "sense_id": "mwt_fi_s2",
+          "definition": "to become deprived of sensation, as though dead",
+          "usage_conditions": "A Quran-attested figurative use in which the loss of bodily feeling or vitality is expressed through death language.",
+          "source_refs": [
+            "lane:entry:13103",
+            "mufradat:row:1395"
+          ]
+        },
+        {
+          "sense_id": "mwt_fi_s3",
+          "definition": "to become as though dead through overwhelming grief, sorrow, or fear",
+          "usage_conditions": "A figurative construction describing an emotion that disturbs or diminishes life; it should not be restricted to literal death.",
+          "source_refs": [
+            "lane:entry:13103"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:144",
+          "word_location": "3:144:11",
+          "sense_ids": [
+            "mwt_fi_s1"
+          ]
+        },
+        {
+          "verse_key": "19:23",
+          "word_location": "19:23:8",
+          "sense_ids": [
+            "mwt_fi_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mwt_fiv",
+      "form_group_ids": [
+        "qac-form:mwt:>amaAta:verb:IV"
+      ],
+      "headword_arabic": "أَمَاتَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 21,
+      "senses": [
+        {
+          "sense_id": "mwt_fiv_s1",
+          "definition": "to cause someone or something to die; to put to death",
+          "usage_conditions": "A transitive causative construction. The subject may be God or another agent in the Quranic wording; the core meaning is causing death, not merely undergoing it.",
+          "source_refs": [
+            "lane:entry:13106"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:28",
+          "word_location": "2:28:8",
+          "sense_ids": [
+            "mwt_fiv_s1"
+          ]
+        },
+        {
+          "verse_key": "2:259",
+          "word_location": "2:259:17",
+          "sense_ids": [
+            "mwt_fiv_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mwt_mamat",
+      "form_group_ids": [
+        "qac-form:mwt:mamaAt:nominal:-"
+      ],
+      "headword_arabic": "مَمَات",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "mwt_mamat_s1",
+          "definition": "dying; death as an event or state",
+          "usage_conditions": "A nominal expression for the occasion or condition of dying, including possessive constructions such as “my dying” and “their death.”",
+          "source_refs": [
+            "mufradat:row:1395",
+            "lane:entry:13121"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:162",
+          "word_location": "6:162:6",
+          "sense_ids": [
+            "mwt_mamat_s1"
+          ]
+        },
+        {
+          "verse_key": "17:75",
+          "word_location": "17:75:6",
+          "sense_ids": [
+            "mwt_mamat_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mwt_mawt",
+      "form_group_ids": [
+        "qac-form:mwt:mawot:nominal:-"
+      ],
+      "headword_arabic": "مَوْت",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 50,
+      "senses": [
+        {
+          "sense_id": "mwt_mawt_s1",
+          "definition": "death; lifelessness, the opposite of life",
+          "usage_conditions": "The ordinary noun for death or the absence of life, including the loss of vitality in living beings and the lifeless condition of things such as land.",
+          "source_refs": [
+            "lane:entry:13109",
+            "mufradat:row:1395"
+          ]
+        },
+        {
+          "sense_id": "mwt_mawt_s2",
+          "definition": "overwhelming anguish or distress represented as death",
+          "usage_conditions": "A Quran-attested figurative construction in which grief, pain, or distress comes upon a person from every direction without producing literal death.",
+          "source_refs": [
+            "mufradat:row:1395"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:7",
+          "word_location": "11:7:23",
+          "sense_ids": [
+            "mwt_mawt_s1"
+          ]
+        },
+        {
+          "verse_key": "14:17",
+          "word_location": "14:17:6",
+          "sense_ids": [
+            "mwt_mawt_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mwt_mawtah",
+      "form_group_ids": [
+        "qac-form:mwt:mawotat:nominal:-"
+      ],
+      "headword_arabic": "مَوْتَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "mwt_mawtah_s1",
+          "definition": "one death; a single instance of dying",
+          "usage_conditions": "The unitary noun emphasizes one occurrence or episode of death, as in “our one death.”",
+          "source_refs": [
+            "mufradat:row:1395"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:59",
+          "word_location": "37:59:2",
+          "sense_ids": [
+            "mwt_mawtah_s1"
+          ]
+        },
+        {
+          "verse_key": "44:56",
+          "word_location": "44:56:6",
+          "sense_ids": [
+            "mwt_mawtah_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mwt_maytah",
+      "form_group_ids": [
+        "qac-form:mwt:mayotap:nominal:-"
+      ],
+      "headword_arabic": "مَيْتَة",
+      "public_pos_label": "Adjective / Noun",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "mwt_maytah_s1",
+          "definition": "dead or lifeless, feminine form",
+          "usage_conditions": "Used adjectivally of a feminine noun, including earth deprived of vegetative life; it can also be substantivized according to context.",
+          "source_refs": [
+            "lane:entry:13110"
+          ]
+        },
+        {
+          "sense_id": "mwt_maytah_s2",
+          "definition": "carrion; an animal that has died without lawful slaughter",
+          "usage_conditions": "A substantivized legal and dietary term for an edible animal whose life departed without the prescribed slaughter; the Quranic usage concerns dead animals rather than death in the abstract.",
+          "source_refs": [
+            "lane:entry:13110",
+            "mufradat:row:1395"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "36:33",
+          "word_location": "36:33:4",
+          "sense_ids": [
+            "mwt_maytah_s1"
+          ]
+        },
+        {
+          "verse_key": "2:173",
+          "word_location": "2:173:4",
+          "sense_ids": [
+            "mwt_maytah_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mwt_mayyit",
+      "form_group_ids": [
+        "qac-form:mwt:m~ayot:nominal:-",
+        "qac-form:mwt:m~ay~it:nominal:-"
+      ],
+      "headword_arabic": "مَيِّت",
+      "public_pos_label": "Adjective / Noun",
+      "verb_form": null,
+      "occurrence_count": 43,
+      "senses": [
+        {
+          "sense_id": "mwt_mayyit_s1",
+          "definition": "dead; dying or destined to die",
+          "usage_conditions": "مَيْت is reported as a contracted or variant form of مَيِّت, and the two are used for the dead as well as, in some analyses, one who is still alive but near death. The form may be substantivized and has plural forms such as أَمْوَات and مَوْتَى.",
+          "source_refs": [
+            "lane:entry:13118"
+          ]
+        },
+        {
+          "sense_id": "mwt_mayyit_s2",
+          "definition": "dead or deprived of vegetative life",
+          "usage_conditions": "Used of land or other natural surroundings whose growth and productivity have ceased. This includes the Quranic image of dead earth being restored to life.",
+          "source_refs": [
+            "lane:entry:13103",
+            "lane:entry:13110",
+            "mufradat:row:1395"
+          ]
+        },
+        {
+          "sense_id": "mwt_mayyit_s3",
+          "definition": "deprived of understanding or intellectual responsiveness; spiritually dead",
+          "usage_conditions": "A Quran-attested figurative use for ignorance or failure of understanding, including the comparison of unresponsive people to the dead. It is not a restriction to any particular social or biological class.",
+          "source_refs": [
+            "lane:entry:13103",
+            "mufradat:row:1395"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:30",
+          "word_location": "39:30:2",
+          "sense_ids": [
+            "mwt_mayyit_s1"
+          ]
+        },
+        {
+          "verse_key": "35:9",
+          "word_location": "35:9:10",
+          "sense_ids": [
+            "mwt_mayyit_s2"
+          ]
+        },
+        {
+          "verse_key": "6:122",
+          "word_location": "6:122:3",
+          "sense_ids": [
+            "mwt_mayyit_s3"
+          ]
+        },
+        {
+          "verse_key": "3:169",
+          "word_location": "3:169:8",
+          "sense_ids": [
+            "mwt_mayyit_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_detached_dead",
+      "headword_arabic": "مَيِّت",
+      "definition": "Regarded as dead when separated from a living body, including a detached part or substance.",
+      "usage_conditions": "The lexical discussion treats milk, hair, and wool as exceptional where practical use requires them to retain a different status.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_land_desolate",
+      "headword_arabic": "مَاتَ",
+      "definition": "Of land: to become desolate, uncultivated, and without inhabitants.",
+      "usage_conditions": "A Classical use for land whose cultivation and habitation have ceased; it is distinct from the Quranic adjective for dead or barren land.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_still",
+      "headword_arabic": "مَاتَ",
+      "definition": "To become still, quiet, or motionless; of wind, to lose its force.",
+      "usage_conditions": "Used of a person, thing, wind, or a place described by the stillness of its wind.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_sleep",
+      "headword_arabic": "مَاتَ",
+      "definition": "To sleep, including to sleep heavily.",
+      "usage_conditions": "A figurative extension comparing sleep or heavy sleep with death.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_cease_activity",
+      "headword_arabic": "مَاتَ",
+      "definition": "To lose active force or practical function: of fire, heat or cold, water, a garment, or a road.",
+      "usage_conditions": "The attested applications include a fire dying away, heat or cold abating, water drying into the earth, a garment wearing out, and a road ceasing to be used.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_envy",
+      "headword_arabic": "مَاتَ",
+      "definition": "To be figuratively consumed by envy.",
+      "usage_conditions": "An idiomatic expression in which “dying” describes an intense emotion rather than literal death.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_poverty",
+      "headword_arabic": "مَاتَ",
+      "definition": "To become poor or reduced to begging.",
+      "usage_conditions": "A figurative Classical use describing severe reduction in worldly condition.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_debased",
+      "headword_arabic": "مَاتَ",
+      "definition": "To become base, abject, vile, or ignominious.",
+      "usage_conditions": "A figurative extension from loss of dignity or vitality.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_aged",
+      "headword_arabic": "مَاتَ",
+      "definition": "To become extremely old, weak, or decrepit.",
+      "usage_conditions": "A figurative description of advanced age and loss of strength.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_rebellious",
+      "headword_arabic": "مَاتَ",
+      "definition": "To become disobedient or rebellious.",
+      "usage_conditions": "An attributed Classical and traditional usage; the meaning is figurative and does not denote physical death.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_mata_humble",
+      "headword_arabic": "مَاتَ",
+      "definition": "To become lowly, humble, or submissive to the truth.",
+      "usage_conditions": "A reported figurative use for adopting humility or submission.",
+      "source_refs": [
+        "lane:entry:13103"
+      ]
+    },
+    {
+      "meaning_id": "cm_formII_mass_death",
+      "headword_arabic": "مَوَّتَ",
+      "definition": "Of beasts of burden: to die in great numbers, or for deaths among them to become frequent.",
+      "usage_conditions": "The derived Form II construction is attested for widespread or repeated animal deaths.",
+      "source_refs": [
+        "lane:entry:13104"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIII_patience",
+      "headword_arabic": "مَاْوَتَ",
+      "definition": "To vie with someone in patience, firmness, or steadfastness.",
+      "usage_conditions": "A Form III reciprocal construction concerning endurance or steadiness.",
+      "source_refs": [
+        "lane:entry:13105"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIV_bereaved",
+      "headword_arabic": "أَمَاتَ",
+      "definition": "To cause someone or an animal to lose offspring through death.",
+      "usage_conditions": "Used of a person, woman, or female camel that has lost one or more offspring; this is a bereavement construction, not ordinary causation of death.",
+      "source_refs": [
+        "lane:entry:13106"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIV_poverty",
+      "headword_arabic": "أَمَاتَ",
+      "definition": "To render someone poor or reduce someone to poverty.",
+      "usage_conditions": "A figurative Form IV use.",
+      "source_refs": [
+        "lane:entry:13106"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIV_sleep",
+      "headword_arabic": "أَمَاتَ",
+      "definition": "To cause someone to sleep.",
+      "usage_conditions": "A figurative causative use, including the traditional contrast between sleep and waking.",
+      "source_refs": [
+        "lane:entry:13106"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIV_cook",
+      "headword_arabic": "أَمَاتَ",
+      "definition": "To cook thoroughly until strong taste, odor, or boiling activity is removed.",
+      "usage_conditions": "Used of meat, onions, garlic, and wine; the result is thorough cooking or cessation of boiling rather than literal death.",
+      "source_refs": [
+        "lane:entry:13106"
+      ]
+    },
+    {
+      "meaning_id": "cm_formIV_dead_heart",
+      "headword_arabic": "أَمَاتَ",
+      "definition": "To render the heart dead or unresponsive in a figurative expression.",
+      "usage_conditions": "A rhetorical construction explicitly understood as nonliteral death and associated with lack of increase or responsiveness.",
+      "source_refs": [
+        "lane:entry:13106"
+      ]
+    },
+    {
+      "meaning_id": "cm_formVI_feign_dead",
+      "headword_arabic": "تَمَاوَتَ",
+      "definition": "To feign being dead, weak, or motionless while alive.",
+      "usage_conditions": "The Form VI construction can describe pretending death after being struck or adopting a weak, motionless appearance through excessive devotion or fasting.",
+      "source_refs": [
+        "lane:entry:13107"
+      ]
+    },
+    {
+      "meaning_id": "cm_formX_await_death",
+      "headword_arabic": "اِسْتَمَاتَ",
+      "definition": "To wait until the death of game or a beast of burden is ascertained.",
+      "usage_conditions": "A specialized construction used when one waits to make sure that hunted game or a riding animal has died.",
+      "source_refs": [
+        "lane:entry:13108"
+      ]
+    },
+    {
+      "meaning_id": "cm_formX_seek_death",
+      "headword_arabic": "اِسْتَمَاتَ",
+      "definition": "To seek or court death; to expose oneself to death without concern.",
+      "usage_conditions": "Describes courage, willingness to die, or contentment with death.",
+      "source_refs": [
+        "lane:entry:13108"
+      ]
+    },
+    {
+      "meaning_id": "cm_formX_utmost_effort",
+      "headword_arabic": "اِسْتَمَاتَ",
+      "definition": "To try every means and exert one's utmost in seeking something.",
+      "usage_conditions": "A figurative Form X extension from courting death to pursuing an objective with extreme effort.",
+      "source_refs": [
+        "lane:entry:13108"
+      ]
+    },
+    {
+      "meaning_id": "cm_formX_fatten",
+      "headword_arabic": "اِسْتَمَاتَ",
+      "definition": "To become fat after having been emaciated.",
+      "usage_conditions": "Attested of a person or camel as a specialized Classical usage.",
+      "source_refs": [
+        "lane:entry:13108"
+      ]
+    },
+    {
+      "meaning_id": "cm_formX_softness",
+      "headword_arabic": "اِسْتَمَاتَ",
+      "definition": "To become relaxed, loose, or flabby, or to reach an extreme degree of softness or hardness.",
+      "usage_conditions": "Used of a thing such as skin or another material in descriptions of an extreme physical quality.",
+      "source_refs": [
+        "lane:entry:13108"
+      ]
+    },
+    {
+      "meaning_id": "cm_death_types",
+      "headword_arabic": "مَوْت",
+      "definition": "A specified kind of death, including sudden death, death by sword slaughter, and death by drowning or suffocation.",
+      "usage_conditions": "These are conventional descriptive compounds formed with موت rather than separate basic meanings of the noun.",
+      "source_refs": [
+        "lane:entry:13109"
+      ]
+    },
+    {
+      "meaning_id": "cm_deadly_arrows",
+      "headword_arabic": "بَنَاتُ المَوْت",
+      "definition": "Deadly arrows, literally “the daughters of death.”",
+      "usage_conditions": "An idiomatic metonym for arrows regarded as instruments of death.",
+      "source_refs": [
+        "lane:entry:13109"
+      ]
+    },
+    {
+      "meaning_id": "cm_maytah_swoon",
+      "headword_arabic": "مُوتَة",
+      "definition": "A fainting or swooning state; by extension, a temporary madness, possession, or epileptic-like seizure.",
+      "usage_conditions": "The term covers a death-like stillness or lapse from which full reason may return.",
+      "source_refs": [
+        "lane:entry:13111"
+      ]
+    },
+    {
+      "meaning_id": "cm_mitah_kind_death",
+      "headword_arabic": "مِيتَة",
+      "definition": "A kind, mode, or manner of death.",
+      "usage_conditions": "Can be qualified as a good death or a pagan or erroneous kind of death; this is distinct from مَيْتَة, carrion.",
+      "source_refs": [
+        "lane:entry:13112",
+        "mufradat:row:1395"
+      ]
+    },
+    {
+      "meaning_id": "cm_motan_heart",
+      "headword_arabic": "مَوْتَانُ القَلْب",
+      "definition": "Dullness or lack of liveliness in the heart; stupidity or an unexcitable disposition.",
+      "usage_conditions": "A figurative compound describing cooled or inactive intelligence and feeling.",
+      "source_refs": [
+        "lane:entry:13113"
+      ]
+    },
+    {
+      "meaning_id": "cm_mutan_mortality",
+      "headword_arabic": "مُوتَان",
+      "definition": "A widespread mortality or mortal disease among camels, sheep, other animals, or people.",
+      "usage_conditions": "Used for an outbreak or heavy incidence of death, including a pestilence-like mortality.",
+      "source_refs": [
+        "lane:entry:13114"
+      ]
+    },
+    {
+      "meaning_id": "cm_mawatan_dead_stock",
+      "headword_arabic": "مَوَتَان",
+      "definition": "Inanimate property or dead stock, such as lands, houses, utensils, and furniture, as opposed to living property.",
+      "usage_conditions": "The commercial contrast is with living beings such as slaves or beasts of burden.",
+      "source_refs": [
+        "lane:entry:13115"
+      ]
+    },
+    {
+      "meaning_id": "cm_mawat_inanimate_land",
+      "headword_arabic": "مَوَات",
+      "definition": "An inanimate thing; especially unowned, unused, uncultivated, or waterless land.",
+      "usage_conditions": "The land sense concerns property belonging to no person and not yet brought into cultivation or useful occupation.",
+      "source_refs": [
+        "lane:entry:13116"
+      ]
+    },
+    {
+      "meaning_id": "cm_mayyit_unbeliever",
+      "headword_arabic": "مَيِّت",
+      "definition": "An unbeliever, in a figurative opposition to حيّ for a Muslim.",
+      "usage_conditions": "A reported Classical figurative use and not a separate Quranic sense of the public form.",
+      "source_refs": [
+        "lane:entry:13118"
+      ]
+    },
+    {
+      "meaning_id": "cm_mayit_grief",
+      "headword_arabic": "مَائِت",
+      "definition": "Dying or absorbed in grief.",
+      "usage_conditions": "A figurative adjective describing someone overwhelmed by sorrow.",
+      "source_refs": [
+        "lane:entry:13120"
+      ]
+    },
+    {
+      "meaning_id": "cm_mayit_severe_death",
+      "headword_arabic": "مَوْتٌ مَائِتٌ",
+      "definition": "A severe, painful, or violent death.",
+      "usage_conditions": "The second word intensifies or corroborates the noun rather than introducing a new kind of death.",
+      "source_refs": [
+        "lane:entry:13120"
+      ]
+    },
+    {
+      "meaning_id": "cm_mumit_bereaved",
+      "headword_arabic": "مُمِيت",
+      "definition": "A woman or female camel bereaved by the death of offspring; a woman who has lost her husband by death.",
+      "usage_conditions": "A specialized nominal designation for bereavement.",
+      "source_refs": [
+        "lane:entry:13122"
+      ]
+    },
+    {
+      "meaning_id": "cm_mutamawit",
+      "headword_arabic": "مُتَمَاوِت",
+      "definition": "One who feigns being dead or adopts the outward appearance of death-like weakness.",
+      "usage_conditions": "Especially applied to a hypocritical devotee who lowers the voice and moves little to appear exceptionally devout.",
+      "source_refs": [
+        "lane:entry:13123"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustamiyt_death",
+      "headword_arabic": "مُسْتَمِيت",
+      "definition": "A courageous person who seeks or courts death, or devotes himself to it in battle.",
+      "usage_conditions": "The participle denotes deliberate exposure to death and indifference to being slain.",
+      "source_refs": [
+        "lane:entry:13124"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustamiyt_devoted",
+      "headword_arabic": "مُسْتَمِيت",
+      "definition": "One wholly surrendered or devoted to an affair or objective.",
+      "usage_conditions": "The figurative construction can describe someone who imagines he will perish if he fails to attain the object.",
+      "source_refs": [
+        "lane:entry:13124"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustamiyt_feign_insane",
+      "headword_arabic": "مُسْتَمِيت",
+      "definition": "One who feigns insanity or possession without actually being insane or possessed.",
+      "usage_conditions": "A reported figurative participial use.",
+      "source_refs": [
+        "lane:entry:13124"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustamiyt_feign_humble",
+      "headword_arabic": "مُسْتَمِيت",
+      "definition": "One who feigns lowliness, quietness, or goodness for effect while not truly possessing those qualities.",
+      "usage_conditions": "Includes false submissiveness toward benefactors and a performed appearance of tranquil devotion.",
+      "source_refs": [
+        "lane:entry:13124"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustamiyt_pellicle",
+      "headword_arabic": "مُسْتَمِيت",
+      "definition": "The thin pellicle adhering to the white of an egg.",
+      "usage_conditions": "A technical nominal use unrelated to the participial meaning of seeking death.",
+      "source_refs": [
+        "lane:entry:13124"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mwt_fi_s1"
+      ],
+      "note": "Basic verb meaning: die."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mwt_fi_s1"
+      ],
+      "note": "Death while leaving people or passing an age."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_detached_dead"
+      ],
+      "note": "Detached substances treated as dead, with stated exceptions."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mata_land_desolate"
+      ],
+      "note": "Land becoming uncultivated and uninhabited."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mwt_mayyit_s2"
+      ],
+      "note": "Loss of vegetative life in soil, with Quran attestation."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mwt_fi_s2"
+      ],
+      "note": "Loss of sensation."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mwt_mayyit_s3"
+      ],
+      "note": "Loss of intellectual faculty or ignorance, with Quran attestations."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mwt_fi_s3"
+      ],
+      "note": "Becoming as if dead through grief, sorrow, or fear."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mata_still"
+      ],
+      "note": "Becoming still or motionless."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub10",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mata_still"
+      ],
+      "note": "Wind becoming calm."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mata_sleep"
+      ],
+      "note": "Sleeping."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mata_cease_activity"
+      ],
+      "note": "Fire dying away."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub13",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mata_cease_activity"
+      ],
+      "note": "Heat or cold abating."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub14",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mata_cease_activity"
+      ],
+      "note": "Water drying into the earth."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub15",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mata_cease_activity"
+      ],
+      "note": "A garment wearing out."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub16",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mata_cease_activity"
+      ],
+      "note": "A road ceasing to be used."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub17",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mata_still"
+      ],
+      "note": "A place where wind loses force."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub18",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mata_sleep"
+      ],
+      "note": "Heavy sleep."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub19",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mata_envy"
+      ],
+      "note": "Idiomatic death from envy."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub20",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mata_poverty"
+      ],
+      "note": "Becoming poor or a beggar."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub21",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mata_debased"
+      ],
+      "note": "Becoming base or ignominious."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub22",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mata_aged"
+      ],
+      "note": "Becoming extremely aged and weak."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub23",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mata_rebellious"
+      ],
+      "note": "Becoming disobedient or rebellious."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13103:g1:sub24",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mata_humble"
+      ],
+      "note": "Becoming lowly or submissive to truth."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13104:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formII_mass_death"
+      ],
+      "note": "Frequent or widespread animal deaths."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13104:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13105:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIII_patience"
+      ],
+      "note": "Vying in patience or firmness."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mwt_fiv_s1"
+      ],
+      "note": "Form IV causation of death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIV_bereaved"
+      ],
+      "note": "Losing a son or sons by death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_formIV_bereaved"
+      ],
+      "note": "Man losing sons by death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_formIV_bereaved"
+      ],
+      "note": "Woman or she-camel losing offspring."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_formIV_bereaved"
+      ],
+      "note": "Death occurring among camels."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIV_dead_heart"
+      ],
+      "note": "Figurative deadness of the heart."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIV_poverty"
+      ],
+      "note": "Rendering someone poor."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIV_sleep"
+      ],
+      "note": "Causing someone to sleep."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub9",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_formIV_sleep"
+      ],
+      "note": "Sleeping during the night."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formIV_cook"
+      ],
+      "note": "Thorough cooking and removal of strong taste or odor."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub11",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_formIV_cook"
+      ],
+      "note": "Wine cooked until boiling ceases."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13106:g1:sub12",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "General pointer to other senses without an independently stated meaning."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13107:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formVI_feign_dead"
+      ],
+      "note": "Feigning death while alive."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13107:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_formVI_feign_dead"
+      ],
+      "note": "Feigning weakness and motionlessness through devotion."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13108:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formX_seek_death"
+      ],
+      "note": "Form X seeking death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13108:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formX_await_death"
+      ],
+      "note": "Awaiting confirmation of the death of game or a beast."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13108:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_formX_seek_death"
+      ],
+      "note": "Courting death through courage."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13108:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_formX_seek_death"
+      ],
+      "note": "Being content to die."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13108:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formX_utmost_effort"
+      ],
+      "note": "Doing one's utmost in seeking something."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13108:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formX_fatten"
+      ],
+      "note": "Becoming fat after emaciation."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13108:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formX_softness"
+      ],
+      "note": "Becoming relaxed, loose, or flabby."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13108:g1:sub8",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_formX_softness"
+      ],
+      "note": "Reaching an extreme of softness or hardness."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13108:g1:sub9",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13109:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mwt_mawt_s1"
+      ],
+      "note": "Death and lifelessness."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13109:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_death_types"
+      ],
+      "note": "Sudden death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13109:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_death_types"
+      ],
+      "note": "Death by sword slaughter."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13109:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_death_types"
+      ],
+      "note": "Death by drowning or suffocation."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13109:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_deadly_arrows"
+      ],
+      "note": "Deadly arrows as daughters of death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13110:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مَيِّت."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13110:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mwt_mayyit_s2",
+        "mwt_maytah_s1"
+      ],
+      "note": "Dead or unfruitful land."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13110:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mwt_maytah_s2"
+      ],
+      "note": "Carrion."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13111:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maytah_swoon"
+      ],
+      "note": "Fainting, madness, or seizure-like deathlessness."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13112:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mitah_kind_death"
+      ],
+      "note": "A kind or mode of death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13112:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mitah_kind_death"
+      ],
+      "note": "A good kind of death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13112:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mitah_kind_death"
+      ],
+      "note": "A pagan or erroneous kind of death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13113:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_motan_heart"
+      ],
+      "note": "A dull or inactive heart."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13113:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13114:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mutan_mortality"
+      ],
+      "note": "Mortality or mortal disease among animals."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13114:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mutan_mortality"
+      ],
+      "note": "Mortality among camels or similar animals."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13114:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mutan_mortality"
+      ],
+      "note": "Mortality among people."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13115:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mawatan_dead_stock"
+      ],
+      "note": "Inanimate goods or dead stock."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13115:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mawatan_dead_stock"
+      ],
+      "note": "Buying lands and houses rather than living property."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13115:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mawatan_dead_stock"
+      ],
+      "note": "Selling utensils, furniture, and other inanimate goods."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13115:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13116:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mawat_inanimate_land"
+      ],
+      "note": "An inanimate thing."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13116:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mawat_inanimate_land"
+      ],
+      "note": "Unowned or uncultivated land."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13117:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to related entries."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13118:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mwt_mayyit_s1"
+      ],
+      "note": "Dead or dying; variant-form discussion."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13118:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mwt_maytah_s2"
+      ],
+      "note": "Carrion and unlawfully dead animal."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13118:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mwt_mayyit_s2"
+      ],
+      "note": "Dead, unfruitful land."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13118:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mayyit_unbeliever"
+      ],
+      "note": "Figurative use for an unbeliever."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13119:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "General pointer to other senses without a new lexical statement."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13120:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مَيِّت."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13120:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mayit_grief"
+      ],
+      "note": "Dying or absorbed in grief."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13120:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mayit_severe_death"
+      ],
+      "note": "Severe or violent death as an intensifying expression."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13121:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مَوْت."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13122:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mumit_bereaved"
+      ],
+      "note": "A woman or she-camel bereaved by death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13123:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mutamawit"
+      ],
+      "note": "Feigning death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13123:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mutamawit"
+      ],
+      "note": "Death-like false devotion and weakness."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13124:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustamiyt_death"
+      ],
+      "note": "A courageous seeker of death."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13124:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustamiyt_devoted"
+      ],
+      "note": "Abandoning oneself to an affair."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13124:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mustamiyt_devoted"
+      ],
+      "note": "Extreme devotion to an objective."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13124:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mustamiyt_devoted"
+      ],
+      "note": "Surrendering oneself to a thing or affair."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13124:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustamiyt_feign_insane"
+      ],
+      "note": "Feigning insanity or possession."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13124:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustamiyt_feign_humble"
+      ],
+      "note": "Feigning lowliness and submissiveness."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13124:g1:sub7",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mustamiyt_feign_humble"
+      ],
+      "note": "Displaying false goodness and quietness."
+    },
+    {
+      "unit_id": "lane-unit:mwt:13124:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustamiyt_pellicle"
+      ],
+      "note": "Technical noun for the egg pellicle."
+    }
+  ],
+  "cautions": [
+    "مَيْت and مَيِّت are displayed as one normalized public form because the lexical evidence explicitly treats them as equivalent or contracted variants, although some authorities distinguish a dead person from one near death.",
+    "The Quranic form senses preserve figurative uses explicitly explained in the lexical evidence; contextual English renderings alone have not been used to create meanings.",
+    "Lane's historical Quran citations are not converted into modern verse locations unless the corresponding QAC occurrence is independently supplied and secure."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,195 @@
+{
+  "root": "HZZ",
+  "arabic": "حظظ",
+  "root_idea": {
+    "summary": "The root centers on an allotted share, portion, or lot, especially a share associated with fortune or favorable circumstances.",
+    "development": "The lexical range develops from an apportioned share or lot to good fortune and the state of being fortunate or well-provided.",
+    "source_refs": [
+      "maqayis:row:1395",
+      "mufradat:row:339",
+      "lane:entry:14912",
+      "lane:entry:14917"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:HZZ:HaZ~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "HZZ_hazz",
+      "reason": "The Quran-attested noun حَظّ is a standalone lexical headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "HZZ_hazz",
+      "form_group_ids": [
+        "qac-form:HZZ:HaZ~:nominal:-"
+      ],
+      "headword_arabic": "حَظّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "HZZ_hazz_s1",
+          "definition": "An allotted share, portion, or lot.",
+          "usage_conditions": "In Quranic usage, this may denote an assigned portion in an inheritance, a portion of revealed instruction, or a share in a matter or outcome.",
+          "source_refs": [
+            "lane:entry:14914",
+            "mufradat:row:339"
+          ]
+        },
+        {
+          "sense_id": "HZZ_hazz_s2",
+          "definition": "Good fortune; a favorable lot or outcome.",
+          "usage_conditions": "Used of favorable fortune or an advantageous share, including worldly prosperity or a favorable spiritual outcome.",
+          "source_refs": [
+            "lane:entry:14914"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:11",
+          "word_location": "4:11:7",
+          "sense_ids": [
+            "HZZ_hazz_s1"
+          ]
+        },
+        {
+          "verse_key": "5:14",
+          "word_location": "5:14:9",
+          "sense_ids": [
+            "HZZ_hazz_s1"
+          ]
+        },
+        {
+          "verse_key": "28:79",
+          "word_location": "28:79:19",
+          "sense_ids": [
+            "HZZ_hazz_s2"
+          ]
+        },
+        {
+          "verse_key": "41:35",
+          "word_location": "41:35:10",
+          "sense_ids": [
+            "HZZ_hazz_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_hazz_verb_fortune",
+      "headword_arabic": "حَظَّ",
+      "definition": "To be or become fortunate, or to possess good fortune.",
+      "usage_conditions": "Classical verbal usage, attested with perfect and imperfect forms.",
+      "source_refs": [
+        "lane:entry:14912"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahzaza_wealth",
+      "headword_arabic": "أَحْظَظَ",
+      "definition": "To be or become rich, wealthy, or opulent; to be in a state of competence or sufficiency.",
+      "usage_conditions": "A derived verbal usage describing material abundance or freedom from want.",
+      "source_refs": [
+        "lane:entry:14912"
+      ]
+    },
+    {
+      "meaning_id": "cm_haziz_fortunate",
+      "headword_arabic": "حَظِيظٌ",
+      "definition": "Fortunate; possessing a good share of the means of subsistence; in a reported usage, competent or wealthy.",
+      "usage_conditions": "An adjectival form describing a person’s favorable condition or adequate provision.",
+      "source_refs": [
+        "lane:entry:14917"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:HZZ:14912:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hazz_verb_fortune",
+        "cm_ahzaza_wealth"
+      ],
+      "note": "The unit supplies the fortunate verbal sense and the related wealth or sufficiency usage."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14913:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the main entry."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14913:g2:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "The preference usage is presented as possibly related to this root but alternatively derived from حُظْوَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14914:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HZZ_hazz_s1",
+        "HZZ_hazz_s2"
+      ],
+      "note": "The unit explicitly gives the noun’s portion and fortune branches."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14914:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حَظِيظٌ."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14915:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the noun entry without additional lexical content."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14916:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14917:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_haziz_fortunate"
+      ],
+      "note": "The unit defines the adjectival form as fortunate and well-provided."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14918:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "A comparative construction expressing greater fortune; no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14919:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Irregular plural cross-reference without additional lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:HZZ:14920:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حَظِيظٌ."
+    }
+  ],
+  "cautions": [
+    "The canonical Quran root حظظ is matched to Lane and Maqayis under the contracted heading حظ.",
+    "The Quran-attested form in this packet is the noun حَظّ; the listed verbal and adjectival forms are broader Classical Arabic evidence, not additional Quranic form groups."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Lane’s preference expression أَحْظَيْتُهُ عَلَيْهِ is materially lexical but its attribution is unresolved: the passage allows derivation from حظظ or from حُظْوَةٌ."
+  ]
+}

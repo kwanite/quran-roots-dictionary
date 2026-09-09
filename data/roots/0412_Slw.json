@@ -1,0 +1,543 @@
+{
+  "root": "Slw",
+  "arabic": "صلو",
+  "root_idea": {
+    "summary": "The supplied evidence centers this root's Quranic lexical field on prayer, supplication, blessing, places of prayer, and those who pray.",
+    "development": "The packet supplies no matched Maqāyīs entry. Lane records additional, distinct branches involving the rear or back, striking, racing, and related derived formations; these are preserved separately rather than collapsed into the Quranic prayer vocabulary.",
+    "source_refs": [
+      "lane:entry:26474",
+      "lane:entry:26477",
+      "mufradat:row:843"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Slw:Sal~aY`:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_salla_II",
+      "reason": "Displayed under the normalized Form II perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Slw:Salaw`p:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_salat",
+      "reason": "Displayed under the normalized nominal citation form."
+    },
+    {
+      "form_group_id": "qac-form:Slw:muSal~FY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_musalla",
+      "reason": "Displayed as the place-of-prayer noun."
+    },
+    {
+      "form_group_id": "qac-form:Slw:muSal~iyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_musallin",
+      "reason": "Displayed under the singular active-participle citation form corresponding to the Quranic plural."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_salla_II",
+      "form_group_ids": [
+        "qac-form:Slw:Sal~aY`:verb:II"
+      ],
+      "headword_arabic": "صَلَّى",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 12,
+      "senses": [
+        {
+          "sense_id": "qform_salla_II_s1",
+          "definition": "To perform the prescribed prayer.",
+          "usage_conditions": "Used for the religious act of prayer; grammatical aspect and person vary across the Quranic forms.",
+          "source_refs": [
+            "lane:entry:26474"
+          ]
+        },
+        {
+          "sense_id": "qform_salla_II_s2",
+          "definition": "To pray or supplicate for someone; to invoke good, forgiveness, or commendation on their behalf.",
+          "usage_conditions": "Commonly occurs with عَلَى naming the person for whom the prayer is made. The construction may be used of a human or an angelic subject.",
+          "source_refs": [
+            "lane:entry:26474"
+          ]
+        },
+        {
+          "sense_id": "qform_salla_II_s3",
+          "definition": "To bless, confer blessing, show mercy, or magnify and honor.",
+          "usage_conditions": "With God as subject, the construction denotes the conferral of blessing, mercy, honor, or magnification; with angels or people, it denotes invoking such blessing, especially in the Quranic expression concerning the Prophet.",
+          "source_refs": [
+            "lane:entry:26474"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:39",
+          "word_location": "3:39:5",
+          "sense_ids": [
+            "qform_salla_II_s1"
+          ]
+        },
+        {
+          "verse_key": "4:102",
+          "word_location": "4:102:22",
+          "sense_ids": [
+            "qform_salla_II_s1"
+          ]
+        },
+        {
+          "verse_key": "9:103",
+          "word_location": "9:103:8",
+          "sense_ids": [
+            "qform_salla_II_s2"
+          ]
+        },
+        {
+          "verse_key": "33:43",
+          "word_location": "33:43:3",
+          "sense_ids": [
+            "qform_salla_II_s3"
+          ]
+        },
+        {
+          "verse_key": "33:56",
+          "word_location": "33:56:10",
+          "sense_ids": [
+            "qform_salla_II_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_salat",
+      "form_group_ids": [
+        "qac-form:Slw:Salaw`p:nominal:-"
+      ],
+      "headword_arabic": "صَلَاة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 83,
+      "senses": [
+        {
+          "sense_id": "qform_salat_s1",
+          "definition": "Prayer, supplication, or petition, including prayer made on behalf of another.",
+          "usage_conditions": "This is the broader nominal sense from which more specialized religious uses develop; the Quran also uses it in expressions of prayer or blessing for persons.",
+          "source_refs": [
+            "lane:entry:26477",
+            "mufradat:row:843"
+          ]
+        },
+        {
+          "sense_id": "qform_salat_s2",
+          "definition": "The prescribed religious prayer or service.",
+          "usage_conditions": "A conventional religious act comprising prayer and, in its fully specified form, bowing and prostration; the Quran frequently presents it as an established practice to be performed or maintained.",
+          "source_refs": [
+            "lane:entry:26477",
+            "mufradat:row:843"
+          ]
+        },
+        {
+          "sense_id": "qform_salat_s3",
+          "definition": "Blessing, mercy, commendation, or divine favor.",
+          "usage_conditions": "With God as the source, it denotes blessing, mercy, commendation, or magnification; in human usage it may denote an invocation of blessing. The Quranic plural can refer to blessings from God or to blessings invoked by people.",
+          "source_refs": [
+            "lane:entry:26477",
+            "mufradat:row:843"
+          ]
+        },
+        {
+          "sense_id": "qform_salat_s4",
+          "definition": "A place of worship, specifically a synagogue or Jewish house of worship in the Quranic plural expression.",
+          "usage_conditions": "This sense occurs in the Quranic plural صَلَوَاتٌ within a list of protected houses of worship; it is distinct from the ordinary singular sense “prayer.”",
+          "source_refs": [
+            "lane:entry:26477"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:103",
+          "word_location": "9:103:11",
+          "sense_ids": [
+            "qform_salat_s1",
+            "qform_salat_s3"
+          ]
+        },
+        {
+          "verse_key": "4:103",
+          "word_location": "4:103:13",
+          "sense_ids": [
+            "qform_salat_s2"
+          ]
+        },
+        {
+          "verse_key": "2:157",
+          "word_location": "2:157:3",
+          "sense_ids": [
+            "qform_salat_s3"
+          ]
+        },
+        {
+          "verse_key": "22:40",
+          "word_location": "22:40:21",
+          "sense_ids": [
+            "qform_salat_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_musalla",
+      "form_group_ids": [
+        "qac-form:Slw:muSal~FY:nominal:-"
+      ],
+      "headword_arabic": "مُصَلًّى",
+      "public_pos_label": "Noun · place of prayer",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_musalla_s1",
+          "definition": "A place designated for prayer.",
+          "usage_conditions": "The Quranic occurrence denotes a place set apart for prayer; the form is a place noun derived from the prayer vocabulary.",
+          "source_refs": [
+            "lane:entry:26479"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:125",
+          "word_location": "2:125:11",
+          "sense_ids": [
+            "qform_musalla_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_musallin",
+      "form_group_ids": [
+        "qac-form:Slw:muSal~iyn:nominal:-"
+      ],
+      "headword_arabic": "مُصَلٍّ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform_musallin_s1",
+          "definition": "One who prays; a person performing the prescribed prayer.",
+          "usage_conditions": "The supplied Quranic occurrences are masculine plural active-participle forms, but the lexical sense is the agent noun “one who prays.”",
+          "source_refs": [
+            "lane:entry:26480"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "70:22",
+          "word_location": "70:22:2",
+          "sense_ids": [
+            "qform_musallin_s1"
+          ]
+        },
+        {
+          "verse_key": "74:43",
+          "word_location": "74:43:5",
+          "sense_ids": [
+            "qform_musallin_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "clm_salwa_strike",
+      "headword_arabic": "صَلَوْتُهُ",
+      "definition": "To strike or beat the صَلًا, the middle or rear part of a person or quadruped, with an object, arrow, or similar implement.",
+      "usage_conditions": "A dialectal verbal usage; the object is the bodily part called صَلًا.",
+      "source_refs": [
+        "lane:entry:26473"
+      ]
+    },
+    {
+      "meaning_id": "clm_salla_race",
+      "headword_arabic": "صَلَّى",
+      "definition": "Of a horse, to follow immediately after the foremost horse at the finish of a race.",
+      "usage_conditions": "A racing term, explained by reference to the horse's position next to the foremost horse's rear parts.",
+      "source_refs": [
+        "lane:entry:26474",
+        "lane:entry:26480"
+      ]
+    },
+    {
+      "meaning_id": "clm_salla_drive_herd",
+      "headword_arabic": "صَلَّى",
+      "definition": "Of a wild ass, to drive his she-asses together and make them follow the way he takes.",
+      "usage_conditions": "A specialized zoological and behavioral usage of the Form II verb.",
+      "source_refs": [
+        "lane:entry:26474"
+      ]
+    },
+    {
+      "meaning_id": "clm_aslata_near_parturition",
+      "headword_arabic": "أَصْلَتْ",
+      "definition": "Of a mare or she-camel, to become relaxed around the tail or rump when near parturition; of a she-camel, for the young to fall into the part called صَلًا.",
+      "usage_conditions": "A Form IV usage restricted by the lexical evidence to a mare or she-camel in the approach to giving birth.",
+      "source_refs": [
+        "lane:entry:26475"
+      ]
+    },
+    {
+      "meaning_id": "clm_sala_anatomy",
+      "headword_arabic": "صَلًا",
+      "definition": "The middle or rear part of the back or rump, including the region beside or supporting the tail and the associated bones.",
+      "usage_conditions": "The term has several closely related anatomical applications for humans and quadrupeds. The idiom جِئْتُ فِي أَصْلَائِهِمْ means “I came at their rears.”",
+      "source_refs": [
+        "lane:entry:26476"
+      ]
+    },
+    {
+      "meaning_id": "clm_salat_fatiha",
+      "headword_arabic": "صَلَاة",
+      "definition": "A conventional designation for the Fātiḥah, or Opening Chapter, as a form of prayer.",
+      "usage_conditions": "A metonymic conventional use in the expression سُورَةُ الصَّلَاةِ; it is not a separate Quranic form meaning in the supplied QAC occurrences.",
+      "source_refs": [
+        "lane:entry:26477"
+      ]
+    },
+    {
+      "meaning_id": "clm_salat_intercourse",
+      "headword_arabic": "الصَّلَاة",
+      "definition": "To have sexual intercourse with a woman anally.",
+      "usage_conditions": "A rare classical construction recorded as a separate nominal branch and not attested among the supplied Quranic usages.",
+      "source_refs": [
+        "lane:entry:26477"
+      ]
+    },
+    {
+      "meaning_id": "clm_musliya_near_parturition",
+      "headword_arabic": "مُصْلِيَةٌ",
+      "definition": "A mare or she-camel in the near-parturition state described under أَصْلَتْ.",
+      "usage_conditions": "A feminine active participle referring to the animal undergoing that condition.",
+      "source_refs": [
+        "lane:entry:26478"
+      ]
+    },
+    {
+      "meaning_id": "clm_musalla_carpet",
+      "headword_arabic": "مُصَلًّى",
+      "definition": "A carpet or mat on which the prescribed prayer is performed.",
+      "usage_conditions": "A concrete object sense distinct from the place noun used in the Quranic occurrence.",
+      "source_refs": [
+        "lane:entry:26479"
+      ]
+    },
+    {
+      "meaning_id": "clm_musalli_racer",
+      "headword_arabic": "مُصَلٍّ",
+      "definition": "The horse that comes immediately after the foremost horse in a race.",
+      "usage_conditions": "A racing noun homonymous with the active participle “one who prays.”",
+      "source_refs": [
+        "lane:entry:26480"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Slw:26473:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm_salwa_strike"
+      ],
+      "note": "Verbal striking meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26473:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the separately treated reproductive entry."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26474:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_salla_II_s1",
+        "qform_salla_II_s2"
+      ],
+      "note": "Prayer, supplication, and prescribed-prayer branches represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26474:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform_salla_II_s2"
+      ],
+      "note": "Angelically invoking forgiveness is covered by prayer on behalf of someone."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26474:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_salla_II_s3"
+      ],
+      "note": "Human invocation of blessing is represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26474:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_salla_II_s3"
+      ],
+      "note": "Divine blessing, mercy, honor, and magnification are represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26474:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm_salla_race"
+      ],
+      "note": "Horse-racing meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26474:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm_salla_drive_herd"
+      ],
+      "note": "Wild-ass herding meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26475:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm_aslata_near_parturition"
+      ],
+      "note": "Form IV animal and parturition meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26476:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm_sala_anatomy"
+      ],
+      "note": "Anatomical noun meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26476:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "clm_sala_anatomy"
+      ],
+      "note": "Rearward idiom is included in the anatomical entry's usage conditions."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26477:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_salat_s1"
+      ],
+      "note": "Primary nominal prayer, supplication, and petition meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26477:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_salat_s2",
+        "qform_salat_s4",
+        "clm_salat_fatiha"
+      ],
+      "note": "Prescribed prayer, Quranic place-of-worship plural, and Fatiḥah designation represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26477:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform_salat_s1"
+      ],
+      "note": "Prayer for forgiveness is covered by the broader nominal supplication sense."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26477:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform_salat_s3"
+      ],
+      "note": "Invocation of blessing is covered by the blessing sense."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26477:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_salat_s3"
+      ],
+      "note": "Blessing, mercy, magnification, and commendation are represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26477:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm_salat_intercourse"
+      ],
+      "note": "Rare anatomical/sexual construction represented separately."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26478:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm_musliya_near_parturition"
+      ],
+      "note": "Feminine participial animal usage represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26479:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_musalla_s1"
+      ],
+      "note": "Place-of-prayer meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26479:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm_musalla_carpet"
+      ],
+      "note": "Carpet or mat meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26479:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the صلاة entry."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26480:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_musallin_s1"
+      ],
+      "note": "Active participle meaning one who prays represented."
+    },
+    {
+      "unit_id": "lane-unit:Slw:26480:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm_musalli_racer"
+      ],
+      "note": "Racing noun meaning represented separately from the prayer participle."
+    }
+  ],
+  "cautions": [
+    "The supplied Mufradāt row is shared ambiguously between Slw and Sly. Only its passages explicitly discussing صلاة, blessings, and prescribed prayer were used; its fire and roasting material was not assigned to this root.",
+    "Lane uses historical Quran citation conventions. Its reference to the plural صلوات is not converted mechanically into a modern location; the modern example 22:40 comes independently from the supplied QAC occurrence.",
+    "No matched Maqāyīs entry was supplied, so the root-level development statement is limited and does not treat a reconstructed root principle as a direct Quranic sense."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "mufradat:row:843 contains extensive صَلِيَ/اصْطَلَى and related fire, burning, and roasting material assigned ambiguously to Slw or Sly. Because the row is explicitly shared and Lane's supplied Slw evidence does not independently establish those branches for this root, that material remains unassigned."
+  ]
+}

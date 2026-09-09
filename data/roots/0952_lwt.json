@@ -1,0 +1,126 @@
+{
+  "root": "lwt",
+  "arabic": "لوت",
+  "root_idea": {
+    "summary": "The reported semantic orientation is concealment or diversion from what is sought: withholding the relevant information and substituting, obscuring, or giving something else.",
+    "development": "The evidence presents a branch involving misleading or obscuring an account and a separate branch involving restraining or turning someone aside. The root-level evidence explicitly questions the soundness of the root, so this is a reported orientation rather than a secure single historical principle.",
+    "source_refs": [
+      "maqayis:row:4245",
+      "lane:entry:9959"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lwt:laAta:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lwt_lata",
+      "reason": "The sole Quran-attested QAC group is displayed under its normalized Form I perfect citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "lwt_lata",
+      "form_group_ids": [
+        "qac-form:lwt:laAta:verb:I"
+      ],
+      "headword_arabic": "لَاتَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "lwt_lata_s1",
+          "definition": "In the expression لاتَ حينَ مَناصٍ: it is not the time for escape; contextually, there is no longer an opportunity for escape.",
+          "usage_conditions": "A fixed Quranic construction. The grammatical analysis is disputed: the expression is variously treated as a negative particle or as related to ليس or لا, while the QAC token is tagged as an active Form I verb. These analyses are recorded as one constructional sense.",
+          "source_refs": [
+            "mufradat:row:1284"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "38:3",
+          "word_location": "38:3:8",
+          "sense_ids": [
+            "lwt_lata_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "lwt_cm_misreport",
+      "headword_arabic": "لَاتَ",
+      "definition": "To misrepresent information: to conceal or obscure what was asked about and report, narrate, or state something different from it.",
+      "usage_conditions": "A communicative construction involving concealment, an incorrect substitute account, or obscure or enigmatic expression. The evidence does not impose a general restriction on the type of person or thing involved.",
+      "source_refs": [
+        "lane:entry:9959"
+      ]
+    },
+    {
+      "meaning_id": "lwt_cm_divert",
+      "headword_arabic": "لَاتَ",
+      "definition": "To withhold or restrain someone and turn or divert him from his course, purpose, or object.",
+      "usage_conditions": "A distinct transitive construction concerning restraint or diversion from an intended course or aim; it is not assigned to the Quranic negative construction.",
+      "source_refs": [
+        "lane:entry:9959"
+      ]
+    },
+    {
+      "meaning_id": "lwt_cm_al_lat",
+      "headword_arabic": "اللَّاتُ",
+      "definition": "A named idol, paired with al-ʿUzzā, regarded by its worshippers as an object through which they sought nearness to God.",
+      "usage_conditions": "A separate definite noun or name, not the Form I verb لَاتَ and not merged with the Quranic negative construction. Its reported etymology is from الإله with phonological and morphological alteration.",
+      "source_refs": [
+        "mufradat:row:1284"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lwt:9959:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lwt_cm_misreport"
+      ],
+      "note": "Misreporting or substituting a different account is represented."
+    },
+    {
+      "unit_id": "lane-unit:lwt:9959:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lwt_cm_misreport"
+      ],
+      "note": "Concealing information and relating something different are represented."
+    },
+    {
+      "unit_id": "lane-unit:lwt:9959:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lwt_cm_misreport"
+      ],
+      "note": "Obscuring or enigmatically expressing information is included in the misreporting branch."
+    },
+    {
+      "unit_id": "lane-unit:lwt:9959:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lwt_cm_divert"
+      ],
+      "note": "Restraint and turning someone aside are represented separately."
+    },
+    {
+      "unit_id": "lane-unit:lwt:9960:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; it supplies no independent definition."
+    }
+  ],
+  "cautions": [
+    "The Quranic token is morphologically identified by QAC as لَاتَ, but the supplied Quran-focused discussion records competing analyses of لاتَ حينَ مَناصٍ as a negative particle or a form related to ليس or لا.",
+    "The definite noun اللَّاتُ is a distinct homographic lexical item and should not be conflated with the Quranic Form I token.",
+    "The root-level evidence questions whether لوت is a sound independent root; the root idea and non-Quranic branches are therefore reported with appropriate caution."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

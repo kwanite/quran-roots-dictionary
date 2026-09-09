@@ -1,0 +1,104 @@
+{
+  "root": "qsTs",
+  "arabic": "قسطس",
+  "root_idea": {
+    "summary": "No independent root-level semantic principle is established by the supplied evidence. The directly attested lexical center is a balance or weighing instrument, with extensions to particular balance types and standards.",
+    "development": "The lexical discussion records a proposed association with قِسْط meaning justice, alongside a competing account that the word is an Arabicized Greek term. Neither account establishes a broader productive root development here.",
+    "source_refs": [
+      "lane:entry:8324"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qsTs:qisoTaAs:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-qistas",
+      "reason": "Displayed under the normalized dictionary headword قِسْطَاس."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-qistas",
+      "form_group_ids": [
+        "qac-form:qsTs:qisoTaAs:nominal:-"
+      ],
+      "headword_arabic": "قِسْطَاس",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf-qistas-s1",
+          "definition": "A balance or instrument for weighing.",
+          "usage_conditions": "In the supplied Quranic occurrences, used with بِـ in the expression بِالْقِسْطَاسِ, in instructions concerning weighing and measurement.",
+          "source_refs": [
+            "lane:entry:8324"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:35",
+          "word_location": "17:35:6",
+          "sense_ids": [
+            "qf-qistas-s1"
+          ]
+        },
+        {
+          "verse_key": "26:182",
+          "word_location": "26:182:2",
+          "sense_ids": [
+            "qf-qistas-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-qistas-just",
+      "headword_arabic": "قِسْطَاس",
+      "definition": "The most even and just kind of balance; also something just, whatever its kind.",
+      "usage_conditions": "Applied in Classical Arabic beyond the physical weighing instrument to a thing characterized as just.",
+      "source_refs": [
+        "lane:entry:8324"
+      ]
+    },
+    {
+      "meaning_id": "cm-qistas-steelyard",
+      "headword_arabic": "قِسْطَاس",
+      "definition": "A steelyard; also the iron or beam of a steelyard or balance.",
+      "usage_conditions": "The term may denote the whole instrument or a specified structural part such as its iron or beam.",
+      "source_refs": [
+        "lane:entry:8324"
+      ]
+    },
+    {
+      "meaning_id": "cm-qistas-standard",
+      "headword_arabic": "قِسْطَاس",
+      "definition": "A public standard of weights or measures.",
+      "usage_conditions": "Denotes a recognized standard used for weighing or measurement, distinct from merely naming a balance instrument.",
+      "source_refs": [
+        "lane:entry:8324"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qsTs:8324:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-qistas-s1",
+        "cm-qistas-just",
+        "cm-qistas-steelyard",
+        "cm-qistas-standard"
+      ],
+      "note": "The unit supplies the Quran-attested weighing-instrument sense and the Classical extensions to justness, steelyards or their parts, and public measurement standards."
+    }
+  ],
+  "cautions": [
+    "The lexical evidence records both قُسْطَاس and قِسْطَاس, as well as an orthographic variant قصطاس; the public headword follows the QAC vocalization قِسْطَاس. Its etymology is reported both as related to قِسْط meaning justice and as an Arabicized Greek term.",
+    "The Lane Quran citation is given in historical citation notation; the example locations here are the independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

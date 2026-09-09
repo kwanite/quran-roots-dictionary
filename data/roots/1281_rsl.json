@@ -1,0 +1,1612 @@
+{
+  "root": "rsl",
+  "arabic": "رسل",
+  "root_idea": {
+    "summary": "The root centers on being sent forth and extending outward, especially in an easy, unforced manner.",
+    "development": "From easy movement and gradual extension develop the ideas of release, dispatch, successive company, communication, and the messenger who conveys a message.",
+    "source_refs": [
+      "maqayis:row:2029",
+      "mufradat:row:552"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rsl:>arosala:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_rsl_arsala",
+      "reason": "Form IV verb with extensive independent Quranic usage."
+    },
+    {
+      "form_group_id": "qac-form:rsl:murosala`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_rsl_mursala",
+      "reason": "Quranic passive participle used substantively in the distinct expression المُرْسَلَات."
+    },
+    {
+      "form_group_id": "qac-form:rsl:murosil:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_rsl_mursil",
+      "reason": "Masculine active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:rsl:murosilap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_rsl_mursil",
+      "reason": "Feminine active participle of the same lexical item مُرْسِل."
+    },
+    {
+      "form_group_id": "qac-form:rsl:m~urosal:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_rsl_mursal",
+      "reason": "Passive-participle citation form, commonly substantivized for those sent."
+    },
+    {
+      "form_group_id": "qac-form:rsl:rasuwl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_rsl_rasul",
+      "reason": "Independent Quranic noun with messenger and message usages."
+    },
+    {
+      "form_group_id": "qac-form:rsl:risaAlap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_rsl_risala",
+      "reason": "Singular noun citation form."
+    },
+    {
+      "form_group_id": "qac-form:rsl:risa`la`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_rsl_risala",
+      "reason": "Plural of رِسَالَة and the same public lexical entry."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_rsl_arsala",
+      "form_group_ids": [
+        "qac-form:rsl:>arosala:verb:IV"
+      ],
+      "headword_arabic": "أَرْسَلَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 130,
+      "senses": [
+        {
+          "sense_id": "qv_rsl_arsala_1",
+          "definition": "To send, dispatch, or cause someone or something to go or arrive.",
+          "usage_conditions": "Used for sending prophets, messengers, people, angels, forces, rain, wind, and other things; the construction may express sending down, upon, against, or with a message. Active, passive, and imperative forms occur in the Quran.",
+          "source_refs": [
+            "lane:entry:23236",
+            "mufradat:row:552"
+          ]
+        },
+        {
+          "sense_id": "qv_rsl_arsala_2",
+          "definition": "To release, let loose, or leave unrestrained; hence, to set or turn something against others.",
+          "usage_conditions": "A distinct Quranic use in which sending involves releasing or appointing something with power over others, especially in the passage about the devils sent against the unbelievers.",
+          "source_refs": [
+            "lane:entry:23236",
+            "mufradat:row:552"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:25",
+          "word_location": "11:25:2",
+          "sense_ids": [
+            "qv_rsl_arsala_1"
+          ]
+        },
+        {
+          "verse_key": "30:46",
+          "word_location": "30:46:4",
+          "sense_ids": [
+            "qv_rsl_arsala_1"
+          ]
+        },
+        {
+          "verse_key": "19:83",
+          "word_location": "19:83:4",
+          "sense_ids": [
+            "qv_rsl_arsala_2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_rsl_mursala",
+      "form_group_ids": [
+        "qac-form:rsl:murosala`t:nominal:-"
+      ],
+      "headword_arabic": "مُرْسَلَة",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qv_rsl_mursala_1",
+          "definition": "Those sent forth: winds sent forth.",
+          "usage_conditions": "One interpretation of the feminine plural passive participle in 77:1; the form is used substantively and occurs only in this Quranic expression.",
+          "source_refs": [
+            "lane:entry:23255",
+            "mufradat:row:552"
+          ]
+        },
+        {
+          "sense_id": "qv_rsl_mursala_2",
+          "definition": "Those sent forth: angels sent forth.",
+          "usage_conditions": "An alternative interpretation of the same Quranic expression in 77:1.",
+          "source_refs": [
+            "lane:entry:23255"
+          ]
+        },
+        {
+          "sense_id": "qv_rsl_mursala_3",
+          "definition": "Those sent forth: horses started successively in a race.",
+          "usage_conditions": "An alternative interpretation of the same Quranic expression, emphasizing successive release in the racecourse.",
+          "source_refs": [
+            "lane:entry:23255"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "77:1",
+          "word_location": "77:1:1",
+          "sense_ids": [
+            "qv_rsl_mursala_1",
+            "qv_rsl_mursala_2",
+            "qv_rsl_mursala_3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_rsl_mursil",
+      "form_group_ids": [
+        "qac-form:rsl:murosil:nominal:-",
+        "qac-form:rsl:murosilap:nominal:-"
+      ],
+      "headword_arabic": "مُرْسِل",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qv_rsl_mursil_1",
+          "definition": "One who sends, dispatches, or releases.",
+          "usage_conditions": "An active participle of أَرْسَلَ, used substantively for a sender and in contexts where sending has the sense of releasing or setting something forth.",
+          "source_refs": [
+            "lane:entry:23236",
+            "mufradat:row:552"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "35:2",
+          "word_location": "35:2:13",
+          "sense_ids": [
+            "qv_rsl_mursil_1"
+          ]
+        },
+        {
+          "verse_key": "44:5",
+          "word_location": "44:5:6",
+          "sense_ids": [
+            "qv_rsl_mursil_1"
+          ]
+        },
+        {
+          "verse_key": "28:45",
+          "word_location": "28:45:18",
+          "sense_ids": [
+            "qv_rsl_mursil_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_rsl_mursal",
+      "form_group_ids": [
+        "qac-form:rsl:m~urosal:nominal:-"
+      ],
+      "headword_arabic": "مُرْسَل",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 35,
+      "senses": [
+        {
+          "sense_id": "qv_rsl_mursal_1",
+          "definition": "One sent; a messenger or emissary dispatched by a sender.",
+          "usage_conditions": "The passive participle is frequently substantivized in the Quran for messengers, including divinely sent human messengers and other dispatched beings; voice and number are grammatical variants of the same lexical use.",
+          "source_refs": [
+            "lane:entry:23247",
+            "mufradat:row:552"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:48",
+          "word_location": "6:48:3",
+          "sense_ids": [
+            "qv_rsl_mursal_1"
+          ]
+        },
+        {
+          "verse_key": "7:75",
+          "word_location": "7:75:15",
+          "sense_ids": [
+            "qv_rsl_mursal_1"
+          ]
+        },
+        {
+          "verse_key": "36:14",
+          "word_location": "36:14:11",
+          "sense_ids": [
+            "qv_rsl_mursal_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_rsl_rasul",
+      "form_group_ids": [
+        "qac-form:rsl:rasuwl:nominal:-"
+      ],
+      "headword_arabic": "رَسُول",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 332,
+      "senses": [
+        {
+          "sense_id": "qv_rsl_rasul_1",
+          "definition": "A message or communication conveyed from one party to another.",
+          "usage_conditions": "In a Quranic construction, especially one discussed in connection with 26:16, رسول may denote the conveyed message rather than its human or angelic bearer.",
+          "source_refs": [
+            "lane:entry:23247",
+            "mufradat:row:552"
+          ]
+        },
+        {
+          "sense_id": "qv_rsl_rasul_2",
+          "definition": "A messenger: one sent with a message, especially a divinely commissioned prophet or emissary.",
+          "usage_conditions": "The noun is used for human prophets and for angels or other emissaries; it can be applied with flexible number and gender according to the construction, without creating a separate lexical sense.",
+          "source_refs": [
+            "lane:entry:23247",
+            "mufradat:row:552"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:16",
+          "word_location": "26:16:5",
+          "sense_ids": [
+            "qv_rsl_rasul_1"
+          ]
+        },
+        {
+          "verse_key": "7:37",
+          "word_location": "7:37:19",
+          "sense_ids": [
+            "qv_rsl_rasul_2"
+          ]
+        },
+        {
+          "verse_key": "16:113",
+          "word_location": "16:113:3",
+          "sense_ids": [
+            "qv_rsl_rasul_2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_rsl_risala",
+      "form_group_ids": [
+        "qac-form:rsl:risaAlap:nominal:-",
+        "qac-form:rsl:risa`la`t:nominal:-"
+      ],
+      "headword_arabic": "رِسَالَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "qv_rsl_risala_1",
+          "definition": "A message or communication, especially a divinely entrusted message.",
+          "usage_conditions": "The singular and plural forms denote a message or messages associated with a messenger or divine commission; number and possessive constructions account for the Quranic variation.",
+          "source_refs": [
+            "lane:entry:23250",
+            "mufradat:row:552"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:67",
+          "word_location": "5:67:14",
+          "sense_ids": [
+            "qv_rsl_risala_1"
+          ]
+        },
+        {
+          "verse_key": "7:144",
+          "word_location": "7:144:7",
+          "sense_ids": [
+            "qv_rsl_risala_1"
+          ]
+        },
+        {
+          "verse_key": "7:79",
+          "word_location": "7:79:7",
+          "sense_ids": [
+            "qv_rsl_risala_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_rasila_easy",
+      "headword_arabic": "رَسِلَ",
+      "definition": "To be or become easy in pace, especially of a camel.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23233"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasila_hair",
+      "headword_arabic": "رَسِلَ",
+      "definition": "To become lank, long, or pendent, especially of hair.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23233"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasila_message",
+      "headword_arabic": "رَسِلَ",
+      "definition": "To bring or deliver a message.",
+      "usage_conditions": "A reported interpretation of the Form I verb.",
+      "source_refs": [
+        "lane:entry:23233"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarsil_recitation",
+      "headword_arabic": "تَرْسِيل",
+      "definition": "Leisurely, measured, and composed utterance or recitation.",
+      "usage_conditions": "Especially used of reading, reciting, or speech without haste.",
+      "source_refs": [
+        "lane:entry:23234"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarsil_milk",
+      "headword_arabic": "تَرْسِيل",
+      "definition": "To give milk to young camels.",
+      "usage_conditions": "A causative use referring to providing رِسْل, milk.",
+      "source_refs": [
+        "lane:entry:23234"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasala_exchange",
+      "headword_arabic": "رَاسَلَ",
+      "definition": "To exchange messages or letters with someone.",
+      "usage_conditions": "The reciprocal construction may concern correspondence about a matter or marriage negotiations.",
+      "source_refs": [
+        "lane:entry:23235"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasala_alternate",
+      "headword_arabic": "رَاسَلَ",
+      "definition": "To relieve, assist, follow, or alternate with another in an activity.",
+      "usage_conditions": "Used of shooting, singing, work, or reading and recitation.",
+      "source_refs": [
+        "lane:entry:23235"
+      ]
+    },
+    {
+      "meaning_id": "cm_irsal_act",
+      "headword_arabic": "إِرْسَال",
+      "definition": "The act of sending or dispatching a person, message, letter, or messenger.",
+      "usage_conditions": "Verbal noun of Form IV.",
+      "source_refs": [
+        "lane:entry:23236"
+      ]
+    },
+    {
+      "meaning_id": "cm_irsal_release",
+      "headword_arabic": "إِرْسَال",
+      "definition": "The act of sending forth, releasing, letting loose, or allowing something to take its course.",
+      "usage_conditions": "Includes releasing an animal, bird, arrow, water, ship, or other confined thing.",
+      "source_refs": [
+        "lane:entry:23236"
+      ]
+    },
+    {
+      "meaning_id": "cm_irsal_utter",
+      "headword_arabic": "إِرْسَال",
+      "definition": "The act of uttering letters, singing, or chanting.",
+      "usage_conditions": "A figurative extension of letting something proceed freely.",
+      "source_refs": [
+        "lane:entry:23236"
+      ]
+    },
+    {
+      "meaning_id": "cm_irsal_unrestricted",
+      "headword_arabic": "إِرْسَال",
+      "definition": "The act of making speech, property, or a legacy unrestricted or absolute.",
+      "usage_conditions": "Figurative and legal uses.",
+      "source_refs": [
+        "lane:entry:23236"
+      ]
+    },
+    {
+      "meaning_id": "cm_irsal_hair",
+      "headword_arabic": "إِرْسَال",
+      "definition": "The act of letting hair down, lowering it, or making it hang.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23236"
+      ]
+    },
+    {
+      "meaning_id": "cm_irsal_neglect",
+      "headword_arabic": "إِرْسَال",
+      "definition": "Leaving, forsaking, neglecting, or ceasing to assist someone.",
+      "usage_conditions": "A figurative use of letting someone go.",
+      "source_refs": [
+        "lane:entry:23236"
+      ]
+    },
+    {
+      "meaning_id": "cm_irsal_dominion",
+      "headword_arabic": "إِرْسَال",
+      "definition": "The granting of dominion, authority, or superior power over others.",
+      "usage_conditions": "A derived-noun use associated with appointing or setting something over others.",
+      "source_refs": [
+        "lane:entry:23236"
+      ]
+    },
+    {
+      "meaning_id": "cm_irsal_milk_abundance",
+      "headword_arabic": "أَرْسَلَ",
+      "definition": "To have abundant milk, or for milk and drink to become plentiful.",
+      "usage_conditions": "Used of people or animals possessing milk-producing herds.",
+      "source_refs": [
+        "lane:entry:23236"
+      ]
+    },
+    {
+      "meaning_id": "cm_irsal_herd_ownership",
+      "headword_arabic": "أَرْسَلَ",
+      "definition": "To become possessors of herds or flocks.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23236"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarassul_gentle",
+      "headword_arabic": "تَرَسَّلَ",
+      "definition": "To act gently, deliberately, leisurely, and with calm gravity.",
+      "usage_conditions": "Used of conduct and of proceeding in affairs.",
+      "source_refs": [
+        "lane:entry:23237"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarassul_clothing",
+      "headword_arabic": "تَرَسَّلَ",
+      "definition": "To extend the legs and let one's clothing hang loosely.",
+      "usage_conditions": "A specialized use in riding or sitting.",
+      "source_refs": [
+        "lane:entry:23237"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarassul_messenger",
+      "headword_arabic": "تَرَسَّلَ",
+      "definition": "To act as a messenger between people.",
+      "usage_conditions": "A reciprocal or intermediary construction.",
+      "source_refs": [
+        "lane:entry:23237"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarasul_messages",
+      "headword_arabic": "تَرَاسَلَ",
+      "definition": "To send messages or messengers to one another.",
+      "usage_conditions": "Reciprocal communication.",
+      "source_refs": [
+        "lane:entry:23238"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarasul_alternation",
+      "headword_arabic": "تَرَاسَلَ",
+      "definition": "To alternate with or follow one another in an activity.",
+      "usage_conditions": "Especially used of singing, the call to prayer, or another performance in which participants take turns.",
+      "source_refs": [
+        "lane:entry:23238"
+      ]
+    },
+    {
+      "meaning_id": "cm_istirsal_loose",
+      "headword_arabic": "اِسْتَرْسَلَ",
+      "definition": "To become loose, slack, or pendent.",
+      "usage_conditions": "Used of things generally and of hair in particular.",
+      "source_refs": [
+        "lane:entry:23239"
+      ]
+    },
+    {
+      "meaning_id": "cm_istirsal_gentlepace",
+      "headword_arabic": "اِسْتَرْسَلَ",
+      "definition": "To proceed at a gentle, deliberate, or leisurely pace.",
+      "usage_conditions": "Especially used of a beast's pace.",
+      "source_refs": [
+        "lane:entry:23239"
+      ]
+    },
+    {
+      "meaning_id": "cm_istirsal_steady",
+      "headword_arabic": "اِسْتَرْسَلَ",
+      "definition": "To remain still and steady.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23239"
+      ]
+    },
+    {
+      "meaning_id": "cm_istirsal_familiar",
+      "headword_arabic": "اِسْتَرْسَلَ",
+      "definition": "To behave freely, familiarly, boldly, or presumptuously toward someone, and to confide in him.",
+      "usage_conditions": "A figurative interpersonal use.",
+      "source_refs": [
+        "lane:entry:23239"
+      ]
+    },
+    {
+      "meaning_id": "cm_istirsal_fate",
+      "headword_arabic": "اِسْتَرْسَلَ",
+      "definition": "For fate or time to make free with people and destroy them.",
+      "usage_conditions": "An idiomatic figurative construction.",
+      "source_refs": [
+        "lane:entry:23239"
+      ]
+    },
+    {
+      "meaning_id": "cm_istirsal_droves",
+      "headword_arabic": "اِسْتَرْسَلَ",
+      "definition": "To send camels in successive droves.",
+      "usage_conditions": "The camels are brought to water in groups rather than all at once.",
+      "source_refs": [
+        "lane:entry:23239"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasl_easy",
+      "headword_arabic": "رَسْل",
+      "definition": "Easy, soft, or gentle in pace.",
+      "usage_conditions": "Applied especially to camels; it may also describe light or freely yielding she-camels.",
+      "source_refs": [
+        "lane:entry:23240"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasl_softjoints",
+      "headword_arabic": "رَسْل",
+      "definition": "Soft, lax, or flaccid, especially in the joints or legs.",
+      "usage_conditions": "Used of a camel or she-camel.",
+      "source_refs": [
+        "lane:entry:23240"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasl_hair",
+      "headword_arabic": "رَسْل",
+      "definition": "Lank, long, or pendent, especially of hair.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23240"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasl_camelhair",
+      "headword_arabic": "رَسْل",
+      "definition": "Having much or long hair on the shanks, of a she-camel.",
+      "usage_conditions": "A specialized epithet for a she-camel.",
+      "source_refs": [
+        "lane:entry:23240"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasl_camellegs",
+      "headword_arabic": "رَسْل",
+      "definition": "The legs of a camel.",
+      "usage_conditions": "A plural-related anatomical usage associated with their length.",
+      "source_refs": [
+        "lane:entry:23240"
+      ]
+    },
+    {
+      "meaning_id": "cm_risl_gentle",
+      "headword_arabic": "رِسْل",
+      "definition": "Gentleness and an easy, deliberate, or leisurely manner of acting.",
+      "usage_conditions": "The phrase على رِسْلِكَ means to act at one's ease or gently.",
+      "source_refs": [
+        "lane:entry:23241"
+      ]
+    },
+    {
+      "meaning_id": "cm_risl_sequence",
+      "headword_arabic": "رِسْل",
+      "definition": "A company or group proceeding successively after another.",
+      "usage_conditions": "Used of people arriving company by company.",
+      "source_refs": [
+        "lane:entry:23241"
+      ]
+    },
+    {
+      "meaning_id": "cm_risl_softspeech",
+      "headword_arabic": "رِسْل",
+      "definition": "A soft or gentle saying or speech.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23241"
+      ]
+    },
+    {
+      "meaning_id": "cm_risl_milk",
+      "headword_arabic": "رِسْل",
+      "definition": "Milk, especially fresh or abundant milk.",
+      "usage_conditions": "The word may denote milk generally; some lexical discussions distinguish fresh milk.",
+      "source_refs": [
+        "lane:entry:23241"
+      ]
+    },
+    {
+      "meaning_id": "cm_risl_abundance",
+      "headword_arabic": "رِسْل",
+      "definition": "Plenty, ease, or abundance of provision.",
+      "usage_conditions": "Used in the expression contrasting hardship with ease or abundance; the expression is also explained by reference to milk.",
+      "source_refs": [
+        "lane:entry:23241"
+      ]
+    },
+    {
+      "meaning_id": "cm_risl_horseanatomy",
+      "headword_arabic": "رِسْل",
+      "definition": "The extremities of a horse's two forelimbs or associated shoulder anatomy.",
+      "usage_conditions": "A specialized anatomical plural.",
+      "source_refs": [
+        "lane:entry:23241"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasal_herd",
+      "headword_arabic": "رَسَل",
+      "definition": "A drove, herd, distinct company, or collection, especially of camels, sheep, goats, horses, horsemen, people, or things.",
+      "usage_conditions": "The group may proceed successively; the plural is أَرْسَال.",
+      "source_refs": [
+        "lane:entry:23242"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasal_milkanimals",
+      "headword_arabic": "رَسَل",
+      "definition": "Animals that have milk.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23242"
+      ]
+    },
+    {
+      "meaning_id": "cm_rusul_unveiledgirl",
+      "headword_arabic": "رُسُل",
+      "definition": "A young girl who has not yet worn the veil called خِمَار.",
+      "usage_conditions": "A distinct lexical use, not the ordinary plural of رسول.",
+      "source_refs": [
+        "lane:entry:23243"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasla_luxury",
+      "headword_arabic": "رَسْلَة",
+      "definition": "A soft or delicate condition of life.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23244"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasla_laziness",
+      "headword_arabic": "رَسْلَة",
+      "definition": "Heaviness, sluggishness, laziness, or indolence.",
+      "usage_conditions": "Used of a person characterized by such heaviness.",
+      "source_refs": [
+        "lane:entry:23244"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasul_arrowsdeath",
+      "headword_arabic": "رَسُول",
+      "definition": "A means or instrument conveying something, as arrows conceived as messengers of death.",
+      "usage_conditions": "Figurative usage.",
+      "source_refs": [
+        "lane:entry:23247"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasil_stallion",
+      "headword_arabic": "رَسِيل",
+      "definition": "A stallion-camel sent among she-camels for breeding.",
+      "usage_conditions": "A specialized animal term.",
+      "source_refs": [
+        "lane:entry:23248"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasil_racehorse",
+      "headword_arabic": "رَسِيل",
+      "definition": "A horse started together with another in a race.",
+      "usage_conditions": "A specialized racing term.",
+      "source_refs": [
+        "lane:entry:23248"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasil_companion",
+      "headword_arabic": "رَسِيل",
+      "definition": "A companion who stands with, follows, or alternates with another in competition, singing, or work.",
+      "usage_conditions": "Especially one who relieves another by taking up the activity in turn.",
+      "source_refs": [
+        "lane:entry:23248"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasil_wide",
+      "headword_arabic": "رَسِيل",
+      "definition": "Wide or ample.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23248"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasil_little",
+      "headword_arabic": "رَسِيل",
+      "definition": "Little in quantity or incomplete.",
+      "usage_conditions": "A lexicographical correction concerning the description of a thing.",
+      "source_refs": [
+        "lane:entry:23248"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasil_sweetwater",
+      "headword_arabic": "رَسِيل",
+      "definition": "Sweet water.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23248"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasil_easy",
+      "headword_arabic": "رَسِيل",
+      "definition": "Easy.",
+      "usage_conditions": "A lexical use describing ease of conduct or proceeding.",
+      "source_refs": [
+        "lane:entry:23248"
+      ]
+    },
+    {
+      "meaning_id": "cm_risala_letter",
+      "headword_arabic": "رِسَالَة",
+      "definition": "A letter or ordinary written communication.",
+      "usage_conditions": "Distinct from the Quranic use for a divinely entrusted message.",
+      "source_refs": [
+        "lane:entry:23250"
+      ]
+    },
+    {
+      "meaning_id": "cm_risala_treatise",
+      "headword_arabic": "رِسَالَة",
+      "definition": "A short treatise, discourse, or written work on a subject.",
+      "usage_conditions": "A small work containing questions, inquiries, or problems of one kind.",
+      "source_refs": [
+        "lane:entry:23250"
+      ]
+    },
+    {
+      "meaning_id": "cm_risala_apostleship",
+      "headword_arabic": "رِسَالَة",
+      "definition": "Apostleship or the apostolic office and function.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23250"
+      ]
+    },
+    {
+      "meaning_id": "cm_umm_risala_vulture",
+      "headword_arabic": "أُمُّ رِسَالَة",
+      "definition": "A name for the female vulture percnopterus.",
+      "usage_conditions": "A fixed epithet or surname.",
+      "source_refs": [
+        "lane:entry:23250"
+      ]
+    },
+    {
+      "meaning_id": "cm_rusayla_beast",
+      "headword_arabic": "الرُّسَيْلَى",
+      "definition": "A certain small beast, reptile, or insect.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23251"
+      ]
+    },
+    {
+      "meaning_id": "cm_rusaylat_speech",
+      "headword_arabic": "رُسَيْلَات",
+      "definition": "A manner of treating speech as light, slight, or contemptible.",
+      "usage_conditions": "Used in the idiom ألقى الكلام على رُسَيْلاته.",
+      "source_refs": [
+        "lane:entry:23252"
+      ]
+    },
+    {
+      "meaning_id": "cm_rasilan_shoulder",
+      "headword_arabic": "الرَّاسِلَان",
+      "definition": "The two shoulder-blades or the veins associated with them.",
+      "usage_conditions": "A specialized anatomical term with variant lexical explanations.",
+      "source_refs": [
+        "lane:entry:23253"
+      ]
+    },
+    {
+      "meaning_id": "cm_mursal_hadith",
+      "headword_arabic": "مُرْسَل",
+      "definition": "A transmitted report whose chain of attribution is interrupted, especially one related from a Successor directly from the Prophet without naming the Companion.",
+      "usage_conditions": "Technical terminology in hadith and transmission criticism.",
+      "source_refs": [
+        "lane:entry:23254"
+      ]
+    },
+    {
+      "meaning_id": "cm_mursala_necklace",
+      "headword_arabic": "مُرْسَلَة",
+      "definition": "A necklace, especially a long necklace falling upon the bosom.",
+      "usage_conditions": "May be a necklace with beads or similar ornaments.",
+      "source_refs": [
+        "lane:entry:23255"
+      ]
+    },
+    {
+      "meaning_id": "cm_mirsal_morsel",
+      "headword_arabic": "مِرْسَال",
+      "definition": "One who sends a morsel into his mouth or throws a branch from his hand.",
+      "usage_conditions": "A specialized agent noun.",
+      "source_refs": [
+        "lane:entry:23256"
+      ]
+    },
+    {
+      "meaning_id": "cm_mirsal_arrow",
+      "headword_arabic": "مِرْسَال",
+      "definition": "A short or small arrow.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:23256"
+      ]
+    },
+    {
+      "meaning_id": "cm_murasil_woman",
+      "headword_arabic": "مُرَاسِل",
+      "definition": "A woman who exchanges messages with men seeking marriage, especially a woman separated from her husband or advanced in age but retaining some youth.",
+      "usage_conditions": "A specialized social and marriage-related usage.",
+      "source_refs": [
+        "lane:entry:23257"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustarsil_death",
+      "headword_arabic": "مُسْتَرْسِل",
+      "definition": "One who seeks, courts, or resigns himself to death or slaughter.",
+      "usage_conditions": "Used in the idiom مُسْتَرْسِلٌ لِلْمَوْتِ.",
+      "source_refs": [
+        "lane:entry:23258"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rsl:23233:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasila_easy"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23233:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasila_hair"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23233:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasila_message"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23234:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarsil_recitation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23234:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23234:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarsil_milk"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23235:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasala_exchange"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23235:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasala_alternate"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23236:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irsal_act"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23236:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irsal_release",
+        "cm_irsal_utter",
+        "cm_irsal_unrestricted",
+        "qv_rsl_arsala_2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23236:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irsal_hair"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23236:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irsal_neglect"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23236:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irsal_dominion",
+        "qv_rsl_arsala_2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23236:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irsal_milk_abundance"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23236:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irsal_herd_ownership"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23237:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarassul_gentle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23237:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarassul_clothing"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23237:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarassul_messenger"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23238:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarasul_messages"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23238:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarasul_alternation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23239:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istirsal_loose"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23239:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_istirsal_loose"
+      ],
+      "note": "Hair-specific application is covered by the broader loose or pendent meaning."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23239:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istirsal_gentlepace"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23239:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istirsal_steady"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23239:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istirsal_familiar"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23239:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istirsal_fate"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23239:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istirsal_droves"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23240:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasl_easy"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23240:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_rasl_easy"
+      ],
+      "note": "Camel-specific pace descriptions are covered by the broader easy or gentle pace meaning."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23240:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasl_softjoints"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23240:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasl_hair"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23240:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasl_camelhair"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23240:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasl_camellegs"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23240:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23240:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23241:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_risl_gentle",
+        "cm_risl_sequence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23241:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_risl_softspeech"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23241:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_risl_milk"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23241:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_risl_abundance"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23241:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_risl_horseanatomy"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23242:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasal_herd"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23242:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasal_milkanimals"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23243:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rusul_unveiledgirl"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23243:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form statement without additional lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23244:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasla_luxury"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23244:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasla_laziness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23244:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23245:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23246:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23246:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23247:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only equivalence reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23247:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qv_rsl_rasul_1",
+        "qv_rsl_rasul_2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23247:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasul_arrowsdeath"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23247:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasil_easy"
+      ],
+      "note": "The unit's explicit easy meaning is represented by the appended Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasil_stallion"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasil_racehorse"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g2:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial correction of a corrupt reading, not stable evidence for this headword."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g2:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only synonymic reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasil_companion"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g2:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasil_wide"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasil_little"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23248:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasil_sweetwater"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23249:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23250:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qv_rsl_risala_1",
+        "cm_risala_letter"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23250:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_risala_treatise"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23250:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_risala_apostleship"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23250:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_umm_risala_vulture"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23251:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rusayla_beast"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23252:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rusaylat_speech"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23253:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rasilan_shoulder"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23254:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رسول."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23254:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mursal_hadith"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23254:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mursal_hadith"
+      ],
+      "note": "The lexicological interrupted-chain use is covered by the broader technical meaning."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23254:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23254:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial pointer to the following paragraph."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23255:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mursala_necklace"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23255:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qv_rsl_mursala_1",
+        "qv_rsl_mursala_2",
+        "qv_rsl_mursala_3"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23256:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mirsal_morsel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23256:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mirsal_arrow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23256:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23256:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23257:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23257:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23257:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_murasil_woman"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:rsl:23258:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rsl:23258:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustarsil_death"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The Quranic expression المُرْسَلَاتِ in 77:1 has several transmitted lexical interpretations—winds, angels, or horses sent successively—and these are kept as distinct senses rather than collapsed.",
+    "رَسُول can denote either the bearer of a message or, in a specifically discussed Quranic construction, the conveyed message itself.",
+    "Several Classical Arabic entries distinguish ordinary message, written letter, treatise, and apostolic office; only the message sense supported for the Quranic رِسَالَة forms is placed in the Quranic form entry.",
+    "The active-participle occurrence count is five because the masculine and feminine QAC groups are merged under the masculine citation form."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The interpretation of the Form I verb رَسِلَ as 'to bring a message' is reported in Lane as an attributed lexicographical inference and is retained as a qualified Classical meaning.",
+    "The expression involving رِسْل and نَجْدَة is explained both through milk and through abundance or ease; both materially distinct readings are retained under Classical meanings.",
+    "A Lane note concerning رَسِيل as a scout or emissary is explicitly reported as a corrupt reading and is not assigned as stable lexical evidence."
+  ]
+}

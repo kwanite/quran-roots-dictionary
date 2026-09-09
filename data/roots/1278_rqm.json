@@ -1,0 +1,762 @@
+{
+  "root": "rqm",
+  "arabic": "رقم",
+  "root_idea": {
+    "summary": "A root centered on lines, writing, inscription, and other distinct marks or patterned traces.",
+    "development": "The basic notion of writing or marking extends to making letters distinct, decorating or striping surfaces, imprinting objects, and traces or patterns on animals and land. Some derived expressions develop figurative meanings from the idea of a visible or lasting mark.",
+    "source_refs": [
+      "maqayis:row:2117",
+      "mufradat:row:574"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rqm:m~aroquwm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quranform:rqm:marqum",
+      "reason": "Displayed under the normalized singular passive-participial citation form مَرْقُوم."
+    },
+    {
+      "form_group_id": "qac-form:rqm:r~aqiym:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quranform:rqm:raqim",
+      "reason": "Displayed as the distinct Quranic noun رَقِيم."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quranform:rqm:marqum",
+      "form_group_ids": [
+        "qac-form:rqm:m~aroquwm:nominal:-"
+      ],
+      "headword_arabic": "مَرْقُوم",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen:marqum:written-marked",
+          "definition": "Written or inscribed with distinct, conspicuous marks.",
+          "usage_conditions": "In كِتَابٌ مَرْقُومٌ at 83:9 and 83:20, the writing is understood as having its letters made distinct; the discussion also allows a thick or strongly marked inscription and the pointing or marking of letters.",
+          "source_refs": [
+            "lane:entry:24231",
+            "mufradat:row:574"
+          ]
+        },
+        {
+          "sense_id": "qsen:marqum:sealed",
+          "definition": "Sealed, stamped, imprinted, or otherwise marked as an authenticated record.",
+          "usage_conditions": "A reported interpretation of كِتَابٌ مَرْقُومٌ at 83:9 and 83:20 emphasizes sealing or stamping rather than merely the fact of writing.",
+          "source_refs": [
+            "lane:entry:24231"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "83:9",
+          "word_location": "83:9:2",
+          "sense_ids": [
+            "qsen:marqum:written-marked"
+          ]
+        },
+        {
+          "verse_key": "83:20",
+          "word_location": "83:20:2",
+          "sense_ids": [
+            "qsen:marqum:sealed"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "quranform:rqm:raqim",
+      "form_group_ids": [
+        "qac-form:rqm:r~aqiym:nominal:-"
+      ],
+      "headword_arabic": "رَقِيم",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:raqim:inscription",
+          "definition": "An inscription, written record, book, or inscribed tablet associated with the Companions of the Cave.",
+          "usage_conditions": "In the Quranic designation at 18:9, it is explained as a lead or stone tablet or other record bearing their names, ancestry, story, or religion; it may also be understood more generally as a book, writing, or building.",
+          "source_refs": [
+            "lane:entry:24225",
+            "mufradat:row:574"
+          ]
+        },
+        {
+          "sense_id": "qsen:raqim:place",
+          "definition": "A place or landmark associated with the Companions of the Cave.",
+          "usage_conditions": "An alternative interpretation of the Quranic term identifies it with their town or village, mountain, or valley.",
+          "source_refs": [
+            "lane:entry:24225"
+          ]
+        },
+        {
+          "sense_id": "qsen:raqim:dog",
+          "definition": "The dog associated with the Companions of the Cave.",
+          "usage_conditions": "This is a reported alternative identification of the Quranic term, not the inscription interpretation.",
+          "source_refs": [
+            "lane:entry:24225"
+          ]
+        },
+        {
+          "sense_id": "qsen:raqim:ink-receptacle",
+          "definition": "An ink receptacle or writing implement associated with an inscription.",
+          "usage_conditions": "This is a reported and expressly uncertain interpretation of the Quranic term.",
+          "source_refs": [
+            "lane:entry:24225"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:9",
+          "word_location": "18:9:6",
+          "sense_ids": [
+            "qsen:raqim:inscription",
+            "qsen:raqim:place",
+            "qsen:raqim:dog",
+            "qsen:raqim:ink-receptacle"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:raqama:write-mark",
+      "headword_arabic": "رَقَمَ",
+      "definition": "To write or inscribe, and to mark writing with dots or points so that its letters are distinct.",
+      "usage_conditions": "The meaning includes making an inscription clear or legible.",
+      "source_refs": [
+        "lane:entry:24215"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqama:seal",
+      "headword_arabic": "رَقَمَ",
+      "definition": "To seal, stamp, imprint, or impress.",
+      "usage_conditions": "A closely related marking action, attested as a separate signification of the verb.",
+      "source_refs": [
+        "lane:entry:24215"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqama:water-skill",
+      "headword_arabic": "رَقَمَ",
+      "definition": "To write on water, proverbially meaning to perform with exceptional skill where no mark will remain.",
+      "usage_conditions": "A conventional expression for unusual skill, cleverness, or mastery.",
+      "source_refs": [
+        "lane:entry:24215"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqama:decorate-cloth",
+      "headword_arabic": "رَقَمَ",
+      "definition": "To figure, variegate, decorate, stripe, or otherwise pattern cloth.",
+      "usage_conditions": "Used of garments or pieces of cloth bearing a characteristic design or stripe pattern.",
+      "source_refs": [
+        "lane:entry:24215"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqama:price-mark",
+      "headword_arabic": "رَقَمَ",
+      "definition": "To put an identifying or price mark on an article.",
+      "usage_conditions": "Especially used of marking a garment or other object so that it is distinguished from others or its price is specified.",
+      "source_refs": [
+        "lane:entry:24215"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqama:tradition-lie",
+      "headword_arabic": "رَقَمَ",
+      "definition": "To add to a transmitted report and lie.",
+      "usage_conditions": "In the idiom هُوَ يَزِيدُ فِي الرَّقْمِ, used by transmitters of traditions.",
+      "source_refs": [
+        "lane:entry:24215"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqama:cauterize",
+      "headword_arabic": "رَقَمَ",
+      "definition": "To cauterize an animal.",
+      "usage_conditions": "Also used of marking a horse with lines made by a hot iron.",
+      "source_refs": [
+        "lane:entry:24215"
+      ]
+    },
+    {
+      "meaning_id": "cm:tarqim:lines",
+      "headword_arabic": "تَرْقِيمٌ",
+      "definition": "Drawing or writing a line or lines.",
+      "usage_conditions": "The verbal noun of Form II, with the action understood as line-drawing or line-writing.",
+      "source_refs": [
+        "lane:entry:24216"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqm:writing-price-mark",
+      "headword_arabic": "رَقْمٌ",
+      "definition": "Writing, an inscription, or a price-mark placed on a garment or piece of cloth.",
+      "usage_conditions": "A noun derived from the marking and writing action.",
+      "source_refs": [
+        "lane:entry:24217"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqm:patterned-cloth",
+      "headword_arabic": "رَقْمٌ",
+      "definition": "A figured, variegated, decorated, striped, or marked garment or cloth.",
+      "usage_conditions": "Used both for a type of patterned textile and for cloth bearing a characteristic design or mark.",
+      "source_refs": [
+        "lane:entry:24217"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqm:numeral-notation",
+      "headword_arabic": "رَقْمٌ",
+      "definition": "The Indian numeral notation adopted by the Arabs, source of the notation commonly called Arabic numerals.",
+      "usage_conditions": "A specialized extension of the meaning of a written mark.",
+      "source_refs": [
+        "lane:entry:24217"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqam:day",
+      "headword_arabic": "رَقَمٌ",
+      "definition": "The Day of al-Raqam, a well-known day of conflict among the Arabs.",
+      "usage_conditions": "A fixed historical name rather than an ordinary common-noun sense.",
+      "source_refs": [
+        "lane:entry:24218"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqim:calamity",
+      "headword_arabic": "رَقِمٌ",
+      "definition": "A calamity, misfortune, or overwhelming matter beyond one's ability to accomplish or manage.",
+      "usage_conditions": "Used in expressions such as falling into al-raqim or bringing al-raqim.",
+      "source_refs": [
+        "lane:entry:24219",
+        "lane:entry:24225"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqim:much",
+      "headword_arabic": "رَقِمٌ",
+      "definition": "A great amount or much.",
+      "usage_conditions": "Used in the expression جَاءَ بِالرَّقِمِ, meaning that someone brought or accomplished much.",
+      "source_refs": [
+        "lane:entry:24219"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqma:cautery-marks",
+      "headword_arabic": "رَقْمَةٌ",
+      "definition": "A cautery mark, including one of the paired anatomical marks or callous areas on an animal's limbs.",
+      "usage_conditions": "The term covers the small marks on the shanks and the named markings on the limbs or rump of beasts.",
+      "source_refs": [
+        "lane:entry:24220"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqma:small-herbage",
+      "headword_arabic": "رَقْمَةٌ",
+      "definition": "A small quantity of herbage.",
+      "usage_conditions": "Used of a scant amount of pasture or forage.",
+      "source_refs": [
+        "lane:entry:24220"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqma:herb",
+      "headword_arabic": "رَقْمَةٌ",
+      "definition": "A particular herb or leguminous plant.",
+      "usage_conditions": "The plant's precise identification is not uniform in the lexical descriptions.",
+      "source_refs": [
+        "lane:entry:24220"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqma:meadow",
+      "headword_arabic": "رَقْمَةٌ",
+      "definition": "A meadow or grassy garden.",
+      "usage_conditions": "A landscape use connected with the appearance of a marked patch on the ground.",
+      "source_refs": [
+        "lane:entry:24220"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqma:valley-water",
+      "headword_arabic": "رَقْمَةٌ",
+      "definition": "The side of a valley, or the part where its water collects.",
+      "usage_conditions": "Refers to a water-bearing or water-collecting section of a valley.",
+      "source_refs": [
+        "lane:entry:24220"
+      ]
+    },
+    {
+      "meaning_id": "cm:ruqma:serpent-color",
+      "headword_arabic": "رُقْمَةٌ",
+      "definition": "The distinctive coloring or pattern of the serpent called أَرْقَم.",
+      "usage_conditions": "A color-marking sense associated with a patterned snake.",
+      "source_refs": [
+        "lane:entry:24221"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqama:plant",
+      "headword_arabic": "رَقَمَةٌ",
+      "definition": "A particular plant resembling the plant called كَرِش.",
+      "usage_conditions": "The botanical identification is reported with differing descriptive details.",
+      "source_refs": [
+        "lane:entry:24222"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqamiyyat:arrows",
+      "headword_arabic": "رَقَمِيَّاتٌ",
+      "definition": "Certain arrows named in relation to a place or water source called al-Raqam.",
+      "usage_conditions": "A plural designation based on geographic association.",
+      "source_refs": [
+        "lane:entry:24223"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqum:fixed",
+      "headword_arabic": "رَقُومٌ",
+      "definition": "Remaining, enduring, dwelling, or fixed.",
+      "usage_conditions": "Used as a feminine epithet.",
+      "source_refs": [
+        "lane:entry:24224"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqim:star-patterned",
+      "headword_arabic": "رَقِيمٌ",
+      "definition": "Figured or decorated with stars.",
+      "usage_conditions": "Applied to the sky in a traditional descriptive expression.",
+      "source_refs": [
+        "lane:entry:24225"
+      ]
+    },
+    {
+      "meaning_id": "cm:raqima:intelligent-woman",
+      "headword_arabic": "رَقِيمَةٌ",
+      "definition": "An intelligent, accomplished, or capable woman.",
+      "usage_conditions": "A figurative feminine application.",
+      "source_refs": [
+        "lane:entry:24225"
+      ]
+    },
+    {
+      "meaning_id": "cm:arqam:serpent",
+      "headword_arabic": "أَرْقَمُ",
+      "definition": "A patterned serpent, especially one marked with contrasting colors or spots.",
+      "usage_conditions": "The word is used substantivally for the serpent; the female is not ordinarily called by this form.",
+      "source_refs": [
+        "lane:entry:24226"
+      ]
+    },
+    {
+      "meaning_id": "cm:tarqim:register-mark",
+      "headword_arabic": "تَرْقِيمٌ",
+      "definition": "A conventional mark placed by register keepers on documents, accounts, or written petitions.",
+      "usage_conditions": "Used to prevent a blank space from being added to or an account from being altered.",
+      "source_refs": [
+        "lane:entry:24227"
+      ]
+    },
+    {
+      "meaning_id": "cm:mirqam:writing-reed",
+      "headword_arabic": "مِرْقَمٌ",
+      "definition": "A writing reed or pen.",
+      "usage_conditions": "Named as an instrument of writing or marking.",
+      "source_refs": [
+        "lane:entry:24228"
+      ]
+    },
+    {
+      "meaning_id": "cm:mirqam:anger-idiom",
+      "headword_arabic": "مِرْقَمٌ",
+      "definition": "In an idiom, the pen or writing instrument that has exceeded its proper bounds, said of vehement anger.",
+      "usage_conditions": "Occurs in expressions such as طَغَا مِرْقَمُكَ and related variants.",
+      "source_refs": [
+        "lane:entry:24228"
+      ]
+    },
+    {
+      "meaning_id": "cm:mirqam:bread-marker",
+      "headword_arabic": "مِرْقَمٌ",
+      "definition": "An implement used to prick or mark bread.",
+      "usage_conditions": "A specialized marking tool, with the plural مَرَاقِمُ.",
+      "source_refs": [
+        "lane:entry:24228"
+      ]
+    },
+    {
+      "meaning_id": "cm:muraqqim:writer",
+      "headword_arabic": "مُرَقِّمٌ",
+      "definition": "A writer.",
+      "usage_conditions": "An active-agent noun for one who writes or marks.",
+      "source_refs": [
+        "lane:entry:24230"
+      ]
+    },
+    {
+      "meaning_id": "cm:marqum:animal-marked",
+      "headword_arabic": "مَرْقُومٌ",
+      "definition": "Marked with cautery lines or other dark lines on the legs.",
+      "usage_conditions": "Applied to beasts, including a wild ass or a wild bull, whose legs bear such marks.",
+      "source_refs": [
+        "lane:entry:24231"
+      ]
+    },
+    {
+      "meaning_id": "cm:marquma:sparse-land",
+      "headword_arabic": "مَرْقُومَةٌ",
+      "definition": "Land containing little herbage or the plant called رَقْمَة.",
+      "usage_conditions": "A feminine land epithet.",
+      "source_refs": [
+        "lane:entry:24231"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rqm:24215:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqama:write-mark",
+        "cm:raqama:seal",
+        "cm:raqama:water-skill"
+      ],
+      "note": "Writing, distinct marking, sealing, and the water-writing idiom are represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24215:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqama:decorate-cloth",
+        "cm:raqama:price-mark"
+      ],
+      "note": "Cloth patterning and price or identifying marks are represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24215:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqama:tradition-lie"
+      ],
+      "note": "The fixed idiom about adding to a tradition is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24215:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqama:cauterize"
+      ],
+      "note": "Animal cauterization is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24216:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:tarqim:lines"
+      ],
+      "note": "Form II verbal-noun meaning of drawing or writing lines is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24217:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqm:writing-price-mark",
+        "cm:raqm:numeral-notation"
+      ],
+      "note": "Writing or price marks and the numeral-notation extension are represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24217:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqm:patterned-cloth"
+      ],
+      "note": "The textile sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24217:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24218:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24218:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial pointer to the following paragraph."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24218:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqam:day"
+      ],
+      "note": "Named historical day is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24219:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqim:calamity"
+      ],
+      "note": "Calamity and an unmanageable matter are represented together."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24219:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqim:much"
+      ],
+      "note": "The idiomatic meaning 'much' is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24220:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqma:cautery-marks"
+      ],
+      "note": "Cautery marks on animals are represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24220:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqma:cautery-marks"
+      ],
+      "note": "Specific anatomical cautery markings are subsumed under the represented cautery-mark meaning."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24220:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqma:small-herbage"
+      ],
+      "note": "Small quantity of herbage is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24220:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqma:herb"
+      ],
+      "note": "The particular herb or legume is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24220:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqma:meadow"
+      ],
+      "note": "The meadow sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24220:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqma:valley-water"
+      ],
+      "note": "The valley-side or water-collecting place is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24221:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ruqma:serpent-color"
+      ],
+      "note": "Serpent coloration is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24221:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24222:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqama:plant"
+      ],
+      "note": "The separately described plant is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24223:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqamiyyat:arrows"
+      ],
+      "note": "The geographically named arrows are represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24224:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqum:fixed"
+      ],
+      "note": "The fixed or enduring epithet is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24225:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqim:star-patterned"
+      ],
+      "note": "The star-patterned sky expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24225:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:raqim:inscription",
+        "qsen:raqim:place",
+        "qsen:raqim:dog",
+        "qsen:raqim:ink-receptacle"
+      ],
+      "note": "All materially distinct Quranic interpretations of رَقِيم are represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24225:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqima:intelligent-woman"
+      ],
+      "note": "The figurative feminine sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24225:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:raqim:calamity"
+      ],
+      "note": "The calamity expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24226:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:arqam:serpent"
+      ],
+      "note": "The patterned serpent is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24226:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24226:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only feminine cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24227:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional pointer to the Form II entry; it adds no independent meaning."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24227:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:tarqim:register-mark"
+      ],
+      "note": "The technical register mark is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24228:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mirqam:writing-reed",
+        "cm:mirqam:anger-idiom"
+      ],
+      "note": "The writing instrument and its anger idiom are represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24228:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mirqam:bread-marker"
+      ],
+      "note": "The bread-marking implement is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24229:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24229:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24230:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:muraqqim:writer"
+      ],
+      "note": "The writer agent noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24231:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:marqum:written-marked",
+        "qsen:marqum:sealed"
+      ],
+      "note": "The Quranic written, distinctly marked, and sealed interpretations are represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24231:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24231:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:marqum:animal-marked"
+      ],
+      "note": "Marked animals are represented."
+    },
+    {
+      "unit_id": "lane-unit:rqm:24231:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:marquma:sparse-land"
+      ],
+      "note": "Sparse or lightly vegetated land is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic term رَقِيم in 18:9 has several reported interpretations, including an inscription, a place or landmark, the cave's dog, and an ink receptacle; these should not be treated as equally certain identifications.",
+    "The two senses of مَرْقُوم in كِتَابٌ مَرْقُومٌ reflect related but distinct explanations emphasizing distinct writing or marking versus sealing or stamping."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

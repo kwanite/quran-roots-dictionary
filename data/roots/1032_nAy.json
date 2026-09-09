@@ -1,0 +1,129 @@
+{
+  "root": "nAy",
+  "arabic": "نأي",
+  "root_idea": {
+    "summary": "The evidence records two related lexical images: النَّأْي is distance or remoteness, while النُّؤْي is a trench that keeps rainwater away from a tent.",
+    "development": "The distance branch extends from spatial remoteness to personal withdrawal and aloofness. The Quranic Form I verb expresses becoming or keeping remote, while the related derived forms preserve the notions of withdrawal, a distant place, and a barrier that keeps something away.",
+    "source_refs": [
+      "maqayis:row:4511",
+      "mufradat:row:1402"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nAy:na_#aA:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nAy-v1",
+      "reason": "The Quran-attested Form I verb is presented under the normalized Classical Arabic citation form نَأَى."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nAy-v1",
+      "form_group_ids": [
+        "qac-form:nAy:na_#aA:verb:I"
+      ],
+      "headword_arabic": "نَأَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "nAy-v1-s1",
+          "definition": "To become distant, keep away, withdraw, or turn away.",
+          "usage_conditions": "Used for personal or relational distancing and withdrawal. This broad distancing sense is distinct from the Quranic construction نَأَى بِجَانِبِهِ, which conveys haughty aloofness.",
+          "source_refs": [
+            "mufradat:row:1402"
+          ]
+        },
+        {
+          "sense_id": "nAy-v1-s2",
+          "definition": "To turn away and hold oneself aloof, expressing haughtiness or self-exalting arrogance.",
+          "usage_conditions": "Occurs in the construction نَأَى بِجَانِبِهِ. The construction uses the imagery of withdrawing one's side and is explained as a figurative expression of arrogance.",
+          "source_refs": [
+            "mufradat:row:1402"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:26",
+          "word_location": "6:26:4",
+          "sense_ids": [
+            "nAy-v1-s1"
+          ]
+        },
+        {
+          "verse_key": "17:83",
+          "word_location": "17:83:6",
+          "sense_ids": [
+            "nAy-v1-s2"
+          ]
+        },
+        {
+          "verse_key": "41:51",
+          "word_location": "41:51:6",
+          "sense_ids": [
+            "nAy-v1-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nAy-cm-nay",
+      "headword_arabic": "نَأْي",
+      "definition": "Distance or remoteness.",
+      "usage_conditions": "A nominal/verbal-noun expression for being far or distant, distinct in form from the Quranic finite verb.",
+      "source_refs": [
+        "maqayis:row:4511"
+      ]
+    },
+    {
+      "meaning_id": "nAy-cm-nuy",
+      "headword_arabic": "نُؤْي",
+      "definition": "A trench or ditch dug around a tent to keep rainwater away.",
+      "usage_conditions": "A concrete noun for a protective earthwork surrounding a tent.",
+      "source_refs": [
+        "maqayis:row:4511",
+        "mufradat:row:1402"
+      ]
+    },
+    {
+      "meaning_id": "nAy-cm-anaya",
+      "headword_arabic": "أَنْأَى",
+      "definition": "To make or construct a نُؤْي around a tent.",
+      "usage_conditions": "A causative Form IV usage associated with making the rain-diverting trench.",
+      "source_refs": [
+        "maqayis:row:4511"
+      ]
+    },
+    {
+      "meaning_id": "nAy-cm-intanaa",
+      "headword_arabic": "انْتَأَى",
+      "definition": "To withdraw or keep at a distance.",
+      "usage_conditions": "The Form VIII derivative of نَأَى, cited as expressing the same distancing branch.",
+      "source_refs": [
+        "maqayis:row:4511",
+        "mufradat:row:1402"
+      ]
+    },
+    {
+      "meaning_id": "nAy-cm-muntanaa",
+      "headword_arabic": "مُنْتَأًى",
+      "definition": "A distant place; also the site or location of the related نُؤْي.",
+      "usage_conditions": "A derived noun associated with انتأى; the evidence applies it both to a distant place and, in the نُؤْي terminology, to the place of the trench.",
+      "source_refs": [
+        "maqayis:row:4511",
+        "mufradat:row:1402"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [],
+  "cautions": [
+    "No Lane primary source units were supplied in the evidence packet; the broader Classical Arabic coverage therefore relies on the supplied Maqāyīs and Mufradāt evidence.",
+    "A variant Quranic reading نَاءَ بِجَانِبِهِ is reported for the construction cited at 17:83, but the public form here follows the QAC form نَأَى."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

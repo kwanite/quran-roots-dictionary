@@ -1,0 +1,172 @@
+{
+  "root": "rfv",
+  "arabic": "رفث",
+  "root_idea": {
+    "summary": "The root centers on speech or expression that is shameful to expose openly, with sexual intercourse as its central associated domain.",
+    "development": "The lexical evidence presents intercourse as the original referent of رَفَث, with related extensions to obscene speech, speech leading to intercourse, and intimate acts or signals associated with it.",
+    "source_refs": [
+      "maqayis:row:2094",
+      "mufradat:row:568"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rfv:rafav:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-rfv-rafath",
+      "reason": "Displayed as the normalized noun citation form for the single Quran-attested nominal group."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-rfv-rafath",
+      "form_group_ids": [
+        "qac-form:rfv:rafav:nominal:-"
+      ],
+      "headword_arabic": "رَفَثٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf-rfv-rafath-s1",
+          "definition": "Sexual intercourse or intimate sexual relations.",
+          "usage_conditions": "In الرَّفَثُ إِلَى نِسَائِكُمْ (2:187), the noun is a euphemistic expression for sexual intercourse or intimate approach, with إِلَى reflecting the sense of approach or coming to one's wife. In the pilgrimage prohibition (2:197), intercourse is the principal interpretation.",
+          "source_refs": [
+            "lane:entry:23907",
+            "mufradat:row:568"
+          ]
+        },
+        {
+          "sense_id": "qf-rfv-rafath-s2",
+          "definition": "Foul, immodest, or sexually explicit speech concerning intercourse and its preliminaries.",
+          "usage_conditions": "The usage includes speaking plainly about matters normally expressed allusively, as well as speech addressed to women or speech that invites or leads toward intercourse. This is one interpretation of the prohibition in 2:197.",
+          "source_refs": [
+            "lane:entry:23907",
+            "mufradat:row:568"
+          ]
+        },
+        {
+          "sense_id": "qf-rfv-rafath-s3",
+          "definition": "In a rare interpretation of the pilgrimage prohibition, removal of external bodily impurities through grooming acts such as trimming the nails, removing armpit hair, or shaving the pubic hair.",
+          "usage_conditions": "This is an attributed and disputed interpretation of the prohibition in 2:197, not the prevailing sexual or speech-related sense.",
+          "source_refs": [
+            "lane:entry:23907"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:187",
+          "word_location": "2:187:5",
+          "sense_ids": [
+            "qf-rfv-rafath-s1"
+          ]
+        },
+        {
+          "verse_key": "2:197",
+          "word_location": "2:197:9",
+          "sense_ids": [
+            "qf-rfv-rafath-s1",
+            "qf-rfv-rafath-s2",
+            "qf-rfv-rafath-s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-rfv-verb-I",
+      "headword_arabic": "رَفَثَ",
+      "definition": "To utter foul, immodest, or sexually explicit speech concerning women or intercourse; in constructions with one's wife, to have intercourse or engage in associated intimate acts, including kissing and amorous talk.",
+      "usage_conditions": "The speech sense includes speaking plainly of matters conventionally expressed by allusion. رَفَثَ بِامْرَأَتِهِ and رَفَثَ مَعَهَا can denote intercourse or related intimate conduct.",
+      "source_refs": [
+        "lane:entry:23902"
+      ]
+    },
+    {
+      "meaning_id": "cm-rfv-verb-III",
+      "headword_arabic": "رَافَثَ",
+      "definition": "To engage with a companion in mutual foul, immodest, or sexually explicit conversation concerning women or intercourse.",
+      "usage_conditions": "The Form III construction رَافَثَ صَاحِبَهُ denotes joining or vying with another in such conversation.",
+      "source_refs": [
+        "lane:entry:23903"
+      ]
+    },
+    {
+      "meaning_id": "cm-rfv-verb-VI",
+      "headword_arabic": "تَرَافَثَ",
+      "definition": "For two people to engage mutually in foul, immodest, or sexually explicit conversation concerning women or intercourse.",
+      "usage_conditions": "The Form VI verb is used reciprocally of two participants joining or vying with each other in such conversation.",
+      "source_refs": [
+        "lane:entry:23906"
+      ]
+    },
+    {
+      "meaning_id": "cm-rfv-noun-extension",
+      "headword_arabic": "رَفَثٌ",
+      "definition": "By extension, an act, expression, or signal associated with sexual intercourse, including kissing, amorous or enticing behavior, arranging intercourse through the tongue, or signaling desire with the eye.",
+      "usage_conditions": "In a broad classical usage, the term can encompass anything desired of one's wife in the sexual context; the listed bodily, verbal, and visual acts are specialized extensions rather than restrictions on the Quranic senses.",
+      "source_refs": [
+        "lane:entry:23907"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rfv:23902:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rfv-verb-I"
+      ],
+      "note": "Form I speech and intimate-conduct usages are represented."
+    },
+    {
+      "unit_id": "lane-unit:rfv:23903:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rfv-verb-III"
+      ],
+      "note": "Form III mutual obscene conversation is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfv:23904:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:rfv:23905:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:rfv:23906:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rfv-verb-VI"
+      ],
+      "note": "Reciprocal Form VI conversation is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfv:23907:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-rfv-rafath-s1",
+        "qf-rfv-rafath-s2",
+        "qf-rfv-rafath-s3",
+        "cm-rfv-noun-extension"
+      ],
+      "note": "The noun's Quran-attested sexual, speech-related, and rare grooming interpretation, together with its classical extensions, is represented."
+    }
+  ],
+  "cautions": [
+    "The pilgrimage prohibition in 2:197 has competing lexical interpretations: intercourse, speech concerning or leading to intercourse, and a rare attributed interpretation involving bodily grooming.",
+    "The rare grooming interpretation is uncertain in lexical assignment because the source notes that some explanations concern the prohibition formula rather than the noun itself."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The external-impurities reading has been preserved as qf-rfv-rafath-s3, but its attribution and precise attachment to رَفَثٌ remain disputed."
+  ]
+}

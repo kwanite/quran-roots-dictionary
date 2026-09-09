@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Browse the Quran Roots Dictionary — 1,642 Quranic Arabic roots with form-specific senses and lexical source references.">
+  <meta name="theme-color" content="#0b0f0e">
+  <title>Quran Roots Dictionary</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <button id="browser-toggle" class="icon-button" type="button" aria-controls="root-browser" aria-expanded="true" title="Toggle root browser">
+        <span aria-hidden="true">☰</span>
+        <span class="sr-only">Toggle root browser</span>
+      </button>
+      <div>
+        <h1>Quran Roots Dictionary</h1>
+        <p>1,642 exact Quranic Arabic Corpus roots</p>
+      </div>
+    </div>
+
+    <div class="topbar-meta">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span>Public data · methodology · source refs</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside id="root-browser" class="browser" aria-label="Root browser">
+      <div class="browser-head">
+        <div>
+          <div class="eyebrow">Dictionary</div>
+          <h2>Find a root</h2>
+        </div>
+        <button id="browser-close" class="icon-button close-button" type="button" aria-label="Close root browser">×</button>
+      </div>
+
+      <label class="sr-only" for="search">Find a root</label>
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="search" type="search" placeholder="Arabic, Buckwalter, or ID" autocomplete="off">
+      </div>
+
+      <div id="count" class="count muted" aria-live="polite"></div>
+      <div id="root-list" class="root-list" role="list"></div>
+    </aside>
+
+    <article id="root-view" class="root-view" tabindex="-1">
+      <div class="empty-state">
+        <div class="empty-mark arabic" aria-hidden="true">جذر</div>
+        <div class="eyebrow">Quran Roots</div>
+        <h2>Select a root</h2>
+        <p>Search by Arabic root, exact Buckwalter root, or the stable four-digit root ID.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <span>Quran Roots Dictionary</span>
+    <span>See repository licensing and third-party notices before redistribution.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

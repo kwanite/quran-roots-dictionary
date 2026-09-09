@@ -1,0 +1,164 @@
+{
+  "root": "q$Er",
+  "arabic": "قشعر",
+  "root_idea": {
+    "summary": "The supplied lexical evidence centers on quaking or shuddering that affects the skin, with related extensions to roughness and drying or contraction.",
+    "development": "The bodily tremor sense is accompanied by usages for skin drying, the contraction and drought-marked appearance of earth, and a year becoming drought-stricken; related derived nouns and adjectives describe the tremor or a person experiencing it.",
+    "source_refs": [
+      "lane:entry:8372",
+      "lane:entry:8373",
+      "lane:entry:8374",
+      "lane:entry:8375",
+      "mufradat:row:1181"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:q$Er:taqo$aEir~u:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsh-iv-verb",
+      "reason": "Displayed under the normalized Form IV perfect citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qsh-iv-verb",
+      "form_group_ids": [
+        "qac-form:q$Er:taqo$aEir~u:verb:IV"
+      ],
+      "headword_arabic": "إِقْشَعَرَّ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsh-iv-s1",
+          "definition": "To shiver or shudder, with a tremor rising over the skin.",
+          "usage_conditions": "In the Quranic occurrence, it is used of the skins of those who fear their Lord; the supplied form is an imperfect active verb.",
+          "source_refs": [
+            "lane:entry:8372",
+            "mufradat:row:1181"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:23",
+          "word_location": "39:23:8",
+          "sense_ids": [
+            "qsh-iv-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-qashareer",
+      "headword_arabic": "قُشَعْرِيرَةٌ",
+      "definition": "A tremor, quaking, or quivering of the skin.",
+      "usage_conditions": "A noun for the tremor that seizes or overtakes the skin.",
+      "source_refs": [
+        "lane:entry:8373"
+      ]
+    },
+    {
+      "meaning_id": "cm-skin-drying",
+      "headword_arabic": "إِقْشَعَرَّ",
+      "definition": "Of the skin, to dry up from mange or scab.",
+      "usage_conditions": "Used in a construction describing the skin as drying because of mange or scab.",
+      "source_refs": [
+        "lane:entry:8372"
+      ]
+    },
+    {
+      "meaning_id": "cm-drought-contraction",
+      "headword_arabic": "إِقْشَعَرَّ",
+      "definition": "Of the earth, to become dust- or ash-coloured and contract through drought; of a year, to become a year of drought.",
+      "usage_conditions": "The year usage is reported as a figurative or extended expression; the earth usage includes both the colour change and contraction caused by drought.",
+      "source_refs": [
+        "lane:entry:8372"
+      ]
+    },
+    {
+      "meaning_id": "cm-qashair-rough-aged",
+      "headword_arabic": "قُشَاعِرٌ",
+      "definition": "Rough to the touch; in a reported usage, rough and advanced in years.",
+      "usage_conditions": "An adjectival description; the combination of roughness with advanced age is reported as an alternative usage.",
+      "source_refs": [
+        "lane:entry:8374"
+      ]
+    },
+    {
+      "meaning_id": "cm-muqshair",
+      "headword_arabic": "مُقْشَعِرٌّ",
+      "definition": "A person whose skin is quaking or shuddering.",
+      "usage_conditions": "An active participial adjective describing someone in the state of bodily shuddering; its plural is قَشَاعِرُ.",
+      "source_refs": [
+        "lane:entry:8375"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:q$Er:8372:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsh-iv-s1"
+      ],
+      "note": "Bodily and cutaneous quaking is represented in the Quranic verb sense."
+    },
+    {
+      "unit_id": "lane-unit:q$Er:8372:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-skin-drying"
+      ],
+      "note": "The mange- or scab-related drying of skin is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:q$Er:8372:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drought-contraction"
+      ],
+      "note": "The drought-related colour change and contraction of earth are represented."
+    },
+    {
+      "unit_id": "lane-unit:q$Er:8372:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drought-contraction"
+      ],
+      "note": "The drought-stricken year usage is included in the same drought extension."
+    },
+    {
+      "unit_id": "lane-unit:q$Er:8373:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qashareer"
+      ],
+      "note": "The noun for a skin tremor is represented under its own headword."
+    },
+    {
+      "unit_id": "lane-unit:q$Er:8374:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qashair-rough-aged"
+      ],
+      "note": "The rough or rough-and-aged adjectival usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:q$Er:8375:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-muqshair"
+      ],
+      "note": "The participial adjective for a person undergoing skin shuddering is represented."
+    }
+  ],
+  "cautions": [
+    "No Maqāyīs entry was supplied; the root-level orientation is therefore limited to the supplied Lane and Mufradāt evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

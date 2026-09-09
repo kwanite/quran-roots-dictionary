@@ -1,0 +1,610 @@
+{
+  "root": "mrD",
+  "arabic": "مرض",
+  "root_idea": {
+    "summary": "A departure from the proper state of health, soundness, or rectitude.",
+    "development": "The root extends from bodily illness to figurative disorder of the heart, belief, intellect, or conduct. Its derived forms also express causing illness, caring for the sick, feigning illness, and weakness or deficiency.",
+    "source_refs": [
+      "maqayis:row:4348",
+      "mufradat:row:1359"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mrD:mariDo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mrD_mariDa",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:mrD:m~araD:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mrD_maraD",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:mrD:m~ariyD:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mrD_mariyD",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mrD_mariDa",
+      "form_group_ids": [
+        "qac-form:mrD:mariDo:verb:I"
+      ],
+      "headword_arabic": "مَرِضَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "mrD_mariDa_s1",
+          "definition": "To be or become physically ill or diseased.",
+          "usage_conditions": "Used of a person or animal entering the state of illness.",
+          "source_refs": [
+            "lane:entry:12540"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:80",
+          "word_location": "26:80:2",
+          "sense_ids": [
+            "mrD_mariDa_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mrD_maraD",
+      "form_group_ids": [
+        "qac-form:mrD:m~araD:nominal:-"
+      ],
+      "headword_arabic": "مَرَضٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 13,
+      "senses": [
+        {
+          "sense_id": "mrD_maraD_s1",
+          "definition": "A figurative disease of the heart: doubt, hypocrisy, weakness of belief, or another spiritual or moral defect.",
+          "usage_conditions": "In the Quranic heart construction, the term describes departure from soundness in belief, intention, or conduct rather than bodily illness.",
+          "source_refs": [
+            "lane:entry:12547",
+            "mufradat:row:1359"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:10",
+          "word_location": "2:10:3",
+          "sense_ids": [
+            "mrD_maraD_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mrD_mariyD",
+      "form_group_ids": [
+        "qac-form:mrD:m~ariyD:nominal:-"
+      ],
+      "headword_arabic": "مَرِيضٌ",
+      "public_pos_label": "Active participle · adjective",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "mrD_mariyD_s1",
+          "definition": "Physically sick, ill, or weakened.",
+          "usage_conditions": "An adjective or substantivized active participle describing an ill person or persons; the Quran also uses its plural مَرْضَىٰ.",
+          "source_refs": [
+            "lane:entry:12551",
+            "mufradat:row:1359"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:184",
+          "word_location": "2:184:6",
+          "sense_ids": [
+            "mrD_mariyD_s1"
+          ]
+        },
+        {
+          "verse_key": "24:61",
+          "word_location": "24:61:11",
+          "sense_ids": [
+            "mrD_mariyD_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_mrD_form1_eye",
+      "headword_arabic": "مَرِضَ",
+      "definition": "Of an eye: to become languid, weak, or weakened from excessive looking.",
+      "usage_conditions": "A figurative use applied to the eye.",
+      "source_refs": [
+        "lane:entry:12540"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form1_night",
+      "headword_arabic": "مَرِضَ",
+      "definition": "Of a night: to become dark.",
+      "usage_conditions": "A figurative description of a dark night.",
+      "source_refs": [
+        "lane:entry:12540"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form2_care",
+      "headword_arabic": "مَرَّضَ",
+      "definition": "To care for a sick person, treat the illness, or manage the person's medical treatment.",
+      "usage_conditions": "Form II transitive construction.",
+      "source_refs": [
+        "lane:entry:12541"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form2_weak",
+      "headword_arabic": "مَرَّضَ",
+      "definition": "To fall short, be remiss, or fail to exert oneself fully in an affair; to do something weakly or feebly.",
+      "usage_conditions": "Used with an affair, a person's need, or speech.",
+      "source_refs": [
+        "lane:entry:12541"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_tamrid_phrase",
+      "headword_arabic": "صِيغَةُ التَّمْرِيضِ",
+      "definition": "A manner of reporting or relating something that implies doubt or presents it as a mere assertion.",
+      "usage_conditions": "A reported, probably post-classical expression; the lexical status is marked as tentative in the source.",
+      "source_refs": [
+        "lane:entry:12541"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form3_selfdeceive",
+      "headword_arabic": "مَارَضَ",
+      "definition": "To deceive oneself, or try to deceive oneself, concerning another person.",
+      "usage_conditions": "Form III construction مَارَضْتُ رَأْيِي فِيكَ.",
+      "source_refs": [
+        "lane:entry:12542"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form4_beasts",
+      "headword_arabic": "أَمْرَضَ",
+      "definition": "To have a disease, bane, or murrain among one's beasts or camels.",
+      "usage_conditions": "A causative Form IV use with livestock as the affected class.",
+      "source_refs": [
+        "lane:entry:12543"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form4_causeill",
+      "headword_arabic": "أَمْرَضَ",
+      "definition": "To render someone sick or cause something to bring about illness.",
+      "usage_conditions": "Includes a person being made sick and food causing illness.",
+      "source_refs": [
+        "lane:entry:12543"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form4_findill",
+      "headword_arabic": "أَمْرَضَ",
+      "definition": "To find or judge someone to be sick.",
+      "usage_conditions": "A Form IV use expressing assessment rather than causation.",
+      "source_refs": [
+        "lane:entry:12543"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form4_eyelids",
+      "headword_arabic": "إِمْرَاضُ الأَجْفَانِ",
+      "definition": "The lowering of the eyelids in a languid or languishing manner.",
+      "usage_conditions": "A figurative nominal construction concerning the eyelids.",
+      "source_refs": [
+        "lane:entry:12543"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form4_nearright",
+      "headword_arabic": "أَمْرَضَ",
+      "definition": "To come near being right in one's opinion, without being wholly right.",
+      "usage_conditions": "An intransitive, figurative Form IV use.",
+      "source_refs": [
+        "lane:entry:12543"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form4_nearneed",
+      "headword_arabic": "أَمْرَضَ",
+      "definition": "To come near attaining another person's desired object or need.",
+      "usage_conditions": "A transitive figurative construction, as in approaching fulfillment of someone's request.",
+      "source_refs": [
+        "lane:entry:12543"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form5_weak",
+      "headword_arabic": "تَمَرَّضَ",
+      "definition": "To be weak or feeble in one's affair.",
+      "usage_conditions": "The source also allows a possible interpretation of feigning or falsely displaying weakness.",
+      "source_refs": [
+        "lane:entry:12544"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_form6_feign",
+      "headword_arabic": "تَمَارَضَ",
+      "definition": "To feign illness or make a false show of disease in oneself.",
+      "usage_conditions": "Form VI reflexive or reciprocal-pattern use.",
+      "source_refs": [
+        "lane:entry:12545"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_noun_physical",
+      "headword_arabic": "مَرَضٌ",
+      "definition": "Bodily disease, disorder, sickness, or illness; a condition outside the normal state of health.",
+      "usage_conditions": "Classical bodily use of the noun, distinct from the Quranic heart-related usage listed above.",
+      "source_refs": [
+        "lane:entry:12547"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mardah_single",
+      "headword_arabic": "مَرْضَةٌ",
+      "definition": "A single disease or illness.",
+      "usage_conditions": "The singulative noun for one instance of disease.",
+      "source_refs": [
+        "lane:entry:12549"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_murad_fruit",
+      "headword_arabic": "مُرَاضٌ",
+      "definition": "A disease or blight that affects and destroys fruit.",
+      "usage_conditions": "A technical agricultural use.",
+      "source_refs": [
+        "lane:entry:12550"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mariyD_eye",
+      "headword_arabic": "مَرِيضٌ",
+      "definition": "Of an eye or gaze: languid or weak in sight.",
+      "usage_conditions": "Figurative adjectival use; the source's illustrative person does not restrict the meaning by gender.",
+      "source_refs": [
+        "lane:entry:12551"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mariyD_heart",
+      "headword_arabic": "مَرِيضٌ",
+      "definition": "Of a heart: deficient in religion.",
+      "usage_conditions": "Figurative spiritual use of the adjective in Classical Arabic.",
+      "source_refs": [
+        "lane:entry:12551"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mariyD_sunwind",
+      "headword_arabic": "مَرِيضٌ",
+      "definition": "Of the sun or wind: weak, dim, languid, or still; of the wind, intensely hot while blowing feebly.",
+      "usage_conditions": "Figurative descriptions of weakened or impaired atmospheric phenomena.",
+      "source_refs": [
+        "lane:entry:12551"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mariyD_land",
+      "headword_arabic": "مَرِيضٌ",
+      "definition": "Of land: troubled by dissension, conflict, war, or slaughter; weak or straitened; or unhealthy because of its air.",
+      "usage_conditions": "Figurative adjectival descriptions of a land's condition.",
+      "source_refs": [
+        "lane:entry:12551"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mariyD_night",
+      "headword_arabic": "مَرِيضٌ",
+      "definition": "Of a night: dark or clouded, with no visible star or light.",
+      "usage_conditions": "Figurative adjectival use describing a night lacking illumination.",
+      "source_refs": [
+        "lane:entry:12551"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mariyD_opinion",
+      "headword_arabic": "مَرِيضٌ",
+      "definition": "Of an opinion: deviating from what is right.",
+      "usage_conditions": "Figurative description of defective judgment.",
+      "source_refs": [
+        "lane:entry:12551"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mumrid_camels",
+      "headword_arabic": "مُمْرِضٌ",
+      "definition": "A person whose camels are diseased.",
+      "usage_conditions": "A technical livestock-related active participle.",
+      "source_refs": [
+        "lane:entry:12553"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mimrad_frequent",
+      "headword_arabic": "مِمْرَاضٌ",
+      "definition": "A person who is frequently diseased or sick.",
+      "usage_conditions": "An intensive nominal pattern describing recurrent illness.",
+      "source_refs": [
+        "lane:entry:12554"
+      ]
+    },
+    {
+      "meaning_id": "cm_mrD_mutamarid_weak",
+      "headword_arabic": "مُتَمَرِّضٌ",
+      "definition": "A person weak or feeble in his affair.",
+      "usage_conditions": "Figurative adjectival use.",
+      "source_refs": [
+        "lane:entry:12556"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mrD:12540:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mrD_mariDa_s1"
+      ],
+      "note": "Core bodily illness meaning."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12540:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form1_eye"
+      ],
+      "note": "Figurative eye weakness."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12540:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form1_night"
+      ],
+      "note": "Figurative darkness of night."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12540:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial indication of unspecified further tropical uses."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12541:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form2_care"
+      ],
+      "note": "Care and medical treatment of the sick."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12541:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form2_weak"
+      ],
+      "note": "Remissness, weak effort, or weak speech."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12541:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_tamrid_phrase"
+      ],
+      "note": "Expression implying doubt in narration."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12542:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12542:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form3_selfdeceive"
+      ],
+      "note": "Self-deception concerning another."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12543:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12543:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form4_beasts"
+      ],
+      "note": "Disease among beasts or camels."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12543:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form4_causeill"
+      ],
+      "note": "Causing or bringing about illness."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12543:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form4_eyelids"
+      ],
+      "note": "Languid lowering of the eyelids."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12543:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form4_findill"
+      ],
+      "note": "Finding someone to be sick."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12543:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form4_nearright"
+      ],
+      "note": "Being nearly right in opinion."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12543:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form4_nearneed"
+      ],
+      "note": "Coming near fulfillment of another's need."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12544:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form5_weak"
+      ],
+      "note": "Weakness in an affair, with a reported alternative reading."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12545:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_form6_feign"
+      ],
+      "note": "Feigning illness."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12545:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form V entry."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12546:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other entries."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12547:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mrD_maraD_s1",
+        "cm_mrD_noun_physical"
+      ],
+      "note": "Quranic spiritual branch and Classical bodily branch."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12548:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مَرِيضٌ."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12549:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_mardah_single"
+      ],
+      "note": "Singulative noun for one disease."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12550:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_murad_fruit"
+      ],
+      "note": "Fruit disease or blight."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12551:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mrD_mariyD_s1",
+        "cm_mrD_mariyD_eye",
+        "cm_mrD_mariyD_heart",
+        "cm_mrD_mariyD_sunwind",
+        "cm_mrD_mariyD_land",
+        "cm_mrD_mariyD_night",
+        "cm_mrD_mariyD_opinion"
+      ],
+      "note": "Physical adjective and its distinct figurative applications."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12552:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مَرِيضٌ."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12553:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_mumrid_camels"
+      ],
+      "note": "Person whose camels are diseased."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12554:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_mimrad_frequent"
+      ],
+      "note": "Frequent or recurrent illness."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12555:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مَرِيضٌ."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12556:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مَرِيضٌ."
+    },
+    {
+      "unit_id": "lane-unit:mrD:12556:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mrD_mutamarid_weak"
+      ],
+      "note": "Weakness in one's affair."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrences of مَرَضٌ supplied here are heart-related and support the figurative spiritual sense; its bodily noun use is kept under broader Classical Arabic meanings.",
+    "The QAC verb occurrence is an inflected first-person form, normalized here to the Classical citation form مَرِضَ. The Form V weakness/feigned-weakness alternative remains explicitly marked as uncertain in the Classical entry."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,243 @@
+{
+  "root": "mkv",
+  "arabic": "مكث",
+  "root_idea": {
+    "summary": "The root centers on stopping or staying with waiting and expectation.",
+    "development": "From stopping and waiting, the lexical range extends to tarrying in a place, abiding, deliberate lack of haste, and loitering while proceeding.",
+    "source_refs": [
+      "maqayis:row:4443",
+      "mufradat:row:1381",
+      "lane:entry:12889",
+      "lane:entry:12893",
+      "lane:entry:12894"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mkv:makava:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mkv-f1-makatha",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:mkv:mukov:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mkv-n-mukth",
+      "reason": "Displayed as the Quranic verbal noun مُكْثٌ."
+    },
+    {
+      "form_group_id": "qac-form:mkv:m~a`kiviyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mkv-ap-makith",
+      "reason": "Displayed under the singular active-participle citation form; the Quran attestations are plural inflections."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mkv-f1-makatha",
+      "form_group_ids": [
+        "qac-form:mkv:makava:verb:I"
+      ],
+      "headword_arabic": "مَكَثَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "mkv-f1-s1",
+          "definition": "To tarry, stay, or remain, especially while waiting or expecting.",
+          "usage_conditions": "Used of remaining or pausing in a place, including an imperative to stay and a narrative statement that someone remained or stayed.",
+          "source_refs": [
+            "lane:entry:12889",
+            "mufradat:row:1381"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:10",
+          "word_location": "20:10:6",
+          "sense_ids": [
+            "mkv-f1-s1"
+          ]
+        },
+        {
+          "verse_key": "27:22",
+          "word_location": "27:22:1",
+          "sense_ids": [
+            "mkv-f1-s1"
+          ]
+        },
+        {
+          "verse_key": "13:17",
+          "word_location": "13:17:36",
+          "sense_ids": [
+            "mkv-f1-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mkv-n-mukth",
+      "form_group_ids": [
+        "qac-form:mkv:mukov:nominal:-"
+      ],
+      "headword_arabic": "مُكْثٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "mkv-n-s1",
+          "definition": "Tarrying or waiting; a stay or period of remaining.",
+          "usage_conditions": "Verbal noun referring to the act or duration of staying, tarrying, or waiting.",
+          "source_refs": [
+            "lane:entry:12891",
+            "lane:entry:12889",
+            "mufradat:row:1381"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:106",
+          "word_location": "17:106:7",
+          "sense_ids": [
+            "mkv-n-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mkv-ap-makith",
+      "form_group_ids": [
+        "qac-form:mkv:m~a`kiviyn:nominal:-"
+      ],
+      "headword_arabic": "مَاكِثٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "mkv-ap-s1",
+          "definition": "Remaining, staying, or abiding.",
+          "usage_conditions": "Active participle describing one who remains or abides, including continued residence or presence over time.",
+          "source_refs": [
+            "lane:entry:12893",
+            "mufradat:row:1381"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:3",
+          "word_location": "18:3:1",
+          "sense_ids": [
+            "mkv-ap-s1"
+          ]
+        },
+        {
+          "verse_key": "43:77",
+          "word_location": "43:77:8",
+          "sense_ids": [
+            "mkv-ap-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mkv-cm-makith-deliberate",
+      "headword_arabic": "مَكِيثٌ",
+      "definition": "A grave, deliberate person who is not hasty in his affair.",
+      "usage_conditions": "A personal characterization of unhurried and measured conduct.",
+      "source_refs": [
+        "lane:entry:12893"
+      ]
+    },
+    {
+      "meaning_id": "mkv-cm-makith-slow-speech",
+      "headword_arabic": "مَكِيثٌ",
+      "definition": "Slow in speech.",
+      "usage_conditions": "A figurative extension describing slowness specifically in speaking.",
+      "source_refs": [
+        "lane:entry:12893"
+      ]
+    },
+    {
+      "meaning_id": "mkv-cm-mutamakith-loitering",
+      "headword_arabic": "مُتَمَكِّثًا",
+      "definition": "Proceeding or journeying while loitering or delaying.",
+      "usage_conditions": "Describes the manner of proceeding as unhurried and lingering.",
+      "source_refs": [
+        "lane:entry:12894"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mkv:12889:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkv-f1-s1",
+        "mkv-n-s1"
+      ],
+      "note": "Tarrying, staying, waiting, and pausing in expectation are covered by the Form I and verbal-noun senses."
+    },
+    {
+      "unit_id": "lane-unit:mkv:12890:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:mkv:12891:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkv-n-s1"
+      ],
+      "note": "Defines مُكْثٌ as tarrying and waiting."
+    },
+    {
+      "unit_id": "lane-unit:mkv:12892:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مُكْثٌ."
+    },
+    {
+      "unit_id": "lane-unit:mkv:12893:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkv-cm-makith-deliberate"
+      ],
+      "note": "Covers the deliberate, non-hasty person."
+    },
+    {
+      "unit_id": "lane-unit:mkv:12893:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkv-cm-makith-slow-speech"
+      ],
+      "note": "Covers the figurative use for slow speech."
+    },
+    {
+      "unit_id": "lane-unit:mkv:12893:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkv-ap-s1"
+      ],
+      "note": "Covers the active-participle sense of remaining or abiding."
+    },
+    {
+      "unit_id": "lane-unit:mkv:12894:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkv-cm-mutamakith-loitering"
+      ],
+      "note": "Covers proceeding or journeying while loitering."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

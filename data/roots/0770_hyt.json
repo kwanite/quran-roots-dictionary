@@ -1,0 +1,174 @@
+{
+  "root": "hyt",
+  "arabic": "هيت",
+  "root_idea": {
+    "summary": "The root centers on a voiced cry or call, especially a call used to summon someone.",
+    "development": "The primary notion of crying out develops into calling or summoning, including the Quranic imperative expression هَيْتَ لَكَ meaning “Come!” and related formations denoting repeated or clamorous calling.",
+    "source_refs": [
+      "maqayis:row:4976"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hyt:hayota:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hyt_hayta",
+      "reason": "Displayed under the normalized Quranic expression هَيْتَ, whose lexical identity is supported directly by the supplied Quran-focused and Classical evidence."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_hyt_hayta",
+      "form_group_ids": [
+        "qac-form:hyt:hayota:verb:I"
+      ],
+      "headword_arabic": "هَيْتَ",
+      "public_pos_label": "Verb · Form I (imperative expression)",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_hyt_hayta_s1",
+          "definition": "A call meaning “Come!”, “come forward!”, “hasten!”, or “set forth.”",
+          "usage_conditions": "An invariable imperative expression, commonly followed by لَكَ or another pronoun marking the addressee; the expression itself does not vary for gender or number. It occurs in the Quran as هَيْتَ لَكَ.",
+          "source_refs": [
+            "lane:entry:10802",
+            "mufradat:row:1541"
+          ]
+        },
+        {
+          "sense_id": "qform_hyt_hayta_s2",
+          "definition": "In هَيْتَ لَكَ, an invitation meaning “I have made myself ready for you.”",
+          "usage_conditions": "This is the Quran-specific interpretation of the utterance in 12:23, expressing the speaker’s readiness to the addressee rather than merely issuing a neutral summons.",
+          "source_refs": [
+            "mufradat:row:1541"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:23",
+          "word_location": "12:23:11",
+          "sense_ids": [
+            "qform_hyt_hayta_s1",
+            "qform_hyt_hayta_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_hyt_hayyata_bihi",
+      "headword_arabic": "هَيَّتَ بِهِ",
+      "definition": "To cry out to, call, or hail someone, including a repeated call used by a herdsman to summon a companion from afar.",
+      "usage_conditions": "A Form II verbal construction; the calling expression may be repeated.",
+      "source_refs": [
+        "lane:entry:10800"
+      ]
+    },
+    {
+      "meaning_id": "cm_hyt_hat",
+      "headword_arabic": "هَاتَ",
+      "definition": "Give me; hand or give something to me.",
+      "usage_conditions": "An imperative form whose inflection varies with the addressee in the recorded forms.",
+      "source_refs": [
+        "lane:entry:10801"
+      ]
+    },
+    {
+      "meaning_id": "cm_hyt_hayta_wonder",
+      "headword_arabic": "هَيْتَ",
+      "definition": "An exclamation of wonder or admiration, as in “What forbearing mildness!”",
+      "usage_conditions": "An exclamatory use distinct from the summons هَيْتَ لَكَ.",
+      "source_refs": [
+        "lane:entry:10802"
+      ]
+    },
+    {
+      "meaning_id": "cm_hyt_hiyt_ground",
+      "headword_arabic": "هِيتٌ",
+      "definition": "A low or depressed piece of ground; a hollow or depression.",
+      "usage_conditions": "A nominal geographical or topographical usage.",
+      "source_refs": [
+        "lane:entry:10804"
+      ]
+    },
+    {
+      "meaning_id": "cm_hyt_hayyaat",
+      "headword_arabic": "هَيَّاتٌ",
+      "definition": "Clamorous; calling out often or repeatedly.",
+      "usage_conditions": "An intensive descriptive usage associated with frequent calling out.",
+      "source_refs": [
+        "lane:entry:10806"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hyt:10800:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hyt_hayyata_bihi"
+      ],
+      "note": "The Form II calling construction is represented under its Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:hyt:10801:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hyt_hat"
+      ],
+      "note": "The imperative meaning “give me” is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:hyt:10802:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hyt_hayta_wonder"
+      ],
+      "note": "The exclamation of wonder is represented as a distinct Classical use."
+    },
+    {
+      "unit_id": "lane-unit:hyt:10802:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_hyt_hayta_s1",
+        "qform_hyt_hayta_s2"
+      ],
+      "note": "The summons, its movement-related extensions, and its Quranic invitation are represented under the two Quranic senses."
+    },
+    {
+      "unit_id": "lane-unit:hyt:10803:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:hyt:10804:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hyt_hiyt_ground"
+      ],
+      "note": "The topographical noun is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:hyt:10805:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another article without a supplied lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:hyt:10806:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hyt_hayyaat"
+      ],
+      "note": "The intensive descriptive meaning is represented separately."
+    }
+  ],
+  "cautions": [
+    "The Quranic item is variously analyzed in the lexical tradition as an imperative expression or an invariable verbal noun, with variant vocalizations and readings; the public form follows the supplied QAC occurrence هَيْتَ. "
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

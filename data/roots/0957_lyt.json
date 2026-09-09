@@ -1,0 +1,253 @@
+{
+  "root": "lyt",
+  "arabic": "ليت",
+  "root_idea": {
+    "summary": "The lexical evidence presents ليت as several distinct branches: diminution or deprivation, turning or diverting, the particle of wishing, and a separate anatomical noun for the side of the neck.",
+    "development": "The verbal diminution branch is explained as related to 'returning the side of the neck,' while the lexical sources distinguish the anatomical noun from the branches meaning نقص and صرف. The wish particle is treated as a separate lexical item rather than as a direct development of the verb.",
+    "source_refs": [
+      "maqayis:row:4261",
+      "mufradat:row:1335"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lyt:yalito:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:lyt:lat",
+      "reason": "The QAC imperfect identity is normalized to the Classical Arabic perfect citation form لَاتَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:lyt:lat",
+      "form_group_ids": [
+        "qac-form:lyt:yalito:verb:I"
+      ],
+      "headword_arabic": "لَاتَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "lyt-q1-s1",
+          "definition": "To diminish or deprive someone of something due to them.",
+          "usage_conditions": "In the Quranic occurrence, the verb appears negatively in the construction لَا يَلِتْكُمْ مِنْ أَعْمَالِكُمْ شَيْئًا, meaning that none of the value or reward of one's works is diminished or withheld.",
+          "source_refs": [
+            "lane:entry:10042",
+            "mufradat:row:1335"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "49:14",
+          "word_location": "49:14:20",
+          "sense_ids": [
+            "lyt-q1-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "lyt-c1",
+      "headword_arabic": "لَاتَ",
+      "definition": "To withhold, restrain, hinder, or turn someone or something away from a course, purpose, or object.",
+      "usage_conditions": "Used transitively, including with عَنْ for the course or object from which someone is turned; related uses include putting aside a thought or matter.",
+      "source_refs": [
+        "lane:entry:10042",
+        "mufradat:row:1335"
+      ]
+    },
+    {
+      "meaning_id": "lyt-c2",
+      "headword_arabic": "لَاتَ",
+      "definition": "To conceal or obscure known information, or to communicate something different from what is known.",
+      "usage_conditions": "A specialized reported use concerning the obscuring, disguising, or misrepresentation of information.",
+      "source_refs": [
+        "lane:entry:10042"
+      ]
+    },
+    {
+      "meaning_id": "lyt-c3",
+      "headword_arabic": "لَاتَ",
+      "definition": "A negative particle used with a time expression to say that it is not the time for an action or opportunity.",
+      "usage_conditions": "Especially used with حِينَ or another word denoting time, as in the Quranic expression وَلَاتَ حِينَ مَنَاصٍ; grammatical analyses of its construction vary.",
+      "source_refs": [
+        "lane:entry:10042"
+      ]
+    },
+    {
+      "meaning_id": "lyt-c4",
+      "headword_arabic": "لَا يُلَاتُ",
+      "definition": "In a conventional expression, to be unaffected by what anyone says or not subject to another's influence.",
+      "usage_conditions": "Occurs in the saying الحَمْدُ لِلّٰهِ الَّذِي لَا يُفَاتُ وَلَا يُلَاتُ; one interpretation connects it with diminution, while another explains it as being beyond the power of anyone's words or commands.",
+      "source_refs": [
+        "lane:entry:10042"
+      ]
+    },
+    {
+      "meaning_id": "lyt-c5",
+      "headword_arabic": "لَيْتَ",
+      "definition": "A particle expressing a wish or longing: “would that” or “I wish that.”",
+      "usage_conditions": "Generally used for an impossible or unattainable matter, though it may also concern something possible. It can take attached pronouns and occurs in Quranic wish constructions such as لَيْتَنِي.",
+      "source_refs": [
+        "lane:entry:10044",
+        "mufradat:row:1335"
+      ]
+    },
+    {
+      "meaning_id": "lyt-c6",
+      "headword_arabic": "لِيتٌ",
+      "definition": "The side of the neck, especially the lower area beneath the ear and behind the jaw.",
+      "usage_conditions": "The two sides are called لِيتَانِ; the term may also refer to the places beneath the earrings or the sites where a cupping instrument is applied. A plural form is أَلْيَاتٌ.",
+      "source_refs": [
+        "lane:entry:10045"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lyt-c1"
+      ],
+      "note": "Withholding, restraining, and turning away are represented under the diverting branch."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lyt-c1"
+      ],
+      "note": "Alternative explanations of the same hindering or averting use."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lyt-q1-s1"
+      ],
+      "note": "Quran-attested diminution of a person's due."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lyt-q1-s1"
+      ],
+      "note": "The same diminution branch is explicitly applied to a Quranic construction."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lyt-c1"
+      ],
+      "note": "Putting aside or diverting a thought is covered by the broader turning-aside branch."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lyt-q1-s1",
+        "lyt-c4"
+      ],
+      "note": "Contains both the diminution interpretation and the distinct interpretation of being unaffected by speech."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lyt-c2"
+      ],
+      "note": "Concealing known information and giving a different account."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub8",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lyt-c2"
+      ],
+      "note": "Obscuring or concealing information is covered by the same concealment branch."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lyt-c3"
+      ],
+      "note": "The particle use in a time-negation expression."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub10",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Etymological, orthographic, and reading analyses of the particle; no additional lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub11",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Discussion of grammatical government only."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10042:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lyt-c3"
+      ],
+      "note": "Further evidence for the particle's time-expression construction and its possible ellipsis."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10043:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10044:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lyt-c5"
+      ],
+      "note": "Definition and usage of the wish particle."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10044:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical reference only."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10044:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an illustrative entry, with no additional lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10045:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lyt-c6"
+      ],
+      "note": "Anatomical meaning of the side of the neck."
+    },
+    {
+      "unit_id": "lane-unit:lyt:10045:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lyt-c6"
+      ],
+      "note": "Illustrative idiom based on the anatomical meaning."
+    }
+  ],
+  "cautions": [
+    "The QAC inventory supplied here contains one Form I verb occurrence. The wish particle لَيْتَ, the negative particle لَاتَ, and the anatomical noun لِيتٌ are therefore presented as distinct lexical items rather than as additional QAC verb forms.",
+    "The historical citation attached to وَلَاتَ حِينَ مَنَاصٍ is preserved as a Quranic expression without converting Lane's citation notation into an independently asserted modern verse location.",
+    "The particle لَاتَ has competing etymological and grammatical analyses; its shared lexical function is presented without selecting among those analyses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

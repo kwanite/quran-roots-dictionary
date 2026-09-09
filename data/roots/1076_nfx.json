@@ -1,0 +1,808 @@
+{
+  "root": "nfx",
+  "arabic": "نفخ",
+  "root_idea": {
+    "summary": "The root centers on expelling air and the resulting inflation or swelling, with extensions to elevation, vigor, and figurative pride.",
+    "development": "The evidence connects blowing with physical inflation and swelling, then extends the imagery to elevated daylight, fertile spring growth, fatness, arrogance, and related bodily or environmental states.",
+    "source_refs": [
+      "maqayis:row:4704",
+      "mufradat:row:1465",
+      "lane:entry:44129"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nfx:nafaxa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfx_verb_I",
+      "reason": "The Quran-attested Form I verb has distinct lexical uses for blowing air and breathing spirit into creation."
+    },
+    {
+      "form_group_id": "qac-form:nfx:nafoxap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfx_noun_nafkhah",
+      "reason": "The Quran-attested feminine noun is a distinct lexical item meaning a blast, specifically the eschatological trumpet blast."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nfx_verb_I",
+      "form_group_ids": [
+        "qac-form:nfx:nafaxa:verb:I"
+      ],
+      "headword_arabic": "نَفَخَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 19,
+      "senses": [
+        {
+          "sense_id": "nfx_v_s1",
+          "definition": "To blow air or wind into or onto something; in trumpet contexts, to produce the blast by blowing into the instrument.",
+          "usage_conditions": "Used for active blowing and passive being blown. Quranic constructions include blowing into a trumpet and blowing upon an object such as the heated iron in 18:96.",
+          "source_refs": [
+            "lane:entry:44129",
+            "mufradat:row:1465"
+          ]
+        },
+        {
+          "sense_id": "nfx_v_s2",
+          "definition": "To breathe spirit into a created being.",
+          "usage_conditions": "A specialized construction with the spirit as what is breathed into the created being; the Quran applies it to the first creation and to the creation of Jesus.",
+          "source_refs": [
+            "mufradat:row:1465"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:96",
+          "word_location": "18:96:10",
+          "sense_ids": [
+            "nfx_v_s1"
+          ]
+        },
+        {
+          "verse_key": "20:102",
+          "word_location": "20:102:2",
+          "sense_ids": [
+            "nfx_v_s1"
+          ]
+        },
+        {
+          "verse_key": "15:29",
+          "word_location": "15:29:3",
+          "sense_ids": [
+            "nfx_v_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nfx_noun_nafkhah",
+      "form_group_ids": [
+        "qac-form:nfx:nafoxap:nominal:-"
+      ],
+      "headword_arabic": "نَفْخَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nfx_nfkh_s1",
+          "definition": "A blast, specifically the blast of the resurrection trumpet.",
+          "usage_conditions": "In the Quranic occurrence, the noun denotes the eschatological trumpet blast rather than bodily inflation or an ordinary breath.",
+          "source_refs": [
+            "lane:entry:44135"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "69:13",
+          "word_location": "69:13:5",
+          "sense_ids": [
+            "nfx_nfkh_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_nfx_devil",
+      "headword_arabic": "نَفَخَ الشَّيْطَانُ فِي أَنْفِهِ",
+      "definition": "To incite someone to aspire to what is not his due.",
+      "usage_conditions": "An idiomatic, figurative expression describing the devil's blowing into a person's nose.",
+      "source_refs": [
+        "lane:entry:44129"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_pride",
+      "headword_arabic": "نَفَخَ شِدْقَيْهِ",
+      "definition": "To puff out the sides of the mouth in pride; to act arrogantly.",
+      "usage_conditions": "A figurative use of bodily inflation for affected pride.",
+      "source_refs": [
+        "lane:entry:44129"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_food",
+      "headword_arabic": "نَفَخَهُ",
+      "definition": "To cause someone or something to become inflated or filled by food.",
+      "usage_conditions": "A transitive use describing the effect of food on the body.",
+      "source_refs": [
+        "lane:entry:44129"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nafikh_swelling",
+      "headword_arabic": "نَفِخَ",
+      "definition": "To have wind-swollen testicles, or to have pasterns swollen with wind.",
+      "usage_conditions": "Applied to a man or horse for swollen testicles and to a beast of carriage for wind-swollen pasterns.",
+      "source_refs": [
+        "lane:entry:44129"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_flatulence_verb",
+      "headword_arabic": "نَفَخَ",
+      "definition": "To emit intestinal gas or flatulence.",
+      "usage_conditions": "A bodily use describing the emission of abdominal wind.",
+      "source_refs": [
+        "lane:entry:44129"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_wind_sudden",
+      "headword_arabic": "نَفَخَتِ الرِّيحُ",
+      "definition": "For the wind to arrive suddenly.",
+      "usage_conditions": "An intransitive use applied to the sudden onset of wind.",
+      "source_refs": [
+        "lane:entry:44129"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_road_sudden",
+      "headword_arabic": "نَفَخَتْ بِهِمُ الطَّرِيقُ",
+      "definition": "For a road to cast or bring travelers suddenly to a place.",
+      "usage_conditions": "A figurative extension from the wind's sudden movement.",
+      "source_refs": [
+        "lane:entry:44129"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_day_advanced",
+      "headword_arabic": "نَفَخَتِ الضُّحَى",
+      "definition": "For the morning or day to advance, with the sun becoming high.",
+      "usage_conditions": "The expression refers to the later morning, approximately an hour before noon.",
+      "source_refs": [
+        "lane:entry:44129"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_intafakh_swollen",
+      "headword_arabic": "اِنْتَفَخَ",
+      "definition": "To become inflated, puffy, or swollen; to become filled by food.",
+      "usage_conditions": "The intransitive Form VIII counterpart of bodily or object inflation, including swelling from food.",
+      "source_refs": [
+        "lane:entry:44132"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_intafakh_moon",
+      "headword_arabic": "اِنْتِفَاخُ الأَهِلَّةِ",
+      "definition": "The swelling or growing large of the new moons.",
+      "usage_conditions": "A conventional expression used in an account of last-day signs.",
+      "source_refs": [
+        "lane:entry:44132"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_intafakh_anger",
+      "headword_arabic": "اِنْتَفَخَ عَلَيْهِ",
+      "definition": "To become puffed up against someone; to grow angry or behave angrily toward him.",
+      "usage_conditions": "A figurative Form VIII construction with عَلَى or لِ describing anger.",
+      "source_refs": [
+        "lane:entry:44132"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_noun_flatulence",
+      "headword_arabic": "نَفْخٌ",
+      "definition": "Flatulence.",
+      "usage_conditions": "The verbal noun used as a bodily noun.",
+      "source_refs": [
+        "lane:entry:44133"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_noun_pride",
+      "headword_arabic": "نَفْخٌ",
+      "definition": "Boastfulness, arrogance, or pride.",
+      "usage_conditions": "A figurative extension expressed also in the phrase ذُو نَفْخٍ, a person inflated with pride.",
+      "source_refs": [
+        "lane:entry:44133"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nufukh_youth",
+      "headword_arabic": "نُفُخٌ",
+      "definition": "A youthful, full-bodied young person; specifically a young man, and without the feminine suffix, a damsel.",
+      "usage_conditions": "An archaic descriptive noun emphasizing youthful fullness or vigor.",
+      "source_refs": [
+        "lane:entry:44134"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nufkha_body",
+      "headword_arabic": "نَفْخَةٌ",
+      "definition": "An inflation of the belly or body, including a flatulent humor.",
+      "usage_conditions": "A bodily swelling or distension caused by food or another humor.",
+      "source_refs": [
+        "lane:entry:44135"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nufkha_odor",
+      "headword_arabic": "نَفْخَةٌ",
+      "definition": "A slight odor.",
+      "usage_conditions": "Distinguished from نَفْحَةٌ, which denotes a more plentiful odor.",
+      "source_refs": [
+        "lane:entry:44135"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nufkha_youthspring",
+      "headword_arabic": "نَفْخَةُ الشَّبَابِ / نَفْخَةُ الرَّبِيعِ",
+      "definition": "The prime or productive surge of youth or spring.",
+      "usage_conditions": "In the youth expression it is the chief part of youth; in the spring expression it is the phase when vegetation is produced or has reached its seasonal fullness.",
+      "source_refs": [
+        "lane:entry:44135"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nufkha_horse",
+      "headword_arabic": "نُفْخَةٌ",
+      "definition": "A disease causing a horse's testicles to swell.",
+      "usage_conditions": "A veterinary use distinct from ordinary bodily inflation.",
+      "source_refs": [
+        "lane:entry:44135"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nafkh_land",
+      "headword_arabic": "نَفْخَاءُ",
+      "definition": "Elevated, soft, fertile, or tumid ground.",
+      "usage_conditions": "Applied to land with elevation and productive soil, including earth that breaks into pieces when trodden upon.",
+      "source_refs": [
+        "lane:entry:44136"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nafkh_shank",
+      "headword_arabic": "نَفْخَاءُ",
+      "definition": "The upper part of the shank or tibia.",
+      "usage_conditions": "An anatomical noun.",
+      "source_refs": [
+        "lane:entry:44136"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nafikh_fireblower",
+      "headword_arabic": "نَفِيخٌ",
+      "definition": "One employed to blow a fire.",
+      "usage_conditions": "An agent noun for a person tending a fire by blowing it.",
+      "source_refs": [
+        "lane:entry:44137"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nuffakh_humour",
+      "headword_arabic": "نُفَّاخٌ",
+      "definition": "A disease-caused inflation or humor arising in any part of the body.",
+      "usage_conditions": "A pathological bodily swelling or the humor producing it.",
+      "source_refs": [
+        "lane:entry:44138"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nuffakha_water",
+      "headword_arabic": "نُفَّاخَةٌ",
+      "definition": "A bubble upon water.",
+      "usage_conditions": "A small inflated body formed on the surface of water.",
+      "source_refs": [
+        "lane:entry:44139"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nuffakha_fish",
+      "headword_arabic": "نُفَّاخَةٌ",
+      "definition": "The air bladder of a fish.",
+      "usage_conditions": "The inflated internal structure said to help the fish rise and move in the water.",
+      "source_refs": [
+        "lane:entry:44139"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_nuffakha_plant",
+      "headword_arabic": "نُفَّاخَةٌ",
+      "definition": "A bladder or inflated cell of a plant.",
+      "usage_conditions": "Applied to a plant bladder and, in anatomical terminology, to a cell.",
+      "source_refs": [
+        "lane:entry:44139"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_naafikh_empty",
+      "headword_arabic": "مَا بِالدَّارِ نَافِخُ ضَرَمَةٍ",
+      "definition": "No one is in the house.",
+      "usage_conditions": "An idiom literally referring to there being no blower of a fire in the dwelling.",
+      "source_refs": [
+        "lane:entry:44140"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_naafikh_mischief",
+      "headword_arabic": "نَافِخٌ حِضْنَيْهِ",
+      "definition": "A man puffed up and ready to cause mischief or harm.",
+      "usage_conditions": "An idiomatic description of someone inflating his sides in readiness for hostile action.",
+      "source_refs": [
+        "lane:entry:44140"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_anfakh_swelling",
+      "headword_arabic": "أَنْفَخُ",
+      "definition": "Having wind-swollen testicles, or having pasterns swollen with wind.",
+      "usage_conditions": "Applied to a man or horse for swollen testicles and to a beast of carriage for affected pasterns.",
+      "source_refs": [
+        "lane:entry:44141"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_unfukhan_fat",
+      "headword_arabic": "أُنْفُخَانٌ",
+      "definition": "A man full of flaccid fat or corpulent flesh.",
+      "usage_conditions": "A descriptive noun or adjective for fatness characterized as inflation.",
+      "source_refs": [
+        "lane:entry:44142"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_minfaakh_bellows",
+      "headword_arabic": "مِنْفَاخٌ",
+      "definition": "An instrument for blowing a fire or other object, especially a blacksmith's bellows.",
+      "usage_conditions": "The instrument into which one blows or with which a fire is blown.",
+      "source_refs": [
+        "lane:entry:44144"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_minfaakh_pipe",
+      "headword_arabic": "مِنْفَاخُ الرَّاعِي",
+      "definition": "A shepherd's reed pipe used to call camels together.",
+      "usage_conditions": "A specialized blowing instrument, distinct from a blacksmith's bellows.",
+      "source_refs": [
+        "lane:entry:44144"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_manafikh_suggestions",
+      "headword_arabic": "مَنَافِخُ الشَّيْطَانِ",
+      "definition": "The suggestions or promptings of the devil.",
+      "usage_conditions": "A figurative plural expression based on the devil's blowing or inflation.",
+      "source_refs": [
+        "lane:entry:44145"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_manfukh_bodyfat",
+      "headword_arabic": "مَنْفُوخٌ",
+      "definition": "Big-bellied or fat.",
+      "usage_conditions": "An epithet for a body inflated or swollen with fat.",
+      "source_refs": [
+        "lane:entry:44146"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_manfukh_coward",
+      "headword_arabic": "مَنْفُوخٌ",
+      "definition": "A coward.",
+      "usage_conditions": "A figurative use explained through the image of one swelling out his lungs.",
+      "source_refs": [
+        "lane:entry:44146"
+      ]
+    },
+    {
+      "meaning_id": "cm_nfx_muntafikh_pride",
+      "headword_arabic": "مُنْتَفِخٌ",
+      "definition": "Puffed up or inflated with pride or anger.",
+      "usage_conditions": "A figurative Form VIII participle describing an emotionally inflated person.",
+      "source_refs": [
+        "lane:entry:44147"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nfx:44129:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfx_v_s1"
+      ],
+      "note": "Physical blowing and its object constructions are covered by the Quranic blowing sense."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44129:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_devil"
+      ],
+      "note": "Figurative idiom of inciting excessive aspiration."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44129:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_pride"
+      ],
+      "note": "Puffing the cheeks as affected pride."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44129:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_food"
+      ],
+      "note": "Food causing inflation or fullness."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44129:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nafikh_swelling"
+      ],
+      "note": "Wind-swollen testicles."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44129:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nfx_nafikh_swelling"
+      ],
+      "note": "The same pathological inflation applied to an animal's pasterns."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44129:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_flatulence_verb"
+      ],
+      "note": "Flatulence."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44129:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_wind_sudden"
+      ],
+      "note": "The wind's sudden arrival."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44129:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_road_sudden"
+      ],
+      "note": "Road as a figurative agent bringing travelers suddenly."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44129:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_day_advanced"
+      ],
+      "note": "Morning or day becoming advanced."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44130:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to Form I."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44131:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to Form VIII."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44132:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_intafakh_swollen"
+      ],
+      "note": "Form VIII inflation and swelling."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44132:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nfx_intafakh_swollen"
+      ],
+      "note": "Food-related inflation under the broader Form VIII swelling meaning."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44132:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_intafakh_moon"
+      ],
+      "note": "Swelling of the new moons."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44132:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_intafakh_anger"
+      ],
+      "note": "Figurative anger construction."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44133:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_noun_flatulence"
+      ],
+      "note": "Nominal flatulence meaning."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44133:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_noun_pride"
+      ],
+      "note": "Figurative boastfulness and pride."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44133:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nfx_noun_pride"
+      ],
+      "note": "The proud person described with ذُو نَفْخٍ."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44134:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nufukh_youth"
+      ],
+      "note": "Youthful fullness or vigor."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44135:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nufkha_body"
+      ],
+      "note": "Bodily inflation."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44135:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nfx_nufkha_body"
+      ],
+      "note": "Flatulent humor as a cause of bodily inflation."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44135:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfx_nfkh_s1"
+      ],
+      "note": "Blast of the resurrection horn, matching the Quranic noun."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44135:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nufkha_odor"
+      ],
+      "note": "Slight odor."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44135:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nufkha_youthspring"
+      ],
+      "note": "Prime of youth and productive phase of spring."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44135:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nufkha_horse"
+      ],
+      "note": "Disease of a horse causing swollen testicles."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44135:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نُفَّاخٌ."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44136:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nafkh_land"
+      ],
+      "note": "Elevated, soft, fertile, or tumid ground."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44136:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nafkh_shank"
+      ],
+      "note": "Upper part of the shank bone."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44137:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nafikh_fireblower"
+      ],
+      "note": "Person employed to blow a fire."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44138:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nuffakh_humour"
+      ],
+      "note": "Disease-caused inflation or humor."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44138:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نُفَّاخَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44139:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nuffakha_water"
+      ],
+      "note": "Bubble upon water."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44139:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nuffakha_fish"
+      ],
+      "note": "Fish air bladder."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44139:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_nuffakha_plant"
+      ],
+      "note": "Plant bladder or anatomical cell."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44140:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_naafikh_empty"
+      ],
+      "note": "Idiomatic expression meaning that no one is present."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44140:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_naafikh_mischief"
+      ],
+      "note": "Puffed-up person ready for mischief."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44141:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_anfakh_swelling"
+      ],
+      "note": "Adjectival pathological swelling."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44141:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nfx_anfakh_swelling"
+      ],
+      "note": "The same adjective applied to wind-swollen pasterns."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44142:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_unfukhan_fat"
+      ],
+      "note": "Fatness characterized as inflation."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44143:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to the following instrument entry."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44144:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_minfaakh_bellows"
+      ],
+      "note": "Blowing instrument or bellows."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44144:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_minfaakh_pipe"
+      ],
+      "note": "Shepherd's reed pipe."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44145:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_manafikh_suggestions"
+      ],
+      "note": "Figurative suggestions of the devil."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44146:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_manfukh_bodyfat"
+      ],
+      "note": "Big-bellied description."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44146:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nfx_manfukh_bodyfat"
+      ],
+      "note": "Fatness as bodily inflation."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44146:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_manfukh_coward"
+      ],
+      "note": "Figurative coward meaning."
+    },
+    {
+      "unit_id": "lane-unit:nfx:44147:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nfx_muntafikh_pride"
+      ],
+      "note": "Puffed up with pride or anger."
+    }
+  ],
+  "cautions": [
+    "The Form I verb has two Quran-attested branches that should not be collapsed: blowing air into or onto an object, and breathing spirit into a created being.",
+    "Lane's historical Quran citation notation in the physical-blowing entry has not been converted into a modern verse location; modern examples use only independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

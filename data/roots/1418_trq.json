@@ -1,0 +1,159 @@
+{
+  "root": "trq",
+  "arabic": "ترق",
+  "root_idea": {
+    "summary": "The clearest semantic center of the root is تَرْقُوَة, the collar-bone connecting the throat notch with the shoulder.",
+    "development": "The Quran uses the plural تَرَاقِي for the uppermost chest or collar-bone region in a death scene. Classical evidence also records a derived construction meaning to strike or injure the collarbone, alongside the separately attested medicinal noun تِرْيَاق.",
+    "source_refs": [
+      "maqayis:row:928",
+      "mufradat:row:182",
+      "lane:entry:16641",
+      "lane:entry:16642",
+      "lane:entry:16643"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:trq:t~araAqiY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_trq_tarqwa",
+      "reason": "The Quranic plural is presented under the supported singular dictionary citation form تَرْقُوَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_trq_tarqwa",
+      "form_group_ids": [
+        "qac-form:trq:t~araAqiY:nominal:-"
+      ],
+      "headword_arabic": "تَرْقُوَة",
+      "public_pos_label": "Noun · Quranic plural تَرَاقِي",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_trq_collarbones",
+          "definition": "The collar-bones: the uppermost bones of the chest connecting the throat notch with the shoulders.",
+          "usage_conditions": "The Quranic plural تَرَاقِي occurs in the expression إِذَا بَلَغَتِ التَّرَاقِيَ, describing the soul reaching the upper chest at the point of death. The verse is also interpreted as referring to the adjoining upper throat region.",
+          "source_refs": [
+            "lane:entry:16642",
+            "mufradat:row:182"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "75:26",
+          "word_location": "75:26:4",
+          "sense_ids": [
+            "qsen_trq_collarbones"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_trq_tarqa_strike",
+      "headword_arabic": "تَرْقَاة",
+      "definition": "The act of striking or injuring a person's collarbone.",
+      "usage_conditions": "A derived transitive construction meaning to hit or hurt the collarbone; the cited verbal form takes the affected person as its object.",
+      "source_refs": [
+        "lane:entry:16641"
+      ]
+    },
+    {
+      "meaning_id": "cm_trq_tiryaq_antidote",
+      "headword_arabic": "تِرْيَاق",
+      "definition": "Theriac: a compound medicinal preparation used as an antidote to poisons and venomous bites or stings.",
+      "usage_conditions": "A technical medicinal term for a multi-ingredient preparation, sometimes described as containing many ingredients or viper flesh.",
+      "source_refs": [
+        "lane:entry:16643"
+      ]
+    },
+    {
+      "meaning_id": "cm_trq_tiryaq_syrup",
+      "headword_arabic": "تِرْيَاق",
+      "definition": "Treacle, specifically the syrup that drains from sugar.",
+      "usage_conditions": "A secondary application of the medicinal term.",
+      "source_refs": [
+        "lane:entry:16643"
+      ]
+    },
+    {
+      "meaning_id": "cm_trq_tiryaq_bezoar",
+      "headword_arabic": "تِرْيَاق",
+      "definition": "A bezoar-stone, also called مَسُوسٌ.",
+      "usage_conditions": "A separate material application of the term in the classical lexical record.",
+      "source_refs": [
+        "lane:entry:16643"
+      ]
+    },
+    {
+      "meaning_id": "cm_trq_tiryaq_wine",
+      "headword_arabic": "تِرْيَاق",
+      "definition": "Wine, regarded figuratively as a remedy for anxiety.",
+      "usage_conditions": "An extended or figurative use explained by its supposed ability to dispel or remedy anxieties.",
+      "source_refs": [
+        "lane:entry:16643"
+      ]
+    },
+    {
+      "meaning_id": "cm_trq_tiryaqi_zanthium",
+      "headword_arabic": "تِرْيَاقِيّ",
+      "definition": "In the plant name بَاذِنْجَان تِرْيَاقِيّ, a designation for Zanthium.",
+      "usage_conditions": "A derived adjective preserved in a botanical compound rather than a separate meaning of the anatomical noun.",
+      "source_refs": [
+        "lane:entry:16643"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:trq:16641:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_trq_tarqa_strike"
+      ],
+      "note": "Derived construction for striking or injuring the collarbone."
+    },
+    {
+      "unit_id": "lane-unit:trq:16642:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_trq_collarbones"
+      ],
+      "note": "Anatomical noun, plural forms, and its Quranic interpretation."
+    },
+    {
+      "unit_id": "lane-unit:trq:16643:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_trq_tiryaq_antidote"
+      ],
+      "note": "Theriac as an antidotal compound medicine."
+    },
+    {
+      "unit_id": "lane-unit:trq:16643:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_trq_tiryaq_syrup",
+        "cm_trq_tiryaq_bezoar"
+      ],
+      "note": "Applications to sugar syrup and bezoar-stone."
+    },
+    {
+      "unit_id": "lane-unit:trq:16643:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_trq_tiryaq_wine",
+        "cm_trq_tiryaqi_zanthium"
+      ],
+      "note": "Figurative application to wine and the recorded botanical derivative."
+    }
+  ],
+  "cautions": [
+    "The Quranic تَرَاقِي is identified by the lexical evidence as the plural of تَرْقُوَة; the QAC derived-nominal metadata labels the occurrence VERBAL_NOUN, but the public classification follows the explicit anatomical lexical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

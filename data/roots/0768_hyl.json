@@ -1,0 +1,132 @@
+{
+  "root": "hyl",
+  "arabic": "هيل",
+  "root_idea": {
+    "summary": "The root centers on releasing or pouring out something measurable without using a measure, especially so that loose material spreads or falls.",
+    "development": "The semantic development extends from unmeasured pouring to sand or similar material cascading and losing its stability; an idiomatic expression also uses the root for a great quantity.",
+    "source_refs": [
+      "maqayis:row:4987"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hyl:m~ahiyl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:hyl:mahil",
+      "reason": "Displayed under the normalized passive-participial citation form مَهِيلٌ rather than the assimilated Quranic surface form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:hyl:mahil",
+      "form_group_ids": [
+        "qac-form:hyl:m~ahiyl:nominal:-"
+      ],
+      "headword_arabic": "مَهِيلٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q:hyl:mahil:1",
+          "definition": "Made to pour or fall down; of a sand heap, collapsing and cascading into loose sand.",
+          "usage_conditions": "Quranic use in the collocation كَثِيبًا مَهِيلًا, describing the mountains as a loose heap of sand that pours or falls down.",
+          "source_refs": [
+            "lane:entry:17215",
+            "lane:entry:17218",
+            "maqayis:row:4987"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "73:14",
+          "word_location": "73:14:8",
+          "sense_ids": [
+            "q:hyl:mahil:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:hyl:inhala:pour",
+      "headword_arabic": "اِنْهَالَ",
+      "definition": "To pour down or come cascading down, especially of sand and similar loose material.",
+      "usage_conditions": "Intransitive derived verb usage for material falling or pouring downward.",
+      "source_refs": [
+        "lane:entry:17215"
+      ]
+    },
+    {
+      "meaning_id": "cm:hyl:inhala:collapse",
+      "headword_arabic": "اِنْهَالَ",
+      "definition": "To collapse, crumble, or fall into ruins.",
+      "usage_conditions": "Used of a wall or other structure that breaks down into ruins.",
+      "source_refs": [
+        "lane:entry:17215"
+      ]
+    },
+    {
+      "meaning_id": "cm:hyl:hayl:sand",
+      "headword_arabic": "هَيْلٌ",
+      "definition": "Sand that does not remain steady in its place but falls down.",
+      "usage_conditions": "A noun referring to unstable, falling sand.",
+      "source_refs": [
+        "lane:entry:17216"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hyl:17215:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:hyl:inhala:pour"
+      ],
+      "note": "The unit states the pouring-down meaning of the derived verb."
+    },
+    {
+      "unit_id": "lane-unit:hyl:17215:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:hyl:inhala:collapse"
+      ],
+      "note": "The unit states the collapsing or crumbling construction."
+    },
+    {
+      "unit_id": "lane-unit:hyl:17216:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional and pointer-only note; the referenced entry is not supplied."
+    },
+    {
+      "unit_id": "lane-unit:hyl:17216:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:hyl:hayl:sand"
+      ],
+      "note": "The unit gives an independent noun meaning for unstable falling sand."
+    },
+    {
+      "unit_id": "lane-unit:hyl:17217:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial correction and pointer-only note, without a supplied lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:hyl:17218:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to كَثِيبٌ; no further definition is supplied in the packet."
+    }
+  ],
+  "cautions": [
+    "The public headword is normalized to مَهِيلٌ; the Quranic surface form مَّهِيلًا reflects contextual assimilation and inflection.",
+    "The supplied entry for مَهِيلٌ points to كَثِيبٌ, but the target entry is not included; the Quranic definition is therefore kept to the sand-pouring or falling meaning independently supported in the packet."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Lane cross-references from هَيْلٌ, هَيُولُى, and مَهِيلٌ to حَثَا, مَادَّةٌ, and كَثِيبٌ respectively are not accompanied by their target entries, so no additional meanings are inferred from them."
+  ]
+}

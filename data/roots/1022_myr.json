@@ -1,0 +1,143 @@
+{
+  "root": "myr",
+  "arabic": "مير",
+  "root_idea": {
+    "summary": "The root centers on obtaining and conveying food or provisions for a place, household, or person.",
+    "development": "The provision itself is termed مِيرَةٌ, while related forms denote bringing or procuring it and the person who performs that work.",
+    "source_refs": [
+      "maqayis:row:4495",
+      "mufradat:row:1399",
+      "lane:entry:13196",
+      "lane:entry:13198"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:myr:namiyru:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:myr:mara",
+      "reason": "Quran-attested Form I verb, normalized from the inflected QAC lemma نَمِيرُ to the classical citation form مَارَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:myr:mara",
+      "form_group_ids": [
+        "qac-form:myr:namiyru:verb:I"
+      ],
+      "headword_arabic": "مَارَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:myr:mara:provision",
+          "definition": "To bring, convey, or procure food or provisions for oneself or one's household.",
+          "usage_conditions": "In the Quranic occurrence, the verb is used in the first-person plural imperfect construction “we will procure provisions for our family”; the action may involve bringing, conveying, or supplying the food.",
+          "source_refs": [
+            "lane:entry:13192",
+            "mufradat:row:1399"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:65",
+          "word_location": "12:65:16",
+          "sense_ids": [
+            "sense:myr:mara:provision"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:myr:mira:food",
+      "headword_arabic": "مِيرَةٌ",
+      "definition": "Food or provisions that one brings or procures, including wheat, other grain, and food generally.",
+      "usage_conditions": "The provisions may be brought for storage, for one's household, or for sale.",
+      "source_refs": [
+        "lane:entry:13196"
+      ]
+    },
+    {
+      "meaning_id": "meaning:myr:mira:provisioning",
+      "headword_arabic": "مِيرَةٌ",
+      "definition": "The bringing, conveying, or purveyance of food or provisions from another place.",
+      "usage_conditions": "This denotes the provisioning activity undertaken for oneself or one's household, or the purveyance of provisions for sale; traditional usage also recognizes named seasonal provisioning supplies.",
+      "source_refs": [
+        "lane:entry:13196"
+      ]
+    },
+    {
+      "meaning_id": "meaning:myr:mair:agent",
+      "headword_arabic": "مَائِرٌ",
+      "definition": "A person who brings, conveys, or procures provisions.",
+      "usage_conditions": "The plural may refer to a company of provision-bringers traveling from the desert to towns or villages to obtain provisions; مَيَّارٌ is a related cross-referenced form.",
+      "source_refs": [
+        "lane:entry:13198"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:myr:13192:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:myr:mara:provision"
+      ],
+      "note": "The Form I verb's provisioning sense and recipient construction are represented by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:myr:13193:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 13192."
+    },
+    {
+      "unit_id": "lane-unit:myr:13194:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 13192."
+    },
+    {
+      "unit_id": "lane-unit:myr:13195:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مِيرَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:myr:13196:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:myr:mira:food"
+      ],
+      "note": "Defines مِيرَةٌ as brought or procured food and provisions."
+    },
+    {
+      "unit_id": "lane-unit:myr:13196:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:myr:mira:provisioning"
+      ],
+      "note": "Defines مِيرَةٌ as the act of bringing or purveying provisions from another place."
+    },
+    {
+      "unit_id": "lane-unit:myr:13197:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَائِرٌ."
+    },
+    {
+      "unit_id": "lane-unit:myr:13198:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:myr:mair:agent"
+      ],
+      "note": "Defines the agent who brings or procures provisions and the related plural usage."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,180 @@
+{
+  "root": "Abq",
+  "arabic": "أبق",
+  "root_idea": {
+    "summary": "An orientation toward unauthorized flight or withdrawal, associated in the root tradition with constraint and strictness in dealing.",
+    "development": "The lexical field extends from fleeing to hiding, holding oneself back, and abstaining. Derived Form V develops specialized uses for withholding milk and denying or disavowing, while a distinct noun denotes hemp.",
+    "source_refs": [
+      "maqayis:row:11",
+      "lane:entry:5976",
+      "mufradat:row:10"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Abq:>abaqa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-Abq-abqa-I",
+      "reason": "The canonical Quran-attested Form I verb is presented under its normalized Classical Arabic citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-Abq-abqa-I",
+      "form_group_ids": [
+        "qac-form:Abq:>abaqa:verb:I"
+      ],
+      "headword_arabic": "أَبَقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-Abq-abqa-flee",
+          "definition": "To flee or run away, especially in an unauthorized departure.",
+          "usage_conditions": "The Quranic occurrence describes Jonah fleeing toward the laden ship after departing from his people. The same flight sense is classically used for a slave leaving a master without permission and may be extended figuratively to a fish.",
+          "source_refs": [
+            "lane:entry:5976",
+            "mufradat:row:10"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:140",
+          "word_location": "37:140:2",
+          "sense_ids": [
+            "sense-Abq-abqa-flee"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning-Abq-abqa-conceal",
+      "headword_arabic": "أَبَقَ",
+      "definition": "To hide or conceal oneself, sometimes hiding before subsequently going away.",
+      "usage_conditions": "The lexical discussion also gives poetic applications involving not hiding or not going far.",
+      "source_refs": [
+        "lane:entry:5976"
+      ]
+    },
+    {
+      "meaning_id": "meaning-Abq-abqa-restrain",
+      "headword_arabic": "أَبَقَ",
+      "definition": "To restrain, confine, or withhold oneself; to refrain from something, including a sin or crime.",
+      "usage_conditions": "Poetic applications include holding back speech or oneself; variant interpretations include not refraining and not disdaining or scorning.",
+      "source_refs": [
+        "lane:entry:5976"
+      ]
+    },
+    {
+      "meaning_id": "meaning-Abq-taabbaqa-conceal",
+      "headword_arabic": "تَأَبَّقَ",
+      "definition": "To hide oneself by imitating a runaway.",
+      "usage_conditions": "A Form V intransitive use describing a person's concealment.",
+      "source_refs": [
+        "mufradat:row:10"
+      ]
+    },
+    {
+      "meaning_id": "meaning-Abq-taabbaqa-milk",
+      "headword_arabic": "تَأَبَّقَ",
+      "definition": "To withhold milk.",
+      "usage_conditions": "A Form V use attested of a camel withholding her milk.",
+      "source_refs": [
+        "lane:entry:5977"
+      ]
+    },
+    {
+      "meaning_id": "meaning-Abq-taabbaqa-deny",
+      "headword_arabic": "تَأَبَّقَ",
+      "definition": "To deny or disavow something; to refuse to acknowledge an attributed quality or a kinship relation.",
+      "usage_conditions": "A Form V construction may take either an asserted quality or a relationship as the matter being denied.",
+      "source_refs": [
+        "lane:entry:5977"
+      ]
+    },
+    {
+      "meaning_id": "meaning-Abq-aaq-runaway",
+      "headword_arabic": "آبِقٌ (also أَبُوقٌ، أَبَّاقٌ)",
+      "definition": "A runaway or fugitive slave.",
+      "usage_conditions": "آبِقٌ is the active participle of أَبَقَ. أَبَّاقٌ can carry an intensive or frequentative sense, referring to one who runs away often.",
+      "source_refs": [
+        "lane:entry:5980",
+        "lane:entry:5978",
+        "lane:entry:5979",
+        "mufradat:row:10"
+      ]
+    },
+    {
+      "meaning_id": "meaning-Abq-abaq-hemp",
+      "headword_arabic": "أَبَقٌ",
+      "definition": "Hemp, or the bast-fiber plant whose stems are beaten to release the fiber.",
+      "usage_conditions": "This is a distinct nominal use, reported as an identification of the plant mentioned in poetic evidence.",
+      "source_refs": [
+        "maqayis:row:11",
+        "mufradat:row:10"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Abq:5976:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-Abq-abqa-flee",
+        "meaning-Abq-abqa-conceal",
+        "meaning-Abq-abqa-restrain"
+      ],
+      "note": "Flight, concealment, and self-restraint or abstention branches are represented; the fish usage is subsumed under the flight sense."
+    },
+    {
+      "unit_id": "lane-unit:Abq:5977:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the main entry."
+    },
+    {
+      "unit_id": "lane-unit:Abq:5977:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-Abq-taabbaqa-milk"
+      ],
+      "note": "Form V withholding-milk construction represented."
+    },
+    {
+      "unit_id": "lane-unit:Abq:5977:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-Abq-taabbaqa-deny"
+      ],
+      "note": "Form V denial or disavowal construction represented."
+    },
+    {
+      "unit_id": "lane-unit:Abq:5978:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the active participle entry."
+    },
+    {
+      "unit_id": "lane-unit:Abq:5979:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the active participle entry."
+    },
+    {
+      "unit_id": "lane-unit:Abq:5980:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-Abq-aaq-runaway"
+      ],
+      "note": "Active participle meaning and its runaway-slave sense represented."
+    }
+  ],
+  "cautions": [
+    "The hemp identification is explicitly reported as tentative lexical evidence and is therefore kept as a Classical Arabic meaning rather than a Quranic sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

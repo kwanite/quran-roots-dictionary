@@ -1,0 +1,581 @@
+{
+  "root": "jzy",
+  "arabic": "جزي",
+  "root_idea": {
+    "summary": "The root centers on one thing standing in place of another and on a corresponding return or recompense.",
+    "development": "This orientation extends to sufficiency and substitution, repayment and requital, reciprocal compensation, and payments made in lieu of something else.",
+    "source_refs": [
+      "maqayis:row:1151",
+      "mufradat:row:248"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jzy:jazaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jzy-f1",
+      "reason": "The principal Form I Quranic verb, normalized to the Classical Arabic citation form جَزَى."
+    },
+    {
+      "form_group_id": "qac-form:jzy:nuja`ziY^:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jzy-f3",
+      "reason": "A distinct QAC Form III Quranic verb occurring at 34:17, normalized to جَازَى."
+    },
+    {
+      "form_group_id": "qac-form:jzy:jaAz:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jzy-jazin",
+      "reason": "A Quranic active participle, normalized from the inflected form جَازٍ."
+    },
+    {
+      "form_group_id": "qac-form:jzy:jazaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jzy-jazaa",
+      "reason": "A distinct Quranic verbal noun and lexical noun, normalized to جَزَاء."
+    },
+    {
+      "form_group_id": "qac-form:jzy:jizoyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jzy-jizya",
+      "reason": "A distinct Quranic noun, normalized to جِزْيَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "jzy-f1",
+      "form_group_ids": [
+        "qac-form:jzy:jazaY`:verb:I"
+      ],
+      "headword_arabic": "جَزَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 73,
+      "senses": [
+        {
+          "sense_id": "jzy-f1-s1",
+          "definition": "To repay, requite, recompense, or reward someone for an act or thing; in a negative context, to punish or requite with harm.",
+          "usage_conditions": "The Quran uses active and passive forms for bestowing or receiving a corresponding recompense; the resulting recompense may be favorable or unfavorable according to the deed.",
+          "source_refs": [
+            "lane:entry:46751",
+            "mufradat:row:248"
+          ]
+        },
+        {
+          "sense_id": "jzy-f1-s2",
+          "definition": "To suffice, avail, or make satisfaction for someone or something; to serve as a substitute or compensating equivalent.",
+          "usage_conditions": "Especially used with عَنْ to express satisfying or availing on behalf of another; the Quran uses the construction for one person or thing not availing another.",
+          "source_refs": [
+            "lane:entry:46751",
+            "mufradat:row:248"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:48",
+          "word_location": "2:48:4",
+          "sense_ids": [
+            "jzy-f1-s2"
+          ]
+        },
+        {
+          "verse_key": "10:13",
+          "word_location": "10:13:15",
+          "sense_ids": [
+            "jzy-f1-s1"
+          ]
+        },
+        {
+          "verse_key": "36:54",
+          "word_location": "36:54:7",
+          "sense_ids": [
+            "jzy-f1-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jzy-f3",
+      "form_group_ids": [
+        "qac-form:jzy:nuja`ziY^:verb:III"
+      ],
+      "headword_arabic": "جَازَى",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jzy-f3-s1",
+          "definition": "To recompense or requite, returning an outcome corresponding to an act.",
+          "usage_conditions": "The Quranic occurrence is an active imperfect Form III verb in a context of recompensing a people for their conduct.",
+          "source_refs": [
+            "lane:entry:46751",
+            "lane:entry:46752"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "34:17",
+          "word_location": "34:17:6",
+          "sense_ids": [
+            "jzy-f3-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jzy-jazin",
+      "form_group_ids": [
+        "qac-form:jzy:jaAz:nominal:-"
+      ],
+      "headword_arabic": "جَازٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jzy-jazin-s1",
+          "definition": "Sufficing or availing; one who can stand in for or make satisfaction for another.",
+          "usage_conditions": "An active participle used with عَنْ in the sense of availing or satisfying on behalf of another.",
+          "source_refs": [
+            "lane:entry:46751",
+            "lane:entry:46759",
+            "mufradat:row:248"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "31:33",
+          "word_location": "31:33:15",
+          "sense_ids": [
+            "jzy-jazin-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jzy-jazaa",
+      "form_group_ids": [
+        "qac-form:jzy:jazaA^':nominal:-"
+      ],
+      "headword_arabic": "جَزَاء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 42,
+      "senses": [
+        {
+          "sense_id": "jzy-jazaa-s1",
+          "definition": "A recompense or requital corresponding to an act: a reward for good or a punishment for evil.",
+          "usage_conditions": "The noun denotes the resulting return or due; its positive or negative value is determined by the context.",
+          "source_refs": [
+            "lane:entry:46758",
+            "mufradat:row:248"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "55:60",
+          "word_location": "55:60:2",
+          "sense_ids": [
+            "jzy-jazaa-s1"
+          ]
+        },
+        {
+          "verse_key": "5:95",
+          "word_location": "5:95:13",
+          "sense_ids": [
+            "jzy-jazaa-s1"
+          ]
+        },
+        {
+          "verse_key": "42:40",
+          "word_location": "42:40:1",
+          "sense_ids": [
+            "jzy-jazaa-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jzy-jizya",
+      "form_group_ids": [
+        "qac-form:jzy:jizoyap:nominal:-"
+      ],
+      "headword_arabic": "جِزْيَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jzy-jizya-s1",
+          "definition": "A payment or tax taken from protected non-Muslim subjects as part of the compact securing their protection.",
+          "usage_conditions": "The Quranic noun refers to the payment demanded from those subjects in the stated political and legal arrangement.",
+          "source_refs": [
+            "lane:entry:46757",
+            "mufradat:row:248"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:29",
+          "word_location": "9:29:25",
+          "sense_ids": [
+            "jzy-jizya-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cls-jzy-paydue",
+      "headword_arabic": "جَزَى",
+      "definition": "To pay a debt or a person's due, or to render something as satisfaction; hence, to satisfy or content.",
+      "usage_conditions": "Used with a debt, right, or thing rendered as a due or satisfaction.",
+      "source_refs": [
+        "lane:entry:46751"
+      ]
+    },
+    {
+      "meaning_id": "cls-jzy-substitute",
+      "headword_arabic": "جَزَى",
+      "definition": "To stand or serve in place of another, even when the substitute does not fully suffice.",
+      "usage_conditions": "A classical substitution use distinct from actually satisfying or availing the person for whom the substitute is provided.",
+      "source_refs": [
+        "lane:entry:46751"
+      ]
+    },
+    {
+      "meaning_id": "cls-ajza-suffice",
+      "headword_arabic": "أَجْزَى",
+      "definition": "To make something sufficient or to cause it to serve in place of another.",
+      "usage_conditions": "A Form IV or dialectal usage reported for the جَزَى عَنْ construction; it is distinguished from the Tameem form أَجْزَأَ.",
+      "source_refs": [
+        "lane:entry:46751",
+        "lane:entry:46753"
+      ]
+    },
+    {
+      "meaning_id": "cls-jazaa-benediction",
+      "headword_arabic": "جَازَى",
+      "definition": "In a benedictive formula, to ask God to reward someone or to say, “May God reward you.”",
+      "usage_conditions": "A conventional expression such as جَازَاهُ خَيْرًا.",
+      "source_refs": [
+        "lane:entry:46752"
+      ]
+    },
+    {
+      "meaning_id": "cls-jazaa-vie",
+      "headword_arabic": "جَازَى",
+      "definition": "To vie or contend with another in requiting or compensating, and to overcome him in that exchange.",
+      "usage_conditions": "A reciprocal or competitive Form III use.",
+      "source_refs": [
+        "lane:entry:46752"
+      ]
+    },
+    {
+      "meaning_id": "cls-ajza-knife",
+      "headword_arabic": "أَجْزَى",
+      "definition": "To furnish a knife with a handle.",
+      "usage_conditions": "Reported as a dialectal variant of أَجْزَأَ; its status is questioned in the lexical tradition.",
+      "source_refs": [
+        "lane:entry:46753"
+      ]
+    },
+    {
+      "meaning_id": "cls-tajaza-debt",
+      "headword_arabic": "تَجَازَى",
+      "definition": "To demand payment of a debt, or for two parties to repay or requite one another.",
+      "usage_conditions": "Used with a debt and, in the reciprocal expression, for mutual repayment.",
+      "source_refs": [
+        "lane:entry:46754"
+      ]
+    },
+    {
+      "meaning_id": "cls-ijtzā-repayment",
+      "headword_arabic": "اِجْتَزَى",
+      "definition": "To seek or demand repayment, requital, compensation, or recompense from someone.",
+      "usage_conditions": "Form VIII transitive usage.",
+      "source_refs": [
+        "lane:entry:46755"
+      ]
+    },
+    {
+      "meaning_id": "cls-jizya-landtax",
+      "headword_arabic": "جِزْيَة",
+      "definition": "Metaphorically, a land tax or a tax paid by the owner of land.",
+      "usage_conditions": "A broader Classical Arabic extension of the noun beyond its Quranic reference to the jizyah imposed on protected subjects.",
+      "source_refs": [
+        "lane:entry:46757"
+      ]
+    },
+    {
+      "meaning_id": "cls-jazaa-sneeze",
+      "headword_arabic": "جَزَاء",
+      "definition": "The interval between a sneeze and the conventional blessing addressed to the sneezer.",
+      "usage_conditions": "A specialized expression concerning the timing of the response to a sneeze.",
+      "source_refs": [
+        "lane:entry:46758"
+      ]
+    },
+    {
+      "meaning_id": "cls-jazaa-apodosis",
+      "headword_arabic": "جَزَاء",
+      "definition": "The apodosis or complement of a conditional statement.",
+      "usage_conditions": "A grammatical term for the result or correlative clause of a condition.",
+      "source_refs": [
+        "lane:entry:46758"
+      ]
+    },
+    {
+      "meaning_id": "cls-jazaa-conditionparticle",
+      "headword_arabic": "جَزَاء",
+      "definition": "A conditional particle, or the designation of a particle that marks the result or complement of a condition.",
+      "usage_conditions": "A grammatical use associated with conditional constructions.",
+      "source_refs": [
+        "lane:entry:46758"
+      ]
+    },
+    {
+      "meaning_id": "cls-jazaa-sufficiency",
+      "headword_arabic": "جَزَاء",
+      "definition": "Sufficiency, competence, or wealth.",
+      "usage_conditions": "Attested in the expression ذُو جَزَاءٍ, describing one possessing sufficiency or means.",
+      "source_refs": [
+        "lane:entry:46758"
+      ]
+    },
+    {
+      "meaning_id": "cls-jaziya-wildcattle",
+      "headword_arabic": "جَازِيَة",
+      "definition": "A wild bull or cow.",
+      "usage_conditions": "A separate zoological noun.",
+      "source_refs": [
+        "lane:entry:46760"
+      ]
+    },
+    {
+      "meaning_id": "cls-mujzi-sufficient",
+      "headword_arabic": "مُجْزٍ",
+      "definition": "Sufficient for a load or burden, or sufficient for a person's affair.",
+      "usage_conditions": "Applied to a camel in the first use and to a man in the second; the lexical source identifies the printed forms as transcriptional errors for مُجْزٍ.",
+      "source_refs": [
+        "lane:entry:46762"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jzy:46751:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-jzy-paydue"
+      ],
+      "note": "Payment, rendering satisfaction, sufficiency, and contentment are covered by the Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46751:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jzy-f1-s2",
+        "cls-jzy-substitute",
+        "cls-ajza-suffice"
+      ],
+      "note": "Covers the Quranic عَنْ construction, substitution without sufficiency, and the reported Form IV variant."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46751:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jzy-f1-s1",
+        "jzy-f3-s1"
+      ],
+      "note": "Repayment, requital, compensation, reward, and punishment, including the Form III counterpart."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46751:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46752:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46752:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-jazaa-benediction"
+      ],
+      "note": "Benedictive Form III expression."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46752:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical usage concerning conditional particles and adverbs."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46752:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-jazaa-vie"
+      ],
+      "note": "Competitive or reciprocal requital."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46753:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46753:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-ajza-knife"
+      ],
+      "note": "Rare dialectal knife-related meaning."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46754:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-tajaza-debt"
+      ],
+      "note": "Demanding payment of a debt."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46754:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-tajaza-debt"
+      ],
+      "note": "Mutual repayment or requital."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46755:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-ijtzā-repayment"
+      ],
+      "note": "Seeking or demanding recompense."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46756:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Collective-generic noun and pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46757:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jzy-jizya-s1",
+        "cls-jizya-landtax"
+      ],
+      "note": "Quranic jizyah and its Classical land-tax extension."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46758:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jzy-jazaa-s1"
+      ],
+      "note": "Recompense as reward or punishment."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46758:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-jazaa-sneeze"
+      ],
+      "note": "Specialized sneeze-related time expression."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46758:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-jazaa-apodosis"
+      ],
+      "note": "Apodosis or conditional complement."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46758:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-jazaa-conditionparticle"
+      ],
+      "note": "Conditional-particle terminology."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46758:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-jazaa-sufficiency"
+      ],
+      "note": "Sufficiency or means in the expression ذُو جَزَاءٍ."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46759:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference identifying the active participle."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46759:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "jzy-jazin-s1"
+      ],
+      "note": "The example of a man sufficient for another is covered by the Quranic active-participle sense."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46760:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46760:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-jaziya-wildcattle"
+      ],
+      "note": "Separate zoological meaning."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46761:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional and verbal-noun information only."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46762:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls-mujzi-sufficient"
+      ],
+      "note": "Active-participle sufficiency uses with the source's transcriptional correction."
+    },
+    {
+      "unit_id": "lane-unit:jzy:46763:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional verbal-noun information only."
+    }
+  ],
+  "cautions": [
+    "The Form III Quranic group is retained as a distinct public form because QAC identifies نُجَازِي at 34:17, despite a general lexical statement that the Quran uses جَزَى rather than جَازَى.",
+    "جَزَاء covers both favorable and unfavorable recompense; reward and punishment are contextual values of the same lexical notion rather than separate Quranic noun senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

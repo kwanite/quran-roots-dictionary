@@ -1,0 +1,567 @@
+{
+  "root": "$hw",
+  "arabic": "شهو",
+  "root_idea": {
+    "summary": "The root centers on desire: the soul's inclination toward what it wants, with related uses for the desirable quality of a thing and a person characterized by appetite.",
+    "development": "The basic notion of desire extends to appetitive faculty, desired objects, intense or repeated longing, and things considered pleasant or appetizing. Derived forms also express causing, granting, or repeatedly demanding what is desired.",
+    "source_refs": [
+      "maqayis:row:2718",
+      "mufradat:row:791"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$hw:{$otahato:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-ishtaha",
+      "reason": "Displayed under the normalized Form VIII perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:$hw:$ahowap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-shahwah",
+      "reason": "Displayed under the singular noun citation form."
+    },
+    {
+      "form_group_id": "qac-form:$hw:$~ahawa`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-shahwah",
+      "reason": "The Quranic plural is presented under the singular noun headword شَهْوَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-ishtaha",
+      "form_group_ids": [
+        "qac-form:$hw:{$otahato:verb:VIII"
+      ],
+      "headword_arabic": "اِشْتَهَى",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "qform-ishtaha-s1",
+          "definition": "To desire, long for, wish for, or desire intensely.",
+          "usage_conditions": "A transitive Form VIII verb taking the desired thing as its object; in the Quran it is used for persons or souls desiring things.",
+          "source_refs": [
+            "lane:entry:39487",
+            "mufradat:row:791"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:102",
+          "word_location": "21:102:7",
+          "sense_ids": [
+            "qform-ishtaha-s1"
+          ]
+        },
+        {
+          "verse_key": "41:31",
+          "word_location": "41:31:11",
+          "sense_ids": [
+            "qform-ishtaha-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-shahwah",
+      "form_group_ids": [
+        "qac-form:$hw:$ahowap:nominal:-",
+        "qac-form:$hw:$~ahawa`t:nominal:-"
+      ],
+      "headword_arabic": "شَهْوَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qform-shahwah-s1",
+          "definition": "Sexual desire or lust.",
+          "usage_conditions": "In the Quranic construction involving approaching sexually, it denotes the lust motivating the act; the two supplied occurrences are 7:81 and 27:55.",
+          "source_refs": [
+            "lane:entry:39488"
+          ]
+        },
+        {
+          "sense_id": "qform-shahwah-s2",
+          "definition": "A desire, passion, or appetitive inclination, especially one that is followed or pursued.",
+          "usage_conditions": "The plural form is used for passions or desires loved or followed; in 19:59 it specifically concerns false or dispensable desires.",
+          "source_refs": [
+            "lane:entry:39488",
+            "mufradat:row:791"
+          ]
+        },
+        {
+          "sense_id": "qform-shahwah-s3",
+          "definition": "A desired thing or object of desire.",
+          "usage_conditions": "In the plural, the term can denote the things desired themselves, particularly in the expressions concerning love of desires and following dispensable objects of desire.",
+          "source_refs": [
+            "lane:entry:39488",
+            "mufradat:row:791"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:81",
+          "word_location": "7:81:4",
+          "sense_ids": [
+            "qform-shahwah-s1"
+          ]
+        },
+        {
+          "verse_key": "27:55",
+          "word_location": "27:55:4",
+          "sense_ids": [
+            "qform-shahwah-s1"
+          ]
+        },
+        {
+          "verse_key": "4:27",
+          "word_location": "4:27:9",
+          "sense_ids": [
+            "qform-shahwah-s2"
+          ]
+        },
+        {
+          "verse_key": "19:59",
+          "word_location": "19:59:8",
+          "sense_ids": [
+            "qform-shahwah-s2",
+            "qform-shahwah-s3"
+          ]
+        },
+        {
+          "verse_key": "3:14",
+          "word_location": "3:14:4",
+          "sense_ids": [
+            "qform-shahwah-s2",
+            "qform-shahwah-s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-shaha-foodpleasant",
+      "headword_arabic": "شَهَا، شَهِيَ",
+      "definition": "To be good, sweet, pleasant, or appetizing.",
+      "usage_conditions": "Used especially of food and similar things.",
+      "source_refs": [
+        "lane:entry:39482"
+      ]
+    },
+    {
+      "meaning_id": "cm-shayya-causative",
+      "headword_arabic": "شَهَّى",
+      "definition": "To cause someone or something to be desired; to stimulate appetite or make food pleasant.",
+      "usage_conditions": "Causative usage may describe exciting desire in a person or making a thing, especially food, desirable or agreeable.",
+      "source_refs": [
+        "lane:entry:39483"
+      ]
+    },
+    {
+      "meaning_id": "cm-shayya-promise",
+      "headword_arabic": "شَهَّى",
+      "definition": "To promise someone what they desire or eagerly desire.",
+      "usage_conditions": "An additionally reported application of the causative verb.",
+      "source_refs": [
+        "lane:entry:39483"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahaha-resemble",
+      "headword_arabic": "شَاهَاهُ",
+      "definition": "To be or become like someone; to resemble him.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:39484"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahaha-jest",
+      "headword_arabic": "شَاهَاهُ",
+      "definition": "To jest or joke with someone.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:39484"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahaha-ashha-evileye",
+      "headword_arabic": "شَاهَاهُ، أَشْهَاهُ",
+      "definition": "To contend in, or carry out, striking someone with the evil eye.",
+      "usage_conditions": "The former is reported in a possibly reciprocal or competitive use; the latter is also reported simply for striking someone with the evil eye.",
+      "source_refs": [
+        "lane:entry:39484",
+        "lane:entry:39485"
+      ]
+    },
+    {
+      "meaning_id": "cm-ashha-give",
+      "headword_arabic": "أَشْهَاهُ",
+      "definition": "To give someone what he desires or eagerly desires.",
+      "usage_conditions": "A Form IV causative use with the desired thing as the object granted.",
+      "source_refs": [
+        "lane:entry:39485"
+      ]
+    },
+    {
+      "meaning_id": "cm-ashha-exclamation",
+      "headword_arabic": "مَا أَشْهَاهَا، مَا أَشْهَانِي",
+      "definition": "An exclamatory expression of great desirability or strong desire.",
+      "usage_conditions": "مَا أَشْهَىهَا إِلَيَّ expresses how desirable something is to the speaker, while مَا أَشْهَانِي لَهَا expresses how desirous the speaker is of it.",
+      "source_refs": [
+        "lane:entry:39485"
+      ]
+    },
+    {
+      "meaning_id": "cm-tashahha-demand",
+      "headword_arabic": "تَشَهَّى",
+      "definition": "To demand something with repeated or eager desire.",
+      "usage_conditions": "Used with عَلَى in the cited construction for repeatedly demanding a thing from someone.",
+      "source_refs": [
+        "lane:entry:39486"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahwah-general",
+      "headword_arabic": "شَهْوَة",
+      "definition": "Desire, longing, or yearning of the soul for a thing; an appetitive faculty or appetite.",
+      "usage_conditions": "It is described as more intense than ordinary willing and may be a necessary bodily appetite, such as hunger, or an unnecessary craving.",
+      "source_refs": [
+        "lane:entry:39488"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahwah-gratification",
+      "headword_arabic": "شَهْوَة",
+      "definition": "The gratification of carnal or venereal desire.",
+      "usage_conditions": "A specialized application concerning sexual gratification rather than desire in the abstract.",
+      "source_refs": [
+        "lane:entry:39488"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahwah-latent",
+      "headword_arabic": "الشَّهْوَةُ الخَفِيَّةُ",
+      "definition": "A latent or inward desire.",
+      "usage_conditions": "In the cited idiomatic usage, it may be an inwardly conceived and resolved disobedient impulse or an imagined desire restrained in outward conduct.",
+      "source_refs": [
+        "lane:entry:39488"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahwah-clay",
+      "headword_arabic": "شَهْوَةُ الطِّينِ",
+      "definition": "Craving for clay, used as a term for malacia.",
+      "usage_conditions": "A specialized expression for an abnormal craving.",
+      "source_refs": [
+        "lane:entry:39488"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahwan-desirous-person",
+      "headword_arabic": "شَهْوَانُ، شَهَّاءُ",
+      "definition": "A person characterized by strong, frequent, or excessive desire; greedy or voracious.",
+      "usage_conditions": "Predicated of a person with pronounced appetite or longing.",
+      "source_refs": [
+        "lane:entry:39489",
+        "lane:entry:39492"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahi-desirable",
+      "headword_arabic": "شَهِيٌّ",
+      "definition": "Desired, pleasant, delicious, or sweet.",
+      "usage_conditions": "Applied especially to food and water, and thus to what is agreeable or appetizing.",
+      "source_refs": [
+        "lane:entry:39491"
+      ]
+    },
+    {
+      "meaning_id": "cm-abu-shahi-lute",
+      "headword_arabic": "أَبُو الشَّهِيِّ",
+      "definition": "The barbat, or Persian lute.",
+      "usage_conditions": "A reported figurative or specialized application.",
+      "source_refs": [
+        "lane:entry:39491"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahi-watermelon",
+      "headword_arabic": "شَهِيٌّ",
+      "definition": "Watermelon.",
+      "usage_conditions": "An additionally reported, possibly dialectal or figurative application attributed to a gloss of the lexicon.",
+      "source_refs": [
+        "lane:entry:39491"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahi-active-desiring",
+      "headword_arabic": "شَاهٍ",
+      "definition": "Desiring, longing, or eagerly desiring.",
+      "usage_conditions": "Active-participle usage.",
+      "source_refs": [
+        "lane:entry:39493"
+      ]
+    },
+    {
+      "meaning_id": "cm-shahi-sharp-sight",
+      "headword_arabic": "شَاهِي البَصَرِ",
+      "definition": "Sharp of sight.",
+      "usage_conditions": "A specialized expression reported as a transposed form, distinct from the ordinary desire-related active participle.",
+      "source_refs": [
+        "lane:entry:39493"
+      ]
+    },
+    {
+      "meaning_id": "cm-ashha-comparative",
+      "headword_arabic": "أَشْهَى",
+      "definition": "More or most desirable, pleasant, delicious, or sweet.",
+      "usage_conditions": "Used comparatively, including with إِلَى to express what is more desirable to someone.",
+      "source_refs": [
+        "lane:entry:39494"
+      ]
+    },
+    {
+      "meaning_id": "cm-mushtaha-substantive",
+      "headword_arabic": "مُشْتَهًى",
+      "definition": "A desired thing or object of desire.",
+      "usage_conditions": "The substantive plural مُشْتَهَيَاتٌ is also reported.",
+      "source_refs": [
+        "lane:entry:39495"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$hw:39482:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form VIII discussion."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39482:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shaha-foodpleasant"
+      ],
+      "note": "Form I pleasant or appetizing use."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39483:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shayya-causative"
+      ],
+      "note": "Causative desire use."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39483:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-shayya-causative"
+      ],
+      "note": "Appetite-stimulating subcase of the causative use."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39483:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shayya-causative"
+      ],
+      "note": "Making a thing desirable or pleasant."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39483:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shayya-promise"
+      ],
+      "note": "Promise to provide what is desired."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39484:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shahaha-resemble"
+      ],
+      "note": "Resemblance use."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39484:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shahaha-jest"
+      ],
+      "note": "Jesting or joking use."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39484:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shahaha-ashha-evileye"
+      ],
+      "note": "Reported evil-eye use."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39485:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ashha-give"
+      ],
+      "note": "Giving someone what is desired."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39485:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-shahaha-ashha-evileye"
+      ],
+      "note": "Related Form IV evil-eye use grouped with the connected Form III expression."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39485:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ashha-exclamation"
+      ],
+      "note": "Exclamatory desirability and desire constructions."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39486:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tashahha-demand"
+      ],
+      "note": "Repeated-demand use."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39486:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only continuation."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39487:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-ishtaha-s1"
+      ],
+      "note": "Quran-attested Form VIII desire verb."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39488:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-shahwah-s1",
+        "qform-shahwah-s2",
+        "qform-shahwah-s3",
+        "cm-shahwah-general",
+        "cm-shahwah-gratification",
+        "cm-shahwah-latent",
+        "cm-shahwah-clay"
+      ],
+      "note": "General desire, Quranic sexual and plural uses, desired objects, specialized gratification, latent-desire, and malacia branches are assigned."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39489:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shahwan-desirous-person"
+      ],
+      "note": "Desirous, greedy, or voracious person."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39490:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39491:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shahi-desirable"
+      ],
+      "note": "Desirable, pleasant, delicious, or sweet."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39491:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-abu-shahi-lute"
+      ],
+      "note": "Specialized lute designation."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39491:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shahi-watermelon"
+      ],
+      "note": "Attributed watermelon application."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39491:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39492:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shahwan-desirous-person"
+      ],
+      "note": "Frequent or abundant desire in a person."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39493:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shahi-active-desiring"
+      ],
+      "note": "Active-participle desire use."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39493:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shahi-sharp-sight"
+      ],
+      "note": "Specialized sharp-sight expression."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39494:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ashha-comparative"
+      ],
+      "note": "Comparative or superlative desirability."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39495:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to شَهِيٌّ."
+    },
+    {
+      "unit_id": "lane-unit:$hw:39495:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional plural information without a new lexical meaning."
+    }
+  ],
+  "cautions": [
+    "A historical Quran citation in the lexical evidence is not converted into a modern verse key; modern examples use only independently supplied QAC locations.",
+    "Several rare applications are explicitly attributed or marked as specialized; they are retained as Classical meanings rather than treated as ordinary Quranic senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

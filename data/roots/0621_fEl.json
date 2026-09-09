@@ -1,0 +1,677 @@
+{
+  "root": "fEl",
+  "arabic": "فعل",
+  "root_idea": {
+    "summary": "The root denotes bringing something about through an act or other form of doing.",
+    "development": "Its lexical range extends from performing or producing an act to the act itself, its agent, its habitual performer, and what has been effected by an agent.",
+    "source_refs": [
+      "maqayis:row:3614",
+      "mufradat:row:1124"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fEl:faEala:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qfelf_verb_I",
+      "reason": "Distinct Form I verbal headword."
+    },
+    {
+      "form_group_id": "qac-form:fEl:faAEil:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qfelf_faail",
+      "reason": "Distinct active-participle headword."
+    },
+    {
+      "form_group_id": "qac-form:fEl:faEolat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qfelf_fa3la",
+      "reason": "Distinct single-action verbal-noun pattern, normalized to its citation form."
+    },
+    {
+      "form_group_id": "qac-form:fEl:faE~aAl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qfelf_fa33aal",
+      "reason": "Distinct intensive active-participle pattern."
+    },
+    {
+      "form_group_id": "qac-form:fEl:fiEol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qfelf_fi3l",
+      "reason": "Distinct verbal-noun headword, normalized from the inflected Quran form."
+    },
+    {
+      "form_group_id": "qac-form:fEl:mafoEuwl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qfelf_maf3uul",
+      "reason": "Distinct passive-participle headword, normalized from the inflected Quran form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qfelf_verb_I",
+      "form_group_ids": [
+        "qac-form:fEl:faEala:verb:I"
+      ],
+      "headword_arabic": "فَعَلَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 88,
+      "senses": [
+        {
+          "sense_id": "qfelf_verb_I_s1",
+          "definition": "To do, perform, or bring about an act or matter.",
+          "usage_conditions": "A general Form I verb whose tense, voice, and subject are supplied by the inflection; Quranic contexts include ordinary performance, carrying out an act, and bringing something about.",
+          "source_refs": [
+            "lane:entry:34544",
+            "mufradat:row:1124"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:91",
+          "word_location": "16:91:20",
+          "sense_ids": [
+            "qfelf_verb_I_s1"
+          ]
+        },
+        {
+          "verse_key": "37:102",
+          "word_location": "37:102:18",
+          "sense_ids": [
+            "qfelf_verb_I_s1"
+          ]
+        },
+        {
+          "verse_key": "26:19",
+          "word_location": "26:19:4",
+          "sense_ids": [
+            "qfelf_verb_I_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qfelf_faail",
+      "form_group_ids": [
+        "qac-form:fEl:faAEil:nominal:-"
+      ],
+      "headword_arabic": "فَاعِلٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "qfelf_faail_s1",
+          "definition": "One who does, performs, or is able to accomplish something; a doer.",
+          "usage_conditions": "In the Quranic construction فَاعِلُونَ لِلزَّكَاةِ, it is interpreted as performing or giving zakat; in وَكُنَّا فَاعِلِينَ, it denotes being able to do what was intended. These are constructional applications of the active-participle meaning.",
+          "source_refs": [
+            "lane:entry:34561"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "23:4",
+          "word_location": "23:4:4",
+          "sense_ids": [
+            "qfelf_faail_s1"
+          ]
+        },
+        {
+          "verse_key": "21:79",
+          "word_location": "21:79:14",
+          "sense_ids": [
+            "qfelf_faail_s1"
+          ]
+        },
+        {
+          "verse_key": "12:61",
+          "word_location": "12:61:6",
+          "sense_ids": [
+            "qfelf_faail_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qfelf_fa3la",
+      "form_group_ids": [
+        "qac-form:fEl:faEolat:nominal:-"
+      ],
+      "headword_arabic": "فَعْلَةٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qfelf_fa3la_s1",
+          "definition": "A single deed or action.",
+          "usage_conditions": "Refers to one particular act, including an act characterized as good or bad; the Quranic occurrence refers to one deed previously done.",
+          "source_refs": [
+            "lane:entry:34551"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:19",
+          "word_location": "26:19:2",
+          "sense_ids": [
+            "qfelf_fa3la_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qfelf_fa33aal",
+      "form_group_ids": [
+        "qac-form:fEl:faE~aAl:nominal:-"
+      ],
+      "headword_arabic": "فَعَّالٌ",
+      "public_pos_label": "Intensive active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qfelf_fa33aal_s1",
+          "definition": "One who habitually, unfailingly, or intensively does or accomplishes what is willed.",
+          "usage_conditions": "An intensive active-participle pattern; the Quranic usage applies it to an agent characterized by persistent or unfailing accomplishment, including the phrase doing what He wills.",
+          "source_refs": [
+            "lane:entry:34560"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:107",
+          "word_location": "11:107:13",
+          "sense_ids": [
+            "qfelf_fa33aal_s1"
+          ]
+        },
+        {
+          "verse_key": "85:16",
+          "word_location": "85:16:1",
+          "sense_ids": [
+            "qfelf_fa33aal_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qfelf_fi3l",
+      "form_group_ids": [
+        "qac-form:fEl:fiEol:nominal:-"
+      ],
+      "headword_arabic": "فِعْلٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qfelf_fi3l_s1",
+          "definition": "An act, deed, or doing.",
+          "usage_conditions": "The Quranic occurrence is in فِعْلَ الْخَيْرَاتِ, the doing or performance of good works.",
+          "source_refs": [
+            "lane:entry:34550",
+            "mufradat:row:1124"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:73",
+          "word_location": "21:73:7",
+          "sense_ids": [
+            "qfelf_fi3l_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qfelf_maf3uul",
+      "form_group_ids": [
+        "qac-form:fEl:mafoEuwl:nominal:-"
+      ],
+      "headword_arabic": "مَفْعُولٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "qfelf_maf3uul_s1",
+          "definition": "Done, effected, or brought about by an agent.",
+          "usage_conditions": "As a passive participle, it presents an act or result with reference to its agent. In Quranic contexts this can be rendered as fulfilled, accomplished, or destined, without requiring separate lexical senses.",
+          "source_refs": [
+            "mufradat:row:1124"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:42",
+          "word_location": "8:42:21",
+          "sense_ids": [
+            "qfelf_maf3uul_s1"
+          ]
+        },
+        {
+          "verse_key": "17:5",
+          "word_location": "17:5:17",
+          "sense_ids": [
+            "qfelf_maf3uul_s1"
+          ]
+        },
+        {
+          "verse_key": "33:37",
+          "word_location": "33:37:48",
+          "sense_ids": [
+            "qfelf_maf3uul_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_fel_do_to",
+      "headword_arabic": "فَعَلَ بِهِ",
+      "definition": "To do something to someone; to treat or deal with someone in a specified way.",
+      "usage_conditions": "In فَعَلَ اللهُ بِهِ, it occurs as an imprecatory formula meaning, in effect, may God do to him what He will.",
+      "source_refs": [
+        "lane:entry:34544"
+      ]
+    },
+    {
+      "meaning_id": "cm_fel_sexual",
+      "headword_arabic": "فَعَلَ بِالْمَرْأَةِ",
+      "definition": "To approach sexually or have sexual intercourse.",
+      "usage_conditions": "A conventional construction with بِـ; the lexical evidence supports the sexual-action meaning without making the source example's gender a general restriction.",
+      "source_refs": [
+        "lane:entry:34544"
+      ]
+    },
+    {
+      "meaning_id": "cm_taf3il_meter",
+      "headword_arabic": "تَفْعِيلٌ",
+      "definition": "The scanning or metrical analysis of a verse.",
+      "usage_conditions": "A technical metonym in prosody, based on the occurrence of the root letters in the names of metrical feet.",
+      "source_refs": [
+        "lane:entry:34545"
+      ]
+    },
+    {
+      "meaning_id": "cm_fa3ala_together",
+      "headword_arabic": "فَاعَلَ",
+      "definition": "To do something together or reciprocally with another agent.",
+      "usage_conditions": "The evidence presents the construction as involving two agents acting jointly.",
+      "source_refs": [
+        "lane:entry:34546"
+      ]
+    },
+    {
+      "meaning_id": "cm_infa3ala_receive",
+      "headword_arabic": "اِنْفَعَلَ",
+      "definition": "To become affected or undergo the effect of an act; to be done in a quasi-passive sense.",
+      "usage_conditions": "The derived verb can describe receiving an effect whether or not the agent intended that result; it is also used technically for passion or undergoing.",
+      "source_refs": [
+        "lane:entry:34547"
+      ]
+    },
+    {
+      "meaning_id": "cm_ifta3ala_forge",
+      "headword_arabic": "اِفْتَعَلَ عَلَيْهِ كَذِبًا",
+      "definition": "To fabricate or forge a lie against someone.",
+      "usage_conditions": "The construction takes the person against whom the fabrication is made and the falsehood as its object.",
+      "source_refs": [
+        "lane:entry:34548"
+      ]
+    },
+    {
+      "meaning_id": "cm_muft3al_forged",
+      "headword_arabic": "مُفْتَعَلٌ",
+      "definition": "A forged or falsified writing.",
+      "usage_conditions": "A substantivized passive-participial use, also extended to things described as falsified.",
+      "source_refs": [
+        "lane:entry:34548",
+        "lane:entry:34562"
+      ]
+    },
+    {
+      "meaning_id": "cm_muft3al_original",
+      "headword_arabic": "مُفْتَعَلٌ",
+      "definition": "An original composition, especially a poem or song, not imitated from a model.",
+      "usage_conditions": "A conventional use for independently composed artistic work.",
+      "source_refs": [
+        "lane:entry:34548",
+        "lane:entry:34562"
+      ]
+    },
+    {
+      "meaning_id": "cm_fa3l_anatomy",
+      "headword_arabic": "فَعْلٌ",
+      "definition": "The vulva of a she-camel or of a female animal.",
+      "usage_conditions": "An anatomical noun distinct from the verbal-noun meaning.",
+      "source_refs": [
+        "lane:entry:34549"
+      ]
+    },
+    {
+      "meaning_id": "cm_fa3ila_habit",
+      "headword_arabic": "فَعِلَةٌ",
+      "definition": "A custom, manner, habit, or habitual practice.",
+      "usage_conditions": "A nominal pattern denoting an established mode of conduct.",
+      "source_refs": [
+        "lane:entry:34553"
+      ]
+    },
+    {
+      "meaning_id": "cm_faal_imperative",
+      "headword_arabic": "فَعَالٌ",
+      "definition": "An imperative-like expression meaning “Do!”",
+      "usage_conditions": "An archaic command form, comparable to other nouns used as imperatives.",
+      "source_refs": [
+        "lane:entry:34556"
+      ]
+    },
+    {
+      "meaning_id": "cm_faal_conduct",
+      "headword_arabic": "فَعَالٌ",
+      "definition": "Good or bad conduct or acts, especially the conduct of a single person; it may include generosity or bounty.",
+      "usage_conditions": "Used in commendation or blame and specifically associated in the evidence with one agent.",
+      "source_refs": [
+        "lane:entry:34557"
+      ]
+    },
+    {
+      "meaning_id": "cm_fiaal_reciprocal",
+      "headword_arabic": "فِعَالٌ",
+      "definition": "A doing or action between two agents.",
+      "usage_conditions": "A reciprocal or jointly performed action, distinct from فَعَالٌ as conduct of one agent.",
+      "source_refs": [
+        "lane:entry:34558"
+      ]
+    },
+    {
+      "meaning_id": "cm_fiaal_tool",
+      "headword_arabic": "فِعَالٌ",
+      "definition": "The handle or wooden shaft inserted into the eye of an axe, adze, or hoe.",
+      "usage_conditions": "A concrete tool noun with plural فُعُلٌ.",
+      "source_refs": [
+        "lane:entry:34558"
+      ]
+    },
+    {
+      "meaning_id": "cm_fuala_tribe",
+      "headword_arabic": "فُعَالَةٌ",
+      "definition": "A metonymic name for Khuzāʿa, the well-known tribe.",
+      "usage_conditions": "An onomastic and metonymic use, not a productive ordinary meaning of the root.",
+      "source_refs": [
+        "lane:entry:34559"
+      ]
+    },
+    {
+      "meaning_id": "cm_fail_worker",
+      "headword_arabic": "فَاعِلٌ",
+      "definition": "A worker, especially one who works with clay, building, plastering, or digging foundations.",
+      "usage_conditions": "A substantivized active participle with a specialized occupational use; the plural فَعَلَةٌ is likewise used for such workers.",
+      "source_refs": [
+        "lane:entry:34561"
+      ]
+    },
+    {
+      "meaning_id": "cm_muft3al_effect",
+      "headword_arabic": "مُفْتَعَلٌ",
+      "definition": "A grievous, distressing, or unprecedented effect.",
+      "usage_conditions": "Occurs in the idiomatic phrase جَاءَ بِالْمُفْتَعَلِ, said of an effect or experience beyond what was previously known.",
+      "source_refs": [
+        "lane:entry:34562"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fEl:34544:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfelf_verb_I_s1",
+        "qfelf_fi3l_s1"
+      ],
+      "note": "Form I doing and the cited doing-of-good-works usage are represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34544:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fel_do_to"
+      ],
+      "note": "The بِهِ construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34544:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fel_sexual"
+      ],
+      "note": "The sexual construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34545:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taf3il_meter"
+      ],
+      "note": "Technical prosodic meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34546:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fa3ala_together"
+      ],
+      "note": "Joint action of two agents is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34547:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_infa3ala_receive"
+      ],
+      "note": "Quasi-passive and undergoing an effect are represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34548:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ifta3ala_forge"
+      ],
+      "note": "Forging a lie against someone is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34548:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muft3al_forged"
+      ],
+      "note": "Forged or falsified writing is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34548:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muft3al_original"
+      ],
+      "note": "Original composition is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34549:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive-form identification only."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34549:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fa3l_anatomy"
+      ],
+      "note": "Anatomical noun meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34550:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfelf_fi3l_s1"
+      ],
+      "note": "The act, deed, and doing meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34550:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical terminology for verb categories."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34551:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfelf_fa3la_s1"
+      ],
+      "note": "Single deed or action is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34552:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34553:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fa3ila_habit"
+      ],
+      "note": "Custom, manner, and habit are represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34554:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Relational grammatical adjective."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34555:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical term for a verb's quality."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34556:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_faal_imperative"
+      ],
+      "note": "Imperative-like expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34557:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_faal_conduct"
+      ],
+      "note": "Good or bad conduct of one agent is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34557:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive-form identification only."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34558:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fiaal_reciprocal"
+      ],
+      "note": "Action between two agents is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34558:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural relation only."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34558:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fiaal_tool"
+      ],
+      "note": "Tool-handle meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34559:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fuala_tribe"
+      ],
+      "note": "Metonymic tribal name is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34560:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfelf_fa33aal_s1"
+      ],
+      "note": "Habitual or unfailing doing is Quran-attested and represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34561:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfelf_faail_s1",
+        "cm_fail_worker"
+      ],
+      "note": "General active-participle and specialized worker meanings are both represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34561:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfelf_faail_s1"
+      ],
+      "note": "The Quranic able-to-do and zakat constructions are represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34562:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muft3al_forged"
+      ],
+      "note": "Forged or falsified writing is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34562:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muft3al_original"
+      ],
+      "note": "Original poetic composition is represented."
+    },
+    {
+      "unit_id": "lane-unit:fEl:34562:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muft3al_effect"
+      ],
+      "note": "The idiomatic grievous or unprecedented effect is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic renderings “fulfilled,” “accomplished,” and “destined” under مَفْعُولٌ are contextual realizations of the broader passive-participial meaning “done or effected,” not separate lexical senses.",
+    "The interpretation of فَاعِلُونَ لِلزَّكَاةِ as those who give or perform zakat is construction-specific and does not restrict the active participle generally to zakat."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,180 @@
+{
+  "root": "nSy",
+  "arabic": "نصي",
+  "root_idea": {
+    "summary": "The supplied evidence centers on the forepart of the head and its hair, especially the forelock. From grasping a person's or creature's forelock, the language also expresses control or mastery, with figurative extensions to leadership and distinction.",
+    "development": "The evidence records a development from the physical forelock to idiomatic authority and figurative prominence. Separate lexical branches include hair lengthening and a vegetation or pasture term.",
+    "source_refs": [
+      "lane:entry:32253",
+      "mufradat:row:1445"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nSy:naASiyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nSy-nasiyah",
+      "reason": "The singular noun is the appropriate public dictionary headword."
+    },
+    {
+      "form_group_id": "qac-form:nSy:n~awa`SiY:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "nSy-nasiyah",
+      "reason": "This is the Quranic plural نَوَاصِي of the same noun, نَاصِيَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nSy-nasiyah",
+      "form_group_ids": [
+        "qac-form:nSy:naASiyap:nominal:-",
+        "qac-form:nSy:n~awa`SiY:nominal:-"
+      ],
+      "headword_arabic": "نَاصِيَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "nSy-nasiyah-s1",
+          "definition": "The hair growing at the front of the head; the forelock.",
+          "usage_conditions": "Used in the Quran in both singular and plural forms for the forelock or front hair.",
+          "source_refs": [
+            "lane:entry:32253",
+            "mufradat:row:1445"
+          ]
+        },
+        {
+          "sense_id": "nSy-nasiyah-s2",
+          "definition": "Control or mastery expressed through taking or grasping someone or something by the forelock.",
+          "usage_conditions": "An idiomatic or metonymic construction in which holding the forelock signifies having power over the entity; explicitly applied to every creature in the Quranic expression from Hūd 11:56.",
+          "source_refs": [
+            "mufradat:row:1445"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:56",
+          "word_location": "11:56:13",
+          "sense_ids": [
+            "nSy-nasiyah-s2"
+          ]
+        },
+        {
+          "verse_key": "96:15",
+          "word_location": "96:15:6",
+          "sense_ids": [
+            "nSy-nasiyah-s1"
+          ]
+        },
+        {
+          "verse_key": "55:41",
+          "word_location": "55:41:5",
+          "sense_ids": [
+            "nSy-nasiyah-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nSy-classical-nasiyah-horse",
+      "headword_arabic": "نَاصِيَةٌ",
+      "definition": "The forelock of a horse.",
+      "usage_conditions": "A Classical Arabic specialization of the general forelock term; it is kept separate from the Quran-attested uses because the supplied Quran evidence does not specifically establish the horse-related application.",
+      "source_refs": [
+        "lane:entry:32253"
+      ]
+    },
+    {
+      "meaning_id": "nSy-classical-nasiyah-leader",
+      "headword_arabic": "نَاصِيَةُ قَوْمٍ",
+      "definition": "The head or leading person of a people, by figurative extension from the forelock.",
+      "usage_conditions": "A conventional figurative expression for prominence or leadership within a group.",
+      "source_refs": [
+        "mufradat:row:1445"
+      ]
+    },
+    {
+      "meaning_id": "nSy-classical-nasaw-stretch",
+      "headword_arabic": "نَصَوْتُ فُلَانًا",
+      "definition": "To stretch or extend someone's forelock.",
+      "usage_conditions": "Attested in the cited expression concerning arranging or stretching a deceased person's forelock.",
+      "source_refs": [
+        "mufradat:row:1445"
+      ]
+    },
+    {
+      "meaning_id": "nSy-classical-intasa-hair",
+      "headword_arabic": "انْتَصَى الشَّعْرُ",
+      "definition": "For hair to grow or become long.",
+      "usage_conditions": "A verbal use describing the lengthening of hair, distinct from the noun naming the forelock.",
+      "source_refs": [
+        "mufradat:row:1445"
+      ]
+    },
+    {
+      "meaning_id": "nSy-classical-nasiyy-vegetation",
+      "headword_arabic": "نَصِيٌّ",
+      "definition": "A vegetation term: a pasture regarded as among the best grazing grounds, also reported as a species of thistle.",
+      "usage_conditions": "The supplied descriptions do not settle the precise botanical referent; the pasture and thistle descriptions are retained within this vegetation branch.",
+      "source_refs": [
+        "lane:entry:32252",
+        "mufradat:row:1445"
+      ]
+    },
+    {
+      "meaning_id": "nSy-classical-nasiyyah-elite",
+      "headword_arabic": "نَصْيَةُ قَوْمٍ",
+      "definition": "The choice or best members of a people, by comparison with excellent pasture.",
+      "usage_conditions": "A figurative collective expression based on the evaluative sense of the pasture term.",
+      "source_refs": [
+        "mufradat:row:1445"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nSy:32251:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to تَذَرَّى; no lexical definition is supplied."
+    },
+    {
+      "unit_id": "lane-unit:nSy:32252:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nSy-classical-nasiyy-vegetation"
+      ],
+      "note": "The unit defines a plant term, reported as a species of thistle."
+    },
+    {
+      "unit_id": "lane-unit:nSy:32252:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "The word is identified as an imitative sequent in the expression, not as an independently defined root meaning."
+    },
+    {
+      "unit_id": "lane-unit:nSy:32253:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nSy-nasiyah-s1",
+        "nSy-classical-nasiyah-horse"
+      ],
+      "note": "The unit defines the front hair or forelock and separately specifies a horse's forelock."
+    },
+    {
+      "unit_id": "lane-unit:nSy:32253:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to تَذَرَّى and ذِرْوَةٌ; no independent definition is supplied."
+    }
+  ],
+  "cautions": [
+    "No Maqāyīs entry was supplied for this root, so the root-level development is based on the direct Lane and Mufradāt evidence available here.",
+    "The precise botanical referent of نَصِيٌّ is uncertain in the supplied evidence: it is described both as a species of thistle and as choice pasture."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,430 @@
+{
+  "root": "qnt",
+  "arabic": "قنت",
+  "root_idea": {
+    "summary": "The root centers on obedience to God expressed with submission, humility, and religious devotion.",
+    "development": "The basic sense of obedience develops into steadfast religious observance, prayerful standing, attentive silence, and worshipful service. Related Classical Arabic branches extend to humility, tractability, and certain specialized uses.",
+    "source_refs": [
+      "maqayis:row:3871",
+      "mufradat:row:1212"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qnt:yaqonuto:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qnt-verb-qanata",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:qnt:qaAnit:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qnt-active-participle-qanit",
+      "reason": "Displayed under the standard masculine active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:qnt:qa`nita`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qnt-active-participle-qanit",
+      "reason": "The Quran-only feminine plural active participle is an inflectional variant of قَانِتٌ and is represented under the singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qnt-verb-qanata",
+      "form_group_ids": [
+        "qac-form:qnt:yaqonuto:verb:I"
+      ],
+      "headword_arabic": "قَنَتَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qnt-verb-s1",
+          "definition": "To obey God and remain devoutly submissive to Him.",
+          "usage_conditions": "The Quranic construction commonly takes لِـ with God; direct-object usage is reported as unusual. The sense includes steadfast adherence to obedience.",
+          "source_refs": [
+            "lane:entry:8999",
+            "mufradat:row:1212"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:43",
+          "word_location": "3:43:2",
+          "sense_ids": [
+            "qnt-verb-s1"
+          ]
+        },
+        {
+          "verse_key": "33:31",
+          "word_location": "33:31:2",
+          "sense_ids": [
+            "qnt-verb-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qnt-active-participle-qanit",
+      "form_group_ids": [
+        "qac-form:qnt:qaAnit:nominal:-",
+        "qac-form:qnt:qa`nita`t:nominal:-"
+      ],
+      "headword_arabic": "قَانِتٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "qnt-ap-s1",
+          "definition": "Obedient to God with humility and submission; steadfast in religious obedience.",
+          "usage_conditions": "For created beings, the Quranic usage can denote subjection to God's creative will rather than voluntary religious observance. The masculine and feminine forms share this lexical sense.",
+          "source_refs": [
+            "lane:entry:8999",
+            "mufradat:row:1212"
+          ]
+        },
+        {
+          "sense_id": "qnt-ap-s2",
+          "definition": "Devotedly engaged in worship, especially prayerful devotion.",
+          "usage_conditions": "In prayer-related usage, the devotion may include attentive stillness and abstention from ordinary human speech; Quranic discussion also presents the worshipper in standing and prostration.",
+          "source_refs": [
+            "lane:entry:8999",
+            "mufradat:row:1212"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "30:26",
+          "word_location": "30:26:8",
+          "sense_ids": [
+            "qnt-ap-s1"
+          ]
+        },
+        {
+          "verse_key": "2:238",
+          "word_location": "2:238:8",
+          "sense_ids": [
+            "qnt-ap-s1",
+            "qnt-ap-s2"
+          ]
+        },
+        {
+          "verse_key": "39:9",
+          "word_location": "39:9:3",
+          "sense_ids": [
+            "qnt-ap-s2"
+          ]
+        },
+        {
+          "verse_key": "33:35",
+          "word_location": "33:35:7",
+          "sense_ids": [
+            "qnt-ap-s1"
+          ]
+        },
+        {
+          "verse_key": "4:34",
+          "word_location": "4:34:16",
+          "sense_ids": [
+            "qnt-ap-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-qnut-standing",
+      "headword_arabic": "قُنُوتٌ",
+      "definition": "Standing, especially prolonged standing, in the performance of prayer.",
+      "usage_conditions": "The term may also refer to the standing posture associated with the qunut prayer practice.",
+      "source_refs": [
+        "lane:entry:8999",
+        "lane:entry:9000"
+      ]
+    },
+    {
+      "meaning_id": "cm-qnut-supplication",
+      "headword_arabic": "قُنُوتٌ",
+      "definition": "Supplication to God, especially the qunut supplication recited while standing in prayer.",
+      "usage_conditions": "This is the conventional ritual use of دُعَاءُ القُنُوتِ.",
+      "source_refs": [
+        "lane:entry:8999"
+      ]
+    },
+    {
+      "meaning_id": "cm-qnut-prayer",
+      "headword_arabic": "قُنُوتٌ",
+      "definition": "The prescribed act of prayer itself.",
+      "usage_conditions": "Used as a synonym for صَلَاةٌ in the reported Classical usage.",
+      "source_refs": [
+        "lane:entry:8999"
+      ]
+    },
+    {
+      "meaning_id": "cm-qnut-pilgrimage",
+      "headword_arabic": "قُنُوتٌ",
+      "definition": "Continuing the performance of the pilgrimage.",
+      "usage_conditions": "A specialized verbal-noun usage describing continuation of the pilgrimage.",
+      "source_refs": [
+        "lane:entry:8999"
+      ]
+    },
+    {
+      "meaning_id": "cm-qnut-war",
+      "headword_arabic": "قُنُوتٌ",
+      "definition": "Prolonging engagement in warfare, including warfare accompanied by plundering.",
+      "usage_conditions": "A specialized usage applied to the continuation of fighting or raiding.",
+      "source_refs": [
+        "lane:entry:8999"
+      ]
+    },
+    {
+      "meaning_id": "cm-qnut-servanthood",
+      "headword_arabic": "قُنُوتٌ",
+      "definition": "Confessing or acknowledging one's condition as a servant of God.",
+      "usage_conditions": "This denotes recognition of servanthood rather than merely the general performance of obedience.",
+      "source_refs": [
+        "lane:entry:8999"
+      ]
+    },
+    {
+      "meaning_id": "cm-qnt-humble",
+      "headword_arabic": "قَنَتَ",
+      "definition": "To be lowly, humble, or submissive to another; of a woman, to be quiet, submissive, and obedient to her husband.",
+      "usage_conditions": "This is a broader interpersonal humility and submissiveness usage, distinct from Quranic religious obedience to God.",
+      "source_refs": [
+        "lane:entry:8999"
+      ]
+    },
+    {
+      "meaning_id": "cm-qanata-eatlittle",
+      "headword_arabic": "قَنَاتَةٌ",
+      "definition": "Eating little.",
+      "usage_conditions": "A distinct lexical branch associated with the noun قَنُتَ.",
+      "source_refs": [
+        "lane:entry:8999"
+      ]
+    },
+    {
+      "meaning_id": "cm-aqnt-curse",
+      "headword_arabic": "أَقْنَتَ",
+      "definition": "To curse one's enemy.",
+      "usage_conditions": "A Form IV usage with an enemy as object.",
+      "source_refs": [
+        "lane:entry:9000"
+      ]
+    },
+    {
+      "meaning_id": "cm-aqnt-humble",
+      "headword_arabic": "أَقْنَتَ",
+      "definition": "To lower, humble, or submit oneself to God.",
+      "usage_conditions": "A Form IV derived-verb usage.",
+      "source_refs": [
+        "lane:entry:9000"
+      ]
+    },
+    {
+      "meaning_id": "cm-iqnt-tractable",
+      "headword_arabic": "اِقْتَنَتَ",
+      "definition": "To become tractable or submissive.",
+      "usage_conditions": "A Form VIII usage describing a change into a tractable or submissive state.",
+      "source_refs": [
+        "lane:entry:9001"
+      ]
+    },
+    {
+      "meaning_id": "cm-qanut-wife",
+      "headword_arabic": "قَنُوتٌ",
+      "definition": "A woman who is lowly, humble, submissive, and obedient to her husband.",
+      "usage_conditions": "A lexical noun describing a woman; this specialized interpersonal sense is not generalized to Quranic religious obedience.",
+      "source_refs": [
+        "lane:entry:9002"
+      ]
+    },
+    {
+      "meaning_id": "cm-qanit-eatlittle",
+      "headword_arabic": "قَنِيتٌ",
+      "definition": "A woman who eats little.",
+      "usage_conditions": "A distinct adjective or noun with a specialized description of a woman's eating little.",
+      "source_refs": [
+        "lane:entry:9003"
+      ]
+    },
+    {
+      "meaning_id": "cm-qanit-skin",
+      "headword_arabic": "قَنِيتٌ",
+      "definition": "A skin or leather container that retains water and does not exude.",
+      "usage_conditions": "A technical description of a watertight skin container.",
+      "source_refs": [
+        "lane:entry:9003"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qnt-verb-s1",
+        "qnt-ap-s1"
+      ],
+      "note": "Obedience and the distinction between religious obedience and subjection to divine will are covered by the Quranic senses."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qnut-standing"
+      ],
+      "note": "Standing and prolonged standing in prayer are represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qnut-supplication"
+      ],
+      "note": "Supplication, especially the standing prayer supplication, is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qnut-prayer"
+      ],
+      "note": "The synonymic prayer usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qnt-ap-s2"
+      ],
+      "note": "Prayerful silence and withholding ordinary speech are covered by the worship-and-prayer sense."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qnt-ap-s2"
+      ],
+      "note": "Service of God is covered by devoted worship."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qnut-pilgrimage"
+      ],
+      "note": "Continuation of pilgrimage is represented as a Classical specialization."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qnut-war"
+      ],
+      "note": "Prolonged warfare or raiding is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qnut-servanthood"
+      ],
+      "note": "Acknowledged servant status is represented separately from obedience."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qnt-humble"
+      ],
+      "note": "General interpersonal humility and submissiveness, including the woman-husband construction, are represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:8999:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qanata-eatlittle"
+      ],
+      "note": "The distinct eating-little noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:9000:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-qnut-standing"
+      ],
+      "note": "The Form IV standing-in-prayer usage is covered by the represented standing meaning."
+    },
+    {
+      "unit_id": "lane-unit:qnt:9000:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-aqnt-curse"
+      ],
+      "note": "The Form IV enemy-cursing usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:9000:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qnt:9000:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-aqnt-humble"
+      ],
+      "note": "The Form IV self-humbling-to-God usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:9001:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-iqnt-tractable"
+      ],
+      "note": "The Form VIII becoming tractable or submissive is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:9002:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qanut-wife"
+      ],
+      "note": "The specialized noun for a submissive and obedient woman is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:9003:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qanit-eatlittle"
+      ],
+      "note": "The قَنِيتٌ description of a woman who eats little is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:9003:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qanit-skin"
+      ],
+      "note": "The technical watertight-skin usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:qnt:9004:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer and inflectional description of قَانِتٌ; it adds no independent lexical branch."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,103 @@
+{
+  "root": "mdn",
+  "arabic": "مدن",
+  "root_idea": {
+    "summary": "The supplied lexical evidence centers on مَدِينَة, a city or settled urban place, together with its plural forms.",
+    "development": "The evidence records مدينة as a فعيلة noun, its plural مُدُن, and a related expression for making or founding a city; it does not establish a broader abstract root principle.",
+    "source_refs": [
+      "maqayis:row:4327",
+      "mufradat:row:1353"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mdn:madaA^}in:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "mdn_madina",
+      "reason": "مَدَآئِن is a broken plural of مدينة and is presented under the singular dictionary citation headword."
+    },
+    {
+      "form_group_id": "qac-form:mdn:madiynap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mdn_madina",
+      "reason": "Normalized singular nominal citation form for the Quranic forms مدينة and مَدَآئِن."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mdn_madina",
+      "form_group_ids": [
+        "qac-form:mdn:madiynap:nominal:-",
+        "qac-form:mdn:madaA^}in:nominal:-"
+      ],
+      "headword_arabic": "مَدِينَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 17,
+      "senses": [
+        {
+          "sense_id": "mdn_madina_s1",
+          "definition": "A city or town; an inhabited urban settlement.",
+          "usage_conditions": "Used as a common noun and, in some Quranic occurrences, as the proper name al-Madīnah. The supplied plural مَدَآئِن is included under this citation headword.",
+          "source_refs": [
+            "mufradat:row:1353"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:53",
+          "word_location": "26:53:4",
+          "sense_ids": [
+            "mdn_madina_s1"
+          ]
+        },
+        {
+          "verse_key": "18:82",
+          "word_location": "18:82:7",
+          "sense_ids": [
+            "mdn_madina_s1"
+          ]
+        },
+        {
+          "verse_key": "9:101",
+          "word_location": "9:101:8",
+          "sense_ids": [
+            "mdn_madina_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mdn_class_guide_idiom",
+      "headword_arabic": "مَدِينَتِهَا",
+      "definition": "A skilful guide, in the idiomatic expression “he is the son of her city.”",
+      "usage_conditions": "A fixed phrase-level Classical Arabic usage; it is not a general independent meaning of مدينة.",
+      "source_refs": [
+        "lane:entry:5648"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mdn:5647:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the ميد entry."
+    },
+    {
+      "unit_id": "lane-unit:mdn:5648:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mdn_class_guide_idiom"
+      ],
+      "note": "Idiomatic expression denoting a skilful guide."
+    }
+  ],
+  "cautions": [
+    "The ordinary Quranic city meaning is directly supported by the Quran-focused lexical evidence; the supplied Lane material is limited to a pointer and a phrase-level idiom."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

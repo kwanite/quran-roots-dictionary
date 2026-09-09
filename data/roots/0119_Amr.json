@@ -1,0 +1,1695 @@
+{
+  "root": "Amr",
+  "arabic": "أمر",
+  "root_idea": {
+    "summary": "The root centers on directing or determining—an order, command, or matter—while also preserving related branches for growth, markers, and extraordinary or grievous things.",
+    "development": "Classical analysis distinguishes several lexical branches: أَمْرٌ as a matter or command, أَمَرَ as directing someone, and related formations for authority, consultation, abundance, signs, and wonder or severity. These branches should not be reduced to one direct meaning of every Quranic form.",
+    "source_refs": [
+      "maqayis:row:142",
+      "mufradat:row:54"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Amr:>amara:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_amar_v1",
+      "reason": "Normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Amr:ya>otamiru:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ittamara_v8",
+      "reason": "Normalized Form VIII perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Amr:'aAmiruwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_amir_activepart",
+      "reason": "Presented under the singular active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:Amr:<imor:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_imr_adj",
+      "reason": "Distinct Quranic adjective."
+    },
+    {
+      "form_group_id": "qac-form:Amr:>amor:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_amr_noun",
+      "reason": "Normalized nominal citation form."
+    },
+    {
+      "form_group_id": "qac-form:Amr:>am~aArap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ammarah_noun",
+      "reason": "Distinct intensive feminine nominal form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_amar_v1",
+      "form_group_ids": [
+        "qac-form:Amr:>amara:verb:I"
+      ],
+      "headword_arabic": "أَمَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 77,
+      "senses": [
+        {
+          "sense_id": "sense_amar_command",
+          "definition": "To command, order, bid, or enjoin someone to do something.",
+          "usage_conditions": "Used with a direct object and with constructions such as أَمَرَهُ بِهِ, أَمَرَهُ إِيَّاهُ, أَمَرَهُ أَنْ يَفْعَلَ, or أَمَرَهُ لِيَفْعَلَ. Voice, tense, and imperative forms do not create separate senses.",
+          "source_refs": [
+            "lane:entry:7187",
+            "mufradat:row:54"
+          ]
+        },
+        {
+          "sense_id": "sense_amar_variant_multiply",
+          "definition": "In reported variant readings or interpretations of Qur’an 17:16, to cause the inhabitants to multiply or to make them authorities.",
+          "usage_conditions": "This is a reading- and interpretation-specific Quranic branch associated with أَمَرْنَا مُتْرَفِيهَا; the ordinary reading and interpretation mean that the inhabitants were commanded, after which they transgressed.",
+          "source_refs": [
+            "lane:entry:7187",
+            "lane:entry:7190",
+            "mufradat:row:54"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:67",
+          "word_location": "2:67:7",
+          "sense_ids": [
+            "sense_amar_command"
+          ]
+        },
+        {
+          "verse_key": "20:132",
+          "word_location": "20:132:1",
+          "sense_ids": [
+            "sense_amar_command"
+          ]
+        },
+        {
+          "verse_key": "17:16",
+          "word_location": "17:16:6",
+          "sense_ids": [
+            "sense_amar_command",
+            "sense_amar_variant_multiply"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ittamara_v8",
+      "form_group_ids": [
+        "qac-form:Amr:ya>otamiru:verb:VIII"
+      ],
+      "headword_arabic": "ائْتَمَرَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_ittamara_consult",
+          "definition": "To consult or confer together, mutually direct one another, and settle on a course of action.",
+          "usage_conditions": "In Quranic constructions with بِ, the participants may be understood as consulting one another, mutually commanding one another, or agreeing on a purpose; the surrounding matter determines the precise English rendering.",
+          "source_refs": [
+            "lane:entry:7193",
+            "mufradat:row:54"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:20",
+          "word_location": "28:20:11",
+          "sense_ids": [
+            "sense_ittamara_consult"
+          ]
+        },
+        {
+          "verse_key": "65:6",
+          "word_location": "65:6:25",
+          "sense_ids": [
+            "sense_ittamara_consult"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_amir_activepart",
+      "form_group_ids": [
+        "qac-form:Amr:'aAmiruwn:nominal:-"
+      ],
+      "headword_arabic": "آمِرٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_amir_active_commander",
+          "definition": "One who commands, orders, or enjoins.",
+          "usage_conditions": "The Quranic form is plural in occurrence and is presented here under the singular active-participle citation form.",
+          "source_refs": [
+            "lane:entry:7214",
+            "mufradat:row:54"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:112",
+          "word_location": "9:112:7",
+          "sense_ids": [
+            "sense_amir_active_commander"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_imr_adj",
+      "form_group_ids": [
+        "qac-form:Amr:<imor:nominal:-"
+      ],
+      "headword_arabic": "إِمْرٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_imr_grievous",
+          "definition": "Grievous, terrible, abominable, or otherwise extraordinary.",
+          "usage_conditions": "In the Quranic expression شَيْئًا إِمْرًا, it characterizes an act or event as exceptionally grave or shocking; the lexicons record several closely related renderings.",
+          "source_refs": [
+            "lane:entry:7196",
+            "mufradat:row:54"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:71",
+          "word_location": "18:71:15",
+          "sense_ids": [
+            "sense_imr_grievous"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_amr_noun",
+      "form_group_ids": [
+        "qac-form:Amr:>amor:nominal:-"
+      ],
+      "headword_arabic": "أَمْرٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 166,
+      "senses": [
+        {
+          "sense_id": "sense_amr_matter",
+          "definition": "A matter, affair, case, state, concern, event, action, or thing at issue.",
+          "usage_conditions": "This broad nominal sense includes a person’s or community’s affairs and an event or state of affairs; the plural is أُمُورٌ.",
+          "source_refs": [
+            "lane:entry:7195",
+            "mufradat:row:54"
+          ]
+        },
+        {
+          "sense_id": "sense_amr_command_noun",
+          "definition": "A command, order, bidding, injunction, decree, ordinance, or prescript.",
+          "usage_conditions": "The noun can denote a directive issued to another, or the directive itself, including a prescribed course of action.",
+          "source_refs": [
+            "lane:entry:7195",
+            "mufradat:row:54"
+          ]
+        },
+        {
+          "sense_id": "sense_amr_divine_decree",
+          "definition": "God’s command, creative act, governing decree, purpose, or ordained outcome.",
+          "usage_conditions": "In divine contexts this can refer to creation and bringing into being, the execution of God’s decree, His purpose, or an ordained punishment; it is distinct from an ordinary human order.",
+          "source_refs": [
+            "lane:entry:7195",
+            "mufradat:row:54"
+          ]
+        },
+        {
+          "sense_id": "sense_amr_authority",
+          "definition": "Authority, rule, governance, or jurisdiction; the sphere of command.",
+          "usage_conditions": "In expressions such as أُولِي الْأَمْرِ it refers to those entrusted with command or rule, with the Quranic discussion also extending the expression to qualified religious and learned authorities.",
+          "source_refs": [
+            "lane:entry:7195",
+            "mufradat:row:54"
+          ]
+        },
+        {
+          "sense_id": "sense_amr_own_judgment",
+          "definition": "One’s own judgment, choice, initiative, or accord.",
+          "usage_conditions": "Especially in the construction عَنْ أَمْرِي, it indicates that an act was not performed on someone else’s command but on one’s own judgment or choice.",
+          "source_refs": [
+            "lane:entry:7195",
+            "mufradat:row:54"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:123",
+          "word_location": "11:123:7",
+          "sense_ids": [
+            "sense_amr_matter"
+          ]
+        },
+        {
+          "verse_key": "44:5",
+          "word_location": "44:5:1",
+          "sense_ids": [
+            "sense_amr_command_noun"
+          ]
+        },
+        {
+          "verse_key": "16:1",
+          "word_location": "16:1:2",
+          "sense_ids": [
+            "sense_amr_divine_decree"
+          ]
+        },
+        {
+          "verse_key": "4:59",
+          "word_location": "4:59:9",
+          "sense_ids": [
+            "sense_amr_authority"
+          ]
+        },
+        {
+          "verse_key": "18:82",
+          "word_location": "18:82:28",
+          "sense_ids": [
+            "sense_amr_own_judgment"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ammarah_noun",
+      "form_group_ids": [
+        "qac-form:Amr:>am~aArap:nominal:-"
+      ],
+      "headword_arabic": "أَمَّارَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_ammarah_urging",
+          "definition": "Habitually commanding or strongly urging; an urging force.",
+          "usage_conditions": "In the Quranic phrase النَّفْسُ الأَمَّارَةُ بِالسُّوءِ, it describes the soul as persistently urging toward evil desires and conduct.",
+          "source_refs": [
+            "lane:entry:7212",
+            "lane:entry:7213",
+            "mufradat:row:54"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:53",
+          "word_location": "12:53:6",
+          "sense_ids": [
+            "sense_ammarah_urging"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_amar_advice",
+      "headword_arabic": "أَمَرَ",
+      "definition": "To counsel or advise someone concerning what ought to be done.",
+      "usage_conditions": "A specialized use reflected in the imperative مُرْنِي, “advise me.”",
+      "source_refs": [
+        "lane:entry:7187"
+      ]
+    },
+    {
+      "meaning_id": "cm_amar_capture",
+      "headword_arabic": "أَمَرَ",
+      "definition": "Of a wild animal, to make an observer desirous of capturing it.",
+      "usage_conditions": "A specialized usage said of the animal and the effect it produces on the beholder.",
+      "source_refs": [
+        "lane:entry:7187"
+      ]
+    },
+    {
+      "meaning_id": "cm_amar_govern",
+      "headword_arabic": "أَمَرَ",
+      "definition": "To hold command, preside, govern, or become a commander or ruler.",
+      "usage_conditions": "This intransitive branch is used with عَلَى for authority over a people.",
+      "source_refs": [
+        "lane:entry:7187"
+      ]
+    },
+    {
+      "meaning_id": "cm_amar_multiply",
+      "headword_arabic": "أَمَرَ",
+      "definition": "To multiply, become numerous, abundant, or complete.",
+      "usage_conditions": "A distinct vocalized and lexical branch, used of people, property, animals, or progeny.",
+      "source_refs": [
+        "lane:entry:7187"
+      ]
+    },
+    {
+      "meaning_id": "cm_amar_severe",
+      "headword_arabic": "أَمِرَ الأَمْرُ",
+      "definition": "For an affair or case to become severe, distressful, grievous, or afflictive.",
+      "usage_conditions": "Used of an affair or situation that has become burdensome or distressing.",
+      "source_refs": [
+        "lane:entry:7187"
+      ]
+    },
+    {
+      "meaning_id": "cm_amr_form2_appoint",
+      "headword_arabic": "أَمَّرَ",
+      "definition": "To appoint someone commander, governor, ruler, judge, or umpire.",
+      "usage_conditions": "The causative Form II construction makes the person the holder of authority or an adjudicator.",
+      "source_refs": [
+        "lane:entry:7188"
+      ]
+    },
+    {
+      "meaning_id": "cm_amr_form2_spear",
+      "headword_arabic": "أَمَّرَ",
+      "definition": "To affix a spearhead to a cane or spear.",
+      "usage_conditions": "A specialized technical use concerning the preparation of a weapon.",
+      "source_refs": [
+        "lane:entry:7188"
+      ]
+    },
+    {
+      "meaning_id": "cm_amr_form2_mark",
+      "headword_arabic": "أَمَّرَ",
+      "definition": "To make something a sign or mark by which the way is shown.",
+      "usage_conditions": "A specialized causative use of making an object serve as a guide or landmark.",
+      "source_refs": [
+        "lane:entry:7188"
+      ]
+    },
+    {
+      "meaning_id": "cm_amr_form3_consult",
+      "headword_arabic": "آمَرَ",
+      "definition": "To consult someone concerning his affair or case.",
+      "usage_conditions": "The object of consultation is introduced in the construction فِي أَمْرِهِ; the form is also used in consultation concerning marriage or another decision.",
+      "source_refs": [
+        "lane:entry:7189"
+      ]
+    },
+    {
+      "meaning_id": "cm_amr_form4_multiply",
+      "headword_arabic": "آمَرَ",
+      "definition": "To multiply or make numerous, abundant, or prolific.",
+      "usage_conditions": "A Form IV branch distinct from the ordinary command verb; it is also reported for property, animals, and progeny.",
+      "source_refs": [
+        "lane:entry:7190"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamarr_authority",
+      "headword_arabic": "تَأَمَّرَ",
+      "definition": "To become appointed commander or ruler, or to acquire authority and dominion.",
+      "usage_conditions": "Used with عَلَى for authority over a group.",
+      "source_refs": [
+        "lane:entry:7191"
+      ]
+    },
+    {
+      "meaning_id": "cm_ittamar_obey",
+      "headword_arabic": "ائْتَمَرَ",
+      "definition": "To obey, comply with, or conform to a command.",
+      "usage_conditions": "The command may be external or figuratively the command of one’s own mind.",
+      "source_refs": [
+        "lane:entry:7193"
+      ]
+    },
+    {
+      "meaning_id": "cm_ittamar_selfdeliberate",
+      "headword_arabic": "ائْتَمَرَ",
+      "definition": "To deliberate within oneself, follow one’s own opinion, or determine on a course of action.",
+      "usage_conditions": "The construction can describe undertaking something without consulting others or forming and settling one’s own judgment.",
+      "source_refs": [
+        "lane:entry:7193"
+      ]
+    },
+    {
+      "meaning_id": "cm_amr_imperative",
+      "headword_arabic": "أَمْرٌ",
+      "definition": "In grammatical terminology, the imperative form of a verb.",
+      "usage_conditions": "A technical grammatical use of the noun, not a separate ordinary Quranic lexical sense.",
+      "source_refs": [
+        "lane:entry:7195"
+      ]
+    },
+    {
+      "meaning_id": "cm_amir_abundant",
+      "headword_arabic": "أَمِرٌ",
+      "definition": "Abundant, multiplied, or prosperous in increase.",
+      "usage_conditions": "Used of crops, property, animals, progeny, or a person blessed with abundant property or offspring.",
+      "source_refs": [
+        "lane:entry:7198"
+      ]
+    },
+    {
+      "meaning_id": "cm_amir_severe",
+      "headword_arabic": "أَمِرٌ",
+      "definition": "Severe, distressful, or afflictive.",
+      "usage_conditions": "An adjectival branch related to the description of a grievous affair.",
+      "source_refs": [
+        "lane:entry:7198"
+      ]
+    },
+    {
+      "meaning_id": "cm_amra_singlecommand",
+      "headword_arabic": "أَمْرَةٌ",
+      "definition": "A single command, order, bidding, or injunction.",
+      "usage_conditions": "Used for one directive that the addressee is expected to obey.",
+      "source_refs": [
+        "lane:entry:7199"
+      ]
+    },
+    {
+      "meaning_id": "cm_imra_authority",
+      "headword_arabic": "إِمْرَةٌ",
+      "definition": "Possession of command; the office or authority of a commander, governor, prince, or king.",
+      "usage_conditions": "Names the state or office of ruling rather than the person who holds it.",
+      "source_refs": [
+        "lane:entry:7200"
+      ]
+    },
+    {
+      "meaning_id": "cm_imra_prosperity",
+      "headword_arabic": "إِمْرَةٌ",
+      "definition": "Increase, abundance, prosperity, or manifest goodness in property or circumstances.",
+      "usage_conditions": "A transferred branch used of the increase and prosperous state recognized in property or in an immediately apparent thing.",
+      "source_refs": [
+        "lane:entry:7200"
+      ]
+    },
+    {
+      "meaning_id": "cm_amar_stones",
+      "headword_arabic": "أَمَرَةٌ",
+      "definition": "A heap of stones, hill, or constructed stone landmark; a sign or waymark.",
+      "usage_conditions": "Includes a marker prepared to guide travelers in a waterless region and larger stone structures used as landmarks.",
+      "source_refs": [
+        "lane:entry:7201"
+      ]
+    },
+    {
+      "meaning_id": "cm_amar_sign",
+      "headword_arabic": "أَمَارٌ",
+      "definition": "A sign, mark, token, or indication.",
+      "usage_conditions": "Used for something by which another matter or relationship is recognized.",
+      "source_refs": [
+        "lane:entry:7202"
+      ]
+    },
+    {
+      "meaning_id": "cm_amar_time",
+      "headword_arabic": "أَمَارٌ",
+      "definition": "A time, or an appointed time or place of meeting.",
+      "usage_conditions": "A specialized use synonymous with an appointed occasion or rendezvous.",
+      "source_refs": [
+        "lane:entry:7202"
+      ]
+    },
+    {
+      "meaning_id": "cm_amur_intensive",
+      "headword_arabic": "أَمُورٌ",
+      "definition": "One who strongly commands or enjoins.",
+      "usage_conditions": "An intensive epithet, especially in the expression of one who strongly enjoins good conduct and forbids evil.",
+      "source_refs": [
+        "lane:entry:7203"
+      ]
+    },
+    {
+      "meaning_id": "cm_amir_holder",
+      "headword_arabic": "أَمِيرٌ",
+      "definition": "A person who holds command: a commander, governor, lord, prince, or king.",
+      "usage_conditions": "The ordinary personal noun for a holder of authority; its plural is أُمَرَاءُ.",
+      "source_refs": [
+        "lane:entry:7204"
+      ]
+    },
+    {
+      "meaning_id": "cm_amir_blind",
+      "headword_arabic": "أَمِيرٌ",
+      "definition": "A leader or guide of the blind.",
+      "usage_conditions": "A specialized figurative or contextual use in which the leader guides people unable to see their way.",
+      "source_refs": [
+        "lane:entry:7204"
+      ]
+    },
+    {
+      "meaning_id": "cm_amir_husband",
+      "headword_arabic": "أَمِيرٌ",
+      "definition": "A woman’s husband.",
+      "usage_conditions": "A specialized lexical use recorded for the masculine form.",
+      "source_refs": [
+        "lane:entry:7204"
+      ]
+    },
+    {
+      "meaning_id": "cm_amir_neighbor",
+      "headword_arabic": "أَمِيرٌ",
+      "definition": "A neighbor.",
+      "usage_conditions": "A rare nominal use recorded independently from the authority sense.",
+      "source_refs": [
+        "lane:entry:7204"
+      ]
+    },
+    {
+      "meaning_id": "cm_amir_consultant",
+      "headword_arabic": "أَمِيرٌ",
+      "definition": "A person whose counsel is sought; a consultant or adviser.",
+      "usage_conditions": "Used of one from whom advice is requested, especially in a matter involving fear or uncertainty.",
+      "source_refs": [
+        "lane:entry:7204"
+      ]
+    },
+    {
+      "meaning_id": "cm_imara_holder",
+      "headword_arabic": "إِمَارَةٌ",
+      "definition": "The holder of an emirate or authority, by extension the commander himself.",
+      "usage_conditions": "A metonymic use of the office-name for its incumbent.",
+      "source_refs": [
+        "lane:entry:7206"
+      ]
+    },
+    {
+      "meaning_id": "cm_immar_stupid",
+      "headword_arabic": "إِمَّرٌ",
+      "definition": "A foolish or weak-judgment person who obeys everyone and cannot settle on an opinion.",
+      "usage_conditions": "Applied to a man or woman; the intensified form may describe someone compliant with whatever others wish.",
+      "source_refs": [
+        "lane:entry:7208"
+      ]
+    },
+    {
+      "meaning_id": "cm_immar_lamb",
+      "headword_arabic": "إِمَّرٌ",
+      "definition": "A young lamb or kid.",
+      "usage_conditions": "The form distinguishes male and female young animals in some reported usages and can also mean anything in an idiomatic expression.",
+      "source_refs": [
+        "lane:entry:7208"
+      ]
+    },
+    {
+      "meaning_id": "cm_amir_day",
+      "headword_arabic": "آمِرٌ",
+      "definition": "A traditional name for the sixth day among the أيام العجوز.",
+      "usage_conditions": "A calendrical name preserved alongside مُؤْتَمِرٌ for the following day.",
+      "source_refs": [
+        "lane:entry:7214"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_soul",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "The soul or self.",
+      "usage_conditions": "Explained as that which is accustomed to command; orthographic variants occur with and without the hamza.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_intellect",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "The intellect or faculty by which one knows and understands.",
+      "usage_conditions": "A specialized figurative use in expressions about knowing something by one’s intellect.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_heart",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "The heart.",
+      "usage_conditions": "Used literally and in expressions locating an inner conviction or word in the heart.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_pericardium",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "The pericardium or covering of the heart.",
+      "usage_conditions": "An anatomical use distinct from the broader heart and life-blood senses.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_blood",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "The core or inner substance of the heart, its blood, life-blood, or life.",
+      "usage_conditions": "The lexical branch includes the inner clot or vital blood and, by extension, the life of the soul.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_wine",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "Wine.",
+      "usage_conditions": "A figurative extension associated with the appearance or nature of blood.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_dye",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "A dye.",
+      "usage_conditions": "A transferred technical or material use.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_saffron",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "Saffron.",
+      "usage_conditions": "A specialized material use recorded as a transferred sense.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_water",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "Water, especially water in a well.",
+      "usage_conditions": "A figurative or transferred use found in the expression for a well containing no water.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_vizier",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "The vizier of a king.",
+      "usage_conditions": "Explained through the effectiveness of the vizier’s command.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_any",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "Any person, human being, or, in some expressions, anyone or anything.",
+      "usage_conditions": "Often attested in negative phrases, though some authorities allow affirmative use as well.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_child",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "A child, young one, or fetus.",
+      "usage_conditions": "A nominal use synonymous with وَلَدٌ.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_container",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "A receptacle or container, including the receptacle of a child or fetus.",
+      "usage_conditions": "The ordinary container sense also appears figuratively in references to what one carries or keeps in one’s own mind.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_ewer",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "A ewer or vessel for wine.",
+      "usage_conditions": "A specialized vessel sense, with some authorities specifying a small container in which wine is kept.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_monkcell",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "The chamber or cell of a monk.",
+      "usage_conditions": "A specialized architectural use.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_lioncovert",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "The covert or retreat of a lion.",
+      "usage_conditions": "A figurative use in the expression for a lion in the place or condition of its courage and concealment.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamur_play",
+      "headword_arabic": "تَأْمُورٌ",
+      "definition": "Play or sport of girls or boys.",
+      "usage_conditions": "A specialized use distinct from the bodily and container senses.",
+      "source_refs": [
+        "lane:entry:7217"
+      ]
+    },
+    {
+      "meaning_id": "cm_tumur_waymark",
+      "headword_arabic": "تُؤْمُورٌ",
+      "definition": "A stone sign or waymark set up to show the way in a waterless desert.",
+      "usage_conditions": "The plural is recorded as تَآمِيرُ; the form is related in meaning to the stone-marker branch of أَمَرَةٌ.",
+      "source_refs": [
+        "lane:entry:7218"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamura_pericardium",
+      "headword_arabic": "تَأْمُورَةٌ",
+      "definition": "The pericardium or integument of the heart.",
+      "usage_conditions": "A feminine nominal variant used in an anatomical sense.",
+      "source_refs": [
+        "lane:entry:7219"
+      ]
+    },
+    {
+      "meaning_id": "cm_miammar_counsel",
+      "headword_arabic": "مِئْمَرٌ",
+      "definition": "Counsel or advice.",
+      "usage_conditions": "Used in expressions describing someone as distant from counsel or advice.",
+      "source_refs": [
+        "lane:entry:7221"
+      ]
+    },
+    {
+      "meaning_id": "cm_muammar_authority",
+      "headword_arabic": "مُؤَمَّرٌ",
+      "definition": "Made or appointed commander, governor, ruler, prince, or king; invested with authority.",
+      "usage_conditions": "The passive participle may also describe an object metaphorically endowed with effective authority.",
+      "source_refs": [
+        "lane:entry:7222"
+      ]
+    },
+    {
+      "meaning_id": "cm_muammar_spearshaft",
+      "headword_arabic": "مُؤَمَّرٌ",
+      "definition": "A cane or spear-shaft fitted with a spearhead.",
+      "usage_conditions": "A specialized weapon term derived from the appointing or affixing sense.",
+      "source_refs": [
+        "lane:entry:7222"
+      ]
+    },
+    {
+      "meaning_id": "cm_muammar_spearhead",
+      "headword_arabic": "مُؤَمَّرٌ",
+      "definition": "A sharpened spearhead.",
+      "usage_conditions": "A specialized weapon sense.",
+      "source_refs": [
+        "lane:entry:7222"
+      ]
+    },
+    {
+      "meaning_id": "cm_muammar_marked",
+      "headword_arabic": "مُؤَمَّرٌ",
+      "definition": "Distinguished or marked by signs, marks, or branding.",
+      "usage_conditions": "The marking may be understood as a sign or, according to one report, a hot-iron mark.",
+      "source_refs": [
+        "lane:entry:7222"
+      ]
+    },
+    {
+      "meaning_id": "cm_mamur_prolific",
+      "headword_arabic": "مَأْمُورٌ",
+      "definition": "Made prolific or abundant, especially in offspring.",
+      "usage_conditions": "In the expression for a prolific filly, the meaning is described as a tropical or dialectal extension and is explicitly attributed to variant usage.",
+      "source_refs": [
+        "lane:entry:7223"
+      ]
+    },
+    {
+      "meaning_id": "cm_mutamir_self",
+      "headword_arabic": "مُؤْتَمِرٌ",
+      "definition": "One who acts according to his own opinion, follows only his own judgment, or hastens to speak.",
+      "usage_conditions": "A participial description related to the self-deliberating and self-directed branch of ائْتَمَرَ.",
+      "source_refs": [
+        "lane:entry:7225"
+      ]
+    },
+    {
+      "meaning_id": "cm_mutamir_month",
+      "headword_arabic": "مُؤْتَمِرٌ",
+      "definition": "An old name for the month now commonly called المُحَرَّم.",
+      "usage_conditions": "A historical tribal month-name, with irregular plural forms recorded.",
+      "source_refs": [
+        "lane:entry:7225"
+      ]
+    },
+    {
+      "meaning_id": "cm_yamur_beast",
+      "headword_arabic": "يَأْمُورٌ",
+      "definition": "A wild animal, including a mountain-goat-like animal or a beast with a single branching horn.",
+      "usage_conditions": "The lexicons record several identifications, including a sea animal, a small beast, and an animal resembling the oryx; the identifications are not uniform.",
+      "source_refs": [
+        "lane:entry:7226"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Amr:7187:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_amar_command"
+      ],
+      "note": "Command meaning represented; inflectional details are not separate senses."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7187:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_amar_command"
+      ],
+      "note": "Command constructions are covered by the command sense."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7187:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_amar_command",
+        "sense_amar_variant_multiply"
+      ],
+      "note": "Quranic 17:16 interpretations are both preserved."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7187:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amar_advice"
+      ],
+      "note": "Counseling branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7187:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amar_capture"
+      ],
+      "note": "Specialized wild-animal use represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7187:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amar_govern"
+      ],
+      "note": "Intransitive authority branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7187:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7187:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amar_multiply"
+      ],
+      "note": "Abundance branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7187:g4:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_amar_multiply"
+      ],
+      "note": "Animal and property examples add no separate branch."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7187:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amar_severe"
+      ],
+      "note": "Severe-affair branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7188:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amr_form2_appoint"
+      ],
+      "note": "Appointment to authority represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7188:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_amr_form2_appoint"
+      ],
+      "note": "Appointment as judge or umpire is covered."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7188:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amr_form2_spear"
+      ],
+      "note": "Weapon-making use represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7188:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amr_form2_mark"
+      ],
+      "note": "Making a sign or mark represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7189:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amr_form3_consult"
+      ],
+      "note": "Consultation with another represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7190:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7190:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_amar_variant_multiply",
+        "cm_amr_form4_multiply"
+      ],
+      "note": "Form IV abundance and its Quranic variant-reading relevance are preserved."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7190:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7191:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamarr_authority"
+      ],
+      "note": "Acquiring authority represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7191:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7192:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form VIII."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7193:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ittamar_obey"
+      ],
+      "note": "Obeying or conforming to a command represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7193:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ittamar_selfdeliberate"
+      ],
+      "note": "Acting on one’s own opinion represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7193:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_ittamar_selfdeliberate"
+      ],
+      "note": "Forming and consulting one’s own judgment is covered."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7193:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_ittamara_consult",
+        "cm_ittamar_selfdeliberate"
+      ],
+      "note": "Mutual consultation and determining a purpose are both covered."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7193:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7193:g1:sub6",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "A permission sense is reported but explicitly said not to be attested in Arabic."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7194:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form III."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7195:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_amr_command_noun",
+        "sense_amr_divine_decree",
+        "sense_amr_authority",
+        "sense_amr_own_judgment",
+        "cm_amr_imperative"
+      ],
+      "note": "Command, divine decree, authority, own judgment, and grammatical uses are all represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7195:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_amr_matter"
+      ],
+      "note": "Matter, affair, state, and event branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7195:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_amr_command_noun"
+      ],
+      "note": "Universal prescript or canon is covered by the command-and-prescript sense."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7196:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_imr_grievous"
+      ],
+      "note": "Quranic grievous or extraordinary sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7197:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Collective-noun and cross-reference information without an independent definition."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7197:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7198:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7198:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amir_abundant"
+      ],
+      "note": "Abundance adjective represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7198:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_amir_abundant"
+      ],
+      "note": "Prosperity and prolific property are covered by abundance."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7198:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amir_severe"
+      ],
+      "note": "Severe or afflictive adjective represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7199:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amra_singlecommand"
+      ],
+      "note": "Single-command noun represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7199:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7200:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_imra_authority"
+      ],
+      "note": "Office and possession of command represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7200:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_imra_prosperity"
+      ],
+      "note": "Increase, abundance, and prosperity branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7201:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amar_stones"
+      ],
+      "note": "Stones, hills, signs, and waymarks synthesized under the landmark branch."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7201:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7202:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amar_sign"
+      ],
+      "note": "Sign or token branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7202:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amar_time"
+      ],
+      "note": "Appointed time or place branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7203:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amur_intensive"
+      ],
+      "note": "Intensive commander or enjoiner represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7204:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amir_holder"
+      ],
+      "note": "Authority-holder sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7204:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amir_blind"
+      ],
+      "note": "Leader of the blind represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7204:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amir_husband"
+      ],
+      "note": "Husband sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7204:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amir_neighbor"
+      ],
+      "note": "Neighbor sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7204:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amir_consultant"
+      ],
+      "note": "Consultant or adviser sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7205:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7205:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7206:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7206:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_imara_holder"
+      ],
+      "note": "Metonymic use for the office-holder represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7207:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7208:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_immar_stupid"
+      ],
+      "note": "Weak-judgment person who obeys everyone represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7208:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_immar_lamb"
+      ],
+      "note": "Young lamb or kid sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7209:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7210:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7210:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7211:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7212:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_ammarah_urging"
+      ],
+      "note": "The habitual commanding branch is represented in the Quranic feminine form."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7213:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_ammarah_urging"
+      ],
+      "note": "Feminine-form pointer and definition are covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7213:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7214:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_amir_active_commander"
+      ],
+      "note": "Active-participle morphology and meaning are represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7214:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_amir_day"
+      ],
+      "note": "Calendrical day-name sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7215:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7216:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Morphological and orthographic commentary without an independent meaning."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_soul"
+      ],
+      "note": "Soul or self sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_intellect"
+      ],
+      "note": "Intellect sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_heart"
+      ],
+      "note": "Heart sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_pericardium"
+      ],
+      "note": "Pericardium sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_blood"
+      ],
+      "note": "Blood, life-blood, and vital-inner-substance branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_wine"
+      ],
+      "note": "Wine sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_dye"
+      ],
+      "note": "Dye sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_saffron"
+      ],
+      "note": "Saffron sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_water"
+      ],
+      "note": "Water sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_vizier"
+      ],
+      "note": "Vizier sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_any"
+      ],
+      "note": "Any person or anyone branch represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g3:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_tamur_any"
+      ],
+      "note": "Anything is covered by the person-or-thing branch."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_child"
+      ],
+      "note": "Child, young one, or fetus represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_container"
+      ],
+      "note": "Receptacle of child or fetus represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g5:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_tamur_container"
+      ],
+      "note": "Ordinary container and figurative mind use are covered."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g5:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_ewer"
+      ],
+      "note": "Wine-vessel sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g5:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_monkcell"
+      ],
+      "note": "Monk’s cell sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g5:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_lioncovert"
+      ],
+      "note": "Lion’s covert sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g6:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamur_play"
+      ],
+      "note": "Children’s play or sport represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7217:g7:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7218:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tumur_waymark"
+      ],
+      "note": "Desert waymark sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7218:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7219:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7219:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamura_pericardium"
+      ],
+      "note": "Feminine anatomical sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7220:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7221:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_miammar_counsel"
+      ],
+      "note": "Counsel or advice noun represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7222:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muammar_authority"
+      ],
+      "note": "Made-authority sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7222:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muammar_spearshaft"
+      ],
+      "note": "Spear-shaft sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7222:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muammar_spearhead"
+      ],
+      "note": "Spearhead sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7222:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muammar_marked"
+      ],
+      "note": "Marked or distinguished sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7223:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only passive-participle reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7223:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mamur_prolific"
+      ],
+      "note": "Prolific-filly usage represented with its dialectal limitation."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7224:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7225:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form VIII."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7225:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mutamir_self"
+      ],
+      "note": "Self-directed judgment branch represented under its participial headword."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7225:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7225:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mutamir_month"
+      ],
+      "note": "Historical month-name sense represented."
+    },
+    {
+      "unit_id": "lane-unit:Amr:7226:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_yamur_beast"
+      ],
+      "note": "Wild-animal branch represented with its reported identifications."
+    }
+  ],
+  "cautions": [
+    "The interpretation of أَمَرْنَا مُتْرَفِيهَا in 17:16 includes reported variant readings or explanations involving multiplication and appointing authorities; the ordinary command interpretation remains separately stated.",
+    "Form VIII ائْتَمَرَ ranges between mutual consultation, mutual direction, and settling on a purpose in its two Quranic contexts.",
+    "The reported Form VIII sense “to give permission” is explicitly said by the source not to have been heard from an Arab and is therefore left unresolved.",
+    "Several rare formations, especially تَأْمُورٌ and related nouns, have dialectal, figurative, or competing lexical identifications."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:Amr:7193:g1:sub6 reports that ائْتَمَرَهُ may mean “he gave him permission,” but immediately states that this usage has not been heard from an Arab; it cannot be assigned confidently as an established Classical meaning."
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "root": "HmA",
+  "arabic": "حمأ",
+  "root_idea": {
+    "summary": "The directly attested semantic center is black or fetid mud, especially as associated with wells and water.",
+    "development": "The lexical evidence extends from the mud substance to conditions and actions involving it: water becoming turbid, wells being cleansed, and wells being filled with mud. Other homographic branches remain lexically distinct.",
+    "source_refs": [
+      "lane:entry:15581",
+      "lane:entry:15582",
+      "lane:entry:15585"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:HmA:Hama<:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:HmA:Hama",
+      "reason": "Quran-attested noun for black or dark mud."
+    },
+    {
+      "form_group_id": "qac-form:HmA:Hami}ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:HmA:Hamiap",
+      "reason": "Quran-attested feminine adjective describing a spring fouled or darkened by mud."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:HmA:Hama",
+      "form_group_ids": [
+        "qac-form:HmA:Hama<:nominal:-"
+      ],
+      "headword_arabic": "حَمَإٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform:HmA:Hama:s1",
+          "definition": "Black or dark mud, including foul-smelling mud.",
+          "usage_conditions": "Used as a noun for the mud substance named in the Quranic creation passage.",
+          "source_refs": [
+            "lane:entry:15585"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:26",
+          "word_location": "15:26:7",
+          "sense_ids": [
+            "qform:HmA:Hama:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:HmA:Hamiap",
+      "form_group_ids": [
+        "qac-form:HmA:Hami}ap:nominal:-"
+      ],
+      "headword_arabic": "حَمِئَةٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform:HmA:Hamiap:s1",
+          "definition": "Foul or darkened by black, fetid mud.",
+          "usage_conditions": "A feminine adjective describing a spring or well as fouled or darkened by such mud; in the Quranic occurrence it qualifies a spring.",
+          "source_refs": [
+            "lane:entry:15586"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:86",
+          "word_location": "18:86:10",
+          "sense_ids": [
+            "qform:HmA:Hamiap:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl:HmA:clean-well",
+      "headword_arabic": "حَمَأَ",
+      "definition": "To cleanse a well of its black or fetid mud.",
+      "usage_conditions": "A transitive construction with a well as object.",
+      "source_refs": [
+        "lane:entry:15581"
+      ]
+    },
+    {
+      "meaning_id": "cl:HmA:water-mud",
+      "headword_arabic": "حَمِئَ",
+      "definition": "Of water, to become mixed with black, fetid mud, becoming turbid and altered in odor; of a well or spring, to contain such mud abundantly.",
+      "usage_conditions": "Used of water, a well, or a spring.",
+      "source_refs": [
+        "lane:entry:15581"
+      ]
+    },
+    {
+      "meaning_id": "cl:HmA:anger",
+      "headword_arabic": "حَمِئَ عَلَيْهِ",
+      "definition": "To be angry with someone.",
+      "usage_conditions": "The construction is used with عَلَيْهِ, ‘with’ or ‘against him’.",
+      "source_refs": [
+        "lane:entry:15581"
+      ]
+    },
+    {
+      "meaning_id": "cl:HmA:add-mud",
+      "headword_arabic": "أَحْمَأَ",
+      "definition": "To throw black or fetid mud into a well.",
+      "usage_conditions": "A transitive Form IV construction with a well as object.",
+      "source_refs": [
+        "lane:entry:15582"
+      ]
+    },
+    {
+      "meaning_id": "cl:HmA:in-law",
+      "headword_arabic": "حَمْءٌ",
+      "definition": "A spouse’s male relation by marriage; especially a father-in-law, and in some usages a wife’s brother or paternal uncle.",
+      "usage_conditions": "Applies to the male relations of a woman’s husband or a man’s wife; the plural is أَحْمَاءٌ.",
+      "source_refs": [
+        "lane:entry:15583"
+      ]
+    },
+    {
+      "meaning_id": "cl:HmA:plant",
+      "headword_arabic": "حَمْأَةٌ",
+      "definition": "A certain plant growing in the sands and open or soft land of Najd.",
+      "usage_conditions": "A regionally specified plant name, distinct from the mud term.",
+      "source_refs": [
+        "lane:entry:15585"
+      ]
+    },
+    {
+      "meaning_id": "cl:HmA:evil-eye",
+      "headword_arabic": "حَمِئُ العَيْنِ",
+      "definition": "An evil-eyed man whose gaze harms those whom he sees and admires.",
+      "usage_conditions": "A fixed descriptive expression; no verb belonging to this expression is attested in the supplied evidence.",
+      "source_refs": [
+        "lane:entry:15586"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:HmA:15581:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl:HmA:clean-well"
+      ],
+      "note": "Well-cleaning verb."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15581:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl:HmA:water-mud"
+      ],
+      "note": "Water, well, and spring becoming or containing muddy water."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15581:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl:HmA:anger"
+      ],
+      "note": "Anger construction."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15582:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl:HmA:add-mud"
+      ],
+      "note": "Throwing mud into a well."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15582:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15583:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl:HmA:in-law"
+      ],
+      "note": "Male in-law terminology."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15583:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the mud entry."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15584:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the in-law entry."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15584:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15585:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:HmA:Hama:s1"
+      ],
+      "note": "Black or fetid mud."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15585:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl:HmA:plant"
+      ],
+      "note": "Named plant."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15586:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl:HmA:evil-eye"
+      ],
+      "note": "Evil-eye descriptive expression."
+    },
+    {
+      "unit_id": "lane-unit:HmA:15586:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:HmA:Hamiap:s1"
+      ],
+      "note": "A well or spring fouled with black, fetid mud."
+    }
+  ],
+  "cautions": [
+    "The lexical record contains homographic or closely variant branches, including in-law terminology, a plant name, an evil-eye expression, and an anger verb; these are kept separate from the Quranic mud senses.",
+    "No Maqayis or Mufradat evidence was supplied, so root-level development beyond the directly attested lexical record is not asserted.",
+    "The well-cleaning construction is reported with a usage disagreement in the lexical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

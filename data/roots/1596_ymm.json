@@ -1,0 +1,153 @@
+{
+  "root": "ymm",
+  "arabic": "يمم",
+  "root_idea": {
+    "summary": "Directed intention: aiming at, deliberately intending, or choosing a target.",
+    "development": "The supplied root analysis develops from قصد and تعمد toward directing intention at a specified object. It explicitly treats the sea term as separate from this core analogy.",
+    "source_refs": [
+      "maqayis:row:5265"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ymm:tayam~amu:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ymm-v-tayamama",
+      "reason": "Displayed under the normalized Classical Arabic perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:ymm:yam~:nominal:-",
+      "disposition": "EXCLUDE_WITH_REASON",
+      "target_public_form_id": null,
+      "reason": "The packet supplies Quran Foundation contextual glosses for يَمّ but no Lane primary or unique Mufradat definition establishing a Quranic form-level sense; contextual English alone is insufficient."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "ymm-v-tayamama",
+      "form_group_ids": [
+        "qac-form:ymm:tayam~amu:verb:V"
+      ],
+      "headword_arabic": "تَيَمَّمَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "ymm-v-tayamama-s1",
+          "definition": "To aim at, intend, or deliberately turn toward a chosen object.",
+          "usage_conditions": "In the Quranic purification construction, the intended object is clean earth (ṣaʿīd); this is a constructional application of the sense of deliberate aiming or seeking rather than a separate lexical meaning. The same form also denotes directing one's aim toward good things.",
+          "source_refs": [
+            "lane:entry:12184"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:267",
+          "word_location": "2:267:15",
+          "sense_ids": [
+            "ymm-v-tayamama-s1"
+          ]
+        },
+        {
+          "verse_key": "4:43",
+          "word_location": "4:43:38",
+          "sense_ids": [
+            "ymm-v-tayamama-s1"
+          ]
+        },
+        {
+          "verse_key": "5:6",
+          "word_location": "5:6:40",
+          "sense_ids": [
+            "ymm-v-tayamama-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "ymm-cl-yamm-sea",
+      "headword_arabic": "يَمّ",
+      "definition": "The sea; a large body of water.",
+      "usage_conditions": "A nominal lexical item treated separately from the root's core analogy of directed intention.",
+      "source_refs": [
+        "maqayis:row:5265"
+      ]
+    },
+    {
+      "meaning_id": "ymm-cl-muyammam-successful",
+      "headword_arabic": "مُيَمَّمٌ",
+      "definition": "One who obtains whatever he seeks; hence, one toward whom good is directed.",
+      "usage_conditions": "A descriptive use for a person, including a poetic application in which good is directed toward him.",
+      "source_refs": [
+        "maqayis:row:5265"
+      ]
+    },
+    {
+      "meaning_id": "ymm-cl-maymum-drowned",
+      "headword_arabic": "مَيْمُومٌ",
+      "definition": "One who has fallen into the sea and drowned.",
+      "usage_conditions": "A reported derived descriptive form for a person who meets this fate.",
+      "source_refs": [
+        "maqayis:row:5265"
+      ]
+    },
+    {
+      "meaning_id": "ymm-cl-yamam-bird",
+      "headword_arabic": "يَمَامٌ",
+      "definition": "A bird, described as one that breeds in houses.",
+      "usage_conditions": "A separate nominal lexical item, not a direct extension of the core meaning of directed intention.",
+      "source_refs": [
+        "maqayis:row:5265"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ymm:12183:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form II cross-references; the referenced definitions are not supplied."
+    },
+    {
+      "unit_id": "lane-unit:ymm:12184:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "ymm-v-tayamama-s1"
+      ],
+      "note": "The pointer to ṣaʿīd and the related entry is covered as the purification construction of the aim/intend sense."
+    },
+    {
+      "unit_id": "lane-unit:ymm:12184:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ymm-v-tayamama-s1"
+      ],
+      "note": "The explicit equation with قصد is represented by the Quranic Form V sense."
+    },
+    {
+      "unit_id": "lane-unit:ymm:12185:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only technical expression; the referenced definition is not supplied."
+    },
+    {
+      "unit_id": "lane-unit:ymm:12186:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حمام; no definition is supplied in the Lane packet."
+    }
+  ],
+  "cautions": [
+    "The Quranic nominal group يَمّ has contextual glosses meaning “the sea” and “the river,” but it is not assigned a numbered Quranic sense because the packet lacks qualifying direct form-level lexical evidence.",
+    "Several Lane entries are only pointers to omitted articles, so their referenced Form II and technical constructions are not expanded beyond what the supplied text securely establishes."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The eight Quranic occurrences of يَمّ are supported here only by contextual English glosses (“the sea” and “the river”) and by a Maqayis discussion; because Maqayis alone cannot establish a direct Quran-form sense, the QAC nominal group is excluded from the public Quranic forms.",
+    "The Form II phrase يَمَّمَ المَرِيضَ والمَيِّتَ in lane:entry:12183 is cross-referenced to an unsupplied article, so its precise lexical construction cannot be assigned confidently.",
+    "الفَرِيضَةُ اليَمِّيَّةُ in lane:entry:12185 is recorded only as a cross-reference to المُشَرَّكَةُ; the supplied packet does not define this technical expression."
+  ]
+}

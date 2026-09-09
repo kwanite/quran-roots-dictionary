@@ -1,0 +1,87 @@
+{
+  "root": "wsn",
+  "arabic": "وسن",
+  "root_idea": {
+    "summary": "The root principally concerns drowsiness, slumber, and a sleep-like lapse of awareness; it also preserves a separate idiomatic line concerning the abandonment of an affair.",
+    "development": "The evidence connects the sleep-related branch with drowsiness, sleeping states, being overcome, and a sleep-associated sexual approach, while separately recording an idiom for not pursuing or making an affair one's concern.",
+    "source_refs": [
+      "maqayis:row:5111",
+      "mufradat:row:1578"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wsn:sinap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:wsn:sina",
+      "reason": "The Quran-attested noun سِنَةٌ is presented as its normalized dictionary headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:wsn:sina",
+      "form_group_ids": [
+        "qac-form:wsn:sinap:nominal:-"
+      ],
+      "headword_arabic": "سِنَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform:wsn:sina:s1",
+          "definition": "Drowsiness, a brief doze, or a sleep-like lapse of awareness.",
+          "usage_conditions": "Quranically attested in the negated construction لا تَأْخُذُهُ سِنَةٌ وَلا نَوْمٌ, which denies even drowsiness or a brief lapse as well as full sleep.",
+          "source_refs": [
+            "mufradat:row:1578"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:255",
+          "word_location": "2:255:10",
+          "sense_ids": [
+            "qform:wsn:sina:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:wsn:tawassana",
+      "headword_arabic": "تَوَسَّنَ",
+      "definition": "To approach sexually or have sexual intercourse with a sleeping partner.",
+      "usage_conditions": "A specialized derived-verb construction, reported in the expression تَوَسَّنَهَا where the partner is asleep.",
+      "source_refs": [
+        "mufradat:row:1578",
+        "maqayis:row:5111"
+      ]
+    },
+    {
+      "meaning_id": "cm:wsn:well_fumes",
+      "headword_arabic": "وَسِنَ، أَسِنَ",
+      "definition": "To be overcome or lose consciousness from the air or vapors of a well.",
+      "usage_conditions": "This is reported as an alternate or qualified Classical usage, distinct from ordinary drowsiness.",
+      "source_refs": [
+        "mufradat:row:1578"
+      ]
+    },
+    {
+      "meaning_id": "cm:wsn:abandoned_affair",
+      "headword_arabic": "وَسَنًا",
+      "definition": "In the expression لا يَكُونَنَّ لَكَ وَسَنًا, an affair made one's concern or pursuit; the idiom means to leave the matter and not seek it.",
+      "usage_conditions": "Conventional idiomatic usage concerning the abandonment of an affair, not the sleep-related noun sense.",
+      "source_refs": [
+        "maqayis:row:5111"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [],
+  "cautions": [
+    "The well-related unconsciousness sense is explicitly presented as a reported and qualified usage, so it is retained as Classical evidence rather than assigned to the Quranic noun.",
+    "No Lane primary source units were supplied for this root; the form-level Quranic sense is supported by the supplied Mufradat evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

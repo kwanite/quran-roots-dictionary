@@ -1,0 +1,199 @@
+{
+  "root": "byd",
+  "arabic": "بيد",
+  "root_idea": {
+    "summary": "The core orientation is perishing: something is brought to ruin, extinction, or an end.",
+    "development": "The desert term بيداء is connected with a wilderness that destroys or exhausts those who enter it. The particle بيدَ meaning “other than” is treated as divergent from this core, possibly constituting an independent origin.",
+    "source_refs": [
+      "maqayis:row:890"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:byd:tabiyda:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:byd:bad",
+      "reason": "Displayed under the normalized Form I perfect citation form بَادَ rather than the inflected Quranic form تَبِيدَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:byd:bad",
+      "form_group_ids": [
+        "qac-form:byd:tabiyda:verb:I"
+      ],
+      "headword_arabic": "بَادَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform:byd:bad:s1",
+          "definition": "To perish, pass away, become extinct, or come to an end.",
+          "usage_conditions": "Form I intransitive verb; in the supplied Quran occurrence, it describes something that may perish or cease to exist.",
+          "source_refs": [
+            "lane:entry:37534"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:35",
+          "word_location": "18:35:10",
+          "sense_ids": [
+            "qform:byd:bad:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:byd:bad:sunset",
+      "headword_arabic": "بَادَ",
+      "definition": "Of the sun: to set.",
+      "usage_conditions": "A conventional use referring specifically to the sun’s setting.",
+      "source_refs": [
+        "lane:entry:37534"
+      ]
+    },
+    {
+      "meaning_id": "cm:byd:abad:destroy",
+      "headword_arabic": "أَبَادَ",
+      "definition": "To cause to perish; to destroy or annihilate.",
+      "usage_conditions": "Form IV causative verb, commonly transitive with the destroyed person or thing as its object.",
+      "source_refs": [
+        "lane:entry:37535"
+      ]
+    },
+    {
+      "meaning_id": "cm:byd:bayda:except",
+      "headword_arabic": "بَيْدَ",
+      "definition": "Other than; except that.",
+      "usage_conditions": "An inseparable particle used before أَنَّ and its complement, normally in the accusative and in an exceptive construction.",
+      "source_refs": [
+        "lane:entry:37536"
+      ]
+    },
+    {
+      "meaning_id": "cm:byd:bayda:ala",
+      "headword_arabic": "بَيْدَ",
+      "definition": "On or upon.",
+      "usage_conditions": "A reported alternative analysis of the particle in a traditional saying; this interpretation is disputed in the supplied evidence.",
+      "source_refs": [
+        "lane:entry:37536"
+      ]
+    },
+    {
+      "meaning_id": "cm:byd:bayda:minajl",
+      "headword_arabic": "بَيْدَ",
+      "definition": "Because of; on account of.",
+      "usage_conditions": "A reported interpretation in an explanatory construction; other authorities analyze the same usage as meaning “other than” or “except that.”",
+      "source_refs": [
+        "lane:entry:37536"
+      ]
+    },
+    {
+      "meaning_id": "cm:byd:baydaa:desert",
+      "headword_arabic": "بَيْدَاءُ",
+      "definition": "A desert or waterless open tract; a level expanse with little or no vegetation.",
+      "usage_conditions": "The term can denote a broad, plain, rugged, or otherwise barren tract of desert.",
+      "source_refs": [
+        "lane:entry:37537"
+      ]
+    },
+    {
+      "meaning_id": "cm:byd:baydana:sheass",
+      "headword_arabic": "بَيْدَانَةٌ",
+      "definition": "A she-ass, especially a wild or desert-dwelling she-ass.",
+      "usage_conditions": "The word is also treated by some authorities as an epithet rather than a substantive animal-name; its derivation is disputed.",
+      "source_refs": [
+        "lane:entry:37538"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:byd:37534:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:byd:bad:s1"
+      ],
+      "note": "The Quranic sense covers perishing, passing away, extinction, and coming to an end."
+    },
+    {
+      "unit_id": "lane-unit:byd:37534:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byd:bad:sunset"
+      ],
+      "note": "The specialized use for the sun setting is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:byd:37535:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byd:abad:destroy"
+      ],
+      "note": "The causative Form IV destruction meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:byd:37536:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byd:bayda:except"
+      ],
+      "note": "The principal particle meaning and construction are represented."
+    },
+    {
+      "unit_id": "lane-unit:byd:37536:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byd:bayda:except",
+        "cm:byd:bayda:ala"
+      ],
+      "note": "Both the preferred exceptive interpretation and the reported “on/upon” interpretation are covered."
+    },
+    {
+      "unit_id": "lane-unit:byd:37536:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byd:bayda:except",
+        "cm:byd:bayda:minajl"
+      ],
+      "note": "Both interpretations of the praise construction are covered."
+    },
+    {
+      "unit_id": "lane-unit:byd:37536:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dialectal variant of the particle; it adds no independent meaning."
+    },
+    {
+      "unit_id": "lane-unit:byd:37537:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byd:baydaa:desert"
+      ],
+      "note": "The desert and barren-tract meanings are represented."
+    },
+    {
+      "unit_id": "lane-unit:byd:37538:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byd:baydana:sheass"
+      ],
+      "note": "The she-ass and wild or desert-dwelling she-ass uses are represented."
+    },
+    {
+      "unit_id": "lane-unit:byd:37539:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the بَيْدَ discussion."
+    }
+  ],
+  "cautions": [
+    "The particle بَيْدَ has disputed Classical Arabic analyses: “other than/except that” is distinguished from reported interpretations “on/upon” and “because of.”"
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

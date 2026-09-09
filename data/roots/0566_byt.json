@@ -1,0 +1,839 @@
+{
+  "root": "byt",
+  "arabic": "بيت",
+  "root_idea": {
+    "summary": "The root centers on a shelter or place of return: a dwelling in which people gather and reside. From this comes the sense of a house, household, and any structure understood as a joined or encompassing whole.",
+    "development": "The lexical development extends from dwelling and residence to the household and to the poetic verse as a structured collection of words. Its verbal branch specializes in being or acting through the night, then in planning or attacking by night; related derivatives describe nighttime states, provisions, and things left overnight.",
+    "source_refs": [
+      "maqayis:row:888",
+      "mufradat:row:166"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:byt:yabiytu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:byt:bat",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:byt:bay~ata:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:byt:bayyata",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:byt:baya`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:byt:bayat",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:byt:bayot:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:byt:bayt",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:byt:baya`t:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf:byt:bayat",
+      "reason": "The T-tagged occurrence is the same temporal lexeme بَيَاتٌ as the nominal group, used adverbially in context."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf:byt:bat",
+      "form_group_ids": [
+        "qac-form:byt:yabiytu:verb:I"
+      ],
+      "headword_arabic": "بَاتَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:byt:bat:night",
+          "definition": "To spend or pass the night, or to be engaged in a stated activity during the night.",
+          "usage_conditions": "The verb describes nighttime residence or activity and does not by itself require sleep; in the Quranic occurrence it describes worship through the night.",
+          "source_refs": [
+            "lane:entry:37518",
+            "mufradat:row:166"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:64",
+          "word_location": "25:64:2",
+          "sense_ids": [
+            "s:byt:bat:night"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:byt:bayyata",
+      "form_group_ids": [
+        "qac-form:byt:bay~ata:verb:II"
+      ],
+      "headword_arabic": "بَيَّتَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "s:byt:bayyata:plan",
+          "definition": "To deliberate, devise, or formulate a matter, especially through nighttime consideration.",
+          "usage_conditions": "In the Quran, the object may be a course of action or words that are privately considered and prepared; the nighttime framing is part of the conventional construction.",
+          "source_refs": [
+            "lane:entry:37519",
+            "mufradat:row:166"
+          ]
+        },
+        {
+          "sense_id": "s:byt:bayyata:raid",
+          "definition": "To attack or come upon people by night, taking them by surprise.",
+          "usage_conditions": "Used of a nighttime assault upon an enemy or people while they are heedless.",
+          "source_refs": [
+            "lane:entry:37519",
+            "mufradat:row:166"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:81",
+          "word_location": "4:81:7",
+          "sense_ids": [
+            "s:byt:bayyata:plan"
+          ]
+        },
+        {
+          "verse_key": "4:108",
+          "word_location": "4:108:11",
+          "sense_ids": [
+            "s:byt:bayyata:plan"
+          ]
+        },
+        {
+          "verse_key": "27:49",
+          "word_location": "27:49:4",
+          "sense_ids": [
+            "s:byt:bayyata:raid"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:byt:bayat",
+      "form_group_ids": [
+        "qac-form:byt:baya`t:nominal:-",
+        "qac-form:byt:baya`t:other:-"
+      ],
+      "headword_arabic": "بَيَاتٌ",
+      "public_pos_label": "Noun · temporal adverb",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s:byt:bayat:night",
+          "definition": "Nighttime; by night or during the night.",
+          "usage_conditions": "Used adverbially to mark when an event occurs, including an event that comes in the latter part of the night.",
+          "source_refs": [
+            "lane:entry:37518",
+            "lane:entry:37526",
+            "mufradat:row:166"
+          ]
+        },
+        {
+          "sense_id": "s:byt:bayat:raid",
+          "definition": "A coming upon or attacking an enemy by night; a sudden nighttime arrival of harm.",
+          "usage_conditions": "The term can describe a night raid or, in warning contexts, punishment arriving by night while people are unaware or asleep.",
+          "source_refs": [
+            "lane:entry:37526",
+            "mufradat:row:166"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:50",
+          "word_location": "10:50:6",
+          "sense_ids": [
+            "s:byt:bayat:night"
+          ]
+        },
+        {
+          "verse_key": "7:4",
+          "word_location": "7:4:7",
+          "sense_ids": [
+            "s:byt:bayat:raid"
+          ]
+        },
+        {
+          "verse_key": "7:97",
+          "word_location": "7:97:7",
+          "sense_ids": [
+            "s:byt:bayat:raid"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:byt:bayt",
+      "form_group_ids": [
+        "qac-form:byt:bayot:nominal:-"
+      ],
+      "headword_arabic": "بَيْتٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 65,
+      "senses": [
+        {
+          "sense_id": "s:byt:bayt:dwelling",
+          "definition": "A house, dwelling, tent, or other built shelter; by extension, a residential structure or premises.",
+          "usage_conditions": "The Quranic noun covers structures made of stone, earth, wool, hair, or similar materials, including ordinary homes, tents, and uninhabited buildings used by travelers or for commerce.",
+          "source_refs": [
+            "lane:entry:37523",
+            "mufradat:row:166"
+          ]
+        },
+        {
+          "sense_id": "s:byt:bayt:sacred",
+          "definition": "A designated sacred house or place of worship, especially the Kaaba, the House of God.",
+          "usage_conditions": "The definite singular can designate the Kaaba, while plural بُيُوت may denote mosques, sanctuaries, or other specially designated religious houses in Quranic contexts.",
+          "source_refs": [
+            "lane:entry:37523",
+            "mufradat:row:166"
+          ]
+        },
+        {
+          "sense_id": "s:byt:bayt:household",
+          "definition": "The household or people associated with a house; a house understood as a family or group.",
+          "usage_conditions": "In the construction أَهْلُ الْبَيْتِ, the expression denotes the people of the house and can function as a defined family designation.",
+          "source_refs": [
+            "lane:entry:37523",
+            "mufradat:row:166"
+          ]
+        },
+        {
+          "sense_id": "s:byt:bayt:ark",
+          "definition": "Noah’s ark, in a Quranic interpretation of بَيْت in the account of Noah.",
+          "usage_conditions": "This is a specialized interpretive application in the passage at 71:28, not a general synonym for an ordinary house.",
+          "source_refs": [
+            "lane:entry:37523"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:93",
+          "word_location": "17:93:4",
+          "sense_ids": [
+            "s:byt:bayt:dwelling"
+          ]
+        },
+        {
+          "verse_key": "16:80",
+          "word_location": "16:80:12",
+          "sense_ids": [
+            "s:byt:bayt:dwelling"
+          ]
+        },
+        {
+          "verse_key": "3:96",
+          "word_location": "3:96:3",
+          "sense_ids": [
+            "s:byt:bayt:sacred"
+          ]
+        },
+        {
+          "verse_key": "24:36",
+          "word_location": "24:36:2",
+          "sense_ids": [
+            "s:byt:bayt:sacred"
+          ]
+        },
+        {
+          "verse_key": "33:33",
+          "word_location": "33:33:23",
+          "sense_ids": [
+            "s:byt:bayt:household"
+          ]
+        },
+        {
+          "verse_key": "71:28",
+          "word_location": "71:28:7",
+          "sense_ids": [
+            "s:byt:bayt:ark"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:byt:bat:become",
+      "headword_arabic": "بَاتَ",
+      "definition": "To become, remain, or be in a particular place or state, whether by night or by day.",
+      "usage_conditions": "A use parallel to كَانَ or صَارَ, without the ordinary restriction to nighttime.",
+      "source_refs": [
+        "lane:entry:37518"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bat:marry",
+      "headword_arabic": "بَاتَ",
+      "definition": "To marry or take a wife; in another usage, to give a woman in marriage.",
+      "usage_conditions": "A derived or figurative marriage-related use, distinct from the ordinary nighttime verb.",
+      "source_refs": [
+        "lane:entry:37518"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayyata:build",
+      "headword_arabic": "بَيَّتَ",
+      "definition": "To construct or build a house or tent.",
+      "usage_conditions": "Takes the house or structure as its object.",
+      "source_refs": [
+        "lane:entry:37519"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayyata:retain",
+      "headword_arabic": "بَيَّتَ",
+      "definition": "To retain or defer property until night instead of distributing it promptly.",
+      "usage_conditions": "Attested in a conventional expression concerning delaying the disposal of property.",
+      "source_refs": [
+        "lane:entry:37519"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayyata:prune",
+      "headword_arabic": "بَيَّتَ",
+      "definition": "To trim or prune palm trees by cutting off stumps or straggling branches.",
+      "usage_conditions": "A specialized agricultural use.",
+      "source_refs": [
+        "lane:entry:37519"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:abata",
+      "headword_arabic": "أَبَاتَ",
+      "definition": "To cause someone to pass or enter upon the night in a particular condition.",
+      "usage_conditions": "A causative Form IV use, often occurring in wishes for a good or safe night.",
+      "source_refs": [
+        "lane:entry:37520"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:tabayyata",
+      "headword_arabic": "تَبَيَّتَ",
+      "definition": "To withhold or debar someone from what they want.",
+      "usage_conditions": "Used with a person and the desired object or need.",
+      "source_refs": [
+        "lane:entry:37521"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:istabata:food",
+      "headword_arabic": "اِسْتَبَاتَ",
+      "definition": "To seek, require, or possess food or provision sufficient for a night.",
+      "usage_conditions": "The lexical discussion reports both the seeking or requiring of food and the contrary state of having a night’s provision; the related noun can therefore describe neediness.",
+      "source_refs": [
+        "lane:entry:37522"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayt:pavilion",
+      "headword_arabic": "بَيْتٌ",
+      "definition": "A pavilion, palace, mansion, or substantial residence.",
+      "usage_conditions": "A specialized extension of the sense of a built dwelling.",
+      "source_refs": [
+        "lane:entry:37523"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayt:grave",
+      "headword_arabic": "بَيْتٌ",
+      "definition": "A grave.",
+      "usage_conditions": "A figurative or comparative use for a place that receives and contains the dead.",
+      "source_refs": [
+        "lane:entry:37523"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayt:animaldwelling",
+      "headword_arabic": "بَيْتٌ",
+      "definition": "An animal’s constructed habitation, such as a burrow, hole, or spider’s web.",
+      "usage_conditions": "A figurative extension from a human dwelling to an animal-made shelter.",
+      "source_refs": [
+        "lane:entry:37523"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayt:wife",
+      "headword_arabic": "بَيْتٌ",
+      "definition": "A man’s wife.",
+      "usage_conditions": "A figurative household-related use; some contexts instead intend the household as a whole.",
+      "source_refs": [
+        "lane:entry:37523"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayt:nobility",
+      "headword_arabic": "بَيْتٌ",
+      "definition": "The nobility of an Arab tribe, or the family comprising its noble line.",
+      "usage_conditions": "Used of a distinguished house or lineage rather than a physical dwelling.",
+      "source_refs": [
+        "lane:entry:37523"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayt:nobleperson",
+      "headword_arabic": "بَيْتٌ",
+      "definition": "A noble or eminent person, regarded as the chief of his people.",
+      "usage_conditions": "A metonymic extension from a noble house to its outstanding member.",
+      "source_refs": [
+        "lane:entry:37523"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayt:furnishings",
+      "headword_arabic": "بَيْتٌ",
+      "definition": "The furniture, equipment, or household provisions sufficient for a tent or house.",
+      "usage_conditions": "Used in marriage and household arrangements for the furnishings supplied with a dwelling.",
+      "source_refs": [
+        "lane:entry:37523"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayt:poetry",
+      "headword_arabic": "بَيْتٌ",
+      "definition": "A verse or line of poetry, especially one composed of recognized metrical divisions.",
+      "usage_conditions": "A metaphor based on the joining of words and metrical parts as the components of a tent or house; it may also denote the chief verse of a poem.",
+      "source_refs": [
+        "lane:entry:37523",
+        "maqayis:row:888"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bita:nightstate",
+      "headword_arabic": "بِيتَةٌ",
+      "definition": "A manner, condition, or state in which one passes or enters upon the night.",
+      "usage_conditions": "A verbal noun or substantive derived from بَاتَ.",
+      "source_refs": [
+        "lane:entry:37525"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bita:food",
+      "headword_arabic": "بِيتَةٌ",
+      "definition": "Food or victuals sufficient for a night.",
+      "usage_conditions": "Used especially in expressions denying that someone has a night’s supply of food.",
+      "source_refs": [
+        "lane:entry:37525"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayout:stale",
+      "headword_arabic": "بَيُّوتٌ",
+      "definition": "Having remained for a night and consequently becoming stale, especially of bread.",
+      "usage_conditions": "Describes the effect of overnight keeping.",
+      "source_refs": [
+        "lane:entry:37528"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayout:cool",
+      "headword_arabic": "بَيُّوتٌ",
+      "definition": "Cold or cool from having remained overnight, especially of water or milk.",
+      "usage_conditions": "Used of liquid left beneath the sky or in a skin during the night.",
+      "source_refs": [
+        "lane:entry:37528"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayout:anxiety",
+      "headword_arabic": "بَيُّوتٌ",
+      "definition": "Persisting through the night, especially of an affair causing anxiety or grief.",
+      "usage_conditions": "Used of a troubling matter or emotion that occupies someone during the night.",
+      "source_refs": [
+        "lane:entry:37528"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:bayout:tooth",
+      "headword_arabic": "بَيُّوتَةٌ",
+      "definition": "A tooth that does not fall out or become shed.",
+      "usage_conditions": "A specialized anatomical use.",
+      "source_refs": [
+        "lane:entry:37528"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:mabiyt:place",
+      "headword_arabic": "مَبِيتٌ",
+      "definition": "A place in which one passes or enters upon the night.",
+      "usage_conditions": "A place-of-stay noun derived from the nighttime verb.",
+      "source_refs": [
+        "lane:entry:37530"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:mutabayyita:marriedwoman",
+      "headword_arabic": "مُتَبَيِّتَةٌ",
+      "definition": "A woman who has obtained a house or its furnishings together with a husband.",
+      "usage_conditions": "A conventional description of a married woman established with a household.",
+      "source_refs": [
+        "lane:entry:37531"
+      ]
+    },
+    {
+      "meaning_id": "cm:byt:mustabiyt:needy",
+      "headword_arabic": "مُسْتَبِيتٌ",
+      "definition": "Poor or needy, lacking more than food or possessing only food and nothing beyond it.",
+      "usage_conditions": "A derived designation connected with the possession or lack of a night’s provision; synonymous with فقير in this use.",
+      "source_refs": [
+        "lane:entry:37532"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:byt:37518:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bat:night"
+      ],
+      "note": "Nighttime activity and passing the night."
+    },
+    {
+      "unit_id": "lane-unit:byt:37518:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bat:become"
+      ],
+      "note": "Use parallel to being or becoming in a place or state."
+    },
+    {
+      "unit_id": "lane-unit:byt:37518:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical classification of complete and incomplete verb use."
+    },
+    {
+      "unit_id": "lane-unit:byt:37518:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bat:marry"
+      ],
+      "note": "Marriage and giving in marriage."
+    },
+    {
+      "unit_id": "lane-unit:byt:37519:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayyata:build"
+      ],
+      "note": "Constructing or building a house."
+    },
+    {
+      "unit_id": "lane-unit:byt:37519:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bayyata:plan"
+      ],
+      "note": "Nighttime deliberation, devising, and formulation."
+    },
+    {
+      "unit_id": "lane-unit:byt:37519:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bayyata:raid"
+      ],
+      "note": "Surprise attack by night."
+    },
+    {
+      "unit_id": "lane-unit:byt:37519:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayyata:retain"
+      ],
+      "note": "Retaining or delaying property until night."
+    },
+    {
+      "unit_id": "lane-unit:byt:37519:g2:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another numbered section."
+    },
+    {
+      "unit_id": "lane-unit:byt:37519:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayyata:prune"
+      ],
+      "note": "Specialized pruning of palm trees."
+    },
+    {
+      "unit_id": "lane-unit:byt:37519:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another numbered section."
+    },
+    {
+      "unit_id": "lane-unit:byt:37520:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:abata"
+      ],
+      "note": "Causative act of making someone pass the night."
+    },
+    {
+      "unit_id": "lane-unit:byt:37521:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:tabayyata"
+      ],
+      "note": "Withholding someone from a desired thing."
+    },
+    {
+      "unit_id": "lane-unit:byt:37522:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:istabata:food"
+      ],
+      "note": "Food or nighttime provision; the extracted statement reports contrasting directions."
+    },
+    {
+      "unit_id": "lane-unit:byt:37522:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:istabata:food"
+      ],
+      "note": "Having food or a night's provision."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bayt:dwelling",
+        "s:byt:bayt:household"
+      ],
+      "note": "House or dwelling and the household expression أهل البيت."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bayt:dwelling",
+        "s:byt:bayt:sacred",
+        "cm:byt:bayt:pavilion"
+      ],
+      "note": "Pavilion or mansion, uninhabited buildings, and religious houses."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bayt:ark"
+      ],
+      "note": "Specialized Quranic interpretation as Noah's ark."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayt:grave"
+      ],
+      "note": "Figurative sense of grave."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayt:animaldwelling"
+      ],
+      "note": "Animal habitations, burrows, and spider webs."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bayt:household"
+      ],
+      "note": "Household or people of a house."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bayt:household",
+        "cm:byt:bayt:wife"
+      ],
+      "note": "Wife, with an alternative household interpretation."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayt:nobility"
+      ],
+      "note": "Noble house or tribal nobility."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayt:nobleperson"
+      ],
+      "note": "Noble person as the house's chief member."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayt:furnishings"
+      ],
+      "note": "Household furnishings or equipment."
+    },
+    {
+      "unit_id": "lane-unit:byt:37523:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayt:poetry"
+      ],
+      "note": "Poetic verse as a structured house."
+    },
+    {
+      "unit_id": "lane-unit:byt:37524:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بِيتَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:byt:37525:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bita:nightstate"
+      ],
+      "note": "Manner or condition of passing the night."
+    },
+    {
+      "unit_id": "lane-unit:byt:37525:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bita:food"
+      ],
+      "note": "Food or victuals for a night."
+    },
+    {
+      "unit_id": "lane-unit:byt:37526:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bayat:raid"
+      ],
+      "note": "Night attack or sudden nighttime arrival."
+    },
+    {
+      "unit_id": "lane-unit:byt:37526:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:byt:bayat:night"
+      ],
+      "note": "An event occurring in the latter part of the night."
+    },
+    {
+      "unit_id": "lane-unit:byt:37527:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive and pronunciation information only."
+    },
+    {
+      "unit_id": "lane-unit:byt:37528:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayout:stale"
+      ],
+      "note": "Overnight staleness, especially of bread."
+    },
+    {
+      "unit_id": "lane-unit:byt:37528:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayout:cool"
+      ],
+      "note": "Overnight cooling of water or milk."
+    },
+    {
+      "unit_id": "lane-unit:byt:37528:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayout:anxiety"
+      ],
+      "note": "An affair causing nighttime anxiety or grief."
+    },
+    {
+      "unit_id": "lane-unit:byt:37528:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayout:anxiety"
+      ],
+      "note": "Anxiety or grief remaining overnight."
+    },
+    {
+      "unit_id": "lane-unit:byt:37528:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:bayout:tooth"
+      ],
+      "note": "Specialized sense of a tooth that does not fall out."
+    },
+    {
+      "unit_id": "lane-unit:byt:37529:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s:byt:bat:night"
+      ],
+      "note": "Active participle meaning passing or entering upon the night."
+    },
+    {
+      "unit_id": "lane-unit:byt:37529:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَيُّوتٌ."
+    },
+    {
+      "unit_id": "lane-unit:byt:37530:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:mabiyt:place"
+      ],
+      "note": "Place where one spends the night."
+    },
+    {
+      "unit_id": "lane-unit:byt:37531:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:mutabayyita:marriedwoman"
+      ],
+      "note": "Married woman established with a house and husband."
+    },
+    {
+      "unit_id": "lane-unit:byt:37532:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:byt:mustabiyt:needy"
+      ],
+      "note": "Poor or needy in relation to nighttime provision."
+    }
+  ],
+  "cautions": [
+    "The Form I verb بَاتَ has a classical disagreement over whether sleep is entailed; the Quranic occurrence clearly concerns passing the night in worship, while the verb itself primarily marks nighttime activity or residence.",
+    "The ark sense is a specialized Quranic interpretation of بَيْت in 71:28 and should not be generalized to the ordinary noun meaning.",
+    "The T-tagged بَيَات occurrence is accounted for with the nominal temporal form because the evidence supports the same lexical item used adverbially."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

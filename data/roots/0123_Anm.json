@@ -1,0 +1,73 @@
+{
+  "root": "Anm",
+  "arabic": "أنم",
+  "root_idea": {
+    "summary": "No independent root-level semantic principle is supplied in this evidence packet.",
+    "development": "No Maqāyīs or other root-development evidence is available for this root.",
+    "source_refs": []
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Anm:>anaAm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Anm:anam",
+      "reason": "The supplied Quranic noun is presented as its own dictionary form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:Anm:anam",
+      "form_group_ids": [
+        "qac-form:Anm:>anaAm:nominal:-"
+      ],
+      "headword_arabic": "أَنَام",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:Anm:anam:01",
+          "definition": "Created beings; creatures inhabiting the earth.",
+          "usage_conditions": "In Quran 55:10, the term is interpreted variously as humankind, humankind and the jinn, or more generally all creatures or beings possessing spirit on the earth.",
+          "source_refs": [
+            "lane:entry:7388"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "55:10",
+          "word_location": "55:10:3",
+          "sense_ids": [
+            "qsen:Anm:anam:01"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Anm:7388:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Anm:anam:01"
+      ],
+      "note": "The Quran-attested lexical meaning is represented under the noun's Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:Anm:7389:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:Anm:7390:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding entry."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

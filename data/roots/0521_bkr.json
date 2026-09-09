@@ -1,0 +1,882 @@
+{
+  "root": "bkr",
+  "arabic": "بكر",
+  "root_idea": {
+    "summary": "The root centers on firstness and beginning: the first part of the day, what comes first, and what is newly or initially produced.",
+    "development": "From the beginning of the day come meanings of going early and hastening; from firstness develop meanings of youth, virginity, first birth, first yield, and other figurative applications. A separate extension names the pulley and related ring forms.",
+    "source_refs": [
+      "maqayis:row:819",
+      "mufradat:row:150"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bkr:<iboka`r:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bkr-ibkar",
+      "reason": "Normalized as the verbal noun إِبْكَار, meaning early morning."
+    },
+    {
+      "form_group_id": "qac-form:bkr:bikor:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bkr-bikr",
+      "reason": "Displayed under the normalized citation form بِكْر, which covers its Quranic adjective and noun uses."
+    },
+    {
+      "form_group_id": "qac-form:bkr:bukorap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bkr-bukra",
+      "reason": "Displayed as the temporal noun بُكْرَة."
+    },
+    {
+      "form_group_id": "qac-form:bkr:bukorap:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "bkr-bukra",
+      "reason": "The QAC T grouping is the same lexical بُكْرَة and differs only grammatically in its temporal-adverbial use."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bkr-ibkar",
+      "form_group_ids": [
+        "qac-form:bkr:<iboka`r:nominal:-"
+      ],
+      "headword_arabic": "إِبْكَار",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "bkr-ibkar-s1",
+          "definition": "Early morning; the beginning of the day.",
+          "usage_conditions": "A verbal-noun expression for entering or being in the early part of the day.",
+          "source_refs": [
+            "lane:entry:36955"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:41",
+          "word_location": "3:41:20",
+          "sense_ids": [
+            "bkr-ibkar-s1"
+          ]
+        },
+        {
+          "verse_key": "40:55",
+          "word_location": "40:55:12",
+          "sense_ids": [
+            "bkr-ibkar-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bkr-bikr",
+      "form_group_ids": [
+        "qac-form:bkr:bikor:nominal:-"
+      ],
+      "headword_arabic": "بِكْر",
+      "public_pos_label": "Adjective / noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "bkr-bikr-s1",
+          "definition": "Young; in the Quranic description of the cow, not yet having borne offspring.",
+          "usage_conditions": "In 2:68 this describes a cow in contrast with an old cow; the broader lexical idea is youth or an early reproductive state.",
+          "source_refs": [
+            "lane:entry:36950",
+            "mufradat:row:150"
+          ]
+        },
+        {
+          "sense_id": "bkr-bikr-s2",
+          "definition": "Virgin; not previously sexually approached.",
+          "usage_conditions": "The term can apply to a male or female; its Quranic plural أبكارًا is used of women who are virgins.",
+          "source_refs": [
+            "lane:entry:36950",
+            "mufradat:row:150"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:68",
+          "word_location": "2:68:17",
+          "sense_ids": [
+            "bkr-bikr-s1"
+          ]
+        },
+        {
+          "verse_key": "56:36",
+          "word_location": "56:36:2",
+          "sense_ids": [
+            "bkr-bikr-s2"
+          ]
+        },
+        {
+          "verse_key": "66:5",
+          "word_location": "66:5:17",
+          "sense_ids": [
+            "bkr-bikr-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bkr-bukra",
+      "form_group_ids": [
+        "qac-form:bkr:bukorap:nominal:-",
+        "qac-form:bkr:bukorap:other:-"
+      ],
+      "headword_arabic": "بُكْرَة",
+      "public_pos_label": "Noun · adverbial time expression",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "bkr-bukra-s1",
+          "definition": "Early morning; the first part of the day.",
+          "usage_conditions": "Used as a temporal noun and adverbially for the early part of a particular day.",
+          "source_refs": [
+            "lane:entry:36955"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:62",
+          "word_location": "19:62:10",
+          "sense_ids": [
+            "bkr-bukra-s1"
+          ]
+        },
+        {
+          "verse_key": "54:38",
+          "word_location": "54:38:3",
+          "sense_ids": [
+            "bkr-bukra-s1"
+          ]
+        },
+        {
+          "verse_key": "19:11",
+          "word_location": "19:11:10",
+          "sense_ids": [
+            "bkr-bukra-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "bkr_bakr_hasten",
+      "headword_arabic": "بَكَرَ",
+      "definition": "To hasten or apply oneself promptly to a need, task, destination, water, or meal.",
+      "usage_conditions": "Originally associated with going early in the day, and also extended to hastening at any time.",
+      "source_refs": [
+        "lane:entry:36942",
+        "lane:entry:36952"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakkara_early",
+      "headword_arabic": "بَكَّرَ",
+      "definition": "To do, attend, or perform something at its earliest time.",
+      "usage_conditions": "Used especially of going to prayer or performing prayer at the beginning of its appointed time; also of a palm tree that bears early.",
+      "source_refs": [
+        "lane:entry:36943",
+        "lane:entry:36947"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakkara_precede",
+      "headword_arabic": "بَكَّرَ",
+      "definition": "To precede, go before, or take precedence.",
+      "usage_conditions": "An extended use of the idea of being early or first.",
+      "source_refs": [
+        "lane:entry:36943"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakkara_cause_precede",
+      "headword_arabic": "بَكَّرَهُ",
+      "definition": "To make someone precede others or take precedence over them.",
+      "usage_conditions": "Causative construction with a person or group as the object of precedence.",
+      "source_refs": [
+        "lane:entry:36943"
+      ]
+    },
+    {
+      "meaning_id": "bkr_abkara_camels",
+      "headword_arabic": "أَبْكَرَ",
+      "definition": "To have camels come to water early in the morning.",
+      "usage_conditions": "A specialized transitive use concerning the timing of a herd’s arrival at water.",
+      "source_refs": [
+        "lane:entry:36945"
+      ]
+    },
+    {
+      "meaning_id": "bkr_abkara_cause_early",
+      "headword_arabic": "أَبْكَرَ",
+      "definition": "To cause another to go or come early, or to cause another to hasten to an undertaking.",
+      "usage_conditions": "A transitive counterpart of going early or hastening; the action may be understood temporally or as prompt application to a task.",
+      "source_refs": [
+        "lane:entry:36945"
+      ]
+    },
+    {
+      "meaning_id": "bkr_ibtakara_friday",
+      "headword_arabic": "ابْتَكَرَ",
+      "definition": "To arrive early for the Friday prayer, especially in time for the opening portion of the sermon.",
+      "usage_conditions": "A conventional expression concerning early attendance at the mosque and the beginning of the Friday service.",
+      "source_refs": [
+        "lane:entry:36947"
+      ]
+    },
+    {
+      "meaning_id": "bkr_ibtakara_first",
+      "headword_arabic": "ابْتَكَرَ",
+      "definition": "To take or obtain the first portion of something, especially the first fruit to reach maturity; to eat the earliest ripe fruit.",
+      "usage_conditions": "Used with a first yield or first mature portion.",
+      "source_refs": [
+        "lane:entry:36947",
+        "lane:entry:36960",
+        "lane:entry:36962"
+      ]
+    },
+    {
+      "meaning_id": "bkr_ibtakara_virginity",
+      "headword_arabic": "ابْتَكَرَ",
+      "definition": "To take a girl’s virginity.",
+      "usage_conditions": "A specialized transitive use; one report further describes the act as occurring before puberty.",
+      "source_refs": [
+        "lane:entry:36947"
+      ]
+    },
+    {
+      "meaning_id": "bkr_ibtakara_fresh_dough",
+      "headword_arabic": "ابْتَكَرَ",
+      "definition": "To use or take fresh dough for preparing bread.",
+      "usage_conditions": "A specialized usage referring to dough newly prepared for use.",
+      "source_refs": [
+        "lane:entry:36947"
+      ]
+    },
+    {
+      "meaning_id": "bkr_ibtakara_firstbirth",
+      "headword_arabic": "ابْتَكَرَتْ",
+      "definition": "For a woman to bear her first offspring, in some usage specifically a male at her first birth.",
+      "usage_conditions": "A specialized intransitive or prepositional construction concerning first childbirth.",
+      "source_refs": [
+        "lane:entry:36947"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakr_young_camel",
+      "headword_arabic": "بَكْر",
+      "definition": "A youthful male camel or young camel in an early age category; figuratively, a young man or young woman.",
+      "usage_conditions": "Authorities differ over the precise camel-age range denoted.",
+      "source_refs": [
+        "lane:entry:36948"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bikr_new_unused",
+      "headword_arabic": "بِكْر",
+      "definition": "Unpierced, unused, or not previously employed: specifically an unpierced pearl, a bow used for the first time, an unkindled fire, or a rain cloud likened to a virgin.",
+      "usage_conditions": "These are figurative or extended applications of untouched or first-use status.",
+      "source_refs": [
+        "lane:entry:36950"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bikr_first_reproductive",
+      "headword_arabic": "بِكْر",
+      "definition": "A female in a first reproductive state: one not yet having borne offspring, or, of a woman or she-camel, one that has borne only once.",
+      "usage_conditions": "The source explicitly applies the term to women, cows or heifers, and she-camels in these reproductive conditions.",
+      "source_refs": [
+        "lane:entry:36950"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bikr_first_vine",
+      "headword_arabic": "بِكْر",
+      "definition": "A grapevine that has produced fruit for the first time.",
+      "usage_conditions": "A figurative application of first production to a vine.",
+      "source_refs": [
+        "lane:entry:36950"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bikr_young_offspring",
+      "headword_arabic": "أَبْكَار",
+      "definition": "Young offspring, especially young children or young bees; also honey associated with young bees or, in one usage, virgin girls.",
+      "usage_conditions": "Plural and collective applications extend the idea of youth or virginity to offspring and their products.",
+      "source_refs": [
+        "lane:entry:36950"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bikr_firstborn",
+      "headword_arabic": "بِكْر",
+      "definition": "The first-born child or offspring of a mother and father, whether male or female; also the first-born of animals.",
+      "usage_conditions": "The term may be applied beyond human offspring, including camels and other animals.",
+      "source_refs": [
+        "lane:entry:36950"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bikr_firstthing",
+      "headword_arabic": "بِكْر",
+      "definition": "The first of something, a first occurrence, or an action not previously preceded by its like.",
+      "usage_conditions": "It can describe a matter being referred for the first time or a newly undertaken need or task.",
+      "source_refs": [
+        "lane:entry:36950"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bikr_decisiveblow",
+      "headword_arabic": "ضَرْبَةٌ بِكْر",
+      "definition": "A blow or stroke that kills or succeeds at once without requiring a second strike.",
+      "usage_conditions": "A conventional figurative expression for an immediately decisive action.",
+      "source_refs": [
+        "lane:entry:36950"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakara_pulley",
+      "headword_arabic": "بَكْرَة",
+      "definition": "A sheave or pulley: a round piece with a rope-groove and a central axle.",
+      "usage_conditions": "The word can refer to the sheave itself or, by synecdoche, to a complete pulley.",
+      "source_refs": [
+        "lane:entry:36954"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakara_swordring",
+      "headword_arabic": "بَكْرَة",
+      "definition": "A small ring or bead-like ring attached to the ornamental part of a sword or scabbard.",
+      "usage_conditions": "Usually occurring in the plural for the set of ornamental rings.",
+      "source_refs": [
+        "lane:entry:36954"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakara_assembly",
+      "headword_arabic": "بَكْرَة",
+      "definition": "An assembly, company, or congregated body; collectively, all together without anyone remaining behind.",
+      "usage_conditions": "The expression جَاؤُوا عَلَى بَكْرَةِ أَبِيهِمْ is an idiom for coming together or in complete succession.",
+      "source_refs": [
+        "lane:entry:36954"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakur_earlyrain",
+      "headword_arabic": "بَكُور",
+      "definition": "Rain or a cloud that comes early in its season, at the end of the night, or at the beginning of the day.",
+      "usage_conditions": "A descriptive adjective for rain or clouds that arrive early.",
+      "source_refs": [
+        "lane:entry:36957"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakur_earlymaturity",
+      "headword_arabic": "بَكُور",
+      "definition": "Early-producing or early-maturing; something that reaches fruit, growth, or maturity before others.",
+      "usage_conditions": "Applied to palm trees, fruit, land that produces vegetation quickly, and fruit that ripens first.",
+      "source_refs": [
+        "lane:entry:36957",
+        "lane:entry:36960",
+        "lane:entry:36962"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bawakhir_rainwinds",
+      "headword_arabic": "بَوَاكِير",
+      "definition": "Winds that announce coming rain.",
+      "usage_conditions": "A plural figurative extension associated with signs that arrive before the rain.",
+      "source_refs": [
+        "lane:entry:36962"
+      ]
+    },
+    {
+      "meaning_id": "bkr_tabakir_palmcolors",
+      "headword_arabic": "تَبَاكِير",
+      "definition": "The colors appearing on palm trees when their fruit begins to ripen.",
+      "usage_conditions": "A plural term for early signs of the fruit’s ripening.",
+      "source_refs": [
+        "lane:entry:36965"
+      ]
+    },
+    {
+      "meaning_id": "bkr_bakara_virginity",
+      "headword_arabic": "بَكَارَة",
+      "definition": "Virginity or maidenhead.",
+      "usage_conditions": "An abstract noun referring specifically to a woman’s virginity in the cited definitions.",
+      "source_refs": [
+        "lane:entry:36959"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bkr:36942:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr-ibkar-s1"
+      ],
+      "note": "Early morning and the associated verbal noun are represented by the Quranic morning sense."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36942:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bkr-bukra-s1"
+      ],
+      "note": "Coming or working in the early morning is covered by the temporal sense."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36942:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakr_hasten"
+      ],
+      "note": "Extended hastening at any time is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36942:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bkr_bakr_hasten"
+      ],
+      "note": "The quality of applying oneself early or hastening is covered."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36943:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakkara_early",
+        "bkr_bakur_earlymaturity"
+      ],
+      "note": "Early prayer/action and early-bearing palm trees are both represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36943:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakkara_precede"
+      ],
+      "note": "The precedence meaning is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36943:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakkara_cause_precede"
+      ],
+      "note": "The causative precedence construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36943:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36943:g2:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36944:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36945:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference with no independent exposition."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36945:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_abkara_camels"
+      ],
+      "note": "Specialized early-water construction with camels is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36945:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_abkara_cause_early"
+      ],
+      "note": "Transitive causing of early movement or hastening is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36945:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36946:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form II."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36947:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36947:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_ibtakara_friday"
+      ],
+      "note": "Early Friday-prayer attendance and hearing the opening sermon are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36947:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_ibtakara_first"
+      ],
+      "note": "Obtaining the first portion is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36947:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bkr_ibtakara_first"
+      ],
+      "note": "Eating first-ripe fruit is grouped with obtaining the first yield."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36947:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_ibtakara_virginity"
+      ],
+      "note": "Taking a girl's virginity is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36947:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_ibtakara_fresh_dough"
+      ],
+      "note": "The fresh-dough usage is preserved as a specialized meaning."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36947:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_ibtakara_firstbirth"
+      ],
+      "note": "First childbirth is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36948:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakr_young_camel"
+      ],
+      "note": "The youthful-camel meaning and its human metaphor are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36949:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36950:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr-bikr-s2"
+      ],
+      "note": "Virginity is Quran-attested in the plural form and represented as a Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36950:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bikr_new_unused"
+      ],
+      "note": "Unpierced, first-use, cloud, and unkindled-fire extensions are represented together."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36950:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr-bikr-s1",
+        "bkr_bikr_first_reproductive"
+      ],
+      "note": "The Quranic uncalved-cow use and broader reproductive-status applications are both represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36950:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bikr_first_vine"
+      ],
+      "note": "First-bearing grapevine is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36950:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bikr_young_offspring"
+      ],
+      "note": "Young children, young bees, and associated honey uses are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36950:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bikr_firstborn"
+      ],
+      "note": "First-born offspring are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36950:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bikr_firstthing"
+      ],
+      "note": "First occurrence and unpreceded action are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36950:g1:sub8",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bkr_bikr_firstthing"
+      ],
+      "note": "A newly presented or first-referred need is covered by first occurrence."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36950:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bikr_decisiveblow"
+      ],
+      "note": "The immediately decisive blow is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36951:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36951:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36952:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bkr_bakr_hasten"
+      ],
+      "note": "The possessive epithet for one able to hasten is covered by the hastening meaning."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36953:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36954:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakara_pulley"
+      ],
+      "note": "The pulley or sheave meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36954:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakara_swordring"
+      ],
+      "note": "Sword ornament rings are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36954:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakara_assembly"
+      ],
+      "note": "Assembly or congregated body is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36954:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bkr_bakara_assembly"
+      ],
+      "note": "The idiom for coming all together is covered by the assembly meaning."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36955:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr-bukra-s1",
+        "bkr-ibkar-s1"
+      ],
+      "note": "Early morning and the Quran-attested temporal noun/verbal-noun relation are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36956:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36957:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakur_earlyrain"
+      ],
+      "note": "Early-season or dawn rain and clouds are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36957:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakur_earlymaturity"
+      ],
+      "note": "Early-bearing trees and rapidly producing land are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36958:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36959:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bakara_virginity"
+      ],
+      "note": "The abstract noun virginity is represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36959:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36960:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer identifying a participle and referring onward."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36960:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36960:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an illustrative plural example."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36960:g2:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bkr_bakur_earlymaturity"
+      ],
+      "note": "First-ripe fruit is covered by early maturity."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36961:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36962:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36962:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bkr_bakur_earlymaturity"
+      ],
+      "note": "The first or earliest mature fruit is covered by early maturity."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36962:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_bawakhir_rainwinds"
+      ],
+      "note": "Rain-announcing winds are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36963:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36964:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dimensional and plural cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36965:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkr_tabakir_palmcolors"
+      ],
+      "note": "Early-ripening palm colors are represented."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36966:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36967:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:bkr:36968:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an example already covered under بِكْر."
+    }
+  ],
+  "cautions": [
+    "بِكْر has distinct Quranic branches: youth or an early reproductive state in 2:68, and virginity in أَبْكَارًا in 56:36 and 66:5.",
+    "Classical sources report variant age specifications for بَكْر when applied to camels; the entry therefore states the shared youthful meaning without fixing one age range."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

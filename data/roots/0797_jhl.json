@@ -1,0 +1,662 @@
+{
+  "root": "jhl",
+  "arabic": "جهل",
+  "root_idea": {
+    "summary": "The root has two principal orientations: being contrary to knowledge, and being light, unsettled, or lacking composure.",
+    "development": "The first orientation extends from lack of knowledge to mistaken belief and conduct contrary to what is right; the second yields senses of agitation, stirring, and places or circumstances lacking guidance.",
+    "source_refs": [
+      "maqayis:row:1246",
+      "mufradat:row:275"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jhl:yajohalu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jhl_jahila",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jhl:jaAhil:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jhl_jahil",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jhl:ja`hiliy~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jhl_jahiliyya",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jhl:ja`hiliy~ap2:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "jhl_jahiliyya",
+      "reason": "The QAC proper-noun grouping has the same lexical headword and is combined with the ordinary nominal grouping in one public entry."
+    },
+    {
+      "form_group_id": "qac-form:jhl:jaha`lap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jhl_jahala",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jhl:jahuwl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jhl_jahul",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "jhl_jahila",
+      "form_group_ids": [
+        "qac-form:jhl:yajohalu:verb:I"
+      ],
+      "headword_arabic": "جَهِلَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "jhl_jahila_s1",
+          "definition": "To be ignorant of something; not to know it.",
+          "usage_conditions": "A knowledge-related use, including predicative statements about people who lack understanding of a matter.",
+          "source_refs": [
+            "lane:entry:47641"
+          ]
+        },
+        {
+          "sense_id": "jhl_jahila_s2",
+          "definition": "To act ignorantly, foolishly, or wrongly.",
+          "usage_conditions": "Describes conduct contrary to sound judgment or to what ought to be done, rather than merely an absence of information.",
+          "source_refs": [
+            "lane:entry:47641"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:111",
+          "word_location": "6:111:22",
+          "sense_ids": [
+            "jhl_jahila_s1"
+          ]
+        },
+        {
+          "verse_key": "27:55",
+          "word_location": "27:55:11",
+          "sense_ids": [
+            "jhl_jahila_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jhl_jahil",
+      "form_group_ids": [
+        "qac-form:jhl:jaAhil:nominal:-"
+      ],
+      "headword_arabic": "جَاهِلٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "jhl_jahil_s1",
+          "definition": "An ignorant or unaware person; one who does not know.",
+          "usage_conditions": "This use can be non-pejorative, as when referring simply to someone unaware of another person's condition.",
+          "source_refs": [
+            "lane:entry:47648",
+            "mufradat:row:275"
+          ]
+        },
+        {
+          "sense_id": "jhl_jahil_s2",
+          "definition": "A foolish or wrong-conducting person, characterized by blameworthy ignorance.",
+          "usage_conditions": "Usually dispraising; it can denote conduct contrary to what ought to be done, not only lack of information.",
+          "source_refs": [
+            "lane:entry:47648",
+            "mufradat:row:275"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:273",
+          "word_location": "2:273:13",
+          "sense_ids": [
+            "jhl_jahil_s1"
+          ]
+        },
+        {
+          "verse_key": "2:67",
+          "word_location": "2:67:20",
+          "sense_ids": [
+            "jhl_jahil_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jhl_jahiliyya",
+      "form_group_ids": [
+        "qac-form:jhl:ja`hiliy~ap:nominal:-",
+        "qac-form:jhl:ja`hiliy~ap2:nominal:-"
+      ],
+      "headword_arabic": "جَاهِلِيَّة",
+      "public_pos_label": "Noun · state or period",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "jhl_jahiliyya_s1",
+          "definition": "A state or period of pagan and ignorant custom, judgment, or conduct.",
+          "usage_conditions": "The term can denote an age or a condition; Quranic uses apply it to the characteristic judgments, zealotry, and public behavior of pagan ignorance.",
+          "source_refs": [
+            "lane:entry:47652"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:154",
+          "word_location": "3:154:21",
+          "sense_ids": [
+            "jhl_jahiliyya_s1"
+          ]
+        },
+        {
+          "verse_key": "48:26",
+          "word_location": "48:26:9",
+          "sense_ids": [
+            "jhl_jahiliyya_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jhl_jahala",
+      "form_group_ids": [
+        "qac-form:jhl:jaha`lap:nominal:-"
+      ],
+      "headword_arabic": "جَهَالَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "jhl_jahala_s1",
+          "definition": "Ignorance expressed in wrongful action or in acting without due understanding.",
+          "usage_conditions": "In the construction بِجَهَالَةٍ, it describes the circumstance in which someone commits harm or another wrong; it need not mean total absence of knowledge.",
+          "source_refs": [
+            "lane:entry:47646",
+            "mufradat:row:275"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "49:6",
+          "word_location": "49:6:12",
+          "sense_ids": [
+            "jhl_jahala_s1"
+          ]
+        },
+        {
+          "verse_key": "16:119",
+          "word_location": "16:119:7",
+          "sense_ids": [
+            "jhl_jahala_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jhl_jahul",
+      "form_group_ids": [
+        "qac-form:jhl:jahuwl:nominal:-"
+      ],
+      "headword_arabic": "جَهُول",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jhl_jahul_s1",
+          "definition": "Very or intensely ignorant; strongly characterized by ignorance.",
+          "usage_conditions": "An intensive adjective related to جَاهِلٌ.",
+          "source_refs": [
+            "lane:entry:47648"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:72",
+          "word_location": "33:72:18",
+          "sense_ids": [
+            "jhl_jahul_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_jahila_neglecttruth",
+      "headword_arabic": "جَهِلَ",
+      "definition": "To neglect or ignore the truth, right, or what is due.",
+      "usage_conditions": "A transitive use with truth or right as the object.",
+      "source_refs": [
+        "lane:entry:47641"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahila_boilingpot",
+      "headword_arabic": "جَهِلَ",
+      "definition": "Of a cooking pot, to boil vehemently.",
+      "usage_conditions": "A specialized figurative or tropical use, contrasted with becoming calm or restrained.",
+      "source_refs": [
+        "lane:entry:47641"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahhala_attributeignorance",
+      "headword_arabic": "جَهَّلَ",
+      "definition": "To attribute ignorance to someone or cause someone to fall into ignorance.",
+      "usage_conditions": "Form II causative or ascriptive use.",
+      "source_refs": [
+        "lane:entry:47642"
+      ]
+    },
+    {
+      "meaning_id": "cm_mujahala_actwithlevity",
+      "headword_arabic": "مُجَاهَلَة",
+      "definition": "Acting with someone in a frivolous, foolish, or ignorant manner.",
+      "usage_conditions": "A reciprocal or interpersonal construction involving conduct toward another person.",
+      "source_refs": [
+        "lane:entry:47643"
+      ]
+    },
+    {
+      "meaning_id": "cm_tajahhala_feignignorance",
+      "headword_arabic": "تَجَاهَلَ",
+      "definition": "To feign ignorance or make a false show of ignorance.",
+      "usage_conditions": "It may occur with عَلَيْهِ, meaning to feign ignorance toward someone.",
+      "source_refs": [
+        "lane:entry:47644"
+      ]
+    },
+    {
+      "meaning_id": "cm_istajhala_reckonignorant",
+      "headword_arabic": "اِسْتَجْهَلَ",
+      "definition": "To reckon or esteem someone ignorant.",
+      "usage_conditions": "A Form X evaluative use in which a person is judged to be جاهل.",
+      "source_refs": [
+        "lane:entry:47645"
+      ]
+    },
+    {
+      "meaning_id": "cm_istajhala_agitate",
+      "headword_arabic": "اِسْتَجْهَلَ",
+      "definition": "To excite someone to levity, unsteadiness, or agitation; to put something into commotion.",
+      "usage_conditions": "The object may be a person or, in a tropical use, a branch agitated by the wind.",
+      "source_refs": [
+        "lane:entry:47645"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahl_noun",
+      "headword_arabic": "جَهْل",
+      "definition": "Ignorance: lack of knowledge, mistaken belief, or conduct contrary to what ought to be done.",
+      "usage_conditions": "Classical analyses distinguish simple ignorance, false conviction about reality, and wrong action; the noun can also describe misdirected learning or affected knowledge.",
+      "source_refs": [
+        "lane:entry:47646"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahil_lion",
+      "headword_arabic": "جَاهِل",
+      "definition": "A lion unaware of its prey.",
+      "usage_conditions": "A specialized lexical use of the active-participle form.",
+      "source_refs": [
+        "lane:entry:47648"
+      ]
+    },
+    {
+      "meaning_id": "cm_jayhal_smoothrock",
+      "headword_arabic": "جَيْهَل",
+      "definition": "A great or imposing epithet applied to a smooth rock.",
+      "usage_conditions": "A specialized nominal epithet.",
+      "source_refs": [
+        "lane:entry:47649"
+      ]
+    },
+    {
+      "meaning_id": "cm_jayhala_stirringstick",
+      "headword_arabic": "جَيْهَلَة",
+      "definition": "A stick used to stir live coals or, in some accounts, wine.",
+      "usage_conditions": "A regional or specialized noun for an implement.",
+      "source_refs": [
+        "lane:entry:47650"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahili_pagan",
+      "headword_arabic": "جَاهِلِيّ",
+      "definition": "Pagan or belonging to the pre-Islamic Arabs; specifically, a poet of the earliest pre-Islamic class.",
+      "usage_conditions": "Used as an ethnic, religious, historical, or literary designation.",
+      "source_refs": [
+        "lane:entry:47651"
+      ]
+    },
+    {
+      "meaning_id": "cm_majhal_misleadingcircumstance",
+      "headword_arabic": "مَجْهَل",
+      "definition": "An affair, circumstance, quality, practice, or action that leads a person to believe something contrary to reality.",
+      "usage_conditions": "A causative noun for a situation that produces mistaken understanding.",
+      "source_refs": [
+        "lane:entry:47653"
+      ]
+    },
+    {
+      "meaning_id": "cm_majhal_tracklessland",
+      "headword_arabic": "مَجْهَل",
+      "definition": "A trackless desert or land lacking signs by which the way can be recognized.",
+      "usage_conditions": "Its plural is مَجَاهِل; the sense is the opposite of a place marked by guiding signs.",
+      "source_refs": [
+        "lane:entry:47653"
+      ]
+    },
+    {
+      "meaning_id": "cm_majhala_inciter",
+      "headword_arabic": "مَجْهَلَة",
+      "definition": "A cause or incitement to ignorant, foolish, or wrong conduct.",
+      "usage_conditions": "A thing that prompts someone to act improperly; children are given as an illustrative example.",
+      "source_refs": [
+        "lane:entry:47655"
+      ]
+    },
+    {
+      "meaning_id": "cm_mijhal_agilecamel",
+      "headword_arabic": "مِجْهَال",
+      "definition": "A light, brisk, or agile she-camel in her pace.",
+      "usage_conditions": "A specialized tropical or dialectal noun.",
+      "source_refs": [
+        "lane:entry:47657"
+      ]
+    },
+    {
+      "meaning_id": "cm_majhul_unknown",
+      "headword_arabic": "مَجْهُول",
+      "definition": "Unknown or of unknown identity, origin, or authorship.",
+      "usage_conditions": "Applies to an unknown thing, a person of unknown origin, or a work of unknown authorship.",
+      "source_refs": [
+        "lane:entry:47658"
+      ]
+    },
+    {
+      "meaning_id": "cm_majhul_untouchedcamel",
+      "headword_arabic": "مَجْهُول",
+      "definition": "A she-camel that has never been milked, is unbranded, or has never conceived.",
+      "usage_conditions": "A specialized tropical description of an untouched or unhandled she-camel.",
+      "source_refs": [
+        "lane:entry:47658"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustajhil_feign",
+      "headword_arabic": "مُسْتَجْهِل",
+      "definition": "One who makes himself appear ignorant or feigns ignorance.",
+      "usage_conditions": "An active-participle use describing self-presentation as جاهل.",
+      "source_refs": [
+        "lane:entry:47659"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustajhil_deem",
+      "headword_arabic": "مُسْتَجْهِل",
+      "definition": "One who reckons or esteems another to be ignorant.",
+      "usage_conditions": "An active-participle use describing the judgment that someone is جاهل.",
+      "source_refs": [
+        "lane:entry:47659"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jhl:47641:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jhl_jahila_s1",
+        "jhl_jahila_s2",
+        "cm_jahila_neglecttruth"
+      ],
+      "note": "The unit contains lack of knowledge, foolish or wrong conduct, and neglect of truth."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47641:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahila_boilingpot"
+      ],
+      "note": "Specialized boiling-pot use."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47642:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahhala_attributeignorance"
+      ],
+      "note": "Attributing ignorance to someone."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47642:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_jahhala_attributeignorance"
+      ],
+      "note": "Causing someone to fall into ignorance is covered by the same Form II causative sense."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47643:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mujahala_actwithlevity"
+      ],
+      "note": "Interpersonal foolish or frivolous conduct."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47644:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tajahhala_feignignorance"
+      ],
+      "note": "Feigning ignorance."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47645:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istajhala_reckonignorant"
+      ],
+      "note": "Esteeming someone ignorant."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47645:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istajhala_agitate"
+      ],
+      "note": "Exciting to levity or unsteadiness."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47645:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_istajhala_agitate"
+      ],
+      "note": "Wind-induced commotion is covered by the broader agitation sense."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47646:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahl_noun"
+      ],
+      "note": "The noun's analyses of ignorance, false belief, and wrong action."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47647:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer and cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47648:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jhl_jahil_s1",
+        "jhl_jahil_s2",
+        "jhl_jahul_s1"
+      ],
+      "note": "Active-participle senses and the related intensive adjective, including neutral ignorance and blameworthy conduct."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47648:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahil_lion"
+      ],
+      "note": "Specialized lion use."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47649:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry only."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47649:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jayhal_smoothrock"
+      ],
+      "note": "Epithet for a smooth rock."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47650:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jayhala_stirringstick"
+      ],
+      "note": "Implement used to stir embers or wine."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47651:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahili_pagan"
+      ],
+      "note": "Pagan, pre-Islamic, and earliest-class poet designations are grouped."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47652:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following lexical discussion."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47652:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jhl_jahiliyya_s1"
+      ],
+      "note": "Time or state of pagan and intense ignorance."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47653:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_majhal_misleadingcircumstance",
+        "cm_majhal_tracklessland"
+      ],
+      "note": "Both the misleading circumstance and trackless-land branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47654:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the implement entry."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47655:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_majhala_inciter"
+      ],
+      "note": "Cause or incitement to ignorant conduct."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47656:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry only."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47657:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mijhal_agilecamel"
+      ],
+      "note": "Specialized she-camel use."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47658:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_majhul_unknown"
+      ],
+      "note": "Unknown identity, origin, or authorship."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47658:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_majhul_unknown"
+      ],
+      "note": "Unknown origin and authorship are covered by the general unknown sense."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47658:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical term for the passive voice."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47658:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_majhul_untouchedcamel"
+      ],
+      "note": "Specialized description of an untouched she-camel."
+    },
+    {
+      "unit_id": "lane-unit:jhl:47659:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustajhil_feign",
+        "cm_mustajhil_deem"
+      ],
+      "note": "The unit records both feigning ignorance and deeming another ignorant."
+    }
+  ],
+  "cautions": [
+    "The two QAC جَاهِلِيَّة groupings differ in grammatical tagging, including a proper-noun tag, but are presented as one normalized lexical entry.",
+    "Lane's جَاهِلِيّ entry contains an unclear additional statement about possible relation to the plural of شَاهِدٌ; that grammatical or textual issue is not treated as a core meaning of this root."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The wording in Lane entry 47651 concerning جَاهِلِيّ as 'sometimes' a plural of شَاهِدٌ is unclear in the supplied transcription and cannot be confidently assigned as a root-derived lexical sense."
+  ]
+}

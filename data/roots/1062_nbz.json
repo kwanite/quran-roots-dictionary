@@ -1,0 +1,172 @@
+{
+  "root": "nbz",
+  "arabic": "نبز",
+  "root_idea": {
+    "summary": "The root centers on giving or using a byname or epithet, often one carrying reproachful force; in reciprocal usage it denotes reproachful naming between people.",
+    "development": "The supplied lexical range extends from naming someone by a byname or nickname to reproachful address and reciprocal reviling through such names.",
+    "source_refs": [
+      "lane:entry:43096",
+      "lane:entry:43098",
+      "mufradat:row:1407"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nbz:tanaAbazu:verb:VI",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nbz_vi_tanabaza",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nbz_vi_tanabaza",
+      "form_group_ids": [
+        "qac-form:nbz:tanaAbazu:verb:VI"
+      ],
+      "headword_arabic": "تَنَابَزَ",
+      "public_pos_label": "Verb · Form VI",
+      "verb_form": "VI",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nbz_vi_s1",
+          "definition": "To call one another by bynames, surnames, or nicknames.",
+          "usage_conditions": "Reciprocal Form VI construction. In the attested Quranic expression with alqāb, the names are treated as reproachful or opprobrious appellations, and the practice is forbidden.",
+          "source_refs": [
+            "lane:entry:43098",
+            "mufradat:row:1407"
+          ]
+        },
+        {
+          "sense_id": "nbz_vi_s2",
+          "definition": "To upbraid, reproach, or revile one another.",
+          "usage_conditions": "A reciprocal Form VI use in which the reproach is expressed through calling one another names of reproach.",
+          "source_refs": [
+            "lane:entry:43098"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "49:11",
+          "word_location": "49:11:27",
+          "sense_ids": [
+            "nbz_vi_s1",
+            "nbz_vi_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nbz_classical_form1_byname",
+      "headword_arabic": "نَبَزَ",
+      "definition": "To call or name someone by a byname, surname, or nickname.",
+      "usage_conditions": "Form I transitive use; the byname often has the character of a name of reproach or an opprobrious appellation.",
+      "source_refs": [
+        "lane:entry:43096"
+      ]
+    },
+    {
+      "meaning_id": "nbz_classical_form1_reproach",
+      "headword_arabic": "نَبَزَ",
+      "definition": "To upbraid or reproach someone.",
+      "usage_conditions": "A Form I use for reproachful address, treated as synonymous or near-synonymous with lamz.",
+      "source_refs": [
+        "lane:entry:43096"
+      ]
+    },
+    {
+      "meaning_id": "nbz_classical_noun_nabaz",
+      "headword_arabic": "نَبَزٌ",
+      "definition": "A byname, surname, or nickname, usually a name of reproach or an opprobrious appellation.",
+      "usage_conditions": "Plural: anbāz. An alternative terminological usage cited in the lexical discussion applies the term to a proper personal name, contrasted with a generic name.",
+      "source_refs": [
+        "lane:entry:43099"
+      ]
+    },
+    {
+      "meaning_id": "nbz_classical_adjective_nabiz",
+      "headword_arabic": "نَبِزٌ",
+      "definition": "Ignoble or mean in character, standing, or claims to respect.",
+      "usage_conditions": "Describes meanness in a person’s grounds for claiming respect, rank or quality, or natural disposition.",
+      "source_refs": [
+        "lane:entry:43100"
+      ]
+    },
+    {
+      "meaning_id": "nbz_classical_nubaza",
+      "headword_arabic": "نُبَزَةٌ",
+      "definition": "One much accustomed to call others by bynames, surnames, or nicknames.",
+      "usage_conditions": "A descriptive term for habitual or frequent bynaming.",
+      "source_refs": [
+        "lane:entry:43101"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nbz:43096:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nbz_classical_form1_byname"
+      ],
+      "note": "Form I bynaming and nickname usage represented."
+    },
+    {
+      "unit_id": "lane-unit:nbz:43096:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nbz_classical_form1_reproach"
+      ],
+      "note": "Form I reproach usage represented."
+    },
+    {
+      "unit_id": "lane-unit:nbz:43097:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:nbz:43098:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nbz_vi_s1",
+        "nbz_vi_s2"
+      ],
+      "note": "Quran-attested reciprocal bynaming and reproach meanings represented."
+    },
+    {
+      "unit_id": "lane-unit:nbz:43099:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nbz_classical_noun_nabaz"
+      ],
+      "note": "Noun meaning represented, including the reported alternative terminology."
+    },
+    {
+      "unit_id": "lane-unit:nbz:43100:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nbz_classical_adjective_nabiz"
+      ],
+      "note": "Adjectival meaning of ignobility represented."
+    },
+    {
+      "unit_id": "lane-unit:nbz:43101:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nbz_classical_nubaza"
+      ],
+      "note": "Term for habitual bynaming represented."
+    }
+  ],
+  "cautions": [
+    "The public headword is normalized to the Form VI perfect تَنَابَزَ, while the supplied Quran occurrence is an imperfect plural form.",
+    "The supplied Mufradat evidence emphasizes byname-giving, whereas the Lane Quran discussion also records reproachful or reviling interpretation; these related Quranic uses are retained as separate senses.",
+    "No matched Maqayis entry was supplied, so the root idea is based on the direct Lane and Mufradat evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,821 @@
+{
+  "root": "gyr",
+  "arabic": "غير",
+  "root_idea": {
+    "summary": "The root has two principal orientations: provision, benefit, and improvement; and difference, otherness, alteration, and substitution.",
+    "development": "The first orientation includes supplying a household, benefiting, watering, and protective jealousy. The second develops through being other or different, changing a state or form, replacing one thing with another, and using غير in negative and exceptive constructions.",
+    "source_refs": [
+      "maqayis:row:3485"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:gyr:yugay~iru:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "gyr_f2_ghayyara",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gyr:yatagay~aro:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "gyr_f5_tag_hay_yara",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gyr:gayor:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "gyr_ghayr",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gyr:mugay~ir:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "gyr_mughayyir",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gyr:mugiyra`t:nominal:-",
+      "disposition": "EXCLUDE_WITH_REASON",
+      "target_public_form_id": null,
+      "reason": "The Quran occurrence is contextually glossed as “the chargers,” but the packet supplies no direct lexical evidence for the raiding/charging sense. The supplied Form IV Lane evidence instead documents a different meaning, “to make a wife jealous.”"
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "gyr_f2_ghayyara",
+      "form_group_ids": [
+        "qac-form:gyr:yugay~iru:verb:II"
+      ],
+      "headword_arabic": "غَيَّرَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "gyr_f2_s1",
+          "definition": "To change or alter a thing from its former state or quality.",
+          "usage_conditions": "Transitive; may concern an outward form, a condition, or what is within a people. The alteration may be beneficial, neutral, or for the worse depending on context.",
+          "source_refs": [
+            "lane:entry:30232",
+            "mufradat:row:1079"
+          ]
+        },
+        {
+          "sense_id": "gyr_f2_s2",
+          "definition": "To replace or exchange one thing for another.",
+          "usage_conditions": "This is the substitution sense, distinct from merely modifying the same thing while it remains the same entity.",
+          "source_refs": [
+            "lane:entry:30232",
+            "mufradat:row:1079"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:53",
+          "word_location": "8:53:12",
+          "sense_ids": [
+            "gyr_f2_s1"
+          ]
+        },
+        {
+          "verse_key": "13:11",
+          "word_location": "13:11:15",
+          "sense_ids": [
+            "gyr_f2_s1"
+          ]
+        },
+        {
+          "verse_key": "13:11",
+          "word_location": "13:11:19",
+          "sense_ids": [
+            "gyr_f2_s1"
+          ]
+        },
+        {
+          "verse_key": "4:119",
+          "word_location": "4:119:8",
+          "sense_ids": [
+            "gyr_f2_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "gyr_f5_tag_hay_yara",
+      "form_group_ids": [
+        "qac-form:gyr:yatagay~aro:verb:V"
+      ],
+      "headword_arabic": "تَغَيَّرَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "gyr_f5_s1",
+          "definition": "To become changed or altered from one's former state.",
+          "usage_conditions": "Intransitive or quasi-passive; the change may be in condition, quality, or other properties, including a deterioration when the context indicates it.",
+          "source_refs": [
+            "lane:entry:30235"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "47:15",
+          "word_location": "47:15:16",
+          "sense_ids": [
+            "gyr_f5_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "gyr_ghayr",
+      "form_group_ids": [
+        "qac-form:gyr:gayor:nominal:-"
+      ],
+      "headword_arabic": "غَيْر",
+      "public_pos_label": "Noun / adjective",
+      "verb_form": null,
+      "occurrence_count": 147,
+      "senses": [
+        {
+          "sense_id": "gyr_ghayr_s1",
+          "definition": "Not; without the stated quality, condition, or attribute.",
+          "usage_conditions": "A negative qualifier that removes or denies a stated description; in some constructions it functions predicatively in the sense “is not.”",
+          "source_refs": [
+            "lane:entry:30238",
+            "mufradat:row:1079"
+          ]
+        },
+        {
+          "sense_id": "gyr_ghayr_s2",
+          "definition": "Other than; different from, including a distinct counterpart or replacement.",
+          "usage_conditions": "It can identify something as non-identical in form or substance, designate a substitute, or denote what is contrary to truth or right, as in بِغَيْرِ الْحَقِّ. It commonly governs a following noun in the genitive.",
+          "source_refs": [
+            "lane:entry:30238",
+            "mufradat:row:1079"
+          ]
+        },
+        {
+          "sense_id": "gyr_ghayr_s3",
+          "definition": "Except; save; excluding the following person or thing.",
+          "usage_conditions": "An exceptive construction whose case is determined by the syntax of the phrase; it may correspond to إِلَّا.",
+          "source_refs": [
+            "lane:entry:30238",
+            "mufradat:row:1079"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "1:7",
+          "word_location": "1:7:5",
+          "sense_ids": [
+            "gyr_ghayr_s1"
+          ]
+        },
+        {
+          "verse_key": "4:56",
+          "word_location": "4:56:13",
+          "sense_ids": [
+            "gyr_ghayr_s2"
+          ]
+        },
+        {
+          "verse_key": "11:50",
+          "word_location": "11:50:13",
+          "sense_ids": [
+            "gyr_ghayr_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "gyr_mughayyir",
+      "form_group_ids": [
+        "qac-form:gyr:mugay~ir:nominal:-"
+      ],
+      "headword_arabic": "مُغَيِّر",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "gyr_mughayyir_s1",
+          "definition": "One who changes or alters.",
+          "usage_conditions": "Active participle of Form II, denoting an agent that effects the change described under غَيَّرَ.",
+          "source_refs": [
+            "lane:entry:30232",
+            "mufradat:row:1079"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:53",
+          "word_location": "8:53:6",
+          "sense_ids": [
+            "gyr_mughayyir_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_gar_provide",
+      "headword_arabic": "غَارَ",
+      "definition": "To bring provisions to one's household; to benefit them, provide them with abundance, or water the land with rain.",
+      "usage_conditions": "Used with a household, people, or land as the beneficiary or recipient.",
+      "source_refs": [
+        "lane:entry:30231"
+      ]
+    },
+    {
+      "meaning_id": "cm_gar_bloodwit",
+      "headword_arabic": "غَارَهُ",
+      "definition": "To give the bloodwit as compensation for a slain person.",
+      "usage_conditions": "A legal and customary compensation in place of retaliation.",
+      "source_refs": [
+        "lane:entry:30231"
+      ]
+    },
+    {
+      "meaning_id": "cm_gar_jealous",
+      "headword_arabic": "غَارَ عَلَى",
+      "definition": "To be jealous of or protective toward one's wife or household.",
+      "usage_conditions": "The construction may express jealousy, protective concern, indignation, or anger at a spouse's conduct.",
+      "source_refs": [
+        "lane:entry:30231"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghayyar_spoil",
+      "headword_arabic": "غَيَّرَ",
+      "definition": "To alter something for the worse; to corrupt, taint, spoil, or make it foul.",
+      "usage_conditions": "A deteriorative use, especially of odor, quality, or condition.",
+      "source_refs": [
+        "lane:entry:30232"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghayyar_pluck",
+      "headword_arabic": "غَيَّرَ",
+      "definition": "To pluck out white or hoary hairs.",
+      "usage_conditions": "Used specifically of removing gray hairs.",
+      "source_refs": [
+        "lane:entry:30232"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghayyar_saddle",
+      "headword_arabic": "غَيَّرَ عَنْ بَعِيرِهِ",
+      "definition": "To put down a camel's saddle and set it right, adjust it, or repair it.",
+      "usage_conditions": "A customary expression concerning the adjustment or repair of a camel's saddle.",
+      "source_refs": [
+        "lane:entry:30232"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghaayara_differ",
+      "headword_arabic": "غَايَرَ",
+      "definition": "To differ from another; to be different, one from the other.",
+      "usage_conditions": "The reciprocal relation is expressed by مُغَايَرَةٌ.",
+      "source_refs": [
+        "lane:entry:30233"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghaayara_barter",
+      "headword_arabic": "غَايَرَ",
+      "definition": "To barter or exchange with someone.",
+      "usage_conditions": "Used in buying and selling, including exchanging an article of merchandise.",
+      "source_refs": [
+        "lane:entry:30233"
+      ]
+    },
+    {
+      "meaning_id": "cm_aghara_jealous",
+      "headword_arabic": "أَغَارَ",
+      "definition": "To make a wife jealous by marrying another in addition to her.",
+      "usage_conditions": "A causative construction describing the jealousy that results in the wife.",
+      "source_refs": [
+        "lane:entry:30234"
+      ]
+    },
+    {
+      "meaning_id": "cm_taghyayara_spoil",
+      "headword_arabic": "تَغَيَّرَ",
+      "definition": "To become altered for the worse; to become spoiled, tainted, corrupted, or foul.",
+      "usage_conditions": "An intransitive deteriorative use, especially of odor or condition.",
+      "source_refs": [
+        "lane:entry:30235"
+      ]
+    },
+    {
+      "meaning_id": "cm_taghyayara_exchange",
+      "headword_arabic": "تَغَيَّرَ",
+      "definition": "To become exchanged for another thing.",
+      "usage_conditions": "A use describing substitution rather than a mere change of state.",
+      "source_refs": [
+        "lane:entry:30235"
+      ]
+    },
+    {
+      "meaning_id": "cm_taghayara_differ",
+      "headword_arabic": "تَغَايَرَ",
+      "definition": "To differ, one thing from another.",
+      "usage_conditions": "Used of multiple things that are mutually different.",
+      "source_refs": [
+        "lane:entry:30236"
+      ]
+    },
+    {
+      "meaning_id": "cm_ightaar_provision",
+      "headword_arabic": "اِغْتَارَ",
+      "definition": "To procure provisions; to obtain benefit, advantage, or profit.",
+      "usage_conditions": "Often used of going out to procure provisions for one's family.",
+      "source_refs": [
+        "lane:entry:30237"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghayr_change_noun",
+      "headword_arabic": "غَيْرٌ",
+      "definition": "An act of altering or changing.",
+      "usage_conditions": "A substantive formed from غَيَّرَ, distinct from the ordinary nominal use meaning “other than.”",
+      "source_refs": [
+        "lane:entry:30238"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghiyar_timechange",
+      "headword_arabic": "غِيَرٌ",
+      "definition": "Alterations or changes brought by time or fortune.",
+      "usage_conditions": "Used of changing circumstances or states caused by the accidents of time.",
+      "source_refs": [
+        "lane:entry:30238"
+      ]
+    },
+    {
+      "meaning_id": "cm_banat_ghayr_lies",
+      "headword_arabic": "بَنَاتُ غَيْرٍ",
+      "definition": "Lies, falsehoods, or untrue statements.",
+      "usage_conditions": "A figurative idiom, as in uttering or bringing “the daughters of ghayr.”",
+      "source_refs": [
+        "lane:entry:30238"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghayr_etc",
+      "headword_arabic": "وَغَيْرُ ذَلِكَ",
+      "definition": "And so forth; et cetera.",
+      "usage_conditions": "A frequent idiomatic phrase referring to further items of the same general kind.",
+      "source_refs": [
+        "lane:entry:30238"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghira_jealousy",
+      "headword_arabic": "غَيْرَةٌ",
+      "definition": "Jealousy or protective concern over what belongs to or is sacred to oneself.",
+      "usage_conditions": "May involve dislike of another's participation in one's right, care to avoid suspicion, disdain, scorn, indignation, or anger at a wife's conduct.",
+      "source_refs": [
+        "lane:entry:30240"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghira_provision",
+      "headword_arabic": "غِيرَةٌ",
+      "definition": "A provision of corn, wheat, or other food procured for oneself.",
+      "usage_conditions": "A provision or supply obtained for personal or household use.",
+      "source_refs": [
+        "lane:entry:30241"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghira_bloodwit",
+      "headword_arabic": "غِيرَةٌ",
+      "definition": "Bloodwit, or compensation paid in place of retaliation.",
+      "usage_conditions": "A legal compensation also called دِيَةٌ; the term may be understood as a substitute for retaliation.",
+      "source_refs": [
+        "lane:entry:30241"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghiyar_badge",
+      "headword_arabic": "غِيَارٌ",
+      "definition": "A distinctive badge or identifying garment of non-Muslim subjects under a Muslim government.",
+      "usage_conditions": "Examples include a designated waist-belt or similar cognizance associated with a particular community.",
+      "source_refs": [
+        "lane:entry:30243"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghiyar_properguise",
+      "headword_arabic": "بِغِيَارِهِ",
+      "definition": "Having its own proper guise or characteristic form; unaltered from that form.",
+      "usage_conditions": "A figurative or technical expression applied to speech or language.",
+      "source_refs": [
+        "lane:entry:30243"
+      ]
+    },
+    {
+      "meaning_id": "cm_ghayur_jealous",
+      "headword_arabic": "غَيُورٌ",
+      "definition": "Very jealous; characterized by intense protective jealousy.",
+      "usage_conditions": "An intensive epithet used of a man or woman, with corresponding feminine forms.",
+      "source_refs": [
+        "lane:entry:30244"
+      ]
+    },
+    {
+      "meaning_id": "cm_maghira_land",
+      "headword_arabic": "مَغِيرَةٌ",
+      "definition": "Land that has been watered or rained upon.",
+      "usage_conditions": "An adjective applied to land benefiting from rain or watering.",
+      "source_refs": [
+        "lane:entry:30247"
+      ]
+    },
+    {
+      "meaning_id": "cm_mughayyir_camel",
+      "headword_arabic": "مُغَيِّرٌ",
+      "definition": "One who puts down a camel's load or furniture to relieve and ease it.",
+      "usage_conditions": "A specialized active-participial use concerning the handling of a camel.",
+      "source_refs": [
+        "lane:entry:30248"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:gyr:30231:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gar_provide"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30231:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gar_provide"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30231:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gar_bloodwit"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30231:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gar_jealous"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30232:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "gyr_f2_s1",
+        "cm_ghayyar_spoil"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30232:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "gyr_f2_s2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30232:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghayyar_pluck"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30232:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghayyar_saddle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30232:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30233:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghaayara_differ"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30233:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghaayara_barter"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30234:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_aghara_jealous"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30235:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "gyr_f5_s1",
+        "cm_taghyayara_spoil"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30235:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taghyayara_exchange"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30235:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30236:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taghayara_differ"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30237:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ightaar_provision"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30237:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ightaar_provision"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "gyr_ghayr_s1",
+        "gyr_ghayr_s2",
+        "gyr_ghayr_s3"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "gyr_ghayr_s1",
+        "gyr_ghayr_s2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical and orthographic discussion of the article ال."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "gyr_ghayr_s2"
+      ],
+      "note": "Illustrates the established other-than relation."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghayr_etc"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "gyr_ghayr_s1"
+      ],
+      "note": "Predicative “is not” use is covered by the negative sense."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "gyr_ghayr_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "gyr_ghayr_s3"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "gyr_ghayr_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghayr_change_noun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghiyar_timechange"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30238:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_banat_ghayr_lies"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30239:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30239:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30240:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghira_jealousy"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30241:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghira_provision"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30241:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30241:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghira_bloodwit"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30242:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30243:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghiyar_badge"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30243:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghiyar_properguise"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30243:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30244:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ghayur_jealous"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30245:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30246:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_ghayur_jealous"
+      ],
+      "note": "Idiomatic comparative intensification of jealousy, not a separate lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30247:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maghira_land"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30248:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mughayyir_camel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyr:30249:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyr:30250:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The nominal غَيْر has distinct negative, contrastive, and exceptive uses; English renderings such as “not,” “without,” and “other than” reflect construction and sense rather than mere stylistic variation.",
+    "The Form IV active participle مُغِيرَات in 100:3 is not assigned a Quranic lexical sense because the supplied direct lexical evidence does not establish the contextual charging or raiding meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Quranic context gloss “the chargers” for qac-form:gyr:mugiyra`t:nominal:- remains lexically unsupported by the supplied Lane and Mufradat evidence and is therefore excluded from the public Quranic forms."
+  ]
+}

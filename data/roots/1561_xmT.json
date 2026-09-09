@@ -1,0 +1,138 @@
+{
+  "root": "xmT",
+  "arabic": "خمط",
+  "root_idea": {
+    "summary": "The root has two principal orientations: being stripped, smooth, or without thorns; and forceful agitation, assault, or turbulent movement.",
+    "development": "The first orientation extends to thornless vegetation and its bitter or otherwise unpalatable produce, while related derivatives preserve sourness and angry, roaring agitation. The second is illustrated by the raging of a stallion and the violent turbulence of waves.",
+    "source_refs": [
+      "maqayis:row:1647",
+      "lane:entry:20092",
+      "mufradat:row:438"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:xmT:xamoT:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:xmT:khamt",
+      "reason": "Displayed under the normalized citation form خَمْطٌ; the Quranic occurrence is morphologically tagged as an adjective, with a classical botanical-noun interpretation also recorded."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:xmT:khamt",
+      "form_group_ids": [
+        "qac-form:xmT:xamoT:nominal:-"
+      ],
+      "headword_arabic": "خَمْطٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform:xmT:khamt:s1",
+          "definition": "Bitter, disagreeable-tasting, and unpalatable, with a choking quality.",
+          "usage_conditions": "In the Quranic expression أَكُلِ خَمْطٍ, it describes the produce or food as bitter and unpleasant rather than fit for ordinary eating.",
+          "source_refs": [
+            "lane:entry:20092"
+          ]
+        },
+        {
+          "sense_id": "qform:xmT:khamt:s2",
+          "definition": "The arāk tree or its fruit, as a botanical interpretation of the Quranic expression.",
+          "usage_conditions": "In 34:16, some classical readings understand خَمْط as the arāk tree, while another takes it as the fruit of arāk; this is an alternative interpretation to the adjectival sense “bitter and unpalatable.”",
+          "source_refs": [
+            "lane:entry:20092",
+            "mufradat:row:438"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "34:16",
+          "word_location": "34:16:11",
+          "sense_ids": [
+            "qform:xmT:khamt:s1",
+            "qform:xmT:khamt:s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical:xmT:treefruit",
+      "headword_arabic": "خَمْطٌ",
+      "definition": "A tree or its fruit, especially the arāk; also applied to various other reported tree species and named fruits.",
+      "usage_conditions": "Classical identifications vary and include thornless trees, thorn-bearing trees, sidr-like trees, and the fruit called فَسْوَةُ الضَّبُعِ, described in one account as a useless, friable fruit resembling a poppy.",
+      "source_refs": [
+        "lane:entry:20092",
+        "mufradat:row:438"
+      ]
+    },
+    {
+      "meaning_id": "classical:xmT:poison",
+      "headword_arabic": "خَمْطٌ",
+      "definition": "A poisonous or deadly tree; by extension, deadly poison.",
+      "usage_conditions": "A distinct poisonous-plant or poison usage recorded among the classical interpretations of the word.",
+      "source_refs": [
+        "lane:entry:20092"
+      ]
+    },
+    {
+      "meaning_id": "classical:xmT:sparsefruit",
+      "headword_arabic": "خَمْطٌ",
+      "definition": "Scanty fruit borne by trees.",
+      "usage_conditions": "A specialized botanical usage, distinct from the general description of bitterness or unpleasant taste.",
+      "source_refs": [
+        "lane:entry:20092"
+      ]
+    },
+    {
+      "meaning_id": "classical:xmT:bitteracid",
+      "headword_arabic": "خَمْطٌ",
+      "definition": "Bitter, sour, or acid, applied generally to a thing.",
+      "usage_conditions": "This broader adjectival use is not restricted to the Quranic produce described in 34:16.",
+      "source_refs": [
+        "lane:entry:20092"
+      ]
+    },
+    {
+      "meaning_id": "classical:xmT:khamtah",
+      "headword_arabic": "خَمْطَةٌ",
+      "definition": "Wine that has turned sour.",
+      "usage_conditions": "A feminine nominal derivative referring specifically to wine affected by sourness.",
+      "source_refs": [
+        "mufradat:row:438"
+      ]
+    },
+    {
+      "meaning_id": "classical:xmT:takhammata",
+      "headword_arabic": "تَخَمَّطَ",
+      "definition": "To become angry or enraged; of a stallion, to rage and roar.",
+      "usage_conditions": "A derived verbal construction expressing agitation or hostile excitement, not the botanical or taste meanings of خَمْطٌ.",
+      "source_refs": [
+        "mufradat:row:438"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:xmT:20092:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:xmT:khamt:s1",
+        "qform:xmT:khamt:s2",
+        "classical:xmT:treefruit",
+        "classical:xmT:poison",
+        "classical:xmT:sparsefruit",
+        "classical:xmT:bitteracid"
+      ],
+      "note": "The single primary unit contains the Quranic taste and botanical readings as well as the broader tree, fruit, poison, sparse-fruit, and general bitter or acid branches."
+    }
+  ],
+  "cautions": [
+    "The botanical referent and grammatical parsing of خَمْطٍ in 34:16 are disputed in classical interpretation; the Quranic form therefore preserves both the adjectival and arāk-related readings."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,401 @@
+{
+  "root": "Sgw",
+  "arabic": "صغو",
+  "root_idea": {
+    "summary": "The root centers on turning or inclining toward something.",
+    "development": "The semantic field extends from physical or directional inclination to inward attachment, directed hearing, and lexicalized expressions involving a tilted vessel and reduced contents or due.",
+    "source_refs": [
+      "mufradat:row:835",
+      "lane:entry:26030",
+      "lane:entry:26031",
+      "lane:entry:26039"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Sgw:Sagato:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Sgw:Sagha:V1",
+      "reason": "Displayed under the normalized Form I perfect citation form صَغَا rather than the inflected QAC lemma صَغَتْ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:Sgw:Sagha:V1",
+      "form_group_ids": [
+        "qac-form:Sgw:Sagato:verb:I"
+      ],
+      "headword_arabic": "صَغَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense:Sgw:Sagha:V1:1",
+          "definition": "To incline toward something or be drawn toward it.",
+          "usage_conditions": "In the Quranic occurrences, the subject is the heart: hearts incline toward an object, influence, or matter. This Quranic sense concerns inward directional inclination; physical leaning and the specialized listening, celestial, and idiomatic uses are treated separately below.",
+          "source_refs": [
+            "lane:entry:26030",
+            "mufradat:row:835"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:113",
+          "word_location": "6:113:1",
+          "sense_ids": [
+            "sense:Sgw:Sagha:V1:1"
+          ]
+        },
+        {
+          "verse_key": "66:4",
+          "word_location": "66:4:6",
+          "sense_ids": [
+            "sense:Sgw:Sagha:V1:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Sgw:Saga:physical",
+      "headword_arabic": "صَغَا / صَغِيَ",
+      "definition": "To lean or incline physically; to lean to one side or bend or bow over one's bow; also, to have an inclination of the jaw or one lip.",
+      "usage_conditions": "Used of a person or thing for bodily inclination; the jaw or lip application is an anatomical specialization.",
+      "source_refs": [
+        "lane:entry:26030"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Saga:hearing",
+      "headword_arabic": "صَغَى",
+      "definition": "To incline one's ear, give ear, hearken, or listen.",
+      "usage_conditions": "A directed-hearing use, especially with an ear or hearing as the part inclined.",
+      "source_refs": [
+        "lane:entry:26030",
+        "mufradat:row:835"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Saga:celestial",
+      "headword_arabic": "صَغَا",
+      "definition": "Of the stars or the sun, to incline toward setting.",
+      "usage_conditions": "A conventional description of celestial bodies approaching their setting.",
+      "source_refs": [
+        "lane:entry:26030"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Saga:affection",
+      "headword_arabic": "صَغِيَ",
+      "definition": "To have one's love or affection attached to people outside the relevant party or group.",
+      "usage_conditions": "A social or partisan use describing where a person's attachment lies.",
+      "source_refs": [
+        "lane:entry:26030"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Saga:inclination",
+      "headword_arabic": "صَغًا",
+      "definition": "Inclination; a disposition or alignment toward something.",
+      "usage_conditions": "Used as a verbal noun and also as a simple substantive.",
+      "source_refs": [
+        "lane:entry:26032"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Sagw:chosen-companion",
+      "headword_arabic": "صَغْوٌ",
+      "definition": "In the expression ابن صَغْوِكَ, a chosen or specially favored friend or companion.",
+      "usage_conditions": "A fixed or idiomatic expression for a special associate.",
+      "source_refs": [
+        "lane:entry:26033"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Sigw:vessel-part",
+      "headword_arabic": "صِغْوٌ",
+      "definition": "The interior of a ladle; the side of a well; or the folded or turned-over part of the sides of a bucket.",
+      "usage_conditions": "A concrete noun for an interior, side, or folded portion of a hollow implement or structure; its plural in these uses is أَصْغَاءٌ.",
+      "source_refs": [
+        "lane:entry:26034"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Asgha:vessel",
+      "headword_arabic": "أَصْغَى",
+      "definition": "To incline or turn a vessel onto its side so that its contents collect together.",
+      "usage_conditions": "Takes a vessel as its object and describes deliberate tilting rather than simple inward inclination.",
+      "source_refs": [
+        "lane:entry:26031"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Asgha:due",
+      "headword_arabic": "أَصْغَى",
+      "definition": "To diminish, impair, or defraud someone of a portion of his right or due.",
+      "usage_conditions": "Used in the idiom أَصْغَى حَقَّهُ or with a thing whose proper portion is reduced.",
+      "source_refs": [
+        "lane:entry:26031"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Asgha:slander",
+      "headword_arabic": "أَصْغَى",
+      "definition": "To detract from a person's reputation, speak evil of him, or slander him.",
+      "usage_conditions": "A figurative or tropical use associated with the expression أَصْغَى إِنَاءَهُ.",
+      "source_refs": [
+        "lane:entry:26031"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Usghiya:perished",
+      "headword_arabic": "أُصْغِيَ",
+      "definition": "To perish or die.",
+      "usage_conditions": "An idiomatic passive construction: أُصْغِيَ إِنَاءُ فُلَانٍ.",
+      "source_refs": [
+        "lane:entry:26031"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Asgha:listen",
+      "headword_arabic": "أَصْغَى",
+      "definition": "To incline the head or ear toward someone; to give ear, hearken, or listen.",
+      "usage_conditions": "The verb may occur with the head or hearing as object, or alone with the meaning listen; it is also used of an animal inclining its head as if listening.",
+      "source_refs": [
+        "lane:entry:26031"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Saghiya:followers",
+      "headword_arabic": "صَاغٍ / صَاغِيَةٌ",
+      "definition": "Those who incline toward a person and come to him seeking what he has; by extension, his family, guests, companions, or relations.",
+      "usage_conditions": "صَاغِيَةٌ can function as a collective expression for a person's dependents or associates.",
+      "source_refs": [
+        "lane:entry:26036"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Sawaghi:stars",
+      "headword_arabic": "الصَّوَاغِي",
+      "definition": "The stars that have inclined toward setting.",
+      "usage_conditions": "A plural derived form used specifically of stars in their settingward inclination.",
+      "source_refs": [
+        "lane:entry:26036"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Asgha:adjective",
+      "headword_arabic": "أَصْغَى / صَغْوَاءُ",
+      "definition": "Having something inclined: of a person's jaw or lip, a bird's beak or mandible, or the sun as it inclines toward setting.",
+      "usage_conditions": "An adjectival use; صَغْوَاءُ is the feminine form and may intensify the description in the bird application.",
+      "source_refs": [
+        "lane:entry:26037"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Masgha:place",
+      "headword_arabic": "مَصْغًى",
+      "definition": "A place or direction toward which one inclines; figuratively, the person or destination to which one turns for benefit.",
+      "usage_conditions": "A noun of place or destination, including the proverbial sense of knowing where or to whom to turn.",
+      "source_refs": [
+        "lane:entry:26038"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Musgha:adjective",
+      "headword_arabic": "مُصْغًى",
+      "definition": "Inclined.",
+      "usage_conditions": "A passive-participial or adjectival use without the vessel idiom.",
+      "source_refs": [
+        "lane:entry:26039"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sgw:Musgha:due",
+      "headword_arabic": "مُصْغًى",
+      "definition": "Having one's due or share reduced; being abridged or defrauded of one's right; by euphemism, doomed or perished.",
+      "usage_conditions": "In the expression فُلَانٌ مُصْغًى إِنَاؤُهُ, the tilted-vessel image signifies deficiency in what one receives and may extend figuratively to destruction.",
+      "source_refs": [
+        "lane:entry:26039",
+        "mufradat:row:835"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Sgw:26030:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Sgw:Sagha:V1:1",
+        "cm:Sgw:Saga:physical",
+        "cm:Sgw:Saga:hearing",
+        "cm:Sgw:Saga:celestial",
+        "cm:Sgw:Saga:affection"
+      ],
+      "note": "General inclination, bodily inclination, directed hearing, celestial setting, and partisan attachment are all covered."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26030:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Saga:hearing"
+      ],
+      "note": "Covers the variant use meaning incline and listen."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26031:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Asgha:vessel"
+      ],
+      "note": "Covers tilting a vessel so its contents collect."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26031:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Asgha:due",
+        "cm:Sgw:Asgha:slander",
+        "cm:Sgw:Usghiya:perished"
+      ],
+      "note": "Covers reduced due, reputational disparagement, and the passive idiom for perishing."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26031:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Asgha:listen"
+      ],
+      "note": "Covers inclining the head or ear, listening, and the analogous animal behavior."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26032:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Saga:inclination"
+      ],
+      "note": "Covers صَغًا as verbal noun and substantive for inclination."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26033:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Sagw:chosen-companion"
+      ],
+      "note": "Covers the idiom for a chosen or special companion."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26034:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26034:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Sigw:vessel-part"
+      ],
+      "note": "Covers the interior of a ladle."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26034:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Sigw:vessel-part"
+      ],
+      "note": "Covers the side of a well."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26034:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Sigw:vessel-part"
+      ],
+      "note": "Covers the folded or turned-over side of a bucket."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26035:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26036:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Part-of-speech, gender, and number information only."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26036:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Saghiya:followers"
+      ],
+      "note": "Covers صَاغِيَةٌ as those attached to or coming to a person."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26036:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Sawaghi:stars"
+      ],
+      "note": "Covers the derived plural for stars inclined to setting."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26037:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Asgha:adjective"
+      ],
+      "note": "Covers the adjectival jaw or lip inclination."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26037:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Asgha:adjective"
+      ],
+      "note": "Covers the bird's inclined beak or mandible."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26037:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Asgha:adjective"
+      ],
+      "note": "Covers the sun inclining to setting."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26038:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Masgha:place"
+      ],
+      "note": "Covers a place or destination toward which one turns."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26039:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Musgha:adjective"
+      ],
+      "note": "Covers the basic adjectival meaning inclined."
+    },
+    {
+      "unit_id": "lane-unit:Sgw:26039:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sgw:Musgha:due"
+      ],
+      "note": "Covers the idiom of a vessel being inclined and a person's due being reduced."
+    }
+  ],
+  "cautions": [
+    "No Maqayis entry was supplied; the root-level orientation is therefore based on the supplied Mufradat and Lane evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,783 @@
+{
+  "root": "Sly",
+  "arabic": "صلي",
+  "root_idea": {
+    "summary": "The root has a primary semantic axis of fire, heat, and exposure to burning, alongside a distinct tradition of worship, invocation, and blessing associated with the same written root.",
+    "development": "The fire-and-heat axis develops into roasting, burning, warming, entering fire, enduring severity, and related object and place nouns. The worship/invocation axis is not represented by the supplied QAC forms and should not be assigned to these Quranic fire-related forms.",
+    "source_refs": [
+      "maqayis:row:2829"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Sly:yaSolaY:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_sly_form1",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Sly:Sal~u:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_sly_form2",
+      "reason": "Displayed as the Quran-attested Form II causative verb."
+    },
+    {
+      "form_group_id": "qac-form:Sly:>uSoliy:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_sly_form4",
+      "reason": "Displayed as the Quran-attested Form IV causative verb."
+    },
+    {
+      "form_group_id": "qac-form:Sly:taSoTalu:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_sly_form8",
+      "reason": "Displayed as the Quran-attested Form VIII reflexive/inchoative verb."
+    },
+    {
+      "form_group_id": "qac-form:Sly:SaAl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_sly_salin",
+      "reason": "Displayed under the normalized singular active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:Sly:SaAluwA:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_sly_salin",
+      "reason": "The supplied form is the plural active-participle realization of صَالٍ."
+    },
+    {
+      "form_group_id": "qac-form:Sly:Siliy~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_sly_siliy",
+      "reason": "Displayed as a distinct Quranic fire-related noun."
+    },
+    {
+      "form_group_id": "qac-form:Sly:taSoliyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_sly_tasliya",
+      "reason": "Displayed as the Quran-attested verbal noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_sly_form1",
+      "form_group_ids": [
+        "qac-form:Sly:yaSolaY:verb:I"
+      ],
+      "headword_arabic": "صَلِيَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 13,
+      "senses": [
+        {
+          "sense_id": "qf1_s1",
+          "definition": "To be burned or to undergo the heat of fire.",
+          "usage_conditions": "Used for undergoing fire and its heat; Quranic contexts include being burned in or by the fire.",
+          "source_refs": [
+            "lane:entry:26481"
+          ]
+        },
+        {
+          "sense_id": "qf1_s2",
+          "definition": "To enter and remain in the fire.",
+          "usage_conditions": "A fire-related construction in which the subject is made to enter, stay, or abide in the fire; this can be rendered as entering, burning in, or being consigned to it.",
+          "source_refs": [
+            "lane:entry:26481"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:10",
+          "word_location": "4:10:12",
+          "sense_ids": [
+            "qf1_s1"
+          ]
+        },
+        {
+          "verse_key": "14:29",
+          "word_location": "14:29:2",
+          "sense_ids": [
+            "qf1_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_sly_form2",
+      "form_group_ids": [
+        "qac-form:Sly:Sal~u:verb:II"
+      ],
+      "headword_arabic": "صَلَّى",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf2_s1",
+          "definition": "To cause someone to enter the fire and burn; to burn or consign someone to the fire.",
+          "usage_conditions": "Transitive causative use with a person or other object as the one subjected to the fire.",
+          "source_refs": [
+            "lane:entry:26481",
+            "lane:entry:26482"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "69:31",
+          "word_location": "69:31:3",
+          "sense_ids": [
+            "qf2_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_sly_form4",
+      "form_group_ids": [
+        "qac-form:Sly:>uSoliy:verb:IV"
+      ],
+      "headword_arabic": "أَصْلَى",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qf4_s1",
+          "definition": "To cause someone to enter the fire and burn; to cast or consign someone to the fire.",
+          "usage_conditions": "Transitive causative use, with emphasis in some contexts on casting or placing the object into the fire.",
+          "source_refs": [
+            "lane:entry:26481",
+            "lane:entry:26483"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:30",
+          "word_location": "4:30:7",
+          "sense_ids": [
+            "qf4_s1"
+          ]
+        },
+        {
+          "verse_key": "4:56",
+          "word_location": "4:56:6",
+          "sense_ids": [
+            "qf4_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_sly_form8",
+      "form_group_ids": [
+        "qac-form:Sly:taSoTalu:verb:VIII"
+      ],
+      "headword_arabic": "اِصْطَلَى",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf8_s1",
+          "definition": "To warm oneself by a fire.",
+          "usage_conditions": "Reflexive or intransitive use for becoming warm through proximity to or use of fire.",
+          "source_refs": [
+            "lane:entry:26485"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:7",
+          "word_location": "27:7:16",
+          "sense_ids": [
+            "qf8_s1"
+          ]
+        },
+        {
+          "verse_key": "28:29",
+          "word_location": "28:29:27",
+          "sense_ids": [
+            "qf8_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_sly_salin",
+      "form_group_ids": [
+        "qac-form:Sly:SaAl:nominal:-",
+        "qac-form:Sly:SaAluwA:nominal:-"
+      ],
+      "headword_arabic": "صَالٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qfap_s1",
+          "definition": "One who is burning in or exposed to fire; one undergoing burning.",
+          "usage_conditions": "Active-participle use in a fire context; the supplied Quranic occurrences include both the singular citation form and its plural realization.",
+          "source_refs": [
+            "lane:entry:26493"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:163",
+          "word_location": "37:163:4",
+          "sense_ids": [
+            "qfap_s1"
+          ]
+        },
+        {
+          "verse_key": "38:59",
+          "word_location": "38:59:9",
+          "sense_ids": [
+            "qfap_s1"
+          ]
+        },
+        {
+          "verse_key": "83:16",
+          "word_location": "83:16:3",
+          "sense_ids": [
+            "qfap_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_sly_siliy",
+      "form_group_ids": [
+        "qac-form:Sly:Siliy~:nominal:-"
+      ],
+      "headword_arabic": "صِلِيٌّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qfsiliy_s1",
+          "definition": "Burning or exposure to the fire.",
+          "usage_conditions": "A noun denoting the state or experience of being subjected to fire.",
+          "source_refs": [
+            "lane:entry:26481"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:70",
+          "word_location": "19:70:8",
+          "sense_ids": [
+            "qfsiliy_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_sly_tasliya",
+      "form_group_ids": [
+        "qac-form:Sly:taSoliyap:nominal:-"
+      ],
+      "headword_arabic": "تَصْلِيَةٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qftasliya_s1",
+          "definition": "Causing entry into fire and burning; burning or consignment to the fire.",
+          "usage_conditions": "A verbal noun for the causative act or resulting treatment of placing someone or something in fire to be burned.",
+          "source_refs": [
+            "lane:entry:26481"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:94",
+          "word_location": "56:94:1",
+          "sense_ids": [
+            "qftasliya_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_sly_roast_flesh",
+      "headword_arabic": "صَلَى",
+      "definition": "To roast, broil, fry, or burn flesh-meat.",
+      "usage_conditions": "Transitive culinary use with flesh-meat as the object.",
+      "source_refs": [
+        "lane:entry:26481"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_slander",
+      "headword_arabic": "صَلَى",
+      "definition": "To slander or calumniate someone and thereby cause that person to fall into destruction.",
+      "usage_conditions": "A tropical transitive construction, including صَلَيْتُ لِفُلَانٍ.",
+      "source_refs": [
+        "lane:entry:26481"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_cajole",
+      "headword_arabic": "صَلَى",
+      "definition": "To soothe, coax, wheedle, cajole, deceive, or outwit someone.",
+      "usage_conditions": "A reported lexical use attributed to one authority and distinguished from the slander-and-destruction usage.",
+      "source_refs": [
+        "lane:entry:26481"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_adversity",
+      "headword_arabic": "صَلِيَ",
+      "definition": "To endure the heat or severity of an affair or war, or to undergo an ordeal by fire or its analogue.",
+      "usage_conditions": "May take an affair, war, fire, or another hardship as the source of the heat or trial.",
+      "source_refs": [
+        "lane:entry:26481"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_cling",
+      "headword_arabic": "صَلِيَ",
+      "definition": "To keep to or cling to something.",
+      "usage_conditions": "A reported additional lexical use; it is not used here as a definition of the Quranic fire-related forms.",
+      "source_refs": [
+        "lane:entry:26481"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_strike_sala",
+      "headword_arabic": "صَلَى",
+      "definition": "To strike or hit the part of the back called صَلًا.",
+      "usage_conditions": "An exceptional or non-regular usage explicitly marked as extraneous in the lexical discussion.",
+      "source_refs": [
+        "lane:entry:26481"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_warm_object",
+      "headword_arabic": "صَلَّى",
+      "definition": "To warm an object with fire.",
+      "usage_conditions": "Includes warming a hand or another object by holding it near the fire.",
+      "source_refs": [
+        "lane:entry:26482"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_shape_wood",
+      "headword_arabic": "صَلَّى",
+      "definition": "To parch, supple, straighten, or otherwise shape wood by turning it over fire.",
+      "usage_conditions": "Used of a staff, spear-shaft, stick, or branch treated with fire.",
+      "source_refs": [
+        "lane:entry:26482"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_burn_self",
+      "headword_arabic": "اِصْطَلَى",
+      "definition": "To become burned by fire.",
+      "usage_conditions": "A non-Quranic extension of the Form VIII fire construction, distinct from merely warming oneself.",
+      "source_refs": [
+        "lane:entry:26485"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_chameleon_sun",
+      "headword_arabic": "اِصْطَلَى",
+      "definition": "For a chameleon, to repair to the sun.",
+      "usage_conditions": "A specialized zoological usage.",
+      "source_refs": [
+        "lane:entry:26485"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_formidable",
+      "headword_arabic": "اِصْطَلَى",
+      "definition": "To be approachable only with difficulty, especially when a formidable person is inflamed with anger or engaged in battle.",
+      "usage_conditions": "An idiomatic expression based on the literal image of warming oneself at someone’s fire.",
+      "source_refs": [
+        "lane:entry:26485"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_hospitality",
+      "headword_arabic": "اِصْطَلَى",
+      "definition": "To refrain from seeking a person’s hospitality.",
+      "usage_conditions": "A satirical use of the same fire-based idiom.",
+      "source_refs": [
+        "lane:entry:26485"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_fuel_heat",
+      "headword_arabic": "صِلَاءٌ",
+      "definition": "Fuel used to kindle a fire; by extension, fire or the heat of fire.",
+      "usage_conditions": "The lexical alternatives include what is burned as fuel, the fire itself, and its heat.",
+      "source_refs": [
+        "lane:entry:26488"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_grindstone",
+      "headword_arabic": "صَلَايَةٌ",
+      "definition": "A hand-sized stone or grinding stone used to bruise, pound, or powder perfume or other substances.",
+      "usage_conditions": "The stone is the surface or implement used for grinding; the associated implement is separately named مِدْوَكٌ.",
+      "source_refs": [
+        "lane:entry:26491"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_forehead",
+      "headword_arabic": "صَلَايَةٌ",
+      "definition": "The forehead.",
+      "usage_conditions": "A figurative use likening the forehead to the grinding stone.",
+      "source_refs": [
+        "lane:entry:26491"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_highland",
+      "headword_arabic": "صَلَايَةٌ",
+      "definition": "A rough, rugged strip of elevated ground.",
+      "usage_conditions": "A geographical description of a rugged strip of highland.",
+      "source_refs": [
+        "lane:entry:26491"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_pot_support",
+      "headword_arabic": "صَالِيَةٌ",
+      "definition": "A support for a cooking pot, such as a three-stone hearth.",
+      "usage_conditions": "A household implement or structure supporting the cooking vessel.",
+      "source_refs": [
+        "lane:entry:26494"
+      ]
+    },
+    {
+      "meaning_id": "cm_masliyy_roasted",
+      "headword_arabic": "مَصْلِيٌّ",
+      "definition": "Roasted, broiled, or fried.",
+      "usage_conditions": "An adjectival or participial description of food treated by fire.",
+      "source_refs": [
+        "lane:entry:26495"
+      ]
+    },
+    {
+      "meaning_id": "cm_masliyy_date",
+      "headword_arabic": "مَصْلِيٌّ",
+      "definition": "Dried in the sun, specifically said of a date.",
+      "usage_conditions": "A specialized description of a sun-dried date.",
+      "source_refs": [
+        "lane:entry:26495"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_plantland",
+      "headword_arabic": "مَصْلَاةٌ",
+      "definition": "Land abounding in the plant called صِلِّيَان.",
+      "usage_conditions": "A specialized environmental noun describing land by its vegetation.",
+      "source_refs": [
+        "lane:entry:26496"
+      ]
+    },
+    {
+      "meaning_id": "cm_sly_snare",
+      "headword_arabic": "مِصْلَاةٌ",
+      "definition": "A snare or trap set for birds or other creatures.",
+      "usage_conditions": "The plural is مَصَالٍ; the term is also used metaphorically for traps that catch people.",
+      "source_refs": [
+        "lane:entry:26497"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustala_extremities",
+      "headword_arabic": "مُصْطَلًى",
+      "definition": "The limbs and prominent extremities of a person that become cold at death and are warmed at a fire.",
+      "usage_conditions": "May refer broadly to the arms, legs, face, and other exposed extremities, or more narrowly to the face and extremities.",
+      "source_refs": [
+        "lane:entry:26498"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Sly:26481:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf1_s2",
+        "qf2_s1",
+        "qf4_s1",
+        "qftasliya_s1",
+        "qfsiliy_s1",
+        "cm_sly_roast_flesh"
+      ],
+      "note": "Covers roasting or burning flesh and the fire-consignment constructions."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26481:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_slander",
+        "cm_sly_cajole"
+      ],
+      "note": "Covers the tropical slander/destruction and reported cajoling or deceiving uses."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26481:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "A cross-reference to another unit, with a reported textual error."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26481:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf1_s1",
+        "qf1_s2",
+        "cm_sly_adversity"
+      ],
+      "note": "Covers undergoing fire, entering it, and enduring analogous heat or severity."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26481:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_cling"
+      ],
+      "note": "Covers the reported sense of keeping to or clinging to something."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26481:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_strike_sala"
+      ],
+      "note": "Covers the exceptional usage of striking the back."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26482:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26482:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_warm_object"
+      ],
+      "note": "Covers warming a hand or object with fire."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26482:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_shape_wood"
+      ],
+      "note": "Covers parching, supple-making, and straightening wood with fire."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26483:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf4_s1"
+      ],
+      "note": "Its pointer directs the reader to the represented causative fire sense."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26484:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following paragraph."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26484:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to an earlier passage."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26484:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26485:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf8_s1",
+        "cm_sly_burn_self"
+      ],
+      "note": "Covers warming oneself and the distinct possibility of becoming burned."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26485:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_chameleon_sun"
+      ],
+      "note": "Covers the specialized chameleon usage."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26485:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_formidable",
+        "cm_sly_hospitality"
+      ],
+      "note": "Covers both readings of the fire-based idiom."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26485:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26486:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to صَلَاءٌ."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26487:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to صَلَايَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26488:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_roast_flesh"
+      ],
+      "note": "Covers roasted, broiled, or fried flesh-meat as a noun."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26488:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_fuel_heat"
+      ],
+      "note": "Covers fuel, fire, and the heat of fire."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26489:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مَصْلِيٌّ."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26490:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26491:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_grindstone"
+      ],
+      "note": "Covers the hand-sized grinding stone and perfume-grinding stone."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26491:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_forehead"
+      ],
+      "note": "Covers the figurative sense forehead."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26491:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_highland"
+      ],
+      "note": "Covers the rugged strip of high ground."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26492:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another article."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26493:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfap_s1"
+      ],
+      "note": "Provides the tentative active-participle interpretation heated, warmed, or burned."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26494:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_pot_support"
+      ],
+      "note": "Covers the cooking-pot support."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26495:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masliyy_roasted"
+      ],
+      "note": "Covers the lexical identity مَصْلِيٌّ meaning roasted or fried."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26495:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masliyy_date"
+      ],
+      "note": "Covers the specialized sun-dried-date usage."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26496:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_plantland"
+      ],
+      "note": "Covers land abounding in صِلِّيَان."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26497:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sly_snare"
+      ],
+      "note": "Covers the snare or trap noun."
+    },
+    {
+      "unit_id": "lane-unit:Sly:26498:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustala_extremities"
+      ],
+      "note": "Covers the bodily extremities warmed at fire."
+    }
+  ],
+  "cautions": [
+    "The Mufradat entry supplied is explicitly shared between the QAC roots Slw and Sly; its prayer, invocation, and blessing discussion has therefore not been assigned as a direct meaning of this root's Quranic forms.",
+    "The Lane evidence for صَالٍ is explicitly tentative, stating that the interpretation is correct only if the cited reading is accepted; the active-participle sense is retained because the QAC form and the directly corresponding Lane entry are both supplied.",
+    "The Quranic Form I fire usages encompass both undergoing the heat of fire and entering or remaining in it; these are kept as separate senses because the lexical evidence explicitly distinguishes the interpretations."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The shared Mufradat row contains extensive prayer-related material that may belong to the neighboring Slw root; it cannot be confidently assigned to Sly from this packet alone.",
+    "The interpretation of Lane's صَالٍ as heated, warmed, or burned is attributed without named authority and qualified by 'if this be correct'; it is represented but flagged as tentative."
+  ]
+}

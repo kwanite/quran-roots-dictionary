@@ -1,0 +1,134 @@
+{
+  "root": "Tfq",
+  "arabic": "طفق",
+  "root_idea": {
+    "summary": "The root centers on taking up or entering into an action, especially in the construction طَفِقَ يَفْعَلُ كَذَا, “he began doing such-and-such.”",
+    "development": "The core usage is “begin or set about doing,” with continuation possible in context but not lexically required. Classical extensions include remaining attached to a place and attaining a desired object, alongside a causative Form IV usage meaning to cause attainment.",
+    "source_refs": [
+      "maqayis:row:3040",
+      "lane:entry:11451",
+      "lane:entry:11452"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Tfq:Tafiqa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Tfq:Tafiqa:I",
+      "reason": "Displayed as the normalized Form I dictionary citation form طَفِقَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:Tfq:Tafiqa:I",
+      "form_group_ids": [
+        "qac-form:Tfq:Tafiqa:verb:I"
+      ],
+      "headword_arabic": "طَفِقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsense:Tfq:Tafiqa:begin",
+          "definition": "To begin, set about, or take to doing something.",
+          "usage_conditions": "Used affirmatively, not with ما. It is ordinarily followed by a non-past verb or verbal predicate; Quranic usage may also present the action as a verbal noun. Continuation may be intended by context but is not required by the verb itself.",
+          "source_refs": [
+            "lane:entry:11451",
+            "mufradat:row:901"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:22",
+          "word_location": "7:22:9",
+          "sense_ids": [
+            "qsense:Tfq:Tafiqa:begin"
+          ]
+        },
+        {
+          "verse_key": "20:121",
+          "word_location": "20:121:6",
+          "sense_ids": [
+            "qsense:Tfq:Tafiqa:begin"
+          ]
+        },
+        {
+          "verse_key": "38:33",
+          "word_location": "38:33:3",
+          "sense_ids": [
+            "qsense:Tfq:Tafiqa:begin"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Tfq:Tafiqa:attain-desire",
+      "headword_arabic": "طَفِقَ",
+      "definition": "To attain what one desired.",
+      "usage_conditions": "Attested in the construction طَفِقَ فُلَانٌ بِمَا أَرَادَ.",
+      "source_refs": [
+        "lane:entry:11451"
+      ]
+    },
+    {
+      "meaning_id": "cm:Tfq:Tafiqa:keep-place",
+      "headword_arabic": "طَفِقَ",
+      "definition": "To keep to or cling to a place.",
+      "usage_conditions": "Used with a place in the expression طَفِقَ المَوْضِعَ.",
+      "source_refs": [
+        "lane:entry:11451"
+      ]
+    },
+    {
+      "meaning_id": "cm:Tfq:Atfaqa:cause-attain",
+      "headword_arabic": "أَطْفَقَهُ",
+      "definition": "To cause someone or something to attain or reach another person or thing.",
+      "usage_conditions": "Form IV, including the construction أَطْفَقَهُ اللهُ بِهِ, “God caused him or it to attain him or it.”",
+      "source_refs": [
+        "lane:entry:11452"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Tfq:11451:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:Tfq:Tafiqa:begin"
+      ],
+      "note": "Covers the Form I meaning of beginning or taking up an action and its Quranic construction."
+    },
+    {
+      "unit_id": "lane-unit:Tfq:11451:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Tfq:Tafiqa:attain-desire"
+      ],
+      "note": "Independent attainment meaning."
+    },
+    {
+      "unit_id": "lane-unit:Tfq:11451:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Tfq:Tafiqa:keep-place"
+      ],
+      "note": "Independent meaning of keeping to a place."
+    },
+    {
+      "unit_id": "lane-unit:Tfq:11452:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Tfq:Atfaqa:cause-attain"
+      ],
+      "note": "Form IV causative attainment meaning."
+    }
+  ],
+  "cautions": [
+    "In Quran 38:33, the action introduced by طَفِقَ is interpreted variously as cutting with a sword or wiping/stroking; the verb itself retains the sense of taking up or beginning that action."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,562 @@
+{
+  "root": "bwr",
+  "arabic": "بور",
+  "root_idea": {
+    "summary": "The root centers on two attested orientations: destruction, ruin, or disabling stagnation, and testing or examination.",
+    "development": "The destruction branch extends from extreme stagnation to فساد and ruin, while the testing branch is concretely illustrated by bringing a she-camel to a stallion to determine pregnancy and then extends to examining or assaying something.",
+    "source_refs": [
+      "maqayis:row:876",
+      "mufradat:row:165"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bwr:yabuwru:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_bwr_bara",
+      "reason": "Displayed under the normalized Form I perfect citation form بَارَ rather than the imperfect QAC lemma يَبُورُ."
+    },
+    {
+      "form_group_id": "qac-form:bwr:bawaAr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_bwr_bawar",
+      "reason": "Displayed as the independent verbal noun بَوَار."
+    },
+    {
+      "form_group_id": "qac-form:bwr:buwr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_bwr_bur",
+      "reason": "Displayed as the adjective or verbal-noun epithet بُور."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_bwr_bara",
+      "form_group_ids": [
+        "qac-form:bwr:yabuwru:verb:I"
+      ],
+      "headword_arabic": "بَارَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen_bwr_bara_1",
+          "definition": "To perish, be ruined, or prove vain and ineffectual.",
+          "usage_conditions": "In the Quran, the verb describes a thing, work, enterprise, or plan coming to ruin or failing; the negative construction in 35:29 expresses not perishing.",
+          "source_refs": [
+            "lane:entry:37436",
+            "mufradat:row:165"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "35:10",
+          "word_location": "35:10:24",
+          "sense_ids": [
+            "qsen_bwr_bara_1"
+          ]
+        },
+        {
+          "verse_key": "35:29",
+          "word_location": "35:29:16",
+          "sense_ids": [
+            "qsen_bwr_bara_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_bwr_bawar",
+      "form_group_ids": [
+        "qac-form:bwr:bawaAr:nominal:-"
+      ],
+      "headword_arabic": "بَوَار",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_bwr_bawar_1",
+          "definition": "Destruction, perdition, or ruin resulting from utter stagnation.",
+          "usage_conditions": "An abstract noun; in دار البوار it denotes an abode of destruction or perdition.",
+          "source_refs": [
+            "lane:entry:37447",
+            "mufradat:row:165"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:28",
+          "word_location": "14:28:12",
+          "sense_ids": [
+            "qsen_bwr_bawar_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_bwr_bur",
+      "form_group_ids": [
+        "qac-form:bwr:buwr:nominal:-"
+      ],
+      "headword_arabic": "بُور",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen_bwr_bur_1",
+          "definition": "Ruined, perishing, or in a state of perdition.",
+          "usage_conditions": "In the Quranic constructions, it describes people as ruined or perishing. The form can function as an epithet for singular or plural and is not a separate sense merely because its grammatical number or gender varies.",
+          "source_refs": [
+            "lane:entry:37440",
+            "mufradat:row:165"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:18",
+          "word_location": "25:18:21",
+          "sense_ids": [
+            "qsen_bwr_bur_1"
+          ]
+        },
+        {
+          "verse_key": "48:12",
+          "word_location": "48:12:20",
+          "sense_ids": [
+            "qsen_bwr_bur_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_bwr_land",
+      "headword_arabic": "بَوْر / بُور",
+      "definition": "Uncultivated, unsown, or fallow land; land left unplanted or in a bad agricultural state.",
+      "usage_conditions": "Used of land, including land left fallow to be sown later.",
+      "source_refs": [
+        "lane:entry:37436",
+        "lane:entry:37439"
+      ]
+    },
+    {
+      "meaning_id": "cm_bwr_trade",
+      "headword_arabic": "بَارَ",
+      "definition": "To become unsaleable or difficult to sell; of a market, to become stagnant in trade.",
+      "usage_conditions": "A commercial and market construction derived from the idea of uselessness through neglect.",
+      "source_refs": [
+        "lane:entry:37436"
+      ]
+    },
+    {
+      "meaning_id": "cm_bwr_unmarried",
+      "headword_arabic": "بَارَتِ الأَيِّمُ",
+      "definition": "Of a woman without a husband, to remain undesired or undemanded in marriage.",
+      "usage_conditions": "A conventional construction describing prolonged failure to receive a marriage proposal.",
+      "source_refs": [
+        "lane:entry:37436"
+      ]
+    },
+    {
+      "meaning_id": "cm_bur_corrupt",
+      "headword_arabic": "بُور",
+      "definition": "Bad or corrupt, destitute of good.",
+      "usage_conditions": "A broader Classical adjectival use, especially of a person, distinct from the Quranic description of being ruined or in perdition.",
+      "source_refs": [
+        "lane:entry:37440"
+      ]
+    },
+    {
+      "meaning_id": "cm_bur_deficiency",
+      "headword_arabic": "بُور",
+      "definition": "Deficiency, detriment, or a defective state.",
+      "usage_conditions": "Used in the collocation حُورٌ وَبُورٌ and related expressions of loss or impaired condition.",
+      "source_refs": [
+        "lane:entry:37440"
+      ]
+    },
+    {
+      "meaning_id": "cm_bair_erring",
+      "headword_arabic": "بَائِر",
+      "definition": "Erring, failing to apply oneself rightly, or not following right direction.",
+      "usage_conditions": "Especially attested in the collocation رَجُلٌ حَائِرٌ بَائِرٌ; the lexical relation is reported in connection with either sluggishness, perdition, or imitative pairing.",
+      "source_refs": [
+        "lane:entry:37449"
+      ]
+    },
+    {
+      "meaning_id": "cm_bwr_camel_test",
+      "headword_arabic": "بَارَ النَّاقَةَ",
+      "definition": "To bring a she-camel to a stallion to determine whether she is pregnant.",
+      "usage_conditions": "The test involves the stallion smelling the female; the construction is specialized to determining whether she is pregnant or not.",
+      "source_refs": [
+        "lane:entry:37436"
+      ]
+    },
+    {
+      "meaning_id": "cm_bwr_examine",
+      "headword_arabic": "بَارَهُ",
+      "definition": "To try, assay, prove by experience, or examine someone or something.",
+      "usage_conditions": "May involve examining what is in a person's mind or discovering the state of a matter through testing.",
+      "source_refs": [
+        "lane:entry:37436"
+      ]
+    },
+    {
+      "meaning_id": "cm_mibwar_stallion",
+      "headword_arabic": "مِبْوَر",
+      "definition": "A stallion-camel able to determine whether a female is pregnant.",
+      "usage_conditions": "A specialized noun for the knowledgeable stallion in the pregnancy-testing construction.",
+      "source_refs": [
+        "lane:entry:37450"
+      ]
+    },
+    {
+      "meaning_id": "cm_abara_destroy",
+      "headword_arabic": "أَبَارَ",
+      "definition": "To cause someone or something to perish; to destroy.",
+      "usage_conditions": "A Form IV causative use.",
+      "source_refs": [
+        "lane:entry:37437"
+      ]
+    },
+    {
+      "meaning_id": "cm_mubir_destroyer",
+      "headword_arabic": "مُبِير",
+      "definition": "A destructive person who acts excessively in destroying others.",
+      "usage_conditions": "An agentive or personal description of destructive conduct.",
+      "source_refs": [
+        "lane:entry:37451"
+      ]
+    },
+    {
+      "meaning_id": "cm_ibtawar_claim_intercourse",
+      "headword_arabic": "اِبْتَوَرَ",
+      "definition": "To assert truthfully that one has had sexual intercourse with a woman.",
+      "usage_conditions": "A specialized derived-form use reported in the lexical discussion.",
+      "source_refs": [
+        "lane:entry:37436"
+      ]
+    },
+    {
+      "meaning_id": "cm_ibtawar_forced_intercourse",
+      "headword_arabic": "اِبْتَوَرَ",
+      "definition": "To have sexual intercourse with a woman by force.",
+      "usage_conditions": "A specialized construction referring to forcible intercourse.",
+      "source_refs": [
+        "lane:entry:37436"
+      ]
+    },
+    {
+      "meaning_id": "cm_ibtawar_false_charge",
+      "headword_arabic": "اِبْتَوَرَ",
+      "definition": "To charge or upbraid a person with something that is not in him.",
+      "usage_conditions": "A specialized derived-form use concerning a false attribution or accusation.",
+      "source_refs": [
+        "lane:entry:37436"
+      ]
+    },
+    {
+      "meaning_id": "cm_bari_mat",
+      "headword_arabic": "بَارِيّ",
+      "definition": "A woven reed mat, especially a rough mat or حصير.",
+      "usage_conditions": "An Arabicized nominal usage; the plural is بَوَارِيّ.",
+      "source_refs": [
+        "lane:entry:37441"
+      ]
+    },
+    {
+      "meaning_id": "cm_bari_road",
+      "headword_arabic": "بَارِيّ",
+      "definition": "A road.",
+      "usage_conditions": "A separately reported Arabicized usage, given as a synonym of طَرِيق.",
+      "source_refs": [
+        "lane:entry:37441"
+      ]
+    },
+    {
+      "meaning_id": "cm_buri_fish",
+      "headword_arabic": "بُورِيّ",
+      "definition": "A fish, especially a species of mullet.",
+      "usage_conditions": "The name is explained as deriving from the Egyptian town بُورَة.",
+      "source_refs": [
+        "lane:entry:37442"
+      ]
+    },
+    {
+      "meaning_id": "cm_bawari_seller",
+      "headword_arabic": "بَوَارِيّ",
+      "definition": "A seller of reed mats of the بَارِيّ kind.",
+      "usage_conditions": "An occupational noun derived from the mat term.",
+      "source_refs": [
+        "lane:entry:37448"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bwr:37436:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_bwr_bara_1"
+      ],
+      "note": "Core Form I meaning: perish."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37436:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bwr_land"
+      ],
+      "note": "Land becoming uncultivated or unsown."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37436:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_bwr_bara_1"
+      ],
+      "note": "Work becoming vain or ineffectual in a Quran-attested construction."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37436:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bwr_trade"
+      ],
+      "note": "Goods becoming unsaleable."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37436:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bwr_trade"
+      ],
+      "note": "A market becoming stagnant."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37436:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bwr_unmarried"
+      ],
+      "note": "An unmarried woman remaining undesired in marriage."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37436:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Imitative pairing with حَارَ; no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37436:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bwr_camel_test"
+      ],
+      "note": "Bringing a she-camel to a stallion to test pregnancy."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37436:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bwr_camel_test"
+      ],
+      "note": "The stallion's smelling as part of the pregnancy test."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37436:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bwr_examine",
+        "cm_ibtawar_claim_intercourse",
+        "cm_ibtawar_forced_intercourse",
+        "cm_ibtawar_false_charge"
+      ],
+      "note": "General examination and specialized derived-form usages."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37437:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_abara_destroy"
+      ],
+      "note": "Form IV causative destruction."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37438:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the main entry without additional lexical content."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37439:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bwr_land"
+      ],
+      "note": "Several Classical descriptions of uncultivated or fallow land."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37439:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بُورٌ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37440:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_bwr_bur_1",
+        "cm_bur_corrupt"
+      ],
+      "note": "Perdition branch and the broader corrupt or destitute-of-good adjectival branch."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37440:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَوْرٌ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37440:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bur_deficiency"
+      ],
+      "note": "Deficiency or detriment in the collocation حُورٌ وَبُورٌ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37441:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bari_mat"
+      ],
+      "note": "Reed mat meaning."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37441:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bari_road"
+      ],
+      "note": "Separately reported road meaning."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37442:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَارِيّ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37442:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_buri_fish"
+      ],
+      "note": "Fish or mullet meaning."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37443:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَارِيّ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37444:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَارِيّ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37445:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَارِيّ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37446:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَارِيّ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37447:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional and pointer-only notice."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37447:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_bwr_bawar_1"
+      ],
+      "note": "Independent noun use meaning perdition."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37447:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَوْرٌ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37448:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bawari_seller"
+      ],
+      "note": "Seller of reed mats."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37449:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بُورٌ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37449:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bair_erring"
+      ],
+      "note": "Erring or failing to apply oneself rightly."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37449:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَوْرٌ."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37450:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mibwar_stallion"
+      ],
+      "note": "Stallion-camel able to determine pregnancy."
+    },
+    {
+      "unit_id": "lane-unit:bwr:37451:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mubir_destroyer"
+      ],
+      "note": "Destructive person."
+    }
+  ],
+  "cautions": [
+    "بُور has competing Classical analyses: it may be treated as a plural or quasi-plural of بَائِر, or as a verbal-noun epithet applicable across number and gender; these analyses do not require separate Quranic senses.",
+    "The derived-form discussion associated with the testing and sexual-conduct material transmits variant spellings, including اِبْتَوَرَ and ابتار; the specialized meanings are retained under the normalized headword اِبْتَوَرَ. The contrasting form ابتهر is not assigned to this root."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Lane passage in lane-unit:bwr:37436:g2:sub3 mixes the normalized form اِبْتَوَرَ with variant transcriptions ابتار and discusses a contrast with ابتهر. The meanings assigned to اِبْتَوَرَ are supported by the passage, but the exact orthographic transmission of the derived form remains uncertain."
+  ]
+}

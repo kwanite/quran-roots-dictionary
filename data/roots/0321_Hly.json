@@ -1,0 +1,536 @@
+{
+  "root": "Hly",
+  "arabic": "حلي",
+  "root_idea": {
+    "summary": "The root centers on ornament and adornment, together with the visible qualities or appearance associated with ornament.",
+    "development": "The lexical evidence extends from acquiring, applying, and wearing physical ornaments to describing a person’s qualities or appearance, with derived forms also expressing self-adornment and affectation.",
+    "source_refs": [
+      "lane:entry:15523",
+      "lane:entry:15524",
+      "lane:entry:15525",
+      "lane:entry:15531",
+      "mufradat:row:354"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hly:Hul~u:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_halla_II",
+      "reason": "Displayed under the normalized Form II perfect citation form حَلَّى."
+    },
+    {
+      "form_group_id": "qac-form:Hly:Hiloyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_hilya",
+      "reason": "Displayed under the singular nominal citation form حِلْيَة."
+    },
+    {
+      "form_group_id": "qac-form:Hly:Huliy~:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form_hilya",
+      "reason": "حُلِيّ is the Quranic plural/collective counterpart of حِلْيَة and is presented under the singular dictionary citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_halla_II",
+      "form_group_ids": [
+        "qac-form:Hly:Hul~u:verb:II"
+      ],
+      "headword_arabic": "حَلَّى",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sense_halla_adorn",
+          "definition": "To adorn or deck someone with ornaments.",
+          "usage_conditions": "All supplied Quran occurrences are passive Form II forms, describing people as being adorned; the cited construction is transitive in the ornaments applied.",
+          "source_refs": [
+            "lane:entry:15524",
+            "mufradat:row:354"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:31",
+          "word_location": "18:31:9",
+          "sense_ids": [
+            "sense_halla_adorn"
+          ]
+        },
+        {
+          "verse_key": "76:21",
+          "word_location": "76:21:6",
+          "sense_ids": [
+            "sense_halla_adorn"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_hilya",
+      "form_group_ids": [
+        "qac-form:Hly:Hiloyap:nominal:-",
+        "qac-form:Hly:Huliy~:nominal:-"
+      ],
+      "headword_arabic": "حِلْيَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "sense_hilya_ornament",
+          "definition": "An ornament or adornment.",
+          "usage_conditions": "In the supplied Quran occurrences, the term denotes physical ornaments or adornment; the related Quranic plural form حُلِيّ is included under this citation form.",
+          "source_refs": [
+            "lane:entry:15527",
+            "mufradat:row:354"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:14",
+          "word_location": "16:14:11",
+          "sense_ids": [
+            "sense_hilya_ornament"
+          ]
+        },
+        {
+          "verse_key": "43:18",
+          "word_location": "43:18:4",
+          "sense_ids": [
+            "sense_hilya_ornament"
+          ]
+        },
+        {
+          "verse_key": "7:148",
+          "word_location": "7:148:7",
+          "sense_ids": [
+            "sense_hilya_ornament"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical_hala_assign",
+      "headword_arabic": "حَلَى",
+      "definition": "To assign or give ornaments to someone.",
+      "usage_conditions": "Form I; the supplied evidence gives the construction with a person receiving ornaments.",
+      "source_refs": [
+        "lane:entry:15523"
+      ]
+    },
+    {
+      "meaning_id": "classical_hala_acquire",
+      "headword_arabic": "حَلِيَ",
+      "definition": "To acquire, possess, or wear an ornament.",
+      "usage_conditions": "Form I; these uses describe having or wearing ornament rather than causing another person to be decked.",
+      "source_refs": [
+        "lane:entry:15523"
+      ]
+    },
+    {
+      "meaning_id": "classical_hala_gain",
+      "headword_arabic": "حَلِيَ",
+      "definition": "To gain or derive profit, advantage, or benefit.",
+      "usage_conditions": "The supplied evidence records this idiomatic use chiefly in negative phrases.",
+      "source_refs": [
+        "lane:entry:15523"
+      ]
+    },
+    {
+      "meaning_id": "classical_halla_make",
+      "headword_arabic": "حَلَّى",
+      "definition": "To make an ornament for someone.",
+      "usage_conditions": "A Classical Form II use distinct from decking someone with an already existing ornament.",
+      "source_refs": [
+        "lane:entry:15524"
+      ]
+    },
+    {
+      "meaning_id": "classical_halla_describe",
+      "headword_arabic": "حَلَّى",
+      "definition": "To describe a person, thing, or its qualities and attributes.",
+      "usage_conditions": "Form II; the object described may be a person’s qualities, state, or condition, or these may be described to another person.",
+      "source_refs": [
+        "lane:entry:15524"
+      ]
+    },
+    {
+      "meaning_id": "classical_tahalla_selfadorn",
+      "headword_arabic": "تَحَلَّى",
+      "definition": "To adorn oneself with an ornament or make an ornament for oneself.",
+      "usage_conditions": "Form V reflexive use.",
+      "source_refs": [
+        "lane:entry:15523"
+      ]
+    },
+    {
+      "meaning_id": "classical_tahalla_affect",
+      "headword_arabic": "تَحَلَّى",
+      "definition": "To affect or claim qualities that one does not possess.",
+      "usage_conditions": "A figurative Form V use.",
+      "source_refs": [
+        "lane:entry:15525"
+      ]
+    },
+    {
+      "meaning_id": "classical_tahalla_know",
+      "headword_arabic": "تَحَلَّى",
+      "definition": "To recognize or know a person’s qualities, attributes, state, or condition.",
+      "usage_conditions": "Form V use connected with حِلْيَة in the sense of a person’s defining qualities.",
+      "source_refs": [
+        "lane:entry:15525"
+      ]
+    },
+    {
+      "meaning_id": "classical_hilya_quality",
+      "headword_arabic": "حِلْيَة",
+      "definition": "A person’s qualities, aggregate attributes, state, form, or outward appearance; also a description of the face.",
+      "usage_conditions": "This is the descriptive sense of the noun, not the physical ornament sense attested in the Quranic form.",
+      "source_refs": [
+        "lane:entry:15524",
+        "lane:entry:15531"
+      ]
+    },
+    {
+      "meaning_id": "classical_hilya_ablution",
+      "headword_arabic": "حِلْيَة",
+      "definition": "The distinguishing marking of the limbs in the prescribed ablution.",
+      "usage_conditions": "A technical usage in discussion of ablution, identified with tahjīl.",
+      "source_refs": [
+        "lane:entry:15531"
+      ]
+    },
+    {
+      "meaning_id": "classical_haly_objectornament",
+      "headword_arabic": "حَلْي",
+      "definition": "A decorative fitting or ornament, especially one applied to a sword, lamp, or similar object.",
+      "usage_conditions": "Classical object-specific use of the ornament term.",
+      "source_refs": [
+        "lane:entry:15527"
+      ]
+    },
+    {
+      "meaning_id": "classical_pustules",
+      "headword_arabic": "حَلًا",
+      "definition": "Pustules breaking out in the mouths of children, reportedly after a fever.",
+      "usage_conditions": "A rare medical or colloquial lexical use.",
+      "source_refs": [
+        "lane:entry:15526"
+      ]
+    },
+    {
+      "meaning_id": "classical_camel_cry",
+      "headword_arabic": "حَلِى",
+      "definition": "A cry used to chide a she-camel or female camels.",
+      "usage_conditions": "A dialectal animal-driving expression.",
+      "source_refs": [
+        "lane:entry:15528"
+      ]
+    },
+    {
+      "meaning_id": "classical_haliy_dry",
+      "headword_arabic": "حَلِيّ",
+      "definition": "Dry, dried up, or tough.",
+      "usage_conditions": "An adjectival use.",
+      "source_refs": [
+        "lane:entry:15532"
+      ]
+    },
+    {
+      "meaning_id": "classical_haliy_grass",
+      "headword_arabic": "حَلِيّ",
+      "definition": "A dried and whitish pasture plant or grass.",
+      "usage_conditions": "A botanical use, including the named desert pasture plants described in the evidence.",
+      "source_refs": [
+        "lane:entry:15532"
+      ]
+    },
+    {
+      "meaning_id": "classical_haliy_ploughpole",
+      "headword_arabic": "حَلِيّ",
+      "definition": "The pole or long piece of wood between the two bulls of a plough.",
+      "usage_conditions": "A regional agricultural term reported for the dialect of Yemen.",
+      "source_refs": [
+        "lane:entry:15532"
+      ]
+    },
+    {
+      "meaning_id": "classical_hulayya_plant",
+      "headword_arabic": "حُلَيَّا",
+      "definition": "A particular plant.",
+      "usage_conditions": "A specialized plant name.",
+      "source_refs": [
+        "lane:entry:15534"
+      ]
+    },
+    {
+      "meaning_id": "classical_hulayya_food",
+      "headword_arabic": "حُلَيَّا",
+      "definition": "An Arab food made by rubbing or pressing dates together by hand.",
+      "usage_conditions": "A specialized food term.",
+      "source_refs": [
+        "lane:entry:15534"
+      ]
+    },
+    {
+      "meaning_id": "classical_haliya_woman",
+      "headword_arabic": "حَالِيَة",
+      "definition": "A woman who has or wears an ornament or ornaments.",
+      "usage_conditions": "A nominal description derived from the ornament sense.",
+      "source_refs": [
+        "lane:entry:15535"
+      ]
+    },
+    {
+      "meaning_id": "classical_haliya_trees",
+      "headword_arabic": "حَالِيَة",
+      "definition": "Trees bearing leaves and fruit.",
+      "usage_conditions": "A figurative or tropical use explicitly marked as such in the evidence.",
+      "source_refs": [
+        "lane:entry:15535"
+      ]
+    },
+    {
+      "meaning_id": "classical_muhalla",
+      "headword_arabic": "مُحَلَّى",
+      "definition": "Ornamented or decorated, especially said of a sword.",
+      "usage_conditions": "A passive-participial adjectival use.",
+      "source_refs": [
+        "lane:entry:15536"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hly:15523:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_hala_assign"
+      ],
+      "note": "Form I assigning or giving ornaments."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15523:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_hala_acquire",
+        "classical_tahalla_selfadorn"
+      ],
+      "note": "Acquiring, wearing, having, and self-adornment."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15523:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_hala_gain"
+      ],
+      "note": "Negative idiom for gaining benefit."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15523:g2:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15523:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15524:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_halla_adorn",
+        "classical_halla_make",
+        "classical_halla_describe"
+      ],
+      "note": "Quran-attested decking sense plus making and describing uses."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15524:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Orthographic or cross-reference note."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15525:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15525:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_tahalla_affect"
+      ],
+      "note": "Figurative affectation of nonexistent qualities."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15525:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_tahalla_know"
+      ],
+      "note": "Knowing or recognizing qualities."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15526:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_pustules"
+      ],
+      "note": "Rare medical or colloquial term."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15527:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hilya_ornament",
+        "classical_haly_objectornament"
+      ],
+      "note": "General ornament sense and object-specific decorative fittings."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15528:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_camel_cry"
+      ],
+      "note": "Cry used to chide female camels."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15529:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15530:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15531:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15531:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_hilya_quality"
+      ],
+      "note": "Qualities, appearance, and facial description."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15531:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_hilya_ablution"
+      ],
+      "note": "Technical ablution usage."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15532:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_haliy_dry"
+      ],
+      "note": "Dry, dried, or tough."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15532:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_haliy_dry",
+        "classical_haliy_grass"
+      ],
+      "note": "Dry whitish pasture vegetation and its botanical designation."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15532:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_haliy_ploughpole"
+      ],
+      "note": "Regional agricultural term."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15533:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15534:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_hulayya_plant"
+      ],
+      "note": "Specialized plant name."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15534:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_hulayya_food"
+      ],
+      "note": "Specialized date food."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15535:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_haliya_woman"
+      ],
+      "note": "Woman having or wearing ornament."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15535:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_haliya_trees"
+      ],
+      "note": "Tropical use for trees bearing leaves and fruit."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15536:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_muhalla"
+      ],
+      "note": "Ornamented object, especially a sword."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15536:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Bracketed editorial gloss without an independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:Hly:15537:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The Quranic Form II verb occurrences are passive, while the public headword is normalized to the active perfect citation form حَلَّى.",
+    "The packet contains no Maqayis entry; the root-level orientation therefore reflects the supplied Lane and Mufradat evidence rather than an independent Maqayis formulation.",
+    "Rare botanical, agricultural, animal-related, and technical uses are kept as Classical Arabic meanings and are not folded into the Quranic ornament senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,653 @@
+{
+  "root": "kff",
+  "arabic": "كفف",
+  "root_idea": {
+    "summary": "The root centers on grasping, contracting, and holding back, represented concretely by the hand and extended to restraint, enclosure, and surrounding.",
+    "development": "From the act of grasping or closing the hand, the lexical family develops meanings of restraining or preventing, forming an edge or enclosing rim, surrounding something, and related derived actions. These root-level relations do not make every development a meaning of each Quranic form.",
+    "source_refs": [
+      "maqayis:row:4010",
+      "mufradat:row:1254"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kff:kaf~a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:kff:kaffa",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:kff:kaA^f~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:kff:kaffatan",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:kff:kaf~ay:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:kff:kaff",
+      "reason": "The Quranic form is the dual inflection of the lexical noun كَفٌّ, and is presented under the normalized singular citation form meaning “hand.”"
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:kff:kaffa",
+      "form_group_ids": [
+        "qac-form:kff:kaf~a:verb:I"
+      ],
+      "headword_arabic": "كَفَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "qsen:kff:kaffa:1",
+          "definition": "To restrain, hold back, withhold, avert, or prevent.",
+          "usage_conditions": "Used transitively with a person, action, force, or the hands as object; the Quranic contexts include restraining people from acting, withholding hands, and averting an attack or harm.",
+          "source_refs": [
+            "lane:entry:32885"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:77",
+          "word_location": "4:77:7",
+          "sense_ids": [
+            "qsen:kff:kaffa:1"
+          ]
+        },
+        {
+          "verse_key": "48:24",
+          "word_location": "48:24:3",
+          "sense_ids": [
+            "qsen:kff:kaffa:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:kff:kaffatan",
+      "form_group_ids": [
+        "qac-form:kff:kaA^f~ap:nominal:-"
+      ],
+      "headword_arabic": "كَافَّةٌ",
+      "public_pos_label": "Noun · collective qualifier",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qsen:kff:kaffatan:1",
+          "definition": "All together, collectively, or comprehensively; as a whole.",
+          "usage_conditions": "A collective or comprehensive qualifier, sometimes rendered “all,” “entirely,” or “completely.” In the Quran it can describe a group acting together or the comprehensive scope of an action or address.",
+          "source_refs": [
+            "lane:entry:32895",
+            "mufradat:row:1254"
+          ]
+        },
+        {
+          "sense_id": "qsen:kff:kaffatan:2",
+          "definition": "Restraining or holding people back, especially from wrongdoing.",
+          "usage_conditions": "An explicitly reported Quranic interpretation of كَافَّةً لِلنَّاسِ and of the parallel construction in the command concerning the polytheists; it represents the restraint-related interpretation rather than a general replacement for the collective sense.",
+          "source_refs": [
+            "mufradat:row:1254"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:208",
+          "word_location": "2:208:7",
+          "sense_ids": [
+            "qsen:kff:kaffatan:1"
+          ]
+        },
+        {
+          "verse_key": "9:36",
+          "word_location": "9:36:28",
+          "sense_ids": [
+            "qsen:kff:kaffatan:1",
+            "qsen:kff:kaffatan:2"
+          ]
+        },
+        {
+          "verse_key": "34:28",
+          "word_location": "34:28:4",
+          "sense_ids": [
+            "qsen:kff:kaffatan:1",
+            "qsen:kff:kaffatan:2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:kff:kaff",
+      "form_group_ids": [
+        "qac-form:kff:kaf~ay:nominal:-"
+      ],
+      "headword_arabic": "كَفٌّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen:kff:kaff:1",
+          "definition": "The hand, especially the palm or grasping part of the hand.",
+          "usage_conditions": "The Quranic occurrences are the dual possessive form كَفَّيْهِ, “his two hands”; the singular citation form is used here for the lexical headword.",
+          "source_refs": [
+            "lane:entry:32888",
+            "mufradat:row:1254"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "13:14",
+          "word_location": "13:14:14",
+          "sense_ids": [
+            "qsen:kff:kaff:1"
+          ]
+        },
+        {
+          "verse_key": "18:42",
+          "word_location": "18:42:5",
+          "sense_ids": [
+            "qsen:kff:kaff:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:kff:sew",
+      "headword_arabic": "كَفَّ",
+      "definition": "To sew or fell the edge or border of a garment or piece of cloth after an initial stitching.",
+      "usage_conditions": "A specialized garment-making use.",
+      "source_refs": [
+        "lane:entry:32885",
+        "mufradat:row:1254"
+      ]
+    },
+    {
+      "meaning_id": "cm:kff:refrain",
+      "headword_arabic": "كَفَّ عَنْهُ",
+      "definition": "To refrain, desist, forbear, abstain, or hold back from something.",
+      "usage_conditions": "An intransitive or prepositional construction with عَنْ; distinct from making another person desist.",
+      "source_refs": [
+        "lane:entry:32885"
+      ]
+    },
+    {
+      "meaning_id": "cm:kff:interpose",
+      "headword_arabic": "كَفَّ بَيْنَهُمَا",
+      "definition": "To interpose between two parties as a restraining barrier.",
+      "usage_conditions": "A conventional interpersonal construction.",
+      "source_refs": [
+        "lane:entry:32885"
+      ]
+    },
+    {
+      "meaning_id": "cm:kff:shorten",
+      "headword_arabic": "كَفَّ مِنَ الشَّعَرِ",
+      "definition": "To shorten the hair.",
+      "usage_conditions": "A specialized grooming expression.",
+      "source_refs": [
+        "lane:entry:32885"
+      ]
+    },
+    {
+      "meaning_id": "cm:kff:strike-push",
+      "headword_arabic": "كَفَّ",
+      "definition": "To strike or push someone with the hand or palm.",
+      "usage_conditions": "A hand-action use; the pushing sense may be extended to driving something back.",
+      "source_refs": [
+        "mufradat:row:1254"
+      ]
+    },
+    {
+      "meaning_id": "cm:makfuf:blind",
+      "headword_arabic": "مَكْفُوفٌ",
+      "definition": "Blind; deprived or restrained of sight.",
+      "usage_conditions": "A derived passive-participial adjective describing one whose sight is held back.",
+      "source_refs": [
+        "mufradat:row:1254",
+        "maqayis:row:4010"
+      ]
+    },
+    {
+      "meaning_id": "cm:takaffaf:beg",
+      "headword_arabic": "تَكَفَّفَ / اِسْتَكَفَّ",
+      "definition": "To hold out the hand in asking or begging.",
+      "usage_conditions": "A derived-form use involving extending the hand to solicit from people.",
+      "source_refs": [
+        "mufradat:row:1254",
+        "maqayis:row:4010"
+      ]
+    },
+    {
+      "meaning_id": "cm:istakaff:sunshade",
+      "headword_arabic": "اِسْتَكَفَّ الشَّمْسَ",
+      "definition": "To shade the eyes with the hand while looking toward something.",
+      "usage_conditions": "The hand is placed over the brow as a sunshade in order to see what is being sought.",
+      "source_refs": [
+        "mufradat:row:1254",
+        "maqayis:row:4010"
+      ]
+    },
+    {
+      "meaning_id": "cm:istakaff:surround",
+      "headword_arabic": "اِسْتَكَفَّ القَوْمُ",
+      "definition": "To gather or surround something while looking at it.",
+      "usage_conditions": "A derived construction describing people forming a circle around an object of attention.",
+      "source_refs": [
+        "maqayis:row:4010"
+      ]
+    },
+    {
+      "meaning_id": "cm:kafaf:surprise",
+      "headword_arabic": "لَقِيتُهُ كَفَّةً كَفَّةً",
+      "definition": "To meet someone suddenly or unexpectedly.",
+      "usage_conditions": "An idiomatic expression explained through the image of one palm meeting another.",
+      "source_refs": [
+        "maqayis:row:4010"
+      ]
+    },
+    {
+      "meaning_id": "cm:kaffaw:keep-at-bay",
+      "headword_arabic": "كَافَّوا عَدُوَّهُمْ",
+      "definition": "To keep an enemy at bay or hold the enemy off.",
+      "usage_conditions": "A Form III military or interpersonal use involving mutual obstruction or keeping opposing parties apart.",
+      "source_refs": [
+        "lane:entry:32886"
+      ]
+    },
+    {
+      "meaning_id": "cm:mukaffa:mutual-abstention",
+      "headword_arabic": "مُكَافَّةٌ",
+      "definition": "Mutual holding off or abstention from fighting.",
+      "usage_conditions": "A verbal noun for preventing engagement or keeping combatants apart.",
+      "source_refs": [
+        "lane:entry:32886"
+      ]
+    },
+    {
+      "meaning_id": "cm:kaff:hand-cake",
+      "headword_arabic": "كَفٌّ",
+      "definition": "A cake or similar portion having approximately the length and thickness of a hand.",
+      "usage_conditions": "A derived measure-like nominal based on the hand.",
+      "source_refs": [
+        "lane:entry:32888"
+      ]
+    },
+    {
+      "meaning_id": "cm:kaff:handful",
+      "headword_arabic": "كَفٌّ",
+      "definition": "A handful: what one takes or grasps with the hand.",
+      "usage_conditions": "Equivalent to a grasp or handful.",
+      "source_refs": [
+        "lane:entry:32888"
+      ]
+    },
+    {
+      "meaning_id": "cm:kaff:paw",
+      "headword_arabic": "كَفٌّ",
+      "definition": "The paw of a beast.",
+      "usage_conditions": "An animal-body-part extension of the hand sense.",
+      "source_refs": [
+        "lane:entry:32888"
+      ]
+    },
+    {
+      "meaning_id": "cm:kaff:stars",
+      "headword_arabic": "الكَفُّ",
+      "definition": "The name of certain stars, including named stars in Cetus and Cassiopeia.",
+      "usage_conditions": "An astronomical naming use recorded for the bare noun.",
+      "source_refs": [
+        "lane:entry:32888"
+      ]
+    },
+    {
+      "meaning_id": "cm:kuffa:border",
+      "headword_arabic": "كُفَّةٌ",
+      "definition": "The selvage, border, side, or edge of a garment, cloth, sand, or another thing.",
+      "usage_conditions": "Used for an elongated bordering or surrounding edge.",
+      "source_refs": [
+        "lane:entry:32890",
+        "maqayis:row:4010"
+      ]
+    },
+    {
+      "meaning_id": "cm:kiffa:bezel",
+      "headword_arabic": "كِفَّةٌ",
+      "definition": "The bezel or collet of a signet ring, the part in which the stone is set.",
+      "usage_conditions": "A specialized jewelry term.",
+      "source_refs": [
+        "lane:entry:32891"
+      ]
+    },
+    {
+      "meaning_id": "cm:kiffa:scale",
+      "headword_arabic": "كِفَّةٌ",
+      "definition": "The pan of a balance or scale.",
+      "usage_conditions": "The containing part of a balance, understood by analogy with the hand that holds what is weighed.",
+      "source_refs": [
+        "lane:entry:32891",
+        "mufradat:row:1254",
+        "maqayis:row:4010"
+      ]
+    },
+    {
+      "meaning_id": "cm:kiffa:snare",
+      "headword_arabic": "كِفَّةٌ",
+      "definition": "The loop or noose of a snare.",
+      "usage_conditions": "A hunting implement understood as a surrounding or holding device.",
+      "source_refs": [
+        "mufradat:row:1254",
+        "maqayis:row:4010"
+      ]
+    },
+    {
+      "meaning_id": "cm:kafaf:like",
+      "headword_arabic": "كَفَافٌ",
+      "definition": "The like, equal, or equivalent of a thing.",
+      "usage_conditions": "A nominal of comparison or equivalence.",
+      "source_refs": [
+        "lane:entry:32892"
+      ]
+    },
+    {
+      "meaning_id": "cm:kafaf:sustenance",
+      "headword_arabic": "كَفَافٌ",
+      "definition": "Sustenance sufficient for one’s needs, neither exceeding nor falling short.",
+      "usage_conditions": "Especially food or provision that makes a person independent of others.",
+      "source_refs": [
+        "lane:entry:32892"
+      ]
+    },
+    {
+      "meaning_id": "cm:kifaf:rim",
+      "headword_arabic": "كِفَافٌ",
+      "definition": "The circuit, rim, or surrounding edge of a thing.",
+      "usage_conditions": "A nominal describing an enclosing perimeter.",
+      "source_refs": [
+        "lane:entry:32893"
+      ]
+    },
+    {
+      "meaning_id": "cm:kifafa:sewing",
+      "headword_arabic": "كِفَافَةٌ",
+      "definition": "The act or craft of sewing in the manner called كَفٌّ.",
+      "usage_conditions": "A specialized garment-sewing noun, not a general verbal noun of restraint.",
+      "source_refs": [
+        "lane:entry:32894"
+      ]
+    },
+    {
+      "meaning_id": "cm:kaffa:weak-camel",
+      "headword_arabic": "نَاقَةٌ كَافَّةٌ",
+      "definition": "An old and weak she-camel.",
+      "usage_conditions": "A fixed descriptive expression for a camel; the animal category is part of this idiom, not a general restriction on كافّة.",
+      "source_refs": [
+        "lane:entry:32895"
+      ]
+    },
+    {
+      "meaning_id": "cm:kaffa:particle",
+      "headword_arabic": "حَرْفُ مُكَافَأَةٍ",
+      "definition": "A particle denoting compensation or the complement of a condition.",
+      "usage_conditions": "A grammatical term, compared with a particle of requital or consequence.",
+      "source_refs": [
+        "lane:entry:32896"
+      ]
+    },
+    {
+      "meaning_id": "cm:kafaf:tattoo-circles",
+      "headword_arabic": "كِفَفٌ",
+      "definition": "Circles or ring-like marks in tattooing.",
+      "usage_conditions": "A technical body-marking term.",
+      "source_refs": [
+        "maqayis:row:4010"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kff:32885:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kff:sew"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32885:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:kff:sew"
+      ],
+      "note": "The garment-felling gloss is covered by the broader sewing entry."
+    },
+    {
+      "unit_id": "lane-unit:kff:32885:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kff:refrain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32885:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:kff:refrain"
+      ],
+      "note": "The repeated refrain/desist construction is covered by the same meaning."
+    },
+    {
+      "unit_id": "lane-unit:kff:32885:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:kff:kaffa:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32885:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kff:interpose"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32885:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kff:shorten"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32886:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kaffaw:keep-at-bay"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32886:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mukaffa:mutual-abstention"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32887:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 32885."
+    },
+    {
+      "unit_id": "lane-unit:kff:32888:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:kff:kaff:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32888:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kaff:hand-cake"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32888:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kaff:handful"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32888:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Illustrative slap expression adds no independent meaning beyond hand action."
+    },
+    {
+      "unit_id": "lane-unit:kff:32888:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kaff:paw"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32888:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kaff:stars"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32888:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kaff:stars"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32889:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to كِفَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:kff:32890:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kuffa:border"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32891:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kiffa:bezel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32891:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:kff:32891:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kiffa:scale"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32892:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kafaf:like"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32892:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kafaf:sustenance"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32893:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kifaf:rim"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32894:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kifafa:sewing"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32895:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kaffa:weak-camel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32895:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "A grammatical explanation of the restrictive particle ما."
+    },
+    {
+      "unit_id": "lane-unit:kff:32895:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:kff:kaffatan:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kff:32896:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:kaffa:particle"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "كَافَّةٌ has an explicitly reported Quranic restraint-related interpretation in addition to its collective or comprehensive interpretation; the two are retained as separate senses.",
+    "A poetic derived-form use reported in the root discussion is ambiguous: مُسْتَكِفَّاتٌ is interpreted either as eyes or as gathered camels. It is not used to define a separate public meaning here."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "maqayis:row:4010 reports a poetic interpretation of مُسْتَكِفَّاتٌ as either “eyes” or “gathered camels”; the evidence does not permit a confident single lexical assignment."
+  ]
+}

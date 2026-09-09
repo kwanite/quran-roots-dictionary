@@ -1,0 +1,1346 @@
+{
+  "root": "vlv",
+  "arabic": "ثلث",
+  "root_idea": {
+    "summary": "The root is centered on the number three and the organization of things into three, with extensions to thirds, ordinals, distributive groups, and threefold composition.",
+    "development": "The lexical development runs from counting three and identifying a third member or portion to dividing, repeating, grouping, or composing things in threes. Related formations also designate thirty, Tuesday, and objects characterized by three parts or strands.",
+    "source_refs": [
+      "maqayis:row:1038",
+      "mufradat:row:207"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:vlv:vaAliv:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_thalith",
+      "reason": "Displayed under the normalized ordinal citation form ثَالِث."
+    },
+    {
+      "form_group_id": "qac-form:vlv:vala`v:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_thalath",
+      "reason": "Displayed as the feminine cardinal numeral ثَلَاث, with a separate sense for its tens-form usage."
+    },
+    {
+      "form_group_id": "qac-form:vlv:vala`v:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_thalath",
+      "reason": "The tagged occurrence is an inflected use of the same ثَلَاث numeral."
+    },
+    {
+      "form_group_id": "qac-form:vlv:vala`vap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_thalatha",
+      "reason": "Displayed under the normalized cardinal numeral ثَلَاثَة."
+    },
+    {
+      "form_group_id": "qac-form:vlv:vala`vap:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_thalatha",
+      "reason": "The tagged occurrence is an inflected use of the same ثَلَاثَة numeral."
+    },
+    {
+      "form_group_id": "qac-form:vlv:vula`v:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_thulath",
+      "reason": "Displayed as the distributive numeral ثُلَاث."
+    },
+    {
+      "form_group_id": "qac-form:vlv:v~aAlivap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_thalith",
+      "reason": "The form is the assimilated definite feminine form of the ordinal ثَالِث."
+    },
+    {
+      "form_group_id": "qac-form:vlv:v~uluv:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_thuluth",
+      "reason": "Displayed under the normalized fractional noun ثُلُث."
+    },
+    {
+      "form_group_id": "qac-form:vlv:v~uluv:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_thuluth",
+      "reason": "The tagged occurrence is an inflected use of the same ثُلُث fractional noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_thalatha",
+      "form_group_ids": [
+        "qac-form:vlv:vala`vap:nominal:-",
+        "qac-form:vlv:vala`vap:other:-"
+      ],
+      "headword_arabic": "ثَلَاثَة",
+      "public_pos_label": "Cardinal numeral",
+      "verb_form": null,
+      "occurrence_count": 13,
+      "senses": [
+        {
+          "sense_id": "sense_thalatha_1",
+          "definition": "Three, the cardinal number.",
+          "usage_conditions": "The masculine form of the cardinal numeral, used in counting persons, things, periods, and other counted units; its case varies according to syntax.",
+          "source_refs": [
+            "lane:entry:27456",
+            "mufradat:row:207"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:124",
+          "word_location": "3:124:9",
+          "sense_ids": [
+            "sense_thalatha_1"
+          ]
+        },
+        {
+          "verse_key": "18:22",
+          "word_location": "18:22:2",
+          "sense_ids": [
+            "sense_thalatha_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_thalath",
+      "form_group_ids": [
+        "qac-form:vlv:vala`v:nominal:-",
+        "qac-form:vlv:vala`v:other:-"
+      ],
+      "headword_arabic": "ثَلَاث",
+      "public_pos_label": "Cardinal numeral",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "sense_thalath_1",
+          "definition": "Three, the cardinal number.",
+          "usage_conditions": "The feminine form of the cardinal numeral, used with counted expressions and in such constructions as three times or three periods.",
+          "source_refs": [
+            "lane:entry:27451",
+            "lane:entry:27456",
+            "mufradat:row:207"
+          ]
+        },
+        {
+          "sense_id": "sense_thalath_2",
+          "definition": "Thirty.",
+          "usage_conditions": "Occurs in the tens numeral ثَلَاثُونَ or its inflected form ثَلَاثِينَ; the Quranic group includes both cardinal-three and thirty forms.",
+          "source_refs": [
+            "lane:entry:27461",
+            "mufradat:row:207"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:58",
+          "word_location": "24:58:13",
+          "sense_ids": [
+            "sense_thalath_1"
+          ]
+        },
+        {
+          "verse_key": "7:142",
+          "word_location": "7:142:3",
+          "sense_ids": [
+            "sense_thalath_2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_thulath",
+      "form_group_ids": [
+        "qac-form:vlv:vula`v:nominal:-"
+      ],
+      "headword_arabic": "ثُلَاث",
+      "public_pos_label": "Distributive numeral",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_thulath_1",
+          "definition": "Three and three; in groups or sets of three.",
+          "usage_conditions": "A distributive numeral, conventionally used with coordinated or successive groups to mean three at a time or three together.",
+          "source_refs": [
+            "lane:entry:27452",
+            "mufradat:row:207"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:3",
+          "word_location": "4:3:14",
+          "sense_ids": [
+            "sense_thulath_1"
+          ]
+        },
+        {
+          "verse_key": "35:1",
+          "word_location": "35:1:12",
+          "sense_ids": [
+            "sense_thulath_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_thuluth",
+      "form_group_ids": [
+        "qac-form:vlv:v~uluv:nominal:-",
+        "qac-form:vlv:v~uluv:other:-"
+      ],
+      "headword_arabic": "ثُلُث",
+      "public_pos_label": "Fractional numeral",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "sense_thuluth_1",
+          "definition": "A third; one of three equal parts or portions.",
+          "usage_conditions": "The singular denotes one third. Its dual forms ثُلُثَانِ and ثُلُثَيِ denote two thirds, with the expected case inflection.",
+          "source_refs": [
+            "lane:entry:27448",
+            "mufradat:row:207"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:11",
+          "word_location": "4:11:42",
+          "sense_ids": [
+            "sense_thuluth_1"
+          ]
+        },
+        {
+          "verse_key": "4:11",
+          "word_location": "4:11:15",
+          "sense_ids": [
+            "sense_thuluth_1"
+          ]
+        },
+        {
+          "verse_key": "73:20",
+          "word_location": "73:20:11",
+          "sense_ids": [
+            "sense_thuluth_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_thalith",
+      "form_group_ids": [
+        "qac-form:vlv:vaAliv:nominal:-",
+        "qac-form:vlv:v~aAlivap:nominal:-"
+      ],
+      "headword_arabic": "ثَالِث",
+      "public_pos_label": "Ordinal numeral",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense_thalith_1",
+          "definition": "Third; the third in sequence or the third member of a set.",
+          "usage_conditions": "The feminine form is ثَالِثَة. With a following genitive expression it can identify one member as the third of a group; in other constructions it can describe what makes a group three.",
+          "source_refs": [
+            "lane:entry:27465"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:73",
+          "word_location": "5:73:7",
+          "sense_ids": [
+            "sense_thalith_1"
+          ]
+        },
+        {
+          "verse_key": "36:14",
+          "word_location": "36:14:7",
+          "sense_ids": [
+            "sense_thalith_1"
+          ]
+        },
+        {
+          "verse_key": "53:20",
+          "word_location": "53:20:2",
+          "sense_ids": [
+            "sense_thalith_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_verb_take_third",
+      "headword_arabic": "ثَلَثَ",
+      "definition": "To take a third share of a people's property; to remove a third portion from property. It can also be used of killing a third of a group.",
+      "usage_conditions": "A Form I transitive use, with the object being property or a group whose third is taken or removed.",
+      "source_refs": [
+        "lane:entry:27441"
+      ]
+    },
+    {
+      "meaning_id": "cm_verb_make_three",
+      "headword_arabic": "ثَلَثَ",
+      "definition": "To become the third of a group, or to make a group three by joining it.",
+      "usage_conditions": "A Form I numerical construction; the subject may become third, or may make two others three with itself.",
+      "source_refs": [
+        "lane:entry:27441"
+      ]
+    },
+    {
+      "meaning_id": "cm_verb_add_number",
+      "headword_arabic": "ثَلَثَ",
+      "definition": "To increase a number by one so that it reaches thirty, or another analogous numerical total.",
+      "usage_conditions": "A specialized numerical use extended through the series of number verbs.",
+      "source_refs": [
+        "lane:entry:27441"
+      ]
+    },
+    {
+      "meaning_id": "cm_verb_turn_ground",
+      "headword_arabic": "ثَلَثَ",
+      "definition": "To turn over or cultivate the ground three times.",
+      "usage_conditions": "Used of land prepared by three successive turnings.",
+      "source_refs": [
+        "lane:entry:27441"
+      ]
+    },
+    {
+      "meaning_id": "cm_verb_race_third",
+      "headword_arabic": "ثَلَثَ",
+      "definition": "To come third in a race.",
+      "usage_conditions": "Used of a horse or person finishing third.",
+      "source_refs": [
+        "lane:entry:27441"
+      ]
+    },
+    {
+      "meaning_id": "cm_idiom_cannot_rise",
+      "headword_arabic": "يَثْلِثُ",
+      "definition": "In the idiom لَا يَثْنِي وَلَا يَثْلِثُ, to be unable to rise for a third attempt.",
+      "usage_conditions": "An idiomatic expression describing an old man who cannot rise repeatedly.",
+      "source_refs": [
+        "lane:entry:27441"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_make_three",
+      "headword_arabic": "ثَلَّثَ",
+      "definition": "To make something three, divide it into three parts, or designate it as three.",
+      "usage_conditions": "Form II causative or factitive usage; the division may be into thirds, and the same formation supplies the verbal noun تَثْلِيث.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_trinity",
+      "headword_arabic": "ثَلَّثَ",
+      "definition": "To assert or adopt the doctrine of the Trinity.",
+      "usage_conditions": "A theological use of the Form II verb.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_count_caliphs",
+      "headword_arabic": "ثَلَّثَ",
+      "definition": "To count three items in a succession, especially to recognize a third successor after two.",
+      "usage_conditions": "An idiomatic political or historical use, often contrasted with refusing to count a fourth.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_three_nights",
+      "headword_arabic": "ثَلَّثَ",
+      "definition": "To remain three nights, or to perform a saying or action three times.",
+      "usage_conditions": "The construction may be used with a person, a period of residence, or repeated speech and action.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_three_teats",
+      "headword_arabic": "ثَلَّثَ",
+      "definition": "To tie or bind three teats of a she-camel.",
+      "usage_conditions": "A specialized pastoral construction referring to fastening the teats with a cord or similar binding.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_third_ripe",
+      "headword_arabic": "ثَلَّثَ",
+      "definition": "Of dates or grapes, to reach a stage in which a third has ripened.",
+      "usage_conditions": "Used when approximately one third has become ripe or entered the relevant ripening state.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_third_day_watering",
+      "headword_arabic": "تَثْلِيث",
+      "definition": "Watering seed-produce on the third day, or watering it again after one intervening day.",
+      "usage_conditions": "A specialized agricultural interval expression.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_triangle",
+      "headword_arabic": "ثَلَّثَ",
+      "definition": "To make a thing triangular or trilateral.",
+      "usage_conditions": "Used of giving an object three sides or angles.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_three_pointed",
+      "headword_arabic": "مُثَلَّثَة",
+      "definition": "To make a letter three-pointed or give it three diacritical dots.",
+      "usage_conditions": "A technical orthographic use, especially in distinguishing ثاء from similarly shaped letters.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_electuary",
+      "headword_arabic": "مُثَلَّث",
+      "definition": "A particular electuary or confection of aromatics or perfumes.",
+      "usage_conditions": "A conventional name for the preparation, not merely a general description of something threefold.",
+      "source_refs": [
+        "lane:entry:27442"
+      ]
+    },
+    {
+      "meaning_id": "cm_form4_become_three",
+      "headword_arabic": "أَثْلَثَ",
+      "definition": "For a party to become three, or to become thirty in the analogous numerical pattern.",
+      "usage_conditions": "Form IV intransitive numerical usage, describing the resulting number of a group.",
+      "source_refs": [
+        "lane:entry:27443"
+      ]
+    },
+    {
+      "meaning_id": "cm_form4_third_offspring",
+      "headword_arabic": "أَثْلَثَتْ",
+      "definition": "Of a female animal, to bear her third young one.",
+      "usage_conditions": "Used especially of a camel or other female animal and the order of its offspring.",
+      "source_refs": [
+        "lane:entry:27443"
+      ]
+    },
+    {
+      "meaning_id": "cm_form4_vine_third",
+      "headword_arabic": "أَثْلَثَ",
+      "definition": "Of a grape-vine, to have one third of its fruit remaining after two thirds have been eaten.",
+      "usage_conditions": "A specialized resultative use describing the remaining proportion of fruit.",
+      "source_refs": [
+        "lane:entry:27443"
+      ]
+    },
+    {
+      "meaning_id": "cm_third_offspring",
+      "headword_arabic": "ثِلْث",
+      "definition": "The third young one or offspring of a she-camel or other female animal.",
+      "usage_conditions": "A nominal designation of birth order; the source notes that the expression is not formed simply by calling the she-camel ثِلْث.",
+      "source_refs": [
+        "lane:entry:27446"
+      ]
+    },
+    {
+      "meaning_id": "cm_third_day_watering_noun",
+      "headword_arabic": "ثِلْث",
+      "definition": "A three-day watering interval for palm-trees.",
+      "usage_conditions": "A specialized agricultural term for watering once every three days or after omitting one day.",
+      "source_refs": [
+        "lane:entry:27446"
+      ]
+    },
+    {
+      "meaning_id": "cm_tertian_fever",
+      "headword_arabic": "حُمَّى الثِّلْث",
+      "definition": "A tertian fever that attacks on one day, remits on the next, and returns on the third.",
+      "usage_conditions": "A medical expression based on the three-day recurrence pattern.",
+      "source_refs": [
+        "lane:entry:27446"
+      ]
+    },
+    {
+      "meaning_id": "cm_vessel_third",
+      "headword_arabic": "ثَلْثَان",
+      "definition": "A vessel whose contents reach one third of its capacity.",
+      "usage_conditions": "Used of a vessel containing grain, drink, wine, or a similar measured substance.",
+      "source_refs": [
+        "lane:entry:27449"
+      ]
+    },
+    {
+      "meaning_id": "cm_tree_thilthan",
+      "headword_arabic": "ثِلْثَان",
+      "definition": "A tree known as عِنَبُ الثَّعْلَبِ.",
+      "usage_conditions": "A lexicalized plant name with no necessary numerical meaning in ordinary use.",
+      "source_refs": [
+        "lane:entry:27450"
+      ]
+    },
+    {
+      "meaning_id": "cm_thulath_camel_girth",
+      "headword_arabic": "ذُو ثُلَاث",
+      "definition": "A camel's girth, or related abdominal structure, described by the expression ذُو ثُلَاث.",
+      "usage_conditions": "A specialized and partly variant expression applied to the girth, belly, or associated membranes of a lean female camel.",
+      "source_refs": [
+        "lane:entry:27452"
+      ]
+    },
+    {
+      "meaning_id": "cm_thulath_garment",
+      "headword_arabic": "ذُو ثُلَاث",
+      "definition": "A garment made from the wool of three sheep.",
+      "usage_conditions": "A conventional garment description using ثُلَاث in a non-numerical lexicalized expression.",
+      "source_refs": [
+        "lane:entry:27452"
+      ]
+    },
+    {
+      "meaning_id": "cm_thaluth_camel_vessels",
+      "headword_arabic": "ثَلُوث",
+      "definition": "A she-camel that fills three milking vessels at one milking.",
+      "usage_conditions": "A pastoral descriptor for the maximum stated quantity yielded at one milking.",
+      "source_refs": [
+        "lane:entry:27454"
+      ]
+    },
+    {
+      "meaning_id": "cm_thaluth_three_teats",
+      "headword_arabic": "ثَلُوث",
+      "definition": "A she-camel with three functioning teats, or with one teat dried up, cut off, or otherwise rendered unusable.",
+      "usage_conditions": "The sources record several closely related applications concerning the number or condition of the teats.",
+      "source_refs": [
+        "lane:entry:27454"
+      ]
+    },
+    {
+      "meaning_id": "cm_thirteen",
+      "headword_arabic": "ثَلَاثَةَ عَشَر",
+      "definition": "Thirteen.",
+      "usage_conditions": "A compound cardinal numeral with dialectal variation in the pronunciation of the second component.",
+      "source_refs": [
+        "lane:entry:27456"
+      ]
+    },
+    {
+      "meaning_id": "cm_tuesday",
+      "headword_arabic": "الثَّلَاثَاء",
+      "definition": "Tuesday, the third day of the week.",
+      "usage_conditions": "The form is conventionally altered from the ordinary ordinal or numeral to distinguish the weekday name.",
+      "source_refs": [
+        "lane:entry:27458"
+      ]
+    },
+    {
+      "meaning_id": "cm_related_three",
+      "headword_arabic": "ثُلَاثِيّ",
+      "definition": "Relating to three things; threefold.",
+      "usage_conditions": "A relational adjective derived from the numeral.",
+      "source_refs": [
+        "lane:entry:27460"
+      ]
+    },
+    {
+      "meaning_id": "cm_three_cubits",
+      "headword_arabic": "ثُلَاثِيّ",
+      "definition": "Three cubits in length or height.",
+      "usage_conditions": "Applied to a garment, piece of cloth, or boy.",
+      "source_refs": [
+        "lane:entry:27460"
+      ]
+    },
+    {
+      "meaning_id": "cm_three_letter_word",
+      "headword_arabic": "ثُلَاثِيّ",
+      "definition": "A word composed of three letters, whether only the radicals or the radicals with augmentative material.",
+      "usage_conditions": "A technical grammatical and lexicological designation.",
+      "source_refs": [
+        "lane:entry:27460"
+      ]
+    },
+    {
+      "meaning_id": "cm_thirtieth",
+      "headword_arabic": "ثَلَاثُون",
+      "definition": "The thirtieth.",
+      "usage_conditions": "An ordinal use of the tens numeral ثَلَاثُونَ in addition to its cardinal meaning thirty.",
+      "source_refs": [
+        "lane:entry:27461"
+      ]
+    },
+    {
+      "meaning_id": "cm_fast_tuesday",
+      "headword_arabic": "ثَلَاثَاوِيّ",
+      "definition": "One who fasts alone on Tuesday.",
+      "usage_conditions": "A relational noun formed from the weekday name.",
+      "source_refs": [
+        "lane:entry:27463"
+      ]
+    },
+    {
+      "meaning_id": "cm_third_tripod",
+      "headword_arabic": "ثَالِثَةُ الأَثَافِي",
+      "definition": "The projecting third support of a cooking tripod, a projecting part of a mountain to which two stones are joined.",
+      "usage_conditions": "A fixed expression referring to the third support among the three stones supporting a cooking-pot.",
+      "source_refs": [
+        "lane:entry:27465"
+      ]
+    },
+    {
+      "meaning_id": "cm_thirteenth_ordinal",
+      "headword_arabic": "ثَالِثَ عَشَر",
+      "definition": "Thirteenth.",
+      "usage_conditions": "A compound ordinal construction, with masculine and feminine forms and dialectal variation in declension.",
+      "source_refs": [
+        "lane:entry:27465"
+      ]
+    },
+    {
+      "meaning_id": "cm_trinity_noun",
+      "headword_arabic": "الثَّالُوث",
+      "definition": "The Trinity.",
+      "usage_conditions": "A lexicalized theological noun.",
+      "source_refs": [
+        "lane:entry:27466"
+      ]
+    },
+    {
+      "meaning_id": "cm_lute_chord",
+      "headword_arabic": "مَثْلَث",
+      "definition": "A lute chord composed of three twists; according to another explanation, the third chord.",
+      "usage_conditions": "A technical musical term with recorded variation in whether the reference is to the number of twists or ordinal position.",
+      "source_refs": [
+        "lane:entry:27467"
+      ]
+    },
+    {
+      "meaning_id": "cm_muthlith_offspring",
+      "headword_arabic": "مُثْلِث",
+      "definition": "A she-camel or other female animal bringing forth her third young one.",
+      "usage_conditions": "A participial noun describing the animal by the order of its offspring.",
+      "source_refs": [
+        "lane:entry:27468"
+      ]
+    },
+    {
+      "meaning_id": "cm_triangle_muthallath",
+      "headword_arabic": "مُثَلَّث",
+      "definition": "A triangular or trilateral thing; a triangle.",
+      "usage_conditions": "Used of a thing having three angles or corners, including a three-sided piece of land.",
+      "source_refs": [
+        "lane:entry:27469"
+      ]
+    },
+    {
+      "meaning_id": "cm_three_layers",
+      "headword_arabic": "مُثَلَّث",
+      "definition": "A thing composed of three layers, folds, strata, or distinct fascicles.",
+      "usage_conditions": "The formation can describe things composed of three parts and, by analogy, similar formations with other numbers.",
+      "source_refs": [
+        "lane:entry:27469"
+      ]
+    },
+    {
+      "meaning_id": "cm_lexicological_muthallath",
+      "headword_arabic": "مُثَلَّث",
+      "definition": "In lexicology, a word or verb whose relevant letter may bear any of the three vowels.",
+      "usage_conditions": "A technical grammatical designation for forms written or pronounced with three possible vowelings.",
+      "source_refs": [
+        "lane:entry:27469"
+      ]
+    },
+    {
+      "meaning_id": "cm_three_pointed_form",
+      "headword_arabic": "مُثَلَّثَة",
+      "definition": "Three-pointed or marked with three diacritical points.",
+      "usage_conditions": "A technical orthographic adjective, especially in reference to a letter such as ثاء.",
+      "source_refs": [
+        "lane:entry:27469"
+      ]
+    },
+    {
+      "meaning_id": "cm_cooked_wine",
+      "headword_arabic": "مُثَلَّث",
+      "definition": "Wine or grape juice cooked until two thirds have evaporated.",
+      "usage_conditions": "A conventional culinary or beverage term defined by the amount removed through cooking.",
+      "source_refs": [
+        "lane:entry:27469"
+      ]
+    },
+    {
+      "meaning_id": "cm_muthallath_electuary",
+      "headword_arabic": "مُثَلَّث",
+      "definition": "A particular electuary or aromatic confection.",
+      "usage_conditions": "A lexicalized name for the preparation.",
+      "source_refs": [
+        "lane:entry:27469"
+      ]
+    },
+    {
+      "meaning_id": "cm_slanderer",
+      "headword_arabic": "مُثَلِّث",
+      "definition": "A calumniator who slanders one person to another in a way said to destroy three people: himself, his fellow, and the ruler.",
+      "usage_conditions": "A figurative conventional noun based on the three persons affected by the slander.",
+      "source_refs": [
+        "lane:entry:27470"
+      ]
+    },
+    {
+      "meaning_id": "cm_muthluth_property",
+      "headword_arabic": "مَثْلُوث",
+      "definition": "Property or another thing from which a third part has been taken.",
+      "usage_conditions": "The passive participle can also be applied to a verse or poetic measure from which a third has been removed.",
+      "source_refs": [
+        "lane:entry:27472"
+      ]
+    },
+    {
+      "meaning_id": "cm_muthluth_meter",
+      "headword_arabic": "مَثْلُوث",
+      "definition": "In prosody, a verse or metre from which two of six feet have been removed.",
+      "usage_conditions": "A specialized metrical use; terminology distinguishes it from a form in which two thirds have been removed.",
+      "source_refs": [
+        "lane:entry:27472"
+      ]
+    },
+    {
+      "meaning_id": "cm_three_strand_rope",
+      "headword_arabic": "مَثْلُوث",
+      "definition": "A rope composed of three strands twisted or woven together.",
+      "usage_conditions": "The same naming pattern may extend to ropes of several other numbers of strands.",
+      "source_refs": [
+        "lane:entry:27472"
+      ]
+    },
+    {
+      "meaning_id": "cm_mixed_hair_garment",
+      "headword_arabic": "مَثْلُوث",
+      "definition": "A garment woven from wool, camel hair, and goat hair.",
+      "usage_conditions": "A conventional textile designation based on its three materials.",
+      "source_refs": [
+        "lane:entry:27472"
+      ]
+    },
+    {
+      "meaning_id": "cm_three_skin_bag",
+      "headword_arabic": "مَثْلُوث",
+      "definition": "A leathern water-bag made from three skins.",
+      "usage_conditions": "A conventional description of the bag's construction.",
+      "source_refs": [
+        "lane:entry:27472"
+      ]
+    },
+    {
+      "meaning_id": "cm_three_turned_land",
+      "headword_arabic": "أَرْضٌ مَثْلُوثَة",
+      "definition": "Land turned over three times for sowing or cultivation.",
+      "usage_conditions": "A passive participial description of repeatedly prepared ground.",
+      "source_refs": [
+        "lane:entry:27472"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:vlv:27441:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_verb_take_third"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27441:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_verb_make_three"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27441:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_verb_add_number"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27441:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_verb_turn_ground"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27441:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27441:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_verb_race_third"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27441:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_idiom_cannot_rise"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_make_three"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_trinity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_count_caliphs"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_three_nights"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_three_teats"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub8",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_third_ripe"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_third_day_watering"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_triangle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_three_pointed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub13",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_form2_make_three"
+      ],
+      "note": "Making a thing a third part is covered by the broader Form II division meaning."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27442:g1:sub14",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_electuary"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27443:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form4_become_three"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27443:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form4_third_offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27443:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27443:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form4_vine_third"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27444:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form IV."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27445:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27446:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_third_offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27446:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_third_day_watering_noun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27446:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tertian_fever"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27447:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27448:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_thuluth_1"
+      ],
+      "note": "The ordinary third-part meaning is directly covered by the Quranic fractional sense."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27449:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vessel_third"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27450:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tree_thilthan"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27451:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the cardinal numeral."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27452:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_thulath_1"
+      ],
+      "note": "The distributive meaning is represented by the Quran-attested distributive numeral."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27452:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_thulath_camel_girth",
+        "cm_thulath_garment"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27453:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the ordinal."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27454:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_thaluth_camel_vessels"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27454:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_thaluth_three_teats"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27455:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27456:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_thalatha_1"
+      ],
+      "note": "The cardinal-number meaning is represented by the Quranic cardinal sense."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27456:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_thirteen"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27457:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27458:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tuesday"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27459:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27460:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_related_three"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27460:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_three_cubits"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27460:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_three_letter_word"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27461:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_thalath_2",
+        "cm_thirtieth"
+      ],
+      "note": "The unit supports both the Quran-attested cardinal thirty and the broader ordinal use."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27462:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27463:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fast_tuesday"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27464:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27465:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_thalith_1"
+      ],
+      "note": "The ordinary ordinal meaning is represented by the Quranic ordinal sense."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27465:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_third_tripod"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27465:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_thirteenth_ordinal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27466:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_trinity_noun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27467:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27467:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lute_chord"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27468:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muthlith_offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27468:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27469:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_triangle_muthallath"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27469:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_three_layers"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27469:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lexicological_muthallath",
+        "cm_three_pointed_form"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27469:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_cooked_wine"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27469:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muthallath_electuary"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27470:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_slanderer"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27470:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27470:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27471:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Analogy and cross-reference without an independent definition."
+    },
+    {
+      "unit_id": "lane-unit:vlv:27472:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muthluth_property"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27472:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muthluth_property",
+        "cm_muthluth_meter"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27472:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_three_strand_rope"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27472:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mixed_hair_garment"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27472:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_three_skin_bag"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27472:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_three_turned_land"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vlv:27472:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The QAC grouping for ثَلَاث combines ordinary cardinal-three occurrences with the tens form ثَلَاثُونَ/ثَلَاثِينَ; these are separated as distinct senses.",
+    "The Quranic forms ثُلُث, ثَالِث, and ثُلَاث represent distinct fractional, ordinal, and distributive uses rather than interchangeable translations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,162 @@
+{
+  "root": "tHt",
+  "arabic": "تحت",
+  "root_idea": {
+    "summary": "The root centers on the relation of being beneath or below, with extensions to lower rank and inferiority.",
+    "development": "Its primary spatial orientation is contrasted with فوق and distinguished from أسفل, which describes the lower part of something united or integral. Classical usage also extends the notion of being beneath to authority, marital relation, and social lowliness.",
+    "source_refs": [
+      "maqayis:row:910",
+      "lane:entry:16519",
+      "mufradat:row:177"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:tHt:taHot:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "tHt-taht",
+      "reason": "The principal nominal QAC group is presented under the normalized dictionary headword تَحْت."
+    },
+    {
+      "form_group_id": "qac-form:tHt:taHot:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "tHt-taht",
+      "reason": "The locative analysis is a grammatical classification of the same lexical item and is covered by the public entry تَحْت."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "tHt-taht",
+      "form_group_ids": [
+        "qac-form:tHt:taHot:nominal:-",
+        "qac-form:tHt:taHot:other:-"
+      ],
+      "headword_arabic": "تَحْت",
+      "public_pos_label": "Noun / locative adverb",
+      "verb_form": null,
+      "occurrence_count": 51,
+      "senses": [
+        {
+          "sense_id": "tHt-taht-s1",
+          "definition": "The location beneath, below, or under another thing.",
+          "usage_conditions": "Opposed to فوق. It is used for a relation to something spatially separate, whereas أسفل is used for the lower part of something united with or integral to another thing. It may function adverbially with an expressed complement or as a noun when the complement is suppressed.",
+          "source_refs": [
+            "lane:entry:16519",
+            "mufradat:row:177"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:66",
+          "word_location": "5:66:15",
+          "sense_ids": [
+            "tHt-taht-s1"
+          ]
+        },
+        {
+          "verse_key": "13:35",
+          "word_location": "13:35:8",
+          "sense_ids": [
+            "tHt-taht-s1"
+          ]
+        },
+        {
+          "verse_key": "19:24",
+          "word_location": "19:24:9",
+          "sense_ids": [
+            "tHt-taht-s1"
+          ]
+        },
+        {
+          "verse_key": "20:6",
+          "word_location": "20:6:11",
+          "sense_ids": [
+            "tHt-taht-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "tHt-cm-authority",
+      "headword_arabic": "تَحْت",
+      "definition": "To be under another person's command, rule, or authority.",
+      "usage_conditions": "A conventional figurative relation, extending the spatial notion of being beneath to subordination.",
+      "source_refs": [
+        "lane:entry:16519"
+      ]
+    },
+    {
+      "meaning_id": "tHt-cm-spousal",
+      "headword_arabic": "تَحْت",
+      "definition": "In a conventional figurative expression, for a man to have a woman as his wife.",
+      "usage_conditions": "A specifically reported figurative construction; it does not describe the ordinary spatial sense.",
+      "source_refs": [
+        "lane:entry:16519"
+      ]
+    },
+    {
+      "meaning_id": "tHt-cm-lowstatus",
+      "headword_arabic": "التَّحْتُ",
+      "definition": "A low, base, vile, ignoble, or socially weak person; the plural is التُّحُوتُ.",
+      "usage_conditions": "A classical social-status usage, especially in the reported expression about the lowly prevailing over the eminent or strong.",
+      "source_refs": [
+        "lane:entry:16519",
+        "mufradat:row:177"
+      ]
+    },
+    {
+      "meaning_id": "tHt-cm-buriedtreasures",
+      "headword_arabic": "التُّحُوتُ",
+      "definition": "Treasures or things hidden beneath the earth.",
+      "usage_conditions": "A reported alternative interpretation of التُّحُوتُ in the explanation of the associated eschatological tradition, distinct from the interpretation referring to lowly persons.",
+      "source_refs": [
+        "lane:entry:16519"
+      ]
+    },
+    {
+      "meaning_id": "tHt-cm-tahtani",
+      "headword_arabic": "تَحْتَانِيٌّ",
+      "definition": "Of or relating to what is beneath; lower or inferior.",
+      "usage_conditions": "A relational adjective derived from تَحْت.",
+      "source_refs": [
+        "lane:entry:16520"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:tHt:16519:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "tHt-taht-s1",
+        "tHt-cm-authority",
+        "tHt-cm-spousal"
+      ],
+      "note": "The spatial sense and the two reported figurative constructions are represented."
+    },
+    {
+      "unit_id": "lane-unit:tHt:16519:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "tHt-cm-lowstatus",
+        "tHt-cm-buriedtreasures"
+      ],
+      "note": "Both reported interpretations of التُّحُوتُ are preserved."
+    },
+    {
+      "unit_id": "lane-unit:tHt:16520:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "tHt-cm-tahtani"
+      ],
+      "note": "The relational adjective and its lower/inferior sense are represented."
+    }
+  ],
+  "cautions": [
+    "The social-status and buried-treasure interpretations concern the classical form التُّحُوتُ, not the ordinary Quranic spatial use of تَحْت."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

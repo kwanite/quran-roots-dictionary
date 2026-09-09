@@ -1,0 +1,875 @@
+{
+  "root": "Hmy",
+  "arabic": "حمي",
+  "root_idea": {
+    "summary": "The root centers on generated heat and intensity, with extensions to ardor, indignation, and protective restriction.",
+    "development": "Heat or vehemence develops figuratively into anger and zealous indignation, and by association into protecting or setting something apart from encroachment.",
+    "source_refs": [
+      "mufradat:row:359"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hmy:yuHomaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hmy_hama",
+      "reason": "Distinct Quran-attested Form I verb, normalized to the classical perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Hmy:HaAm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hmy_haam",
+      "reason": "Distinct Quran-attested specialized active-participial noun."
+    },
+    {
+      "form_group_id": "qac-form:Hmy:HaAmiyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hmy_haamiya",
+      "reason": "Distinct Quran-attested feminine active participle describing extreme heat."
+    },
+    {
+      "form_group_id": "qac-form:Hmy:Hamiy~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hmy_hamiyya",
+      "reason": "Distinct Quran-attested abstract noun for indignant or disdainful zeal."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_hmy_hama",
+      "form_group_ids": [
+        "qac-form:Hmy:yuHomaY`:verb:I"
+      ],
+      "headword_arabic": "حَمَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qs_hmy_hama_heat",
+          "definition": "To be heated intensely, especially by fire.",
+          "usage_conditions": "In the supplied Quranic occurrence, the construction describes metal being heated over fire. This is the heat sense, not the separate classical sense of protecting or prohibiting.",
+          "source_refs": [
+            "mufradat:row:359",
+            "lane:entry:15775"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:35",
+          "word_location": "9:35:2",
+          "sense_ids": [
+            "qs_hmy_hama_heat"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_hmy_haam",
+      "form_group_ids": [
+        "qac-form:Hmy:HaAm:nominal:-"
+      ],
+      "headword_arabic": "حَامٍ",
+      "public_pos_label": "Active participle · specialized noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qs_hmy_haam_protected_camel",
+          "definition": "A stallion-camel whose back has been set apart and protected from riding or other use.",
+          "usage_conditions": "A specialized pre-Islamic designation for a breeding stallion regarded as protected; the Quranic usage refers to this customary category.",
+          "source_refs": [
+            "lane:entry:15791",
+            "mufradat:row:359"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:103",
+          "word_location": "5:103:11",
+          "sense_ids": [
+            "qs_hmy_haam_protected_camel"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_hmy_haamiya",
+      "form_group_ids": [
+        "qac-form:Hmy:HaAmiyap:nominal:-"
+      ],
+      "headword_arabic": "حَامِيَةٌ",
+      "public_pos_label": "Active participle · feminine",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qs_hmy_haamiya_intensely_hot",
+          "definition": "Intensely hot; burning with extreme heat.",
+          "usage_conditions": "Used adjectivally for something characterized by vehement heat. The lexical discussion also records حَامِيَةٌ for a hot spring in an alternate Quranic reading, but that reading is not included among the supplied QAC occurrences.",
+          "source_refs": [
+            "lane:entry:15791",
+            "mufradat:row:359"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "88:4",
+          "word_location": "88:4:3",
+          "sense_ids": [
+            "qs_hmy_haamiya_intensely_hot"
+          ]
+        },
+        {
+          "verse_key": "101:11",
+          "word_location": "101:11:2",
+          "sense_ids": [
+            "qs_hmy_haamiya_intensely_hot"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_hmy_hamiyya",
+      "form_group_ids": [
+        "qac-form:Hmy:Hamiy~ap:nominal:-"
+      ],
+      "headword_arabic": "حَمِيَّةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qs_hmy_hamiyya_indignant_pride",
+          "definition": "Indignant, disdainful zeal or partisan pride.",
+          "usage_conditions": "In the Quranic expression حَمِيَّةَ الْجَاهِلِيَّةِ, it denotes the heated indignation and pride associated with جاهلية, rather than ordinary protective care.",
+          "source_refs": [
+            "mufradat:row:359",
+            "lane:entry:15775",
+            "lane:entry:15789"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "48:26",
+          "word_location": "48:26:7",
+          "sense_ids": [
+            "qs_hmy_hamiyya_indignant_pride"
+          ]
+        },
+        {
+          "verse_key": "48:26",
+          "word_location": "48:26:8",
+          "sense_ids": [
+            "qs_hmy_hamiyya_indignant_pride"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_hmy_hama_protect",
+      "headword_arabic": "حَمَى",
+      "definition": "To protect, defend, or guard a person, thing, place, or interest; or to prohibit it from encroachment or use.",
+      "usage_conditions": "May describe protecting people or honor, making a place a protected reserve, or restricting a sick person from food or anything harmful.",
+      "source_refs": [
+        "lane:entry:15775"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiya_heat",
+      "headword_arabic": "حَمِيَ",
+      "definition": "To become vehemently hot.",
+      "usage_conditions": "Used of a day, oven, sun, fire, iron, or—by a specified animal use—of a horse becoming heated and sweating.",
+      "source_refs": [
+        "lane:entry:15775"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiya_war",
+      "headword_arabic": "حَمِيَ",
+      "definition": "To become fierce or vehement, especially of a war or fight.",
+      "usage_conditions": "A figurative extension from intense heat, used of a severe conflict or event.",
+      "source_refs": [
+        "lane:entry:15775"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiya_anger",
+      "headword_arabic": "حَمِيَ",
+      "definition": "To become hot with anger; to disdain or scorn something, or refuse to tolerate wrongful treatment.",
+      "usage_conditions": "The construction حَمِيَ عَنْهُ or حَمِيَ مِنْهُ expresses disdain, indignation, or refusal to submit to wrong.",
+      "source_refs": [
+        "lane:entry:15775"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_haama_guest",
+      "headword_arabic": "حَامَى",
+      "definition": "To exert oneself for someone, especially by honoring and entertaining a guest.",
+      "usage_conditions": "Attested in the construction حَامَيْتُ عَلَى ضَيْفِي.",
+      "source_refs": [
+        "lane:entry:15776"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_ahmaa_heat",
+      "headword_arabic": "أَحْمَى",
+      "definition": "To make something vehemently hot or to heat it in fire.",
+      "usage_conditions": "Used of making the sun or fire hot, heating iron, or kindling fire upon a branding-iron.",
+      "source_refs": [
+        "lane:entry:15777"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_ahmaa_ardor",
+      "headword_arabic": "أَحْمَى",
+      "definition": "To excite someone to ardor for fighting.",
+      "usage_conditions": "A causative extension in which heat signifies martial eagerness.",
+      "source_refs": [
+        "lane:entry:15777"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_tahaamaa_avoid",
+      "headword_arabic": "تَحَامَى",
+      "definition": "To guard against, keep aloof from, shun, or avoid someone or something.",
+      "usage_conditions": "The construction تَحَامَاهُ النَّاسُ describes people collectively avoiding or keeping away from an object or person.",
+      "source_refs": [
+        "lane:entry:15779"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_ihtamaa_selfprotect",
+      "headword_arabic": "اِحْتَمَى",
+      "definition": "To protect or defend oneself, or become protected, from something.",
+      "usage_conditions": "The reflexive construction presents the subject as taking or receiving protection.",
+      "source_refs": [
+        "lane:entry:15780"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_ihtamaa_abstain",
+      "headword_arabic": "اِحْتَمَى",
+      "definition": "To refrain or abstain from food or from something harmful.",
+      "usage_conditions": "Especially used of a sick person following a dietary restriction.",
+      "source_refs": [
+        "lane:entry:15780"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_ihmumma_black",
+      "headword_arabic": "اِحْمَوْمَى",
+      "definition": "To become black.",
+      "usage_conditions": "Used of such things as night or a mass of clouds.",
+      "source_refs": [
+        "lane:entry:15781"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_humma_venom",
+      "headword_arabic": "حُمَةٌ",
+      "definition": "The venom, poison, or painful sting of a scorpion, hornet, serpent, or similar stinging creature.",
+      "usage_conditions": "The word can denote either the poison or the sting through which it is delivered.",
+      "source_refs": [
+        "lane:entry:15782"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_humma_cold",
+      "headword_arabic": "حُمَةٌ",
+      "definition": "Vehemence of cold.",
+      "usage_conditions": "An independent nominal use, distinct from the venom sense.",
+      "source_refs": [
+        "lane:entry:15782"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hima_reserve",
+      "headword_arabic": "حِمًى",
+      "definition": "A thing or area prohibited from approach or use; especially protected pasture, land, or water reserved from the public.",
+      "usage_conditions": "The term may describe a formally or customarily protected reserve whose grazing or approach is restricted.",
+      "source_refs": [
+        "lane:entry:15785"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_himya_abstinence",
+      "headword_arabic": "حِمْيَةٌ",
+      "definition": "Protection or restriction; especially abstinence from food or drink that is harmful.",
+      "usage_conditions": "Also used as the verbal noun for protecting or prohibiting a place and for imposing a therapeutic dietary restriction.",
+      "source_refs": [
+        "lane:entry:15786"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_himaa_ransom",
+      "headword_arabic": "حِمَاءٌ",
+      "definition": "A formula meaning ‘a ransom for you’ or ‘may such a person or thing ransom you.’",
+      "usage_conditions": "Occurs in the idiomatic expressions حِمَاءٌ لَكَ and حِمَاءً لَكَ.",
+      "source_refs": [
+        "lane:entry:15787"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiyy_protected",
+      "headword_arabic": "حَمِيٌّ",
+      "definition": "Protected or guarded from evil; of a sick person, restricted from injurious food or drink.",
+      "usage_conditions": "An adjectival description of one who is protected or placed under a prohibition.",
+      "source_refs": [
+        "lane:entry:15788"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiyy_resistant",
+      "headword_arabic": "حَمِيٌّ",
+      "definition": "Unwilling to bear, endure, or tolerate wrongful treatment.",
+      "usage_conditions": "Also used in the expression حَمِيُّ الأَنْفِ for a person who refuses submission to wrong.",
+      "source_refs": [
+        "lane:entry:15788"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiyya_sacred_care",
+      "headword_arabic": "حَمِيَّةٌ",
+      "definition": "Care for what is sacred, inviolable, honorable, or connected with religion, together with the resolve to defend it.",
+      "usage_conditions": "This protective-care sense is distinct from the Quranic expression for disdainful or partisan pride.",
+      "source_refs": [
+        "lane:entry:15789"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_humayya_anger",
+      "headword_arabic": "حُمَيَّا",
+      "definition": "The vehemence or onset of anger, spirit, or emotional force.",
+      "usage_conditions": "Can denote the beginning or outburst of anger and vehement temperament.",
+      "source_refs": [
+        "lane:entry:15790"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_humayya_wine",
+      "headword_arabic": "حُمَيَّا",
+      "definition": "The assault, force, or intoxicating influence of wine upon the head; also the onset or attack of pain.",
+      "usage_conditions": "Used of the fumes of wine mounting into the head and, by extension, of pain taking hold.",
+      "source_refs": [
+        "lane:entry:15790"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_humayya_youth",
+      "headword_arabic": "حُمَيَّا",
+      "definition": "The flush, sprightliness, or impetuosity of youth.",
+      "usage_conditions": "Used in the construction حُمَيَّا شَبَابِهِ for the exuberance of someone's youth.",
+      "source_refs": [
+        "lane:entry:15790"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_humayya_protector",
+      "headword_arabic": "حُمَيَّا",
+      "definition": "A protector, defender, or guardian of what one possesses or manages.",
+      "usage_conditions": "A person responsible for safeguarding property or something under his superintendence.",
+      "source_refs": [
+        "lane:entry:15790"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_haam_lion",
+      "headword_arabic": "حَامٍ",
+      "definition": "A lion.",
+      "usage_conditions": "A separate appellational use of the active-participial form.",
+      "source_refs": [
+        "lane:entry:15791"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_haam_defender",
+      "headword_arabic": "حَامٍ",
+      "definition": "A protector or defender; also a protecting party or the last defenders accompanying a retreating group.",
+      "usage_conditions": "May describe a strenuous defender of companions, a defending company, or those covering a party's departure.",
+      "source_refs": [
+        "lane:entry:15791"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiya_impetuous",
+      "headword_arabic": "حَامِيَةٌ",
+      "definition": "Mighty, forceful, or impetuous in valor.",
+      "usage_conditions": "A figurative use of heat and boiling force, applied to people described through a hot, boiling vessel.",
+      "source_refs": [
+        "lane:entry:15791"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiya_wellstones",
+      "headword_arabic": "حَامِيَةٌ",
+      "definition": "A large or heavy stone, or set of stones, used to case and protect the sides of a well.",
+      "usage_conditions": "The plural may refer collectively to matching casing stones or to large masses placed in the lower or damaged portions of a well casing.",
+      "source_refs": [
+        "lane:entry:15792"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiya_hoof",
+      "headword_arabic": "حَامِيَةٌ",
+      "definition": "The rim or side portions of a solid hoof.",
+      "usage_conditions": "Used of the circuit, right and left edges, or corresponding side parts of the hoof.",
+      "source_refs": [
+        "lane:entry:15792"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiya_mountain",
+      "headword_arabic": "حَامِيَةٌ",
+      "definition": "The sides of a mountain.",
+      "usage_conditions": "Attested in the plural form حَوَامٍ.",
+      "source_refs": [
+        "lane:entry:15792"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiya_hearthstone",
+      "headword_arabic": "حَامِيَةٌ",
+      "definition": "A hearthstone, specifically one of the three stones supporting a cooking pot.",
+      "usage_conditions": "Attested as a singular noun with the corresponding plural form.",
+      "source_refs": [
+        "lane:entry:15792"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_hamiya_ownway",
+      "headword_arabic": "حَامِيَةٌ",
+      "definition": "One's own way or chosen course.",
+      "usage_conditions": "Used idiomatically in مَضَيْتُ عَلَى حَامِيَتِي, ‘I went my own way.’",
+      "source_refs": [
+        "lane:entry:15792"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_ahma_resistant",
+      "headword_arabic": "أَحْمَى",
+      "definition": "More resistant, more unyielding, or less willing to submit than another.",
+      "usage_conditions": "Used in the comparative construction أَحْمَى أَنْفًا مِنْ فُلَانٍ.",
+      "source_refs": [
+        "lane:entry:15793"
+      ]
+    },
+    {
+      "meaning_id": "cm_hmy_muhmoum_black",
+      "headword_arabic": "مُحْمَوْمٌ",
+      "definition": "Black; of a night or mass of clouds, dark and heaped up.",
+      "usage_conditions": "A descriptive passive-participial form applied especially to dense darkness or piled clouds.",
+      "source_refs": [
+        "lane:entry:15796"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hmy:15775:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hama_protect"
+      ],
+      "note": "Protection, prohibition, guarding, and restriction are represented together."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15775:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiya_heat",
+        "qs_hmy_hama_heat",
+        "qs_hmy_haamiya_intensely_hot"
+      ],
+      "note": "Heat and becoming intensely hot support the Quranic heat senses and the classical heat branch."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15775:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiya_war"
+      ],
+      "note": "The figurative vehemence of war is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15775:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiya_heat"
+      ],
+      "note": "The horse becoming hot and sweating is included in the classical heat meaning."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15775:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qs_hmy_hamiyya_indignant_pride",
+        "cm_hmy_hamiya_anger"
+      ],
+      "note": "Anger, disdain, and refusal of wrong are represented in their distinct form branches."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15775:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15776:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15776:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_haama_guest"
+      ],
+      "note": "Exerting oneself to honor and entertain a guest is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15777:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15777:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_ahmaa_heat"
+      ],
+      "note": "Causative heating of the sun, fire, or iron is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15777:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_ahmaa_ardor"
+      ],
+      "note": "Exciting someone to fighting ardor is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15778:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15779:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_tahaamaa_avoid"
+      ],
+      "note": "Avoidance and keeping aloof are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15780:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_ihtamaa_selfprotect"
+      ],
+      "note": "Self-protection is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15780:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_ihtamaa_abstain"
+      ],
+      "note": "Refraining from harmful food is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15780:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the anger discussion."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15781:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_ihmumma_black"
+      ],
+      "note": "Becoming black is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15782:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_humma_venom"
+      ],
+      "note": "Venom, poison, and painful sting are represented together."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15782:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_hmy_humma_venom"
+      ],
+      "note": "The specific hornet, scorpion, and serpent sting cases are covered by the venom-and-sting meaning."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15782:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_humma_cold"
+      ],
+      "note": "Vehemence of cold is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15783:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15784:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Variant oath formula cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15784:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to a different lexical entry."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15785:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hima_reserve"
+      ],
+      "note": "A prohibited or protected reserve is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15785:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15786:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15786:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_hmy_himya_abstinence"
+      ],
+      "note": "The verbal-noun uses are covered by the protection and dietary-restriction meaning."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15786:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_himya_abstinence"
+      ],
+      "note": "Abstinence from eating is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15787:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15787:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_himaa_ransom"
+      ],
+      "note": "The idiom meaning ransom is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15788:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiyy_protected"
+      ],
+      "note": "Protection and therapeutic restriction are represented together."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15788:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiyy_resistant"
+      ],
+      "note": "Refusal to tolerate wrongful treatment is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15788:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiyy_resistant"
+      ],
+      "note": "The resistant or unyielding person is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15789:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qs_hmy_hamiyya_indignant_pride",
+        "cm_hmy_hamiyya_sacred_care"
+      ],
+      "note": "Disdainful indignation and protective care for sacred matters are distinguished."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15790:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_humayya_anger"
+      ],
+      "note": "The vehemence or onset of anger is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15790:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_humayya_wine"
+      ],
+      "note": "The assault of wine and pain is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15790:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_humayya_youth"
+      ],
+      "note": "The flush of youth is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15790:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_humayya_protector"
+      ],
+      "note": "The protector or defender of possessions is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15791:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qs_hmy_haam_protected_camel"
+      ],
+      "note": "The specialized protected stallion-camel is Quran-attested and represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15791:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_haam_lion"
+      ],
+      "note": "The appellation for a lion is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15791:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_haam_defender"
+      ],
+      "note": "The defender and defending party uses are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15791:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qs_hmy_haamiya_intensely_hot",
+        "cm_hmy_hamiya_impetuous"
+      ],
+      "note": "Literal heat is distinguished from the figurative force or valor sense."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15792:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَامٍ."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15792:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiya_wellstones"
+      ],
+      "note": "Well-casing stones are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15792:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiya_hoof"
+      ],
+      "note": "The sides and rim of a solid hoof are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15792:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiya_mountain"
+      ],
+      "note": "Mountain sides are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15792:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiya_hearthstone"
+      ],
+      "note": "A cooking-pot support stone is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15792:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_hamiya_ownway"
+      ],
+      "note": "The idiom for going one's own way is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15793:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_ahma_resistant"
+      ],
+      "note": "The comparative sense of being more resistant is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15794:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15795:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hmy:15796:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hmy_muhmoum_black"
+      ],
+      "note": "Blackness of night or piled clouds is represented."
+    }
+  ],
+  "cautions": [
+    "The Mufradat discussion records حَامِيَةٌ as an alternate reading in 18:86, but that reading is not among the supplied QAC occurrences and is therefore not added to the form's count or examples.",
+    "The Mufradat row also contains homographic or differently rooted material concerning حَمَإ/حَمْأ (black mud) and أَحْمَاءُ المرأة (the husband's relatives); these usages are not confidently assignable to canonical root حمي and are excluded from the lexical senses here. "
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Mufradat row 359 includes the Quranic expression مِنْ حَمَإٍ مَسْنُونٍ and related حَمْأ material, as well as أَحْمَاءُ المرأة. These appear to involve different final radicals or separate homographic lexical items, so they remain unassigned to canonical root حمي."
+  ]
+}

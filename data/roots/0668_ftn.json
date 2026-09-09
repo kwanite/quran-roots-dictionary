@@ -1,0 +1,923 @@
+{
+  "root": "ftn",
+  "arabic": "فتن",
+  "root_idea": {
+    "summary": "The root centers on testing and examination, especially an ordeal that reveals what is sound or unsound.",
+    "development": "The concrete image is assaying gold by fire. From this developed the senses of testing, affliction and punishment, and then related uses involving persecution, misguidance, conflict, and deviation.",
+    "source_refs": [
+      "maqayis:row:3510",
+      "mufradat:row:1087"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ftn:fatanu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ftn_fatana",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:ftn:fa`tiniyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ftn_fatin",
+      "reason": "Displayed under the singular active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:ftn:fitonap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ftn_fitna",
+      "reason": "Displayed as the ordinary feminine noun citation form."
+    },
+    {
+      "form_group_id": "qac-form:ftn:futuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ftn_futun",
+      "reason": "Displayed as a distinct verbal noun."
+    },
+    {
+      "form_group_id": "qac-form:ftn:mafotuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ftn_maftun",
+      "reason": "Displayed as a distinct passive participle and substantivized form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "ftn_fatana",
+      "form_group_ids": [
+        "qac-form:ftn:fatanu:verb:I"
+      ],
+      "headword_arabic": "فَتَنَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 23,
+      "senses": [
+        {
+          "sense_id": "ftn_fatana_s1",
+          "definition": "To burn someone with fire.",
+          "usage_conditions": "In Quranic usage, the passive may describe being burned in the fire; the verb can also describe those who inflict such burning.",
+          "source_refs": [
+            "lane:entry:33197"
+          ]
+        },
+        {
+          "sense_id": "ftn_fatana_s2",
+          "definition": "To try, test, or subject someone to an ordeal.",
+          "usage_conditions": "The ordeal may involve hardship, punishment, or circumstances through which a person's condition is revealed. Active and passive uses express causing or undergoing the test.",
+          "source_refs": [
+            "lane:entry:33197",
+            "mufradat:row:1087"
+          ]
+        },
+        {
+          "sense_id": "ftn_fatana_s3",
+          "definition": "To turn someone away from the right course or revealed truth; to tempt or lead someone astray.",
+          "usage_conditions": "The Quranic construction may express an attempt to divert someone from what was revealed, or to induce deviation from the right way.",
+          "source_refs": [
+            "lane:entry:33197",
+            "mufradat:row:1087"
+          ]
+        },
+        {
+          "sense_id": "ftn_fatana_s4",
+          "definition": "To subject people to persecution, affliction, or killing.",
+          "usage_conditions": "This is a Quranic use in which the affliction imposed by opponents is understood as persecution or, in certain cited interpretations, killing.",
+          "source_refs": [
+            "lane:entry:33197",
+            "mufradat:row:1087"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "85:10",
+          "word_location": "85:10:3",
+          "sense_ids": [
+            "ftn_fatana_s1",
+            "ftn_fatana_s4"
+          ]
+        },
+        {
+          "verse_key": "20:40",
+          "word_location": "20:40:23",
+          "sense_ids": [
+            "ftn_fatana_s2"
+          ]
+        },
+        {
+          "verse_key": "17:73",
+          "word_location": "17:73:3",
+          "sense_ids": [
+            "ftn_fatana_s3"
+          ]
+        },
+        {
+          "verse_key": "4:101",
+          "word_location": "4:101:15",
+          "sense_ids": [
+            "ftn_fatana_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "ftn_fatin",
+      "form_group_ids": [
+        "qac-form:ftn:fa`tiniyn:nominal:-"
+      ],
+      "headword_arabic": "فَاتِنٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "ftn_fatin_s1",
+          "definition": "One who causes another to err or go astray from the truth.",
+          "usage_conditions": "In the Quranic construction بِفَاتِنِينَ عَلَيْهِ, the participle denotes those unable to lead the designated person astray except by the decree described in the verse.",
+          "source_refs": [
+            "lane:entry:33211",
+            "mufradat:row:1087"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:162",
+          "word_location": "37:162:4",
+          "sense_ids": [
+            "ftn_fatin_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "ftn_fitna",
+      "form_group_ids": [
+        "qac-form:ftn:fitonap:nominal:-"
+      ],
+      "headword_arabic": "فِتْنَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 34,
+      "senses": [
+        {
+          "sense_id": "ftn_fitna_s1",
+          "definition": "A trial, test, or ordeal by which a person's condition is revealed.",
+          "usage_conditions": "The trial may come through hardship or prosperity, including circumstances involving wealth, children, or other worldly conditions; it is especially prominent in severe circumstances.",
+          "source_refs": [
+            "lane:entry:33205",
+            "mufradat:row:1087"
+          ]
+        },
+        {
+          "sense_id": "ftn_fitna_s2",
+          "definition": "Punishing affliction, torment, or chastisement.",
+          "usage_conditions": "The noun may name the painful consequence or punishment produced by the ordeal, including punishment associated with fire.",
+          "source_refs": [
+            "lane:entry:33205",
+            "mufradat:row:1087"
+          ]
+        },
+        {
+          "sense_id": "ftn_fitna_s3",
+          "definition": "Persecution, oppression, or slaughter inflicted on people.",
+          "usage_conditions": "This use describes affliction imposed by human opponents, especially when believers are persecuted or prevented from practicing their faith.",
+          "source_refs": [
+            "lane:entry:33205",
+            "mufradat:row:1087"
+          ]
+        },
+        {
+          "sense_id": "ftn_fitna_s4",
+          "definition": "Conflict, civil strife, factional discord, or dissension.",
+          "usage_conditions": "The noun can denote a condition in which people form opposing factions or fall into violent communal conflict.",
+          "source_refs": [
+            "lane:entry:33205"
+          ]
+        },
+        {
+          "sense_id": "ftn_fitna_s5",
+          "definition": "Unbelief or deviation from the right way.",
+          "usage_conditions": "In Quranic explanations of certain constructions, the noun denotes a state of religious deviation or unbelief rather than merely an external hardship.",
+          "source_refs": [
+            "lane:entry:33205"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:35",
+          "word_location": "21:35:8",
+          "sense_ids": [
+            "ftn_fitna_s1"
+          ]
+        },
+        {
+          "verse_key": "37:63",
+          "word_location": "37:63:3",
+          "sense_ids": [
+            "ftn_fitna_s2"
+          ]
+        },
+        {
+          "verse_key": "2:193",
+          "word_location": "2:193:5",
+          "sense_ids": [
+            "ftn_fitna_s3"
+          ]
+        },
+        {
+          "verse_key": "9:47",
+          "word_location": "9:47:11",
+          "sense_ids": [
+            "ftn_fitna_s4"
+          ]
+        },
+        {
+          "verse_key": "2:191",
+          "word_location": "2:191:8",
+          "sense_ids": [
+            "ftn_fitna_s3",
+            "ftn_fitna_s5"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "ftn_futun",
+      "form_group_ids": [
+        "qac-form:ftn:futuwn:nominal:-"
+      ],
+      "headword_arabic": "فُتُونٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "ftn_futun_s1",
+          "definition": "Testing, trial, or a severe course of trying.",
+          "usage_conditions": "The form can convey a thorough or manifold process of testing rather than a single isolated test.",
+          "source_refs": [
+            "lane:entry:33197",
+            "lane:entry:33207",
+            "mufradat:row:1087"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:40",
+          "word_location": "20:40:24",
+          "sense_ids": [
+            "ftn_futun_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "ftn_maftun",
+      "form_group_ids": [
+        "qac-form:ftn:mafotuwn:nominal:-"
+      ],
+      "headword_arabic": "مَفْتُونٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "ftn_maftun_s1",
+          "definition": "Afflicted, tried, or overwhelmed by a trial.",
+          "usage_conditions": "In the Quranic occurrence, the form is interpreted as a person afflicted or tested by fitna; it is a passive-participial use.",
+          "source_refs": [
+            "lane:entry:33215",
+            "mufradat:row:1087"
+          ]
+        },
+        {
+          "sense_id": "ftn_maftun_s2",
+          "definition": "Madness or insanity; alternatively, one afflicted by madness.",
+          "usage_conditions": "This is a competing interpretation of the Quranic expression in which the form may be understood substantivally as the state of madness rather than simply as an afflicted person.",
+          "source_refs": [
+            "lane:entry:33215",
+            "mufradat:row:1087"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "68:6",
+          "word_location": "68:6:2",
+          "sense_ids": [
+            "ftn_maftun_s1",
+            "ftn_maftun_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_fatana_assay",
+      "headword_arabic": "فَتَنَ",
+      "definition": "To melt or place gold or silver in fire in order to assay it and distinguish the good from the defective.",
+      "usage_conditions": "A concrete technical use associated with testing metal by fire.",
+      "source_refs": [
+        "lane:entry:33197"
+      ]
+    },
+    {
+      "meaning_id": "cm_fatana_captivate",
+      "headword_arabic": "فَتَنَ",
+      "definition": "To captivate, enamour, or induce admiration and pleasure.",
+      "usage_conditions": "Used of an influence that takes away a person's composure or reason and causes attachment.",
+      "source_refs": [
+        "lane:entry:33197"
+      ]
+    },
+    {
+      "meaning_id": "cm_fatana_sexual",
+      "headword_arabic": "فَتَنَ",
+      "definition": "To desire sexual intercourse or fornication.",
+      "usage_conditions": "A specialized intransitive construction, including فَتَنَ إِلَى النِّسَاءِ and its passive counterpart.",
+      "source_refs": [
+        "lane:entry:33197"
+      ]
+    },
+    {
+      "meaning_id": "cm_mufatana",
+      "headword_arabic": "مُفَاتَنَةٌ",
+      "definition": "The mutual or reciprocal causing of fitna, conflict, or discord with another.",
+      "usage_conditions": "A Form III verbal noun referring to the occasioning of fitna between parties.",
+      "source_refs": [
+        "lane:entry:33199"
+      ]
+    },
+    {
+      "meaning_id": "cm_tafattana_war",
+      "headword_arabic": "تَفَتَّنَ",
+      "definition": "To contend or wage war against one another.",
+      "usage_conditions": "Attested in the expression describing a group that continually quarrels in war.",
+      "source_refs": [
+        "lane:entry:33201"
+      ]
+    },
+    {
+      "meaning_id": "cm_fatn_sort",
+      "headword_arabic": "فَتْنٌ",
+      "definition": "A kind, sort, state, or condition; in the dual, the two end portions of the day.",
+      "usage_conditions": "The dual may refer to early morning and late evening because they are two distinct states or portions.",
+      "source_refs": [
+        "lane:entry:33203"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitna_burning",
+      "headword_arabic": "فِتْنَةٌ",
+      "definition": "Burning with fire.",
+      "usage_conditions": "A concrete noun use referring to the act or condition of being burned.",
+      "source_refs": [
+        "lane:entry:33205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitna_assay",
+      "headword_arabic": "فِتْنَةٌ",
+      "definition": "The melting or assaying of gold and silver to separate the sound from the defective.",
+      "usage_conditions": "A technical use based on testing precious metal by fire.",
+      "source_refs": [
+        "lane:entry:33205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitna_temptation",
+      "headword_arabic": "فِتْنَةٌ",
+      "definition": "Temptation, seduction, or a cause of being led astray.",
+      "usage_conditions": "May refer to worldly display, desire, or another influence that attracts a person and exposes or endangers his condition.",
+      "source_refs": [
+        "lane:entry:33205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitna_madness",
+      "headword_arabic": "فِتْنَةٌ",
+      "definition": "Madness, insanity, or diabolical possession.",
+      "usage_conditions": "A specialized state-of-affliction meaning distinct from ordinary testing or punishment.",
+      "source_refs": [
+        "lane:entry:33205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitna_sin",
+      "headword_arabic": "فِتْنَةٌ",
+      "definition": "A sin, crime, or act of disobedience deserving punishment.",
+      "usage_conditions": "A moral-legal extension of the noun's meaning.",
+      "source_refs": [
+        "lane:entry:33205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitna_disgrace",
+      "headword_arabic": "فِتْنَةٌ",
+      "definition": "Disgrace, shame, or ignominy.",
+      "usage_conditions": "A result or condition of being exposed to dishonor.",
+      "source_refs": [
+        "lane:entry:33205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitna_pleasure",
+      "headword_arabic": "فِتْنَةٌ",
+      "definition": "A cause of pleasure or satisfaction in another person, especially by giving that person grounds to feel superior.",
+      "usage_conditions": "A contextual and relational use, not a general synonym for every kind of trial.",
+      "source_refs": [
+        "lane:entry:33205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitna_idioms",
+      "headword_arabic": "فِتْنَةٌ",
+      "definition": "In specialized expressions, the noun can designate whispering, being turned from the right road, questioning in the grave, a sword, or women.",
+      "usage_conditions": "These are fixed or conventional collocations whose interpretation depends on the accompanying qualifier.",
+      "source_refs": [
+        "lane:entry:33205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitna_mimosa",
+      "headword_arabic": "فِتْنَةٌ",
+      "definition": "The mimosa farnesiana plant.",
+      "usage_conditions": "A botanical homonym or specialized later usage.",
+      "source_refs": [
+        "lane:entry:33205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fitan_saddle",
+      "headword_arabic": "فِتَانٌ",
+      "definition": "A leather covering for a camel saddle.",
+      "usage_conditions": "Its plural is given as فُتُنٌ.",
+      "source_refs": [
+        "lane:entry:33206"
+      ]
+    },
+    {
+      "meaning_id": "cm_fatiin_burnt",
+      "headword_arabic": "فَتِينٌ",
+      "definition": "Burnt; also, by comparison, black stones or a black stony tract resembling burned stone.",
+      "usage_conditions": "The stone and terrain uses are figurative extensions from the appearance of burning.",
+      "source_refs": [
+        "lane:entry:33208"
+      ]
+    },
+    {
+      "meaning_id": "cm_fatiin_short",
+      "headword_arabic": "فَتِينٌ",
+      "definition": "Short or small.",
+      "usage_conditions": "A dialectal Yemeni use.",
+      "source_refs": [
+        "lane:entry:33208"
+      ]
+    },
+    {
+      "meaning_id": "cm_fattan_intensive",
+      "headword_arabic": "فَتَّانٌ",
+      "definition": "An intensive epithet for one who tests or tempts repeatedly or intensely.",
+      "usage_conditions": "The intensive form may function adjectivally or as a substantivized epithet.",
+      "source_refs": [
+        "lane:entry:33210"
+      ]
+    },
+    {
+      "meaning_id": "cm_fattan_tempter",
+      "headword_arabic": "فَتَّانٌ",
+      "definition": "A persistent tempter, specifically the devil.",
+      "usage_conditions": "A substantivized epithet for one who deceives people and embellishes disobedience.",
+      "source_refs": [
+        "lane:entry:33210"
+      ]
+    },
+    {
+      "meaning_id": "cm_fattan_goldsmith",
+      "headword_arabic": "فَتَّانٌ",
+      "definition": "A goldsmith or silversmith.",
+      "usage_conditions": "Named for the craftsman's melting and testing of precious metals.",
+      "source_refs": [
+        "lane:entry:33210"
+      ]
+    },
+    {
+      "meaning_id": "cm_fattanah_touchstone",
+      "headword_arabic": "فَتَّانَةٌ",
+      "definition": "A touchstone used to test gold and silver.",
+      "usage_conditions": "A feminine derivative referring to the testing stone.",
+      "source_refs": [
+        "lane:entry:33210"
+      ]
+    },
+    {
+      "meaning_id": "cm_fattan_angels",
+      "headword_arabic": "فَتَّانٌ",
+      "definition": "Either of the two angels said to examine and question the dead in the grave.",
+      "usage_conditions": "Usually used in the dual expression فَتَّانَا الْقَبْرِ.",
+      "source_refs": [
+        "lane:entry:33210"
+      ]
+    },
+    {
+      "meaning_id": "cm_fattan_money",
+      "headword_arabic": "فَتَّانٌ",
+      "definition": "A dirham and a dinar, regarded as things that test or tempt people.",
+      "usage_conditions": "Used in the dual as a figurative designation of the two kinds of money.",
+      "source_refs": [
+        "lane:entry:33210"
+      ]
+    },
+    {
+      "meaning_id": "cm_fattan_robber",
+      "headword_arabic": "فَتَّانٌ",
+      "definition": "A thief or robber who intercepts travelers on the road.",
+      "usage_conditions": "A specialized occupational or descriptive use.",
+      "source_refs": [
+        "lane:entry:33210"
+      ]
+    },
+    {
+      "meaning_id": "cm_fatin_heart",
+      "headword_arabic": "فَاتِنٌ",
+      "definition": "Of a heart, fallen into a state of trial or affliction.",
+      "usage_conditions": "This is the active-participle form derived from the intransitive use of فَتَنَ, not the Quranic transitive sense ‘causing another to err.’",
+      "source_refs": [
+        "lane:entry:33211"
+      ]
+    },
+    {
+      "meaning_id": "cm_faytan_carpenter",
+      "headword_arabic": "فَيْتَنٌ",
+      "definition": "A carpenter.",
+      "usage_conditions": "A specialized lexical form with an irregular-looking pattern.",
+      "source_refs": [
+        "lane:entry:33212"
+      ]
+    },
+    {
+      "meaning_id": "cm_maftun_burned",
+      "headword_arabic": "مَفْتُونٌ",
+      "definition": "Burned or burnt.",
+      "usage_conditions": "A passive-participial use distinct from the Quranic interpretation of the occurrence as afflicted or mad.",
+      "source_refs": [
+        "lane:entry:33215"
+      ]
+    },
+    {
+      "meaning_id": "cm_maftun_assayed",
+      "headword_arabic": "مَفْتُونٌ",
+      "definition": "Applied to gold or silver put into fire for assaying.",
+      "usage_conditions": "A specialized description of tested precious metal.",
+      "source_refs": [
+        "lane:entry:33215"
+      ]
+    },
+    {
+      "meaning_id": "cm_maftuna_camels",
+      "headword_arabic": "مَفْتُونَةٌ",
+      "definition": "A group of black camels collected together.",
+      "usage_conditions": "The designation is based on their resemblance in blackness to a burned or black stony tract.",
+      "source_refs": [
+        "lane:entry:33216"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ftn:33197:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ftn_fatana_s1"
+      ],
+      "note": "Burning with fire is represented as a Quranic verb sense."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33197:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fatana_assay"
+      ],
+      "note": "Metal-assaying use is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33197:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ftn_fatana_s4"
+      ],
+      "note": "The cited persecution or killing interpretation is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33197:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ftn_fatana_s2",
+        "ftn_futun_s1"
+      ],
+      "note": "Testing, affliction, and the Quranic verbal noun are represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33197:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ftn_fatana_s3",
+        "cm_fatana_captivate"
+      ],
+      "note": "Turning from the right course and captivating are separated."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33197:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fatana_sexual"
+      ],
+      "note": "The sexual-desire construction is represented classically."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33198:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33199:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mufatana"
+      ],
+      "note": "Form III mutual occasioning of fitna is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33200:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only references to Form I material."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33201:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tafattana_war"
+      ],
+      "note": "The explicit mutual-warfare meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33201:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33202:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only references to Form I material."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33203:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fatn_sort"
+      ],
+      "note": "Kind, state, or condition is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33203:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fatn_sort"
+      ],
+      "note": "The dual day-part use is included in the same lexical entry."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33204:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33205:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fitna_burning"
+      ],
+      "note": "Burning is represented as a Classical noun use."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33205:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fitna_assay"
+      ],
+      "note": "Metal assay is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33205:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ftn_fitna_s1",
+        "ftn_fitna_s2",
+        "ftn_fitna_s3",
+        "ftn_fitna_s4",
+        "ftn_fitna_s5",
+        "cm_fitna_temptation",
+        "cm_fitna_madness",
+        "cm_fitna_sin",
+        "cm_fitna_disgrace",
+        "cm_fitna_pleasure",
+        "cm_fitna_idioms"
+      ],
+      "note": "The unit contains the major Quranic and Classical branches of the noun."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33205:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fitna_mimosa"
+      ],
+      "note": "The botanical use is retained as a separate homonymous branch."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33206:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fitan_saddle"
+      ],
+      "note": "The saddle-cover noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33207:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "ftn_futun_s1"
+      ],
+      "note": "The pointer confirms the verbal-noun uses already represented under فُتُونٌ."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33208:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fatiin_burnt"
+      ],
+      "note": "Burnt silver and the related black-stone use are represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33208:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fatiin_burnt"
+      ],
+      "note": "The black-stone and stony-tract specialization is included."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33208:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fatiin_short"
+      ],
+      "note": "The Yemeni dialectal meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33209:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to فَتِينٌ."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33210:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fattan_intensive"
+      ],
+      "note": "The intensive epithet is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33210:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fattan_goldsmith"
+      ],
+      "note": "The goldsmith or silversmith use is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33210:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fattanah_touchstone"
+      ],
+      "note": "The related feminine touchstone term is retained under its own headword."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33210:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fattan_tempter",
+        "cm_fattan_angels",
+        "cm_fattan_money"
+      ],
+      "note": "The tempter, grave-angels, and money designations are represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33210:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fattan_robber"
+      ],
+      "note": "The highway-robber meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33211:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ftn_fatin_s1"
+      ],
+      "note": "The Quran-attested active participle meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33211:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33211:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fatin_heart"
+      ],
+      "note": "The intransitive heart-state use is kept distinct."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33212:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_faytan_carpenter"
+      ],
+      "note": "The carpenter meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33213:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مَفْتُونٌ."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33214:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only illustrative reference."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33215:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maftun_burned"
+      ],
+      "note": "The burned passive-participle use is represented classically."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33215:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maftun_assayed"
+      ],
+      "note": "The assayed-metal specialization is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33215:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ftn_maftun_s1",
+        "ftn_maftun_s2"
+      ],
+      "note": "Affliction, testing, and madness are represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33215:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ftn_maftun_s1",
+        "ftn_maftun_s2"
+      ],
+      "note": "The competing Quranic interpretations are explicitly represented."
+    },
+    {
+      "unit_id": "lane-unit:ftn:33216:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maftuna_camels"
+      ],
+      "note": "The black-camel collective use is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic interpretation of مَفْتُونٌ in 68:6 is disputed: it may denote an afflicted or tested person, or madness/one afflicted by madness.",
+    "Several Lane citation references use historical notation; no such notation has been converted into an unsupported modern verse location."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

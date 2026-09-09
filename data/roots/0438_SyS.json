@@ -1,0 +1,261 @@
+{
+  "root": "SyS",
+  "arabic": "صيص",
+  "root_idea": {
+    "summary": "The evidence centers on a protective or defensive structure or projection: the Quranic form denotes strongholds, while Classical Arabic applies related terms to defensive objects, horns, spurs, tools, and pegs.",
+    "development": "The protective branch extends from fortresses to things used for defense and projecting implements; a separate lexical branch concerns poor, seedless, or hollow produce.",
+    "source_refs": [
+      "mufradat:row:863",
+      "lane:entry:27037",
+      "lane:entry:27039",
+      "lane:entry:27040"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:SyS:SayaASiy:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:sisa",
+      "reason": "Displayed under the attested singular citation form صِيصَةٌ, with the Quranic plural صَيَاصِي retained as the attested form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:sisa",
+      "form_group_ids": [
+        "qac-form:SyS:SayaASiy:nominal:-"
+      ],
+      "headword_arabic": "صِيصَةٌ",
+      "public_pos_label": "Noun · singular citation (Quranic plural)",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform:sisa:s1",
+          "definition": "A fortress or fortified stronghold.",
+          "usage_conditions": "In the Quran, the plural صَيَاصِي in صَيَاصِيهِمْ refers to their fortresses or strongholds.",
+          "source_refs": [
+            "mufradat:row:863",
+            "lane:entry:27040"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:26",
+          "word_location": "33:26:8",
+          "sense_ids": [
+            "qform:sisa:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:palm_bear_bad_dates",
+      "headword_arabic": "صَاصَ",
+      "definition": "Of a palm tree: to bear dates that have become poor or defective dates called صِيصًا or شِيصًا.",
+      "usage_conditions": "An intransitive verb describing the palm and the resulting defective dates.",
+      "source_refs": [
+        "lane:entry:27034"
+      ]
+    },
+    {
+      "meaning_id": "cm:bad_dates",
+      "headword_arabic": "صِيصٌ",
+      "definition": "Poor or defective dates, the kind called حَشَف; also a dialectal equivalent of شِيصٌ.",
+      "usage_conditions": "A dialectal noun and variant form in the terminology of dates.",
+      "source_refs": [
+        "lane:entry:27034",
+        "lane:entry:27037"
+      ]
+    },
+    {
+      "meaning_id": "cm:seedless_dates",
+      "headword_arabic": "صِيصَاءٌ",
+      "definition": "Dates without stones or pits.",
+      "usage_conditions": "A separately reported Classical sense of صِيصَاءٌ.",
+      "source_refs": [
+        "lane:entry:27039"
+      ]
+    },
+    {
+      "meaning_id": "cm:empty_colocynth_pips",
+      "headword_arabic": "صِيصَاءٌ",
+      "definition": "Pips of a colocynth lacking kernels and consisting only of husks; by extension, similarly empty pips of melon, cucumber, and comparable plants.",
+      "usage_conditions": "Applied to hollow or kernel-less seeds and pips.",
+      "source_refs": [
+        "lane:entry:27039"
+      ]
+    },
+    {
+      "meaning_id": "cm:weavers_tool",
+      "headword_arabic": "صِيصِيَةٌ",
+      "definition": "A weaver’s pointed implement used to make the warp and weft even.",
+      "usage_conditions": "The reported implement is also described as a شوكة.",
+      "source_refs": [
+        "lane:entry:27040"
+      ]
+    },
+    {
+      "meaning_id": "cm:cock_spur",
+      "headword_arabic": "صِيصِيَةٌ",
+      "definition": "The spur of a cock.",
+      "usage_conditions": "A projecting anatomical feature of the cock.",
+      "source_refs": [
+        "lane:entry:27040"
+      ]
+    },
+    {
+      "meaning_id": "cm:animal_horn",
+      "headword_arabic": "صِيصِيَةٌ",
+      "definition": "The horn of a bull, cow, or gazelle; also a horn fixed upon a spear in place of an iron point.",
+      "usage_conditions": "The plural form is used for the horns of cattle; the spear use is an associated implement sense.",
+      "source_refs": [
+        "lane:entry:27040"
+      ]
+    },
+    {
+      "meaning_id": "cm:date_pulling_peg",
+      "headword_arabic": "صِيصَةٌ",
+      "definition": "A wooden pin or peg used to pull dates from a tightly packed mass.",
+      "usage_conditions": "The implement is understood by analogy with an animal’s horn.",
+      "source_refs": [
+        "lane:entry:27040"
+      ]
+    },
+    {
+      "meaning_id": "cm:defensive_object",
+      "headword_arabic": "صِيصَةٌ",
+      "definition": "Anything used to defend oneself or provide protection.",
+      "usage_conditions": "A broad sense for a protective object or means of defense, distinct from the specific sense ‘fortress’.",
+      "source_refs": [
+        "lane:entry:27040"
+      ]
+    },
+    {
+      "meaning_id": "cm:protective_herdsman",
+      "headword_arabic": "صِيصَةٌ",
+      "definition": "A herdsman who manages and protects his herds or flocks well.",
+      "usage_conditions": "A specialized designation for a capable, protective pastor.",
+      "source_refs": [
+        "lane:entry:27040"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:SyS:27034:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:palm_bear_bad_dates",
+        "cm:bad_dates"
+      ],
+      "note": "Covers the palm-tree verb and the defective-date result."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27035:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27036:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27037:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:bad_dates"
+      ],
+      "note": "Defines صِيصٌ as poor or defective dates."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27038:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to صِيصِيَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27039:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:seedless_dates"
+      ],
+      "note": "Records the sense ‘dates without stones’."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27039:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:empty_colocynth_pips"
+      ],
+      "note": "Defines hollow colocynth pips and similar empty seeds."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27040:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:weavers_tool"
+      ],
+      "note": "Defines the weaver’s implement."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27040:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:cock_spur"
+      ],
+      "note": "Defines the cock’s spur."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27040:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:animal_horn"
+      ],
+      "note": "Defines animal horns and horn spear-points."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27040:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:date_pulling_peg"
+      ],
+      "note": "Defines the wooden peg used to extract dates."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27040:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:defensive_object"
+      ],
+      "note": "Defines anything used for personal defense."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27040:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:sisa:s1"
+      ],
+      "note": "Defines a fortress, matching the Quran-attested sense."
+    },
+    {
+      "unit_id": "lane-unit:SyS:27040:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:protective_herdsman"
+      ],
+      "note": "Defines a capable, protective herdsman."
+    }
+  ],
+  "cautions": [
+    "No Maqayis entry was supplied for this root; the root-level orientation is therefore based on the supplied Lane and Mufradat evidence.",
+    "The Quranic occurrence is plural صَيَاصِي; the public headword صِيصَةٌ is a normalized singular citation form. Lane also reports uncertainty over the final radical in the related form صِيصِيَةٌ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

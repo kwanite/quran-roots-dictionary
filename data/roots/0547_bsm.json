@@ -1,0 +1,189 @@
+{
+  "root": "bsm",
+  "arabic": "بسم",
+  "root_idea": {
+    "summary": "Opening or displaying the front of the mouth as an expression of gladness, below the degree of full laughter.",
+    "development": "The facial action yields the Form V sense of a slight smile or laugh. Classical figurative usage extends the image of a faint opening or display to lightning showing through clouds and to a palm spadix splitting at its ends; a separate Form I expression is also attested for tasting.",
+    "source_refs": [
+      "maqayis:row:764",
+      "lane:entry:36409",
+      "lane:entry:36410"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bsm:tabas~ama:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bsm-tabassama-v",
+      "reason": "The Quran-attested Form V verb is a distinct and directly supported public form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bsm-tabassama-v",
+      "form_group_ids": [
+        "qac-form:bsm:tabas~ama:verb:V"
+      ],
+      "headword_arabic": "تَبَسَّمَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bsm-tabassama-v-s1",
+          "definition": "To smile—to show the front of the mouth in a slight laugh, below full laughter.",
+          "usage_conditions": "Describes the beginning or lesser degree of ضحك and may involve opening the lips to display the teeth or laughing without sound. The Quranic occurrence is in the construction تَبَسَّمَ ضَاحِكًا, smiling in response to what was said.",
+          "source_refs": [
+            "lane:entry:36410",
+            "mufradat:row:125"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:19",
+          "word_location": "27:19:1",
+          "sense_ids": [
+            "bsm-tabassama-v-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "bsm-cl-basama-taste",
+      "headword_arabic": "بَسَمَ",
+      "definition": "In a figurative expression, to taste a thing.",
+      "usage_conditions": "Attested in the construction مَا بَسَمْتُ فِي الشَّيْءِ.",
+      "source_refs": [
+        "lane:entry:36409"
+      ]
+    },
+    {
+      "meaning_id": "bsm-cl-tabassama-cloud",
+      "headword_arabic": "تَبَسَّمَ",
+      "definition": "Of clouds, to display a faint flash of lightning.",
+      "usage_conditions": "A figurative construction describing a weak or intermittent showing of lightning through the clouds.",
+      "source_refs": [
+        "lane:entry:36410"
+      ]
+    },
+    {
+      "meaning_id": "bsm-cl-tabassama-palm",
+      "headword_arabic": "تَبَسَّمَ",
+      "definition": "Of a palm-tree spadix, to burst open at its extremities.",
+      "usage_conditions": "A figurative usage applied to the extremities of the palm spadix or spathe splitting apart.",
+      "source_refs": [
+        "lane:entry:36410"
+      ]
+    },
+    {
+      "meaning_id": "bsm-cl-bassam",
+      "headword_arabic": "بَسَّامٌ",
+      "definition": "One who smiles much; a frequent smiler.",
+      "usage_conditions": "An epithet or intensive descriptive form derived from بَسَمَ.",
+      "source_refs": [
+        "lane:entry:36412"
+      ]
+    },
+    {
+      "meaning_id": "bsm-cl-basim",
+      "headword_arabic": "بَاسِمٌ",
+      "definition": "Smiling; one who smiles.",
+      "usage_conditions": "Active participle of بَسَمَ.",
+      "source_refs": [
+        "lane:entry:36413"
+      ]
+    },
+    {
+      "meaning_id": "bsm-cl-mabsim",
+      "headword_arabic": "مَبْسِمٌ",
+      "definition": "The front teeth; possibly, by extension, the mouth.",
+      "usage_conditions": "Named as the place of smiling; the plural is مَبَاسِمُ, and the mouth sense is reported tentatively.",
+      "source_refs": [
+        "lane:entry:36414"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bsm:36409:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form V entry."
+    },
+    {
+      "unit_id": "lane-unit:bsm:36409:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bsm-cl-basama-taste"
+      ],
+      "note": "Supplies the figurative tasting construction."
+    },
+    {
+      "unit_id": "lane-unit:bsm:36410:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bsm-tabassama-v-s1"
+      ],
+      "note": "Supplies the slight-smile and lesser-laughter branch."
+    },
+    {
+      "unit_id": "lane-unit:bsm:36410:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bsm-cl-tabassama-cloud"
+      ],
+      "note": "Supplies the figurative cloud-and-lightning usage."
+    },
+    {
+      "unit_id": "lane-unit:bsm:36410:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bsm-cl-tabassama-palm"
+      ],
+      "note": "Supplies the palm-spadix usage."
+    },
+    {
+      "unit_id": "lane-unit:bsm:36411:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form V entry."
+    },
+    {
+      "unit_id": "lane-unit:bsm:36412:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bsm-cl-bassam"
+      ],
+      "note": "Defines the intensive epithet for one who smiles much."
+    },
+    {
+      "unit_id": "lane-unit:bsm:36413:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bsm-cl-basim"
+      ],
+      "note": "Defines the active participle meaning smiling."
+    },
+    {
+      "unit_id": "lane-unit:bsm:36414:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bsm-cl-mabsim"
+      ],
+      "note": "Defines the front-teeth noun and its tentative mouth extension."
+    },
+    {
+      "unit_id": "lane-unit:bsm:36415:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بَسَّامٌ."
+    }
+  ],
+  "cautions": [
+    "The Quranic form is attested once, at 27:19; the cloud, palm-spadix, tasting, and nominal uses are broader Classical Arabic evidence rather than additional Quranic senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,204 @@
+{
+  "root": "Ezw",
+  "arabic": "عزو",
+  "root_idea": {
+    "summary": "Attribution and affiliation: assigning a person to a lineage or associating people with one another.",
+    "development": "The evidence develops from asserting filial relationship to naming affiliated companies or groups, including the Quranic plural عِزِينَ for separate or dispersed groupings. A secondary explanation connects the group noun with mutual patience and consolation.",
+    "source_refs": [
+      "lane:entry:3135",
+      "lane:entry:3137",
+      "lane:entry:3138",
+      "mufradat:row:969"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Ezw:Eiziyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf_Ezw_izzah",
+      "reason": "Displayed under the normalized singular citation form عِزَةٌ; the sole Quran occurrence is the plural عِزِينَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf_Ezw_izzah",
+      "form_group_ids": [
+        "qac-form:Ezw:Eiziyn:nominal:-"
+      ],
+      "headword_arabic": "عِزَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf_Ezw_izzah_s1",
+          "definition": "A group or company; in the Quranic plural, separate or dispersed groups.",
+          "usage_conditions": "The attested Quranic form is the plural عِزِينَ, describing groups present in a state of dispersion. An alternative explanation connects the group name with people mutually taking patience or consolation from one another, without changing the attested group reference.",
+          "source_refs": [
+            "lane:entry:3138",
+            "mufradat:row:969"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "70:37",
+          "word_location": "70:37:5",
+          "sense_ids": [
+            "qf_Ezw_izzah_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_Ezw_azahu_filial",
+      "headword_arabic": "عَزَاهُ",
+      "definition": "To assert a person's filial relationship to a particular father; intransitively, to assert one's own relationship to him.",
+      "usage_conditions": "The transitive construction is used with إِلَى; an intransitive use with إِلَى or لِـ is also recorded.",
+      "source_refs": [
+        "lane:entry:3135"
+      ]
+    },
+    {
+      "meaning_id": "cm_Ezw_itaza_filial",
+      "headword_arabic": "اعْتَزَى",
+      "definition": "To assert one's own filial relationship to another person.",
+      "usage_conditions": "Form VIII; used with إِلَى or لِـ.",
+      "source_refs": [
+        "lane:entry:3137"
+      ]
+    },
+    {
+      "meaning_id": "cm_Ezw_izzah_company",
+      "headword_arabic": "عِزَةٌ",
+      "definition": "A party or company of people, especially one conceived as mutually affiliated or allied.",
+      "usage_conditions": "The affiliation may be understood as based on birth or on mutual alliance; its plural forms include عِزُون, عُزُون, and عِزًى.",
+      "source_refs": [
+        "lane:entry:3138"
+      ]
+    },
+    {
+      "meaning_id": "cm_Ezw_azwa_appeal",
+      "headword_arabic": "عَزْوَى",
+      "definition": "A dialectal expression invoking or acknowledging favorable inclination, such as an appeal for mercy.",
+      "usage_conditions": "Dialectal; it also occurs in a saying functioning as an emphatic appeal or asseveration.",
+      "source_refs": [
+        "lane:entry:3140"
+      ]
+    },
+    {
+      "meaning_id": "cm_Ezw_azwan_tribe",
+      "headword_arabic": "بَنُو عَزْوَانَ",
+      "definition": "A named tribe of the jinn.",
+      "usage_conditions": "A proper name referring to a particular legendary group.",
+      "source_refs": [
+        "lane:entry:3141"
+      ]
+    },
+    {
+      "meaning_id": "cm_Ezw_azaa_filialnoun",
+      "headword_arabic": "عَزَاءٌ",
+      "definition": "The assertion of a filial relationship to a particular person.",
+      "usage_conditions": "A substantive associated with the derived forms اعتزى and تعزّى.",
+      "source_refs": [
+        "lane:entry:3142"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Ezw:3135:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_Ezw_azahu_filial"
+      ],
+      "note": "Filial attribution is represented under عَزَاهُ."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3135:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_Ezw_azahu_filial"
+      ],
+      "note": "The intransitive variant is covered by the same filial-attribution meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3135:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3136:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3137:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_Ezw_itaza_filial"
+      ],
+      "note": "Form VIII filial attribution is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3138:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf_Ezw_izzah_s1",
+        "cm_Ezw_izzah_company"
+      ],
+      "note": "Covers the Quranic dispersed-group usage and the broader company sense."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3139:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to عَزَاءٌ."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3139:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3140:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_Ezw_azwa_appeal"
+      ],
+      "note": "Dialectal appeal or favorable-inclination expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3141:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_Ezw_azwan_tribe"
+      ],
+      "note": "Named jinn tribe is represented."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3142:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_Ezw_azaa_filialnoun"
+      ],
+      "note": "The substantive denoting filial attribution is represented."
+    },
+    {
+      "unit_id": "lane-unit:Ezw:3142:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The singular citation form عِزَةٌ is used for the Quranic plural عِزِينَ.",
+    "The derivation of عِزِينَ has an alternative explanation associating it with mutual patience or consolation; this is retained as a usage note rather than a separate Quranic translation sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

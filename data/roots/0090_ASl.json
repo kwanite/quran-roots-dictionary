@@ -1,0 +1,940 @@
+{
+  "root": "ASl",
+  "arabic": "أصل",
+  "root_idea": {
+    "summary": "The root encompasses distinct lexical branches centered on a foundation or base, a highly dangerous serpent, and the evening period.",
+    "development": "The foundation branch extends from a thing's root or lowest support to establishment, permanence, origin, lineage, essential principles, and removal from the root. The time branch designates the period after the afternoon, while the serpent branch remains lexically distinct.",
+    "source_refs": [
+      "maqayis:row:104",
+      "mufradat:row:41"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ASl:>aSiyl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_asiyl",
+      "reason": "Grouped with the matching QAC أَصِيل form under the normalized singular citation form for the evening period."
+    },
+    {
+      "form_group_id": "qac-form:ASl:>aSol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_asl",
+      "reason": "Displayed under the normalized noun أَصْل."
+    },
+    {
+      "form_group_id": "qac-form:ASl:>aSiyl:other:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_asiyl",
+      "reason": "Grouped with the matching nominal QAC form under the normalized singular citation form أَصِيلٌ; the Quranic occurrence is an adverbial time expression."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_asiyl",
+      "form_group_ids": [
+        "qac-form:ASl:>aSiyl:nominal:-",
+        "qac-form:ASl:>aSiyl:other:-"
+      ],
+      "headword_arabic": "أَصِيلٌ",
+      "public_pos_label": "Noun / adverbial time expression",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "qsen_asiyl_evening",
+          "definition": "The evening period, from the afternoon prayer or late afternoon until sunset.",
+          "usage_conditions": "Used both as a noun, including the plural آصال, and adverbially in expressions meaning “in the evening.”",
+          "source_refs": [
+            "lane:entry:6849",
+            "mufradat:row:41"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:36",
+          "word_location": "24:36:14",
+          "sense_ids": [
+            "qsen_asiyl_evening"
+          ]
+        },
+        {
+          "verse_key": "13:15",
+          "word_location": "13:15:11",
+          "sense_ids": [
+            "qsen_asiyl_evening"
+          ]
+        },
+        {
+          "verse_key": "25:5",
+          "word_location": "25:5:9",
+          "sense_ids": [
+            "qsen_asiyl_evening"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_asl",
+      "form_group_ids": [
+        "qac-form:ASl:>aSol:nominal:-"
+      ],
+      "headword_arabic": "أَصْلٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsen_asl_root_base",
+          "definition": "The root, base, or lowest supporting part of a thing.",
+          "usage_conditions": "In the Quran, it refers to the root or foundational lower part of a tree, including the root of the parable's tree, its bottom, and the roots of trees being cut.",
+          "source_refs": [
+            "lane:entry:6842",
+            "mufradat:row:41"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:24",
+          "word_location": "14:24:11",
+          "sense_ids": [
+            "qsen_asl_root_base"
+          ]
+        },
+        {
+          "verse_key": "37:64",
+          "word_location": "37:64:5",
+          "sense_ids": [
+            "qsen_asl_root_base"
+          ]
+        },
+        {
+          "verse_key": "59:5",
+          "word_location": "59:5:9",
+          "sense_ids": [
+            "qsen_asl_root_base"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_asula_take_root",
+      "headword_arabic": "أَصُلَ",
+      "definition": "To take root, or become firmly founded, established, and strong.",
+      "usage_conditions": "Said of a thing, especially a tree or plant, that develops a firm root or foundation.",
+      "source_refs": [
+        "lane:entry:6837"
+      ]
+    },
+    {
+      "meaning_id": "cm_asula_sound",
+      "headword_arabic": "أَصُلَ",
+      "definition": "To become firm or sound; of a person, to be sound and intelligent in judgment; and of judgment or opinion, to become firm, sound, or good.",
+      "usage_conditions": "The personal and judgment-related applications are Classical uses of the Form I verb.",
+      "source_refs": [
+        "lane:entry:6837"
+      ]
+    },
+    {
+      "meaning_id": "cm_asula_noble",
+      "headword_arabic": "أَصُلَ",
+      "definition": "To become eminent, noble, or honorable.",
+      "usage_conditions": "A Classical Form I use describing the acquisition of distinction or honor.",
+      "source_refs": [
+        "lane:entry:6837"
+      ]
+    },
+    {
+      "meaning_id": "cm_asala_strike_root",
+      "headword_arabic": "أَصَلَهُ",
+      "definition": "To strike or hit the root, foundation, or ultimate constituent of something.",
+      "usage_conditions": "Transitive use directed at the part on which a thing depends or by which it is what it is.",
+      "source_refs": [
+        "lane:entry:6837"
+      ]
+    },
+    {
+      "meaning_id": "cm_asala_know",
+      "headword_arabic": "أَصَلَهُ عِلْمًا",
+      "definition": "To know something completely or thoroughly, as though reaching its root or ultimate constituent.",
+      "usage_conditions": "An idiomatic transitive construction occurring with عِلْمًا.",
+      "source_refs": [
+        "lane:entry:6837"
+      ]
+    },
+    {
+      "meaning_id": "cm_asila_water_spoil",
+      "headword_arabic": "أَصِلَ",
+      "definition": "To become altered for the worse in taste and odor, or spoiled.",
+      "usage_conditions": "Said especially of water affected by fetid black mud, and also of meat.",
+      "source_refs": [
+        "lane:entry:6837"
+      ]
+    },
+    {
+      "meaning_id": "cm_asila_commence",
+      "headword_arabic": "أَصِلَ",
+      "definition": "To set about or commence doing something.",
+      "usage_conditions": "Used of a person beginning an action or undertaking.",
+      "source_refs": [
+        "lane:entry:6837"
+      ]
+    },
+    {
+      "meaning_id": "cm_assala_establish",
+      "headword_arabic": "أَصَّلَ",
+      "definition": "To give something a firm or fixed root or foundation on which another thing can be built.",
+      "usage_conditions": "Causative Form II use; it can also describe making property established or firmly based.",
+      "source_refs": [
+        "lane:entry:6838"
+      ]
+    },
+    {
+      "meaning_id": "cm_assala_classify",
+      "headword_arabic": "أَصَّلَ الأُصُولَ",
+      "definition": "To arrange, classify, distribute, or set in order the fundamentals or principles of a field.",
+      "usage_conditions": "A technical Form II construction used of organizing the principles of a science or discipline.",
+      "source_refs": [
+        "lane:entry:6838"
+      ]
+    },
+    {
+      "meaning_id": "cm_asala_enter_evening",
+      "headword_arabic": "آصَلَ",
+      "definition": "To enter upon the period called أَصِيل.",
+      "usage_conditions": "Form IV time expression referring to the beginning of the evening period.",
+      "source_refs": [
+        "lane:entry:6839"
+      ]
+    },
+    {
+      "meaning_id": "cm_ist_asala_extirpate",
+      "headword_arabic": "اِسْتَأْصَلَ",
+      "definition": "To uproot, cut off, or remove something completely from its root; hence to eradicate, extirpate, or destroy utterly.",
+      "usage_conditions": "Used literally of plants, horns, ulcers, or the prepuce, and figuratively of people or groups that are completely destroyed or extirpated.",
+      "source_refs": [
+        "lane:entry:6841",
+        "lane:entry:6856"
+      ]
+    },
+    {
+      "meaning_id": "cm_origin_basis",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "An origin, source, basis, parent, stock, or lineage from which something proceeds or on which it depends.",
+      "usage_conditions": "Includes relations such as a father to offspring or a river to a branch stream, as well as origin or stock in matters of descent.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_real_property",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "Immovable or established property, especially land, a house, or palm trees; also a source of wealth, capital, or principal.",
+      "usage_conditions": "A property term for assets regarded as a lasting foundation rather than as merchandise for immediate trade.",
+      "source_refs": [
+        "lane:entry:6842",
+        "lane:entry:6850"
+      ]
+    },
+    {
+      "meaning_id": "cm_totality",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "The entirety or whole of something.",
+      "usage_conditions": "In expressions meaning to take or receive something with its root, the sense is completely or without leaving anything.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_adverb_at_all",
+      "headword_arabic": "أَصْلًا",
+      "definition": "Ever, at any time, or at all.",
+      "usage_conditions": "Adverbial use in negation or prohibition, distinct from the concrete noun meaning root or base.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_material_substance",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "The original or elemental matter, material, substance, or constituent from which something is taken or made.",
+      "usage_conditions": "A Classical use equivalent to the source material or essential substance of a thing.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_fundamentals_principles",
+      "headword_arabic": "أُصُولٌ",
+      "definition": "Fundamentals, foundational articles, principles, elements, or rudiments of a science or doctrine.",
+      "usage_conditions": "Includes the technical expression عِلْمُ الأُصُولِ for the study of fundamental doctrines or principles.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_radical_letter",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "A radical or essential letter of a word, as opposed to an augmentative letter.",
+      "usage_conditions": "Technical grammatical terminology concerning the essential elements of a word.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_original_wordform",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "The original form of a word.",
+      "usage_conditions": "Technical lexicographical and grammatical use.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_primary_signification",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "The original or primary signification of a word.",
+      "usage_conditions": "Technical use distinguishing a basic meaning from a derived or figurative one.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_original_copy",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "An original copy or exemplar of a book, especially a copy from which one quotes or transcribes.",
+      "usage_conditions": "Used of a manuscript or textual source serving as the basis for copying.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_original_state",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "The original, former, or natural state or condition of a thing.",
+      "usage_conditions": "Includes returning to an earlier or natural disposition and legal or customary statements about the default state of things.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_utmost_point",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "The utmost point or degree to which a person or thing can be brought, or the utmost effort one can make.",
+      "usage_conditions": "Occurs in idiomatic expressions involving driving or constraining someone to their limit.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_essence",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "The essence, reality, or ultimate constituent by which a thing is what it is.",
+      "usage_conditions": "An abstract Classical use closely associated with the thing's essential constitution, not merely its physical root.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_prime_core",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "The principal, purest, best, or choicest part of something; its core or prime portion.",
+      "usage_conditions": "May refer to the principal dwelling place of a people or the foremost part of a group or lineage.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_basic_rule",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "A basic or governing principle: what is proper or standard, the default state, the predominant or literal interpretation, what is essential, or a general rule.",
+      "usage_conditions": "A technical abstract use in statements of legal, logical, grammatical, or interpretive principle.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_proof",
+      "headword_arabic": "أَصْلٌ",
+      "definition": "An indication, evidence, or proof for what is indicated, evidenced, or established.",
+      "usage_conditions": "Technical use for a basis that demonstrates or proves a conclusion.",
+      "source_refs": [
+        "lane:entry:6842"
+      ]
+    },
+    {
+      "meaning_id": "cm_asil_extirpating",
+      "headword_arabic": "أَصِلٌ",
+      "definition": "Extirpating, eradicating, or excising thoroughly.",
+      "usage_conditions": "An adjectival or descriptive use applied to removal from the root or to complete excision.",
+      "source_refs": [
+        "lane:entry:6844"
+      ]
+    },
+    {
+      "meaning_id": "cm_asala_serpent",
+      "headword_arabic": "أَصَلَةٌ",
+      "definition": "A highly venomous serpent, described as short or broad and capable of springing upon and killing its victim.",
+      "usage_conditions": "Descriptions vary as to its size and shape; the associated expression أَصَلَتْهُ الأَصَلَةُ describes the serpent springing upon and killing someone.",
+      "source_refs": [
+        "lane:entry:6846",
+        "lane:entry:6837"
+      ]
+    },
+    {
+      "meaning_id": "cm_asala_shortbroad",
+      "headword_arabic": "أَصَلَةٌ",
+      "definition": "Short and broad.",
+      "usage_conditions": "A figurative adjectival application to a man or woman, derived from the description of the serpent.",
+      "source_refs": [
+        "lane:entry:6846"
+      ]
+    },
+    {
+      "meaning_id": "cm_asli_adjective",
+      "headword_arabic": "أَصْلِيٌّ",
+      "definition": "Radical, fundamental, primitive, original, or underived.",
+      "usage_conditions": "Especially used of an essential letter or a primary signification, in contrast with an augmentative or figurative one.",
+      "source_refs": [
+        "lane:entry:6847"
+      ]
+    },
+    {
+      "meaning_id": "cm_asliyya_quality",
+      "headword_arabic": "أَصْلِيَّةٌ",
+      "definition": "Radicalness, originality, or the quality of being fundamental or rooted.",
+      "usage_conditions": "A technical noun used for the quality expressed by أَصْلِيٌّ and also in place of تَأَصُّلٌ.",
+      "source_refs": [
+        "lane:entry:6848"
+      ]
+    },
+    {
+      "meaning_id": "cm_asil_rooted",
+      "headword_arabic": "أَصِيلٌ",
+      "definition": "Firmly rooted, established, stable, permanent, or enduring.",
+      "usage_conditions": "By extension, it describes firm or sound judgment, deeply founded glory, and, in a particular expression, deeply rooted or vehement evil.",
+      "source_refs": [
+        "lane:entry:6849",
+        "lane:entry:6855"
+      ]
+    },
+    {
+      "meaning_id": "cm_asil_noble",
+      "headword_arabic": "أَصِيلٌ",
+      "definition": "Of established lineage or pedigree; noble, generous, or well-born.",
+      "usage_conditions": "A Classical personal epithet referring to a person's rootedness in lineage or distinction.",
+      "source_refs": [
+        "lane:entry:6849"
+      ]
+    },
+    {
+      "meaning_id": "cm_asil_destruction",
+      "headword_arabic": "الأَصِيلُ",
+      "definition": "Destruction or death.",
+      "usage_conditions": "A Classical nominal use recorded as a designation for ruin or death.",
+      "source_refs": [
+        "lane:entry:6849"
+      ]
+    },
+    {
+      "meaning_id": "cm_asila_property",
+      "headword_arabic": "أَصِيلَةٌ",
+      "definition": "A man's whole established property, especially his palm trees, or land long possessed or inherited from his parents.",
+      "usage_conditions": "A regional property term for inherited or longstanding land and assets providing one's livelihood.",
+      "source_refs": [
+        "lane:entry:6850"
+      ]
+    },
+    {
+      "meaning_id": "cm_asila_whole",
+      "headword_arabic": "أَصِيلَةٌ",
+      "definition": "The whole of something or everyone together.",
+      "usage_conditions": "In expressions meaning to take something altogether or for a group to come in its entirety.",
+      "source_refs": [
+        "lane:entry:6850"
+      ]
+    },
+    {
+      "meaning_id": "cm_usuli_specialist",
+      "headword_arabic": "أُصُولِيٌّ",
+      "definition": "A person skilled in the science of fundamentals or principles.",
+      "usage_conditions": "A technical occupational noun derived from أُصُولٌ.",
+      "source_refs": [
+        "lane:entry:6851"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwsil_evening",
+      "headword_arabic": "مُؤْصِلٌ",
+      "definition": "Entering upon the evening period.",
+      "usage_conditions": "A derived participial or descriptive use for arriving as the time called أَصِيل begins.",
+      "source_refs": [
+        "lane:entry:6854"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ASl:6837:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asula_take_root"
+      ],
+      "note": "Form I taking root and becoming established."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6837:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asula_sound"
+      ],
+      "note": "Firmness and intelligence of a person."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6837:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_asula_sound"
+      ],
+      "note": "Soundness of judgment or opinion is grouped with the related Form I soundness use."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6837:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asula_noble"
+      ],
+      "note": "Becoming eminent or honorable."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6837:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asala_strike_root"
+      ],
+      "note": "Striking a root or foundation."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6837:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asala_know"
+      ],
+      "note": "Idiomatic thorough knowledge."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6837:g2:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_asala_serpent"
+      ],
+      "note": "The deadly serpent's springing attack is stated in the serpent entry."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6837:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asila_water_spoil"
+      ],
+      "note": "Spoiling of water or meat."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6837:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asila_commence"
+      ],
+      "note": "Beginning an action."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6838:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_assala_establish"
+      ],
+      "note": "Making a firm foundation."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6838:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_assala_classify"
+      ],
+      "note": "Arranging fundamentals."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6839:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asala_enter_evening"
+      ],
+      "note": "Entering the evening period."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6839:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6840:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6841:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6841:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ist_asala_extirpate"
+      ],
+      "note": "Uprooting, eradication, destruction, and complete removal."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_asl_root_base"
+      ],
+      "note": "Physical lower part, root, bottom, and foundation are covered by the Quranic root/base sense."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_origin_basis",
+        "cm_real_property",
+        "cm_totality",
+        "cm_adverb_at_all"
+      ],
+      "note": "Abstract origin and basis, established property, totality idiom, and adverbial أصلاً."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_material_substance"
+      ],
+      "note": "Original material or substance."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fundamentals_principles"
+      ],
+      "note": "Fundamentals and principles of a science."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_radical_letter"
+      ],
+      "note": "Radical letter."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_original_wordform"
+      ],
+      "note": "Original word form."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_primary_signification"
+      ],
+      "note": "Primary word signification."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_original_copy"
+      ],
+      "note": "Original or source copy of a book."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_original_state"
+      ],
+      "note": "Original or natural state."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_utmost_point"
+      ],
+      "note": "Utmost point or effort."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_essence"
+      ],
+      "note": "Essence or ultimate constituent."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_prime_core"
+      ],
+      "note": "Prime or choicest part."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub13",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_basic_rule"
+      ],
+      "note": "What is proper or fitting."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub14",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_basic_rule"
+      ],
+      "note": "Preponderant or literal interpretation is grouped under basic rule."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub15",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_basic_rule"
+      ],
+      "note": "Essential or requisite principle is grouped under basic rule."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub16",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_basic_rule"
+      ],
+      "note": "Universal or general rule is grouped under basic rule."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6842:g1:sub17",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_proof"
+      ],
+      "note": "Evidence or proof."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6843:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6844:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asil_extirpating"
+      ],
+      "note": "Descriptive use for thorough extirpation or excision."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6845:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural or dialectal cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6846:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6846:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asala_serpent"
+      ],
+      "note": "Deadly serpent meaning."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6846:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asala_shortbroad"
+      ],
+      "note": "Figurative short-and-broad use."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6847:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asli_adjective"
+      ],
+      "note": "Original, fundamental, and radical adjective."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6848:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asliyya_quality"
+      ],
+      "note": "Technical quality of radicalness or originality."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6849:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asil_rooted"
+      ],
+      "note": "Rootedness, stability, and permanence."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6849:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asil_noble"
+      ],
+      "note": "Established lineage and nobility."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6849:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asil_rooted"
+      ],
+      "note": "Firm judgment, founded glory, and deeply rooted or vehement evil."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6849:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6849:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asil_destruction"
+      ],
+      "note": "Destruction or death."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6849:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_asiyl_evening"
+      ],
+      "note": "Evening period, including the Quranic use."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6850:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asila_property"
+      ],
+      "note": "Whole property or palm trees."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6850:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asila_whole"
+      ],
+      "note": "Taking or bringing something altogether."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6850:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_asila_property"
+      ],
+      "note": "Inherited or long-possessed livelihood land is covered by the property meaning."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6850:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6851:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_usuli_specialist"
+      ],
+      "note": "Specialist in the science of fundamentals."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6852:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6853:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6854:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muwsil_evening"
+      ],
+      "note": "Entering the evening period."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6855:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_asil_rooted"
+      ],
+      "note": "A made-firm root or foundation is covered by rootedness and establishment."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6856:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_ist_asala_extirpate"
+      ],
+      "note": "A horn removed from its root is covered by complete removal from the root."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6857:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ASl:6858:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsen_asl_root_base"
+      ],
+      "note": "Pointer to the noun's lower-part and root meaning."
+    }
+  ],
+  "cautions": [
+    "The two QAC groups headed أَصِيل are presented together under the singular citation form أَصِيلٌ: the Quran uses both nominal plural آصال and an adverbial form أَصيلًا for the evening period.",
+    "The Classical rooted, established, noble, and serpent-related uses of أَصِيلٌ/أَصَلَةٌ are kept separate from the Quranic evening sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

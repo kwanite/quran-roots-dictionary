@@ -1,0 +1,143 @@
+{
+  "root": "why",
+  "arabic": "وهي",
+  "root_idea": {
+    "summary": "The root centers on relaxation or loss of firmness in something.",
+    "development": "Its semantic development extends from a slit or rent and a loosened bond to weakness, unsoundness, and frailty.",
+    "source_refs": [
+      "maqayis:row:5242",
+      "mufradat:row:1618"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:why:waAhiyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "why:wahin",
+      "reason": "Displayed under the normalized masculine singular active-participial citation form وَاهٍ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "why:wahin",
+      "form_group_ids": [
+        "qac-form:why:waAhiyap:nominal:-"
+      ],
+      "headword_arabic": "وَاهٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "why:wahin:s1",
+          "definition": "Frail, weakened, or loosened; lacking firmness or structural soundness.",
+          "usage_conditions": "The Quranic occurrence is the feminine form وَاهِيَةٌ, describing the sky as having lost its firmness in the setting of its splitting.",
+          "source_refs": [
+            "lane:entry:30719",
+            "mufradat:row:1618"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "69:16",
+          "word_location": "69:16:5",
+          "sense_ids": [
+            "why:wahin:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "why:cm1",
+      "headword_arabic": "وَهَى",
+      "definition": "To be or become greatly slit, rent, or torn.",
+      "usage_conditions": "A Form I verb describing the development of a slit or rent in something.",
+      "source_refs": [
+        "lane:entry:30718"
+      ]
+    },
+    {
+      "meaning_id": "why:cm2",
+      "headword_arabic": "وَهَى",
+      "definition": "To become lax, flaccid, uncompact, unsound, or weak.",
+      "usage_conditions": "A Form I verb used of a rope or other thing, and figuratively of an affair or case entering a weak or unsound state.",
+      "source_refs": [
+        "lane:entry:30718"
+      ]
+    },
+    {
+      "meaning_id": "why:cm3",
+      "headword_arabic": "وَهَى",
+      "definition": "To fall.",
+      "usage_conditions": "A separately reported use of the Form I verb.",
+      "source_refs": [
+        "lane:entry:30718"
+      ]
+    },
+    {
+      "meaning_id": "why:cm4",
+      "headword_arabic": "الوَهْيُ",
+      "definition": "A slit or rent in leather, cloth, or a similar material.",
+      "usage_conditions": "A nominal lexical use for a break or opening in a flexible material.",
+      "source_refs": [
+        "mufradat:row:1618"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:why:30718:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "why:cm1"
+      ],
+      "note": "Verb meaning of becoming slit or rent."
+    },
+    {
+      "unit_id": "lane-unit:why:30718:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "why:cm2",
+        "why:cm3"
+      ],
+      "note": "Weakening or loosening branch plus the separately reported falling use."
+    },
+    {
+      "unit_id": "lane-unit:why:30718:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "why:cm2"
+      ],
+      "note": "Uncompact, unsound, and weak states are covered by the broader weakening meaning."
+    },
+    {
+      "unit_id": "lane-unit:why:30718:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "why:cm2"
+      ],
+      "note": "Application to an affair or case is covered by the weak or unsound state meaning."
+    },
+    {
+      "unit_id": "lane-unit:why:30719:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "why:wahin:s1"
+      ],
+      "note": "Adjectival branch of laxness, weakness, frailty, and lack of firmness."
+    },
+    {
+      "unit_id": "lane-unit:why:30719:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no additional lexical content."
+    }
+  ],
+  "cautions": [
+    "The public headword is normalized to the masculine singular citation form وَاهٍ; the Quranic occurrence itself is feminine وَاهِيَةٌ. The reported Classical verb meaning “to fall” is not assigned to the Quranic adjective."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

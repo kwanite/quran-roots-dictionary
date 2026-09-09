@@ -1,0 +1,156 @@
+{
+  "root": "*yE",
+  "arabic": "ذيع",
+  "root_idea": {
+    "summary": "The root centers on making something manifest, causing it to become known, and its spreading or becoming widespread.",
+    "development": "The semantic range develops from appearance and disclosure to public dissemination; a related classical extension applies the idea of complete dispersal to consuming all the contents of a watering-trough.",
+    "source_refs": [
+      "maqayis:row:1928"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:*yE:>a*aAEu:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:yE:formIV:adhaaa",
+      "reason": "Displayed under the normalized Form IV perfect citation form أَذَاعَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:yE:formIV:adhaaa",
+      "form_group_ids": [
+        "qac-form:*yE:>a*aAEu:verb:IV"
+      ],
+      "headword_arabic": "أَذَاعَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform:yE:formIV:adhaaa:s1",
+          "definition": "To spread, publish, reveal, disclose, or make known information, news, discourse, or a secret; to proclaim it among people.",
+          "usage_conditions": "A transitive Form IV use, including the construction أَذَاعَ بِهِ, meaning to disseminate or make something public.",
+          "source_refs": [
+            "lane:entry:21902"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:83",
+          "word_location": "4:83:8",
+          "sense_ids": [
+            "qform:yE:formIV:adhaaa:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:yE:formI:becomeWidespread",
+      "headword_arabic": "ذَاعَ",
+      "definition": "To become spread, published, divulged, revealed, or generally known; to become widespread.",
+      "usage_conditions": "Used of information, news, discourse, or things; also of injustice spreading and of mange or scab becoming general in the skin.",
+      "source_refs": [
+        "lane:entry:21901"
+      ]
+    },
+    {
+      "meaning_id": "cm:yE:formIV:consumeTrough",
+      "headword_arabic": "أَذَاعَ",
+      "definition": "To consume completely the contents of a watering-trough or tank by drinking them.",
+      "usage_conditions": "A classical tropical construction used of drinking all that is in the trough or tank.",
+      "source_refs": [
+        "lane:entry:21902"
+      ]
+    },
+    {
+      "meaning_id": "cm:yE:formIV:takeAway",
+      "headword_arabic": "أَذَاعَ بِهِ",
+      "definition": "To take away another person’s property, or to take away anything.",
+      "usage_conditions": "A classical tropical use with بِهِ.",
+      "source_refs": [
+        "lane:entry:21902"
+      ]
+    },
+    {
+      "meaning_id": "cm:yE:derivedNoun:secretBabbler",
+      "headword_arabic": "مِذْيَاعٌ",
+      "definition": "A person who does not keep or conceal a secret, or who is unable to conceal information, news, or tidings; a secret-babbler.",
+      "usage_conditions": "An intensive epithet; its plural is مَذَايِيعُ.",
+      "source_refs": [
+        "lane:entry:21903"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:*yE:21901:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:yE:formI:becomeWidespread"
+      ],
+      "note": "Form I intransitive spreading or becoming known."
+    },
+    {
+      "unit_id": "lane-unit:*yE:21901:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:yE:formI:becomeWidespread"
+      ],
+      "note": "Tropical application of becoming widespread."
+    },
+    {
+      "unit_id": "lane-unit:*yE:21901:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:yE:formI:becomeWidespread"
+      ],
+      "note": "Tropical application of becoming general or widespread."
+    },
+    {
+      "unit_id": "lane-unit:*yE:21902:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:yE:formIV:adhaaa:s1"
+      ],
+      "note": "Form IV transitive disclosure and proclamation, explicitly connected with a Quranic construction."
+    },
+    {
+      "unit_id": "lane-unit:*yE:21902:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:yE:formIV:consumeTrough"
+      ],
+      "note": "Tropical construction for drinking all the contents of a trough."
+    },
+    {
+      "unit_id": "lane-unit:*yE:21902:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:yE:formIV:takeAway"
+      ],
+      "note": "Tropical construction for taking away property or anything."
+    },
+    {
+      "unit_id": "lane-unit:*yE:21902:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Orthographic and grammatical identification of the medial radical."
+    },
+    {
+      "unit_id": "lane-unit:*yE:21903:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:yE:derivedNoun:secretBabbler"
+      ],
+      "note": "Derived noun for a person who divulges secrets."
+    }
+  ],
+  "cautions": [
+    "The Lane Quran citation uses historical printed notation and is not treated as an independently transcribed modern verse location; the example at 4:83 is based on the supplied QAC occurrence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

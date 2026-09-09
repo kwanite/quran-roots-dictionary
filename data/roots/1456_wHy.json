@@ -1,0 +1,215 @@
+{
+  "root": "wHy",
+  "arabic": "وحي",
+  "root_idea": {
+    "summary": "The root centers on conveying knowledge, direction, or a message to another swiftly and often discreetly, whether by sign, speech, writing, or inward prompting.",
+    "development": "The lexical range develops from rapid, hidden indication to signaling, suggestion, inspiration, and divine revelation. A related classical branch preserves the notion of quickness or haste, while the Quranic forms chiefly express revelation and indirect communication.",
+    "source_refs": [
+      "maqayis:row:5051",
+      "mufradat:row:1561"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wHy:>awoHaY`^:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wHy-awha-IV",
+      "reason": "A distinct, Quran-attested Form IV verb with both revelatory and indirect-inspiration usages."
+    },
+    {
+      "form_group_id": "qac-form:wHy:waHoY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wHy-wahy",
+      "reason": "A distinct Quran-attested verbal noun naming revelation or inspired communication."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wHy-awha-IV",
+      "form_group_ids": [
+        "qac-form:wHy:>awoHaY`^:verb:IV"
+      ],
+      "headword_arabic": "أَوْحَى",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 72,
+      "senses": [
+        {
+          "sense_id": "wHy-awha-IV-1",
+          "definition": "To reveal, speak, or make something known to a recipient through revelation.",
+          "usage_conditions": "Used for divine or revelatory communication, often with a recipient introduced by إِلَى. The communication may be direct or mediated by a messenger; active and passive forms express sending and receiving revelation.",
+          "source_refs": [
+            "lane:entry:30404",
+            "mufradat:row:1561"
+          ]
+        },
+        {
+          "sense_id": "wHy-awha-IV-2",
+          "definition": "To communicate swiftly and indirectly: to signal, suggest, whisper, inspire, or put an idea or command into the mind or recipient.",
+          "usage_conditions": "Covers communication by gesture, allusion, writing, or coded expression, as well as inward prompting and inspiration. Quranic applications include signaling, satanic whispering, and prompting or directing a mother, animal, angel, heaven, or earth; the precise channel is context-dependent.",
+          "source_refs": [
+            "lane:entry:30404",
+            "mufradat:row:1561"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:109",
+          "word_location": "10:109:3",
+          "sense_ids": [
+            "wHy-awha-IV-1"
+          ]
+        },
+        {
+          "verse_key": "53:10",
+          "word_location": "53:10:1",
+          "sense_ids": [
+            "wHy-awha-IV-1"
+          ]
+        },
+        {
+          "verse_key": "19:11",
+          "word_location": "19:11:6",
+          "sense_ids": [
+            "wHy-awha-IV-2"
+          ]
+        },
+        {
+          "verse_key": "16:68",
+          "word_location": "16:68:1",
+          "sense_ids": [
+            "wHy-awha-IV-2"
+          ]
+        },
+        {
+          "verse_key": "6:121",
+          "word_location": "6:121:13",
+          "sense_ids": [
+            "wHy-awha-IV-2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wHy-wahy",
+      "form_group_ids": [
+        "qac-form:wHy:waHoY:nominal:-"
+      ],
+      "headword_arabic": "وَحْي",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "wHy-wahy-1",
+          "definition": "Revelation or inspired communication: the divine message or act of conveying guidance to a recipient.",
+          "usage_conditions": "Used for revelation to prophets and for other forms of divine communication, including direct speech, communication through a messenger, and inward inspiration. In the construction إِلَّا وَحْيًا, it denotes revelation as a mode of divine address.",
+          "source_refs": [
+            "mufradat:row:1561"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "42:51",
+          "word_location": "42:51:8",
+          "sense_ids": [
+            "wHy-wahy-1"
+          ]
+        },
+        {
+          "verse_key": "53:4",
+          "word_location": "53:4:4",
+          "sense_ids": [
+            "wHy-wahy-1"
+          ]
+        },
+        {
+          "verse_key": "20:114",
+          "word_location": "20:114:13",
+          "sense_ids": [
+            "wHy-wahy-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wHy-wahiyy-quick",
+      "headword_arabic": "وَحِيٌّ",
+      "definition": "Swift or hasty; applied especially to a swift death.",
+      "usage_conditions": "A distinct lexical item with the headword وَحِيٌّ, not the verbal noun وَحْي meaning revelation.",
+      "source_refs": [
+        "lane:entry:30405"
+      ]
+    },
+    {
+      "meaning_id": "wHy-alwahaa-haste",
+      "headword_arabic": "الوَحَاءَ",
+      "definition": "An imperative expression meaning: “Hasten!” or “Be first, before, or beforehand!”",
+      "usage_conditions": "Fixed exhortatory expression, الوَحَاءَ الوَحَاءَ.",
+      "source_refs": [
+        "lane:entry:30406"
+      ]
+    },
+    {
+      "meaning_id": "wHy-awha-duration",
+      "headword_arabic": "فِي أَوْحَى مُدَّةٍ",
+      "definition": "In the shortest period.",
+      "usage_conditions": "Fixed temporal expression referring to the briefest possible duration.",
+      "source_refs": [
+        "lane:entry:30407"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wHy:30404:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wHy-awha-IV-1"
+      ],
+      "note": "The revelatory and making-known use is represented under the first Form IV sense."
+    },
+    {
+      "unit_id": "lane-unit:wHy:30404:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wHy-awha-IV-2"
+      ],
+      "note": "The suggesting and putting-into-mind use is represented under the second Form IV sense."
+    },
+    {
+      "unit_id": "lane-unit:wHy:30405:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wHy-wahiyy-quick"
+      ],
+      "note": "The distinct quick or hasty lexical item is represented as a Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:wHy:30406:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wHy-alwahaa-haste"
+      ],
+      "note": "The exhortatory expression for haste is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:wHy:30407:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wHy-awha-duration"
+      ],
+      "note": "The fixed expression for the shortest period is represented separately."
+    }
+  ],
+  "cautions": [
+    "The Form IV verb covers both formal revelation and indirect signaling or inspiration; tense, voice, and recipient do not by themselves create additional senses.",
+    "The interpretation of the signaling occurrence in 19:11 allows different channels, including gesture, coded speech, or writing. The lexical sense should therefore not be restricted to one physical mode.",
+    "The indirect-prompting sense may be divine, natural, angelic, or satanic in Quranic contexts; “inspiration” does not always denote prophetic revelation."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

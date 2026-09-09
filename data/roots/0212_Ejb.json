@@ -1,0 +1,813 @@
+{
+  "root": "Ejb",
+  "arabic": "عجب",
+  "root_idea": {
+    "summary": "The root has two principal branches: judging something extraordinary, producing wonder, admiration, or astonishment; and a concrete anatomical sense referring to the base of an animal's tail.",
+    "development": "The evaluative branch develops from treating something as unusually great or extraordinary into verbs of wondering and pleasing, adjectives for what is astonishing, and expressions of self-admiration. A separate concrete branch names the tail-base and, by extension, the narrow rear end of a sand formation.",
+    "source_refs": [
+      "maqayis:row:3141"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Ejb:Eajibu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ejb_ajiba",
+      "reason": "Distinct Quran-attested Form I verb meaning to wonder."
+    },
+    {
+      "form_group_id": "qac-form:Ejb:>aEojaba:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ejb_ajaba",
+      "reason": "Distinct Quran-attested Form IV causative verb meaning to please or impress."
+    },
+    {
+      "form_group_id": "qac-form:Ejb:Eajab:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ejb_ajab",
+      "reason": "Distinct Quran-attested nominal/adjectival form."
+    },
+    {
+      "form_group_id": "qac-form:Ejb:Eajiyb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ejb_ajib",
+      "reason": "Distinct Quran-attested adjective for what is astonishing or unprecedented."
+    },
+    {
+      "form_group_id": "qac-form:Ejb:EujaAb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ejb_ujab",
+      "reason": "Distinct Quran-attested intensive adjective."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_ejb_ajiba",
+      "form_group_ids": [
+        "qac-form:Ejb:Eajibu:verb:I"
+      ],
+      "headword_arabic": "عَجِبَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "sense_ejb_ajiba_wonder",
+          "definition": "To wonder at something; to deem it strange, extraordinary, or improbable.",
+          "usage_conditions": "Used of a person's response to something unfamiliar or difficult to expect. The Quranic contexts include wonder at denial of revelation, resurrection, or other extraordinary claims; wonder may be approving or disapproving according to context.",
+          "source_refs": [
+            "lane:entry:2161",
+            "mufradat:row:947"
+          ]
+        },
+        {
+          "sense_id": "sense_ejb_ajiba_divine",
+          "definition": "In a reported divine attribution or reading, to requite or favor in response to another's wonder, rather than to undergo human wonder.",
+          "usage_conditions": "This tropical theological interpretation is associated particularly with the reported reading and interpretation of 37:12; it is not the ordinary human sense of the verb. Related explanations include divine reward or being well pleased.",
+          "source_refs": [
+            "lane:entry:2161",
+            "mufradat:row:947"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:63",
+          "word_location": "7:63:1",
+          "sense_ids": [
+            "sense_ejb_ajiba_wonder"
+          ]
+        },
+        {
+          "verse_key": "37:12",
+          "word_location": "37:12:2",
+          "sense_ids": [
+            "sense_ejb_ajiba_wonder"
+          ]
+        },
+        {
+          "verse_key": "37:12",
+          "word_location": "37:12:2",
+          "sense_ids": [
+            "sense_ejb_ajiba_divine"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ejb_ajaba",
+      "form_group_ids": [
+        "qac-form:Ejb:>aEojaba:verb:IV"
+      ],
+      "headword_arabic": "أَعْجَبَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "sense_ejb_ajaba_please",
+          "definition": "To please, impress, delight, or excite someone's admiration.",
+          "usage_conditions": "A causative construction in which a thing, person, quality, or event produces admiration or pleasure in an experiencer, commonly expressed with the experiencer as object.",
+          "source_refs": [
+            "lane:entry:2163",
+            "mufradat:row:947"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:204",
+          "word_location": "2:204:4",
+          "sense_ids": [
+            "sense_ejb_ajaba_please"
+          ]
+        },
+        {
+          "verse_key": "48:29",
+          "word_location": "48:29:40",
+          "sense_ids": [
+            "sense_ejb_ajaba_please"
+          ]
+        },
+        {
+          "verse_key": "57:20",
+          "word_location": "57:20:16",
+          "sense_ids": [
+            "sense_ejb_ajaba_please"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ejb_ajab",
+      "form_group_ids": [
+        "qac-form:Ejb:Eajab:nominal:-"
+      ],
+      "headword_arabic": "عَجَبٌ",
+      "public_pos_label": "Noun / Adjective",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "sense_ejb_ajab_wonder",
+          "definition": "A wonder; something extraordinary, astonishing, or unfamiliar.",
+          "usage_conditions": "Used as a noun for a marvel or as an epithet for an event, affair, saying, or thing that elicits wonder. The Quranic usage does not require that the response be favorable.",
+          "source_refs": [
+            "lane:entry:2169",
+            "mufradat:row:947"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:2",
+          "word_location": "10:2:3",
+          "sense_ids": [
+            "sense_ejb_ajab_wonder"
+          ]
+        },
+        {
+          "verse_key": "13:5",
+          "word_location": "13:5:3",
+          "sense_ids": [
+            "sense_ejb_ajab_wonder"
+          ]
+        },
+        {
+          "verse_key": "18:9",
+          "word_location": "18:9:10",
+          "sense_ids": [
+            "sense_ejb_ajab_wonder"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ejb_ajib",
+      "form_group_ids": [
+        "qac-form:Ejb:Eajiyb:nominal:-"
+      ],
+      "headword_arabic": "عَجِيبٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_ejb_ajib_amazing",
+          "definition": "Wonderful, astonishing, or unprecedented.",
+          "usage_conditions": "Applied to something not previously encountered in the same way and therefore regarded as remarkable or difficult to explain.",
+          "source_refs": [
+            "lane:entry:2169",
+            "mufradat:row:947"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:72",
+          "word_location": "11:72:12",
+          "sense_ids": [
+            "sense_ejb_ajib_amazing"
+          ]
+        },
+        {
+          "verse_key": "50:2",
+          "word_location": "50:2:11",
+          "sense_ids": [
+            "sense_ejb_ajib_amazing"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ejb_ujab",
+      "form_group_ids": [
+        "qac-form:Ejb:EujaAb:nominal:-"
+      ],
+      "headword_arabic": "عُجَابٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_ejb_ujab_exceeding",
+          "definition": "Exceedingly astonishing; surpassing the ordinary degree of wondrousness.",
+          "usage_conditions": "An intensive adjective, stronger than عَجِيبٌ in the classical distinction preserved in the lexical evidence.",
+          "source_refs": [
+            "lane:entry:2169",
+            "mufradat:row:947"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "38:5",
+          "word_location": "38:5:8",
+          "sense_ids": [
+            "sense_ejb_ujab_exceeding"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_ejb_love_like",
+      "headword_arabic": "عَجِبَ إِلَيْهِ",
+      "definition": "To love or like someone or something.",
+      "usage_conditions": "A distinct construction with إِلَى, attested as a conventional Classical Arabic usage.",
+      "source_refs": [
+        "lane:entry:2161"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_camel_verb",
+      "headword_arabic": "عَجِبَتْ",
+      "definition": "Of a she-camel, to have the conformation called عَجْبَاءُ.",
+      "usage_conditions": "A specialized zoological usage referring to the animal's hind or tail-base formation.",
+      "source_refs": [
+        "lane:entry:2161"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_form2_cause",
+      "headword_arabic": "عَجَّبَ",
+      "definition": "To cause someone to wonder by means of something.",
+      "usage_conditions": "Form II causative usage, distinct from Form IV and from the intransitive Form I.",
+      "source_refs": [
+        "lane:entry:2162"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_form4_cause",
+      "headword_arabic": "أَعْجَبَ",
+      "definition": "To induce or excite someone to wonder.",
+      "usage_conditions": "The broader causative sense is distinguished from the Quranic usage centered on pleasing, admiration, and delight.",
+      "source_refs": [
+        "lane:entry:2163"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_self_admiration",
+      "headword_arabic": "عُجْبٌ",
+      "definition": "Self-admiration, self-conceit, vanity, or pride.",
+      "usage_conditions": "Includes being pleased with or proud of oneself, one's judgment, or something belonging to oneself; the related expression مُعْجَبٌ بِنَفْسِهِ is used for a self-conceited person.",
+      "source_refs": [
+        "lane:entry:2163",
+        "lane:entry:2167",
+        "lane:entry:2181"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_exclamation",
+      "headword_arabic": "مَا أَعْجَبَهُ",
+      "definition": "How wonderful it is!",
+      "usage_conditions": "A conventional exclamatory expression of wonder.",
+      "source_refs": [
+        "lane:entry:2163"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_form5_self_display",
+      "headword_arabic": "تَعَجَّبَ",
+      "definition": "To display self-admiration or self-regard.",
+      "usage_conditions": "Attested especially of displaying عُجْبٌ in one's gait or manner.",
+      "source_refs": [
+        "lane:entry:2164"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_form5_beguile",
+      "headword_arabic": "تَعَجَّبَنِي",
+      "definition": "To excite desire, attract, beguile, or captivate someone.",
+      "usage_conditions": "A specialized Form V usage said of a man who draws another's inclination or captivates his heart.",
+      "source_refs": [
+        "lane:entry:2164"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_intense_wonder",
+      "headword_arabic": "اِسْتَعْجَبَ",
+      "definition": "To wonder intensely.",
+      "usage_conditions": "The derived form is explained as شدت التعجب, intensification of wondering.",
+      "source_refs": [
+        "maqayis:row:3141"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_tail_base",
+      "headword_arabic": "عَجْبٌ",
+      "definition": "The base or root of an animal's tail, especially the bone at the lower end of the spine.",
+      "usage_conditions": "An anatomical term also used for the tail-base bone between or behind the buttocks.",
+      "source_refs": [
+        "lane:entry:2166",
+        "maqayis:row:3141"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_sand_rear",
+      "headword_arabic": "عَجْبٌ",
+      "definition": "The narrow rear end of a tract, mound, or formation of sand, or of another extended thing.",
+      "usage_conditions": "A tropical extension of the anatomical sense, especially the thin hinder portion of a sand-hill.",
+      "source_refs": [
+        "lane:entry:2166",
+        "maqayis:row:3141"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_womens_company",
+      "headword_arabic": "عُجْبٌ",
+      "definition": "A man who is comfortable in women's company, or with whom women are pleased.",
+      "usage_conditions": "A specialized social description explicitly applied to a man who sits and converses with women without causing suspicion, or who is liked by them.",
+      "source_refs": [
+        "lane:entry:2167"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_epithet",
+      "headword_arabic": "عَجَبٌ",
+      "definition": "Wonderful, admirable, or pleasing as an epithet of a thing, affair, event, or case.",
+      "usage_conditions": "An adjectival use for something that induces wonder, admiration, pleasure, or joy; it may occur in emphatic combinations such as عَجَبٌ عَاجِبٌ.",
+      "source_refs": [
+        "lane:entry:2169",
+        "lane:entry:2176"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_wonders_plural",
+      "headword_arabic": "عَجَبٌ",
+      "definition": "Wonders or wonderful things; by extension, a person who performs wonderful feats.",
+      "usage_conditions": "A substantival use that may have a plural sense; the same branch can refer to a practitioner of legerdemain or anyone who does extraordinary things.",
+      "source_refs": [
+        "lane:entry:2169"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_legerdemain",
+      "headword_arabic": "عَجَبٌ",
+      "definition": "A practitioner of legerdemain or sleight-of-hand.",
+      "usage_conditions": "A specialized extension of the sense of wonderful things to a person who performs them.",
+      "source_refs": [
+        "lane:entry:2169"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_loved",
+      "headword_arabic": "عَجِيبٌ",
+      "definition": "Loved, beloved, or an object of love.",
+      "usage_conditions": "A specialized adjectival use distinct from the Quranic sense of astonishing or unprecedented.",
+      "source_refs": [
+        "lane:entry:2173"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_marvel",
+      "headword_arabic": "عَجِيبَةٌ",
+      "definition": "A wonderful thing, marvel, or thing at which one wonders.",
+      "usage_conditions": "The related forms أُعْجُوبَةٌ and تَعَاجِيبُ are cross-referenced in this lexical branch; the latter is a plural form without an ordinary singular pattern.",
+      "source_refs": [
+        "lane:entry:2174"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_comparative",
+      "headword_arabic": "أَعْجَبُ",
+      "definition": "More or most wonderful, admirable, or pleasing.",
+      "usage_conditions": "A comparative or superlative adjectival form.",
+      "source_refs": [
+        "lane:entry:2177"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_female_remarkable",
+      "headword_arabic": "عَجْبَاءُ",
+      "definition": "A female regarded as remarkable for beauty or for ugliness.",
+      "usage_conditions": "The adjective may describe a female whose appearance provokes wonder in either a favorable or unfavorable direction.",
+      "source_refs": [
+        "lane:entry:2177"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_camel_shape",
+      "headword_arabic": "أَعْجَبُ / عَجْبَاءُ",
+      "definition": "A thick, coarse, or otherwise malformed camel, especially one with a distinctive tail-base or hindquarter conformation.",
+      "usage_conditions": "A specialized zoological usage: the hind or upper tail-base may be narrow with prominent buttocks; the form is characterized as ugly.",
+      "source_refs": [
+        "lane:entry:2177"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_man_wonders",
+      "headword_arabic": "تِعْجَابَةٌ",
+      "definition": "A man endowed with wonders or wonderful qualities.",
+      "usage_conditions": "A specialized descriptive noun for a man characterized by wonderful things.",
+      "source_refs": [
+        "lane:entry:2179"
+      ]
+    },
+    {
+      "meaning_id": "meaning_ejb_inducing_admiration",
+      "headword_arabic": "مُعْجِبٌ",
+      "definition": "Inducing wonder or admiration; very good, beautiful, or pleasing.",
+      "usage_conditions": "An active participial adjective for something that produces admiration or is especially good-looking or excellent.",
+      "source_refs": [
+        "lane:entry:2182"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Ejb:2161:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_ejb_ajiba_wonder"
+      ],
+      "note": "Human wondering and its approving or disapproving varieties are covered."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2161:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_ejb_ajiba_wonder"
+      ],
+      "note": "Common idiom for intense wondering."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2161:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_ejb_ajiba_divine"
+      ],
+      "note": "Quran-linked alternate reading and divine tropical interpretation."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2161:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_ejb_ajiba_divine"
+      ],
+      "note": "Related divine-attribution explanation of favor or contentment."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2161:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_love_like"
+      ],
+      "note": "Distinct إِلَى construction meaning love or liking."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2161:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_camel_verb"
+      ],
+      "note": "Specialized she-camel usage."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2162:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_form2_cause"
+      ],
+      "note": "Form II causative wondering."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2163:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_form4_cause"
+      ],
+      "note": "Broader Form IV causative wonder."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2163:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_ejb_ajaba_please"
+      ],
+      "note": "Form IV admiration, pleasure, and pleasing."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2163:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_self_admiration"
+      ],
+      "note": "Passive construction for self-admiration and conceit."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2163:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_exclamation"
+      ],
+      "note": "Conventional exclamatory construction."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2163:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning_ejb_self_admiration"
+      ],
+      "note": "Anomalous exclamation expressing conceit about one's judgment."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2164:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2164:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_form5_self_display"
+      ],
+      "note": "Self-admiration displayed in gait."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2164:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_form5_beguile"
+      ],
+      "note": "Specialized Form V attraction and beguiling use."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2165:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2166:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2166:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2166:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_tail_base"
+      ],
+      "note": "Anatomical tail-base meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2166:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_sand_rear"
+      ],
+      "note": "Metaphorical sand-formation meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2167:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2167:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_self_admiration"
+      ],
+      "note": "Self-admiration, vanity, and pride."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2167:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_womens_company"
+      ],
+      "note": "Specialized social description."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2167:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2168:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2168:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2169:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_ejb_ajab_wonder"
+      ],
+      "note": "Wonder as a state or response."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2169:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_ejb_ajab_wonder",
+        "meaning_ejb_epithet",
+        "sense_ejb_ajib_amazing",
+        "sense_ejb_ujab_exceeding"
+      ],
+      "note": "Epithet and related degrees of wondrousness."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2169:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_wonders_plural",
+        "meaning_ejb_legerdemain"
+      ],
+      "note": "Plural wonders and wonder-working extension."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2169:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_camel_shape"
+      ],
+      "note": "She-camel quality associated with the tail-base branch."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2170:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2171:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2172:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2172:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2173:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2173:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_loved"
+      ],
+      "note": "Distinct beloved or loved sense."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2174:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_marvel"
+      ],
+      "note": "Wonderful thing or marvel."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2175:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2176:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning_ejb_epithet"
+      ],
+      "note": "Emphatic expression for something exceedingly wonderful or pleasing."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2177:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_comparative"
+      ],
+      "note": "Comparative or superlative adjective."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2177:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_female_remarkable"
+      ],
+      "note": "Female remarkable for beauty or ugliness."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2177:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_camel_shape"
+      ],
+      "note": "Specialized camel conformation."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2178:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the marvel entry."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2179:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_man_wonders"
+      ],
+      "note": "Man endowed with wonders."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2180:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the marvel entry."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2181:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_self_admiration"
+      ],
+      "note": "Self-conceited or vain person."
+    },
+    {
+      "unit_id": "lane-unit:Ejb:2182:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_ejb_inducing_admiration"
+      ],
+      "note": "Active participial adjective for what induces admiration."
+    }
+  ],
+  "cautions": [
+    "The divine-attribution sense of Form I is tied to a reported reading and tropical interpretation of 37:12; it should not be generalized to ordinary human uses of عَجِبَ.",
+    "The Quranic nominal and adjectival forms distinguish ordinary wondrousness from the intensive force of عُجَابٌ; contextual translations may render both with similar English words."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

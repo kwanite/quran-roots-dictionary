@@ -1,0 +1,1429 @@
+{
+  "root": "SbH",
+  "arabic": "صبح",
+  "root_idea": {
+    "summary": "The root centers on reddish coloration and the reddish light of dawn, extending to morning, morning activities, illumination, and brightness or beauty.",
+    "development": "The primary color association is explained as redness; dawn and the lamp are associated with this reddish light, from which meanings connected with morning, morning drink, waking, illumination, and facial brightness develop.",
+    "source_refs": [
+      "maqayis:row:2746",
+      "mufradat:row:812"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:SbH:Sab~aHa:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-SbH-sabbaha",
+      "reason": "Displayed as the normalized Form II verb صَبَّحَ."
+    },
+    {
+      "form_group_id": "qac-form:SbH:>aSobaHa:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-SbH-asbaha",
+      "reason": "Displayed as the normalized Form IV verb أَصْبَحَ."
+    },
+    {
+      "form_group_id": "qac-form:SbH:<iSobaAH:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-SbH-isbah",
+      "reason": "Displayed as the verbal noun إِصْبَاح."
+    },
+    {
+      "form_group_id": "qac-form:SbH:SabaAH:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-SbH-sabah",
+      "reason": "Displayed as the noun صَبَاح."
+    },
+    {
+      "form_group_id": "qac-form:SbH:SuboH:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-SbH-subh",
+      "reason": "Displayed as the noun صُبْح."
+    },
+    {
+      "form_group_id": "qac-form:SbH:SuboH:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form-SbH-subh",
+      "reason": "The tag T occurrence is the same lexical item صُبْح in an adverbial accusative use."
+    },
+    {
+      "form_group_id": "qac-form:SbH:miSobaAH:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-SbH-misbah",
+      "reason": "Displayed as the noun مِصْبَاح, with its Quranic singular and plural uses."
+    },
+    {
+      "form_group_id": "qac-form:SbH:muSobiHiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-SbH-musbih",
+      "reason": "Normalized from the Quran-only plural active participle مُصْبِحِينَ to the citation form مُصْبِح."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-SbH-sabbaha",
+      "form_group_ids": [
+        "qac-form:SbH:Sab~aHa:verb:II"
+      ],
+      "headword_arabic": "صَبَّحَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-SbH-sabbaha-1",
+          "definition": "To come upon or visit someone in the morning; in a hostile context, to attack or seize at daybreak.",
+          "usage_conditions": "Used with a person, people, or place reached in the morning; the hostile sense is a conventional morning-raid use.",
+          "source_refs": [
+            "lane:entry:25234",
+            "lane:entry:25233"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "54:38",
+          "word_location": "54:38:2",
+          "sense_ids": [
+            "sense-SbH-sabbaha-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-SbH-asbaha",
+      "form_group_ids": [
+        "qac-form:SbH:>aSobaHa:verb:IV"
+      ],
+      "headword_arabic": "أَصْبَحَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 28,
+      "senses": [
+        {
+          "sense_id": "sense-SbH-asbaha-1",
+          "definition": "To enter upon the morning, or be present in a state reached by morning.",
+          "usage_conditions": "A temporal use referring to entering or reaching the morning; grammatical tense and person vary across the Quranic occurrences.",
+          "source_refs": [
+            "lane:entry:25235"
+          ]
+        },
+        {
+          "sense_id": "sense-SbH-asbaha-2",
+          "definition": "To become, come to be, or find oneself in a particular state or condition.",
+          "usage_conditions": "A non-attributive or incomplete-verb construction; the following predicate specifies the state, such as victory, grief, ruin, or another resulting condition.",
+          "source_refs": [
+            "lane:entry:25235"
+          ]
+        },
+        {
+          "sense_id": "sense-SbH-asbaha-3",
+          "definition": "To become engaged in or begin doing something.",
+          "usage_conditions": "Frequently followed by an imperfect verb, expressing becoming occupied with, setting about, or commencing an action.",
+          "source_refs": [
+            "lane:entry:25235"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "30:17",
+          "word_location": "30:17:6",
+          "sense_ids": [
+            "sense-SbH-asbaha-1"
+          ]
+        },
+        {
+          "verse_key": "5:30",
+          "word_location": "5:30:7",
+          "sense_ids": [
+            "sense-SbH-asbaha-2"
+          ]
+        },
+        {
+          "verse_key": "28:82",
+          "word_location": "28:82:1",
+          "sense_ids": [
+            "sense-SbH-asbaha-3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-SbH-isbah",
+      "form_group_ids": [
+        "qac-form:SbH:<iSobaAH:nominal:-"
+      ],
+      "headword_arabic": "إِصْبَاح",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-SbH-isbah-1",
+          "definition": "Daybreak or the coming of morning.",
+          "usage_conditions": "A verbal noun of أَصْبَحَ used as a time expression for the onset of dawn.",
+          "source_refs": [
+            "lane:entry:25241"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:96",
+          "word_location": "6:96:2",
+          "sense_ids": [
+            "sense-SbH-isbah-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-SbH-sabah",
+      "form_group_ids": [
+        "qac-form:SbH:SabaAH:nominal:-"
+      ],
+      "headword_arabic": "صَبَاح",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-SbH-sabah-1",
+          "definition": "Morning or forenoon, especially the early part of the day.",
+          "usage_conditions": "May be used as a time expression for the period beginning at dawn and extending into the morning or forenoon.",
+          "source_refs": [
+            "lane:entry:25248",
+            "mufradat:row:812"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:177",
+          "word_location": "37:177:5",
+          "sense_ids": [
+            "sense-SbH-sabah-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-SbH-subh",
+      "form_group_ids": [
+        "qac-form:SbH:SuboH:nominal:-",
+        "qac-form:SbH:SuboH:other:-"
+      ],
+      "headword_arabic": "صُبْح",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "sense-SbH-subh-1",
+          "definition": "Daybreak, dawn, or the beginning of the day.",
+          "usage_conditions": "The noun denotes the onset or first part of daylight and may be used adverbially for the morning or dawn.",
+          "source_refs": [
+            "lane:entry:25241",
+            "mufradat:row:812"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:81",
+          "word_location": "11:81:26",
+          "sense_ids": [
+            "sense-SbH-subh-1"
+          ]
+        },
+        {
+          "verse_key": "81:18",
+          "word_location": "81:18:1",
+          "sense_ids": [
+            "sense-SbH-subh-1"
+          ]
+        },
+        {
+          "verse_key": "100:3",
+          "word_location": "100:3:2",
+          "sense_ids": [
+            "sense-SbH-subh-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-SbH-misbah",
+      "form_group_ids": [
+        "qac-form:SbH:miSobaAH:nominal:-"
+      ],
+      "headword_arabic": "مِصْبَاح",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sense-SbH-misbah-1",
+          "definition": "A lamp, especially its lighted wick or source of illumination.",
+          "usage_conditions": "The Quranic singular refers to a lamp or its illuminating wick; the plural may refer to several lamps.",
+          "source_refs": [
+            "lane:entry:25265",
+            "mufradat:row:812"
+          ]
+        },
+        {
+          "sense_id": "sense-SbH-misbah-2",
+          "definition": "A heavenly lamp or illuminating star; in the plural, the stars or heavenly lights.",
+          "usage_conditions": "Used in the plural for the lights set in the sky, understood as stars or celestial lamps rather than household lamps.",
+          "source_refs": [
+            "lane:entry:25265",
+            "mufradat:row:812"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:35",
+          "word_location": "24:35:9",
+          "sense_ids": [
+            "sense-SbH-misbah-1"
+          ]
+        },
+        {
+          "verse_key": "67:5",
+          "word_location": "67:5:5",
+          "sense_ids": [
+            "sense-SbH-misbah-2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-SbH-musbih",
+      "form_group_ids": [
+        "qac-form:SbH:muSobiHiyn:nominal:-"
+      ],
+      "headword_arabic": "مُصْبِح",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "sense-SbH-musbih-1",
+          "definition": "Entering upon or being present in the morning.",
+          "usage_conditions": "The Quranic form is the masculine plural active participle مُصْبِحِينَ, used adverbially or predicatively for people who are in, or arrive at, the morning.",
+          "source_refs": [
+            "lane:entry:25235",
+            "mufradat:row:812"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:66",
+          "word_location": "15:66:9",
+          "sense_ids": [
+            "sense-SbH-musbih-1"
+          ]
+        },
+        {
+          "verse_key": "37:137",
+          "word_location": "37:137:4",
+          "sense_ids": [
+            "sense-SbH-musbih-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-SbH-sabaha-drink",
+      "headword_arabic": "صَبَحَ",
+      "definition": "To give someone a morning draught, especially of milk or wine; also, to water camels in the morning.",
+      "usage_conditions": "The watering or drinking takes place between daybreak and sunrise.",
+      "source_refs": [
+        "lane:entry:25233"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabaha-satiety",
+      "headword_arabic": "صَبِحَ",
+      "definition": "To be satiated or have one's thirst quenched by a morning draught.",
+      "usage_conditions": "Refers specifically to satisfaction obtained from the morning drink called صَبُوح.",
+      "source_refs": [
+        "lane:entry:25233"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabih-color",
+      "headword_arabic": "صَبِحَ",
+      "definition": "To have hair in which whiteness is naturally mixed with redness.",
+      "usage_conditions": "Applied to hair or its coloration.",
+      "source_refs": [
+        "lane:entry:25233"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabuh-beauty",
+      "headword_arabic": "صَبُحَ",
+      "definition": "To be or become beautiful, comely, elegant, or bright in the face.",
+      "usage_conditions": "The evidence especially associates the quality with the face, without making facial beauty the only possible application.",
+      "source_refs": [
+        "lane:entry:25233"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabbaha-greeting",
+      "headword_arabic": "صَبَّحَ",
+      "definition": "To greet someone with a morning blessing or wish for a good morning.",
+      "usage_conditions": "Used in formulas invoking goodness, happiness, or a pleasant morning for the person addressed.",
+      "source_refs": [
+        "lane:entry:25234"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabbaha-bringwater",
+      "headword_arabic": "صَبَّحَ",
+      "definition": "To travel by night and bring people to water in the morning.",
+      "usage_conditions": "A causative travel construction describing arrival at a water source by morning.",
+      "source_refs": [
+        "lane:entry:25234"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabbaha-truth",
+      "headword_arabic": "صَبَّحَ",
+      "definition": "To declare or tell the truth clearly.",
+      "usage_conditions": "A figurative use meaning to make the truth plain.",
+      "source_refs": [
+        "lane:entry:25234"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-asbaha-awake",
+      "headword_arabic": "أَصْبَحَ",
+      "definition": "To awake or become roused from sleep; figuratively, to become alert from heedlessness.",
+      "usage_conditions": "Includes imperative and proverbial uses urging someone to wake or recognize the proper course.",
+      "source_refs": [
+        "lane:entry:25235"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-asbaha-prayer",
+      "headword_arabic": "أَصْبَحَ",
+      "definition": "To perform the prayer of daybreak.",
+      "usage_conditions": "A specialized religious use in the expression for performing the dawn prayer at its proper time.",
+      "source_refs": [
+        "lane:entry:25235"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-asbaha-gentle",
+      "headword_arabic": "أَصْبَحَ",
+      "definition": "To act gently.",
+      "usage_conditions": "A rare lexical use reported for the Form IV verb.",
+      "source_refs": [
+        "lane:entry:25235"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-isbah-trimlamp",
+      "headword_arabic": "إِصْبَاح",
+      "definition": "To trim or properly prepare a lamp or wick for use.",
+      "usage_conditions": "A specialized verbal use concerning preparation of a lamp or wick.",
+      "source_refs": [
+        "lane:entry:25235"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-tasabbaha-sleep",
+      "headword_arabic": "تَصَبَّحَ",
+      "definition": "To sleep in the morning or early part of the day.",
+      "usage_conditions": "The evidence places the sleep before sunrise or in the early morning; a related use refers to sleeping in the forenoon.",
+      "source_refs": [
+        "lane:entry:25236"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-tasabbaha-eat",
+      "headword_arabic": "تَصَبَّحَ",
+      "definition": "To eat food in the morning.",
+      "usage_conditions": "The food is a morning meal or صُبْحَة.",
+      "source_refs": [
+        "lane:entry:25236"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-yatasabaha-beauty",
+      "headword_arabic": "يَتَصَابَحُ",
+      "definition": "To affect or make a show of being beautiful or comely.",
+      "usage_conditions": "The form is explained as equivalent to affecting beauty.",
+      "source_refs": [
+        "lane:entry:25237"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-istabaha-drink",
+      "headword_arabic": "اِصْطَبَحَ",
+      "definition": "To drink a morning draught.",
+      "usage_conditions": "The drink is the morning beverage called صَبُوح.",
+      "source_refs": [
+        "lane:entry:25238"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-istabaha-light",
+      "headword_arabic": "اِصْطَبَحَ",
+      "definition": "To light or use a lamp, wick, oil, or other material as a means of illumination.",
+      "usage_conditions": "May be used with بِ to express employing something for lighting oneself or others.",
+      "source_refs": [
+        "lane:entry:25238"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subh-truth",
+      "headword_arabic": "صُبْح",
+      "definition": "Truth or a clear, plain matter.",
+      "usage_conditions": "A figurative use of the morning's clarity.",
+      "source_refs": [
+        "lane:entry:25241"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subh-mecca",
+      "headword_arabic": "أُمُّ صُبْح",
+      "definition": "A name for Mecca.",
+      "usage_conditions": "A proper-name usage.",
+      "source_refs": [
+        "lane:entry:25241"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabah-glisten",
+      "headword_arabic": "صَبَح",
+      "definition": "The glistening of iron or another thing.",
+      "usage_conditions": "Refers to a bright or glistening appearance.",
+      "source_refs": [
+        "lane:entry:25243"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabhah-camelwater",
+      "headword_arabic": "صَبْحَة",
+      "definition": "Watering camels in the morning or early part of the day.",
+      "usage_conditions": "The evidence identifies this early watering, before sunrise, as a practice not regarded as wholesome by the Arabs.",
+      "source_refs": [
+        "lane:entry:25244"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subhah-forenoon",
+      "headword_arabic": "صُبْحَة",
+      "definition": "The early forenoon or the period of entering upon morning.",
+      "usage_conditions": "May denote the time after sunrise, or more broadly one's entry into the morning or forenoon.",
+      "source_refs": [
+        "lane:entry:25245"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subhah-sleep",
+      "headword_arabic": "صُبْحَة",
+      "definition": "Sleep taken in the morning or early part of the day.",
+      "usage_conditions": "The evidence also extends the term by some usage to sleep in the forenoon.",
+      "source_refs": [
+        "lane:entry:25245"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subhah-food",
+      "headword_arabic": "صُبْحَة",
+      "definition": "Food eaten in the morning to satisfy or divert hunger.",
+      "usage_conditions": "Refers to morning food before sunrise or in the early part of the day.",
+      "source_refs": [
+        "lane:entry:25245"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subhan-drinker",
+      "headword_arabic": "صَبْحَان",
+      "definition": "A person who has drunk and been satisfied by a morning draught.",
+      "usage_conditions": "The feminine form may describe a she-camel milked in the morning.",
+      "source_refs": [
+        "lane:entry:25246"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subhan-camel",
+      "headword_arabic": "صَبْحَى",
+      "definition": "A she-camel that has been milked in the morning.",
+      "usage_conditions": "A derived feminine designation associated with a morning milking.",
+      "source_refs": [
+        "lane:entry:25246"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabahan-hasten",
+      "headword_arabic": "صَبَحَان",
+      "definition": "A person who hastens to take the morning draught.",
+      "usage_conditions": "Refers to eagerness to drink the beverage taken in the morning.",
+      "source_refs": [
+        "lane:entry:25247"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabah-salutation",
+      "headword_arabic": "صَبَاح",
+      "definition": "A morning salutation or wish for a pleasant morning.",
+      "usage_conditions": "Includes the pre-Islamic greeting عِمْ صَبَاحًا and related formulas.",
+      "source_refs": [
+        "lane:entry:25248"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabah-raid",
+      "headword_arabic": "صَبَاح",
+      "definition": "A morning hostile or predatory incursion; by extension, the day of such an attack.",
+      "usage_conditions": "The expression reflects the customary timing of raids at daybreak.",
+      "source_refs": [
+        "lane:entry:25248"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subah-wick",
+      "headword_arabic": "صُبَاح",
+      "definition": "The flame or lighted wick of a lamp.",
+      "usage_conditions": "A specialized noun for a lamp's lighted element.",
+      "source_refs": [
+        "lane:entry:25249"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabuh-drink",
+      "headword_arabic": "صَبُوح",
+      "definition": "A morning draught or beverage, especially milk or wine, taken before noon.",
+      "usage_conditions": "The term is the opposite of غَبُوق and may refer generally to what is eaten or drunk in the morning; one authority also uses it absolutely for wine.",
+      "source_refs": [
+        "lane:entry:25250"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabuh-quantity",
+      "headword_arabic": "صَبُوح",
+      "definition": "The quantity of milk drawn from a camel at dawn or in the early morning.",
+      "usage_conditions": "A measure or amount associated with the morning milking.",
+      "source_refs": [
+        "lane:entry:25250"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabuh-camel",
+      "headword_arabic": "صَبُوح",
+      "definition": "A she-camel milked at dawn or in the morning.",
+      "usage_conditions": "A specialized animal designation derived from the time of milking.",
+      "source_refs": [
+        "lane:entry:25250"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabih-beautiful",
+      "headword_arabic": "صَبِيح",
+      "definition": "Beautiful, comely, pretty, elegant, or bright in the face.",
+      "usage_conditions": "The evidence especially associates this adjective with the face or facial brightness.",
+      "source_refs": [
+        "lane:entry:25251"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabah-beauty",
+      "headword_arabic": "صَبَاحَة",
+      "definition": "Beauty, comeliness, elegance, or brightness of the face.",
+      "usage_conditions": "A quality principally located in the face, distinguished in the cited lexical account from other aspects of beauty.",
+      "source_refs": [
+        "lane:entry:25252"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subahi-redblood",
+      "headword_arabic": "صُبَاحِيّ",
+      "definition": "Intensely red blood.",
+      "usage_conditions": "A specialized color adjective derived from the redness associated with the root.",
+      "source_refs": [
+        "lane:entry:25254"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-subahi-spear",
+      "headword_arabic": "صُبَاحِيّ",
+      "definition": "An adjective applied to a wide spearhead.",
+      "usage_conditions": "Used in the expression for wide spearheads; the lexical motivation is uncertain in the cited evidence.",
+      "source_refs": [
+        "lane:entry:25254"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabih-active",
+      "headword_arabic": "صَابِح",
+      "definition": "One who gives a morning draught or waters camels in the morning.",
+      "usage_conditions": "An active participle of the Form I morning-drink or morning-watering use.",
+      "source_refs": [
+        "lane:entry:25256"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabih-raid",
+      "headword_arabic": "صَابِح",
+      "definition": "One who makes a hostile or predatory incursion in the morning.",
+      "usage_conditions": "A figurative extension from giving a morning draught to making a morning attack.",
+      "source_refs": [
+        "lane:entry:25256"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabih-truth",
+      "headword_arabic": "صَابِح",
+      "definition": "Plain, manifest, or clear truth.",
+      "usage_conditions": "Used in the expression for truth that is clear or openly apparent.",
+      "source_refs": [
+        "lane:entry:25256"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-asbah-color",
+      "headword_arabic": "أَصْبَح",
+      "definition": "Black with redness intermixed, or hair or a beard overspread with a reddish hue; also an epithet for a lion.",
+      "usage_conditions": "The color description applies to people, lions, and hair; the lion designation is an associated lexical use.",
+      "source_refs": [
+        "lane:entry:25257"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-sabha-forehead",
+      "headword_arabic": "صَبْحَاء",
+      "definition": "A woman conspicuous, clear, or fair in the forehead.",
+      "usage_conditions": "A feminine color or appearance adjective referring specifically to the forehead.",
+      "source_refs": [
+        "lane:entry:25257"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-asbahi-whip",
+      "headword_arabic": "أَصْبَحِيّ",
+      "definition": "A whip associated with Dhu Asbah of Himyar.",
+      "usage_conditions": "A relational adjective referring to the named Yemeni king.",
+      "source_refs": [
+        "lane:entry:25258"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-asbahi-spear",
+      "headword_arabic": "أَصْبَحِيّ",
+      "definition": "An adjective applied to certain wide spearheads.",
+      "usage_conditions": "Used in the expression for wide spearheads; the exact motivation is reported as uncertain.",
+      "source_refs": [
+        "lane:entry:25258"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-isbah-darkness",
+      "headword_arabic": "إِصْبَاح",
+      "definition": "Darkness, according to a reported contrary use.",
+      "usage_conditions": "This is an attributed secondary usage contrasted with the primary morning meaning.",
+      "source_refs": [
+        "lane:entry:25259"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-isbah-redhair",
+      "headword_arabic": "إِصْبَاح",
+      "definition": "Redness of the hair, according to a reported usage.",
+      "usage_conditions": "An attributed color use related to the root's association with redness.",
+      "source_refs": [
+        "lane:entry:25259"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-tasbih-meal",
+      "headword_arabic": "تَصْبِيح",
+      "definition": "A morning meal eaten between daybreak and sunrise.",
+      "usage_conditions": "A substantive use of the Form II verbal noun; its plural is used for morning meals served to guests.",
+      "source_refs": [
+        "lane:entry:25261"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-masbah-place",
+      "headword_arabic": "مَصْبَح",
+      "definition": "The place or time of entering upon the morning.",
+      "usage_conditions": "The noun may denote the morning time, its onset, or the place associated with entering it.",
+      "source_refs": [
+        "lane:entry:25262"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-misbah-vessel",
+      "headword_arabic": "مِصْبَاح",
+      "definition": "A large drinking vessel used for a morning draught.",
+      "usage_conditions": "A specialized nominal use distinct from the lamp meaning.",
+      "source_refs": [
+        "lane:entry:25265"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-misbah-camel",
+      "headword_arabic": "مِصْبَاح",
+      "definition": "A she-camel that remains lying in the morning and does not go out to pasture until the sun is high.",
+      "usage_conditions": "The described condition is attributed to strength and fatness and is regarded as an approved quality.",
+      "source_refs": [
+        "lane:entry:25265"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-misbah-spear",
+      "headword_arabic": "مِصْبَاح",
+      "definition": "A wide spearhead.",
+      "usage_conditions": "A specialized object noun also reported for the related plural expression.",
+      "source_refs": [
+        "lane:entry:25265"
+      ]
+    },
+    {
+      "meaning_id": "cm-SbH-mustabih-drinker",
+      "headword_arabic": "مُصْطَبِح",
+      "definition": "One who drinks a morning draught.",
+      "usage_conditions": "The active participle refers to drinking the beverage called صَبُوح.",
+      "source_refs": [
+        "lane:entry:25266"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:SbH:25233:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabaha-drink"
+      ],
+      "note": "Morning drinking and watering are represented as the Form I morning-draught use."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25233:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-SbH-sabbaha-1"
+      ],
+      "note": "The morning-raid use is included in the Quranic Form II construction."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25233:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "A disputed attribution explicitly treated as a misassignment by the editor."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25233:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25233:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabaha-satiety"
+      ],
+      "note": "Satiety from a morning draught is represented."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25233:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabih-color"
+      ],
+      "note": "The hair-color meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25233:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabuh-beauty"
+      ],
+      "note": "Beauty or facial brightness is represented."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25234:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-SbH-sabbaha-1"
+      ],
+      "note": "Coming to someone in the morning is represented under the Quranic Form II sense."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25234:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabbaha-greeting"
+      ],
+      "note": "Morning blessing formula."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25234:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-SbH-sabbaha-greeting"
+      ],
+      "note": "Saying the morning greeting is covered by the broader greeting meaning."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25234:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25234:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabbaha-bringwater"
+      ],
+      "note": "Night travel bringing people to water by morning."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25234:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabbaha-truth"
+      ],
+      "note": "Figurative declaration of truth."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25234:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the substantive verbal noun entry."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-SbH-asbaha-1"
+      ],
+      "note": "Entering upon morning."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-asbaha-awake"
+      ],
+      "note": "Awakening and becoming alert."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense-SbH-asbaha-2"
+      ],
+      "note": "The incomplete-verb state construction is covered by the become sense."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-SbH-asbaha-2",
+        "sense-SbH-asbaha-3"
+      ],
+      "note": "The unit contains the Quran-attested become and begin constructions."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-asbaha-prayer"
+      ],
+      "note": "Dawn-prayer use."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-asbaha-gentle"
+      ],
+      "note": "Rare meaning to act gently."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-isbah-trimlamp"
+      ],
+      "note": "Preparing or trimming a lamp or wick."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25235:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the صُبْح entry."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25236:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-tasabbaha-sleep"
+      ],
+      "note": "Sleeping in the morning."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25236:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-tasabbaha-eat"
+      ],
+      "note": "Eating morning food."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25236:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25237:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-yatasabaha-beauty"
+      ],
+      "note": "Affecting beauty."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25238:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-istabaha-drink"
+      ],
+      "note": "Drinking a morning draught."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25238:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-istabaha-light"
+      ],
+      "note": "Using a lamp or material for illumination."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25239:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding lighting discussion."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25240:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25241:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-SbH-subh-1"
+      ],
+      "note": "Dawn or beginning of day."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25241:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subh-truth"
+      ],
+      "note": "Figurative truth or clarity."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25241:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subh-mecca"
+      ],
+      "note": "Proper-name use for Mecca."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25242:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only pronunciation or variant cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25243:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25243:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabah-glisten"
+      ],
+      "note": "Glistening of iron or other things."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25244:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25244:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabhah-camelwater"
+      ],
+      "note": "Morning watering of camels."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25245:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subhah-forenoon"
+      ],
+      "note": "Early forenoon or entry into morning."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25245:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subhah-sleep"
+      ],
+      "note": "Morning sleep."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25245:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subhah-food"
+      ],
+      "note": "Morning food."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25245:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25245:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabih-color"
+      ],
+      "note": "Red, reddish, or pale-mixed hair coloration."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25246:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subhan-drinker"
+      ],
+      "note": "Person satisfied by a morning draught."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25246:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subhan-camel"
+      ],
+      "note": "Feminine camel designation."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25246:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25247:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabahan-hasten"
+      ],
+      "note": "Person hastening to take the morning draught."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25248:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to صُبْح."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25248:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-SbH-sabah-1",
+        "cm-SbH-sabah-salutation"
+      ],
+      "note": "Morning or forenoon and morning-salutation uses."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25248:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabah-raid"
+      ],
+      "note": "Morning raid and the day of the raid."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25249:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subah-wick"
+      ],
+      "note": "Lighted wick or lamp flame."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25249:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Synonymic pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25250:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabuh-drink"
+      ],
+      "note": "Morning draught or beverage."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25250:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25250:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-SbH-sabuh-drink"
+      ],
+      "note": "Absolute wine use is included as an attributed specialization of the morning beverage term."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25250:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabuh-quantity"
+      ],
+      "note": "Quantity of milk drawn at dawn."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25250:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabuh-camel"
+      ],
+      "note": "She-camel milked in the morning."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25251:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabih-beautiful"
+      ],
+      "note": "Beauty or brightness of face."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25252:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabah-beauty"
+      ],
+      "note": "Beauty or brightness, especially in the face."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25253:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25254:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subahi-redblood"
+      ],
+      "note": "Intensely red blood."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25254:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-subahi-spear"
+      ],
+      "note": "Wide spearheads."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25255:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25256:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabih-active"
+      ],
+      "note": "Active-participle morning watering or drinking."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25256:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabih-raid"
+      ],
+      "note": "Morning hostile incursion."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25256:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabih-truth"
+      ],
+      "note": "Clear or manifest truth."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25257:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-asbah-color"
+      ],
+      "note": "Reddish-black coloration and lion epithet."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25257:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-sabha-forehead"
+      ],
+      "note": "Feminine adjective for a clear or fair forehead."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25258:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-asbahi-whip"
+      ],
+      "note": "Whip associated with Dhu Asbah."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25259:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25259:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-isbah-darkness",
+        "cm-SbH-isbah-redhair"
+      ],
+      "note": "Two attributed secondary uses: darkness and hair redness."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25260:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25261:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-tasbih-meal"
+      ],
+      "note": "Morning meal."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25262:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-masbah-place"
+      ],
+      "note": "Place or time of entering morning."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25263:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25264:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25265:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-SbH-misbah-1",
+        "sense-SbH-misbah-2"
+      ],
+      "note": "Lamp and heavenly-lights meanings."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25265:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-misbah-vessel"
+      ],
+      "note": "Large drinking vessel."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25265:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-misbah-camel"
+      ],
+      "note": "She-camel remaining in the morning place."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25265:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-misbah-spear"
+      ],
+      "note": "Wide spearhead."
+    },
+    {
+      "unit_id": "lane-unit:SbH:25266:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SbH-mustabih-drinker"
+      ],
+      "note": "One who drinks a morning draught."
+    }
+  ],
+  "cautions": [
+    "أَصْبَحَ has both a temporal morning use and a copular or resultative use meaning “became”; the surrounding construction determines the sense.",
+    "مِصْبَاحٌ is a lamp in singular contexts, while its Quranic plural مَصَابِيحُ can denote heavenly lights or stars.",
+    "Lane includes several rare, attributed, or specialized Classical uses; these are kept separate from Quran-attested meanings rather than generalized into them."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

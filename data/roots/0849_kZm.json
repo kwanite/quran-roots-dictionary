@@ -1,0 +1,254 @@
+{
+  "root": "kZm",
+  "arabic": "كظم",
+  "root_idea": {
+    "summary": "The root centers on holding, gathering, or containing something so that it is not released, especially breath or emotion.",
+    "development": "This principle extends from containing wrath, grief, or breath to silence, withholding a camel's cud, closing a filled waterskin, retaining water in conduits, and joining or fastening parts.",
+    "source_refs": [
+      "maqayis:row:4001",
+      "mufradat:row:1252"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kZm:kaZiym:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "q-kazim",
+      "reason": "Displayed under the normalized adjective كَظِيم."
+    },
+    {
+      "form_group_id": "qac-form:kZm:ka`Zimiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "q-kaazim",
+      "reason": "Displayed under the singular active-participle citation form كَاظِم; the supplied Quran form is its plural."
+    },
+    {
+      "form_group_id": "qac-form:kZm:makoZuwm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "q-makzum",
+      "reason": "Displayed under the passive-participle citation form مَكْظُوم."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "q-kazim",
+      "form_group_ids": [
+        "qac-form:kZm:kaZiym:nominal:-"
+      ],
+      "headword_arabic": "كَظِيم",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "q-kazim-s1",
+          "definition": "Inwardly grief-laden, with emotion or grief held in rather than openly expressed.",
+          "usage_conditions": "Used adjectivally of a person experiencing intense inward sorrow or distress; the sense combines containment of emotion with its resulting grief-stricken state.",
+          "source_refs": [
+            "mufradat:row:1252"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:84",
+          "word_location": "12:84:12",
+          "sense_ids": [
+            "q-kazim-s1"
+          ]
+        },
+        {
+          "verse_key": "16:58",
+          "word_location": "16:58:9",
+          "sense_ids": [
+            "q-kazim-s1"
+          ]
+        },
+        {
+          "verse_key": "43:17",
+          "word_location": "43:17:12",
+          "sense_ids": [
+            "q-kazim-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "q-kaazim",
+      "form_group_ids": [
+        "qac-form:kZm:ka`Zimiyn:nominal:-"
+      ],
+      "headword_arabic": "كَاظِم",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "q-kaazim-s1",
+          "definition": "One who restrains or suppresses intense emotion, especially anger.",
+          "usage_conditions": "The Quranic plural form كَاظِمِينَ is used for people holding anger or anguish in; the construction does not require that the emotion be outwardly displayed.",
+          "source_refs": [
+            "lane:entry:32876",
+            "mufradat:row:1252"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:134",
+          "word_location": "3:134:6",
+          "sense_ids": [
+            "q-kaazim-s1"
+          ]
+        },
+        {
+          "verse_key": "40:18",
+          "word_location": "40:18:8",
+          "sense_ids": [
+            "q-kaazim-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "q-makzum",
+      "form_group_ids": [
+        "qac-form:kZm:makoZuwm:nominal:-"
+      ],
+      "headword_arabic": "مَكْظُوم",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q-makzum-s1",
+          "definition": "Constrained by emotion or breath held in; inwardly stifled and distressed.",
+          "usage_conditions": "A passive state in which grief or anguish is contained within, rather than released; attested in the Quranic description of the anguished speaker.",
+          "source_refs": [
+            "mufradat:row:1252"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "68:48",
+          "word_location": "68:48:11",
+          "sense_ids": [
+            "q-makzum-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-kuzum-silence",
+      "headword_arabic": "كُظُوم",
+      "definition": "Holding one's breath; by extension, remaining silent or refraining from speech.",
+      "usage_conditions": "The silence sense is an expressive extension of breath being held in.",
+      "source_refs": [
+        "mufradat:row:1252"
+      ]
+    },
+    {
+      "meaning_id": "cm-kazm-camel",
+      "headword_arabic": "كَظَمَ الْبَعِيرُ",
+      "definition": "Of a camel, to cease regurgitating or ruminating its cud.",
+      "usage_conditions": "A specialized usage concerning the camel's retention or cessation of its cud.",
+      "source_refs": [
+        "mufradat:row:1252"
+      ]
+    },
+    {
+      "meaning_id": "cm-kazm-waterskin",
+      "headword_arabic": "كَظَمَ السِّقَاءَ",
+      "definition": "To close or tie a filled waterskin, preventing what it contains from escaping.",
+      "usage_conditions": "A transitive construction applied to a waterskin after it has been filled.",
+      "source_refs": [
+        "mufradat:row:1252"
+      ]
+    },
+    {
+      "meaning_id": "cm-kazm-breath-outlet",
+      "headword_arabic": "كَظْم",
+      "definition": "The outlet or passage through which breath exits.",
+      "usage_conditions": "The noun is used in expressions referring to seizing or obstructing a person's breath passage.",
+      "source_refs": [
+        "mufradat:row:1252"
+      ]
+    },
+    {
+      "meaning_id": "cm-kazaim-water-conduits",
+      "headword_arabic": "كَظَائِم",
+      "definition": "Subterranean conduits or excavated channels carrying water from one well to another.",
+      "usage_conditions": "Plural of كِظَامَة in this technical water-management usage.",
+      "source_refs": [
+        "lane:entry:32877",
+        "mufradat:row:1252"
+      ]
+    },
+    {
+      "meaning_id": "cm-kizama-balance",
+      "headword_arabic": "كِظَامَة",
+      "definition": "A ring joining the threads at the end of an iron balance beam.",
+      "usage_conditions": "A technical fastening term for the part that gathers and holds the balance threads together.",
+      "source_refs": [
+        "mufradat:row:1252"
+      ]
+    },
+    {
+      "meaning_id": "cm-kizama-bow",
+      "headword_arabic": "كِظَامَة",
+      "definition": "A strap attached to the string of an Arab bow and looped around the upper end of its bow limb.",
+      "usage_conditions": "A technical bow-making term for a connecting or retaining strap.",
+      "source_refs": [
+        "mufradat:row:1252"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kZm:32876:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q-kaazim-s1"
+      ],
+      "note": "Repressing or restraining wrath is represented by the Quranic active-participle sense."
+    },
+    {
+      "unit_id": "lane-unit:kZm:32876:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "q-kaazim-s1"
+      ],
+      "note": "Self-restraint is covered by the broader sense of holding intense emotion in."
+    },
+    {
+      "unit_id": "lane-unit:kZm:32876:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "An illustrative idiom followed only by a cross-reference, without an independent definition in the supplied unit."
+    },
+    {
+      "unit_id": "lane-unit:kZm:32876:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "q-kaazim-s1"
+      ],
+      "note": "Restraining one's wrath is the same lexical branch as the represented Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:kZm:32877:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kazaim-water-conduits"
+      ],
+      "note": "The technical meaning of subterranean water conduits is represented separately."
+    }
+  ],
+  "cautions": [
+    "كَظِيم and مَكْظُوم combine the idea of inward containment with its emotional result, so translations may alternate between suppressing emotion, being grief-laden, and being distressed.",
+    "The Quranic form كَاظِمِينَ is presented under the singular dictionary citation form كَاظِم."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

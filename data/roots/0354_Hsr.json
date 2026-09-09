@@ -1,0 +1,773 @@
+{
+  "root": "Hsr",
+  "arabic": "حسر",
+  "root_idea": {
+    "summary": "The root centers on uncovering or removing what covers something.",
+    "development": "From uncovering and exposure, the lexical range extends to bare or cleared states, depletion and exhaustion, and grief or regret over something that has escaped.",
+    "source_refs": [
+      "maqayis:row:1357",
+      "lane:entry:14440",
+      "mufradat:row:323"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hsr:yasotaHosiru:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:Hsr:istahsara",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Hsr:Hasiyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:Hsr:hasir",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Hsr:Hasorap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:Hsr:hasra",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Hsr:Hasorat:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form:Hsr:hasra",
+      "reason": "Inflectional and vocative variant of حَسْرَة, appearing in يا حسرتنا."
+    },
+    {
+      "form_group_id": "qac-form:Hsr:HasorataY`:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form:Hsr:hasra",
+      "reason": "Vocative variant of حَسْرَة, appearing in يا حسرتى."
+    },
+    {
+      "form_group_id": "qac-form:Hsr:m~aHosuwr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:Hsr:mahsur",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:Hsr:istahsara",
+      "form_group_ids": [
+        "qac-form:Hsr:yasotaHosiru:verb:X"
+      ],
+      "headword_arabic": "اِسْتَحْسَرَ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:Hsr:istahsara:1",
+          "definition": "To become weary or exhausted through exertion.",
+          "usage_conditions": "In the Quranic occurrence, Form X appears under negation and describes not becoming weary in sustained worship; the derived form gives an intensified sense of ordinary weariness.",
+          "source_refs": [
+            "lane:entry:14440",
+            "mufradat:row:323"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:19",
+          "word_location": "21:19:13",
+          "sense_ids": [
+            "sense:Hsr:istahsara:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:Hsr:hasir",
+      "form_group_ids": [
+        "qac-form:Hsr:Hasiyr:nominal:-"
+      ],
+      "headword_arabic": "حَسِير",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:Hsr:hasir:1",
+          "definition": "Of the sight: exhausted, failing, or unable to achieve its object after prolonged looking.",
+          "usage_conditions": "In 67:4, the returning sight is described as حَسِير. The form permits an active interpretation, “failing,” and a passive interpretation, “made weary.”",
+          "source_refs": [
+            "lane:entry:14449",
+            "mufradat:row:323"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "67:4",
+          "word_location": "67:4:10",
+          "sense_ids": [
+            "sense:Hsr:hasir:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:Hsr:hasra",
+      "form_group_ids": [
+        "qac-form:Hsr:Hasorap:nominal:-",
+        "qac-form:Hsr:Hasorat:nominal:-",
+        "qac-form:Hsr:HasorataY`:nominal:-"
+      ],
+      "headword_arabic": "حَسْرَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "sense:Hsr:hasra:1",
+          "definition": "Intense grief or regret over something missed, lost, or that has escaped one; lamentation over that loss.",
+          "usage_conditions": "The form occurs in singular and plural, and in vocative constructions such as يا حسرة, يا حسرتنا, and يا حسرتى. These grammatical and rhetorical variants retain the same lexical meaning.",
+          "source_refs": [
+            "lane:entry:14447",
+            "mufradat:row:323"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:167",
+          "word_location": "2:167:17",
+          "sense_ids": [
+            "sense:Hsr:hasra:1"
+          ]
+        },
+        {
+          "verse_key": "3:156",
+          "word_location": "3:156:27",
+          "sense_ids": [
+            "sense:Hsr:hasra:1"
+          ]
+        },
+        {
+          "verse_key": "6:31",
+          "word_location": "6:31:13",
+          "sense_ids": [
+            "sense:Hsr:hasra:1"
+          ]
+        },
+        {
+          "verse_key": "39:56",
+          "word_location": "39:56:4",
+          "sense_ids": [
+            "sense:Hsr:hasra:1"
+          ]
+        },
+        {
+          "verse_key": "36:30",
+          "word_location": "36:30:1",
+          "sense_ids": [
+            "sense:Hsr:hasra:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:Hsr:mahsur",
+      "form_group_ids": [
+        "qac-form:Hsr:m~aHosuwr:nominal:-"
+      ],
+      "headword_arabic": "مَحْسُور",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:Hsr:mahsur:1",
+          "definition": "Left exhausted of one's resources, with nothing remaining in one's possession; insolvent.",
+          "usage_conditions": "In 17:29, it describes a person who has spent so excessively that nothing remains.",
+          "source_refs": [
+            "lane:entry:14455",
+            "mufradat:row:323"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:29",
+          "word_location": "17:29:13",
+          "sense_ids": [
+            "sense:Hsr:mahsur:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Hsr:uncover",
+      "headword_arabic": "حَسَرَ",
+      "definition": "To uncover, remove, take off, or strip away something that covers another thing.",
+      "usage_conditions": "Used of removing coverings, clothing, or other concealing objects; the construction may use عن to mark what is uncovered from.",
+      "source_refs": [
+        "lane:entry:14440"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hsr:peel",
+      "headword_arabic": "حَسَرَ",
+      "definition": "To peel a branch or remove its outer covering.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:14440"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hsr:sweep",
+      "headword_arabic": "حَسَرَ",
+      "definition": "To sweep a house or chamber.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:14440"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hsr:deplete-by-begging",
+      "headword_arabic": "حَسَرَهُ",
+      "definition": "To exhaust someone's possessions by begging until nothing remains in his possession.",
+      "usage_conditions": "A causative object construction describing depletion through repeated asking and giving.",
+      "source_refs": [
+        "lane:entry:14440"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hsr:fatigue",
+      "headword_arabic": "حَسَرَ",
+      "definition": "To tire, fatigue, or jade a person or beast; to drive a camel until it is exhausted.",
+      "usage_conditions": "The classical usage especially describes fatigue caused by travel or exertion.",
+      "source_refs": [
+        "lane:entry:14440"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hsr:sight-fail",
+      "headword_arabic": "حَسَرَ",
+      "definition": "Of the sight or eye, to become dim, dull, failing, or weary through prolonged looking.",
+      "usage_conditions": "The construction describes visual powers weakened by the length of the space observed or by long looking.",
+      "source_refs": [
+        "lane:entry:14440"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hsr:water-recede",
+      "headword_arabic": "حَسَرَ",
+      "definition": "Of water, the sea, or a great river, to sink, recede, or withdraw so that what was beneath it becomes exposed.",
+      "usage_conditions": "Used of water withdrawing from a shore or place; this is a specialized intransitive usage.",
+      "source_refs": [
+        "lane:entry:14440"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hsr:grieve-loss",
+      "headword_arabic": "حَسِرَ عَلَيْهِ",
+      "definition": "To grieve for or regret intensely a thing that has escaped one.",
+      "usage_conditions": "The prepositional construction عَلَيْهِ marks the object of grief or regret.",
+      "source_refs": [
+        "lane:entry:14440"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hssr:annoy-drive-away",
+      "headword_arabic": "حَسَّرَ",
+      "definition": "To despise, annoy, vex, or drive another away.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:14441"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hssr:induce-regret",
+      "headword_arabic": "حَسَّرَ",
+      "definition": "To cause another to experience grief or regret, especially intensely, over something lost.",
+      "usage_conditions": "A causative construction derived from the branch of grief and regret.",
+      "source_refs": [
+        "lane:entry:14441"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hssr:moult",
+      "headword_arabic": "حَسَّرَ",
+      "definition": "Of birds, to moult or shed feathers.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:14441"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ahsr:party-fatigue",
+      "headword_arabic": "أَحْسَرَ",
+      "definition": "Of a people or party, to experience fatigue.",
+      "usage_conditions": "An intransitive usage referring to a group becoming weary.",
+      "source_refs": [
+        "lane:entry:14442"
+      ]
+    },
+    {
+      "meaning_id": "cm:Tahssr:shed-covering",
+      "headword_arabic": "تَحَسَّرَ",
+      "definition": "For plumage, fur, or soft hair to fall off.",
+      "usage_conditions": "Used of feathers, a camel's soft hair, or similar bodily covering falling away.",
+      "source_refs": [
+        "lane:entry:14443"
+      ]
+    },
+    {
+      "meaning_id": "cm:Tahssr:uncover-self",
+      "headword_arabic": "تَحَسَّرَ",
+      "definition": "To uncover oneself or sit with the head or face uncovered.",
+      "usage_conditions": "A reflexive or intransitive construction concerning removal of one's own covering.",
+      "source_refs": [
+        "lane:entry:14443"
+      ]
+    },
+    {
+      "meaning_id": "cm:InHsr:uncover-clear",
+      "headword_arabic": "اِنْحَسَرَ",
+      "definition": "To become uncovered or stripped of what covered it; of darkness, to clear away.",
+      "usage_conditions": "The intransitive form describes a covering, including darkness, withdrawing or disappearing.",
+      "source_refs": [
+        "lane:entry:14444"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hasir:weary-beast",
+      "headword_arabic": "حَسِير",
+      "definition": "Tired, fatigued, jaded, or emaciated through travel or overexertion, especially of a beast or camel.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:14449"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hasir:intense-grief",
+      "headword_arabic": "حَسِير",
+      "definition": "Grieving or regretting most intensely over something that has escaped one.",
+      "usage_conditions": "An adjectival description of a person experiencing extreme grief or regret.",
+      "source_refs": [
+        "lane:entry:14449"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hasir:uncovered",
+      "headword_arabic": "حَاسِر",
+      "definition": "Uncovered or bare, lacking a helmet, coat of mail, turban, or other defensive or head covering.",
+      "usage_conditions": "Applied to an uncovered person; in the plural, it can describe foot-soldiers without armor and, in an idiom, walls without ornamental crestings.",
+      "source_refs": [
+        "lane:entry:14450"
+      ]
+    },
+    {
+      "meaning_id": "cm:Mahsar:inner-character",
+      "headword_arabic": "مَحْسَر",
+      "definition": "A person's inner or intrinsic character, natural disposition, or quality as revealed by examination; in one usage, the countenance.",
+      "usage_conditions": "The expression كريم المحسر describes someone whose inner character proves noble when examined.",
+      "source_refs": [
+        "lane:entry:14451"
+      ]
+    },
+    {
+      "meaning_id": "cm:Mahsir:face-exposed",
+      "headword_arabic": "مَحْسِر",
+      "definition": "The face or countenance; in the plural, exposed parts of the body such as the face, arms, and legs.",
+      "usage_conditions": "The plural refers to bodily parts left exposed to view.",
+      "source_refs": [
+        "lane:entry:14452"
+      ]
+    },
+    {
+      "meaning_id": "cm:Mahsir:bare-land",
+      "headword_arabic": "مَحْسِر",
+      "definition": "An elevated, open tract of land bare of herbage or trees.",
+      "usage_conditions": "Used of a desert or other ground whose natural covering is absent.",
+      "source_refs": [
+        "lane:entry:14452"
+      ]
+    },
+    {
+      "meaning_id": "cm:MiHsar:broom",
+      "headword_arabic": "مِحْسَرَة",
+      "definition": "An instrument for sweeping; a broom or besom.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:14453"
+      ]
+    },
+    {
+      "meaning_id": "cm:MuHassar:rejected",
+      "headword_arabic": "مُحَسَّر",
+      "definition": "Despised, harassed, vexed, driven away, or treated as an outcast.",
+      "usage_conditions": "A reported adjectival usage applied to a person or group.",
+      "source_refs": [
+        "lane:entry:14454"
+      ]
+    },
+    {
+      "meaning_id": "cm:MuHassar:grief-fatigue",
+      "headword_arabic": "مُحَسَّر",
+      "definition": "Made to grieve or regret intensely, or left fatigued.",
+      "usage_conditions": "An alternative interpretation connects the condition with being driven away or exhausted.",
+      "source_refs": [
+        "lane:entry:14454"
+      ]
+    },
+    {
+      "meaning_id": "cm:Mahsur:removed",
+      "headword_arabic": "مَحْسُور",
+      "definition": "Removed, put off, taken off, or stripped away.",
+      "usage_conditions": "The passive participle describes something from which a covering has been removed.",
+      "source_refs": [
+        "lane:entry:14455"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hsr:14440:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hsr:uncover"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hsr:uncover"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hsr:peel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hsr:sweep"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hsr:deplete-by-begging"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hsr:fatigue"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hsr:sight-fail"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hsr:water-recede"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hsr:fatigue",
+        "sense:Hsr:istahsara:1"
+      ],
+      "note": "The unit gives the fatigue meaning and explicitly relates it to the Quranic Form X usage."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g4:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hsr:sight-fail"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14440:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hsr:grieve-loss"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14441:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14441:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hssr:annoy-drive-away"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14441:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hssr:induce-regret"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14441:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hssr:moult"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14442:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14442:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ahsr:party-fatigue"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14443:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Tahssr:shed-covering"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14443:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Tahssr:uncover-self"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14443:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14444:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:InHsr:uncover-clear"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14444:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:InHsr:uncover-clear"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14444:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14444:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14445:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14446:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14447:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Hsr:hasra:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14448:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14449:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hasir:weary-beast"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14449:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Hsr:hasir:1"
+      ],
+      "note": "The sight-related meaning is covered by the Quran-attested adjective sense."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14449:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hasir:intense-grief"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14450:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hasir:uncovered"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14450:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hasir:uncovered"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14450:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14451:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Mahsar:inner-character"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14452:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Mahsir:face-exposed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14452:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Mahsir:bare-land"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14452:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14453:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:MiHsar:broom"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14454:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14454:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:MuHassar:rejected",
+        "cm:MuHassar:grief-fatigue"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14455:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Mahsur:removed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14455:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Hsr:mahsur:1"
+      ],
+      "note": "The Quran-attested depleted-resources usage is represented under the public Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:Hsr:14455:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "In 67:4, حَسِير permits both an active reading, “failing,” and a passive reading, “made weary”; the public sense preserves both interpretations.",
+    "Lane's historical Quran citation conventions are not used to infer modern verse locations; Quran examples here use independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

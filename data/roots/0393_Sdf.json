@@ -1,0 +1,510 @@
+{
+  "root": "Sdf",
+  "arabic": "صدف",
+  "root_idea": {
+    "summary": "The root has two principal semantic axes: turning aside or inclining, and the shell of a mollusk.",
+    "development": "The notion of turning aside extends to bodily deviation, animals that wait or refuse to approach, and the side of a mountain; the shell sense forms a separate lexical branch with related anatomical and maritime extensions.",
+    "source_refs": [
+      "maqayis:row:2773",
+      "mufradat:row:822"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Sdf:Sadafa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-Sdf-verb-I",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Sdf:S~adafayon:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-Sdf-sadaf",
+      "reason": "Displayed under the supported singular citation form صَدَفٌ; the Quranic occurrence is its inflected dual."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-Sdf-verb-I",
+      "form_group_ids": [
+        "qac-form:Sdf:Sadafa:verb:I"
+      ],
+      "headword_arabic": "صَدَفَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sense-Sdf-verb-1",
+          "definition": "To turn sharply away from; to shun or avoid.",
+          "usage_conditions": "In the Quranic construction, it is used with عَنْ and denotes emphatic turning away from or rejection of something, especially divine signs. The verb may be understood as turning aside, back, or away.",
+          "source_refs": [
+            "lane:entry:25601",
+            "mufradat:row:822"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:157",
+          "word_location": "6:157:24",
+          "sense_ids": [
+            "sense-Sdf-verb-1"
+          ]
+        },
+        {
+          "verse_key": "6:157",
+          "word_location": "6:157:28",
+          "sense_ids": [
+            "sense-Sdf-verb-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-Sdf-sadaf",
+      "form_group_ids": [
+        "qac-form:Sdf:S~adafayon:nominal:-"
+      ],
+      "headword_arabic": "صَدَفٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-Sdf-noun-1",
+          "definition": "The two facing sides or cliffs of a mountain or mountain pass.",
+          "usage_conditions": "The Quranic form is the definite dual الصَّدَفَيْنِ, referring to two mountain sides or cliffs meeting or facing one another, with a passage or valley between them.",
+          "source_refs": [
+            "lane:entry:25606"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:96",
+          "word_location": "18:96:8",
+          "sense_ids": [
+            "sense-Sdf-noun-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-Sdf-conformation",
+      "headword_arabic": "صَدَفٌ",
+      "definition": "An outward turning or twisting of a hoof, pastern, or foreleg; a conformational deviation in a horse or camel.",
+      "usage_conditions": "Descriptions include close-set thighs with outward-set hoofs, crooked forelegs, or an outward inclination of the foot; the precise description varies by animal and authority.",
+      "source_refs": [
+        "lane:entry:25601"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-findmeet",
+      "headword_arabic": "صادَفَهُ",
+      "definition": "To find, meet, encounter, or come upon someone or something.",
+      "usage_conditions": "It can also take an affair as an object and a complement describing that affair as suitable or in accord with one's wish.",
+      "source_refs": [
+        "lane:entry:25602"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-facing",
+      "headword_arabic": "مُصادَفَةٌ",
+      "definition": "Being opposite, facing, or matching one another.",
+      "usage_conditions": "A conventional verbal-noun use describing two things as mutually aligned or facing each other.",
+      "source_refs": [
+        "lane:entry:25602"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-causative",
+      "headword_arabic": "أَصْدَفَهُ",
+      "definition": "To turn someone or something away, turn it back, or cause it to revert.",
+      "usage_conditions": "The verb may be transitive or intransitive; the transitive use takes the person or thing caused to turn away as its object.",
+      "source_refs": [
+        "lane:entry:25603"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-tasaddaf",
+      "headword_arabic": "تَصَدَّفَ",
+      "definition": "To present oneself or take an oblique course, moving alternately to the right and left.",
+      "usage_conditions": "Attested especially of a camel or camels moving among high places or along ascents; the usage is equated with تَعَرَّضَ.",
+      "source_refs": [
+        "lane:entry:25604"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-tasadafa",
+      "headword_arabic": "تَصَادَفَا",
+      "definition": "Of two mountain sides: to meet and face each other.",
+      "usage_conditions": "Used reciprocally of opposing sides of a mountain or similar terrain.",
+      "source_refs": [
+        "lane:entry:25605"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-high",
+      "headword_arabic": "صَدَفٌ",
+      "definition": "Anything high or lofty, such as a wall, mountain, or other substantial structure.",
+      "usage_conditions": "The noun can denote a lofty natural or constructed object; this is distinct from its use for a mountain side or shell.",
+      "source_refs": [
+        "lane:entry:25606"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-shell",
+      "headword_arabic": "صَدَفٌ",
+      "definition": "A shell or shell-valve of a mollusk, especially the covering of a pearl; by extension, an oyster or other shellfish.",
+      "usage_conditions": "The noun is also used collectively or individually for the shell-bearing creature and has the plural أَصْدَافٌ.",
+      "source_refs": [
+        "lane:entry:25606"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-earconcha",
+      "headword_arabic": "الصَّدَفَةُ",
+      "definition": "The concha, or broad external cavity, of the ear.",
+      "usage_conditions": "A specialized anatomical extension of the shell sense.",
+      "source_refs": [
+        "lane:entry:25606"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-sockets",
+      "headword_arabic": "الصَّدَفَتَانِ",
+      "definition": "A pair of anatomical sockets or hollows in which the heads of bones are set.",
+      "usage_conditions": "The term is applied to the hip sockets and, in some usage, to corresponding sockets of the scapula.",
+      "source_refs": [
+        "lane:entry:25606"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-woundflesh",
+      "headword_arabic": "صَدَفٌ",
+      "definition": "A piece of flesh resembling cartilage that grows in a head wound next to the skull.",
+      "usage_conditions": "A rare figurative or specialized anatomical usage.",
+      "source_refs": [
+        "lane:entry:25606"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-seawaves",
+      "headword_arabic": "أَصْدَافٌ",
+      "definition": "Waves of the sea.",
+      "usage_conditions": "Recorded as a plural lexical use.",
+      "source_refs": [
+        "lane:entry:25606"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-predator",
+      "headword_arabic": "صُدَفٌ",
+      "definition": "A species of predatory animal; according to another view, a bird.",
+      "usage_conditions": "The identification is reported with lexical variation between a beast of prey and a bird.",
+      "source_refs": [
+        "lane:entry:25608"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-camelnisba",
+      "headword_arabic": "صَدَفِيٌّ",
+      "definition": "A camel of a particular, excellent sort.",
+      "usage_conditions": "The adjective is also explained as a tribal nisba, connected with the Ṣadaf group or a sub-tribe of Kinda.",
+      "source_refs": [
+        "lane:entry:25610"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-testaceous",
+      "headword_arabic": "صَدَفِيٌّ",
+      "definition": "Testaceous; pertaining to shells or shell-bearing creatures.",
+      "usage_conditions": "A relational adjective derived from the shell sense.",
+      "source_refs": [
+        "lane:entry:25610"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-faceaversion",
+      "headword_arabic": "صَدُوفٌ",
+      "definition": "A person who turns the face away or avoids affectionate kisses.",
+      "usage_conditions": "Applied to a woman who turns away from her husband or does not desire kisses, and also to a man who turns his face whenever addressed.",
+      "source_refs": [
+        "lane:entry:25611"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-foulbreath",
+      "headword_arabic": "صَدُوفٌ",
+      "definition": "A person with foul-smelling breath or mouth.",
+      "usage_conditions": "Applied to either a female or a male according to the cited usage.",
+      "source_refs": [
+        "lane:entry:25611"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-camelrefusal",
+      "headword_arabic": "صَدُوفٌ",
+      "definition": "A she-camel that will not approach the watering place until it is left unoccupied.",
+      "usage_conditions": "A specialized description of an animal's refusal or delay in approaching the watering trough.",
+      "source_refs": [
+        "lane:entry:25611"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-waitingcamels",
+      "headword_arabic": "صَوَادِفُ",
+      "definition": "Camels that wait behind other camels at a watering trough until the drinkers have gone away.",
+      "usage_conditions": "A plural form describing animals that defer entering the watering place until it is free.",
+      "source_refs": [
+        "lane:entry:25612"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-disease",
+      "headword_arabic": "مُصَدَّفٌ",
+      "definition": "A person often afflicted by diseases.",
+      "usage_conditions": "Recorded as a colloquial or vulgar usage.",
+      "source_refs": [
+        "lane:entry:25614"
+      ]
+    },
+    {
+      "meaning_id": "cm-Sdf-veiled",
+      "headword_arabic": "مَصْدُوفٌ",
+      "definition": "Veiled, concealed, covered, or protected.",
+      "usage_conditions": "A passive participial description equivalent to being screened or kept from view.",
+      "source_refs": [
+        "lane:entry:25615"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Sdf:25601:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-Sdf-verb-1"
+      ],
+      "note": "The Quran-attested turning-away sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25601:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25601:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-conformation"
+      ],
+      "note": "The animal conformation branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25602:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-findmeet"
+      ],
+      "note": "Finding, meeting, and encountering are represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25602:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-facing"
+      ],
+      "note": "The facing or matching verbal-noun use is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25603:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-causative"
+      ],
+      "note": "The causative turning-away construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25604:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the first Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25604:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-tasaddaf"
+      ],
+      "note": "The specialized Form V course or exposure use is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25605:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-tasadafa"
+      ],
+      "note": "The reciprocal meeting of mountain sides is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25606:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive-noun identification without an independent definition."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25606:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-Sdf-noun-1",
+        "cm-Sdf-high"
+      ],
+      "note": "The Quranic mountain-side branch and the broader lofty-object branch are both represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25606:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-shell"
+      ],
+      "note": "The shell and shellfish branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25606:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-earconcha"
+      ],
+      "note": "The ear-concha anatomical extension is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25606:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-sockets"
+      ],
+      "note": "The anatomical socket terminology is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25606:g3:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-woundflesh"
+      ],
+      "note": "The wound-flesh usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25606:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-seawaves"
+      ],
+      "note": "The reported sea-wave plural is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25606:g5:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25607:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25608:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25608:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-predator"
+      ],
+      "note": "The animal or bird species is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25609:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25610:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-camelnisba"
+      ],
+      "note": "The specialized camel adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25610:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-testaceous"
+      ],
+      "note": "The shell-related relational adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25611:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-faceaversion",
+        "cm-Sdf-foulbreath"
+      ],
+      "note": "Both the face-aversion and foul-breath branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25611:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-camelrefusal"
+      ],
+      "note": "The she-camel's refusal to approach the watering place is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25612:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-waitingcamels"
+      ],
+      "note": "The plural camel-waiting usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25613:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25614:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-disease"
+      ],
+      "note": "The colloquial disease-affliction usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:Sdf:25615:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Sdf-veiled"
+      ],
+      "note": "The concealed or protected passive-participial usage is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic nominal occurrence is an inflected definite dual, الصَّدَفَيْنِ; it is displayed under the supported singular citation form صَدَفٌ.",
+    "Classical authorities record variant vocalizations and interpretations for the Quranic dual; the public sense follows the secure QAC occurrence and the mountain-side interpretation supported in the lexical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

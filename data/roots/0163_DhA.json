@@ -1,0 +1,90 @@
+{
+  "root": "DhA",
+  "arabic": "ضهأ",
+  "root_idea": {
+    "summary": "The supplied evidence centers on causing or making one resemble, conform to, or imitate another.",
+    "development": "No Maqāyīs or Mufradāt evidence was supplied, so no further root-level semantic development is established.",
+    "source_refs": [
+      "lane:entry:18072"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:DhA:yuDa`hi_#u:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_DhA_III_dhaa'a",
+      "reason": "The form is Quran-attested and represents the Form III verb normalized to its classical perfect citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_DhA_III_dhaa'a",
+      "form_group_ids": [
+        "qac-form:DhA:yuDa`hi_#u:verb:III"
+      ],
+      "headword_arabic": "ضَاهَأَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_DhA_III_s1_resemble_imitate",
+          "definition": "To resemble, conform to, or imitate another.",
+          "usage_conditions": "A transitive Form III use describing resemblance, conformity, or imitation. The Quranic occurrence is the active imperfect plural form يُضَاهِئُونَ.",
+          "source_refs": [
+            "lane:entry:18072"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:30",
+          "word_location": "9:30:14",
+          "sense_ids": [
+            "qform_DhA_III_s1_resemble_imitate"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical_DhA_treat_gently",
+      "headword_arabic": "ضَاهَا بِهِ / ضَاهَأَهُ",
+      "definition": "To treat someone gently, tenderly, or courteously; to behave gently toward him.",
+      "usage_conditions": "Reported with بِـ in ضَاهَا بِهِ and also with a direct object in ضَاهَأَهُ.",
+      "source_refs": [
+        "lane:entry:18072"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:DhA:18072:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_DhA_III_s1_resemble_imitate"
+      ],
+      "note": "Covers resemblance, conformity, and imitation, including the Quran-attested Form III usage."
+    },
+    {
+      "unit_id": "lane-unit:DhA:18072:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_DhA_treat_gently"
+      ],
+      "note": "Covers the distinct construction meaning to treat or behave gently."
+    },
+    {
+      "unit_id": "lane-unit:DhA:18073:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another article."
+    }
+  ],
+  "cautions": [
+    "Lane records Quranic readings with and without hamza; the public headword follows the ضهأ spelling supported by the canonical root and lexical entry.",
+    "No independent Maqāyīs or Mufradāt evidence was supplied for this root."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

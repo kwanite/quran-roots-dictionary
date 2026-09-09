@@ -1,0 +1,764 @@
+{
+  "root": "Axr",
+  "arabic": "أخر",
+  "root_idea": {
+    "summary": "The root expresses what is behind, later, or contrary to precedence.",
+    "development": "From spatial or positional being behind, the root develops temporal lateness and postponement. آخَر denotes a non-first or additional item, while آخِر denotes what is last or subsequent and, when substantivized, the ultimate world or state of existence.",
+    "source_refs": [
+      "maqayis:row:47",
+      "mufradat:row:2"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Axr:>ax~ara:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_axara_ii",
+      "reason": "Displayed under the normalized Form II perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Axr:ta>ax~ara:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_taakhkhara_v",
+      "reason": "Displayed as the distinct Form V intransitive verb."
+    },
+    {
+      "form_group_id": "qac-form:Axr:yasota>oxiru:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_istaakhara_x",
+      "reason": "Displayed as the distinct Form X verb."
+    },
+    {
+      "form_group_id": "qac-form:Axr:A^xar:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_akhar_nominal",
+      "reason": "Displayed as the adjective/substantive آخَر and its inflected forms."
+    },
+    {
+      "form_group_id": "qac-form:Axr:A^xir:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_akhir_nominal",
+      "reason": "Displayed as the adjective/substantive آخِر and its inflected forms."
+    },
+    {
+      "form_group_id": "qac-form:Axr:musota_#oxiriyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_mustaakhir_ap",
+      "reason": "Displayed under the normalized singular active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:Axr:A^xir:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form_akhir_nominal",
+      "reason": "The single T-tagged occurrence is the same lexical form آخِرَهُ and belongs under the displayed آخِر entry."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_axara_ii",
+      "form_group_ids": [
+        "qac-form:Axr:>ax~ara:verb:II"
+      ],
+      "headword_arabic": "أَخَّرَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 15,
+      "senses": [
+        {
+          "sense_id": "axara_ii_s1",
+          "definition": "To put or leave someone or something behind, after, or later; to keep back.",
+          "usage_conditions": "A transitive causative use: what is put behind may be spatially posterior or later in an ordered sequence.",
+          "source_refs": [
+            "lane:entry:6306",
+            "mufradat:row:2"
+          ]
+        },
+        {
+          "sense_id": "axara_ii_s2",
+          "definition": "To postpone, defer, or grant respite until a later time.",
+          "usage_conditions": "A transitive temporal use, including delaying a person, an event, or an appointed term.",
+          "source_refs": [
+            "lane:entry:6306",
+            "mufradat:row:2"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "75:13",
+          "word_location": "75:13:6",
+          "sense_ids": [
+            "axara_ii_s1"
+          ]
+        },
+        {
+          "verse_key": "82:5",
+          "word_location": "82:5:5",
+          "sense_ids": [
+            "axara_ii_s1"
+          ]
+        },
+        {
+          "verse_key": "14:10",
+          "word_location": "14:10:14",
+          "sense_ids": [
+            "axara_ii_s2"
+          ]
+        },
+        {
+          "verse_key": "71:4",
+          "word_location": "71:4:5",
+          "sense_ids": [
+            "axara_ii_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_taakhkhara_v",
+      "form_group_ids": [
+        "qac-form:Axr:ta>ax~ara:verb:V"
+      ],
+      "headword_arabic": "تَأَخَّرَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "taakhkhara_v_s1",
+          "definition": "To be or become behind or later; to remain behind, lag, or be delayed.",
+          "usage_conditions": "An intransitive use describing a person or thing that follows another, remains in the rear, or occurs later.",
+          "source_refs": [
+            "lane:entry:6307",
+            "mufradat:row:2"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:203",
+          "word_location": "2:203:14",
+          "sense_ids": [
+            "taakhkhara_v_s1"
+          ]
+        },
+        {
+          "verse_key": "48:2",
+          "word_location": "48:2:9",
+          "sense_ids": [
+            "taakhkhara_v_s1"
+          ]
+        },
+        {
+          "verse_key": "74:37",
+          "word_location": "74:37:7",
+          "sense_ids": [
+            "taakhkhara_v_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_istaakhara_x",
+      "form_group_ids": [
+        "qac-form:Axr:yasota>oxiru:verb:X"
+      ],
+      "headword_arabic": "اِسْتَأْخَرَ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "istaakhara_x_s1",
+          "definition": "To seek or be able to remain behind or be delayed; to seek postponement.",
+          "usage_conditions": "In the Quranic constructions, the form concerns remaining later or delaying an appointed occurrence, without changing its fixed term.",
+          "source_refs": [
+            "lane:entry:6308",
+            "lane:entry:6307"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:34",
+          "word_location": "7:34:8",
+          "sense_ids": [
+            "istaakhara_x_s1"
+          ]
+        },
+        {
+          "verse_key": "10:49",
+          "word_location": "10:49:19",
+          "sense_ids": [
+            "istaakhara_x_s1"
+          ]
+        },
+        {
+          "verse_key": "23:43",
+          "word_location": "23:43:7",
+          "sense_ids": [
+            "istaakhara_x_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_akhar_nominal",
+      "form_group_ids": [
+        "qac-form:Axr:A^xar:nominal:-"
+      ],
+      "headword_arabic": "آخَر",
+      "public_pos_label": "Adjective / Noun",
+      "verb_form": null,
+      "occurrence_count": 70,
+      "senses": [
+        {
+          "sense_id": "akhar_s1",
+          "definition": "Another, other, or an additional one; one distinct from the first or from the one already mentioned.",
+          "usage_conditions": "Used adjectivally or substantively, with masculine, feminine, singular, dual, and plural forms; it can identify the other member of a pair or an alternative item.",
+          "source_refs": [
+            "lane:entry:6321",
+            "mufradat:row:2"
+          ]
+        },
+        {
+          "sense_id": "akhar_s2",
+          "definition": "The remaining or last member of a group.",
+          "usage_conditions": "A conventional use with a group or sequence, especially in expressions referring to the last of a people.",
+          "source_refs": [
+            "lane:entry:6321"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:36",
+          "word_location": "12:36:12",
+          "sense_ids": [
+            "akhar_s1"
+          ]
+        },
+        {
+          "verse_key": "3:13",
+          "word_location": "3:13:13",
+          "sense_ids": [
+            "akhar_s1"
+          ]
+        },
+        {
+          "verse_key": "39:68",
+          "word_location": "39:68:18",
+          "sense_ids": [
+            "akhar_s1"
+          ]
+        },
+        {
+          "verse_key": "7:38",
+          "word_location": "7:38:25",
+          "sense_ids": [
+            "akhar_s2"
+          ]
+        },
+        {
+          "verse_key": "7:39",
+          "word_location": "7:39:3",
+          "sense_ids": [
+            "akhar_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_akhir_nominal",
+      "form_group_ids": [
+        "qac-form:Axr:A^xir:nominal:-",
+        "qac-form:Axr:A^xir:other:-"
+      ],
+      "headword_arabic": "آخِر",
+      "public_pos_label": "Adjective / Noun",
+      "verb_form": null,
+      "occurrence_count": 155,
+      "senses": [
+        {
+          "sense_id": "akhir_s1",
+          "definition": "Last, latter, aftermost, or at the end; the concluding one or part.",
+          "usage_conditions": "Used adjectivally or substantively for what follows the first or precedes no later item, including the end of a sequence or period.",
+          "source_refs": [
+            "lane:entry:6322",
+            "mufradat:row:2"
+          ]
+        },
+        {
+          "sense_id": "akhir_s2",
+          "definition": "The Hereafter; the ultimate world, life, or state of existence.",
+          "usage_conditions": "A substantivized use, often with الدار or الحياة understood or expressed, and contrasted with the present or worldly life.",
+          "source_refs": [
+            "lane:entry:6322",
+            "mufradat:row:2"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:72",
+          "word_location": "3:72:15",
+          "sense_ids": [
+            "akhir_s1"
+          ]
+        },
+        {
+          "verse_key": "37:108",
+          "word_location": "37:108:4",
+          "sense_ids": [
+            "akhir_s1"
+          ]
+        },
+        {
+          "verse_key": "2:4",
+          "word_location": "2:4:10",
+          "sense_ids": [
+            "akhir_s2"
+          ]
+        },
+        {
+          "verse_key": "93:4",
+          "word_location": "93:4:1",
+          "sense_ids": [
+            "akhir_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_mustaakhir_ap",
+      "form_group_ids": [
+        "qac-form:Axr:musota_#oxiriyn:nominal:-"
+      ],
+      "headword_arabic": "مُسْتَأْخِر",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "mustaakhir_s1",
+          "definition": "One who comes later or remains behind; a later one.",
+          "usage_conditions": "The Quran occurrence is plural and refers to those who are later, including those later in sequence, birth, or emergence.",
+          "source_refs": [
+            "lane:entry:6331"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:24",
+          "word_location": "15:24:7",
+          "sense_ids": [
+            "mustaakhir_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_akhir_insult",
+      "headword_arabic": "أَخِرٌ",
+      "definition": "A reviling epithet for an outcast, an alienated or remote person, or a base and ignoble fellow; it may also be interpreted as the last speaker.",
+      "usage_conditions": "Used in cursing or reviling; the cited lexical discussion explicitly reports that it is not addressed to a female.",
+      "source_refs": [
+        "lane:entry:6309"
+      ]
+    },
+    {
+      "meaning_id": "cm_back_part",
+      "headword_arabic": "أُخُرٌ؛ مُؤَخَّرٌ",
+      "definition": "The back, hinder, or latter part of something; behind or backwards in adverbial use.",
+      "usage_conditions": "Used for a rear portion or direction, contrasted with the front or forward part.",
+      "source_refs": [
+        "lane:entry:6310",
+        "lane:entry:6326"
+      ]
+    },
+    {
+      "meaning_id": "cm_credit_defer",
+      "headword_arabic": "بِأَخِرَةٍ",
+      "definition": "On deferred payment; on credit, with payment postponed to a future period.",
+      "usage_conditions": "A commercial construction equivalent to payment by a period of respite or deferment.",
+      "source_refs": [
+        "lane:entry:6313"
+      ]
+    },
+    {
+      "meaning_id": "cm_ukhrawi_adj",
+      "headword_arabic": "أُخْرَوِيٌّ",
+      "definition": "Relating to the other state of existence or the world to come.",
+      "usage_conditions": "A relational adjective formed from the lexical branch associated with the ultimate or other world.",
+      "source_refs": [
+        "lane:entry:6318"
+      ]
+    },
+    {
+      "meaning_id": "cm_divine_alakhir",
+      "headword_arabic": "الآخِر",
+      "definition": "The Last: the one who remains after all creatures have perished.",
+      "usage_conditions": "A divine name in theological usage, emphasizing continued existence after creation has passed away.",
+      "source_refs": [
+        "lane:entry:6322"
+      ]
+    },
+    {
+      "meaning_id": "cm_hind_teats",
+      "headword_arabic": "الآخِرَانِ",
+      "definition": "The two hindmost teats of a she-camel, those nearest the thighs.",
+      "usage_conditions": "An anatomical term contrasted with the two forward teats.",
+      "source_refs": [
+        "lane:entry:6322"
+      ]
+    },
+    {
+      "meaning_id": "cm_saddle_rear",
+      "headword_arabic": "آخِرَةُ الرَّحْلِ؛ مُؤَخِّرُهُ",
+      "definition": "The rear part of a camel or horse saddle against which the rider leans.",
+      "usage_conditions": "A technical saddle term, contrasted with the forward or central part of the saddle.",
+      "source_refs": [
+        "lane:entry:6322",
+        "lane:entry:6325",
+        "lane:entry:6326",
+        "lane:entry:6327"
+      ]
+    },
+    {
+      "meaning_id": "cm_absent",
+      "headword_arabic": "آخِرَةٌ",
+      "definition": "Absent or away.",
+      "usage_conditions": "A specialized meaning reported by some lexicographers and not treated as the ordinary sense of the headword.",
+      "source_refs": [
+        "lane:entry:6322"
+      ]
+    },
+    {
+      "meaning_id": "cm_eye_outer",
+      "headword_arabic": "مُؤْخِرُ العَيْنِ",
+      "definition": "The outer angle of the eye, the part next to the temple.",
+      "usage_conditions": "An anatomical term opposed to the inner or forward extremity next to the nose.",
+      "source_refs": [
+        "lane:entry:6325"
+      ]
+    },
+    {
+      "meaning_id": "cm_divine_muwakhir",
+      "headword_arabic": "المُؤَخِّر",
+      "definition": "The Postponer or Delayer: the one who postpones or delays things and puts them in their appointed places.",
+      "usage_conditions": "A divine name, contrasted with المُقَدِّمُ, the one who brings forward.",
+      "source_refs": [
+        "lane:entry:6327"
+      ]
+    },
+    {
+      "meaning_id": "cm_late_palm",
+      "headword_arabic": "مِئْخَارٌ",
+      "definition": "A palm tree whose fruit remains until the end of winter or until the end of the fruit-cutting season.",
+      "usage_conditions": "A botanical term contrasted with an early-fruiting palm.",
+      "source_refs": [
+        "lane:entry:6328"
+      ]
+    },
+    {
+      "meaning_id": "cm_mutaakhir",
+      "headword_arabic": "مُتَأَخِّرٌ",
+      "definition": "A person, author, or other entity of a later or more modern time.",
+      "usage_conditions": "A chronological use describing a later generation or period rather than merely a person who is physically behind.",
+      "source_refs": [
+        "lane:entry:6330"
+      ]
+    },
+    {
+      "meaning_id": "cm_refrain",
+      "headword_arabic": "تَأَخَّرَ عَنْ",
+      "definition": "To hold back from, refrain from, or abstain from a thing or affair.",
+      "usage_conditions": "A conventional Form V construction with عَنْ; this specialized construction is broader than the Quranic uses represented under the Form V sense.",
+      "source_refs": [
+        "lane:entry:6307"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Axr:6306:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "axara_ii_s1",
+        "axara_ii_s2"
+      ],
+      "note": "Form II causative branches of putting behind and postponing are represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6306:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "axara_ii_s2"
+      ],
+      "note": "Granting a delay is covered by the Form II postponement sense."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6306:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form V discussion."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6307:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "taakhkhara_v_s1",
+        "cm_refrain",
+        "istaakhara_x_s1"
+      ],
+      "note": "The unit supplies the Quranic behind/later branch, the عن construction of refraining, and the Quran-attested Form X interpretation cited through its cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6308:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form X cross-reference; its lexical sense is supported through the linked Form V discussion."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6309:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_akhir_insult"
+      ],
+      "note": "Reviling epithet and its reported interpretations are represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6310:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_back_part"
+      ],
+      "note": "Back or hinder part and backward adverbial use are represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6311:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant referring to آخِرٌ."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6312:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant referring to آخِرٌ."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6313:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_credit_defer"
+      ],
+      "note": "Deferred-payment construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6314:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant referring to آخِرٌ."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6315:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Feminine-form cross-reference with no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6316:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Feminine-form cross-reference with no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6317:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Variant-form pointer to آخِرٌ."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6318:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ukhrawi_adj"
+      ],
+      "note": "Relational adjective for the world to come is represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6319:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to already covered آخِرٌ and related forms."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6320:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive formation with no independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6321:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "akhar_s1"
+      ],
+      "note": "Another/other and the one distinct from the first are represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6321:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "akhar_s2"
+      ],
+      "note": "Last of a group and related final-time construction are represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6321:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Orthographic correction and pointer-only note."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6322:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "akhir_s1"
+      ],
+      "note": "Last, latter, end, and final-position uses are represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6322:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_divine_alakhir"
+      ],
+      "note": "Divine-name use of The Last is represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6322:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hind_teats"
+      ],
+      "note": "Anatomical use for the hind teats is represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6322:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "akhir_s2"
+      ],
+      "note": "The substantivized Hereafter branch is represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6322:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_saddle_rear",
+        "cm_absent"
+      ],
+      "note": "Saddle-rear terminology and the reported specialized absent meaning are represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6323:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant of آخِرٌ."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6324:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive formation with no independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6325:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_eye_outer"
+      ],
+      "note": "Outer angle of the eye is represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6325:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_saddle_rear"
+      ],
+      "note": "Pointer to the saddle-rear term is covered by the consolidated technical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6326:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_back_part"
+      ],
+      "note": "Back or hinder part of anything is covered with the synonymous lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6326:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_saddle_rear"
+      ],
+      "note": "Pointer to the saddle-rear term is covered by the consolidated technical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6327:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_divine_muwakhir"
+      ],
+      "note": "Divine name meaning the Postponer or Delayer is represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6327:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_saddle_rear"
+      ],
+      "note": "Pointer to the saddle-rear term is covered by the consolidated technical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6328:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_late_palm"
+      ],
+      "note": "Late-fruiting palm is represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6329:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Regular plural pointer to مِئْخَارٌ."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6330:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mutaakhir"
+      ],
+      "note": "Later or more modern person or author is represented."
+    },
+    {
+      "unit_id": "lane-unit:Axr:6331:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mustaakhir_s1"
+      ],
+      "note": "The Quran-attested later-ones interpretation is represented."
+    }
+  ],
+  "cautions": [
+    "The Form X Lane entry is pointer-only; its Quranic sense is assigned through that pointer and the directly described linked Form V lexical branch, together with the supplied QAC morphology.",
+    "Lane's citation of the active participle as “Kur xv. 24” is treated as 15:24 only because QAC independently supplies 15:24:7 for this form; the historical citation itself is not independently modernized."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

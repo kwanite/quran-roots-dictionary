@@ -1,0 +1,188 @@
+{
+  "root": "mxr",
+  "arabic": "مخر",
+  "root_idea": {
+    "summary": "A root centered on splitting, cleaving, and opening a passage, especially through water.",
+    "development": "The cleaving image is applied to ships and swimmers cutting through water, and to water coursing to land. It is extended analogically to taking in the wind with the nose and, in the supplied root analysis, to selecting the best from a group. Certain similarly shaped expressions are explicitly treated as belonging to other roots.",
+    "source_refs": [
+      "maqayis:row:4313",
+      "mufradat:row:1351",
+      "lane:entry:12320",
+      "lane:entry:12321"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mxr:mawaAxir:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-mxr-maakhira",
+      "reason": "The Quranic plural مَوَاخِرَ is normalized to its singular active-participle citation form مَاخِرَةٌ, identified in the lexical evidence as its singular."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-mxr-maakhira",
+      "form_group_ids": [
+        "qac-form:mxr:mawaAxir:nominal:-"
+      ],
+      "headword_arabic": "مَاخِرَةٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qfs-mxr-maakhira-1",
+          "definition": "Ships that cleave or plough through water with their prows as they move.",
+          "usage_conditions": "The Quranic form is plural مَوَاخِرَ. Explanations include running through the water and, in one description, advancing and retreating under a single wind.",
+          "source_refs": [
+            "lane:entry:12320",
+            "lane:entry:12324",
+            "mufradat:row:1351"
+          ]
+        },
+        {
+          "sense_id": "qfs-mxr-maakhira-2",
+          "definition": "Ships whose running through the water produces an audible sound.",
+          "usage_conditions": "An alternative explanation of the plural Quranic usage, with the sound associated with wind-driven movement.",
+          "source_refs": [
+            "lane:entry:12320",
+            "lane:entry:12324"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:14",
+          "word_location": "16:14:15",
+          "sense_ids": [
+            "qfs-mxr-maakhira-1"
+          ]
+        },
+        {
+          "verse_key": "35:12",
+          "word_location": "35:12:23",
+          "sense_ids": [
+            "qfs-mxr-maakhira-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-mxr-cleave",
+      "headword_arabic": "مَخَرَ",
+      "definition": "To cleave through a medium by moving through it; of a swimmer, to cut through water with the arms.",
+      "usage_conditions": "The verb is used of ships as well as swimmers, and descriptions of a ship may include running, facing the wind, or advancing and retreating.",
+      "source_refs": [
+        "lane:entry:12320"
+      ]
+    },
+    {
+      "meaning_id": "cm-mxr-sound",
+      "headword_arabic": "مَخْرٌ",
+      "definition": "To make a noise or sound, including the sound associated with movement through water.",
+      "usage_conditions": "This is listed as a lexical signification alongside cleaving.",
+      "source_refs": [
+        "lane:entry:12320"
+      ]
+    },
+    {
+      "meaning_id": "cm-mxr-waterland",
+      "headword_arabic": "مَخْرُ الْمَاءِ لِلْأَرْضِ",
+      "definition": "The passage of water to or through land by coursing through it.",
+      "usage_conditions": "A nominal expression describing water reaching land by circulating through it.",
+      "source_refs": [
+        "mufradat:row:1351"
+      ]
+    },
+    {
+      "meaning_id": "cm-tamakhkhur-wind",
+      "headword_arabic": "تَمَخَّرَ، اِمْتَخَرَ، اِسْتَمْخَرَ",
+      "definition": "To face or seek the wind, turning the nose toward it and sniffing it; by extension, to orient oneself toward a desired direction or object.",
+      "usage_conditions": "Used of animals and people, including turning toward pasture. In a reported sanitation instruction, it involves determining the wind's direction and then turning one's back rather than literally facing it.",
+      "source_refs": [
+        "lane:entry:12321",
+        "mufradat:row:1351"
+      ]
+    },
+    {
+      "meaning_id": "cm-makhur-place",
+      "headword_arabic": "مَاخُورٌ",
+      "definition": "A wine-shop or place associated with vintners; by extension, a gathering-place of immoral persons or a house that arouses suspicion.",
+      "usage_conditions": "The word's etymology is disputed in the evidence: it is described either as an Arabicized word or as an Arabic formation associated with people going to and fro.",
+      "source_refs": [
+        "lane:entry:12325",
+        "mufradat:row:1351"
+      ]
+    },
+    {
+      "meaning_id": "cm-makhur-manager",
+      "headword_arabic": "مَاخُورٌ",
+      "definition": "A person who supervises such a place and directs others to it.",
+      "usage_conditions": "This is a personal sense of the same lexical item, distinct from the place that he manages.",
+      "source_refs": [
+        "lane:entry:12325"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mxr:12320:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfs-mxr-maakhira-1",
+        "qfs-mxr-maakhira-2",
+        "cm-mxr-cleave",
+        "cm-mxr-sound"
+      ],
+      "note": "Covers ship and swimmer cleaving, associated running and wind movement, and the sound branch."
+    },
+    {
+      "unit_id": "lane-unit:mxr:12321:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tamakhkhur-wind"
+      ],
+      "note": "Covers facing or seeking the wind and the related orientation construction."
+    },
+    {
+      "unit_id": "lane-unit:mxr:12322:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to the Form V discussion."
+    },
+    {
+      "unit_id": "lane-unit:mxr:12323:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to the Form V discussion."
+    },
+    {
+      "unit_id": "lane-unit:mxr:12324:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfs-mxr-maakhira-1",
+        "qfs-mxr-maakhira-2"
+      ],
+      "note": "Directly explains the Quranic plural and its cleaving, motion, and audible-sound interpretations."
+    },
+    {
+      "unit_id": "lane-unit:mxr:12325:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-makhur-place",
+        "cm-makhur-manager"
+      ],
+      "note": "Covers the place and personal-manager senses of ماخور."
+    }
+  ],
+  "cautions": [
+    "Lane's printed Quran references use historical citation conventions and are not used to infer modern verse locations; the Quran examples here follow the independently supplied QAC locations.",
+    "The lexical affiliation of مَاخُورٌ is etymologically disputed in the supplied evidence; it is retained as a Classical Arabic lexical entry with that qualification."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "بَنَاتُ مَخْرٍ, reported as summer-forming clouds, is not assigned as a meaning of مخر because the supplied Maqayis evidence explicitly treats it as an ibdāl form whose أصل is بخر.",
+    "اليَمْخُورُ, reported in the Maqayis discussion as a tall man, is explicitly said there to fall outside this root's semantic باب and is therefore not included as a root meaning."
+  ]
+}

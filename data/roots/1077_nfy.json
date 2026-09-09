@@ -1,0 +1,167 @@
+{
+  "root": "nfy",
+  "arabic": "نفي",
+  "root_idea": {
+    "summary": "The root expresses removing or stripping something from something else and putting it at a distance.",
+    "development": "This orientation extends to driving away or exiling, making things incompatible, treating something as unestablished or nonbinding, and identifying rejected or inferior residue.",
+    "source_refs": [
+      "maqayis:row:4718",
+      "lane:entry:32357",
+      "lane:entry:32358",
+      "lane:entry:32360",
+      "lane:entry:32361"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nfy:yunfa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfy-form1-nafa",
+      "reason": "Displayed under the normalized Form I perfect citation form نَفَى; the Quran occurrence is its passive imperfect."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nfy-form1-nafa",
+      "form_group_ids": [
+        "qac-form:nfy:yunfa:verb:I"
+      ],
+      "headword_arabic": "نَفَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nfy-form1-s1",
+          "definition": "To drive away, expel, banish, or exile.",
+          "usage_conditions": "The supplied Quran occurrence is the passive imperfect: the subject is the person or thing being driven away or exiled.",
+          "source_refs": [
+            "lane:entry:32357"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:33",
+          "word_location": "5:33:22",
+          "sense_ids": [
+            "nfy-form1-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nfy-c1",
+      "headword_arabic": "نَافَى",
+      "definition": "To preclude the coexistence of one thing with another; to be inconsistent or incompatible with it.",
+      "usage_conditions": "Form III construction involving two things that cannot coexist or agree.",
+      "source_refs": [
+        "lane:entry:32358"
+      ]
+    },
+    {
+      "meaning_id": "nfy-c2",
+      "headword_arabic": "تَنَافَى",
+      "definition": "To be mutually incompatible.",
+      "usage_conditions": "Form VI reciprocal construction describing two things as incompatible with each other.",
+      "source_refs": [
+        "lane:entry:32359"
+      ]
+    },
+    {
+      "meaning_id": "nfy-c3",
+      "headword_arabic": "اِنْتَفَى",
+      "definition": "To be negative, unestablished, or not obligatory.",
+      "usage_conditions": "Used as the contrary of being established or binding.",
+      "source_refs": [
+        "lane:entry:32360"
+      ]
+    },
+    {
+      "meaning_id": "nfy-c4",
+      "headword_arabic": "اِنْتَفَى",
+      "definition": "To deny or repudiate a thing, such as an accusation.",
+      "usage_conditions": "The construction اِنْتَفَى مِنْ شَيْءٍ denotes disavowing or denying the thing in question.",
+      "source_refs": [
+        "lane:entry:32360"
+      ]
+    },
+    {
+      "meaning_id": "nfy-c5",
+      "headword_arabic": "نُفَايَة",
+      "definition": "Refuse or rejected, inferior residue: the bad or worthless portion of a thing.",
+      "usage_conditions": "It may denote what is rejected for its badness, a small quantity of refuse, remaining or inferior material, including the bad portion of wheat or food.",
+      "source_refs": [
+        "lane:entry:32361"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nfy:32357:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfy-form1-s1"
+      ],
+      "note": "Expulsion and banishment are covered by the Quranic Form I sense."
+    },
+    {
+      "unit_id": "lane-unit:nfy:32358:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfy-c1"
+      ],
+      "note": "Form III incompatibility and preclusion are represented."
+    },
+    {
+      "unit_id": "lane-unit:nfy:32359:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfy-c2"
+      ],
+      "note": "Reciprocal incompatibility is represented."
+    },
+    {
+      "unit_id": "lane-unit:nfy:32360:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfy-c3"
+      ],
+      "note": "Non-establishment or lack of obligatory force is represented."
+    },
+    {
+      "unit_id": "lane-unit:nfy:32360:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfy-c4"
+      ],
+      "note": "Denial of a thing or accusation is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:nfy:32361:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfy-c5"
+      ],
+      "note": "Refuse and inferior residue are represented."
+    },
+    {
+      "unit_id": "lane-unit:nfy:32362:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical classification of a negative verb, not an independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:nfy:32362:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical classification of a negative or denied sentence, not an independent lexical meaning."
+    }
+  ],
+  "cautions": [
+    "The public headword نَفَى is the normalized Form I perfect citation form; the supplied Quran word is the passive imperfect يُنفَوْا."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

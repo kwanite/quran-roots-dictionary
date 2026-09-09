@@ -1,0 +1,728 @@
+{
+  "root": "xwl",
+  "arabic": "خول",
+  "root_idea": {
+    "summary": "The root centers on tending, attending to, and managing something or someone.",
+    "development": "From the idea of a caretaker or shepherd who continually attends to what is entrusted to him, the root develops into meanings of managing dependents or property and of granting a person possessions or benefits to care for.",
+    "source_refs": [
+      "maqayis:row:1676",
+      "mufradat:row:445"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:xwl:xaw~ala:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "xwl-khawwala",
+      "reason": "Displayed under the normalized Form II perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:xwl:xaAl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "xwl-khal",
+      "reason": "Displayed under the singular kinship noun citation form خَال."
+    },
+    {
+      "form_group_id": "qac-form:xwl:xa`la`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "xwl-khala",
+      "reason": "The Quranic plural is normalized to the supported singular citation form خَالَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "xwl-khawwala",
+      "form_group_ids": [
+        "qac-form:xwl:xaw~ala:verb:II"
+      ],
+      "headword_arabic": "خَوَّلَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "xwl-khawwala-s1",
+          "definition": "To bestow on someone; to grant or confer possession of something as a favor.",
+          "usage_conditions": "In the Quranic occurrences, the object is something granted to a person. The lexical discussion connects the grant with dependents or with possessions that require care and management.",
+          "source_refs": [
+            "lane:entry:20323",
+            "mufradat:row:445"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:94",
+          "word_location": "6:94:10",
+          "sense_ids": [
+            "xwl-khawwala-s1"
+          ]
+        },
+        {
+          "verse_key": "39:8",
+          "word_location": "39:8:11",
+          "sense_ids": [
+            "xwl-khawwala-s1"
+          ]
+        },
+        {
+          "verse_key": "39:49",
+          "word_location": "39:49:8",
+          "sense_ids": [
+            "xwl-khawwala-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "xwl-khal",
+      "form_group_ids": [
+        "qac-form:xwl:xaAl:nominal:-"
+      ],
+      "headword_arabic": "خَال",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "xwl-khal-s1",
+          "definition": "Maternal uncle; one's mother's brother.",
+          "usage_conditions": "The Quranic group includes the plural أخوال and the inflected singular خالك.",
+          "source_refs": [
+            "lane:entry:20327"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:61",
+          "word_location": "24:61:40",
+          "sense_ids": [
+            "xwl-khal-s1"
+          ]
+        },
+        {
+          "verse_key": "33:50",
+          "word_location": "33:50:22",
+          "sense_ids": [
+            "xwl-khal-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "xwl-khala",
+      "form_group_ids": [
+        "qac-form:xwl:xa`la`t:nominal:-"
+      ],
+      "headword_arabic": "خَالَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "xwl-khala-s1",
+          "definition": "Maternal aunt; one's mother's sister.",
+          "usage_conditions": "The Quranic group consists of the plural خالات in inflected forms.",
+          "source_refs": [
+            "lane:entry:20327"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:23",
+          "word_location": "4:23:7",
+          "sense_ids": [
+            "xwl-khala-s1"
+          ]
+        },
+        {
+          "verse_key": "24:61",
+          "word_location": "24:61:43",
+          "sense_ids": [
+            "xwl-khala-s1"
+          ]
+        },
+        {
+          "verse_key": "33:50",
+          "word_location": "33:50:24",
+          "sense_ids": [
+            "xwl-khala-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "xwl-khala-acquire-dependents",
+      "headword_arabic": "خَالَ",
+      "definition": "To become possessed of dependents or attendants after having been alone.",
+      "usage_conditions": "A Form I verbal use concerning acquiring خَوَل or household dependents.",
+      "source_refs": [
+        "lane:entry:20322"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khala-tend-livestock",
+      "headword_arabic": "خَالَ",
+      "definition": "To pasture, tend, and manage livestock or camels well.",
+      "usage_conditions": "Used with livestock or property under one's care.",
+      "source_refs": [
+        "lane:entry:20322"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khala-govern",
+      "headword_arabic": "خَالَ",
+      "definition": "To rule or govern people.",
+      "usage_conditions": "A governing use with people as the object of management.",
+      "source_refs": [
+        "lane:entry:20322"
+      ]
+    },
+    {
+      "meaning_id": "xwl-akhwala-maternal-uncles",
+      "headword_arabic": "أَخْوَلَ",
+      "definition": "To have maternal uncles, or to have many maternal uncles.",
+      "usage_conditions": "A Form IV use describing a person's maternal-uncle relations.",
+      "source_refs": [
+        "lane:entry:20324"
+      ]
+    },
+    {
+      "meaning_id": "xwl-akhwala-perceive-good",
+      "headword_arabic": "أَخْوَلَ",
+      "definition": "To perceive in someone an indication or sign of good.",
+      "usage_conditions": "The perceived good is treated as an indication, symptom, mark, or token.",
+      "source_refs": [
+        "lane:entry:20324"
+      ]
+    },
+    {
+      "meaning_id": "xwl-takhawwala-attend-repeatedly",
+      "headword_arabic": "تَخَوَّلَ",
+      "definition": "To attend to or visit someone or something repeatedly and keep it in good condition.",
+      "usage_conditions": "Used of repeated attention to people, admonition, land, or another object of care.",
+      "source_refs": [
+        "lane:entry:20325"
+      ]
+    },
+    {
+      "meaning_id": "xwl-istakhwala-dependents",
+      "headword_arabic": "اِسْتَخْوَلَ",
+      "definition": "To take people as slaves, servants, or other dependents.",
+      "usage_conditions": "The people are treated as خَوَل, including household dependents.",
+      "source_refs": [
+        "lane:entry:20326"
+      ]
+    },
+    {
+      "meaning_id": "xwl-istakhwala-maternal-uncle",
+      "headword_arabic": "اِسْتَخْوَلَ",
+      "definition": "To take or adopt someone as a maternal uncle, or to call him one's maternal uncle.",
+      "usage_conditions": "A conventional kinship-adoption use.",
+      "source_refs": [
+        "lane:entry:20326"
+      ]
+    },
+    {
+      "meaning_id": "xwl-istakhwala-lend-livestock",
+      "headword_arabic": "اِسْتَخْوَلَ",
+      "definition": "To ask someone to lend livestock or camels.",
+      "usage_conditions": "A specialized livestock-lending construction.",
+      "source_refs": [
+        "lane:entry:20326"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khal-horse-owner",
+      "headword_arabic": "خَال",
+      "definition": "An owner of a horse.",
+      "usage_conditions": "Used in the expression أنا خال هذا الفرس, “I am the owner of this horse.”",
+      "source_refs": [
+        "lane:entry:20327"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khal-manager",
+      "headword_arabic": "خَال",
+      "definition": "A manager, tender, keeper, or guardian of livestock, property, or affairs.",
+      "usage_conditions": "The use can refer to a good livestock manager, a pastor who tends people or animals, or one who puts a thing or affairs into good order.",
+      "source_refs": [
+        "lane:entry:20327"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khal-sign-good",
+      "headword_arabic": "خَال",
+      "definition": "An indication, sign, mark, or token of good in a person.",
+      "usage_conditions": "A nominal sign or quality interpreted as evidence of good.",
+      "source_refs": [
+        "lane:entry:20327"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khal-mole",
+      "headword_arabic": "خَال",
+      "definition": "A mole or dark mark resembling a pimple on the face or body.",
+      "usage_conditions": "An anatomical or bodily mark; its plural is خيلان.",
+      "source_refs": [
+        "lane:entry:20327"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khal-banner",
+      "headword_arabic": "خَال",
+      "definition": "A military banner or standard.",
+      "usage_conditions": "The term denotes the army banner called لواء.",
+      "source_refs": [
+        "lane:entry:20327"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khal-cloth",
+      "headword_arabic": "خَال",
+      "definition": "A soft Yemeni garment or cloth with a red or brown ground and black lines or stripes.",
+      "usage_conditions": "A named type of برد fabric.",
+      "source_refs": [
+        "lane:entry:20327"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khal-stallion-camel",
+      "headword_arabic": "خَال",
+      "definition": "A black stallion-camel.",
+      "usage_conditions": "A specialized animal term.",
+      "source_refs": [
+        "lane:entry:20327"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khawal-dependents",
+      "headword_arabic": "خَوَل",
+      "definition": "Slaves, servants, cattle, and other dependents placed under a person's care or given to him.",
+      "usage_conditions": "Used as a collective or quasi-plural and sometimes for a single male or female dependent; one reported analysis relates it to خائل, “pastor.”",
+      "source_refs": [
+        "lane:entry:20328"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khawal-gifts",
+      "headword_arabic": "خَوَل",
+      "definition": "A gift or gifts.",
+      "usage_conditions": "A nominal use preserved in the expression كثُر الخَوَل, “he has many gifts.”",
+      "source_refs": [
+        "lane:entry:20328"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khawal-pastors",
+      "headword_arabic": "خَوَل",
+      "definition": "Pastors or caretakers.",
+      "usage_conditions": "A reported analysis of خَوَل as a plural or quasi-plural related to خائل, “pastor.”",
+      "source_refs": [
+        "lane:entry:20328"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khawal-axe-bit",
+      "headword_arabic": "خَوَل",
+      "definition": "The lower part of the socket or head of an axe-bit.",
+      "usage_conditions": "A technical implement term attributed to one lexical authority.",
+      "source_refs": [
+        "lane:entry:20328"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khawla-gazelle",
+      "headword_arabic": "خَوْلَة",
+      "definition": "A female gazelle.",
+      "usage_conditions": "A zoological noun.",
+      "source_refs": [
+        "lane:entry:20329"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khawli-land-measurer",
+      "headword_arabic": "خَوْلِيّ",
+      "definition": "A measurer of land using a measuring cane.",
+      "usage_conditions": "A professional designation.",
+      "source_refs": [
+        "lane:entry:20330"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khuula-kinship",
+      "headword_arabic": "خُؤُولَة",
+      "definition": "The relationship of a maternal uncle or maternal aunt.",
+      "usage_conditions": "A kinship noun used in expressions describing the relationship between two people.",
+      "source_refs": [
+        "lane:entry:20333"
+      ]
+    },
+    {
+      "meaning_id": "xwl-khawwal-gift-giver",
+      "headword_arabic": "خَوَّال",
+      "definition": "A giver of many gifts.",
+      "usage_conditions": "An agent noun describing a person characterized by generous giving.",
+      "source_refs": [
+        "lane:entry:20334"
+      ]
+    },
+    {
+      "meaning_id": "xwl-akhwal-scattered",
+      "headword_arabic": "أَخْوَلَ",
+      "definition": "Scattered or dispersed, especially one after another like sparks flying from beaten iron.",
+      "usage_conditions": "The reduplicated expression أخول أخول describes scattering; some usage treats أخول itself as “sparks.”",
+      "source_refs": [
+        "lane:entry:20336"
+      ]
+    },
+    {
+      "meaning_id": "xwl-akhwal-proud",
+      "headword_arabic": "أَخْوَل",
+      "definition": "Prouder than another person.",
+      "usage_conditions": "Used in the comparative construction أخول من فلان.",
+      "source_refs": [
+        "lane:entry:20336"
+      ]
+    },
+    {
+      "meaning_id": "xwl-mukhwal-maternal-uncles",
+      "headword_arabic": "مُخْوَل",
+      "definition": "A man having maternal uncles, especially many maternal uncles.",
+      "usage_conditions": "A passive or resultant description of a man's maternal-uncle relations.",
+      "source_refs": [
+        "lane:entry:20339"
+      ]
+    },
+    {
+      "meaning_id": "xwl-lamakhil-good-disposition",
+      "headword_arabic": "لَمَخِيل",
+      "definition": "Naturally adapted or disposed to good.",
+      "usage_conditions": "Describes a person inclined by nature to be, do, produce, or bring about what is good.",
+      "source_refs": [
+        "lane:entry:20341"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:xwl:20322:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khala-acquire-dependents"
+      ],
+      "note": "Form I acquisition of dependents is represented."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20322:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khala-tend-livestock",
+        "xwl-khala-govern"
+      ],
+      "note": "Tending livestock and governing people are both represented."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20322:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20323:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khawwala-s1"
+      ],
+      "note": "Quran-attested Form II granting sense."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20324:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-akhwala-maternal-uncles"
+      ],
+      "note": "Having maternal uncles."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20324:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-akhwala-perceive-good"
+      ],
+      "note": "Perceiving a sign of good."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20324:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form X entries."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20325:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20325:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20325:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-takhawwala-attend-repeatedly"
+      ],
+      "note": "Repeated attention and tending."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20326:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-istakhwala-dependents"
+      ],
+      "note": "Taking people as dependents."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20326:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-istakhwala-maternal-uncle"
+      ],
+      "note": "Adopting or calling someone a maternal uncle."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20326:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-istakhwala-lend-livestock"
+      ],
+      "note": "Livestock-lending use."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20327:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khal-s1",
+        "xwl-khala-s1"
+      ],
+      "note": "Maternal uncle and maternal aunt senses."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20327:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khal-horse-owner"
+      ],
+      "note": "Horse-owner sense."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20327:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khal-manager"
+      ],
+      "note": "Manager, keeper, and pastor sense."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20327:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khal-sign-good"
+      ],
+      "note": "Sign or token of good."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20327:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khal-mole"
+      ],
+      "note": "Bodily mole."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20327:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khal-banner"
+      ],
+      "note": "Military banner."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20327:g5:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khal-cloth"
+      ],
+      "note": "Named Yemeni cloth."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20327:g6:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khal-stallion-camel"
+      ],
+      "note": "Black stallion-camel."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20328:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khawal-dependents",
+        "xwl-khawal-pastors"
+      ],
+      "note": "Dependents and the reported pastor analysis."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20328:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to خَال."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20328:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khawal-gifts"
+      ],
+      "note": "Gift sense."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20328:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khawal-axe-bit"
+      ],
+      "note": "Technical axe-bit sense."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20329:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khawla-gazelle"
+      ],
+      "note": "Female gazelle."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20330:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to خَال."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20330:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khawli-land-measurer"
+      ],
+      "note": "Land-measurer profession."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20331:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to خَال."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20332:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive pointer to خَال."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20333:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khuula-kinship"
+      ],
+      "note": "Maternal-kinship relationship."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20333:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-information cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20334:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-khawwal-gift-giver"
+      ],
+      "note": "Giver of many gifts."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20335:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to other entries."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20335:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20336:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-akhwal-scattered"
+      ],
+      "note": "Scattering like sparks."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20336:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-akhwal-proud"
+      ],
+      "note": "Comparative pride."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20337:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مُخْوَل."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20338:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an entry in another root article."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20339:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-mukhwal-maternal-uncles"
+      ],
+      "note": "Having maternal uncles."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20340:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:xwl:20341:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xwl-lamakhil-good-disposition"
+      ],
+      "note": "Natural disposition to good."
+    }
+  ],
+  "cautions": [
+    "The consonantal root has several unrelated or specialized Classical Arabic branches; only the three displayed forms and their listed senses are Quran-attested in this packet."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

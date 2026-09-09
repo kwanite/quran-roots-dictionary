@@ -1,0 +1,1119 @@
+{
+  "root": "wld",
+  "arabic": "ولد",
+  "root_idea": {
+    "summary": "The root centers on offspring, progeny, and descent: bringing forth or being born, and the parent-child relation.",
+    "development": "From the basic notion of offspring and lineage, the lexicon extends to parents, infancy, birth-time and birthplace, propagation, and—by analogy—things produced or originating from other things.",
+    "source_refs": [
+      "maqayis:row:5212",
+      "mufradat:row:1612"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wld:walada:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wld_walada",
+      "reason": "Form I verb with direct Quranic occurrences."
+    },
+    {
+      "form_group_id": "qac-form:wld:mawoluwd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wld_mawlud",
+      "reason": "Distinct passive participle used in a Quranic parent-child construction."
+    },
+    {
+      "form_group_id": "qac-form:wld:waAlid:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wld_walid",
+      "reason": "Dictionary citation form for the masculine parent term."
+    },
+    {
+      "form_group_id": "qac-form:wld:wa`lida`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "wld_walida",
+      "reason": "Inflected feminine plural of wālida; represented under the feminine citation form."
+    },
+    {
+      "form_group_id": "qac-form:wld:wa`lidap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wld_walida",
+      "reason": "Feminine parent term, normalized to wālida."
+    },
+    {
+      "form_group_id": "qac-form:wld:wa`liday:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "wld_walid",
+      "reason": "Inflected dual/possessive forms of wālid; represented under the parent citation form."
+    },
+    {
+      "form_group_id": "qac-form:wld:walad:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wld_walad",
+      "reason": "Core child or offspring noun."
+    },
+    {
+      "form_group_id": "qac-form:wld:waliyd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wld_walid_child",
+      "reason": "Distinct child/infancy noun with the citation form walīd."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wld_walada",
+      "form_group_ids": [
+        "qac-form:wld:walada:verb:I"
+      ],
+      "headword_arabic": "وَلَدَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "wld_walada_s1",
+          "definition": "To give birth to or beget; in the passive, to be born or be begotten.",
+          "usage_conditions": "The active verb may describe a female parent giving birth or a male parent begetting; passive forms describe the person born or begotten. The same lexical relation is expressed across active and passive voice.",
+          "source_refs": [
+            "lane:entry:45716",
+            "mufradat:row:1612"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:72",
+          "word_location": "11:72:3",
+          "sense_ids": [
+            "wld_walada_s1"
+          ]
+        },
+        {
+          "verse_key": "19:15",
+          "word_location": "19:15:4",
+          "sense_ids": [
+            "wld_walada_s1"
+          ]
+        },
+        {
+          "verse_key": "90:3",
+          "word_location": "90:3:3",
+          "sense_ids": [
+            "wld_walada_s1"
+          ]
+        },
+        {
+          "verse_key": "112:3",
+          "word_location": "112:3:4",
+          "sense_ids": [
+            "wld_walada_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wld_mawlud",
+      "form_group_ids": [
+        "qac-form:wld:mawoluwd:nominal:-"
+      ],
+      "headword_arabic": "مَوْلُود",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "wld_mawlud_s1",
+          "definition": "One born; a newborn or offspring. In the Quranic construction مَوْلُودٌ لَهُ, the person for whom a child is born, namely the father.",
+          "usage_conditions": "The literal passive-participial sense is extended by the constructional relation “one for whom a child is born”; the supplied contextual rendering identifies that person as the father.",
+          "source_refs": [
+            "lane:entry:45730",
+            "mufradat:row:1612"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:233",
+          "word_location": "2:233:12",
+          "sense_ids": [
+            "wld_mawlud_s1"
+          ]
+        },
+        {
+          "verse_key": "31:33",
+          "word_location": "31:33:13",
+          "sense_ids": [
+            "wld_mawlud_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wld_walad",
+      "form_group_ids": [
+        "qac-form:wld:walad:nominal:-"
+      ],
+      "headword_arabic": "وَلَد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 56,
+      "senses": [
+        {
+          "sense_id": "wld_walad_s1",
+          "definition": "A child or offspring, including a son or daughter; in usage, also an adopted child.",
+          "usage_conditions": "The noun may be used for one child or collectively for children and offspring, and may refer to a child attributed by adoption as well as one naturally begotten.",
+          "source_refs": [
+            "lane:entry:45726",
+            "mufradat:row:1612"
+          ]
+        },
+        {
+          "sense_id": "wld_walad_s2",
+          "definition": "A man's people, tribe, or family.",
+          "usage_conditions": "This is a reported Quran-associated interpretation of the vocalic variant wuld in a possessive expression. The supplied lexical evidence does not securely identify the modern verse location for that interpretation.",
+          "source_refs": [
+            "lane:entry:45724",
+            "mufradat:row:1612"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:21",
+          "word_location": "12:21:14",
+          "sense_ids": [
+            "wld_walad_s1"
+          ]
+        },
+        {
+          "verse_key": "28:9",
+          "word_location": "28:9:15",
+          "sense_ids": [
+            "wld_walad_s1"
+          ]
+        },
+        {
+          "verse_key": "2:233",
+          "word_location": "2:233:25",
+          "sense_ids": [
+            "wld_walad_s1"
+          ]
+        },
+        {
+          "verse_key": "71:21",
+          "word_location": "71:21:11",
+          "sense_ids": [
+            "wld_walad_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wld_walid",
+      "form_group_ids": [
+        "qac-form:wld:waAlid:nominal:-",
+        "qac-form:wld:wa`liday:nominal:-"
+      ],
+      "headword_arabic": "وَالِد",
+      "public_pos_label": "Noun · Parent",
+      "verb_form": null,
+      "occurrence_count": 24,
+      "senses": [
+        {
+          "sense_id": "wld_walid_s1",
+          "definition": "A father, begetter, or parent; in the dual, the two parents, father and mother.",
+          "usage_conditions": "The Quranic dual forms refer collectively to both parents, while the singular masculine form denotes a father or begetter.",
+          "source_refs": [
+            "lane:entry:45734",
+            "mufradat:row:1612"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "90:3",
+          "word_location": "90:3:1",
+          "sense_ids": [
+            "wld_walid_s1"
+          ]
+        },
+        {
+          "verse_key": "17:23",
+          "word_location": "17:23:7",
+          "sense_ids": [
+            "wld_walid_s1"
+          ]
+        },
+        {
+          "verse_key": "31:33",
+          "word_location": "31:33:9",
+          "sense_ids": [
+            "wld_walid_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wld_walida",
+      "form_group_ids": [
+        "qac-form:wld:wa`lidap:nominal:-",
+        "qac-form:wld:wa`lida`t:nominal:-"
+      ],
+      "headword_arabic": "وَالِدَة",
+      "public_pos_label": "Active participle · Mother",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "wld_walida_s1",
+          "definition": "A mother or female parent.",
+          "usage_conditions": "The Quranic singular and plural forms refer to a mother or mothers; the word is substantivized as the feminine parent term.",
+          "source_refs": [
+            "lane:entry:45734",
+            "mufradat:row:1612"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:233",
+          "word_location": "2:233:24",
+          "sense_ids": [
+            "wld_walida_s1"
+          ]
+        },
+        {
+          "verse_key": "2:233",
+          "word_location": "2:233:1",
+          "sense_ids": [
+            "wld_walida_s1"
+          ]
+        },
+        {
+          "verse_key": "5:110",
+          "word_location": "5:110:11",
+          "sense_ids": [
+            "wld_walida_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wld_walid_child",
+      "form_group_ids": [
+        "qac-form:wld:waliyd:nominal:-"
+      ],
+      "headword_arabic": "وَلِيد",
+      "public_pos_label": "Noun · Child",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "wld_walid_child_s1",
+          "definition": "A newborn or young child; in the plural, children or young boys.",
+          "usage_conditions": "The term is especially applied near the time of birth and may continue through childhood; the Quranic plural denotes children or young boys in its respective contexts.",
+          "source_refs": [
+            "lane:entry:45730",
+            "mufradat:row:1612"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:18",
+          "word_location": "26:18:5",
+          "sense_ids": [
+            "wld_walid_child_s1"
+          ]
+        },
+        {
+          "verse_key": "56:17",
+          "word_location": "56:17:3",
+          "sense_ids": [
+            "wld_walid_child_s1"
+          ]
+        },
+        {
+          "verse_key": "76:19",
+          "word_location": "76:19:3",
+          "sense_ids": [
+            "wld_walid_child_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_walada_produce",
+      "headword_arabic": "وَلَدَ",
+      "definition": "Figuratively, to produce, yield, or bring forth something.",
+      "usage_conditions": "Used of things such as land or nights that metaphorically bring forth or produce an outcome.",
+      "source_refs": [
+        "lane:entry:45716"
+      ]
+    },
+    {
+      "meaning_id": "cm_wallada_midwife",
+      "headword_arabic": "وَلَّدَ",
+      "definition": "To assist a woman or female animal in giving birth; to act as a midwife.",
+      "usage_conditions": "A causative Form II use describing assistance in delivery.",
+      "source_refs": [
+        "lane:entry:45717"
+      ]
+    },
+    {
+      "meaning_id": "cm_wallada_make_mother",
+      "headword_arabic": "وَلَّدَ",
+      "definition": "To make a woman the mother of children.",
+      "usage_conditions": "A causative use distinct from assisting the delivery itself.",
+      "source_refs": [
+        "lane:entry:45717"
+      ]
+    },
+    {
+      "meaning_id": "cm_wallada_rear",
+      "headword_arabic": "وَلَّدَ",
+      "definition": "To rear, educate, or bring up a person.",
+      "usage_conditions": "A derived Form II use applied to upbringing rather than physical birth.",
+      "source_refs": [
+        "lane:entry:45717"
+      ]
+    },
+    {
+      "meaning_id": "cm_wallada_innovate",
+      "headword_arabic": "وَلَّدَ",
+      "definition": "To innovate, originate, or generate something.",
+      "usage_conditions": "A figurative Form II use applied to language, stories, or other newly produced things.",
+      "source_refs": [
+        "lane:entry:45717"
+      ]
+    },
+    {
+      "meaning_id": "cm_awlada_near_birth",
+      "headword_arabic": "أَوْلَدَ",
+      "definition": "To approach the time of giving birth or to be about to bring forth.",
+      "usage_conditions": "Used of a woman or female animal nearing delivery, and by extension of people nearing the time of having children.",
+      "source_refs": [
+        "lane:entry:45718"
+      ]
+    },
+    {
+      "meaning_id": "cm_awlada_make_mother",
+      "headword_arabic": "أَوْلَدَ",
+      "definition": "To make a girl or woman the mother of a child.",
+      "usage_conditions": "A causative Form IV use describing the result of making someone a mother.",
+      "source_refs": [
+        "lane:entry:45718"
+      ]
+    },
+    {
+      "meaning_id": "cm_tawallada",
+      "headword_arabic": "تَوَلَّدَ",
+      "definition": "To become generated, produced, or originated from something else.",
+      "usage_conditions": "The source may be expressed with مِنْ or عَنْ; the construction presents the thing as arising from another.",
+      "source_refs": [
+        "lane:entry:45719"
+      ]
+    },
+    {
+      "meaning_id": "cm_tawalada_mutual",
+      "headword_arabic": "تَوَالَدَ",
+      "definition": "To multiply through propagation and beget one another.",
+      "usage_conditions": "A reciprocal Form VI use describing increase by reproduction.",
+      "source_refs": [
+        "lane:entry:45720"
+      ]
+    },
+    {
+      "meaning_id": "cm_istawlada",
+      "headword_arabic": "اِسْتَوْلَدَ",
+      "definition": "To render a woman pregnant or get her with child.",
+      "usage_conditions": "The source records this Form X use with an explicit qualification that some authorities disallow the competing Form IV expression in this sense.",
+      "source_refs": [
+        "lane:entry:45722"
+      ]
+    },
+    {
+      "meaning_id": "cm_walad_man_idiom",
+      "headword_arabic": "وَلَد",
+      "definition": "In the expression أَيُّ وَلَدِ الرَّجُلِ هُوَ, an unidentified man or person.",
+      "usage_conditions": "An idiomatic use illustrated by the question of what sort of man someone is.",
+      "source_refs": [
+        "lane:entry:45726"
+      ]
+    },
+    {
+      "meaning_id": "cm_lida",
+      "headword_arabic": "لِدَة",
+      "definition": "A person born at the same time as another; a coetanean or contemporary in birth.",
+      "usage_conditions": "Applied to either a male or female peer of the same birth period; the initial waw is treated as elided in the lexical explanation.",
+      "source_refs": [
+        "lane:entry:45727"
+      ]
+    },
+    {
+      "meaning_id": "cm_wilad_pregnancy",
+      "headword_arabic": "وِلَاد",
+      "definition": "Pregnancy.",
+      "usage_conditions": "A nominal use for the state of carrying a child or young one.",
+      "source_refs": [
+        "lane:entry:45728"
+      ]
+    },
+    {
+      "meaning_id": "cm_walud_prolific",
+      "headword_arabic": "وَلُود",
+      "definition": "Prolific; breeding or bringing forth abundantly.",
+      "usage_conditions": "Applied to a female human or animal that bears many offspring.",
+      "source_refs": [
+        "lane:entry:45729"
+      ]
+    },
+    {
+      "meaning_id": "cm_waliyd_servant",
+      "headword_arabic": "وَلِيد",
+      "definition": "A boy, youth, youthful servant, or slave.",
+      "usage_conditions": "A specialized and partly figurative extension from childhood; a female servant may be called وليدة, and a female slave may retain that designation even when older.",
+      "source_refs": [
+        "lane:entry:45730"
+      ]
+    },
+    {
+      "meaning_id": "cm_umm_walid_hen",
+      "headword_arabic": "أُمُّ الوَلِيد",
+      "definition": "A domestic hen.",
+      "usage_conditions": "A fixed lexical expression rather than a general meaning of وليد.",
+      "source_refs": [
+        "lane:entry:45730"
+      ]
+    },
+    {
+      "meaning_id": "cm_waliyd_idiom",
+      "headword_arabic": "وَلِيد",
+      "definition": "In the idiom لَا يُنَادَى وَلِيدُهُ, a situation so absorbing or formidable that a child is not called out to; by extension, a state of difficulty, abundance, or unrestricted plenty.",
+      "usage_conditions": "The idiom is reported with more than one contextual application, including distress and abundance; related expressions describe land or food whose abundance permits unrestricted use.",
+      "source_refs": [
+        "lane:entry:45730"
+      ]
+    },
+    {
+      "meaning_id": "cm_wuludiyya_infancy",
+      "headword_arabic": "وُلُودِيَّة",
+      "definition": "Infancy, boyhood, or girlhood; the state of being a child.",
+      "usage_conditions": "A noun naming the period in which a person is a وليد or وليدة.",
+      "source_refs": [
+        "lane:entry:45732"
+      ]
+    },
+    {
+      "meaning_id": "cm_wuludiyya_rudeness",
+      "headword_arabic": "وُلُودِيَّة",
+      "definition": "Rudeness, coarseness, churlishness, or illiterateness.",
+      "usage_conditions": "A figurative or specialized use describing deficiency in gentleness or knowledge of affairs.",
+      "source_refs": [
+        "lane:entry:45732"
+      ]
+    },
+    {
+      "meaning_id": "cm_wallada_good",
+      "headword_arabic": "وَلَّادَة",
+      "definition": "Highly productive of good.",
+      "usage_conditions": "A figurative nominal use describing companionship that generates beneficial results.",
+      "source_refs": [
+        "lane:entry:45733"
+      ]
+    },
+    {
+      "meaning_id": "cm_walid_bearing",
+      "headword_arabic": "وَالِد",
+      "definition": "A female parent or pregnant animal that has borne or is bearing young.",
+      "usage_conditions": "This lexical application includes a woman and a pregnant animal; it is kept separate from the Quranic masculine parent sense.",
+      "source_refs": [
+        "lane:entry:45734"
+      ]
+    },
+    {
+      "meaning_id": "cm_walid_pregnant",
+      "headword_arabic": "وَالِد",
+      "definition": "A pregnant ewe or goat.",
+      "usage_conditions": "A specific animal use of the parent/bearing term.",
+      "source_refs": [
+        "lane:entry:45734"
+      ]
+    },
+    {
+      "meaning_id": "cm_walid_prolific",
+      "headword_arabic": "وَالِد",
+      "definition": "A prolific ewe or goat that bears abundantly.",
+      "usage_conditions": "A specialized animal use emphasizing repeated or plentiful bearing.",
+      "source_refs": [
+        "lane:entry:45734"
+      ]
+    },
+    {
+      "meaning_id": "cm_walid_phrase",
+      "headword_arabic": "وَالِد",
+      "definition": "In the expression مِنْ شَرِّ وَالِدٍ وَمَا وَلَدَ, a parent and what the parent has begotten.",
+      "usage_conditions": "The expression is attested in a traditional prayer formula and has competing interpretive applications; its literal parent-and-offspring construction is retained without selecting among those interpretations.",
+      "source_refs": [
+        "lane:entry:45734"
+      ]
+    },
+    {
+      "meaning_id": "cm_mawlid_place",
+      "headword_arabic": "مَوْلِد",
+      "definition": "A person's place of birth.",
+      "usage_conditions": "A locative noun referring to where someone was born.",
+      "source_refs": [
+        "lane:entry:45735"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwlid_approaching",
+      "headword_arabic": "مُولِد",
+      "definition": "A woman or ewe or she-goat about to bring forth.",
+      "usage_conditions": "An active-participial noun for one approaching delivery.",
+      "source_refs": [
+        "lane:entry:45736"
+      ]
+    },
+    {
+      "meaning_id": "cm_milad_time",
+      "headword_arabic": "مِيلَاد",
+      "definition": "The time of a person's birth.",
+      "usage_conditions": "A temporal noun referring to when someone was born.",
+      "source_refs": [
+        "lane:entry:45737"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwallad_person",
+      "headword_arabic": "مُوَلَّد",
+      "definition": "A person of non-Arabian extraction born or raised among Arabs, or one born in a Muslim territory or household according to the reported usages.",
+      "usage_conditions": "The term has several closely related social applications, including a person raised with Arab children and educated in their manner, or one with only one Arab parent.",
+      "source_refs": [
+        "lane:entry:45739"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwallad_poet",
+      "headword_arabic": "مُوَلَّد",
+      "definition": "A post-classical poet of the class following the early Islamic poets.",
+      "usage_conditions": "A technical literary classification based on the poet's later period and the subsequent development of Arabic.",
+      "source_refs": [
+        "lane:entry:45739"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwallad_language",
+      "headword_arabic": "مُوَلَّد",
+      "definition": "A post-classical, modernized, or non-genuine Arabic word, phrase, or language.",
+      "usage_conditions": "A technical linguistic use for language not belonging to the original Arabian dialects or for expressions introduced by later speakers.",
+      "source_refs": [
+        "lane:entry:45739"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwallad_innovated",
+      "headword_arabic": "مُوَلَّد",
+      "definition": "Anything innovated or newly introduced.",
+      "usage_conditions": "A general figurative use extending the idea of later generation or production.",
+      "source_refs": [
+        "lane:entry:45739"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwallad_forged",
+      "headword_arabic": "مُوَلَّد",
+      "definition": "A forged or fabricated writing.",
+      "usage_conditions": "A specialized use applied to a document whose claimed authenticity is not genuine.",
+      "source_refs": [
+        "lane:entry:45739"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwallad_unverified",
+      "headword_arabic": "مُوَلَّدَة",
+      "definition": "Unverified evidence.",
+      "usage_conditions": "A specialized use for evidence that has not been authenticated.",
+      "source_refs": [
+        "lane:entry:45739"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwallida_midwife",
+      "headword_arabic": "مُوَلِّدَة",
+      "definition": "A midwife.",
+      "usage_conditions": "The feminine active-participial noun denotes one who assists in childbirth.",
+      "source_refs": [
+        "lane:entry:45740"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wld:45716:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wld_walada_s1"
+      ],
+      "note": "Birth and begetting."
+    },
+    {
+      "unit_id": "lane-unit:wld:45716:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wld_walada_s1"
+      ],
+      "note": "Active begetting covered by the Quranic verb sense."
+    },
+    {
+      "unit_id": "lane-unit:wld:45716:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_walada_produce"
+      ],
+      "note": "Figurative production."
+    },
+    {
+      "unit_id": "lane-unit:wld:45716:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_walada_produce"
+      ],
+      "note": "Metaphorical bringing forth."
+    },
+    {
+      "unit_id": "lane-unit:wld:45716:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional/grammatical variant."
+    },
+    {
+      "unit_id": "lane-unit:wld:45717:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wallada_midwife"
+      ],
+      "note": "Assisting delivery."
+    },
+    {
+      "unit_id": "lane-unit:wld:45717:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wallada_make_mother"
+      ],
+      "note": "Making a woman mother."
+    },
+    {
+      "unit_id": "lane-unit:wld:45717:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wallada_rear"
+      ],
+      "note": "Rearing or educating."
+    },
+    {
+      "unit_id": "lane-unit:wld:45717:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wallada_innovate"
+      ],
+      "note": "Innovating or generating."
+    },
+    {
+      "unit_id": "lane-unit:wld:45718:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_awlada_near_birth"
+      ],
+      "note": "Approaching delivery."
+    },
+    {
+      "unit_id": "lane-unit:wld:45718:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_awlada_near_birth"
+      ],
+      "note": "People approaching childbearing."
+    },
+    {
+      "unit_id": "lane-unit:wld:45718:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_awlada_make_mother"
+      ],
+      "note": "Making a girl mother."
+    },
+    {
+      "unit_id": "lane-unit:wld:45719:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tawallada"
+      ],
+      "note": "Being generated from something."
+    },
+    {
+      "unit_id": "lane-unit:wld:45719:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_tawallada"
+      ],
+      "note": "Originating party-spirit is an example."
+    },
+    {
+      "unit_id": "lane-unit:wld:45720:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tawalada_mutual"
+      ],
+      "note": "Propagation and mutual begetting."
+    },
+    {
+      "unit_id": "lane-unit:wld:45721:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form VI."
+    },
+    {
+      "unit_id": "lane-unit:wld:45722:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istawlada"
+      ],
+      "note": "Getting a woman with child."
+    },
+    {
+      "unit_id": "lane-unit:wld:45723:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to وَلَدٌ."
+    },
+    {
+      "unit_id": "lane-unit:wld:45724:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wld_walad_s2"
+      ],
+      "note": "People, tribe, or family interpretation with Quran association."
+    },
+    {
+      "unit_id": "lane-unit:wld:45724:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to وَلَدٌ."
+    },
+    {
+      "unit_id": "lane-unit:wld:45725:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:wld:45726:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wld_walad_s1"
+      ],
+      "note": "Child and offspring."
+    },
+    {
+      "unit_id": "lane-unit:wld:45726:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wld_walad_s1"
+      ],
+      "note": "Biological-child contrast in a proverb."
+    },
+    {
+      "unit_id": "lane-unit:wld:45726:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_walad_man_idiom"
+      ],
+      "note": "Idiomatic person/man usage."
+    },
+    {
+      "unit_id": "lane-unit:wld:45727:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lida"
+      ],
+      "note": "Coetanean in birth."
+    },
+    {
+      "unit_id": "lane-unit:wld:45727:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another lexical entry."
+    },
+    {
+      "unit_id": "lane-unit:wld:45728:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form I."
+    },
+    {
+      "unit_id": "lane-unit:wld:45728:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wilad_pregnancy"
+      ],
+      "note": "Pregnancy."
+    },
+    {
+      "unit_id": "lane-unit:wld:45729:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_walud_prolific"
+      ],
+      "note": "Prolific breeding."
+    },
+    {
+      "unit_id": "lane-unit:wld:45729:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to وَالِدٌ."
+    },
+    {
+      "unit_id": "lane-unit:wld:45730:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wld_walid_child_s1"
+      ],
+      "note": "Newborn or young child."
+    },
+    {
+      "unit_id": "lane-unit:wld:45730:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wld_walid_child_s1"
+      ],
+      "note": "Illustrative early-infancy example."
+    },
+    {
+      "unit_id": "lane-unit:wld:45730:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waliyd_servant"
+      ],
+      "note": "Boy, youth, servant, or slave."
+    },
+    {
+      "unit_id": "lane-unit:wld:45730:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:wld:45730:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_umm_walid_hen"
+      ],
+      "note": "Fixed expression for a domestic hen."
+    },
+    {
+      "unit_id": "lane-unit:wld:45730:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waliyd_idiom"
+      ],
+      "note": "Idiom of difficulty or abundance."
+    },
+    {
+      "unit_id": "lane-unit:wld:45730:g1:sub7",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_waliyd_idiom"
+      ],
+      "note": "Related abundance expression."
+    },
+    {
+      "unit_id": "lane-unit:wld:45730:g1:sub8",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_waliyd_idiom"
+      ],
+      "note": "Related idiomatic application."
+    },
+    {
+      "unit_id": "lane-unit:wld:45731:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to وَلِيدٌ."
+    },
+    {
+      "unit_id": "lane-unit:wld:45732:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wuludiyya_infancy"
+      ],
+      "note": "Infancy or childhood."
+    },
+    {
+      "unit_id": "lane-unit:wld:45732:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wuludiyya_rudeness"
+      ],
+      "note": "Rudeness or illiterateness."
+    },
+    {
+      "unit_id": "lane-unit:wld:45733:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wallada_good"
+      ],
+      "note": "Productive of good."
+    },
+    {
+      "unit_id": "lane-unit:wld:45734:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_walid_bearing"
+      ],
+      "note": "Female parent or pregnant bearer."
+    },
+    {
+      "unit_id": "lane-unit:wld:45734:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wld_walid_s1"
+      ],
+      "note": "Father, mother, and dual parents."
+    },
+    {
+      "unit_id": "lane-unit:wld:45734:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_walid_bearing",
+        "cm_walid_pregnant"
+      ],
+      "note": "Specific pregnant-ewe or goat application."
+    },
+    {
+      "unit_id": "lane-unit:wld:45734:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_walid_prolific"
+      ],
+      "note": "Prolific ewe or goat."
+    },
+    {
+      "unit_id": "lane-unit:wld:45734:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_walid_phrase"
+      ],
+      "note": "Traditional parent-and-offspring expression."
+    },
+    {
+      "unit_id": "lane-unit:wld:45735:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mawlid_place"
+      ],
+      "note": "Place of birth."
+    },
+    {
+      "unit_id": "lane-unit:wld:45735:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مِيلَادٌ."
+    },
+    {
+      "unit_id": "lane-unit:wld:45736:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muwlid_approaching"
+      ],
+      "note": "One approaching delivery."
+    },
+    {
+      "unit_id": "lane-unit:wld:45737:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_milad_time"
+      ],
+      "note": "Time of birth."
+    },
+    {
+      "unit_id": "lane-unit:wld:45737:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer or etymological relation to Form I."
+    },
+    {
+      "unit_id": "lane-unit:wld:45738:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to وَلِيدٌ; the destination supplies the lexical equivalence."
+    },
+    {
+      "unit_id": "lane-unit:wld:45739:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muwallad_person"
+      ],
+      "note": "Social use for a person of non-Arabian extraction or upbringing."
+    },
+    {
+      "unit_id": "lane-unit:wld:45739:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muwallad_poet"
+      ],
+      "note": "Literary classification."
+    },
+    {
+      "unit_id": "lane-unit:wld:45739:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muwallad_language"
+      ],
+      "note": "Post-classical language or word."
+    },
+    {
+      "unit_id": "lane-unit:wld:45739:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muwallad_innovated"
+      ],
+      "note": "Anything innovated."
+    },
+    {
+      "unit_id": "lane-unit:wld:45739:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muwallad_forged"
+      ],
+      "note": "Forged writing."
+    },
+    {
+      "unit_id": "lane-unit:wld:45739:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muwallad_unverified"
+      ],
+      "note": "Unverified evidence."
+    },
+    {
+      "unit_id": "lane-unit:wld:45740:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muwallida_midwife"
+      ],
+      "note": "Midwife."
+    }
+  ],
+  "cautions": [
+    "The dual and possessive QAC groups for وَالِد are presented under the masculine parent citation form, while the feminine singular and plural are presented under وَالِدَة.",
+    "The contextual rendering of مَوْلُودٌ لَهُ as “the father” is a constructional interpretation; the supplied lexical evidence directly establishes the passive-participial relation “one born” and its equivalence with وَلِيد.",
+    "The family or tribe interpretation associated with وُلْد is reported as Quran-associated, but Lane's printed citation uses the historical notation “lxxi. 20”; it has not been converted into an unverified modern verse location."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Lane citation for the family/tribe interpretation in lane-unit:wld:45724:g1:main does not securely match the supplied QAC occurrence at 71:21, so the interpretation is represented without assigning it a modern Quran example location."
+  ]
+}

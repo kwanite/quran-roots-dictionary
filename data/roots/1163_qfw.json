@@ -1,0 +1,238 @@
+{
+  "root": "qfw",
+  "arabic": "قفو",
+  "root_idea": {
+    "summary": "The root is oriented around the rear or nape and following what lies behind it: tracking, pursuit, and succession.",
+    "development": "From the nape and the act of following a trace, the usage develops into pursuing a matter, causing one thing to come after another, and related derivatives for poetic endings and attentive provision.",
+    "source_refs": [
+      "mufradat:row:1199"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qfw:taqofu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qfw_f1_qafa",
+      "reason": "The inflected Quranic imperfect is normalized to the Classical Arabic perfect citation form قَفَا."
+    },
+    {
+      "form_group_id": "qac-form:qfw:qaf~ayo:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qfw_f2_qaffa",
+      "reason": "The inflected Quranic Form II verb is normalized to the Classical Arabic perfect citation form قَفَّى."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qfw_f1_qafa",
+      "form_group_ids": [
+        "qac-form:qfw:taqofu:verb:I"
+      ],
+      "headword_arabic": "قَفَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qfw_f1_s1",
+          "definition": "To follow or pursue; literally, to track a person's footsteps or trace.",
+          "usage_conditions": "The Quranic occurrence extends the idea of following a trace to pursuing something about which one lacks knowledge; the use is not limited to physical tracks.",
+          "source_refs": [
+            "lane:entry:21072",
+            "mufradat:row:1199"
+          ]
+        },
+        {
+          "sense_id": "qfw_f1_s2",
+          "definition": "To make a judgment by speculative tracing or conjecture.",
+          "usage_conditions": "In the interpretation of 17:36, the prohibition is explained as forbidding judgment by qiyāfah and conjecture. This is a Quran-specific figurative application of following or tracing, not a restriction on every use of the verb.",
+          "source_refs": [
+            "mufradat:row:1199"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:36",
+          "word_location": "17:36:2",
+          "sense_ids": [
+            "qfw_f1_s1",
+            "qfw_f1_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qfw_f2_qaffa",
+      "form_group_ids": [
+        "qac-form:qfw:qaf~ayo:verb:II"
+      ],
+      "headword_arabic": "قَفَّى",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qfw_f2_s1",
+          "definition": "To cause someone or something to follow after another; to send in succession.",
+          "usage_conditions": "The Quranic construction describes messengers being sent after an earlier messenger or group, with the Form II causative sense of making one follow behind another.",
+          "source_refs": [
+            "mufradat:row:1199"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:87",
+          "word_location": "2:87:5",
+          "sense_ids": [
+            "qfw_f2_s1"
+          ]
+        },
+        {
+          "verse_key": "5:46",
+          "word_location": "5:46:1",
+          "sense_ids": [
+            "qfw_f2_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qfw_cm_qafa_nape",
+      "headword_arabic": "قَفًا",
+      "definition": "The back of the neck; also the back or flat reverse surface of the hand, a knife, or a similar object.",
+      "usage_conditions": "The hand and knife applications are explicit extensions of the designation of a rear or back surface.",
+      "source_refs": [
+        "lane:entry:21073",
+        "mufradat:row:1199"
+      ]
+    },
+    {
+      "meaning_id": "qfw_cm_qafa_strike_nape",
+      "headword_arabic": "قَفَا",
+      "definition": "To reach or strike someone's nape.",
+      "usage_conditions": "Attested in the expression قَفَوْتُهُ, with the nape as the object.",
+      "source_refs": [
+        "mufradat:row:1199"
+      ]
+    },
+    {
+      "meaning_id": "qfw_cm_qafa_idiom",
+      "headword_arabic": "قَفًا",
+      "definition": "In the expression عَيْنَاهُ فِي قَفَاهِ, to describe a fleeing person who keeps looking back in fear of pursuit.",
+      "usage_conditions": "This is a conventional idiomatic description rather than a general anatomical claim.",
+      "source_refs": [
+        "lane:entry:21073"
+      ]
+    },
+    {
+      "meaning_id": "qfw_cm_iqtifa",
+      "headword_arabic": "اِقْتِفَاءٌ",
+      "definition": "Following a person's rear or track; figuratively, backbiting and tracing a person's faults.",
+      "usage_conditions": "The figurative sense is presented as an euphemistic extension of following someone's rear.",
+      "source_refs": [
+        "mufradat:row:1199"
+      ]
+    },
+    {
+      "meaning_id": "qfw_cm_qiyafa",
+      "headword_arabic": "قِيَافَةٌ",
+      "definition": "A craft or practice of conjectural tracing or inference.",
+      "usage_conditions": "Its connection with اِقْتِفَاءٌ is reported as a reversal or metathesis, and the term is used in an explanation involving judgment by conjecture.",
+      "source_refs": [
+        "mufradat:row:1199"
+      ]
+    },
+    {
+      "meaning_id": "qfw_cm_qafiya",
+      "headword_arabic": "قَافِيَةٌ",
+      "definition": "The final part of a poetic line whose wording is observed and repeated across the poem; by extension, a verse or line, and then an ode or poem.",
+      "usage_conditions": "The meanings move from the ending of a line to the whole line and, by synecdoche and further extension, to a complete poem.",
+      "source_refs": [
+        "lane:entry:21075",
+        "mufradat:row:1199"
+      ]
+    },
+    {
+      "meaning_id": "qfw_cm_qafawa",
+      "headword_arabic": "قَفَاوَةٌ",
+      "definition": "Food provided to someone as an act of personal attention or care.",
+      "usage_conditions": "The term refers to food supplied for a person whom one attends to or looks after.",
+      "source_refs": [
+        "mufradat:row:1199"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qfw:21072:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfw_f1_s1"
+      ],
+      "note": "Direct tracking and following a trace are represented in the Form I pursuit sense."
+    },
+    {
+      "unit_id": "lane-unit:qfw:21072:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qfw_f1_s1"
+      ],
+      "note": "Repeats the following-footsteps construction covered by the Form I pursuit sense."
+    },
+    {
+      "unit_id": "lane-unit:qfw:21073:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfw_cm_qafa_nape"
+      ],
+      "note": "The anatomical meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:qfw:21073:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfw_cm_qafa_idiom"
+      ],
+      "note": "The fleeing-person idiom is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:qfw:21073:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfw_cm_qafa_nape"
+      ],
+      "note": "The extended back-surface applications are included with the anatomical meaning."
+    },
+    {
+      "unit_id": "lane-unit:qfw:21074:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no supplied lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:qfw:21075:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfw_cm_qafiya"
+      ],
+      "note": "The verse or single-line poetic use is represented under قَافِيَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:qfw:21075:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qfw_cm_qafiya"
+      ],
+      "note": "The extension to an ode or poem is included in the same poetic entry."
+    }
+  ],
+  "cautions": [
+    "The public verb headwords are normalized citation forms; the Quranic occurrences themselves are the inflected forms تَقْفُ and وَقَفَّيْنَا.",
+    "The explanation linking قِيَافَةٌ with اِقْتِفَاءٌ is reported as a proposed reversal, so the derivational relationship should not be treated as certain."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

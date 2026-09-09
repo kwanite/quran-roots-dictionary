@@ -1,0 +1,418 @@
+{
+  "root": "lms",
+  "arabic": "لمس",
+  "root_idea": {
+    "summary": "The root centers on tactile contact and the seeking or pursuit of something.",
+    "development": "The root's original orientation is seeking by hand in order to know a thing's touch; this usage developed into the broader sense of seeking or pursuing anything.",
+    "source_refs": [
+      "maqayis:row:4223"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lms:lamasu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:lms:lamasa:I",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:lms:{lotamisu:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:lms:iltamasa:VIII",
+      "reason": "Displayed separately as the attested Form VIII verb."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:lms:lamasa:I",
+      "form_group_ids": [
+        "qac-form:lms:lamasu:verb:I"
+      ],
+      "headword_arabic": "لَمَسَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qform:lms:lamasa:I:s1",
+          "definition": "To touch or feel something through the outer surface of the body; to make tactile contact.",
+          "usage_conditions": "The sense includes direct physical contact and feeling something with the hand. In the Quranic passages concerning touching or contacting women, the expression is also subject to the interpretive range described in the following sense.",
+          "source_refs": [
+            "lane:entry:9870",
+            "mufradat:row:1323"
+          ]
+        },
+        {
+          "sense_id": "qform:lms:lamasa:I:s2",
+          "definition": "To have sexual intercourse, expressed euphemistically as touching a woman.",
+          "usage_conditions": "Attested in the construction لَامَسْتُمُ النِّسَاءَ / لَمَسْتُمُ النِّسَاءَ. The same Quranic wording is also interpreted as referring to physical touching rather than intercourse.",
+          "source_refs": [
+            "lane:entry:9870",
+            "mufradat:row:1323"
+          ]
+        },
+        {
+          "sense_id": "qform:lms:lamasa:I:s3",
+          "definition": "To seek, search for, or pursue something.",
+          "usage_conditions": "This is an extended use from feeling or searching for something by hand and may refer to seeking or striving after an object, knowledge, or a destination.",
+          "source_refs": [
+            "lane:entry:9870",
+            "mufradat:row:1323"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:43",
+          "word_location": "4:43:33",
+          "sense_ids": [
+            "qform:lms:lamasa:I:s1",
+            "qform:lms:lamasa:I:s2"
+          ]
+        },
+        {
+          "verse_key": "5:6",
+          "word_location": "5:6:35",
+          "sense_ids": [
+            "qform:lms:lamasa:I:s1",
+            "qform:lms:lamasa:I:s2"
+          ]
+        },
+        {
+          "verse_key": "6:7",
+          "word_location": "6:7:7",
+          "sense_ids": [
+            "qform:lms:lamasa:I:s1"
+          ]
+        },
+        {
+          "verse_key": "72:8",
+          "word_location": "72:8:2",
+          "sense_ids": [
+            "qform:lms:lamasa:I:s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:lms:iltamasa:VIII",
+      "form_group_ids": [
+        "qac-form:lms:{lotamisu:verb:VIII"
+      ],
+      "headword_arabic": "اِلْتَمَسَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform:lms:iltamasa:VIII:s1",
+          "definition": "To seek, search for, or pursue something.",
+          "usage_conditions": "The Form VIII verb expresses active seeking or searching; the Quranic occurrence is an imperative addressed to a group.",
+          "source_refs": [
+            "lane:entry:9870",
+            "lane:entry:9874"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "57:13",
+          "word_location": "57:13:14",
+          "sense_ids": [
+            "qform:lms:iltamasa:VIII:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "c_lms_knowledge_without_contact",
+      "headword_arabic": "لَمْسٌ",
+      "definition": "Apprehending or coming to know a thing even without direct physical contact.",
+      "usage_conditions": "A figurative extension in which لمس denotes knowledge or recognition rather than contact between substances.",
+      "source_refs": [
+        "lane:entry:9870"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_kiss",
+      "headword_arabic": "لَمَسَ",
+      "definition": "To kiss a woman.",
+      "usage_conditions": "A figurative or euphemistic use mentioned alongside the sense of sexual intercourse.",
+      "source_refs": [
+        "lane:entry:9870"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_destroy_sight",
+      "headword_arabic": "لَمَسَ البَصَرَ",
+      "definition": "To take away or destroy sight, including by attacking or putting out the eye.",
+      "usage_conditions": "A figurative construction used of sight or the eye; the reported explanations include rapidly destroying sight and aiming at the eye with a bite.",
+      "source_refs": [
+        "lane:entry:9870"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_sale_by_touch",
+      "headword_arabic": "بَيْعُ الْمُلَامَسَةِ",
+      "definition": "A sale concluded merely by touching the garment or commodity, without seeing, inspecting, or retaining the option to return it.",
+      "usage_conditions": "A conventional and prohibited mode of bargaining in which touching makes the sale binding.",
+      "source_refs": [
+        "lane:entry:9871"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_permit_touch",
+      "headword_arabic": "أَلْمَسَ",
+      "definition": "To permit someone to feel or touch another person.",
+      "usage_conditions": "Attested in the construction أَلْمِسْنِي الْجَارِيَةَ, “permit me to feel or touch the girl.”",
+      "source_refs": [
+        "lane:entry:9872"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_procure_wife",
+      "headword_arabic": "أَلْمَسَ",
+      "definition": "To procure or arrange a woman in marriage for the speaker.",
+      "usage_conditions": "A figurative request expressed as أَلْمِسْنِي امْرَأَةً, “marry or procure a woman for me.”",
+      "source_refs": [
+        "lane:entry:9872"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_uncertain_shecamel",
+      "headword_arabic": "لَمُوسٌ",
+      "definition": "A she-camel whose fatness or hump is uncertain and is examined by touch.",
+      "usage_conditions": "The term refers to uncertainty about whether the camel has fat, prompting tactile examination.",
+      "source_refs": [
+        "lane:entry:9875"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_suspect_lineage",
+      "headword_arabic": "لَمُوسٌ",
+      "definition": "A person of suspected origin or lineage, or whose claim to honor has a blemish.",
+      "usage_conditions": "A figurative characterization derived from the specialized camel term.",
+      "source_refs": [
+        "lane:entry:9875"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_soft_woman",
+      "headword_arabic": "لَمِيسٌ",
+      "definition": "A woman soft to the touch.",
+      "usage_conditions": "A descriptive feminine use referring to softness of tactile feel.",
+      "source_refs": [
+        "lane:entry:9876"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_need",
+      "headword_arabic": "لَمَاسَةٌ",
+      "definition": "A want or need, especially a moderate or middling one.",
+      "usage_conditions": "The related forms لَمَاسَةٌ and لُمَاسَةٌ are reported for this meaning.",
+      "source_refs": [
+        "lane:entry:9877"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_guiding_road",
+      "headword_arabic": "لَمُوسَةٌ",
+      "definition": "A road or way sought by someone who has lost the route in order to find the track of travelers.",
+      "usage_conditions": "The name is explained by the road's being sought as a means of recovering the route.",
+      "source_refs": [
+        "lane:entry:9878"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_unrestrained_woman_or_man",
+      "headword_arabic": "لَامِسٌ",
+      "definition": "In the idiom لَا تَرُدُّ يَدَ لَامِسٍ or لَا يَرُدُّ يَدَ لَامِسٍ: a sexually available or promiscuous woman, or a man lacking resistance and regard for what is sacred.",
+      "usage_conditions": "The interpretation varies with the subject: of a woman it describes not repelling a man seeking sexual access; of a man it describes lack of resistance or care for inviolable things.",
+      "source_refs": [
+        "lane:entry:9879"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_giving_husbands_property",
+      "headword_arabic": "لَامِسٌ",
+      "definition": "In an alternative interpretation of the same idiom, a wife who gives out her husband's property when it is requested from her.",
+      "usage_conditions": "This is an alternate explanation of the expression when applied to a wife.",
+      "source_refs": [
+        "lane:entry:9879"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_place_of_touch",
+      "headword_arabic": "مَلْمَسٌ",
+      "definition": "A place or surface that is felt or touched.",
+      "usage_conditions": "The noun may also function as a verbal noun related to لمس.",
+      "source_refs": [
+        "lane:entry:9880"
+      ]
+    },
+    {
+      "meaning_id": "c_lms_smoothed_by_hand",
+      "headword_arabic": "مَلْمُوسٌ",
+      "definition": "Smoothed or evened by repeated passage of the hand.",
+      "usage_conditions": "Used especially of the curved wooden parts of an ass's saddle after their unevenness has been removed by hand.",
+      "source_refs": [
+        "lane:entry:9881"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lms:9870:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:lms:lamasa:I:s1",
+        "qform:lms:lamasa:I:s3",
+        "c_lms_knowledge_without_contact"
+      ],
+      "note": "Covers tactile contact, tactile seeking, and apprehension without direct contact."
+    },
+    {
+      "unit_id": "lane-unit:lms:9870:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:lms:lamasa:I:s2",
+        "c_lms_kiss"
+      ],
+      "note": "Covers intercourse and the related figurative use for kissing."
+    },
+    {
+      "unit_id": "lane-unit:lms:9870:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:lms:lamasa:I:s3"
+      ],
+      "note": "Explicitly covers seeking or searching, including the Quranic usage."
+    },
+    {
+      "unit_id": "lane-unit:lms:9870:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_destroy_sight"
+      ],
+      "note": "Covers taking away or destroying sight."
+    },
+    {
+      "unit_id": "lane-unit:lms:9871:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_sale_by_touch"
+      ],
+      "note": "Covers the conventional sale concluded by touching."
+    },
+    {
+      "unit_id": "lane-unit:lms:9871:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "c_lms_sale_by_touch"
+      ],
+      "note": "Pointer to the figurative Form III usage already represented by the sale meaning."
+    },
+    {
+      "unit_id": "lane-unit:lms:9872:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_permit_touch"
+      ],
+      "note": "Covers permitting tactile contact."
+    },
+    {
+      "unit_id": "lane-unit:lms:9872:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_procure_wife"
+      ],
+      "note": "Covers the figurative marriage request."
+    },
+    {
+      "unit_id": "lane-unit:lms:9873:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:lms:9874:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:lms:iltamasa:VIII:s1"
+      ],
+      "note": "The Form VIII pointer is linked to the Quranic seeking sense it identifies through the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:lms:9875:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_uncertain_shecamel"
+      ],
+      "note": "Covers the specialized she-camel term."
+    },
+    {
+      "unit_id": "lane-unit:lms:9875:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_suspect_lineage"
+      ],
+      "note": "Covers the figurative sense of suspected lineage or tainted pretension."
+    },
+    {
+      "unit_id": "lane-unit:lms:9876:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_soft_woman"
+      ],
+      "note": "Covers softness to the touch."
+    },
+    {
+      "unit_id": "lane-unit:lms:9877:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_need"
+      ],
+      "note": "Covers want or moderate need."
+    },
+    {
+      "unit_id": "lane-unit:lms:9878:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_guiding_road"
+      ],
+      "note": "Covers the sought road or way used to recover a route."
+    },
+    {
+      "unit_id": "lane-unit:lms:9879:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_unrestrained_woman_or_man",
+        "c_lms_giving_husbands_property"
+      ],
+      "note": "Covers the principal idiomatic interpretations."
+    },
+    {
+      "unit_id": "lane-unit:lms:9880:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_place_of_touch"
+      ],
+      "note": "Covers a place or surface that is touched."
+    },
+    {
+      "unit_id": "lane-unit:lms:9881:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_lms_smoothed_by_hand"
+      ],
+      "note": "Covers an object smoothed or evened by hand."
+    }
+  ],
+  "cautions": [
+    "In 4:43 and 5:6, the construction لَامَسْتُمُ النِّسَاءَ / لَمَسْتُمُ النِّسَاءَ has an attested interpretive range between physical touching and euphemistic reference to sexual intercourse.",
+    "The public verb headwords are normalized to perfect-tense dictionary citation forms; the Form VIII Quran occurrence itself is an imperative."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

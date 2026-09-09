@@ -1,0 +1,161 @@
+{
+  "root": "wsl",
+  "arabic": "وسل",
+  "root_idea": {
+    "summary": "The root centers on desiring or seeking, especially reaching or drawing near to a goal through an appropriate means.",
+    "development": "The sources connect the desire/seeking branch with وَسِيلَةٌ, a means of reaching or approaching something, while also recording a separate lexical usage for theft; these branches should not be conflated.",
+    "source_refs": [
+      "maqayis:row:5109",
+      "mufradat:row:1576"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wsl:wasiylap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:wsl:wasila",
+      "reason": "Displayed under the normalized singular noun citation form وَسِيلَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:wsl:wasila",
+      "form_group_ids": [
+        "qac-form:wsl:wasiylap:nominal:-"
+      ],
+      "headword_arabic": "وَسِيلَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform:wsl:wasila:s1",
+          "definition": "A means of reaching or drawing near to a desired object; in the Quranic God-directed construction, a means of drawing near to Him.",
+          "usage_conditions": "In وَابْتَغُوا إِلَيْهِ الْوَسِيلَةَ, nearness to God is pursued by following His way through knowledge, worship, and pursuit of the virtues of the revealed law. The sense includes access, approach, and attainment sought with desire.",
+          "source_refs": [
+            "lane:entry:30502",
+            "mufradat:row:1576"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:35",
+          "word_location": "5:35:8",
+          "sense_ids": [
+            "qform:wsl:wasila:s1"
+          ]
+        },
+        {
+          "verse_key": "17:57",
+          "word_location": "17:57:7",
+          "sense_ids": [
+            "qform:wsl:wasila:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:wsl:wasala:desire",
+      "headword_arabic": "وَسَلَ",
+      "definition": "To desire or seek.",
+      "usage_conditions": "A classical Form I usage belonging to the root’s desire-and-seeking branch.",
+      "source_refs": [
+        "maqayis:row:5109"
+      ]
+    },
+    {
+      "meaning_id": "cm:wsl:wasil:desirer",
+      "headword_arabic": "وَاسِل",
+      "definition": "One who desires or turns eagerly toward God.",
+      "usage_conditions": "A derived designation for a person directing desire toward God.",
+      "source_refs": [
+        "maqayis:row:5109",
+        "mufradat:row:1576"
+      ]
+    },
+    {
+      "meaning_id": "cm:wsl:tawassala:access",
+      "headword_arabic": "تَوَسَّلَ",
+      "definition": "To seek to obtain or reach something by means of something else; to approach or gain access to someone, or advance oneself in that person’s favor, through such a means.",
+      "usage_conditions": "Used with a means introduced by بِـ and a goal or person approached with إِلَى; the means may be an instrument used to obtain something or an intermediary for gaining access.",
+      "source_refs": [
+        "lane:entry:30501"
+      ]
+    },
+    {
+      "meaning_id": "cm:wsl:wasila:rank",
+      "headword_arabic": "وَسِيلَة",
+      "definition": "Honourable rank or station, especially one held with a king; a degree or level of distinction.",
+      "usage_conditions": "A broader Classical Arabic extension of the noun, distinct from its Quranic means-of-access usage.",
+      "source_refs": [
+        "lane:entry:30502"
+      ]
+    },
+    {
+      "meaning_id": "cm:wsl:wasila:connection",
+      "headword_arabic": "وَسِيلَة",
+      "definition": "Affinity, a tie, or a connection.",
+      "usage_conditions": "Used for a relational bond or attachment rather than specifically for a means of approach.",
+      "source_refs": [
+        "lane:entry:30502"
+      ]
+    },
+    {
+      "meaning_id": "cm:wsl:tawassul:theft",
+      "headword_arabic": "تَوَسُّل",
+      "definition": "Theft or stealing.",
+      "usage_conditions": "A reported non-Quranic usage of the verbal noun, including the expression for taking another’s camels by theft; the example does not restrict the meaning to camels.",
+      "source_refs": [
+        "maqayis:row:5109",
+        "mufradat:row:1576"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wsl:30499:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit referring to entry 5; it supplies no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:wsl:30500:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit referring to entry 5; it supplies no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:wsl:30501:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:wsl:tawassala:access"
+      ],
+      "note": "Represents seeking to obtain water or another goal by using a means."
+    },
+    {
+      "unit_id": "lane-unit:wsl:30501:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:wsl:tawassala:access"
+      ],
+      "note": "Represents approaching or gaining access through something used as a means."
+    },
+    {
+      "unit_id": "lane-unit:wsl:30502:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:wsl:wasila:s1",
+        "cm:wsl:wasila:rank",
+        "cm:wsl:wasila:connection"
+      ],
+      "note": "Its access, nearness, intimacy, and attainment branch is covered by the Quranic sense; rank and relational connection are listed separately."
+    }
+  ],
+  "cautions": [
+    "The theft sense of تَوَسُّل is reported as a non-Quranic usage and is not assigned to the Quranic noun وَسِيلَة."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,182 @@
+{
+  "root": "qsr",
+  "arabic": "قسر",
+  "root_idea": {
+    "summary": "The root denotes forceful overcoming, domination, and compelling another against resistance.",
+    "development": "Its meanings develop from coercive force and overpowering to names for powerful beings or agents associated with overcoming, including قَسْوَرَةٌ in its Quranic interpretations as a lion or as hunters and shooters.",
+    "source_refs": [
+      "maqayis:row:3775",
+      "mufradat:row:1176"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qsr:qasowarap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsr:qaswara",
+      "reason": "Displayed under the normalized nominal citation form قَسْوَرَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qsr:qaswara",
+      "form_group_ids": [
+        "qac-form:qsr:qasowarap:nominal:-"
+      ],
+      "headword_arabic": "قَسْوَرَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsr:qaswara:s1-lion",
+          "definition": "A lion.",
+          "usage_conditions": "In the Quranic expression describing the fleeing asses, interpreted as a lion because it overcomes and overpowers.",
+          "source_refs": [
+            "lane:entry:8311",
+            "mufradat:row:1176"
+          ]
+        },
+        {
+          "sense_id": "qsr:qaswara:s2-hunters",
+          "definition": "A hunter or shooter who casts missiles; hunters or shooters collectively.",
+          "usage_conditions": "In the same Quranic expression, an alternative interpretation of قَسْوَرَةٌ as those who hunt or shoot, causing the asses to flee.",
+          "source_refs": [
+            "lane:entry:8311",
+            "mufradat:row:1176"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "74:51",
+          "word_location": "74:51:3",
+          "sense_ids": [
+            "qsr:qaswara:s1-lion",
+            "qsr:qaswara:s2-hunters"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qsr:cm:qasar-compel",
+      "headword_arabic": "قَسَرَ",
+      "definition": "To compel or force someone to do something against his will.",
+      "usage_conditions": "Used with عَلَى to express forcing someone to undertake an action.",
+      "source_refs": [
+        "lane:entry:8308"
+      ]
+    },
+    {
+      "meaning_id": "qsr:cm:qasar-overpower",
+      "headword_arabic": "قَسَرَ",
+      "definition": "To overcome, overpower, subdue, or oppress.",
+      "usage_conditions": "A broader use describing domination or defeat by force.",
+      "source_refs": [
+        "lane:entry:8308"
+      ]
+    },
+    {
+      "meaning_id": "qsr:cm:qaswar-plant",
+      "headword_arabic": "قَسْوَرٌ / قَسْوَرَة",
+      "definition": "A certain sour, grasslike plant growing in plains or soft land.",
+      "usage_conditions": "The plant is described as eagerly eaten by camels.",
+      "source_refs": [
+        "lane:entry:8310"
+      ]
+    },
+    {
+      "meaning_id": "qsr:cm:qaswara-mighty",
+      "headword_arabic": "قَسْوَرَة",
+      "definition": "Mighty or overpowering; strong and courageous.",
+      "usage_conditions": "The strong and courageous application is specifically given of a man; the overpowering sense is broader.",
+      "source_refs": [
+        "lane:entry:8311"
+      ]
+    },
+    {
+      "meaning_id": "qsr:cm:qaswara-voices",
+      "headword_arabic": "قَسْوَرَة",
+      "definition": "The sound, voices, or cries of men.",
+      "usage_conditions": "A collective auditory meaning referring to human voices or calls.",
+      "source_refs": [
+        "lane:entry:8311"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qsr:8308:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsr:cm:qasar-compel",
+        "qsr:cm:qasar-overpower"
+      ],
+      "note": "Covers compelling against the will and overpowering or subduing."
+    },
+    {
+      "unit_id": "lane-unit:qsr:8309:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:qsr:8310:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsr:cm:qaswar-plant"
+      ],
+      "note": "Defines قَسْوَرٌ and قَسْوَرَةٌ as a plant."
+    },
+    {
+      "unit_id": "lane-unit:qsr:8310:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qsr:8311:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsr:cm:qaswara-mighty"
+      ],
+      "note": "Defines قَسْوَرَةٌ as mighty, overpowering, strong, and courageous."
+    },
+    {
+      "unit_id": "lane-unit:qsr:8311:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsr:qaswara:s1-lion"
+      ],
+      "note": "Gives the Quranic lion interpretation."
+    },
+    {
+      "unit_id": "lane-unit:qsr:8311:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsr:qaswara:s2-hunters"
+      ],
+      "note": "Gives the Quranic hunters and shooters interpretation."
+    },
+    {
+      "unit_id": "lane-unit:qsr:8311:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsr:cm:qaswara-voices"
+      ],
+      "note": "Defines the word as the sound or voices of men."
+    },
+    {
+      "unit_id": "lane-unit:qsr:8312:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dialect and orthographic pointer to another entry, with no independent lexical definition here."
+    }
+  ],
+  "cautions": [
+    "قَسْوَرَةٌ in 74:51 has two explicitly attested Quranic interpretations in the supplied evidence: a lion, or hunters and shooters; the evidence does not resolve the alternative."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

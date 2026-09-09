@@ -1,0 +1,345 @@
+{
+  "root": "Twr",
+  "arabic": "طور",
+  "root_idea": {
+    "summary": "The root's core orientation is extension through space or time, including the extent of a thing, the passage through successive phases, and the crossing of a proper boundary.",
+    "development": "Spatial extension yields meanings such as a house's frontage, a proper limit, and a mountain's length and breadth; temporal extension yields repeated occasions and successive stages. The adjective for the wild or estranged is associated with moving beyond the bounds of settled society.",
+    "source_refs": [
+      "maqayis:row:3081",
+      "mufradat:row:917"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Twr:>aTowaAr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "twr-form-tawr",
+      "reason": "The Quranic plural is normalized to the supported singular citation form طَوْر while remaining a distinct lexical form from طُور."
+    },
+    {
+      "form_group_id": "qac-form:Twr:Tuwr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "twr-form-tur",
+      "reason": "طُور is a distinct noun meaning a mountain and is retained as its own public form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "twr-form-tawr",
+      "form_group_ids": [
+        "qac-form:Twr:>aTowaAr:nominal:-"
+      ],
+      "headword_arabic": "طَوْر",
+      "public_pos_label": "Noun · plural form attested as أَطْوَار",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "twr-tawr-q1",
+          "definition": "A successive stage or phase in a process or development.",
+          "usage_conditions": "In وَقَدْ خَلَقَكُمْ أَطْوَارًا, the term can refer to successive stages of human creation, including the transitions from one developmental state to another.",
+          "source_refs": [
+            "lane:entry:11925",
+            "mufradat:row:917"
+          ]
+        },
+        {
+          "sense_id": "twr-tawr-q2",
+          "definition": "A distinct state, form, condition, mode, or disposition; being varied in constitution or character.",
+          "usage_conditions": "In the same Quranic construction, the plural can describe people as differing in form, creation, character, or condition rather than merely passing through temporal stages.",
+          "source_refs": [
+            "lane:entry:11925",
+            "mufradat:row:917"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "71:14",
+          "word_location": "71:14:3",
+          "sense_ids": [
+            "twr-tawr-q1",
+            "twr-tawr-q2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "twr-form-tur",
+      "form_group_ids": [
+        "qac-form:Twr:Tuwr:nominal:-"
+      ],
+      "headword_arabic": "طُور",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "twr-tur-q1",
+          "definition": "A mountain; specifically, the named Mount or Ṭūr referred to in Quranic passages.",
+          "usage_conditions": "The Quranic definite and construct forms refer to the Mount as a named or specially identified mountain, including the mountain associated with Moses in several passages; the lexical evidence also supports mountain as a broader appellative rather than restricting every occurrence to one modern place-name.",
+          "source_refs": [
+            "lane:entry:11926",
+            "mufradat:row:917"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:63",
+          "word_location": "2:63:6",
+          "sense_ids": [
+            "twr-tur-q1"
+          ]
+        },
+        {
+          "verse_key": "28:29",
+          "word_location": "28:29:10",
+          "sense_ids": [
+            "twr-tur-q1"
+          ]
+        },
+        {
+          "verse_key": "52:1",
+          "word_location": "52:1:1",
+          "sense_ids": [
+            "twr-tur-q1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "twr-cm-approach",
+      "headword_arabic": "طَارَ",
+      "definition": "To go or hover around something; to draw near to or approach it.",
+      "usage_conditions": "Used for circling or hovering around a person or place and in negative constructions meaning not to approach someone's immediate vicinity or environs.",
+      "source_refs": [
+        "lane:entry:11923"
+      ]
+    },
+    {
+      "meaning_id": "twr-cm-time",
+      "headword_arabic": "طَوْر",
+      "definition": "A time, occasion, or period; a recurrence from one time to another.",
+      "usage_conditions": "Appears in expressions such as طَوْرًا بَعْدَ طَوْرٍ, meaning time after time or period after period.",
+      "source_refs": [
+        "lane:entry:11925"
+      ]
+    },
+    {
+      "meaning_id": "twr-cm-limit",
+      "headword_arabic": "طَوْر",
+      "definition": "A proper measure, extent, or limit; the bounds appropriate to a person or thing.",
+      "usage_conditions": "Used in expressions for exceeding or transgressing one's proper extent, limit, state, or condition.",
+      "source_refs": [
+        "lane:entry:11925"
+      ]
+    },
+    {
+      "meaning_id": "twr-cm-equal",
+      "headword_arabic": "طَوْر",
+      "definition": "Something commensurate, equal, corresponding, or coextensive with another thing.",
+      "usage_conditions": "Can describe equality in dimensions, length and breadth, correspondence, or contiguous alignment.",
+      "source_refs": [
+        "lane:entry:11925"
+      ]
+    },
+    {
+      "meaning_id": "twr-cm-yard",
+      "headword_arabic": "طَوْر / طُور",
+      "definition": "The part of a house's exterior court or yard that extends along or is coextensive with the house.",
+      "usage_conditions": "Refers to the house's adjoining frontage or the portion of its open yard corresponding to the building.",
+      "source_refs": [
+        "lane:entry:11925",
+        "lane:entry:11926",
+        "mufradat:row:917"
+      ]
+    },
+    {
+      "meaning_id": "twr-cm-wild-stranger",
+      "headword_arabic": "طُورِيّ / طُورَانِيّ",
+      "definition": "Wild, untamed, or estranged from settled people; a stranger.",
+      "usage_conditions": "Applied to wild birds, desert Arabs who avoid towns, and persons regarded as outsiders. In مَا بِهَا طُورِيٌّ, it forms an idiomatic negative expression meaning that there is no person or occupant present.",
+      "source_refs": [
+        "lane:entry:11929"
+      ]
+    },
+    {
+      "meaning_id": "twr-cm-utmost",
+      "headword_arabic": "أَطْوَرَيْهِ",
+      "definition": "The two extremes or the utmost extent of something; its full range or highest point.",
+      "usage_conditions": "Used of reaching the beginning and end, the utmost point of learning, or the utmost of one's endeavor, and of encountering the extremes of fortune.",
+      "source_refs": [
+        "lane:entry:11932"
+      ]
+    },
+    {
+      "meaning_id": "twr-cm-adversity",
+      "headword_arabic": "الأَطْوَرِينَ",
+      "definition": "To suffer calamity or harsh treatment from someone or something.",
+      "usage_conditions": "In لَقِيَ مِنْهُ الأَطْوَرِينَ, the expression means that a person experienced adversity or calamity at another's hands.",
+      "source_refs": [
+        "lane:entry:11932"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Twr:11923:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-approach"
+      ],
+      "note": "Hovering or going around something."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11923:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-approach"
+      ],
+      "note": "Approaching or drawing near."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11924:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer and correction to another entry."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11925:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-time"
+      ],
+      "note": "Time or occasion."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11925:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-tawr-q1",
+        "twr-tawr-q2"
+      ],
+      "note": "Stages, states, conditions, forms, and dispositions, including the Quranic usage."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11925:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-limit"
+      ],
+      "note": "Measure, extent, and limit."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11925:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-equal",
+        "twr-cm-yard"
+      ],
+      "note": "Equality or coextensiveness and the corresponding house yard or frontage."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11926:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the latter part of طَوْر."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11926:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-yard"
+      ],
+      "note": "The yard or exterior court of a house."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11926:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-tur-q1"
+      ],
+      "note": "Mountain, including the named Ṭūr."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11927:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other entries."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11928:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dialectal variant reference without independent semantic content."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11929:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-wild-stranger"
+      ],
+      "note": "Wild or estranged persons and animals; stranger."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11929:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-wild-stranger"
+      ],
+      "note": "Negative existential expression meaning no person is present."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11930:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to طُورِيّ."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11931:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to meanings under طَوْر."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11932:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-utmost"
+      ],
+      "note": "The two extremes or utmost point."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11932:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-utmost"
+      ],
+      "note": "Doing one's utmost."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11932:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-utmost"
+      ],
+      "note": "Encountering fortune and its extremes."
+    },
+    {
+      "unit_id": "lane-unit:Twr:11932:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "twr-cm-adversity"
+      ],
+      "note": "Idiomatic experience of calamity or harsh treatment."
+    }
+  ],
+  "cautions": [
+    "The Quranic construction وَقَدْ خَلَقَكُمْ أَطْوَارًا has two explicitly attested interpretations: successive developmental stages and differing forms or conditions; both are retained.",
+    "طُور is described both as a specific named mountain and as a mountain appellative. The Quranic evidence therefore does not require every occurrence to be identified with one modern place-name."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

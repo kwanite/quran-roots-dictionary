@@ -1,0 +1,594 @@
+{
+  "root": "Hlf",
+  "arabic": "حلف",
+  "root_idea": {
+    "summary": "The root centers on persistent attachment or binding adherence, expressed in remaining committed to an oath or agreement.",
+    "development": "From the idea of adherence, the root develops meanings of sworn commitment, alliance and compact, and figurative clinging; the Quranic forms specifically attest oath-taking and habitual swearing.",
+    "source_refs": [
+      "maqayis:row:1436",
+      "mufradat:row:351"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hlf:Halafo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hlf_halafa_v1",
+      "reason": "Displayed under the normalized Form I perfect citation form حَلَفَ."
+    },
+    {
+      "form_group_id": "qac-form:Hlf:Hal~aAf:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hlf_hallaaf",
+      "reason": "Displayed as the Quranic intensive nominal حَلَّاف."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_hlf_halafa_v1",
+      "form_group_ids": [
+        "qac-form:Hlf:Halafo:verb:I"
+      ],
+      "headword_arabic": "حَلَفَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 12,
+      "senses": [
+        {
+          "sense_id": "qsen_hlf_halafa_oath",
+          "definition": "To swear or take an oath.",
+          "usage_conditions": "Used for oath-taking, including swearing by God or affirming, denying, or undertaking a matter. Perfect and imperfect Quranic forms represent the same lexical sense.",
+          "source_refs": [
+            "lane:entry:15386",
+            "mufradat:row:351"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:89",
+          "word_location": "5:89:36",
+          "sense_ids": [
+            "qsen_hlf_halafa_oath"
+          ]
+        },
+        {
+          "verse_key": "9:62",
+          "word_location": "9:62:1",
+          "sense_ids": [
+            "qsen_hlf_halafa_oath"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_hlf_hallaaf",
+      "form_group_ids": [
+        "qac-form:Hlf:Hal~aAf:nominal:-"
+      ],
+      "headword_arabic": "حَلَّاف",
+      "public_pos_label": "Noun · intensive form",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_hlf_hallaaf_habitual",
+          "definition": "A habitual or frequent swearer.",
+          "usage_conditions": "An intensive nominal describing one who swears repeatedly or often, rather than someone who has merely taken a single oath.",
+          "source_refs": [
+            "mufradat:row:351",
+            "lane:entry:15404"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "68:10",
+          "word_location": "68:10:4",
+          "sense_ids": [
+            "qsen_hlf_hallaaf_habitual"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cmean_hlf_hilf_compact",
+      "headword_arabic": "حِلْفٌ",
+      "definition": "An alliance, confederacy, league, compact, or covenant between persons; by extension, sincere friendship founded on such attachment.",
+      "usage_conditions": "A relationship or agreement traditionally associated with mutual oaths.",
+      "source_refs": [
+        "lane:entry:15386",
+        "lane:entry:15393"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_halif_ally",
+      "headword_arabic": "حَلِيفٌ",
+      "definition": "A confederate, ally, or friend bound to another by a pledge of fidelity.",
+      "usage_conditions": "Used of a person joined to another in an alliance or loyal companionship.",
+      "source_refs": [
+        "lane:entry:15393"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_mutual_oath",
+      "headword_arabic": "حَالَفَ، تَحَالَفَ",
+      "definition": "To swear with another concerning a matter or undertaking; to swear mutually.",
+      "usage_conditions": "A reciprocal oath-taking construction between two or more parties.",
+      "source_refs": [
+        "lane:entry:15388",
+        "lane:entry:15390"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_confederate_action",
+      "headword_arabic": "حَالَفَ، تَحَالَفَ",
+      "definition": "To unite in a confederacy, league, compact, or covenant.",
+      "usage_conditions": "May describe an alliance for making the parties’ interests one, including mutual aid and defense.",
+      "source_refs": [
+        "lane:entry:15388",
+        "lane:entry:15390"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_cling",
+      "headword_arabic": "حَالَفَ",
+      "definition": "To cling, adhere, or hold fast to something; figuratively, to remain attached to grief or sorrow.",
+      "usage_conditions": "The figurative application extends attachment from a person or thing to an emotional state.",
+      "source_refs": [
+        "lane:entry:15388"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_brotherhood",
+      "headword_arabic": "مُحَالَفَةٌ",
+      "definition": "The establishing of brotherhood between people.",
+      "usage_conditions": "A conventional extension of alliance-making to the creation of a bond of brotherhood.",
+      "source_refs": [
+        "lane:entry:15388"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_cause_swear",
+      "headword_arabic": "أَحْلَفَ",
+      "definition": "To make or require another to swear; to adjure or conjure someone.",
+      "usage_conditions": "A causative construction, including the language of requiring an oath before a judge or by God.",
+      "source_refs": [
+        "lane:entry:15389"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_near_puberty",
+      "headword_arabic": "أَحْلَفَ الغُلَامُ",
+      "definition": "Of a boy, to have nearly reached puberty.",
+      "usage_conditions": "The usage is reported with disagreement about whether it denotes near attainment of puberty or the uncertainty that prompts people to swear about his status.",
+      "source_refs": [
+        "lane:entry:15389"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_grass_maturity",
+      "headword_arabic": "أَحْلَفَتِ الحَلْفَاءُ",
+      "definition": "Of the ḥalfāʾ grass, to reach maturity.",
+      "usage_conditions": "A specialized botanical use, distinct from the puberty-related application.",
+      "source_refs": [
+        "lane:entry:15389"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_oath_noun",
+      "headword_arabic": "حَلْفَةٌ",
+      "definition": "An oath.",
+      "usage_conditions": "A noun for the act or utterance of swearing an oath.",
+      "source_refs": [
+        "lane:entry:15395"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_grassland",
+      "headword_arabic": "أَرْضٌ حَلِفَةٌ",
+      "definition": "Land abounding in, or producing, ḥalfāʾ grass.",
+      "usage_conditions": "An attributive description of land characterized by this vegetation.",
+      "source_refs": [
+        "lane:entry:15397"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_halfa_grass",
+      "headword_arabic": "حَلْفَاء",
+      "definition": "A tall, coarse grass, especially the plant known as ḥalfāʾ, commonly growing near water or in valley bottoms.",
+      "usage_conditions": "The word is treated as a collective plant name in some grammatical analyses and also has singular and plural uses.",
+      "source_refs": [
+        "lane:entry:15398"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_lion_epithet",
+      "headword_arabic": "فِي الحَلْفَاءِ، أَخُو الحَلْفَاءِ",
+      "definition": "A figurative epithet for a lion.",
+      "usage_conditions": "The expression alludes to the lion’s resort to places where ḥalfāʾ grass grows.",
+      "source_refs": [
+        "lane:entry:15398"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_clamorous_slave",
+      "headword_arabic": "حَلْفَاء",
+      "definition": "A clamorous female slave.",
+      "usage_conditions": "A separate lexical use from the plant name.",
+      "source_refs": [
+        "lane:entry:15398"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_clinger",
+      "headword_arabic": "حَلِيفٌ",
+      "definition": "Anything that clings, adheres, or holds fast to another thing; figuratively, one persistently devoted to a quality or state.",
+      "usage_conditions": "Used in expressions such as one who is constant in generosity or sleeplessness.",
+      "source_refs": [
+        "lane:entry:15399"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_sharp_tongued",
+      "headword_arabic": "حَلِيفُ اللِّسَانِ",
+      "definition": "Sharp-tongued, or chaste and eloquent in speech.",
+      "usage_conditions": "A figurative expression likening fluent or incisive speech to confederation with words.",
+      "source_refs": [
+        "lane:entry:15399"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_sharp_spear",
+      "headword_arabic": "حَلِيفُ الغَرْبِ",
+      "definition": "A sharp spearhead or spear with a sharp point.",
+      "usage_conditions": "A figurative designation of sharpness, associated with the cutting points of ḥalfāʾ grass.",
+      "source_refs": [
+        "lane:entry:15399"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_lively_horse",
+      "headword_arabic": "حَلِيفُ الغَرْبِ",
+      "definition": "A brisk, lively, or sprightly horse.",
+      "usage_conditions": "An alternative lexical interpretation of the same expression.",
+      "source_refs": [
+        "lane:entry:15399"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_sharpness",
+      "headword_arabic": "حَلَافَةٌ",
+      "definition": "Sharpness in anything.",
+      "usage_conditions": "A general abstract noun for the quality of being sharp.",
+      "source_refs": [
+        "lane:entry:15400"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_halfa_valley",
+      "headword_arabic": "وَادٍ حُلَافِيٌّ",
+      "definition": "A valley that produces ḥalfāʾ grass.",
+      "usage_conditions": "A nisbah-based description of a place associated with that plant.",
+      "source_refs": [
+        "lane:entry:15401"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_active_swearer",
+      "headword_arabic": "حَالِفٌ",
+      "definition": "One who swears, especially one who swears much or often.",
+      "usage_conditions": "An active-participial description, less intensive in form than حَلَّاف.",
+      "source_refs": [
+        "lane:entry:15404"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_sharp_tongue_phrase",
+      "headword_arabic": "مَا أَحْلَفَ لِسَانَهُ",
+      "definition": "How sharp-tongued or eloquent he is.",
+      "usage_conditions": "An exclamatory expression praising incisive or refined speech.",
+      "source_refs": [
+        "lane:entry:15405"
+      ]
+    },
+    {
+      "meaning_id": "cmean_hlf_uncertain_oath_object",
+      "headword_arabic": "مُحْلِفٌ",
+      "definition": "A person, animal, object, or circumstance whose uncertain status or quality causes people to swear about it.",
+      "usage_conditions": "Applications include a boy of doubtful puberty, stars said to occasion swearing, an animal of uncertain color or fatness, and anything else about which observers disagree.",
+      "source_refs": [
+        "lane:entry:15407"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hlf:15386:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_hlf_halafa_oath",
+        "cmean_hlf_hilf_compact"
+      ],
+      "note": "Covers oath-taking and the reported compact/agreement branch."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15387:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15388:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_mutual_oath"
+      ],
+      "note": "Covers swearing with another concerning a matter."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15388:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_confederate_action"
+      ],
+      "note": "Covers uniting in a confederacy or compact."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15388:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_cling"
+      ],
+      "note": "Covers clinging or holding fast, including attachment to grief."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15388:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_brotherhood"
+      ],
+      "note": "Covers establishing brotherhood."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15389:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_cause_swear"
+      ],
+      "note": "Covers making or requiring another to swear and adjuring."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15389:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_near_puberty"
+      ],
+      "note": "Covers the specialized near-puberty usage."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15389:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_grass_maturity"
+      ],
+      "note": "Covers the maturity of ḥalfāʾ grass."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15390:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cmean_hlf_mutual_oath"
+      ],
+      "note": "The reciprocal swearing branch is grouped with the equivalent Form III construction."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15390:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cmean_hlf_confederate_action"
+      ],
+      "note": "The confederacy branch is grouped with the equivalent Form III construction."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15391:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form VI."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15392:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the causative entry."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15393:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_hilf_compact"
+      ],
+      "note": "Covers a confederacy, league, compact, or covenant."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15393:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cmean_hlf_hilf_compact"
+      ],
+      "note": "The friendship extension is stated in the compact entry."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15393:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_halif_ally"
+      ],
+      "note": "Covers the confederate or sincerely allied person."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15394:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حَلْفَاء."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15395:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_oath_noun"
+      ],
+      "note": "Covers the noun meaning oath."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15395:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15396:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the ḥalfāʾ plant entry."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15397:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حَلْفَاء."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15397:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_grassland"
+      ],
+      "note": "Covers land abounding in or producing ḥalfāʾ."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15398:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_halfa_grass",
+        "cmean_hlf_lion_epithet"
+      ],
+      "note": "Covers the plant and its lion-related figurative expression."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15398:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_clamorous_slave"
+      ],
+      "note": "Covers the separate meaning clamorous female slave."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15399:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حِلْفٌ."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15399:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_clinger"
+      ],
+      "note": "Covers the figurative meaning of one who clings or remains attached."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15399:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_sharp_tongued"
+      ],
+      "note": "Covers the sharp-tongued or eloquent expression."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15399:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_sharp_spear",
+        "cmean_hlf_lively_horse"
+      ],
+      "note": "Covers both attested interpretations of حَلِيفُ الغَرْبِ."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15400:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_sharpness"
+      ],
+      "note": "Covers sharpness as an abstract quality."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15401:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_halfa_valley"
+      ],
+      "note": "Covers a valley producing ḥalfāʾ grass."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15402:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حَلْفَاء."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15403:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15404:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_active_swearer"
+      ],
+      "note": "Covers one who swears, especially frequently."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15405:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_sharp_tongue_phrase"
+      ],
+      "note": "Covers the exclamatory sharp-tongue expression."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15406:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حِلْفَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15407:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean_hlf_uncertain_oath_object"
+      ],
+      "note": "Covers something whose uncertain quality occasions swearing."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15408:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حَلِفَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Hlf:15409:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حِلْفَةٌ."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb is normalized to the classical citation form حَلَفَ even though the supplied Quran lemma identity is the inflected form حَلَفْ. The classical evidence also contains separate botanical, figurative, and idiomatic branches that are not Quranic senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

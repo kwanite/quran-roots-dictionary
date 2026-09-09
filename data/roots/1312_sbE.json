@@ -1,0 +1,1368 @@
+{
+  "root": "sbE",
+  "arabic": "سبع",
+  "root_idea": {
+    "summary": "The root has two established semantic axes: the number seven and the predatory wild animal.",
+    "development": "The numerical branch extends to being seventh, a seventh part, seven-based measures and periods, and completion by adding to a specified number. The animal branch extends to prey-taking, attack, predation, and figurative descriptions of harmful or uncontrolled conduct.",
+    "source_refs": [
+      "maqayis:row:2348",
+      "mufradat:row:655"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sbE:saboE:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:sbE:sab",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:sbE:saboEap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:sbE:sab",
+      "reason": "The feminine numeral form سَبْعَةٌ is the gendered counterpart of the same cardinal numeral."
+    },
+    {
+      "form_group_id": "qac-form:sbE:s~abuE:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:sbE:sabu",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:sbE:saboE:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:sbE:sab",
+      "reason": "The temporal tag at 69:7 does not establish a separate lexical item; it is the same numeral in a grammatical time expression."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:sbE:sab",
+      "form_group_ids": [
+        "qac-form:sbE:saboE:nominal:-",
+        "qac-form:sbE:saboEap:nominal:-",
+        "qac-form:sbE:saboE:other:-"
+      ],
+      "headword_arabic": "سَبْعٌ",
+      "public_pos_label": "Numeral",
+      "verb_form": null,
+      "occurrence_count": 27,
+      "senses": [
+        {
+          "sense_id": "qsen:sbE:sab:1",
+          "definition": "Seven; the cardinal number seven, including its gendered form سَبْعَةٌ and the seven-based form سَبْعُونَ, seventy.",
+          "usage_conditions": "Used in counted expressions and with units, persons, periods, celestial structures, and other counted entities. The form varies according to the grammatical gender and construction of the counted noun.",
+          "source_refs": [
+            "lane:entry:40069",
+            "lane:entry:40073",
+            "mufradat:row:655"
+          ]
+        },
+        {
+          "sense_id": "qsen:sbE:sab:2",
+          "definition": "A large or indefinite number, conventionally expressed as seventy or many times.",
+          "usage_conditions": "Especially attested in the Quranic expression سَبْعِينَ مَرَّةً, where “seventy times” is explained as “many times,” not as a limit that would become effective only after seventy.",
+          "source_refs": [
+            "lane:entry:40073"
+          ]
+        },
+        {
+          "sense_id": "qsen:sbE:sab:3",
+          "definition": "The “seven oft-repeated,” a Quranic designation for the Fātiḥah, or, in another explanation, for the group of long surahs.",
+          "usage_conditions": "The referent of السَّبْعُ الْمَثَانِي is explained in more than one way: as the seven-verse opening surah, or as a group of long Quranic chapters.",
+          "source_refs": [
+            "lane:entry:40069",
+            "mufradat:row:655"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:43",
+          "word_location": "12:43:5",
+          "sense_ids": [
+            "qsen:sbE:sab:1"
+          ]
+        },
+        {
+          "verse_key": "69:32",
+          "word_location": "69:32:5",
+          "sense_ids": [
+            "qsen:sbE:sab:1"
+          ]
+        },
+        {
+          "verse_key": "9:80",
+          "word_location": "9:80:10",
+          "sense_ids": [
+            "qsen:sbE:sab:2"
+          ]
+        },
+        {
+          "verse_key": "15:87",
+          "word_location": "15:87:3",
+          "sense_ids": [
+            "qsen:sbE:sab:3"
+          ]
+        },
+        {
+          "verse_key": "2:196",
+          "word_location": "2:196:53",
+          "sense_ids": [
+            "qsen:sbE:sab:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:sbE:sabu",
+      "form_group_ids": [
+        "qac-form:sbE:s~abuE:nominal:-"
+      ],
+      "headword_arabic": "سَبُعٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:sbE:sabu:1",
+          "definition": "A predatory animal or beast of prey, especially one that attacks and seizes animals or people.",
+          "usage_conditions": "The term generally denotes a fang-bearing, hostile predator such as a lion, wolf, lynx, leopard, or similar animal; the Quranic occurrence is definite: السَّبُعُ.",
+          "source_refs": [
+            "lane:entry:40067",
+            "mufradat:row:655"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:3",
+          "word_location": "5:3:18",
+          "sense_ids": [
+            "qsen:sbE:sabu:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:sba:make-seven",
+      "headword_arabic": "سَبَعَ",
+      "definition": "To be or become the seventh; to make a group seven, or to complete a group by adding oneself as the seventh member.",
+      "usage_conditions": "The same completion pattern is extended to other totals, such as making sixty-nine become seventy or sixteen become seventeen.",
+      "source_refs": [
+        "lane:entry:40058"
+      ]
+    },
+    {
+      "meaning_id": "cm:sba:seventh-share",
+      "headword_arabic": "سَبَعَ",
+      "definition": "To take a seventh part of someone's property or possessions.",
+      "usage_conditions": "This is a distributive or share-taking use, distinct from merely being seventh in a group.",
+      "source_refs": [
+        "lane:entry:40058"
+      ]
+    },
+    {
+      "meaning_id": "cm:sba:seven-strands",
+      "headword_arabic": "سَبَعَ",
+      "definition": "To make a rope or cord of seven strands.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40058"
+      ]
+    },
+    {
+      "meaning_id": "cm:sba:seventh-day-rite",
+      "headword_arabic": "سُبِعَ",
+      "definition": "Of an infant, to undergo the seventh-day shaving and sacrificial rite.",
+      "usage_conditions": "A specifically reported birth custom associated with the seventh day after birth.",
+      "source_refs": [
+        "lane:entry:40058"
+      ]
+    },
+    {
+      "meaning_id": "cm:sba:prey-upon",
+      "headword_arabic": "سَبَعَ",
+      "definition": "To seize, kill, and eat animals as prey.",
+      "usage_conditions": "Used of a wolf or other predator attacking sheep or goats; the passive construction describes an animal whose young have been eaten by a predator.",
+      "source_refs": [
+        "lane:entry:40058"
+      ]
+    },
+    {
+      "meaning_id": "cm:sba:steal",
+      "headword_arabic": "سَبَعَ",
+      "definition": "To steal something, treating it as prey.",
+      "usage_conditions": "A figurative extension of the predator's seizure of its prey.",
+      "source_refs": [
+        "lane:entry:40058"
+      ]
+    },
+    {
+      "meaning_id": "cm:sba:strike-frighten",
+      "headword_arabic": "سَبَعَ",
+      "definition": "To shoot at, strike, or frighten someone or something.",
+      "usage_conditions": "Reported especially of attacking or frightening a wolf, and also of attacking a person.",
+      "source_refs": [
+        "lane:entry:40058"
+      ]
+    },
+    {
+      "meaning_id": "cm:sba:revile",
+      "headword_arabic": "سَبَعَ",
+      "definition": "To revile, vilify, insult, or assail someone with offensive language; to backbite.",
+      "usage_conditions": "The figurative comparison is with the hostile or biting conduct of a beast of prey.",
+      "source_refs": [
+        "lane:entry:40058",
+        "mufradat:row:655"
+      ]
+    },
+    {
+      "meaning_id": "cm:sba:bite",
+      "headword_arabic": "سَبَعَ",
+      "definition": "To bite someone with the teeth, like a beast of prey.",
+      "usage_conditions": "A directly physical usage reported alongside the figurative use for verbal abuse.",
+      "source_refs": [
+        "lane:entry:40058"
+      ]
+    },
+    {
+      "meaning_id": "cm:sbba:make-seven",
+      "headword_arabic": "سَبَّعَ",
+      "definition": "To make something seven or call it seven; to complete a number to a seven-based total.",
+      "usage_conditions": "The completion use can be extended to totals such as seven hundred; a reported usage for making an amount seventy is marked as post-classical and nonstandard in the source.",
+      "source_refs": [
+        "lane:entry:40059"
+      ]
+    },
+    {
+      "meaning_id": "cm:sbba:heptagonal",
+      "headword_arabic": "سَبَّعَ",
+      "definition": "To make something have seven angles or corners; to make it heptagonal.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40059"
+      ]
+    },
+    {
+      "meaning_id": "cm:sbba:multiply",
+      "headword_arabic": "سَبَّعَ",
+      "definition": "To give a reward sevenfold or multiply something many times over.",
+      "usage_conditions": "The number may be used for an exact sevenfold increase or more generally for multiplication beyond seven.",
+      "source_refs": [
+        "lane:entry:40059"
+      ]
+    },
+    {
+      "meaning_id": "cm:sbba:follow",
+      "headword_arabic": "سَبَّعَ",
+      "definition": "To cause one thing to follow another.",
+      "usage_conditions": "Reported in relation to either beneficial or harmful consequences.",
+      "source_refs": [
+        "lane:entry:40059"
+      ]
+    },
+    {
+      "meaning_id": "cm:sbba:seven-children",
+      "headword_arabic": "سَبَّعَ",
+      "definition": "To bless someone with seven children.",
+      "usage_conditions": "A benedictory formula wishing or attributing seven offspring.",
+      "source_refs": [
+        "lane:entry:40059"
+      ]
+    },
+    {
+      "meaning_id": "cm:sbba:wash-seven",
+      "headword_arabic": "سَبَّعَ",
+      "definition": "To wash or rinse a vessel seven times.",
+      "usage_conditions": "The seven repetitions are part of the reported conventional construction.",
+      "source_refs": [
+        "lane:entry:40059"
+      ]
+    },
+    {
+      "meaning_id": "cm:sbba:quran-portions",
+      "headword_arabic": "سَبَّعَ",
+      "definition": "To arrange the recitation of the Quran in seven portions so that it is completed every seven nights.",
+      "usage_conditions": "A Quran-recitation scheduling expression, not a Quran occurrence of the derived verb itself.",
+      "source_refs": [
+        "lane:entry:40059"
+      ]
+    },
+    {
+      "meaning_id": "cm:sbba:seven-nights",
+      "headword_arabic": "سَبَّعَ",
+      "definition": "To remain with one's wife for seven nights.",
+      "usage_conditions": "A conventional temporal construction involving seven consecutive nights.",
+      "source_refs": [
+        "lane:entry:40059"
+      ]
+    },
+    {
+      "meaning_id": "cm:sbba:seven-months",
+      "headword_arabic": "سَبَّعَتْ",
+      "definition": "Of a woman, to give birth after seven months of pregnancy.",
+      "usage_conditions": "A reported usage specifically describing a seven-month birth.",
+      "source_refs": [
+        "lane:entry:40059"
+      ]
+    },
+    {
+      "meaning_id": "cm:siba:intercourse",
+      "headword_arabic": "سِبَاعٌ",
+      "definition": "Sexual intercourse.",
+      "usage_conditions": "A verbal-noun usage of the Form III derivative.",
+      "source_refs": [
+        "lane:entry:40060"
+      ]
+    },
+    {
+      "meaning_id": "cm:siba:obscene-competition",
+      "headword_arabic": "سِبَاعٌ",
+      "definition": "Competing with another in obscene or lewd speech and in the frequency of sexual intercourse.",
+      "usage_conditions": "A specialized conventional usage associated with forbidden conduct.",
+      "source_refs": [
+        "lane:entry:40060"
+      ]
+    },
+    {
+      "meaning_id": "cm:siba:mutual-reviling",
+      "headword_arabic": "سِبَاعٌ",
+      "definition": "Mutual reviling or vilification between two people.",
+      "usage_conditions": "The reciprocal use describes each party assailing the other with offensive language.",
+      "source_refs": [
+        "lane:entry:40060"
+      ]
+    },
+    {
+      "meaning_id": "cm:asba:become-seven",
+      "headword_arabic": "أَسْبَعَ",
+      "definition": "Of a group, to become seven or seventy.",
+      "usage_conditions": "An intransitive numerical use distinct from the Form I and Form II causative or completion uses.",
+      "source_refs": [
+        "lane:entry:40061"
+      ]
+    },
+    {
+      "meaning_id": "cm:asba:camel-watering",
+      "headword_arabic": "أَسْبَعَ",
+      "definition": "Of a man or his camels, to follow a seven-day watering cycle.",
+      "usage_conditions": "The camels come to water on the seventh day, counting according to the reported traditional reckoning.",
+      "source_refs": [
+        "lane:entry:40061"
+      ]
+    },
+    {
+      "meaning_id": "cm:asba:seventh-offspring",
+      "headword_arabic": "أَسْبَعَتْ",
+      "definition": "Of a woman, to give birth to her seventh offspring.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40061"
+      ]
+    },
+    {
+      "meaning_id": "cm:asba:predator-infestation",
+      "headword_arabic": "أَسْبَعَ",
+      "definition": "Of a road or locality, to abound in predatory animals; of herders, to have their livestock attacked by predators.",
+      "usage_conditions": "The construction describes either an environment containing predators or the resulting predation on livestock.",
+      "source_refs": [
+        "lane:entry:40061"
+      ]
+    },
+    {
+      "meaning_id": "cm:asba:feed-predator",
+      "headword_arabic": "أَسْبَعَ",
+      "definition": "To feed someone the flesh of a predatory animal, or to give someone as food to a predator.",
+      "usage_conditions": "The source reports both possible interpretations of the construction.",
+      "source_refs": [
+        "lane:entry:40061"
+      ]
+    },
+    {
+      "meaning_id": "cm:asba:deliver-nurse",
+      "headword_arabic": "أَسْبَعَ",
+      "definition": "To give or deliver a child to a nurse or nurses.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40061"
+      ]
+    },
+    {
+      "meaning_id": "cm:asba:neglect",
+      "headword_arabic": "أَسْبَعَ",
+      "definition": "To leave someone unattended, without work, occupation, or restraint.",
+      "usage_conditions": "Reported especially of leaving a slave to himself and allowing him to remain daring or uncontrolled.",
+      "source_refs": [
+        "lane:entry:40061"
+      ]
+    },
+    {
+      "meaning_id": "cm:sab:resurrection-gathering",
+      "headword_arabic": "السَّبْعُ",
+      "definition": "The place to which mankind will be gathered on the Day of Resurrection.",
+      "usage_conditions": "A specialized interpretation of the expression يوم السبع.",
+      "source_refs": [
+        "lane:entry:40063"
+      ]
+    },
+    {
+      "meaning_id": "cm:sab:trials",
+      "headword_arabic": "السَّبْعُ",
+      "definition": "An occasion of trials or danger when a flock is left without a shepherd and exposed to predators.",
+      "usage_conditions": "A figurative interpretation of يوم السبع in which the predator is portrayed as the flock's only guardian.",
+      "source_refs": [
+        "lane:entry:40063"
+      ]
+    },
+    {
+      "meaning_id": "cm:sab:ignorance-festival",
+      "headword_arabic": "يَوْمُ السَّبْعِ",
+      "definition": "A festival in the pre-Islamic period on which people were diverted from other concerns by games and entertainment.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40063"
+      ]
+    },
+    {
+      "meaning_id": "cm:sub:seventh-part",
+      "headword_arabic": "سُبْعٌ",
+      "definition": "A seventh part; one part of seven.",
+      "usage_conditions": "The plural أَسْبَاعٌ is also used for the seven divisions into which the Quran may be arranged for recitation; that latter expression is reported as post-classical.",
+      "source_refs": [
+        "lane:entry:40064"
+      ]
+    },
+    {
+      "meaning_id": "cm:sib:camel-watering",
+      "headword_arabic": "سِبْعٌ",
+      "definition": "A traditional seven-day watering interval for camels.",
+      "usage_conditions": "The reported reckoning counts the interval between successive visits to the water according to a specified pastoral convention.",
+      "source_refs": [
+        "lane:entry:40065"
+      ]
+    },
+    {
+      "meaning_id": "cm:sib:seventh-offspring",
+      "headword_arabic": "سِبْعٌ",
+      "definition": "The seventh young one or offspring.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40065"
+      ]
+    },
+    {
+      "meaning_id": "cm:sabu:constellation",
+      "headword_arabic": "السَّبُعُ",
+      "definition": "The constellation Lupus, situated behind or east of Centaurus.",
+      "usage_conditions": "A figurative or transferred astronomical name, distinct from the animal noun.",
+      "source_refs": [
+        "lane:entry:40067"
+      ]
+    },
+    {
+      "meaning_id": "cm:sab:weight-seven",
+      "headword_arabic": "سَبْعَةٌ",
+      "definition": "A weight relation in which ten units weigh seven mithqals.",
+      "usage_conditions": "Used in the expression وَزْنَ سَبْعَةٍ for a specified monetary or weight standard.",
+      "source_refs": [
+        "lane:entry:40069"
+      ]
+    },
+    {
+      "meaning_id": "cm:sab:great-affair",
+      "headword_arabic": "سَبْعَةٌ",
+      "definition": "A great, momentous, or difficult affair.",
+      "usage_conditions": "In the idiom إِحْدَى مِنْ سَبْعٍ, the number evokes a notably difficult or severe matter.",
+      "source_refs": [
+        "lane:entry:40069"
+      ]
+    },
+    {
+      "meaning_id": "cm:sab:vague-number",
+      "headword_arabic": "سَبْعَةٌ",
+      "definition": "Seven or more; several or many.",
+      "usage_conditions": "A reported vague use in which the numeral is not intended as an exact count.",
+      "source_refs": [
+        "lane:entry:40069"
+      ]
+    },
+    {
+      "meaning_id": "cm:sabua:lioness",
+      "headword_arabic": "سَبُعَةٌ",
+      "definition": "A lioness.",
+      "usage_conditions": "The form also appears in a comparison for a forceful or impetuous seizure.",
+      "source_refs": [
+        "lane:entry:40071"
+      ]
+    },
+    {
+      "meaning_id": "cm:sabua:forceful-seizure",
+      "headword_arabic": "سَبُعَةٌ",
+      "definition": "A forceful seizure or harsh punishment, expressed through the idiom of taking someone like a lioness or like the legendary Sebʿah.",
+      "usage_conditions": "The expression has competing explanations: a lioness, a very strong or audacious man named Sebʿah, or the force of seven men.",
+      "source_refs": [
+        "lane:entry:40071"
+      ]
+    },
+    {
+      "meaning_id": "cm:sabui:predatory",
+      "headword_arabic": "سَبُعِيٌّ",
+      "definition": "Predatory; belonging or relating to an animal of prey.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40072"
+      ]
+    },
+    {
+      "meaning_id": "cm:sabun:seventieth",
+      "headword_arabic": "سَبْعُونَ",
+      "definition": "Seventieth.",
+      "usage_conditions": "An ordinal use of the seventy-based numeral.",
+      "source_refs": [
+        "lane:entry:40073"
+      ]
+    },
+    {
+      "meaning_id": "cm:sabu:frightener",
+      "headword_arabic": "سَبُوعٌ",
+      "definition": "Apparently, one accustomed to frightening others or something frightening.",
+      "usage_conditions": "The lexical interpretation is reported tentatively in the source.",
+      "source_refs": [
+        "lane:entry:40075"
+      ]
+    },
+    {
+      "meaning_id": "cm:subai:garment",
+      "headword_arabic": "سُبَاعِيٌّ",
+      "definition": "A garment or piece of cloth seven cubits or spans in length.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40079"
+      ]
+    },
+    {
+      "meaning_id": "cm:subai:tall-camel",
+      "headword_arabic": "سُبَاعِيٌّ",
+      "definition": "A great, tall camel.",
+      "usage_conditions": "The description is connected with a seven-span measure.",
+      "source_refs": [
+        "lane:entry:40079"
+      ]
+    },
+    {
+      "meaning_id": "cm:subai:full-grown-body",
+      "headword_arabic": "سُبَاعِيُّ الْبَدَنِ",
+      "definition": "Complete or full-grown in body.",
+      "usage_conditions": "Applied to a person who has reached the physical development associated with seven spans.",
+      "source_refs": [
+        "lane:entry:40079"
+      ]
+    },
+    {
+      "meaning_id": "cm:sabi:seventh",
+      "headword_arabic": "سَابِعٌ",
+      "definition": "Seventh; the one that occupies seventh place or makes six become seven.",
+      "usage_conditions": "The same ordinal enters compound forms such as seventeenth.",
+      "source_refs": [
+        "lane:entry:40080"
+      ]
+    },
+    {
+      "meaning_id": "cm:sabi:camel-watering",
+      "headword_arabic": "سَابِعٌ",
+      "definition": "Of camels, coming to water on the seventh day.",
+      "usage_conditions": "Used as a plural description of camels following the traditional seven-day watering cycle.",
+      "source_refs": [
+        "lane:entry:40080"
+      ]
+    },
+    {
+      "meaning_id": "cm:usbuu:week",
+      "headword_arabic": "أُسْبُوعٌ",
+      "definition": "A period of seven days; a week.",
+      "usage_conditions": "The word may also be used in plural expressions for multiple weeks.",
+      "source_refs": [
+        "lane:entry:40081"
+      ]
+    },
+    {
+      "meaning_id": "cm:usbuu:seventh-day",
+      "headword_arabic": "أُسْبُوعٌ",
+      "definition": "The seventh day.",
+      "usage_conditions": "In customary expressions it may mean the seventh day after marriage, childbirth, or another specified event.",
+      "source_refs": [
+        "lane:entry:40081"
+      ]
+    },
+    {
+      "meaning_id": "cm:usbuu:seven-circuits",
+      "headword_arabic": "أُسْبُوعٌ",
+      "definition": "Seven circuits around the Kaaba.",
+      "usage_conditions": "A ritual count of seven circumambulations, also used for the corresponding plural circuit-units.",
+      "source_refs": [
+        "lane:entry:40081"
+      ]
+    },
+    {
+      "meaning_id": "cm:musba:nursed",
+      "headword_arabic": "مُسْبَعٌ",
+      "definition": "Given or delivered to a nurse; especially a child suckled by someone other than its mother after her death.",
+      "usage_conditions": "The nursing and maternal-loss interpretations are reported as related applications of the adjective.",
+      "source_refs": [
+        "lane:entry:40082"
+      ]
+    },
+    {
+      "meaning_id": "cm:musba:neglected",
+      "headword_arabic": "مُسْبَعٌ",
+      "definition": "Left to himself, without occupation or restraint, and consequently daring or harmful.",
+      "usage_conditions": "Applied especially to a slave or person allowed to become like a predatory animal in mischievousness; a near synonym is مُهْمَلٌ.",
+      "source_refs": [
+        "lane:entry:40082"
+      ]
+    },
+    {
+      "meaning_id": "cm:musba:suspect-lineage",
+      "headword_arabic": "مُسْبَعٌ",
+      "definition": "Of suspect, bastard, servile, or otherwise ignoble lineage.",
+      "usage_conditions": "The reported lineage extends in different authorities to several male or female ancestors, including up to seven.",
+      "source_refs": [
+        "lane:entry:40082"
+      ]
+    },
+    {
+      "meaning_id": "cm:musba:seven-month-birth",
+      "headword_arabic": "مُسْبَعٌ",
+      "definition": "Born after seven months of pregnancy, before full gestation.",
+      "usage_conditions": "A term for an incompletely matured infant whose gestational months were not completed.",
+      "source_refs": [
+        "lane:entry:40082"
+      ]
+    },
+    {
+      "meaning_id": "cm:musbi:camel-watering",
+      "headword_arabic": "مُسْبِعٌ",
+      "definition": "Of a camel-owner, having camels that come to water on the seventh day.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40083"
+      ]
+    },
+    {
+      "meaning_id": "cm:musbi:shepherd-predation",
+      "headword_arabic": "مُسْبِعٌ",
+      "definition": "A shepherd whose flock has been attacked by a predatory animal.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40083"
+      ]
+    },
+    {
+      "meaning_id": "cm:masbaa:predator-land",
+      "headword_arabic": "مَسْبَعَةٌ",
+      "definition": "Land containing or abounding in predatory animals.",
+      "usage_conditions": "Used as a fixed feminine place-description.",
+      "source_refs": [
+        "lane:entry:40084"
+      ]
+    },
+    {
+      "meaning_id": "cm:musabba:seven-feet",
+      "headword_arabic": "مُسَبَّعٌ",
+      "definition": "A verse consisting of seven metrical feet.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40085"
+      ]
+    },
+    {
+      "meaning_id": "cm:musabba:camel-vertebrae",
+      "headword_arabic": "مُسَبَّعٌ",
+      "definition": "A camel having seven redundant vertebrae in the middle part of its back.",
+      "usage_conditions": "A specialized anatomical description of the camel's back.",
+      "source_refs": [
+        "lane:entry:40085"
+      ]
+    },
+    {
+      "meaning_id": "cm:masbuu:rope",
+      "headword_arabic": "مَسْبُوعٌ",
+      "definition": "A rope consisting of seven strands.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40086"
+      ]
+    },
+    {
+      "meaning_id": "cm:masbuu:predated-female",
+      "headword_arabic": "مَسْبُوعَةٌ",
+      "definition": "A cow or other female wild animal whose offspring has been eaten by a predator.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40086"
+      ]
+    },
+    {
+      "meaning_id": "cm:mutasabba:predator-place",
+      "headword_arabic": "مُتَسَبَّعٌ",
+      "definition": "A place inhabited by or associated with a predatory animal.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40087"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sbE:40058:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sba:make-seven",
+        "cm:sba:seventh-share"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40058:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:sba:make-seven"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40058:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sba:seven-strands"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40058:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sba:seventh-day-rite"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40058:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sba:prey-upon"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40058:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:sba:prey-upon"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40058:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sba:steal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40058:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sba:strike-frighten"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40058:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sba:revile",
+        "cm:sba:bite"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40059:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sbba:make-seven"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40059:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sbba:heptagonal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40059:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sbba:multiply",
+        "cm:sbba:follow",
+        "cm:sbba:seven-children"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40059:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sbba:wash-seven"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40059:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sbba:quran-portions"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40059:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sbba:seven-nights"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40059:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sbba:seven-months"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40059:g1:sub8",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:sbba:make-seven"
+      ],
+      "note": "Its reported completion-to-seventy usage is explicitly covered as a post-classical, nonstandard extension under the broader completion meaning."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40059:g1:sub9",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:sbba:make-seven"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40060:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:siba:intercourse"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40060:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:siba:obscene-competition"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40060:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:siba:mutual-reviling"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:asba:become-seven"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:asba:camel-watering"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:asba:seventh-offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:asba:predator-infestation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:asba:predator-infestation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:asba:feed-predator"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:asba:deliver-nurse"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40061:g4:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:asba:neglect"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40062:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40063:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Gender and cross-reference information only."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40063:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40063:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sab:resurrection-gathering",
+        "cm:sab:trials",
+        "cm:sab:ignorance-festival"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40064:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sub:seventh-part"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40064:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40065:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sib:camel-watering"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40065:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sib:seventh-offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40066:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40067:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbE:sabu:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40067:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sabu:constellation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40068:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbE:sab:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sab:weight-seven"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sab:great-affair"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbE:sab:3"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsen:sbE:sab:1"
+      ],
+      "note": "Illustrates the cardinal numeral in a poetic expression."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sab:vague-number"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:sub9",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pronunciation, declension, and editorial cross-references."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g1:sub10",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Compound numeral pronunciation and grammatical behavior only."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40069:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40070:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40071:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sabua:lioness",
+        "cm:sabua:forceful-seizure"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40072:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sabui:predatory"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40073:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbE:sab:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40073:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:sbE:sab:2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40073:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sabun:seventieth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40074:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "The entry records that the proposed usage is unattested."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40075:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sabu:frightener"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40076:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40077:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40077:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40078:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40079:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:subai:garment"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40079:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:subai:tall-camel",
+        "cm:subai:full-grown-body"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40080:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sabi:seventh"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40080:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sabi:camel-watering"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40080:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:sabi:seventh"
+      ],
+      "note": "Compound ordinal use is covered by the ordinal meaning."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40081:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:usbuu:week"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40081:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:usbuu:seventh-day"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40081:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:usbuu:seven-circuits"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40082:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:musba:nursed",
+        "cm:musba:neglected",
+        "cm:musba:suspect-lineage",
+        "cm:musba:seven-month-birth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40083:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:musbi:camel-watering"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40083:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:musbi:shepherd-predation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40084:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:masbaa:predator-land"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40085:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:musabba:seven-feet"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40085:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:musabba:camel-vertebrae"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40085:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sbE:40086:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:masbuu:rope"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40086:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:masbuu:predated-female"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sbE:40087:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mutasabba:predator-place"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The public numeral headword groups the QAC forms سَبْعٌ, سَبْعَةٌ, and the tagged occurrence at 69:7; the differences are grammatical or constructional rather than separate lexical roots.",
+    "In السَّبْعُ الْمَثَانِي, the classical explanations differ as to whether the expression denotes the Fātiḥah or a group of long surahs."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,230 @@
+{
+  "root": "Tmv",
+  "arabic": "طمث",
+  "root_idea": {
+    "summary": "The root centers on touching or making contact with something.",
+    "development": "Its lexical branches extend from general contact to sexual contact and defloration; related usages denote menstruation, associated blood, and forms of pollution or corruption.",
+    "source_refs": [
+      "maqayis:row:3057",
+      "mufradat:row:911"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Tmv:yaTomivo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Tmv-verb-I",
+      "reason": "Displayed under the normalized Form I perfect citation form طَمَثَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "Tmv-verb-I",
+      "form_group_ids": [
+        "qac-form:Tmv:yaTomivo:verb:I"
+      ],
+      "headword_arabic": "طَمَثَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "Tmv-verb-I-s1",
+          "definition": "To deflower her, with the bleeding associated with devirginization.",
+          "usage_conditions": "In the Quranic construction of sexual contact, this is the interpretation that specifically understands the verb as defloration rather than intercourse in a general sense.",
+          "source_refs": [
+            "lane:entry:11704",
+            "mufradat:row:911"
+          ]
+        },
+        {
+          "sense_id": "Tmv-verb-I-s2",
+          "definition": "To have sexual intercourse with her; to sexually touch her.",
+          "usage_conditions": "A broader interpretation of the Quranic construction, treating the verb as a general expression for sexual intercourse rather than specifically for first intercourse or bleeding.",
+          "source_refs": [
+            "lane:entry:11704"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "55:56",
+          "word_location": "55:56:5",
+          "sense_ids": [
+            "Tmv-verb-I-s1",
+            "Tmv-verb-I-s2"
+          ]
+        },
+        {
+          "verse_key": "55:74",
+          "word_location": "55:74:2",
+          "sense_ids": [
+            "Tmv-verb-I-s1",
+            "Tmv-verb-I-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "Tmv-verb-menstruate",
+      "headword_arabic": "طَمَثَ",
+      "definition": "Of a woman, to menstruate.",
+      "usage_conditions": "Some reported usage specifies a girl's or young woman's first menstruation.",
+      "source_refs": [
+        "lane:entry:11704"
+      ]
+    },
+    {
+      "meaning_id": "Tmv-verb-touch",
+      "headword_arabic": "طَمَثَ",
+      "definition": "To touch or come into contact with a thing.",
+      "usage_conditions": "Used of ordinary contact with places, animals, or other things; examples describe a pasture or camel that no one or nothing has previously touched.",
+      "source_refs": [
+        "lane:entry:11704"
+      ]
+    },
+    {
+      "meaning_id": "Tmv-verb-bind-camel",
+      "headword_arabic": "طَمَثَ",
+      "definition": "To bind a camel's fore shank to its arm.",
+      "usage_conditions": "A specialized expression used of securing a camel's leg.",
+      "source_refs": [
+        "lane:entry:11704"
+      ]
+    },
+    {
+      "meaning_id": "Tmv-noun-blood",
+      "headword_arabic": "طَمْثٌ",
+      "definition": "Blood, especially blood associated with defloration or menstruation.",
+      "usage_conditions": "The attested explanations include blood shed upon devirginization and menstrual blood.",
+      "source_refs": [
+        "lane:entry:11705"
+      ]
+    },
+    {
+      "meaning_id": "Tmv-noun-filth",
+      "headword_arabic": "طَمْثٌ",
+      "definition": "Dirt, filth, or pollution.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:11705"
+      ]
+    },
+    {
+      "meaning_id": "Tmv-noun-suspicion",
+      "headword_arabic": "طَمْثٌ",
+      "definition": "A thing that induces suspicion or an evil opinion.",
+      "usage_conditions": "Used of a defect or circumstance that gives cause for mistrust or discredit.",
+      "source_refs": [
+        "lane:entry:11705"
+      ]
+    },
+    {
+      "meaning_id": "Tmv-noun-corruption",
+      "headword_arabic": "طَمْثٌ",
+      "definition": "Corruption.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:11705"
+      ]
+    },
+    {
+      "meaning_id": "Tmv-active-participle-menstruating",
+      "headword_arabic": "طَامِثٌ",
+      "definition": "A menstruating woman.",
+      "usage_conditions": "Some reported usage applies it specifically to a girl or young woman, or to one menstruating for the first time.",
+      "source_refs": [
+        "lane:entry:11707"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Tmv:11704:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Tmv-verb-I-s1",
+        "Tmv-verb-menstruate"
+      ],
+      "note": "Covers menstruation and the defloration branch."
+    },
+    {
+      "unit_id": "lane-unit:Tmv:11704:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Tmv-verb-I-s1",
+        "Tmv-verb-I-s2"
+      ],
+      "note": "Covers the Quran-attested sexual-contact interpretations."
+    },
+    {
+      "unit_id": "lane-unit:Tmv:11704:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Tmv-verb-touch"
+      ],
+      "note": "Covers general contact with a thing."
+    },
+    {
+      "unit_id": "lane-unit:Tmv:11704:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Tmv-verb-bind-camel"
+      ],
+      "note": "Covers the specialized camel-binding usage."
+    },
+    {
+      "unit_id": "lane-unit:Tmv:11705:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Tmv-noun-blood"
+      ],
+      "note": "Covers blood associated with defloration or menstruation."
+    },
+    {
+      "unit_id": "lane-unit:Tmv:11705:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Tmv-noun-filth"
+      ],
+      "note": "Covers dirt, filth, and pollution."
+    },
+    {
+      "unit_id": "lane-unit:Tmv:11705:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Tmv-noun-suspicion"
+      ],
+      "note": "Covers the cause of suspicion or evil opinion."
+    },
+    {
+      "unit_id": "lane-unit:Tmv:11705:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Tmv-noun-corruption"
+      ],
+      "note": "Covers corruption."
+    },
+    {
+      "unit_id": "lane-unit:Tmv:11706:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:Tmv:11707:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Tmv-active-participle-menstruating"
+      ],
+      "note": "Covers the active participle for a menstruating woman."
+    }
+  ],
+  "cautions": [
+    "The two Quran occurrences use the same construction, while the lexical evidence records a genuine interpretive range between specific defloration with bleeding and sexual intercourse in a general sense.",
+    "The normalized public headword is the perfect citation form طَمَثَ; the supplied QAC form is its imperfective Quranic realization يَطْمِثْ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,126 @@
+{
+  "root": "nzf",
+  "arabic": "نزف",
+  "root_idea": {
+    "summary": "The root centers on depletion: a substance, liquid, resource, or capacity is used up and brought to an end.",
+    "development": "The lexical field extends from draining a well or expelling blood and tears to drink running out, the mind being emptied by intoxication, and figuratively a disputant's proof being exhausted.",
+    "source_refs": [
+      "maqayis:row:4609"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nzf:yunzafu:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:nzf:anzafa",
+      "reason": "Displayed under the normalized Form IV perfect citation form أَنْزَفَ rather than the imperfect QAC lemma."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:nzf:anzafa",
+      "form_group_ids": [
+        "qac-form:nzf:yunzafu:verb:IV"
+      ],
+      "headword_arabic": "أَنْزَفَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform:nzf:anzafa:s1",
+          "definition": "To become intoxicated; to have one's reason removed by drink.",
+          "usage_conditions": "In the Quranic construction with عَنْهَا, this meaning is negated: the drink does not intoxicate or deprive its drinkers of reason. The sense is tied to one of the variant vocalizations represented in the supplied Form IV grouping.",
+          "source_refs": [
+            "mufradat:row:1431"
+          ]
+        },
+        {
+          "sense_id": "qform:nzf:anzafa:s2",
+          "definition": "For drink to be exhausted or depleted.",
+          "usage_conditions": "In the Quranic construction, this meaning is likewise negated: the drink does not run out. It is an explicitly reported variant-reading interpretation of the grouped Form IV expression, not an additional occurrence.",
+          "source_refs": [
+            "mufradat:row:1431"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:47",
+          "word_location": "37:47:7",
+          "sense_ids": [
+            "qform:nzf:anzafa:s1"
+          ]
+        },
+        {
+          "verse_key": "56:19",
+          "word_location": "56:19:5",
+          "sense_ids": [
+            "qform:nzf:anzafa:s1",
+            "qform:nzf:anzafa:s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:nzf:nazafa-drain",
+      "headword_arabic": "نَزَفَ",
+      "definition": "To drain or exhaust a liquid completely, especially by drawing water from a well little by little; also to have blood or tears entirely flow out.",
+      "usage_conditions": "The well usage concerns gradual removal of its water; the blood and tears usages describe their being completely drawn out.",
+      "source_refs": [
+        "lane:entry:32171",
+        "mufradat:row:1431"
+      ]
+    },
+    {
+      "meaning_id": "cm:nzf:nuzfa-scoop",
+      "headword_arabic": "نُزْفَة",
+      "definition": "A scoop or single drawing of water.",
+      "usage_conditions": "A nominal usage for the amount taken in one scoop; its plural is نُزَف.",
+      "source_refs": [
+        "mufradat:row:1431"
+      ]
+    },
+    {
+      "meaning_id": "cm:nzf:anzafa-transitive",
+      "headword_arabic": "أَنْزَفَ",
+      "definition": "To exhaust or deplete a thing completely.",
+      "usage_conditions": "A transitive Form IV usage described as stronger or more intensive than نَزَفَ.",
+      "source_refs": [
+        "mufradat:row:1431"
+      ]
+    },
+    {
+      "meaning_id": "cm:nzf:nazafa-argument",
+      "headword_arabic": "نَزَفَ",
+      "definition": "For a disputant's argument or proof to be exhausted, leaving him unable to continue his case.",
+      "usage_conditions": "A figurative construction used of a person whose حجّة has come to an end in disputation.",
+      "source_refs": [
+        "maqayis:row:4609",
+        "mufradat:row:1431"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nzf:32171:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:nzf:nazafa-drain"
+      ],
+      "note": "The unit's exhaustion of a well and its water is represented under the liquid-draining meaning."
+    },
+    {
+      "unit_id": "lane-unit:nzf:32172:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader to an example under another headword."
+    }
+  ],
+  "cautions": [
+    "The single QAC Form IV group combines the vocalized forms يُنزَفُ and يُنزِفُ. The supplied Quran-focused evidence records variant-reading interpretations involving both intoxication and drink depletion, while the contextual English glosses render both occurrences as intoxication."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

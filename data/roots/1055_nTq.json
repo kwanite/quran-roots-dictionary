@@ -1,0 +1,459 @@
+{
+  "root": "nTq",
+  "arabic": "نطق",
+  "root_idea": {
+    "summary": "The root has two established lexical axes: speech or meaning-bearing expression, and a band or garment encircling the waist.",
+    "development": "The speech axis extends from vocal utterance to intelligible communication, including understood animal sounds, written testimony, and philosophical notions of rational speech. The separate clothing axis yields terms for belts, girdles, and related bands.",
+    "source_refs": [
+      "maqayis:row:4668"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nTq:yanTiqu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nTq-form-I-naTaqa",
+      "reason": "Distinct Quran-attested Form I verb, normalized to the classical perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:nTq:>anTaqa:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nTq-form-IV-anTaqa",
+      "reason": "Distinct Quran-attested Form IV causative verb."
+    },
+    {
+      "form_group_id": "qac-form:nTq:manTiq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nTq-noun-manTiq",
+      "reason": "Distinct Quran-attested nominal form, normalized to the dictionary citation form مَنْطِقٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nTq-form-I-naTaqa",
+      "form_group_ids": [
+        "qac-form:nTq:yanTiqu:verb:I"
+      ],
+      "headword_arabic": "نَطَقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "nTq-I-s1",
+          "definition": "To speak, utter, or articulate sounds or words.",
+          "usage_conditions": "The Quranic occurrences include ordinary speech and contexts denying idols or other entities the capacity to speak. With بِهِ, the verb can mean to pronounce or articulate an object. Animal attribution is normally qualified or figurative in the general lexical usage.",
+          "source_refs": [
+            "lane:entry:32269",
+            "mufradat:row:1455"
+          ]
+        },
+        {
+          "sense_id": "nTq-I-s2",
+          "definition": "To communicate or testify through a non-vocal medium; of a record, to express its contents as truth.",
+          "usage_conditions": "In the Quranic record-related construction, the record is described as speaking although its message is perceived by reading rather than hearing.",
+          "source_refs": [
+            "mufradat:row:1455"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:65",
+          "word_location": "21:65:9",
+          "sense_ids": [
+            "nTq-I-s1"
+          ]
+        },
+        {
+          "verse_key": "37:92",
+          "word_location": "37:92:4",
+          "sense_ids": [
+            "nTq-I-s1"
+          ]
+        },
+        {
+          "verse_key": "53:3",
+          "word_location": "53:3:2",
+          "sense_ids": [
+            "nTq-I-s1"
+          ]
+        },
+        {
+          "verse_key": "45:29",
+          "word_location": "45:29:3",
+          "sense_ids": [
+            "nTq-I-s2"
+          ]
+        },
+        {
+          "verse_key": "23:62",
+          "word_location": "23:62:8",
+          "sense_ids": [
+            "nTq-I-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nTq-form-IV-anTaqa",
+      "form_group_ids": [
+        "qac-form:nTq:>anTaqa:verb:IV"
+      ],
+      "headword_arabic": "أَنْطَقَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "nTq-IV-s1",
+          "definition": "To make someone or something speak; to cause it to give audible or intelligible testimony.",
+          "usage_conditions": "In the Quranic construction, body parts are made to speak. The lexical discussion records both an audible interpretation and an interpretation in which their testimony is understood as meaningful evidence.",
+          "source_refs": [
+            "mufradat:row:1455"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "41:21",
+          "word_location": "41:21:10",
+          "sense_ids": [
+            "nTq-IV-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nTq-noun-manTiq",
+      "form_group_ids": [
+        "qac-form:nTq:manTiq:nominal:-"
+      ],
+      "headword_arabic": "مَنْطِقٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nTq-N-s1",
+          "definition": "Speech or language; intelligible vocal expression.",
+          "usage_conditions": "In the Quranic occurrence, the expression refers to the vocalizations or language of birds insofar as they are understood by Solomon.",
+          "source_refs": [
+            "mufradat:row:1455"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:16",
+          "word_location": "27:16:8",
+          "sense_ids": [
+            "nTq-N-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nTq-nuTq-faculty",
+      "headword_arabic": "نُطْقٌ",
+      "definition": "The human faculty underlying speech and reason; in philosophical terminology, the rational faculty.",
+      "usage_conditions": "A technical usage distinguished from the ordinary act of uttering speech.",
+      "source_refs": [
+        "mufradat:row:1455"
+      ]
+    },
+    {
+      "meaning_id": "nTq-naaTaqa",
+      "headword_arabic": "نَاطَقَ",
+      "definition": "To converse or discourse with someone.",
+      "usage_conditions": "Form III, commonly followed by بِ before the subject of discussion.",
+      "source_refs": [
+        "lane:entry:32270"
+      ]
+    },
+    {
+      "meaning_id": "nTq-tanaaTaqa",
+      "headword_arabic": "تَنَاطَقَ",
+      "definition": "To converse mutually or talk with one another.",
+      "usage_conditions": "A reciprocal Form VI construction.",
+      "source_refs": [
+        "lane:entry:32271"
+      ]
+    },
+    {
+      "meaning_id": "nTq-istantaqa",
+      "headword_arabic": "اِسْتَنْطَقَ",
+      "definition": "To seek to make someone speak; to question or interrogate someone until he speaks.",
+      "usage_conditions": "Form X expressing the attempt or desire to elicit speech.",
+      "source_refs": [
+        "lane:entry:32272"
+      ]
+    },
+    {
+      "meaning_id": "nTq-niTaaq",
+      "headword_arabic": "نِطَاقٌ",
+      "definition": "A bar of a door; also the Belt of Orion.",
+      "usage_conditions": "The astronomical use is a conventional name for the belt-like stellar group.",
+      "source_refs": [
+        "lane:entry:32273"
+      ]
+    },
+    {
+      "meaning_id": "nTq-niTaaqah",
+      "headword_arabic": "نِطَاقَةٌ",
+      "definition": "A ticket or label indicating a price or weight.",
+      "usage_conditions": "A specialized nominal usage, cross-referenced in the lexical source with بِطَاقَةٌ.",
+      "source_refs": [
+        "lane:entry:32274"
+      ]
+    },
+    {
+      "meaning_id": "nTq-naaTiq-vocal",
+      "headword_arabic": "نَاطِقٌ",
+      "definition": "Vocal or singing; applied to singing birds.",
+      "usage_conditions": "An active-participle adjective describing vocal production.",
+      "source_refs": [
+        "lane:entry:32275"
+      ]
+    },
+    {
+      "meaning_id": "nTq-naaTiq-dinar",
+      "headword_arabic": "نَاطِقٌ",
+      "definition": "A technical epithet applied to a dīnār.",
+      "usage_conditions": "The evidence records the epithet without supplying a fuller explanation of the coin terminology.",
+      "source_refs": [
+        "lane:entry:32275"
+      ]
+    },
+    {
+      "meaning_id": "nTq-naaTiq-rational",
+      "headword_arabic": "نَاطِقٌ",
+      "definition": "Rational; in technical usage, applied to a rational root in arithmetic or to a rational animal.",
+      "usage_conditions": "These are specialized applications of the adjective, including philosophical and mathematical terminology.",
+      "source_refs": [
+        "lane:entry:32275"
+      ]
+    },
+    {
+      "meaning_id": "nTq-naaTiqiyyah",
+      "headword_arabic": "نَاطِقِيَّةٌ",
+      "definition": "Rationality.",
+      "usage_conditions": "A technical abstract noun derived from نَاطِقٌ.",
+      "source_refs": [
+        "lane:entry:32276"
+      ]
+    },
+    {
+      "meaning_id": "nTq-manTiq-classical",
+      "headword_arabic": "مَنْطِقٌ",
+      "definition": "Speech, diction, or the expression of ideas and meanings through voice and words.",
+      "usage_conditions": "This broader Classical usage is distinct from the specifically Quranic reference to the language of birds.",
+      "source_refs": [
+        "lane:entry:32277"
+      ]
+    },
+    {
+      "meaning_id": "nTq-minTaqah",
+      "headword_arabic": "مِنْطَقَةٌ",
+      "definition": "A girdle, zone, or waist-belt fastened around the waist with a clasp or buckle.",
+      "usage_conditions": "The belt may be worn by men or women and may be ornamented.",
+      "source_refs": [
+        "lane:entry:32278"
+      ]
+    },
+    {
+      "meaning_id": "nTq-minTiiq",
+      "headword_arabic": "مِنْطِيقٌ",
+      "definition": "Eloquent or capable in speech; an able speaker.",
+      "usage_conditions": "An intensive descriptive form concerning speaking ability.",
+      "source_refs": [
+        "lane:entry:32279"
+      ]
+    },
+    {
+      "meaning_id": "nTq-muntaTiq-horse",
+      "headword_arabic": "مُنْتَطِقٌ",
+      "definition": "In a reported interpretation of a poetic usage, one who leads a horse beside himself rather than riding it.",
+      "usage_conditions": "This is a disputed interpretation of a particular poetic expression, not a Quranic meaning.",
+      "source_refs": [
+        "maqayis:row:4668",
+        "mufradat:row:1455"
+      ]
+    },
+    {
+      "meaning_id": "nTq-muntaTiq-belt",
+      "headword_arabic": "مُنْتَطِقٌ",
+      "definition": "In a reported interpretation, one who has fastened or wears a belt.",
+      "usage_conditions": "This reading belongs to the clothing branch of the root and is preserved as an interpretation of a poetic expression.",
+      "source_refs": [
+        "maqayis:row:4668",
+        "mufradat:row:1455"
+      ]
+    },
+    {
+      "meaning_id": "nTq-muntaTiq-eloquent",
+      "headword_arabic": "مُنْتَطِقٌ",
+      "definition": "In a reported poetic interpretation, one who speaks excellently.",
+      "usage_conditions": "A contextual interpretation of a poetic expression, closely related to eloquent speech but attached to this derived form.",
+      "source_refs": [
+        "maqayis:row:4668",
+        "mufradat:row:1455"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nTq:32269:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Transitivity and cross-reference note without an independent lexical gloss."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32269:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-I-s1"
+      ],
+      "note": "Pronouncing or articulating an object with بِهِ."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32269:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-N-s1"
+      ],
+      "note": "Application of speech terminology to bird or animal vocalization."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32270:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-naaTaqa"
+      ],
+      "note": "Conversing or discoursing with another."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32271:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-tanaaTaqa"
+      ],
+      "note": "Mutual or reciprocal conversation."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32272:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-istantaqa"
+      ],
+      "note": "Eliciting speech by questioning."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32273:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-niTaaq"
+      ],
+      "note": "Bar of a door."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32273:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-niTaaq"
+      ],
+      "note": "Belt-like astronomical name, the Belt of Orion."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32274:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-niTaaqah"
+      ],
+      "note": "Ticket indicating price or weight."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32275:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Headword marker without an independent lexical statement."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32275:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-naaTiq-vocal"
+      ],
+      "note": "Use of ناطق for singing birds."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32275:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-naaTiq-dinar"
+      ],
+      "note": "Technical epithet applied to a dīnār."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32275:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-naaTiq-rational"
+      ],
+      "note": "Technical sense of rational root."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32275:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-naaTiq-rational"
+      ],
+      "note": "Philosophical sense of rational animal."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32276:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-naaTiqiyyah"
+      ],
+      "note": "Abstract noun meaning rationality."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32277:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-manTiq-classical"
+      ],
+      "note": "Speech, diction, and expression of ideas."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32278:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-minTaqah"
+      ],
+      "note": "Waist-belt or girdle."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32279:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nTq-minTiiq"
+      ],
+      "note": "Eloquence or ability in speech."
+    },
+    {
+      "unit_id": "lane-unit:nTq:32280:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to a separate entry."
+    }
+  ],
+  "cautions": [
+    "The Quranic Form IV passage concerning body parts being made to speak has both an audible-speech interpretation and an interpretation as meaningful testimony; the listed sense preserves both without deciding between them.",
+    "The meanings assigned to مُنْتَطِقٌ from the poetic evidence are reported and disputed interpretations, not Quranic senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

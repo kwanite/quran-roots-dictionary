@@ -1,0 +1,188 @@
+{
+  "root": "mlw",
+  "arabic": "ملو",
+  "root_idea": {
+    "summary": "An orientation toward extending or prolonging something across time, space, or another span.",
+    "development": "The root develops from widening or extending something to prolonged life or duration, granting respite, and the extension of a text through dictation. The Quranic forms use these branches for giving respite, dictating, and a long duration.",
+    "source_refs": [
+      "maqayis:row:4464",
+      "mufradat:row:1386"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mlw:>amolaY`:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mlw_amla_iv",
+      "reason": "Distinct Quran-attested Form IV verb with respite and dictation usages."
+    },
+    {
+      "form_group_id": "qac-form:mlw:maliy~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mlw_mali",
+      "reason": "Distinct Quran-attested duration adjective occurring adverbially."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mlw_amla_iv",
+      "form_group_ids": [
+        "qac-form:mlw:>amolaY`:verb:IV"
+      ],
+      "headword_arabic": "أَمْلَى",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "mlw_amla_iv_s1",
+          "definition": "To grant respite; to defer or allow someone more time.",
+          "usage_conditions": "The Quranic usage concerns giving a person or group time, sometimes rendered as prolonging or deferring; the active and passive forms do not create separate lexical senses.",
+          "source_refs": [
+            "mufradat:row:1386"
+          ]
+        },
+        {
+          "sense_id": "mlw_amla_iv_s2",
+          "definition": "To dictate a text to someone.",
+          "usage_conditions": "Used in the construction of dictating or reciting written material to a recipient, as in the expression meaning that it is dictated to him.",
+          "source_refs": [
+            "mufradat:row:1386"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:183",
+          "word_location": "7:183:1",
+          "sense_ids": [
+            "mlw_amla_iv_s1"
+          ]
+        },
+        {
+          "verse_key": "3:178",
+          "word_location": "3:178:6",
+          "sense_ids": [
+            "mlw_amla_iv_s1"
+          ]
+        },
+        {
+          "verse_key": "47:25",
+          "word_location": "47:25:15",
+          "sense_ids": [
+            "mlw_amla_iv_s1"
+          ]
+        },
+        {
+          "verse_key": "25:5",
+          "word_location": "25:5:6",
+          "sense_ids": [
+            "mlw_amla_iv_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mlw_mali",
+      "form_group_ids": [
+        "qac-form:mlw:maliy~:nominal:-"
+      ],
+      "headword_arabic": "مَلِيّ",
+      "public_pos_label": "Adjective · duration",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "mlw_mali_s1",
+          "definition": "A long while; a prolonged duration.",
+          "usage_conditions": "In the Quranic occurrence, the adjective is used adverbially with the meaning “for a long time.”",
+          "source_refs": [
+            "mufradat:row:1386"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:46",
+          "word_location": "19:46:12",
+          "sense_ids": [
+            "mlw_mali_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mlw_cls_imla_extension",
+      "headword_arabic": "الإِمْلَاء",
+      "definition": "Extension or supplying something; furnishing or extending it.",
+      "usage_conditions": "A broad Classical use of الإملاء meaning extension or provision, apart from the Quranic constructions of granting respite and dictating.",
+      "source_refs": [
+        "mufradat:row:1386"
+      ]
+    },
+    {
+      "meaning_id": "mlw_cls_amla_tether",
+      "headword_arabic": "أَمْلَى القَيْدَ",
+      "definition": "To loosen a camel’s tether by widening it.",
+      "usage_conditions": "The tether is made roomier by extending it.",
+      "source_refs": [
+        "maqayis:row:4464"
+      ]
+    },
+    {
+      "meaning_id": "mlw_cls_tamalli",
+      "headword_arabic": "تَمَلَّى",
+      "definition": "To enjoy or live through something for a long time; to have a prolonged span of life or enjoyment.",
+      "usage_conditions": "Used of remaining through a long period of life or enjoying an object over an extended duration.",
+      "source_refs": [
+        "maqayis:row:4464",
+        "mufradat:row:1386"
+      ]
+    },
+    {
+      "meaning_id": "mlw_cls_malawah",
+      "headword_arabic": "مَلَاوَة",
+      "definition": "A long span of time, especially a prolonged span of life.",
+      "usage_conditions": "A duration expression for an extended period or continued life.",
+      "source_refs": [
+        "maqayis:row:4464",
+        "mufradat:row:1386"
+      ]
+    },
+    {
+      "meaning_id": "mlw_cls_mala",
+      "headword_arabic": "المَلَا",
+      "definition": "An extended open tract or desert.",
+      "usage_conditions": "The shortened, unhamzated form denotes an expansive open place.",
+      "source_refs": [
+        "mufradat:row:1386"
+      ]
+    },
+    {
+      "meaning_id": "mlw_cls_malawan",
+      "headword_arabic": "المَلَوَان",
+      "definition": "The recurring pair of night and day.",
+      "usage_conditions": "A dual expression understood through the repeated succession and extension of night and day.",
+      "source_refs": [
+        "maqayis:row:4464",
+        "mufradat:row:1386"
+      ]
+    },
+    {
+      "meaning_id": "mlw_cls_malakallah",
+      "headword_arabic": "مَلَاكَ الله",
+      "definition": "A conventional wish that God prolong someone’s life.",
+      "usage_conditions": "A non-hamzated expression used as a formula for long life.",
+      "source_refs": [
+        "mufradat:row:1386"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [],
+  "cautions": [
+    "No Lane primary entry was matched for this root in the supplied evidence. The Mufradat record is headed ملا through final-weak-root normalization, but it explicitly explains the relevant Quranic forms and cites their Quranic usages."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

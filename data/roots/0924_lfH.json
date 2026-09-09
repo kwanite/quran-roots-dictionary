@@ -1,0 +1,177 @@
+{
+  "root": "lfH",
+  "arabic": "لفح",
+  "root_idea": {
+    "summary": "The root centers on being struck by scorching heat, especially when the face or surface is visibly affected.",
+    "development": "The core thermal sense extends to fire, sun, and hot wind. A light sword blow is recorded as a secondary or metaphorical application, with its original basis questioned in favor of نفح.",
+    "source_refs": [
+      "maqayis:row:4195",
+      "lane:entry:9745",
+      "mufradat:row:1311"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lfH:talofaHu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:lfH:lafaha",
+      "reason": "Displayed under the normalized perfect Form I citation form لَفَحَ rather than the attested imperfect تَلْفَحُ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:lfH:lafaha",
+      "form_group_ids": [
+        "qac-form:lfH:talofaHu:verb:I"
+      ],
+      "headword_arabic": "لَفَحَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsense:lfH:thermal",
+          "definition": "To strike and scorch with intense heat; to burn.",
+          "usage_conditions": "In the Quranic construction, fire is the agent and faces are the object: the fire scorches their faces. The form is attested as the active imperfect تَلْفَحُ.",
+          "source_refs": [
+            "lane:entry:9745",
+            "mufradat:row:1311"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "23:104",
+          "word_location": "23:104:1",
+          "sense_ids": [
+            "qsense:lfH:thermal"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:lfH:lafaha:sword",
+      "headword_arabic": "لَفَحَ",
+      "definition": "To strike someone lightly or slightly with a sword.",
+      "usage_conditions": "Used with بِالسَّيْفِ; the blow is explicitly characterized as light or slight.",
+      "source_refs": [
+        "lane:entry:9745",
+        "mufradat:row:1311"
+      ]
+    },
+    {
+      "meaning_id": "cm:lfH:lafhah:swordblow",
+      "headword_arabic": "لَفْحَةٌ",
+      "definition": "A light or slight blow with a sword.",
+      "usage_conditions": "A noun for the corresponding slight sword stroke.",
+      "source_refs": [
+        "lane:entry:9747"
+      ]
+    },
+    {
+      "meaning_id": "cm:lfH:lafh:heatgust",
+      "headword_arabic": "لَفْحٌ",
+      "definition": "A blast or gust of heat, especially a burning hot wind such as ḥarūr or samūm.",
+      "usage_conditions": "Used for a hot blast or burning gust; the contrast with نفح concerns a cold or cool wind.",
+      "source_refs": [
+        "lane:entry:9746"
+      ]
+    },
+    {
+      "meaning_id": "cm:lfH:luffah:plant",
+      "headword_arabic": "لُفَّاحٌ",
+      "definition": "A well-known yellow, sweet-scented plant of the yَقْطِينِيّ kind.",
+      "usage_conditions": "The plant is described as one that people smell for its sweet odor and as resembling a yellowing eggplant.",
+      "source_refs": [
+        "lane:entry:9748"
+      ]
+    },
+    {
+      "meaning_id": "cm:lfH:luffah:mandrakefruit",
+      "headword_arabic": "لُفَّاحٌ",
+      "definition": "The fruit or produce of the mandrake.",
+      "usage_conditions": "A botanical application of the same term to the mandrake’s fruit or produce.",
+      "source_refs": [
+        "lane:entry:9748"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lfH:9745:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:lfH:thermal"
+      ],
+      "note": "Thermal striking or burning by fire and hot wind is represented by the thermal sense."
+    },
+    {
+      "unit_id": "lane-unit:lfH:9745:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lfH:lafaha:sword"
+      ],
+      "note": "Light sword striking is represented as a separate classical construction."
+    },
+    {
+      "unit_id": "lane-unit:lfH:9746:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lfH:lafh:heatgust"
+      ],
+      "note": "The noun for a burning gust is represented."
+    },
+    {
+      "unit_id": "lane-unit:lfH:9746:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:lfH:lafh:heatgust"
+      ],
+      "note": "The heat-versus-cold wind contrast is covered by the hot-gust meaning."
+    },
+    {
+      "unit_id": "lane-unit:lfH:9746:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:lfH:lafh:heatgust"
+      ],
+      "note": "The plural application remains the same hot-gust meaning."
+    },
+    {
+      "unit_id": "lane-unit:lfH:9747:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lfH:lafhah:swordblow"
+      ],
+      "note": "The noun for a slight sword blow is represented."
+    },
+    {
+      "unit_id": "lane-unit:lfH:9748:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lfH:luffah:plant"
+      ],
+      "note": "The plant sense is represented under the normalized لُفَّاحٌ spelling."
+    },
+    {
+      "unit_id": "lane-unit:lfH:9748:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lfH:luffah:mandrakefruit"
+      ],
+      "note": "The mandrake-fruit application is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:lfH:9749:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to لَفْحٌ."
+    }
+  ],
+  "cautions": [
+    "The botanical Lane entry is headed in the extracted data as لُقَّاحٌ, while its body identifies the term as لُفَّاحٌ and discusses meanings consistent with that spelling; the public headword is normalized to لُفَّاحٌ based on the body and root context."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

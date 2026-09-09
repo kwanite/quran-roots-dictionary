@@ -1,0 +1,35 @@
+{
+  "format": "quran-roots-final-freeze-audit-v3",
+  "freeze_gate_pass": true,
+  "summary": {
+    "canonical_root_count": 1642,
+    "final_json_count": 1642,
+    "exact_internal_root_count": 1642,
+    "missing_root_count": 0,
+    "hard_anomaly_count": 0,
+    "authorized_v8_changed_root_count": 271,
+    "unchanged_v7_to_v8_root_count": 1371,
+    "qf_example_status_counts": {
+      "MATCH": 9178
+    },
+    "warning_code_root_counts": {
+      "LANE_SOURCE_REF_NOT_LINKED_BY_UNIT_LEDGER": 496,
+      "QF_REPRESENTATIVE_NOT_SUPPLIED": 276,
+      "QF_GLOSS_MISMATCH": 66,
+      "DERIVED_NOMINAL_PARENT_LEXICAL_SUPPORT": 31,
+      "PUBLIC_DERIVED_NOMINAL_LABEL_TOO_GENERIC": 9,
+      "PUBLIC_VERB_LABEL_TOO_GENERIC": 2
+    }
+  },
+  "release_constraint": {
+    "prior_release": "v7",
+    "current_release": "v8",
+    "only_allowed_content_change": "$.quranic_forms[*].quran_examples[*].context_gloss",
+    "qf_join_key": "exact surah:ayah:word",
+    "multi_root_qac_words": "quarantined from whole-word QF gloss assignment",
+    "qf_source_sha256": "be55ce497c73cde640fd4aaab0faa36af650970c37e2ac8c0721e6118b3ed499",
+    "qac_source_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46"
+  },
+  "hard_anomalies": [],
+  "review_anomalies": []
+}

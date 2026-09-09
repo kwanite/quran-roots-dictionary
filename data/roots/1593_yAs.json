@@ -1,0 +1,335 @@
+{
+  "root": "yAs",
+  "arabic": "يأس",
+  "root_idea": {
+    "summary": "The root centers on the cutting off or absence of hope, hence despair and the loss of expectation.",
+    "development": "The semantic range develops from cessation of hope to despairing states and causative or derived forms. A secondary Quranic usage of the Form I verb is reported as “to know,” explained either as a dialectal or figurative usage or as knowledge inferred from the certainty underlying despair.",
+    "source_refs": [
+      "maqayis:row:5244",
+      "mufradat:row:1621"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:yAs:ya}isa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "yAs.formI",
+      "reason": "The Form I verb is a distinct Quran-attested lexical form."
+    },
+    {
+      "form_group_id": "qac-form:yAs:{sotayo_#asa:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "yAs.formX",
+      "reason": "The Quran-attested Form X verb is presented under its normalized Classical Arabic citation form."
+    },
+    {
+      "form_group_id": "qac-form:yAs:ya_#uws:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "yAs.yAus",
+      "reason": "The Quran-attested intensive nominal is presented as its own lexical form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "yAs.formI",
+      "form_group_ids": [
+        "qac-form:yAs:ya}isa:verb:I"
+      ],
+      "headword_arabic": "يَئِسَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "yAs.formI.s1",
+          "definition": "To despair of something; to lose or cut off hope concerning it.",
+          "usage_conditions": "Commonly construed with مِنْ for the person or matter concerning which hope is abandoned. This is the ordinary Quranic sense of the verb.",
+          "source_refs": [
+            "lane:entry:17233",
+            "mufradat:row:1621"
+          ]
+        },
+        {
+          "sense_id": "yAs.formI.s2",
+          "definition": "To know or recognize, in the Quranic expression associated with أَفَلَمْ يَيْأَسِ الَّذِينَ آمَنُوا.",
+          "usage_conditions": "A reported dialectal or figurative usage, and in this Quranic construction also explained as knowledge inferred from the believers’ despair that the matter could be otherwise; it is not the ordinary meaning of the verb.",
+          "source_refs": [
+            "lane:entry:17233",
+            "mufradat:row:1621"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:87",
+          "word_location": "12:87:8",
+          "sense_ids": [
+            "yAs.formI.s1"
+          ]
+        },
+        {
+          "verse_key": "29:23",
+          "word_location": "29:23:7",
+          "sense_ids": [
+            "yAs.formI.s1"
+          ]
+        },
+        {
+          "verse_key": "13:31",
+          "word_location": "13:31:20",
+          "sense_ids": [
+            "yAs.formI.s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "yAs.formX",
+      "form_group_ids": [
+        "qac-form:yAs:{sotayo_#asa:verb:X"
+      ],
+      "headword_arabic": "اِسْتَيْأَسَ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "yAs.formX.s1",
+          "definition": "To despair; to give up hope.",
+          "usage_conditions": "Form X expressing the experience or attainment of a state in which hope has been abandoned, including despair concerning someone or something.",
+          "source_refs": [
+            "mufradat:row:1621"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:80",
+          "word_location": "12:80:2",
+          "sense_ids": [
+            "yAs.formX.s1"
+          ]
+        },
+        {
+          "verse_key": "12:110",
+          "word_location": "12:110:3",
+          "sense_ids": [
+            "yAs.formX.s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "yAs.yAus",
+      "form_group_ids": [
+        "qac-form:yAs:ya_#uws:nominal:-"
+      ],
+      "headword_arabic": "يَؤُوسٌ",
+      "public_pos_label": "Intensive adjective (Quranic noun use)",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "yAs.yAus.s1",
+          "definition": "Intensely or habitually despairing; strongly given to despair.",
+          "usage_conditions": "An intensive adjectival expression for a pronounced or recurrent state of despair.",
+          "source_refs": [
+            "lane:entry:17241",
+            "mufradat:row:1621"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:9",
+          "word_location": "11:9:10",
+          "sense_ids": [
+            "yAs.yAus.s1"
+          ]
+        },
+        {
+          "verse_key": "41:49",
+          "word_location": "41:49:10",
+          "sense_ids": [
+            "yAs.yAus.s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "yAs.classical.formIV.causeDespair",
+      "headword_arabic": "أَيْأَسَهُ",
+      "definition": "To cause someone to despair; to cut off his hope.",
+      "usage_conditions": "Form IV causative, commonly construed with مِنْ for the thing concerning which hope is cut off.",
+      "source_refs": [
+        "lane:entry:17234"
+      ]
+    },
+    {
+      "meaning_id": "yAs.classical.formIV.barren",
+      "headword_arabic": "أَيْأَسَهُ",
+      "definition": "To cause a woman to become barren.",
+      "usage_conditions": "A specialized causative use, attested in the expression أَيْأَسَهَا اللهُ.",
+      "source_refs": [
+        "lane:entry:17234"
+      ]
+    },
+    {
+      "meaning_id": "yAs.classical.formI.barren",
+      "headword_arabic": "يَئِسَ",
+      "definition": "Of a woman, to become barren.",
+      "usage_conditions": "A specialized use of the Form I verb with a woman as subject.",
+      "source_refs": [
+        "lane:entry:17233"
+      ]
+    },
+    {
+      "meaning_id": "yAs.classical.phthisis",
+      "headword_arabic": "يَأَسٌ",
+      "definition": "Phthisis or pulmonary consumption.",
+      "usage_conditions": "A disease name in Classical Arabic.",
+      "source_refs": [
+        "lane:entry:17237"
+      ]
+    },
+    {
+      "meaning_id": "yAs.classical.yAis",
+      "headword_arabic": "يَائِسٌ",
+      "definition": "Despairing; one who has lost hope.",
+      "usage_conditions": "The ordinary active-participial adjective, distinct from the intensive form يَؤُوسٌ.",
+      "source_refs": [
+        "lane:entry:17241"
+      ]
+    },
+    {
+      "meaning_id": "yAs.classical.yAisaBarren",
+      "headword_arabic": "يَائِسَةٌ",
+      "definition": "A barren woman.",
+      "usage_conditions": "Feminine adjective or noun in the specialized barren-woman usage.",
+      "source_refs": [
+        "lane:entry:17242"
+      ]
+    },
+    {
+      "meaning_id": "yAs.classical.mayUs",
+      "headword_arabic": "مَيْؤُوسٌ مِنْهُ",
+      "definition": "Despaired of; regarded as beyond hope.",
+      "usage_conditions": "Passive participial construction with مِنْهُ identifying the person or thing regarded as hopeless.",
+      "source_refs": [
+        "lane:entry:17243"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:yAs:17233:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "yAs.formI.s1",
+        "yAs.formI.s2"
+      ],
+      "note": "Covers despair and the reported Quranic/dialectal usage meaning know."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17233:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "yAs.classical.formI.barren"
+      ],
+      "note": "Specialized barren-woman use of the verb."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17233:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "yAs.formI.s2"
+      ],
+      "note": "Explicitly attests the meaning know and cites the Quranic expression."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17234:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "yAs.classical.formIV.causeDespair"
+      ],
+      "note": "Form IV causative meaning."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17234:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "yAs.classical.formIV.barren"
+      ],
+      "note": "Specialized Form IV barren use."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17235:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17236:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; the Quranic Form X meaning is independently supported by the Quran-focused lexical evidence."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17237:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "yAs.classical.phthisis"
+      ],
+      "note": "Independent disease-name meaning."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17238:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to يَائِسٌ."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17239:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to يَائِسٌ."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17240:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to يَائِسٌ."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17241:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "yAs.classical.yAis",
+        "yAs.yAus.s1"
+      ],
+      "note": "Covers the ordinary despairing adjective and the intensive yāʾūs form."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17242:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "yAs.classical.yAisaBarren"
+      ],
+      "note": "Independent feminine barren-woman meaning."
+    },
+    {
+      "unit_id": "lane-unit:yAs:17243:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "yAs.classical.mayUs"
+      ],
+      "note": "Passive participial construction meaning despaired of."
+    }
+  ],
+  "cautions": [
+    "The interpretation of the Quranic Form I expression at 13:31 as “know” is a reported dialectal, figurative, or inferential usage and should not be generalized as the ordinary meaning of يَئِسَ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

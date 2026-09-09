@@ -1,0 +1,134 @@
+{
+  "root": "bEvr",
+  "arabic": "بعثر",
+  "root_idea": {
+    "summary": "The root expresses disturbing or turning over what is concealed so that it is brought forth and exposed.",
+    "development": "The Quran-focused evidence associates بعثرة with raising and stirring up what is hidden, with a possible interpretive association with بعث and إثارة. This development describes the semantic orientation of the root, not an additional form-level meaning.",
+    "source_refs": [
+      "mufradat:row:137"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bEvr:buEovira:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_baathara",
+      "reason": "Displayed under the normalized Form I perfect citation form بَعْثَرَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_baathara",
+      "form_group_ids": [
+        "qac-form:bEvr:buEovira:verb:I"
+      ],
+      "headword_arabic": "بَعْثَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform_baathara_s1",
+          "definition": "To bring forth and expose what is concealed beneath or within something by turning over or disturbing its covering; in the Quranic passive construction, for what is in the graves to be raised and brought out.",
+          "usage_conditions": "The Quranic attestations are passive perfect forms and concern what is in the graves. The grave context is explained as the earth being turned over and its contents brought forth; a reported interpretation focuses on buried valuables emerging before the dead.",
+          "source_refs": [
+            "lane:entry:36703",
+            "mufradat:row:137"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "82:4",
+          "word_location": "82:4:3",
+          "sense_ids": [
+            "qform_baathara_s1"
+          ]
+        },
+        {
+          "verse_key": "100:9",
+          "word_location": "100:9:4",
+          "sense_ids": [
+            "qform_baathara_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_baathara_examine_search",
+      "headword_arabic": "بَعْثَرَ",
+      "definition": "To examine or search; to seek out news or tidings.",
+      "usage_conditions": "The search may be directed at a thing or at information, including searching for, after, or into news and tidings.",
+      "source_refs": [
+        "lane:entry:36703"
+      ]
+    },
+    {
+      "meaning_id": "cm_baathara_scatter",
+      "headword_arabic": "بَعْثَرَ",
+      "definition": "To scatter or disperse something, turning its parts over one upon another.",
+      "usage_conditions": "Applied classically to goods, household effects, or commodities as they are dispersed and overturned.",
+      "source_refs": [
+        "lane:entry:36703"
+      ]
+    },
+    {
+      "meaning_id": "cm_baathara_demolish",
+      "headword_arabic": "بَعْثَرَ",
+      "definition": "To demolish a watering-trough or tank and turn it upside down.",
+      "usage_conditions": "A specialized use referring to a watering-trough or tank that is overturned after being demolished.",
+      "source_refs": [
+        "lane:entry:36703"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bEvr:36703:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_baathara_s1"
+      ],
+      "note": "Covers bringing out, exposing, and raising what is concealed, including the Quranic grave construction."
+    },
+    {
+      "unit_id": "lane-unit:bEvr:36703:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_baathara_examine_search"
+      ],
+      "note": "Covers examining and searching."
+    },
+    {
+      "unit_id": "lane-unit:bEvr:36703:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_baathara_examine_search"
+      ],
+      "note": "The search-for-news construction is included under the broader search meaning."
+    },
+    {
+      "unit_id": "lane-unit:bEvr:36703:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_baathara_scatter"
+      ],
+      "note": "Covers scattering or dispersing and turning parts over one another."
+    },
+    {
+      "unit_id": "lane-unit:bEvr:36703:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_baathara_demolish"
+      ],
+      "note": "Covers the specialized use for demolishing and overturning a watering-trough or tank."
+    }
+  ],
+  "cautions": [
+    "The Quranic form is attested only in passive perfect forms, while the public headword is the normalized active perfect dictionary citation form.",
+    "No matched Maqayis entry was supplied; the root-level orientation is therefore limited to the Quran-focused lexical discussion."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

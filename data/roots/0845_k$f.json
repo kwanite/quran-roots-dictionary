@@ -1,0 +1,492 @@
+{
+  "root": "k$f",
+  "arabic": "كشف",
+  "root_idea": {
+    "summary": "The root denotes removing something from over or before something else, thereby exposing what was concealed.",
+    "development": "Its semantic development extends from physically uncovering or stripping away a covering to making hidden things apparent, relieving distress, and related forms of disclosure, withdrawal, and exposure.",
+    "source_refs": [
+      "maqayis:row:3993",
+      "mufradat:row:1251"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:k$f:ka$afa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "k$f-verb-I",
+      "reason": "Canonical Quranic Form I verb."
+    },
+    {
+      "form_group_id": "qac-form:k$f:ka$of:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "k$f-kashf",
+      "reason": "Distinct Quranic verbal-noun form."
+    },
+    {
+      "form_group_id": "qac-form:k$f:kaA$if:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "k$f-kaashif",
+      "reason": "Public citation form for the Quranic active participle."
+    },
+    {
+      "form_group_id": "qac-form:k$f:kaA$ifap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "k$f-kaashif",
+      "reason": "Feminine inflection of the active participle citation form كاشف."
+    },
+    {
+      "form_group_id": "qac-form:k$f:ka`$ifa`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "k$f-kaashif",
+      "reason": "Plural inflection of the active participle citation form كاشف."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "k$f-verb-I",
+      "form_group_ids": [
+        "qac-form:k$f:ka$afa:verb:I"
+      ],
+      "headword_arabic": "كَشَفَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 14,
+      "senses": [
+        {
+          "sense_id": "k$f-v1-s1",
+          "definition": "To remove harm, affliction, grief, or adversity; to lift distress.",
+          "usage_conditions": "Used with an affliction or other distress as the object of removal; Quranic contexts commonly present the lifting of harm as an act of divine relief.",
+          "source_refs": [
+            "lane:entry:32867",
+            "mufradat:row:1251"
+          ]
+        },
+        {
+          "sense_id": "k$f-v1-s2",
+          "definition": "To remove a covering; to uncover, expose, or make what was concealed apparent.",
+          "usage_conditions": "May refer literally to taking something off or away from over another thing, or figuratively to bringing a concealed matter into view.",
+          "source_refs": [
+            "lane:entry:32867",
+            "mufradat:row:1251"
+          ]
+        },
+        {
+          "sense_id": "k$f-v1-s3",
+          "definition": "In يُكْشَفُ عَنْ سَاقٍ, to have the shin uncovered; idiomatically, for extreme severity or crisis to become manifest.",
+          "usage_conditions": "This is a Quranic idiomatic construction. Its explanation is associated with the disclosure of a severe situation, while the reported etymological interpretations differ.",
+          "source_refs": [
+            "mufradat:row:1251"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:84",
+          "word_location": "21:84:3",
+          "sense_ids": [
+            "k$f-v1-s1"
+          ]
+        },
+        {
+          "verse_key": "27:44",
+          "word_location": "27:44:9",
+          "sense_ids": [
+            "k$f-v1-s2"
+          ]
+        },
+        {
+          "verse_key": "50:22",
+          "word_location": "50:22:7",
+          "sense_ids": [
+            "k$f-v1-s2"
+          ]
+        },
+        {
+          "verse_key": "68:42",
+          "word_location": "68:42:2",
+          "sense_ids": [
+            "k$f-v1-s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "k$f-kashf",
+      "form_group_ids": [
+        "qac-form:k$f:ka$of:nominal:-"
+      ],
+      "headword_arabic": "كَشْف",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "k$f-kashf-s1",
+          "definition": "Removal or taking away, especially the lifting of harm or adversity.",
+          "usage_conditions": "A verbal noun naming the act or result of removing what causes distress or prevents relief.",
+          "source_refs": [
+            "lane:entry:32867"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:56",
+          "word_location": "17:56:9",
+          "sense_ids": [
+            "k$f-kashf-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "k$f-kaashif",
+      "form_group_ids": [
+        "qac-form:k$f:kaA$if:nominal:-",
+        "qac-form:k$f:kaA$ifap:nominal:-",
+        "qac-form:k$f:ka`$ifa`t:nominal:-"
+      ],
+      "headword_arabic": "كَاشِف",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "k$f-kaashif-s1",
+          "definition": "One who removes or takes away harm or affliction; a remover.",
+          "usage_conditions": "The active participle may be used substantivally and in plural or feminine inflection, and may function predicatively with the sense “one who will remove.”",
+          "source_refs": [
+            "mufradat:row:1251",
+            "lane:entry:32867"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:17",
+          "word_location": "6:17:6",
+          "sense_ids": [
+            "k$f-kaashif-s1"
+          ]
+        },
+        {
+          "verse_key": "44:15",
+          "word_location": "44:15:2",
+          "sense_ids": [
+            "k$f-kaashif-s1"
+          ]
+        },
+        {
+          "verse_key": "53:58",
+          "word_location": "53:58:6",
+          "sense_ids": [
+            "k$f-kaashif-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "k$f-cm-discover",
+      "headword_arabic": "كَشَفَ",
+      "definition": "To discover, detect, reveal, or disclose something hidden.",
+      "usage_conditions": "A Classical Form I use concerned with bringing concealed information or a hidden matter to light, distinct from the physical removal of a covering.",
+      "source_refs": [
+        "lane:entry:32867"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-investigate",
+      "headword_arabic": "كَشَفَ عَنْهُ",
+      "definition": "To investigate, explore, scrutinize, search, examine, or inquire into something.",
+      "usage_conditions": "Constructed with عَنْهُ; it denotes directed inquiry into a matter rather than simply removing a covering.",
+      "source_refs": [
+        "lane:entry:32867"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-mukashafa-open",
+      "headword_arabic": "كَاشَفَ",
+      "definition": "To act openly or frankly toward someone; by extension, to show open enmity or wage war openly.",
+      "usage_conditions": "A Form III construction; مُكَاشَفَةٌ may denote frank openness, while constructions with enmity or war specify overt hostility.",
+      "source_refs": [
+        "lane:entry:32868"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-mukashafa-appear",
+      "headword_arabic": "كَاشَفَ",
+      "definition": "To appear or become manifest to someone.",
+      "usage_conditions": "Used in the construction كَاشَفَ عَلَيْهِ, with the sense of appearing to or becoming apparent to him.",
+      "source_refs": [
+        "lane:entry:32868"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-mukashafa-know",
+      "headword_arabic": "كُوشِفَ",
+      "definition": "To become acquainted with, know, or gain knowledge of what was concealed.",
+      "usage_conditions": "A passive or recipient-oriented construction referring to becoming informed about a hidden matter.",
+      "source_refs": [
+        "lane:entry:32868"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-mukashafa-noun",
+      "headword_arabic": "مُكَاشَفَةٌ",
+      "definition": "Discovery or revelation of hidden matters.",
+      "usage_conditions": "A verbal noun or technical nominal use for disclosure or revealed knowledge; its plural is مُكَاشَفَاتٌ.",
+      "source_refs": [
+        "lane:entry:32868"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-takashshafa",
+      "headword_arabic": "تَكَشَّفَ",
+      "definition": "To uncover or expose oneself while sitting.",
+      "usage_conditions": "A Form V reflexive bodily-exposure usage.",
+      "source_refs": [
+        "lane:entry:32869"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-takashafu",
+      "headword_arabic": "تَكَاشَفَ",
+      "definition": "To reveal faults or secrets to one another.",
+      "usage_conditions": "A reciprocal Form VI construction involving mutual disclosure.",
+      "source_refs": [
+        "lane:entry:32870"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-inkishaf-withdraw",
+      "headword_arabic": "اِنْكَشَفَ عَنْهُ",
+      "definition": "To withdraw, recede, or become removed from someone or something, including from over it.",
+      "usage_conditions": "An intransitive or quasi-passive Form VII construction describing the disappearance or withdrawal of a covering, thing, or condition.",
+      "source_refs": [
+        "lane:entry:32871"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-inkishaf-routed",
+      "headword_arabic": "اِنْكَشَفَ",
+      "definition": "To be routed, defeated, or put to flight.",
+      "usage_conditions": "A specialized intransitive or quasi-passive Form VII usage, especially in descriptions of defeat.",
+      "source_refs": [
+        "lane:entry:32871"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-makshuf",
+      "headword_arabic": "مَكْشُوفٌ",
+      "definition": "Uncovered, exposed, or overt.",
+      "usage_conditions": "A passive participial adjective describing something laid open or publicly apparent.",
+      "source_refs": [
+        "lane:entry:32873"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-mukashif",
+      "headword_arabic": "مُكَاشِفٌ",
+      "definition": "A discoverer or revealer.",
+      "usage_conditions": "An agent noun for one who discovers or reveals.",
+      "source_refs": [
+        "lane:entry:32874"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-kashaf-hair",
+      "headword_arabic": "كَشَفٌ",
+      "definition": "A whorl or circular patch in the forelock; in horses, a twist in the tailbone or tail.",
+      "usage_conditions": "An anatomical or zoological term describing a feature as though hair were exposed from its point of growth.",
+      "source_refs": [
+        "maqayis:row:3993"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-akshaf",
+      "headword_arabic": "أَكْشَفُ",
+      "definition": "A man who has no shield with him in war.",
+      "usage_conditions": "A Classical description associated with exposure in battle.",
+      "source_refs": [
+        "maqayis:row:3993"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-takashshafa-lightning",
+      "headword_arabic": "تَكَشَّفَ",
+      "definition": "For lightning to spread through or fill the sky.",
+      "usage_conditions": "A figurative Form V usage understood through the idea of becoming exposed or conspicuous.",
+      "source_refs": [
+        "maqayis:row:3993"
+      ]
+    },
+    {
+      "meaning_id": "k$f-cm-kishaf",
+      "headword_arabic": "كِشَافٌ",
+      "definition": "Successive offspring, one birth following another; also, a female left unbred for two or three years.",
+      "usage_conditions": "An animal-breeding term with two reported related applications.",
+      "source_refs": [
+        "maqayis:row:3993"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:k$f:32867:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-v1-s2",
+        "k$f-cm-discover"
+      ],
+      "note": "Physical uncovering and discovery or disclosure are both represented."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32867:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-investigate"
+      ],
+      "note": "Investigation and examination are represented."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32867:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "k$f-v1-s2"
+      ],
+      "note": "Removal of a covering is covered by the Quranic uncovering sense."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32867:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "k$f-v1-s2"
+      ],
+      "note": "Stripping one thing from over another is covered by the covering-removal sense."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32867:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "k$f-v1-s1",
+        "k$f-kashf-s1"
+      ],
+      "note": "Removal of grief is covered by the Quranic relief sense and its verbal-noun form."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32867:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no lexical content supplied."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32868:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-mukashafa-open",
+        "k$f-cm-mukashafa-appear"
+      ],
+      "note": "Open dealing and appearing to someone are distinct branches."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32868:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-mukashafa-know"
+      ],
+      "note": "Becoming acquainted with concealed matter is represented."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32868:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "k$f-cm-mukashafa-open"
+      ],
+      "note": "Open hostility is covered by the openness and overt-hostility meaning."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32868:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-mukashafa-noun"
+      ],
+      "note": "The nominal discovery or revelation usage is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32868:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "k$f-cm-mukashafa-open"
+      ],
+      "note": "Open warfare is covered by the overt-hostility branch."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32869:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-takashshafa"
+      ],
+      "note": "Reflexive bodily exposure is represented."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32870:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-takashafu"
+      ],
+      "note": "Reciprocal disclosure of faults or secrets is represented."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32871:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-inkishaf-withdraw"
+      ],
+      "note": "Withdrawal or becoming removed is represented."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32871:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Usage pointer concerning a she-camel, without a supplied lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32871:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-inkishaf-routed"
+      ],
+      "note": "The specialized defeat or rout usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32872:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to an external source."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32873:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-makshuf"
+      ],
+      "note": "The adjective meaning uncovered or overt is represented."
+    },
+    {
+      "unit_id": "lane-unit:k$f:32874:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "k$f-cm-mukashif"
+      ],
+      "note": "The agent noun meaning discoverer or revealer is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic expression يُكْشَفُ عَنْ سَاقٍ is idiomatic and has more than one reported explanation; it should not be treated as an ordinary physical uncovering without noting its severe-crisis interpretation."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The supplied كَشَّافٌ entry is only a pointer to an external source, so no independent lexical sense can be recovered from this packet."
+  ]
+}

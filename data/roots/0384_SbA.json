@@ -1,0 +1,201 @@
+{
+  "root": "SbA",
+  "arabic": "صبأ",
+  "root_idea": {
+    "summary": "The attested lexical field centers on coming forth or emerging, with an extension to leaving an established religion.",
+    "development": "The religious sense is explicitly related to the image of stars coming forth from their rising place. Other attested uses involve coming upon someone, directing an enemy toward people, and entering food; these remain distinct lexical constructions.",
+    "source_refs": [
+      "lane:entry:25230",
+      "lane:entry:25232"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:SbA:S~a`bi_#iyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_sba_sabi",
+      "reason": "Quran-attested form with a clear classical citation form, صَابِئٌ, despite QAC recording the Quranic plural as a proper noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_sba_sabi",
+      "form_group_ids": [
+        "qac-form:SbA:S~a`bi_#iyn:nominal:-"
+      ],
+      "headword_arabic": "صَابِئٌ",
+      "public_pos_label": "Proper noun · active participle form",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense_sba_religious_departure",
+          "definition": "One who leaves one religion for another.",
+          "usage_conditions": "In the Quran, attested in the plural forms صَابِئُونَ and صَابِئِينَ; the plural may be understood descriptively as those who depart from one religion to another.",
+          "source_refs": [
+            "lane:entry:25232"
+          ]
+        },
+        {
+          "sense_id": "sense_sba_sabian_community",
+          "definition": "A Sabian: a member of the religious community known as the Sabians.",
+          "usage_conditions": "In the Quran, the term functions as a plural community designation. Classical descriptions of the community vary, including accounts associating it with people possessing scripture, Christianity-like practice, Noah, angels, or star worship; these are variant identifications of the community rather than separate lexical senses.",
+          "source_refs": [
+            "lane:entry:25232"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:62",
+          "word_location": "2:62:7",
+          "sense_ids": [
+            "sense_sba_religious_departure",
+            "sense_sba_sabian_community"
+          ]
+        },
+        {
+          "verse_key": "5:69",
+          "word_location": "5:69:6",
+          "sense_ids": [
+            "sense_sba_religious_departure",
+            "sense_sba_sabian_community"
+          ]
+        },
+        {
+          "verse_key": "22:17",
+          "word_location": "22:17:6",
+          "sense_ids": [
+            "sense_sba_religious_departure",
+            "sense_sba_sabian_community"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_sba_emerge",
+      "headword_arabic": "صَبَأَ",
+      "definition": "To come forth or emerge: of a tooth, tusk, or extremity of a hoofed animal, to grow out; of a star or the moon, to rise or appear.",
+      "usage_conditions": "Used for the emergence or rising of the specified bodily or celestial referents.",
+      "source_refs": [
+        "lane:entry:25230"
+      ]
+    },
+    {
+      "meaning_id": "meaning_sba_religious_departure_verb",
+      "headword_arabic": "صَبَأَ",
+      "definition": "To leave one religion for another; to become a Sabian.",
+      "usage_conditions": "This is the Form I verb corresponding to the religious-departure sense expressed by the Quranic noun صَابِئٌ.",
+      "source_refs": [
+        "lane:entry:25230"
+      ]
+    },
+    {
+      "meaning_id": "meaning_sba_come_upon",
+      "headword_arabic": "صَبَأَ",
+      "definition": "To come forth upon or against someone, especially unexpectedly or with hostility.",
+      "usage_conditions": "Used with عَلَيْهِ or عَلَيْهِمْ for an unexpected or hostile arrival upon someone.",
+      "source_refs": [
+        "lane:entry:25230"
+      ]
+    },
+    {
+      "meaning_id": "meaning_sba_guide_enemy",
+      "headword_arabic": "صَبَأَ",
+      "definition": "To guide an enemy toward a group of people.",
+      "usage_conditions": "A causative-directional construction reported with the enemy as the object guided toward others.",
+      "source_refs": [
+        "lane:entry:25230"
+      ]
+    },
+    {
+      "meaning_id": "meaning_sba_enter_food",
+      "headword_arabic": "صَبَأَ",
+      "definition": "To put a hand, finger, or head into food.",
+      "usage_conditions": "Attested in food-related constructions, including inserting a hand or finger into food and an animal putting its head into it.",
+      "source_refs": [
+        "lane:entry:25230"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:SbA:25230:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sba_emerge"
+      ],
+      "note": "Covers emergence or growth of a tooth, tusk, or hoofed extremity."
+    },
+    {
+      "unit_id": "lane-unit:SbA:25230:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning_sba_emerge"
+      ],
+      "note": "Celestial rising and appearing are included under coming forth or emerging."
+    },
+    {
+      "unit_id": "lane-unit:SbA:25230:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sba_religious_departure_verb"
+      ],
+      "note": "Covers departure from one religion and becoming a Sabian."
+    },
+    {
+      "unit_id": "lane-unit:SbA:25230:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sba_come_upon"
+      ],
+      "note": "Covers coming upon someone unexpectedly or with enmity."
+    },
+    {
+      "unit_id": "lane-unit:SbA:25230:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sba_guide_enemy"
+      ],
+      "note": "Covers guiding the enemy toward people."
+    },
+    {
+      "unit_id": "lane-unit:SbA:25230:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sba_enter_food"
+      ],
+      "note": "Covers putting a hand, finger, or head into food."
+    },
+    {
+      "unit_id": "lane-unit:SbA:25231:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form IV cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:SbA:25232:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_sba_religious_departure"
+      ],
+      "note": "Defines the noun as one who departs from a religion and explicitly applies the plural to Quranic usage."
+    },
+    {
+      "unit_id": "lane-unit:SbA:25232:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_sba_sabian_community"
+      ],
+      "note": "Defines the community designation and records variant descriptions of the Sabians."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrences are morphologically tagged as a proper noun and are attested only in plural forms; صَابِئٌ is used here as the classical citation headword.",
+    "The historical identification of the Sabians is disputed in the classical evidence, so the community sense does not assert one definitive religious or historical identity.",
+    "Lane's Quran citation is preserved as lexical evidence but is not converted into a modern verse location; the listed locations come from QAC."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

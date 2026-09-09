@@ -1,0 +1,164 @@
+{
+  "root": "sgb",
+  "arabic": "سغب",
+  "root_idea": {
+    "summary": "A root centered on hunger, especially hunger associated with fatigue.",
+    "development": "The core sense is hunger; lexicographic evidence also reports an occasional or unused extension to thirst.",
+    "source_refs": [
+      "maqayis:row:2433",
+      "mufradat:row:695"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sgb:masogabap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-sgb-masghaba",
+      "reason": "The sole supplied Quran-attested form group is presented under the normalized noun citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-sgb-masghaba",
+      "form_group_ids": [
+        "qac-form:sgb:masogabap:nominal:-"
+      ],
+      "headword_arabic": "مَسْغَبَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-sgb-masghaba-s1",
+          "definition": "Hunger, especially hunger accompanied by fatigue; a state of severe hunger or famine.",
+          "usage_conditions": "In the Quranic construction فِي يَوْمٍ ذِي مَسْغَبَةٍ, it describes a day characterized by hunger, with the fuller lexical nuance of hunger combined with fatigue.",
+          "source_refs": [
+            "lane:entry:41261",
+            "mufradat:row:695"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "90:14",
+          "word_location": "90:14:6",
+          "sense_ids": [
+            "qf-sgb-masghaba-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-sgb-asghaba-hungerstate",
+      "headword_arabic": "أَسْغَبَ",
+      "definition": "To enter upon a state of hunger.",
+      "usage_conditions": "A Form IV verbal usage describing the onset of hunger.",
+      "source_refs": [
+        "lane:entry:41262"
+      ]
+    },
+    {
+      "meaning_id": "cm-sgb-sagab-thirst",
+      "headword_arabic": "سَغَبٌ",
+      "definition": "Thirst, reportedly also understood as thirst accompanied by fatigue.",
+      "usage_conditions": "A rare or unused lexicographic usage, distinct from the established Quranic sense of hunger.",
+      "source_refs": [
+        "lane:entry:41263",
+        "lane:entry:41267",
+        "mufradat:row:695"
+      ]
+    },
+    {
+      "meaning_id": "cm-sgb-musagghab-permitted",
+      "headword_arabic": "مُسَغَّبٌ",
+      "definition": "Allowed or permitted something to someone.",
+      "usage_conditions": "Used in the construction مُسَغَّبٌ لَهُ كَذَا, ‘such a thing is allowed or permitted to him.’",
+      "source_refs": [
+        "lane:entry:41269"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sgb:41261:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-sgb-masghaba-s1"
+      ],
+      "note": "Hunger and hunger with fatigue, including the Quranic construction."
+    },
+    {
+      "unit_id": "lane-unit:sgb:41262:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sgb-asghaba-hungerstate"
+      ],
+      "note": "Form IV meaning: entering a state of hunger."
+    },
+    {
+      "unit_id": "lane-unit:sgb:41263:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-sgb-masghaba-s1"
+      ],
+      "note": "Infinitival noun for the represented hunger sense."
+    },
+    {
+      "unit_id": "lane-unit:sgb:41263:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sgb-sagab-thirst"
+      ],
+      "note": "Reported thirst usage."
+    },
+    {
+      "unit_id": "lane-unit:sgb:41264:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سَاغِبٌ."
+    },
+    {
+      "unit_id": "lane-unit:sgb:41265:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-sgb-masghaba-s1"
+      ],
+      "note": "Hunger or hunger with fatigue, already represented."
+    },
+    {
+      "unit_id": "lane-unit:sgb:41266:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:sgb:41267:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-sgb-masghaba-s1",
+        "cm-sgb-sagab-thirst"
+      ],
+      "note": "Hungry or hunger with fatigue is covered by the Quranic sense; the reported thirsty usage is listed separately."
+    },
+    {
+      "unit_id": "lane-unit:sgb:41268:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the plural form."
+    },
+    {
+      "unit_id": "lane-unit:sgb:41269:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sgb-musagghab-permitted"
+      ],
+      "note": "Independent permissive meaning in the stated construction."
+    }
+  ],
+  "cautions": [
+    "The single supplied Quran occurrence establishes the hunger sense of مَسْغَبَة; the reported thirst usage is not established for that Quranic occurrence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

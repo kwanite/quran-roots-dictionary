@@ -1,0 +1,132 @@
+{
+  "root": "hzl",
+  "arabic": "هزل",
+  "root_idea": {
+    "summary": "The root centers on weakness or lack of solidity, expressed in speech as unseriousness and in the body as leanness.",
+    "development": "The evidence presents two related lexical branches: هَزْل as frivolous or unproductive speech, and هُزَال as loss of bodily fullness; the former is metaphorically likened to the latter.",
+    "source_refs": [
+      "maqayis:row:4888"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hzl:hazol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-hzl-hazl",
+      "reason": "The Quran-attested noun is presented under its normalized lexical citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-hzl-hazl",
+      "form_group_ids": [
+        "qac-form:hzl:hazol:nominal:-"
+      ],
+      "headword_arabic": "هَزْلٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-hzl-quran-frivolity",
+          "definition": "Frivolity or unserious, empty speech lacking substantial result or purpose.",
+          "usage_conditions": "In the Quranic expression بِالْهَزْلِ, the term is negated and contrasts with serious, substantial discourse.",
+          "source_refs": [
+            "lane:entry:17103",
+            "mufradat:row:1521"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "86:14",
+          "word_location": "86:14:3",
+          "sense_ids": [
+            "sense-hzl-quran-frivolity"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning-hzl-form1-verb",
+      "headword_arabic": "هَزَلَ",
+      "definition": "To jest, joke, or behave without earnestness; to be unserious in speech or in an affair.",
+      "usage_conditions": "Used of speech or conduct that is contrary to earnestness.",
+      "source_refs": [
+        "lane:entry:17103"
+      ]
+    },
+    {
+      "meaning_id": "meaning-hzl-form3-verb",
+      "headword_arabic": "هَازَلَ",
+      "definition": "To jest or joke.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:17104"
+      ]
+    },
+    {
+      "meaning_id": "meaning-hzl-leaning-noun",
+      "headword_arabic": "هُزَالٌ",
+      "definition": "Leanness, meagreness, or emaciation; the opposite of fatness.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:17105"
+      ]
+    },
+    {
+      "meaning_id": "meaning-hzl-lean-adjective",
+      "headword_arabic": "هَزِيلٌ",
+      "definition": "Lean, meagre, or emaciated.",
+      "usage_conditions": "هَزْلَى is cited as its plural form.",
+      "source_refs": [
+        "lane:entry:17106"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hzl:17103:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-hzl-quran-frivolity",
+        "meaning-hzl-form1-verb"
+      ],
+      "note": "Covers the noun's contrast with earnestness and the Form I verb's joking or unseriousness."
+    },
+    {
+      "unit_id": "lane-unit:hzl:17104:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-hzl-form3-verb"
+      ],
+      "note": "Defines the Form III verb as jesting or joking."
+    },
+    {
+      "unit_id": "lane-unit:hzl:17105:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-hzl-leaning-noun"
+      ],
+      "note": "Defines bodily leanness or emaciation."
+    },
+    {
+      "unit_id": "lane-unit:hzl:17106:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-hzl-lean-adjective"
+      ],
+      "note": "Defines the adjective as lean, meagre, or emaciated."
+    },
+    {
+      "unit_id": "lane-unit:hzl:17107:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no independent lexical definition."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

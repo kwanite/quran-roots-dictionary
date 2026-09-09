@@ -1,0 +1,153 @@
+{
+  "root": "Hqf",
+  "arabic": "حقف",
+  "root_idea": {
+    "summary": "The root denotes inclination, bending, and curvature.",
+    "development": "From the idea of bending or curving come the noun حِقْف for a curved or sloping sand tract and its plural أَحْقَاف, as well as derived descriptions of curved forms in animals and other objects.",
+    "source_refs": [
+      "maqayis:row:1418",
+      "mufradat:row:348"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hqf:>aHoqaAf:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf:form:hiqf",
+      "reason": "Displayed under the supported singular lexical citation form حِقْف; the Quranic occurrence is its plural proper-name form أَحْقَاف."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf:form:hiqf",
+      "form_group_ids": [
+        "qac-form:Hqf:>aHoqaAf:nominal:-"
+      ],
+      "headword_arabic": "حِقْف",
+      "public_pos_label": "Proper noun · plural place-name",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf:form:hiqf:s1",
+          "definition": "Curved or sloping sand tracts; in the Qur'an, al-Aḥqāf is the place-name for such a sand region.",
+          "usage_conditions": "The Quranic occurrence uses the plural أَحْقَاف as a geographical proper name. It is the plural of حِقْف, a curved or sloping tract of sand.",
+          "source_refs": [
+            "lane:entry:15159",
+            "mufradat:row:348"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "46:21",
+          "word_location": "46:21:7",
+          "sense_ids": [
+            "qf:form:hiqf:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:qf:formI",
+      "headword_arabic": "حَقَفَ",
+      "definition": "To be or become curved, bent, or winding.",
+      "usage_conditions": "The same curved or curled state is applied to a gazelle described as حَاقِفٌ.",
+      "source_refs": [
+        "lane:entry:15157"
+      ]
+    },
+    {
+      "meaning_id": "cm:qf:formXII",
+      "headword_arabic": "اِحْقَوْقَفَ",
+      "definition": "To assume a long, curved, bent, or winding form.",
+      "usage_conditions": "Used of sand, the narrow visible rim of the moon near the sun, a back including a camel's back, or other things.",
+      "source_refs": [
+        "lane:entry:15158"
+      ]
+    },
+    {
+      "meaning_id": "cm:qf:hiqf:lowerpart",
+      "headword_arabic": "حِقْف",
+      "definition": "The lower or lowest part of a tract of sand, a mountain, or a wall.",
+      "usage_conditions": "This is a topographical sense distinct from حِقْف as a curved sand tract.",
+      "source_refs": [
+        "lane:entry:15159"
+      ]
+    },
+    {
+      "meaning_id": "cm:qf:haqif",
+      "headword_arabic": "حَاقِف",
+      "definition": "A gazelle lying bent together or curled.",
+      "usage_conditions": "The posture may occur in sleep or as a result of a wound; the term also applies to one lying on its breast upon a حِقْف of sand.",
+      "source_refs": [
+        "lane:entry:15160"
+      ]
+    },
+    {
+      "meaning_id": "cm:qf:ahqaf-camel",
+      "headword_arabic": "أَحْقَف",
+      "definition": "Lank in the belly, said of a camel.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:15161"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hqf:15157:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:qf:formI"
+      ],
+      "note": "The Form I curvature meaning and its curled-gazelle application are covered."
+    },
+    {
+      "unit_id": "lane-unit:Hqf:15158:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:qf:formXII"
+      ],
+      "note": "The derived verb's long, curved-form meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:Hqf:15159:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf:form:hiqf:s1"
+      ],
+      "note": "The curved sand-tract meaning and its regional plural application are covered."
+    },
+    {
+      "unit_id": "lane-unit:Hqf:15159:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:qf:hiqf:lowerpart"
+      ],
+      "note": "The lower-part topographical meaning is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:Hqf:15160:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:qf:haqif"
+      ],
+      "note": "The curled-gazelle description is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hqf:15161:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:qf:ahqaf-camel"
+      ],
+      "note": "The camel description is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic form is tagged as a proper noun and appears in the plural أَحْقَاف; it is presented under the lexically supported singular citation form حِقْف."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

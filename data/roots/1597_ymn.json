@@ -1,0 +1,557 @@
+{
+  "root": "ymn",
+  "arabic": "يمن",
+  "root_idea": {
+    "summary": "The root centers on the right hand and right-hand side, with associated extensions to strength, blessing, felicity, oath, and possession or authority.",
+    "development": "The semantic development proceeds from the right hand and right side to auspiciousness and blessing, the oath associated with clasping right hands, and possession or authority expressed through the right hand. The same orientation also underlies the geographic name Yemen and related demonyms and products.",
+    "source_refs": [
+      "maqayis:row:5267",
+      "mufradat:row:1629"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ymn:>ayoman:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_ymn_ayman",
+      "reason": "Displayed under the normalized adjective citation form أَيْمَنُ."
+    },
+    {
+      "form_group_id": "qac-form:ymn:mayomanap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_ymn_maymana",
+      "reason": "Displayed as the lexical noun مَيْمَنَةٌ rather than the inflected Quranic form."
+    },
+    {
+      "form_group_id": "qac-form:ymn:yamiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_ymn_yamin",
+      "reason": "Displayed under the normalized noun citation form يَمِينٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_ymn_ayman",
+      "form_group_ids": [
+        "qac-form:ymn:>ayoman:nominal:-"
+      ],
+      "headword_arabic": "أَيْمَنُ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s_ymn_ayman_right",
+          "definition": "Right; situated on or associated with the right-hand side.",
+          "usage_conditions": "Used adjectivally in the supplied Quranic occurrences for the right side or direction.",
+          "source_refs": [
+            "lane:entry:12199"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:52",
+          "word_location": "19:52:5",
+          "sense_ids": [
+            "s_ymn_ayman_right"
+          ]
+        },
+        {
+          "verse_key": "20:80",
+          "word_location": "20:80:10",
+          "sense_ids": [
+            "s_ymn_ayman_right"
+          ]
+        },
+        {
+          "verse_key": "28:30",
+          "word_location": "28:30:7",
+          "sense_ids": [
+            "s_ymn_ayman_right"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_ymn_maymana",
+      "form_group_ids": [
+        "qac-form:ymn:mayomanap:nominal:-"
+      ],
+      "headword_arabic": "مَيْمَنَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s_ymn_maymana_rightside",
+          "definition": "The right-hand side or right-associated company; in the Quran, the blessed party on the right.",
+          "usage_conditions": "Used in expressions for those associated with the right, where right-hand orientation carries an association with felicity and blessing.",
+          "source_refs": [
+            "mufradat:row:1629"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:8",
+          "word_location": "56:8:2",
+          "sense_ids": [
+            "s_ymn_maymana_rightside"
+          ]
+        },
+        {
+          "verse_key": "90:18",
+          "word_location": "90:18:3",
+          "sense_ids": [
+            "s_ymn_maymana_rightside"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_ymn_yamin",
+      "form_group_ids": [
+        "qac-form:ymn:yamiyn:nominal:-"
+      ],
+      "headword_arabic": "يَمِينٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 65,
+      "senses": [
+        {
+          "sense_id": "s_ymn_yamin_handside",
+          "definition": "The right hand; by extension, the right-hand side or direction.",
+          "usage_conditions": "Covers literal hand references and directional expressions such as being or acting at the right.",
+          "source_refs": [
+            "lane:entry:12195",
+            "mufradat:row:1629"
+          ]
+        },
+        {
+          "sense_id": "s_ymn_yamin_seize",
+          "definition": "A forceful taking or seizure by the right hand, hence restraint, repulsion, or prevention.",
+          "usage_conditions": "Attested in the Quranic construction of taking someone by the right hand to prevent or overpower them.",
+          "source_refs": [
+            "mufradat:row:1629"
+          ]
+        },
+        {
+          "sense_id": "s_ymn_yamin_blessed",
+          "definition": "The right-associated party: people of felicity, blessing, or good fortune.",
+          "usage_conditions": "Used in expressions such as أصحاب اليمين, where the right is conventionally associated with felicity and blessing.",
+          "source_refs": [
+            "mufradat:row:1629"
+          ]
+        },
+        {
+          "sense_id": "s_ymn_yamin_oath",
+          "definition": "An oath; a covenant or commitment confirmed by an oath.",
+          "usage_conditions": "Used for sworn undertakings and their confirmation, including covenants expressed or ratified by oath.",
+          "source_refs": [
+            "lane:entry:12195",
+            "mufradat:row:1629"
+          ]
+        },
+        {
+          "sense_id": "s_ymn_yamin_possession",
+          "definition": "Right-hand possession or authority; those under such possession or authority.",
+          "usage_conditions": "In the Quranic possession construction مَا مَلَكَتْ أَيْمَانُكُمْ, the right hand is a metonym for possession or authority.",
+          "source_refs": [
+            "mufradat:row:1629"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:67",
+          "word_location": "39:67:13",
+          "sense_ids": [
+            "s_ymn_yamin_handside"
+          ]
+        },
+        {
+          "verse_key": "69:45",
+          "word_location": "69:45:3",
+          "sense_ids": [
+            "s_ymn_yamin_seize"
+          ]
+        },
+        {
+          "verse_key": "56:27",
+          "word_location": "56:27:2",
+          "sense_ids": [
+            "s_ymn_yamin_blessed"
+          ]
+        },
+        {
+          "verse_key": "68:39",
+          "word_location": "68:39:3",
+          "sense_ids": [
+            "s_ymn_yamin_oath"
+          ]
+        },
+        {
+          "verse_key": "24:33",
+          "word_location": "24:33:16",
+          "sense_ids": [
+            "s_ymn_yamin_possession"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_ymn_yumina_prosperity",
+      "headword_arabic": "يُمِنَ",
+      "definition": "To be prosperous, fortunate, or lucky.",
+      "usage_conditions": "An intransitive Form I verb expressing good fortune.",
+      "source_refs": [
+        "lane:entry:12188"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_aymana_incline",
+      "headword_arabic": "أَيْمَنَ",
+      "definition": "To make something incline or turn toward the right.",
+      "usage_conditions": "A causative Form IV use describing the direction into which something is made to incline.",
+      "source_refs": [
+        "lane:entry:12190"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_tayammana_grave",
+      "headword_arabic": "تَيَمَّنَ",
+      "definition": "To be placed on one's right side in the grave.",
+      "usage_conditions": "A specialized physical or funerary use.",
+      "source_refs": [
+        "lane:entry:12191"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_tayammana_blessing",
+      "headword_arabic": "تَيَمَّنَ",
+      "definition": "To seek or derive blessing or good fortune from something; to regard it as auspicious.",
+      "usage_conditions": "Used with a source of blessing such as counsel, a word, or speech; opposed to regarding something as ominous.",
+      "source_refs": [
+        "lane:entry:12191"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_yumn_prosperity",
+      "headword_arabic": "يُمْنٌ",
+      "definition": "Prosperity, good fortune, luck, or auspiciousness.",
+      "usage_conditions": "A noun for favorable fortune, contrasted with ill luck or misfortune.",
+      "source_refs": [
+        "lane:entry:12193"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_yamin_south",
+      "headword_arabic": "يَمِينٌ",
+      "definition": "The south.",
+      "usage_conditions": "A directional use distinct from the ordinary meanings of right side and oath.",
+      "source_refs": [
+        "lane:entry:12195"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_yaman_garment",
+      "headword_arabic": "يَمَانٍ",
+      "definition": "A garment from Yemen.",
+      "usage_conditions": "A nisbah-based designation for a Yemeni garment.",
+      "source_refs": [
+        "lane:entry:12196"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_ayman_lucky",
+      "headword_arabic": "أَيْمَنُ",
+      "definition": "Lucky, auspicious, or especially fortunate.",
+      "usage_conditions": "A classical adjectival branch distinct from the Quran-attested directional sense of أَيْمَنُ.",
+      "source_refs": [
+        "lane:entry:12199"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_aymun_oathterm",
+      "headword_arabic": "أَيْمُنٌ",
+      "definition": "A singular noun used in swearing.",
+      "usage_conditions": "Used only in oath formulas; it is not a particle or a plural of يَمِينٌ and is derived from يُمْنٌ.",
+      "source_refs": [
+        "lane:entry:12200"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_maymana_armywing",
+      "headword_arabic": "مَيْمَنَةٌ",
+      "definition": "The right wing of an army.",
+      "usage_conditions": "A military formation term; this specialization is broader Classical Arabic evidence, not a claim about the Quranic contexts.",
+      "source_refs": [
+        "lane:entry:12202"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_maymun_fortunate",
+      "headword_arabic": "مَيْمُونٌ",
+      "definition": "Fortunate, happy, or blessed.",
+      "usage_conditions": "An adjectival description of a person or thing characterized by good fortune or blessing.",
+      "source_refs": [
+        "lane:entry:12203"
+      ]
+    },
+    {
+      "meaning_id": "cm_ymn_tayammum_blessing",
+      "headword_arabic": "تَيَمُّنٌ",
+      "definition": "Having or receiving a blessing.",
+      "usage_conditions": "A verbal noun for the experience or acquisition of blessing.",
+      "source_refs": [
+        "lane:entry:12204"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ymn:12188:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_yumina_prosperity"
+      ],
+      "note": "Prosperity and good fortune are represented as a Form I verb meaning."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12189:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12190:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_aymana_incline"
+      ],
+      "note": "Causative inclination toward the right is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12190:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12190:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12191:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_tayammana_grave"
+      ],
+      "note": "Specialized placement on the right side in a grave is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12191:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_tayammana_blessing"
+      ],
+      "note": "Seeking blessing is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12191:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_tayammana_blessing"
+      ],
+      "note": "Deriving blessing from counsel is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12191:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_tayammana_blessing"
+      ],
+      "note": "Auguring good and seeking good fortune are represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12191:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_ymn_tayammana_blessing"
+      ],
+      "note": "Word and speech examples are covered by the blessing and auspiciousness meaning."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12192:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12192:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12193:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_yumn_prosperity"
+      ],
+      "note": "The noun for prosperity and auspiciousness is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12194:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form and inflectional note only."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12195:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ymn_yamin_handside"
+      ],
+      "note": "Right-hand location is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12195:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_yamin_south"
+      ],
+      "note": "The directional meaning south is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12195:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ymn_yamin_oath"
+      ],
+      "note": "Covenant confirmed by oath, explicitly Quran-attested in the unit, is represented under the Quranic oath sense."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12195:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ymn_yamin_oath"
+      ],
+      "note": "The ordinary oath construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12195:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Illustrative oath phrase adds no separate lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12196:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_yaman_garment"
+      ],
+      "note": "The Yemeni garment designation is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12197:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference for a geographic adjective."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12198:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12199:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ymn_ayman_right"
+      ],
+      "note": "Quran-attested right-side adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12199:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ymn_ayman_right",
+        "cm_ymn_ayman_lucky"
+      ],
+      "note": "The unit contains both the directional and lucky branches."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12199:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_ayman_lucky"
+      ],
+      "note": "The auspiciousness branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12199:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_ayman_lucky"
+      ],
+      "note": "The intensified lucky or auspicious meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12200:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_aymun_oathterm"
+      ],
+      "note": "The specialized singular oath noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12201:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only example reference."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12202:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_maymana_armywing"
+      ],
+      "note": "The military right-wing specialization is represented separately from the Quranic form sense."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12203:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_maymun_fortunate"
+      ],
+      "note": "The fortunate or blessed adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12204:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ymn_tayammum_blessing"
+      ],
+      "note": "The verbal noun for having or receiving blessing is represented."
+    },
+    {
+      "unit_id": "lane-unit:ymn:12205:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Orthographic or lexical pointer to another root entry."
+    }
+  ],
+  "cautions": [
+    "أَيْمَنُ is Quran-attested here in the directional sense “right”; its separately attested Classical Arabic sense “lucky” is kept outside the Quranic sense.",
+    "For يَمِينٌ, “rightfully” in possession contexts is a constructional rendering of right-hand possession or authority, not a separate basic hand meaning.",
+    "The forceful seizure sense is tied to the Quranic construction of taking someone by the right hand and should not be generalized to every occurrence of يَمِينٌ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,209 @@
+{
+  "root": "kwb",
+  "arabic": "كوب",
+  "root_idea": {
+    "summary": "The lexical center is كُوبٌ, a handleless cup or drinking vessel, with أَكْوَابٌ as its plural.",
+    "development": "The packet supplies no abstract root principle beyond this concrete vessel term. Alongside the vessel noun and its Quranic plural, it records distinct derived and separately vocalized Classical Arabic branches.",
+    "source_refs": [
+      "maqayis:row:4061",
+      "mufradat:row:1276",
+      "lane:entry:28625",
+      "lane:entry:28622",
+      "lane:entry:28623",
+      "lane:entry:28626",
+      "lane:entry:28627",
+      "lane:entry:28628"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kwb:>akowaAb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:kwb:kuwb",
+      "reason": "The Quran-attested broken plural is displayed under its normalized singular dictionary citation form كُوبٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:kwb:kuwb",
+      "form_group_ids": [
+        "qac-form:kwb:>akowaAb:nominal:-"
+      ],
+      "headword_arabic": "كُوبٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sense:kwb:kuwb:vessel",
+          "definition": "A handleless drinking cup or vessel.",
+          "usage_conditions": "The Quranic form is the broken plural أَكْوَابٌ. The source descriptions of the Quranic vessel include one with neither handle nor spout.",
+          "source_refs": [
+            "lane:entry:28625",
+            "mufradat:row:1276"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "43:71",
+          "word_location": "43:71:6",
+          "sense_ids": [
+            "sense:kwb:kuwb:vessel"
+          ]
+        },
+        {
+          "verse_key": "56:18",
+          "word_location": "56:18:1",
+          "sense_ids": [
+            "sense:kwb:kuwb:vessel"
+          ]
+        },
+        {
+          "verse_key": "88:14",
+          "word_location": "88:14:1",
+          "sense_ids": [
+            "sense:kwb:kuwb:vessel"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:kwb:kaba:drink",
+      "headword_arabic": "كَابَ",
+      "definition": "To drink using a cup.",
+      "usage_conditions": "Form I verb; the construction describes drinking with a كُوبٍ.",
+      "source_refs": [
+        "lane:entry:28622"
+      ]
+    },
+    {
+      "meaning_id": "meaning:kwb:kawaba:pound",
+      "headword_arabic": "كَوَّبَ",
+      "definition": "To pound or bray something using a small stone, such as a فِهْر or كُوبَة.",
+      "usage_conditions": "Form II verb; the implementing stone is described as one that fills the hand.",
+      "source_refs": [
+        "lane:entry:28623",
+        "lane:entry:28628"
+      ]
+    },
+    {
+      "meaning_id": "meaning:kwb:kawab:neck",
+      "headword_arabic": "كَوَبٌ",
+      "definition": "Slenderness of the neck together with largeness of the head.",
+      "usage_conditions": "A bodily-description noun.",
+      "source_refs": [
+        "lane:entry:28626"
+      ]
+    },
+    {
+      "meaning_id": "meaning:kwb:kawba:grief",
+      "headword_arabic": "كَوْبَةٌ",
+      "definition": "A sigh, grief, or regret over something that has passed or escaped.",
+      "usage_conditions": "A rare lexical item; its formation is tentatively related to كَأْبَةٌ.",
+      "source_refs": [
+        "lane:entry:28627"
+      ]
+    },
+    {
+      "meaning_id": "meaning:kwb:kuba:game",
+      "headword_arabic": "كُوبَةٌ",
+      "definition": "A game, identified in different reports as nard or chess.",
+      "usage_conditions": "The identification varies by report; the names نَرْد and شِطْرَنْج are recorded.",
+      "source_refs": [
+        "lane:entry:28628"
+      ]
+    },
+    {
+      "meaning_id": "meaning:kwb:kuba:instrument",
+      "headword_arabic": "كُوبَةٌ",
+      "definition": "A small drum slender in the middle; in one report, the name is applied to the barbat.",
+      "usage_conditions": "The barbat identification is attributed to some authorities.",
+      "source_refs": [
+        "lane:entry:28628",
+        "mufradat:row:1276"
+      ]
+    },
+    {
+      "meaning_id": "meaning:kwb:kuba:stone",
+      "headword_arabic": "كُوبَةٌ",
+      "definition": "A small stone that fills the hand.",
+      "usage_conditions": "Given as equivalent to a فِهْر.",
+      "source_refs": [
+        "lane:entry:28628"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kwb:28622:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:kwb:kaba:drink"
+      ],
+      "note": "The Form I drinking construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:kwb:28623:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:kwb:kawaba:pound"
+      ],
+      "note": "The Form II pounding construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:kwb:28624:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:kwb:28625:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:kwb:kuwb:vessel"
+      ],
+      "note": "The handleless cup or vessel and its plural are represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:kwb:28626:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:kwb:kawab:neck"
+      ],
+      "note": "The bodily-description meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:kwb:28627:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:kwb:kawba:grief"
+      ],
+      "note": "The grief or regret meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:kwb:28628:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:kwb:kuba:game",
+        "meaning:kwb:kuba:instrument"
+      ],
+      "note": "The game and musical-instrument branches are represented separately."
+    },
+    {
+      "unit_id": "lane-unit:kwb:28628:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:kwb:kuba:stone"
+      ],
+      "note": "The small-stone meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The QAC group attests only the plural أَكْوَابٌ; the public form is normalized to the singular citation noun كُوبٌ.",
+    "The consonantal root record contains differently vocalized nouns with distinct meanings; these branches are kept separate from the Quranic vessel noun."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

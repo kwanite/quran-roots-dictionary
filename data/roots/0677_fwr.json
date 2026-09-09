@@ -1,0 +1,823 @@
+{
+  "root": "fwr",
+  "arabic": "فور",
+  "root_idea": {
+    "summary": "The root centers on intense boiling or seething, with related extensions to agitation, gushing forth, and immediate onset.",
+    "development": "From the boiling of liquid or fire, the root extends to anger and other states of agitation, abundant effusion, and the initial surge of an action or event.",
+    "source_refs": [
+      "maqayis:row:3670",
+      "mufradat:row:1141"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fwr:faAra:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fwr_fara",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:fwr:fawor:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fwr_fawr",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "fwr_fara",
+      "form_group_ids": [
+        "qac-form:fwr:faAra:verb:I"
+      ],
+      "headword_arabic": "فَارَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "fwr_fara_s1",
+          "definition": "To boil, seethe, or surge up violently.",
+          "usage_conditions": "Used of a cooking pot or oven and of fire; in the Quranic passages, the boiling or seething may appear as overflowing or gushing forth.",
+          "source_refs": [
+            "lane:entry:35191",
+            "mufradat:row:1141"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:40",
+          "word_location": "11:40:5",
+          "sense_ids": [
+            "fwr_fara_s1"
+          ]
+        },
+        {
+          "verse_key": "23:27",
+          "word_location": "23:27:11",
+          "sense_ids": [
+            "fwr_fara_s1"
+          ]
+        },
+        {
+          "verse_key": "67:7",
+          "word_location": "67:7:8",
+          "sense_ids": [
+            "fwr_fara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fwr_fawr",
+      "form_group_ids": [
+        "qac-form:fwr:fawor:nominal:-"
+      ],
+      "headword_arabic": "فَوْرٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "fwr_fawr_s1",
+          "definition": "Immediately; in the first surge or opening phase of an action, without delay.",
+          "usage_conditions": "In مِنْ فَوْرِهِمْ, it denotes coming in the first rush or at the commencement of a procedure, before settling or ceasing from motion; it can also mean at once.",
+          "source_refs": [
+            "lane:entry:35195",
+            "mufradat:row:1141"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:125",
+          "word_location": "3:125:7",
+          "sense_ids": [
+            "fwr_fawr_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_fwr_ferment",
+      "headword_arabic": "فَارَ",
+      "definition": "Of liquor, to ferment.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fwr_flush",
+      "headword_arabic": "فَارَ",
+      "definition": "Of blood or wine, to flush or mantle in the cheeks or head.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fwr_heave",
+      "headword_arabic": "فَارَتْ نَفْسُهُ",
+      "definition": "Of the soul or stomach, to heave or become agitated with a tendency to vomit.",
+      "usage_conditions": "Equivalent in this usage to ثَارَ.",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fwr_anger",
+      "headword_arabic": "فَارَ",
+      "definition": "Of anger, to boil, become roused or excited, or make someone angry.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fwr_sinewsswell",
+      "headword_arabic": "فَارَ العَصَبُ",
+      "definition": "Of a sinew, to become swollen or distended.",
+      "usage_conditions": "A reported interpretation of the phrase is used especially of a horse or similar animal; the source records a variant reading alongside the anger-related interpretation.",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fwr_veinflow",
+      "headword_arabic": "فَارَ العِرْقُ",
+      "definition": "Of a vein, to become agitated and flow forth with blood.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fwr_varicose",
+      "headword_arabic": "فَوْرُ العِرْقِ",
+      "definition": "Visible inflations or knots in a horse’s vein, a varicose condition.",
+      "usage_conditions": "The condition is described as disapproved.",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fwr_well",
+      "headword_arabic": "فَارَ",
+      "definition": "Of water, to well or spring forth from the earth or a source.",
+      "usage_conditions": "The emphasis is on water appearing and pouring forth from a spring or source.",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fwr_marketbustle",
+      "headword_arabic": "فَارُوا",
+      "definition": "Of assembled people, to bustle or be in a state of commotion in marketplaces.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fwr_muskscentspread",
+      "headword_arabic": "فَارَ المِسْكُ",
+      "definition": "Of the scent of musk, to spread.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_furt_balancefit",
+      "headword_arabic": "فُرْتُهُ",
+      "definition": "To equip a balance with its two iron supports between which the tongue is set.",
+      "usage_conditions": "A technical expression concerning the parts of a balance.",
+      "source_refs": [
+        "lane:entry:35191"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawr2_postpartumverb",
+      "headword_arabic": "فَوَّرَ",
+      "definition": "To prepare the fenugreek mixture called فِيرَة for a woman after childbirth.",
+      "usage_conditions": "The construction is used with reference to the postpartum woman.",
+      "source_refs": [
+        "lane:entry:35192"
+      ]
+    },
+    {
+      "meaning_id": "cm_afart_boiling",
+      "headword_arabic": "أَفَرْتُهُ",
+      "definition": "To make something boil or seethe.",
+      "usage_conditions": "Causative Form IV usage as recorded in the source.",
+      "source_refs": [
+        "lane:entry:35193"
+      ]
+    },
+    {
+      "meaning_id": "cm_faar_muscles",
+      "headword_arabic": "الفَارُ",
+      "definition": "The muscles of a man.",
+      "usage_conditions": "In the saying أَبْرِزْ نَارَكَ وَإِنْ هَزَلْتَ فَارَكَ, putting forth one’s fire while making one’s muscles lean means giving food despite injuring one’s own body.",
+      "source_refs": [
+        "lane:entry:35194"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawr_hellheat",
+      "headword_arabic": "فَوْرٌ",
+      "definition": "The burning heat and boiling of Hell; intense or vehement heat.",
+      "usage_conditions": "A nominal use describing heat or boiling.",
+      "source_refs": [
+        "lane:entry:35195"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawr_horizon",
+      "headword_arabic": "فَوْرُ الشَّفَقِ",
+      "definition": "The remaining redness in the western horizon after sunset.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35195"
+      ]
+    },
+    {
+      "meaning_id": "cm_fur_gazelles",
+      "headword_arabic": "فُورٌ",
+      "definition": "Gazelles.",
+      "usage_conditions": "The word is reported as having no singular in one usage; a singular form is disputed.",
+      "source_refs": [
+        "lane:entry:35196"
+      ]
+    },
+    {
+      "meaning_id": "cm_fara_muskscent",
+      "headword_arabic": "فَارَةُ المِسْكِ",
+      "definition": "The odor of musk.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35197"
+      ]
+    },
+    {
+      "meaning_id": "cm_fara_muskreceptacle",
+      "headword_arabic": "فَارَةُ المِسْكِ",
+      "definition": "The bag or receptacle of musk, including its follicle or vesicle.",
+      "usage_conditions": "The same expression is used for either the scent or its receptacle.",
+      "source_refs": [
+        "lane:entry:35197"
+      ]
+    },
+    {
+      "meaning_id": "cm_fara_camelodor",
+      "headword_arabic": "فَارَةُ الإِبِلِ",
+      "definition": "The sweet exhalation from camels’ skins when they are moist after returning from water.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35197"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawra_anger",
+      "headword_arabic": "فَوْرَةٌ",
+      "definition": "An ebullition of anger, rage, or passion.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35198"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawra_freshness",
+      "headword_arabic": "فَوْرَةٌ",
+      "definition": "Freshness or newness.",
+      "usage_conditions": "Used of taking or receiving something in its fresh or new state.",
+      "source_refs": [
+        "lane:entry:35198"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawra_daybegin",
+      "headword_arabic": "فَوْرَةٌ",
+      "definition": "The first part or beginning of a period of time.",
+      "usage_conditions": "Used of the beginning of the day and of the time immediately following nightfall.",
+      "source_refs": [
+        "lane:entry:35198"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawra_market",
+      "headword_arabic": "فَوْرَةُ النَّاسِ",
+      "definition": "The place where people congregate and bustle in a marketplace.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35198"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawra_mountain",
+      "headword_arabic": "فَوْرَةُ الجَبَلِ",
+      "definition": "The higher or highest part of a mountain, including an elevated hard or level area.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35198"
+      ]
+    },
+    {
+      "meaning_id": "cm_fuwra_flatus",
+      "headword_arabic": "فُورَةٌ",
+      "definition": "A particular flatus or swelling in the pastern of a horse.",
+      "usage_conditions": "An anatomical or veterinary term.",
+      "source_refs": [
+        "lane:entry:35199"
+      ]
+    },
+    {
+      "meaning_id": "cm_fuwra_sand",
+      "headword_arabic": "فُورَةٌ",
+      "definition": "A rounded mass or collection of red sand, or sand mixed with pebbles.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35199"
+      ]
+    },
+    {
+      "meaning_id": "cm_fira_fenugreek",
+      "headword_arabic": "فِيرَةٌ",
+      "definition": "Fenugreek mixed as a medicinal preparation for a woman after childbirth.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35200"
+      ]
+    },
+    {
+      "meaning_id": "cm_fiyar_balancepiece",
+      "headword_arabic": "فِيَارٌ",
+      "definition": "One of the two iron pieces between which the tongue of a balance is set.",
+      "usage_conditions": "The plural is فِيَارَانِ.",
+      "source_refs": [
+        "lane:entry:35201"
+      ]
+    },
+    {
+      "meaning_id": "cm_fuwara_foam",
+      "headword_arabic": "فُوَارَةٌ",
+      "definition": "The froth or foam that boils over from a cooking pot, or the foam mantling the surface of wine.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:35202"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawwar_gushing",
+      "headword_arabic": "فَوَّارٌ",
+      "definition": "Boiling intensely or gushing forth abundantly.",
+      "usage_conditions": "Used adjectivally of boiling and of water or similar substances welling or pouring forth in abundance.",
+      "source_refs": [
+        "lane:entry:35203"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawwar_wound",
+      "headword_arabic": "ضَرْبٌ فَوَّارٌ",
+      "definition": "A blow that makes a wide wound from which blood flows abundantly.",
+      "usage_conditions": "A conventional description of a smiting whose wound is wide and gushing.",
+      "source_refs": [
+        "lane:entry:35203"
+      ]
+    },
+    {
+      "meaning_id": "cm_fayur_sharp",
+      "headword_arabic": "فَيُّورٌ",
+      "definition": "Sharp or energetic, said of a man.",
+      "usage_conditions": "Equivalent to حَدِيدٌ in this epithet.",
+      "source_refs": [
+        "lane:entry:35204"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawwara_source",
+      "headword_arabic": "فَوَّارَةٌ",
+      "definition": "A source or spring of water; also a wave or a basin or pool.",
+      "usage_conditions": "The source records variant attributions and applications of the term to these water-related objects.",
+      "source_refs": [
+        "lane:entry:35205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawwara_stationary",
+      "headword_arabic": "فَوَّارَةٌ",
+      "definition": "An object that does not move or turn around.",
+      "usage_conditions": "A variant lexical distinction contrasts this use with a related term for something that moves or revolves; the explanation is attributed differently in the transmitted authorities.",
+      "source_refs": [
+        "lane:entry:35205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawwara_haunch",
+      "headword_arabic": "فَوَّارَةُ الوَرِكِ",
+      "definition": "An aperture in the haunch or pelvis leading toward the interior of the body.",
+      "usage_conditions": "An anatomical term; the plural refers to two such apertures or pelvic parts.",
+      "source_refs": [
+        "lane:entry:35205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawwara_ruminant",
+      "headword_arabic": "فَوَّارَتَانِ",
+      "definition": "Two appendages of the stomach of a ruminant, each containing a small nodular lump of flesh.",
+      "usage_conditions": "The parts are described as inedible nodular structures within the stomach region.",
+      "source_refs": [
+        "lane:entry:35205"
+      ]
+    },
+    {
+      "meaning_id": "cm_fair_sinews",
+      "headword_arabic": "فَائِرٌ",
+      "definition": "Swollen in the sinews, said of a horse or another beast.",
+      "usage_conditions": "A participial adjective describing distended or swollen sinews.",
+      "source_refs": [
+        "lane:entry:35207"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fwr_fara_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_ferment"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_flush"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_heave"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_anger"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_anger",
+        "cm_fwr_sinewsswell"
+      ],
+      "note": "Both reported lexical interpretations are retained."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_veinflow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_varicose"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_well"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_marketbustle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fwr_muskscentspread"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form IV entry."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35191:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_furt_balancefit"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35192:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawr2_postpartumverb"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35193:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_afart_boiling"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35194:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_faar_muscles"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35194:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another article."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35195:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawr_hellheat"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35195:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawr_horizon"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35195:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fwr_fawr_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35195:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fwr_fawr_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35196:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fur_gazelles"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35197:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fara_muskscent",
+        "cm_fara_muskreceptacle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35197:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fara_camelodor"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35198:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to فَوْرٌ."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35198:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35198:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawra_anger"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35198:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawra_freshness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35198:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawra_daybegin"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35198:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawra_market"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35198:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawra_mountain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35199:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fuwra_flatus"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35199:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fuwra_sand"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35200:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fira_fenugreek"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35201:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fiyar_balancepiece"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35202:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fuwara_foam"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35203:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawwar_gushing"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35203:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawwar_gushing"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35203:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawwar_wound"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35204:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fayur_sharp"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35205:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawwara_source",
+        "cm_fawwara_stationary"
+      ],
+      "note": "Competing water-related and non-water explanations are retained."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35205:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawwara_haunch",
+        "cm_fawwara_ruminant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35206:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35207:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical identification as a participle."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35207:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35207:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fair_sinews"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:fwr:35207:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwr:35208:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to فُوَارَةٌ."
+    }
+  ],
+  "cautions": [
+    "Lane's printed reference to “Kur iii. 121” is historical citation notation and is not converted into a modern verse location; the example for مِنْ فَوْرِهِمْ uses the independently supplied QAC location 3:125.",
+    "Several related entries, especially فَوَّارَةٌ and فُوَّارَةٌ, preserve variant vocalizations and competing classical explanations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

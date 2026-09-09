@@ -1,0 +1,639 @@
+{
+  "root": "mss",
+  "arabic": "مسس",
+  "root_idea": {
+    "summary": "The root denotes probing or feeling something by hand, and thus direct tactile contact.",
+    "development": "From physical contact, the lexical field extends to mutual contact, an effect reaching or afflicting someone, euphemistic sexual contact, and related expressions of nearness or immediate effect.",
+    "source_refs": [
+      "maqayis:row:4366",
+      "mufradat:row:1367"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mss:mas~a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-mss-massa-I",
+      "reason": "The Form I verb is a principal Quranic form with distinct tactile, sexual, and afflictive usages."
+    },
+    {
+      "form_group_id": "qac-form:mss:yatamaA^s~a:verb:VI",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-mss-tamasa-VI",
+      "reason": "The Form VI verb occurs in a Quranic reciprocal construction with a specifically sexual interpretation."
+    },
+    {
+      "form_group_id": "qac-form:mss:mas~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-mss-mass-N",
+      "reason": "The noun مَسّ has Quranic uses for the onset of harm and for madness or diabolical possession."
+    },
+    {
+      "form_group_id": "qac-form:mss:misaAs:other:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-mss-misas",
+      "reason": "مِسَاس occurs in the Quranic fixed expression لَا مِسَاسَ and is lexically distinct from the ordinary noun مَسّ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-mss-massa-I",
+      "form_group_ids": [
+        "qac-form:mss:mas~a:verb:I"
+      ],
+      "headword_arabic": "مَسَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 56,
+      "senses": [
+        {
+          "sense_id": "qf-mss-massa-I-s1",
+          "definition": "To touch or feel by direct physical contact.",
+          "usage_conditions": "Used for tactile contact or perception by touch, including direct contact without an intervening object.",
+          "source_refs": [
+            "lane:entry:12606",
+            "mufradat:row:1367"
+          ]
+        },
+        {
+          "sense_id": "qf-mss-massa-I-s2",
+          "definition": "To have sexual intercourse, expressed euphemistically as touching.",
+          "usage_conditions": "A metonymic construction used especially in statements about intercourse before consummation or before a lawful sexual relationship has taken place.",
+          "source_refs": [
+            "lane:entry:12606",
+            "mufradat:row:1367"
+          ]
+        },
+        {
+          "sense_id": "qf-mss-massa-I-s3",
+          "definition": "To befall, afflict, or overtake someone with harm, hardship, illness, punishment, or other distress.",
+          "usage_conditions": "The object may be an individual or a group, and the subject may be distress, misfortune, punishment, illness, old age, or a comparable harmful effect.",
+          "source_refs": [
+            "lane:entry:12606",
+            "mufradat:row:1367"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:35",
+          "word_location": "24:35:31",
+          "sense_ids": [
+            "qf-mss-massa-I-s1"
+          ]
+        },
+        {
+          "verse_key": "2:236",
+          "word_location": "2:236:9",
+          "sense_ids": [
+            "qf-mss-massa-I-s2"
+          ]
+        },
+        {
+          "verse_key": "3:47",
+          "word_location": "3:47:8",
+          "sense_ids": [
+            "qf-mss-massa-I-s2"
+          ]
+        },
+        {
+          "verse_key": "2:214",
+          "word_location": "2:214:13",
+          "sense_ids": [
+            "qf-mss-massa-I-s3"
+          ]
+        },
+        {
+          "verse_key": "21:83",
+          "word_location": "21:83:6",
+          "sense_ids": [
+            "qf-mss-massa-I-s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-mss-tamasa-VI",
+      "form_group_ids": [
+        "qac-form:mss:yatamaA^s~a:verb:VI"
+      ],
+      "headword_arabic": "تَمَاسَّ",
+      "public_pos_label": "Verb · Form VI",
+      "verb_form": "VI",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf-mss-tamasa-VI-s1",
+          "definition": "To have sexual intercourse with one another, expressed as mutual touching.",
+          "usage_conditions": "The Quranic reciprocal construction refers to intercourse between the two parties, especially in the expiation sequence concerning the ẓihār declaration.",
+          "source_refs": [
+            "lane:entry:12609",
+            "mufradat:row:1367"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "58:3",
+          "word_location": "58:3:14",
+          "sense_ids": [
+            "qf-mss-tamasa-VI-s1"
+          ]
+        },
+        {
+          "verse_key": "58:4",
+          "word_location": "58:4:10",
+          "sense_ids": [
+            "qf-mss-tamasa-VI-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-mss-mass-N",
+      "form_group_ids": [
+        "qac-form:mss:mas~:nominal:-"
+      ],
+      "headword_arabic": "مَسّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf-mss-mass-N-s1",
+          "definition": "The first perceptible effect or onset of harm, pain, heat, or punishment.",
+          "usage_conditions": "Used for the initial sensation or impact of an affliction before it becomes fully established or overwhelming.",
+          "source_refs": [
+            "lane:entry:12610",
+            "mufradat:row:1367"
+          ]
+        },
+        {
+          "sense_id": "qf-mss-mass-N-s2",
+          "definition": "A touch or state of madness, insanity, or diabolical possession.",
+          "usage_conditions": "The expression presents madness or possession metaphorically as a touch, particularly a touch attributed to the devil or jinn.",
+          "source_refs": [
+            "lane:entry:12610",
+            "mufradat:row:1367"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "54:48",
+          "word_location": "54:48:8",
+          "sense_ids": [
+            "qf-mss-mass-N-s1"
+          ]
+        },
+        {
+          "verse_key": "2:275",
+          "word_location": "2:275:13",
+          "sense_ids": [
+            "qf-mss-mass-N-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-mss-misas",
+      "form_group_ids": [
+        "qac-form:mss:misaAs:other:-"
+      ],
+      "headword_arabic": "مِسَاس",
+      "public_pos_label": "Fixed expression / imperative noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-mss-misas-s1",
+          "definition": "In لَا مِسَاسَ: “no touching,” “do not touch me,” or “there shall be no mutual touching.”",
+          "usage_conditions": "A fixed Quranic expression with variant readings and closely related interpretations of prohibition, refusal of contact, or absence of mutual contact.",
+          "source_refs": [
+            "lane:entry:12611"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:97",
+          "word_location": "20:97:10",
+          "sense_ids": [
+            "qf-mss-misas-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-mss-massa-wet",
+      "headword_arabic": "مَسَّ",
+      "definition": "To wet a body, as water wets the body.",
+      "usage_conditions": "A derived physical-contact use in which the subject is water and the object is the body.",
+      "source_refs": [
+        "lane:entry:12606"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-massa-strike",
+      "headword_arabic": "مَسَّ",
+      "definition": "To strike or smite.",
+      "usage_conditions": "A tropical extension from contact by the hand; the construction may specify the instrument, such as a whip.",
+      "source_refs": [
+        "lane:entry:12606"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-massa-madness",
+      "headword_arabic": "مَسَّ",
+      "definition": "To affect someone with madness, insanity, or diabolical possession.",
+      "usage_conditions": "The expression portrays the person as touched by jinn or a devil; this verb-level use is distinct from the Quranic noun sense of مَسّ.",
+      "source_refs": [
+        "lane:entry:12606"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-massa-pressing-need",
+      "headword_arabic": "مَسَّتْ إِلَيْهِ الحَاجَةُ",
+      "definition": "For a need to be pressing, difficult, or distressing in relation to someone.",
+      "usage_conditions": "A specialized phrase whose exact syntactic direction is inferred in the lexical source.",
+      "source_refs": [
+        "lane:entry:12606"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-massa-haps",
+      "headword_arabic": "مَسَّتْهُ مَوَاسُّ الخَيْرِ وَالشَّرِّ",
+      "definition": "For the haps or effects of good or evil fortune to happen to or betide someone.",
+      "usage_conditions": "An extended use of مسّ for events or conditions reaching a person, whether favorable or unfavorable.",
+      "source_refs": [
+        "lane:entry:12606"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-massa-nearness",
+      "headword_arabic": "مَسَّتْ بِكَ رَحِمُ فُلَانٍ",
+      "definition": "For a relationship to be near to someone.",
+      "usage_conditions": "A figurative proximity construction based on the notion of contact or nearness.",
+      "source_refs": [
+        "lane:entry:12606"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-massa-take",
+      "headword_arabic": "مَسَّ",
+      "definition": "To take or handle a thing.",
+      "usage_conditions": "A metaphorical use derived from touching or taking something with the hand.",
+      "source_refs": [
+        "lane:entry:12606"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-amassa-enable",
+      "headword_arabic": "أَمَسَّ",
+      "definition": "To cause someone to touch a thing or enable someone to touch it.",
+      "usage_conditions": "Form IV takes the person as the caused participant and the thing as what is touched.",
+      "source_refs": [
+        "lane:entry:12608"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-amassa-wet",
+      "headword_arabic": "أَمَسَّ",
+      "definition": "To wet or smear something with water, perfume, or another substance.",
+      "usage_conditions": "Used for causing a body or body part to be wetted or coated, including smearing the face with perfume.",
+      "source_refs": [
+        "lane:entry:12608"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-amassa-complaint",
+      "headword_arabic": "أَمَسَّ",
+      "definition": "To make a complaint to someone.",
+      "usage_conditions": "A specialized idiomatic construction with شَكْوَى as the conveyed complaint.",
+      "source_refs": [
+        "lane:entry:12608"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-tamasa-contact",
+      "headword_arabic": "تَمَاسَّ",
+      "definition": "For two bodies or parties to touch one another or be in contact.",
+      "usage_conditions": "This is the general reciprocal-contact meaning; the Quranic sexual construction is listed separately under the Quranic Form VI form.",
+      "source_refs": [
+        "lane:entry:12609"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-mass-livestock",
+      "headword_arabic": "مَسّ",
+      "definition": "An impress or visible indication of a good condition in a person's livestock.",
+      "usage_conditions": "Used of the observable state or quality manifested in camels, sheep, or goats.",
+      "source_refs": [
+        "lane:entry:12610"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-masus-hand-reached",
+      "headword_arabic": "مَسُوس",
+      "definition": "Water reached or taken by the hands.",
+      "usage_conditions": "One lexical analysis treats the word as describing water that hands can reach or take.",
+      "source_refs": [
+        "lane:entry:12613"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-masus-thirst",
+      "headword_arabic": "مَسُوس",
+      "definition": "Wholesome water, saliva, or another thing that relieves thirst promptly.",
+      "usage_conditions": "The description may emphasize water that removes thirst as soon as it is touched or consumed, and extends to saliva or anything with that effect.",
+      "source_refs": [
+        "lane:entry:12613"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-masus-water-types",
+      "headword_arabic": "مَسُوس",
+      "definition": "Water variously described as intermediate between sweet and salt, sweet and clear, or saline, bitter, thick, and undrinkable.",
+      "usage_conditions": "These are variant lexicographic descriptions of the water term rather than a single resolved water-quality definition.",
+      "source_refs": [
+        "lane:entry:12613"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-masus-herbage",
+      "headword_arabic": "مَسُوس",
+      "definition": "Herbage having a fattening or beneficial effect on grazing animals.",
+      "usage_conditions": "A figurative extension to pasture that benefits animals feeding on it.",
+      "source_refs": [
+        "lane:entry:12613"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-masus-antidote",
+      "headword_arabic": "مَسُوس",
+      "definition": "A bezoar stone or antidote against poison.",
+      "usage_conditions": "A specialized technical usage, with the two explanations treated as equivalent in the lexical evidence.",
+      "source_refs": [
+        "lane:entry:12613"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-haajah-maassah",
+      "headword_arabic": "حَاجَةٌ مَاسَّةٌ",
+      "definition": "A pressing or difficult-to-accomplish need.",
+      "usage_conditions": "The adjective is used with حاجة and is synonymous with an urgent or important need.",
+      "source_refs": [
+        "lane:entry:12615"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-rahim-maassah",
+      "headword_arabic": "رَحِمٌ مَاسَّةٌ",
+      "definition": "A near relationship or close kinship.",
+      "usage_conditions": "A figurative proximity expression applied to kinship.",
+      "source_refs": [
+        "lane:entry:12615"
+      ]
+    },
+    {
+      "meaning_id": "cm-mss-mamsus",
+      "headword_arabic": "مَمْسُوس",
+      "definition": "A person affected by madness, insanity, or diabolical possession.",
+      "usage_conditions": "A passive-participial description of someone regarded as touched by a devil or other possessing force.",
+      "source_refs": [
+        "lane:entry:12616"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mss:12606:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-mss-massa-I-s1"
+      ],
+      "note": "Direct tactile contact is represented under the Form I Quranic verb."
+    },
+    {
+      "unit_id": "lane-unit:mss:12606:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-mss-massa-I-s2",
+        "qf-mss-tamasa-VI-s1"
+      ],
+      "note": "The unit gives the euphemistic sexual construction in both مسّ and reciprocal تماسّ usage."
+    },
+    {
+      "unit_id": "lane-unit:mss:12606:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-massa-wet"
+      ],
+      "note": "Water wetting the body is represented as a Classical Form I extension."
+    },
+    {
+      "unit_id": "lane-unit:mss:12606:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-massa-strike"
+      ],
+      "note": "The striking or smiting extension is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12606:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-mss-massa-I-s3",
+        "cm-mss-massa-madness"
+      ],
+      "note": "The Quran-attested affliction branch and the verb-level madness construction are both represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12606:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-massa-pressing-need"
+      ],
+      "note": "The specialized pressing-need phrase is retained with its inferred direction noted."
+    },
+    {
+      "unit_id": "lane-unit:mss:12606:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-massa-haps"
+      ],
+      "note": "The good-or-evil fortune construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12606:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-massa-nearness"
+      ],
+      "note": "The figurative kinship-nearness construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12606:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-massa-take"
+      ],
+      "note": "The metaphorical sense of taking or handling is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12606:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical information about transitivity and the preposition بِ; no independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:mss:12607:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form III cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mss:12608:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-amassa-enable"
+      ],
+      "note": "Form IV causation of touching is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12608:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-amassa-wet"
+      ],
+      "note": "Form IV wetting and smearing are represented together."
+    },
+    {
+      "unit_id": "lane-unit:mss:12608:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-amassa-complaint"
+      ],
+      "note": "The idiom meaning to make a complaint is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12609:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-tamasa-contact"
+      ],
+      "note": "The general reciprocal-contact meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12609:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-mss-tamasa-VI-s1"
+      ],
+      "note": "The Quran-attested sexual interpretation of reciprocal touching is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12610:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:mss:12610:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-mss-mass-N-s1",
+        "qf-mss-mass-N-s2"
+      ],
+      "note": "The onset-of-harm and madness/possession branches are both represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12610:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-mass-livestock"
+      ],
+      "note": "The livestock-condition meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12611:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-mss-misas-s1"
+      ],
+      "note": "The Quranic fixed expression and its variant interpretations are represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12612:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant-form cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mss:12613:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-masus-hand-reached",
+        "cm-mss-masus-thirst",
+        "cm-mss-masus-water-types",
+        "cm-mss-masus-herbage"
+      ],
+      "note": "The distinct water, thirst-relieving, water-quality, and herbage branches are retained."
+    },
+    {
+      "unit_id": "lane-unit:mss:12613:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-masus-antidote"
+      ],
+      "note": "The bezoar or antidote meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12614:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَاسَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:mss:12615:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-haajah-maassah"
+      ],
+      "note": "The pressing-need adjective construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12615:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-rahim-maassah"
+      ],
+      "note": "The near-kinship construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:mss:12615:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer/example note referring back to an already represented haps usage."
+    },
+    {
+      "unit_id": "lane-unit:mss:12616:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mss-mamsus"
+      ],
+      "note": "The derived passive-participial description of possession or madness is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic Form VI occurrences are specifically interpreted as reciprocal sexual contact; its broader physical-contact meaning is listed separately as Classical Arabic.",
+    "لَا مِسَاسَ has variant readings and closely related interpretations involving prohibition of contact, refusal to be touched, or absence of mutual contact.",
+    "مَسُوس has several competing lexical descriptions for water; these variants are preserved rather than forced into one narrower definition."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The phrase مَسَّتْ إِلَيْهِ الحَاجَةُ is marked as an assumed tropical use, and the exact direction of the difficulty is left partly to inference; it is represented as a pressing-need construction with that uncertainty retained.",
+    "The water-quality explanations under مَسُوس differ among authorities and are represented as variant descriptions rather than resolved into a single semantic value."
+  ]
+}

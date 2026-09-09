@@ -1,0 +1,381 @@
+{
+  "root": "kwn",
+  "arabic": "كون",
+  "root_idea": {
+    "summary": "The root centers on reporting that something occurs, is present, or comes to be, with reference to past or present time.",
+    "development": "This orientation develops into the existential and copular verb كَانَ and related ideas of being and coming into existence. The derivation of مَكَانٌ from كَانَ يَكُونُ is reported as a qualified view, not as an established direct meaning of the root.",
+    "source_refs": [
+      "maqayis:row:4070"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kwn:kaAna:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:kwn:kaana",
+      "reason": "Displayed as the normalized Classical Arabic Form I citation verb."
+    },
+    {
+      "form_group_id": "qac-form:kwn:makaAnat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:kwn:makanat",
+      "reason": "Displayed as the distinct noun مَكَانَةٌ."
+    },
+    {
+      "form_group_id": "qac-form:kwn:m~akaAn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:kwn:makan",
+      "reason": "Displayed as the normalized noun مَكَانٌ."
+    },
+    {
+      "form_group_id": "qac-form:kwn:m~akaAn:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:kwn:makan",
+      "reason": "The LOC-tagged occurrences are the same lexical noun مَكَانٌ; the additional tag is syntactic rather than a distinct public lexeme."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:kwn:kaana",
+      "form_group_ids": [
+        "qac-form:kwn:kaAna:verb:I"
+      ],
+      "headword_arabic": "كَانَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1358,
+      "senses": [
+        {
+          "sense_id": "qform:kwn:kaana:s1",
+          "definition": "To be, exist, or be in a stated condition; also to serve as a copula linking a subject with its predicate.",
+          "usage_conditions": "It commonly presents a state or existence with past-time reference, but the surrounding construction may yield present, future, habitual, or counterfactual translations. It may be used without an independently emphasized time meaning as a copula. With divine predicates or generic subjects, it can mark a characteristic understood as enduring or little subject to separation; a past reference may describe either a continuing state or one that later changed. In كُنْتُمْ خَيْرَ أُمَّةٍ, the past form can point to the status assigned in divine determination or judgment rather than simply replacing a present-tense form.",
+          "source_refs": [
+            "lane:entry:32991",
+            "mufradat:row:1228"
+          ]
+        },
+        {
+          "sense_id": "qform:kwn:kaana:s2",
+          "definition": "To occur, come about, or be realized or present.",
+          "usage_conditions": "Explicitly attested in the conditional construction إِنْ كَانَ ذُو عُسْرَةٍ, where the sense is that a hardship or condition has occurred or is present.",
+          "source_refs": [
+            "mufradat:row:1228"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:100",
+          "word_location": "10:100:2",
+          "sense_ids": [
+            "qform:kwn:kaana:s1"
+          ]
+        },
+        {
+          "verse_key": "10:19",
+          "word_location": "10:19:2",
+          "sense_ids": [
+            "qform:kwn:kaana:s1"
+          ]
+        },
+        {
+          "verse_key": "3:110",
+          "word_location": "3:110:17",
+          "sense_ids": [
+            "qform:kwn:kaana:s1"
+          ]
+        },
+        {
+          "verse_key": "2:280",
+          "word_location": "2:280:2",
+          "sense_ids": [
+            "qform:kwn:kaana:s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:kwn:makanat",
+      "form_group_ids": [
+        "qac-form:kwn:makaAnat:nominal:-"
+      ],
+      "headword_arabic": "مَكَانَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qform:kwn:makanat:s1",
+          "definition": "A place of being or existence; a place or position occupied by someone or something.",
+          "usage_conditions": "The Quranic noun can refer literally to a place, as well as to the place in which a group or thing is situated.",
+          "source_refs": [
+            "lane:entry:32996"
+          ]
+        },
+        {
+          "sense_id": "qform:kwn:makanat:s2",
+          "definition": "Position, standing, or state; the condition or station in which someone is placed.",
+          "usage_conditions": "Used especially in expressions concerning a person's or group's position, standing, or condition.",
+          "source_refs": [
+            "lane:entry:32996"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "36:67",
+          "word_location": "36:67:5",
+          "sense_ids": [
+            "qform:kwn:makanat:s1"
+          ]
+        },
+        {
+          "verse_key": "11:93",
+          "word_location": "11:93:4",
+          "sense_ids": [
+            "qform:kwn:makanat:s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:kwn:makan",
+      "form_group_ids": [
+        "qac-form:kwn:m~akaAn:nominal:-",
+        "qac-form:kwn:m~akaAn:other:-"
+      ],
+      "headword_arabic": "مَكَانٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 27,
+      "senses": [
+        {
+          "sense_id": "qform:kwn:makan:s1",
+          "definition": "A place, location, or site.",
+          "usage_conditions": "Includes a physical location or a designated place; the LOC-tagged Quranic occurrences are included under this same noun.",
+          "source_refs": [
+            "mufradat:row:1228"
+          ]
+        },
+        {
+          "sense_id": "qform:kwn:makan:s2",
+          "definition": "A position, station, or rank.",
+          "usage_conditions": "Used figuratively for a person's or group's position or station, including a place in an evaluative or social order.",
+          "source_refs": [
+            "lane:entry:32996"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:16",
+          "word_location": "19:16:9",
+          "sense_ids": [
+            "qform:kwn:makan:s1"
+          ]
+        },
+        {
+          "verse_key": "22:26",
+          "word_location": "22:26:4",
+          "sense_ids": [
+            "qform:kwn:makan:s1"
+          ]
+        },
+        {
+          "verse_key": "12:77",
+          "word_location": "12:77:20",
+          "sense_ids": [
+            "qform:kwn:makan:s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical:kwn:kawn:transformation",
+      "headword_arabic": "كَوْنٌ",
+      "definition": "In some technical usage, the transformation of a substance into something lower than it.",
+      "usage_conditions": "A qualified usage attributed to some speakers; it is not presented as a general Quranic sense of كَانَ.",
+      "source_refs": [
+        "mufradat:row:1228"
+      ]
+    },
+    {
+      "meaning_id": "classical:kwn:kawn:creation",
+      "headword_arabic": "كَوْنٌ",
+      "definition": "Creation or origination.",
+      "usage_conditions": "A theological technical usage attributed to many theologians.",
+      "source_refs": [
+        "mufradat:row:1228"
+      ]
+    },
+    {
+      "meaning_id": "classical:kwn:takawwana",
+      "headword_arabic": "تَكَوَّنَ",
+      "definition": "To receive or take on being; to come into existence or originate.",
+      "usage_conditions": "Form V; describes emergence into existence rather than merely being in a state.",
+      "source_refs": [
+        "lane:entry:32992"
+      ]
+    },
+    {
+      "meaning_id": "classical:kwn:istakana",
+      "headword_arabic": "اِسْتَكَانَ",
+      "definition": "To become lowly, humble, submissive, or abased.",
+      "usage_conditions": "Form X; commonly describes humble submission, including submission before or to someone addressed with لِـ.",
+      "source_refs": [
+        "lane:entry:32993",
+        "mufradat:row:1228"
+      ]
+    },
+    {
+      "meaning_id": "classical:kwn:kaana:guarantee",
+      "headword_arabic": "كَانَ",
+      "definition": "To guarantee or undertake responsibility for someone.",
+      "usage_conditions": "A rare, explicitly qualified usage with عَلَى: كُنْتُ عَلَى فُلَانٍ أَكُونُ عَلَيْهِ.",
+      "source_refs": [
+        "maqayis:row:4070"
+      ]
+    },
+    {
+      "meaning_id": "classical:kwn:makan:stay",
+      "headword_arabic": "مَكَانٌ",
+      "definition": "In the command مَكَانَكَ, to stay where one is.",
+      "usage_conditions": "A conventional imperative expression meaning “remain where you are.”",
+      "source_refs": [
+        "lane:entry:32996"
+      ]
+    },
+    {
+      "meaning_id": "classical:kwn:makan:ground",
+      "headword_arabic": "مَكَانٌ",
+      "definition": "A ground, basis, or warrant for saying something.",
+      "usage_conditions": "Used in the construction هٰذَا مَكَانٌ لِقَوْلِنَا كَذَا.",
+      "source_refs": [
+        "lane:entry:32996"
+      ]
+    },
+    {
+      "meaning_id": "classical:kwn:makan:become-like",
+      "headword_arabic": "مَكَانٌ",
+      "definition": "To become as or like something else.",
+      "usage_conditions": "Used in the construction أَصْبَحَ مَكَانَ كَذَا, “it became as or like such a thing.”",
+      "source_refs": [
+        "lane:entry:32996"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kwn:32991:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:kwn:kaana:s1"
+      ],
+      "note": "Being/was and the copular construction are covered by the primary Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32991:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Irregular elision is grammatical information."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32991:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform:kwn:kaana:s1"
+      ],
+      "note": "The time-neutral copular use is stated in the sense conditions."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32991:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry concerning the complete verb."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32992:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:kwn:takawwana"
+      ],
+      "note": "Form V emergence into existence."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32993:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:kwn:istakana"
+      ],
+      "note": "Form X humility and submission."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32994:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "A pointer-bearing expression with no independent definition."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32995:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32996:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:kwn:makanat:s1"
+      ],
+      "note": "Place of being or existence."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32996:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:kwn:makan:stay"
+      ],
+      "note": "Conventional command to remain where one is."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32996:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:kwn:makanat:s2"
+      ],
+      "note": "State or condition."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32996:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:kwn:makan:s2"
+      ],
+      "note": "مَكَانٌ explicitly equated with station or rank."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32996:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:kwn:makan:ground"
+      ],
+      "note": "Makan as a ground for a statement."
+    },
+    {
+      "unit_id": "lane-unit:kwn:32996:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:kwn:makan:become-like"
+      ],
+      "note": "Construction meaning to become as or like something."
+    }
+  ],
+  "cautions": [
+    "The derivation of مَكَانٌ from كَانَ يَكُونُ is reported as a qualified lexical view, not asserted as certain.",
+    "كَانَ often functions grammatically as an auxiliary or copula, so English tense choices are strongly dependent on construction and context.",
+    "Historical citation notation in the lexical evidence has not been converted into additional modern Quran locations; the examples use only supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

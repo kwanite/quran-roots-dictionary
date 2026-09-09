@@ -1,0 +1,129 @@
+{
+  "root": "dxr",
+  "arabic": "دخر",
+  "root_idea": {
+    "summary": "The root centers on abasement: being reduced to a low, contemptible, or submissive state.",
+    "development": "The intransitive Form I denotes being or becoming abject, while Form IV expresses causing another to become abject. The Quranic active participle denotes those in the resulting state. The storage-related forms ادّخر and مُدَّخِرٌ are treated as belonging to a different lexical branch.",
+    "source_refs": [
+      "maqayis:row:1724",
+      "lane:entry:347",
+      "lane:entry:348",
+      "mufradat:row:460"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:dxr:da`xiruwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-dxr-daakhir",
+      "reason": "Displayed under the normalized singular active-participle citation form corresponding to the Quranic plural occurrences."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-dxr-daakhir",
+      "form_group_ids": [
+        "qac-form:dxr:da`xiruwn:nominal:-"
+      ],
+      "headword_arabic": "دَاخِر",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qform-dxr-daakhir-s1",
+          "definition": "Abject, humbled, or brought low; in a state of humiliation and submissive lowliness.",
+          "usage_conditions": "An active participle naming one who is or has become abject. The supplied Quranic contexts range from humble submission to humiliating abasement; these are contextual expressions of the same lexical state, not separate senses.",
+          "source_refs": [
+            "lane:entry:347",
+            "lane:entry:350",
+            "mufradat:row:460"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:48",
+          "word_location": "16:48:17",
+          "sense_ids": [
+            "qform-dxr-daakhir-s1"
+          ]
+        },
+        {
+          "verse_key": "27:87",
+          "word_location": "27:87:18",
+          "sense_ids": [
+            "qform-dxr-daakhir-s1"
+          ]
+        },
+        {
+          "verse_key": "37:18",
+          "word_location": "37:18:4",
+          "sense_ids": [
+            "qform-dxr-daakhir-s1"
+          ]
+        },
+        {
+          "verse_key": "40:60",
+          "word_location": "40:60:13",
+          "sense_ids": [
+            "qform-dxr-daakhir-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-dxr-adkhara-1",
+      "headword_arabic": "أَدْخَرَ",
+      "definition": "To render another abject, mean, contemptible, or despicable.",
+      "usage_conditions": "Form IV causative and transitive: to cause someone to enter a state of abasement.",
+      "source_refs": [
+        "lane:entry:348"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:dxr:347:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-dxr-daakhir-s1"
+      ],
+      "note": "The Form I state of being or becoming abject is represented by the Quranic active-participle sense."
+    },
+    {
+      "unit_id": "lane-unit:dxr:348:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dxr-adkhara-1"
+      ],
+      "note": "The causative Form IV meaning is represented as a broader Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:dxr:349:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to ذخر; it supplies no direct lexical definition here."
+    },
+    {
+      "unit_id": "lane-unit:dxr:350:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform-dxr-daakhir-s1"
+      ],
+      "note": "The adjectival active-participle meaning is covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:dxr:351:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to ذخر; it supplies no direct lexical definition here."
+    }
+  ],
+  "cautions": [
+    "The forms ادّخر and مُدَّخِرٌ are explicitly referred to the ذخر branch associated with storing or saving, not the Quranic دخر branch of abasement."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

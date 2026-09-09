@@ -1,0 +1,635 @@
+{
+  "root": "kll",
+  "arabic": "كلل",
+  "root_idea": {
+    "summary": "The root exhibits three broad orientations: loss of sharpness or force, enclosure or surrounding, and a bodily member. These develop into meanings of dullness, fatigue, dependence, encompassing totality, collateral relation, and crown-like encirclement.",
+    "development": "The loss-of-edge branch yields dullness, weakness, fatigue, and burden; the enclosing branch yields total inclusion, collateral kinship, and crown or surrounding formations. Related lexical developments also include anatomical and figurative extensions.",
+    "source_refs": [
+      "maqayis:row:4017",
+      "mufradat:row:1260",
+      "lane:entry:32910",
+      "lane:entry:32914"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kll:kala`lap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_kalala",
+      "reason": "Distinct Quranic inheritance term."
+    },
+    {
+      "form_group_id": "qac-form:kll:kal~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_kall",
+      "reason": "Distinct Quranic noun meaning a burden or dependent."
+    },
+    {
+      "form_group_id": "qac-form:kll:kul~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_kull",
+      "reason": "Primary Quranic quantifying noun."
+    },
+    {
+      "form_group_id": "qac-form:kll:kul~:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_kullama",
+      "reason": "The occurrence at 4:91 is the temporal conjunction كُلَّمَا represented by a separate QAC segmentation."
+    },
+    {
+      "form_group_id": "qac-form:kll:kul~amaA:other:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_kullama",
+      "reason": "Distinct Quranic temporal conjunction."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_kalala",
+      "form_group_ids": [
+        "qac-form:kll:kala`lap:nominal:-"
+      ],
+      "headword_arabic": "كَلَالَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "s_kalala_deceased",
+          "definition": "A deceased person who leaves neither parent nor offspring; by extension, the inheritance situation defined by that absence.",
+          "usage_conditions": "Used in inheritance discourse; the term may refer to the deceased person or to the estate and succession case associated with the absence of direct ascendants and descendants.",
+          "source_refs": [
+            "mufradat:row:1260"
+          ]
+        },
+        {
+          "sense_id": "s_kalala_collateral",
+          "definition": "The collateral heirs of a person who leaves neither parent nor offspring—heirs other than the direct parent or child.",
+          "usage_conditions": "Used in inheritance discourse for heirs connected through a collateral relationship rather than the direct parent-child line.",
+          "source_refs": [
+            "mufradat:row:1260",
+            "lane:entry:32918"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:12",
+          "word_location": "4:12:54",
+          "sense_ids": [
+            "s_kalala_deceased"
+          ]
+        },
+        {
+          "verse_key": "4:176",
+          "word_location": "4:176:6",
+          "sense_ids": [
+            "s_kalala_collateral"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_kall",
+      "form_group_ids": [
+        "qac-form:kll:kal~:nominal:-"
+      ],
+      "headword_arabic": "كَلٌّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_kall_burden",
+          "definition": "A burden, especially a dependent person who must be supported.",
+          "usage_conditions": "In the Quranic construction كَلٌّ عَلَى مَوْلَاهُ, the term describes someone or something burdensome to a supporting patron.",
+          "source_refs": [
+            "lane:entry:32913"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:76",
+          "word_location": "16:76:12",
+          "sense_ids": [
+            "s_kall_burden"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_kull",
+      "form_group_ids": [
+        "qac-form:kll:kul~:nominal:-"
+      ],
+      "headword_arabic": "كُلٌّ",
+      "public_pos_label": "Noun · quantifier",
+      "verb_form": null,
+      "occurrence_count": 358,
+      "senses": [
+        {
+          "sense_id": "s_kull_complete",
+          "definition": "The whole or complete extent of a thing, including all of its relevant parts or states; fully or completely.",
+          "usage_conditions": "Used with a noun, pronoun, or an understood complement when the emphasis is on the entirety or complete degree of a thing or state.",
+          "source_refs": [
+            "mufradat:row:1260"
+          ]
+        },
+        {
+          "sense_id": "s_kull_universal",
+          "definition": "Every, each, or all: encompassing the members or kinds of a set.",
+          "usage_conditions": "Used with a definite plural, a pronoun, a singular indefinite, or an understood complement; the construction may be distributive or collective according to context.",
+          "source_refs": [
+            "mufradat:row:1260"
+          ]
+        },
+        {
+          "sense_id": "s_kull_any",
+          "definition": "Any one.",
+          "usage_conditions": "In a negative clause followed by an exception, كُلٌّ means “any one,” as in the Quranic negative–exception construction.",
+          "source_refs": [
+            "lane:entry:32914"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:29",
+          "word_location": "17:29:9",
+          "sense_ids": [
+            "s_kull_complete"
+          ]
+        },
+        {
+          "verse_key": "16:11",
+          "word_location": "16:11:9",
+          "sense_ids": [
+            "s_kull_universal"
+          ]
+        },
+        {
+          "verse_key": "38:14",
+          "word_location": "38:14:2",
+          "sense_ids": [
+            "s_kull_any"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_kullama",
+      "form_group_ids": [
+        "qac-form:kll:kul~:other:-",
+        "qac-form:kll:kul~amaA:other:-"
+      ],
+      "headword_arabic": "كُلَّمَا",
+      "public_pos_label": "Temporal conjunction",
+      "verb_form": null,
+      "occurrence_count": 16,
+      "senses": [
+        {
+          "sense_id": "s_kullama_whenever",
+          "definition": "Whenever; every time that; as often as.",
+          "usage_conditions": "Introduces a recurring temporal condition or circumstance, normally followed by a clause describing what happens on each occurrence.",
+          "source_refs": [
+            "lane:entry:32914"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:20",
+          "word_location": "2:20:5",
+          "sense_ids": [
+            "s_kullama_whenever"
+          ]
+        },
+        {
+          "verse_key": "17:97",
+          "word_location": "17:97:24",
+          "sense_ids": [
+            "s_kullama_whenever"
+          ]
+        },
+        {
+          "verse_key": "4:91",
+          "word_location": "4:91:8",
+          "sense_ids": [
+            "s_kullama_whenever"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_kalla_dim",
+      "headword_arabic": "كَلَّ",
+      "definition": "To become dim, dull, or less clear, especially of sight.",
+      "usage_conditions": "A Form I verbal use applied to the sight or visual faculty.",
+      "source_refs": [
+        "lane:entry:32910"
+      ]
+    },
+    {
+      "meaning_id": "cm_kalla_fatigue",
+      "headword_arabic": "كَلَّ",
+      "definition": "To become fatigued, weary, or weak, with resulting inability to perform an act.",
+      "usage_conditions": "Used of a person, animal, or limb in constructions describing fatigue, weakness, or incapacity.",
+      "source_refs": [
+        "lane:entry:32910"
+      ]
+    },
+    {
+      "meaning_id": "cm_kalla_teeth",
+      "headword_arabic": "كَلَّ / أَكَلَّ",
+      "definition": "To set the teeth on edge.",
+      "usage_conditions": "A conventional expression for the effect of acidic or sour food or drink; the Form IV expression takes the teeth as its object.",
+      "source_refs": [
+        "lane:entry:32910",
+        "lane:entry:32912"
+      ]
+    },
+    {
+      "meaning_id": "cm_kalla_blunt",
+      "headword_arabic": "كَلَّ",
+      "definition": "To become blunt and unable to cut, especially of a sword or similar implement.",
+      "usage_conditions": "Used of an edged tool whose cutting sharpness has been lost.",
+      "source_refs": [
+        "lane:entry:32910"
+      ]
+    },
+    {
+      "meaning_id": "cm_kallala_adorn",
+      "headword_arabic": "كَلَّلَ / مُكَلَّلٌ",
+      "definition": "To adorn or be adorned with gems or jewels.",
+      "usage_conditions": "كَلَّلَ is the active Form II verb; مُكَلَّلٌ is the corresponding passive participial description.",
+      "source_refs": [
+        "lane:entry:32911",
+        "lane:entry:32920"
+      ]
+    },
+    {
+      "meaning_id": "cm_kalil",
+      "headword_arabic": "كَلِيلٌ",
+      "definition": "Weak or faint, as of lightning; dull or lacking sharpness, as of a tongue.",
+      "usage_conditions": "A derived adjective used for diminished force, brightness, or sharpness.",
+      "source_refs": [
+        "lane:entry:32917"
+      ]
+    },
+    {
+      "meaning_id": "cm_kull_utmost",
+      "headword_arabic": "كُلٌّ",
+      "definition": "The utmost degree of a quality in an emphatic construction.",
+      "usage_conditions": "Used in an emphatic appositional expression such as “the learned one, the entirety of the learned”; this is a Classical Arabic intensifying construction.",
+      "source_refs": [
+        "lane:entry:32914"
+      ]
+    },
+    {
+      "meaning_id": "cm_kullama_whatever",
+      "headword_arabic": "كُلَّمَا",
+      "definition": "Whatever; anything that.",
+      "usage_conditions": "A Classical use distinct from the temporal conjunction “whenever.”",
+      "source_refs": [
+        "lane:entry:32914"
+      ]
+    },
+    {
+      "meaning_id": "cm_kull_whoever",
+      "headword_arabic": "كُلَّمَنْ",
+      "definition": "Whoever.",
+      "usage_conditions": "A compound indefinite expression referring to any person who satisfies the following condition.",
+      "source_refs": [
+        "lane:entry:32914"
+      ]
+    },
+    {
+      "meaning_id": "cm_kulliyy_universal",
+      "headword_arabic": "كُلِّيٌّ / كُلِّيَّةٌ",
+      "definition": "Universal, general, or relating to the whole; as a substantive, a universal or that which comprises particulars; كُلِّيَّةٌ denotes universality or totality.",
+      "usage_conditions": "Used in contrast with the particular or جزئيّ; the forms may be adjectival, substantive, or abstract.",
+      "source_refs": [
+        "lane:entry:32916"
+      ]
+    },
+    {
+      "meaning_id": "cm_kulliyy_five_predicables",
+      "headword_arabic": "الكُلِّيَّاتُ الخَمْسُ",
+      "definition": "The five predicables of logic: genus, species, difference, property, and accident.",
+      "usage_conditions": "A technical logical expression.",
+      "source_refs": [
+        "lane:entry:32916"
+      ]
+    },
+    {
+      "meaning_id": "cm_iklil_mansion",
+      "headword_arabic": "الإِكْلِيلُ",
+      "definition": "The seventeenth lunar mansion, associated with the head of Scorpio; also the group of three bright stars in or before that region.",
+      "usage_conditions": "An astronomical term whose naming is connected with encirclement or a crown-like arrangement.",
+      "source_refs": [
+        "lane:entry:32919"
+      ]
+    },
+    {
+      "meaning_id": "cm_iklil_nail",
+      "headword_arabic": "إِكْلِيلُ الظُّفُرِ",
+      "definition": "The border of flesh surrounding the nail.",
+      "usage_conditions": "An anatomical expression using the image of a surrounding crown or rim.",
+      "source_refs": [
+        "lane:entry:32919"
+      ]
+    },
+    {
+      "meaning_id": "cm_iklil_cloud",
+      "headword_arabic": "الإِكْلِيلُ",
+      "definition": "A cloud that circles or surrounds a place.",
+      "usage_conditions": "A figurative or descriptive use based on surrounding or encircling.",
+      "source_refs": [
+        "maqayis:row:4017"
+      ]
+    },
+    {
+      "meaning_id": "cm_kall_orphan",
+      "headword_arabic": "كَلٌّ",
+      "definition": "An orphan, understood as one requiring support.",
+      "usage_conditions": "A reported Classical usage motivated by the person’s dependence on a supporter; it is distinct from the Quranic burden construction.",
+      "source_refs": [
+        "maqayis:row:4017"
+      ]
+    },
+    {
+      "meaning_id": "cm_kallala_carry",
+      "headword_arabic": "كَلَّلَ",
+      "definition": "To carry.",
+      "usage_conditions": "A reported usage attributed to some speakers; its relation to the comparison with نكل is uncertain.",
+      "source_refs": [
+        "maqayis:row:4017"
+      ]
+    },
+    {
+      "meaning_id": "cm_kalala_distantkin",
+      "headword_arabic": "كَلَالَةٌ",
+      "definition": "Distant collateral kin, especially remote cousins, considered as heirs.",
+      "usage_conditions": "A Classical inheritance specialization narrower than the general collateral-heir use.",
+      "source_refs": [
+        "maqayis:row:4017"
+      ]
+    },
+    {
+      "meaning_id": "cm_kalkal_chest",
+      "headword_arabic": "الكَلْكَلُ",
+      "definition": "The chest.",
+      "usage_conditions": "A bodily term tentatively related in the lexical tradition to the surrounding or supported-body branch.",
+      "source_refs": [
+        "maqayis:row:4017"
+      ]
+    },
+    {
+      "meaning_id": "cm_kulkul_short",
+      "headword_arabic": "الكُلْكُلُ",
+      "definition": "Short.",
+      "usage_conditions": "A separate, rare lexical use reported in the Classical tradition.",
+      "source_refs": [
+        "maqayis:row:4017"
+      ]
+    },
+    {
+      "meaning_id": "cm_inkalla_laughed",
+      "headword_arabic": "انْكَلَّ",
+      "definition": "To laugh.",
+      "usage_conditions": "Attested in the expression describing a woman laughing; the subject in that example does not restrict the verb to women.",
+      "source_refs": [
+        "maqayis:row:4017"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kll:32910:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kalla_dim"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32910:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kalla_fatigue"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32910:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kalla_fatigue"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32910:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kalla_teeth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32910:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kalla_blunt"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32910:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Orthographic pointer to كُلُّهُنَّ."
+    },
+    {
+      "unit_id": "lane-unit:kll:32911:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kallala_adorn"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32912:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kalla_teeth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32913:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_kall_burden"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32914:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_kull_any"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32914:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بَعْض."
+    },
+    {
+      "unit_id": "lane-unit:kll:32914:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kull_utmost"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32914:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kullama_whatever"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32914:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_kullama_whenever"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32914:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kull_whoever"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32915:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference for كِلَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:kll:32916:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kulliyy_universal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32916:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kulliyy_universal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32916:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kulliyy_universal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32916:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kulliyy_five_predicables"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32917:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kalil"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32917:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to ظُفْرٌ."
+    },
+    {
+      "unit_id": "lane-unit:kll:32917:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kalil"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32918:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_kalala_collateral"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32919:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_iklil_mansion"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32919:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_iklil_mansion"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32919:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_iklil_nail"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:kll:32920:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_kallala_adorn"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "كَلَالَةٌ is used in the supplied Quran-focused evidence both for the deceased or inheritance situation lacking a parent and child and for the collateral heirs; these are presented as separate but related senses.",
+    "The negative–exception sense of كُلٌّ is illustrated at the independently supplied QAC location 38:14; the historical printed citation in the lexical evidence is not converted into a modern location.",
+    "A reported comparison of كَلَّلَ with نكل in the root discussion does not have a securely recoverable sense in the supplied evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The exact meaning intended by the comparison كَلَّلَ مِثْلُ نَكَلَ in the Maqayis discussion remains unresolved; the separately reported 'to carry' usage is retained as a qualified Classical meaning rather than treated as certain."
+  ]
+}

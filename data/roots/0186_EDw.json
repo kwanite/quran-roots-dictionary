@@ -1,0 +1,232 @@
+{
+  "root": "EDw",
+  "arabic": "عضو",
+  "root_idea": {
+    "summary": "The central lexical orientation is dividing a whole into distinct portions.",
+    "development": "From partitioning come the ideas of a bodily member as a distinct part, dividing or distributing something into portions, and the Quranic plural referring to the Quran treated in fragments. Other historically attested branches are kept separate below.",
+    "source_refs": [
+      "maqayis:row:3234"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:EDw:EiDiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:EDw:idah",
+      "reason": "Displayed under the normalized singular dictionary citation form عِضَةٌ rather than the Quranic plural surface form عِضِينَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:EDw:idah",
+      "form_group_ids": [
+        "qac-form:EDw:EiDiyn:nominal:-"
+      ],
+      "headword_arabic": "عِضَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:EDw:idah:part",
+          "definition": "A piece, part, or portion; in the Quranic expression, the Quran treated as divided into portions or fragments.",
+          "usage_conditions": "Attested in the plural form عِضِينَ in the expression describing acceptance of some of the Quran and rejection of some of it.",
+          "source_refs": [
+            "lane:entry:3656",
+            "maqayis:row:3234"
+          ]
+        },
+        {
+          "sense_id": "sense:EDw:idah:falsehood",
+          "definition": "A lie or falsehood.",
+          "usage_conditions": "A Quran-attested interpretation of عِضِينَ in 15:91, treating the plural as falsehoods rather than portions.",
+          "source_refs": [
+            "lane:entry:3656"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:91",
+          "word_location": "15:91:4",
+          "sense_ids": [
+            "sense:EDw:idah:part",
+            "sense:EDw:idah:falsehood"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:EDw:ada_enchantment",
+      "headword_arabic": "عَضَا / عَضْوٌ",
+      "definition": "To enchant or bewitch; عَضْوٌ is used as its verbal noun in this sense.",
+      "usage_conditions": "A distinct verbal branch of عَضَا, not the Quranic noun عِضَةٌ.",
+      "source_refs": [
+        "lane:entry:3653"
+      ]
+    },
+    {
+      "meaning_id": "meaning:EDw:ada_wounds",
+      "headword_arabic": "عَضَا",
+      "definition": "To understand wounds or have skill in dealing with them.",
+      "usage_conditions": "Attested in the idiomatic expression كَانَ يَعْضُو الجِرَاحَ.",
+      "source_refs": [
+        "lane:entry:3653"
+      ]
+    },
+    {
+      "meaning_id": "meaning:EDw:tadtidak_division",
+      "headword_arabic": "تَعْضِيَةٌ",
+      "definition": "The act of dividing or distributing something into portions, including dismembering a slaughtered animal.",
+      "usage_conditions": "Also used in discussions of dividing an inheritance or other property when it is capable of partition.",
+      "source_refs": [
+        "lane:entry:3654"
+      ]
+    },
+    {
+      "meaning_id": "meaning:EDw:udw_limb",
+      "headword_arabic": "عُضْوٌ / عِضْوٌ",
+      "definition": "A limb, member, organ, or distinct bodily portion, including a substantial bone or flesh-and-bone part; also a component of a bow.",
+      "usage_conditions": "The dual العُضْوَانِ can conventionally denote the male and female genital organs.",
+      "source_refs": [
+        "lane:entry:3655"
+      ]
+    },
+    {
+      "meaning_id": "meaning:EDw:idah_group",
+      "headword_arabic": "عِضَةٌ",
+      "definition": "A party, sect, or class of people.",
+      "usage_conditions": "Attested with the plural عِضُونَ; this is a Classical Arabic group-meaning distinct from the Quranic use for portions or falsehoods.",
+      "source_refs": [
+        "lane:entry:3656"
+      ]
+    },
+    {
+      "meaning_id": "meaning:EDw:idun_enchantment",
+      "headword_arabic": "عِضُونَ",
+      "definition": "Enchantment or magic.",
+      "usage_conditions": "A reported analysis of عِضُونَ as the plural of عِضَهٌ, with ه, rather than the Quranic plural of عِضَةٌ.",
+      "source_refs": [
+        "lane:entry:3656"
+      ]
+    },
+    {
+      "meaning_id": "meaning:EDw:sufficiency",
+      "headword_arabic": "عُضُوٌّ / عَاضٍ",
+      "definition": "Sufficiency in clothing and food; عَاضٍ denotes a person possessing adequate clothing and food.",
+      "usage_conditions": "The noun denotes the state, while the active-participle form denotes the person characterized by it.",
+      "source_refs": [
+        "lane:entry:3657",
+        "lane:entry:3659"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:EDw:3653:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other material; it adds no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3653:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:EDw:ada_enchantment"
+      ],
+      "note": "Enchantment meaning of عَضَا and its verbal noun."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3653:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:EDw:ada_wounds"
+      ],
+      "note": "Idiomatic skill or understanding concerning wounds."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3654:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:EDw:tadtidak_division"
+      ],
+      "note": "Division, distribution, and dismemberment."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3655:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:EDw:udw_limb"
+      ],
+      "note": "Bodily limb or organ and specialized extensions."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3656:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:EDw:idah:part"
+      ],
+      "note": "Piece, part, or portion."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3656:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:EDw:idah_group"
+      ],
+      "note": "Party, sect, or class of people."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3656:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:EDw:idah:falsehood"
+      ],
+      "note": "Quran-attested interpretation as lie or falsehood."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3656:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:EDw:idun_enchantment"
+      ],
+      "note": "Reported enchantment meaning of عِضُونَ."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3657:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:EDw:sufficiency"
+      ],
+      "note": "State of possessing sufficient clothing and food."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3658:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "States an application to a camel and points to an unavailable entry, but does not supply a resolvable lexical gloss."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3659:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:EDw:sufficiency"
+      ],
+      "note": "Person possessing sufficient clothing and food."
+    },
+    {
+      "unit_id": "lane-unit:EDw:3659:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The evidence preserves competing derivational analyses for عِضِينَ, associating it either with the root ending in و or with the related form written with ه; the artifact records the attested lexical readings without resolving that etymological question."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:EDw:3658:g1:main: the meaning of عَضَوِيٌّ and عَضَوِيَّةٌ cannot be determined from the supplied camel application and unresolved cross-reference alone."
+  ]
+}

@@ -1,0 +1,801 @@
+{
+  "root": "Evr",
+  "arabic": "عثر",
+  "root_idea": {
+    "summary": "The root has two established semantic orientations: coming upon or gaining awareness of something, and raising or producing dust.",
+    "development": "The lexical tradition connects stumbling and discovery through encountering or inspecting what caused the stumble, while separately preserving the dust-and-trace branch. The Quran uses the first orientation for discovery and making something known.",
+    "source_refs": [
+      "maqayis:row:3135"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Evr:Euvira:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Evr-F1",
+      "reason": "Displayed under the normalized Form I citation headword عَثَرَ; the Quranic token is its passive perfect form."
+    },
+    {
+      "form_group_id": "qac-form:Evr:>aEovaro:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Evr-F4",
+      "reason": "Displayed under the normalized Form IV perfect citation headword أَعْثَرَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "Evr-F1",
+      "form_group_ids": [
+        "qac-form:Evr:Euvira:verb:I"
+      ],
+      "headword_arabic": "عَثَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "Evr-F1-s1",
+          "definition": "To be discovered or become known; to come upon knowledge of something.",
+          "usage_conditions": "In the Quranic passive construction عُثِرَ عَلَى, the matter becomes known or is discovered, characteristically without deliberate seeking.",
+          "source_refs": [
+            "lane:entry:2088",
+            "mufradat:row:945"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:107",
+          "word_location": "5:107:2",
+          "sense_ids": [
+            "Evr-F1-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "Evr-F4",
+      "form_group_ids": [
+        "qac-form:Evr:>aEovaro:verb:IV"
+      ],
+      "headword_arabic": "أَعْثَرَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "Evr-F4-s1",
+          "definition": "To make someone discover or become aware of something; to disclose or make known to them.",
+          "usage_conditions": "The Quranic construction أَعْثَرَ عَلَى expresses causing others to discover or learn of something without their having sought it.",
+          "source_refs": [
+            "lane:entry:2090",
+            "mufradat:row:945"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:21",
+          "word_location": "18:21:2",
+          "sense_ids": [
+            "Evr-F4-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "Evr-cm-stumble",
+      "headword_arabic": "عَثَرَ",
+      "definition": "To stumble, trip, or fall, especially falling forward or upon the face.",
+      "usage_conditions": "The basic physical verb; it is used of a person or animal and may be followed by فِي for stumbling on or over something.",
+      "source_refs": [
+        "lane:entry:2088"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-speech",
+      "headword_arabic": "عَثَرَ",
+      "definition": "To stumble or falter in speech.",
+      "usage_conditions": "A figurative extension of physical stumbling, including halting, hesitating, or faltering of the tongue.",
+      "source_refs": [
+        "lane:entry:2088"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-lie-v",
+      "headword_arabic": "عَثَرَ",
+      "definition": "To lie or speak falsely.",
+      "usage_conditions": "A figurative usage attested in the expression العَثْرِ وَالبَائِنِ.",
+      "source_refs": [
+        "lane:entry:2088"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-sudden-entry",
+      "headword_arabic": "عَثَرَ",
+      "definition": "To enter suddenly or unexpectedly upon an affair or situation.",
+      "usage_conditions": "A figurative usage describing an unexpected encounter with an affair on which another had not entered.",
+      "source_refs": [
+        "lane:entry:2088"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-fortune-fall-v",
+      "headword_arabic": "عَثَرَ جَدُّهُ",
+      "definition": "For one's fortune or good fortune to fall or decline.",
+      "usage_conditions": "A figurative expression likening failing fortune to a person who has stumbled or fallen.",
+      "source_refs": [
+        "lane:entry:2088"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-vein",
+      "headword_arabic": "عَثَرَ العِرْقُ",
+      "definition": "For a vein to pulse.",
+      "usage_conditions": "A specialized bodily usage.",
+      "source_refs": [
+        "lane:entry:2088"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-destroy",
+      "headword_arabic": "عَثَرَ بِهِمْ الزَّمَانُ",
+      "definition": "For time or fortune to destroy people or cause them to be overcome.",
+      "usage_conditions": "An idiomatic figurative construction in which time or circumstance brings about ruin or defeat.",
+      "source_refs": [
+        "lane:entry:2088"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-cause-stumble",
+      "headword_arabic": "أَعْثَرَ",
+      "definition": "To cause someone to stumble, trip, or fall.",
+      "usage_conditions": "The causative Form IV physical usage; it may also mean causing someone to fall prostrate.",
+      "source_refs": [
+        "lane:entry:2090"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-impugn",
+      "headword_arabic": "أَعْثَرَ بِهِ",
+      "definition": "To impugn someone's character before an authority and seek his downfall.",
+      "usage_conditions": "A figurative causative construction used with an authority or ruler.",
+      "source_refs": [
+        "lane:entry:2090"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-fortune-fall-iv",
+      "headword_arabic": "أَعْثَرَ جَدَّهُ",
+      "definition": "To cause someone's fortune or good fortune to fall.",
+      "usage_conditions": "A causative figurative expression derived from the physical notion of making someone fall.",
+      "source_refs": [
+        "lane:entry:2090"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-guide",
+      "headword_arabic": "أَعْثَرَ عَلَى",
+      "definition": "To guide or show someone the way to other people.",
+      "usage_conditions": "A causative directional usage distinct from simply causing someone to discover information.",
+      "source_refs": [
+        "lane:entry:2090"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-dust-raise",
+      "headword_arabic": "عَثْيَرَ",
+      "definition": "To raise dust, earth, or small pieces of dry clay by the extremities of the toes while walking.",
+      "usage_conditions": "A specialized Form Q.Q usage associated with the dust raised by walking.",
+      "source_refs": [
+        "lane:entry:2092"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-see",
+      "headword_arabic": "عَيْثَرَ",
+      "definition": "To see or behold something and identify or single it out.",
+      "usage_conditions": "The verb may describe seeing an object or individuating it by observation.",
+      "source_refs": [
+        "lane:entry:2092"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-omen",
+      "headword_arabic": "عَيْثَرَ الطَّيْرَ",
+      "definition": "To observe birds, including seeing their movement and taking an omen from it.",
+      "usage_conditions": "A conventional bird-observation and augury construction.",
+      "source_refs": [
+        "lane:entry:2092"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-falsehood",
+      "headword_arabic": "عُثْرٌ",
+      "definition": "A lie or falsehood.",
+      "usage_conditions": "A nominal usage separate from the verb meaning “to lie.”",
+      "source_refs": [
+        "lane:entry:2094"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-stumble-noun",
+      "headword_arabic": "عَثْرَةٌ",
+      "definition": "A stumble or trip while walking or proceeding.",
+      "usage_conditions": "The noun also has a regular plural عَثَرَاتٌ.",
+      "source_refs": [
+        "lane:entry:2096"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-slip",
+      "headword_arabic": "عَثْرَةٌ",
+      "definition": "A slip, lapse, fault, wrong action, or mistake.",
+      "usage_conditions": "A figurative noun for falling into error, sin, or wrongdoing.",
+      "source_refs": [
+        "lane:entry:2096"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-war",
+      "headword_arabic": "العَثْرَة",
+      "definition": "War or fighting.",
+      "usage_conditions": "A figurative conventional usage in which warfare is treated as an occasion of stumbling; the cited expression advises not beginning hostilities.",
+      "source_refs": [
+        "lane:entry:2096"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-barren-land",
+      "headword_arabic": "عَثِرَةٌ",
+      "definition": "High land without herbage and covered with dust.",
+      "usage_conditions": "A specialized geographical noun, associated with عِثْيَر dust.",
+      "source_refs": [
+        "lane:entry:2097"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-rainwatered",
+      "headword_arabic": "عَثَرِيٌّ",
+      "definition": "Watered by rain alone or by water flowing over the surface of the ground.",
+      "usage_conditions": "Used especially of palm trees or crops receiving natural rainwater or runoff rather than deliberate irrigation.",
+      "source_refs": [
+        "lane:entry:2098"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-unoccupied",
+      "headword_arabic": "عَثَرِيٌّ",
+      "definition": "Unoccupied or not engaged in seeking the affairs of this world or the next.",
+      "usage_conditions": "A figurative adjectival usage; جَاءَ فُلَانٌ عَثَرِيًّا means that he came unoccupied.",
+      "source_refs": [
+        "lane:entry:2098"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-frequent-stumbler",
+      "headword_arabic": "عَثُورٌ",
+      "definition": "One who stumbles, trips, and falls often.",
+      "usage_conditions": "An intensive or habitual characterization of a person who frequently stumbles.",
+      "source_refs": [
+        "lane:entry:2100"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-dust",
+      "headword_arabic": "عِثْيَرٌ",
+      "definition": "Dust, especially dust that rises or spreads.",
+      "usage_conditions": "A noun synonymous with غُبَارٌ, عَجَاجٌ, or تُرَابٌ in the cited descriptions.",
+      "source_refs": [
+        "lane:entry:2101"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-turned-earth",
+      "headword_arabic": "عِثْيَرٌ",
+      "definition": "Dust, clay, or compact earth turned over by the extremities of the feet while walking.",
+      "usage_conditions": "The expression may refer to the disturbed earth left without a clear ordinary footprint.",
+      "source_refs": [
+        "lane:entry:2101"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-obscure-trace",
+      "headword_arabic": "عِثْيَرٌ",
+      "definition": "An obscure or barely discernible trace or mark.",
+      "usage_conditions": "It may be contrasted with أَثَرٌ as a less conspicuous trace; some reported explanations extend the expression to bodily form, but the core attested sense is an obscure trace.",
+      "source_refs": [
+        "lane:entry:2101"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-dusty-land",
+      "headword_arabic": "عِثْيَرَةٌ",
+      "definition": "A land containing much dust.",
+      "usage_conditions": "An adjectival or descriptive usage applied to land.",
+      "source_refs": [
+        "lane:entry:2102"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-stumbler-agent",
+      "headword_arabic": "عَاثِرٌ",
+      "definition": "Stumbling or tripping; one who stumbles.",
+      "usage_conditions": "An active-participial or adjectival usage derived from the physical sense of عَثَرَ.",
+      "source_refs": [
+        "lane:entry:2103"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-liar",
+      "headword_arabic": "عَاثِرٌ",
+      "definition": "A liar.",
+      "usage_conditions": "A figurative adjectival usage.",
+      "source_refs": [
+        "lane:entry:2103"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-fortune-failing",
+      "headword_arabic": "عَاثِرٌ",
+      "definition": "Failing or fallen, said of fortune or good fortune.",
+      "usage_conditions": "The expression جَدٌّ عَاثِرٌ characterizes fortune as being in a falling state.",
+      "source_refs": [
+        "lane:entry:2103"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-hunter-snare",
+      "headword_arabic": "عَاثِرٌ",
+      "definition": "A hunter's snare.",
+      "usage_conditions": "This sense is reported in an interpretation of the plural عَوَاثِرُ.",
+      "source_refs": [
+        "lane:entry:2103"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-destructive-accident",
+      "headword_arabic": "عَاثِرَةٌ",
+      "definition": "An accident or calamity that destroys a person or causes him to be overcome.",
+      "usage_conditions": "This meaning is reported as the sense of the related feminine noun underlying one interpretation of عَوَاثِرُ.",
+      "source_refs": [
+        "lane:entry:2103"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-substance",
+      "headword_arabic": "عَيْثَرٌ",
+      "definition": "The substance or bodily form of a thing.",
+      "usage_conditions": "A concrete noun synonymous in this usage with عَيْنٌ or شَخْصٌ.",
+      "source_refs": [
+        "lane:entry:2104"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-trap",
+      "headword_arabic": "عَاثُورٌ",
+      "definition": "A pit, trap, or other thing prepared to make an animal or person fall; a thing by which one is made to stumble and fall.",
+      "usage_conditions": "Its primary description is a pit dug to catch a lion or another animal; it may also denote a bark-made snare.",
+      "source_refs": [
+        "lane:entry:2106"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-perdition",
+      "headword_arabic": "عَاثُورٌ",
+      "definition": "A cause or place of perdition or death; something perilous or destructive.",
+      "usage_conditions": "A figurative extension of the trap meaning, including use as an epithet for something perilous or destructive.",
+      "source_refs": [
+        "lane:entry:2106"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-distress",
+      "headword_arabic": "عَاثُورٌ",
+      "definition": "Difficulty, distress, or evil.",
+      "usage_conditions": "The expression عَاثُورُ شَرٍّ describes falling into confusion, evil, or hardship.",
+      "source_refs": [
+        "lane:entry:2106"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-channel",
+      "headword_arabic": "عَاثُورٌ",
+      "definition": "A channel dug to irrigate a palm tree.",
+      "usage_conditions": "A specialized agricultural usage concerning a naturally or surface-watered palm.",
+      "source_refs": [
+        "lane:entry:2106"
+      ]
+    },
+    {
+      "meaning_id": "Evr-cm-well",
+      "headword_arabic": "عَاثُورٌ",
+      "definition": "A well.",
+      "usage_conditions": "A separately reported concrete noun usage.",
+      "source_refs": [
+        "lane:entry:2106"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Evr:2088:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-stumble"
+      ],
+      "note": "Physical stumbling or falling."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2088:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-speech"
+      ],
+      "note": "Faltering in speech."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2088:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-lie-v"
+      ],
+      "note": "Figurative verb meaning to lie."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2088:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-F1-s1",
+        "Evr-cm-sudden-entry"
+      ],
+      "note": "Quranic discovery construction and a distinct sudden-entry usage."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2088:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-fortune-fall-v"
+      ],
+      "note": "Falling fortune expression."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2088:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-vein"
+      ],
+      "note": "Pulsing vein."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2088:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I construction already treated in sub4."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2088:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-destroy"
+      ],
+      "note": "Idiomatic destruction or overcoming by time or fortune."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2089:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form II cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2090:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-cause-stumble"
+      ],
+      "note": "Form IV causative physical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2090:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-impugn"
+      ],
+      "note": "Figurative impugning and seeking another's downfall."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2090:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-F4-s1",
+        "Evr-cm-guide"
+      ],
+      "note": "Quranic causative discovery and guidance to companions."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2090:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-fortune-fall-iv"
+      ],
+      "note": "Causative falling-fortune expression."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2090:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference back to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2091:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form V cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2092:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-dust-raise"
+      ],
+      "note": "Raising dust while walking."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2092:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-see",
+        "Evr-cm-omen"
+      ],
+      "note": "Seeing or individuating things and observing birds for augury."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2093:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to عَثَرِيٌّ."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2094:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-falsehood"
+      ],
+      "note": "Nominal lie or falsehood."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2094:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorially rejected attribution of an eagle meaning."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2095:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding noun entry."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2096:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-stumble-noun"
+      ],
+      "note": "Noun for a physical stumble."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2096:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-slip"
+      ],
+      "note": "Figurative slip, fault, or mistake."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2096:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-war"
+      ],
+      "note": "Conventional figurative usage for warfare."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2097:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-barren-land"
+      ],
+      "note": "Dust-covered high land without herbage."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2098:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-rainwatered"
+      ],
+      "note": "Naturally rainwatered palms or crops."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2098:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-unoccupied"
+      ],
+      "note": "Unoccupied or disengaged person."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2099:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to عَاثُورٌ."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2099:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the dust entry."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2100:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-frequent-stumbler"
+      ],
+      "note": "Habitual or frequent stumbling."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2101:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-dust"
+      ],
+      "note": "Dust, especially rising or spreading dust."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2101:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-turned-earth",
+        "Evr-cm-obscure-trace"
+      ],
+      "note": "Turned earth and the related obscure-trace usage."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2102:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to عِثْيَرٌ."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2102:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-dusty-land"
+      ],
+      "note": "Dusty land."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2103:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-stumbler-agent"
+      ],
+      "note": "Active-participial stumbling sense."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2103:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-liar"
+      ],
+      "note": "Figurative liar sense."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2103:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-fortune-failing"
+      ],
+      "note": "Falling or failing fortune."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2103:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-hunter-snare"
+      ],
+      "note": "Reported interpretation as a hunter's snare."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2103:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-destructive-accident"
+      ],
+      "note": "Reported related noun meaning a destructive accident."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2103:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural and poetic-license morphology without an additional lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2104:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-substance"
+      ],
+      "note": "Bodily substance or form."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2105:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to عَاثِرٌ."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2106:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-trap"
+      ],
+      "note": "Pit, trap, or thing causing a fall."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2106:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-perdition"
+      ],
+      "note": "Figurative place or cause of perdition or death."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2106:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-distress"
+      ],
+      "note": "Difficulty, distress, or evil."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2106:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-trap"
+      ],
+      "note": "Bark-made snare subsumed under the trap meaning."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2106:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-channel"
+      ],
+      "note": "Agricultural irrigation channel."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2106:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-well"
+      ],
+      "note": "Well."
+    },
+    {
+      "unit_id": "lane-unit:Evr:2106:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Evr-cm-perdition"
+      ],
+      "note": "Perilous or destructive epithet subsumed under the perdition branch."
+    }
+  ],
+  "cautions": [
+    "The Quranic Form I token is passive, while the public headword is normalized to the Form I dictionary citation form عَثَرَ.",
+    "The proposed eagle meaning associated with عُثْرٌ is explicitly identified in the evidence as erroneous and is not treated as a lexical meaning of this root."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

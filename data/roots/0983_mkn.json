@@ -1,0 +1,427 @@
+{
+  "root": "mkn",
+  "arabic": "مكن",
+  "root_idea": {
+    "summary": "A semantic field centered on securing a place or position, extending to establishment, enabled access, mastery, firmness, authority, and rank.",
+    "development": "The evidence connects concrete notions such as settled places, bird nests, and lizard eggs with derived meanings of establishing someone securely, making something attainable, becoming firmly positioned, and possessing standing or power. This describes the root's semantic orientation, not a meaning shared by every derivative.",
+    "source_refs": [
+      "maqayis:row:4448",
+      "mufradat:row:1384",
+      "lane:entry:5787",
+      "lane:entry:5788",
+      "lane:entry:5789"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mkn:mak~a:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mkn-formII-makkana",
+      "reason": "Displayed under the normalized Form II dictionary citation form."
+    },
+    {
+      "form_group_id": "qac-form:mkn:>amokana:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mkn-formIV-amkana",
+      "reason": "Displayed as the distinct Quran-attested Form IV verb."
+    },
+    {
+      "form_group_id": "qac-form:mkn:m~akiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mkn-nom-makin",
+      "reason": "Displayed as the normalized adjective citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mkn-formII-makkana",
+      "form_group_ids": [
+        "qac-form:mkn:mak~a:verb:II"
+      ],
+      "headword_arabic": "مَكَّنَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 13,
+      "senses": [
+        {
+          "sense_id": "mkn-sense-ii-establish",
+          "definition": "To establish or settle someone securely in a place, condition, or sphere; to give a firm position.",
+          "usage_conditions": "Frequently used with فِي or لِ constructions for establishing someone in the land, a realm, or an appointed sphere. The Quranic use emphasizes secure establishment and standing; broader direct-object senses of granting mastery are listed separately under Classical Arabic meanings.",
+          "source_refs": [
+            "lane:entry:5787",
+            "mufradat:row:1384"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:10",
+          "word_location": "7:10:2",
+          "sense_ids": [
+            "mkn-sense-ii-establish"
+          ]
+        },
+        {
+          "verse_key": "28:6",
+          "word_location": "28:6:1",
+          "sense_ids": [
+            "mkn-sense-ii-establish"
+          ]
+        },
+        {
+          "verse_key": "24:55",
+          "word_location": "24:55:16",
+          "sense_ids": [
+            "mkn-sense-ii-establish"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mkn-formIV-amkana",
+      "form_group_ids": [
+        "qac-form:mkn:>amokana:verb:IV"
+      ],
+      "headword_arabic": "أَمْكَنَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "mkn-sense-iv-enable",
+          "definition": "To enable someone to reach, obtain, or have power over something; to make it possible or accessible.",
+          "usage_conditions": "The construction أَمْكَنَهُ مِنْ شَيْءٍ places the thing within someone's power or reach. It can also describe an opportunity becoming available for attainment or capture.",
+          "source_refs": [
+            "lane:entry:5788"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:71",
+          "word_location": "8:71:9",
+          "sense_ids": [
+            "mkn-sense-iv-enable"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mkn-nom-makin",
+      "form_group_ids": [
+        "qac-form:mkn:m~akiyn:nominal:-"
+      ],
+      "headword_arabic": "مَكِين",
+      "public_pos_label": "Adjective / substantivized adjective",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "mkn-sense-nom-secure",
+          "definition": "Firmly established, fixed, or secure in a place or position.",
+          "usage_conditions": "Used of a settled location or secure position, as in قَرَارٍ مَكِينٍ, and may describe something securely situated or established.",
+          "source_refs": [
+            "mufradat:row:1384"
+          ]
+        },
+        {
+          "sense_id": "mkn-sense-nom-rank",
+          "definition": "Firmly established in standing, authority, or rank; of assured status.",
+          "usage_conditions": "Used of a person or being whose position and standing are securely established, including the Quranic description of one possessing rank with the Lord of the Throne.",
+          "source_refs": [
+            "mufradat:row:1384"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "23:13",
+          "word_location": "23:13:6",
+          "sense_ids": [
+            "mkn-sense-nom-secure"
+          ]
+        },
+        {
+          "verse_key": "77:21",
+          "word_location": "77:21:4",
+          "sense_ids": [
+            "mkn-sense-nom-secure"
+          ]
+        },
+        {
+          "verse_key": "81:20",
+          "word_location": "81:20:6",
+          "sense_ids": [
+            "mkn-sense-nom-rank"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mkn-cm-makkana-mastery",
+      "headword_arabic": "مَكَّنَ",
+      "definition": "To give someone mastery, authority, or power over a thing; to put it within their power.",
+      "usage_conditions": "Typically constructed with مِنْ. This is the broader direct-object sense of the Form II verb, distinct from the Quranic establishment-in-a-place construction.",
+      "source_refs": [
+        "lane:entry:5787"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-amkana-access",
+      "headword_arabic": "أَمْكَنَ",
+      "definition": "In a euphemistic sexual construction, to grant access or allow intercourse.",
+      "usage_conditions": "Attested in expressions addressed to a woman or describing her granting attainment; the illustrative wording does not establish a general gender restriction.",
+      "source_refs": [
+        "lane:entry:5788"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-tamakkana-settle",
+      "headword_arabic": "تَمَكَّنَ",
+      "definition": "To settle, become fixed, or become established; of a person, to become firmly established, especially in authority.",
+      "usage_conditions": "Used of a person or thing becoming steady in its place or position.",
+      "source_refs": [
+        "lane:entry:5789"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-tamakkana-mastery",
+      "headword_arabic": "تَمَكَّنَ",
+      "definition": "To become possessed of mastery, authority, or power over something or someone; to become able to avail oneself of it.",
+      "usage_conditions": "Constructed with مِنْ for mastery or effective access to a thing or person.",
+      "source_refs": [
+        "lane:entry:5789"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-istamkana-firm",
+      "headword_arabic": "اِسْتَمْكَنَ",
+      "definition": "To become firm; of a plant, to take firm root.",
+      "usage_conditions": "The plant-related use describes firm rooting.",
+      "source_refs": [
+        "lane:entry:5790"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-mukna-ability",
+      "headword_arabic": "مُكْنَةٌ",
+      "definition": "Power, ability, or strength.",
+      "usage_conditions": "A noun denoting the capacity or strength to act.",
+      "source_refs": [
+        "lane:entry:5791"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-makina-settlement",
+      "headword_arabic": "مَكِنَةٌ",
+      "definition": "A state of being established or settled; a settled place or resting place.",
+      "usage_conditions": "In the plural, it can denote people's settled places and, in the bird-related usage, nests or resting places.",
+      "source_refs": [
+        "lane:entry:5792",
+        "mufradat:row:1384"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-makan-place",
+      "headword_arabic": "مَكَانٌ",
+      "definition": "A place or locus containing a thing.",
+      "usage_conditions": "The root-focused lexical discussion records this usage while also reporting a derivational debate connecting the word with ك و ن.",
+      "source_refs": [
+        "mufradat:row:1384"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-makana-rank",
+      "headword_arabic": "مَكَانَةٌ",
+      "definition": "Greatness, high rank, or honored standing.",
+      "usage_conditions": "Denotes an elevated position in the estimation of a ruler or other authority.",
+      "source_refs": [
+        "lane:entry:5795"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-mutamakkin-posture",
+      "headword_arabic": "مُتَمَكِّنٌ",
+      "definition": "Firmly or securely settled in posture, especially seated in a stable position.",
+      "usage_conditions": "Attested in the expression جَلَسَ مُتَمَكِّنًا, describing a firm seated posture such as sitting cross-legged.",
+      "source_refs": [
+        "lane:entry:5796"
+      ]
+    },
+    {
+      "meaning_id": "mkn-cm-makn-eggs",
+      "headword_arabic": "مَكْنٌ",
+      "definition": "The eggs of a lizard.",
+      "usage_conditions": "A concrete noun preserved in the older lexical vocabulary.",
+      "source_refs": [
+        "maqayis:row:4448",
+        "mufradat:row:1384"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mkn:5787:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-sense-ii-establish"
+      ],
+      "note": "The place-giving and establishment sense is represented under Form II."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5787:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-cm-makkana-mastery"
+      ],
+      "note": "The mastery and dominion sense is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5787:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mkn-cm-makkana-mastery"
+      ],
+      "note": "Enabling action and placing something within power are covered by the mastery sense."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5788:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-sense-iv-enable"
+      ],
+      "note": "The Form IV enabling and obtaining sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5788:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mkn-sense-iv-enable"
+      ],
+      "note": "Being within power or reach is covered by the Form IV sense."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5788:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mkn-sense-iv-enable"
+      ],
+      "note": "Becoming easy or offering an opportunity is covered as accessibility or possibility."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5788:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-cm-amkana-access"
+      ],
+      "note": "The euphemistic access construction is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5788:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mkn-cm-amkana-access"
+      ],
+      "note": "Granting attainment is covered by the access construction."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5789:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-cm-tamakkana-settle",
+        "mkn-cm-tamakkana-mastery"
+      ],
+      "note": "The unit contains both settled establishment and its authority-related extension."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5789:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mkn-cm-tamakkana-mastery"
+      ],
+      "note": "Mastery and effective availment are covered by the mastery sense."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5789:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mkn-cm-tamakkana-mastery"
+      ],
+      "note": "Assuming authority over a person is covered by the mastery sense."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5790:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form V entry."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5790:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-cm-istamkana-firm"
+      ],
+      "note": "The independent firmness and firm-rooting use is represented."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5791:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-cm-mukna-ability"
+      ],
+      "note": "Power, ability, and strength are represented."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5792:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-cm-makina-settlement"
+      ],
+      "note": "The state of being established is represented."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5792:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mkn-cm-makina-settlement"
+      ],
+      "note": "Settled or resting places are covered by the same nominal branch."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5793:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no lexical definition in the supplied unit."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5794:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no lexical definition in the supplied unit."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5795:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-cm-makana-rank"
+      ],
+      "note": "Greatness and high standing are represented."
+    },
+    {
+      "unit_id": "lane-unit:mkn:5796:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkn-cm-mutamakkin-posture"
+      ],
+      "note": "The firm seated-posture construction is represented."
+    }
+  ],
+  "cautions": [
+    "The QAC Form II lemma candidate مَكَّ is normalized to the dictionary citation form مَكَّنَ.",
+    "مَكَانٌ is included because it is explicitly discussed in the root-focused lexical evidence, although no corresponding QAC form group is supplied and its derivational connection with this root is reported as debated.",
+    "The Mufradat discussion mentions the Quranic phrase بَيْضٌ مَكْنُونٌ, but no matching QAC form group is supplied for that expression; it is therefore not presented as a separate Quranic form of this root."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

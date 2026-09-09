@@ -1,0 +1,139 @@
+{
+  "root": "qmTr",
+  "arabic": "قمطر",
+  "root_idea": {
+    "summary": "The supplied evidence centers on forceful severity: قَمْطَرِير describes a distressful or calamitous condition, especially one that makes the brow knit.",
+    "development": "The evidence records a severity branch alongside a separately attested nominal branch for a repository of writings and a Form IV verb meaning to become distressful. No Maqāyīs entry is supplied to establish a fuller historical root development.",
+    "source_refs": [
+      "lane:entry:8969",
+      "lane:entry:8966",
+      "lane:entry:8968",
+      "mufradat:row:1209"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qmTr:qamoTariyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qmTr-qamTarir-adj",
+      "reason": "The Quran-attested adjective is presented under its normalized dictionary citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qmTr-qamTarir-adj",
+      "form_group_ids": [
+        "qac-form:qmTr:qamoTariyr:nominal:-"
+      ],
+      "headword_arabic": "قَمْطَرِير",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qmTr-qamTarir-s1",
+          "definition": "Distressful, calamitous, intensely severe; of a day, one that makes the brow knit.",
+          "usage_conditions": "Quran-attested in the expression describing a distressful or calamitous day. The brow-knitting wording explains the effect or character of the severity rather than imposing a restriction on the kind of thing described.",
+          "source_refs": [
+            "lane:entry:8969",
+            "mufradat:row:1209"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "76:10",
+          "word_location": "76:10:7",
+          "sense_ids": [
+            "qmTr-qamTarir-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qmTr-cm1",
+      "headword_arabic": "إِقْمَطَرَّ",
+      "definition": "To become distressful or calamitous.",
+      "usage_conditions": "Classical Form IV verb; the supplied lexical example has a day as its subject.",
+      "source_refs": [
+        "lane:entry:8966"
+      ]
+    },
+    {
+      "meaning_id": "qmTr-cm2",
+      "headword_arabic": "قِمَطْرٌ",
+      "definition": "A repository for books or writings, made of woven reeds and resembling a safat.",
+      "usage_conditions": "A nominal lexical branch, with the recorded plural قَمَاطِرُ.",
+      "source_refs": [
+        "lane:entry:8968"
+      ]
+    },
+    {
+      "meaning_id": "qmTr-cm3",
+      "headword_arabic": "قَمْطَرِيرٌ",
+      "definition": "Intense evil.",
+      "usage_conditions": "Attested in the Classical collocation شَرٌّ قَمْطَرِيرٌ; this broader collocational use is kept separate from the Quranic description of a distressful day.",
+      "source_refs": [
+        "lane:entry:8969"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qmTr:8966:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qmTr-cm1"
+      ],
+      "note": "Form IV verb meaning is represented under its derived verb headword."
+    },
+    {
+      "unit_id": "lane-unit:qmTr:8967:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to قَمْطَرِيرٌ."
+    },
+    {
+      "unit_id": "lane-unit:qmTr:8968:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qmTr-cm2"
+      ],
+      "note": "Repository-for-books meaning is represented as a separate nominal branch."
+    },
+    {
+      "unit_id": "lane-unit:qmTr:8969:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qmTr-qamTarir-s1"
+      ],
+      "note": "Distressful or calamitous day, including the brow-knitting explanation, is Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:qmTr:8969:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qmTr-cm3"
+      ],
+      "note": "The collocation for intense evil is represented as a broader Classical use."
+    },
+    {
+      "unit_id": "lane-unit:qmTr:8970:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to قَمْطَرِيرٌ."
+    },
+    {
+      "unit_id": "lane-unit:qmTr:8971:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to قَمْطَرِيرٌ."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is the inflected form قَمْطَرِيرًا; the public headword is normalized to the adjective citation form قَمْطَرِير."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

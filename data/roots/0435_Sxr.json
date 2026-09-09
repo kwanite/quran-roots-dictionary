@@ -1,0 +1,222 @@
+{
+  "root": "Sxr",
+  "arabic": "صخر",
+  "root_idea": {
+    "summary": "A large, hard stone: a rock or mass of rock.",
+    "development": "The lexical field distinguishes an individual rock, صَخْرَة, from صَخْر as rocks or great masses; the Quranic forms retain this concrete stone sense.",
+    "source_refs": [
+      "maqayis:row:2765",
+      "lane:entry:25497",
+      "mufradat:row:818"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Sxr:Saxorap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_sxr_sakhrah",
+      "reason": "Displayed under the normalized singular citation form صَخْرَة."
+    },
+    {
+      "form_group_id": "qac-form:Sxr:S~axor:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_sxr_sakhr",
+      "reason": "Displayed under the normalized noun صَخْر, denoting rocks or great masses of stone."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_sxr_sakhrah",
+      "form_group_ids": [
+        "qac-form:Sxr:Saxorap:nominal:-"
+      ],
+      "headword_arabic": "صَخْرَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_sxr_sakhrah_1",
+          "definition": "An individual rock or mass of hard stone.",
+          "usage_conditions": "In contrast with the collective or mass term صَخْر, this form denotes one rock. A classical interpretation of its Quranic use describes the rock as lying beneath the ground.",
+          "source_refs": [
+            "lane:entry:25497",
+            "mufradat:row:818"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:63",
+          "word_location": "18:63:6",
+          "sense_ids": [
+            "sense_sxr_sakhrah_1"
+          ]
+        },
+        {
+          "verse_key": "31:16",
+          "word_location": "31:16:11",
+          "sense_ids": [
+            "sense_sxr_sakhrah_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_sxr_sakhr",
+      "form_group_ids": [
+        "qac-form:Sxr:S~axor:nominal:-"
+      ],
+      "headword_arabic": "صَخْر",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_sxr_sakhr_1",
+          "definition": "Rocks or great masses of hard stone.",
+          "usage_conditions": "Used as a collective or plural designation for substantial solid rocks, distinct from the individual-rock noun صَخْرَة.",
+          "source_refs": [
+            "lane:entry:25497",
+            "mufradat:row:818"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "89:9",
+          "word_location": "89:9:4",
+          "sense_ids": [
+            "sense_sxr_sakhr_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_sxr_sakhir_place",
+      "headword_arabic": "صَخِر",
+      "definition": "A place abounding in rocks or great masses of hard stone.",
+      "usage_conditions": "A distinct place-denoting lexical use, not the ordinary material noun for rock.",
+      "source_refs": [
+        "lane:entry:25499"
+      ]
+    },
+    {
+      "meaning_id": "meaning_sxr_sakhir_plant",
+      "headword_arabic": "صَخِير",
+      "definition": "A certain plant.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:25500"
+      ]
+    },
+    {
+      "meaning_id": "meaning_sxr_sakhir_iron_sound",
+      "headword_arabic": "صَاخِر",
+      "definition": "The sound of iron striking iron.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:25502"
+      ]
+    },
+    {
+      "meaning_id": "meaning_sxr_sakhirah_vessel",
+      "headword_arabic": "صَاخِرَة",
+      "definition": "A kind of earthen vessel used for drinking.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:25503"
+      ]
+    },
+    {
+      "meaning_id": "meaning_sxr_ashkar_face",
+      "headword_arabic": "أَصْخَرُ الوَجْهِ",
+      "definition": "A hard-faced person; one with little shame.",
+      "usage_conditions": "A figurative expression.",
+      "source_refs": [
+        "lane:entry:25504"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Sxr:25496:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional identification and cross-reference only; no lexical definition is supplied."
+    },
+    {
+      "unit_id": "lane-unit:Sxr:25497:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_sxr_sakhrah_1",
+        "sense_sxr_sakhr_1"
+      ],
+      "note": "The individual-rock and rocks-or-great-masses branches are represented under their respective Quranic forms."
+    },
+    {
+      "unit_id": "lane-unit:Sxr:25498:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Variant-form and pointer entry only."
+    },
+    {
+      "unit_id": "lane-unit:Sxr:25499:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sxr_sakhir_place"
+      ],
+      "note": "Place-denoting use represented as a Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Sxr:25500:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sxr_sakhir_plant"
+      ],
+      "note": "Plant name represented as a Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Sxr:25501:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; no lexical gloss is supplied in this packet."
+    },
+    {
+      "unit_id": "lane-unit:Sxr:25502:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sxr_sakhir_iron_sound"
+      ],
+      "note": "Sound of iron striking iron represented as a Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Sxr:25503:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sxr_sakhirah_vessel"
+      ],
+      "note": "Earthen drinking vessel represented as a Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Sxr:25504:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sxr_ashkar_face"
+      ],
+      "note": "Figurative hard-faced, shameless use represented as a Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:Sxr:25505:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; no independent lexical definition is supplied."
+    }
+  ],
+  "cautions": [
+    "The Quran verse keys and word locations shown in the examples follow the independently supplied QAC locations; the historical Lane citation associated with the Luqman discussion is not normalized into a separate modern verse reference."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

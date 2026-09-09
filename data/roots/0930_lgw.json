@@ -1,0 +1,288 @@
+{
+  "root": "lgw",
+  "arabic": "لغو",
+  "root_idea": {
+    "summary": "The root conveys two related orientations: something not reckoned with or significant, and habitual absorption in or repetition of something, especially speech.",
+    "development": "These orientations yield terms for vain or unprofitable speech, speech uttered without deliberate intent, repeated or habitual utterance, and language as speech habitually used by a group. Quranic usage centers on idle or objectionable speech and its avoidance.",
+    "source_refs": [
+      "maqayis:row:4190",
+      "mufradat:row:1308"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lgw:{loga:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lgw-form-lagha",
+      "reason": "Displayed under the normalized Form I perfect citation form لَغَا rather than the Quranic plural imperative."
+    },
+    {
+      "form_group_id": "qac-form:lgw:la`giyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lgw-form-laghin",
+      "reason": "Displayed as the normalized masculine active-participle citation form لَاغٍ; the Quran occurrence is its feminine form لَاغِيَةً."
+    },
+    {
+      "form_group_id": "qac-form:lgw:lagow:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lgw-form-laghw",
+      "reason": "Displayed under the standard noun لَغْو."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "lgw-form-lagha",
+      "form_group_ids": [
+        "qac-form:lgw:{loga:verb:I"
+      ],
+      "headword_arabic": "لَغَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "lgw-lagha-s1",
+          "definition": "To speak idly or make distracting, unprofitable noise.",
+          "usage_conditions": "The Quranic occurrence is a plural imperative in a context of obstructing attentive listening; it belongs to the speech/noise branch of the root.",
+          "source_refs": [
+            "mufradat:row:1308"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "41:26",
+          "word_location": "41:26:8",
+          "sense_ids": [
+            "lgw-lagha-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "lgw-form-laghin",
+      "form_group_ids": [
+        "qac-form:lgw:la`giyap:nominal:-"
+      ],
+      "headword_arabic": "لَاغٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "lgw-laghin-s1",
+          "definition": "Vain or idle speech; speech of no account.",
+          "usage_conditions": "In the Quranic occurrence, the feminine form لَاغِيَةً is used adjectivally of speech that is heard; it is an active-participial expression for لَغْو.",
+          "source_refs": [
+            "mufradat:row:1308"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "88:11",
+          "word_location": "88:11:4",
+          "sense_ids": [
+            "lgw-laghin-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "lgw-form-laghw",
+      "form_group_ids": [
+        "qac-form:lgw:lagow:nominal:-"
+      ],
+      "headword_arabic": "لَغْو",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "lgw-laghw-s1",
+          "definition": "Speech or utterance of no account: idle, vain, unprofitable, or objectionable talk.",
+          "usage_conditions": "It may describe speech produced without deliberation or thought. In Quranic avoidance constructions, it refers either to such speech or to encountering people engaged in it, without requiring a separate lexical sense.",
+          "source_refs": [
+            "lane:entry:20654",
+            "mufradat:row:1308"
+          ]
+        },
+        {
+          "sense_id": "lgw-laghw-s2",
+          "definition": "An oath uttered without deliberate inward resolve to contract a binding oath.",
+          "usage_conditions": "The Quranic construction لَغْوٌ فِي الأَيْمَان concerns habitual or mistaken oath-language that was not intentionally affirmed as an oath; it is distinct from a deliberately contracted oath.",
+          "source_refs": [
+            "mufradat:row:1308"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:225",
+          "word_location": "2:225:4",
+          "sense_ids": [
+            "lgw-laghw-s2"
+          ]
+        },
+        {
+          "verse_key": "23:3",
+          "word_location": "23:3:4",
+          "sense_ids": [
+            "lgw-laghw-s1"
+          ]
+        },
+        {
+          "verse_key": "25:72",
+          "word_location": "25:72:7",
+          "sense_ids": [
+            "lgw-laghw-s1"
+          ]
+        },
+        {
+          "verse_key": "52:23",
+          "word_location": "52:23:5",
+          "sense_ids": [
+            "lgw-laghw-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "lgw-class-noaccount",
+      "headword_arabic": "لَغْو",
+      "definition": "Something not reckoned with, of no account, or unprofitable.",
+      "usage_conditions": "A broader Classical Arabic application beyond the Quranic speech usages.",
+      "source_refs": [
+        "lane:entry:20654"
+      ]
+    },
+    {
+      "meaning_id": "lgw-class-diyah",
+      "headword_arabic": "لَغْو",
+      "definition": "Young camels not counted in a blood-money assessment.",
+      "usage_conditions": "A reported specialized usage in the terminology of blood-money compensation.",
+      "source_refs": [
+        "maqayis:row:4190",
+        "mufradat:row:1308"
+      ]
+    },
+    {
+      "meaning_id": "lgw-class-birdsound",
+      "headword_arabic": "لَغًا",
+      "definition": "The chirping or vocal sound of sparrows and similar birds.",
+      "usage_conditions": "The bird-call sense provides the comparison for habitual or repeated utterance.",
+      "source_refs": [
+        "mufradat:row:1308"
+      ]
+    },
+    {
+      "meaning_id": "lgw-class-laghiya",
+      "headword_arabic": "لَغِيَ",
+      "definition": "To be absorbed in or habitually occupied with a matter; to keep repeating or dwelling on it.",
+      "usage_conditions": "Constructed with بِ; the usage describes habitual attachment to a subject or utterance.",
+      "source_refs": [
+        "mufradat:row:1308"
+      ]
+    },
+    {
+      "meaning_id": "lgw-class-laghaha",
+      "headword_arabic": "لَاغَاهُ",
+      "definition": "To jest or joke with someone.",
+      "usage_conditions": "Form III verb, with the person involved as the participant in the joking.",
+      "source_refs": [
+        "lane:entry:20653"
+      ]
+    },
+    {
+      "meaning_id": "lgw-class-lughah",
+      "headword_arabic": "اللُّغَة",
+      "definition": "The genuine or classical language of the Arabs.",
+      "usage_conditions": "A noun for the established language itself, not merely an isolated utterance.",
+      "source_refs": [
+        "lane:entry:20655"
+      ]
+    },
+    {
+      "meaning_id": "lgw-class-lughawi",
+      "headword_arabic": "لُغَوِيّ",
+      "definition": "Relating to the genuine or classical Arabic language; lexicological or linguistic in meaning.",
+      "usage_conditions": "An adjectival derivative used of language-related matters or meanings.",
+      "source_refs": [
+        "lane:entry:20656"
+      ]
+    },
+    {
+      "meaning_id": "lgw-class-lughayyah",
+      "headword_arabic": "لُغَيَّة",
+      "definition": "A word or linguistic report of weak authority.",
+      "usage_conditions": "A depreciative classical usage concerning the reliability or authority of a word.",
+      "source_refs": [
+        "lane:entry:20657"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lgw:20653:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lgw-class-laghaha"
+      ],
+      "note": "Form III joking usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:lgw:20654:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lgw-laghw-s1",
+        "lgw-class-noaccount"
+      ],
+      "note": "Covers no-account speech and the broader no-account/unprofitable application."
+    },
+    {
+      "unit_id": "lane-unit:lgw:20654:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the oath expression."
+    },
+    {
+      "unit_id": "lane-unit:lgw:20655:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lgw-class-lughah"
+      ],
+      "note": "Classical-language noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:lgw:20656:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lgw-class-lughawi"
+      ],
+      "note": "Language-related adjective and lexicological usage are represented."
+    },
+    {
+      "unit_id": "lane-unit:lgw:20657:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lgw-class-lughayyah"
+      ],
+      "note": "Weak-authority word usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:lgw:20658:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb is a plural imperative and is normalized to the Form I citation form لَغَا.",
+    "The Quranic لَاغِيَةً is a feminine active participle used of speech; the public headword is normalized to لَاغٍ.",
+    "The oath sense concerns unintentional or non-deliberately contracted oath-language, not deliberate false or binding oaths.",
+    "The discussion of the Quranic avoidance passage in 25:72 preserves two contextual explanations: avoiding explicit ugly speech and declining to engage with its speakers. These remain applications of the same vain/objectionable-speech sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

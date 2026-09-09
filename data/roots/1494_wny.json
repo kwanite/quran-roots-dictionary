@@ -1,0 +1,133 @@
+{
+  "root": "wny",
+  "arabic": "وني",
+  "root_idea": {
+    "summary": "The root centers on weakness or diminished vigor, especially as languor, slackness, or remissness.",
+    "development": "The semantic range develops from weakness to fatigue and languor, then to slackening or falling short in an action or affair; related nominal usage describes languid deportment.",
+    "source_refs": [
+      "maqayis:row:5226"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wny:taniya:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wny-v1",
+      "reason": "The supplied QAC group is a Quran-attested Form I verb with an independently supported lexical use."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wny-v1",
+      "form_group_ids": [
+        "qac-form:wny:taniya:verb:I"
+      ],
+      "headword_arabic": "وَنَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wny-s1",
+          "definition": "To undertake or continue an action languidly; to slacken in it.",
+          "usage_conditions": "In the Quranic occurrence, the verb is a dual imperfect in a prohibition concerning an ongoing activity, expressing failure to persist in it with vigor.",
+          "source_refs": [
+            "lane:entry:30696"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:42",
+          "word_location": "20:42:6",
+          "sense_ids": [
+            "wny-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wny-c1",
+      "headword_arabic": "وَنَى",
+      "definition": "To pass from, leave, or desist from a thing.",
+      "usage_conditions": "Attested with عَنْهُ, in contrast with the use with فِيهِ for entering upon or carrying on a thing languidly.",
+      "source_refs": [
+        "lane:entry:30696"
+      ]
+    },
+    {
+      "meaning_id": "wny-c2",
+      "headword_arabic": "تَوَانَى",
+      "definition": "To become languid, remiss, weak, feeble, or faint in an action or affair; to fall short in pursuing what one wants.",
+      "usage_conditions": "Used of actions, affairs, or an object sought; the construction تَوَانَى فِي الأَمْرِ means to flag or be remiss in the affair.",
+      "source_refs": [
+        "lane:entry:30697"
+      ]
+    },
+    {
+      "meaning_id": "wny-c3",
+      "headword_arabic": "وَنَاةٌ",
+      "definition": "A woman who is languid, gentle, or grave in deportment.",
+      "usage_conditions": "A feminine noun applied to a woman, with the description relating to her manner of deportment.",
+      "source_refs": [
+        "lane:entry:30698"
+      ]
+    },
+    {
+      "meaning_id": "wny-c4",
+      "headword_arabic": "مِيناءٌ",
+      "definition": "A port or harbor.",
+      "usage_conditions": "A masculine noun; its etymological and orthographic relationship to the root is discussed separately from its meaning.",
+      "source_refs": [
+        "lane:entry:30699"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wny:30696:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wny-s1",
+        "wny-c1"
+      ],
+      "note": "The في construction is covered by the Quranic slackening sense; the عن construction is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:wny:30697:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wny-c2"
+      ],
+      "note": "The derived Form VI meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wny:30697:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wny-c2"
+      ],
+      "note": "The construction meaning to flag or be remiss in an affair is included."
+    },
+    {
+      "unit_id": "lane-unit:wny:30698:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wny-c3"
+      ],
+      "note": "The feminine nominal usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:wny:30699:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wny-c4"
+      ],
+      "note": "The lexical meaning port is represented."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

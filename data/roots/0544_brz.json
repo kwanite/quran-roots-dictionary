@@ -1,0 +1,562 @@
+{
+  "root": "brz",
+  "arabic": "برز",
+  "root_idea": {
+    "summary": "The root centers on a thing becoming apparent, emerging into view, or coming out into the open.",
+    "development": "From visible emergence develops the sense of going forth into an open expanse, appearing after concealment, separating from one's group to confront another, and causing something to be brought into view. The open plain is called بَرَازٌ because it is exposed and without cover.",
+    "source_refs": [
+      "maqayis:row:736",
+      "mufradat:row:112"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:brz:baraza:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "brz-baraza",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:brz:bur~izati:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "brz-barraza",
+      "reason": "Displayed under the normalized active Form II perfect citation form; the Quran occurrence is passive."
+    },
+    {
+      "form_group_id": "qac-form:brz:baArizap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "brz-bariz",
+      "reason": "The feminine active-participle occurrence is normalized under its singular masculine citation form."
+    },
+    {
+      "form_group_id": "qac-form:brz:ba`rizuwn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "brz-bariz",
+      "reason": "The masculine plural active-participle occurrence is an inflected form of بَارِزٌ and is merged under that citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "brz-baraza",
+      "form_group_ids": [
+        "qac-form:brz:baraza:verb:I"
+      ],
+      "headword_arabic": "بَرَزَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "brz-baraza-s1",
+          "definition": "To go, come, or pass out into the open; to emerge or go forth.",
+          "usage_conditions": "Used for going forth into an open field or plain, including going out to face an opponent; it can describe a group leaving or coming forth.",
+          "source_refs": [
+            "lane:entry:36067",
+            "mufradat:row:112"
+          ]
+        },
+        {
+          "sense_id": "brz-baraza-s2",
+          "definition": "To appear or become exposed after concealment; to come openly before another.",
+          "usage_conditions": "In Quranic usage this includes appearing before God, where the subject is brought into open view rather than remaining concealed.",
+          "source_refs": [
+            "lane:entry:36067",
+            "mufradat:row:112"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:250",
+          "word_location": "2:250:2",
+          "sense_ids": [
+            "brz-baraza-s1"
+          ]
+        },
+        {
+          "verse_key": "14:48",
+          "word_location": "14:48:7",
+          "sense_ids": [
+            "brz-baraza-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "brz-barraza",
+      "form_group_ids": [
+        "qac-form:brz:bur~izati:verb:II"
+      ],
+      "headword_arabic": "بَرَّزَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "brz-barraza-s1",
+          "definition": "To make apparent, manifest, or plainly visible; to uncover or bring into view.",
+          "usage_conditions": "The Quranic occurrences are passive: something, specifically Hell, is made manifest or uncovered for those who will encounter it.",
+          "source_refs": [
+            "lane:entry:36068",
+            "mufradat:row:112"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:91",
+          "word_location": "26:91:1",
+          "sense_ids": [
+            "brz-barraza-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "brz-bariz",
+      "form_group_ids": [
+        "qac-form:brz:baArizap:nominal:-",
+        "qac-form:brz:ba`rizuwn:nominal:-"
+      ],
+      "headword_arabic": "بَارِزٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "brz-bariz-s1",
+          "definition": "Exposed, apparent, or uncovered; of land, an open and unobstructed plain.",
+          "usage_conditions": "The Quranic feminine form describes the earth as laid open and bare, without its former concealment or structures.",
+          "source_refs": [
+            "lane:entry:36078",
+            "mufradat:row:112"
+          ]
+        },
+        {
+          "sense_id": "brz-bariz-s2",
+          "definition": "Appearing openly or coming forth from concealment.",
+          "usage_conditions": "The Quranic plural describes people appearing openly before God.",
+          "source_refs": [
+            "lane:entry:36078",
+            "mufradat:row:112"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:47",
+          "word_location": "18:47:6",
+          "sense_ids": [
+            "brz-bariz-s1"
+          ]
+        },
+        {
+          "verse_key": "40:16",
+          "word_location": "40:16:3",
+          "sense_ids": [
+            "brz-bariz-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "clm-baraza-relief",
+      "headword_arabic": "بَرَزَ",
+      "definition": "To go out to a secluded place to relieve oneself; also, to void excrement.",
+      "usage_conditions": "A euphemistic bodily-use of the Form I verb.",
+      "source_refs": [
+        "lane:entry:36067"
+      ]
+    },
+    {
+      "meaning_id": "clm-baraza-project",
+      "headword_arabic": "بَرَزَ",
+      "definition": "To be prominent or projecting.",
+      "usage_conditions": "A classical spatial use describing something that stands out or projects.",
+      "source_refs": [
+        "lane:entry:36067"
+      ]
+    },
+    {
+      "meaning_id": "clm-baruza-distinguished",
+      "headword_arabic": "بَرُزَ",
+      "definition": "To be or become distinguished in character, intelligence, uprightness, or social standing.",
+      "usage_conditions": "A related Form I vocalic usage; the evidence describes a person who is open, pure in disposition, abstains from indecorum, and commands confidence or esteem.",
+      "source_refs": [
+        "lane:entry:36067"
+      ]
+    },
+    {
+      "meaning_id": "clm-barraza-publish",
+      "headword_arabic": "بَرَّزَ",
+      "definition": "To put forth, produce, or publish a writing or book.",
+      "usage_conditions": "Used with a writing or book as object, with the sense of making it publicly available rather than merely making any object visible.",
+      "source_refs": [
+        "lane:entry:36068"
+      ]
+    },
+    {
+      "meaning_id": "clm-barraza-save-rider",
+      "headword_arabic": "بَرَّزَ",
+      "definition": "Of a horse, to save its rider.",
+      "usage_conditions": "A specialized equestrian usage.",
+      "source_refs": [
+        "lane:entry:36068"
+      ]
+    },
+    {
+      "meaning_id": "clm-barraza-surpass",
+      "headword_arabic": "بَرَّزَ",
+      "definition": "To outstrip others in a race; hence, to surpass or excel one's companions in knowledge, excellence, courage, or another merit.",
+      "usage_conditions": "The broader excellence sense develops from the horse that outstrips its competitors.",
+      "source_refs": [
+        "lane:entry:36068"
+      ]
+    },
+    {
+      "meaning_id": "clm-baraza-war",
+      "headword_arabic": "بَارَزَ",
+      "definition": "To go forth into the field to meet an adversary in battle.",
+      "usage_conditions": "A Form III reciprocal-confrontation construction used with an opponent in war.",
+      "source_refs": [
+        "lane:entry:36069"
+      ]
+    },
+    {
+      "meaning_id": "clm-abraza-causative",
+      "headword_arabic": "أَبْرَزَ",
+      "definition": "To cause a person or thing to go, come, or pass out or forth; to put, take, or draw something out.",
+      "usage_conditions": "A Form IV causative of outward movement or removal.",
+      "source_refs": [
+        "lane:entry:36070"
+      ]
+    },
+    {
+      "meaning_id": "clm-abraza-journey",
+      "headword_arabic": "أَبْرَزَ",
+      "definition": "To determine, resolve, or decide to undertake a journey.",
+      "usage_conditions": "A usage reported as belonging to colloquial speech.",
+      "source_refs": [
+        "lane:entry:36070"
+      ]
+    },
+    {
+      "meaning_id": "clm-tabaraza-battle",
+      "headword_arabic": "تَبَارَزَ",
+      "definition": "For two adversaries to separate from their respective companies and go forth to meet each other in battle.",
+      "usage_conditions": "A Form VI reciprocal construction emphasizing both separation from one's group and mutual confrontation.",
+      "source_refs": [
+        "lane:entry:36072"
+      ]
+    },
+    {
+      "meaning_id": "clm-barz-quality",
+      "headword_arabic": "بَرْزٌ",
+      "definition": "A person of distinguished appearance, intelligence, uprightness, or dignity; in feminine usage, a woman whose dignity and good qualities are publicly apparent and who is open in conversation rather than secluded.",
+      "usage_conditions": "The evidence gives several related descriptions, including purity from unlawful or indecorous conduct, confidence in judgment, and social distinction; these associations do not make every listed trait obligatory in every occurrence.",
+      "source_refs": [
+        "lane:entry:36074",
+        "mufradat:row:112"
+      ]
+    },
+    {
+      "meaning_id": "clm-baraz-plain",
+      "headword_arabic": "بَرَازٌ",
+      "definition": "An open field, plain, or wide expanse of land without trees, herbage, hills, mountains, or other cover.",
+      "usage_conditions": "A geographic noun for exposed, unobstructed terrain.",
+      "source_refs": [
+        "lane:entry:36076"
+      ]
+    },
+    {
+      "meaning_id": "clm-baraz-relief-noun",
+      "headword_arabic": "بَرَازٌ",
+      "definition": "A place to which one withdraws to relieve oneself; by metonymy, human excrement.",
+      "usage_conditions": "A euphemistic bodily-use distinct from the primary geographic meaning of the noun.",
+      "source_refs": [
+        "lane:entry:36076"
+      ]
+    },
+    {
+      "meaning_id": "clm-ibriz-gold",
+      "headword_arabic": "إِبْرِيزٌ",
+      "definition": "Pure gold; also, an ornament made of pure gold.",
+      "usage_conditions": "A rare technical noun treated in the lexical evidence as an Arabicized term.",
+      "source_refs": [
+        "lane:entry:36080"
+      ]
+    },
+    {
+      "meaning_id": "clm-mabraz-privy",
+      "headword_arabic": "مَبْرَزٌ",
+      "definition": "A privy or place for relieving oneself; a place where ablution is performed.",
+      "usage_conditions": "A place noun, literally associated with going out into an open place.",
+      "source_refs": [
+        "lane:entry:36081"
+      ]
+    },
+    {
+      "meaning_id": "clm-mubraz-book",
+      "headword_arabic": "مُبْرَزٌ",
+      "definition": "A writing or book put forth, published, or made apparent.",
+      "usage_conditions": "Used specifically of a writing or book; the lexical evidence records both the publicized and the manifested senses.",
+      "source_refs": [
+        "lane:entry:36082"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:brz:36067:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "brz-baraza-s1",
+        "clm-baraza-relief"
+      ],
+      "note": "Covers outward emergence and the bodily euphemism."
+    },
+    {
+      "unit_id": "lane-unit:brz:36067:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "brz-baraza-s2"
+      ],
+      "note": "Covers appearing after concealment."
+    },
+    {
+      "unit_id": "lane-unit:brz:36067:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-baraza-project"
+      ],
+      "note": "Covers being prominent or projecting."
+    },
+    {
+      "unit_id": "lane-unit:brz:36067:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-baruza-distinguished"
+      ],
+      "note": "Covers the distinguished-character usage of بَرُزَ."
+    },
+    {
+      "unit_id": "lane-unit:brz:36068:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "brz-barraza-s1",
+        "clm-barraza-publish"
+      ],
+      "note": "Covers making manifest and putting forth or publishing a book."
+    },
+    {
+      "unit_id": "lane-unit:brz:36068:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-barraza-save-rider"
+      ],
+      "note": "Covers the equestrian sense."
+    },
+    {
+      "unit_id": "lane-unit:brz:36068:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:brz:36068:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-barraza-surpass"
+      ],
+      "note": "Covers outstripping in a race."
+    },
+    {
+      "unit_id": "lane-unit:brz:36068:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-barraza-surpass"
+      ],
+      "note": "Covers surpassing companions in merit."
+    },
+    {
+      "unit_id": "lane-unit:brz:36068:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:brz:36069:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-baraza-war"
+      ],
+      "note": "Covers going forth to meet an adversary in battle."
+    },
+    {
+      "unit_id": "lane-unit:brz:36069:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:brz:36070:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-abraza-causative"
+      ],
+      "note": "Covers causing a person or thing to go or be drawn out."
+    },
+    {
+      "unit_id": "lane-unit:brz:36070:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-abraza-journey"
+      ],
+      "note": "Covers resolving to undertake a journey."
+    },
+    {
+      "unit_id": "lane-unit:brz:36071:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:brz:36072:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-tabaraza-battle"
+      ],
+      "note": "Covers mutual emergence to meet in battle."
+    },
+    {
+      "unit_id": "lane-unit:brz:36072:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-tabaraza-battle"
+      ],
+      "note": "Covers separation from each company's ranks."
+    },
+    {
+      "unit_id": "lane-unit:brz:36073:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form IV."
+    },
+    {
+      "unit_id": "lane-unit:brz:36074:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-barz-quality"
+      ],
+      "note": "Covers the personal-quality noun or adjective."
+    },
+    {
+      "unit_id": "lane-unit:brz:36075:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:brz:36076:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-baraz-plain"
+      ],
+      "note": "Covers the open plain or exposed expanse."
+    },
+    {
+      "unit_id": "lane-unit:brz:36076:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-baraz-relief-noun"
+      ],
+      "note": "Covers the euphemistic place for relieving oneself."
+    },
+    {
+      "unit_id": "lane-unit:brz:36076:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-baraz-relief-noun"
+      ],
+      "note": "Covers the metonymic sense of excrement."
+    },
+    {
+      "unit_id": "lane-unit:brz:36077:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بَرَازٌ."
+    },
+    {
+      "unit_id": "lane-unit:brz:36078:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical identification as the active participle of بَرَزَ."
+    },
+    {
+      "unit_id": "lane-unit:brz:36078:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "brz-bariz-s1",
+        "brz-bariz-s2"
+      ],
+      "note": "Covers apparent or manifest status of the active participle."
+    },
+    {
+      "unit_id": "lane-unit:brz:36078:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "brz-bariz-s1"
+      ],
+      "note": "Covers the open and uncovered land construction."
+    },
+    {
+      "unit_id": "lane-unit:brz:36079:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:brz:36080:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-ibriz-gold"
+      ],
+      "note": "Covers pure gold and gold ornament."
+    },
+    {
+      "unit_id": "lane-unit:brz:36081:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-mabraz-privy"
+      ],
+      "note": "Covers the privy or ablution place."
+    },
+    {
+      "unit_id": "lane-unit:brz:36082:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-mubraz-book"
+      ],
+      "note": "Covers a writing or book put forth or made apparent."
+    },
+    {
+      "unit_id": "lane-unit:brz:36083:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:brz:36084:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The two nominal QAC groups are tagged as nouns but are explicitly counted as active participles; their feminine and masculine-plural Quran forms are normalized under بَارِزٌ.",
+    "The Form II Quran group contains a passive inflection, بُرِّزَتِ, while the public headword is the active perfect citation form بَرَّزَ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

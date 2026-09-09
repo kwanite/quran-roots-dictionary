@@ -1,0 +1,174 @@
+{
+  "root": "lqb",
+  "arabic": "لقب",
+  "root_idea": {
+    "summary": "A secondary, meaningful appellation attached to a person beyond the person's original name.",
+    "development": "The lexical field distinguishes honorific or acceptable bynames from reproachful nicknames and extends to giving, bearing, and reciprocally assigning such names. The Quranic occurrence selects the reproachful use.",
+    "source_refs": [
+      "maqayis:row:4202",
+      "mufradat:row:1315"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lqb:>aloqa`b:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lqb-laqab",
+      "reason": "The Quranic plural is normalized to the singular dictionary headword لَقَب."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "lqb-laqab",
+      "form_group_ids": [
+        "qac-form:lqb:>aloqa`b:nominal:-"
+      ],
+      "headword_arabic": "لَقَب",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "lqb-laqab-s1",
+          "definition": "A reproachful nickname or byname.",
+          "usage_conditions": "In the Quranic prohibition against calling one another by nicknames, it refers to assigning someone a name that the person dislikes; the attested form is the plural أَلْقَاب in this construction.",
+          "source_refs": [
+            "lane:entry:9767",
+            "mufradat:row:1315"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "49:11",
+          "word_location": "49:11:28",
+          "sense_ids": [
+            "lqb-laqab-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "lqb-clm-honorific",
+      "headword_arabic": "لَقَب",
+      "definition": "A secondary personal name, byname, surname, or nickname, including an honorific or otherwise non-reproachful appellation.",
+      "usage_conditions": "A non-reproachful byname is distinguished from a name intended as disparagement and is not subject to the prohibition associated with reproachful nicknames.",
+      "source_refs": [
+        "lane:entry:9767",
+        "mufradat:row:1315"
+      ]
+    },
+    {
+      "meaning_id": "lqb-clm-form2",
+      "headword_arabic": "لَقَّبَ",
+      "definition": "To give someone a byname, surname, or nickname; to surname or nickname someone.",
+      "usage_conditions": "Form II transitive construction.",
+      "source_refs": [
+        "lane:entry:9763"
+      ]
+    },
+    {
+      "meaning_id": "lqb-clm-form5",
+      "headword_arabic": "تَلَقَّبَ",
+      "definition": "To acquire or be called by a byname, surname, or nickname.",
+      "usage_conditions": "Form V construction describing the subject's being known by such an appellation.",
+      "source_refs": [
+        "lane:entry:9764"
+      ]
+    },
+    {
+      "meaning_id": "lqb-clm-form3",
+      "headword_arabic": "لَاقَبَ",
+      "definition": "To call another by a byname, surname, or nickname, with the other person doing likewise.",
+      "usage_conditions": "Form III reciprocal construction.",
+      "source_refs": [
+        "lane:entry:9765"
+      ]
+    },
+    {
+      "meaning_id": "lqb-clm-form6",
+      "headword_arabic": "تَلَاقَبَ",
+      "definition": "To call one another by bynames, surnames, or nicknames.",
+      "usage_conditions": "Form VI reciprocal construction.",
+      "source_refs": [
+        "lane:entry:9766"
+      ]
+    },
+    {
+      "meaning_id": "lqb-clm-technical",
+      "headword_arabic": "لَقَبُ اسْم",
+      "definition": "A technical appellation for naming a noun by substituting ف, ع, and ل for its radical letters to indicate its morphological measure.",
+      "usage_conditions": "Conventional terminology of lexicology and grammar, not an ordinary personal nickname.",
+      "source_refs": [
+        "lane:entry:9763",
+        "lane:entry:9767"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lqb:9763:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lqb-clm-form2"
+      ],
+      "note": "Form II naming by a byname."
+    },
+    {
+      "unit_id": "lane-unit:lqb:9763:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lqb-clm-technical"
+      ],
+      "note": "Technical lexicological use."
+    },
+    {
+      "unit_id": "lane-unit:lqb:9764:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lqb-clm-form5"
+      ],
+      "note": "Form V being by-named."
+    },
+    {
+      "unit_id": "lane-unit:lqb:9765:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lqb-clm-form3"
+      ],
+      "note": "Form III reciprocal naming."
+    },
+    {
+      "unit_id": "lane-unit:lqb:9766:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lqb-clm-form6"
+      ],
+      "note": "Form VI mutual naming."
+    },
+    {
+      "unit_id": "lane-unit:lqb:9767:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lqb-laqab-s1",
+        "lqb-clm-honorific"
+      ],
+      "note": "Reproachful and non-reproachful byname branches."
+    },
+    {
+      "unit_id": "lane-unit:lqb:9767:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lqb-clm-technical"
+      ],
+      "note": "Restates the technical naming term covered by the technical meaning."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is the inflected plural أَلْقَاب; the public headword is normalized to the singular لَقَب.",
+    "Classical Arabic includes non-reproachful and honorific bynames, whereas the Quranic prohibition concerns names used reproachfully or names disliked by the person addressed."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

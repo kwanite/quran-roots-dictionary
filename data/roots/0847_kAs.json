@@ -1,0 +1,110 @@
+{
+  "root": "kAs",
+  "arabic": "كأس",
+  "root_idea": {
+    "summary": "The semantic center is a drinking cup, with the same word extending metonymically to the beverage it contains.",
+    "development": "The evidence develops from the vessel and its contents to figurative expressions for something undergone or administered as though it were a drink, such as death, abasement, separation, or love.",
+    "source_refs": [
+      "lane:entry:27730",
+      "mufradat:row:1226"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kAs:ka>os:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:kAs:kaos",
+      "reason": "The Quran-attested noun is a distinct lexical item and is best displayed under the normalized citation form كَأْس."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:kAs:kaos",
+      "form_group_ids": [
+        "qac-form:kAs:ka>os:nominal:-"
+      ],
+      "headword_arabic": "كَأْس",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "qsen:kAs:kaos:1",
+          "definition": "A drinking cup or vessel, including the cup together with the drink it contains.",
+          "usage_conditions": "The word may refer to the vessel itself or to the vessel viewed together with its contents; Quranic descriptions specify the drink served in it.",
+          "source_refs": [
+            "lane:entry:27730",
+            "mufradat:row:1226"
+          ]
+        },
+        {
+          "sense_id": "qsen:kAs:kaos:2",
+          "definition": "The drink contained in a cup; a beverage referred to by the name of its vessel.",
+          "usage_conditions": "This is a metonymic use in which the container names the beverage. The Quran-focused evidence applies it to described drinks, including drinks mixed with camphor or ginger and drink from a flowing spring.",
+          "source_refs": [
+            "lane:entry:27730",
+            "mufradat:row:1226"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:45",
+          "word_location": "37:45:3",
+          "sense_ids": [
+            "qsen:kAs:kaos:1"
+          ]
+        },
+        {
+          "verse_key": "56:18",
+          "word_location": "56:18:3",
+          "sense_ids": [
+            "qsen:kAs:kaos:2"
+          ]
+        },
+        {
+          "verse_key": "76:5",
+          "word_location": "76:5:5",
+          "sense_ids": [
+            "qsen:kAs:kaos:2"
+          ]
+        },
+        {
+          "verse_key": "76:17",
+          "word_location": "76:17:3",
+          "sense_ids": [
+            "qsen:kAs:kaos:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:kAs:metaphorical_draught",
+      "headword_arabic": "كَأْس",
+      "definition": "A metaphorical draught or allotted experience of something, especially an evil or painful thing; figuratively, what someone is made to undergo.",
+      "usage_conditions": "Used in constructions such as giving or making someone drink a cup of abasement, separation, death, or love; the expression need not refer to an actual vessel or drink.",
+      "source_refs": [
+        "lane:entry:27730"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kAs:27730:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:kAs:kaos:1",
+        "qsen:kAs:kaos:2",
+        "cm:kAs:metaphorical_draught"
+      ],
+      "note": "The unit's vessel, beverage, and metaphorical-draught branches are represented; its plural, gender, variant-spelling, and etymological notes are non-semantic."
+    }
+  ],
+  "cautions": [
+    "The lexical evidence permits كأس to name either the vessel or its contents; contextual translations such as “cup” do not always determine which is foregrounded.",
+    "One strand of the Classical evidence narrows the term to a cup containing wine, while the Quran-focused evidence applies it to described beverages beyond that narrow formulation."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

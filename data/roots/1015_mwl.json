@@ -1,0 +1,168 @@
+{
+  "root": "mwl",
+  "arabic": "مول",
+  "root_idea": {
+    "summary": "The root centers on acquiring, possessing, and having an abundance of wealth.",
+    "development": "The lexical range develops from taking or acquiring wealth to wealth as possessed property. The noun is described as extending from gold and silver to acquired substantial possessions, with livestock a prominent pastoral application.",
+    "source_refs": [
+      "maqayis:row:4488",
+      "lane:entry:5890",
+      "lane:entry:5889"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mwl:maAl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:mwl:mal",
+      "reason": "Displayed under the normalized singular dictionary citation form مَال, encompassing the Quranic singular and plural occurrences."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:mwl:mal",
+      "form_group_ids": [
+        "qac-form:mwl:maAl:nominal:-"
+      ],
+      "headword_arabic": "مَال",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 86,
+      "senses": [
+        {
+          "sense_id": "qform:mwl:mal:s1",
+          "definition": "Property or wealth: things acquired and possessed.",
+          "usage_conditions": "Used for individual or collective possessions, including substantial goods. Depending on context, it may be rendered as wealth, property, or capital; the Quranic group includes both مَال and its plural أَمْوَال.",
+          "source_refs": [
+            "lane:entry:5890"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:188",
+          "word_location": "2:188:3",
+          "sense_ids": [
+            "qform:mwl:mal:s1"
+          ]
+        },
+        {
+          "verse_key": "2:279",
+          "word_location": "2:279:13",
+          "sense_ids": [
+            "qform:mwl:mal:s1"
+          ]
+        },
+        {
+          "verse_key": "18:46",
+          "word_location": "18:46:1",
+          "sense_ids": [
+            "qform:mwl:mal:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:mwl:livestock",
+      "headword_arabic": "مَالٌ",
+      "definition": "Camels, sheep, or goats kept as pastoral wealth; herds or flocks.",
+      "usage_conditions": "A specialized pastoral application, especially for the livestock constituting the wealth of desert people.",
+      "source_refs": [
+        "lane:entry:5890"
+      ]
+    },
+    {
+      "meaning_id": "cm:mwl:arithmetic-square",
+      "headword_arabic": "مَالٌ",
+      "definition": "A square in arithmetic.",
+      "usage_conditions": "The plural أَمْوَالٌ is attested for this technical usage.",
+      "source_refs": [
+        "lane:entry:5890"
+      ]
+    },
+    {
+      "meaning_id": "cm:mwl:wealthy-man",
+      "headword_arabic": "رَجُلٌ مَالٌ",
+      "definition": "A wealthy man, or a man possessing wealth.",
+      "usage_conditions": "A construction used in place of ذُو مَالٍ.",
+      "source_refs": [
+        "lane:entry:5890"
+      ]
+    },
+    {
+      "meaning_id": "cm:mwl:tamawwala",
+      "headword_arabic": "تَمَوَّلَ",
+      "definition": "To become abundant in wealth.",
+      "usage_conditions": "Form V verb describing the attainment of abundant wealth.",
+      "source_refs": [
+        "lane:entry:5889"
+      ]
+    },
+    {
+      "meaning_id": "cm:mwl:maliyy",
+      "headword_arabic": "مَالِيٌّ",
+      "definition": "Of or relating to property or wealth.",
+      "usage_conditions": "An adjective relating something to مال in the sense of property or wealth.",
+      "source_refs": [
+        "lane:entry:5891"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mwl:5889:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mwl:tamawwala"
+      ],
+      "note": "Form V lexical meaning represented under the derived verb."
+    },
+    {
+      "unit_id": "lane-unit:mwl:5890:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:mwl:mal:s1",
+        "cm:mwl:livestock"
+      ],
+      "note": "General property/wealth meaning and the prominent livestock application are represented."
+    },
+    {
+      "unit_id": "lane-unit:mwl:5890:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mwl:livestock"
+      ],
+      "note": "Pastoral livestock meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:mwl:5890:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mwl:arithmetic-square"
+      ],
+      "note": "Technical arithmetic meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:mwl:5890:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mwl:wealthy-man"
+      ],
+      "note": "Wealthy-man construction represented."
+    },
+    {
+      "unit_id": "lane-unit:mwl:5891:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mwl:maliyy"
+      ],
+      "note": "Relational adjective meaning represented."
+    }
+  ],
+  "cautions": [
+    "The single QAC form group combines singular مَال and plural أَمْوَال; the public headword uses the singular citation form. English renderings such as “wealth,” “property,” and “capital” are contextual realizations of the same Quranic noun."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

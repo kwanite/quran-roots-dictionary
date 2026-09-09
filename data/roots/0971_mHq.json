@@ -1,0 +1,124 @@
+{
+  "root": "mHq",
+  "arabic": "محق",
+  "root_idea": {
+    "summary": "The root denotes diminution: making something deficient or causing it to lose its increase or blessing.",
+    "development": "Its semantic range extends from decrease and loss of blessing to disappearance or total effacement; the lunar noun applies the image of waning to the end of the month.",
+    "source_refs": [
+      "maqayis:row:4306",
+      "mufradat:row:1347"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mHq:yamoHaqu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:mHq:mahaqa:I",
+      "reason": "Displayed under the normalized Form I perfect citation form مَحَقَ rather than the imperfect QAC lemma يَمْحَقُ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:mHq:mahaqa:I",
+      "form_group_ids": [
+        "qac-form:mHq:yamoHaqu:verb:I"
+      ],
+      "headword_arabic": "مَحَقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense:mHq:mahaqa:1",
+          "definition": "To diminish or reduce something, especially by removing its increase or blessing.",
+          "usage_conditions": "In the construction يَمْحَقُ اللَّهُ الرِّبَا, the object is made deficient and deprived of its increase or blessing.",
+          "source_refs": [
+            "lane:entry:5635",
+            "mufradat:row:1347"
+          ]
+        },
+        {
+          "sense_id": "sense:mHq:mahaqa:2",
+          "definition": "To efface, annihilate, or destroy something completely, leaving no trace.",
+          "usage_conditions": "In وَيَمْحَقَ الْكَافِرِينَ, the focus is the result of complete destruction or obliteration rather than mere diminution.",
+          "source_refs": [
+            "lane:entry:5635",
+            "mufradat:row:1347"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:276",
+          "word_location": "2:276:1",
+          "sense_ids": [
+            "sense:mHq:mahaqa:1"
+          ]
+        },
+        {
+          "verse_key": "3:141",
+          "word_location": "3:141:5",
+          "sense_ids": [
+            "sense:mHq:mahaqa:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-mhq-mahq",
+      "headword_arabic": "مَحْق",
+      "definition": "Diminution, depletion, or loss of increase and blessing.",
+      "usage_conditions": "A verbal noun naming the state or act expressed by مَحَقَ.",
+      "source_refs": [
+        "lane:entry:5635",
+        "mufradat:row:1347"
+      ]
+    },
+    {
+      "meaning_id": "cm-mhq-mihaq",
+      "headword_arabic": "مِحَاق",
+      "definition": "The waning or disappearance of the moon at the end of the lunar month.",
+      "usage_conditions": "Used for the final lunar phase and in the expression لَيَالِي الْمِحَاقِ, the nights of that waning phase.",
+      "source_refs": [
+        "lane:entry:5637",
+        "mufradat:row:1347"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mHq:5635:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:mHq:mahaqa:1",
+        "sense:mHq:mahaqa:2",
+        "cm-mhq-mahq"
+      ],
+      "note": "The unit's diminution, loss of blessing, complete effacement, and verbal-noun content are represented."
+    },
+    {
+      "unit_id": "lane-unit:mHq:5635:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:mHq:5636:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form I; no additional lexical content."
+    },
+    {
+      "unit_id": "lane-unit:mHq:5637:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference for a lunar expression; no definition beyond the pointer."
+    }
+  ],
+  "cautions": [
+    "The lunar noun is kept separate from the Quranic verb; the supplied evidence shows differing vocalization conventions for this noun."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,101 @@
+{
+  "root": "wvn",
+  "arabic": "وثن",
+  "root_idea": {
+    "summary": "The root centers on وَثَن, an idol traditionally understood as a stone object worshipped as divine.",
+    "development": "Classical lexical evidence also records related derived uses involving becoming strong, making something abundant, and giving lavishly; these are distinct from the Quranic noun sense.",
+    "source_refs": [
+      "maqayis:row:5029",
+      "mufradat:row:1552"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wvn:>awova`n:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wvn-form-wathan",
+      "reason": "Displayed under the normalized singular citation form وَثَن; the Quran attests its plural form أَوْثَان."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wvn-form-wathan",
+      "form_group_ids": [
+        "qac-form:wvn:>awova`n:nominal:-"
+      ],
+      "headword_arabic": "وَثَن",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "wvn-form-wathan-s1",
+          "definition": "A stone idol worshipped as a deity.",
+          "usage_conditions": "Quranically attested in the plural أَوْثَان, referring to idols taken or worshipped apart from God.",
+          "source_refs": [
+            "lane:entry:30374",
+            "mufradat:row:1552"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:30",
+          "word_location": "22:30:21",
+          "sense_ids": [
+            "wvn-form-wathan-s1"
+          ]
+        },
+        {
+          "verse_key": "29:17",
+          "word_location": "29:17:6",
+          "sense_ids": [
+            "wvn-form-wathan-s1"
+          ]
+        },
+        {
+          "verse_key": "29:25",
+          "word_location": "29:25:7",
+          "sense_ids": [
+            "wvn-form-wathan-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wvn-classical-istawthana",
+      "headword_arabic": "اِسْتَوْثَنَ",
+      "definition": "To become strong.",
+      "usage_conditions": "A classical derived use recorded with the expression اِسْتَوْثَنَ الشَّيْءُ.",
+      "source_refs": [
+        "maqayis:row:5029"
+      ]
+    },
+    {
+      "meaning_id": "wvn-classical-awthana-abundance",
+      "headword_arabic": "أَوْثَنَ",
+      "definition": "To make something abundant or increase it; to give lavishly or have much of something.",
+      "usage_conditions": "Used transitively of increasing a load or giving someone generously, and with مِنْ to indicate having or doing much of something.",
+      "source_refs": [
+        "maqayis:row:5029",
+        "mufradat:row:1552"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wvn:30374:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wvn-form-wathan-s1"
+      ],
+      "note": "The unit explicitly defines وَثَن as an idol."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrences are plural forms أَوْثَان; وَثَن is used as the normalized singular dictionary headword."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

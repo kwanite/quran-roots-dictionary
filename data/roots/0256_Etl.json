@@ -1,0 +1,497 @@
+{
+  "root": "Etl",
+  "arabic": "عتل",
+  "root_idea": {
+    "summary": "The root denotes force, hardness, and strength, especially force exerted in handling or moving something.",
+    "development": "The semantic range develops from heavy, strong implements and physical force to forcibly drawing or dragging, and further to descriptions of rough, harsh, or coarse character.",
+    "source_refs": [
+      "maqayis:row:3131",
+      "mufradat:row:943",
+      "lane:entry:2029",
+      "lane:entry:2037"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Etl:{Eotilu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:atala",
+      "reason": "The Quranic imperative is normalized to the Form I perfect citation form عَتَلَ."
+    },
+    {
+      "form_group_id": "qac-form:Etl:Eutul~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:utull",
+      "reason": "The inflected Quranic adjective is displayed under the normalized citation form عُتُلّ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:atala",
+      "form_group_ids": [
+        "qac-form:Etl:{Eotilu:verb:I"
+      ],
+      "headword_arabic": "عَتَلَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q:atala:s1",
+          "definition": "To seize hold of someone, push or thrust him, and drag or drive him away roughly and violently.",
+          "usage_conditions": "The Quranic construction takes an object and directs it toward a destination; the forceful manner is integral. In the supplied occurrence, the destination is the middle of Hell.",
+          "source_refs": [
+            "lane:entry:2029",
+            "mufradat:row:943"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "44:47",
+          "word_location": "44:47:2",
+          "sense_ids": [
+            "q:atala:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:utull",
+      "form_group_ids": [
+        "qac-form:Etl:Eutul~:nominal:-"
+      ],
+      "headword_arabic": "عُتُلّ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q:utull:s1",
+          "definition": "A voracious, withholding person who roughly takes or drags things to himself.",
+          "usage_conditions": "One explanation of the Quranic occurrence in 68:13 centers on excessive eating, refusal to give, and rough handling.",
+          "source_refs": [
+            "lane:entry:2037",
+            "mufradat:row:943"
+          ]
+        },
+        {
+          "sense_id": "q:utull:s2",
+          "definition": "A gross, coarse, harsh, churlish, or cruel person, low or mean in disposition, vehement in quarrel, resistant to admonition, or unwilling to be led toward good.",
+          "usage_conditions": "Another Quran-attested explanation of the occurrence in 68:13 emphasizes harsh character and resistance to correction or goodness rather than appetite.",
+          "source_refs": [
+            "lane:entry:2037"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "68:13",
+          "word_location": "68:13:1",
+          "sense_ids": [
+            "q:utull:s1",
+            "q:utull:s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "c:atala:camel",
+      "headword_arabic": "عَتَلَ",
+      "definition": "To lead a she-camel roughly or violently by taking hold of its nose-rein.",
+      "usage_conditions": "Used in the construction عَتَلَ النَّاقَةَ.",
+      "source_refs": [
+        "lane:entry:2029"
+      ]
+    },
+    {
+      "meaning_id": "c:atila:evil",
+      "headword_arabic": "عَتِلَ",
+      "definition": "To hasten or be quick to do evil or mischief.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2029"
+      ]
+    },
+    {
+      "meaning_id": "c:atil:evilperson",
+      "headword_arabic": "عَتِلٌ",
+      "definition": "A man who hastens or is quick to do evil or mischief.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2035"
+      ]
+    },
+    {
+      "meaning_id": "c:muatala:mutualpush",
+      "headword_arabic": "مُعَاتَلَةٌ",
+      "definition": "Mutual pushing or thrusting, roughly or violently.",
+      "usage_conditions": "This is the reciprocal Form III verbal noun.",
+      "source_refs": [
+        "lane:entry:2031"
+      ]
+    },
+    {
+      "meaning_id": "c:intala:dragged",
+      "headword_arabic": "اِنْعَتَلَ",
+      "definition": "To be drawn or dragged roughly or violently, or to submit to being led.",
+      "usage_conditions": "An intransitive or passive-like Form VII usage.",
+      "source_refs": [
+        "lane:entry:2033"
+      ]
+    },
+    {
+      "meaning_id": "c:intala:comealong",
+      "headword_arabic": "اِنْعَتَلَ",
+      "definition": "To leave one's place or come along with someone.",
+      "usage_conditions": "A conventional usage in the expression لا أَنْعَتِلُ مَعَكَ, literally used in the negative for refusing to go along.",
+      "source_refs": [
+        "lane:entry:2033"
+      ]
+    },
+    {
+      "meaning_id": "c:atala:auger",
+      "headword_arabic": "عَتَلَةٌ",
+      "definition": "A carpenter's auger, wimble, or gimlet.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2036"
+      ]
+    },
+    {
+      "meaning_id": "c:atala:palmtool",
+      "headword_arabic": "عَتَلَةٌ",
+      "definition": "An iron implement for pulling up or cutting young palm shoots, palm branches, or grape-vine shoots.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2036"
+      ]
+    },
+    {
+      "meaning_id": "c:atala:walltool",
+      "headword_arabic": "عَتَلَةٌ",
+      "definition": "A broad-headed iron tool for digging or excavating earth and walls, or for demolishing walls.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2036"
+      ]
+    },
+    {
+      "meaning_id": "c:atala:staff",
+      "headword_arabic": "عَتَلَةٌ",
+      "definition": "A thick wooden staff, including a shoulder-pole used by two men to carry burdens.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2036"
+      ]
+    },
+    {
+      "meaning_id": "c:atala:bow",
+      "headword_arabic": "عَتَلَةٌ",
+      "definition": "A Persian bow or a strong bow.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2036"
+      ]
+    },
+    {
+      "meaning_id": "c:atala:clod",
+      "headword_arabic": "عَتَلَةٌ",
+      "definition": "A large clod of clay or cohesive earth pulled from the ground during ploughing.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2036"
+      ]
+    },
+    {
+      "meaning_id": "c:atala:barrencamel",
+      "headword_arabic": "عَتَلَةٌ",
+      "definition": "A she-camel that does not conceive and is consequently always strong.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2036"
+      ]
+    },
+    {
+      "meaning_id": "c:utull:physical",
+      "headword_arabic": "عُتُلٌّ",
+      "definition": "Gross, coarse, rough, and strong in bodily constitution.",
+      "usage_conditions": "Applied to a man or beast, and according to some authorities to anything.",
+      "source_refs": [
+        "lane:entry:2037"
+      ]
+    },
+    {
+      "meaning_id": "c:utull:spear",
+      "headword_arabic": "عُتُلٌّ",
+      "definition": "A thick spear.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2037"
+      ]
+    },
+    {
+      "meaning_id": "c:utull:mountain",
+      "headword_arabic": "عُتُلٌّ",
+      "definition": "A hard mountain.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2037"
+      ]
+    },
+    {
+      "meaning_id": "c:atil:hireling",
+      "headword_arabic": "عَتِيلٌ",
+      "definition": "A hired man, hireling, or servant.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2038"
+      ]
+    },
+    {
+      "meaning_id": "c:atil:disease",
+      "headword_arabic": "عَتِيلٌ",
+      "definition": "A violent or severe disease or malady.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2038"
+      ]
+    },
+    {
+      "meaning_id": "c:attal:porter",
+      "headword_arabic": "عَتَّالٌ",
+      "definition": "A porter or carrier of burdens for hire, using a shoulder-pole.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2039"
+      ]
+    },
+    {
+      "meaning_id": "c:atil:policeaid",
+      "headword_arabic": "عَاتِلٌ",
+      "definition": "An aide or officer of the prefect of the police.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2040"
+      ]
+    },
+    {
+      "meaning_id": "c:mital:dragstrength",
+      "headword_arabic": "مِعْتَلٌ",
+      "definition": "Strong in drawing or dragging something roughly or violently.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:2041"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Etl:2029:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:atala:s1"
+      ],
+      "note": "The forceful dragging construction is represented under the Quranic verb."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2029:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atila:evil"
+      ],
+      "note": "The hastening-to-evil verb is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2030:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form II cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2031:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:muatala:mutualpush"
+      ],
+      "note": "Reciprocal pushing is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2032:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form V cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2033:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:intala:dragged"
+      ],
+      "note": "The intransitive dragged or led usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2033:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:intala:comealong"
+      ],
+      "note": "The conventional refusal-to-come expression is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2034:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to عَتَلَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2035:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atil:evilperson"
+      ],
+      "note": "The noun describing a person who hastens to evil is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2036:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atala:auger"
+      ],
+      "note": "The carpenter's auger or gimlet is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2036:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atala:palmtool"
+      ],
+      "note": "The implement for palm and vine shoots is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2036:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atala:walltool"
+      ],
+      "note": "The digging or wall-demolishing tool is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2036:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atala:staff"
+      ],
+      "note": "The thick wooden staff or shoulder-pole is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2036:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atala:bow"
+      ],
+      "note": "The Persian or strong bow is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2036:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atala:clod"
+      ],
+      "note": "The ploughed clod of cohesive earth is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2036:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atala:barrencamel"
+      ],
+      "note": "The non-conceiving, strong she-camel is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2036:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural and cross-reference information only."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2037:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:utull:s1",
+        "q:utull:s2",
+        "c:utull:physical"
+      ],
+      "note": "The Quranic interpretations and the broader physical application are represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2037:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:utull:spear"
+      ],
+      "note": "The thick-spear meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2037:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:utull:mountain"
+      ],
+      "note": "The hard-mountain meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2038:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atil:hireling"
+      ],
+      "note": "The hireling or servant meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2038:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atil:disease"
+      ],
+      "note": "The severe-disease meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2039:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:attal:porter"
+      ],
+      "note": "The hired porter meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2040:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to عَتِيلٌ."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2040:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:atil:policeaid"
+      ],
+      "note": "The police aide or officer meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:Etl:2041:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c:mital:dragstrength"
+      ],
+      "note": "The strong-dragging adjective is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic adjective عُتُلّ in 68:13 has several closely related classical explanations, including appetite and withholding, rough handling, and harsh or coarse character; the two numbered senses preserve these materially distinct interpretive branches.",
+    "The Quranic verb is attested in an imperative inflection, but the public headword is the normalized Form I perfect citation form عَتَلَ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

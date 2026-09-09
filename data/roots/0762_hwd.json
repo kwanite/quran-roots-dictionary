@@ -1,0 +1,673 @@
+{
+  "root": "hwd",
+  "arabic": "هود",
+  "root_idea": {
+    "summary": "A root field centered on gentle return, quieting, and the restoration of settled relations.",
+    "development": "The lexical field extends from gentle or quiet movement to repentance and return, leniency, reconciliation, and related social bonds. The Jewish designation is traditionally connected with repentance, while Hūd is also the proper name of a prophet.",
+    "source_refs": [
+      "maqayis:row:4960",
+      "mufradat:row:1538"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hwd:haAdu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hwd_hada_v1",
+      "reason": "Displayed as the normalized Form I verb هَادَ."
+    },
+    {
+      "form_group_id": "qac-form:hwd:huwd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hwd_hud_prophet",
+      "reason": "Displayed as the distinct proper name of the prophet Hūd."
+    },
+    {
+      "form_group_id": "qac-form:hwd:huwd2:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hwd_hud_jews",
+      "reason": "Displayed as the distinct proper/collective designation for the Jews."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "hwd_hada_v1",
+      "form_group_ids": [
+        "qac-form:hwd:haAdu:verb:I"
+      ],
+      "headword_arabic": "هَادَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "hwd_v1_s1",
+          "definition": "To return or turn back in repentance; to return to the truth or to God.",
+          "usage_conditions": "In the Quranic construction هُدْنَا إِلَيْكَ, the verb denotes repentant return toward God and is construed with إِلَى as implying return.",
+          "source_refs": [
+            "lane:entry:10724",
+            "mufradat:row:1538"
+          ]
+        },
+        {
+          "sense_id": "hwd_v1_s2",
+          "definition": "To become Jewish or follow the Jewish religion.",
+          "usage_conditions": "Used of adopting or belonging to the Jewish religious way; Quranic translations may render the form as “became Jews,” “were Jews,” or “are Jews” according to context.",
+          "source_refs": [
+            "lane:entry:10724",
+            "mufradat:row:1538"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:156",
+          "word_location": "7:156:10",
+          "sense_ids": [
+            "hwd_v1_s1"
+          ]
+        },
+        {
+          "verse_key": "2:62",
+          "word_location": "2:62:5",
+          "sense_ids": [
+            "hwd_v1_s2"
+          ]
+        },
+        {
+          "verse_key": "4:46",
+          "word_location": "4:46:3",
+          "sense_ids": [
+            "hwd_v1_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hwd_hud_prophet",
+      "form_group_ids": [
+        "qac-form:hwd:huwd:nominal:-"
+      ],
+      "headword_arabic": "هُود",
+      "public_pos_label": "Proper noun · Prophet",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "hwd_hud_s1",
+          "definition": "The proper name of the prophet Hūd.",
+          "usage_conditions": "Used as a personal name in direct address, genitive constructions, and references to the prophet and his people.",
+          "source_refs": [
+            "mufradat:row:1538"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:50",
+          "word_location": "11:50:4",
+          "sense_ids": [
+            "hwd_hud_s1"
+          ]
+        },
+        {
+          "verse_key": "11:53",
+          "word_location": "11:53:2",
+          "sense_ids": [
+            "hwd_hud_s1"
+          ]
+        },
+        {
+          "verse_key": "11:60",
+          "word_location": "11:60:17",
+          "sense_ids": [
+            "hwd_hud_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hwd_hud_jews",
+      "form_group_ids": [
+        "qac-form:hwd:huwd2:nominal:-"
+      ],
+      "headword_arabic": "هُود",
+      "public_pos_label": "Proper noun · Jewish people",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "hwd_huwd2_s1",
+          "definition": "The Jews; the Jewish people or community.",
+          "usage_conditions": "A collective/proper designation for the Jewish people, distinct in the Quranic morphology from the personal name Hūd.",
+          "source_refs": [
+            "lane:entry:10733"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:111",
+          "word_location": "2:111:8",
+          "sense_ids": [
+            "hwd_huwd2_s1"
+          ]
+        },
+        {
+          "verse_key": "2:135",
+          "word_location": "2:135:3",
+          "sense_ids": [
+            "hwd_huwd2_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "hwd_return_general",
+      "headword_arabic": "هَادَ",
+      "definition": "To return or turn back from one state to another.",
+      "usage_conditions": "The general lexical sense includes return from evil to good or from good to evil; the repentant Quranic construction is separately represented under the Form I verb.",
+      "source_refs": [
+        "lane:entry:10724"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_jew",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "To make someone a Jew; to turn, teach, or initiate someone into Judaism.",
+      "usage_conditions": "A transitive Form II usage, including making a person or child follow the Jewish religion.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_jinn",
+      "headword_arabic": "تَهْوِيدٌ",
+      "definition": "The gentle, weak-sounding conversation of jinn.",
+      "usage_conditions": "A term applied to the quiet manner of the jinns’ voices.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_voice",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "To reiterate, quaver, trill, or utter a low and gentle voice.",
+      "usage_conditions": "Used of soft, weak, low, or languid speech and vocalization.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_song",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "To sing, or to gladden and divert by singing.",
+      "usage_conditions": "A Form II usage describing singing and its entertaining or heartening effect.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_walk",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "To go or proceed gently, slowly, or at a leisurely pace.",
+      "usage_conditions": "Used of a slow and gentle manner of walking or movement.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_intoxicate",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "To intoxicate a person and make him languid or sleepy.",
+      "usage_conditions": "Used of a beverage or wine producing intoxication, languor, and sleepiness.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_rest",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "To rest, become still, or be quiet and at rest.",
+      "usage_conditions": "Describes cessation of movement or a state of repose.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_sleep",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "To sleep.",
+      "usage_conditions": "An intransitive Form II usage.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_gentle",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "To be gentle or to act in a gentle manner.",
+      "usage_conditions": "A general description of gentle conduct or behavior.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_wind",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "Of wind, to murmur or sound gently over sand.",
+      "usage_conditions": "Used for the soft murmuring sound made by wind passing over sand.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahwid_hump_eat",
+      "headword_arabic": "هَوَّدَ",
+      "definition": "To eat part of a camel’s hump.",
+      "usage_conditions": "A specialized Form II usage referring to eating the camel-hump substance called هَوَدَة.",
+      "source_refs": [
+        "lane:entry:10725"
+      ]
+    },
+    {
+      "meaning_id": "hwd_muhawada_peace",
+      "headword_arabic": "هَاوَدَ",
+      "definition": "To make peace with, reconcile with, or restore oneself to another’s favor.",
+      "usage_conditions": "A reciprocal Form III construction for peace-making, reconciliation, or renewed favor.",
+      "source_refs": [
+        "lane:entry:10726"
+      ]
+    },
+    {
+      "meaning_id": "hwd_muhawada_incline",
+      "headword_arabic": "هَاوَدَ",
+      "definition": "To incline mutually toward one another.",
+      "usage_conditions": "Used reciprocally of two parties mutually inclining toward or accommodating one another.",
+      "source_refs": [
+        "lane:entry:10726"
+      ]
+    },
+    {
+      "meaning_id": "hwd_muhawada_return",
+      "headword_arabic": "هَاوَدَ",
+      "definition": "To return to someone or something repeatedly.",
+      "usage_conditions": "A Form III usage expressing repeated return or renewed approach.",
+      "source_refs": [
+        "lane:entry:10726"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahawwad_walk",
+      "headword_arabic": "تَهَوَّدَ",
+      "definition": "To walk gently while imitating the movements associated with Jewish recitation or reading.",
+      "usage_conditions": "An idiomatic Form V usage specifically describing a gentle, imitative manner of walking.",
+      "source_refs": [
+        "lane:entry:10727"
+      ]
+    },
+    {
+      "meaning_id": "hwd_tahawwad_alliance",
+      "headword_arabic": "تَهَوَّدَ",
+      "definition": "To become allied, seek alliance, or draw near through a relationship or other sacred and inviolable bond.",
+      "usage_conditions": "Used of affiliating oneself through kinship or another bond regarded as sacred, inviolable, or conferring respect.",
+      "source_refs": [
+        "lane:entry:10727"
+      ]
+    },
+    {
+      "meaning_id": "hwd_hawada_hump",
+      "headword_arabic": "هَوَدَةٌ",
+      "definition": "A camel’s hump, or the base of the hump.",
+      "usage_conditions": "The plural/collective form هَوَد is also reported for the hump substance.",
+      "source_refs": [
+        "lane:entry:10730"
+      ]
+    },
+    {
+      "meaning_id": "hwd_hawada_gentleness",
+      "headword_arabic": "هَوَادَةٌ",
+      "definition": "Gentleness, leniency, quietness, or a favorable and conciliatory disposition.",
+      "usage_conditions": "May describe conduct intended to settle an affair, bring peace or reconciliation, show affection or favor, or facilitate an arrangement.",
+      "source_refs": [
+        "lane:entry:10731"
+      ]
+    },
+    {
+      "meaning_id": "hwd_hawada_bond",
+      "headword_arabic": "هَوَادَةٌ",
+      "definition": "A sacred or inviolable bond, including a bond of relationship.",
+      "usage_conditions": "The bond is one regarded as deserving respect or reverence and as conferring a claim to consideration.",
+      "source_refs": [
+        "lane:entry:10731"
+      ]
+    },
+    {
+      "meaning_id": "hwd_haid",
+      "headword_arabic": "هَائِدٌ",
+      "definition": "One who returns, repents, and returns to the truth.",
+      "usage_conditions": "An active participle of هَادَ; its plural is هُودٌ.",
+      "source_refs": [
+        "lane:entry:10732"
+      ]
+    },
+    {
+      "meaning_id": "hwd_jewish_religion",
+      "headword_arabic": "اليَهُودِيَّةُ",
+      "definition": "The Jewish religion.",
+      "usage_conditions": "A feminine abstract noun denoting Judaism as a religious system.",
+      "source_refs": [
+        "lane:entry:10735"
+      ]
+    },
+    {
+      "meaning_id": "hwd_muhawwid_song",
+      "headword_arabic": "مُهَوِّدٌ",
+      "definition": "Low, quiet, or softly voiced singing.",
+      "usage_conditions": "Used of singing that is not loud.",
+      "source_refs": [
+        "lane:entry:10736"
+      ]
+    },
+    {
+      "meaning_id": "hwd_muhawwid_gladden",
+      "headword_arabic": "مُهَوِّدٌ",
+      "definition": "Gladdening and diverting.",
+      "usage_conditions": "An adjectival usage describing something that entertains or cheers.",
+      "source_refs": [
+        "lane:entry:10736"
+      ]
+    },
+    {
+      "meaning_id": "hwd_mutahawwid_alliance",
+      "headword_arabic": "مُتَهَوِّدٌ",
+      "definition": "One who allies himself, seeks alliance, or draws near through a sacred or inviolable bond.",
+      "usage_conditions": "An active participial designation derived from the alliance sense of تَهَوَّدَ.",
+      "source_refs": [
+        "lane:entry:10737"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hwd:10724:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_return_general",
+        "hwd_v1_s1"
+      ],
+      "note": "General return and repentant return are both represented."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10724:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_v1_s1"
+      ],
+      "note": "Quranic repentant return."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10724:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_v1_s2"
+      ],
+      "note": "Becoming Jewish."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_jew"
+      ],
+      "note": "Making or teaching someone to be Jewish."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_jinn"
+      ],
+      "note": "Gentle conversation of jinn."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_voice"
+      ],
+      "note": "Quavering or trilling voice."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_song"
+      ],
+      "note": "Singing and entertaining."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_walk"
+      ],
+      "note": "Gentle or leisurely movement."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_intoxicate"
+      ],
+      "note": "Intoxicating and inducing languor or sleep."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_voice"
+      ],
+      "note": "Weak, gentle, languid voice."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g3:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_voice"
+      ],
+      "note": "Low speech."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g3:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_walk"
+      ],
+      "note": "Slow and gentle pace."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g3:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_rest"
+      ],
+      "note": "Rest or stillness."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g3:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_sleep"
+      ],
+      "note": "Sleeping."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g3:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_gentle"
+      ],
+      "note": "Gentle behavior."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g3:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_wind"
+      ],
+      "note": "Gentle wind over sand."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10725:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahwid_hump_eat"
+      ],
+      "note": "Eating camel hump."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10726:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_muhawada_peace"
+      ],
+      "note": "Peace-making and reconciliation."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10726:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_muhawada_incline"
+      ],
+      "note": "Mutual inclination."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10726:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_muhawada_return"
+      ],
+      "note": "Repeated return."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10727:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entries 1 and 2."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10727:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahawwad_walk"
+      ],
+      "note": "Imitative gentle walking."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10727:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_tahawwad_alliance"
+      ],
+      "note": "Alliance through an inviolable bond."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10728:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to يَهُودُ."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10729:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to هَوَدَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10730:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_hawada_hump"
+      ],
+      "note": "Camel hump or hump base."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10731:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_hawada_gentleness"
+      ],
+      "note": "Gentleness, leniency, quietness, and conciliatory favor."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10731:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_hawada_bond"
+      ],
+      "note": "Sacred or inviolable bond."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10732:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_haid"
+      ],
+      "note": "Returning or repentant person."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10733:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_huwd2_s1"
+      ],
+      "note": "The Jews as a tribe or people; Quran-attested lexical evidence."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10734:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to يَهُودُ."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10735:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_jewish_religion"
+      ],
+      "note": "The Jewish religion."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10736:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_muhawwid_song"
+      ],
+      "note": "Low or quiet singing."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10736:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_muhawwid_gladden"
+      ],
+      "note": "Gladdening and diverting."
+    },
+    {
+      "unit_id": "lane-unit:hwd:10737:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hwd_mutahawwid_alliance"
+      ],
+      "note": "One who seeks alliance through a sacred bond."
+    }
+  ],
+  "cautions": [
+    "The identical spelling هُود represents two distinct QAC proper-noun groups here: the prophet Hūd and the Jewish people.",
+    "Lane’s historical citation for هُودًا in entry 10733 is not converted into a modern verse location; Quran examples use only the independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

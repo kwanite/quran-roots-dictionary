@@ -1,0 +1,400 @@
+{
+  "root": "mll",
+  "arabic": "ملل",
+  "root_idea": {
+    "summary": "The root reflects two principal orientations: turning or manipulating something, especially in heat, and a directed purpose or way. A related branch expresses aversion, weariness, and disgust.",
+    "development": "The turning-and-heat orientation yields meanings connected with baking, hot ashes, and implements moved in the eye, with further developments involving marked paths, restlessness, and hurried movement. The Quranic مِلَّة denotes a prescribed prophetic way, while the Form IV verb أَمَلَّ is associated with dictating or causing writing to be recorded.",
+    "source_refs": [
+      "maqayis:row:4449",
+      "mufradat:row:1389"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mll:yumil~a:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mll:formiv:amalla",
+      "reason": "Quran-attested Form IV verb, normalized from the imperfect Quran forms to the classical perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:mll:mil~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mll:noun:milla",
+      "reason": "Quran-attested nominal headword مِلَّة, a distinct lexical item meaning a religious way or creed."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mll:formiv:amalla",
+      "form_group_ids": [
+        "qac-form:mll:yumil~a:verb:IV"
+      ],
+      "headword_arabic": "أَمَلَّ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "mll:formiv:s1",
+          "definition": "To dictate; to have words recited or stated for them to be written down.",
+          "usage_conditions": "In the Quranic construction, the person responsible for the debt dictates the written terms; a representative may dictate when that person cannot do so.",
+          "source_refs": [
+            "mufradat:row:1389"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:282",
+          "word_location": "2:282:24",
+          "sense_ids": [
+            "mll:formiv:s1"
+          ]
+        },
+        {
+          "verse_key": "2:282",
+          "word_location": "2:282:47",
+          "sense_ids": [
+            "mll:formiv:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mll:noun:milla",
+      "form_group_ids": [
+        "qac-form:mll:mil~ap:nominal:-"
+      ],
+      "headword_arabic": "مِلَّة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 15,
+      "senses": [
+        {
+          "sense_id": "mll:milla:s1",
+          "definition": "A religion, revealed way, or creed: the system of belief and practice transmitted through a prophet.",
+          "usage_conditions": "Characteristically denotes a prophetic revealed way and commonly occurs in an attribution such as مِلَّةُ إِبْرَاهِيمَ or مِلَّةُ آبَائِي. Quranic possessive constructions can refer contextually to a group's or community's religion, and the term is distinguished from دِين by its emphasis on the prophetic bearer of the revealed law.",
+          "source_refs": [
+            "lane:entry:5802",
+            "mufradat:row:1389"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:95",
+          "word_location": "3:95:5",
+          "sense_ids": [
+            "mll:milla:s1"
+          ]
+        },
+        {
+          "verse_key": "12:38",
+          "word_location": "12:38:2",
+          "sense_ids": [
+            "mll:milla:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mll:cl:roast",
+      "headword_arabic": "مَلَّ",
+      "definition": "To put or turn bread or meat in hot ashes to bake or roast it.",
+      "usage_conditions": "Used of preparing food in a bed of heated ashes or hot dust.",
+      "source_refs": [
+        "lane:entry:5798",
+        "maqayis:row:4449",
+        "mufradat:row:1389"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:tack",
+      "headword_arabic": "مَلَّ",
+      "definition": "To tack or baste a garment or piece of cloth.",
+      "usage_conditions": "The preliminary, lighter sewing is performed before the stronger final stitching.",
+      "source_refs": [
+        "lane:entry:5798"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:aversion",
+      "headword_arabic": "مَلَّ",
+      "definition": "To become averse to, weary of, or disgusted with something; to turn away from it in aversion.",
+      "usage_conditions": "The related expression مَلَّ مَلالُكَ is a wish that one's disgust or weariness cease.",
+      "source_refs": [
+        "lane:entry:5798",
+        "mufradat:row:1389"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:follow-religion",
+      "headword_arabic": "اِمْتَلَّ",
+      "definition": "To follow a religious way or adhere to a creed.",
+      "usage_conditions": "Attested in the construction اِمْتَلَّ مِلَّتَهُ, literally following his religious way.",
+      "source_refs": [
+        "lane:entry:5800"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:hearth",
+      "headword_arabic": "مَلَّة",
+      "definition": "A baking pit or bed of hot dust and ashes in which bread is baked; in the expression خُبْزُ مَلَّةٍ, bread baked in such ashes.",
+      "usage_conditions": "Refers to the heated ashes, earth, or hollow used for baking rather than to a religious مِلَّة.",
+      "source_refs": [
+        "lane:entry:5801"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:frequent-disgust",
+      "headword_arabic": "مَلُول",
+      "definition": "One who frequently feels disgust or weariness.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:5803"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:sun-scorched",
+      "headword_arabic": "مَلِيل",
+      "definition": "A man scorched or burned by the sun.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:5805"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:fire-placed",
+      "headword_arabic": "مَلِيل",
+      "definition": "Something placed in the fire, especially for cooking.",
+      "usage_conditions": "This is distinct from the separately attested use for a person scorched by the sun.",
+      "source_refs": [
+        "mufradat:row:1389"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:coals-covered",
+      "headword_arabic": "مَمْلُول",
+      "definition": "Meat covered over with live coals for cooking.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:5806"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:heat",
+      "headword_arabic": "مَلِيلَة",
+      "definition": "A feverish heat felt in the bones or body.",
+      "usage_conditions": "",
+      "source_refs": [
+        "mufradat:row:1389"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:cause-disgust",
+      "headword_arabic": "أَمَلَّ",
+      "definition": "To cause someone to become weary or disgusted; to make someone tire of something.",
+      "usage_conditions": "A causative use in which one person brings about another person's weariness or aversion; this is distinct from the dictation use of the same Form IV verb.",
+      "source_refs": [
+        "mufradat:row:1389"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:worn-path",
+      "headword_arabic": "مُمَلّ",
+      "definition": "A path repeatedly travelled until it becomes marked or familiar.",
+      "usage_conditions": "",
+      "source_refs": [
+        "maqayis:row:4449"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:restless",
+      "headword_arabic": "تَمَلْمَلَ",
+      "definition": "To toss, turn, or writhe restlessly, especially on a bed.",
+      "usage_conditions": "",
+      "source_refs": [
+        "maqayis:row:4449"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:run",
+      "headword_arabic": "اِمْتَلَّ",
+      "definition": "To run with some haste or increased speed.",
+      "usage_conditions": "A separate classical use of اِمْتَلَّ from the religious-following construction.",
+      "source_refs": [
+        "maqayis:row:4449"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:writing-stylus",
+      "headword_arabic": "مُلْمُول",
+      "definition": "An iron stylus used for writing on tablets.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:5807"
+      ]
+    },
+    {
+      "meaning_id": "mll:cl:kohl-stylus",
+      "headword_arabic": "مُلْمُول",
+      "definition": "A stylus or bodkin used to apply collyrium or kohl to the eyes.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:5807"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mll:5798:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:roast"
+      ],
+      "note": "Food preparation in hot ashes."
+    },
+    {
+      "unit_id": "lane-unit:mll:5798:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:tack"
+      ],
+      "note": "Preliminary tacking or sewing."
+    },
+    {
+      "unit_id": "lane-unit:mll:5798:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:aversion"
+      ],
+      "note": "Aversion, weariness, and disgust."
+    },
+    {
+      "unit_id": "lane-unit:mll:5798:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mll:cl:aversion"
+      ],
+      "note": "Idiomatic expression involving the cessation of disgust is covered by the aversion entry."
+    },
+    {
+      "unit_id": "lane-unit:mll:5799:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article without a stated lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:mll:5799:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Example pointer without a stated lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:mll:5800:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:follow-religion"
+      ],
+      "note": "Following a religious way."
+    },
+    {
+      "unit_id": "lane-unit:mll:5801:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:hearth"
+      ],
+      "note": "Baking pit and hot ashes."
+    },
+    {
+      "unit_id": "lane-unit:mll:5801:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mll:cl:hearth"
+      ],
+      "note": "Hot ashes and earth are covered by the hearth meaning."
+    },
+    {
+      "unit_id": "lane-unit:mll:5801:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mll:cl:hearth"
+      ],
+      "note": "Bread baked in hot ashes is included as the associated expression."
+    },
+    {
+      "unit_id": "lane-unit:mll:5802:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:milla:s1"
+      ],
+      "note": "Religion or way of belief and practice."
+    },
+    {
+      "unit_id": "lane-unit:mll:5802:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form VIII entry."
+    },
+    {
+      "unit_id": "lane-unit:mll:5803:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:frequent-disgust"
+      ],
+      "note": "Disposition toward frequent disgust."
+    },
+    {
+      "unit_id": "lane-unit:mll:5804:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the aversion entry without an independent definition."
+    },
+    {
+      "unit_id": "lane-unit:mll:5805:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:sun-scorched"
+      ],
+      "note": "Person burned by the sun."
+    },
+    {
+      "unit_id": "lane-unit:mll:5806:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:coals-covered"
+      ],
+      "note": "Meat covered with live coals."
+    },
+    {
+      "unit_id": "lane-unit:mll:5806:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the مَلِيل entry."
+    },
+    {
+      "unit_id": "lane-unit:mll:5807:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:writing-stylus",
+        "mll:cl:kohl-stylus"
+      ],
+      "note": "Two distinct implement uses: writing and applying kohl."
+    },
+    {
+      "unit_id": "lane-unit:mll:5807:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mll:cl:kohl-stylus"
+      ],
+      "note": "Stylus or bodkin for applying collyrium."
+    }
+  ],
+  "cautions": [
+    "The Quranic Form IV occurrences are all imperfect or jussive forms in 2:282; the public headword is normalized to the perfect أَمَلَّ.",
+    "مَلِيل is attested here with two distinct Classical meanings—something placed in the fire and a person scorched by the sun—and they should not be conflated."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,981 @@
+{
+  "root": "jlw",
+  "arabic": "جلو",
+  "root_idea": {
+    "summary": "The root centers on the uncovering, emergence, and becoming-visible of something.",
+    "development": "From this orientation develop becoming manifest, making something clear or visible, polishing by removing obscurity, and departure or expulsion from a place. Related bodily, atmospheric, and figurative uses extend the same imagery of exposure and removal.",
+    "source_refs": [
+      "maqayis:row:1207",
+      "mufradat:row:261"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jlw:tajal~aY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-jlw-tajalla",
+      "reason": "Quran-attested intransitive verb group with distinct usages of becoming manifest or bright."
+    },
+    {
+      "form_group_id": "qac-form:jlw:jal~aY`:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-jlw-jalla",
+      "reason": "Quran-attested causative verb group meaning to make visible or manifest."
+    },
+    {
+      "form_group_id": "qac-form:jlw:jalaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-jlw-jalaa",
+      "reason": "Quran-attested nominal form with the specialized sense of exile."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-jlw-tajalla",
+      "form_group_ids": [
+        "qac-form:jlw:tajal~aY`:verb:I"
+      ],
+      "headword_arabic": "تَجَلَّىٰ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense-tajalla-01",
+          "definition": "To become clear, exposed, visible, or bright.",
+          "usage_conditions": "Used of something becoming manifest in itself; in the Quran this includes the daylight becoming bright and clear.",
+          "source_refs": [
+            "lane:entry:47225",
+            "mufradat:row:261"
+          ]
+        },
+        {
+          "sense_id": "sense-tajalla-02",
+          "definition": "To become manifest to something or someone.",
+          "usage_conditions": "A transitive-with-preposition construction of manifestation to an object, as in the Quranic account of the Lord’s manifestation to the mountain; the sources report differing explanations of the mode of manifestation.",
+          "source_refs": [
+            "lane:entry:47225",
+            "mufradat:row:261"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:143",
+          "word_location": "7:143:25",
+          "sense_ids": [
+            "sense-tajalla-02"
+          ]
+        },
+        {
+          "verse_key": "92:2",
+          "word_location": "92:2:3",
+          "sense_ids": [
+            "sense-tajalla-01"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-jlw-jalla",
+      "form_group_ids": [
+        "qac-form:jlw:jal~aY`:verb:II"
+      ],
+      "headword_arabic": "جَلَّىٰ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense-jalla-01",
+          "definition": "To make something clear, visible, exposed, or manifest; to display or disclose it.",
+          "usage_conditions": "A causative transitive use: the object may be physically displayed or made manifest, or an affair may be disclosed.",
+          "source_refs": [
+            "lane:entry:47225"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:187",
+          "word_location": "7:187:12",
+          "sense_ids": [
+            "sense-jalla-01"
+          ]
+        },
+        {
+          "verse_key": "91:3",
+          "word_location": "91:3:3",
+          "sense_ids": [
+            "sense-jalla-01"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-jlw-jalaa",
+      "form_group_ids": [
+        "qac-form:jlw:jalaA^':nominal:-"
+      ],
+      "headword_arabic": "جَلَاءٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-jalaa-01",
+          "definition": "Exile; departure or expulsion from a homeland.",
+          "usage_conditions": "In the Quranic construction, the noun denotes the enforced removal or departure of a people from their homes.",
+          "source_refs": [
+            "mufradat:row:261",
+            "lane:entry:47225"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "59:3",
+          "word_location": "59:3:6",
+          "sense_ids": [
+            "sense-jalaa-01"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-jala-departure",
+      "headword_arabic": "جَلَا",
+      "definition": "To leave or emigrate from a country, town, home, or place; to disperse or flee from it.",
+      "usage_conditions": "The sources also report departure or dispersal caused by fear or drought, and departure while being driven away.",
+      "source_refs": [
+        "lane:entry:47225"
+      ]
+    },
+    {
+      "meaning_id": "cm-jala-baldness",
+      "headword_arabic": "جَلًا",
+      "definition": "Partial baldness, especially of the forepart or half of the head.",
+      "usage_conditions": "The term denotes a degree of baldness less than complete baldness; the related verb describes the forepart of the head becoming bald.",
+      "source_refs": [
+        "lane:entry:47225"
+      ]
+    },
+    {
+      "meaning_id": "cm-jala-polish",
+      "headword_arabic": "جَلَا",
+      "definition": "To remove rust or an obscuring deposit and polish a sword, mirror, silver, or similar object.",
+      "usage_conditions": "The object is made bright by clearing its surface.",
+      "source_refs": [
+        "lane:entry:47225"
+      ]
+    },
+    {
+      "meaning_id": "cm-jala-remove",
+      "headword_arabic": "جَلَا",
+      "definition": "To remove or clear away anxiety, illness, or another affliction.",
+      "usage_conditions": "A figurative transitive use in which the affliction is caused to depart from a person.",
+      "source_refs": [
+        "lane:entry:47225"
+      ]
+    },
+    {
+      "meaning_id": "cm-jala-expel",
+      "headword_arabic": "جَلَا",
+      "definition": "To cause a person or group to leave, emigrate, or be expelled.",
+      "usage_conditions": "The subject may be a person, a ruler, or an event such as drought; the object is driven from its home or place.",
+      "source_refs": [
+        "lane:entry:47225"
+      ]
+    },
+    {
+      "meaning_id": "cm-jala-bees",
+      "headword_arabic": "جَلَا",
+      "definition": "To drive bees out with smoke in order to collect the honey.",
+      "usage_conditions": "A specialized causative use applied to bees.",
+      "source_refs": [
+        "lane:entry:47225"
+      ]
+    },
+    {
+      "meaning_id": "cm-jala-bride-display",
+      "headword_arabic": "جَلَا العَرُوسَ",
+      "definition": "To present or display a bride to her husband.",
+      "usage_conditions": "The construction may also describe the husband looking at the bride after her presentation.",
+      "source_refs": [
+        "lane:entry:47225"
+      ]
+    },
+    {
+      "meaning_id": "cm-jalla-hawk",
+      "headword_arabic": "جَلَّى",
+      "definition": "Of a hawk or falcon, to raise its head and look toward prey, or to open its eyes so as to see more clearly.",
+      "usage_conditions": "The related expression جَلَّى بِبَصَرِهِ describes casting the eyes like a hawk looking at prey.",
+      "source_refs": [
+        "lane:entry:47226"
+      ]
+    },
+    {
+      "meaning_id": "cm-jalla-outstrip",
+      "headword_arabic": "جَلَّى",
+      "definition": "To outstrip or come first in a race.",
+      "usage_conditions": "This sense is reported on the authority of one source and is not otherwise widely attested in the entry.",
+      "source_refs": [
+        "lane:entry:47226"
+      ]
+    },
+    {
+      "meaning_id": "cm-jalaytu-openly",
+      "headword_arabic": "جَالَيْتُهُ بِالأَمْرِ",
+      "definition": "To act openly with someone concerning an affair.",
+      "usage_conditions": "A reciprocal Form III construction involving openness in dealing with another person.",
+      "source_refs": [
+        "lane:entry:47227"
+      ]
+    },
+    {
+      "meaning_id": "cm-ajla-withdraw",
+      "headword_arabic": "أَجْلَى",
+      "definition": "To clear oneself away or withdraw from a slain person.",
+      "usage_conditions": "The source gives this as a specialized intransitive construction.",
+      "source_refs": [
+        "lane:entry:47228"
+      ]
+    },
+    {
+      "meaning_id": "cm-ajla-hasten",
+      "headword_arabic": "أَجْلَى",
+      "definition": "To hasten while running; to become distant or remote and hasten.",
+      "usage_conditions": "An intransitive use with emphasis on rapid movement or increasing distance.",
+      "source_refs": [
+        "lane:entry:47228"
+      ]
+    },
+    {
+      "meaning_id": "cm-tajalla-look",
+      "headword_arabic": "تَجَلَّى الشَّيْءَ",
+      "definition": "To look at a thing from a higher position.",
+      "usage_conditions": "This Form V use describes viewing an object while standing above it.",
+      "source_refs": [
+        "lane:entry:47229"
+      ]
+    },
+    {
+      "meaning_id": "cm-tajalayna-mutual",
+      "headword_arabic": "تَجَالَيْنَا",
+      "definition": "Our states or conditions became disclosed to one another.",
+      "usage_conditions": "A reciprocal construction describing mutual revelation of each party’s condition.",
+      "source_refs": [
+        "lane:entry:47230"
+      ]
+    },
+    {
+      "meaning_id": "cm-injala-clearaway",
+      "headword_arabic": "اِنْجَلَى",
+      "definition": "To become removed or cleared away, especially of anxiety, darkness, or an affair.",
+      "usage_conditions": "The construction اِنْجَلَى عَنْهُ الهَمُّ means that anxiety departed from him; darkness is used as a comparison.",
+      "source_refs": [
+        "lane:entry:47231"
+      ]
+    },
+    {
+      "meaning_id": "cm-ijtala-look",
+      "headword_arabic": "اِجْتَلَى",
+      "definition": "To look at or view a person or thing.",
+      "usage_conditions": "The sense includes looking at a bride after her presentation.",
+      "source_refs": [
+        "lane:entry:47232"
+      ]
+    },
+    {
+      "meaning_id": "cm-ijtala-uncover",
+      "headword_arabic": "اِجْتَلَى",
+      "definition": "To raise or remove a turban from the side of the forehead.",
+      "usage_conditions": "A specialized physical uncovering of the forehead while folding back the turban.",
+      "source_refs": [
+        "lane:entry:47232"
+      ]
+    },
+    {
+      "meaning_id": "cm-ijtala-polish",
+      "headword_arabic": "اِجْتَلَى",
+      "definition": "To become polished or furbished, said of a sword and similar objects.",
+      "usage_conditions": "An intransitive resultative use describing an object becoming bright and polished.",
+      "source_refs": [
+        "lane:entry:47232"
+      ]
+    },
+    {
+      "meaning_id": "cm-ijlawla-emigrate",
+      "headword_arabic": "اِجْلَوْلَى",
+      "definition": "To go forth or emigrate from one country or town to another.",
+      "usage_conditions": "A specialized Form XII verb of relocation.",
+      "source_refs": [
+        "lane:entry:47233"
+      ]
+    },
+    {
+      "meaning_id": "cm-ibnjala-famous",
+      "headword_arabic": "اِبْنُ جَلَا",
+      "definition": "A well-known, celebrated, or conspicuous person.",
+      "usage_conditions": "The idiom can refer to someone whose affairs are manifest or whose elevated position makes him conspicuous; it is also used as a personal name.",
+      "source_refs": [
+        "lane:entry:47234"
+      ]
+    },
+    {
+      "meaning_id": "cm-ibnjala-dawn",
+      "headword_arabic": "اِبْنُ جَلَا",
+      "definition": "The dawn, the beginning of day, or, according to another report, the moon.",
+      "usage_conditions": "These are reported figurative or alternative interpretations of the idiom, distinct from its use for a famous person.",
+      "source_refs": [
+        "lane:entry:47234"
+      ]
+    },
+    {
+      "meaning_id": "cm-jilwa-bridal-gift",
+      "headword_arabic": "جِلْوَةٌ",
+      "definition": "A bridal gift presented by the husband to the bride at the time of her presentation.",
+      "usage_conditions": "The gift may be a female slave or another object.",
+      "source_refs": [
+        "lane:entry:47237"
+      ]
+    },
+    {
+      "meaning_id": "cm-jalaa-apparent",
+      "headword_arabic": "جَلَاءٌ",
+      "definition": "An apparent, manifest, plain, or evident thing, affair, or case.",
+      "usage_conditions": "This nominal sense concerns the state of being clear, not the Quranic specialized sense of exile.",
+      "source_refs": [
+        "lane:entry:47238"
+      ]
+    },
+    {
+      "meaning_id": "cm-jalaa-confession",
+      "headword_arabic": "جَلَاءٌ",
+      "definition": "Acknowledgment or confession; in an alternate interpretation, evidence or proof accompanied by witnesses.",
+      "usage_conditions": "The sources preserve differing vocalization and interpretation for this legal or evidentiary use.",
+      "source_refs": [
+        "lane:entry:47238"
+      ]
+    },
+    {
+      "meaning_id": "cm-jalaa-daylight",
+      "headword_arabic": "جَلَاءٌ",
+      "definition": "The whiteness or bright duration of the day.",
+      "usage_conditions": "Used in the expression for remaining somewhere during the brightness of a day.",
+      "source_refs": [
+        "lane:entry:47238"
+      ]
+    },
+    {
+      "meaning_id": "cm-jilaa-collyrium",
+      "headword_arabic": "جِلَاءٌ",
+      "definition": "Collyrium, especially a kind that clears the sight; antimony.",
+      "usage_conditions": "The name is explained by its sight-clearing effect.",
+      "source_refs": [
+        "lane:entry:47239"
+      ]
+    },
+    {
+      "meaning_id": "cm-majalaa-honourable-name",
+      "headword_arabic": "مَا جَلَاؤُهُ",
+      "definition": "A person’s honourable or good name or surname by which he is addressed.",
+      "usage_conditions": "A conventional interrogative expression about a person’s distinguished name.",
+      "source_refs": [
+        "lane:entry:47239"
+      ]
+    },
+    {
+      "meaning_id": "cm-jali-clear",
+      "headword_arabic": "جَلِيٌّ",
+      "definition": "Clear, unobscured, exposed, manifest, evident, or obvious.",
+      "usage_conditions": "Used adjectivally of information, tidings, analogy, or a rule.",
+      "source_refs": [
+        "lane:entry:47240"
+      ]
+    },
+    {
+      "meaning_id": "cm-jaliya-seeing-eye",
+      "headword_arabic": "عَيْنٌ جَلِيَّةٌ",
+      "definition": "A seeing or perceptive eye.",
+      "usage_conditions": "A conventional description of an eye with clear sight.",
+      "source_refs": [
+        "lane:entry:47240"
+      ]
+    },
+    {
+      "meaning_id": "cm-jaliyya-information",
+      "headword_arabic": "جَلِيَّةٌ",
+      "definition": "Sure information or tidings; the true or real state of an affair.",
+      "usage_conditions": "A nominalized feminine form used for established information about a matter.",
+      "source_refs": [
+        "lane:entry:47241"
+      ]
+    },
+    {
+      "meaning_id": "cm-jallaa-medicine",
+      "headword_arabic": "دَوَاءٌ جَلَّاءٌ",
+      "definition": "A medicine that clears the complexion or skin.",
+      "usage_conditions": "A specialized adjectival use of جَلَّاءٌ for a cleansing or beautifying medicine.",
+      "source_refs": [
+        "lane:entry:47242"
+      ]
+    },
+    {
+      "meaning_id": "cm-jiliyan-making-clear",
+      "headword_arabic": "جِلِيَّانٌ",
+      "definition": "The act of making something apparent, open, manifest, plain, or evident.",
+      "usage_conditions": "A verbal noun denoting the process of clarification or exposure.",
+      "source_refs": [
+        "lane:entry:47243"
+      ]
+    },
+    {
+      "meaning_id": "cm-jali-emigrant",
+      "headword_arabic": "جَالٍ",
+      "definition": "One who goes forth or emigrates from his country or town.",
+      "usage_conditions": "The related collective جَالِيَةٌ can denote a company or people who have left their homes.",
+      "source_refs": [
+        "lane:entry:47244"
+      ]
+    },
+    {
+      "meaning_id": "cm-jaliya-protected-subjects",
+      "headword_arabic": "جَالِيَةٌ",
+      "definition": "A group of emigrants, especially the non-Muslim protected subjects of a Muslim government.",
+      "usage_conditions": "The latter institutional use was extended to certain Jews and other scriptural or Magian communities subject to the poll tax, even when they had not personally emigrated.",
+      "source_refs": [
+        "lane:entry:47244"
+      ]
+    },
+    {
+      "meaning_id": "cm-jaliya-poll-tax",
+      "headword_arabic": "الجَالِيَة",
+      "definition": "The poll tax imposed on the protected non-Muslim subjects described by جَالِيَةٌ.",
+      "usage_conditions": "A substantivized use derived from the designation of those communities.",
+      "source_refs": [
+        "lane:entry:47244"
+      ]
+    },
+    {
+      "meaning_id": "cm-ajla-adjective",
+      "headword_arabic": "أَجْلَى",
+      "definition": "Bald at the forepart or sides of the forehead; by extension, handsome in face with this feature.",
+      "usage_conditions": "The adjective describes partial baldness rather than complete baldness.",
+      "source_refs": [
+        "lane:entry:47246"
+      ]
+    },
+    {
+      "meaning_id": "cm-jalwaa",
+      "headword_arabic": "جَلْوَاءٌ",
+      "definition": "A wide forehead; also, a cloudless sky or a bright, cloudless night.",
+      "usage_conditions": "The atmospheric use is figurative, describing an unobscured expanse.",
+      "source_refs": [
+        "lane:entry:47246"
+      ]
+    },
+    {
+      "meaning_id": "cm-ibnajla-lion",
+      "headword_arabic": "اِبْنُ أَجْلَى",
+      "definition": "A lion.",
+      "usage_conditions": "A reported figurative use of the related idiom ابن أجلى.",
+      "source_refs": [
+        "lane:entry:47246"
+      ]
+    },
+    {
+      "meaning_id": "cm-minajlaka",
+      "headword_arabic": "مِنْ إِجْلَاكَ",
+      "definition": "Because of you, on your account, or for your sake.",
+      "usage_conditions": "An idiomatic causal expression equivalent to مِنْ أَجْلِكَ.",
+      "source_refs": [
+        "lane:entry:47246",
+        "lane:entry:47247"
+      ]
+    },
+    {
+      "meaning_id": "cm-majla-headfront",
+      "headword_arabic": "مَجْلًى",
+      "definition": "The forepart of the head, especially the first place where baldness appears; the part of the head visible when facing someone.",
+      "usage_conditions": "A singular noun related to the plural مَجَالٍ.",
+      "source_refs": [
+        "lane:entry:47248"
+      ]
+    },
+    {
+      "meaning_id": "cm-mujli-exiling",
+      "headword_arabic": "مُجْلٍ",
+      "definition": "Causing someone to emigrate or be driven from home.",
+      "usage_conditions": "Used adjectivally of something such as a war that forces people into exile.",
+      "source_refs": [
+        "lane:entry:47249"
+      ]
+    },
+    {
+      "meaning_id": "cm-mujalli-race",
+      "headword_arabic": "المُجَلِّي",
+      "definition": "The first horse in a race.",
+      "usage_conditions": "A substantivized racing term.",
+      "source_refs": [
+        "lane:entry:47250"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jlw:47225:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-tajalla-01",
+        "sense-tajalla-02"
+      ],
+      "note": "Clear manifestation and the cited Quranic manifestation usages are covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47225:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jala-departure"
+      ],
+      "note": "Departure, emigration, and dispersal are covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47225:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jala-baldness"
+      ],
+      "note": "Partial baldness is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47225:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-jalla-01",
+        "cm-jala-bride-display"
+      ],
+      "note": "Causative disclosure and bridal presentation are covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47225:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jala-polish",
+        "cm-jala-remove"
+      ],
+      "note": "Polishing, clearing sight, and removing affliction are covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47225:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jala-expel",
+        "cm-jala-bees"
+      ],
+      "note": "Expelling people and smoking out bees are covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47226:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47226:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jalla-hawk"
+      ],
+      "note": "The hawk’s looking behavior is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47226:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-jalla-hawk"
+      ],
+      "note": "The associated hawk-like casting of the eyes is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47226:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jalla-outstrip"
+      ],
+      "note": "The reported verb meaning outstrip is retained."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47227:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jalaytu-openly"
+      ],
+      "note": "Acting openly in an affair is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47228:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47228:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ajla-withdraw"
+      ],
+      "note": "Withdrawal from a slain person is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47228:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ajla-hasten"
+      ],
+      "note": "Hastening and becoming distant are covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47228:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47229:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47229:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47229:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tajalla-look"
+      ],
+      "note": "Looking at a thing from above is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47230:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tajalayna-mutual"
+      ],
+      "note": "Mutual disclosure of states is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47231:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-injala-clearaway"
+      ],
+      "note": "Anxiety or darkness becoming cleared away is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47232:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ijtala-look"
+      ],
+      "note": "Looking at a person or thing is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47232:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47232:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ijtala-uncover"
+      ],
+      "note": "Raising the turban from the forehead is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47232:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ijtala-polish"
+      ],
+      "note": "Becoming polished is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47233:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ijlawla-emigrate"
+      ],
+      "note": "Emigration between countries or towns is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47234:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ibnjala-famous"
+      ],
+      "note": "The famous or conspicuous person idiom is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47234:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ibnjala-dawn"
+      ],
+      "note": "The reported dawn, beginning-of-day, and moon interpretations are covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47235:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47235:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47236:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47237:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jilwa-bridal-gift"
+      ],
+      "note": "The bridal gift sense is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47238:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jalaa-apparent"
+      ],
+      "note": "An apparent or manifest affair is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47238:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jalaa-confession"
+      ],
+      "note": "Confession and the alternate evidentiary interpretation are covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47238:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jalaa-daylight"
+      ],
+      "note": "The bright duration of the day is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47238:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47239:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47239:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jilaa-collyrium"
+      ],
+      "note": "Sight-clearing collyrium is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47239:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-majalaa-honourable-name"
+      ],
+      "note": "The honourable-name expression is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47240:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jali-clear"
+      ],
+      "note": "The adjective meaning clear or evident is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47240:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jaliya-seeing-eye"
+      ],
+      "note": "The seeing-eye expression is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47241:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jaliyya-information"
+      ],
+      "note": "Sure information is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47241:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-jaliyya-information"
+      ],
+      "note": "The true state of an affair is covered by the same information sense."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47242:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jallaa-medicine"
+      ],
+      "note": "The skin-clearing medicine is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47243:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jiliyan-making-clear"
+      ],
+      "note": "The act of making apparent is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47244:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jali-emigrant",
+        "cm-jaliya-protected-subjects"
+      ],
+      "note": "The emigrant and later protected-subject uses are both covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47244:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jaliya-poll-tax"
+      ],
+      "note": "The poll-tax use is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47244:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an entry in another root."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47245:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47246:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ajla-adjective"
+      ],
+      "note": "The partial-baldness adjective is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47246:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-ajla-adjective"
+      ],
+      "note": "The associated handsome-in-face application is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47246:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jalwaa"
+      ],
+      "note": "The wide-forehead expression is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47246:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-jalwaa"
+      ],
+      "note": "The cloudless-sky and bright-night applications are covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47246:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47246:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ibnajla-lion"
+      ],
+      "note": "The reported lion use is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47246:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-minajlaka"
+      ],
+      "note": "The causal idiom meaning because of you is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47247:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47248:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-majla-headfront"
+      ],
+      "note": "The forepart of the head is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47249:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mujli-exiling"
+      ],
+      "note": "The adjective for causing emigration is covered."
+    },
+    {
+      "unit_id": "lane-unit:jlw:47250:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mujalli-race"
+      ],
+      "note": "The first horse in a race is covered."
+    }
+  ],
+  "cautions": [
+    "The Quranic locations and word identities follow QAC. Lane’s historical Quran references in this entry are not converted into modern verse locations when they do not independently match the supplied QAC locations.",
+    "The interpretation of the manifestation in 7:143 is reported in more than one way; the lexical construction is secure even though the mode of manifestation is disputed."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

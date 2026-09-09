@@ -1,0 +1,1109 @@
+{
+  "root": "Eml",
+  "arabic": "عمل",
+  "root_idea": {
+    "summary": "A performed act or deed, especially purposeful action and work.",
+    "development": "The root's central notion extends from doing and working to deeds, workers and agents, employing or causing work, mutual dealing, wages, and specialized tools or products associated with work.",
+    "source_refs": [
+      "maqayis:row:3314",
+      "mufradat:row:1010"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Eml:Eamila:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-Eml-amila",
+      "reason": "Normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Eml:EaAmilap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf-Eml-amil",
+      "reason": "Feminine active-participle form is subsumed under the masculine participial citation headword عَامِلٌ; its feminine Quranic use remains represented by the supplied example."
+    },
+    {
+      "form_group_id": "qac-form:Eml:Ea`mil:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-Eml-amil",
+      "reason": "Active participle citation form for the Quranic worker and administrator senses."
+    },
+    {
+      "form_group_id": "qac-form:Eml:Eamal:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf-Eml-amal",
+      "reason": "Nominal citation form عَمَلٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf-Eml-amila",
+      "form_group_ids": [
+        "qac-form:Eml:Eamila:verb:I"
+      ],
+      "headword_arabic": "عَمِلَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 276,
+      "senses": [
+        {
+          "sense_id": "s-Eml-amila-1",
+          "definition": "To do, perform, act, work, or render service.",
+          "usage_conditions": "An active Form I verb for purposeful action or work; it is used of both beneficial and blameworthy acts and may take a deed, task, or other object.",
+          "source_refs": [
+            "lane:entry:4796",
+            "mufradat:row:1010"
+          ]
+        },
+        {
+          "sense_id": "s-Eml-amila-2",
+          "definition": "To make, manufacture, construct, or produce something.",
+          "usage_conditions": "A transitive use in which the object is a thing made, wrought, manufactured, or constructed.",
+          "source_refs": [
+            "lane:entry:4796"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "103:3",
+          "word_location": "103:3:4",
+          "sense_ids": [
+            "s-Eml-amila-1"
+          ]
+        },
+        {
+          "verse_key": "34:11",
+          "word_location": "34:11:2",
+          "sense_ids": [
+            "s-Eml-amila-2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf-Eml-amil",
+      "form_group_ids": [
+        "qac-form:Eml:Ea`mil:nominal:-",
+        "qac-form:Eml:EaAmilap:nominal:-"
+      ],
+      "headword_arabic": "عَامِلٌ",
+      "public_pos_label": "Active participle / adjective",
+      "verb_form": null,
+      "occurrence_count": 13,
+      "senses": [
+        {
+          "sense_id": "s-Eml-amil-1",
+          "definition": "One who works, labors, serves, acts, or performs; a worker or doer.",
+          "usage_conditions": "The feminine form عَامِلَةٌ is included in this participial entry; the Quran uses the form adjectivally of one engaged in labor.",
+          "source_refs": [
+            "lane:entry:4819"
+          ]
+        },
+        {
+          "sense_id": "s-Eml-amil-2",
+          "definition": "An administrator or agent managing affairs, especially an officer who collects or administers alms.",
+          "usage_conditions": "A conventional administrative use; in the Quran, الْعَامِلِينَ عَلَيْهَا denotes those appointed over the collection or administration of alms.",
+          "source_refs": [
+            "lane:entry:4819",
+            "mufradat:row:1010"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:136",
+          "word_location": "3:136:15",
+          "sense_ids": [
+            "s-Eml-amil-1"
+          ]
+        },
+        {
+          "verse_key": "9:60",
+          "word_location": "9:60:5",
+          "sense_ids": [
+            "s-Eml-amil-2"
+          ]
+        },
+        {
+          "verse_key": "88:3",
+          "word_location": "88:3:1",
+          "sense_ids": [
+            "s-Eml-amil-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf-Eml-amal",
+      "form_group_ids": [
+        "qac-form:Eml:Eamal:nominal:-"
+      ],
+      "headword_arabic": "عَمَلٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 71,
+      "senses": [
+        {
+          "sense_id": "s-Eml-amal-1",
+          "definition": "An intentional deed or action, whether good or bad.",
+          "usage_conditions": "The Quran uses it for purposeful deeds and actions, including righteous and evil conduct; it is distinguished lexically from an act that occurs without intention.",
+          "source_refs": [
+            "lane:entry:4804",
+            "mufradat:row:1010"
+          ]
+        },
+        {
+          "sense_id": "s-Eml-amal-2",
+          "definition": "Work, labor, service, or an undertaken task.",
+          "usage_conditions": "The noun can denote work or service as an activity or body of work, not only an individual deed.",
+          "source_refs": [
+            "lane:entry:4804"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:110",
+          "word_location": "18:110:18",
+          "sense_ids": [
+            "s-Eml-amal-1"
+          ]
+        },
+        {
+          "verse_key": "21:82",
+          "word_location": "21:82:7",
+          "sense_ids": [
+            "s-Eml-amal-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-Eml-amila-admin",
+      "headword_arabic": "عَمِلَ",
+      "definition": "To officiate in the collection or administration of a poor-rate or similar public duty.",
+      "usage_conditions": "Occurs with عَلَى in the cited construction, as in serving over the collection of alms.",
+      "source_refs": [
+        "lane:entry:4796"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amila-effect",
+      "headword_arabic": "عَمِلَ",
+      "definition": "To act upon something, have an effect or impression on it, or work toward its destruction.",
+      "usage_conditions": "A constructional use with an affected object; examples include a weapon having effect and laboring to destroy someone.",
+      "source_refs": [
+        "lane:entry:4796"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amila-syntax",
+      "headword_arabic": "عَمِلَ",
+      "definition": "To govern a word syntactically and produce a particular grammatical ending.",
+      "usage_conditions": "A technical grammatical use, especially with a governing expression said to produce nominative, accusative, genitive, or similar inflection.",
+      "source_refs": [
+        "lane:entry:4796"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amila-phenomena",
+      "headword_arabic": "عَمِلَ",
+      "definition": "Of lightning, to continue; of a she-camel or similar mount, to move swiftly or become brisk and active.",
+      "usage_conditions": "Specialized uses applied to natural phenomena or swift movement of an animal.",
+      "source_refs": [
+        "lane:entry:4796"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amila-money",
+      "headword_arabic": "عَمِلَ",
+      "definition": "Of money or expenditure, to pass away or be spent.",
+      "usage_conditions": "An idiomatic use describing money that is expended or does not remain.",
+      "source_refs": [
+        "lane:entry:4796"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-ammala-appoint",
+      "headword_arabic": "عَمَّلَ",
+      "definition": "To appoint someone governor or official over a province, city, or people.",
+      "usage_conditions": "Form II causative/appointive construction, commonly with عَلَى.",
+      "source_refs": [
+        "lane:entry:4797"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-ammala-wage",
+      "headword_arabic": "عَمَّلَ",
+      "definition": "To give someone his pay or salary for work, service, or agency.",
+      "usage_conditions": "A Form II employment and remuneration use.",
+      "source_refs": [
+        "lane:entry:4797"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-aamala-deal",
+      "headword_arabic": "عَامَلَ",
+      "definition": "To deal, transact, or conduct business with someone.",
+      "usage_conditions": "Form III reciprocal or relational use, especially in buying and selling and similar dealings.",
+      "source_refs": [
+        "lane:entry:4798"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-aamala-contract",
+      "headword_arabic": "عَامَلَ",
+      "definition": "To bargain or contract with someone for work, including an arrangement to cultivate land or trees for a share of the produce.",
+      "usage_conditions": "A work-contract use; the cultivation arrangement is a conventional regional application of the term.",
+      "source_refs": [
+        "lane:entry:4798"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amarla-cause-work",
+      "headword_arabic": "أَعْمَلَ",
+      "definition": "To make or cause someone to work, labor, serve, act, or produce something.",
+      "usage_conditions": "Form IV causative use with a person or a thing as the object of the caused activity.",
+      "source_refs": [
+        "lane:entry:4799"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amarla-use-intellect",
+      "headword_arabic": "أَعْمَلَ",
+      "definition": "To employ or use one's judgment, opinion, intellect, tongue, instrument, or implement.",
+      "usage_conditions": "A Form IV use meaning to put a faculty or tool to work; it includes applying one's understanding to consider consequences.",
+      "source_refs": [
+        "lane:entry:4799"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amarla-urge-camel",
+      "headword_arabic": "أَعْمَلَ",
+      "definition": "To hasten or urge a riding camel or other mount.",
+      "usage_conditions": "A specialized Form IV causative use applied to driving an animal onward.",
+      "source_refs": [
+        "lane:entry:4799"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amarla-occupy",
+      "headword_arabic": "أَعْمَلَ",
+      "definition": "In a set phrase, to occupy oneself intensely with performing a deed or course of action.",
+      "usage_conditions": "An idiomatic Form IV expression describing sustained occupation with a specified action.",
+      "source_refs": [
+        "lane:entry:4799"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amarla-spear-thrust",
+      "headword_arabic": "أَعْمَلَ",
+      "definition": "To thrust or pierce with the working part of a spear.",
+      "usage_conditions": "A specialized Form IV weapon construction involving the عَامِل of the spear.",
+      "source_refs": [
+        "lane:entry:4799"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-taammala-toil",
+      "headword_arabic": "تَعَمَّلَ",
+      "definition": "To undergo fatigue or difficulty and strive, labor, or toil.",
+      "usage_conditions": "Form V expresses exertion or strenuous effort for or in a task.",
+      "source_refs": [
+        "lane:entry:4800"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-taaamala-trade",
+      "headword_arabic": "تَعَامَلَ",
+      "definition": "To deal with one another in buying and selling or other transactions.",
+      "usage_conditions": "Form VI reciprocal dealing; it can also describe using a currency or object in commercial transactions.",
+      "source_refs": [
+        "lane:entry:4801"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-itamala-selfwork",
+      "headword_arabic": "اِعْتَمَلَ",
+      "definition": "To work actively, independently or for another, especially by applying one's own labor or tools.",
+      "usage_conditions": "Form VIII depicts a person occupied in work or service, whether for himself or another and with or without implements.",
+      "source_refs": [
+        "lane:entry:4802"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-itamala-earn",
+      "headword_arabic": "اِعْتَمَلَ",
+      "definition": "To labor to earn or gain sustenance, including by cultivating and managing land.",
+      "usage_conditions": "A transitive Form VIII use for applying one's labor to livelihood or agricultural work.",
+      "source_refs": [
+        "lane:entry:4802"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-itamala-employ",
+      "headword_arabic": "اِعْتَمَلَ",
+      "definition": "To employ or use a person for work or service.",
+      "usage_conditions": "This use is reported as possibly post-classical.",
+      "source_refs": [
+        "lane:entry:4802"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-istaamala-request",
+      "headword_arabic": "اِسْتَعْمَلَ",
+      "definition": "To ask, require, or desire someone to work, serve, or act for oneself.",
+      "usage_conditions": "Form X expresses seeking or requiring another's service.",
+      "source_refs": [
+        "lane:entry:4803"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-istaamala-use",
+      "headword_arabic": "اِسْتَعْمَلَ",
+      "definition": "To put a person or thing to use, including employing someone in an office, using a garment or building material, or using a pretext or condition as a mask.",
+      "usage_conditions": "Form X extends from employing a person to making practical use of an object or assumed state.",
+      "source_refs": [
+        "lane:entry:4803"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amal-striving",
+      "headword_arabic": "عَمَلٌ",
+      "definition": "Striving, laboring, or persisting in work.",
+      "usage_conditions": "A nominal specialization emphasizing continued exertion or holding on to a task.",
+      "source_refs": [
+        "lane:entry:4804"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amal-compounds",
+      "headword_arabic": "عَمَلٌ",
+      "definition": "In compounds, one who performs another's work; in ابنُ عَمَلٍ, a strong man; and in related expressions, people characterized by active travel.",
+      "usage_conditions": "These are fixed idiomatic or compound uses rather than the ordinary standalone noun.",
+      "source_refs": [
+        "lane:entry:4804"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-banu-amal",
+      "headword_arabic": "عَمَلٌ",
+      "definition": "In بَنُو عَمَلٍ, people who travel on foot.",
+      "usage_conditions": "A fixed plural expression.",
+      "source_refs": [
+        "lane:entry:4804"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amal-cultivation",
+      "headword_arabic": "عَمَلٌ",
+      "definition": "The cultivation or agricultural management of palm trees, land, or similar property.",
+      "usage_conditions": "A possessive construction such as عَمَلُ النَّخْلِ or عَمَلُ الأَرْضِ specifies the field of work.",
+      "source_refs": [
+        "lane:entry:4804"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amal-office",
+      "headword_arabic": "عَمَلٌ",
+      "definition": "An administrative office, governorship, collecting office, agency, employment, or management of another's affairs and property.",
+      "usage_conditions": "A specialized institutional sense of work or office, including public administration.",
+      "source_refs": [
+        "lane:entry:4804"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amal-province",
+      "headword_arabic": "عَمَلٌ",
+      "definition": "A province or territory placed under a governor appointed by a sovereign.",
+      "usage_conditions": "A regional administrative use of the noun.",
+      "source_refs": [
+        "lane:entry:4804"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amil-adapted",
+      "headword_arabic": "عَمِلٌ",
+      "definition": "Of a man, having work, disposed or adapted by nature to labor, or making much gain.",
+      "usage_conditions": "An adjectival epithet describing aptitude or habitual capacity for work.",
+      "source_refs": [
+        "lane:entry:4805"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amil-lightning",
+      "headword_arabic": "عَمِلٌ",
+      "definition": "Of lightning, continuing or continual.",
+      "usage_conditions": "An adjectival use applied to persistent lightning.",
+      "source_refs": [
+        "lane:entry:4805"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amila-camel",
+      "headword_arabic": "عَمِلَةٌ",
+      "definition": "Of a she-camel, brisk, light, active, or swift.",
+      "usage_conditions": "An animal epithet or noun for a naturally active she-camel.",
+      "source_refs": [
+        "lane:entry:4805"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amla-theft",
+      "headword_arabic": "عَمْلَةٌ",
+      "definition": "Theft, treachery, perfidy, or unfaithfulness.",
+      "usage_conditions": "This feminine noun is reported as used only in relation to evil.",
+      "source_refs": [
+        "lane:entry:4806"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-imla-mode",
+      "headword_arabic": "عِمْلَةٌ",
+      "definition": "A mode or manner of working, serving, doing, acting, or making.",
+      "usage_conditions": "It can describe the manner or method by which gain is obtained, including a bad or corrupt mode of gain.",
+      "source_refs": [
+        "lane:entry:4808"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-imla-evilstate",
+      "headword_arabic": "عِمْلَةٌ",
+      "definition": "The internal state or condition of a person in relation to evil.",
+      "usage_conditions": "A specialized ethical or dispositional use.",
+      "source_refs": [
+        "lane:entry:4808"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amila-result",
+      "headword_arabic": "عَمِلَةٌ",
+      "definition": "A thing done, performed, or made; a completed product or action.",
+      "usage_conditions": "A result noun, including something that has been produced or carried out.",
+      "source_refs": [
+        "lane:entry:4809"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amali-practical",
+      "headword_arabic": "عَمَلِيٌّ",
+      "definition": "Practical, factitious, artificial, or relating to actual operation rather than theory.",
+      "usage_conditions": "Used in opposition to عَلْمِيٌّ in the cited lexical contrast.",
+      "source_refs": [
+        "lane:entry:4811"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amila-exceed-annoy",
+      "headword_arabic": "عَمِلَ",
+      "definition": "In an idiom, to exceed ordinary bounds in annoying, reviling, or harassing someone.",
+      "usage_conditions": "A fixed intensified expression with a specialized object and construction.",
+      "source_refs": [
+        "lane:entry:4812"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amala-camel",
+      "headword_arabic": "عَمَالَةٌ",
+      "definition": "The briskness, lightness, activity, or quickness of a she-camel.",
+      "usage_conditions": "A specialized animal noun.",
+      "source_refs": [
+        "lane:entry:4814"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-umala-wage",
+      "headword_arabic": "عُمَالَةٌ",
+      "definition": "The hire, pay, or recompense received for work, labor, or service.",
+      "usage_conditions": "A remuneration noun for the worker's compensation.",
+      "source_refs": [
+        "lane:entry:4815"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-umala-occupation",
+      "headword_arabic": "عُمَالَةٌ",
+      "definition": "The state of being occupied or having work or service to perform.",
+      "usage_conditions": "It denotes employment or occupation as the opposite of idleness.",
+      "source_refs": [
+        "lane:entry:4815"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-ammal-diligent",
+      "headword_arabic": "عَمَّالٌ",
+      "definition": "One who does much work or labor, strives persistently, or continues at work.",
+      "usage_conditions": "An intensive adjectival form describing habitual or abundant exertion.",
+      "source_refs": [
+        "lane:entry:4818"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amil-manual",
+      "headword_arabic": "عَامِلٌ",
+      "definition": "In the plural, a manual worker, especially one working with the hands in clay, building, digging, or similar occupations.",
+      "usage_conditions": "A specialized plural use of the active participle.",
+      "source_refs": [
+        "lane:entry:4819"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amil-animals",
+      "headword_arabic": "عَامِلٌ",
+      "definition": "Of oxen, camels, or similar animals, one employed in plowing, treading grain, drawing water, or other labor.",
+      "usage_conditions": "The plural عَوَامِلُ is used for working animals and beasts of burden.",
+      "source_refs": [
+        "lane:entry:4819"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amil-spear",
+      "headword_arabic": "عَامِلٌ",
+      "definition": "The part of a spear immediately below or next to the head, or its forepart exclusive of the head.",
+      "usage_conditions": "A technical weapon term; authorities differ on the exact portion and whether the spearhead itself is included.",
+      "source_refs": [
+        "lane:entry:4819"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-amila-legs",
+      "headword_arabic": "عَامِلَةٌ",
+      "definition": "As a substantive, a leg of a beast, horse, or similar animal.",
+      "usage_conditions": "This is a separate nominal use from the feminine active participle; its plural is associated with عَوَامِلُ.",
+      "source_refs": [
+        "lane:entry:4820"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-mumal-road",
+      "headword_arabic": "مُعْمَلٌ",
+      "definition": "A conspicuous, well-traveled road.",
+      "usage_conditions": "An adjectival description of a road marked by travel or use.",
+      "source_refs": [
+        "lane:entry:4821"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-mamool-done",
+      "headword_arabic": "مَعْمُولٌ",
+      "definition": "Done, made, or completed.",
+      "usage_conditions": "The ordinary passive-participial sense of the derived noun.",
+      "source_refs": [
+        "lane:entry:4822"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-mamool-beverage",
+      "headword_arabic": "مَعْمُولٌ",
+      "definition": "Of a beverage or wine, containing milk, honey, and snow.",
+      "usage_conditions": "A rare traditional descriptive use.",
+      "source_refs": [
+        "lane:entry:4822"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-mamool-castrated",
+      "headword_arabic": "مَعْمُولٌ",
+      "definition": "Of an ass, having had its testicles extracted.",
+      "usage_conditions": "A rare specialized animal use.",
+      "source_refs": [
+        "lane:entry:4822"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-mustamal-camel",
+      "headword_arabic": "مُسْتَعْمَلٌ",
+      "definition": "Of a camel, employed in work, labor, or service.",
+      "usage_conditions": "A passive participial adjective applied to a working animal.",
+      "source_refs": [
+        "lane:entry:4823"
+      ]
+    },
+    {
+      "meaning_id": "cm-Eml-yamal-camel",
+      "headword_arabic": "يَعْمَلٌ / يَعْمَلَةٌ",
+      "definition": "An excellent, strong, light, or swift camel; the feminine form specifically denotes a she-camel of this type.",
+      "usage_conditions": "These forms are also treated as substantives for the animals; يَوْمُ اليَعْمَلَةِ is recorded as a named day of conflict.",
+      "source_refs": [
+        "lane:entry:4824"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Eml:4796:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-Eml-amila-1",
+        "s-Eml-amila-2",
+        "cm-Eml-amila-admin",
+        "cm-Eml-amila-effect"
+      ],
+      "note": "Core doing, making, alms-service, and effect branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4796:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amila-syntax"
+      ],
+      "note": "Technical syntactic use."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4796:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amila-phenomena"
+      ],
+      "note": "Lightning and swift-camel uses."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4796:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amila-money"
+      ],
+      "note": "Idiomatic expenditure use."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4797:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-ammala-appoint"
+      ],
+      "note": "Appointment as governor or official."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4797:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-ammala-wage"
+      ],
+      "note": "Pay or salary use."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4798:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-aamala-deal"
+      ],
+      "note": "Dealing and transacting business."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4798:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-aamala-contract"
+      ],
+      "note": "Work bargaining and cultivation contract."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4799:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amarla-cause-work"
+      ],
+      "note": "Causative work and production."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4799:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amarla-use-intellect"
+      ],
+      "note": "Employing faculties and tools."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4799:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amarla-urge-camel"
+      ],
+      "note": "Urging a camel onward."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4799:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4799:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amarla-occupy"
+      ],
+      "note": "Fixed phrase about occupying oneself with a deed."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4799:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amarla-spear-thrust"
+      ],
+      "note": "Thrusting with a spear."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4800:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-taammala-toil"
+      ],
+      "note": "Strenuous toil."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4801:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-taaamala-trade"
+      ],
+      "note": "Reciprocal commercial dealing."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4802:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-itamala-selfwork"
+      ],
+      "note": "Independent or self-directed work."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4802:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-itamala-earn"
+      ],
+      "note": "Labor for livelihood and cultivation."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4802:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-itamala-employ"
+      ],
+      "note": "Rare employment use."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4803:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-istaamala-request"
+      ],
+      "note": "Requiring another's service."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4803:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4803:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-istaamala-use"
+      ],
+      "note": "Employing people and using objects or pretexts."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4804:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-Eml-amal-1",
+        "s-Eml-amal-2",
+        "cm-Eml-amal-compounds",
+        "cm-Eml-banu-amal",
+        "cm-Eml-amal-cultivation",
+        "cm-Eml-amal-office",
+        "cm-Eml-amal-province"
+      ],
+      "note": "Core noun, compounds, cultivation, and administrative branches."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4804:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amal-striving"
+      ],
+      "note": "Striving and persistence in work."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4804:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amal-office"
+      ],
+      "note": "Administrative office and agency."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4804:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amal-province"
+      ],
+      "note": "Province or governed territory."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4805:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amil-adapted"
+      ],
+      "note": "Adjectival aptitude for work."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4805:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amil-lightning"
+      ],
+      "note": "Continual lightning."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4805:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amila-camel"
+      ],
+      "note": "Brisk she-camel."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4806:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amla-theft"
+      ],
+      "note": "Theft and treachery."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4807:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4808:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-imla-mode"
+      ],
+      "note": "Mode or manner of working and gain."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4808:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4808:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4808:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-imla-evilstate"
+      ],
+      "note": "Internal condition in relation to evil."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4809:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s-Eml-amal-1"
+      ],
+      "note": "Explicit synonym of the Quran-attested deed/action noun."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4809:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amila-result"
+      ],
+      "note": "Thing done or made."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4810:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4811:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amali-practical"
+      ],
+      "note": "Practical or artificial adjective."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4812:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amila-exceed-annoy"
+      ],
+      "note": "Fixed idiom of exceeding bounds in harassment."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4813:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4814:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amala-camel"
+      ],
+      "note": "Camel briskness."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4814:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4815:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-umala-wage"
+      ],
+      "note": "Hire or recompense."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4815:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-umala-occupation"
+      ],
+      "note": "State of being occupied with work."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4816:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4817:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4818:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-ammal-diligent"
+      ],
+      "note": "Intensive worker adjective."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4818:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4819:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-Eml-amil-1",
+        "cm-Eml-amil-manual",
+        "cm-Eml-amil-animals"
+      ],
+      "note": "Active participle, manual-worker, and working-animal branches."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4819:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-Eml-amil-2"
+      ],
+      "note": "Administrative agent and collector."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4819:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amil-spear"
+      ],
+      "note": "Technical spear term."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4820:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-amila-legs"
+      ],
+      "note": "Substantive عاملة meaning an animal's legs."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4820:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the spear term."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4821:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-mumal-road"
+      ],
+      "note": "Conspicuous traveled road."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4822:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-mamool-done"
+      ],
+      "note": "Passive-participial sense done or made."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4822:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-mamool-beverage"
+      ],
+      "note": "Rare beverage description."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4822:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-mamool-castrated"
+      ],
+      "note": "Rare animal description."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4823:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-mustamal-camel"
+      ],
+      "note": "Camel employed in work."
+    },
+    {
+      "unit_id": "lane-unit:Eml:4824:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-Eml-yamal-camel"
+      ],
+      "note": "Swift or excellent camel terminology."
+    }
+  ],
+  "cautions": [
+    "The Quran-only feminine form عَامِلَةٌ is accounted for under the normalized active-participle headword عَامِلٌ; its separate classical substantive use for an animal's leg is retained under other classical meanings.",
+    "The ordinary Quranic verb and noun senses cover purposeful action, work, and making; specialized administrative, grammatical, animal, weapon, idiomatic, and technical branches remain separate where the lexical evidence requires them."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

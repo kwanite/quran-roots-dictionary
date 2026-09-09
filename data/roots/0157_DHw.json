@@ -1,0 +1,953 @@
+{
+  "root": "DHw",
+  "arabic": "ضحو",
+  "root_idea": {
+    "summary": "The root centers on exposure to sunlight and the spreading of daylight, especially the forenoon and its brightness.",
+    "development": "From the experience of being exposed to the sun, the root names the forenoon and sunlight, and extends to apparentness, open or sun-exposed places, and actions performed during that time.",
+    "source_refs": [
+      "lane:entry:17561",
+      "lane:entry:17568",
+      "lane:entry:17576",
+      "mufradat:row:869"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:DHw:taDoHaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:DHw:dahiya",
+      "reason": "Displayed under the normalized Form I citation form ضَحِيَ."
+    },
+    {
+      "form_group_id": "qac-form:DHw:DuHFY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:DHw:duha",
+      "reason": "Displayed as the principal nominal headword ضُحًى."
+    },
+    {
+      "form_group_id": "qac-form:DHw:DuHFY:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "quran-form:DHw:duha",
+      "reason": "The T-tagged occurrences are temporal-adverbial uses of the same lexical item ضُحًى, not a separate public headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:DHw:dahiya",
+      "form_group_ids": [
+        "qac-form:DHw:taDoHaY`:verb:I"
+      ],
+      "headword_arabic": "ضَحِيَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q-sense:DHw:dahiya:1",
+          "definition": "To be exposed to the sun; to be struck by its heat.",
+          "usage_conditions": "In the Quranic construction لا تَضْحَىٰ, it describes being subjected to the sun's heat, in contrast with being protected from it.",
+          "source_refs": [
+            "lane:entry:17561",
+            "mufradat:row:869"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:119",
+          "word_location": "20:119:6",
+          "sense_ids": [
+            "q-sense:DHw:dahiya:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "quran-form:DHw:duha",
+      "form_group_ids": [
+        "qac-form:DHw:DuHFY:nominal:-",
+        "qac-form:DHw:DuHFY:other:-"
+      ],
+      "headword_arabic": "ضُحًى",
+      "public_pos_label": "Noun · temporal adverbial use",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "q-sense:DHw:duha:1",
+          "definition": "The early forenoon or daylight period after sunrise, as the sun spreads and the day advances.",
+          "usage_conditions": "Used as a temporal noun and adverbial expression for the forenoon or daylight period.",
+          "source_refs": [
+            "lane:entry:17568",
+            "mufradat:row:869"
+          ]
+        },
+        {
+          "sense_id": "q-sense:DHw:duha:2",
+          "definition": "The sunlight or brightness associated with the forenoon.",
+          "usage_conditions": "In ضُحَى الشَّمْسِ and related Quranic expressions, the word denotes the sun's light or brightness rather than merely the time of day.",
+          "source_refs": [
+            "lane:entry:17568",
+            "mufradat:row:869"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:59",
+          "word_location": "20:59:8",
+          "sense_ids": [
+            "q-sense:DHw:duha:1"
+          ]
+        },
+        {
+          "verse_key": "7:98",
+          "word_location": "7:98:7",
+          "sense_ids": [
+            "q-sense:DHw:duha:1"
+          ]
+        },
+        {
+          "verse_key": "79:46",
+          "word_location": "79:46:9",
+          "sense_ids": [
+            "q-sense:DHw:duha:1"
+          ]
+        },
+        {
+          "verse_key": "79:29",
+          "word_location": "79:29:4",
+          "sense_ids": [
+            "q-sense:DHw:duha:2"
+          ]
+        },
+        {
+          "verse_key": "91:1",
+          "word_location": "91:1:2",
+          "sense_ids": [
+            "q-sense:DHw:duha:2"
+          ]
+        },
+        {
+          "verse_key": "93:1",
+          "word_location": "93:1:1",
+          "sense_ids": [
+            "q-sense:DHw:duha:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:DHw:dhaha:apparent",
+      "headword_arabic": "ضَحَا",
+      "definition": "To appear or become apparent.",
+      "usage_conditions": "Attested in the expression ضَحَا الطَّرِيقُ, said of a road becoming visible or distinct.",
+      "source_refs": [
+        "lane:entry:17561"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dhahiya:cloudless",
+      "headword_arabic": "ضَحِيَ",
+      "definition": "To become cloudless.",
+      "usage_conditions": "Said of a night that clears of clouds.",
+      "source_refs": [
+        "lane:entry:17561"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dhahiya:white",
+      "headword_arabic": "ضَحِيَ",
+      "definition": "To become white or predominantly white.",
+      "usage_conditions": "Applied especially to a horse whose whiteness predominates over its blackness.",
+      "source_refs": [
+        "lane:entry:17561"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dhaha:death",
+      "headword_arabic": "ضَحَا",
+      "definition": "To perish or die.",
+      "usage_conditions": "A figurative expression in which a person's shade becomes sun and therefore disappears.",
+      "source_refs": [
+        "lane:entry:17561"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dhaha:sunshine",
+      "headword_arabic": "ضَحَا",
+      "definition": "To go forth into the sunshine or expose oneself to sunlight.",
+      "usage_conditions": "Also used with لِلشَّمْسِ for going out into the sun.",
+      "source_refs": [
+        "lane:entry:17561"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dhahiya:sweat",
+      "headword_arabic": "ضَحِيَ",
+      "definition": "To sweat.",
+      "usage_conditions": "A Classical usage with the imperfect يَضْحَى.",
+      "source_refs": [
+        "lane:entry:17561"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahha:forenoon_visit",
+      "headword_arabic": "ضَحَّى",
+      "definition": "To come to someone during the time of the forenoon.",
+      "usage_conditions": "A temporal Form II use, comparable to coming in the morning.",
+      "source_refs": [
+        "lane:entry:17562"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahha:pasture_feed",
+      "headword_arabic": "ضَحَّى",
+      "definition": "To pasture livestock in the forenoon, or to feed people a morning meal.",
+      "usage_conditions": "Used of grazing sheep, goats, or camels during ضُحًى and of providing or inviting people to the corresponding meal.",
+      "source_refs": [
+        "lane:entry:17562"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahha:gentle",
+      "headword_arabic": "ضَحَّى",
+      "definition": "To act gently, deliberately, or without haste.",
+      "usage_conditions": "In the proverbial expression ضَحِّ رُوَيْدًا, it can also imply slaughtering or sacrificing deliberately and without haste.",
+      "source_refs": [
+        "lane:entry:17562"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahha:sacrifice",
+      "headword_arabic": "ضَحَّى",
+      "definition": "To slaughter or sacrifice an animal.",
+      "usage_conditions": "The sacrifice is conventionally associated with the time of ضُحًى and the days of sacrifice, though the verb may be used for the act during those days more generally.",
+      "source_refs": [
+        "lane:entry:17562"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:daha:land_sun",
+      "headword_arabic": "ضَاحَى",
+      "definition": "To become exposed to the sun, with vegetation consequently drying up.",
+      "usage_conditions": "Said of lands or countries whose exposure to the sun dries their herbage.",
+      "source_refs": [
+        "lane:entry:17563"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:enter_forenoon",
+      "headword_arabic": "أَضْحَى",
+      "definition": "To enter upon the time of the forenoon.",
+      "usage_conditions": "A time-of-day verb, comparable to أَصْبَحَ for entering the morning.",
+      "source_refs": [
+        "lane:entry:17564"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:engage",
+      "headword_arabic": "أَضْحَى",
+      "definition": "To become occupied with, set about, or begin doing something during the first part of the day.",
+      "usage_conditions": "Like other time-of-day verbs, it may be rendered simply as “became” when followed by an imperfect verb or participle.",
+      "source_refs": [
+        "lane:entry:17564"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:prayer",
+      "headword_arabic": "أَضْحَى",
+      "definition": "To perform the supererogatory prayer associated with the forenoon.",
+      "usage_conditions": "A specialized usage referring to the prayer of ضُحَى.",
+      "source_refs": [
+        "lane:entry:17564"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:withdraw",
+      "headword_arabic": "أَضْحَى",
+      "definition": "To withdraw or go far away from an affair or from water.",
+      "usage_conditions": "Used of a person withdrawing from an affair and of birds going far from water.",
+      "source_refs": [
+        "lane:entry:17564"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:reveal",
+      "headword_arabic": "أَضْحَى",
+      "definition": "To make something apparent, show it, or reveal it.",
+      "usage_conditions": "Can be transitive with an object or used with عَنْ to make an affair manifest.",
+      "source_refs": [
+        "lane:entry:17564"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:shadow_idiom",
+      "headword_arabic": "أَضْحَى",
+      "definition": "To deprive someone of protection or compassion, or to cause someone's protective presence to disappear.",
+      "usage_conditions": "An idiomatic figurative use of going out from shade into the sun; it can also allude to death or loss.",
+      "source_refs": [
+        "lane:entry:17564"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:tadahha:eat",
+      "headword_arabic": "تَضَحَّى",
+      "definition": "To eat during the forenoon or eat the morning meal.",
+      "usage_conditions": "Comparable to تَغَدَّى, with emphasis on eating at the time called ضُحًى.",
+      "source_refs": [
+        "lane:entry:17565"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:duha:sun",
+      "headword_arabic": "ضُحًى",
+      "definition": "The sun.",
+      "usage_conditions": "A transferred use based on the sun's appearance during the period called ضُحًى.",
+      "source_refs": [
+        "lane:entry:17568"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:duha:clarity",
+      "headword_arabic": "ضُحًى",
+      "definition": "Perspicuity or plainness of meaning.",
+      "usage_conditions": "In the expression مَا لِكَلَامِهِ ضُحًى, used figuratively of speech or poetry lacking clarity.",
+      "source_refs": [
+        "lane:entry:17568"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahyan:exposed",
+      "headword_arabic": "ضَحْيَانٌ",
+      "definition": "Exposed to the sun or growing under its direct exposure.",
+      "usage_conditions": "Applied to sun-exposed places and objects, including a mountain top or a staff matured and hardened in the sun.",
+      "source_refs": [
+        "lane:entry:17571"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahyan:eater",
+      "headword_arabic": "ضَحْيَانٌ",
+      "definition": "A person who eats during the forenoon.",
+      "usage_conditions": "A conventional noun for one who eats at the time called ضُحًى.",
+      "source_refs": [
+        "lane:entry:17571"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dhahaa:late_forenoon",
+      "headword_arabic": "ضَحَاءٌ",
+      "definition": "The later forenoon period, approaching midday.",
+      "usage_conditions": "The period after ضُحًى, when the day is high or the sun has risen substantially.",
+      "source_refs": [
+        "lane:entry:17572"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dhahaa:morning_food",
+      "headword_arabic": "ضَحَاءٌ",
+      "definition": "The morning meal, and by extension pasture eaten at that time.",
+      "usage_conditions": "Named from the time in which the food or pasture is taken.",
+      "source_refs": [
+        "lane:entry:17572"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahiyah:exposed_place",
+      "headword_arabic": "ضَاحِيَةٌ",
+      "definition": "An outer or exposed place or tract, especially one open to the sun or lacking shade.",
+      "usage_conditions": "Includes an exterior place, an unenclosed land, and an exposed desert or tree; the term may describe a place with no protective shade.",
+      "source_refs": [
+        "lane:entry:17575"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahiyah:show_head",
+      "headword_arabic": "ضَاحِيَةٌ",
+      "definition": "The exposed or visible side of the head.",
+      "usage_conditions": "Used in the expression بَدَا بِضَاحِي رَأْسِهِ, to appear or show that side of the head.",
+      "source_refs": [
+        "lane:entry:17575"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahiyah:outer_region",
+      "headword_arabic": "ضَاحِيَةٌ",
+      "definition": "An outer, exterior, or exposed side, region, or tract of something.",
+      "usage_conditions": "By extension, it denotes outer districts, people living outside a town, open-country palm trees, projecting body parts, the sides of a watering-trough, and the heavens.",
+      "source_refs": [
+        "lane:entry:17576"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahiyah:openly",
+      "headword_arabic": "ضَاحِيَةٌ",
+      "definition": "Openly or in the open.",
+      "usage_conditions": "In فَعَلَهُ ضَاحِيَةً, the adverb describes doing something openly.",
+      "source_refs": [
+        "lane:entry:17576"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:dahiyah:animals",
+      "headword_arabic": "ضَاحِيَةٌ",
+      "definition": "Livestock that drink during the forenoon.",
+      "usage_conditions": "Applied especially to cattle, sheep, or goats drinking at the time called ضُحًى.",
+      "source_refs": [
+        "lane:entry:17576"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:gray_horse",
+      "headword_arabic": "أَضْحَى",
+      "definition": "Gray or predominantly white in color.",
+      "usage_conditions": "Applied especially to a horse; the feminine form describes a corresponding mare or other feminine noun.",
+      "source_refs": [
+        "lane:entry:17577"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:bright",
+      "headword_arabic": "أَضْحَى",
+      "definition": "Bright, clear, or shining.",
+      "usage_conditions": "Applied to a cloudless night or bright day, and also to the brightness of a moon, lamp, or wick.",
+      "source_refs": [
+        "lane:entry:17577"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:person_idiom",
+      "headword_arabic": "أَضْحَى",
+      "definition": "A person or member of a people, in the idiomatic expression أَيُّ الضَّحْيَاءِ.",
+      "usage_conditions": "This meaning belongs to the cited idiom and is not a general meaning of the temporal noun.",
+      "source_refs": [
+        "lane:entry:17577"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhha:eid",
+      "headword_arabic": "أَضْحًى",
+      "definition": "The collective sacrificial victims, and hence the day or festival of sacrifice.",
+      "usage_conditions": "The masculine form may denote the day of sacrifice, while the collective noun denotes the sacrificial victims.",
+      "source_refs": [
+        "lane:entry:17577"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:idhyan:plant",
+      "headword_arabic": "إِضْحِيَانٌ",
+      "definition": "A plant resembling chamomile.",
+      "usage_conditions": "A plant name recorded as a separate lexical use.",
+      "source_refs": [
+        "lane:entry:17579"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:udhiyah:sacrificial_animal",
+      "headword_arabic": "أُضْحِيَّةٌ",
+      "definition": "A sheep, goat, camel, bovine, or other animal slaughtered as a sacrifice.",
+      "usage_conditions": "Traditionally slaughtered during the time of ضُحًى on the day of sacrifice; the term also has the listed plural forms أَضَاحِيّ and ضَحَايَا.",
+      "source_refs": [
+        "lane:entry:17580"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:madhaat:exposed_land",
+      "headword_arabic": "مَضْحَاةٌ",
+      "definition": "Land from which the sun is hardly or never absent.",
+      "usage_conditions": "An exposed tract receiving continuous or nearly continuous sunlight.",
+      "source_refs": [
+        "lane:entry:17581"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:mustadhhi:morning_entrant",
+      "headword_arabic": "مُضْطَحٍ",
+      "definition": "A person entering upon the time of the forenoon.",
+      "usage_conditions": "A participial noun for one who reaches or enters the period called ضُحًى.",
+      "source_refs": [
+        "lane:entry:17582"
+      ]
+    },
+    {
+      "meaning_id": "cm:DHw:adhyaa:hairless",
+      "headword_arabic": "ضَحْيَاءُ",
+      "definition": "A woman whose pubic hair does not grow.",
+      "usage_conditions": "A specialized feminine usage describing a woman whose عَانَة is bare of hair.",
+      "source_refs": [
+        "lane:entry:17577"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:DHw:17561:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dhaha:apparent"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17561:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dhahiya:cloudless"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17561:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dhahiya:white"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17561:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dhaha:death"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17561:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q-sense:DHw:dahiya:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17561:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dhaha:sunshine"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17561:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dhahiya:sweat"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17562:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahha:forenoon_visit"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17562:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahha:pasture_feed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17562:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahha:pasture_feed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17562:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahha:gentle",
+        "cm:DHw:dahha:sacrifice"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17562:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahha:sacrifice"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17562:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17562:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17563:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:daha:land_sun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17563:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17564:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:enter_forenoon"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17564:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:engage"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17564:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:DHw:adhha:engage"
+      ],
+      "note": "Its become/commence construction is covered by the broader engagement meaning."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17564:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:prayer"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17564:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17564:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:withdraw"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17564:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:reveal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17564:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:shadow_idiom"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17565:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17565:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:tadahha:eat"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17566:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17567:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17568:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q-sense:DHw:duha:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17568:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:duha:sun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17568:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q-sense:DHw:duha:2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17568:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:duha:clarity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17569:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer and inflectional usage note; no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17570:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical feminine-form note."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17571:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahyan:exposed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17571:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17571:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahyan:eater"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17572:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dhahaa:late_forenoon"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17572:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dhahaa:morning_food"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17573:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive-form note."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17574:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17574:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17575:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Participial identification without an independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17575:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahiyah:exposed_place"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17575:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:DHw:dahiyah:exposed_place"
+      ],
+      "note": "The no-shade specialization is covered by the exposed-place meaning."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17575:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahiyah:show_head"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17576:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahiyah:outer_region"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17576:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahiyah:openly"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17576:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:dahiyah:animals"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17577:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:gray_horse"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17577:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:bright"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17577:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhyaa:hairless"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17577:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:person_idiom"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17577:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:adhha:eid"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17578:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17579:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17579:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:idhyan:plant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17580:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:udhiyah:sacrificial_animal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17581:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:madhaat:exposed_land"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17582:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:DHw:mustadhhi:morning_entrant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:DHw:17583:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:DHw:17584:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb تَضْحَىٰ is normalized under ضَحِيَ because the supplied Quran-focused lexical discussion gives ضَحِيَ يَضْحَى; Lane also records a closely related ضَحَا form in the same sun-exposure branch.",
+    "The nominal and T-tagged Quran groups share the public headword ضُحًى, with the T-tagged occurrences treated as temporal-adverbial uses rather than a separate lexical item."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

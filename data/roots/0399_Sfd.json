@@ -1,0 +1,209 @@
+{
+  "root": "Sfd",
+  "arabic": "صفد",
+  "root_idea": {
+    "summary": "The root has two distinct semantic branches: bestowal and fastening.",
+    "development": "The fastening branch yields bonds, fetters, and chains, while the bestowal branch yields giving or a benefaction. A gift may also be figuratively viewed as binding its recipient through gratitude.",
+    "source_refs": [
+      "maqayis:row:2802",
+      "mufradat:row:839"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Sfd:>aSofaAd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Sfd:asfad",
+      "reason": "The Quran-attested plural is displayed under the normalized singular citation form صَفَدٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:Sfd:asfad",
+      "form_group_ids": [
+        "qac-form:Sfd:>aSofaAd:nominal:-"
+      ],
+      "headword_arabic": "صَفَدٌ",
+      "public_pos_label": "Noun · singular citation (Quranic plural أَصْفَاد)",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform:Sfd:asfad:s1",
+          "definition": "A bond or fastening restraint; in the Quranic plural أَصْفَاد, chains, shackles, or fetters.",
+          "usage_conditions": "The Quranic form is plural and denotes physical restraints; the supplied contexts render it as chains. The lexical range concerns being made fast and does not require one particular type of restraint.",
+          "source_refs": [
+            "lane:entry:26091",
+            "mufradat:row:839"
+          ]
+        },
+        {
+          "sense_id": "qform:Sfd:asfad:s2",
+          "definition": "A gift or benefaction, figuratively regarded as binding the recipient through gratitude.",
+          "usage_conditions": "This is a distinct benefaction branch associated in the lexical evidence with a Quran passage, but its historical citation is not assigned a modern verse location because it does not securely match either supplied QAC occurrence.",
+          "source_refs": [
+            "lane:entry:26091",
+            "mufradat:row:839"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:49",
+          "word_location": "14:49:6",
+          "sense_ids": [
+            "qform:Sfd:asfad:s1"
+          ]
+        },
+        {
+          "verse_key": "38:38",
+          "word_location": "38:38:4",
+          "sense_ids": [
+            "qform:Sfd:asfad:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Sfd:bind",
+      "headword_arabic": "صَفَدَ",
+      "definition": "To bind or fetter someone, making the person fast with iron or another restraint.",
+      "usage_conditions": "Form I verb; the described action includes shackling or fastening someone securely.",
+      "source_refs": [
+        "lane:entry:26087"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sfd:overcome-speech",
+      "headword_arabic": "صَفَّدَ",
+      "definition": "To overcome someone by one's speech.",
+      "usage_conditions": "The attested construction uses بِـ to introduce the speech by which the person is overcome.",
+      "source_refs": [
+        "lane:entry:26088"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sfd:bestow",
+      "headword_arabic": "أَصْفَدَ",
+      "definition": "To give or bestow something freely or gratuitously.",
+      "usage_conditions": "The verb is described as doubly transitive; property or a slave are cited illustrations of what may be given, not exclusive object restrictions.",
+      "source_refs": [
+        "lane:entry:26089"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sfd:praise",
+      "headword_arabic": "صَفَدٌ",
+      "definition": "Praise, eulogy, or commendation; some authorities also report the contrary sense.",
+      "usage_conditions": "The contrary interpretation is attributed to some authorities and is not treated as the primary value of the word.",
+      "source_refs": [
+        "lane:entry:26091"
+      ]
+    },
+    {
+      "meaning_id": "cm:Sfd:prayer-posture",
+      "headword_arabic": "الصَّافِدُ",
+      "definition": "In a traditional prayer expression, one who holds the feet together as though they were fettered.",
+      "usage_conditions": "Attested in the expression صلاة الصافد, referring specifically to this prayer posture.",
+      "source_refs": [
+        "lane:entry:26093"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Sfd:26087:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sfd:bind"
+      ],
+      "note": "Binding or fettering someone is represented as the Form I verb."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26088:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26088:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sfd:overcome-speech"
+      ],
+      "note": "Speech-based overcoming is represented as a distinct Form II construction."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26089:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sfd:bestow"
+      ],
+      "note": "Free or gratuitous giving is represented as the Form IV verb."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26089:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26090:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only notice directing the reader to the next paragraph."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26091:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:Sfd:asfad:s1"
+      ],
+      "note": "The bond, fetter, and plural أَصْفَاد branch is represented by the Quranic restraint sense."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26091:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:Sfd:asfad:s2"
+      ],
+      "note": "The benefaction branch, explicitly associated with a Quran citation, is represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26091:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sfd:praise"
+      ],
+      "note": "The praise or reported contrary sense is represented as a Classical lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26092:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26093:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Sfd:prayer-posture"
+      ],
+      "note": "The conventional prayer posture is represented as a lexical usage."
+    },
+    {
+      "unit_id": "lane-unit:Sfd:26094:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only poetic-word reference with no definition in this unit."
+    }
+  ],
+  "cautions": [
+    "The reported historical citation for the benefaction branch is printed as xxxviii. 37 and is not converted into a modern surah:ayah location. The supplied Quran examples therefore document only the restraint sense."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The benefaction reading in lane-unit:Sfd:26091:g1:sub2 is explicitly Quran-associated, but the printed citation xxxviii. 37 does not securely identify either supplied QAC word occurrence; it is represented without a modern verse example."
+  ]
+}

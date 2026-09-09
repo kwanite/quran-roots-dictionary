@@ -1,0 +1,646 @@
+{
+  "root": "Ahl",
+  "arabic": "أهل",
+  "root_idea": {
+    "summary": "The root chiefly centers on belonging through shared residence, kinship, affiliation, or qualification; a separate lexical branch denotes rendered fat or oil.",
+    "development": "The أهل branch develops from people of a dwelling or place to household, kin, social or religious communities, and entitlement or fitness. Maqāyīs also records a distinct branch for إهالة, fat or oil used as food.",
+    "source_refs": [
+      "maqayis:row:162"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Ahl:>ahol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ahl",
+      "reason": "The single QAC group is presented under the normalized Classical Arabic citation form أهل."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_ahl",
+      "form_group_ids": [
+        "qac-form:Ahl:>ahol:nominal:-"
+      ],
+      "headword_arabic": "أَهْل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 127,
+      "senses": [
+        {
+          "sense_id": "form_ahl_s1",
+          "definition": "People associated with and inhabiting a house, settlement, land, or other place; the inhabitants or people of a locality.",
+          "usage_conditions": "Used with a place or domain to identify its inhabitants or people. The referent may be a community or locality rather than a biological family.",
+          "source_refs": [
+            "lane:entry:7429",
+            "mufradat:row:61"
+          ]
+        },
+        {
+          "sense_id": "form_ahl_s2",
+          "definition": "Household, family, or kin: those joined by residence, descent, marriage, or close domestic relation.",
+          "usage_conditions": "Context may narrow the reference to a person's wife, children, household, dependents, or nearer kin. In أهل البيت, the expression can designate a particular household or family; kinship alone is not always sufficient for inclusion.",
+          "source_refs": [
+            "lane:entry:7429",
+            "mufradat:row:61"
+          ]
+        },
+        {
+          "sense_id": "form_ahl_s3",
+          "definition": "People united by a religion, scripture, doctrine, craft, or other recognized affiliation; the members of such a group.",
+          "usage_conditions": "Quranic constructions such as أهل الكتاب identify a religious or scriptural community. The sense concerns collective affiliation rather than merely shared residence or ancestry.",
+          "source_refs": [
+            "lane:entry:7429",
+            "mufradat:row:61"
+          ]
+        },
+        {
+          "sense_id": "form_ahl_s4",
+          "definition": "Entitled, worthy, deserving, or fit for a thing; one having a right or just title to it.",
+          "usage_conditions": "May be used predicatively with لِـ or in the construction أهلُ الشيء. In the Quranic expression أهل التقوى وأهل المغفرة, it denotes the One entitled to be regarded with piety and to forgive.",
+          "source_refs": [
+            "lane:entry:7429",
+            "lane:entry:7428",
+            "mufradat:row:61"
+          ]
+        },
+        {
+          "sense_id": "form_ahl_s5",
+          "definition": "The possessor or owner of property or something entrusted to a person.",
+          "usage_conditions": "The construction identifies the person or people to whom property belongs or for whom it is held; it is distinct from the broader sense of being worthy or entitled.",
+          "source_refs": [
+            "lane:entry:7429"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:24",
+          "word_location": "10:24:24",
+          "sense_ids": [
+            "form_ahl_s1"
+          ]
+        },
+        {
+          "verse_key": "2:196",
+          "word_location": "2:196:63",
+          "sense_ids": [
+            "form_ahl_s2"
+          ]
+        },
+        {
+          "verse_key": "3:64",
+          "word_location": "3:64:2",
+          "sense_ids": [
+            "form_ahl_s3"
+          ]
+        },
+        {
+          "verse_key": "4:58",
+          "word_location": "4:58:8",
+          "sense_ids": [
+            "form_ahl_s5"
+          ]
+        },
+        {
+          "verse_key": "74:56",
+          "word_location": "74:56:8",
+          "sense_ids": [
+            "form_ahl_s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_ahal_inhabit",
+      "headword_arabic": "أَهَلَ",
+      "definition": "To people or inhabit a place; to become peopled or inhabited.",
+      "usage_conditions": "A verb used of a place or dwelling.",
+      "source_refs": [
+        "lane:entry:7422"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahal_marry",
+      "headword_arabic": "أَهَلَ",
+      "definition": "To marry or take a wife.",
+      "usage_conditions": "A Form I verbal use, distinct from the noun أهل meaning household or family.",
+      "source_refs": [
+        "lane:entry:7422"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahil_familiar",
+      "headword_arabic": "أَهِلَ بِهِ",
+      "definition": "To become sociable, companionable, friendly, or familiar with someone or something; to be cheered by the person's or thing's presence.",
+      "usage_conditions": "The construction takes بِـ and may be used of a person or a thing.",
+      "source_refs": [
+        "lane:entry:7422"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahhal_welcome",
+      "headword_arabic": "أَهَّلَ / تَأْهِيلٌ",
+      "definition": "To welcome or receive someone hospitably, as by saying أهلًا or مرحبًا وأهلًا.",
+      "usage_conditions": "The welcoming formula conveys that the visitor has found an ample place and people treated as kin rather than strangers.",
+      "source_refs": [
+        "lane:entry:7424"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahhal_qualify",
+      "headword_arabic": "أَهَّلَ",
+      "definition": "To make someone worthy, deserving, qualified, or entitled to something.",
+      "usage_conditions": "A causative construction with لِـ; it may express making someone fit for a benefit or undertaking.",
+      "source_refs": [
+        "lane:entry:7424"
+      ]
+    },
+    {
+      "meaning_id": "cm_aahal_paradise",
+      "headword_arabic": "آهَلَ",
+      "definition": "To unite a person with a wife or family in Paradise, or to grant him a family there.",
+      "usage_conditions": "A specialized supplicatory or benedictive expression, آهلك الله في الجنة.",
+      "source_refs": [
+        "lane:entry:7425"
+      ]
+    },
+    {
+      "meaning_id": "cm_taahhala",
+      "headword_arabic": "تَأَهَّلَ",
+      "definition": "To marry or establish a household.",
+      "usage_conditions": "A Form V derivative referring to entering the state of having a spouse or household.",
+      "source_refs": [
+        "lane:entry:7426"
+      ]
+    },
+    {
+      "meaning_id": "cm_ittahala",
+      "headword_arabic": "اِتَّهَلَ",
+      "definition": "To marry or take a wife.",
+      "usage_conditions": "A Form VIII derivative cited as an alternative to the Form I marriage use.",
+      "source_refs": [
+        "lane:entry:7427"
+      ]
+    },
+    {
+      "meaning_id": "cm_ihalah",
+      "headword_arabic": "إِهَالَةٌ",
+      "definition": "Rendered fat, grease, oil, or another fatty seasoning used with food.",
+      "usage_conditions": "The term may include melted tail-fat and similar fats or oils; related verbs can mean taking or eating it.",
+      "source_refs": [
+        "lane:entry:7428",
+        "lane:entry:7435",
+        "lane:entry:7437",
+        "lane:entry:7439"
+      ]
+    },
+    {
+      "meaning_id": "cm_reciters",
+      "headword_arabic": "أَهْلُ الله / أَهْلُ القرآن",
+      "definition": "People specially associated with God or the Quran, especially readers or reciters of the Quran.",
+      "usage_conditions": "A conventional honorific or group designation, not the ordinary meaning of household or inhabitants.",
+      "source_refs": [
+        "lane:entry:7429"
+      ]
+    },
+    {
+      "meaning_id": "cm_specialized_groups",
+      "headword_arabic": "أَهْلُ العِلْم / أَهْلُ الأَمْر / أَهْلُ المَرَاتِب",
+      "definition": "People characterized by, responsible for, or distinguished in a particular field, authority, knowledge, or rank.",
+      "usage_conditions": "The noun أهل may be followed by a domain or quality to identify its recognized practitioners, possessors, or officials.",
+      "source_refs": [
+        "lane:entry:7429"
+      ]
+    },
+    {
+      "meaning_id": "cm_covenant_people",
+      "headword_arabic": "أَهْلُ الذِّمَّة / أَهْلُ العَهْد",
+      "definition": "Non-Muslims protected under a compact or covenant with the Muslim community.",
+      "usage_conditions": "A technical legal designation for covenant communities whose security is guaranteed under the stated conditions.",
+      "source_refs": [
+        "lane:entry:7429"
+      ]
+    },
+    {
+      "meaning_id": "cm_authors",
+      "headword_arabic": "أَهْلٌ",
+      "definition": "The author or authors, practitioners, or perpetrators of a thing.",
+      "usage_conditions": "In compounds such as أهل البدع or أهل الظلم, the following noun identifies the practice or action attributed to the people.",
+      "source_refs": [
+        "lane:entry:7429"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahlah_property",
+      "headword_arabic": "أَهِلَةٌ",
+      "definition": "In a reported expression, people possessing property or cattle; alternatively, people of a distinguished sort.",
+      "usage_conditions": "A rare expression with divergent lexical explanations in the cited evidence.",
+      "source_refs": [
+        "lane:entry:7432"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahli_domestic",
+      "headword_arabic": "أَهْلِيٌّ",
+      "definition": "Domestic or tame, especially an animal or bird accustomed to a human dwelling.",
+      "usage_conditions": "Opposed to وَحْشِيٌّ, wild; the evidence illustrates the use with domestic asses.",
+      "source_refs": [
+        "lane:entry:7433"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahliyyah_eligibility",
+      "headword_arabic": "أَهْلِيَّةٌ",
+      "definition": "Eligibility, legal capacity, or the quality of being fit and entitled to bear or exercise a right or obligation.",
+      "usage_conditions": "A technical nominal development of the worthiness and fitness branch, especially in legal contexts.",
+      "source_refs": [
+        "lane:entry:7434"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahil_place",
+      "headword_arabic": "آهِلٌ / مَأْهُولٌ",
+      "definition": "Peopled, inhabited, or having its people present.",
+      "usage_conditions": "Used especially of a town, village, dwelling, or other place; مَأْهُولٌ is also used of a place that has been inhabited.",
+      "source_refs": [
+        "lane:entry:7436",
+        "lane:entry:7437"
+      ]
+    },
+    {
+      "meaning_id": "cm_mutaahhil",
+      "headword_arabic": "مُتَأَهِّلٌ",
+      "definition": "Having a wife or being married.",
+      "usage_conditions": "A participial description of marital status.",
+      "source_refs": [
+        "lane:entry:7438"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Ahl:7422:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahal_inhabit"
+      ],
+      "note": "Form I use meaning to people or inhabit a place."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7422:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahal_marry"
+      ],
+      "note": "Form I marriage use."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7422:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahil_familiar"
+      ],
+      "note": "Being familiar or sociable with a person or thing."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7423:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "The entry is truncated after the Form II construction and does not state enough of its lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7424:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahhal_welcome"
+      ],
+      "note": "Welcoming someone by saying أهلًا or مرحبًا وأهلًا."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7424:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahhal_qualify"
+      ],
+      "note": "Making someone worthy or deserving."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7425:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_aahal_paradise"
+      ],
+      "note": "Specialized expression about granting a family in Paradise."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7425:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7426:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only instruction to see another entry."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7427:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only instruction to see another entry."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7428:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form_ahl_s4"
+      ],
+      "note": "Derived worthiness use explicitly connected with the Quranic أهل meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7428:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ihalah"
+      ],
+      "note": "Taking or eating إهالة."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form_ahl_s1",
+        "form_ahl_s2",
+        "form_ahl_s3"
+      ],
+      "note": "People of places, household and kin, and affiliation-based groups."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "form_ahl_s1",
+        "form_ahl_s2"
+      ],
+      "note": "أهل البيت combines place-of-residence and household senses."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "form_ahl_s1"
+      ],
+      "note": "Named settlement and regional inhabitants."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "form_ahl_s1"
+      ],
+      "note": "People associated with a place, here the graves."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "form_ahl_s1"
+      ],
+      "note": "People associated with Paradise."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "form_ahl_s1"
+      ],
+      "note": "People associated with the Fire."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form_ahl_s2",
+        "cm_ahhal_welcome"
+      ],
+      "note": "Kinsfolk proverb and welcoming idioms add household and hospitality constructions."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form_ahl_s2"
+      ],
+      "note": "Prophetic household and close-family designation, including the cited Quranic construction."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form_ahl_s3"
+      ],
+      "note": "People to whom a prophet is sent or those sharing his religion."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub11",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Etymological explanation of آل rather than an independent أهل use."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_reciters"
+      ],
+      "note": "Conventional designation for Quran readers or reciters."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub13",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form_ahl_s2"
+      ],
+      "note": "Wife, or wife and children, as أهل الرجل."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub14",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form_ahl_s3",
+        "cm_reciters"
+      ],
+      "note": "Religious and scriptural affiliations, including أهل الكتاب and أهل القرآن."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub15",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_specialized_groups"
+      ],
+      "note": "People characterized by knowledge."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub16",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_specialized_groups"
+      ],
+      "note": "People responsible for command or administration."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub17",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_specialized_groups"
+      ],
+      "note": "People of rank or exalted station."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub18",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_covenant_people"
+      ],
+      "note": "Technical covenant-community designation."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub19",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form_ahl_s5"
+      ],
+      "note": "Owners or possessors of property, with a Quran citation in the source."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub20",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "form_ahl_s4"
+      ],
+      "note": "Worthy or entitled, including the Quranic أهل التقوى وأهل المغفرة."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7429:g1:sub21",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_authors"
+      ],
+      "note": "Authors, practitioners, or perpetrators of a thing."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7430:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7431:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7431:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7432:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahlah_property"
+      ],
+      "note": "Rare expression with property, cattle, or distinguished-people interpretations."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7433:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahli_domestic"
+      ],
+      "note": "Domestic animal or bird."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7434:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahliyyah_eligibility"
+      ],
+      "note": "Eligibility and legal capacity."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7435:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ihalah"
+      ],
+      "note": "Fat, oil, or seasoning."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7436:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahil_place"
+      ],
+      "note": "Inhabited or peopled place."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7437:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_ahil_place"
+      ],
+      "note": "Pointer to the inhabited-place meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7437:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ihalah"
+      ],
+      "note": "Food containing much rendered fat."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7438:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mutaahhil"
+      ],
+      "note": "Having a wife or being married."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7439:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ahl:7439:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ihalah"
+      ],
+      "note": "Taking or eating rendered fat."
+    }
+  ],
+  "cautions": [
+    "The 127 QAC occurrences are inflected and pronominal forms of one nominal headword; differences such as family, people, household, and owners arise from construction and context, not separate QAC lemmas.",
+    "Lane's historical Quran citation notation, including the citation attached to the owners sense, is not transcribed as a modern surah:ayah location. The supplied QAC location 4:58 is used only because it independently appears in the packet with the contextual gloss “their owners”.",
+    "The rare أهل أهلة expression has divergent reported interpretations, which are retained together under its Classical Arabic meaning rather than presented as a Quranic sense."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:Ahl:7423:g1:main is materially lexical but truncated after “أهّل به ... inf. n.”, so its exact Form II definition cannot be assigned confidently beyond the related welcoming evidence elsewhere in the packet."
+  ]
+}

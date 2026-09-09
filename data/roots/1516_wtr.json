@@ -1,0 +1,699 @@
+{
+  "root": "wtr",
+  "arabic": "وتر",
+  "root_idea": {
+    "summary": "A lexically diverse root associated especially with singularity or oddness, succession at intervals, loss or blood-revenge, tension, and several concrete objects.",
+    "development": "The evidence does not support one uniform root analogy. The singular/odd sense extends to making things occur singly or successively with intervals, while separate lexical branches concern deprivation and retaliation, bracing or tension, habitual course, and concrete anatomical or material objects.",
+    "source_refs": [
+      "maqayis:row:5018"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wtr:yatira:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wtr_yatira",
+      "reason": "Displayed under the normalized Form I perfect citation form وَتَرَ."
+    },
+    {
+      "form_group_id": "qac-form:wtr:tatoraA:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wtr_tatra",
+      "reason": "Displayed as the Quranic adverbial noun تَتْرَى."
+    },
+    {
+      "form_group_id": "qac-form:wtr:wator:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wtr_watr",
+      "reason": "Displayed under the normalized noun citation form وَتْر."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wtr_yatira",
+      "form_group_ids": [
+        "qac-form:wtr:yatira:verb:I"
+      ],
+      "headword_arabic": "وَتَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wtr_yatira_s1",
+          "definition": "To deprive someone of the recompense or due of their deeds; to cause them loss in it.",
+          "usage_conditions": "In the Quranic construction with أَعْمَال, the object is the recompense or due associated with one's deeds.",
+          "source_refs": [
+            "lane:entry:44891",
+            "mufradat:row:1549"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "47:35",
+          "word_location": "47:35:11",
+          "sense_ids": [
+            "wtr_yatira_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wtr_tatra",
+      "form_group_ids": [
+        "qac-form:wtr:tatoraA:nominal:-"
+      ],
+      "headword_arabic": "تَتْرَى",
+      "public_pos_label": "Noun · adverbial use",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wtr_tatra_s1",
+          "definition": "One after another; successively, with an interval or interruption between successive arrivals.",
+          "usage_conditions": "Used of messengers or other things arriving successively. The interval may be understood as short, interrupted, or extended according to context and lexical interpretation.",
+          "source_refs": [
+            "lane:entry:44904",
+            "mufradat:row:1549"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "23:44",
+          "word_location": "23:44:4",
+          "sense_ids": [
+            "wtr_tatra_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wtr_watr",
+      "form_group_ids": [
+        "qac-form:wtr:wator:nominal:-"
+      ],
+      "headword_arabic": "وَتْر",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wtr_watr_s1",
+          "definition": "The odd or singular one; the unpaired number or entity.",
+          "usage_conditions": "In وَالشَّفْعِ وَالْوَتْرِ, it is the unpaired counterpart to شَفْع. Traditional interpretations of the Quranic expression include the singular or unequalled One, God, as well as particular individual figures or sacred days.",
+          "source_refs": [
+            "lane:entry:44898",
+            "mufradat:row:1549"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "89:3",
+          "word_location": "89:3:2",
+          "sense_ids": [
+            "wtr_watr_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wtr_cm_odd",
+      "headword_arabic": "وَتَرَ",
+      "definition": "To make a number or group single or odd; to render an even number odd; also, to perform an odd-numbered witr prayer.",
+      "usage_conditions": "Used of numbers and of صلاة الوتر, including prayer performed as paired units followed by a single unit.",
+      "source_refs": [
+        "lane:entry:44891"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_loss",
+      "headword_arabic": "وَتَرَ",
+      "definition": "To deprive someone of a relative, property, right, or other due; especially to kill or take away a relative or dependent without allowing retaliation, or to inflict loss in property or right.",
+      "usage_conditions": "The evidence includes literal loss through killing or taking away and extended uses for loss or detriment in property and rights.",
+      "source_refs": [
+        "lane:entry:44891"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_blood",
+      "headword_arabic": "وَتَرٌ / وِتْرٌ / تِرَةٌ",
+      "definition": "Blood-revenge or retaliation for homicide; the seeking or claim of such retaliation; as a verb, to execute blood-revenge, rightfully or wrongfully.",
+      "usage_conditions": "The nouns may also denote wrongful conduct or a crime in the pursuit of retaliation.",
+      "source_refs": [
+        "lane:entry:44891",
+        "lane:entry:44898"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_overtake",
+      "headword_arabic": "وَتَرَ",
+      "definition": "To overtake someone with a displeasing, harmful, or evil action.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:44891"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_frighten",
+      "headword_arabic": "وَتَرَ",
+      "definition": "To frighten or terrify someone.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:44891"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_bowbrace",
+      "headword_arabic": "وَتَّرَ",
+      "definition": "To string, fasten, or brace a bow; to attach its string.",
+      "usage_conditions": "The construction concerns fitting or tightening the string on a bow.",
+      "source_refs": [
+        "lane:entry:44892"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_interval",
+      "headword_arabic": "وَاتَرَ",
+      "definition": "To make reports, writings, supplies, or observances follow one another at intervals; to alternate them rather than make them continuous.",
+      "usage_conditions": "The evidence includes successive transmissions, supplies arriving repeatedly, and fasting on alternating days.",
+      "source_refs": [
+        "lane:entry:44893"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_revengeattain",
+      "headword_arabic": "أَوْتَرَ",
+      "definition": "To enable someone to attain or obtain blood-revenge.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:44894"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_tense",
+      "headword_arabic": "تَوَتَّرَ / مُوَتَّرٌ",
+      "definition": "To become tense or contracted like a braced bowstring; to be taut or contracted.",
+      "usage_conditions": "Applied especially to a sinew, nerve, or vein, and to a horse whose veins are contracted.",
+      "source_refs": [
+        "lane:entry:44895",
+        "lane:entry:44905"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_consecutive",
+      "headword_arabic": "تَوَاتَرَ",
+      "definition": "To occur consecutively or one after another, with intervals or separation.",
+      "usage_conditions": "Used of camels, birds, horses, writings, and other things arriving separately in succession.",
+      "source_refs": [
+        "lane:entry:44896"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_singly",
+      "headword_arabic": "وِتْرًا",
+      "definition": "Singly, separately, or one by one.",
+      "usage_conditions": "An adverbial use derived from the sense of being single or unpaired.",
+      "source_refs": [
+        "lane:entry:44898"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_witrprayer",
+      "headword_arabic": "صَلَاةُ الوِتْرِ / الوِتْرُ",
+      "definition": "The witr prayer, especially a single or odd-numbered set of prayer units.",
+      "usage_conditions": "The described practice may consist of paired units followed by a final single unit, or of a single unit.",
+      "source_refs": [
+        "lane:entry:44898"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_bowstring",
+      "headword_arabic": "وَتَرٌ",
+      "definition": "The string of a bow; by extension, a chord of a lute or similar instrument.",
+      "usage_conditions": "Plural forms include أَوْتَار and وِتَار.",
+      "source_refs": [
+        "lane:entry:44899"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_nose",
+      "headword_arabic": "وَتَرَةٌ",
+      "definition": "The partition, junction, or edge between the nostrils; a corresponding part at the front of a horse's nose.",
+      "usage_conditions": "The descriptions vary between the septum, subseptum, junction, and edge of the nostril.",
+      "source_refs": [
+        "lane:entry:44900"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_backtendon",
+      "headword_arabic": "وَتَرَةٌ",
+      "definition": "The sinew or tendon of the back.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:44900"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_way",
+      "headword_arabic": "وَتِيرَةٌ",
+      "definition": "A way, course, mode, or manner of acting; a habitual disposition or consistent practice.",
+      "usage_conditions": "Used in expressions for continuing in one established way or disposition.",
+      "source_refs": [
+        "lane:entry:44902"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_mountainroad",
+      "headword_arabic": "وَتِيرَةٌ",
+      "definition": "A road or track that keeps close to a mountain and follows a regular course.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:44902"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_languor",
+      "headword_arabic": "وَتِيرَةٌ",
+      "definition": "Remissness, languor, or faultiness in an affair or work.",
+      "usage_conditions": "Used of a task, activity, journey, or pace in which there is or is not slackness.",
+      "source_refs": [
+        "lane:entry:44902"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_delay",
+      "headword_arabic": "وَتِيرَةٌ",
+      "definition": "Delay.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:44902"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_restriction",
+      "headword_arabic": "وَتِيرَةٌ",
+      "definition": "Confinement, restriction, or restraint.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:44902"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_targetring",
+      "headword_arabic": "وَتِيرَةٌ",
+      "definition": "A ring of sinew or cord used as a target for learning to pierce or cast a spear.",
+      "usage_conditions": "The ring may be made of bowstring or another string or thread.",
+      "source_refs": [
+        "lane:entry:44902"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_rose",
+      "headword_arabic": "وَتِيرَةٌ",
+      "definition": "A rose or rose blossom, reported as white, red, or simply a rose-flower.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:44902"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_horsemark",
+      "headword_arabic": "وَتِيرَةٌ",
+      "definition": "A small, round star, blaze, or white mark on a horse's forehead or face.",
+      "usage_conditions": "A longer mark is distinguished by another term.",
+      "source_refs": [
+        "lane:entry:44902"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_moutur",
+      "headword_arabic": "مَوْتُورٌ",
+      "definition": "One whose relative or dependent has been slain and who has not obtained retaliation; one who seeks blood-revenge.",
+      "usage_conditions": "The term emphasizes the resulting state of bereavement, separation, and unavenged blood.",
+      "source_refs": [
+        "lane:entry:44906"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_mutawatir",
+      "headword_arabic": "مُتَوَاتِرٌ",
+      "definition": "Consecutive or successive at short intervals; of reports, transmitted successively from one person to another.",
+      "usage_conditions": "The term is distinguished from uninterrupted or immediately continuous succession.",
+      "source_refs": [
+        "lane:entry:44907"
+      ]
+    },
+    {
+      "meaning_id": "wtr_cm_penilefrenum",
+      "headword_arabic": "وَتَرَةٌ",
+      "definition": "The vein or frenum on the inner side of the glans of the penis.",
+      "usage_conditions": "A specialized anatomical usage.",
+      "source_refs": [
+        "lane:entry:30355"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wtr:44891:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_odd"
+      ],
+      "note": "Covers making a number single or one."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44891:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_odd"
+      ],
+      "note": "Covers making a group or prayer odd, including the witr prayer."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44891:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_yatira_s1",
+        "wtr_cm_loss"
+      ],
+      "note": "Contains the Quranic loss sense and broader deprivation, killing, and property-loss branches."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44891:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_blood"
+      ],
+      "note": "Covers execution of blood-revenge."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44891:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_overtake"
+      ],
+      "note": "Covers overtaking someone with an evil action."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44891:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_frighten"
+      ],
+      "note": "Covers frightening or terrifying."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44891:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44892:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44892:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_bowbrace"
+      ],
+      "note": "Covers bracing or stringing a bow."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44893:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_interval"
+      ],
+      "note": "Covers causing reports, writings, supplies, or observances to follow at intervals."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44894:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44894:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44894:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_revengeattain"
+      ],
+      "note": "Covers enabling attainment of blood-revenge."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44894:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44895:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_tense"
+      ],
+      "note": "Covers becoming tense like a bowstring."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44896:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_consecutive"
+      ],
+      "note": "Covers consecutive occurrence with separation or intervals."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44897:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44898:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wtr_watr_s1"
+      ],
+      "note": "The single or odd meaning is covered by the Quranic وَتْر sense."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44898:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_singly"
+      ],
+      "note": "Covers the adverbial sense singly or separately."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44898:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wtr_watr_s1"
+      ],
+      "note": "The singular or unequalled divine interpretation is stated in the Quranic sense conditions."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44898:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_witrprayer"
+      ],
+      "note": "Covers the named witr prayer."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44898:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_watr_s1"
+      ],
+      "note": "Directly explains the Quranic oath expression and its interpretations."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44898:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_blood"
+      ],
+      "note": "Covers blood-revenge, retaliation, and the claim to it."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44899:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_bowstring"
+      ],
+      "note": "Covers the bowstring and extended chord sense."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44899:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Number and collective-genitive note; adds no independent meaning."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44900:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_nose"
+      ],
+      "note": "Covers the several descriptions of the nasal partition or edge."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44900:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_backtendon"
+      ],
+      "note": "Covers the sinew of the back."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44901:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44902:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44902:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_way",
+        "wtr_cm_mountainroad"
+      ],
+      "note": "Contains the general way or disposition sense and the specialized mountain-road sense."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44902:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_languor"
+      ],
+      "note": "Covers remissness, languor, and faultiness."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44902:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_delay"
+      ],
+      "note": "Covers delay."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44902:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_restriction"
+      ],
+      "note": "Covers confinement, restriction, and restraint."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44902:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the anatomical entry."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44902:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_targetring"
+      ],
+      "note": "Covers the training ring used for spear practice."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44902:g6:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_rose"
+      ],
+      "note": "Covers the rose or rose blossom."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44902:g7:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_horsemark"
+      ],
+      "note": "Covers the small round white mark on a horse."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44903:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer and orthographic/etymological note."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44904:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_tatra_s1"
+      ],
+      "note": "Directly explains the Quranic succession expression."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44905:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wtr_cm_tense"
+      ],
+      "note": "The contracted-vein horse adjective is covered by the broader tense or contracted branch."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44906:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_moutur"
+      ],
+      "note": "Covers the bereaved and unavenged person."
+    },
+    {
+      "unit_id": "lane-unit:wtr:44907:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_mutawatir"
+      ],
+      "note": "Covers successive occurrence and successive transmission of reports."
+    },
+    {
+      "unit_id": "lane-unit:wtr:30355:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wtr_cm_penilefrenum"
+      ],
+      "note": "Covers the specialized anatomical frenum sense."
+    },
+    {
+      "unit_id": "lane-unit:wtr:30356:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "For تَتْرَى, the evidence differs on whether the intervals are brief, interrupted, or extended; the stable lexical core is successive arrival.",
+    "The Quranic وَتْر in 89:3 has several transmitted interpretations beyond the basic lexical sense of the odd or singular one.",
+    "Lane's printed Quran references use legacy citation conventions; the modern verse and word locations in the examples are taken from the supplied QAC data."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

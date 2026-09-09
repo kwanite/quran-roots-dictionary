@@ -1,0 +1,189 @@
+{
+  "root": "TfA",
+  "arabic": "طفأ",
+  "root_idea": {
+    "summary": "The attested semantic center is the cessation of flame, heat, or fire, or the causing of these to cease.",
+    "development": "The lexical record shows an intransitive fire becoming extinguished alongside the causative act of extinguishing it, with figurative and specialized extensions built on the same extinction imagery.",
+    "source_refs": [
+      "lane:entry:11429",
+      "lane:entry:11430",
+      "lane:entry:11433"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:TfA:>aTofa>a:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:TfA:IV:atfaa",
+      "reason": "Displayed under the normalized Form IV perfect citation form أَطْفَأَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:TfA:IV:atfaa",
+      "form_group_ids": [
+        "qac-form:TfA:>aTofa>a:verb:IV"
+      ],
+      "headword_arabic": "أَطْفَأَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense:TfA:IV:extinguish",
+          "definition": "To extinguish or quench a fire; figuratively, to suppress an active conflict or similar force.",
+          "usage_conditions": "Transitive Form IV. The Quran applies the verb to putting out a fire kindled for war and figuratively to attempting to extinguish the light of God; these are applications of the same extinguishing construction, not separate light-specific senses.",
+          "source_refs": [
+            "lane:entry:11430"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:64",
+          "word_location": "5:64:38",
+          "sense_ids": [
+            "sense:TfA:IV:extinguish"
+          ]
+        },
+        {
+          "verse_key": "9:32",
+          "word_location": "9:32:3",
+          "sense_ids": [
+            "sense:TfA:IV:extinguish"
+          ]
+        },
+        {
+          "verse_key": "61:8",
+          "word_location": "61:8:2",
+          "sense_ids": [
+            "sense:TfA:IV:extinguish"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical:TfA:fire_become_extinguished",
+      "headword_arabic": "طَفِئَ",
+      "definition": "Of a fire: to become extinguished or quenched, ceasing to flame; in the stricter description, its live coals have also cooled.",
+      "usage_conditions": "The lexical distinction recorded here separates a fire whose flame has merely died down while its coals still burn from one whose flame and coals are fully extinct.",
+      "source_refs": [
+        "lane:entry:11429"
+      ]
+    },
+    {
+      "meaning_id": "classical:TfA:calendar_day",
+      "headword_arabic": "مُطْفِئُ الجَمْرِ",
+      "definition": "A traditional name for one of the seven days called أَيَّامُ العَجُوز, associated with extinguishing the last live coal.",
+      "usage_conditions": "The day is variously reported as the fourth or the fifth of the series.",
+      "source_refs": [
+        "lane:entry:11433"
+      ]
+    },
+    {
+      "meaning_id": "classical:TfA:heated_stone_fat",
+      "headword_arabic": "مُطْفِئَةُ الرَّضْفِ",
+      "definition": "A piece of fat that melts on heated stones and quenches them; also, in an associated expression, a sheep or goat slaughtered in a way described as quenching those stones.",
+      "usage_conditions": "The cited lexical accounts variously describe the animal as lean or fat.",
+      "source_refs": [
+        "lane:entry:11433"
+      ]
+    },
+    {
+      "meaning_id": "classical:TfA:fire_quenching_serpent",
+      "headword_arabic": "مُطْفِئَةُ",
+      "definition": "A serpent whose poison is said to extinguish a fire as it passes over heated stones.",
+      "usage_conditions": "This is a specialized Classical usage connected with the serpent’s effect on heated stones.",
+      "source_refs": [
+        "lane:entry:11433"
+      ]
+    },
+    {
+      "meaning_id": "classical:TfA:calamity",
+      "headword_arabic": "مُطْفِئُ",
+      "definition": "A calamity or misfortune, figuratively conceived as something that makes what came before forgotten and extinguishes its heat.",
+      "usage_conditions": "Figurative usage based on the extinction of heat and the displacement of what preceded it.",
+      "source_refs": [
+        "lane:entry:11433"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:TfA:11429:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:TfA:fire_become_extinguished"
+      ],
+      "note": "Intransitive extinction of a fire, including the distinction involving cooled coals."
+    },
+    {
+      "unit_id": "lane-unit:TfA:11430:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:TfA:IV:extinguish"
+      ],
+      "note": "Causative extinguishing of fire with figurative war and conflict applications."
+    },
+    {
+      "unit_id": "lane-unit:TfA:11431:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only derived-form cross-reference to the first paragraph."
+    },
+    {
+      "unit_id": "lane-unit:TfA:11432:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference for a related participial expression."
+    },
+    {
+      "unit_id": "lane-unit:TfA:11433:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:TfA:calendar_day",
+        "classical:TfA:heated_stone_fat",
+        "classical:TfA:fire_quenching_serpent",
+        "classical:TfA:calamity"
+      ],
+      "note": "Contains the calendrical, heated-stone, serpent, and figurative calamity branches."
+    },
+    {
+      "unit_id": "lane-unit:TfA:11433:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:TfA:heated_stone_fat"
+      ],
+      "note": "Specialized مُطْفِئَةُ الرَّضْفِ expression."
+    },
+    {
+      "unit_id": "lane-unit:TfA:11433:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:TfA:fire_quenching_serpent"
+      ],
+      "note": "Specialized serpent usage."
+    },
+    {
+      "unit_id": "lane-unit:TfA:11433:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:TfA:calamity"
+      ],
+      "note": "Figurative calamity or misfortune usage."
+    },
+    {
+      "unit_id": "lane-unit:TfA:11434:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding heated-stone expression."
+    }
+  ],
+  "cautions": [
+    "The specialized calendrical, heated-stone, serpent, and calamity usages are broader Classical expressions and are kept separate from the Quran-attested Form IV verb.",
+    "No Maqayis or Mufradat evidence was supplied; the root-level orientation is therefore limited to the directly matched lexical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

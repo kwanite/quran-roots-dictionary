@@ -1,0 +1,238 @@
+{
+  "root": "nyl",
+  "arabic": "نيل",
+  "root_idea": {
+    "summary": "The attested semantic orientation is coming into reach of something and thereby attaining or obtaining it; the root also has a distinct branch for an effect or injury reaching another.",
+    "development": "The lexical evidence connects reaching with acquisition and with what is obtained from another's bounty. In the construction نال من, the action specializes into verbally or physically harming someone.",
+    "source_refs": [
+      "mufradat:row:1502",
+      "lane:entry:32486",
+      "lane:entry:32491"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nyl:yanaAlu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_nala",
+      "reason": "Displayed under the normalized Form I perfect citation form نَالَ rather than the QAC imperfect lemma يَنَالُ."
+    },
+    {
+      "form_group_id": "qac-form:nyl:n~ayol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_nayl",
+      "reason": "Displayed separately as the Quran-attested noun نَيْلٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_nala",
+      "form_group_ids": [
+        "qac-form:nyl:yanaAlu:verb:I"
+      ],
+      "headword_arabic": "نَالَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "sense_nala_reach_attain",
+          "definition": "To reach, attain, or obtain something; to come into contact with or possession of it.",
+          "usage_conditions": "Covers attaining a desired object, good, covenant, righteousness, or share, as well as an effect or state reaching a recipient. In 22:37, the statement that piety reaches God is a figurative Quranic construction concerning what reaches Him, not a claim that meat or blood physically reaches Him.",
+          "source_refs": [
+            "lane:entry:32486",
+            "mufradat:row:1502"
+          ]
+        },
+        {
+          "sense_id": "sense_nala_inflict_harm",
+          "definition": "To inflict harm, hurt, or injure someone.",
+          "usage_conditions": "A distinct use appears in the construction نَالَ مِنْ or نَالَهُ. In the Quranic expression نَالُوا مِنْ عَدُوٍّ نَيْلًا, the verb describes inflicting or causing harm; the enemy is the object in that attested construction, not a general semantic restriction.",
+          "source_refs": [
+            "lane:entry:32486",
+            "mufradat:row:1502"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:92",
+          "word_location": "3:92:2",
+          "sense_ids": [
+            "sense_nala_reach_attain"
+          ]
+        },
+        {
+          "verse_key": "9:120",
+          "word_location": "9:120:37",
+          "sense_ids": [
+            "sense_nala_inflict_harm"
+          ]
+        },
+        {
+          "verse_key": "22:37",
+          "word_location": "22:37:8",
+          "sense_ids": [
+            "sense_nala_reach_attain"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_nayl",
+      "form_group_ids": [
+        "qac-form:nyl:n~ayol:nominal:-"
+      ],
+      "headword_arabic": "نَيْلٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_nayl_attainment",
+          "definition": "Attainment or acquisition; what is obtained.",
+          "usage_conditions": "The sole Quran occurrence is the cognate object in نَالُوا مِنْ عَدُوٍّ نَيْلًا. In that construction, what is obtained from an enemy is contextually an injury or infliction, while the noun's lexical branch is the act or result of attaining.",
+          "source_refs": [
+            "lane:entry:32489",
+            "mufradat:row:1502"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:120",
+          "word_location": "9:120:40",
+          "sense_ids": [
+            "sense_nayl_attainment"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_nala_defame",
+      "headword_arabic": "نَالَ",
+      "definition": "To defame, disparage, or verbally harm someone.",
+      "usage_conditions": "Used with مِنْ, with a person's honor or reputation, or with the tongue; this is a verbal-assault construction distinct from the general sense of reaching or attaining.",
+      "source_refs": [
+        "lane:entry:32486"
+      ]
+    },
+    {
+      "meaning_id": "meaning_nayl_received_bounty",
+      "headword_arabic": "نَيْلٌ",
+      "definition": "A benefit, gift, or bounty obtained from another.",
+      "usage_conditions": "A noun use for what one acquires from another's generosity or beneficence; it is a narrower Classical Arabic specialization of what is obtained.",
+      "source_refs": [
+        "lane:entry:32491"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nyl:32486:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_nala_defame"
+      ],
+      "note": "Defamation meaning."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32486:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_nala_defame"
+      ],
+      "note": "Defamation of another's honor."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32486:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_nala_inflict_harm"
+      ],
+      "note": "Harming or injuring another."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32486:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_nala_defame"
+      ],
+      "note": "Verbal harming with the tongue."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32486:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_nala_reach_attain"
+      ],
+      "note": "Obtaining or attaining a desired object."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32486:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_nala_reach_attain"
+      ],
+      "note": "Reaching or coming to someone."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32486:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only idiomatic and inflectional note; no gloss is supplied in the unit."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32486:g1:sub8",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_nala_reach_attain"
+      ],
+      "note": "Attainment meaning already covered by the broader Quranic reach/attain sense."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32487:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form IV cross-reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32488:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Synonymic cross-reference to another derived form without an independently stated gloss."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32489:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_nayl_attainment"
+      ],
+      "note": "Noun meaning of obtainment."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32490:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "The unit gives a meaning of giving or gifting but explicitly says it properly belongs to the root نول."
+    },
+    {
+      "unit_id": "lane-unit:nyl:32491:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_nayl_received_bounty"
+      ],
+      "note": "What is obtained from another's bounty."
+    }
+  ],
+  "cautions": [
+    "The Form I public headword is normalized from the Quranic imperfect forms to the Classical Arabic perfect citation form نَالَ.",
+    "The Quranic noun's contextual rendering as an infliction is tied to the construction نَالُوا مِنْ عَدُوٍّ نَيْلًا; it is not treated as an independently established general noun sense of harm.",
+    "The Lane reference to Bd, xxii. 38 is not converted into a modern Quran verse location; Quran examples here use only supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:nyl:32490:g1:main reports 'the act of giving' or giving a gift but states that this meaning properly belongs to نول, so it is not assigned to root نيل."
+  ]
+}

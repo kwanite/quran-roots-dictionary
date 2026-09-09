@@ -1,0 +1,408 @@
+{
+  "root": "zyl",
+  "arabic": "زيل",
+  "root_idea": {
+    "summary": "The root's semantic orientation is separation, divergence, and being set apart.",
+    "development": "The lexical development runs from putting things apart and removing them to mutual separation, dispersion, physical spacing, and figurative withdrawal or reserve. The root lexicographic tradition also treats the ياء as historically related to a واو.",
+    "source_refs": [
+      "maqayis:row:2333",
+      "lane:entry:32008",
+      "lane:entry:32012"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zyl:zaAlat:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zyl-form-I-zala",
+      "reason": "Distinct Quran-attested Form I verb, normalized to the Classical Arabic citation form زَالَ."
+    },
+    {
+      "form_group_id": "qac-form:zyl:zay~alo:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zyl-form-II-zayyala",
+      "reason": "Distinct Quran-attested Form II verb with an explicitly supported separating and dispersing meaning."
+    },
+    {
+      "form_group_id": "qac-form:zyl:tazay~alu:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zyl-form-V-tazayyala",
+      "reason": "Distinct Quran-attested Form V verb expressing becoming separated."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "zyl-form-I-zala",
+      "form_group_ids": [
+        "qac-form:zyl:zaAlat:verb:I"
+      ],
+      "headword_arabic": "زَالَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "zyl-form-I-s1",
+          "definition": "In the Quranic negative construction, not to cease; to continue or remain.",
+          "usage_conditions": "Used with negative particles such as مَا, لَا, or لَمْ as an incomplete verb. The negated construction conveys continuation or persistence and may govern a subject and predicate.",
+          "source_refs": [
+            "lane:entry:32007"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:118",
+          "word_location": "11:118:9",
+          "sense_ids": [
+            "zyl-form-I-s1"
+          ]
+        },
+        {
+          "verse_key": "21:15",
+          "word_location": "21:15:2",
+          "sense_ids": [
+            "zyl-form-I-s1"
+          ]
+        },
+        {
+          "verse_key": "40:34",
+          "word_location": "40:34:8",
+          "sense_ids": [
+            "zyl-form-I-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zyl-form-II-zayyala",
+      "form_group_ids": [
+        "qac-form:zyl:zay~alo:verb:II"
+      ],
+      "headword_arabic": "زَيَّلَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "zyl-form-II-s1",
+          "definition": "To separate widely; to disperse or set apart from one another.",
+          "usage_conditions": "A transitive causative/intensive separation verb; the Quranic construction uses بَيْنَ to express separation between parties.",
+          "source_refs": [
+            "lane:entry:32008"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:28",
+          "word_location": "10:28:11",
+          "sense_ids": [
+            "zyl-form-II-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zyl-form-V-tazayyala",
+      "form_group_ids": [
+        "qac-form:zyl:tazay~alu:verb:V"
+      ],
+      "headword_arabic": "تَزَيَّلَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "zyl-form-V-s1",
+          "definition": "To become separated from one another; to become widely apart or dispersed.",
+          "usage_conditions": "A reflexive or quasi-passive separation verb, used for parties becoming distinct from one another.",
+          "source_refs": [
+            "lane:entry:32011"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "48:25",
+          "word_location": "48:25:34",
+          "sense_ids": [
+            "zyl-form-V-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-zala-cease-exist",
+      "headword_arabic": "زَالَ",
+      "definition": "To cease to be or exist.",
+      "usage_conditions": "The complete intransitive verb is distinguished from the incomplete verb used in the negative continuation construction mā zāla, lā yazālu, and lam yazal.",
+      "source_refs": [
+        "lane:entry:32007"
+      ]
+    },
+    {
+      "meaning_id": "cm-zalahu-remove",
+      "headword_arabic": "زَالَهُ",
+      "definition": "To put or set one thing apart from another; to remove or separate it.",
+      "usage_conditions": "Transitive Form I usage, including separating one thing from another.",
+      "source_refs": [
+        "lane:entry:32007"
+      ]
+    },
+    {
+      "meaning_id": "cm-zayalahu-separate",
+      "headword_arabic": "زَايَلَهُ",
+      "definition": "To separate oneself from another; to withdraw from him in conduct or action.",
+      "usage_conditions": "The verb can describe withdrawing from someone while no longer mixing with him in one's actions; a cited use describes veiling the face from him.",
+      "source_refs": [
+        "lane:entry:32009"
+      ]
+    },
+    {
+      "meaning_id": "cm-azalahu-remove",
+      "headword_arabic": "أَزَالَهُ",
+      "definition": "To remove something from its place.",
+      "usage_conditions": "Transitive Form IV usage, with مِنْ or عَنْ indicating removal from a place or position.",
+      "source_refs": [
+        "lane:entry:32010"
+      ]
+    },
+    {
+      "meaning_id": "cm-tazayala-abash",
+      "headword_arabic": "تَزَايَلَ",
+      "definition": "To become abashed, reserved, or withdrawn before someone.",
+      "usage_conditions": "A figurative use explained through the idea of separating and shrinking back from another person.",
+      "source_refs": [
+        "lane:entry:32012"
+      ]
+    },
+    {
+      "meaning_id": "cm-inzala-separate",
+      "headword_arabic": "اِنْزَالَ",
+      "definition": "To be put or set apart, removed, or separated from someone or something.",
+      "usage_conditions": "Passive or intransitive Form VII usage, commonly followed by عَنْهُ or a similar expression of separation.",
+      "source_refs": [
+        "lane:entry:32013"
+      ]
+    },
+    {
+      "meaning_id": "cm-zayal-thighgap",
+      "headword_arabic": "زَيَلٌ",
+      "definition": "The width or distance between the thighs.",
+      "usage_conditions": "A bodily descriptive noun, compared with فَجَجٌ.",
+      "source_refs": [
+        "lane:entry:32014"
+      ]
+    },
+    {
+      "meaning_id": "cm-ayzal-thighs",
+      "headword_arabic": "أَزْيَلٌ",
+      "definition": "Having the thighs wide apart.",
+      "usage_conditions": "An adjectival description of bodily spacing.",
+      "source_refs": [
+        "lane:entry:32015"
+      ]
+    },
+    {
+      "meaning_id": "cm-mizyal-clever",
+      "headword_arabic": "مِزْيَلٌ / مِزْيَالٌ",
+      "definition": "A person acute, clever, skilful, and knowledgeable in subtle matters; also, according to an alternative explanation, a contentious litigant who shifts from one plea or argument to another.",
+      "usage_conditions": "The second explanation focuses on rapid shifting between arguments in altercation or litigation.",
+      "source_refs": [
+        "lane:entry:32016",
+        "lane:entry:32017"
+      ]
+    },
+    {
+      "meaning_id": "cm-habib-muzayil",
+      "headword_arabic": "الحَبِيبُ المُزَايِلُ",
+      "definition": "A beloved or friend who is in a state of separation or disunion.",
+      "usage_conditions": "A phrase-level use describing a beloved or friend who is separated or apart.",
+      "source_refs": [
+        "lane:entry:32018"
+      ]
+    },
+    {
+      "meaning_id": "cm-mutazayila-veil",
+      "headword_arabic": "مُتَزَايِلَةٌ",
+      "definition": "A woman who veils her face from men.",
+      "usage_conditions": "A specialized lexical use describing withdrawal from view by covering the face.",
+      "source_refs": [
+        "lane:entry:32012",
+        "lane:entry:32019"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zyl:32007:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-zalahu-remove"
+      ],
+      "note": "Synonymic statement covered by the transitive Form I removal meaning."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32007:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only references to entries under زول."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32007:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zalahu-remove"
+      ],
+      "note": "Transitive Form I separation and removal."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32007:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyl-form-I-s1",
+        "cm-zala-cease-exist"
+      ],
+      "note": "Covers the negative continuation construction and the distinct complete-verb sense of ceasing to exist."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32008:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyl-form-II-s1"
+      ],
+      "note": "Form II wide separation or dispersal, explicitly Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32008:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive-form and derivational note without an additional lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32009:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zayalahu-separate"
+      ],
+      "note": "Form III separating oneself from another."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32009:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-zayalahu-separate"
+      ],
+      "note": "Cited veiling example is covered as withdrawal or separation from another."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32009:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32010:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-azalahu-remove"
+      ],
+      "note": "Form IV removal from a place."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32011:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyl-form-V-s1"
+      ],
+      "note": "Form V becoming separated or dispersed, explicitly Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32012:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form V entry."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32012:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tazayala-abash"
+      ],
+      "note": "Figurative use meaning becoming abashed or reserved."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32012:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mutazayila-veil"
+      ],
+      "note": "Specialized veiling and withdrawal use."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32013:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-inzala-separate"
+      ],
+      "note": "Form VII being put apart, removed, or separated."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32014:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zayal-thighgap"
+      ],
+      "note": "Noun for the width between the thighs."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32015:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ayzal-thighs"
+      ],
+      "note": "Adjective for thighs being wide apart."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32016:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mizyal-clever"
+      ],
+      "note": "Cleverness, subtle expertise, and the alternative contentious-litigant explanation."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32017:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-mizyal-clever"
+      ],
+      "note": "Pointer identifies مِزْيَالٌ with the preceding lexical item."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32018:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-habib-muzayil"
+      ],
+      "note": "Phrase for a beloved or friend in separation."
+    },
+    {
+      "unit_id": "lane-unit:zyl:32019:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mutazayila-veil"
+      ],
+      "note": "Specialized noun for a woman veiling her face."
+    }
+  ],
+  "cautions": [
+    "The Quranic Form I occurrences are used in negative continuation constructions; the supplied word-level contextual glosses may omit the force of the surrounding negative particle.",
+    "The root discussion treats the ياء as historically related to a واو; supplemental entries under زول have therefore not been imported as independent direct evidence for this QAC root.",
+    "The supplied phrase-level Lane headword contains an apparent transcription error; it is normalized here as الحبيب المُزَايِلُ in accordance with the accompanying explanation."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

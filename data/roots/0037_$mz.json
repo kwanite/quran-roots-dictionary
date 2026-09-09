@@ -1,0 +1,169 @@
+{
+  "root": "$mz",
+  "arabic": "شمز",
+  "root_idea": {
+    "summary": "A semantic field of contraction and withdrawal in aversion, with associated shuddering, fright, and dislike.",
+    "development": "The supplied lexical family links a soul shrinking from something disliked, facial contraction in anger, and the Form VIII reaction of contraction or shuddering; related nominal and adjectival forms preserve these branches.",
+    "source_refs": [
+      "lane:entry:39211",
+      "lane:entry:39212",
+      "lane:entry:39213",
+      "lane:entry:39214",
+      "lane:entry:39215"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$mz:{$oma>az~ato:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "smz_q8_ishmaazz",
+      "reason": "Displayed under the normalized Form VIII perfect citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "smz_q8_ishmaazz",
+      "form_group_ids": [
+        "qac-form:$mz:{$oma>az~ato:verb:VIII"
+      ],
+      "headword_arabic": "اِشْمَأَزَّ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "smz_q8_s1",
+          "definition": "To shrink or become contracted with aversion.",
+          "usage_conditions": "In the Quranic construction, describes the contraction or withdrawal of hearts when God alone is mentioned.",
+          "source_refs": [
+            "lane:entry:39213"
+          ]
+        },
+        {
+          "sense_id": "smz_q8_s2",
+          "definition": "To quake or shudder.",
+          "usage_conditions": "An alternative Quranic interpretation of the same construction describing the hearts’ reaction when God alone is mentioned.",
+          "source_refs": [
+            "lane:entry:39213"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:45",
+          "word_location": "39:45:5",
+          "sense_ids": [
+            "smz_q8_s1",
+            "smz_q8_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "smz_c_shamaza",
+      "headword_arabic": "شَمَزَ",
+      "definition": "To shrink from something in dislike or hatred.",
+      "usage_conditions": "Form I usage, including the expression of a soul shrinking from a disliked object.",
+      "source_refs": [
+        "lane:entry:39211"
+      ]
+    },
+    {
+      "meaning_id": "smz_c_tashammaz",
+      "headword_arabic": "تَشَمَّزَ",
+      "definition": "To become changed and contracted in the face from anger.",
+      "usage_conditions": "Form V usage describing a facial reaction.",
+      "source_refs": [
+        "lane:entry:39212"
+      ]
+    },
+    {
+      "meaning_id": "smz_c_ishmaazz_fright",
+      "headword_arabic": "اِشْمَأَزَّ",
+      "definition": "To be frightened at a thing.",
+      "usage_conditions": "A broader Classical use of the Form VIII verb, distinct from the Quran-attested contraction and shuddering construction.",
+      "source_refs": [
+        "lane:entry:39213"
+      ]
+    },
+    {
+      "meaning_id": "smz_c_ishmaazz_dislike",
+      "headword_arabic": "اِشْمَأَزَّ",
+      "definition": "To dislike or hate a thing.",
+      "usage_conditions": "The thing may be expressed directly, without a preposition, in the reported Classical construction.",
+      "source_refs": [
+        "lane:entry:39213"
+      ]
+    },
+    {
+      "meaning_id": "smz_c_shumaazizah",
+      "headword_arabic": "شُمَأْزِيزَةٌ",
+      "definition": "A state of shrinking or contraction; also quaking or shuddering, fright, or dislike and hatred.",
+      "usage_conditions": "Substantive describing the condition or disposition associated with the lexical family.",
+      "source_refs": [
+        "lane:entry:39214"
+      ]
+    },
+    {
+      "meaning_id": "smz_c_mushmaizz",
+      "headword_arabic": "مُشْمَئِزٌّ",
+      "definition": "Shrinking with aversion; disliking or hating a thing; frightened or afraid.",
+      "usage_conditions": "Adjectival or active-participial use describing a person characterized by these reactions.",
+      "source_refs": [
+        "lane:entry:39215"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$mz:39211:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "smz_c_shamaza"
+      ],
+      "note": "Form I shrinking from something in dislike or hatred is represented."
+    },
+    {
+      "unit_id": "lane-unit:$mz:39212:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "smz_c_tashammaz"
+      ],
+      "note": "Facial change and contraction from anger are represented."
+    },
+    {
+      "unit_id": "lane-unit:$mz:39213:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "smz_q8_s1",
+        "smz_q8_s2",
+        "smz_c_ishmaazz_fright",
+        "smz_c_ishmaazz_dislike"
+      ],
+      "note": "The Quran-attested contraction and shuddering interpretations, plus broader fright and dislike constructions, are represented."
+    },
+    {
+      "unit_id": "lane-unit:$mz:39214:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "smz_c_shumaazizah"
+      ],
+      "note": "The substantive senses of contraction, shuddering, fright, and aversion are represented."
+    },
+    {
+      "unit_id": "lane-unit:$mz:39215:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "smz_c_mushmaizz"
+      ],
+      "note": "The adjectival senses of aversion, dislike, and fear are represented."
+    }
+  ],
+  "cautions": [
+    "The Lane passage uses a historical Quran citation rendered as “Kur xxxix 46”; it is not treated as a modern verse location. The example location 39:45:5 is used independently because it is supplied by QAC.",
+    "The Quranic shuddering sense is an alternative interpretation explicitly attached to the same Quranic construction, not a separate additional occurrence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

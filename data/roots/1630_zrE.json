@@ -1,0 +1,720 @@
+{
+  "root": "zrE",
+  "arabic": "زرع",
+  "root_idea": {
+    "summary": "The root centers on bringing something into growth or development, concretely through sowing and the emergence of cultivated produce.",
+    "development": "Its semantic field extends from casting seed and the crop that results to cultivation, growers, offspring, and figurative harvests, while these developments are not automatically meanings of every derived form.",
+    "source_refs": [
+      "maqayis:row:2237",
+      "mufradat:row:617"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zrE:tazoraEu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zrE-verb-zara",
+      "reason": "Normalized from the imperfect QAC lemma تَزْرَعُ to the Form I perfect citation form زَرَعَ."
+    },
+    {
+      "form_group_id": "qac-form:zrE:zaroE:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zrE-noun-zarc",
+      "reason": "Displayed under the standard nominal citation form زَرْعٌ."
+    },
+    {
+      "form_group_id": "qac-form:zrE:z~a`riEuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zrE-ap-zaric",
+      "reason": "Normalized from the Quranic plural active participle to the singular citation form زَارِعٌ."
+    },
+    {
+      "form_group_id": "qac-form:zrE:z~ur~aAE:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "zrE-ap-zaric",
+      "reason": "زُرَّاعٌ is identified in the lexical evidence as the plural of زَارِعٌ and represents the same active-participial lexeme."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "zrE-verb-zara",
+      "form_group_ids": [
+        "qac-form:zrE:tazoraEu:verb:I"
+      ],
+      "headword_arabic": "زَرَعَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "zrE-vs-sow",
+          "definition": "To sow or plant by casting seed.",
+          "usage_conditions": "The Quranic use describes human sowing or planting, including the sowing of a crop; the form may also be transitive with the plant or produce concerned.",
+          "source_refs": [
+            "lane:entry:31086"
+          ]
+        },
+        {
+          "sense_id": "zrE-vs-grow",
+          "definition": "To cause seed-produce to grow, vegetate, or germinate.",
+          "usage_conditions": "In the Quranic construction, human beings are associated with sowing as a means, while the actual causing of growth is attributed to God.",
+          "source_refs": [
+            "lane:entry:31086",
+            "mufradat:row:617"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:47",
+          "word_location": "12:47:2",
+          "sense_ids": [
+            "zrE-vs-sow"
+          ]
+        },
+        {
+          "verse_key": "56:64",
+          "word_location": "56:64:2",
+          "sense_ids": [
+            "zrE-vs-grow"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zrE-noun-zarc",
+      "form_group_ids": [
+        "qac-form:zrE:zaroE:nominal:-"
+      ],
+      "headword_arabic": "زَرْعٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "zrE-ns-produce",
+          "definition": "Sown produce or crops; cultivated growth, whether standing or reaped, and often the sown field itself.",
+          "usage_conditions": "The term predominantly applies to grain such as wheat and barley but can also denote plants or herbage raised by sowing. Quranic contexts include crops, cultivation, and cultivated fields.",
+          "source_refs": [
+            "lane:entry:31092",
+            "mufradat:row:617"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:37",
+          "word_location": "14:37:9",
+          "sense_ids": [
+            "zrE-ns-produce"
+          ]
+        },
+        {
+          "verse_key": "32:27",
+          "word_location": "32:27:11",
+          "sense_ids": [
+            "zrE-ns-produce"
+          ]
+        },
+        {
+          "verse_key": "26:148",
+          "word_location": "26:148:1",
+          "sense_ids": [
+            "zrE-ns-produce"
+          ]
+        },
+        {
+          "verse_key": "48:29",
+          "word_location": "48:29:32",
+          "sense_ids": [
+            "zrE-ns-produce"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zrE-ap-zaric",
+      "form_group_ids": [
+        "qac-form:zrE:z~a`riEuwn:nominal:-",
+        "qac-form:zrE:z~ur~aAE:nominal:-"
+      ],
+      "headword_arabic": "زَارِعٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "zrE-as-cultivator",
+          "definition": "A sower or cultivator; figuratively, one who cultivates and advances a cause.",
+          "usage_conditions": "In the Quranic plural زُرَّاعٌ in 48:29, the expression refers figuratively to Muhammad and his Companions as inviters to Islam.",
+          "source_refs": [
+            "lane:entry:31103"
+          ]
+        },
+        {
+          "sense_id": "zrE-as-grower",
+          "definition": "One who causes seed-produce to grow, or serves as the human agent or means of its growth.",
+          "usage_conditions": "The Quranic plural in 56:64 occurs in a contrast between human sowing and the ultimate causing of growth.",
+          "source_refs": [
+            "lane:entry:31103",
+            "mufradat:row:617"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:64",
+          "word_location": "56:64:5",
+          "sense_ids": [
+            "zrE-as-grower"
+          ]
+        },
+        {
+          "verse_key": "48:29",
+          "word_location": "48:29:41",
+          "sense_ids": [
+            "zrE-as-cultivator"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-zara-cultivate",
+      "headword_arabic": "زَرَعَ",
+      "definition": "To plough up, till, or cultivate land in preparation for sowing.",
+      "usage_conditions": "This is the land-preparation and cultivation use of the Form I verb, distinct from simply casting seed.",
+      "source_refs": [
+        "lane:entry:31086"
+      ]
+    },
+    {
+      "meaning_id": "cm-zara-metaphor",
+      "headword_arabic": "زَرَعَ",
+      "definition": "To implant or engender something figuratively, especially love in hearts.",
+      "usage_conditions": "A figurative extension of sowing, as when generosity and good character are said to sow love in people's hearts.",
+      "source_refs": [
+        "lane:entry:31086"
+      ]
+    },
+    {
+      "meaning_id": "cm-zara-childgrowth",
+      "headword_arabic": "زَرَعَ",
+      "definition": "To cause a child or offspring to grow sound and strong, or to grow up for goodness.",
+      "usage_conditions": "Used in a supplication or blessing with God as the causer of the child's healthy or virtuous growth.",
+      "source_refs": [
+        "lane:entry:31086"
+      ]
+    },
+    {
+      "meaning_id": "cm-zara-afteradversity",
+      "headword_arabic": "زُرِعَ",
+      "definition": "To obtain an increase or property after adversity or want.",
+      "usage_conditions": "An idiomatic passive-like use describing improvement or acquisition after hardship.",
+      "source_refs": [
+        "lane:entry:31086"
+      ]
+    },
+    {
+      "meaning_id": "cm-muzaraca-contract",
+      "headword_arabic": "مُزَارَعَةٌ",
+      "definition": "A contract to till and sow land in return for a specified share of its produce.",
+      "usage_conditions": "The seed is supplied by the landowner; the term denotes the mutual agricultural arrangement and its associated bargain.",
+      "source_refs": [
+        "lane:entry:31087"
+      ]
+    },
+    {
+      "meaning_id": "cm-azraca-growth",
+      "headword_arabic": "أَزْرَعَ",
+      "definition": "Of a plant or seed-produce, to grow from its seed, become tall or leafy, and reach the time for reaping.",
+      "usage_conditions": "The Form IV verb describes stages of a plant's development or its becoming ready for harvest.",
+      "source_refs": [
+        "lane:entry:31088"
+      ]
+    },
+    {
+      "meaning_id": "cm-azraca-availability",
+      "headword_arabic": "أَزْرَعَ",
+      "definition": "Of people, to have seed-produce available or to reach a season in which they can make use of it.",
+      "usage_conditions": "The expression concerns access to seed-produce or the agricultural season, rather than the act of sowing itself.",
+      "source_refs": [
+        "lane:entry:31088"
+      ]
+    },
+    {
+      "meaning_id": "cm-tazarraca-hasten",
+      "headword_arabic": "تَزَرَّعَ",
+      "definition": "To hasten or make haste toward evil or mischief.",
+      "usage_conditions": "Used with إِلَى الشَّرِّ in the cited conventional expression.",
+      "source_refs": [
+        "lane:entry:31089"
+      ]
+    },
+    {
+      "meaning_id": "cm-astazraca-offspring",
+      "headword_arabic": "اِسْتَزْرَعَ",
+      "definition": "To ask God to bring one's offspring up in piety and to provide lawful sustenance for them.",
+      "usage_conditions": "A Form X supplicatory construction seeking divinely fostered moral growth and provision.",
+      "source_refs": [
+        "lane:entry:31091"
+      ]
+    },
+    {
+      "meaning_id": "cm-zarc-offspring",
+      "headword_arabic": "زَرْعٌ",
+      "definition": "Offspring, children, or a child.",
+      "usage_conditions": "A figurative use treating descendants as the produce of a person.",
+      "source_refs": [
+        "lane:entry:31092"
+      ]
+    },
+    {
+      "meaning_id": "cm-zarc-semen",
+      "headword_arabic": "زَرْعٌ",
+      "definition": "A man's seed or seminal fluid.",
+      "usage_conditions": "An extended bodily and generative use of the noun.",
+      "source_refs": [
+        "lane:entry:31092"
+      ]
+    },
+    {
+      "meaning_id": "cm-zarc-conductharvest",
+      "headword_arabic": "زَرْعٌ",
+      "definition": "The fruit or harvest of a person's conduct.",
+      "usage_conditions": "A figurative expression treats deeds as what one has sown and their consequences as the resulting harvest.",
+      "source_refs": [
+        "lane:entry:31092"
+      ]
+    },
+    {
+      "meaning_id": "cm-zarca-place",
+      "headword_arabic": "زَرْعَةٌ",
+      "definition": "A place in which seed may be sown.",
+      "usage_conditions": "Used of the availability or absence of a place suitable for sowing.",
+      "source_refs": [
+        "lane:entry:31093"
+      ]
+    },
+    {
+      "meaning_id": "cm-zarca-ear",
+      "headword_arabic": "زَرْعَةٌ",
+      "definition": "Apparently, an ear of corn.",
+      "usage_conditions": "A reported, apparently specialized use; it is kept distinct from the ordinary place-for-sowing meaning.",
+      "source_refs": [
+        "lane:entry:31093"
+      ]
+    },
+    {
+      "meaning_id": "cm-zurca-seed",
+      "headword_arabic": "زُرْعَةٌ",
+      "definition": "Seed or grain intended for sowing.",
+      "usage_conditions": "The term denotes the seed supplied for planting a field.",
+      "source_refs": [
+        "lane:entry:31094"
+      ]
+    },
+    {
+      "meaning_id": "cm-zurca-partridge",
+      "headword_arabic": "زُرْعَةٌ",
+      "definition": "The young one of a partridge.",
+      "usage_conditions": "A specialized zoological use.",
+      "source_refs": [
+        "lane:entry:31094"
+      ]
+    },
+    {
+      "meaning_id": "cm-zaric-rainfed",
+      "headword_arabic": "زَرِيعٌ",
+      "definition": "Seed-produce watered by rain.",
+      "usage_conditions": "A specialized description of rain-fed growth.",
+      "source_refs": [
+        "lane:entry:31097"
+      ]
+    },
+    {
+      "meaning_id": "cm-zaric-soft",
+      "headword_arabic": "زَرِيعٌ",
+      "definition": "Anything soft or tender.",
+      "usage_conditions": "A figurative comparison with tender, rain-grown produce.",
+      "source_refs": [
+        "lane:entry:31097"
+      ]
+    },
+    {
+      "meaning_id": "cm-ziraca-agriculture",
+      "headword_arabic": "زِرَاعَةٌ",
+      "definition": "The business or occupation of sowing, tilling, or cultivating land.",
+      "usage_conditions": "The verbal noun denotes agriculture as an activity or occupation.",
+      "source_refs": [
+        "lane:entry:31098"
+      ]
+    },
+    {
+      "meaning_id": "cm-zarica-sownthing",
+      "headword_arabic": "زَرِيعَةٌ",
+      "definition": "A thing sown, especially grain used for sowing.",
+      "usage_conditions": "The noun refers to the seed or grain as an item intended to be planted.",
+      "source_refs": [
+        "lane:entry:31099"
+      ]
+    },
+    {
+      "meaning_id": "cm-zarra-calumniator",
+      "headword_arabic": "زَرَّاعٌ",
+      "definition": "A calumniator who sows rancour among friends.",
+      "usage_conditions": "A figurative intensive-agent use based on sowing discord in people's hearts.",
+      "source_refs": [
+        "lane:entry:31100"
+      ]
+    },
+    {
+      "meaning_id": "cm-zirric-fallowgrowth",
+      "headword_arabic": "زِرِّيعٌ",
+      "definition": "Growth arising in land left unsown for a year or more from grain scattered during harvest.",
+      "usage_conditions": "A specialized term for self-sown or volunteer growth in fallow land.",
+      "source_refs": [
+        "lane:entry:31101"
+      ]
+    },
+    {
+      "meaning_id": "cm-zaric-dog",
+      "headword_arabic": "زَارِعٌ",
+      "definition": "The name of a particular dog; in the expression أَوْلَادُ زَارِعٍ, dogs.",
+      "usage_conditions": "This is a proper-name and resultant collective use, unrelated to the ordinary active-participle meaning.",
+      "source_refs": [
+        "lane:entry:31103"
+      ]
+    },
+    {
+      "meaning_id": "cm-mazraca-place",
+      "headword_arabic": "مَزْرَعَةٌ",
+      "definition": "A place of cultivation or a place containing sown produce; in one usage, land that is sown.",
+      "usage_conditions": "The noun denotes an agricultural place or plot rather than the crop itself.",
+      "source_refs": [
+        "lane:entry:31104"
+      ]
+    },
+    {
+      "meaning_id": "cm-mazraca-afterlife",
+      "headword_arabic": "مَزْرَعَةٌ",
+      "definition": "A place in which results are produced for later harvest.",
+      "usage_conditions": "In the expression that calls the present world the cultivation-place of the Hereafter, the agricultural image is used figuratively for deeds and their consequences.",
+      "source_refs": [
+        "lane:entry:31104"
+      ]
+    },
+    {
+      "meaning_id": "cm-muzdari-selfraise",
+      "headword_arabic": "مُزْدَرِعٌ",
+      "definition": "One who raises seed-produce for himself.",
+      "usage_conditions": "The Form VIII active participle carries a self-directed or personally appropriative sense of raising a crop.",
+      "source_refs": [
+        "lane:entry:31107"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zrE:31086:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zrE-vs-sow",
+        "cm-zara-metaphor"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31086:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zara-cultivate"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31086:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zrE-vs-grow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31086:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zara-childgrowth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31086:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zara-afteradversity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31087:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-muzaraca-contract"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31088:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-azraca-growth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31088:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-azraca-availability"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31089:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tazarraca-hasten"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31090:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:zrE:31091:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-astazraca-offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31092:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zrE-ns-produce"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31092:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zarc-offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31092:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zarc-semen"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31092:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zarc-conductharvest"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31093:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zarca-place"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31093:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zarca-ear"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31094:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to زَرْعَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:zrE:31094:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zurca-seed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31094:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zurca-partridge"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31095:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to زَرْعَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:zrE:31096:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to زَرْعَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:zrE:31097:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the related sown-form entry."
+    },
+    {
+      "unit_id": "lane-unit:zrE:31097:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zaric-rainfed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31097:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zaric-soft"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31098:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ziraca-agriculture"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31099:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zarica-sownthing"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31100:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to زَارِعٌ."
+    },
+    {
+      "unit_id": "lane-unit:zrE:31100:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zarra-calumniator"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31101:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zirric-fallowgrowth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31102:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَزْرَعَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:zrE:31103:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zrE-as-cultivator"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31103:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zrE-as-grower"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31103:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zaric-dog"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31104:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mazraca-place"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31104:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mazraca-afterlife"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zrE:31105:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to related sown forms."
+    },
+    {
+      "unit_id": "lane-unit:zrE:31106:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَزْرَعَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:zrE:31107:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-muzdari-selfraise"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The Form I Quranic verb is displayed under the normalized perfect citation form زَرَعَ, although the supplied occurrences are imperfect second-person plural forms.",
+    "The Quranic زُرَّاعٌ group is merged into the active-participle entry زَارِعٌ because the lexical evidence explicitly identifies it as that lexeme's plural. The contextual English renderings are used only as examples, not as independent sense evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

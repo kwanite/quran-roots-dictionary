@@ -1,0 +1,99 @@
+{
+  "root": "nEq",
+  "arabic": "نعق",
+  "root_idea": {
+    "summary": "The root centers on producing a voiced cry or call.",
+    "development": "The underlying notion of vocal sound develops into directed calling or hallooing: a shepherd's cry, a loud Quranic summons, urging people onward, and calling after beasts.",
+    "source_refs": [
+      "maqayis:row:4685",
+      "mufradat:row:1459",
+      "lane:entry:32298",
+      "lane:entry:32299"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nEq:yanoEiqu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nEq-verb-I",
+      "reason": "Displayed as the normalized Form I perfect citation form نَعَقَ rather than the Quranic imperfect يَنْعِقُ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nEq-verb-I",
+      "form_group_ids": [
+        "qac-form:nEq:yanoEiqu:verb:I"
+      ],
+      "headword_arabic": "نَعَقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nEq-verb-I-s1",
+          "definition": "To cry out or call aloud.",
+          "usage_conditions": "In the Quranic construction at 2:171, the call is presented as a loud summons or shout received without meaningful comprehension, rather than as intelligible speech.",
+          "source_refs": [
+            "mufradat:row:1459"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:171",
+          "word_location": "2:171:6",
+          "sense_ids": [
+            "nEq-verb-I-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nEq-classical-1",
+      "headword_arabic": "نَعَقَ",
+      "definition": "To halloo or urge people onward toward fighting or strife.",
+      "usage_conditions": "Used in the supplied expression نَعَقَ بِهِمْ إِلَى الفِتْنَةِ, with a group as the directed object and a destination or cause introduced by إِلَى.",
+      "source_refs": [
+        "lane:entry:32298"
+      ]
+    },
+    {
+      "meaning_id": "nEq-classical-2",
+      "headword_arabic": "نَاعِقٌ",
+      "definition": "One who drives beasts away and cries out after them.",
+      "usage_conditions": "A role noun describing a person who drives beasts while calling after them.",
+      "source_refs": [
+        "lane:entry:32299"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nEq:32298:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nEq-classical-1"
+      ],
+      "note": "The unit states a distinct exhortative construction."
+    },
+    {
+      "unit_id": "lane-unit:nEq:32299:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nEq-classical-2"
+      ],
+      "note": "The unit states the beast-driver and caller use."
+    },
+    {
+      "unit_id": "lane-unit:nEq:32300:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no lexical definition in the supplied unit."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

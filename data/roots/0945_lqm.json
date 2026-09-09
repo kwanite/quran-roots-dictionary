@@ -1,0 +1,223 @@
+{
+  "root": "lqm",
+  "arabic": "لقم",
+  "root_idea": {
+    "summary": "The root centers on taking food into the mouth, especially by hand, and thereby swallowing or consuming it.",
+    "development": "The concrete image extends to gobbling, feeding another by mouthfuls, and habitual heavy eating. It also yields a road or path metaphor, conceived as something that takes in those who pass along it.",
+    "source_refs": [
+      "maqayis:row:4208",
+      "mufradat:row:1318"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lqm:{lotaqama:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:lqm:iltqama:v8",
+      "reason": "Displayed under the normalized Classical Arabic Form VIII perfect citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:lqm:iltqama:v8",
+      "form_group_ids": [
+        "qac-form:lqm:{lotaqama:verb:VIII"
+      ],
+      "headword_arabic": "اِلْتَقَمَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:lqm:iltqama:1",
+          "definition": "To swallow or gulp down an object, taking it into the mouth.",
+          "usage_conditions": "Transitive construction. A rapid or forceful manner is attested in the broader lexical branch, but speed is not required for the Quranic use.",
+          "source_refs": [
+            "lane:entry:20684",
+            "lane:entry:20688"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:142",
+          "word_location": "37:142:1",
+          "sense_ids": [
+            "qsen:lqm:iltqama:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:lqm:laqima:hand",
+      "headword_arabic": "لَقِمَ",
+      "definition": "To put morsels into one's own mouth by hand.",
+      "usage_conditions": "Self-directed construction specifying the hand as the means of putting food into the mouth.",
+      "source_refs": [
+        "lane:entry:20684"
+      ]
+    },
+    {
+      "meaning_id": "cm:lqm:laqqama_alqama:feed",
+      "headword_arabic": "لَقَّمَ، أَلْقَمَ",
+      "definition": "To feed another by mouthfuls; to put morsels into another's mouth.",
+      "usage_conditions": "Causative transitive construction in which a recipient is supplied with food mouthful by mouthful.",
+      "source_refs": [
+        "lane:entry:20685",
+        "lane:entry:20686"
+      ]
+    },
+    {
+      "meaning_id": "cm:lqm:alqama:silence",
+      "headword_arabic": "أَلْقَمَ",
+      "definition": "To silence someone in an argument, literally as though putting a stone into the person's mouth.",
+      "usage_conditions": "Figurative expression based on the act of putting something into the mouth.",
+      "source_refs": [
+        "lane:entry:20686"
+      ]
+    },
+    {
+      "meaning_id": "cm:lqm:talaqqama:leisurely",
+      "headword_arabic": "تَلَقَّمَ",
+      "definition": "To swallow a morsel, gobbet, or mouthful leisurely.",
+      "usage_conditions": "Form V usage describing the manner of swallowing a discrete mouthful.",
+      "source_refs": [
+        "lane:entry:20687"
+      ]
+    },
+    {
+      "meaning_id": "cm:lqm:iltaqama:kissing",
+      "headword_arabic": "اِلْتَقَمَ",
+      "definition": "In kissing, to take another's mouth within one's lips; by extension, to embrace or clasp a thing.",
+      "usage_conditions": "The kissing construction is literal; the embracing or clasping use is a figurative extension.",
+      "source_refs": [
+        "lane:entry:20688"
+      ]
+    },
+    {
+      "meaning_id": "cm:lqm:luqma:morsel",
+      "headword_arabic": "لُقْمَةٌ",
+      "definition": "A morsel, gobbet, or mouthful of food swallowed or eaten at once, or prepared for such eating.",
+      "usage_conditions": "A countable portion intended to be consumed in one act of eating.",
+      "source_refs": [
+        "lane:entry:20689"
+      ]
+    },
+    {
+      "meaning_id": "cm:lqm:tilqama:voracious_eater",
+      "headword_arabic": "تِلْقَامَةٌ، تَلْقَامٌ",
+      "definition": "A person who eats many mouthfuls; a voracious eater.",
+      "usage_conditions": "Descriptive noun or adjective for habitual abundance of eating.",
+      "source_refs": [
+        "maqayis:row:4208",
+        "mufradat:row:1318"
+      ]
+    },
+    {
+      "meaning_id": "cm:lqm:laqam:path",
+      "headword_arabic": "اللَّقَمُ",
+      "definition": "A path or route, conceived metaphorically as taking in those who pass along it; also the side or edge of a road.",
+      "usage_conditions": "Figurative or extended nominal usage derived from the image of swallowing or taking in.",
+      "source_refs": [
+        "maqayis:row:4208",
+        "mufradat:row:1318"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lqm:20684:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:lqm:iltqama:1"
+      ],
+      "note": "The swallowing and rapid-gobbling branch is covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20684:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lqm:laqima:hand"
+      ],
+      "note": "The self-directed hand-to-mouth construction is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20685:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lqm:laqqama_alqama:feed"
+      ],
+      "note": "The mouthful-by-mouthful feeding construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20686:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:lqm:laqqama_alqama:feed"
+      ],
+      "note": "The Form IV entry explicitly refers back to the represented feeding construction."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20686:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lqm:alqama:silence"
+      ],
+      "note": "The figurative silencing expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20686:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry; no definition is supplied."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20687:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lqm:talaqqama:leisurely"
+      ],
+      "note": "The Form V leisurely-swallowing usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20688:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the basic swallowing entry."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20688:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lqm:iltaqama:kissing"
+      ],
+      "note": "The kissing and extended embracing usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20689:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:lqm:luqma:morsel"
+      ],
+      "note": "The noun for a morsel or mouthful is represented."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20689:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only idiomatic reference with no supplied definition."
+    },
+    {
+      "unit_id": "lane-unit:lqm:20690:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only statement equating the expression with another unresolved idiom."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": [
+    "The idiomatic expressions لُقْمَةُ القاضي and لُقَيْمَاتُ القاضي are only cross-referenced in the supplied Lane material; their meanings cannot be assigned confidently without the referenced entries."
+  ]
+}

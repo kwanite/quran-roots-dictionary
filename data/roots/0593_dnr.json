@@ -1,0 +1,190 @@
+{
+  "root": "dnr",
+  "arabic": "دنر",
+  "root_idea": {
+    "summary": "The lexical nucleus is the dīnār, a gold coin, with secondary imagery based on its gleam and coin-like appearance.",
+    "development": "The evidence extends from the coin noun to shining or coin-like markings, while the reported etymologies of دِينَار are disputed rather than settled.",
+    "source_refs": [
+      "maqayis:row:1835",
+      "lane:entry:1363",
+      "lane:entry:1366",
+      "lane:entry:1368"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:dnr:diynaAr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_dnr_dinar",
+      "reason": "The Quran-attested nominal coin term merits its own normalized dictionary headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_dnr_dinar",
+      "form_group_ids": [
+        "qac-form:dnr:diynaAr:nominal:-"
+      ],
+      "headword_arabic": "دِينَار",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_dnr_dinar_coin",
+          "definition": "A dīnār, a gold coin.",
+          "usage_conditions": "In the attested Quranic construction, it denotes a single coin. Classical descriptions identify the standard weight of the coin with the mithqāl, but the Quranic occurrence is monetary.",
+          "source_refs": [
+            "lane:entry:1366",
+            "mufradat:row:488"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:75",
+          "word_location": "3:75:14",
+          "sense_ids": [
+            "sense_dnr_dinar_coin"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_dnr_dannar_shine",
+      "headword_arabic": "دَنَّرَ",
+      "definition": "To glisten or shine like a dīnār.",
+      "usage_conditions": "A figurative use, especially of a face, by comparison with the gleam of a coin.",
+      "source_refs": [
+        "lane:entry:1363"
+      ]
+    },
+    {
+      "meaning_id": "meaning_dnr_mudannar_many_dinars",
+      "headword_arabic": "مُدَنَّرٌ",
+      "definition": "Having many dīnārs.",
+      "usage_conditions": "A personal description of possession of numerous coins.",
+      "source_refs": [
+        "lane:entry:1363",
+        "lane:entry:1368"
+      ]
+    },
+    {
+      "meaning_id": "meaning_dnr_mudannar_coined",
+      "headword_arabic": "مُدَنَّرٌ",
+      "definition": "Coined; applied to a dīnār or to gold.",
+      "usage_conditions": "Describes coin or gold as having been formed or issued as currency.",
+      "source_refs": [
+        "lane:entry:1368"
+      ]
+    },
+    {
+      "meaning_id": "meaning_dnr_mudannar_marked",
+      "headword_arabic": "مُدَنَّرٌ",
+      "definition": "Marked with round spots or figures resembling dīnārs.",
+      "usage_conditions": "Applied to a horse with coin-like spotting and to a garment or cloth bearing such marks. Descriptions of the horse's precise color balance vary; the stable comparison is to rounded coin-like markings.",
+      "source_refs": [
+        "lane:entry:1368"
+      ]
+    },
+    {
+      "meaning_id": "meaning_dnr_dinari_beverage",
+      "headword_arabic": "شَرَابٌ دِينَارِيٌّ",
+      "definition": "A kind of wine or beverage called dīnārī.",
+      "usage_conditions": "The name is explained either by association with Ibn-Dīnār al-Ḥakīm or by the beverage's redness, compared with a dīnār.",
+      "source_refs": [
+        "lane:entry:1367"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:dnr:1363:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_dnr_dannar_shine"
+      ],
+      "note": "The figurative shining use is represented."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1363:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_dnr_mudannar_many_dinars"
+      ],
+      "note": "The possession-of-many-dinars use is represented."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1363:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1364:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only instruction to see the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1365:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only instruction to see the next paragraph."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1366:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_dnr_dinar_coin"
+      ],
+      "note": "The coin meaning and its classical weight identification are covered by the Quranic coin sense."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1367:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_dnr_dinari_beverage"
+      ],
+      "note": "The specialized beverage term is represented."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1368:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_dnr_mudannar_coined"
+      ],
+      "note": "The coined meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1368:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_dnr_mudannar_many_dinars"
+      ],
+      "note": "The possession-of-many-dinars use is represented."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1368:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_dnr_mudannar_marked"
+      ],
+      "note": "The horse-marking use is represented."
+    },
+    {
+      "unit_id": "lane-unit:dnr:1368:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_dnr_mudannar_marked"
+      ],
+      "note": "The marked-cloth use is represented under the same coin-like-marking branch."
+    }
+  ],
+  "cautions": [
+    "The lexical discussion reports several competing etymologies for دِينَار; no single derivation is treated as definitive."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

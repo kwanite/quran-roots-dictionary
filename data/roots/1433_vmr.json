@@ -1,0 +1,802 @@
+{
+  "root": "vmr",
+  "arabic": "ثمر",
+  "root_idea": {
+    "summary": "Something generated from something else and gathered or formed, especially produce or fruit.",
+    "development": "The concrete sense of fruit extends to fruit-bearing, increase and wealth, benefit or result, and several figurative extensions based on resemblance in form or productive outcome. Some conventional extensions, such as the full-moon expression, are lexically exceptional.",
+    "source_refs": [
+      "maqayis:row:1046",
+      "lane:entry:27523",
+      "mufradat:row:210"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:vmr:>avomara:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_vmr_athmara",
+      "reason": "Displayed under the normalized Form IV perfect citation form أَثْمَرَ."
+    },
+    {
+      "form_group_id": "qac-form:vmr:vamar:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_vmr_thamar",
+      "reason": "Displayed under the common nominal citation form ثَمَر."
+    },
+    {
+      "form_group_id": "qac-form:vmr:vamara`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form_vmr_thamar",
+      "reason": "The Quranic plural ثَمَرَات is presented under the singular/collective nominal citation form ثَمَر."
+    },
+    {
+      "form_group_id": "qac-form:vmr:vamarap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form_vmr_thamar",
+      "reason": "The singulative ثَمَرَة is presented under the common nominal citation form ثَمَر."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_vmr_athmara",
+      "form_group_ids": [
+        "qac-form:vmr:>avomara:verb:IV"
+      ],
+      "headword_arabic": "أَثْمَرَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_vmr_athmara_bearfruit",
+          "definition": "To put forth, bear, or produce fruit.",
+          "usage_conditions": "Used of a tree or other fruit-bearing thing; the Quranic occurrences express the general fruit-bearing event without specifying a separate ripeness stage.",
+          "source_refs": [
+            "lane:entry:27521",
+            "mufradat:row:210"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:99",
+          "word_location": "6:99:37",
+          "sense_ids": [
+            "sense_vmr_athmara_bearfruit"
+          ]
+        },
+        {
+          "verse_key": "6:141",
+          "word_location": "6:141:21",
+          "sense_ids": [
+            "sense_vmr_athmara_bearfruit"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_vmr_thamar",
+      "form_group_ids": [
+        "qac-form:vmr:vamar:nominal:-",
+        "qac-form:vmr:vamara`t:nominal:-",
+        "qac-form:vmr:vamarap:nominal:-"
+      ],
+      "headword_arabic": "ثَمَر",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 22,
+      "senses": [
+        {
+          "sense_id": "sense_vmr_thamar_fruit",
+          "definition": "Fruit or produce of trees, whether eaten or not.",
+          "usage_conditions": "Includes the collective or uncountable noun ثَمَر, its plural ثَمَرَات, and the singulative ثَمَرَة as represented by the merged Quranic form groups.",
+          "source_refs": [
+            "lane:entry:27523",
+            "mufradat:row:210"
+          ]
+        },
+        {
+          "sense_id": "sense_vmr_thamar_wealth",
+          "definition": "Accumulated or acquired property and wealth.",
+          "usage_conditions": "Reported as an interpretation of ثَمَر in a Quranic passage, alongside the concrete fruit sense; the interpretation is especially associated with the passage at 18:34 in the Quran-focused lexical discussion.",
+          "source_refs": [
+            "lane:entry:27523",
+            "mufradat:row:210"
+          ]
+        },
+        {
+          "sense_id": "sense_vmr_thamar_goldsilver",
+          "definition": "Gold and silver.",
+          "usage_conditions": "An attributed Quranic interpretation in the lexical tradition, explicitly noted as not being ordinary usage in the proper language; no modern verse location is assigned to the historical citation.",
+          "source_refs": [
+            "lane:entry:27523"
+          ]
+        },
+        {
+          "sense_id": "sense_vmr_thamar_children",
+          "definition": "Children, descendants, or offspring.",
+          "usage_conditions": "An attributed interpretation of the plural ثَمَرَات in a Quranic passage, distinct from the ordinary concrete fruit reading; no modern verse location is assigned to the historical citation.",
+          "source_refs": [
+            "lane:entry:27523"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:99",
+          "word_location": "6:99:35",
+          "sense_ids": [
+            "sense_vmr_thamar_fruit"
+          ]
+        },
+        {
+          "verse_key": "2:25",
+          "word_location": "2:25:17",
+          "sense_ids": [
+            "sense_vmr_thamar_fruit"
+          ]
+        },
+        {
+          "verse_key": "18:34",
+          "word_location": "18:34:3",
+          "sense_ids": [
+            "sense_vmr_thamar_fruit",
+            "sense_vmr_thamar_wealth"
+          ]
+        },
+        {
+          "verse_key": "2:155",
+          "word_location": "2:155:10",
+          "sense_ids": [
+            "sense_vmr_thamar_fruit"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_vmr_thamara_ripen",
+      "headword_arabic": "ثَمَرَ",
+      "definition": "To be or become ripe.",
+      "usage_conditions": "Used of fruit or produce reaching ripeness.",
+      "source_refs": [
+        "lane:entry:27519"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_shrubs",
+      "headword_arabic": "ثَمَرَ",
+      "definition": "To collect trees or shrubs for sheep or goats.",
+      "usage_conditions": "A specialized pastoral use.",
+      "source_refs": [
+        "lane:entry:27519"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamira_wealth",
+      "headword_arabic": "ثَمِرَ",
+      "definition": "To become abundant in wealth or to possess increasing wealth.",
+      "usage_conditions": "A figurative intransitive use concerning a person's property or resources.",
+      "source_refs": [
+        "lane:entry:27519"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thammara_setfruit",
+      "headword_arabic": "ثَمَّرَ",
+      "definition": "Of a plant, to shed its blossoms and set, organize, or compact its fruit.",
+      "usage_conditions": "Describes the formation and consolidation of fruit after flowering.",
+      "source_refs": [
+        "lane:entry:27520"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thammara_butter",
+      "headword_arabic": "ثَمَّرَ، ثَمِيرٌ",
+      "definition": "To show the incipient formation of butter in milk; or, of milk, to have formed visible butter clots before they collect.",
+      "usage_conditions": "A specialized dairy use referring to the early coagulation or appearance of butter.",
+      "source_refs": [
+        "lane:entry:27520",
+        "lane:entry:27528"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thammara_wealth",
+      "headword_arabic": "ثَمَّرَ",
+      "definition": "To make wealth abundant or to increase and develop it.",
+      "usage_conditions": "A causative or transitive use concerning property.",
+      "source_refs": [
+        "lane:entry:27520"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_athmara_maturity",
+      "headword_arabic": "أَثْمَرَ",
+      "definition": "To enter or reach the fruit-bearing stage, including putting forth fruit that may be unripe or ripe or reaching the time for plucking.",
+      "usage_conditions": "Classical accounts distinguish among beginning to fruit, producing unripe or ripe fruit, and reaching the stage at which fruit can be gathered.",
+      "source_refs": [
+        "lane:entry:27521"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_athmara_wealth",
+      "headword_arabic": "أَثْمَرَ",
+      "definition": "To become abundant in wealth.",
+      "usage_conditions": "A figurative use applied to a person rather than to a fruit-bearing plant.",
+      "source_refs": [
+        "lane:entry:27521"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_athmara_idiom",
+      "headword_arabic": "أَثْمَرَ",
+      "definition": "In an idiomatic expression, to continue or endure indefinitely.",
+      "usage_conditions": "Restricted to the conventional expression recorded in the lexical evidence.",
+      "source_refs": [
+        "lane:entry:27521"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_athmara_feed",
+      "headword_arabic": "أَثْمَرَ",
+      "definition": "To feed a person with fruits.",
+      "usage_conditions": "A transitive food-related use.",
+      "source_refs": [
+        "lane:entry:27521"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_trees",
+      "headword_arabic": "ثَمَرٌ، ثَمَرَةٌ",
+      "definition": "A tree or shrub.",
+      "usage_conditions": "A specialized nominal use in which ثَمَرَة denotes an individual tree or shrub rather than its produce.",
+      "source_refs": [
+        "lane:entry:27523"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_offspring",
+      "headword_arabic": "ثَمَرَةٌ",
+      "definition": "Offspring or progeny; in an idiom, procreative capacity or sexual appetite.",
+      "usage_conditions": "The offspring sense is extended in the recorded expression to a person's ability or desire to procreate or engage in sexual intercourse.",
+      "source_refs": [
+        "lane:entry:27523"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_profit",
+      "headword_arabic": "ثَمَرَةٌ",
+      "definition": "The profit, benefit, or resulting good of something, including an increase in property.",
+      "usage_conditions": "Figurative result language may describe the benefit of knowledge, good works, or another activity.",
+      "source_refs": [
+        "lane:entry:27523",
+        "mufradat:row:210"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_whip",
+      "headword_arabic": "ثَمَرَةٌ، ثَمَرٌ",
+      "definition": "The knot or terminal appendage of a whip.",
+      "usage_conditions": "A figurative extension based on the form and hanging of fruit from a tree.",
+      "source_refs": [
+        "lane:entry:27523"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_tonguetip",
+      "headword_arabic": "ثَمَرَةٌ",
+      "definition": "The tip or lower extremity of the tongue.",
+      "usage_conditions": "An anatomical figurative use.",
+      "source_refs": [
+        "lane:entry:27523"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_prepuce",
+      "headword_arabic": "ثَمَرَةٌ",
+      "definition": "A man's prepuce.",
+      "usage_conditions": "Occurs in expressions concerning circumcision.",
+      "source_refs": [
+        "lane:entry:27523"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_scalp",
+      "headword_arabic": "ثَمَرَةٌ",
+      "definition": "The skin of the head.",
+      "usage_conditions": "An anatomical use recorded as an extended sense.",
+      "source_refs": [
+        "lane:entry:27523"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_heartcore",
+      "headword_arabic": "ثَمَرَةُ القَلْبِ",
+      "definition": "The core or innermost part of the heart; figuratively, one's deepest affection or sincerest agreement.",
+      "usage_conditions": "The heart-expression carries both a literal anatomical image and idiomatic emotional or volitional meanings.",
+      "source_refs": [
+        "lane:entry:27523"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamara_cloud",
+      "headword_arabic": "ثَمَرَةٌ، ثَمَرٌ",
+      "definition": "A small portion or quantity of cloud in the sky.",
+      "usage_conditions": "A specialized figurative nominal use.",
+      "source_refs": [
+        "lane:entry:27523"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamir_wealth",
+      "headword_arabic": "ثَمِرٌ",
+      "definition": "Wealth blessed with increase, or much and abundant wealth.",
+      "usage_conditions": "An adjectival description of prosperous property.",
+      "source_refs": [
+        "lane:entry:27525"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamraa_fruitful",
+      "headword_arabic": "ثَمْرَاءُ",
+      "definition": "Fruit-bearing or abounding in fruit, of a tree or land.",
+      "usage_conditions": "Applied to a fruit-bearing tree or to land rich in fruit.",
+      "source_refs": [
+        "lane:entry:27526"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_ibnthamir_moon",
+      "headword_arabic": "ابْنُ ثَمِيرٍ",
+      "definition": "A full-moon night or a night with bright moonlight.",
+      "usage_conditions": "A fixed expression and lexical exception within the root's semantic family.",
+      "source_refs": [
+        "lane:entry:27528"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamir_hilm",
+      "headword_arabic": "ثَامِرُ الحِلْمِ",
+      "definition": "Perfect or complete in forbearance or clemency.",
+      "usage_conditions": "A figurative comparison with ripe fruit.",
+      "source_refs": [
+        "lane:entry:27530"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamir_sorrel",
+      "headword_arabic": "الثَّامِرُ",
+      "definition": "The flower of the rose-coloured sorrel plant.",
+      "usage_conditions": "A specialized botanical noun.",
+      "source_refs": [
+        "lane:entry:27530"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_thamir_lubya",
+      "headword_arabic": "الثَّامِرُ",
+      "definition": "The lubia or dolichos plant.",
+      "usage_conditions": "A specialized botanical noun distinct from the general fruit sense.",
+      "source_refs": [
+        "lane:entry:27530"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_muthmir_intellect",
+      "headword_arabic": "عَقْلٌ مُثْمِرٌ",
+      "definition": "A fruitful or productive intellect.",
+      "usage_conditions": "A figurative expression contrasting productive understanding with a barren intellect.",
+      "source_refs": [
+        "lane:entry:27532"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmr_mathmur_wealth",
+      "headword_arabic": "مَثْمُورٌ",
+      "definition": "Abounding in wealth, of a people or company.",
+      "usage_conditions": "A passive-participial or adjectival description of collective prosperity.",
+      "source_refs": [
+        "lane:entry:27534"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:vmr:27519:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27519:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_ripen"
+      ],
+      "note": "Ripening sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27519:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_shrubs"
+      ],
+      "note": "Pastoral shrub-collection sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27519:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamira_wealth"
+      ],
+      "note": "Increasing wealth."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27519:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_vmr_thamira_wealth"
+      ],
+      "note": "Same wealth branch in an idiomatic example."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27520:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thammara_setfruit"
+      ],
+      "note": "Plant fruit-formation process."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27520:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thammara_butter"
+      ],
+      "note": "Incipient butter formation."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27520:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thammara_wealth"
+      ],
+      "note": "Making wealth abundant."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27521:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_vmr_athmara_bearfruit",
+        "cm_vmr_athmara_maturity"
+      ],
+      "note": "General fruiting and classical stage distinctions."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27521:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_vmr_athmara_maturity"
+      ],
+      "note": "Unripe fruit specialization."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27521:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_athmara_wealth"
+      ],
+      "note": "Wealth-increase use."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27521:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_athmara_idiom"
+      ],
+      "note": "Fixed idiomatic expression."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27521:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27521:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_vmr_athmara_bearfruit"
+      ],
+      "note": "Transitive production of fruit is covered by the public fruit-bearing sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27521:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_athmara_feed"
+      ],
+      "note": "Feeding a person with fruits."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27522:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_vmr_thamar_fruit"
+      ],
+      "note": "General fruit and produce sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_vmr_thamar_wealth"
+      ],
+      "note": "Property or wealth interpretation."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_vmr_thamar_goldsilver"
+      ],
+      "note": "Attributed gold-and-silver interpretation."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_trees"
+      ],
+      "note": "Tree or shrub sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_vmr_thamar_children"
+      ],
+      "note": "Attributed children or descendants interpretation."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_offspring"
+      ],
+      "note": "Offspring and procreative idiom."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_profit"
+      ],
+      "note": "Profit, benefit, and resulting increase."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_whip"
+      ],
+      "note": "Whip-end or knot sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_tonguetip"
+      ],
+      "note": "Tongue-tip sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_prepuce"
+      ],
+      "note": "Anatomical prepuce sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_scalp"
+      ],
+      "note": "Scalp-skin sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_heartcore"
+      ],
+      "note": "Heart-core and related idioms."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub13",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamara_cloud"
+      ],
+      "note": "Small cloud portion."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub14",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another root entry."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27523:g1:sub15",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27524:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27525:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamir_wealth"
+      ],
+      "note": "Adjectival abundant-wealth sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27525:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27525:g1:sub3",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "Material phrase is assigned uncertainly between ثَمِرَة and تمرَة in the transmitted evidence."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27526:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27526:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamraa_fruitful"
+      ],
+      "note": "Fruit-bearing tree or land."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27527:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27528:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27528:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_vmr_thammara_butter"
+      ],
+      "note": "Adjectival counterpart of the butter-formation sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27528:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_ibnthamir_moon"
+      ],
+      "note": "Full-moon-night expression."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27529:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Gender/derivational grammatical note."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27529:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27530:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27530:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamir_hilm"
+      ],
+      "note": "Figurative maturity in forbearance."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27530:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamir_sorrel"
+      ],
+      "note": "Botanical flower sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27530:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_thamir_lubya"
+      ],
+      "note": "Botanical plant sense."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27531:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27532:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27532:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_muthmir_intellect"
+      ],
+      "note": "Figurative fruitful-intellect expression."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27533:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27534:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmr:27534:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmr_mathmur_wealth"
+      ],
+      "note": "Collective abundant-wealth description."
+    }
+  ],
+  "cautions": [
+    "The wealth, gold-and-silver, and children/descendants senses for ثَمَر or ثَمَرَات are attributed Quranic interpretations alongside the ordinary fruit sense; the historical Lane citations have not been converted into modern verse keys unless independently supplied by QAC.",
+    "The phrase in lane-unit:vmr:27525:g1:sub3 has uncertain root and spelling assignment and is preserved as ambiguous rather than treated as a secure ثمر meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:vmr:27525:g1:sub3 contains a phrase glossed as lack of sweetness or agreeable disposition, but the evidence records a competing reading with ت (تمر), so its assignment to ثمر is not secure."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "root": "lHf",
+  "arabic": "لحف",
+  "root_idea": {
+    "summary": "The root centers on enveloping or covering and on close adherence or persistence.",
+    "development": "The concrete sense is a covering or blanket; this develops toward remaining closely attached or pressing persistently, yielding the Quranic sense of importunate asking.",
+    "source_refs": [
+      "maqayis:row:4125",
+      "mufradat:row:1293"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lHf:<iloHaAf:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_ilhaf",
+      "reason": "The Quran-attested verbal noun is presented as its own normalized dictionary form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_ilhaf",
+      "form_group_ids": [
+        "qac-form:lHf:<iloHaAf:nominal:-"
+      ],
+      "headword_arabic": "إِلْحَاف",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_ilhaf_s1",
+          "definition": "Importunate persistence in asking; pressing a request insistently.",
+          "usage_conditions": "In the Quranic construction of asking people with إِلْحَاف, it denotes persistent, importunate solicitation.",
+          "source_refs": [
+            "mufradat:row:1293"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:273",
+          "word_location": "2:273:22",
+          "sense_ids": [
+            "qform_ilhaf_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_lihaf_covering",
+      "headword_arabic": "لِحَافٌ / مِلْحَفَةٌ",
+      "definition": "A covering cloth or blanket; a night-wrapper or outer covering garment.",
+      "usage_conditions": "Used for a night-wrapper or covering garment, with classical usage recording variation over whether the cloth is lined or unlined.",
+      "source_refs": [
+        "lane:entry:20561"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lHf:20560:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit directing the reader to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:lHf:20561:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lihaf_covering"
+      ],
+      "note": "Defines the covering garment and equates ملحفة with لحاف."
+    },
+    {
+      "unit_id": "lane-unit:lHf:20561:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,108 @@
+{
+  "root": "qvA",
+  "arabic": "قثأ",
+  "root_idea": {
+    "summary": "The supplied lexical evidence centers on قِثَّاء, a cucumber or cucumber-like vegetable.",
+    "development": "The lexical field extends from the vegetable name to a derived verb meaning that land, a place, or people have an abundance of it, and to a noun for land or a place where it is sown and grows.",
+    "source_refs": [
+      "lane:entry:7825",
+      "lane:entry:7826",
+      "lane:entry:7827"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qvA:qiv~aA^}:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form-qiththaa",
+      "reason": "Displayed under the normalized lexical citation form قِثَّاء rather than the inflected Quranic form قِثَّائِهَا."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form-qiththaa",
+      "form_group_ids": [
+        "qac-form:qvA:qiv~aA^}:nominal:-"
+      ],
+      "headword_arabic": "قِثَّاء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qiththaa-sense-1",
+          "definition": "Cucumber; a cucumber or cucumber-like vegetable.",
+          "usage_conditions": "The Quranic occurrence uses the inflected possessive expression قِثَّائِهَا, referring to the vegetable in a coordinated list of foods.",
+          "source_refs": [
+            "lane:entry:7826"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:61",
+          "word_location": "2:61:19",
+          "sense_ids": [
+            "qiththaa-sense-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical-aqthaa-abundance",
+      "headword_arabic": "أَقْثَأَ",
+      "definition": "Of land or a place, to abound in قِثَّاء; of people, to have an abundance of it.",
+      "usage_conditions": "A Form IV derived verb used with land, places, or people as the subject.",
+      "source_refs": [
+        "lane:entry:7825"
+      ]
+    },
+    {
+      "meaning_id": "classical-maqthaa-place",
+      "headword_arabic": "مَقْثَأَة",
+      "definition": "A place or tract of land where قِثَّاء is sown and grows.",
+      "usage_conditions": "Also attested in the variant form مَقْثُؤَة.",
+      "source_refs": [
+        "lane:entry:7827"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qvA:7825:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-aqthaa-abundance"
+      ],
+      "note": "The derived verb's abundance meaning is represented under other Classical Arabic meanings."
+    },
+    {
+      "unit_id": "lane-unit:qvA:7826:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qiththaa-sense-1"
+      ],
+      "note": "The vegetable meaning is represented as the Quran-attested noun sense."
+    },
+    {
+      "unit_id": "lane-unit:qvA:7826:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to عَلْقَمٌ."
+    },
+    {
+      "unit_id": "lane-unit:qvA:7827:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-maqthaa-place"
+      ],
+      "note": "The place-name meaning is represented under other Classical Arabic meanings."
+    }
+  ],
+  "cautions": [
+    "The Quranic surface form is inflected and possessive; the public headword is normalized to the citation form قِثَّاء."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

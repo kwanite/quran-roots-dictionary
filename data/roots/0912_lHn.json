@@ -1,0 +1,164 @@
+{
+  "root": "lHn",
+  "arabic": "لحن",
+  "root_idea": {
+    "summary": "The root centers on turning expression away from a straightforward course, yielding faulty speech or indirect, allusive import; a distinct branch denotes acuity in discerning such implications.",
+    "development": "The evidence distinguishes deviation in speech, including mispronunciation and oblique allusion, from a separate branch of discernment and intelligence. A related nominal use extends the idea of altered vocal expression to modulation or melody. The Quranic noun represents the allusive-import branch in لَحْنِ الْقَوْلِ.",
+    "source_refs": [
+      "maqayis:row:4129",
+      "mufradat:row:1296"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lHn:laHon:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lHn:form:lhn",
+      "reason": "The sole Quran-attested noun group is displayed under the normalized dictionary citation form لَحْنٌ rather than its genitive Quranic surface form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "lHn:form:lhn",
+      "form_group_ids": [
+        "qac-form:lHn:laHon:nominal:-"
+      ],
+      "headword_arabic": "لَحْنٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "lHn:form:lhn:s1",
+          "definition": "The implied import or oblique tenor of speech—the intended meaning conveyed through allusion rather than explicit wording.",
+          "usage_conditions": "In the Quranic construction لَحْنِ الْقَوْلِ, it denotes the indirect or equivocal implications and manner of speech by which an intended meaning is inferred. It is distinct here from faulty speech and from musical modulation.",
+          "source_refs": [
+            "lane:entry:20584",
+            "mufradat:row:1296"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "47:30",
+          "word_location": "47:30:8",
+          "sense_ids": [
+            "lHn:form:lhn:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "lHn:classical:speech-import",
+      "headword_arabic": "لَحْنٌ",
+      "definition": "The meaning, intended sense, or purport of speech.",
+      "usage_conditions": "A broad nominal use for what speech conveys, including an intent understood from its wording; the Quranic allusive construction is treated separately as a Quranic sense.",
+      "source_refs": [
+        "lane:entry:20584"
+      ]
+    },
+    {
+      "meaning_id": "lHn:classical:speech-error",
+      "headword_arabic": "لَحَنَ / لَحْنٌ",
+      "definition": "To depart from correct speech; faulty or barbarous speech, including an incorrect word or utterance.",
+      "usage_conditions": "As a verb, to speak incorrectly; as a noun, a blameworthy deviation from correct Arabic such as defective inflection or mispronunciation.",
+      "source_refs": [
+        "lane:entry:20582",
+        "lane:entry:20584",
+        "mufradat:row:1296"
+      ]
+    },
+    {
+      "meaning_id": "lHn:classical:covert-intimation",
+      "headword_arabic": "لَحَنَ",
+      "definition": "To convey a covert or oblique message understood by one addressee but not by others.",
+      "usage_conditions": "A verbal construction involving indirect communication or private intimation.",
+      "source_refs": [
+        "lane:entry:20582"
+      ]
+    },
+    {
+      "meaning_id": "lHn:classical:modulated-sound",
+      "headword_arabic": "لَحْنٌ",
+      "definition": "A modulated or melodically shaped sound; a melody.",
+      "usage_conditions": "Especially used of vocal or song-like modulation; plural forms include أَلْحَانٌ and لُحُونٌ.",
+      "source_refs": [
+        "lane:entry:20584"
+      ]
+    },
+    {
+      "meaning_id": "lHn:classical:discernment",
+      "headword_arabic": "لَحِنٌ / لَاحِنٌ",
+      "definition": "Discerning the implications of speech; astute, perceptive, or especially capable in argument.",
+      "usage_conditions": "Used adjectivally of one who grasps implied meaning; in comparative usage, of someone more eloquent or skillful in presenting an argument.",
+      "source_refs": [
+        "maqayis:row:4129",
+        "mufradat:row:1296"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lHn:20582:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHn:classical:speech-error"
+      ],
+      "note": "Form I speech error."
+    },
+    {
+      "unit_id": "lane-unit:lHn:20582:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHn:classical:covert-intimation"
+      ],
+      "note": "Private or covert intimation."
+    },
+    {
+      "unit_id": "lane-unit:lHn:20583:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only equivalence to فاطنهم; no supplied definition of the referenced expression permits a supported assignment."
+    },
+    {
+      "unit_id": "lane-unit:lHn:20584:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHn:form:lhn:s1",
+        "lHn:classical:speech-import"
+      ],
+      "note": "Speech import and oblique or equivocal expression."
+    },
+    {
+      "unit_id": "lane-unit:lHn:20584:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHn:classical:speech-error"
+      ],
+      "note": "Incorrect or barbarous speech."
+    },
+    {
+      "unit_id": "lane-unit:lHn:20584:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lHn:form:lhn:s1"
+      ],
+      "note": "The tenor or indirect manner of speech is covered by the Quranic allusive-import sense."
+    },
+    {
+      "unit_id": "lane-unit:lHn:20584:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHn:classical:modulated-sound"
+      ],
+      "note": "Modulated vocal sound or melody."
+    }
+  ],
+  "cautions": [
+    "The Quranic headword is normalized to لَحْنٌ; the supplied occurrence is the genitive form لَحْنِ.",
+    "The historical Lane citation attached to the Quranic discussion is not converted into a modern verse location; the example uses the independently supplied QAC location 47:30:8."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

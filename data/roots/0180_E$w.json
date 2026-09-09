@@ -1,0 +1,977 @@
+{
+  "root": "E$w",
+  "arabic": "عشو",
+  "root_idea": {
+    "summary": "A root oriented toward darkness and reduced clarity, with branches involving evening or night, impaired or feigned sight, and movement or judgment in conditions of limited visibility.",
+    "development": "The lexical development extends from the darkness and lack of perceptual clarity of night into the evening time, approaching a fire for guidance, turning away or pretending not to see, and acting amid perplexity or uncertainty.",
+    "source_refs": [
+      "maqayis:row:3220",
+      "mufradat:row:978"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:E$w:yaEo$u:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:asha",
+      "reason": "Displayed under the normalized Form I perfect citation form عَشَا."
+    },
+    {
+      "form_group_id": "qac-form:E$w:Ea$iY~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:ashiy",
+      "reason": "Displayed as the temporal noun عَشِيّ."
+    },
+    {
+      "form_group_id": "qac-form:E$w:Ea$iy~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:ashiyyah",
+      "reason": "Displayed as the distinct temporal noun عَشِيَّة."
+    },
+    {
+      "form_group_id": "qac-form:E$w:Ei$aA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:ishaa",
+      "reason": "Displayed as the Quranic time and prayer term عِشَاء."
+    },
+    {
+      "form_group_id": "qac-form:E$w:Ea$iY~:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form:ashiy",
+      "reason": "The adverbial occurrences are the same lexical item عَشِيّ and are covered under its temporal noun entry."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:asha",
+      "form_group_ids": [
+        "qac-form:E$w:yaEo$u:verb:I"
+      ],
+      "headword_arabic": "عَشَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:asha:1",
+          "definition": "To turn away from or disregard something.",
+          "usage_conditions": "In the Quranic construction عَشَا عَنْ, with the object expressed as the remembrance or admonition of God.",
+          "source_refs": [
+            "lane:entry:3363"
+          ]
+        },
+        {
+          "sense_id": "sense:asha:2",
+          "definition": "To be blind to something, or to act as though one does not see it.",
+          "usage_conditions": "A Quranic interpretive use of عَشَا عَنْ; the expression presents disregard in the imagery of impaired or feigned sight.",
+          "source_refs": [
+            "lane:entry:3363",
+            "mufradat:row:978"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "43:36",
+          "word_location": "43:36:2",
+          "sense_ids": [
+            "sense:asha:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:ashiy",
+      "form_group_ids": [
+        "qac-form:E$w:Ea$iY~:nominal:-",
+        "qac-form:E$w:Ea$iY~:other:-"
+      ],
+      "headword_arabic": "عَشِيّ",
+      "public_pos_label": "Noun · adverbial use",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "sense:ashiy:1",
+          "definition": "The latter part of the day: afternoon or evening, extending in some contexts toward nightfall.",
+          "usage_conditions": "Used as a temporal noun and adverb; Quranic contexts may render it as afternoon, evening, or, in an evening–night pairing, at night.",
+          "source_refs": [
+            "lane:entry:3384",
+            "mufradat:row:978"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "38:31",
+          "word_location": "38:31:4",
+          "sense_ids": [
+            "sense:ashiy:1"
+          ]
+        },
+        {
+          "verse_key": "19:62",
+          "word_location": "19:62:11",
+          "sense_ids": [
+            "sense:ashiy:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:ashiyyah",
+      "form_group_ids": [
+        "qac-form:E$w:Ea$iy~ap:nominal:-"
+      ],
+      "headword_arabic": "عَشِيَّة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:ashiyyah:1",
+          "definition": "An evening, or the late part of a particular day.",
+          "usage_conditions": "The form عَشِيَّة commonly specifies the evening belonging to one particular day.",
+          "source_refs": [
+            "lane:entry:3384",
+            "mufradat:row:978"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "79:46",
+          "word_location": "79:46:7",
+          "sense_ids": [
+            "sense:ashiyyah:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:ishaa",
+      "form_group_ids": [
+        "qac-form:E$w:Ei$aA^':nominal:-"
+      ],
+      "headword_arabic": "عِشَاء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense:ishaa:1",
+          "definition": "Nightfall; the beginning or early darkness of night.",
+          "usage_conditions": "The term can denote the period from sunset toward the onset of deeper night and is used for the early-night time.",
+          "source_refs": [
+            "lane:entry:3382",
+            "mufradat:row:978"
+          ]
+        },
+        {
+          "sense_id": "sense:ishaa:2",
+          "definition": "The nightfall prayer.",
+          "usage_conditions": "A conventional religious use, especially in the expression صَلَاةُ العِشَاءِ or elliptically العِشَاءُ.",
+          "source_refs": [
+            "lane:entry:3382",
+            "mufradat:row:978"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:16",
+          "word_location": "12:16:3",
+          "sense_ids": [
+            "sense:ishaa:1"
+          ]
+        },
+        {
+          "verse_key": "24:58",
+          "word_location": "24:58:27",
+          "sense_ids": [
+            "sense:ishaa:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm01",
+      "headword_arabic": "عَشَا",
+      "definition": "To eat the evening meal; of camels, to eat the evening pasture or evening feed.",
+      "usage_conditions": "An intransitive Form I use.",
+      "source_refs": [
+        "lane:entry:3363"
+      ]
+    },
+    {
+      "meaning_id": "cm02",
+      "headword_arabic": "عَشَاهُ / عَشَا الإِبِلَ",
+      "definition": "To feed someone the evening meal or feed, or to pasture camels by night.",
+      "usage_conditions": "A transitive use involving a person or animals.",
+      "source_refs": [
+        "lane:entry:3363"
+      ]
+    },
+    {
+      "meaning_id": "cm03",
+      "headword_arabic": "عَشَا إِلَى",
+      "definition": "To repair or betake oneself by night toward a person, object, or fire, seeking its light or guidance.",
+      "usage_conditions": "The fire-related construction may include approaching from afar in weak light and hoping to obtain guidance or good.",
+      "source_refs": [
+        "lane:entry:3363"
+      ]
+    },
+    {
+      "meaning_id": "cm04",
+      "headword_arabic": "عَشَا عَنِ النَّارِ",
+      "definition": "To turn away from the fire or its light and go elsewhere.",
+      "usage_conditions": "A construction with عَنْ expressing departure from the source of light.",
+      "source_refs": [
+        "lane:entry:3363"
+      ]
+    },
+    {
+      "meaning_id": "cm05",
+      "headword_arabic": "عَشِيَ",
+      "definition": "To become weak-sighted, especially in darkness, or to become blind.",
+      "usage_conditions": "The lexical evidence includes reduced sight by night, poor sight by day and night, and complete loss of sight.",
+      "source_refs": [
+        "lane:entry:3363"
+      ]
+    },
+    {
+      "meaning_id": "cm06",
+      "headword_arabic": "عَشِيَ عَلَيْهِ",
+      "definition": "To wrong, injure, treat unjustly, or tyrannically.",
+      "usage_conditions": "A figurative or extended Form I construction with عَلَى.",
+      "source_refs": [
+        "lane:entry:3363"
+      ]
+    },
+    {
+      "meaning_id": "cm07",
+      "headword_arabic": "عَشَّوَ",
+      "definition": "To pasture camels with evening feed so that they reach the water already fed.",
+      "usage_conditions": "A Form II causative or arranged-pasturing use.",
+      "source_refs": [
+        "lane:entry:3364"
+      ]
+    },
+    {
+      "meaning_id": "cm08",
+      "headword_arabic": "عَشَّى عَنِ الأَمْرِ",
+      "definition": "To act gently, cautiously, or deliberately in an affair.",
+      "usage_conditions": "A figurative Form II construction.",
+      "source_refs": [
+        "lane:entry:3364"
+      ]
+    },
+    {
+      "meaning_id": "cm09",
+      "headword_arabic": "عَشَّى الطَّيْرَ",
+      "definition": "To kindle a fire for birds so that they become dim-sighted and can be captured.",
+      "usage_conditions": "A specialized causative hunting practice.",
+      "source_refs": [
+        "lane:entry:3364"
+      ]
+    },
+    {
+      "meaning_id": "cm10",
+      "headword_arabic": "أَعْشَوَ",
+      "definition": "To give.",
+      "usage_conditions": "A rare, marked, and apparently figurative attribution in the lexical evidence.",
+      "source_refs": [
+        "lane:entry:3365"
+      ]
+    },
+    {
+      "meaning_id": "cm11",
+      "headword_arabic": "أَعْشَاهُ",
+      "definition": "To render someone weak-sighted or otherwise affected by impaired sight.",
+      "usage_conditions": "A causative Form IV use.",
+      "source_refs": [
+        "lane:entry:3365"
+      ]
+    },
+    {
+      "meaning_id": "cm12",
+      "headword_arabic": "تَعَشَّوَ",
+      "definition": "To feed oneself with the evening meal; of animals, to feed or pasture themselves in the evening.",
+      "usage_conditions": "A reflexive or middle Form V use.",
+      "source_refs": [
+        "lane:entry:3366"
+      ]
+    },
+    {
+      "meaning_id": "cm13",
+      "headword_arabic": "تَعَشَّاهُ",
+      "definition": "To give someone a firebrand.",
+      "usage_conditions": "A specialized transitive Form V use.",
+      "source_refs": [
+        "lane:entry:3366"
+      ]
+    },
+    {
+      "meaning_id": "cm14",
+      "headword_arabic": "تَعَاشَى",
+      "definition": "To pretend to be weak-sighted or unable to see.",
+      "usage_conditions": "A Form VI use; the lexical evidence also records it in Quran-related exegetical discussion without assigning it a separate QAC form.",
+      "source_refs": [
+        "lane:entry:3367"
+      ]
+    },
+    {
+      "meaning_id": "cm15",
+      "headword_arabic": "تَعَاشَى عَنْ",
+      "definition": "To pretend ignorance of something or deliberately disregard it.",
+      "usage_conditions": "A figurative Form VI construction, like pretending not to see.",
+      "source_refs": [
+        "lane:entry:3367"
+      ]
+    },
+    {
+      "meaning_id": "cm16",
+      "headword_arabic": "اعْتَشَى",
+      "definition": "To travel at the time of nightfall.",
+      "usage_conditions": "A Form VIII temporal use.",
+      "source_refs": [
+        "lane:entry:3368"
+      ]
+    },
+    {
+      "meaning_id": "cm17",
+      "headword_arabic": "اسْتَعْشَاهُ",
+      "definition": "To find someone deviating from the right course or acting wrongfully toward others.",
+      "usage_conditions": "A Form X evaluative construction.",
+      "source_refs": [
+        "lane:entry:3369"
+      ]
+    },
+    {
+      "meaning_id": "cm18",
+      "headword_arabic": "اسْتَعْشَى نَارًا",
+      "definition": "To guide oneself by means of a fire.",
+      "usage_conditions": "A Form X fire-and-guidance construction.",
+      "source_refs": [
+        "lane:entry:3369"
+      ]
+    },
+    {
+      "meaning_id": "cm19",
+      "headword_arabic": "عِشْوٌ",
+      "definition": "A bowl of milk drunk when the sheep or goats return from pasture in the evening.",
+      "usage_conditions": "A specialized pastoral noun.",
+      "source_refs": [
+        "lane:entry:3370"
+      ]
+    },
+    {
+      "meaning_id": "cm20",
+      "headword_arabic": "عَشًا",
+      "definition": "Weakness, poor quality, or loss of sight.",
+      "usage_conditions": "A verbal noun used substantivally for impaired sight, including darkness affecting the eye and blindness.",
+      "source_refs": [
+        "lane:entry:3372"
+      ]
+    },
+    {
+      "meaning_id": "cm21",
+      "headword_arabic": "عَشٍ",
+      "definition": "An animal, especially a camel, that exceeds others in eating the evening pasture or feed.",
+      "usage_conditions": "A possessive-style epithet applied to a male camel; a related feminine form is used for a she-camel.",
+      "source_refs": [
+        "lane:entry:3373"
+      ]
+    },
+    {
+      "meaning_id": "cm22",
+      "headword_arabic": "عَشْوَة",
+      "definition": "Darkness, especially the first darkness of night or the early part of the night; also, nightfall in an adverbial expression.",
+      "usage_conditions": "The extent of the period is variously described, from the onset of darkness to part of the first quarter of the night.",
+      "source_refs": [
+        "lane:entry:3374"
+      ]
+    },
+    {
+      "meaning_id": "cm23",
+      "headword_arabic": "عَشْوَة",
+      "definition": "A confused or dubious affair into which one ventures, or a state of perplexity or trial.",
+      "usage_conditions": "Used in expressions for embarking on an unclear matter.",
+      "source_refs": [
+        "lane:entry:3374"
+      ]
+    },
+    {
+      "meaning_id": "cm24",
+      "headword_arabic": "عُشْوَة",
+      "definition": "A fire seen from afar at night and approached for its light, or a firebrand.",
+      "usage_conditions": "A noun for the visible fire or the portable flame itself.",
+      "source_refs": [
+        "lane:entry:3375"
+      ]
+    },
+    {
+      "meaning_id": "cm25",
+      "headword_arabic": "عَشْوَى",
+      "definition": "A state of perplexity and having little guidance.",
+      "usage_conditions": "A noun for confused circumstances or an unclear course of affairs.",
+      "source_refs": [
+        "lane:entry:3377"
+      ]
+    },
+    {
+      "meaning_id": "cm26",
+      "headword_arabic": "عَشَوِيّ",
+      "definition": "Of or relating to the time called عَشِيَّة or عَشِيّ.",
+      "usage_conditions": "A temporal relational adjective.",
+      "source_refs": [
+        "lane:entry:3378"
+      ]
+    },
+    {
+      "meaning_id": "cm27",
+      "headword_arabic": "عُشْوَان",
+      "definition": "A species of date or palm tree that is late in bearing.",
+      "usage_conditions": "A botanical term.",
+      "source_refs": [
+        "lane:entry:3379"
+      ]
+    },
+    {
+      "meaning_id": "cm28",
+      "headword_arabic": "عَشْيَان",
+      "definition": "A man eating the evening meal.",
+      "usage_conditions": "A personal descriptive noun.",
+      "source_refs": [
+        "lane:entry:3380"
+      ]
+    },
+    {
+      "meaning_id": "cm29",
+      "headword_arabic": "عَشَاء",
+      "definition": "The evening meal or supper; of camels, the evening pasture or evening feed.",
+      "usage_conditions": "This is the fatḥa-initial meal term, distinct from the Quranic عِشَاء for nightfall and its prayer.",
+      "source_refs": [
+        "lane:entry:3381"
+      ]
+    },
+    {
+      "meaning_id": "cm30",
+      "headword_arabic": "عَشِيّ",
+      "definition": "Clouds arriving late in the evening or at eventide.",
+      "usage_conditions": "A specialized use of the temporal adjective or noun.",
+      "source_refs": [
+        "lane:entry:3384"
+      ]
+    },
+    {
+      "meaning_id": "cm31",
+      "headword_arabic": "عَشِيّ",
+      "definition": "An epithet for a camel that continues eating the evening pasture for a long time.",
+      "usage_conditions": "A specialized animal epithet.",
+      "source_refs": [
+        "lane:entry:3384"
+      ]
+    },
+    {
+      "meaning_id": "cm32",
+      "headword_arabic": "عَاشٍ / عَوَاشٍ",
+      "definition": "Camels, sheep, or goats that pasture by night.",
+      "usage_conditions": "The plural or substantivized use denotes animals characterized by night grazing.",
+      "source_refs": [
+        "lane:entry:3390"
+      ]
+    },
+    {
+      "meaning_id": "cm33",
+      "headword_arabic": "عَاشِيَة",
+      "definition": "A person or animal that looks and moves by night toward the fire of a person who entertains guests.",
+      "usage_conditions": "A fire-seeking descriptive use related to night travel and hospitality.",
+      "source_refs": [
+        "lane:entry:3390"
+      ]
+    },
+    {
+      "meaning_id": "cm34",
+      "headword_arabic": "أَعْشَى",
+      "definition": "Weak-sighted; sightless by night while seeing by day, or having poor sight by night and day.",
+      "usage_conditions": "An adjective for impaired sight, with feminine عَشْوَاء.",
+      "source_refs": [
+        "lane:entry:3391"
+      ]
+    },
+    {
+      "meaning_id": "cm35",
+      "headword_arabic": "عَشْوَاء",
+      "definition": "An epithet for a creature that advances or strikes without seeing where it goes; especially a she-camel that does not see what is before her and strikes things with her forefeet.",
+      "usage_conditions": "The same epithet is also applied to an eagle that strikes without regard to where it lands.",
+      "source_refs": [
+        "lane:entry:3391"
+      ]
+    },
+    {
+      "meaning_id": "cm36",
+      "headword_arabic": "رَكِبَ العَشْوَاء / خَبَطَ خَبْطَ عَشْوَاء",
+      "definition": "To pursue or undertake an affair at random, without insight, certainty, or concern for the result.",
+      "usage_conditions": "A figurative idiomatic extension of the heedless movement of the عَشْوَاء.",
+      "source_refs": [
+        "lane:entry:3391"
+      ]
+    },
+    {
+      "meaning_id": "cm37",
+      "headword_arabic": "مُتَعَشًّى",
+      "definition": "A place where one eats the evening meal or supper.",
+      "usage_conditions": "A place noun.",
+      "source_refs": [
+        "lane:entry:3392"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:E$w:3363:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm01"
+      ],
+      "note": "Evening eating and evening pasture."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3363:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm02"
+      ],
+      "note": "Feeding a person or animals in the evening."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3363:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm03"
+      ],
+      "note": "Nightward movement toward an object."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3363:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm03"
+      ],
+      "note": "Fire-seeking and guidance are included in the broader nightward movement entry."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3363:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm04"
+      ],
+      "note": "Turning away from firelight."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3363:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:asha:1"
+      ],
+      "note": "Quranic turning away from the admonition."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3363:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:asha:2",
+        "cm05"
+      ],
+      "note": "Quranic blind-to interpretation and physical impaired sight."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3363:g2:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm06"
+      ],
+      "note": "Wronging or treating unjustly."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3364:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm07",
+        "cm08"
+      ],
+      "note": "Evening pasturing and figurative deliberate conduct."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3364:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm09"
+      ],
+      "note": "Kindling fire to dim birds' sight."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3365:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3365:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm10"
+      ],
+      "note": "Rare approximate meaning 'to give'."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3365:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm11"
+      ],
+      "note": "Causative impairment of sight."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3366:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm12"
+      ],
+      "note": "Feeding oneself or animals in the evening."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3366:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another paragraph."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3366:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm13"
+      ],
+      "note": "Giving a firebrand."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3367:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm14"
+      ],
+      "note": "Feigning impaired sight."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3367:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm15"
+      ],
+      "note": "Feigning ignorance or disregard."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3368:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm16"
+      ],
+      "note": "Journeying at nightfall."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3368:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an earlier paragraph."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3369:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm17"
+      ],
+      "note": "Finding someone deviant or wrongful."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3369:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm18"
+      ],
+      "note": "Guiding oneself by a fire."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3370:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm19"
+      ],
+      "note": "Evening milk bowl."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3371:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to عَشَاء."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3372:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm20"
+      ],
+      "note": "Substantivized weakness or loss of sight."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3373:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm21"
+      ],
+      "note": "Camel characterized by heavy evening feeding."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3373:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to أَعْشَى."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3374:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm22"
+      ],
+      "note": "Darkness and early-night temporal use."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3374:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm22"
+      ],
+      "note": "Vulgar synonymic use for the same nightfall sense."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3374:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm23"
+      ],
+      "note": "Venturing into an unclear affair."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3374:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an explanation under another root."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3375:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to عَشْوَة."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3375:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm24"
+      ],
+      "note": "Distant night fire or firebrand."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3376:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to عَشْوَة."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3376:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to عُشْوَة."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3377:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm25"
+      ],
+      "note": "Perplexity and lack of guidance."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3378:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm26"
+      ],
+      "note": "Temporal relational adjective."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3379:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm27"
+      ],
+      "note": "Late-bearing date or palm variety."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3380:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm28"
+      ],
+      "note": "Person eating the evening meal."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3381:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm29"
+      ],
+      "note": "Meal or evening feed, distinct from عِشَاء."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3382:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:ishaa:1",
+        "sense:ishaa:2"
+      ],
+      "note": "Nightfall and the conventional nightfall prayer."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3383:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to عَشًا."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3384:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:ashiy:1",
+        "sense:ashiyyah:1"
+      ],
+      "note": "Late-day temporal meanings of عَشِيّ and عَشِيَّة."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3384:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm30"
+      ],
+      "note": "Clouds arriving late in the evening."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3384:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm31"
+      ],
+      "note": "Camel continuing to eat evening pasture."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3385:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to عَشِيّ."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3386:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive pointer."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3387:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural and cross-reference pointer."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3388:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive cross-reference entry."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3389:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural cross-reference entry."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3390:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm32"
+      ],
+      "note": "Animals pasturing by night."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3390:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an earlier half."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3390:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm33"
+      ],
+      "note": "Nightward movement toward a host's fire."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3391:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm34"
+      ],
+      "note": "Weak-sighted adjective."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3391:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm35",
+        "cm36"
+      ],
+      "note": "Literal heedless animal movement and its figurative idiom."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3391:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm35"
+      ],
+      "note": "Eagle application covered by the broader heedless-animal epithet."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3391:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to a related entry."
+    },
+    {
+      "unit_id": "lane-unit:E$w:3392:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm37"
+      ],
+      "note": "Place where supper is eaten."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb form is the supplied يَعْشُ. Its Quranic usage has closely related interpretations of turning away and being blind to or pretending not to see; these are retained as separate senses because the distinction affects interpretation.",
+    "The temporal ranges of عَشِيّ and عِشَاء vary somewhat in Classical descriptions. The Quranic entries state the supported late-day, evening, and nightfall uses without treating every broader temporal proposal as a separate Quranic sense.",
+    "The vocalized meal term عَشَاء is kept distinct under broader Classical meanings from the Quranic عِشَاء for nightfall and the nightfall prayer.",
+    "Historical Lane Quran citation notation was not converted into modern verse locations; Quran examples use only independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

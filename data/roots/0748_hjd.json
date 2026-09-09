@@ -1,0 +1,251 @@
+{
+  "root": "hjd",
+  "arabic": "هجد",
+  "root_idea": {
+    "summary": "A root orientation toward settling, remaining still, or resting in place.",
+    "development": "This orientation develops into sleep and the sleeper, while Form V describes rousing oneself from sleep for night prayer. It also appears in the image of a camel settling the front of its neck on the ground.",
+    "source_refs": [
+      "maqayis:row:4837",
+      "mufradat:row:1510"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hjd:tahaj~ado:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf_hjd_tahajjad_v",
+      "reason": "The supplied Quran occurrence is a Form V verb and has a distinct Quran-attested night-prayer use."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf_hjd_tahajjad_v",
+      "form_group_ids": [
+        "qac-form:hjd:tahaj~ado:verb:V"
+      ],
+      "headword_arabic": "تَهَجَّدَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf_hjd_tahajjad_v_s1",
+          "definition": "To awaken from sleep for night prayer; to engage in night worship by relinquishing sleep.",
+          "usage_conditions": "In the Quranic construction فَتَهَجَّدْ بِهِ, the Qur'an is understood as the means or occasion of awakening. The use denotes rousing oneself for night prayer, rather than merely remaining awake.",
+          "source_refs": [
+            "lane:entry:10209",
+            "mufradat:row:1510"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:79",
+          "word_location": "17:79:3",
+          "sense_ids": [
+            "qf_hjd_tahajjad_v_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_hjd_sleep",
+      "headword_arabic": "هَجَدَ",
+      "definition": "To sleep.",
+      "usage_conditions": "Used especially of sleeping at night; one account specifies the latter part of the night.",
+      "source_refs": [
+        "lane:entry:10209"
+      ]
+    },
+    {
+      "meaning_id": "cm_hjd_wakeful",
+      "headword_arabic": "هَجَدَ",
+      "definition": "To remain awake or wakeful at night; to awaken from sleep for a purpose, including prayer.",
+      "usage_conditions": "This is recorded as a contrary usage to sleeping. Night prayer and relinquishing sleep are associated with this wakeful branch.",
+      "source_refs": [
+        "lane:entry:10209"
+      ]
+    },
+    {
+      "meaning_id": "cm_hajjad_cause_sleep",
+      "headword_arabic": "هَجَّدَ",
+      "definition": "To make or cause someone to sleep.",
+      "usage_conditions": "Transitive causative use of Form II.",
+      "source_refs": [
+        "lane:entry:10210"
+      ]
+    },
+    {
+      "meaning_id": "cm_hajjad_awaken",
+      "headword_arabic": "هَجَّدَ",
+      "definition": "To awaken someone from sleep.",
+      "usage_conditions": "A contrary transitive use of Form II.",
+      "source_refs": [
+        "lane:entry:10210"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahjad_find_sleeping",
+      "headword_arabic": "أَهْجَدَ",
+      "definition": "To find someone asleep.",
+      "usage_conditions": "Transitive Form IV use; the lexical meaning is not restricted to a particular gender or social class.",
+      "source_refs": [
+        "lane:entry:10211"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahjad_camel_neck",
+      "headword_arabic": "أَهْجَدَ",
+      "definition": "Of a camel, to lay the front part of its neck on the ground.",
+      "usage_conditions": "A specific animal posture described with the camel as subject.",
+      "source_refs": [
+        "lane:entry:10211"
+      ]
+    },
+    {
+      "meaning_id": "cm_hajid_sleeping",
+      "headword_arabic": "هَاجِدٌ",
+      "definition": "A sleeper; one who is sleeping.",
+      "usage_conditions": "An active-participle noun associated with the sleeping sense of هَجَدَ.",
+      "source_refs": [
+        "lane:entry:10215"
+      ]
+    },
+    {
+      "meaning_id": "cm_hajid_night_prayer",
+      "headword_arabic": "هَاجِدٌ",
+      "definition": "One who prays at night.",
+      "usage_conditions": "An active-participle use distinct from the sleeping sense.",
+      "source_refs": [
+        "lane:entry:10215"
+      ]
+    },
+    {
+      "meaning_id": "cm_hajid_horse_cry",
+      "headword_arabic": "هَجِدْ / هِجْدْ",
+      "definition": "A cry used to chide a horse.",
+      "usage_conditions": "The source records variant vocalizations of the cry.",
+      "source_refs": [
+        "lane:entry:10213"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hjd:10209:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hjd_sleep"
+      ],
+      "note": "Sleep meaning."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10209:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf_hjd_tahajjad_v_s1",
+        "cm_hjd_wakeful"
+      ],
+      "note": "Wakefulness, awakening, and night-prayer branches, including the Quran-attested construction."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10210:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10210:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hajjad_cause_sleep"
+      ],
+      "note": "Causative sleeping meaning."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10210:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hajjad_awaken"
+      ],
+      "note": "Contrary awakening meaning."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10210:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10211:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10211:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahjad_find_sleeping"
+      ],
+      "note": "Finding someone asleep."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10211:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ahjad_camel_neck"
+      ],
+      "note": "Camel posture."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10212:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10213:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hajid_horse_cry"
+      ],
+      "note": "Horse-chiding cry."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10214:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to هَاجِدٌ."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10215:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hajid_sleeping"
+      ],
+      "note": "Sleeping-person noun."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10215:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hajid_night_prayer"
+      ],
+      "note": "Night-prayer noun."
+    },
+    {
+      "unit_id": "lane-unit:hjd:10216:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to هَاجِدٌ."
+    }
+  ],
+  "cautions": [
+    "Classical usage records opposed sleep and wakefulness senses for هَجَدَ and related forms, so derivational form and context are significant.",
+    "The Quranic occurrence is an imperative surface form; the public headword is normalized to the Form V perfect citation form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

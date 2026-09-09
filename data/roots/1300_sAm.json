@@ -1,0 +1,115 @@
+{
+  "root": "sAm",
+  "arabic": "سأم",
+  "root_idea": {
+    "summary": "The root centers on weariness or aversion arising from prolonged continuance in an action or state.",
+    "development": "Weariness from something that persists develops into becoming averse to it, turning away from it, or regarding it with disgust.",
+    "source_refs": [
+      "mufradat:row:641"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sAm:yaso_#amu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sAm_saim_formI",
+      "reason": "The Quran-attested Form I verb is displayed under its normalized perfect citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "sAm_saim_formI",
+      "form_group_ids": [
+        "qac-form:sAm:yaso_#amu:verb:I"
+      ],
+      "headword_arabic": "سَئِمَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sAm_saim_formI_weary_averse",
+          "definition": "To grow weary of something, becoming averse to it or turning away from it with disgust; to tire of continued or repeated engagement.",
+          "usage_conditions": "The Quranic use concerns aversion or weariness toward a matter, including an action or verbal object, and is not restricted to bodily exhaustion. It may occur with مِنْ or with an expressed activity or object.",
+          "source_refs": [
+            "lane:entry:39900",
+            "mufradat:row:641"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:282",
+          "word_location": "2:282:79",
+          "sense_ids": [
+            "sAm_saim_formI_weary_averse"
+          ]
+        },
+        {
+          "verse_key": "41:38",
+          "word_location": "41:38:12",
+          "sense_ids": [
+            "sAm_saim_formI_weary_averse"
+          ]
+        },
+        {
+          "verse_key": "41:49",
+          "word_location": "41:49:2",
+          "sense_ids": [
+            "sAm_saim_formI_weary_averse"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "sAm_formIV_cause_aversion",
+      "headword_arabic": "أَسْأَمَ",
+      "definition": "To cause someone or something to turn away with disgust or aversion; to make it loathe, reject, or feel nauseated by something.",
+      "usage_conditions": "Causative Form IV: the subject causes another party or thing to become averse or disgusted.",
+      "source_refs": [
+        "lane:entry:39901"
+      ]
+    },
+    {
+      "meaning_id": "sAm_sauum_intensive_epithet",
+      "headword_arabic": "سَؤُومٌ",
+      "definition": "One habitually or greatly disposed to turn away with disgust, or much affected by vexation or disgust and therefore having little patience.",
+      "usage_conditions": "An intensive epithet derived from the Form I meaning.",
+      "source_refs": [
+        "lane:entry:39902"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sAm:39900:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sAm_saim_formI_weary_averse"
+      ],
+      "note": "The Form I meaning of weariness, aversion, and disgust is represented in the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:sAm:39901:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sAm_formIV_cause_aversion"
+      ],
+      "note": "The causative Form IV construction is represented as a Classical Arabic meaning."
+    },
+    {
+      "unit_id": "lane-unit:sAm:39902:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sAm_sauum_intensive_epithet"
+      ],
+      "note": "The intensive epithet is represented separately."
+    }
+  ],
+  "cautions": [
+    "The supplied contextual renderings vary between “weary,” “tire,” and “get tired”; the lexical evidence supports weariness or aversion toward a matter, rather than requiring a separate sense of physical fatigue."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

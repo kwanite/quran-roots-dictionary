@@ -1,0 +1,549 @@
+{
+  "root": "trk",
+  "arabic": "ترك",
+  "root_idea": {
+    "summary": "The root centers on leaving, releasing, or withdrawing from something, whether by choice or under compulsion.",
+    "development": "From this core develop the notions of abandonment, what is left behind as a remainder or inheritance, and things left solitary or unused. A special transitive construction means causing something to remain in a state, while derived reciprocal forms express mutual relinquishment or truce.",
+    "source_refs": [
+      "maqayis:row:929",
+      "mufradat:row:183"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:trk:taraka:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "trk_v1_taraka",
+      "reason": "Independent Quran-attested Form I verb with several lexically supported Quranic constructions."
+    },
+    {
+      "form_group_id": "qac-form:trk:taArik:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "trk_ap_tarik",
+      "reason": "Independent Quran-attested active participle."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "trk_v1_taraka",
+      "form_group_ids": [
+        "qac-form:trk:taraka:verb:I"
+      ],
+      "headword_arabic": "تَرَكَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 40,
+      "senses": [
+        {
+          "sense_id": "trk_v1_s1_leave",
+          "definition": "To leave, forsake, relinquish, abandon, desert, or quit someone, something, or a place.",
+          "usage_conditions": "The Quranic use covers departure, abandonment, and leaving something alone or untouched; it may occur intentionally or under compulsion. Active, imperative, and passive forms express the corresponding grammatical relations.",
+          "source_refs": [
+            "lane:entry:16644",
+            "mufradat:row:183"
+          ]
+        },
+        {
+          "sense_id": "trk_v1_s2_leave_behind",
+          "definition": "To leave something behind as a remainder, possession, or inheritance.",
+          "usage_conditions": "Used especially of what remains after a person’s death or departure, including property or people left behind.",
+          "source_refs": [
+            "lane:entry:16644",
+            "mufradat:row:183"
+          ]
+        },
+        {
+          "sense_id": "trk_v1_s3_cause_to_be",
+          "definition": "To make or cause someone or something to be in a specified state.",
+          "usage_conditions": "A doubly transitive construction in which the object is caused to remain or become in the state expressed by the complement, as in being left in darkness.",
+          "source_refs": [
+            "lane:entry:16644"
+          ]
+        },
+        {
+          "sense_id": "trk_v1_s4_perpetuate",
+          "definition": "To leave a lasting remembrance, praise, or legacy for someone among later generations.",
+          "usage_conditions": "Especially the construction وَتَرَكْنَا عَلَيْهِ فِي الْآخِرِينَ, in which what is left is a lasting good mention or eulogy.",
+          "source_refs": [
+            "lane:entry:16644"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "44:24",
+          "word_location": "44:24:1",
+          "sense_ids": [
+            "trk_v1_s1_leave"
+          ]
+        },
+        {
+          "verse_key": "4:7",
+          "word_location": "4:7:4",
+          "sense_ids": [
+            "trk_v1_s2_leave_behind"
+          ]
+        },
+        {
+          "verse_key": "2:17",
+          "word_location": "2:17:13",
+          "sense_ids": [
+            "trk_v1_s3_cause_to_be"
+          ]
+        },
+        {
+          "verse_key": "37:108",
+          "word_location": "37:108:1",
+          "sense_ids": [
+            "trk_v1_s4_perpetuate"
+          ]
+        },
+        {
+          "verse_key": "12:37",
+          "word_location": "12:37:17",
+          "sense_ids": [
+            "trk_v1_s1_leave"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "trk_ap_tarik",
+      "form_group_ids": [
+        "qac-form:trk:taArik:nominal:-"
+      ],
+      "headword_arabic": "تَارِك",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "trk_ap_s1_one_who_leaves",
+          "definition": "One who leaves, forsakes, relinquishes, or abandons.",
+          "usage_conditions": "The active participle may describe a person who gives something up or leaves someone or something.",
+          "source_refs": [
+            "lane:entry:16644",
+            "mufradat:row:183"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:12",
+          "word_location": "11:12:2",
+          "sense_ids": [
+            "trk_ap_s1_one_who_leaves"
+          ]
+        },
+        {
+          "verse_key": "11:53",
+          "word_location": "11:53:8",
+          "sense_ids": [
+            "trk_ap_s1_one_who_leaves"
+          ]
+        },
+        {
+          "verse_key": "37:36",
+          "word_location": "37:36:3",
+          "sense_ids": [
+            "trk_ap_s1_one_who_leaves"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_trk_omit",
+      "headword_arabic": "تَرَكَ",
+      "definition": "To cease, desist, refrain from, neglect, omit, or leave an act undone.",
+      "usage_conditions": "A classical extension used with an action, duty, right, or other matter as the object; it includes leaving a right unclaimed or a prayer unit unperformed.",
+      "source_refs": [
+        "lane:entry:16644"
+      ]
+    },
+    {
+      "meaning_id": "cm_ittaraka_full_effort",
+      "headword_arabic": "اِتَّرَكَ",
+      "definition": "To leave nothing undone; to exert oneself fully.",
+      "usage_conditions": "A Form VIII usage in the expression فَمَا اتَّرَكَ, meaning that nothing within one’s power was omitted.",
+      "source_refs": [
+        "lane:entry:16644"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarika_marry",
+      "headword_arabic": "تَرِكَ",
+      "definition": "To marry, taking as wife a تَرِيكَة.",
+      "usage_conditions": "The تَرِيكَة is explicitly described as a woman who has remained unmarried and virgin until middle age or long after puberty in her parents’ home.",
+      "source_refs": [
+        "lane:entry:16644"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarakahu_mutual_leave",
+      "headword_arabic": "تَارَكَهُ",
+      "definition": "To mutually relinquish or leave one another unmolested; by extension, to make peace or a truce.",
+      "usage_conditions": "A Form III reciprocal or concurrent construction, including leaving an affair or commodity between the parties in its existing state.",
+      "source_refs": [
+        "lane:entry:16645"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarakahu_preserve",
+      "headword_arabic": "تَارَكَ",
+      "definition": "In an idiomatic expression, to preserve or prolong someone’s life.",
+      "usage_conditions": "An attributed idiomatic use in which تَارَكَ is equated with أَبْقَى, ‘to preserve’ or ‘keep alive.’",
+      "source_refs": [
+        "lane:entry:16645"
+      ]
+    },
+    {
+      "meaning_id": "cm_tataraku_mutual_relinquish",
+      "headword_arabic": "تَتَارَكُوا",
+      "definition": "To mutually relinquish an affair.",
+      "usage_conditions": "A Form VI reciprocal construction referring to parties jointly giving up or leaving an affair between them.",
+      "source_refs": [
+        "lane:entry:16646"
+      ]
+    },
+    {
+      "meaning_id": "cm_tark_cup",
+      "headword_arabic": "تَرْكٌ",
+      "definition": "A drinking cup or bowl carried or lifted with both hands.",
+      "usage_conditions": "A specialized nominal usage.",
+      "source_refs": [
+        "lane:entry:16648"
+      ]
+    },
+    {
+      "meaning_id": "cm_turk_people",
+      "headword_arabic": "التُّرْكُ",
+      "definition": "The Turks; Turkish.",
+      "usage_conditions": "As a collective noun it denotes the nation; تُرْكِيٌّ is the singular nisba and may also mean Turkish.",
+      "source_refs": [
+        "lane:entry:16649"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarkah_middling_woman",
+      "headword_arabic": "تَرْكَةٌ",
+      "definition": "A woman of middling stature.",
+      "usage_conditions": "An explicitly marked figurative or assumed-tropical usage; a plural تَرَكَاتٌ is reported.",
+      "source_refs": [
+        "lane:entry:16650"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarkah_hagar_ishmael",
+      "headword_arabic": "تَرْكَةٌ",
+      "definition": "In a traditional expression, Hagar and Ishmael as what was left behind; the expression is explained metaphorically through an ostrich egg abandoned by its mother.",
+      "usage_conditions": "An idiomatic or metaphorical usage associated with a traditional report, not a general ordinary meaning of the noun.",
+      "source_refs": [
+        "lane:entry:16650"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarika_inheritance",
+      "headword_arabic": "تَرِكَةٌ",
+      "definition": "A thing left, forsaken, or abandoned; especially the property or inheritance left by a deceased person.",
+      "usage_conditions": "The noun denotes what a person leaves behind and, in particular, the estate inherited after death.",
+      "source_refs": [
+        "lane:entry:16652"
+      ]
+    },
+    {
+      "meaning_id": "cm_taraki_imperative_noun",
+      "headword_arabic": "تَرَاكِ",
+      "definition": "An imperative verbal noun meaning ‘leave!’",
+      "usage_conditions": "Used as an emphatic imperative, including the repeated expression تَرَاكِ تَرَاكِ.",
+      "source_refs": [
+        "lane:entry:16653"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarika_unmarried_woman",
+      "headword_arabic": "تَرِيكَةٌ",
+      "definition": "A woman left unmarried who has remained a virgin until middle age or long after puberty in her parents’ home.",
+      "usage_conditions": "The source explicitly restricts this lexical item to a woman, not a male; its plural is تَرَائِكُ.",
+      "source_refs": [
+        "lane:entry:16655"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarika_neglected_meadow",
+      "headword_arabic": "تَرِيكَةٌ",
+      "definition": "A meadow or pasture left neglected, or reduced to remnants after grazing.",
+      "usage_conditions": "It may denote land whose depasturing has been neglected or whose vegetation has largely been consumed.",
+      "source_refs": [
+        "lane:entry:16655"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarika_torrent_water",
+      "headword_arabic": "تَرِيكَةٌ",
+      "definition": "Water left by a torrent.",
+      "usage_conditions": "A specialized usage for residual water after the passage of a torrent.",
+      "source_refs": [
+        "lane:entry:16655"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarika_egg",
+      "headword_arabic": "تَرِيكَةٌ",
+      "definition": "An egg left after the young bird has emerged, especially an ostrich egg forsaken in the desert.",
+      "usage_conditions": "The term may refer to an empty egg or to an ostrich egg left solitary by the female.",
+      "source_refs": [
+        "lane:entry:16655"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarika_helmet",
+      "headword_arabic": "تَرِيكَةٌ",
+      "definition": "An iron helmet, by analogy with an abandoned egg.",
+      "usage_conditions": "An explicitly marked figurative extension based on the egg sense.",
+      "source_refs": [
+        "lane:entry:16655"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarika_date_raceme",
+      "headword_arabic": "تَرِيكَةٌ",
+      "definition": "A date raceme left bare after its dates or other contents have been shaken off or eaten.",
+      "usage_conditions": "A specialized agricultural usage for a raceme from which what was upon it has disappeared.",
+      "source_refs": [
+        "lane:entry:16655"
+      ]
+    },
+    {
+      "meaning_id": "cm_taraik_perpetuated_conditions",
+      "headword_arabic": "تَرَائِكُ",
+      "definition": "Perpetuated conditions of hope and heedlessness in people that embolden them toward worldly pursuits.",
+      "usage_conditions": "An attributed traditional and figurative usage describing conditions maintained among mankind.",
+      "source_refs": [
+        "lane:entry:16655"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:trk:16644:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "trk_v1_s1_leave",
+        "trk_v1_s2_leave_behind",
+        "trk_v1_s3_cause_to_be",
+        "cm_trk_omit",
+        "cm_ittaraka_full_effort"
+      ],
+      "note": "Covers leaving and abandonment, leaving property behind, omission, and the Form VIII ‘leave nothing undone’ usage."
+    },
+    {
+      "unit_id": "lane-unit:trk:16644:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "trk_v1_s4_perpetuate"
+      ],
+      "note": "Quran-attested perpetuation of a lasting remembrance."
+    },
+    {
+      "unit_id": "lane-unit:trk:16644:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "trk_v1_s3_cause_to_be"
+      ],
+      "note": "Doubly transitive causative construction."
+    },
+    {
+      "unit_id": "lane-unit:trk:16644:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarika_marry"
+      ],
+      "note": "Separate Form II meaning of marrying a تَرِيكَة."
+    },
+    {
+      "unit_id": "lane-unit:trk:16645:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarakahu_mutual_leave"
+      ],
+      "note": "Form III mutual relinquishment and leaving unmolested."
+    },
+    {
+      "unit_id": "lane-unit:trk:16645:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarakahu_mutual_leave"
+      ],
+      "note": "Metonymic peace or truce extension."
+    },
+    {
+      "unit_id": "lane-unit:trk:16645:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarakahu_preserve"
+      ],
+      "note": "Idiomatic preservation or prolongation sense."
+    },
+    {
+      "unit_id": "lane-unit:trk:16646:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tataraku_mutual_relinquish"
+      ],
+      "note": "Form VI reciprocal relinquishment."
+    },
+    {
+      "unit_id": "lane-unit:trk:16647:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:trk:16648:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to تَرِيكَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:trk:16648:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tark_cup"
+      ],
+      "note": "Specialized cup or bowl meaning."
+    },
+    {
+      "unit_id": "lane-unit:trk:16649:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_turk_people"
+      ],
+      "note": "Independent homonymous noun for the Turks and Turkish."
+    },
+    {
+      "unit_id": "lane-unit:trk:16650:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to تَرِيكَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:trk:16650:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarkah_middling_woman"
+      ],
+      "note": "Explicitly marked figurative meaning for a woman of middling stature."
+    },
+    {
+      "unit_id": "lane-unit:trk:16650:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarkah_hagar_ishmael"
+      ],
+      "note": "Traditional metaphorical expression referring to Hagar and Ishmael."
+    },
+    {
+      "unit_id": "lane-unit:trk:16651:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:trk:16652:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarika_inheritance"
+      ],
+      "note": "Nominal branch for a thing left and a deceased person’s estate."
+    },
+    {
+      "unit_id": "lane-unit:trk:16653:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taraki_imperative_noun"
+      ],
+      "note": "Imperative verbal noun meaning ‘leave!’."
+    },
+    {
+      "unit_id": "lane-unit:trk:16654:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following تَرِيكَةٌ discussion."
+    },
+    {
+      "unit_id": "lane-unit:trk:16655:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarika_unmarried_woman"
+      ],
+      "note": "Explicitly gender-restricted unmarried-woman meaning."
+    },
+    {
+      "unit_id": "lane-unit:trk:16655:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarika_neglected_meadow"
+      ],
+      "note": "Neglected or exhausted pasture meaning."
+    },
+    {
+      "unit_id": "lane-unit:trk:16655:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarika_torrent_water"
+      ],
+      "note": "Residual water left by a torrent."
+    },
+    {
+      "unit_id": "lane-unit:trk:16655:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarika_egg"
+      ],
+      "note": "Egg left after hatching, especially an abandoned ostrich egg."
+    },
+    {
+      "unit_id": "lane-unit:trk:16655:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarika_helmet"
+      ],
+      "note": "Figurative iron-helmet extension."
+    },
+    {
+      "unit_id": "lane-unit:trk:16655:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarika_date_raceme"
+      ],
+      "note": "Bare date-raceme meaning."
+    },
+    {
+      "unit_id": "lane-unit:trk:16655:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taraik_perpetuated_conditions"
+      ],
+      "note": "Figurative traditional meaning of perpetuated conditions."
+    },
+    {
+      "unit_id": "lane-unit:trk:16656:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Passive-participle formation with no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:trk:16656:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial classification of the participle as obsolete."
+    }
+  ],
+  "cautions": [
+    "Lane’s historical Quran citations are not treated as modern verse locations; the examples above use only independently supplied QAC locations.",
+    "Several Classical entries are derived forms or homonymous nouns and are therefore kept separate from the two Quran-attested public forms."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

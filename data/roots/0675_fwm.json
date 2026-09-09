@@ -1,0 +1,215 @@
+{
+  "root": "fwm",
+  "arabic": "فوم",
+  "root_idea": {
+    "summary": "A food-related root centered on فُومٌ, whose principal lexical interpretations are wheat or garlic.",
+    "development": "The lexical evidence extends from the food noun to bread and bread-making, while also recording related produce, food, dialectal, and transferred uses.",
+    "source_refs": [
+      "maqayis:row:3679",
+      "mufradat:row:1145",
+      "lane:entry:35273",
+      "lane:entry:35274"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fwm:fuwm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fwm-fum",
+      "reason": "The single Quran-attested nominal group is displayed under the normalized citation form فُومٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "fwm-fum",
+      "form_group_ids": [
+        "qac-form:fwm:fuwm:nominal:-"
+      ],
+      "headword_arabic": "فُومٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "fwm-fum-q-garlic",
+          "definition": "Garlic.",
+          "usage_conditions": "In the Quranic phrase وَفُومِهَا, this is one established lexical interpretation of the occurrence at 2:61.",
+          "source_refs": [
+            "lane:entry:35274",
+            "mufradat:row:1145"
+          ]
+        },
+        {
+          "sense_id": "fwm-fum-q-wheat",
+          "definition": "Wheat.",
+          "usage_conditions": "In the Quranic phrase وَفُومِهَا, this is an alternative lexical interpretation of the occurrence at 2:61.",
+          "source_refs": [
+            "lane:entry:35274",
+            "mufradat:row:1145"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:61",
+          "word_location": "2:61:20",
+          "sense_ids": [
+            "fwm-fum-q-garlic",
+            "fwm-fum-q-wheat"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "fwm-fawwam-breadmaking",
+      "headword_arabic": "فَوَّمَ",
+      "definition": "To make bread.",
+      "usage_conditions": "A Form II verb, also used in the request فَوِّمُوا لَنَا, “make bread for us.”",
+      "source_refs": [
+        "lane:entry:35273"
+      ]
+    },
+    {
+      "meaning_id": "fwm-fum-bread-grain",
+      "headword_arabic": "فُومٌ",
+      "definition": "Bread; also grain other than wheat used for making bread.",
+      "usage_conditions": "A broader Classical nominal use, distinct from the two interpretations recorded for the Quranic occurrence.",
+      "source_refs": [
+        "lane:entry:35274"
+      ]
+    },
+    {
+      "meaning_id": "fwm-fum-chickpeas",
+      "headword_arabic": "فُومٌ",
+      "definition": "Chickpeas.",
+      "usage_conditions": "A dialectal use associated with Syria.",
+      "source_refs": [
+        "lane:entry:35274"
+      ]
+    },
+    {
+      "meaning_id": "fwm-fum-plant-bulb",
+      "headword_arabic": "فُومٌ",
+      "definition": "A head or bulb of an onion or garlic.",
+      "usage_conditions": "A transferred nominal use for the head or cluster of the plant.",
+      "source_refs": [
+        "lane:entry:35274"
+      ]
+    },
+    {
+      "meaning_id": "fwm-fum-gobbet",
+      "headword_arabic": "فُومٌ",
+      "definition": "A large gobbet or mouthful of food.",
+      "usage_conditions": "A nominal use for a substantial portion of food.",
+      "source_refs": [
+        "lane:entry:35274"
+      ]
+    },
+    {
+      "meaning_id": "fwm-fum-ear-grain",
+      "headword_arabic": "فُومٌ",
+      "definition": "An ear of grain or corn.",
+      "usage_conditions": "A dialectal use in Azd al-Sarāh; also described as a feminine noun of unity.",
+      "source_refs": [
+        "lane:entry:35274"
+      ]
+    },
+    {
+      "meaning_id": "fwm-fumah-carried",
+      "headword_arabic": "فُومَةٌ",
+      "definition": "A thing carried between two fingers.",
+      "usage_conditions": "A distinct nominal use of فُومَةٌ.",
+      "source_refs": [
+        "lane:entry:35275"
+      ]
+    },
+    {
+      "meaning_id": "fwm-fuwam-pieces",
+      "headword_arabic": "فُوَمًا",
+      "definition": "Into a number of pieces; piece by piece.",
+      "usage_conditions": "Used adverbially in the expression قَطَعُوا الشَّاةَ فُوَمًا فُوَمًا, “they cut the animal into pieces.”",
+      "source_refs": [
+        "lane:entry:35276"
+      ]
+    },
+    {
+      "meaning_id": "fwm-fami-fum-seller",
+      "headword_arabic": "فَامِيٌّ",
+      "definition": "A seller of fūm.",
+      "usage_conditions": "A derived noun for a seller of the produce denoted by فُومٌ.",
+      "source_refs": [
+        "lane:entry:35277"
+      ]
+    },
+    {
+      "meaning_id": "fwm-fami-fruit-sugar-seller",
+      "headword_arabic": "فَامِيٌّ",
+      "definition": "A fruit seller; reportedly also a seller of sugar.",
+      "usage_conditions": "The fruit-seller usage is separately reported; the sugar-seller interpretation is recorded with an explicit doubt about its genuineness.",
+      "source_refs": [
+        "lane:entry:35277"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fwm:35273:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fwm-fawwam-breadmaking"
+      ],
+      "note": "Form II verb meaning to make bread."
+    },
+    {
+      "unit_id": "lane-unit:fwm:35274:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fwm-fum-q-garlic",
+        "fwm-fum-q-wheat",
+        "fwm-fum-bread-grain",
+        "fwm-fum-chickpeas",
+        "fwm-fum-plant-bulb",
+        "fwm-fum-gobbet",
+        "fwm-fum-ear-grain"
+      ],
+      "note": "Quranic interpretations and distinct classical nominal branches."
+    },
+    {
+      "unit_id": "lane-unit:fwm:35275:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:fwm:35275:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fwm-fumah-carried"
+      ],
+      "note": "Distinct meaning of فُومَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:fwm:35276:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fwm-fuwam-pieces"
+      ],
+      "note": "Adverbial expression meaning into pieces."
+    },
+    {
+      "unit_id": "lane-unit:fwm:35277:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fwm-fami-fum-seller",
+        "fwm-fami-fruit-sugar-seller"
+      ],
+      "note": "Seller designations and their reported variants."
+    }
+  ],
+  "cautions": [
+    "The sole Quranic occurrence is فُومِهَا at 2:61. Lexical evidence supports both garlic and wheat as interpretations, while the supplied contextual gloss reflects the garlic interpretation and does not resolve the lexical dispute."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

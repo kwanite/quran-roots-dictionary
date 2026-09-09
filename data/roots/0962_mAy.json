@@ -1,0 +1,113 @@
+{
+  "root": "mAy",
+  "arabic": "مءي",
+  "root_idea": {
+    "summary": "The evidence preserves a numerical branch centered on one hundred, alongside separate lexical branches for fomenting discord and a cat's mewing.",
+    "development": "The numerical branch includes a transitive use meaning to make a quantity total one hundred and a corresponding intransitive use meaning to become a hundred; the Quranic مِائَة is the numeral itself. The evidence also records مَأَى for a cat's mewing and مَأْي for tale-bearing or causing discord between people.",
+    "source_refs": [
+      "maqayis:row:4275",
+      "mufradat:row:1340",
+      "lane:entry:5599"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mAy:miA}ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mAy_mia",
+      "reason": "Displayed under the normalized singular citation form مِائَة; the group includes its inflectional variants, including the dual مِائَتَيْنِ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mAy_mia",
+      "form_group_ids": [
+        "qac-form:mAy:miA}ap:nominal:-"
+      ],
+      "headword_arabic": "مِائَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "mAy_mia_s1",
+          "definition": "The number one hundred; a hundred units.",
+          "usage_conditions": "A cardinal numeral. The supplied Quranic occurrences include the singular مِائَة and the dual مِائَتَيْنِ, meaning one hundred and two hundred respectively.",
+          "source_refs": [
+            "mufradat:row:1340"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:65",
+          "word_location": "8:65:13",
+          "sense_ids": [
+            "mAy_mia_s1"
+          ]
+        },
+        {
+          "verse_key": "2:259",
+          "word_location": "2:259:19",
+          "sense_ids": [
+            "mAy_mia_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mAy_mAyA",
+      "form_group_ids": [],
+      "headword_arabic": "مَأَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 0,
+      "senses": [],
+      "quran_examples": []
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mAy_amAya_makehundred",
+      "headword_arabic": "أَمْأَى",
+      "definition": "To make a quantity total one hundred; to cause it to become a hundred.",
+      "usage_conditions": "The evidence also records the corresponding intransitive result expression, in which the quantity becomes a hundred.",
+      "source_refs": [
+        "maqayis:row:4275",
+        "mufradat:row:1340"
+      ]
+    },
+    {
+      "meaning_id": "mAy_may_discord",
+      "headword_arabic": "المَأْي",
+      "definition": "Tale-bearing and causing discord between people; to foment mischief between them.",
+      "usage_conditions": "The related verbal expression مَأَيْتُ بينهم means that one caused discord among them.",
+      "source_refs": [
+        "maqayis:row:4275"
+      ]
+    },
+    {
+      "meaning_id": "mAy_maya_mew",
+      "headword_arabic": "مَأَى",
+      "definition": "To mew, of a cat.",
+      "usage_conditions": "A Form I verb describing the cat's cry.",
+      "source_refs": [
+        "lane:entry:5599"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mAy:5599:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mAy_maya_mew"
+      ],
+      "note": "The unit directly defines مَأَى as a cat's mewing."
+    }
+  ],
+  "cautions": [
+    "The Quranic form group combines singular and dual inflectional forms; the public headword is the singular citation form مِائَة."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

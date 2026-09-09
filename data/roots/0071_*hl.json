@@ -1,0 +1,181 @@
+{
+  "root": "*hl",
+  "arabic": "ذهل",
+  "root_idea": {
+    "summary": "The root centers on being occupied or distracted away from something, especially through fright or another overpowering cause.",
+    "development": "This orientation develops into forgetfulness, neglect, and causing another person to forget. The night-period term is explained through sleep-induced forgetfulness, while the swift-horse term is treated as a divergent lexical branch.",
+    "source_refs": [
+      "maqayis:row:1919",
+      "mufradat:row:513"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:*hl:ta*ohalu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:*hl:dhahala:I",
+      "reason": "Displayed under the normalized Form I perfect citation form rather than the Quranic imperfect lemma."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:*hl:dhahala:I",
+      "form_group_ids": [
+        "qac-form:*hl:ta*ohalu:verb:I"
+      ],
+      "headword_arabic": "ذَهَلَ عَنْ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:*hl:dhahala:I:1",
+          "definition": "To become distracted from something and thereby forget or neglect it, especially under fear, grief, or overwhelming preoccupation.",
+          "usage_conditions": "The construction takes the forgotten or neglected thing with عَنْ. In the Quranic attestation, terror causes nursing mothers to forget what they have suckled.",
+          "source_refs": [
+            "lane:entry:21808",
+            "mufradat:row:513"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:2",
+          "word_location": "22:2:3",
+          "sense_ids": [
+            "sense:*hl:dhahala:I:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:*hl:dhahala:deliberate-abandonment",
+      "headword_arabic": "ذَهَلَ عَنْ",
+      "definition": "To deliberately neglect or dismiss something; also to abandon a familiar companion through diversion, confusion, or mental alienation.",
+      "usage_conditions": "This represents classical extensions distinct from the Quranic terror-induced forgetfulness, including willing relinquishment of a familiar person.",
+      "source_refs": [
+        "lane:entry:21808"
+      ]
+    },
+    {
+      "meaning_id": "meaning:*hl:adhala:causative",
+      "headword_arabic": "أَذْهَلَ عَنْ",
+      "definition": "To cause another person to forget, neglect, or become unmindful of something.",
+      "usage_conditions": "A causative Form IV construction, normally taking the affected person and the forgotten or neglected thing with عَنْ.",
+      "source_refs": [
+        "lane:entry:21809"
+      ]
+    },
+    {
+      "meaning_id": "meaning:*hl:dhul:night-period",
+      "headword_arabic": "ذُهْلٌ",
+      "definition": "A short period or portion of the night.",
+      "usage_conditions": "Used in the expression جَاءَ بَعْدَ ذُهْلٍ مِنَ اللَّيْلِ. Some authorities extend the term to a larger portion, such as a third or half of the night, but that report is treated as uncertain.",
+      "source_refs": [
+        "lane:entry:21811"
+      ]
+    },
+    {
+      "meaning_id": "meaning:*hl:dhul:basham",
+      "headword_arabic": "ذُهْلٌ",
+      "definition": "The basham tree or plant.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:21811"
+      ]
+    },
+    {
+      "meaning_id": "meaning:*hl:dhulul:swift-active",
+      "headword_arabic": "ذُهْلُولٌ",
+      "definition": "A swift or light, active horse; by extension, an energetic or active man.",
+      "usage_conditions": "The horse and human applications are explicit lexical uses of this derived noun.",
+      "source_refs": [
+        "lane:entry:21812"
+      ]
+    },
+    {
+      "meaning_id": "meaning:*hl:dhahil:ungroomed",
+      "headword_arabic": "ذَاهِلٌ",
+      "definition": "A man indifferent to personal ornament and self-anointing or grooming.",
+      "usage_conditions": "A specialized active-participle usage, not merely the ordinary verbal meaning of forgetting.",
+      "source_refs": [
+        "lane:entry:21813"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:*hl:21808:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:*hl:dhahala:I:1",
+        "meaning:*hl:dhahala:deliberate-abandonment"
+      ],
+      "note": "The Quranic forgetfulness and the distinct deliberate or alienated-abandonment branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:*hl:21808:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*hl:21809:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:*hl:adhala:causative"
+      ],
+      "note": "Causative Form IV meaning."
+    },
+    {
+      "unit_id": "lane-unit:*hl:21810:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*hl:21811:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:*hl:dhul:night-period"
+      ],
+      "note": "Lexical term for a portion or period of the night."
+    },
+    {
+      "unit_id": "lane-unit:*hl:21811:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:*hl:dhul:basham"
+      ],
+      "note": "Independent plant name."
+    },
+    {
+      "unit_id": "lane-unit:*hl:21812:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:*hl:dhulul:swift-active"
+      ],
+      "note": "Swift or active horse and man."
+    },
+    {
+      "unit_id": "lane-unit:*hl:21813:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Derivational identification as the active participle; no independent meaning stated."
+    },
+    {
+      "unit_id": "lane-unit:*hl:21813:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:*hl:dhahil:ungroomed"
+      ],
+      "note": "Specialized meaning of indifference to adornment and self-anointing."
+    }
+  ],
+  "cautions": [
+    "The classical night-period meaning has divergent reports about whether ذُهْلٌ denotes a short interval or a larger portion of the night."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

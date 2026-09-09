@@ -1,0 +1,407 @@
+{
+  "root": "bht",
+  "arabic": "بهت",
+  "root_idea": {
+    "summary": "The root centers on bewilderment, perplexity, and being struck speechless; in a related development, an outrageous falsehood is one that overwhelms or bewilders its hearer.",
+    "development": "The intransitive verb denotes becoming confounded, while its transitive use denotes causing that state. بُهْتَانٌ extends the association to calumny or falsehood so shocking that it confounds the hearer.",
+    "source_refs": [
+      "maqayis:row:855",
+      "mufradat:row:161"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bht:buhita:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bht_verb_I",
+      "reason": "Displayed under the normalized Form I citation form بَهَتَ, covering the Quranic passive and active inflections."
+    },
+    {
+      "form_group_id": "qac-form:bht:buhota`n:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bht_buhtan",
+      "reason": "Displayed as the nominal citation form بُهْتَانٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bht_verb_I",
+      "form_group_ids": [
+        "qac-form:bht:buhita:verb:I"
+      ],
+      "headword_arabic": "بَهَتَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "bht_v1_s1",
+          "definition": "To become confounded, perplexed, or astonished, unable to discern the right course.",
+          "usage_conditions": "In the Quranic passive form, the subject is left bewildered or struck speechless; the usage describes a state resulting from an overwhelming argument or realization.",
+          "source_refs": [
+            "lane:entry:37287",
+            "mufradat:row:161"
+          ]
+        },
+        {
+          "sense_id": "bht_v1_s2",
+          "definition": "To cause someone to become confounded or bewildered, including by an unexpected onset.",
+          "usage_conditions": "The transitive construction presents the object as overwhelmed or unable to respond; suddenness may be supplied by the surrounding context rather than by the verb alone.",
+          "source_refs": [
+            "lane:entry:37287"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:258",
+          "word_location": "2:258:36",
+          "sense_ids": [
+            "bht_v1_s1"
+          ]
+        },
+        {
+          "verse_key": "21:40",
+          "word_location": "21:40:4",
+          "sense_ids": [
+            "bht_v1_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bht_buhtan",
+      "form_group_ids": [
+        "qac-form:bht:buhota`n:nominal:-"
+      ],
+      "headword_arabic": "بُهْتَانٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "bht_n_s1",
+          "definition": "A calumny, slander, false accusation, or shocking lie.",
+          "usage_conditions": "The Quranic noun can denote a fabricated charge or falsehood so outrageous that it bewilders the hearer. In 60:12, it has been interpreted either as an allusion to adultery or more broadly as any reprehensible act carried out by hand or foot; the narrower interpretation is not required by the lexical meaning alone.",
+          "source_refs": [
+            "lane:entry:37293",
+            "mufradat:row:161"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:20",
+          "word_location": "4:20:15",
+          "sense_ids": [
+            "bht_n_s1"
+          ]
+        },
+        {
+          "verse_key": "24:16",
+          "word_location": "24:16:13",
+          "sense_ids": [
+            "bht_n_s1"
+          ]
+        },
+        {
+          "verse_key": "60:12",
+          "word_location": "60:12:22",
+          "sense_ids": [
+            "bht_n_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "bht_cl_overcome_dispute",
+      "headword_arabic": "بَهَتَ",
+      "definition": "To be overcome in a dispute by an argument, allegation, or plea.",
+      "usage_conditions": "A specialized use describing the defeated party in disputation.",
+      "source_refs": [
+        "lane:entry:37287"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_calumniate",
+      "headword_arabic": "بَهَتَ",
+      "definition": "To calumniate, slander, or falsely accuse someone; to forge a lie against them.",
+      "usage_conditions": "This is a transitive use. It can include directly accusing someone of an act they did not commit, including a false accusation of adultery.",
+      "source_refs": [
+        "lane:entry:37287"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_remove_stallion",
+      "headword_arabic": "بَهَتَ",
+      "definition": "To remove a stallion from a she-camel so that a stallion of more generous stock may cover her.",
+      "usage_conditions": "A specialized breeding term used with the construction بَهَتَ الفَحْلَ عَنِ النَّاقَةِ.",
+      "source_refs": [
+        "lane:entry:37287"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_form3_mutual_slander",
+      "headword_arabic": "بَاهَتَ",
+      "definition": "To engage with another in mutual calumny, slander, or false accusation.",
+      "usage_conditions": "A reciprocal or mutual Form III construction.",
+      "source_refs": [
+        "lane:entry:37289"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_form3_forged_confounding",
+      "headword_arabic": "بَاهَتَ",
+      "definition": "To confound or perplex another by what one fabricates against them.",
+      "usage_conditions": "The confounding is produced through a forged charge or fabricated allegation.",
+      "source_refs": [
+        "lane:entry:37289"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_stone",
+      "headword_arabic": "بَهْتٌ",
+      "definition": "A certain well-known kind of stone.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:37291"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_sidereal_calculation",
+      "headword_arabic": "بُهْتٌ",
+      "definition": "A sidereal computation or calculation of the direct course of the stars in a day.",
+      "usage_conditions": "A technical term whose Arabic status is reported as doubtful by one authority.",
+      "source_refs": [
+        "lane:entry:37292"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_buhtan_exclamation",
+      "headword_arabic": "بُهْتَانٌ",
+      "definition": "In an exclamatory idiom, an expression of appeal for help against calumny or of astonishment at it.",
+      "usage_conditions": "The construction varies in vocalization according to whether it calls for aid or expresses wonder.",
+      "source_refs": [
+        "lane:entry:37293"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_bahut",
+      "headword_arabic": "بَهُوتٌ",
+      "definition": "An intensive or habitual calumniator, slanderer, or false accuser; one who confounds a hearer by fabricated charges.",
+      "usage_conditions": "The word may also describe one who falsely accuses a woman of adultery, but that example does not limit its general application.",
+      "source_refs": [
+        "lane:entry:37294"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_bahit_agent",
+      "headword_arabic": "بَاهِتٌ",
+      "definition": "One who causes another to become confounded, or who calumniates or falsely accuses another.",
+      "usage_conditions": "An active participial noun from the transitive Form I verb.",
+      "source_refs": [
+        "lane:entry:37298"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_mabhoot_confounded",
+      "headword_arabic": "مَبْهُوتٌ",
+      "definition": "Confounded, perplexed, or amazed and unable to discern the right course.",
+      "usage_conditions": "A passive participial description of the person affected by bewilderment.",
+      "source_refs": [
+        "lane:entry:37299"
+      ]
+    },
+    {
+      "meaning_id": "bht_cl_mabhoot_calumniated",
+      "headword_arabic": "مَبْهُوتٌ",
+      "definition": "Calumniated, slandered, or falsely accused.",
+      "usage_conditions": "A passive participial description of the person against whom a false charge has been made.",
+      "source_refs": [
+        "lane:entry:37299"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bht:37287:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_v1_s1",
+        "bht_cl_overcome_dispute"
+      ],
+      "note": "Covers becoming confounded and being overcome in disputation."
+    },
+    {
+      "unit_id": "lane-unit:bht:37287:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_v1_s2"
+      ],
+      "note": "Covers causing bewilderment and taking someone unawares."
+    },
+    {
+      "unit_id": "lane-unit:bht:37287:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_calumniate"
+      ],
+      "note": "Covers transitive calumny and false accusation."
+    },
+    {
+      "unit_id": "lane-unit:bht:37287:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_remove_stallion"
+      ],
+      "note": "Covers the specialized breeding usage."
+    },
+    {
+      "unit_id": "lane-unit:bht:37288:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:bht:37289:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:bht:37289:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_form3_mutual_slander"
+      ],
+      "note": "Covers mutual calumny in Form III."
+    },
+    {
+      "unit_id": "lane-unit:bht:37289:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_form3_forged_confounding"
+      ],
+      "note": "Covers confounding another through fabricated charges."
+    },
+    {
+      "unit_id": "lane-unit:bht:37290:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form III."
+    },
+    {
+      "unit_id": "lane-unit:bht:37291:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بُهْتَانٌ."
+    },
+    {
+      "unit_id": "lane-unit:bht:37291:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_stone"
+      ],
+      "note": "Defines the stone term."
+    },
+    {
+      "unit_id": "lane-unit:bht:37292:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بُهْتَانٌ."
+    },
+    {
+      "unit_id": "lane-unit:bht:37292:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_sidereal_calculation"
+      ],
+      "note": "Defines the technical sidereal term."
+    },
+    {
+      "unit_id": "lane-unit:bht:37293:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_n_s1",
+        "bht_cl_buhtan_exclamation"
+      ],
+      "note": "Covers the noun's calumny/falsehood branch and its exclamatory idiom."
+    },
+    {
+      "unit_id": "lane-unit:bht:37294:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_bahut"
+      ],
+      "note": "Defines the intensive calumniator term."
+    },
+    {
+      "unit_id": "lane-unit:bht:37295:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَبْهُوتٌ."
+    },
+    {
+      "unit_id": "lane-unit:bht:37296:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بُهْتَانٌ."
+    },
+    {
+      "unit_id": "lane-unit:bht:37297:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بَهُوتٌ."
+    },
+    {
+      "unit_id": "lane-unit:bht:37297:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَبْهُوتٌ."
+    },
+    {
+      "unit_id": "lane-unit:bht:37298:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَبْهُوتٌ."
+    },
+    {
+      "unit_id": "lane-unit:bht:37298:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_bahit_agent"
+      ],
+      "note": "Defines the active participial noun."
+    },
+    {
+      "unit_id": "lane-unit:bht:37299:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_mabhoot_confounded"
+      ],
+      "note": "Defines the confounded or bewildered state."
+    },
+    {
+      "unit_id": "lane-unit:bht:37299:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bht_cl_mabhoot_calumniated"
+      ],
+      "note": "Defines the passive state of being calumniated."
+    },
+    {
+      "unit_id": "lane-unit:bht:37300:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بَهُوتٌ."
+    }
+  ],
+  "cautions": [
+    "The Form I Quran group contains both the passive perfect بُهِتَ and the active imperfect تَبْهَتُ; the public headword is normalized to the classical citation form بَهَتَ, with the two Quranic constructions distinguished as separate senses.",
+    "The interpretation of بُهْتَانٍ in 60:12 varies between an allusion to adultery and a broader reference to reprehensible acts; the artifact preserves both as interpretive possibilities without making the narrower reading definitional.",
+    "Historical Quran citation notation in the lexical evidence is not converted directly into modern verse coordinates; the examples use the independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

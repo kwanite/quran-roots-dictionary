@@ -1,0 +1,639 @@
+{
+  "root": "qsm",
+  "arabic": "قسم",
+  "root_idea": {
+    "summary": "The root has two classical semantic axes: apportionment or partition, and beauty or comeliness. Its oath vocabulary is associated with the division of sworn declarations in the qasāmah procedure.",
+    "development": "The partition axis develops into dividing, distributing, allotting, sharing, and being divided. A figurative branch describes a mind divided by worries, while the beauty branch treats the face as proportionately endowed with comeliness. The oath branch is lexically connected with qasāmah, the distribution of oaths among the relatives of a slain person.",
+    "source_refs": [
+      "maqayis:row:3777",
+      "mufradat:row:1179"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qsm:qasamo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-qasama-v1",
+      "reason": "Distinct Quran-attested Form I verb meaning to divide or distribute."
+    },
+    {
+      "form_group_id": "qac-form:qsm:qaAsama:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-qasama-v3",
+      "reason": "Distinct Quran-attested reciprocal or directed oath construction."
+    },
+    {
+      "form_group_id": "qac-form:qsm:>aqosamu:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-aqsama-v4",
+      "reason": "Distinct and frequent Quran-attested Form IV oath verb."
+    },
+    {
+      "form_group_id": "qac-form:qsm:taqaAsamu:verb:VI",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-taqasama-v6",
+      "reason": "Distinct Quran-attested mutual-oath construction."
+    },
+    {
+      "form_group_id": "qac-form:qsm:tasotaqosimu:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-istaqsama-v10",
+      "reason": "Distinct Quran-attested Form X construction for seeking an allotment by divination."
+    },
+    {
+      "form_group_id": "qac-form:qsm:muqas~ima`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-muqassim",
+      "reason": "Quran-attested active participle, normalized from its feminine plural occurrence to the singular citation form."
+    },
+    {
+      "form_group_id": "qac-form:qsm:muqotasimiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-muqtasim",
+      "reason": "Quran-attested active participle, normalized from its masculine plural occurrence to the singular citation form."
+    },
+    {
+      "form_group_id": "qac-form:qsm:m~aqosuwm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-maqsum",
+      "reason": "Quran-attested passive participle, normalized from its inflected occurrence."
+    },
+    {
+      "form_group_id": "qac-form:qsm:qasam:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-qasam",
+      "reason": "Distinct Quran-attested noun meaning an oath or solemn asseveration."
+    },
+    {
+      "form_group_id": "qac-form:qsm:qisomap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsm-qisma",
+      "reason": "Distinct Quran-attested noun for division, apportionment, and an allotted share."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qsm-qasama-v1",
+      "form_group_ids": [
+        "qac-form:qsm:qasamo:verb:I"
+      ],
+      "headword_arabic": "قَسَمَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsm-qasama-v1-s1",
+          "definition": "To divide, apportion, or distribute.",
+          "usage_conditions": "The Quranic occurrences concern distributing or assigning portions, including an apportionment made by God.",
+          "source_refs": [
+            "lane:entry:20958",
+            "mufradat:row:1179"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "43:32",
+          "word_location": "43:32:2",
+          "sense_ids": [
+            "qsm-qasama-v1-s1"
+          ]
+        },
+        {
+          "verse_key": "43:32",
+          "word_location": "43:32:6",
+          "sense_ids": [
+            "qsm-qasama-v1-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsm-qasama-v3",
+      "form_group_ids": [
+        "qac-form:qsm:qaAsama:verb:III"
+      ],
+      "headword_arabic": "قَاسَمَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsm-qasama-v3-s1",
+          "definition": "To swear to another person, especially by invoking God or another solemn object of oath.",
+          "usage_conditions": "A directed oath construction with a person as the recipient; the Quranic occurrence describes an oath addressed to two persons.",
+          "source_refs": [
+            "lane:entry:20960",
+            "mufradat:row:1179"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:21",
+          "word_location": "7:21:1",
+          "sense_ids": [
+            "qsm-qasama-v3-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsm-aqsama-v4",
+      "form_group_ids": [
+        "qac-form:qsm:>aqosamu:verb:IV"
+      ],
+      "headword_arabic": "أَقْسَمَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 20,
+      "senses": [
+        {
+          "sense_id": "qsm-aqsama-v4-s1",
+          "definition": "To swear, take an oath, or make a solemn asseveration.",
+          "usage_conditions": "Used in personal and collective oath formulas, including formulas with بِـ introducing what is sworn by and the Quranic لا أُقْسِمُ construction.",
+          "source_refs": [
+            "mufradat:row:1179"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:75",
+          "word_location": "56:75:2",
+          "sense_ids": [
+            "qsm-aqsama-v4-s1"
+          ]
+        },
+        {
+          "verse_key": "5:106",
+          "word_location": "5:106:32",
+          "sense_ids": [
+            "qsm-aqsama-v4-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsm-taqasama-v6",
+      "form_group_ids": [
+        "qac-form:qsm:taqaAsamu:verb:VI"
+      ],
+      "headword_arabic": "تَقَاسَمَ",
+      "public_pos_label": "Verb · Form VI",
+      "verb_form": "VI",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsm-taqasama-v6-s1",
+          "definition": "To swear to one another or mutually take an oath.",
+          "usage_conditions": "A reciprocal oath construction; the Quranic occurrence presents conspirators swearing together by God.",
+          "source_refs": [
+            "mufradat:row:1179"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:49",
+          "word_location": "27:49:2",
+          "sense_ids": [
+            "qsm-taqasama-v6-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsm-istaqsama-v10",
+      "form_group_ids": [
+        "qac-form:qsm:tasotaqosimu:verb:X"
+      ],
+      "headword_arabic": "اِسْتَقْسَمَ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsm-istaqsama-v10-s1",
+          "definition": "To seek one's allotted portion or a determination of what is allotted, especially by divining with arrows.",
+          "usage_conditions": "The Quranic construction refers specifically to seeking decisions or allotments through the pre-Islamic divining arrows known as الأَزْلام.",
+          "source_refs": [
+            "lane:entry:20964",
+            "mufradat:row:1179"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:3",
+          "word_location": "5:3:27",
+          "sense_ids": [
+            "qsm-istaqsama-v10-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsm-muqassim",
+      "form_group_ids": [
+        "qac-form:qsm:muqas~ima`t:nominal:-"
+      ],
+      "headword_arabic": "مُقَسِّم",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsm-muqassim-s1",
+          "definition": "One who apportions or distributes.",
+          "usage_conditions": "The Quranic form is feminine plural; the participle denotes agents or entities engaged in distributing or apportioning.",
+          "source_refs": [
+            "lane:entry:20958",
+            "lane:entry:20959"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "51:4",
+          "word_location": "51:4:1",
+          "sense_ids": [
+            "qsm-muqassim-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsm-muqtasim",
+      "form_group_ids": [
+        "qac-form:qsm:muqotasimiyn:nominal:-"
+      ],
+      "headword_arabic": "مُقْتَسِم",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsm-muqtasim-s1",
+          "definition": "One who divides or partitions into sections.",
+          "usage_conditions": "In the Quranic passage, one interpretation identifies the group as those who divided the sections or approaches of Mecca to obstruct people from the Messenger.",
+          "source_refs": [
+            "mufradat:row:1179"
+          ]
+        },
+        {
+          "sense_id": "qsm-muqtasim-s2",
+          "definition": "One who enters into a sworn pact with others for a common plot.",
+          "usage_conditions": "An alternative Quranic interpretation of 15:90 understands the group as those who made a pact against the Prophet.",
+          "source_refs": [
+            "mufradat:row:1179"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:90",
+          "word_location": "15:90:4",
+          "sense_ids": [
+            "qsm-muqtasim-s1",
+            "qsm-muqtasim-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsm-maqsum",
+      "form_group_ids": [
+        "qac-form:qsm:m~aqosuwm:nominal:-"
+      ],
+      "headword_arabic": "مَقْسُوم",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsm-maqsum-s1",
+          "definition": "Divided off and assigned as a portion; allotted.",
+          "usage_conditions": "A passive participle describing something whose share or allocation has been fixed by apportionment.",
+          "source_refs": [
+            "mufradat:row:1179",
+            "lane:entry:20967"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:44",
+          "word_location": "15:44:8",
+          "sense_ids": [
+            "qsm-maqsum-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsm-qasam",
+      "form_group_ids": [
+        "qac-form:qsm:qasam:nominal:-"
+      ],
+      "headword_arabic": "قَسَم",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsm-qasam-s1",
+          "definition": "An oath or solemn asseveration.",
+          "usage_conditions": "The noun occurs in Quranic oath formulas and in expressions emphasizing the force or certainty of an oath.",
+          "source_refs": [
+            "lane:entry:20966"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:76",
+          "word_location": "56:76:2",
+          "sense_ids": [
+            "qsm-qasam-s1"
+          ]
+        },
+        {
+          "verse_key": "89:5",
+          "word_location": "89:5:4",
+          "sense_ids": [
+            "qsm-qasam-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsm-qisma",
+      "form_group_ids": [
+        "qac-form:qsm:qisomap:nominal:-"
+      ],
+      "headword_arabic": "قِسْمَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsm-qisma-s1",
+          "definition": "A division, apportionment, or distribution.",
+          "usage_conditions": "The Quranic noun can denote the act or arrangement of dividing something, including an apportionment among recipients.",
+          "source_refs": [
+            "lane:entry:20967",
+            "mufradat:row:1179"
+          ]
+        },
+        {
+          "sense_id": "qsm-qisma-s2",
+          "definition": "A portion or share resulting from division.",
+          "usage_conditions": "The share is understood as an allotted part within a larger division; the Quranic water-sharing passage uses the noun in this allocation-related sense.",
+          "source_refs": [
+            "lane:entry:20967",
+            "mufradat:row:1179"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:8",
+          "word_location": "4:8:3",
+          "sense_ids": [
+            "qsm-qisma-s1"
+          ]
+        },
+        {
+          "verse_key": "53:22",
+          "word_location": "53:22:3",
+          "sense_ids": [
+            "qsm-qisma-s1"
+          ]
+        },
+        {
+          "verse_key": "54:28",
+          "word_location": "54:28:4",
+          "sense_ids": [
+            "qsm-qisma-s1",
+            "qsm-qisma-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl-qasama-with-share",
+      "headword_arabic": "قَاسَمَ",
+      "definition": "To divide a thing with another, each taking an allotted portion.",
+      "usage_conditions": "A reciprocal sharing construction distinct from the oath construction also attested in the Quran.",
+      "source_refs": [
+        "lane:entry:20960"
+      ]
+    },
+    {
+      "meaning_id": "cl-aqsama-conjure",
+      "headword_arabic": "أَقْسَمَ عَلَيْهِ",
+      "definition": "To adjure or conjure someone by invoking a solemn authority or appeal.",
+      "usage_conditions": "A directed adjuration construction, illustrated by appealing to another's right; this is a Classical construction beyond the Quranic noun and oath uses listed above.",
+      "source_refs": [
+        "lane:entry:20961"
+      ]
+    },
+    {
+      "meaning_id": "cl-taqasama-resultative",
+      "headword_arabic": "تَقَسَّمَ",
+      "definition": "To become divided or distributed.",
+      "usage_conditions": "A resultative or intransitive construction describing a thing that comes to be divided or distributed.",
+      "source_refs": [
+        "lane:entry:20962"
+      ]
+    },
+    {
+      "meaning_id": "cl-inqasama",
+      "headword_arabic": "اِنْقَسَمَ",
+      "definition": "To be divided into many parts.",
+      "usage_conditions": "Used with the thing divided and, in the cited construction, with the resulting parts.",
+      "source_refs": [
+        "lane:entry:20963"
+      ]
+    },
+    {
+      "meaning_id": "cl-qism",
+      "headword_arabic": "قِسْم",
+      "definition": "A division, part, or portion; especially an allotted share.",
+      "usage_conditions": "It can denote membership or non-membership in a larger whole, as in saying that something is not among the parts of a specified thing.",
+      "source_refs": [
+        "lane:entry:20965"
+      ]
+    },
+    {
+      "meaning_id": "cl-qasam-adjuration",
+      "headword_arabic": "قَسَم",
+      "definition": "A conjuration or adjuration: a solemn appeal made by invoking another's right or authority.",
+      "usage_conditions": "This Classical specialized sense is distinct from the ordinary sense of an oath or asseveration.",
+      "source_refs": [
+        "lane:entry:20966",
+        "lane:entry:20961"
+      ]
+    },
+    {
+      "meaning_id": "cl-qassama-officer",
+      "headword_arabic": "قَسَّام",
+      "definition": "An official who divides inheritances.",
+      "usage_conditions": "A technical occupational designation for an officer serving the qadi.",
+      "source_refs": [
+        "lane:entry:20968"
+      ]
+    },
+    {
+      "meaning_id": "cl-qasama-beauty",
+      "headword_arabic": "قَسَامَة",
+      "definition": "Beauty or comeliness, especially of the face.",
+      "usage_conditions": "Related Classical expressions describe a handsome or comely face as مُقَسَّمُ الوجه or قَسِيمُ الوجه.",
+      "source_refs": [
+        "maqayis:row:3777",
+        "mufradat:row:1179"
+      ]
+    },
+    {
+      "meaning_id": "cl-munqasimu-heart",
+      "headword_arabic": "مُنْقَسِمُ القَلْب",
+      "definition": "Mentally divided or distracted by conflicting concerns.",
+      "usage_conditions": "A figurative expression for thoughts or attention dispersed by worries, not a literal division into physical portions.",
+      "source_refs": [
+        "mufradat:row:1179"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qsm:20958:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsm-qasama-v1-s1"
+      ],
+      "note": "Division and distribution are represented under the Quranic Form I sense."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20958:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another article."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20959:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader to Form I."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20960:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-qasama-with-share"
+      ],
+      "note": "Mutual division with each party taking a share is represented as a Classical construction."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20960:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsm-qasama-v3-s1"
+      ],
+      "note": "Swearing to another by God is represented under the Quranic Form III sense."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20961:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-aqsama-conjure"
+      ],
+      "note": "The directed adjuration construction is represented separately from ordinary swearing."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20962:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-taqasama-resultative"
+      ],
+      "note": "The resultative construction of becoming divided or distributed is represented."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20963:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-inqasama"
+      ],
+      "note": "Being divided into many parts is represented under the Form VII Classical construction."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20964:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsm-istaqsama-v10-s1"
+      ],
+      "note": "Seeking an allotment by divining arrows is represented under the Quranic Form X sense."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20965:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-qism"
+      ],
+      "note": "The noun's division, part, and share meanings are represented."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20965:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-qism"
+      ],
+      "note": "The part-membership construction is stated in the usage conditions of the qism meaning."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20966:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-qasam-adjuration"
+      ],
+      "note": "The Classical conjuration sense is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20966:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsm-qasam-s1"
+      ],
+      "note": "The oath and asseveration sense is represented under the Quranic noun."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20966:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "A grammatical label for the waw used in oath formulas."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20967:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsm-qisma-s2"
+      ],
+      "note": "The cited Quranic construction supports qisma as a portion or share."
+    },
+    {
+      "unit_id": "lane-unit:qsm:20968:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-qassama-officer"
+      ],
+      "note": "The technical occupational meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The interpretation of مُقْتَسِمِين in 15:90 is reported in two ways: partitioning the sections or approaches of Mecca to obstruct people from the Messenger, or forming a sworn pact against him."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

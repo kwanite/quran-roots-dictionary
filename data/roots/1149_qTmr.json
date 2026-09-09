@@ -1,0 +1,127 @@
+{
+  "root": "qTmr",
+  "arabic": "قطمر",
+  "root_idea": {
+    "summary": "The supplied lexical evidence centers on a minute feature of a date stone and its figurative value as an emblem of utter insignificance.",
+    "development": "Concrete date-stone referents such as a trace, membrane, cleft, or germ-point are extended figuratively to the idea of possessing only a negligible amount, or nothing of consequence.",
+    "source_refs": [
+      "lane:entry:8621",
+      "mufradat:row:1195"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qTmr:qiTomiyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qTmr_qitmir",
+      "reason": "The Quran-attested nominal is a distinct lexical item; the public headword is normalized to its classical citation form قِطْمِير."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qTmr_qitmir",
+      "form_group_ids": [
+        "qac-form:qTmr:qiTomiyr:nominal:-"
+      ],
+      "headword_arabic": "قِطْمِير",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qTmr_qitmir_s1",
+          "definition": "The slight trace or thin membrane on the back of a date stone.",
+          "usage_conditions": "In 35:13, this minute date-stone remnant is invoked as the least conceivable possession.",
+          "source_refs": [
+            "lane:entry:8621",
+            "mufradat:row:1195"
+          ]
+        },
+        {
+          "sense_id": "qTmr_qitmir_s2",
+          "definition": "A negligible amount or paltry possession; anything of no appreciable consequence.",
+          "usage_conditions": "In the Quranic construction concerning what others possess besides God, it denotes not even the smallest share, by reference to the minute date-stone membrane.",
+          "source_refs": [
+            "lane:entry:8621",
+            "mufradat:row:1195"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "35:13",
+          "word_location": "35:13:28",
+          "sense_ids": [
+            "qTmr_qitmir_s1",
+            "qTmr_qitmir_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qTmr_cleft",
+      "headword_arabic": "قِطْمِير",
+      "definition": "A cleft or split in a date stone.",
+      "usage_conditions": "A concrete date-stone sense distinct from the thin outer membrane and the germ-point.",
+      "source_refs": [
+        "lane:entry:8621"
+      ]
+    },
+    {
+      "meaning_id": "qTmr_skin",
+      "headword_arabic": "قِطْمِير",
+      "definition": "The thin integument or skin on a date stone, between the stone and the date flesh; the part called فُوفَة.",
+      "usage_conditions": "A concrete botanical or anatomical referent of the date stone.",
+      "source_refs": [
+        "lane:entry:8621"
+      ]
+    },
+    {
+      "meaning_id": "qTmr_embryo",
+      "headword_arabic": "قِطْمِير",
+      "definition": "The white point or germ in the back of a date stone, from which the palm grows when planted.",
+      "usage_conditions": "A concrete germinal feature of the date stone.",
+      "source_refs": [
+        "lane:entry:8621"
+      ]
+    },
+    {
+      "meaning_id": "qTmr_negated_idiom",
+      "headword_arabic": "قِطْمِير",
+      "definition": "In the expression مَا أَصَبْتُ مِنْهُ قِطْمِيرًا, to obtain nothing from someone or something.",
+      "usage_conditions": "A conventional negated expression using the sense of a paltry or negligible amount.",
+      "source_refs": [
+        "lane:entry:8621"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qTmr:8621:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qTmr_qitmir_s1",
+        "qTmr_cleft",
+        "qTmr_skin",
+        "qTmr_embryo"
+      ],
+      "note": "The unit's concrete date-stone branches are represented under the Quranic trace sense and the distinct classical referents."
+    },
+    {
+      "unit_id": "lane-unit:qTmr:8621:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qTmr_qitmir_s2",
+        "qTmr_negated_idiom"
+      ],
+      "note": "The unit's paltry-thing Quranic use and its negated idiom are represented separately."
+    }
+  ],
+  "cautions": [
+    "Lane records قِطْمَارٌ as a variant alongside قِطْمِيرٌ; the Quran-attested form and public headword are قِطْمِير.",
+    "Lane's printed Quran citation in this entry uses historical notation and is not treated as an independently derived modern verse location; the supplied QAC occurrence is 35:13."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

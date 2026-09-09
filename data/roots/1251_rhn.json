@@ -1,0 +1,615 @@
+{
+  "root": "rhn",
+  "arabic": "رهن",
+  "root_idea": {
+    "summary": "The root centers on something being held fast or fixed under a claim, right, or obligation.",
+    "development": "From the idea of fixed retention, the language develops meanings of remaining or enduring, pledging something as security, and being bound or accountable for an obligation. Related branches include staking or wagering and causing something to remain or become fixed.",
+    "source_refs": [
+      "maqayis:row:2176",
+      "mufradat:row:593"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rhn:rahiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "p-rhn-rahin",
+      "reason": "Displayed under the normalized passive-participial citation form رَهِين."
+    },
+    {
+      "form_group_id": "qac-form:rhn:rahiynap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "p-rhn-rahin",
+      "reason": "رَهِينَة is the feminine or substantivized counterpart of رَهِين in the Quranic pledged/accountable usage."
+    },
+    {
+      "form_group_id": "qac-form:rhn:riha`n:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "p-rhn-rahn",
+      "reason": "The Quranic plural form رِهَان is presented under the singular dictionary citation noun رَهْن."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "p-rhn-rahin",
+      "form_group_ids": [
+        "qac-form:rhn:rahiyn:nominal:-",
+        "qac-form:rhn:rahiynap:nominal:-"
+      ],
+      "headword_arabic": "رَهِين",
+      "public_pos_label": "Passive participle / substantivized noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "q-rhn-rahin-s1",
+          "definition": "Held as a pledge or security, and therefore not freely released until the relevant obligation is discharged.",
+          "usage_conditions": "Used in the Quran for a person or soul described as pledged or held. This is the pledged-state meaning rather than the noun for the deposited security itself.",
+          "source_refs": [
+            "mufradat:row:593"
+          ]
+        },
+        {
+          "sense_id": "q-rhn-rahin-s2",
+          "definition": "Bound to the consequences of what one has earned; held accountable for one’s deeds.",
+          "usage_conditions": "In the Quranic passages, the pledge is figurative: a person is held with God for the work performed, being released or punished according to that work.",
+          "source_refs": [
+            "lane:entry:24765",
+            "mufradat:row:593"
+          ]
+        },
+        {
+          "sense_id": "q-rhn-rahin-s3",
+          "definition": "Remaining fixed or established in the condition associated with one’s deeds.",
+          "usage_conditions": "An alternative interpretation of رَهِينَة in 74:38 takes the form as active in meaning rather than passive; this interpretation is specific to that Quranic construction.",
+          "source_refs": [
+            "mufradat:row:593"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "52:21",
+          "word_location": "52:21:19",
+          "sense_ids": [
+            "q-rhn-rahin-s2"
+          ]
+        },
+        {
+          "verse_key": "74:38",
+          "word_location": "74:38:5",
+          "sense_ids": [
+            "q-rhn-rahin-s2",
+            "q-rhn-rahin-s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "p-rhn-rahn",
+      "form_group_ids": [
+        "qac-form:rhn:riha`n:nominal:-"
+      ],
+      "headword_arabic": "رَهْن",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q-rhn-rahn-s1",
+          "definition": "A thing deposited as a pledge or security for a debt or other obligation.",
+          "usage_conditions": "The Quranic form is the plural رِهَان, used for pledges held as security in the debt-and-documentation construction of 2:283.",
+          "source_refs": [
+            "mufradat:row:593"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:283",
+          "word_location": "2:283:8",
+          "sense_ids": [
+            "q-rhn-rahn-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-rahan-remain",
+      "headword_arabic": "رَهَنَ",
+      "definition": "To remain, endure, subsist, or become fixed and established.",
+      "usage_conditions": "Also used of remaining, staying, or dwelling in a place; the place-staying use is a related extension of the basic continuance meaning.",
+      "source_refs": [
+        "lane:entry:24759"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahan-lean",
+      "headword_arabic": "رَهَنَ",
+      "definition": "To become lean or emaciated, and to become fatigued or weary.",
+      "usage_conditions": "Recorded of a person, camel, or other beast; the lexical meaning is the resulting condition, not a restriction to any one type of subject.",
+      "source_refs": [
+        "lane:entry:24759"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahan-pledge",
+      "headword_arabic": "رَهَنَ",
+      "definition": "To pledge or deposit a person or thing as security, in lieu of an obligation or another pledged item, or to place it in custody.",
+      "usage_conditions": "Used transitively with a thing pledged for a debt or in place of another; the figurative branch includes making someone or something a stake or keeping something restrained. أَرْهَنَ is also recorded by some authorities as a variant in this pledge sense.",
+      "source_refs": [
+        "lane:entry:24759",
+        "lane:entry:24761",
+        "lane:entry:24765"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahn-responsible",
+      "headword_arabic": "رَهْن",
+      "definition": "Bound or responsible for something; a surety or person held to an obligation.",
+      "usage_conditions": "Conventional expressions such as هو رهن بكذا and أنا رهن بكذا express being pledged, responsible, or a surety; related idioms describe being subject to death, fate, or another controlling condition.",
+      "source_refs": [
+        "lane:entry:24765"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahina-restrainer",
+      "headword_arabic": "رَهِينَة",
+      "definition": "Something by which another thing is held, restricted, or appropriated; a thing retained as security.",
+      "usage_conditions": "This is the broader substantive use of رَهِينَة, distinct from its Quranic application to a soul held for its deeds.",
+      "source_refs": [
+        "lane:entry:24765"
+      ]
+    },
+    {
+      "meaning_id": "cm-rihan-wager",
+      "headword_arabic": "رِهَان",
+      "definition": "A wager or stake, including property deposited as the stake in a contest.",
+      "usage_conditions": "As a noun, رِهَان can denote a pledge generally and is specially used for a stake or wager in wagering contexts.",
+      "source_refs": [
+        "lane:entry:24765",
+        "mufradat:row:593"
+      ]
+    },
+    {
+      "meaning_id": "cm-arhan-continuance",
+      "headword_arabic": "أَرْهَنَ",
+      "definition": "To make something continue, endure, or remain fixed; or to find it to be enduring.",
+      "usage_conditions": "The causative use may be applied to food, drink, property, or other things whose continuance is maintained or recognized.",
+      "source_refs": [
+        "lane:entry:24761"
+      ]
+    },
+    {
+      "meaning_id": "cm-arhan-stake",
+      "headword_arabic": "أَرْهَنَ",
+      "definition": "To make a person or thing a stake or pledge, or to consign it to a resulting condition such as death or burial.",
+      "usage_conditions": "Recorded in expressions for staking one’s property or children, resigning someone to death, and depositing a dead body in a grave as a figurative pledge.",
+      "source_refs": [
+        "lane:entry:24761"
+      ]
+    },
+    {
+      "meaning_id": "cm-arhan-advance",
+      "headword_arabic": "أَرْهَنَ",
+      "definition": "To pay in advance for a commodity, or to pay an excessive price for it; in another explanation, to give the commodity in advance as security for completing its price.",
+      "usage_conditions": "The lexical authorities differ between the meanings of overpaying, advancing payment, and giving a commodity as security; all are recorded for the construction أَرْهَنَ فِي السِّلْعَةِ.",
+      "source_refs": [
+        "lane:entry:24761"
+      ]
+    },
+    {
+      "meaning_id": "cm-arhan-weaken",
+      "headword_arabic": "أَرْهَنَ",
+      "definition": "To weaken someone or make someone lean or emaciated.",
+      "usage_conditions": "A causative extension parallel to the intransitive lean/emaciate meaning; it is also glossed by the synonym أَوْهَنَ.",
+      "source_refs": [
+        "lane:entry:24761"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahan-wager",
+      "headword_arabic": "رَاهَنَ",
+      "definition": "To lay a bet, wager, or stake with another person, especially in a race.",
+      "usage_conditions": "The stake is taken by the person who outstrips or defeats the others; the same branch covers competing to outstrip in a race.",
+      "source_refs": [
+        "lane:entry:24760"
+      ]
+    },
+    {
+      "meaning_id": "cm-tarahana-wager",
+      "headword_arabic": "تَرَاهَنَ",
+      "definition": "To wager mutually with one another or to compete with reciprocal stakes.",
+      "usage_conditions": "Used when each participant lays a bet or stake and the winner takes the whole.",
+      "source_refs": [
+        "lane:entry:24762"
+      ]
+    },
+    {
+      "meaning_id": "cm-irtahana-takepledge",
+      "headword_arabic": "اِرْتَهَنَ",
+      "definition": "To take or receive something as a pledge.",
+      "usage_conditions": "The construction may specify the person from whom the pledge is received. A further reported use has the subject hold someone or something as a pledge, with the passive form meaning to be given as a pledge.",
+      "source_refs": [
+        "lane:entry:24763"
+      ]
+    },
+    {
+      "meaning_id": "cm-istarhana-requestpledge",
+      "headword_arabic": "اِسْتَرْهَنَ",
+      "definition": "To ask or desire someone to pledge or deposit a thing as security.",
+      "usage_conditions": "The expected response may be the actual pledging or depositing of the requested object.",
+      "source_refs": [
+        "lane:entry:24764"
+      ]
+    },
+    {
+      "meaning_id": "cm-rihnu-caretaker",
+      "headword_arabic": "رِهْنُ مَالٍ",
+      "definition": "A manager, tender, or good shepherd of cattle, camels, or similar livestock.",
+      "usage_conditions": "This is a specialized expression and is distinct from the pledge noun despite the shared written root.",
+      "source_refs": [
+        "lane:entry:24766"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahin-continuing",
+      "headword_arabic": "رَاهِن",
+      "definition": "Continuing, subsisting, lasting, or remaining fixed and established.",
+      "usage_conditions": "Used of such things as food, wine, bounty, or a state that continues or remains current; it can also mean remaining or dwelling in a place.",
+      "source_refs": [
+        "lane:entry:24770"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahin-prepared",
+      "headword_arabic": "رَاهِن",
+      "definition": "Prepared or ready for someone.",
+      "usage_conditions": "A distinct adjectival use in expressions such as this thing is prepared for you.",
+      "source_refs": [
+        "lane:entry:24770"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahin-lean",
+      "headword_arabic": "رَاهِن",
+      "definition": "Lean, emaciated, fatigued, or weary.",
+      "usage_conditions": "Applied to a person, camel, or other beast, including emaciation caused by riding, illness, or another circumstance.",
+      "source_refs": [
+        "lane:entry:24770"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahin-camel",
+      "headword_arabic": "رَاهِنَة",
+      "definition": "Of camels, not grazing on the plants called حَمْض.",
+      "usage_conditions": "A specialized camel-related usage recorded separately from the general meanings of continuance and emaciation.",
+      "source_refs": [
+        "lane:entry:24770"
+      ]
+    },
+    {
+      "meaning_id": "cm-rahina-navel",
+      "headword_arabic": "رَاهِنَة",
+      "definition": "The navel together with what surrounds it on the outer belly of a horse.",
+      "usage_conditions": "A specialized anatomical term.",
+      "source_refs": [
+        "lane:entry:24771"
+      ]
+    },
+    {
+      "meaning_id": "cm-irhan-strap",
+      "headword_arabic": "إِرْهَان",
+      "definition": "A thong or strap bound around the middle of the yoke joining two bulls drawing a plough.",
+      "usage_conditions": "A specialized agricultural implement term.",
+      "source_refs": [
+        "lane:entry:24772"
+      ]
+    },
+    {
+      "meaning_id": "cm-urhun-menstruating",
+      "headword_arabic": "أُرْهُون",
+      "definition": "A girl or young woman who is menstruating.",
+      "usage_conditions": "This meaning is reported on a single recorded authority and is rare.",
+      "source_refs": [
+        "lane:entry:24773"
+      ]
+    },
+    {
+      "meaning_id": "cm-marhun-pledged",
+      "headword_arabic": "مَرْهُون",
+      "definition": "Pledged, deposited as security, or restricted and held in custody for a debt.",
+      "usage_conditions": "The normal construction is مَرْهُونٌ بِالدَّيْنِ; the term may also describe matters guaranteed or bound to their appointed times.",
+      "source_refs": [
+        "lane:entry:24774"
+      ]
+    },
+    {
+      "meaning_id": "cm-murtahin-receiver",
+      "headword_arabic": "مُرْتَهِن",
+      "definition": "One who takes or receives a pledge.",
+      "usage_conditions": "This is the agent noun for the recipient or holder of the pledged object.",
+      "source_refs": [
+        "lane:entry:24776"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rhn:24759:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rahan-remain"
+      ],
+      "note": "Basic continuance and fixedness meaning."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24759:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-rahan-remain"
+      ],
+      "note": "Remaining or dwelling in a place is covered by the continuance entry."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24759:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rahan-lean"
+      ],
+      "note": "Lean, emaciated, and weary branch."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24759:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form IV entry without independent lexical content."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24759:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rahan-pledge",
+        "cm-rahn-responsible"
+      ],
+      "note": "Transitive pledging, substitution, restraint, and responsibility constructions."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24760:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rahan-wager"
+      ],
+      "note": "Laying a wager or stake."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24760:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-rahan-wager"
+      ],
+      "note": "Contending to outstrip is included in the wagering entry."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24761:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-arhan-continuance"
+      ],
+      "note": "Causative continuance and permanence."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24761:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-rahan-pledge"
+      ],
+      "note": "Reported Form IV variant in the pledge sense."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24761:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-arhan-stake"
+      ],
+      "note": "Staking, consigning to death, and depositing the dead."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24761:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-arhan-advance"
+      ],
+      "note": "Advance payment, overpayment, or commodity security construction."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24761:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-arhan-weaken"
+      ],
+      "note": "Causative weakening and emaciation."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24762:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tarahana-wager"
+      ],
+      "note": "Reciprocal wagering and racing stakes."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24763:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-irtahana-takepledge"
+      ],
+      "note": "Taking or receiving a pledge."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24763:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-irtahana-takepledge"
+      ],
+      "note": "Reported active and passive pledge variants are covered with an attribution caveat."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24764:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-istarhana-requestpledge"
+      ],
+      "note": "Requesting or desiring a pledge."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24765:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q-rhn-rahin-s2",
+        "cm-rahan-pledge",
+        "cm-rihan-wager",
+        "cm-rahn-responsible",
+        "cm-rahina-restrainer"
+      ],
+      "note": "Nominal pledge, wager, restriction, responsibility, and the Quranic pledged-for-deeds usage."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24765:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24766:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rihnu-caretaker"
+      ],
+      "note": "Specialized livestock-manager expression."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24767:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer identifying رِهَان as a singular form of رَهْن."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24767:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural morphology and grammatical clarification only."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24768:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مَرْهُون and رَهْن without new lexical content."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24769:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to رَهْن without new lexical content."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24770:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rahin-continuing"
+      ],
+      "note": "Continuing, lasting, and remaining adjectival branch."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24770:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-rahin-continuing"
+      ],
+      "note": "Remaining or dwelling in a place."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24770:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rahin-prepared"
+      ],
+      "note": "Prepared or ready meaning."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24770:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rahin-lean"
+      ],
+      "note": "Lean, emaciated, fatigued, or weary meaning."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24770:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rahin-camel"
+      ],
+      "note": "Specialized camel-grazing usage."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24771:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rahina-navel"
+      ],
+      "note": "Horse-navel anatomical term."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24772:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-irhan-strap"
+      ],
+      "note": "Yoke strap or thong."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24773:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-urhun-menstruating"
+      ],
+      "note": "Rarely attested term for a menstruating girl or young woman."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24774:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-marhun-pledged"
+      ],
+      "note": "Passive participle for pledged or debt-held."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24775:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to رَهْن without new lexical content."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24776:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-murtahin-receiver"
+      ],
+      "note": "Agent noun for the pledge recipient."
+    },
+    {
+      "unit_id": "lane-unit:rhn:24777:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to رَهْن without new lexical content."
+    }
+  ],
+  "cautions": [
+    "رَهِينَة in 74:38 has two recorded Quranic interpretations: passive, as held for one’s deeds, and active, as remaining or fixed in that condition.",
+    "رِهَان has the Quranic meaning of pledges/security in 2:283, while the same noun also has a broader Classical use for a wager or racing stake."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

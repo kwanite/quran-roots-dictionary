@@ -1,0 +1,94 @@
+{
+  "root": "nwn",
+  "arabic": "نون",
+  "root_idea": {
+    "summary": "The evidence presents نُون chiefly as a concrete name for a great fish or whale, with related naming in the expression Dhū al-Nūn.",
+    "development": "The whale designation appears in possessive names: Dhū al-Nūn is Jonah's Quranic epithet, while Classical Arabic also records it as the name of a sword, apparently by comparison with the nūn.",
+    "source_refs": [
+      "maqayis:row:4798",
+      "mufradat:row:1501"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nwn:n~uwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:nwn:nun",
+      "reason": "Displayed under the normalized classical citation form نُون rather than the inflected Quranic surface form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:nwn:nun",
+      "form_group_ids": [
+        "qac-form:nwn:n~uwn:nominal:-"
+      ],
+      "headword_arabic": "نُونٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nwn-nun-s1",
+          "definition": "The Arabic letter nūn (ن).",
+          "usage_conditions": "Used as an isolated letter in the Quranic opening expression ن وَالْقَلَمِ.",
+          "source_refs": [
+            "mufradat:row:1501"
+          ]
+        },
+        {
+          "sense_id": "nwn-nun-s2",
+          "definition": "A great fish or whale; in Dhū al-Nūn, the creature associated with Jonah.",
+          "usage_conditions": "Occurs in the possessive epithet ذُو النُّونِ; the lexical explanation identifies it as the whale that swallowed Jonah.",
+          "source_refs": [
+            "mufradat:row:1501"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:87",
+          "word_location": "21:87:2",
+          "sense_ids": [
+            "nwn-nun-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nwn-class-sword",
+      "headword_arabic": "ذُو النُّونِ",
+      "definition": "The name of a sword belonging to al-Ḥārith ibn Ẓālim.",
+      "usage_conditions": "A proper-name expression, apparently based on a comparison with the nūn or whale; it is not a general word meaning “sword.”",
+      "source_refs": [
+        "maqayis:row:4798",
+        "mufradat:row:1501"
+      ]
+    },
+    {
+      "meaning_id": "nwn-class-chin-dimple",
+      "headword_arabic": "نَوْنَةٌ",
+      "definition": "A dimple in the chin of a young child.",
+      "usage_conditions": "A separately headed Classical Arabic noun for this anatomical feature.",
+      "source_refs": [
+        "lane:entry:32476"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nwn:32476:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nwn-class-chin-dimple"
+      ],
+      "note": "Defines نَوْنَةٌ as a young child's chin dimple."
+    }
+  ],
+  "cautions": [
+    "The sole supplied QAC occurrence is the inflected form in Dhū al-Nūn; the letter sense is explicitly supported by Quran-focused lexical evidence but has no separate supplied QAC occurrence in this packet."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

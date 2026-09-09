@@ -1,0 +1,464 @@
+{
+  "root": "AHd",
+  "arabic": "أحد",
+  "root_idea": {
+    "summary": "The root is oriented toward oneness: being one, unique, unified, or solitary.",
+    "development": "The hamzated branch is treated as developing from و-ح-د, with meanings extending from numerical or absolute oneness to unification, divine unity, and being alone or apart.",
+    "source_refs": [
+      "maqayis:row:43",
+      "mufradat:row:20",
+      "lane:entry:6266"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:AHd:<iHodaY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-AHd-ihda",
+      "reason": "The feminine form إِحْدَى has a distinct Quranic form group and distinct feminine usage."
+    },
+    {
+      "form_group_id": "qac-form:AHd:>aHad:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-AHd-ahad",
+      "reason": "أَحَدٌ is a distinct Quranic nominal form with affirmative, negative, and divine-unicity usages."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-AHd-ihda",
+      "form_group_ids": [
+        "qac-form:AHd:<iHodaY:nominal:-"
+      ],
+      "headword_arabic": "إِحْدَى",
+      "public_pos_label": "Noun · feminine form",
+      "verb_form": null,
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "sense-AHd-ihda-one",
+          "definition": "One, one of a pair or group; the feminine form used to identify a single member or alternative.",
+          "usage_conditions": "Used in feminine affirmative constructions, especially with a dual or a specified group; Quranic usage includes “one of the two” and “one of a set.”",
+          "source_refs": [
+            "lane:entry:6267",
+            "mufradat:row:20"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:282",
+          "word_location": "2:282:68",
+          "sense_ids": [
+            "sense-AHd-ihda-one"
+          ]
+        },
+        {
+          "verse_key": "28:26",
+          "word_location": "28:26:2",
+          "sense_ids": [
+            "sense-AHd-ihda-one"
+          ]
+        },
+        {
+          "verse_key": "74:35",
+          "word_location": "74:35:2",
+          "sense_ids": [
+            "sense-AHd-ihda-one"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-AHd-ahad",
+      "form_group_ids": [
+        "qac-form:AHd:>aHad:nominal:-"
+      ],
+      "headword_arabic": "أَحَدٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 74,
+      "senses": [
+        {
+          "sense_id": "sense-AHd-ahad-oneofgroup",
+          "definition": "One; one member of a specified group or pair.",
+          "usage_conditions": "In affirmative constructions, it commonly appears as a prefixed or possessive noun, as in “one of them,” “one of you,” or “one of the two.”",
+          "source_refs": [
+            "lane:entry:6267",
+            "mufradat:row:20"
+          ]
+        },
+        {
+          "sense_id": "sense-AHd-ahad-anyone",
+          "definition": "Any one; anyone at all.",
+          "usage_conditions": "Used especially in negative constructions, where it can range over persons collectively or individually and can correspond to different genders or numbers. A reported variant Quran reading also uses it for “anything.”",
+          "source_refs": [
+            "lane:entry:6267",
+            "mufradat:row:20"
+          ]
+        },
+        {
+          "sense_id": "sense-AHd-ahad-divineone",
+          "definition": "The One: unique, indivisible, and without a counterpart.",
+          "usage_conditions": "Used absolutely as an epithet of God, rather than as an ordinary affirmative noun for a person or object.",
+          "source_refs": [
+            "lane:entry:6267",
+            "mufradat:row:20"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:36",
+          "word_location": "12:36:6",
+          "sense_ids": [
+            "sense-AHd-ahad-oneofgroup"
+          ]
+        },
+        {
+          "verse_key": "18:19",
+          "word_location": "18:19:22",
+          "sense_ids": [
+            "sense-AHd-ahad-oneofgroup"
+          ]
+        },
+        {
+          "verse_key": "18:110",
+          "word_location": "18:110:24",
+          "sense_ids": [
+            "sense-AHd-ahad-anyone"
+          ]
+        },
+        {
+          "verse_key": "33:32",
+          "word_location": "33:32:4",
+          "sense_ids": [
+            "sense-AHd-ahad-anyone"
+          ]
+        },
+        {
+          "verse_key": "69:47",
+          "word_location": "69:47:4",
+          "sense_ids": [
+            "sense-AHd-ahad-anyone"
+          ]
+        },
+        {
+          "verse_key": "112:1",
+          "word_location": "112:1:4",
+          "sense_ids": [
+            "sense-AHd-ahad-divineone"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning-AHd-numeral",
+      "headword_arabic": "أَحَدٌ / إِحْدَى",
+      "definition": "One as the first number, including its use in compound numerals such as eleven and twenty-one.",
+      "usage_conditions": "In the compound eleven, أَحَدٌ is masculine and إِحْدَى is feminine; in other compound numerals it may alternate with وَاحِدٌ according to the construction.",
+      "source_refs": [
+        "lane:entry:6267",
+        "mufradat:row:20"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-ahhada-unify",
+      "headword_arabic": "أَحَّدَ",
+      "definition": "To make one; to unite or unify.",
+      "usage_conditions": "A causative Form II verb, synonymous in this branch with making things one or united.",
+      "source_refs": [
+        "lane:entry:6264"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-ahhada-divine",
+      "headword_arabic": "أَحَّدَ اللهَ",
+      "definition": "To declare or profess God to be one.",
+      "usage_conditions": "Used in the construction with God as object and meaning profession of divine unity.",
+      "source_refs": [
+        "lane:entry:6264"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-ahhada-increment",
+      "headword_arabic": "أَحَّدَ",
+      "definition": "To make a number increase by one.",
+      "usage_conditions": "Attested in the expression “make ten become eleven.”",
+      "source_refs": [
+        "lane:entry:6264"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-istahada-solitary",
+      "headword_arabic": "اِسْتَأْحَدَ",
+      "definition": "To be or become alone, apart from others, or solitary.",
+      "usage_conditions": "Form X usage meaning to remain by oneself or separate from others.",
+      "source_refs": [
+        "lane:entry:6266"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-istahada-unaware",
+      "headword_arabic": "اِسْتَأْحَدَ بِهِ",
+      "definition": "Not to know, understand, perceive, or become aware of a thing or affair.",
+      "usage_conditions": "A dialectal usage attributed to Yemen, especially in the expression مَا اسْتَأْحَدَ بِهِ.",
+      "source_refs": [
+        "lane:entry:6266"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-ihda-calamity",
+      "headword_arabic": "إِحْدَى الإِحَدِ",
+      "definition": "A great, grievous, or terrible event; a calamity.",
+      "usage_conditions": "An idiomatic intensive expression for an event of exceptional severity or magnitude.",
+      "source_refs": [
+        "lane:entry:6267"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-ihda-unique",
+      "headword_arabic": "أَحَدُ الأَحَدِينَ / إِحْدَى الإِحَدِ",
+      "definition": "Unique among the unique; unequalled or incomparable.",
+      "usage_conditions": "An expression of the highest praise, especially for an intelligent or distinguished being.",
+      "source_refs": [
+        "lane:entry:6267"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-ihda-independent",
+      "headword_arabic": "إِحْدَى مِنْ سَبْعٍ",
+      "definition": "One of a set, in an exceptional independent use of إِحْدَى.",
+      "usage_conditions": "Attested in the reported expression إِحْدَى مِنْ سَبْعٍ, where إِحْدَى is neither part of a compound numeral nor a prefixed noun.",
+      "source_refs": [
+        "lane:entry:6267"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-ancestry",
+      "headword_arabic": "ابْنُ إِحْدَاهَا",
+      "definition": "Born of noble or generous ancestry; a person of distinguished lineage.",
+      "usage_conditions": "An idiomatic expression said of a man and also applied to a camel; related forms occur in expressions about managing a difficult affair.",
+      "source_refs": [
+        "lane:entry:6267"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-ahadiyya",
+      "headword_arabic": "أَحَدِيَّةٌ",
+      "definition": "The unity or oneness of God.",
+      "usage_conditions": "A derived abstract noun denoting divine unity.",
+      "source_refs": [
+        "lane:entry:6270"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-uhad-distributive",
+      "headword_arabic": "أُحَادَ",
+      "definition": "One by one; singly and successively.",
+      "usage_conditions": "Used repetitively in expressions describing people arriving or acting individually.",
+      "source_refs": [
+        "lane:entry:6271"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-interrogative",
+      "headword_arabic": "أَحَدٌ",
+      "definition": "Anyone, in an interrogative question.",
+      "usage_conditions": "Used in questions such as “Has anyone seen this?”",
+      "source_refs": [
+        "lane:entry:6267"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-sunday",
+      "headword_arabic": "الأَحَدُ / يَوْمُ الأَحَدِ",
+      "definition": "Sunday, the first day of the week.",
+      "usage_conditions": "A proper-name use for the day; the historical reckoning of the week is noted as varying among authorities.",
+      "source_refs": [
+        "lane:entry:6267"
+      ]
+    },
+    {
+      "meaning_id": "meaning-AHd-ahad-reports",
+      "headword_arabic": "الآحَادُ",
+      "definition": "Reports transmitted by some lexicologists or transmitters, but not by so many that collusion on falsehood is considered impossible.",
+      "usage_conditions": "A technical term contrasted with مُتَوَاتِرٌ, reports transmitted by a larger number.",
+      "source_refs": [
+        "lane:entry:6267"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:AHd:6264:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-ahhada-unify",
+        "meaning-AHd-ahhada-divine"
+      ],
+      "note": "Covers making one and declaring divine unity."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6264:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-ahhada-increment"
+      ],
+      "note": "Covers making ten become eleven."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6265:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article without an independent lexical explanation."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6266:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-istahada-solitary"
+      ],
+      "note": "Covers being alone or solitary."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6266:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-istahada-unaware"
+      ],
+      "note": "Covers the dialectal sense of not knowing or perceiving."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6267:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-AHd-ahad-oneofgroup",
+        "sense-AHd-ihda-one",
+        "meaning-AHd-numeral"
+      ],
+      "note": "Covers one, the first number, and the feminine counterpart."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6267:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-AHd-ahad-divineone",
+        "meaning-AHd-numeral"
+      ],
+      "note": "Covers the divine epithet and compound-number usage."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6267:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-AHd-ahad-oneofgroup",
+        "sense-AHd-ihda-one",
+        "meaning-AHd-ihda-calamity",
+        "meaning-AHd-ihda-unique",
+        "meaning-AHd-ancestry"
+      ],
+      "note": "Covers affirmative selection, idioms of calamity and uniqueness, and noble ancestry."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6267:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-ihda-independent"
+      ],
+      "note": "Covers the exceptional independent use of إِحْدَى."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6267:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-AHd-ahad-anyone"
+      ],
+      "note": "Covers negative usage meaning anyone or any persons."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6267:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-interrogative"
+      ],
+      "note": "Covers interrogative usage."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6267:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-AHd-ahad-anyone"
+      ],
+      "note": "Covers the reported Quranic variant usage meaning anything."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6267:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-sunday"
+      ],
+      "note": "Covers the proper-name use for Sunday."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6267:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-ahad-reports"
+      ],
+      "note": "Covers the technical term for non-mutawatir reports."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6268:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer identifying إِحْدَى as feminine of أَحَدٌ."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6269:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer identifying إِحْدَاةٌ as feminine of أَحَدٌ."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6270:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-ahadiyya"
+      ],
+      "note": "Covers the abstract noun for divine unity."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6271:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning-AHd-uhad-distributive"
+      ],
+      "note": "Covers one-by-one distribution."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6272:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive formation only."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6273:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the distributive form."
+    },
+    {
+      "unit_id": "lane-unit:AHd:6274:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive formation only."
+    }
+  ],
+  "cautions": [
+    "A Lane-cited reported variant reading at Quran 60:11 uses أَحَدٌ in the sense “anything”; 60:11 is not a supplied canonical QAC occurrence, so it is recorded only within the negative-sense conditions and not as a Quran example."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

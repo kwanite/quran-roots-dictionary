@@ -1,0 +1,224 @@
+{
+  "root": "rhT",
+  "arabic": "رهط",
+  "root_idea": {
+    "summary": "A root orientation toward gathering or clustering, especially people into a group or collective.",
+    "development": "The root develops from the idea of assembly into terms for a human band or near kin, a congregated group, and several specialized objects associated with gathering, enclosing, or being cut into a collective set of strips. The Quranic noun رهط specifically denotes a near-kin collective or a small male band.",
+    "source_refs": [
+      "maqayis:row:2171",
+      "lane:entry:24709",
+      "lane:entry:24708"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rhT:rahoT:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-rht-raht",
+      "reason": "The Quran-attested nominal is already in an appropriate classical citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-rht-raht",
+      "form_group_ids": [
+        "qac-form:rhT:rahoT:nominal:-"
+      ],
+      "headword_arabic": "رَهْط",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform-rht-raht-s1",
+          "definition": "A man’s near people, close kinsfolk, or tribe.",
+          "usage_conditions": "A collective designation for the closely related people associated with a man; in Quranic contexts it is rendered in terms such as one’s family or people, rather than necessarily a nuclear family.",
+          "source_refs": [
+            "lane:entry:24709",
+            "mufradat:row:591"
+          ]
+        },
+        {
+          "sense_id": "qform-rht-raht-s2",
+          "definition": "A small band or company of men, commonly fewer than ten.",
+          "usage_conditions": "The counted collective is described as male and without women. Classical authorities give varying numerical ranges, including three to ten or seven to ten, with some extending the term to larger groups; the Quran applies it to the nine men in the city of Ṣāliḥ’s account.",
+          "source_refs": [
+            "lane:entry:24709",
+            "mufradat:row:591"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:91",
+          "word_location": "11:91:13",
+          "sense_ids": [
+            "qform-rht-raht-s1"
+          ]
+        },
+        {
+          "verse_key": "11:92",
+          "word_location": "11:92:3",
+          "sense_ids": [
+            "qform-rht-raht-s1"
+          ]
+        },
+        {
+          "verse_key": "27:48",
+          "word_location": "27:48:5",
+          "sense_ids": [
+            "qform-rht-raht-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-rht-congregated",
+      "headword_arabic": "ٱرْتِهَاط",
+      "definition": "Being gathered together or congregated; a collective state.",
+      "usage_conditions": "Used in expressions describing people assembled or collected together, including the Form VIII-derived noun ارتهاط.",
+      "source_refs": [
+        "lane:entry:24708"
+      ]
+    },
+    {
+      "meaning_id": "cm-rht-plants",
+      "headword_arabic": "رَهْط",
+      "definition": "A collection or cluster of plants of the ʿushar kind.",
+      "usage_conditions": "A specialized collective use for a group of plants.",
+      "source_refs": [
+        "lane:entry:24709"
+      ]
+    },
+    {
+      "meaning_id": "cm-rht-enemy",
+      "headword_arabic": "رَهْط",
+      "definition": "An enemy.",
+      "usage_conditions": "A rare Classical Arabic use reported as synonymous with عدوّ.",
+      "source_refs": [
+        "lane:entry:24709"
+      ]
+    },
+    {
+      "meaning_id": "cm-rht-garment",
+      "headword_arabic": "رَهْط",
+      "definition": "A skin or leather waist-wrapper or garment cut into strips.",
+      "usage_conditions": "Descriptions include a wrapper worn by children, young girls before puberty, menstruating women, or desert boys; the term is also reported for a cloth used in connection with menstruation.",
+      "source_refs": [
+        "lane:entry:24709",
+        "mufradat:row:591"
+      ]
+    },
+    {
+      "meaning_id": "cm-rht-jerboa",
+      "headword_arabic": "رَاهِطَاء",
+      "definition": "A jerboa burrow or chamber used for taking out and collecting earth and for hiding its young.",
+      "usage_conditions": "A specialized name for one of the jerboa’s interconnected burrows, situated between the nāfiqāʾ and qāṣiʿāʾ.",
+      "source_refs": [
+        "lane:entry:24714"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rhT:24707:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader to the following material."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24708:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rht-congregated"
+      ],
+      "note": "Defines ارتهاط as being collected or congregated."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24708:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-rht-congregated"
+      ],
+      "note": "A parallel congregated-party construction with the same lexical sense."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24709:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-rht-raht-s1",
+        "qform-rht-raht-s2"
+      ],
+      "note": "Covers near kin or tribe, the small male band, and the Quranic counted group."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24709:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rht-plants"
+      ],
+      "note": "Provides the specialized plant-collection use."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24709:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rht-enemy"
+      ],
+      "note": "Explicitly defines a rare use as enemy."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24709:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rht-garment"
+      ],
+      "note": "Defines the skin or leather strip-cut garment and its reported uses."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24710:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant referring to رَهْطٌ."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24711:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Relational adjective formation; it adds no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24712:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader onward."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24713:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader onward."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24714:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rht-jerboa"
+      ],
+      "note": "Defines a specialized jerboa burrow or chamber."
+    },
+    {
+      "unit_id": "lane-unit:rhT:24715:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring back to رَهْطٌ."
+    }
+  ],
+  "cautions": [
+    "Classical authorities differ on the numerical extent of رهط; the Quranic evidence supports both a near-kin collective in 11:91–92 and a counted male band in 27:48.",
+    "The Form VIII-derived congregated-state noun is preserved as broader Classical Arabic evidence rather than as a Quranic form, since no corresponding QAC form group is supplied."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

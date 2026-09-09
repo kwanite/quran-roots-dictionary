@@ -1,0 +1,248 @@
+{
+  "root": "xTw",
+  "arabic": "خطو",
+  "root_idea": {
+    "summary": "The root centers on stepping and on the step or interval made by the feet, with related extensions to following a course and passing over or beyond something.",
+    "development": "The concrete act of stepping yields nouns for a single step and for the space between the feet; derived forms extend this domain to causing something to pass over, stepping over or beyond, and figurative passing-by or overlooking.",
+    "source_refs": [
+      "lane:entry:19586",
+      "lane:entry:19591",
+      "lane:entry:19592",
+      "mufradat:row:421"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:xTw:xuTuwa`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "xTw-khutwah",
+      "reason": "The Quranic plural is normalized to the singular dictionary citation form خُطْوَةٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "xTw-khutwah",
+      "form_group_ids": [
+        "qac-form:xTw:xuTuwa`t:nominal:-"
+      ],
+      "headword_arabic": "خُطْوَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "xTw-khutwah-s1",
+          "definition": "A step or footstep, literally the interval or movement made between the feet.",
+          "usage_conditions": "The Quranic form is the plural خُطُوَات. In the construction خُطُوَاتِ الشَّيْطَانِ, it presents the literal image of successive footsteps.",
+          "source_refs": [
+            "lane:entry:19592",
+            "mufradat:row:421"
+          ]
+        },
+        {
+          "sense_id": "xTw-khutwah-s2",
+          "definition": "The steps, ways, or course of an agent, especially the course of Satan that a person is warned not to follow.",
+          "usage_conditions": "This figurative interpretation is attested in the Quranic construction خُطُوَاتِ الشَّيْطَانِ: following the steps means following Satan’s way or obeying his prompting.",
+          "source_refs": [
+            "lane:entry:19592",
+            "mufradat:row:421"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:168",
+          "word_location": "2:168:11",
+          "sense_ids": [
+            "xTw-khutwah-s1",
+            "xTw-khutwah-s2"
+          ]
+        },
+        {
+          "verse_key": "2:208",
+          "word_location": "2:208:10",
+          "sense_ids": [
+            "xTw-khutwah-s1",
+            "xTw-khutwah-s2"
+          ]
+        },
+        {
+          "verse_key": "24:21",
+          "word_location": "24:21:6",
+          "sense_ids": [
+            "xTw-khutwah-s1",
+            "xTw-khutwah-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-xTw-01",
+      "headword_arabic": "خَطَا",
+      "definition": "To step, pace, or walk.",
+      "usage_conditions": "A basic Form I verb of movement; it may be used of a person or a beast.",
+      "source_refs": [
+        "lane:entry:19586"
+      ]
+    },
+    {
+      "meaning_id": "cm-xTw-02",
+      "headword_arabic": "خَطَّى",
+      "definition": "To cause something to pass over or miss; to make an arrow miss its mark, or to have evil pass away from someone.",
+      "usage_conditions": "The causative use covers making an object pass over a target and the conventional expression of averting or repelling evil.",
+      "source_refs": [
+        "lane:entry:19587"
+      ]
+    },
+    {
+      "meaning_id": "cm-xTw-03",
+      "headword_arabic": "أَخْطَى",
+      "definition": "To make another person step, pace, or walk.",
+      "usage_conditions": "A Form IV causative construction with a person as its object.",
+      "source_refs": [
+        "lane:entry:19588"
+      ]
+    },
+    {
+      "meaning_id": "cm-xTw-04",
+      "headword_arabic": "تَخَطَّى",
+      "definition": "To step over or pass over and beyond a person, thing, place, or prescribed limit.",
+      "usage_conditions": "The form may describe going over people or their necks, passing beyond something, or overstepping a limit.",
+      "source_refs": [
+        "lane:entry:19589"
+      ]
+    },
+    {
+      "meaning_id": "cm-xTw-05",
+      "headword_arabic": "تَخَطَّى",
+      "definition": "Figuratively, to pass someone by or overlook someone; also, to pass over others to reach someone with harm.",
+      "usage_conditions": "Used of something disliked or harmful that does not befall a person, of passing over others to reach a particular person, and of sight that overlooks someone.",
+      "source_refs": [
+        "lane:entry:19589"
+      ]
+    },
+    {
+      "meaning_id": "cm-xTw-06",
+      "headword_arabic": "خَطْوَةٌ",
+      "definition": "A single step, pace, or act of stepping.",
+      "usage_conditions": "This فتح-vowel noun denotes one act of stepping or walking.",
+      "source_refs": [
+        "lane:entry:19591"
+      ]
+    },
+    {
+      "meaning_id": "cm-xTw-07",
+      "headword_arabic": "خُطْوَةٌ",
+      "definition": "A small interval or difference between two statements.",
+      "usage_conditions": "A figurative extension of the physical distance between the feet.",
+      "source_refs": [
+        "lane:entry:19592"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:xTw:19586:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xTw-01"
+      ],
+      "note": "Basic Form I movement meaning."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19587:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xTw-02"
+      ],
+      "note": "Causative passing-over, missing, and repelling meanings."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19587:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Marked as an incorrect vulgar dialectal form and corrected to the Form I imperative."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19588:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xTw-03"
+      ],
+      "note": "Form IV causative movement meaning."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19588:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the separate خطأ entry and orthographic variant."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19589:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xTw-04",
+        "cm-xTw-05"
+      ],
+      "note": "Literal and figurative passing-over constructions."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19589:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-xTw-04"
+      ],
+      "note": "Overstepping or transgressing a prescribed limit is covered by passing beyond."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19590:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19590:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form V entry."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19591:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xTw-06"
+      ],
+      "note": "Noun for a single step or pace."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19592:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xTw-khutwah-s1",
+        "xTw-khutwah-s2",
+        "cm-xTw-07"
+      ],
+      "note": "Physical interval meaning, Quranic figurative construction, and difference-between-statements extension."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19593:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer directing the form to خطأ, with an editorial correction."
+    },
+    {
+      "unit_id": "lane-unit:xTw:19594:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "A quoted expression with variant wording is deferred to خطأ; its exact lexical meaning cannot be resolved from the supplied root evidence."
+    }
+  ],
+  "cautions": [
+    "The QAC group is attested only as the plural خُطُوَات; the public headword is its supported singular citation form خُطْوَةٌ. Variant vocalizations mentioned in the lexical discussion are not treated as additional QAC forms."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:xTw:19594:g1:main quotes نَاقَتُكَ هٰذِهِ مِنَ المُتَخَطِّيَاتِ الجيف, with an alternative reading المُتَخَطِّئَاتِ الجيف, but refers the explanation to the separate خطأ discussion, which is not supplied."
+  ]
+}

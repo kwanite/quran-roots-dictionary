@@ -1,0 +1,459 @@
+{
+  "root": "lmm",
+  "arabic": "لمم",
+  "root_idea": {
+    "summary": "A core of gathering together, drawing near, and joining what is separated.",
+    "development": "The root develops from collecting or consolidating what is dispersed to meanings of approach and visitation, slight contact or near commission, congregation, and things that befall.",
+    "source_refs": [
+      "maqayis:row:4217"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lmm:lum~a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_lmm_lamma_verb",
+      "reason": "Displayed under the normalized Form I perfect citation form لَمَّ; the Quranic occurrences are its imperative stem in هَلُمَّ."
+    },
+    {
+      "form_group_id": "qac-form:lmm:l~amam:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_lmm_lamam_noun",
+      "reason": "Displayed as the Quranic noun لَمَمٌ."
+    },
+    {
+      "form_group_id": "qac-form:lmm:l~am~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_lmm_lamm_verbalnoun",
+      "reason": "Displayed as the verbal noun لَمٌّ, despite the QAC adjective tag, because the supplied derived-nominal evidence identifies it as a verbal noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_lmm_lamma_verb",
+      "form_group_ids": [
+        "qac-form:lmm:lum~a:verb:I"
+      ],
+      "headword_arabic": "لَمَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen_lmm_lamma_forward",
+          "definition": "To gather or bring together; in the imperative construction هَلُمَّ, to call someone to come forward or to bring something forward.",
+          "usage_conditions": "The Quranic occurrences use the imperative stem لُمَّ within هَلُمَّ. Context accounts for renderings such as “come” and “bring forward” without requiring separate lexical senses.",
+          "source_refs": [
+            "lane:entry:20712",
+            "mufradat:row:1320"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:150",
+          "word_location": "6:150:2",
+          "sense_ids": [
+            "qsen_lmm_lamma_forward"
+          ]
+        },
+        {
+          "verse_key": "33:18",
+          "word_location": "33:18:8",
+          "sense_ids": [
+            "qsen_lmm_lamma_forward"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_lmm_lamam_noun",
+      "form_group_ids": [
+        "qac-form:lmm:l~amam:nominal:-"
+      ],
+      "headword_arabic": "لَمَمٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_lmm_lamam_minor_faults",
+          "definition": "Minor sins or brief approaches to wrongdoing that fall short of full commission; hence small faults.",
+          "usage_conditions": "In the Quranic exception from major sins and indecencies, the term can denote approaching a sin and then refraining from it, as well as the resulting notion of a minor lapse.",
+          "source_refs": [
+            "mufradat:row:1320"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "53:32",
+          "word_location": "53:32:7",
+          "sense_ids": [
+            "qsen_lmm_lamam_minor_faults"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_lmm_lamm_verbalnoun",
+      "form_group_ids": [
+        "qac-form:lmm:l~am~:nominal:-"
+      ],
+      "headword_arabic": "لَمٌّ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_lmm_lamm_collective",
+          "definition": "Gathering or taking things together as a whole; altogether.",
+          "usage_conditions": "Used adverbially in the Quranic expression أَكْلًا لَمًّا, describing the collective taking or consuming of something.",
+          "source_refs": [
+            "mufradat:row:1320"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "89:19",
+          "word_location": "89:19:4",
+          "sense_ids": [
+            "qsen_lmm_lamm_collective"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_lmm_lamm_repair",
+      "headword_arabic": "لَمَّ",
+      "definition": "To repair, reconcile, and consolidate what has become disordered or unsettled.",
+      "usage_conditions": "Especially used transitively of disorganized affairs or a state of scattered disorder.",
+      "source_refs": [
+        "lane:entry:20712"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_lammama_hair",
+      "headword_arabic": "لَمَّمَ",
+      "definition": "To make the hair into a لِمَّة hairstyle.",
+      "usage_conditions": "Form II; the hairstyle is hair extending below the earlobe.",
+      "source_refs": [
+        "lane:entry:20713",
+        "lane:entry:20719"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_alamma_visit",
+      "headword_arabic": "أَلَمَّ",
+      "definition": "To come to someone or a people, alight at their abode as a guest, or visit briefly; hence to come near.",
+      "usage_conditions": "The construction is attested with بِـ and عَلَى; the visit may be covert, light, hasty, or occasional.",
+      "source_refs": [
+        "lane:entry:20714"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_alamma_understand",
+      "headword_arabic": "أَلَمَّ",
+      "definition": "To know or understand the meaning of something.",
+      "usage_conditions": "A figurative use of the Form IV construction with بِـ.",
+      "source_refs": [
+        "lane:entry:20714"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_alamma_sin",
+      "headword_arabic": "أَلَمَّ",
+      "definition": "To commit a sin or offense.",
+      "usage_conditions": "An extended Form IV use with بِـ.",
+      "source_refs": [
+        "lane:entry:20714"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_alamma_happen",
+      "headword_arabic": "أَلَمَّ",
+      "definition": "To happen or occur.",
+      "usage_conditions": "An extended intransitive use of the Form IV verb.",
+      "source_refs": [
+        "lane:entry:20714"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_iltamma_collect",
+      "headword_arabic": "اِلْتَمَّ",
+      "definition": "To be collected or accumulated; for people or groups, to gather or congregate.",
+      "usage_conditions": "Form VIII; the reflexive plural use describes people collecting themselves.",
+      "source_refs": [
+        "lane:entry:20715"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_lam_negation",
+      "headword_arabic": "لَمْ",
+      "definition": "A particle that negates an imperfect verb with past-time force: “did not.”",
+      "usage_conditions": "It governs the imperfect verb; with the interrogative alif it can introduce a confirmatory or rhetorical question.",
+      "source_refs": [
+        "lane:entry:20716",
+        "mufradat:row:1320"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_lamma_notyet",
+      "headword_arabic": "لَمَّا",
+      "definition": "A particle meaning “not yet,” denying that an expected action has occurred.",
+      "usage_conditions": "Used with an imperfect verb, leaving the action open to subsequent occurrence.",
+      "source_refs": [
+        "lane:entry:20716",
+        "mufradat:row:1320"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_lamma_temporal",
+      "headword_arabic": "لَمَّا",
+      "definition": "A temporal particle meaning “when” or “as soon as”; in some analyses, “since” or “because.”",
+      "usage_conditions": "Introduces a temporal clause, with the precise temporal or causal force determined by the construction.",
+      "source_refs": [
+        "lane:entry:20716",
+        "mufradat:row:1320"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_lamma_exception",
+      "headword_arabic": "لَمَّا",
+      "definition": "A particle of exception equivalent to إِلَّا: “but,” “except,” or “only.”",
+      "usage_conditions": "It may precede a nominal proposition and, in a reported reading, a verb.",
+      "source_refs": [
+        "lane:entry:20716"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_lamam_insanity",
+      "headword_arabic": "لَمَمٌ / لَمَّةٌ",
+      "definition": "A slight taint, touch, or infection of insanity, including a slight diabolical possession.",
+      "usage_conditions": "The affliction is also described as a touch from the jinn.",
+      "source_refs": [
+        "lane:entry:20717",
+        "lane:entry:20718"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_limmah_hair",
+      "headword_arabic": "لِمَّةٌ",
+      "definition": "Hair extending below the lobe of the ear; a hairstyle of that length.",
+      "usage_conditions": "A nominal designation for the hair or hairstyle itself.",
+      "source_refs": [
+        "lane:entry:20719"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_mulimmah_misfortune",
+      "headword_arabic": "مُلِمَّةٌ",
+      "definition": "A misfortune that befalls a person in the present world.",
+      "usage_conditions": "A derived feminine noun for an adversity or worldly calamity.",
+      "source_refs": [
+        "lane:entry:20721"
+      ]
+    },
+    {
+      "meaning_id": "cm_lmm_mulammam_boy",
+      "headword_arabic": "مُلَمَّمٌ",
+      "definition": "A boy having a لِمَّة hairstyle.",
+      "usage_conditions": "A derived descriptive noun referring specifically to a boy characterized by that hairstyle.",
+      "source_refs": [
+        "lane:entry:20722",
+        "lane:entry:20719"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lmm:20712:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_lmm_lamma_forward",
+        "cm_lmm_lamm_repair"
+      ],
+      "note": "Gathering or consolidating content is represented in the Quranic construction and the repair sense."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20713:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_lammama_hair"
+      ],
+      "note": "Form II hair-styling construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20714:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_alamma_visit"
+      ],
+      "note": "Coming to people and lodging as a guest is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20714:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_alamma_understand"
+      ],
+      "note": "The figurative understanding use is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20714:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_alamma_sin"
+      ],
+      "note": "The committing-an-offense use is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20714:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_alamma_visit"
+      ],
+      "note": "Brief, covert, hasty visitation and nearness are covered by the visitation meaning."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20714:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_alamma_happen"
+      ],
+      "note": "The occurrence meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20714:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_alamma_visit"
+      ],
+      "note": "Coming to a person is covered by the visitation meaning."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20714:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_alamma_visit"
+      ],
+      "note": "Occasional visitation is covered by the visitation meaning."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20715:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_iltamma_collect"
+      ],
+      "note": "Collection and accumulation are represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20715:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_iltamma_collect"
+      ],
+      "note": "Congregating oneself is covered by the same Form VIII meaning."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20716:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_lam_negation"
+      ],
+      "note": "Past-oriented negation is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20716:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_lam_negation"
+      ],
+      "note": "The example of لَمْ with an imperfect verb is covered."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20716:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other particle entries; no independent lexical content."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20716:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_lamma_exception"
+      ],
+      "note": "Exception-particle function, including the cited Quranic construction, is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20716:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_lamma_temporal"
+      ],
+      "note": "Temporal and causal particle use is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20716:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_lamma_notyet"
+      ],
+      "note": "The “not yet” function is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20717:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_lamam_insanity"
+      ],
+      "note": "Slight insanity or possession is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20718:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_lamam_insanity"
+      ],
+      "note": "The related touch or slight taint is grouped with the insanity meaning."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20719:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_limmah_hair"
+      ],
+      "note": "The hair-length noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20720:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20721:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_mulimmah_misfortune"
+      ],
+      "note": "Worldly misfortune is represented."
+    },
+    {
+      "unit_id": "lane-unit:lmm:20722:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lmm_mulammam_boy"
+      ],
+      "note": "The descriptive noun for a boy with a limmah is represented."
+    }
+  ],
+  "cautions": [
+    "The Form I Quranic group is displayed under the normal perfect citation form لَمَّ, while the supplied Quran occurrences are the imperative stem لُمَّ within هَلُمَّ.",
+    "Historical Quran references occurring in the particle discussion are retained as lexical evidence but are not converted into modern verse keys."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,112 @@
+{
+  "root": "*En",
+  "arabic": "ذعن",
+  "root_idea": {
+    "summary": "The root centers on tractability: yielding oneself to another’s direction and complying with authority.",
+    "development": "The notion of being easy to lead develops into willing obedience, acknowledgment of another’s right, and humble submission. The Form IV verb أَذْعَنَ is the ordinary verbal usage, while مُذْعِنٌ denotes one who is in such a state.",
+    "source_refs": [
+      "maqayis:row:1900"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:*En:mu*oEiniyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_mudhin",
+      "reason": "The Quranic group is an active participle attested in the plural; it is presented under the supported singular citation form مُذْعِنٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_mudhin",
+      "form_group_ids": [
+        "qac-form:*En:mu*oEiniyn:nominal:-"
+      ],
+      "headword_arabic": "مُذْعِنٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_mudhin_s1",
+          "definition": "Promptly and willingly obedient; submitting to authority with readiness to acknowledge its claim or right.",
+          "usage_conditions": "In the Quranic construction يَأْتُوا إِلَيْهِ مُذْعِنِينَ, it describes coming in voluntary compliance—obedient rather than compelled, with associated humility or acknowledgment.",
+          "source_refs": [
+            "lane:entry:21545",
+            "mufradat:row:505"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:49",
+          "word_location": "24:49:7",
+          "sense_ids": [
+            "qform_mudhin_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_adhana_willing_obedience",
+      "headword_arabic": "أَذْعَنَ",
+      "definition": "To obey someone willingly and hasten to render what is due; to acknowledge or confess his right; and to become humble, submissive, tractable, or manageable toward him.",
+      "usage_conditions": "Constructed with لِـ for the person whose authority or right is accepted; the obedience is voluntary rather than compelled.",
+      "source_refs": [
+        "lane:entry:21544"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudhin_tractable",
+      "headword_arabic": "مُذْعِنٌ",
+      "definition": "Tractable, submissive, manageable, and easy to lead.",
+      "usage_conditions": "A Classical adjectival use applied to a person or to a she-camel; for a she-camel, the expression includes being easy in the head and responsive to its leader.",
+      "source_refs": [
+        "lane:entry:21545"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:*En:21543:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry; it contains no lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:*En:21544:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adhana_willing_obedience"
+      ],
+      "note": "Form IV verbal branch of willing obedience, acknowledgment, and submission."
+    },
+    {
+      "unit_id": "lane-unit:*En:21545:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_mudhin_s1",
+        "cm_mudhin_tractable"
+      ],
+      "note": "Quran-attested participial use and its Classical tractability application."
+    },
+    {
+      "unit_id": "lane-unit:*En:21546:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring back to the preceding discussion."
+    },
+    {
+      "unit_id": "lane-unit:*En:21547:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Explicitly identified as an erroneous reading for another form; it contributes no meaning to this root."
+    }
+  ],
+  "cautions": [
+    "The proposed use of إِذْعَانٌ for “perception” or “understanding” is explicitly rejected in the supplied lexical evidence and is not listed as a meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

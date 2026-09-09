@@ -1,0 +1,1008 @@
+{
+  "root": "Swb",
+  "arabic": "صوب",
+  "root_idea": {
+    "summary": "A root oriented toward descent, arrival, and settling in the proper place or state.",
+    "development": "From something descending and settling come the related notions of rain falling, an arrow reaching its mark, an event befalling someone, and correctness as arriving at what is right. The noun مُصِيبَةٌ developed toward the specialized sense of an affliction or calamity.",
+    "source_refs": [
+      "maqayis:row:2858",
+      "mufradat:row:855"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Swb:>aSaAba:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-asaba",
+      "reason": "Displayed under the normalized Form IV perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Swb:SawaAb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-sawab",
+      "reason": "Distinct Quranic noun meaning correctness or right speech."
+    },
+    {
+      "form_group_id": "qac-form:Swb:Say~ib:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-sayyib",
+      "reason": "Distinct Quranic rain-related nominal."
+    },
+    {
+      "form_group_id": "qac-form:Swb:muSiyb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-musib",
+      "reason": "Displayed as the active participle مُصِيبٌ."
+    },
+    {
+      "form_group_id": "qac-form:Swb:m~uSiybap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-musiba",
+      "reason": "Displayed as the established event noun مُصِيبَةٌ rather than as a generic noun or inflected form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-asaba",
+      "form_group_ids": [
+        "qac-form:Swb:>aSaAba:verb:IV"
+      ],
+      "headword_arabic": "أَصَابَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 64,
+      "senses": [
+        {
+          "sense_id": "sense-asaba-reach",
+          "definition": "To reach, strike, or befall a person or thing; to take effect upon it, including by afflicting it or bringing a benefit to it.",
+          "usage_conditions": "The Quran uses the active Form IV verb for events, harms, benefits, rain, and other effects that reach or take effect upon an object. English renderings therefore include “strike,” “befall,” “afflict,” and, in beneficial contexts, “bestow.”",
+          "source_refs": [
+            "lane:entry:26785",
+            "mufradat:row:855"
+          ]
+        },
+        {
+          "sense_id": "sense-asaba-intend",
+          "definition": "To go or proceed wherever one intends or wishes.",
+          "usage_conditions": "This distinct directional-volitional use is attested in the Quranic expression describing movement wherever the agent desires; it is not merely the sense of suffering an event or reaching a target.",
+          "source_refs": [
+            "lane:entry:26785"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:156",
+          "word_location": "2:156:3",
+          "sense_ids": [
+            "sense-asaba-reach"
+          ]
+        },
+        {
+          "verse_key": "12:56",
+          "word_location": "12:56:10",
+          "sense_ids": [
+            "sense-asaba-reach"
+          ]
+        },
+        {
+          "verse_key": "38:36",
+          "word_location": "38:36:8",
+          "sense_ids": [
+            "sense-asaba-intend"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-sawab",
+      "form_group_ids": [
+        "qac-form:Swb:SawaAb:nominal:-"
+      ],
+      "headword_arabic": "صَوَابٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-sawab-right",
+          "definition": "What is right or correct; a right or correct saying, judgment, or action.",
+          "usage_conditions": "The Quranic occurrence refers specifically to a correct utterance, while the lexical term also applies to correctness in conduct, judgment, and other matters.",
+          "source_refs": [
+            "lane:entry:26795",
+            "mufradat:row:855"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "78:38",
+          "word_location": "78:38:14",
+          "sense_ids": [
+            "sense-sawab-right"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-sayyib",
+      "form_group_ids": [
+        "qac-form:Swb:Say~ib:nominal:-"
+      ],
+      "headword_arabic": "صَيِّبٌ",
+      "public_pos_label": "Noun / adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-sayyib-rain",
+          "definition": "Rain-bearing cloud or pouring rain; a rainstorm.",
+          "usage_conditions": "In the Quranic simile, the term is explained both as a cloud possessing rain and as the rain itself; the lexical evidence does not require choosing only one of these readings.",
+          "source_refs": [
+            "lane:entry:26791",
+            "mufradat:row:855"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:19",
+          "word_location": "2:19:2",
+          "sense_ids": [
+            "sense-sayyib-rain"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-musib",
+      "form_group_ids": [
+        "qac-form:Swb:muSiyb:nominal:-"
+      ],
+      "headword_arabic": "مُصِيبٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-musib-striking",
+          "definition": "Striking, reaching, or befalling; one that hits or takes effect upon someone or something.",
+          "usage_conditions": "This is the active participle of أَصَابَ and occurs in the Quran with an understood or expressed object that is to be struck or affected.",
+          "source_refs": [
+            "lane:entry:26785"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:81",
+          "word_location": "11:81:21",
+          "sense_ids": [
+            "sense-musib-striking"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-musiba",
+      "form_group_ids": [
+        "qac-form:Swb:m~uSiybap:nominal:-"
+      ],
+      "headword_arabic": "مُصِيبَةٌ",
+      "public_pos_label": "Noun · event noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "sense-musiba-calamity",
+          "definition": "An affliction, calamity, misfortune, disaster, or other evil accident that befalls someone.",
+          "usage_conditions": "In Quranic usage, the noun is specialized for a harmful event or adversity, whether portrayed as striking people or as occurring through what they have done.",
+          "source_refs": [
+            "lane:entry:26785",
+            "lane:entry:26812",
+            "mufradat:row:855"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:156",
+          "word_location": "2:156:4",
+          "sense_ids": [
+            "sense-musiba-calamity"
+          ]
+        },
+        {
+          "verse_key": "42:30",
+          "word_location": "42:30:4",
+          "sense_ids": [
+            "sense-musiba-calamity"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-sab-rain-descend",
+      "headword_arabic": "صَابَ",
+      "definition": "Of rain, to pour forth or descend; more generally, to come down from a higher place or go down a declivity.",
+      "usage_conditions": "This is the intransitive Form I verb, distinct from the Form IV Quranic headword أَصَابَ.",
+      "source_refs": [
+        "lane:entry:26783"
+      ]
+    },
+    {
+      "meaning_id": "cm-sab-assault",
+      "headword_arabic": "صَابُوا",
+      "definition": "They fell upon or assaulted them.",
+      "usage_conditions": "A conventional hostile-use expression with a plural subject and an object of attack.",
+      "source_refs": [
+        "lane:entry:26783"
+      ]
+    },
+    {
+      "meaning_id": "cm-sawb-rain",
+      "headword_arabic": "صَوْبٌ",
+      "definition": "Rainfall, the pouring of rain, or the pouring forth of water; rain that descends abundantly.",
+      "usage_conditions": "Used as a substantive or epithet for rain and its descent.",
+      "source_refs": [
+        "lane:entry:26783",
+        "lane:entry:26791"
+      ]
+    },
+    {
+      "meaning_id": "cm-sawwaba-sendhorse",
+      "headword_arabic": "صَوَّبَ",
+      "definition": "To send forth, start, or let a horse go in running.",
+      "usage_conditions": "A derived Form II use reported as an extended application.",
+      "source_refs": [
+        "lane:entry:26784"
+      ]
+    },
+    {
+      "meaning_id": "cm-sawwaba-lower",
+      "headword_arabic": "صَوَّبَ",
+      "definition": "To lower, depress, incline downward, or make descend; intransitively, to descend or go down.",
+      "usage_conditions": "Used of lowering or depressing such things as the head, hand, arm, or a vessel, and also of movement downward.",
+      "source_refs": [
+        "lane:entry:26784"
+      ]
+    },
+    {
+      "meaning_id": "cm-sawwaba-direct",
+      "headword_arabic": "صَوَّبَ",
+      "definition": "To direct one’s sight or gaze toward something.",
+      "usage_conditions": "A directional construction with the object of sight as its complement.",
+      "source_refs": [
+        "lane:entry:26784"
+      ]
+    },
+    {
+      "meaning_id": "cm-sawwaba-approve",
+      "headword_arabic": "صَوَّبَ",
+      "definition": "To declare a statement, opinion, or action right; to confirm that someone was correct.",
+      "usage_conditions": "Used of approving or judging speech, opinion, or conduct as correct.",
+      "source_refs": [
+        "lane:entry:26784"
+      ]
+    },
+    {
+      "meaning_id": "cm-tasawwaba-lowered",
+      "headword_arabic": "تَصَوَّبَ",
+      "definition": "To become lowered or depressed; to sink to a lower position.",
+      "usage_conditions": "A quasi-passive or intransitive Form V counterpart of lowering.",
+      "source_refs": [
+        "lane:entry:26786"
+      ]
+    },
+    {
+      "meaning_id": "cm-tasaawaba-directed",
+      "headword_arabic": "تَصَاوَبَ",
+      "definition": "To be well directed or properly oriented.",
+      "usage_conditions": "This sense is reported without a cited authority in the supplied lexical evidence.",
+      "source_refs": [
+        "lane:entry:26787"
+      ]
+    },
+    {
+      "meaning_id": "cm-istawsaba-right",
+      "headword_arabic": "اِسْتَصْوَبَ",
+      "definition": "To regard, consider, or hold something to be right or correct.",
+      "usage_conditions": "The object may be an opinion, saying, or deed; اِسْتَصَابَ is given as an equivalent form.",
+      "source_refs": [
+        "lane:entry:26789"
+      ]
+    },
+    {
+      "meaning_id": "cm-sab-tree",
+      "headword_arabic": "صَابٌ",
+      "definition": "A bitter tree or the expressed juice of such a tree, including a tree whose sap resembles milk and can harm the eye.",
+      "usage_conditions": "A botanical and medicinal term with variant identifications in the lexical sources.",
+      "source_refs": [
+        "lane:entry:26790"
+      ]
+    },
+    {
+      "meaning_id": "cm-sawb-direction",
+      "headword_arabic": "صَوْبٌ",
+      "definition": "A course, tendency, direction, bearing, or the place toward which something is directed.",
+      "usage_conditions": "Used of correcting or maintaining a course and of the direction or side toward which a thing tends.",
+      "source_refs": [
+        "lane:entry:26791"
+      ]
+    },
+    {
+      "meaning_id": "cm-saba-intellect",
+      "headword_arabic": "صَابَةٌ",
+      "definition": "Weakness or feebleness of intellect; a touch or degree of insanity or madness, including madness attributed to possession.",
+      "usage_conditions": "A specialized nominal use, distinct from the rainfall and direction branches.",
+      "source_refs": [
+        "lane:entry:26792"
+      ]
+    },
+    {
+      "meaning_id": "cm-subah-heap",
+      "headword_arabic": "صُوبَةٌ",
+      "definition": "A collected heap, pile, or quantity, especially of wheat, dates, dust, earth, or other material.",
+      "usage_conditions": "It can denote an unmeasured or unweighed collection and, regionally, a place where dates are collected and dried.",
+      "source_refs": [
+        "lane:entry:26793"
+      ]
+    },
+    {
+      "meaning_id": "cm-saib-target",
+      "headword_arabic": "صَائِبٌ",
+      "definition": "Hitting or going straight to the mark; hence right, accurate, or sound in an opinion.",
+      "usage_conditions": "Originally applied to an arrow that reaches its target, and extended to a correct view or judgment.",
+      "source_refs": [
+        "lane:entry:26798"
+      ]
+    },
+    {
+      "meaning_id": "cm-suwaba-choice",
+      "headword_arabic": "صُوَّابَةٌ",
+      "definition": "The choice, best, or most excellent member or class of a people or of anything.",
+      "usage_conditions": "May describe the best portion or select class of a group or thing.",
+      "source_refs": [
+        "lane:entry:26802"
+      ]
+    },
+    {
+      "meaning_id": "cm-suwaba-collective",
+      "headword_arabic": "صُوَّابَةٌ",
+      "definition": "The collective body or gathered group of a people.",
+      "usage_conditions": "This collective sense is distinct from the sense of the best or choicest part.",
+      "source_refs": [
+        "lane:entry:26802"
+      ]
+    },
+    {
+      "meaning_id": "cm-aswab-insanity",
+      "headword_arabic": "أَصْوَبُ",
+      "definition": "More or most affected by weakness of intellect, insanity, or madness.",
+      "usage_conditions": "A comparative or superlative form used in an exchange about mental impairment.",
+      "source_refs": [
+        "lane:entry:26804"
+      ]
+    },
+    {
+      "meaning_id": "cm-masab-rainplace",
+      "headword_arabic": "مَصَابٌ",
+      "definition": "A place where rain pours down, especially a point where rain is discharged from clouds.",
+      "usage_conditions": "The plural مَصَاوِبُ refers to multiple places of rain discharge.",
+      "source_refs": [
+        "lane:entry:26805"
+      ]
+    },
+    {
+      "meaning_id": "cm-musaab-struck",
+      "headword_arabic": "مُصَابٌ",
+      "definition": "Hit, struck, smitten, wounded, hurt, affected, assailed, or afflicted.",
+      "usage_conditions": "The passive participle of أَصَابَ; this is a different headword and voice from the Quranic active participle مُصِيبٌ.",
+      "source_refs": [
+        "lane:entry:26806"
+      ]
+    },
+    {
+      "meaning_id": "cm-musaab-intellect",
+      "headword_arabic": "مُصَابٌ",
+      "definition": "Affected by weakness or feebleness of intellect, insanity, or madness attributed to possession.",
+      "usage_conditions": "A specialized adjectival use of the passive-participial headword.",
+      "source_refs": [
+        "lane:entry:26806"
+      ]
+    },
+    {
+      "meaning_id": "cm-musaab-sugarcane",
+      "headword_arabic": "مُصَابٌ",
+      "definition": "Sugar-cane.",
+      "usage_conditions": "A separate lexical noun, not a participial meaning.",
+      "source_refs": [
+        "lane:entry:26806"
+      ]
+    },
+    {
+      "meaning_id": "cm-miswab-ladle",
+      "headword_arabic": "مِصْوَبٌ",
+      "definition": "A ladle.",
+      "usage_conditions": "An instrumental noun.",
+      "source_refs": [
+        "lane:entry:26808"
+      ]
+    },
+    {
+      "meaning_id": "cm-asaba-descend",
+      "headword_arabic": "أَصَابَ",
+      "definition": "To descend or go down into a lower land or country.",
+      "usage_conditions": "A Form IV directional use distinct from the Quranic Form IV sense of reaching or befalling.",
+      "source_refs": [
+        "lane:entry:26785"
+      ]
+    },
+    {
+      "meaning_id": "cm-asaba-right",
+      "headword_arabic": "أَصَابَ",
+      "definition": "To hit the right thing; to say or do what is right.",
+      "usage_conditions": "Used metaphorically from striking a target and contrasted with missing or erring.",
+      "source_refs": [
+        "lane:entry:26785"
+      ]
+    },
+    {
+      "meaning_id": "cm-asaba-attain",
+      "headword_arabic": "أَصَابَ",
+      "definition": "To attain or obtain the thing sought or wanted.",
+      "usage_conditions": "The object is a desired result or goal rather than an event that befalls the subject.",
+      "source_refs": [
+        "lane:entry:26785"
+      ]
+    },
+    {
+      "meaning_id": "cm-asaba-sexual",
+      "headword_arabic": "أَصَابَ",
+      "definition": "To obtain sexual enjoyment or have sexual intercourse, used euphemistically.",
+      "usage_conditions": "A conventional euphemistic construction, including expressions with a spouse or wife.",
+      "source_refs": [
+        "lane:entry:26785"
+      ]
+    },
+    {
+      "meaning_id": "cm-asaba-take",
+      "headword_arabic": "أَصَابَ",
+      "definition": "To take or take hold of property or other things.",
+      "usage_conditions": "A transitive use describing acquisition by the hand or possession.",
+      "source_refs": [
+        "lane:entry:26785"
+      ]
+    },
+    {
+      "meaning_id": "cm-asaba-find",
+      "headword_arabic": "أَصَابَ",
+      "definition": "To find, encounter, experience, discover, or recognize something as right.",
+      "usage_conditions": "The object may be a thing, event, hidden matter, or judgment found to be correct.",
+      "source_refs": [
+        "lane:entry:26785"
+      ]
+    },
+    {
+      "meaning_id": "cm-asaba-benefit",
+      "headword_arabic": "أَصَابَ",
+      "definition": "To do good to someone or confer a benefit upon him.",
+      "usage_conditions": "A benefactive construction with بِـ; it is distinct from merely being reached by a beneficial event.",
+      "source_refs": [
+        "lane:entry:26785"
+      ]
+    },
+    {
+      "meaning_id": "cm-asaba-destroy",
+      "headword_arabic": "أَصَابَ",
+      "definition": "To destroy or extirpate.",
+      "usage_conditions": "A strong resultative use in which an event or fate brings about the destruction of persons or possessions.",
+      "source_refs": [
+        "lane:entry:26785"
+      ]
+    },
+    {
+      "meaning_id": "cm-asaba-test",
+      "headword_arabic": "أَصَابَ",
+      "definition": "To try or test someone through affliction.",
+      "usage_conditions": "A construction in which affliction is presented as a trial intended for a beneficial outcome.",
+      "source_refs": [
+        "lane:entry:26785"
+      ]
+    },
+    {
+      "meaning_id": "cm-musaba-ranks",
+      "headword_arabic": "مُصَابَةٌ",
+      "definition": "A class, rank, or condition according to which people are disposed or placed.",
+      "usage_conditions": "Attested in the expression describing leaving people arranged according to their classes or ranks.",
+      "source_refs": [
+        "lane:entry:26810"
+      ]
+    },
+    {
+      "meaning_id": "cm-musiba-arrowshot",
+      "headword_arabic": "مُصِيبَةٌ",
+      "definition": "Originally, a shot with an arrow or an arrow-strike.",
+      "usage_conditions": "This is the older lexical image underlying the later specialized noun for an affliction or calamity; it is not the ordinary Quranic sense.",
+      "source_refs": [
+        "lane:entry:26812"
+      ]
+    },
+    {
+      "meaning_id": "cm-musawwad-nibbing",
+      "headword_arabic": "مُصَوَّبٌ",
+      "definition": "A technical form of nibbing in which the outer part of a writing reed extends beyond its pith.",
+      "usage_conditions": "A specialized terminology of reed and writing manufacture, opposed to قَائِمٌ.",
+      "source_refs": [
+        "lane:entry:26813"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Swb:26783:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sab-rain-descend"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26783:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sab-rain-descend"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26783:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sab-assault"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26783:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sawb-rain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26783:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sawb-rain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26783:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form IV entry."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26784:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26784:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sawwaba-sendhorse"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26784:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sawwaba-lower"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26784:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sawwaba-direct"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26784:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sawwaba-approve"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26784:g3:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sawwaba-lower"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26785:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asaba-descend"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26785:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-asaba-reach"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26785:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense-asaba-reach"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26785:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-asaba-reach",
+        "sense-musiba-calamity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26785:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-asaba-reach",
+        "sense-asaba-intend",
+        "cm-asaba-right",
+        "cm-asaba-attain",
+        "cm-asaba-sexual",
+        "cm-asaba-take",
+        "cm-asaba-find",
+        "cm-asaba-benefit",
+        "cm-asaba-destroy",
+        "cm-asaba-test",
+        "cm-musaab-intellect"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26786:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26786:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tasawwaba-lowered"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26787:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tasaawaba-directed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26788:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26789:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-istawsaba-right"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26790:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sab-tree"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26791:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sawb-rain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26791:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sawb-direction"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26791:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sawb-direction"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26791:g2:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26792:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مُصِيبَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26792:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-saba-intellect"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26792:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26793:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-subah-heap"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26794:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26795:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-sawab-right"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26795:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense-sawab-right"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26796:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26797:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26798:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26798:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-saib-target"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26798:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-saib-target"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26799:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26800:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26801:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26802:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-suwaba-choice",
+        "cm-suwaba-collective"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26802:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-suwaba-collective"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26803:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26804:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-aswab-insanity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26805:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-masab-rainplace"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26806:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musaab-struck"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26806:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musaab-intellect"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26806:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the noun إصابة."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26806:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مُصِيبَةٌ without additional lexical content."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26806:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musaab-sugarcane"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26807:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Participial cross-reference with no additional meaning."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26808:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-miswab-ladle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26809:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to صَائِبٌ."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26810:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only synonym reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26810:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26810:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musaba-ranks"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26811:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the next paragraph."
+    },
+    {
+      "unit_id": "lane-unit:Swb:26812:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-musiba-calamity",
+        "cm-musiba-arrowshot"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Swb:26813:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musawwad-nibbing"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "صَيِّبٌ has an explicitly reported Quranic interpretive range: it may denote the rain-bearing cloud or the rain itself.",
+    "The Quranic intent example for أَصَابَ is anchored to the independently supplied QAC occurrence 38:36:8; no modern verse location is inferred from Lane's historical citation notation.",
+    "مُصِيبَةٌ is a Quranic noun for calamity, while the older arrow-shot association is kept separately as a classical lexical meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

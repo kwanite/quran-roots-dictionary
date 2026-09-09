@@ -1,0 +1,180 @@
+{
+  "root": "jAr",
+  "arabic": "جأر",
+  "root_idea": {
+    "summary": "The root centers on a loud, urgent cry, especially an earnest cry of supplication; animal lowing provides the comparative image.",
+    "development": "The evidence connects raised animal vocalization with a human cry made in intense, humble supplication. Classical extensions apply the root to luxuriant growth and to copious, vegetation-producing rain.",
+    "source_refs": [
+      "lane:entry:45806",
+      "lane:entry:45807",
+      "mufradat:row:216"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jAr:yajo_#aru:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:jAr:jaara:I",
+      "reason": "The supplied group is a Quran-attested Form I verb; its imperfect QAC lemma is normalized to the classical perfect citation form جَأَرَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:jAr:jaara:I",
+      "form_group_ids": [
+        "qac-form:jAr:yajo_#aru:verb:I"
+      ],
+      "headword_arabic": "جَأَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform:jAr:jaara:I:s1",
+          "definition": "To cry out loudly in earnest prayer or supplication, calling for aid.",
+          "usage_conditions": "In the Quranic use, the cry is an intense appeal directed to God and is associated with humility, distress, and a raised voice; it is more than ordinary speaking or calling.",
+          "source_refs": [
+            "lane:entry:45806",
+            "mufradat:row:216"
+          ]
+        },
+        {
+          "sense_id": "qform:jAr:jaara:I:s2",
+          "definition": "To utter a loud animal cry; to low, especially of cattle.",
+          "usage_conditions": "This animal-vocalization branch is also reflected in a reported Quran reading through the related verbal noun جُؤَارٌ. The historical reading reference is not assigned a modern verse location here because no corresponding QAC location is supplied.",
+          "source_refs": [
+            "lane:entry:45806"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:53",
+          "word_location": "16:53:12",
+          "sense_ids": [
+            "qform:jAr:jaara:I:s1"
+          ]
+        },
+        {
+          "verse_key": "23:64",
+          "word_location": "23:64:8",
+          "sense_ids": [
+            "qform:jAr:jaara:I:s1"
+          ]
+        },
+        {
+          "verse_key": "23:65",
+          "word_location": "23:65:2",
+          "sense_ids": [
+            "qform:jAr:jaara:I:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical:jAr:plant-growth",
+      "headword_arabic": "جَأَرَ",
+      "definition": "To grow tall, of a plant; of the land, for its plants or herbage to grow tall.",
+      "usage_conditions": "A tropical usage describing the height and growth of vegetation.",
+      "source_refs": [
+        "lane:entry:45806"
+      ]
+    },
+    {
+      "meaning_id": "classical:jAr:herbage",
+      "headword_arabic": "جَأْرٌ",
+      "definition": "Fresh, juicy, or sappy herbage; also tall, full-grown, and abundant herbage.",
+      "usage_conditions": "Applied to plants or herbage; the listed qualities are alternative descriptions within this vegetation-related usage.",
+      "source_refs": [
+        "lane:entry:45807"
+      ]
+    },
+    {
+      "meaning_id": "classical:jAr:rain",
+      "headword_arabic": "جَأْرٌ",
+      "definition": "Copious rain, especially rain that makes plants or herbage grow tall; in another reported usage, rain that makes a sound or noise.",
+      "usage_conditions": "A conventional description applied to rain, with variant reported characterizations.",
+      "source_refs": [
+        "lane:entry:45807"
+      ]
+    },
+    {
+      "meaning_id": "classical:jAr:night-crier",
+      "headword_arabic": "جَأّرٌ",
+      "definition": "A person who cries out for aid or succour, humbles himself, and raises his voice repeatedly or frequently, especially by night.",
+      "usage_conditions": "An intensive personal descriptor rather than a general statement about the act of crying out.",
+      "source_refs": [
+        "lane:entry:45810"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jAr:45806:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:jAr:jaara:I:s2"
+      ],
+      "note": "Animal lowing and its reported Quran-reading association are covered by the animal-cry sense."
+    },
+    {
+      "unit_id": "lane-unit:jAr:45806:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:jAr:jaara:I:s1"
+      ],
+      "note": "Raised, humble supplication and calling for aid are covered by the Quranic supplication sense."
+    },
+    {
+      "unit_id": "lane-unit:jAr:45806:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:jAr:plant-growth"
+      ],
+      "note": "The tropical vegetation-growth use is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:jAr:45807:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:jAr:herbage"
+      ],
+      "note": "The qualities attributed to herbage are represented under the nominal usage."
+    },
+    {
+      "unit_id": "lane-unit:jAr:45807:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:jAr:rain"
+      ],
+      "note": "The rain construction and its reported variants are represented separately."
+    },
+    {
+      "unit_id": "lane-unit:jAr:45808:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to جَأْرٌ."
+    },
+    {
+      "unit_id": "lane-unit:jAr:45809:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to جَأْرٌ."
+    },
+    {
+      "unit_id": "lane-unit:jAr:45810:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:jAr:night-crier"
+      ],
+      "note": "The intensive personal descriptor is represented as a Classical meaning."
+    }
+  ],
+  "cautions": [
+    "The historical Quran-reading note attached to جُؤَارٌ is preserved without converting its legacy references into modern surah:ayah locations.",
+    "No Maqayis entry was supplied for this root; the root orientation is consequently based on the supplied Quran-focused and classical lexical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

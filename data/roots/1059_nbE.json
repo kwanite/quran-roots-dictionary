@@ -1,0 +1,162 @@
+{
+  "root": "nbE",
+  "arabic": "نبع",
+  "root_idea": {
+    "summary": "The root centers on water emerging and on the source or outlet from which it flows, alongside a distinct lexical branch naming the nabʿ tree.",
+    "development": "The water branch extends from welling or issuing forth to the spring or source itself, with a causative Form IV verb meaning to make water issue. The lexica separately preserve نَبْع as a tree name and related terms for objects made from its wood.",
+    "source_refs": [
+      "maqayis:row:4526",
+      "mufradat:row:1409",
+      "lane:entry:32052",
+      "lane:entry:32053"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nbE:yanbuwE:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_nbE_yanbu",
+      "reason": "Displayed under the normalized singular noun citation form يَنْبُوع; the Quran also contains its plural يَنَابِيع."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_nbE_yanbu",
+      "form_group_ids": [
+        "qac-form:nbE:yanbuwE:nominal:-"
+      ],
+      "headword_arabic": "يَنْبُوع",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_nbE_yanbu_s1",
+          "definition": "A spring or water-source from which water emerges.",
+          "usage_conditions": "Used of a natural water source; the Quranic occurrences include the singular يَنْبُوعًا and the plural يَنَابِيعَ.",
+          "source_refs": [
+            "mufradat:row:1409"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:90",
+          "word_location": "17:90:10",
+          "sense_ids": [
+            "sense_nbE_yanbu_s1"
+          ]
+        },
+        {
+          "verse_key": "39:21",
+          "word_location": "39:21:10",
+          "sense_ids": [
+            "sense_nbE_yanbu_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_nbE_naba_water_issue",
+      "headword_arabic": "نَبَعَ",
+      "definition": "To well or issue forth, specifically of water.",
+      "usage_conditions": "An intransitive verbal use describing water emerging.",
+      "source_refs": [
+        "lane:entry:32052"
+      ]
+    },
+    {
+      "meaning_id": "cm_nbE_anbaa_cause_issue",
+      "headword_arabic": "أَنْبَعَ",
+      "definition": "To make or cause water to issue forth.",
+      "usage_conditions": "A causative Form IV verbal construction.",
+      "source_refs": [
+        "lane:entry:32053"
+      ]
+    },
+    {
+      "meaning_id": "cm_nbE_nab_tree",
+      "headword_arabic": "نَبْعٌ",
+      "definition": "The nabʿ tree, whose wood was used for making bows.",
+      "usage_conditions": "A botanical noun distinct from the water-source noun.",
+      "source_refs": [
+        "lane:entry:32054",
+        "mufradat:row:1409"
+      ]
+    },
+    {
+      "meaning_id": "cm_nbE_nabaan_cart_shafts",
+      "headword_arabic": "نَبْعَانِ",
+      "definition": "The two shafts of a cart.",
+      "usage_conditions": "So called because such shafts were commonly made from nabʿ wood.",
+      "source_refs": [
+        "lane:entry:32054"
+      ]
+    },
+    {
+      "meaning_id": "cm_nbE_nawaabi_camel_sweat",
+      "headword_arabic": "النَّوَابِعُ",
+      "definition": "The places on a camel from which its sweat flows.",
+      "usage_conditions": "An animal-specific lexical expression for the outlets of perspiration.",
+      "source_refs": [
+        "maqayis:row:4526"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nbE:32052:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nbE_naba_water_issue"
+      ],
+      "note": "The water-welling verb is represented under the Classical verbal meaning."
+    },
+    {
+      "unit_id": "lane-unit:nbE:32052:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nbE:32053:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nbE_anbaa_cause_issue"
+      ],
+      "note": "The causative water-issuing verb is represented."
+    },
+    {
+      "unit_id": "lane-unit:nbE:32054:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nbE_nab_tree"
+      ],
+      "note": "The tree noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:nbE:32054:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nbE:32054:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nbE_nabaan_cart_shafts"
+      ],
+      "note": "The conventional term for the two cart shafts is represented."
+    },
+    {
+      "unit_id": "lane-unit:nbE:32055:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Formation and cross-reference note without an independently stated lexical meaning."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

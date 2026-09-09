@@ -1,0 +1,676 @@
+{
+  "root": "HSd",
+  "arabic": "حصد",
+  "root_idea": {
+    "summary": "The root expresses two related but distinct orientations: cutting something, especially harvesting, and making something tight, firm, or compact.",
+    "development": "The cutting branch extends from reaping crops to harvested produce, harvest time, and figurative mowing down or destruction. The firmness branch appears in tightly twisted cords, compact armor, sound judgment, settled affairs, and collective strengthening.",
+    "source_refs": [
+      "maqayis:row:1375",
+      "mufradat:row:329"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:HSd:HaSad:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-hasad-v1",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:HSd:HaSaAd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-hasad",
+      "reason": "Displayed as the harvest-related verbal noun and temporal noun حَصَادٌ."
+    },
+    {
+      "form_group_id": "qac-form:HSd:HaSiyd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-hasid",
+      "reason": "Displayed separately because حَصِيدٌ denotes the reaped result and also the Quranic resultative sense of being cut down."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-hasad-v1",
+      "form_group_ids": [
+        "qac-form:HSd:HaSad:verb:I"
+      ],
+      "headword_arabic": "حَصَدَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform-hasad-v1-s1",
+          "definition": "To reap or cut seed-produce and plants.",
+          "usage_conditions": "Used in the agricultural construction of harvesting a crop, ordinarily with a reaping tool; the Quranic occurrence is addressed to those who reap a cultivated crop.",
+          "source_refs": [
+            "lane:entry:14685"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:47",
+          "word_location": "12:47:7",
+          "sense_ids": [
+            "qform-hasad-v1-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-hasad",
+      "form_group_ids": [
+        "qac-form:HSd:HaSaAd:nominal:-"
+      ],
+      "headword_arabic": "حَصَادٌ",
+      "public_pos_label": "Verbal noun / harvest season",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform-hasad-s1",
+          "definition": "Harvesting; the time or season of reaping.",
+          "usage_conditions": "The Quranic occurrence is in the temporal expression “the day of its harvest”; حَصَادٌ also functions as the verbal noun of حَصَدَ.",
+          "source_refs": [
+            "lane:entry:14692",
+            "mufradat:row:329"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:141",
+          "word_location": "6:141:25",
+          "sense_ids": [
+            "qform-hasad-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-hasid",
+      "form_group_ids": [
+        "qac-form:HSd:HaSiyd:nominal:-"
+      ],
+      "headword_arabic": "حَصِيدٌ",
+      "public_pos_label": "Passive participle / substantivized noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qform-hasid-s1",
+          "definition": "Reaped produce, especially harvested grain or other food crop.",
+          "usage_conditions": "Used substantivally for what has been reaped; the Quranic grain expression refers to produce from which food is obtained.",
+          "source_refs": [
+            "lane:entry:14694",
+            "mufradat:row:329"
+          ]
+        },
+        {
+          "sense_id": "qform-hasid-s2",
+          "definition": "Cut down and left destroyed, as though a crop had been reaped.",
+          "usage_conditions": "A resultative and figurative Quranic use for vegetation, land, communities, or people reduced by destructive cutting; it describes devastation rather than ordinary harvest.",
+          "source_refs": [
+            "lane:entry:14694",
+            "mufradat:row:329"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "50:9",
+          "word_location": "50:9:10",
+          "sense_ids": [
+            "qform-hasid-s1"
+          ]
+        },
+        {
+          "verse_key": "10:24",
+          "word_location": "10:24:34",
+          "sense_ids": [
+            "qform-hasid-s2"
+          ]
+        },
+        {
+          "verse_key": "11:100",
+          "word_location": "11:100:9",
+          "sense_ids": [
+            "qform-hasid-s2"
+          ]
+        },
+        {
+          "verse_key": "21:15",
+          "word_location": "21:15:7",
+          "sense_ids": [
+            "qform-hasid-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-hasad-slaughter",
+      "headword_arabic": "حَصَدَ",
+      "definition": "To mow people down with the sword; to slay or exterminate them.",
+      "usage_conditions": "A figurative extension of reaping, applied to people rather than crops.",
+      "source_refs": [
+        "lane:entry:14685"
+      ]
+    },
+    {
+      "meaning_id": "cm-hasad-consequence",
+      "headword_arabic": "حَصَدَ",
+      "definition": "To reap a consequence, especially a penalty or regret resulting from one's actions.",
+      "usage_conditions": "Appears in the proverbial construction “who sows evil reaps regret.”",
+      "source_refs": [
+        "lane:entry:14685"
+      ]
+    },
+    {
+      "meaning_id": "cm-hasad-twist",
+      "headword_arabic": "حَصِدَ",
+      "definition": "To become tightly twisted and firmly compact; of a rope, bowstring, or linked armor.",
+      "usage_conditions": "The subject is a cord, bowstring, or coat of mail whose strands or rings are made close and firm.",
+      "source_refs": [
+        "lane:entry:14685",
+        "lane:entry:14690",
+        "lane:entry:14691"
+      ]
+    },
+    {
+      "meaning_id": "cm-ahsada-ready",
+      "headword_arabic": "أَحْصَدَ",
+      "definition": "Of seed-produce, to reach the proper time for reaping; in a secondary usage, to invite or call for reaping.",
+      "usage_conditions": "A Form IV causative or inchoative harvest-readiness construction, with the latter interpretation reported as an alternative.",
+      "source_refs": [
+        "lane:entry:14686"
+      ]
+    },
+    {
+      "meaning_id": "cm-ahsada-firm",
+      "headword_arabic": "أَحْصَدَ",
+      "definition": "To twist a rope firmly; reportedly, to make something firm more generally.",
+      "usage_conditions": "A Form IV firmness construction, distinct from the agricultural readiness sense.",
+      "source_refs": [
+        "lane:entry:14686"
+      ]
+    },
+    {
+      "meaning_id": "cm-istahsad-settled",
+      "headword_arabic": "اِسْتَحْصَدَ",
+      "definition": "To become established, settled, sound, or thoroughly firm.",
+      "usage_conditions": "Applied figuratively to an affair or the state of a people.",
+      "source_refs": [
+        "lane:entry:14688"
+      ]
+    },
+    {
+      "meaning_id": "cm-istahsad-assembled",
+      "headword_arabic": "اِسْتَحْصَدَ",
+      "definition": "For a people or party to collect together, assemble, and give one another mutual aid.",
+      "usage_conditions": "A collective-strengthening use of the Form X verb.",
+      "source_refs": [
+        "lane:entry:14688"
+      ]
+    },
+    {
+      "meaning_id": "cm-istahsad-angry",
+      "headword_arabic": "اِسْتَحْصَدَ",
+      "definition": "To become angry, or violently angry.",
+      "usage_conditions": "A lexical Form X emotional-state use.",
+      "source_refs": [
+        "lane:entry:14688"
+      ]
+    },
+    {
+      "meaning_id": "cm-hasad-residue",
+      "headword_arabic": "حَصَادٌ، حَصِيدَةٌ",
+      "definition": "The lower residue of stalks left on the ground after reaping.",
+      "usage_conditions": "Refers to the portions of a crop that the reaping hook does not reach.",
+      "source_refs": [
+        "lane:entry:14692",
+        "lane:entry:14695"
+      ]
+    },
+    {
+      "meaning_id": "cm-hasad-scattered-seed",
+      "headword_arabic": "حَصَادٌ",
+      "definition": "Seeds that fall off and become scattered as wild leguminous plants dry.",
+      "usage_conditions": "A specialized description of dried wild plant seed.",
+      "source_refs": [
+        "lane:entry:14692"
+      ]
+    },
+    {
+      "meaning_id": "cm-hasad-tree-produce",
+      "headword_arabic": "حَصَادٌ",
+      "definition": "The fruit or produce of a tree.",
+      "usage_conditions": "A broader produce-related nominal use, not restricted to grain crops.",
+      "source_refs": [
+        "lane:entry:14692"
+      ]
+    },
+    {
+      "meaning_id": "cm-hasid-wind-torn",
+      "headword_arabic": "حَصِيدٌ",
+      "definition": "Seed-produce torn up and carried away by the wind.",
+      "usage_conditions": "Describes harvested-looking plant matter removed by wind rather than by ordinary reaping.",
+      "source_refs": [
+        "lane:entry:14694"
+      ]
+    },
+    {
+      "meaning_id": "cm-hasaid-tongues",
+      "headword_arabic": "حَصَائِدُ أَلْسِنَتِهِمْ",
+      "definition": "Words uttered by the tongue against others, especially harmful words with no good in them.",
+      "usage_conditions": "An idiomatic expression likening cutting speech to reaped produce.",
+      "source_refs": [
+        "lane:entry:14694"
+      ]
+    },
+    {
+      "meaning_id": "cm-hasida-field",
+      "headword_arabic": "حَصِيدَةٌ",
+      "definition": "A field or place of crop whose produce has been reaped; a place of reaping.",
+      "usage_conditions": "Can refer either to the crop-bearing place or specifically to a field completely harvested.",
+      "source_refs": [
+        "lane:entry:14695"
+      ]
+    },
+    {
+      "meaning_id": "cm-hasid-reaper",
+      "headword_arabic": "حَاصِدٌ",
+      "definition": "A reaper.",
+      "usage_conditions": "An active participle naming the person who reaps.",
+      "source_refs": [
+        "lane:entry:14696"
+      ]
+    },
+    {
+      "meaning_id": "cm-ahsadu-leafy",
+      "headword_arabic": "أَحْصَدُ، حَصْدَاءُ",
+      "definition": "Of a tree, abundant in leaves and therefore compact or dense.",
+      "usage_conditions": "An adjectival use describing a tree's thick foliage.",
+      "source_refs": [
+        "lane:entry:14697"
+      ]
+    },
+    {
+      "meaning_id": "cm-muhsad-opinion",
+      "headword_arabic": "مُحْصَدُ الرَّأْيِ، رَأْيٌ مُسْتَحْصِدٌ",
+      "definition": "Sound, firmly directed, and well-grounded judgment or opinion.",
+      "usage_conditions": "A figurative firmness construction applied to reasoning or opinion.",
+      "source_refs": [
+        "lane:entry:14698",
+        "lane:entry:14702"
+      ]
+    },
+    {
+      "meaning_id": "cm-muhsad-standing-dry",
+      "headword_arabic": "مُحْصَدٌ",
+      "definition": "Seed-produce that has dried while still standing.",
+      "usage_conditions": "Describes a crop drying in place rather than after being cut.",
+      "source_refs": [
+        "lane:entry:14698"
+      ]
+    },
+    {
+      "meaning_id": "cm-muhsid-ready",
+      "headword_arabic": "مُحْصِدٌ",
+      "definition": "Seed-produce that has reached the proper time or season for reaping.",
+      "usage_conditions": "An active participial description of crop maturity for harvest.",
+      "source_refs": [
+        "lane:entry:14699"
+      ]
+    },
+    {
+      "meaning_id": "cm-mihsad-hook",
+      "headword_arabic": "مِحْصَدٌ",
+      "definition": "A reaping hook used to cut seed-produce.",
+      "usage_conditions": "An instrument noun synonymous with a sickle.",
+      "source_refs": [
+        "lane:entry:14700"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:HSd:14685:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-hasad-v1-s1"
+      ],
+      "note": "Agricultural reaping sense."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14685:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasad-slaughter"
+      ],
+      "note": "Figurative mowing down and extermination."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14685:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasad-consequence"
+      ],
+      "note": "Proverbial reaping of regret."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14685:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasad-twist"
+      ],
+      "note": "Tight twisting and compact construction."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14686:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ahsada-ready"
+      ],
+      "note": "Crop reaching harvest readiness and alternative invitation sense."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14686:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ahsada-firm"
+      ],
+      "note": "Firmly twisting a rope."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14686:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-ahsada-firm"
+      ],
+      "note": "Generalized making-firm use grouped with the rope-twisting branch."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14687:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the basic verb."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14688:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form IV."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14688:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the basic verb."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14688:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-istahsad-settled"
+      ],
+      "note": "Establishment or settlement of an affair or people."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14688:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-istahsad-assembled"
+      ],
+      "note": "Collective assembly and mutual aid."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14688:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-istahsad-angry"
+      ],
+      "note": "Anger or violent anger."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14689:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَصِيدٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14690:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-hasad-twist"
+      ],
+      "note": "Strongly twisted rope and bowstring grouped under the compactness branch."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14691:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-hasad-twist"
+      ],
+      "note": "Compact bowstring and linked armor."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14692:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-hasad-s1"
+      ],
+      "note": "Harvest time and verbal-noun use."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14692:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَصِيدٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14692:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasad-residue"
+      ],
+      "note": "Lower crop residue left after reaping."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14692:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasad-scattered-seed"
+      ],
+      "note": "Scattered seeds of drying wild legumes."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14692:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasad-tree-produce"
+      ],
+      "note": "Fruit or produce of a tree."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14693:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant cross-reference to حَصَادٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14694:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-hasid-s1"
+      ],
+      "note": "Reaped produce and grain, including the Quranic grain expression."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14694:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَصَادٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14694:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasid-wind-torn"
+      ],
+      "note": "Produce torn up and carried by wind."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14694:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-hasid-s2"
+      ],
+      "note": "Explicit Quran-attested mown-down or slain sense."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14694:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasaid-tongues"
+      ],
+      "note": "Idiomatic harmful speech expression."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14694:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only continuation."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14695:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَصِيدٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14695:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَصَادٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14695:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-hasad-residue"
+      ],
+      "note": "Lower crop portions missed by the reaping hook."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14695:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasida-field"
+      ],
+      "note": "Field whose produce has been reaped."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14695:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-hasida-field"
+      ],
+      "note": "Place of reaping grouped with the field/place sense."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14696:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hasid-reaper"
+      ],
+      "note": "Person who reaps."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14697:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَصِدٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14697:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ahsadu-leafy"
+      ],
+      "note": "Tree abundant in leaves."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14698:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَصِدٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14698:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-muhsad-opinion"
+      ],
+      "note": "Sound and firmly directed judgment."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14698:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-muhsad-standing-dry"
+      ],
+      "note": "Crop dried while standing."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14699:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-muhsid-ready"
+      ],
+      "note": "Crop ready for reaping."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14700:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mihsad-hook"
+      ],
+      "note": "Reaping-hook instrument noun."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14701:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَصِيدٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14702:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مُحْصِدٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14702:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَصِدٌ."
+    },
+    {
+      "unit_id": "lane-unit:HSd:14702:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-muhsad-opinion"
+      ],
+      "note": "Sound or firm judgment grouped with the same opinion sense."
+    }
+  ],
+  "cautions": [
+    "حَصِيدٌ has both a literal harvested-produce sense and a Quran-attested resultative sense meaning cut down or destroyed; the latter is not merely an English gloss variation.",
+    "حَصَادٌ and حَصِيدٌ are retained as separate public forms because the former denotes harvesting or harvest time, while the latter denotes the reaped result or something mown down."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

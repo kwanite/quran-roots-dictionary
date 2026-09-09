@@ -1,0 +1,177 @@
+{
+  "root": "ksd",
+  "arabic": "كسد",
+  "root_idea": {
+    "summary": "The root centers on inferiority or poor condition that makes something unwanted or not sought after.",
+    "development": "This orientation extends to a thing or commodity becoming unsaleable and to a market becoming stagnant. The Quranic noun applies the commercial branch to decline or stagnation in trade.",
+    "source_refs": [
+      "maqayis:row:3983",
+      "lane:entry:28220"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ksd:kasaAd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-ksd-kasad",
+      "reason": "The Quran-attested noun is presented under its normalized dictionary citation form كَسَاد."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-ksd-kasad",
+      "form_group_ids": [
+        "qac-form:ksd:kasaAd:nominal:-"
+      ],
+      "headword_arabic": "كَسَاد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-ksd-kasad-s1",
+          "definition": "Commercial decline or stagnation: reduced demand and difficulty of sale.",
+          "usage_conditions": "In the Quran, used of commerce or trade in the expression كَسَادَهَا, referring to its decline or stagnation.",
+          "source_refs": [
+            "lane:entry:28220"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:24",
+          "word_location": "9:24:13",
+          "sense_ids": [
+            "qf-ksd-kasad-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl-ksd-kasada-unsound",
+      "headword_arabic": "كَسَدَ",
+      "definition": "To be or become bad, corrupt, or unsound.",
+      "usage_conditions": "A broader underlying use distinguished from the commercial sense of becoming unsaleable or being in little demand.",
+      "source_refs": [
+        "lane:entry:28220"
+      ]
+    },
+    {
+      "meaning_id": "cl-ksd-kasada-unsaleable",
+      "headword_arabic": "كَسَدَ",
+      "definition": "To become unsaleable, difficult to sell, or little in demand.",
+      "usage_conditions": "Used of a thing or commodity; this is the Form I verbal use corresponding to the state named by كَسَاد.",
+      "source_refs": [
+        "lane:entry:28220"
+      ]
+    },
+    {
+      "meaning_id": "cl-ksd-kasada-market",
+      "headword_arabic": "كَسَدَ",
+      "definition": "Of a market, to become stagnant or dull with respect to trade.",
+      "usage_conditions": "Used specifically of a market and its traffic.",
+      "source_refs": [
+        "lane:entry:28220"
+      ]
+    },
+    {
+      "meaning_id": "cl-aksada-market",
+      "headword_arabic": "أَكْسَدَ",
+      "definition": "To make a market stagnant or dull with respect to trade; also, to find one's market stagnant.",
+      "usage_conditions": "The first use is causative; the second describes a person's market as having become stagnant.",
+      "source_refs": [
+        "lane:entry:28221"
+      ]
+    },
+    {
+      "meaning_id": "cl-ksid-inferior",
+      "headword_arabic": "كَسِيدٌ",
+      "definition": "Inferior in condition; ignoble.",
+      "usage_conditions": "A Classical descriptive use, synonymous with being low or inferior in standing.",
+      "source_refs": [
+        "lane:entry:28222"
+      ]
+    },
+    {
+      "meaning_id": "cl-kasid-unsaleable",
+      "headword_arabic": "كَاسِدٌ",
+      "definition": "Unsaleable, difficult to sell, or in little demand; of a market, stagnant or dull in trade.",
+      "usage_conditions": "Used adjectivally of a thing or commodity, and also of a market.",
+      "source_refs": [
+        "lane:entry:28223"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ksd:28220:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-ksd-kasad-s1",
+        "cl-ksd-kasada-unsound",
+        "cl-ksd-kasada-unsaleable"
+      ],
+      "note": "Covers commercial unsaleability, the Quranic noun's lexical branch, and the stated broader sense of becoming unsound."
+    },
+    {
+      "unit_id": "lane-unit:ksd:28220:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ksd-kasada-market"
+      ],
+      "note": "Market-specific Form I use."
+    },
+    {
+      "unit_id": "lane-unit:ksd:28221:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-aksada-market"
+      ],
+      "note": "Causative Form IV market use."
+    },
+    {
+      "unit_id": "lane-unit:ksd:28221:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cl-aksada-market"
+      ],
+      "note": "The related use describing a person's market is covered by the same Form IV entry."
+    },
+    {
+      "unit_id": "lane-unit:ksd:28222:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to كَاسِدٌ."
+    },
+    {
+      "unit_id": "lane-unit:ksd:28222:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ksid-inferior"
+      ],
+      "note": "Independent descriptive sense of inferiority or ignobility."
+    },
+    {
+      "unit_id": "lane-unit:ksd:28223:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kasid-unsaleable"
+      ],
+      "note": "Adjectival use for an unsaleable thing or commodity."
+    },
+    {
+      "unit_id": "lane-unit:ksd:28223:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cl-kasid-unsaleable"
+      ],
+      "note": "Market-specific adjectival use is included in the same meaning."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is a noun, while the related Form I and Form IV verbs and participles are retained separately as broader Classical Arabic lexical entries."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

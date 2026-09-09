@@ -1,0 +1,250 @@
+{
+  "root": "qrf",
+  "arabic": "قرف",
+  "root_idea": {
+    "summary": "The root centers on contact, mixture, and being enveloped or associated with something; its concrete image is a peel or outer layer.",
+    "development": "The semantic field develops from peeling or taking on an outer layer to entering into contact, acquiring something as though taking it on, and becoming implicated in blame or suspicion. In the Quranic Form VIII, this yields the meanings of acquiring or earning and, especially, committing blameworthy acts.",
+    "source_refs": [
+      "maqayis:row:3760",
+      "mufradat:row:1173"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qrf:{qotarafo:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qrf-form-viii-iqtarafa",
+      "reason": "Displayed under the normalized Form VIII perfect citation form اِقْتَرَفَ."
+    },
+    {
+      "form_group_id": "qac-form:qrf:m~uqotarifuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qrf-form-active-participle-muqtarif",
+      "reason": "Displayed as the singular active-participle citation form مُقْتَرِفٌ rather than the Quranic plural surface form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qrf-form-viii-iqtarafa",
+      "form_group_ids": [
+        "qac-form:qrf:{qotarafo:verb:VIII"
+      ],
+      "headword_arabic": "اِقْتَرَفَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qrf-viii-s1",
+          "definition": "To acquire or earn something through one's own action.",
+          "usage_conditions": "Used for acquisition whether favorable or unfavorable; the Quranic occurrences include acquired possessions and the earning of a good deed.",
+          "source_refs": [
+            "mufradat:row:1173"
+          ]
+        },
+        {
+          "sense_id": "qrf-viii-s2",
+          "definition": "To commit blameworthy acts or wrongdoing.",
+          "usage_conditions": "A Quranic specialization of the acquisition sense, used for culpable conduct and for what people commit; the unfavorable usage is especially frequent in the lexical evidence.",
+          "source_refs": [
+            "mufradat:row:1173"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:113",
+          "word_location": "6:113:9",
+          "sense_ids": [
+            "qrf-viii-s2"
+          ]
+        },
+        {
+          "verse_key": "6:120",
+          "word_location": "6:120:12",
+          "sense_ids": [
+            "qrf-viii-s2"
+          ]
+        },
+        {
+          "verse_key": "9:24",
+          "word_location": "9:24:10",
+          "sense_ids": [
+            "qrf-viii-s1"
+          ]
+        },
+        {
+          "verse_key": "42:23",
+          "word_location": "42:23:20",
+          "sense_ids": [
+            "qrf-viii-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qrf-form-active-participle-muqtarif",
+      "form_group_ids": [
+        "qac-form:qrf:m~uqotarifuwn:nominal:-"
+      ],
+      "headword_arabic": "مُقْتَرِفٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qrf-muqtarif-s1",
+          "definition": "One who commits blameworthy acts; a perpetrator of wrongdoing.",
+          "usage_conditions": "The Quranic plural form مُقْتَرِفُونَ denotes people engaged in the blameworthy conduct under discussion.",
+          "source_refs": [
+            "mufradat:row:1173"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:113",
+          "word_location": "6:113:12",
+          "sense_ids": [
+            "qrf-muqtarif-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qrf-cl-peel",
+      "headword_arabic": "قِرْفٌ",
+      "definition": "The peel, bark, or skin removed from a tree or wound; also a crust such as the crust of bread.",
+      "usage_conditions": "The term denotes what is taken off as an outer layer.",
+      "source_refs": [
+        "maqayis:row:3760",
+        "mufradat:row:1173"
+      ]
+    },
+    {
+      "meaning_id": "qrf-cl-leather-vessel",
+      "headword_arabic": "قِرْفٌ",
+      "definition": "A leather vessel used for preparing khalʿ, a cooked and seasoned meat preparation.",
+      "usage_conditions": "A technical material use distinct from the meaning ‘peel’ or ‘outer layer’.",
+      "source_refs": [
+        "maqayis:row:3760"
+      ]
+    },
+    {
+      "meaning_id": "qrf-cl-nearness",
+      "headword_arabic": "قَارَفَهُ",
+      "definition": "To be or become near to something, especially something base or vile.",
+      "usage_conditions": "A Form III construction with an object; the supplied lexical example concerns nearness to a base thing or the like.",
+      "source_refs": [
+        "lane:entry:20912"
+      ]
+    },
+    {
+      "meaning_id": "qrf-cl-disease-association",
+      "headword_arabic": "قَرَفٌ",
+      "definition": "Association or mixing with others, especially diseased persons; proximity to pestilence or epidemic disease.",
+      "usage_conditions": "A noun describing exposure through close association or nearness to disease.",
+      "source_refs": [
+        "lane:entry:20913"
+      ]
+    },
+    {
+      "meaning_id": "qrf-cl-reproach-accuse",
+      "headword_arabic": "قَرَفَ فُلَانًا بِكَذَا",
+      "definition": "To reproach or accuse someone of something.",
+      "usage_conditions": "The construction assigns a blame or accusation to a person.",
+      "source_refs": [
+        "mufradat:row:1173",
+        "maqayis:row:3760"
+      ]
+    },
+    {
+      "meaning_id": "qrf-cl-suspected-party",
+      "headword_arabic": "القِرْفَةُ",
+      "definition": "A suspected or accused person; by extension, a person or group thought likely to have information about a sought thing.",
+      "usage_conditions": "In the idiom اتسعت قرفته, the expression means that many people accuse him; related usage can identify those believed to know where something is found.",
+      "source_refs": [
+        "lane:entry:20914",
+        "maqayis:row:3760"
+      ]
+    },
+    {
+      "meaning_id": "qrf-cl-blameworthy-engagement",
+      "headword_arabic": "قَارَفَ أَمْرًا",
+      "definition": "To engage in or undertake a blameworthy matter.",
+      "usage_conditions": "The construction concerns doing something regarded as reproachable, without being limited to the Quranic Form VIII.",
+      "source_refs": [
+        "mufradat:row:1173",
+        "maqayis:row:3760"
+      ]
+    },
+    {
+      "meaning_id": "qrf-cl-intercourse",
+      "headword_arabic": "قَارَفَ",
+      "definition": "To approach sexually or have sexual intercourse.",
+      "usage_conditions": "A conventional Form III usage, especially in the construction قَارَفَ امْرَأَتَهُ.",
+      "source_refs": [
+        "maqayis:row:3760"
+      ]
+    },
+    {
+      "meaning_id": "qrf-cl-hybrid",
+      "headword_arabic": "مُقْرِفٌ",
+      "definition": "Of mixed or hybrid lineage; a person or horse of mixed stock.",
+      "usage_conditions": "The term is applied to a man or horse. One specified horse usage describes a hybrid father and an Arab mother.",
+      "source_refs": [
+        "maqayis:row:3760",
+        "mufradat:row:1173"
+      ]
+    },
+    {
+      "meaning_id": "qrf-cl-paring-place",
+      "headword_arabic": "مَقْرِفٌ",
+      "definition": "A place where something is pared or stripped off.",
+      "usage_conditions": "A locative noun for a place of paring.",
+      "source_refs": [
+        "lane:entry:20915"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qrf:20912:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qrf-cl-nearness"
+      ],
+      "note": "The Form III nearness construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:qrf:20913:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qrf-cl-disease-association"
+      ],
+      "note": "The association and proximity-to-disease meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:qrf:20914:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qrf-cl-suspected-party"
+      ],
+      "note": "The qirfa idiom of widening suspicion and accusation is represented."
+    },
+    {
+      "unit_id": "lane-unit:qrf:20915:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qrf-cl-paring-place"
+      ],
+      "note": "The locative meaning ‘place of paring’ is represented."
+    }
+  ],
+  "cautions": [
+    "The lexical discussion connects the 6:113 expression with the branch of blame and reproach, while the supplied Quran context renders it as committing; the Quranic sense is therefore stated as blameworthy conduct rather than as directly accusing another person."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,111 @@
+{
+  "root": "qly",
+  "arabic": "قلي",
+  "root_idea": {
+    "summary": "The supplied evidence centers on intense aversion: the hated object is rejected by the heart.",
+    "development": "The lexical discussion preserves competing derivational explanations, relating the aversion sense either figuratively to casting away or separately to roasting on a pan. These alternatives do not make casting a direct meaning of this root's Quranic forms.",
+    "source_refs": [
+      "mufradat:row:1205"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qly:qalaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qly_f1",
+      "reason": "Distinct Quran-attested Form I verb, normalized to its classical perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:qly:qaAliyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qly_ap",
+      "reason": "Distinct Quran-attested active participle, normalized from the supplied masculine plural to the singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qly_f1",
+      "form_group_ids": [
+        "qac-form:qly:qalaY`:verb:I"
+      ],
+      "headword_arabic": "قَلَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qly_f1_s1",
+          "definition": "To detest or hate intensely.",
+          "usage_conditions": "In the supplied Quran occurrence, appears in the negated construction ما قلى, expressing intense aversion.",
+          "source_refs": [
+            "mufradat:row:1205"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "93:3",
+          "word_location": "93:3:5",
+          "sense_ids": [
+            "qly_f1_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qly_ap",
+      "form_group_ids": [
+        "qac-form:qly:qaAliyn:nominal:-"
+      ],
+      "headword_arabic": "قَالٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qly_ap_s1",
+          "definition": "One who intensely detests; a hater.",
+          "usage_conditions": "The supplied Quran occurrence is the masculine plural active participle القالين in the construction من القالين, referring to those characterized by intense hatred toward the stated object.",
+          "source_refs": [
+            "mufradat:row:1205"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:168",
+          "word_location": "26:168:5",
+          "sense_ids": [
+            "qly_ap_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qly_cm1",
+      "headword_arabic": "قَلَى",
+      "definition": "To roast or cook dates and sawīq on a pan.",
+      "usage_conditions": "A classical culinary use associated with the verb in an etymological discussion; it is kept separate from the Quranic aversion sense.",
+      "source_refs": [
+        "mufradat:row:1205"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qly:21118:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit directing the reader to قلو; it supplies no direct lexical definition for قلي."
+    }
+  ],
+  "cautions": [
+    "The supplied Lane evidence is only a cross-reference pointer, so the Quranic senses are supported by the explicit Quran-focused lexical discussion.",
+    "The lexical discussion gives an alternative q-l-w analysis involving casting or throwing away; this is not assigned as a direct meaning of qly because it is explicitly presented as a competing root attribution."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The q-l-w ('casting or throwing away') explanation in mufradat:row:1205 is a competing derivational analysis rather than securely assigned direct evidence for the qly root, so it is not represented as a qly meaning."
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "root": "zyg",
+  "arabic": "زيغ",
+  "root_idea": {
+    "summary": "The root denotes inclination or turning away from a straight course.",
+    "development": "Its central notion of physical leaning develops into deviation from a direction or truth, the turning of sight, and causatively the turning of hearts. Other derived usages preserve related ideas of mutual inclination or are separately reported lexical alternants.",
+    "source_refs": [
+      "maqayis:row:2331",
+      "mufradat:row:638"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zyg:zaAga:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zyg-zag",
+      "reason": "Canonical Quranic Form I verb with distinct deviation and sight-related usages."
+    },
+    {
+      "form_group_id": "qac-form:zyg:>azaAga:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zyg-azag",
+      "reason": "Canonical Quranic Form IV causative verb."
+    },
+    {
+      "form_group_id": "qac-form:zyg:zayog:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zyg-zaygh",
+      "reason": "Canonical Quranic nominal form with an independently attested inward-deviation sense."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "zyg-zag",
+      "form_group_ids": [
+        "qac-form:zyg:zaAga:verb:I"
+      ],
+      "headword_arabic": "زَاغَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "zyg-zag-s1",
+          "definition": "To decline, deviate, swerve, or turn aside from a right course, direction, or the truth.",
+          "usage_conditions": "Quranic usage includes departure from right guidance or a commanded course, including the deviation of hearts.",
+          "source_refs": [
+            "lane:entry:31992",
+            "mufradat:row:638"
+          ]
+        },
+        {
+          "sense_id": "zyg-zag-s2",
+          "definition": "Of the eyes or sight, to become dim or confused, or to turn aside from its proper orientation.",
+          "usage_conditions": "The Quranic sight-related usage is associated with fear or confusion and is explained either as dimming of the eyes or as their turning aside.",
+          "source_refs": [
+            "lane:entry:31992",
+            "mufradat:row:638"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:117",
+          "word_location": "9:117:17",
+          "sense_ids": [
+            "zyg-zag-s1"
+          ]
+        },
+        {
+          "verse_key": "34:12",
+          "word_location": "34:12:20",
+          "sense_ids": [
+            "zyg-zag-s1"
+          ]
+        },
+        {
+          "verse_key": "33:10",
+          "word_location": "33:10:9",
+          "sense_ids": [
+            "zyg-zag-s2"
+          ]
+        },
+        {
+          "verse_key": "38:63",
+          "word_location": "38:63:4",
+          "sense_ids": [
+            "zyg-zag-s2"
+          ]
+        },
+        {
+          "verse_key": "53:17",
+          "word_location": "53:17:2",
+          "sense_ids": [
+            "zyg-zag-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zyg-azag",
+      "form_group_ids": [
+        "qac-form:zyg:>azaAga:verb:IV"
+      ],
+      "headword_arabic": "أَزَاغَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "zyg-azag-s1",
+          "definition": "To cause someone or something to decline, deviate, or turn aside from the right way; to turn hearts away from right guidance or acceptance of truth.",
+          "usage_conditions": "A causative construction. Quranic usage includes asking that hearts not be made to deviate, describing hearts as turned away after prior deviation, and the related expression of making someone fall into deviation.",
+          "source_refs": [
+            "lane:entry:31994"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:8",
+          "word_location": "3:8:3",
+          "sense_ids": [
+            "zyg-azag-s1"
+          ]
+        },
+        {
+          "verse_key": "61:5",
+          "word_location": "61:5:16",
+          "sense_ids": [
+            "zyg-azag-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zyg-zaygh",
+      "form_group_ids": [
+        "qac-form:zyg:zayog:nominal:-"
+      ],
+      "headword_arabic": "زَيْغ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "zyg-zaygh-s1",
+          "definition": "Deviation from straightness or truth; inward doubt or perversity.",
+          "usage_conditions": "In the Quranic nominal use, it describes an inward condition of deviation, especially in the heart.",
+          "source_refs": [
+            "lane:entry:31992",
+            "mufradat:row:638"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:7",
+          "word_location": "3:7:18",
+          "sense_ids": [
+            "zyg-zaygh-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "zyg-cm-sun-declination",
+      "headword_arabic": "زَاغَ",
+      "definition": "Of the sun, to decline from the meridian so that the shade turns from one side to the other.",
+      "usage_conditions": "A physical-direction usage distinct from deviation from truth or guidance.",
+      "source_refs": [
+        "lane:entry:31992"
+      ]
+    },
+    {
+      "meaning_id": "zyg-cm-rectify",
+      "headword_arabic": "زَيَّغَ",
+      "definition": "To rectify or correct another person's deviation; to set someone right.",
+      "usage_conditions": "Form II, with another person as the object of the corrective action.",
+      "source_refs": [
+        "lane:entry:31993"
+      ]
+    },
+    {
+      "meaning_id": "zyg-cm-adorn",
+      "headword_arabic": "تَزَيَّغَ",
+      "definition": "To adorn oneself and display one's finery, bodily beauty, or apparel to others.",
+      "usage_conditions": "A Form V usage; the reported example describes display to men or strangers and notes غ as a substitute for ن.",
+      "source_refs": [
+        "lane:entry:31995"
+      ]
+    },
+    {
+      "meaning_id": "zyg-cm-mutual-leaning",
+      "headword_arabic": "تَزَايُغٌ",
+      "definition": "Mutual inclining toward one another.",
+      "usage_conditions": "A specialized application to teeth leaning toward one another is attributed to some authorities.",
+      "source_refs": [
+        "lane:entry:31996"
+      ]
+    },
+    {
+      "meaning_id": "zyg-cm-rook",
+      "headword_arabic": "زَاغٌ",
+      "definition": "A small rook or crow-like bird, traditionally described as non-carrion-eating and edible.",
+      "usage_conditions": "The species descriptions vary, and the word is reported as possibly Persian or arabicized; its plural is زِيغَانٌ.",
+      "source_refs": [
+        "lane:entry:31997"
+      ]
+    },
+    {
+      "meaning_id": "zyg-cm-deviant",
+      "headword_arabic": "زَائِغٌ",
+      "definition": "A person or thing that declines, deviates, swerves, or turns aside.",
+      "usage_conditions": "A plural زَاغَةٌ is reported for a group of such people, especially men, equivalent to زَائِغُونَ.",
+      "source_refs": [
+        "lane:entry:31998"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zyg:31992:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-zag-s1",
+        "zyg-zaygh-s1"
+      ],
+      "note": "Covers Form I deviation and the Quran-attested nominal sense of زَيْغ."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31992:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-cm-sun-declination"
+      ],
+      "note": "Distinct solar-declination usage."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31992:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-zag-s2"
+      ],
+      "note": "Quran-attested eye and sight usage."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31993:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-cm-rectify"
+      ],
+      "note": "Form II corrective usage."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31994:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-azag-s1"
+      ],
+      "note": "Form IV causative deviation, including the Quranic construction."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31994:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "zyg-azag-s1"
+      ],
+      "note": "Making someone fall into deviation is covered by the Form IV causative sense."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31994:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-azag-s1"
+      ],
+      "note": "Quranic causation of hearts' deviation after prior deviation."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31995:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-cm-adorn"
+      ],
+      "note": "Distinct self-adornment and display usage."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31996:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-cm-mutual-leaning"
+      ],
+      "note": "Mutual-inclining usage, including the reported tooth application."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31997:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-cm-rook"
+      ],
+      "note": "Bird-name usage."
+    },
+    {
+      "unit_id": "lane-unit:zyg:31998:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyg-cm-deviant"
+      ],
+      "note": "Active-participial noun for one who or that which deviates."
+    }
+  ],
+  "cautions": [
+    "The eye and sight branch has two reported interpretations in the evidence—dimming or confusion under fear, and turning aside—so they are presented as one lexical branch rather than as separate senses.",
+    "The historical Quran citation notation attached to the nominal discussion is not converted into a modern verse location; the displayed modern example is the independently supplied QAC occurrence at 3:7:18."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

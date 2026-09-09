@@ -1,0 +1,579 @@
+{
+  "root": "Ajl",
+  "arabic": "أجل",
+  "root_idea": {
+    "summary": "The root presents several distinct lexical branches. Its central temporal branch concerns an appointed limit or endpoint, with related ideas of deferral, futurity, and assigning a term; other branches include affirmation, crime and causation, restraint, a wild-cattle herd, a neck ailment, and a water basin.",
+    "development": "The temporal branch extends from a fixed endpoint or term to postponement, futurity, and the appointment of a term. The lexical sources also explicitly treat several other branches as independent rather than deriving every meaning from one root principle.",
+    "source_refs": [
+      "maqayis:row:39",
+      "lane:entry:6235"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Ajl:>aj~ala:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Ajl:aj~ala:verbII",
+      "reason": "Form II is a distinct Quranic verb with both appointing and postponing uses."
+    },
+    {
+      "form_group_id": "qac-form:Ajl:>ajal:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Ajl:ajal:noun",
+      "reason": "This is the principal Quranic temporal noun."
+    },
+    {
+      "form_group_id": "qac-form:Ajl:>ajol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Ajl:ajl:causal",
+      "reason": "The Quranic form occurs in the distinct causal construction min ajl."
+    },
+    {
+      "form_group_id": "qac-form:Ajl:m~u&aj~al:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Ajl:mu~aj~al:passiveParticiple",
+      "reason": "The supplied morphology identifies this as a passive participle with its own Quranic occurrence."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf:Ajl:aj~ala:verbII",
+      "form_group_ids": [
+        "qac-form:Ajl:>aj~ala:verb:II"
+      ],
+      "headword_arabic": "أَجَّلَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "q:Ajl:aj~ala:s1",
+          "definition": "To assign, appoint, specify, or fix a term or time for something.",
+          "usage_conditions": "The Quranic active occurrence concerns a term assigned by God; the assigned term may be understood as a death term or another eschatological endpoint.",
+          "source_refs": [
+            "lane:entry:6228",
+            "mufradat:row:19"
+          ]
+        },
+        {
+          "sense_id": "q:Ajl:aj~ala:s2",
+          "definition": "To postpone or defer.",
+          "usage_conditions": "The active and passive Quranic forms are represented together under the Form II verb: one occurrence presents postponement in the passive, while the lexical relation is that of causing something to be deferred.",
+          "source_refs": [
+            "lane:entry:6228"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:128",
+          "word_location": "6:128:21",
+          "sense_ids": [
+            "q:Ajl:aj~ala:s1"
+          ]
+        },
+        {
+          "verse_key": "77:12",
+          "word_location": "77:12:3",
+          "sense_ids": [
+            "q:Ajl:aj~ala:s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:Ajl:ajal:noun",
+      "form_group_ids": [
+        "qac-form:Ajl:>ajal:nominal:-"
+      ],
+      "headword_arabic": "أَجَل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 52,
+      "senses": [
+        {
+          "sense_id": "q:Ajl:ajal:s1",
+          "definition": "An appointed or fixed term, period, endpoint, or due time.",
+          "usage_conditions": "The broad temporal noun applies to a period allotted to a person, event, community, or undertaking. Quranic two-term constructions may contrast different appointed durations or endpoints; the contextual object determines whether the term concerns this life, an event, or the hereafter.",
+          "source_refs": [
+            "lane:entry:6235",
+            "mufradat:row:19"
+          ]
+        },
+        {
+          "sense_id": "q:Ajl:ajal:s2",
+          "definition": "An allotted lifespan or appointed time of death.",
+          "usage_conditions": "This sense is used of the duration or endpoint of human or communal life. Interpretive discussions of the Quranic term include death, the completion of life, and, in particular constructions, the interval before resurrection or other divinely appointed endpoints.",
+          "source_refs": [
+            "lane:entry:6235",
+            "mufradat:row:19"
+          ]
+        },
+        {
+          "sense_id": "q:Ajl:ajal:s3",
+          "definition": "The prescribed waiting period after divorce.",
+          "usage_conditions": "In the Quranic legal construction concerning divorced women, it denotes the interval ending when the waiting period is completed and remarriage becomes permissible.",
+          "source_refs": [
+            "lane:entry:6235",
+            "mufradat:row:19"
+          ]
+        },
+        {
+          "sense_id": "q:Ajl:ajal:s4",
+          "definition": "Destruction or doom.",
+          "usage_conditions": "A Quranic interpretation records the noun as meaning approaching destruction rather than merely approaching a chronological deadline. The reported citation is preserved without assigning it a modern verse location not supplied by QAC.",
+          "source_refs": [
+            "lane:entry:6235"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:2",
+          "word_location": "6:2:9",
+          "sense_ids": [
+            "q:Ajl:ajal:s1"
+          ]
+        },
+        {
+          "verse_key": "6:128",
+          "word_location": "6:128:19",
+          "sense_ids": [
+            "q:Ajl:ajal:s2"
+          ]
+        },
+        {
+          "verse_key": "2:231",
+          "word_location": "2:231:5",
+          "sense_ids": [
+            "q:Ajl:ajal:s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:Ajl:ajl:causal",
+      "form_group_ids": [
+        "qac-form:Ajl:>ajol:nominal:-"
+      ],
+      "headword_arabic": "أَجْل",
+      "public_pos_label": "Causal preposition · in من أجل",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q:Ajl:ajl:s1",
+          "definition": "Because of, on account of, or by reason of.",
+          "usage_conditions": "The Quranic occurrence is the causal expression مِنْ أَجْلِ ذَلِكَ, historically explained in relation to an offense or its consequence. This construction is distinct from the temporal noun أَجَل meaning a term.",
+          "source_refs": [
+            "mufradat:row:19",
+            "lane:entry:6232"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:32",
+          "word_location": "5:32:2",
+          "sense_ids": [
+            "q:Ajl:ajl:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:Ajl:mu~aj~al:passiveParticiple",
+      "form_group_ids": [
+        "qac-form:Ajl:m~u&aj~al:nominal:-"
+      ],
+      "headword_arabic": "مُؤَجَّل",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q:Ajl:mu~aj~al:s1",
+          "definition": "Appointed, fixed, or determined for a specified time.",
+          "usage_conditions": "The passive participle describes something whose time has been set or limited; the Quranic occurrence presents a determined written decree.",
+          "source_refs": [
+            "lane:entry:6240"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:145",
+          "word_location": "3:145:10",
+          "sense_ids": [
+            "q:Ajl:mu~aj~al:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Ajl:ajila:delay",
+      "headword_arabic": "أَجِلَ",
+      "definition": "To be or become delayed, postponed, or kept back.",
+      "usage_conditions": "This is the Form I intransitive branch, distinct from the Quranic Form II verb that causes or assigns a delay.",
+      "source_refs": [
+        "lane:entry:6227"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajila:restrain",
+      "headword_arabic": "أَجَلَ",
+      "definition": "To confine, restrain, withhold, hinder, or prevent.",
+      "usage_conditions": "The usage includes restricting cattle from pasture; that example illustrates the act of withholding and is not a general limitation on the objects of the verb.",
+      "source_refs": [
+        "lane:entry:6227"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajila:evil",
+      "headword_arabic": "أَجَلَ",
+      "definition": "To commit evil against someone, or to draw, procure, stir up, or provoke evil against them.",
+      "usage_conditions": "The construction takes the person or group against whom the evil is committed or directed.",
+      "source_refs": [
+        "lane:entry:6227"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajila:acquire",
+      "headword_arabic": "أَجَلَ",
+      "definition": "To acquire, earn, collect, bring, or provide resources, and to manage affairs for one's family.",
+      "usage_conditions": "This is a separate Form I usage concerned with obtaining or arranging provision and affairs for a household.",
+      "source_refs": [
+        "lane:entry:6227"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ta~aj~ala:requestTerm",
+      "headword_arabic": "تَأَجَّلَ",
+      "definition": "To ask or request that a term or period be assigned or appointed for oneself.",
+      "usage_conditions": "The construction may include requesting permission or a period of delay, such as time to return to one's family.",
+      "source_refs": [
+        "lane:entry:6230"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajal:crime",
+      "headword_arabic": "أَجْل",
+      "definition": "A crime, offense, or injurious act whose consequence is feared.",
+      "usage_conditions": "This lexical noun is distinct from the causal preposition in مِنْ أَجْلِ; the causal expression developed from the relation of an offense to its consequence.",
+      "source_refs": [
+        "lane:entry:6232",
+        "mufradat:row:19"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajal:response",
+      "headword_arabic": "أَجَل",
+      "definition": "Yes, indeed, or it is as you say.",
+      "usage_conditions": "A response particle acknowledging the truth of an affirmative statement or, in some grammatical accounts, answering a request or demand. It is not the temporal noun أَجَل.",
+      "source_refs": [
+        "lane:entry:6234",
+        "maqayis:row:39"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajal:debtTerm",
+      "headword_arabic": "أَجَل",
+      "definition": "The maturity or due date of a debt or other obligation.",
+      "usage_conditions": "This is the specialized legal and commercial use for the period at which payment or delivery falls due; it is a narrower Classical Arabic application of the temporal noun.",
+      "source_refs": [
+        "lane:entry:6235"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajil:deferred",
+      "headword_arabic": "أَجِيل",
+      "definition": "A person or thing granted a delay until a specified time; deferred.",
+      "usage_conditions": "The adjective describes the recipient or object of an allowed postponement and is lexically distinct from the related form آجِل.",
+      "source_refs": [
+        "lane:entry:6238"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajil:deferredFuture",
+      "headword_arabic": "آجِل",
+      "definition": "Delayed, postponed, deferred, or consequently future and yet to come.",
+      "usage_conditions": "It may describe what is deferred until the end of a period and, by contrast with عاجل, what belongs to the future rather than the immediate present.",
+      "source_refs": [
+        "lane:entry:6239",
+        "maqayis:row:39"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajila:hereafter",
+      "headword_arabic": "الْآجِلَة",
+      "definition": "The future, ultimate, or latter abode or life; the hereafter.",
+      "usage_conditions": "This is the substantive feminine usage contrasted with the present or immediate life, العاجلة.",
+      "source_refs": [
+        "lane:entry:6239"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ajila:criminal",
+      "headword_arabic": "آجِل",
+      "definition": "A person who commits a crime, or the committing of a crime.",
+      "usage_conditions": "This is a separate lexical branch from the temporal adjective meaning deferred or future.",
+      "source_refs": [
+        "lane:entry:6239"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:mu~aj~al:debt",
+      "headword_arabic": "مُؤَجَّل",
+      "definition": "Deferred or not yet due, especially a debt.",
+      "usage_conditions": "In this Classical Arabic specialization it is contrasted with حالّ, an obligation that is currently due.",
+      "source_refs": [
+        "lane:entry:6240"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ijl:herd",
+      "headword_arabic": "إِجْل",
+      "definition": "A herd or group of wild cattle.",
+      "usage_conditions": "This is an independent nominal branch, with the plural آَجَال reported in the lexical discussion.",
+      "source_refs": [
+        "maqayis:row:39"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:ijl:neckAilment",
+      "headword_arabic": "إِجْل",
+      "definition": "A pain or ailment in the neck.",
+      "usage_conditions": "An anatomical and medical usage, independent of the temporal noun and the causal expression.",
+      "source_refs": [
+        "maqayis:row:39"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ajl:majal:waterBasin",
+      "headword_arabic": "مَأْجَل",
+      "definition": "A broad basin or reservoir in which water from a well or channel is held before being released for irrigation.",
+      "usage_conditions": "The noun refers to a constructed or natural holding place for water; its plural is مَآجِل.",
+      "source_refs": [
+        "maqayis:row:39"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Ajl:6227:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajila:delay"
+      ],
+      "note": "Form I delayed or postponed."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6227:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajila:restrain"
+      ],
+      "note": "Confining or withholding."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6227:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajila:evil"
+      ],
+      "note": "Committing or provoking evil against others."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6227:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajila:acquire"
+      ],
+      "note": "Acquiring and managing provision for a family."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6228:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:Ajl:aj~ala:s1"
+      ],
+      "note": "Assigning or specifying a term, with a Quranic construction."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6228:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:Ajl:aj~ala:s2"
+      ],
+      "note": "Granting a delay or postponement."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6228:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6229:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6230:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ta~aj~ala:requestTerm"
+      ],
+      "note": "Requesting that a term be assigned."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6231:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only references to Forms II and V."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6232:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:Ajl:ajl:s1",
+        "cm:Ajl:ajal:crime"
+      ],
+      "note": "Causal construction and its crime-related lexical background."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6233:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Variant entry directing the reader to أجل."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6234:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajal:response"
+      ],
+      "note": "Affirmative response particle."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6235:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:Ajl:ajal:s1"
+      ],
+      "note": "General appointed term or period."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6235:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:Ajl:ajal:s3"
+      ],
+      "note": "Divorce waiting period, explicitly Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6235:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajal:debtTerm"
+      ],
+      "note": "Due period of a debt or obligation."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6235:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:Ajl:ajal:s2"
+      ],
+      "note": "Lifespan and appointed time of death, with Quranic interpretations."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6235:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:Ajl:ajal:s4"
+      ],
+      "note": "Destruction or doom in a reported Quranic interpretation."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6236:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only pronunciation or entry reference."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6237:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to آجِل."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6238:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajil:deferred"
+      ],
+      "note": "One granted a delay until a specified time."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6238:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6239:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajil:deferredFuture"
+      ],
+      "note": "Delayed, deferred, and future."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6239:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajila:hereafter"
+      ],
+      "note": "The future or ultimate abode."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6239:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ajl:ajila:criminal"
+      ],
+      "note": "Crime or a criminal."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6240:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q:Ajl:mu~aj~al:s1",
+        "cm:Ajl:mu~aj~al:debt"
+      ],
+      "note": "Fixed in time in Quranic usage and deferred, especially of debt, in Classical usage."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6240:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:Ajl:6241:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to آجِل."
+    }
+  ],
+  "cautions": [
+    "The temporal noun أَجَل has several Quranic interpretive applications, especially in the discussion of 6:2 and 6:128; these are grouped under the term and lifespan senses rather than treated as wholly separate lexical meanings.",
+    "Lane reports a destruction interpretation with a historical citation written as [vii. 184], and reports the passive-participle discussion with a citation to iii. 139. These historical references are not converted into modern verse locations; the QAC occurrence at 3:145 is used for the supplied passive-participle form.",
+    "The Maqayis discussion explicitly treats several branches of this root as distinct lexical origins, so the rare herd, neck-ailment, and water-basin meanings are not presented as developments of the temporal sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

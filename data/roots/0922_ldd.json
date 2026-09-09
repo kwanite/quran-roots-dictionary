@@ -1,0 +1,449 @@
+{
+  "root": "ldd",
+  "arabic": "لدد",
+  "root_idea": {
+    "summary": "The root has two principal semantic axes: vehement contention and a side or lateral aspect.",
+    "development": "The contention branch yields meanings of disputatiousness, obstinate opposition, and defense in argument. The lateral branch yields terms for the sides of the neck, valley, mouth, and other things, as well as turning from side to side, administering medicine along one side of the mouth, and figurative diversion or avoidance.",
+    "source_refs": [
+      "maqayis:row:4139"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ldd:>alad~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:ldd:aladd",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:ldd:l~ud~:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:ldd:aladd",
+      "reason": "لُدّ is explicitly attested as the plural of أَلَدّ; the distinction is inflectional rather than a separate lexical branch."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:ldd:aladd",
+      "form_group_ids": [
+        "qac-form:ldd:>alad~:nominal:-",
+        "qac-form:ldd:l~ud~:nominal:-"
+      ],
+      "headword_arabic": "أَلَدّ",
+      "public_pos_label": "Adjective · Elative; plural لُدّ",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsense:ldd:contentious",
+          "definition": "Extremely contentious and obstinate in opposition; a quarrelsome adversary.",
+          "usage_conditions": "The Quran uses the singular elative أَلَدُّ for one who is most contentious in dispute, and the plural لُدًّا for people obstinately opposed to truth. The plural usage is also explained as describing people turned away from, or deaf to, truth.",
+          "source_refs": [
+            "lane:entry:9527",
+            "mufradat:row:1297"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:204",
+          "word_location": "2:204:16",
+          "sense_ids": [
+            "qsense:ldd:contentious"
+          ]
+        },
+        {
+          "verse_key": "19:97",
+          "word_location": "19:97:10",
+          "sense_ids": [
+            "qsense:ldd:contentious"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:ldd:ladda_contention",
+      "headword_arabic": "لَدَّ",
+      "definition": "To be violent or vehement in contention, dispute, or litigation; to overcome or oppose another vehemently therein.",
+      "usage_conditions": "Form I; both intransitive and transitive constructions are attested.",
+      "source_refs": [
+        "lane:entry:9518"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:ladda_restrain",
+      "headword_arabic": "لَدَّ",
+      "definition": "To restrain, withhold, hinder, or turn someone back from an affair.",
+      "usage_conditions": "Used with عن and an object or affair; the turning away may be described as gentle.",
+      "source_refs": [
+        "lane:entry:9518"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:ladda_administer",
+      "headword_arabic": "لَدَّ",
+      "definition": "To administer the draught called لَدُود; figuratively, to administer sincere counsel.",
+      "usage_conditions": "The medicinal action consists in pouring the draught into one side of the mouth; the counsel usage is figurative.",
+      "source_refs": [
+        "lane:entry:9518"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:laddada_infamy",
+      "headword_arabic": "لَدَّدَ بِهِ",
+      "definition": "To make someone notorious or infamous.",
+      "usage_conditions": "Form II construction with بِهِ.",
+      "source_refs": [
+        "lane:entry:9519"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:laadda_contention",
+      "headword_arabic": "لَادَّ",
+      "definition": "To contend violently or vehemently with someone in an altercation, dispute, or litigation.",
+      "usage_conditions": "Form III.",
+      "source_refs": [
+        "lane:entry:9520"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:laadda_defend",
+      "headword_arabic": "لَادَّ",
+      "definition": "To repel something from someone; to defend or protect someone.",
+      "usage_conditions": "The construction لَادَّ عَنْهُ expresses warding something off from him or defending him.",
+      "source_refs": [
+        "lane:entry:9520"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:aladdahu_judge",
+      "headword_arabic": "أَلَدَّهُ",
+      "definition": "To find or judge someone to be contentious.",
+      "usage_conditions": "Form IV.",
+      "source_refs": [
+        "lane:entry:9521"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:aladdahu_oppose",
+      "headword_arabic": "أَلَدَّ بِهِ",
+      "definition": "To oppose someone in contention, altercation, dispute, or litigation.",
+      "usage_conditions": "Form IV construction with بِهِ.",
+      "source_refs": [
+        "lane:entry:9521"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:taladdada_turn",
+      "headword_arabic": "تَلَدَّدَ",
+      "definition": "To turn one’s face to the right and left in confusion, perplexity, or amazement.",
+      "usage_conditions": "Form V; a figurative usage associated with turning between two sides.",
+      "source_refs": [
+        "lane:entry:9522"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:taladdada_wait",
+      "headword_arabic": "تَلَدَّدَ",
+      "definition": "To tarry or wait in expectation.",
+      "usage_conditions": "Form V.",
+      "source_refs": [
+        "lane:entry:9522"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:ittaladda_swallow",
+      "headword_arabic": "اِلْتَدَّ",
+      "definition": "To swallow a medicine or draught of the kind called لَدُود.",
+      "usage_conditions": "Form VIII.",
+      "source_refs": [
+        "lane:entry:9523"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:ittaladda_decline",
+      "headword_arabic": "اِلْتَدَّ",
+      "definition": "To decline from or turn away from someone or something.",
+      "usage_conditions": "Form VIII construction with عَنْهُ.",
+      "source_refs": [
+        "lane:entry:9523"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:ladd_sack",
+      "headword_arabic": "لَدٌّ",
+      "definition": "A sack of the kind called جُوَالِق.",
+      "usage_conditions": "A rare nominal usage.",
+      "source_refs": [
+        "lane:entry:9524"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:ladud_medicine",
+      "headword_arabic": "لَدُودٌ",
+      "definition": "A medicine or draught poured into one side of the mouth.",
+      "usage_conditions": "The plural is أَلِدَّةٌ; the term is associated with the two sides of the mouth.",
+      "source_refs": [
+        "lane:entry:9525"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:ladid_side",
+      "headword_arabic": "لَدِيدٌ",
+      "definition": "A side or lateral part: one of the two sides of a valley, neck, mouth, or penis, and, in one reported extension, of anything; also the outside of the neck.",
+      "usage_conditions": "The dual لَدِيدَانِ denotes the two sides; the exact anatomical or spatial referent depends on the construction.",
+      "source_refs": [
+        "lane:entry:9526"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:laadd_contentious_person",
+      "headword_arabic": "لَادٌّ",
+      "definition": "A contentious, disputatious, or litigious person; a tenacious adversary who will not incline to truth, and one vehement in war.",
+      "usage_conditions": "A personal epithet with intensive force; related feminine and plural forms are also attested.",
+      "source_refs": [
+        "lane:entry:9527"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:malduud",
+      "headword_arabic": "مَلْدُودٌ",
+      "definition": "A person to whom a لَدُود medicine or draught has been administered.",
+      "usage_conditions": "Passive participial usage.",
+      "source_refs": [
+        "lane:entry:9529"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:mutaladdad_neck",
+      "headword_arabic": "الْمُتَلَدَّدُ",
+      "definition": "The neck.",
+      "usage_conditions": "A reported tropical use of the substantivized form.",
+      "source_refs": [
+        "lane:entry:9530"
+      ]
+    },
+    {
+      "meaning_id": "cm:ldd:multadd_escape",
+      "headword_arabic": "مُلْتَدٌّ",
+      "definition": "In the idiom مَا لِي عَنْهُ مُلْتَدٌّ: an available way of avoiding or escaping something.",
+      "usage_conditions": "Idiomatic expression meaning that there is no way to avoid or escape it.",
+      "source_refs": [
+        "lane:entry:9531"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ldd:9518:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:ladda_contention"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9518:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:ldd:ladda_contention"
+      ],
+      "note": "Transitive opposition is included in the same contention branch."
+    },
+    {
+      "unit_id": "lane-unit:ldd:9518:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:ladda_restrain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9518:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:ladda_administer"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9518:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:ldd:ladda_administer"
+      ],
+      "note": "The passive medicine-taking construction is covered under administration of لَدُود."
+    },
+    {
+      "unit_id": "lane-unit:ldd:9518:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:ladda_administer"
+      ],
+      "note": "The figurative counsel construction is stated in the target definition."
+    },
+    {
+      "unit_id": "lane-unit:ldd:9519:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:laddada_infamy"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9520:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:laadda_contention"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9520:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:laadda_defend"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9521:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:aladdahu_judge"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9521:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:aladdahu_oppose"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9522:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:taladdada_turn"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9522:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:taladdada_wait"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9523:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:ittaladda_swallow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9523:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:ittaladda_decline"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9524:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ldd:9524:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:ladd_sack"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9525:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ldd:9525:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:ladud_medicine"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9526:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ldd:9526:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:ladid_side"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9526:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ldd:9527:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:ldd:contentious",
+        "cm:ldd:laadd_contentious_person"
+      ],
+      "note": "The unit contains both the Quran-attested interpretation and broader personal-epithet meanings."
+    },
+    {
+      "unit_id": "lane-unit:ldd:9528:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ldd:9529:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:malduud"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9530:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:mutaladdad_neck"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ldd:9531:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ldd:multadd_escape"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,480 @@
+{
+  "root": "rqd",
+  "arabic": "رقد",
+  "root_idea": {
+    "summary": "The root's central orientation is sleep, with related extensions to staying or settling and a divergent branch describing rapid movement.",
+    "development": "The lexical development proceeds from sleep to remaining settled in a place; a separate, marked branch describes moving swiftly or headlong, as though abandoning sleep.",
+    "source_refs": [
+      "maqayis:row:2111"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rqd:m~aroqad:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quranform:rqd:marqad",
+      "reason": "Displayed under the normalized noun مَرْقَد, the citation form corresponding to the Quranic inflected occurrence."
+    },
+    {
+      "form_group_id": "qac-form:rqd:ruquwd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quranform:rqd:ruqud",
+      "reason": "Displayed as the Quranic noun رُقُود, which the evidence analyzes both as sleep and as persons who are sleeping."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quranform:rqd:marqad",
+      "form_group_ids": [
+        "qac-form:rqd:m~aroqad:nominal:-"
+      ],
+      "headword_arabic": "مَرْقَد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:rqd:marqad:1",
+          "definition": "A sleeping place; a place of sleep.",
+          "usage_conditions": "In the Quranic expression مَرْقَدِنَا, “our sleeping place,” the noun denotes the place where one sleeps.",
+          "source_refs": [
+            "lane:entry:24155",
+            "mufradat:row:573"
+          ]
+        },
+        {
+          "sense_id": "sense:rqd:marqad:2",
+          "definition": "Sleeping or resting, as a verbal noun.",
+          "usage_conditions": "A tentative analysis of the Quranic expression treats مَرْقَدِنَا as a verbal noun rather than a place noun; this reading yields “our sleeping” or “our resting.”",
+          "source_refs": [
+            "lane:entry:24155"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "36:52",
+          "word_location": "36:52:6",
+          "sense_ids": [
+            "sense:rqd:marqad:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "quranform:rqd:ruqud",
+      "form_group_ids": [
+        "qac-form:rqd:ruquwd:nominal:-"
+      ],
+      "headword_arabic": "رُقُود",
+      "public_pos_label": "Noun · verbal noun / plural active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:rqd:ruqud:1",
+          "definition": "Sleep; being asleep; sleepers.",
+          "usage_conditions": "In the Quranic usage, the form describes the Companions of the Cave as asleep or as sleepers. It may be understood as a verbal noun or as a plural referring to sleeping persons; the sleep is described in contrast with death, not restricted to a particular time of day or ordinary duration.",
+          "source_refs": [
+            "lane:entry:24140",
+            "lane:entry:24153",
+            "mufradat:row:573"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:18",
+          "word_location": "18:18:4",
+          "sense_ids": [
+            "sense:rqd:ruqud:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:rqd:holdback",
+      "headword_arabic": "رَقَدَ",
+      "definition": "To abstain or hold back; by extension, to neglect or fail to attend to someone.",
+      "usage_conditions": "Used with an affair for refraining from it and with a guest for neglecting or failing to visit attentively.",
+      "source_refs": [
+        "lane:entry:24140"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rqd:inactivity",
+      "headword_arabic": "رَقَدَ",
+      "definition": "To become inactive, slack, stagnant, or abated.",
+      "usage_conditions": "Figuratively used of a garment that has become worn out and unusable, a market that has become dull, or heat that has subsided.",
+      "source_refs": [
+        "lane:entry:24140"
+      ]
+    },
+    {
+      "meaning_id": "meaning:tarqid:quickwalk",
+      "headword_arabic": "تَرْقِيد",
+      "definition": "A quick manner of walking.",
+      "usage_conditions": "The attestation is tentative and may reflect a misrecording of another word.",
+      "source_refs": [
+        "lane:entry:24141"
+      ]
+    },
+    {
+      "meaning_id": "meaning:arqada:causesleep",
+      "headword_arabic": "أَرْقَدَ",
+      "definition": "To cause someone or something to sleep; to put to sleep.",
+      "usage_conditions": "The causative may be said of a person, a child, or a medicine that induces sleep.",
+      "source_refs": [
+        "lane:entry:24142"
+      ]
+    },
+    {
+      "meaning_id": "meaning:arqada:reside",
+      "headword_arabic": "أَرْقَدَ",
+      "definition": "To reside, stay, dwell, or abide in a place.",
+      "usage_conditions": "Constructed with a place, town, country, or land.",
+      "source_refs": [
+        "lane:entry:24142"
+      ]
+    },
+    {
+      "meaning_id": "meaning:taraqada:feignsleep",
+      "headword_arabic": "تَرَاقَدَ",
+      "definition": "To pretend to be asleep.",
+      "usage_conditions": "Describes feigned rather than actual sleep.",
+      "source_refs": [
+        "lane:entry:24143"
+      ]
+    },
+    {
+      "meaning_id": "meaning:irqadda:speed",
+      "headword_arabic": "اِرْقَدَّ",
+      "definition": "To hasten or move swiftly, sometimes running vehemently or headlong.",
+      "usage_conditions": "May describe rapid movement with leaps or bounds, including a heedless or random course.",
+      "source_refs": [
+        "lane:entry:24144"
+      ]
+    },
+    {
+      "meaning_id": "meaning:istarqada:overcomesleep",
+      "headword_arabic": "اِسْتَرْقَدَ",
+      "definition": "To become overpowered by sleep or drowsiness and consequently desire sleep.",
+      "usage_conditions": "Describes the onset of overpowering sleepiness.",
+      "source_refs": [
+        "lane:entry:24145"
+      ]
+    },
+    {
+      "meaning_id": "meaning:raqd:placename",
+      "headword_arabic": "رَقْد",
+      "definition": "A place-name for a mountain, or according to another report a valley, from which millstones are obtained; by extension, a millstone from that place.",
+      "usage_conditions": "Occurs in the expression أَرْحَاءُ رَقْدٍ, “the millstones of Raqd.”",
+      "source_refs": [
+        "lane:entry:24146"
+      ]
+    },
+    {
+      "meaning_id": "meaning:raqda:extinction",
+      "headword_arabic": "رَقْدَة",
+      "definition": "A state of suspended vitality between the present life and the life to come.",
+      "usage_conditions": "A specialized usage for a state likened to extinction of vitality, distinct from ordinary sleep.",
+      "source_refs": [
+        "lane:entry:24147"
+      ]
+    },
+    {
+      "meaning_id": "meaning:raqda:heatspell",
+      "headword_arabic": "رَقْدَة",
+      "definition": "A spell or period of heat.",
+      "usage_conditions": "A figurative usage for heat returning after wind and an abatement of severe heat, or lasting for a stated period.",
+      "source_refs": [
+        "lane:entry:24147"
+      ]
+    },
+    {
+      "meaning_id": "meaning:raqadan:leaping",
+      "headword_arabic": "رَقَدَان",
+      "definition": "Lively leaping or springing caused by briskness.",
+      "usage_conditions": "Illustrated by the lively leaps of a lamb or kid; the example does not restrict the meaning to those animals.",
+      "source_refs": [
+        "lane:entry:24149"
+      ]
+    },
+    {
+      "meaning_id": "meaning:raqud:habitualsleeper",
+      "headword_arabic": "رَقُود",
+      "definition": "A person who sleeps much or is habitually asleep.",
+      "usage_conditions": "In the expression رَقُودُ الضُّحَى, “one who sleeps through the morning,” it can conventionally describe a person leading an easy, soft, or delicate life.",
+      "source_refs": [
+        "lane:entry:24151"
+      ]
+    },
+    {
+      "meaning_id": "meaning:raqud:vessel",
+      "headword_arabic": "رَاقُود",
+      "definition": "A large pitch-smeared vessel or oblong earthen jar resembling a dān.",
+      "usage_conditions": "The plural is رَوَاقِيدُ; the term is reported as Arabicized.",
+      "source_refs": [
+        "lane:entry:24154"
+      ]
+    },
+    {
+      "meaning_id": "meaning:raqud:fish",
+      "headword_arabic": "رَاقُود",
+      "definition": "A small, rounded sea fish about the size of a finger.",
+      "usage_conditions": "A separate zoological usage of the same form.",
+      "source_refs": [
+        "lane:entry:24154"
+      ]
+    },
+    {
+      "meaning_id": "meaning:murqid:medicine",
+      "headword_arabic": "مُرْقِد",
+      "definition": "A medicine that causes the drinker to sleep.",
+      "usage_conditions": "The noun denotes the sleep-inducing agent rather than the act of putting someone to sleep.",
+      "source_refs": [
+        "lane:entry:24156"
+      ]
+    },
+    {
+      "meaning_id": "meaning:murqid:road",
+      "headword_arabic": "مُرْقِد",
+      "definition": "A conspicuous or clearly visible road.",
+      "usage_conditions": "A disputed or uncertain lexical usage reported alongside the medicinal meaning.",
+      "source_refs": [
+        "lane:entry:24156"
+      ]
+    },
+    {
+      "meaning_id": "meaning:mirqidday:quickman",
+      "headword_arabic": "مِرْقِدَّى",
+      "definition": "A man quick in his affairs.",
+      "usage_conditions": "Describes promptness or rapidity in conducting one's business.",
+      "source_refs": [
+        "lane:entry:24158"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rqd:24140:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:rqd:ruqud:1"
+      ],
+      "note": "Sleep and the Quran-attested sleeping usage are covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24140:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rqd:holdback",
+        "meaning:rqd:inactivity"
+      ],
+      "note": "The figurative branches of holding back, neglect, stagnation, wear, and subsiding are covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24141:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:tarqid:quickwalk"
+      ],
+      "note": "The tentative quick-walking meaning is retained."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24142:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:arqada:causesleep"
+      ],
+      "note": "The causative sleep meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24142:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:arqada:reside"
+      ],
+      "note": "The residence meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24143:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:taraqada:feignsleep"
+      ],
+      "note": "The feigned-sleep construction is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24144:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:irqadda:speed"
+      ],
+      "note": "The rapid or headlong movement branch is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24145:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:istarqada:overcomesleep"
+      ],
+      "note": "The being overcome by sleep meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24146:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:raqd:placename"
+      ],
+      "note": "The place-name and millstone usage is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24147:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense:rqd:ruqud:1"
+      ],
+      "note": "Ordinary sleep is covered by the Quranic sleep sense without creating a redundant nominal subentry."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24147:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:raqda:extinction"
+      ],
+      "note": "The specialized suspended-vitality meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24147:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:raqda:heatspell"
+      ],
+      "note": "The figurative heat-period meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24148:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رَقُود."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24149:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:raqadan:leaping"
+      ],
+      "note": "The lively-leaping verbal-noun meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24150:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Raqd place-name entry."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24151:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:raqud:habitualsleeper"
+      ],
+      "note": "The habitual-sleeper and related idiomatic usage is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24152:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding رَقُود entry."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24153:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense:rqd:ruqud:1"
+      ],
+      "note": "The plural active-participle reading “sleepers” is covered under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24154:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:raqud:vessel"
+      ],
+      "note": "The vessel meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24154:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:raqud:fish"
+      ],
+      "note": "The fish meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24155:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:rqd:marqad:1"
+      ],
+      "note": "The sleeping-place meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24155:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:rqd:marqad:2"
+      ],
+      "note": "The tentative verbal-noun reading of the Quranic usage is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24156:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:murqid:medicine"
+      ],
+      "note": "The sleep-inducing medicine meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24156:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:murqid:road"
+      ],
+      "note": "The uncertain conspicuous-road meaning is retained."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24157:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding مُرْقِد entry."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24158:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رَقُود."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24158:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:mirqidday:quickman"
+      ],
+      "note": "The quick-man meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:rqd:24159:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رَقُود."
+    }
+  ],
+  "cautions": [
+    "رُقُود in 18:18 has two supported grammatical analyses: a verbal noun meaning “sleep” and a plural referring to sleeping persons. These are presented as one lexical sense because the semantic content is the same.",
+    "The alternative verbal-noun interpretation of مَرْقَدِنَا is tentative; the supplied Quran context directly supports the sleeping-place reading."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

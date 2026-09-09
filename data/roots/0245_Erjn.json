@@ -1,0 +1,155 @@
+{
+  "root": "Erjn",
+  "arabic": "عرجن",
+  "root_idea": {
+    "summary": "The attested lexical field centers on the date-palm raceme or stalk, especially its dry, slender, curved remnant.",
+    "development": "The base noun denotes a palm raceme or its remaining stalk; its characteristic slenderness and curvature motivate the Quranic comparison with the moon. Derived usages extend the vocabulary to striking with a raceme or stick and to raceme-patterned cloth, while a separate plant sense is also recorded.",
+    "source_refs": [
+      "lane:entry:2719",
+      "lane:entry:2718",
+      "lane:entry:2720"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Erjn:Eurojuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "urjn_form_urjun",
+      "reason": "Quran-attested nominal headword, normalized from the oblique surface form to the citation form عُرْجُون."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "urjn_form_urjun",
+      "form_group_ids": [
+        "qac-form:Erjn:Eurojuwn:nominal:-"
+      ],
+      "headword_arabic": "عُرْجُون",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "urjn_s1",
+          "definition": "A date-palm raceme or stalk, especially the old, dry, slender, curved base or main stalk left after the fruit-stalks have been removed.",
+          "usage_conditions": "In the Quranic comparison, the waning moon is likened to the old form of this stalk for its slenderness and curvature. The cited Quran-focused interpretation relates the object to the raceme's clustered or layered branches.",
+          "source_refs": [
+            "lane:entry:2719",
+            "mufradat:row:962"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "36:39",
+          "word_location": "36:39:6",
+          "sense_ids": [
+            "urjn_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "urjn_cm_strike",
+      "headword_arabic": "عَرْجَنَ",
+      "definition": "To strike or beat with a date-palm raceme or a stick.",
+      "usage_conditions": "A transitive derived verb, attested in a construction using the raceme or stick as the instrument.",
+      "source_refs": [
+        "lane:entry:2718"
+      ]
+    },
+    {
+      "meaning_id": "urjn_cm_pattern",
+      "headword_arabic": "عَرْجَنَ",
+      "definition": "To figure or decorate a garment or piece of cloth with forms of date-palm racemes.",
+      "usage_conditions": "A derived verb describing the application of raceme-shaped designs; عَرَاجِين is the plural of عُرْجُون.",
+      "source_refs": [
+        "lane:entry:2718"
+      ]
+    },
+    {
+      "meaning_id": "urjn_cm_smear",
+      "headword_arabic": "عَرْجَنَ",
+      "definition": "To smear or rub over a person or thing with blood, saffron, or henna-like dye.",
+      "usage_conditions": "A derived transitive usage specifying the material applied to the surface.",
+      "source_refs": [
+        "lane:entry:2718"
+      ]
+    },
+    {
+      "meaning_id": "urjn_cm_plant",
+      "headword_arabic": "عُرْجُون",
+      "definition": "A white fungus-like plant, compared with a toadstool or a white truffle; when dry, it takes on a rounded form.",
+      "usage_conditions": "A separate botanical usage from the date-palm raceme sense; its plural is reported as عَرَاجِين.",
+      "source_refs": [
+        "lane:entry:2719"
+      ]
+    },
+    {
+      "meaning_id": "urjn_cm_muarjan",
+      "headword_arabic": "مُعَرْجَن",
+      "definition": "A garment or piece of cloth patterned with forms of date-palm racemes.",
+      "usage_conditions": "A derived descriptive or resultative form referring to cloth bearing raceme-shaped designs.",
+      "source_refs": [
+        "lane:entry:2720"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Erjn:2718:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "urjn_cm_strike"
+      ],
+      "note": "The striking or beating construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:Erjn:2718:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "urjn_cm_pattern"
+      ],
+      "note": "The cloth-decoration construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:Erjn:2718:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "urjn_cm_smear"
+      ],
+      "note": "The smearing or rubbing construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:Erjn:2719:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "urjn_s1"
+      ],
+      "note": "The date-palm raceme, dry curved stalk, and Quranic comparison are represented."
+    },
+    {
+      "unit_id": "lane-unit:Erjn:2719:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "urjn_cm_plant"
+      ],
+      "note": "The separate fungus-like plant usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:Erjn:2720:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "urjn_cm_muarjan"
+      ],
+      "note": "The patterned-cloth descriptive form is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is recorded by QAC as the oblique form عُرْجُونِ; the public headword is normalized to عُرْجُون.",
+    "The fungus-like plant usage is a separate Classical Arabic branch and should not be conflated with the Quranic date-palm stalk sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

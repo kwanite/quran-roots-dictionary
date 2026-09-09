@@ -1,0 +1,969 @@
+{
+  "root": "swA",
+  "arabic": "سوأ",
+  "root_idea": {
+    "summary": "The root centers on ugliness, badness, and what is regarded as foul, harmful, distressing, or disgraceful.",
+    "development": "From perceived ugliness or bad appearance, the lexical field extends to evil conduct, harmful or distressing conditions, misfortune, shameful exposure, and the evil outcome of an act.",
+    "source_refs": [
+      "maqayis:row:2518",
+      "mufradat:row:736"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:swA:saA^'a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_saa",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:swA:>asaA^'a:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_asaa",
+      "reason": "Displayed under the normalized Form IV perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:swA:>asowa>:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_aswa",
+      "reason": "Displayed as the superlative adjective أَسْوَأُ."
+    },
+    {
+      "form_group_id": "qac-form:swA:musiY^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_musii",
+      "reason": "Displayed as the active participle citation form مُسِيء."
+    },
+    {
+      "form_group_id": "qac-form:swA:sawo':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_saw",
+      "reason": "Displayed as the noun سَوْء."
+    },
+    {
+      "form_group_id": "qac-form:swA:sawo'a`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform_sawaa",
+      "reason": "The Quranic plural سَوْءَات is represented under its singular citation form سَوْءَة."
+    },
+    {
+      "form_group_id": "qac-form:swA:sawo'ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_sawaa",
+      "reason": "Displayed as the singular citation form سَوْءَة, together with its Quranic plural."
+    },
+    {
+      "form_group_id": "qac-form:swA:say~i_#aAt:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform_sayyi_a",
+      "reason": "The Quranic plural سَيِّئَات is represented under its singular lexical citation form سَيِّئَة."
+    },
+    {
+      "form_group_id": "qac-form:swA:say~i}:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_sayyi",
+      "reason": "Displayed as the masculine adjective/noun سَيِّئ."
+    },
+    {
+      "form_group_id": "qac-form:swA:say~i}ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_sayyi_a",
+      "reason": "Displayed as the feminine noun/adjective سَيِّئَة, together with its Quranic plural."
+    },
+    {
+      "form_group_id": "qac-form:swA:suw^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_suw",
+      "reason": "Displayed as the noun سُوء."
+    },
+    {
+      "form_group_id": "qac-form:swA:s~uw^>aY`^:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_suwa",
+      "reason": "Displayed as the distinct noun/adjective سُوءَى."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_saa",
+      "form_group_ids": [
+        "qac-form:swA:saA^'a:verb:I"
+      ],
+      "headword_arabic": "سَاءَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 30,
+      "senses": [
+        {
+          "sense_id": "qsen_saa_1",
+          "definition": "To be or become evil, bad, foul, or unseemly; to be an evil course, result, or outcome.",
+          "usage_conditions": "Used evaluatively in constructions comparable to بَئْسَ, including expressions in which a course, destination, abode, action, or result is judged evil.",
+          "source_refs": [
+            "lane:entry:42576",
+            "mufradat:row:736"
+          ]
+        },
+        {
+          "sense_id": "qsen_saa_2",
+          "definition": "To displease, grieve, vex, or distress someone.",
+          "usage_conditions": "Used transitively; passive forms describe someone being distressed or an outward sign of grief or displeasure.",
+          "source_refs": [
+            "lane:entry:42576",
+            "mufradat:row:736"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:32",
+          "word_location": "17:32:7",
+          "sense_ids": [
+            "qsen_saa_1"
+          ]
+        },
+        {
+          "verse_key": "3:120",
+          "word_location": "3:120:4",
+          "sense_ids": [
+            "qsen_saa_2"
+          ]
+        },
+        {
+          "verse_key": "11:77",
+          "word_location": "11:77:5",
+          "sense_ids": [
+            "qsen_saa_2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_asaa",
+      "form_group_ids": [
+        "qac-form:swA:>asaA^'a:verb:IV"
+      ],
+      "headword_arabic": "أَسَاءَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qsen_asaa_1",
+          "definition": "To do evil, act wrongly, or treat someone badly.",
+          "usage_conditions": "May be construed with prepositions such as إِلَى, لِ, عَلَى, or بِ; it is the opposite of أَحْسَنَ in conduct.",
+          "source_refs": [
+            "lane:entry:42578",
+            "mufradat:row:736"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "41:46",
+          "word_location": "41:46:6",
+          "sense_ids": [
+            "qsen_asaa_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_aswa",
+      "form_group_ids": [
+        "qac-form:swA:>asowa>:nominal:-"
+      ],
+      "headword_arabic": "أَسْوَأُ",
+      "public_pos_label": "Adjective · elative/superlative",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen_aswa_1",
+          "definition": "More or most evil, bad, ugly, or objectionable; worst.",
+          "usage_conditions": "Used as an elative adjective in comparison or superlative evaluation.",
+          "source_refs": [
+            "lane:entry:42591"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:35",
+          "word_location": "39:35:4",
+          "sense_ids": [
+            "qsen_aswa_1"
+          ]
+        },
+        {
+          "verse_key": "41:27",
+          "word_location": "41:27:7",
+          "sense_ids": [
+            "qsen_aswa_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_musii",
+      "form_group_ids": [
+        "qac-form:swA:musiY^':nominal:-"
+      ],
+      "headword_arabic": "مُسِيء",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_musii_1",
+          "definition": "One who does evil or acts wrongly; an evildoer.",
+          "usage_conditions": "Active-participial use of Form IV أَسَاءَ, describing a person characterized by evil conduct.",
+          "source_refs": [
+            "lane:entry:42578",
+            "mufradat:row:736"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "40:58",
+          "word_location": "40:58:10",
+          "sense_ids": [
+            "qsen_musii_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_saw",
+      "form_group_ids": [
+        "qac-form:swA:sawo':nominal:-"
+      ],
+      "headword_arabic": "سَوْء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "qsen_saw_1",
+          "definition": "Evilness or badness, especially evil nature, conduct, or an evil deed.",
+          "usage_conditions": "Used as a noun and also attributively in expressions describing a person, action, or quality as evil or displeasing.",
+          "source_refs": [
+            "lane:entry:42580"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:74",
+          "word_location": "21:74:15",
+          "sense_ids": [
+            "qsen_saw_1"
+          ]
+        },
+        {
+          "verse_key": "25:40",
+          "word_location": "25:40:8",
+          "sense_ids": [
+            "qsen_saw_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_sawaa",
+      "form_group_ids": [
+        "qac-form:swA:sawo'ap:nominal:-",
+        "qac-form:swA:sawo'a`t:nominal:-"
+      ],
+      "headword_arabic": "سَوْءَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "qsen_sawaa_1",
+          "definition": "The private parts or nakedness, understood as what is shameful to expose.",
+          "usage_conditions": "In Quranic usage, refers to the private parts or exposed nakedness in the account of Adam and Eve and related clothing imagery.",
+          "source_refs": [
+            "lane:entry:42583",
+            "mufradat:row:736"
+          ]
+        },
+        {
+          "sense_id": "qsen_sawaa_2",
+          "definition": "A corpse or dead body.",
+          "usage_conditions": "A Quranic contextual use in which a dead body is something unseemly or shameful to leave exposed.",
+          "source_refs": [
+            "lane:entry:42583",
+            "mufradat:row:736"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:20",
+          "word_location": "7:20:10",
+          "sense_ids": [
+            "qsen_sawaa_1"
+          ]
+        },
+        {
+          "verse_key": "5:31",
+          "word_location": "5:31:10",
+          "sense_ids": [
+            "qsen_sawaa_2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_sayyi_a",
+      "form_group_ids": [
+        "qac-form:swA:say~i}ap:nominal:-",
+        "qac-form:swA:say~i_#aAt:nominal:-"
+      ],
+      "headword_arabic": "سَيِّئَة",
+      "public_pos_label": "Feminine noun / adjective",
+      "verb_form": null,
+      "occurrence_count": 58,
+      "senses": [
+        {
+          "sense_id": "qsen_sayyi_a_1",
+          "definition": "An evil act, deed, fault, offense, sin, or act of disobedience.",
+          "usage_conditions": "Opposed to حَسَنَة; the plural سَيِّئَات denotes multiple evil deeds or acts and may be used substantively.",
+          "source_refs": [
+            "lane:entry:42590",
+            "mufradat:row:736"
+          ]
+        },
+        {
+          "sense_id": "qsen_sayyi_a_2",
+          "definition": "An evil event, misfortune, affliction, or adverse consequence.",
+          "usage_conditions": "Used in contrast with حَسَنَة for an unwelcome circumstance or occurrence, including an evil outcome associated with what people have done.",
+          "source_refs": [
+            "lane:entry:42590",
+            "mufradat:row:736"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:160",
+          "word_location": "6:160:9",
+          "sense_ids": [
+            "qsen_sayyi_a_1"
+          ]
+        },
+        {
+          "verse_key": "11:114",
+          "word_location": "11:114:11",
+          "sense_ids": [
+            "qsen_sayyi_a_1"
+          ]
+        },
+        {
+          "verse_key": "3:120",
+          "word_location": "3:120:7",
+          "sense_ids": [
+            "qsen_sayyi_a_2"
+          ]
+        },
+        {
+          "verse_key": "16:34",
+          "word_location": "16:34:2",
+          "sense_ids": [
+            "qsen_sayyi_a_2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_sayyi",
+      "form_group_ids": [
+        "qac-form:swA:say~i}:nominal:-"
+      ],
+      "headword_arabic": "سَيِّئ",
+      "public_pos_label": "Adjective / noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qsen_sayyi_1",
+          "definition": "Evil, bad, foul, unseemly, or objectionable.",
+          "usage_conditions": "Applied adjectivally to a thing, saying, action, quality, or circumstance; it may also be substantivized as “the evil.”",
+          "source_refs": [
+            "lane:entry:42589",
+            "mufradat:row:736"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "35:43",
+          "word_location": "35:43:5",
+          "sense_ids": [
+            "qsen_sayyi_1"
+          ]
+        },
+        {
+          "verse_key": "9:102",
+          "word_location": "9:102:8",
+          "sense_ids": [
+            "qsen_sayyi_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_suw",
+      "form_group_ids": [
+        "qac-form:swA:suw^':nominal:-"
+      ],
+      "headword_arabic": "سُوء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 50,
+      "senses": [
+        {
+          "sense_id": "qsen_suw_1",
+          "definition": "Evil, harm, injury, mischief, calamity, or any distressing or harmful condition.",
+          "usage_conditions": "The broad noun covers worldly, bodily, psychological, and eschatological distress; in constructions such as سُوءُ الْحِسَاب it denotes an evil or exacting reckoning, and in دَائِرَةُ السُّوء it can denote defeat, affliction, torment, perdition, destruction, or a similarly evil outcome.",
+          "source_refs": [
+            "lane:entry:42581",
+            "mufradat:row:736"
+          ]
+        },
+        {
+          "sense_id": "qsen_suw_2",
+          "definition": "Diabolical possession, insanity, or madness.",
+          "usage_conditions": "A specialized Quranic interpretation in which سُوء denotes a debilitating or deranging affliction, not the ordinary generic sense of evil.",
+          "source_refs": [
+            "lane:entry:42581"
+          ]
+        },
+        {
+          "sense_id": "qsen_suw_3",
+          "definition": "Leprosy or a comparable physical affliction.",
+          "usage_conditions": "A specialized Quranic interpretation of سُوء in expressions describing a hand or bodily condition; it should not be generalized to every occurrence of the noun.",
+          "source_refs": [
+            "lane:entry:42581",
+            "mufradat:row:736"
+          ]
+        },
+        {
+          "sense_id": "qsen_suw_4",
+          "definition": "The fire of Hell.",
+          "usage_conditions": "A reported Quranic interpretation of a reading of سُوء in a context concerning the fate of earlier peoples; this is a specialized interpretation rather than the ordinary meaning of the noun.",
+          "source_refs": [
+            "lane:entry:42581",
+            "mufradat:row:736"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:32",
+          "word_location": "28:32:9",
+          "sense_ids": [
+            "qsen_suw_1"
+          ]
+        },
+        {
+          "verse_key": "13:11",
+          "word_location": "13:11:26",
+          "sense_ids": [
+            "qsen_suw_1"
+          ]
+        },
+        {
+          "verse_key": "7:188",
+          "word_location": "7:188:21",
+          "sense_ids": [
+            "qsen_suw_2"
+          ]
+        },
+        {
+          "verse_key": "20:22",
+          "word_location": "20:22:9",
+          "sense_ids": [
+            "qsen_suw_3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_suwa",
+      "form_group_ids": [
+        "qac-form:swA:s~uw^>aY`^:nominal:-"
+      ],
+      "headword_arabic": "سُوءَى",
+      "public_pos_label": "Noun / feminine elative",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_suwa_1",
+          "definition": "The evil or worst end; an evil, ugly, or blameworthy act or condition, opposed to الْحُسْنَى.",
+          "usage_conditions": "Used substantively for what is evil or ugly and, in Quranic usage, for the evil outcome or end of those who act evilly.",
+          "source_refs": [
+            "lane:entry:42586",
+            "mufradat:row:736"
+          ]
+        },
+        {
+          "sense_id": "qsen_suwa_2",
+          "definition": "The fire of Hell.",
+          "usage_conditions": "A specialized Quranic interpretation of سُوءَى as the evil end or Hell-fire, associated with its opposition to الْحُسْنَى.",
+          "source_refs": [
+            "lane:entry:42586",
+            "maqayis:row:2518",
+            "mufradat:row:736"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "30:10",
+          "word_location": "30:10:6",
+          "sense_ids": [
+            "qsen_suwa_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_saa_badopinion",
+      "headword_arabic": "سَاءَ",
+      "definition": "To hold or form an evil opinion of someone or something.",
+      "usage_conditions": "Used in the construction سُؤْتُ بِهِ ظَنًّا or سُؤْتُ بِهِ الظَّنَّ, with the case of ظنّ varying according to the construction.",
+      "source_refs": [
+        "lane:entry:42576"
+      ]
+    },
+    {
+      "meaning_id": "cm_saa_facecurse",
+      "headword_arabic": "سَاءَ",
+      "definition": "To imprecate or disgrace someone by saying, in effect, “May God remove his face from good.”",
+      "usage_conditions": "A specialized expression involving سُؤْتُ وَجْهَ فُلَانٍ and related forms.",
+      "source_refs": [
+        "lane:entry:42576"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawwaa_corrupt",
+      "headword_arabic": "سَوَّأَ",
+      "definition": "To corrupt, mar, or spoil something.",
+      "usage_conditions": "Opposed to rectifying or setting something right.",
+      "source_refs": [
+        "lane:entry:42577"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawwaa_reproach",
+      "headword_arabic": "سَوَّأَ",
+      "definition": "To disapprove of someone’s deed and tell them that they have done ill.",
+      "usage_conditions": "A causative or interpersonal use involving criticism or reproach of an action.",
+      "source_refs": [
+        "lane:entry:42577"
+      ]
+    },
+    {
+      "meaning_id": "cm_asaa_mar",
+      "headword_arabic": "أَسَاءَ",
+      "definition": "To mar, spoil, or fail to do something well.",
+      "usage_conditions": "Applied especially to a thing or task that has been performed badly or spoiled.",
+      "source_refs": [
+        "lane:entry:42578"
+      ]
+    },
+    {
+      "meaning_id": "cm_istaa_experience",
+      "headword_arabic": "اِسْتَاءَ",
+      "definition": "To experience something disliked, displeasure, grief, or anxiety.",
+      "usage_conditions": "Intransitive; may describe becoming upset or distressed on account of an event or report.",
+      "source_refs": [
+        "lane:entry:42579"
+      ]
+    },
+    {
+      "meaning_id": "cm_suw_eyeweakness",
+      "headword_arabic": "سُوء",
+      "definition": "Weakness of the eye or impaired eyesight.",
+      "usage_conditions": "A rare technical use reported for the noun with ḍamma; it is not a general Quranic meaning of سُوء.",
+      "source_refs": [
+        "lane:entry:42581"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawaa_anatomy",
+      "headword_arabic": "سَوْءَة",
+      "definition": "The pudendum or external genital organs, and the anus.",
+      "usage_conditions": "A precise anatomical use underlying the broader notion of private parts or nakedness.",
+      "source_refs": [
+        "lane:entry:42583"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawaa_disgrace",
+      "headword_arabic": "سَوْءَة",
+      "definition": "Any saying, action, quality, custom, or thing of which one is ashamed; a disgrace or disgraceful act.",
+      "usage_conditions": "A transferred use derived from the shame associated with exposure of the private parts.",
+      "source_refs": [
+        "lane:entry:42583"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawaa_contrarywife",
+      "headword_arabic": "السَّوْءَة",
+      "definition": "A contrarious or difficult wife or woman.",
+      "usage_conditions": "A specialized lexical use of the definite feminine form.",
+      "source_refs": [
+        "lane:entry:42583"
+      ]
+    },
+    {
+      "meaning_id": "cm_saaya_idiom",
+      "headword_arabic": "سَايَة",
+      "definition": "In the expression ضَرَبَ فُلَانٌ عَلَى فُلَانٍ سَايَةً, either to do something displeasing or evil to someone, or to make a way toward achieving one’s purpose with him.",
+      "usage_conditions": "The lexical analysis is disputed: the expression is explained either from سَوْء or from a related form meaning to make or smooth a way.",
+      "source_refs": [
+        "lane:entry:42584"
+      ]
+    },
+    {
+      "meaning_id": "cm_sayyi_recompense",
+      "headword_arabic": "سَيِّئَة",
+      "definition": "The recompense or consequence of an evil act.",
+      "usage_conditions": "A figurative extension from the evil act itself to what is returned or brought about by it.",
+      "source_refs": [
+        "lane:entry:42590"
+      ]
+    },
+    {
+      "meaning_id": "cm_aswa_person",
+      "headword_arabic": "أَسْوَأُ",
+      "definition": "Evil, bad, ugly, or abominable when applied directly to a man or woman.",
+      "usage_conditions": "An attributive use describing a person rather than an elative comparison.",
+      "source_refs": [
+        "lane:entry:42591"
+      ]
+    },
+    {
+      "meaning_id": "cm_masaa_faults",
+      "headword_arabic": "مَسَاءَة",
+      "definition": "Grief or vexation; a vice, fault, defect, disease, or act of disobedience.",
+      "usage_conditions": "The noun may denote either the experience or cause of distress, or defects and faults regarded as objectionable.",
+      "source_refs": [
+        "lane:entry:42592"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawaan_phrase",
+      "headword_arabic": "خَزْيَانُ سَوَانُ",
+      "definition": "In the phrase خَزْيَانُ سَوَانُ, ashamed, base, vile, ignominious, and evil.",
+      "usage_conditions": "An idiomatic or altered form whose second element is explained in connection with أَسْوَأُ.",
+      "source_refs": [
+        "lane:entry:42588"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:swA:42576:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_saa_1"
+      ],
+      "note": "Form I intransitive evaluative use, including Quranic constructions."
+    },
+    {
+      "unit_id": "lane-unit:swA:42576:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_saa_badopinion"
+      ],
+      "note": "Construction meaning to hold an evil opinion."
+    },
+    {
+      "unit_id": "lane-unit:swA:42576:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_saa_2"
+      ],
+      "note": "Transitive displeasing, grieving, or vexing use."
+    },
+    {
+      "unit_id": "lane-unit:swA:42576:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_saa_facecurse"
+      ],
+      "note": "Specialized face-disgracing imprecation."
+    },
+    {
+      "unit_id": "lane-unit:swA:42577:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawwaa_corrupt"
+      ],
+      "note": "Form II corrupting or marring use."
+    },
+    {
+      "unit_id": "lane-unit:swA:42577:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawwaa_reproach"
+      ],
+      "note": "Form II reproach and disapproval of a deed."
+    },
+    {
+      "unit_id": "lane-unit:swA:42578:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_asaa_1"
+      ],
+      "note": "Form IV doing evil or acting ill."
+    },
+    {
+      "unit_id": "lane-unit:swA:42578:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:swA:42578:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asaa_mar"
+      ],
+      "note": "Form IV marring or failing to do a thing well."
+    },
+    {
+      "unit_id": "lane-unit:swA:42579:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istaa_experience"
+      ],
+      "note": "Experiencing displeasure, grief, or anxiety."
+    },
+    {
+      "unit_id": "lane-unit:swA:42580:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_saw_1"
+      ],
+      "note": "Noun and attributive evilness of person or action."
+    },
+    {
+      "unit_id": "lane-unit:swA:42580:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:swA:42581:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_suw_1"
+      ],
+      "note": "General noun for evil, harm, distress, calamity, and related Quranic constructions."
+    },
+    {
+      "unit_id": "lane-unit:swA:42581:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_suw_2"
+      ],
+      "note": "Specialized Quranic interpretation as possession or madness."
+    },
+    {
+      "unit_id": "lane-unit:swA:42581:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_suw_3"
+      ],
+      "note": "Specialized Quranic interpretation as leprosy."
+    },
+    {
+      "unit_id": "lane-unit:swA:42581:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_suw_4"
+      ],
+      "note": "Specialized Quranic interpretation as Hell-fire."
+    },
+    {
+      "unit_id": "lane-unit:swA:42581:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_suw_eyeweakness"
+      ],
+      "note": "Rare technical use for weakness of the eye."
+    },
+    {
+      "unit_id": "lane-unit:swA:42582:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سَيِّئ."
+    },
+    {
+      "unit_id": "lane-unit:swA:42583:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_sawaa_1",
+        "cm_sawaa_anatomy"
+      ],
+      "note": "Private-parts meaning and its precise anatomical specification."
+    },
+    {
+      "unit_id": "lane-unit:swA:42583:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_sawaa_2"
+      ],
+      "note": "Quranic corpse meaning."
+    },
+    {
+      "unit_id": "lane-unit:swA:42583:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawaa_disgrace"
+      ],
+      "note": "Transferred meaning of a disgraceful or shameful thing."
+    },
+    {
+      "unit_id": "lane-unit:swA:42583:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawaa_contrarywife"
+      ],
+      "note": "Specialized meaning of a contrarious woman."
+    },
+    {
+      "unit_id": "lane-unit:swA:42584:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_saaya_idiom"
+      ],
+      "note": "Idiom with its two reported lexical analyses."
+    },
+    {
+      "unit_id": "lane-unit:swA:42585:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:swA:42586:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_suwa_1",
+        "qsen_aswa_1"
+      ],
+      "note": "Feminine elative relation and noun meaning of an evil act."
+    },
+    {
+      "unit_id": "lane-unit:swA:42586:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_suwa_2"
+      ],
+      "note": "Specialized Quranic interpretation as Hell-fire."
+    },
+    {
+      "unit_id": "lane-unit:swA:42587:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:swA:42587:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:swA:42588:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawaan_phrase"
+      ],
+      "note": "Idiomatic phrase and its lexical explanation."
+    },
+    {
+      "unit_id": "lane-unit:swA:42588:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:swA:42589:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_sayyi_1"
+      ],
+      "note": "Adjective meaning evil or bad, explicitly used in a Quranic expression."
+    },
+    {
+      "unit_id": "lane-unit:swA:42590:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_sayyi_a_1"
+      ],
+      "note": "Evil act, fault, sin, or disobedience."
+    },
+    {
+      "unit_id": "lane-unit:swA:42590:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sayyi_recompense"
+      ],
+      "note": "Figurative recompense of an evil act."
+    },
+    {
+      "unit_id": "lane-unit:swA:42590:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_sayyi_a_2"
+      ],
+      "note": "Evil accident, misfortune, affliction, or adverse circumstance."
+    },
+    {
+      "unit_id": "lane-unit:swA:42591:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_aswa_1"
+      ],
+      "note": "Elative meaning of most evil or worst."
+    },
+    {
+      "unit_id": "lane-unit:swA:42591:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_aswa_person"
+      ],
+      "note": "Ordinary attributive use for an evil or ugly person."
+    },
+    {
+      "unit_id": "lane-unit:swA:42592:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masaa_faults"
+      ],
+      "note": "Masāʾah as grief, vexation, faults, defects, diseases, or disobedience."
+    },
+    {
+      "unit_id": "lane-unit:swA:42593:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The specialized interpretations of سُوء as possession or madness, leprosy, and Hell-fire are context-bound Quranic readings and should not be generalized to every occurrence of the noun.",
+    "Lane's historical Quran citations have not been converted into modern verse locations unless the corresponding QAC occurrence or independently secure Mufradat location is supplied."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

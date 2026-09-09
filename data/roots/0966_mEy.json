@@ -1,0 +1,136 @@
+{
+  "root": "mEy",
+  "arabic": "معي",
+  "root_idea": {
+    "summary": "The supplied lexical evidence centers on the intestine or bowels, with specialized anatomical, topographical, and tropical extensions.",
+    "development": "No independent root-level semantic principle or historical development is supplied in the packet beyond these lexical attestations.",
+    "source_refs": [
+      "lane:entry:5777",
+      "lane:entry:5778"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mEy:>amoEaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:mEy:amEaA",
+      "reason": "Displayed under the normalized plural noun citation form أَمْعَاء."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:mEy:amEaA",
+      "form_group_ids": [
+        "qac-form:mEy:>amoEaA^':nominal:-"
+      ],
+      "headword_arabic": "أَمْعَاء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsense:mEy:amEaA:1",
+          "definition": "Intestines; bowels or guts.",
+          "usage_conditions": "A plural anatomical noun for the intestinal organs and passages through which food passes after the stomach.",
+          "source_refs": [
+            "lane:entry:5778"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "47:15",
+          "word_location": "47:15:44",
+          "sense_ids": [
+            "qsense:mEy:amEaA:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cmean:mEy:miya:depressed-place",
+      "headword_arabic": "مِعًى",
+      "definition": "A narrow, depressed place.",
+      "usage_conditions": "A topographical noun use.",
+      "source_refs": [
+        "lane:entry:5777"
+      ]
+    },
+    {
+      "meaning_id": "cmean:mEy:miya:dung",
+      "headword_arabic": "مِعًى",
+      "definition": "Dung, in the expression بَنَاتٌ مِعًى.",
+      "usage_conditions": "Attested as a conventional expression.",
+      "source_refs": [
+        "lane:entry:5777"
+      ]
+    },
+    {
+      "meaning_id": "cmean:mEy:miya:rectum",
+      "headword_arabic": "المِعَى المُسْتَقِيمُ",
+      "definition": "The rectum.",
+      "usage_conditions": "A specific anatomical term referring to the straight intestine.",
+      "source_refs": [
+        "lane:entry:5777"
+      ]
+    },
+    {
+      "meaning_id": "cmean:mEy:amEaA:water-holes",
+      "headword_arabic": "أَمْعَاء",
+      "definition": "Water-holes.",
+      "usage_conditions": "A tropical or figurative use of the plural; the supplied evidence refers onward for fuller treatment.",
+      "source_refs": [
+        "lane:entry:5778"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mEy:5777:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean:mEy:miya:depressed-place"
+      ],
+      "note": "The unit directly defines a narrow, depressed place."
+    },
+    {
+      "unit_id": "lane-unit:mEy:5777:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean:mEy:miya:dung"
+      ],
+      "note": "The unit gives the expression بَنَاتٌ مِعًى for dung."
+    },
+    {
+      "unit_id": "lane-unit:mEy:5777:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean:mEy:miya:rectum"
+      ],
+      "note": "The unit defines المِعَى المُسْتَقِيمُ as the rectum."
+    },
+    {
+      "unit_id": "lane-unit:mEy:5778:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:mEy:amEaA:1"
+      ],
+      "note": "The unit defines أَمْعَاء as guts, bowels, or intestines."
+    },
+    {
+      "unit_id": "lane-unit:mEy:5778:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean:mEy:amEaA:water-holes"
+      ],
+      "note": "The unit explicitly reports a tropical water-holes use."
+    }
+  ],
+  "cautions": [
+    "No Maqāyīs or Mufradāt evidence was supplied, so the root idea is limited to the direct lexical evidence in the packet.",
+    "The specialized singular and tropical uses are kept separate from the Quranic plural noun sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

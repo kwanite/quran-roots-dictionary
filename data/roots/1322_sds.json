@@ -1,0 +1,617 @@
+{
+  "root": "sds",
+  "arabic": "سدس",
+  "root_idea": {
+    "summary": "The root is centered on the number six and on division into six equal parts.",
+    "development": "From this numerical base develop the sixth position and sixth share, sixfold dimensions and measures, the sixth-day watering interval of camels, and the tooth cast after the fourth tooth.",
+    "source_refs": [
+      "maqayis:row:2395",
+      "mufradat:row:675"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sds:saAdis:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sds-sadis",
+      "reason": "Displayed as the normalized ordinal citation form سَادِسٌ."
+    },
+    {
+      "form_group_id": "qac-form:sds:s~udus:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sds-sudus",
+      "reason": "Displayed as the normalized fractional citation form سُدُسٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "sds-sadis",
+      "form_group_ids": [
+        "qac-form:sds:saAdis:nominal:-"
+      ],
+      "headword_arabic": "سَادِسٌ",
+      "public_pos_label": "Ordinal noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sds-sadis-s1",
+          "definition": "The sixth member of a counted group; occupying position six.",
+          "usage_conditions": "Quranically used in the possessive construction سَادِسُهُمْ, “the sixth of them.”",
+          "source_refs": [
+            "lane:entry:40682",
+            "mufradat:row:675"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:22",
+          "word_location": "18:22:7",
+          "sense_ids": [
+            "sds-sadis-s1"
+          ]
+        },
+        {
+          "verse_key": "58:7",
+          "word_location": "58:7:24",
+          "sense_ids": [
+            "sds-sadis-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "sds-sudus",
+      "form_group_ids": [
+        "qac-form:sds:s~udus:nominal:-"
+      ],
+      "headword_arabic": "سُدُسٌ",
+      "public_pos_label": "Fractional noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sds-sudus-s1",
+          "definition": "One sixth; a sixth part of a whole.",
+          "usage_conditions": "In the Quranic occurrences, it denotes a prescribed sixth share in inheritance contexts.",
+          "source_refs": [
+            "lane:entry:40675",
+            "mufradat:row:675"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:11",
+          "word_location": "4:11:27",
+          "sense_ids": [
+            "sds-sudus-s1"
+          ]
+        },
+        {
+          "verse_key": "4:11",
+          "word_location": "4:11:48",
+          "sense_ids": [
+            "sds-sudus-s1"
+          ]
+        },
+        {
+          "verse_key": "4:12",
+          "word_location": "4:12:64",
+          "sense_ids": [
+            "sds-sudus-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "sds-cm-sadasa-share",
+      "headword_arabic": "سَدَسَ",
+      "definition": "To take a sixth share of people’s possessions.",
+      "usage_conditions": "Form I verb; used transitively with the people or property from which the share is taken.",
+      "source_refs": [
+        "lane:entry:40669"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sadasa-group",
+      "headword_arabic": "سَدَسَ",
+      "definition": "To become the sixth among a group, or to make a group or number six by joining it oneself.",
+      "usage_conditions": "Form I numerical usage; the same pattern may describe increasing a counted group by one, such as making fifty-nine sixty or fifteen sixteen.",
+      "source_refs": [
+        "lane:entry:40669"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-saddasa-six",
+      "headword_arabic": "سَدَّسَ",
+      "definition": "To make something six in number.",
+      "usage_conditions": "Form II causative numerical usage.",
+      "source_refs": [
+        "lane:entry:40670"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-saddasa-six-sided",
+      "headword_arabic": "سَدَّسَ",
+      "definition": "To make six-cornered, six-angled, hexagonal, or six-ribbed.",
+      "usage_conditions": "Form II usage describing the resulting sixfold shape or structure.",
+      "source_refs": [
+        "lane:entry:40670"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-saddasa-six-nights",
+      "headword_arabic": "سَدَّسَ",
+      "definition": "To remain six nights with one’s wife; by extension, to perform an act or say something six times.",
+      "usage_conditions": "A conventional Form II temporal or repetitive construction.",
+      "source_refs": [
+        "lane:entry:40670"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-asdasa-group",
+      "headword_arabic": "أَسْدَسَ",
+      "definition": "For a party to become six in number; in one numerical extension, to become sixty.",
+      "usage_conditions": "Form IV usage with a collective subject.",
+      "source_refs": [
+        "lane:entry:40671"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-asdasa-tooth",
+      "headword_arabic": "أَسْدَسَ",
+      "definition": "Of a camel, sheep, or goat, to cast the tooth called the سَدِيس, after the رَبَاعِيَة.",
+      "usage_conditions": "The casting is normally associated with the eighth year; a sheep or goat may also be described as six years old in this connection.",
+      "source_refs": [
+        "lane:entry:40671"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-camel-water-cycle",
+      "headword_arabic": "أَسْدَسَ / سِدْسٌ",
+      "definition": "For camels to come to water on the sixth day of their watering cycle.",
+      "usage_conditions": "The reckoning varies in the cited descriptions, but counts the preceding watering day as the first or describes five intervening days without water.",
+      "source_refs": [
+        "lane:entry:40671",
+        "lane:entry:40673"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sids-cardinal-six",
+      "headword_arabic": "سِدْسٌ",
+      "definition": "Six, as an archaic or original form of سِتّ, the feminine of سِتَّة.",
+      "usage_conditions": "A historical or variant cardinal form, with the plural أَسْدَاسٌ reported in the lexical discussion.",
+      "source_refs": [
+        "lane:entry:40673"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sids-sixth-offspring",
+      "headword_arabic": "سِدْسٌ",
+      "definition": "The sixth young one or offspring.",
+      "usage_conditions": "Nominal usage referring to birth or offspring order.",
+      "source_refs": [
+        "lane:entry:40673"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sudasa-pairs",
+      "headword_arabic": "سُدَاسَ",
+      "definition": "Six and six together, or six at a time.",
+      "usage_conditions": "A very rare reported usage; the source explicitly notes that it may not actually have been heard.",
+      "source_refs": [
+        "lane:entry:40676"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sudus-garment",
+      "headword_arabic": "سُدُوسٌ",
+      "definition": "A ṭaylasān-type cloak; more broadly, a garment of the color called خُضْرَة.",
+      "usage_conditions": "A nominal garment or garment-color designation, with variant vocalization سَدُوسٌ also reported.",
+      "source_refs": [
+        "lane:entry:40678",
+        "mufradat:row:675"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sudus-black",
+      "headword_arabic": "سُدُوسٌ",
+      "definition": "Smoke-black material from fat or lamp-black pigment.",
+      "usage_conditions": "A color or pigment designation, identified with نِيلَنْجٌ in the cited discussion.",
+      "source_refs": [
+        "lane:entry:40678"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sadis-tooth",
+      "headword_arabic": "سَدِيسٌ",
+      "definition": "The tooth after the رَبَاعِيَة and before the بَازِل.",
+      "usage_conditions": "A masculine or feminine anatomical term for the relevant tooth; plural forms are also reported.",
+      "source_refs": [
+        "lane:entry:40679"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sadis-animal-tooth",
+      "headword_arabic": "سَدِيسٌ",
+      "definition": "A camel, sheep, or goat casting its سَدِيس tooth.",
+      "usage_conditions": "The animal is generally in its eighth year; a sheep or goat may also be described as six years old.",
+      "source_refs": [
+        "lane:entry:40679"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sadis-measure",
+      "headword_arabic": "سَدِيسٌ",
+      "definition": "A type of measure, or a kind of مَكُّوك, used for measuring dates.",
+      "usage_conditions": "A concrete measure designation rather than a general numerical ordinal.",
+      "source_refs": [
+        "lane:entry:40679"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sadis-idiom",
+      "headword_arabic": "سَدِيسٌ",
+      "definition": "In لا آتِيكَ سَدِيسَ عُجَيْسٍ, a dialectal form related to سَجِيسَ and conveying “ever”; with negation, “never.”",
+      "usage_conditions": "Restricted to the cited idiomatic expression and its negative construction.",
+      "source_refs": [
+        "lane:entry:40679",
+        "mufradat:row:675"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sudasi-garment-length",
+      "headword_arabic": "سُدَاسِيٌّ",
+      "definition": "Six cubits in length, especially of an إِزَار garment.",
+      "usage_conditions": "An adjective of measured length applied to the specified garment.",
+      "source_refs": [
+        "lane:entry:40681"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sudasi-slave-height",
+      "headword_arabic": "سُدَاسِيٌّ",
+      "definition": "Six spans in height, applied to a slave.",
+      "usage_conditions": "The cited lexical usage specifically applies the adjective to a slave’s height.",
+      "source_refs": [
+        "lane:entry:40681"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sudasi-six-letter",
+      "headword_arabic": "سُدَاسِيٌّ",
+      "definition": "A word composed of six letters, whether radicals alone or radicals with augmentative letters.",
+      "usage_conditions": "A technical description of word form.",
+      "source_refs": [
+        "lane:entry:40681"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-sadis-sixteenth",
+      "headword_arabic": "سَادِسٌ",
+      "definition": "Sixteenth in the compound ordinal سَادِسَ عَشَرَ.",
+      "usage_conditions": "A compositional ordinal construction with the corresponding feminine form سَادِسَةَ عَشْرَةَ.",
+      "source_refs": [
+        "lane:entry:40682"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-musaddas-sixfold",
+      "headword_arabic": "مُسَدَّسٌ",
+      "definition": "Composed of six layers, strata, or distinct sections; also hexagonal or a hexagon.",
+      "usage_conditions": "A Form II passive participial adjective or noun describing sixfold composition or shape.",
+      "source_refs": [
+        "lane:entry:40684"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-musaddas-verse",
+      "headword_arabic": "مُسَدَّسٌ",
+      "definition": "A verse composed of six metrical feet.",
+      "usage_conditions": "Technical poetic usage.",
+      "source_refs": [
+        "lane:entry:40684"
+      ]
+    },
+    {
+      "meaning_id": "sds-cm-masdous-rope",
+      "headword_arabic": "مَسْدُوسٌ",
+      "definition": "A rope composed of six strands.",
+      "usage_conditions": "A passive participial descriptive noun for six-stranded construction.",
+      "source_refs": [
+        "lane:entry:40685"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sds:40669:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sadasa-share"
+      ],
+      "note": "The sixth-share verb is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40669:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sadasa-group"
+      ],
+      "note": "The sixth-in-a-group and numerical-increment usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40670:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-saddasa-six"
+      ],
+      "note": "Making something six is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40670:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-saddasa-six-sided"
+      ],
+      "note": "Six-sided and six-ribbed formation is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40670:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-saddasa-six-nights"
+      ],
+      "note": "The six-night and repetitive construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40671:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-asdasa-group"
+      ],
+      "note": "A group becoming six or sixty is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40671:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-asdasa-tooth"
+      ],
+      "note": "The Form IV animal-tooth usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40671:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-camel-water-cycle"
+      ],
+      "note": "The sixth-day camel-watering cycle is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40672:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سُدُسٌ."
+    },
+    {
+      "unit_id": "lane-unit:sds:40673:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sids-cardinal-six"
+      ],
+      "note": "The archaic cardinal form of six is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40673:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sds-cm-camel-water-cycle"
+      ],
+      "note": "The alternative camel-watering description is covered by the same lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:sds:40673:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sids-sixth-offspring"
+      ],
+      "note": "The sixth offspring meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40674:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سَدِيسٌ."
+    },
+    {
+      "unit_id": "lane-unit:sds:40674:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference identifying an epithet but supplying no lexical gloss."
+    },
+    {
+      "unit_id": "lane-unit:sds:40675:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-sudus-s1"
+      ],
+      "note": "The sixth-part meaning is represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:sds:40675:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an idiom explained elsewhere, without an explanation in this unit."
+    },
+    {
+      "unit_id": "lane-unit:sds:40676:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sudasa-pairs"
+      ],
+      "note": "The explicitly reported but doubtful six-and-six usage is retained."
+    },
+    {
+      "unit_id": "lane-unit:sds:40677:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:sds:40678:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sudus-garment"
+      ],
+      "note": "The garment and garment-color branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40678:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sudus-black"
+      ],
+      "note": "The smoke-black or lamp-black branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40679:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سُدُسٌ."
+    },
+    {
+      "unit_id": "lane-unit:sds:40679:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سُدَاسِيٌّ."
+    },
+    {
+      "unit_id": "lane-unit:sds:40679:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sadis-tooth"
+      ],
+      "note": "The named tooth is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40679:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sadis-animal-tooth"
+      ],
+      "note": "The animal casting the tooth is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40679:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sadis-measure"
+      ],
+      "note": "The date measure is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40679:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sadis-idiom"
+      ],
+      "note": "The dialectal idiom is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40680:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سِدْسٌ."
+    },
+    {
+      "unit_id": "lane-unit:sds:40681:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sudasi-garment-length"
+      ],
+      "note": "The six-cubit garment description is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40681:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sudasi-slave-height"
+      ],
+      "note": "The six-span slave-height usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40681:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sudasi-six-letter"
+      ],
+      "note": "The six-letter technical usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40682:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-sadis-s1"
+      ],
+      "note": "The ordinal sixth is represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:sds:40682:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-sadis-sixteenth"
+      ],
+      "note": "The compound ordinal sixteenth is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40683:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سندس, a distinct lexical identity."
+    },
+    {
+      "unit_id": "lane-unit:sds:40684:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-musaddas-sixfold"
+      ],
+      "note": "Sixfold composition is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40684:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sds-cm-musaddas-sixfold"
+      ],
+      "note": "The hexagonal specialization is covered by the sixfold shape meaning."
+    },
+    {
+      "unit_id": "lane-unit:sds:40684:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-musaddas-verse"
+      ],
+      "note": "The six-foot verse is represented."
+    },
+    {
+      "unit_id": "lane-unit:sds:40685:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sds-cm-masdous-rope"
+      ],
+      "note": "The six-stranded rope is represented."
+    }
+  ],
+  "cautions": [
+    "The reported سُدَاسَ sense is explicitly marked as possibly unattested and should be treated as marginal.",
+    "The Quranic ordinal is normalized to سَادِسٌ and the fractional form to سُدُسٌ; the supplied Quran occurrences are inflected or definite surface forms."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Mufradat mention of سندس and الإستبرق, and the Lane pointer to سندس, are not assigned to this root artifact because they are distinct lexical identities and the packet supplies no direct evidence establishing them as forms of canonical root سدس."
+  ]
+}

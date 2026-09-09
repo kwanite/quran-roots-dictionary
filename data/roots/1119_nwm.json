@@ -1,0 +1,231 @@
+{
+  "root": "nwm",
+  "arabic": "نوم",
+  "root_idea": {
+    "summary": "The root centers on stillness and cessation of movement, especially as realized in sleep.",
+    "development": "From physical stillness and sleep, usage extends to settled reassurance, dormancy or stagnation, worn condition, and objects associated with sleeping. These extensions are not all Quranic word senses.",
+    "source_refs": [
+      "maqayis:row:4797"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nwm:manaAm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nwm-manam",
+      "reason": "Displayed under the normalized noun مَنَام."
+    },
+    {
+      "form_group_id": "qac-form:nwm:naA^}imuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nwm-naim",
+      "reason": "Displayed under the singular active-participle citation form نَائِم rather than the Quranic plural."
+    },
+    {
+      "form_group_id": "qac-form:nwm:nawom:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nwm-nawm",
+      "reason": "Displayed as the ordinary verbal noun نَوْم."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nwm-manam",
+      "form_group_ids": [
+        "qac-form:nwm:manaAm:nominal:-"
+      ],
+      "headword_arabic": "مَنَام",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "nwm-manam-s1",
+          "definition": "Sleep; the state of sleeping.",
+          "usage_conditions": "In 39:42, the word occurs in the account of souls being taken during sleep; the supplied lexical discussion characterizes sleep in this setting as a temporary or light death, without making it actual death. In 8:43 and 37:102, contextual translations render the word as “dream,” referring to an experience associated with sleep.",
+          "source_refs": [
+            "mufradat:row:1500"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:43",
+          "word_location": "8:43:5",
+          "sense_ids": [
+            "nwm-manam-s1"
+          ]
+        },
+        {
+          "verse_key": "30:23",
+          "word_location": "30:23:3",
+          "sense_ids": [
+            "nwm-manam-s1"
+          ]
+        },
+        {
+          "verse_key": "37:102",
+          "word_location": "37:102:10",
+          "sense_ids": [
+            "nwm-manam-s1"
+          ]
+        },
+        {
+          "verse_key": "39:42",
+          "word_location": "39:42:10",
+          "sense_ids": [
+            "nwm-manam-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nwm-naim",
+      "form_group_ids": [
+        "qac-form:nwm:naA^}imuwn:nominal:-"
+      ],
+      "headword_arabic": "نَائِم",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "nwm-naim-s1",
+          "definition": "Sleeping; being asleep.",
+          "usage_conditions": "The Quranic form is plural; the public headword is normalized to the singular active-participle citation form.",
+          "source_refs": [
+            "mufradat:row:1500"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:97",
+          "word_location": "7:97:9",
+          "sense_ids": [
+            "nwm-naim-s1"
+          ]
+        },
+        {
+          "verse_key": "68:19",
+          "word_location": "68:19:7",
+          "sense_ids": [
+            "nwm-naim-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nwm-nawm",
+      "form_group_ids": [
+        "qac-form:nwm:nawom:nominal:-"
+      ],
+      "headword_arabic": "نَوْم",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "nwm-nawm-s1",
+          "definition": "Sleep; bodily rest marked by suspension or stilling of ordinary activity.",
+          "usage_conditions": "The supplied Quran-focused discussion presents sleep as a light or lesser death in contrast with death as a heavy sleep; this is an explanatory characterization of the sleep state rather than a separate lexical sense.",
+          "source_refs": [
+            "mufradat:row:1500"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:255",
+          "word_location": "2:255:12",
+          "sense_ids": [
+            "nwm-nawm-s1"
+          ]
+        },
+        {
+          "verse_key": "25:47",
+          "word_location": "25:47:7",
+          "sense_ids": [
+            "nwm-nawm-s1"
+          ]
+        },
+        {
+          "verse_key": "78:9",
+          "word_location": "78:9:2",
+          "sense_ids": [
+            "nwm-nawm-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nwm-naum-muchsleep",
+      "headword_arabic": "نَؤُوم، نُوَمَة",
+      "definition": "A person who sleeps much; a habitual heavy sleeper.",
+      "usage_conditions": "A derived personal description, not a separate Quranic form in the supplied QAC groups.",
+      "source_refs": [
+        "mufradat:row:1500",
+        "maqayis:row:4797"
+      ]
+    },
+    {
+      "meaning_id": "nwm-numah-obscure",
+      "headword_arabic": "نُوَمَة",
+      "definition": "An inconspicuous or little-regarded person, one whose mention is obscure.",
+      "usage_conditions": "A figurative personal use distinct from the sense “one who sleeps much.”",
+      "source_refs": [
+        "mufradat:row:1500",
+        "maqayis:row:4797"
+      ]
+    },
+    {
+      "meaning_id": "nwm-istanama-reassured",
+      "headword_arabic": "اسْتَنَامَ",
+      "definition": "To become reassured, feel secure, or place confidence in someone or something.",
+      "usage_conditions": "Used with the person or thing toward which one becomes at ease or trusting.",
+      "source_refs": [
+        "mufradat:row:1500",
+        "maqayis:row:4797"
+      ]
+    },
+    {
+      "meaning_id": "nwm-manamah-sleepingcover",
+      "headword_arabic": "مَنَامَة",
+      "definition": "A garment, cover, or quilt used for sleeping.",
+      "usage_conditions": "The object is named in relation to sleeping in or under it.",
+      "source_refs": [
+        "mufradat:row:1500",
+        "maqayis:row:4797"
+      ]
+    },
+    {
+      "meaning_id": "nwm-market-stagnation",
+      "headword_arabic": "نَامَتِ السُّوقُ",
+      "definition": "The market became stagnant or inactive.",
+      "usage_conditions": "A figurative extension of stillness applied to a market that has ceased to move or trade normally.",
+      "source_refs": [
+        "mufradat:row:1500",
+        "maqayis:row:4797"
+      ]
+    },
+    {
+      "meaning_id": "nwm-cloth-worn",
+      "headword_arabic": "نَامَ الثَّوْبُ",
+      "definition": "The cloth became worn, threadbare, or old.",
+      "usage_conditions": "A figurative use of the root for a garment whose condition has deteriorated through wear.",
+      "source_refs": [
+        "mufradat:row:1500",
+        "maqayis:row:4797"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [],
+  "cautions": [
+    "No Lane primary evidence was supplied; the broader Classical Arabic branches are retained only where explicitly attested in the supplied Mufradat and Maqayis entries."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Quran Foundation glosses مَنَام in 8:43 and 37:102 as “dream,” but the supplied lexical discussion explicitly equates مَنَام with sleep and does not independently establish a separate lexical sense “dream.” These occurrences are therefore shown under the sleep sense with their contextual glosses."
+  ]
+}

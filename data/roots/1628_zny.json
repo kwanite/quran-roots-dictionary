@@ -1,0 +1,437 @@
+{
+  "root": "zny",
+  "arabic": "زني",
+  "root_idea": {
+    "summary": "The best-supported semantic center is unlawful sexual intercourse, with related forms naming the act, its male and female participants, and the act as a verbal noun.",
+    "development": "The lexicographic evidence does not establish one single analogy across every weak-final spelling. It distinguishes the sexual lexeme from homonymous or differently rooted forms, including hamzated ascent or mounting and other uses of زَنَاءٌ; these branches should not be projected onto the Quranic forms.",
+    "source_refs": [
+      "maqayis:row:2305",
+      "mufradat:row:631",
+      "lane:entry:31742",
+      "lane:entry:31753"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zny:yazonu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zny-v1",
+      "reason": "Distinct Quran-attested Form I verb."
+    },
+    {
+      "form_group_id": "qac-form:zny:zaAn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zny-ap-m",
+      "reason": "Distinct Quran-attested masculine active participle."
+    },
+    {
+      "form_group_id": "qac-form:zny:zaAniyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zny-ap-f",
+      "reason": "Distinct Quran-attested feminine active participle."
+    },
+    {
+      "form_group_id": "qac-form:zny:z~inaY`^:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zny-vn",
+      "reason": "Distinct Quran-attested verbal noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "zny-v1",
+      "form_group_ids": [
+        "qac-form:zny:yazonu:verb:I"
+      ],
+      "headword_arabic": "زَنَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "zny-v1-s1",
+          "definition": "To commit fornication or adultery; to engage in unlawful sexual intercourse.",
+          "usage_conditions": "Form I verb. The construction بِهَا specifies the partner, “with her.”",
+          "source_refs": [
+            "lane:entry:31742"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:68",
+          "word_location": "25:68:17",
+          "sense_ids": [
+            "zny-v1-s1"
+          ]
+        },
+        {
+          "verse_key": "60:12",
+          "word_location": "60:12:16",
+          "sense_ids": [
+            "zny-v1-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zny-ap-m",
+      "form_group_ids": [
+        "qac-form:zny:zaAn:nominal:-"
+      ],
+      "headword_arabic": "زَانٍ",
+      "public_pos_label": "Active participle · masculine",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "zny-ap-m-s1",
+          "definition": "A man who commits fornication or adultery; a fornicator or adulterer.",
+          "usage_conditions": "Masculine active participle used as a personal designation.",
+          "source_refs": [
+            "lane:entry:31753"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:2",
+          "word_location": "24:2:2",
+          "sense_ids": [
+            "zny-ap-m-s1"
+          ]
+        },
+        {
+          "verse_key": "24:3",
+          "word_location": "24:3:12",
+          "sense_ids": [
+            "zny-ap-m-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zny-ap-f",
+      "form_group_ids": [
+        "qac-form:zny:zaAniyap:nominal:-"
+      ],
+      "headword_arabic": "زَانِيَةٌ",
+      "public_pos_label": "Active participle · feminine",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "zny-ap-f-s1",
+          "definition": "A woman who commits fornication or adultery; a fornicatress or adulteress.",
+          "usage_conditions": "Feminine active participle used as a personal designation.",
+          "source_refs": [
+            "lane:entry:31753"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:2",
+          "word_location": "24:2:1",
+          "sense_ids": [
+            "zny-ap-f-s1"
+          ]
+        },
+        {
+          "verse_key": "24:3",
+          "word_location": "24:3:5",
+          "sense_ids": [
+            "zny-ap-f-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zny-vn",
+      "form_group_ids": [
+        "qac-form:zny:z~inaY`^:nominal:-"
+      ],
+      "headword_arabic": "زِنًى",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "zny-vn-s1",
+          "definition": "Fornication or adultery: sexual intercourse without a lawful contract.",
+          "usage_conditions": "Verbal noun. The Quranic form is the shortened spelling زِنًى; the lengthened form زِنَاءٌ is also attested, with dialectal and derived-form variation in Classical Arabic.",
+          "source_refs": [
+            "lane:entry:31742",
+            "mufradat:row:631"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:32",
+          "word_location": "17:32:3",
+          "sense_ids": [
+            "zny-vn-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-zna-mount",
+      "headword_arabic": "زَنَأَ",
+      "definition": "To mount or ascend upon a thing.",
+      "usage_conditions": "A reported hamzated or dialectally related lexeme, kept distinct from the Quranic sexual lexeme.",
+      "source_refs": [
+        "lane:entry:31742",
+        "maqayis:row:2305"
+      ]
+    },
+    {
+      "meaning_id": "cm-zny-idiom",
+      "headword_arabic": "زَنَى",
+      "definition": "In a proverbial expression, to describe a person who does not remain consistently in one course or condition.",
+      "usage_conditions": "A figurative application of the proverb “neither her continence is continence nor the fornication fornication,” rather than an additional literal Quranic sense.",
+      "source_refs": [
+        "lane:entry:31742"
+      ]
+    },
+    {
+      "meaning_id": "cm-zny-form2",
+      "headword_arabic": "زَنَّى",
+      "definition": "To accuse someone of fornication or adultery, or to call someone a fornicator or adulterer.",
+      "usage_conditions": "Derived Form II usage.",
+      "source_refs": [
+        "lane:entry:31743"
+      ]
+    },
+    {
+      "meaning_id": "cm-zny-form3",
+      "headword_arabic": "زَانَى",
+      "definition": "To commit fornication or adultery with another person.",
+      "usage_conditions": "Derived Form III usage, conventionally expressing the partner with whom the act is committed.",
+      "source_refs": [
+        "lane:entry:31744"
+      ]
+    },
+    {
+      "meaning_id": "cm-zny-act",
+      "headword_arabic": "زَنْيَةٌ / زِنْيَةٌ",
+      "definition": "A single act of fornication or adultery; by an analogical usage, a mode or manner of it.",
+      "usage_conditions": "The two forms are separately attested in the lexical discussion, but belong to the same nominal branch.",
+      "source_refs": [
+        "lane:entry:31747",
+        "lane:entry:31748"
+      ]
+    },
+    {
+      "meaning_id": "cm-zny-offspring",
+      "headword_arabic": "زَنْيَةٌ",
+      "definition": "In expressions of parentage, a child or offspring born of fornication or adultery.",
+      "usage_conditions": "Occurs in phrases describing illegitimate parentage.",
+      "source_refs": [
+        "lane:entry:31747"
+      ]
+    },
+    {
+      "meaning_id": "cm-zny-lastchild",
+      "headword_arabic": "زِنْيَةٌ",
+      "definition": "The last of a man’s children.",
+      "usage_conditions": "A separate Classical Arabic nominal use, unrelated to the Quranic sexual sense.",
+      "source_refs": [
+        "lane:entry:31748"
+      ]
+    },
+    {
+      "meaning_id": "cm-zny-relational",
+      "headword_arabic": "زِنَوِيٌّ / زِنَائِيٌّ",
+      "definition": "Of or relating to fornication or adultery.",
+      "usage_conditions": "Relational adjectives derived from the corresponding sexual-act nouns.",
+      "source_refs": [
+        "lane:entry:31750"
+      ]
+    },
+    {
+      "meaning_id": "cm-zny-femaleape",
+      "headword_arabic": "زَنَّاءَةٌ",
+      "definition": "An appellation for a female ape.",
+      "usage_conditions": "A rare Classical Arabic appellation.",
+      "source_refs": [
+        "lane:entry:31752"
+      ]
+    },
+    {
+      "meaning_id": "cm-zny-intensive",
+      "headword_arabic": "زَانِيَةٌ",
+      "definition": "An intensive appellation for a man who is much addicted to fornication or adultery.",
+      "usage_conditions": "The feminine-form headword is exceptionally applied to a man with intensive force; this Classical specialization is not assigned to the Quranic feminine active-participle sense.",
+      "source_refs": [
+        "lane:entry:31754"
+      ]
+    },
+    {
+      "meaning_id": "cm-zna-short",
+      "headword_arabic": "زَنَاءٌ",
+      "definition": "Short or small in relation to length.",
+      "usage_conditions": "A separately distinguished homonymous Classical use, not a development of the Quranic sexual sense.",
+      "source_refs": [
+        "maqayis:row:2305"
+      ]
+    },
+    {
+      "meaning_id": "cm-zna-retention",
+      "headword_arabic": "زِنَاءٌ",
+      "definition": "A person who holds back urine, or a state of urinary retention.",
+      "usage_conditions": "A separately distinguished homonymous use in the lexicographic tradition, not a Quranic sexual sense.",
+      "source_refs": [
+        "maqayis:row:2305",
+        "mufradat:row:631"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zny:31742:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zny-v1-s1",
+        "cm-zna-mount",
+        "cm-zny-idiom"
+      ],
+      "note": "Covers the Form I sexual meaning, the reported mounting use, and the proverbial figurative application."
+    },
+    {
+      "unit_id": "lane-unit:zny:31743:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zny-form2"
+      ],
+      "note": "Form II accusation or imputation of fornication."
+    },
+    {
+      "unit_id": "lane-unit:zny:31743:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:zny:31743:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another article."
+    },
+    {
+      "unit_id": "lane-unit:zny:31744:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zny-form3"
+      ],
+      "note": "Form III sexual construction with a partner."
+    },
+    {
+      "unit_id": "lane-unit:zny:31744:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:zny:31744:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:zny:31745:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form II."
+    },
+    {
+      "unit_id": "lane-unit:zny:31746:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following paragraph."
+    },
+    {
+      "unit_id": "lane-unit:zny:31747:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zny-act",
+        "cm-zny-offspring"
+      ],
+      "note": "Covers the single-act nominal and offspring-of-fornication construction."
+    },
+    {
+      "unit_id": "lane-unit:zny:31748:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zny-act"
+      ],
+      "note": "Covers the analogical mode-or-manner nominal use."
+    },
+    {
+      "unit_id": "lane-unit:zny:31748:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zny-lastchild"
+      ],
+      "note": "Separate meaning: the last of a man’s children."
+    },
+    {
+      "unit_id": "lane-unit:zny:31749:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Form and cross-reference information without an additional meaning."
+    },
+    {
+      "unit_id": "lane-unit:zny:31750:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zny-relational"
+      ],
+      "note": "Relational adjective meaning related to fornication or adultery."
+    },
+    {
+      "unit_id": "lane-unit:zny:31751:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:zny:31752:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zny-femaleape"
+      ],
+      "note": "Rare appellation for a female ape."
+    },
+    {
+      "unit_id": "lane-unit:zny:31753:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zny-ap-m-s1"
+      ],
+      "note": "Active participle and Quran-attested male participant sense."
+    },
+    {
+      "unit_id": "lane-unit:zny:31754:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pure feminine-form cross-reference with no additional lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:zny:31754:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-zny-intensive"
+      ],
+      "note": "Intensive use of the feminine form when applied to a man."
+    }
+  ],
+  "cautions": [
+    "The evidence distinguishes the Quranic sexual lexeme from homonymous or differently rooted forms such as زَنَأَ “to mount” and other uses of زَنَاءٌ; those branches are separately labeled and are not Quranic senses.",
+    "The Lane citation “Kur xxiv. 2 and 3” is historical citation notation; the modern Quran locations shown here come from the independently supplied QAC occurrences."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

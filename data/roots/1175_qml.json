@@ -1,0 +1,139 @@
+{
+  "root": "qml",
+  "arabic": "قمل",
+  "root_idea": {
+    "summary": "The root centers on smallness and lowliness, with tiny insects serving as a salient image.",
+    "development": "The lexical development connects small insects with contemptible or diminutive descriptions and with أَقْمَلَ, used of the rimth plant when it puts forth small leaves likened to those insects.",
+    "source_refs": [
+      "maqayis:row:3864",
+      "mufradat:row:1211"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qml:qum~al:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qml_qummal",
+      "reason": "Displayed as the Quranic noun قُمَّل, normalized from the inflected occurrence form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qml_qummal",
+      "form_group_ids": [
+        "qac-form:qml:qum~al:nominal:-"
+      ],
+      "headword_arabic": "قُمَّل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qml_qummal_s1",
+          "definition": "Small flies or other tiny pests; the pest named in the Quranic occurrence and conventionally rendered “lice.”",
+          "usage_conditions": "Occurs in 7:133 as وَالْقُمَّلَ. Classical lexical identification is not uniform: it is described as small flies, while the supplied contextual rendering is “the lice.”",
+          "source_refs": [
+            "mufradat:row:1211"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:133",
+          "word_location": "7:133:5",
+          "sense_ids": [
+            "qml_qummal_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qml_cm_qummal_variant",
+      "headword_arabic": "قُمَّل",
+      "definition": "A small pest, identified as a kind of woodworm or as a type of tick.",
+      "usage_conditions": "A Classical Arabic identification of the noun; it is kept distinct from the Quran-attested description of the occurrence as small flies.",
+      "source_refs": [
+        "lane:entry:21130"
+      ]
+    },
+    {
+      "meaning_id": "qml_cm_qaml",
+      "headword_arabic": "قَمْل",
+      "definition": "Lice; the familiar louse infestation.",
+      "usage_conditions": "A separate nominal form from قُمَّل.",
+      "source_refs": [
+        "mufradat:row:1211"
+      ]
+    },
+    {
+      "meaning_id": "qml_cm_qamil",
+      "headword_arabic": "قَمِل",
+      "definition": "Infested with lice; having lice.",
+      "usage_conditions": "A descriptive adjective, illustrated in the expression رَجُلٌ قَمِلٌ.",
+      "source_refs": [
+        "mufradat:row:1211"
+      ]
+    },
+    {
+      "meaning_id": "qml_cm_qamila",
+      "headword_arabic": "قَمِلَة",
+      "definition": "Small and ugly, likened to a louse.",
+      "usage_conditions": "A feminine descriptive form explicitly applied to a woman in the cited usage.",
+      "source_refs": [
+        "mufradat:row:1211"
+      ]
+    },
+    {
+      "meaning_id": "qml_cm_qamali",
+      "headword_arabic": "قَمَلِيّ",
+      "definition": "Contemptible or lowly.",
+      "usage_conditions": "Attested as an epithet for a man in the expression رَجُلٌ قَمَلِيٌّ.",
+      "source_refs": [
+        "maqayis:row:3864"
+      ]
+    },
+    {
+      "meaning_id": "qml_cm_aqmala",
+      "headword_arabic": "أَقْمَلَ",
+      "definition": "Of the rimth plant, to put forth small leaves.",
+      "usage_conditions": "A specialized usage said of الرِّمْث; the small leaves are likened to قُمَّل.",
+      "source_refs": [
+        "maqayis:row:3864"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qml:21128:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to تِينٌ; no lexical definition is supplied in the unit."
+    },
+    {
+      "unit_id": "lane-unit:qml:21129:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حَنَطَ; the unit gives no semantic gloss for أَقْمَلَ."
+    },
+    {
+      "unit_id": "lane-unit:qml:21130:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qml_cm_qummal_variant"
+      ],
+      "note": "Directly gives the classical insect or tick identification of قُمَّل."
+    },
+    {
+      "unit_id": "lane-unit:qml:21131:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to تِينٌ; no lexical definition is supplied in the unit."
+    }
+  ],
+  "cautions": [
+    "The exact zoological identification of قُمَّل is uncertain across the supplied evidence: it is described as small flies, conventionally rendered as lice, and elsewhere identified as a small pest or type of tick."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

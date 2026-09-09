@@ -1,0 +1,168 @@
+{
+  "root": "Hyq",
+  "arabic": "حيق",
+  "root_idea": {
+    "summary": "The root expresses one thing descending upon or settling upon another, especially as an adverse consequence that besets its object.",
+    "development": "The basic notion of descent develops into the verb حاقَ بِهِ for evil or punishment enclosing, afflicting, or befalling someone, and into حَيْقٌ for the consequence that comes upon a person.",
+    "source_refs": [
+      "maqayis:row:1493",
+      "mufradat:row:286"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hyq:HaAqa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:Hyq:HaAqa",
+      "reason": "The canonical Quranic Form I verb is a distinct dictionary form and is appropriately cited as حَاقَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:Hyq:HaAqa",
+      "form_group_ids": [
+        "qac-form:Hyq:HaAqa:verb:I"
+      ],
+      "headword_arabic": "حَاقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "sense:Hyq:HaAqa:1",
+          "definition": "To surround, encompass, encircle, or beset.",
+          "usage_conditions": "Used in the Quranic construction حاقَ بـ, especially of evil, punishment, or another harmful force enclosing or besetting its object.",
+          "source_refs": [
+            "lane:entry:16358"
+          ]
+        },
+        {
+          "sense_id": "sense:Hyq:HaAqa:2",
+          "definition": "To befall, come upon, or become due to someone.",
+          "usage_conditions": "In حاقَ بـ, the harmful consequence is understood as descending upon the object and becoming its due; this overlaps with the sense of besetting but foregrounds the consequence's occurrence.",
+          "source_refs": [
+            "lane:entry:16358",
+            "mufradat:row:286"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "35:43",
+          "word_location": "35:43:7",
+          "sense_ids": [
+            "sense:Hyq:HaAqa:1"
+          ]
+        },
+        {
+          "verse_key": "11:8",
+          "word_location": "11:8:17",
+          "sense_ids": [
+            "sense:Hyq:HaAqa:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:Hyq:Haayaqahu:envy",
+      "headword_arabic": "حَايَقَهُ",
+      "definition": "To envy or hate someone.",
+      "usage_conditions": "Form III verb.",
+      "source_refs": [
+        "lane:entry:16359"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Hyq:Ahyaqa:causative",
+      "headword_arabic": "أَحْيَقَ",
+      "definition": "To cause an artifice or harmful consequence to beset or befall someone.",
+      "usage_conditions": "A causative construction in which an artifice is made to return upon and affect its intended object.",
+      "source_refs": [
+        "lane:entry:16360"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Hyq:Haquljuu:hunger",
+      "headword_arabic": "حَاقُ الجُوعِ",
+      "definition": "The vehemence or intensity of hunger.",
+      "usage_conditions": "A lexical expression referring specifically to the severity of hunger.",
+      "source_refs": [
+        "lane:entry:16361"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Hyq:Hayq:consequence",
+      "headword_arabic": "حَيْقٌ",
+      "definition": "What besets or befalls a person as a consequence of an artifice or evil deed that they have committed.",
+      "usage_conditions": "Noun denoting the adverse consequence itself, rather than the verbal action of its befalling someone.",
+      "source_refs": [
+        "lane:entry:16362"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hyq:16358:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Hyq:HaAqa:1",
+        "sense:Hyq:HaAqa:2"
+      ],
+      "note": "Covers surrounding or besetting and the related sense of befalling or becoming due."
+    },
+    {
+      "unit_id": "lane-unit:Hyq:16358:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only equivalence to حاك without an expanded lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:Hyq:16359:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Hyq:Haayaqahu:envy"
+      ],
+      "note": "Form III use meaning to envy or hate."
+    },
+    {
+      "unit_id": "lane-unit:Hyq:16360:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to unit 1."
+    },
+    {
+      "unit_id": "lane-unit:Hyq:16360:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Hyq:Ahyaqa:causative"
+      ],
+      "note": "Causative construction making an artifice beset or befall its object."
+    },
+    {
+      "unit_id": "lane-unit:Hyq:16361:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Hyq:Haquljuu:hunger"
+      ],
+      "note": "Fixed expression for the vehemence of hunger."
+    },
+    {
+      "unit_id": "lane-unit:Hyq:16362:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Hyq:Hayq:consequence"
+      ],
+      "note": "Noun for an adverse consequence that besets or befalls a person."
+    },
+    {
+      "unit_id": "lane-unit:Hyq:16363:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another root article."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

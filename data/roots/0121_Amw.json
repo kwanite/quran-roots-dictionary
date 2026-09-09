@@ -1,0 +1,210 @@
+{
+  "root": "Amw",
+  "arabic": "أمو",
+  "root_idea": {
+    "summary": "In the supplied lexical record, the root centers on أَمَةٌ, a female slave, with related derived actions of becoming enslaved, enslaving, and taking a female slave.",
+    "development": "The noun is discussed with disputed historical analyses involving an underlying و. The packet does not provide evidence for a more general root-wide semantic development beyond this lexical family.",
+    "source_refs": [
+      "lane:entry:7273",
+      "lane:entry:7268",
+      "lane:entry:7269",
+      "lane:entry:7270"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Amw:>amap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Amw:amata",
+      "reason": "Displayed under the normalized singular noun أَمَة, which also represents the attested plural form إِمَاء."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:Amw:amata",
+      "form_group_ids": [
+        "qac-form:Amw:>amap:nominal:-"
+      ],
+      "headword_arabic": "أَمَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen:Amw:amata:1",
+          "definition": "A female slave; an enslaved woman.",
+          "usage_conditions": "The Quran occurrences include both the singular أَمَة and the plural إِمَاء. The term denotes a woman whose legal or social condition is slavery, in contrast with a free woman.",
+          "source_refs": [
+            "lane:entry:7273"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:221",
+          "word_location": "2:221:6",
+          "sense_ids": [
+            "qsen:Amw:amata:1"
+          ]
+        },
+        {
+          "verse_key": "24:32",
+          "word_location": "24:32:7",
+          "sense_ids": [
+            "qsen:Amw:amata:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Amw:ama:become-slave",
+      "headword_arabic": "أَمَا",
+      "definition": "To become a slave or become enslaved.",
+      "usage_conditions": "A Form I defective verb; the evidence records several variant conjugational patterns.",
+      "source_refs": [
+        "lane:entry:7268"
+      ]
+    },
+    {
+      "meaning_id": "cm:Amw:ama:mew",
+      "headword_arabic": "أَمَا",
+      "definition": "To mew or utter a cry, said of a cat.",
+      "usage_conditions": "A distinct Form I usage associated with the cat's cry.",
+      "source_refs": [
+        "lane:entry:7268"
+      ]
+    },
+    {
+      "meaning_id": "cm:Amw:amma:enslave",
+      "headword_arabic": "أَمَّى",
+      "definition": "To enslave someone; to make someone a slave.",
+      "usage_conditions": "A transitive Form II causative use.",
+      "source_refs": [
+        "lane:entry:7269"
+      ]
+    },
+    {
+      "meaning_id": "cm:Amw:taamma:acquire-slave",
+      "headword_arabic": "تَأَمَّى",
+      "definition": "To take a female slave for oneself.",
+      "usage_conditions": "A Form V reflexive or benefactive construction expressing personal acquisition of a female slave.",
+      "source_refs": [
+        "lane:entry:7270"
+      ]
+    },
+    {
+      "meaning_id": "cm:Amw:itamā:imitate",
+      "headword_arabic": "ائْتَمَى بِهِ",
+      "definition": "To follow another's example or imitate him; to adopt a thing as a rule of conduct.",
+      "usage_conditions": "Used with بِهِ for following or imitating a person, and with بِالشَّيْءِ for adopting something as a rule or model.",
+      "source_refs": [
+        "lane:entry:7271"
+      ]
+    },
+    {
+      "meaning_id": "cm:Amw:amata:handmaid",
+      "headword_arabic": "أَمَة",
+      "definition": "A handmaid, as a deferential designation for a human being in relation to God.",
+      "usage_conditions": "A theological or honorific application of the female-slave term; it is not a separate Quran-attested sense in the supplied occurrences.",
+      "source_refs": [
+        "lane:entry:7273"
+      ]
+    },
+    {
+      "meaning_id": "cm:Amw:amawiyy:nisba",
+      "headword_arabic": "أَمَوِيّ",
+      "definition": "Of, relating to, or belonging to a female slave.",
+      "usage_conditions": "Nisba adjective derived from أَمَة.",
+      "source_refs": [
+        "lane:entry:7274"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Amw:7268:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Amw:ama:become-slave"
+      ],
+      "note": "Form I use meaning to become enslaved."
+    },
+    {
+      "unit_id": "lane-unit:Amw:7268:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Amw:ama:mew"
+      ],
+      "note": "Distinct Form I use for a cat's cry."
+    },
+    {
+      "unit_id": "lane-unit:Amw:7269:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Amw:amma:enslave"
+      ],
+      "note": "Form II causative use meaning to enslave."
+    },
+    {
+      "unit_id": "lane-unit:Amw:7270:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:Amw:7270:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Amw:taamma:acquire-slave"
+      ],
+      "note": "Form V use meaning to take a female slave for oneself."
+    },
+    {
+      "unit_id": "lane-unit:Amw:7271:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Amw:itamā:imitate"
+      ],
+      "note": "Following, imitating, or adopting a model as a rule."
+    },
+    {
+      "unit_id": "lane-unit:Amw:7272:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form V entry."
+    },
+    {
+      "unit_id": "lane-unit:Amw:7273:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Amw:amata:1",
+        "cm:Amw:amata:handmaid"
+      ],
+      "note": "Female-slave noun and its theological handmaid application are represented; plural and etymological material adds no separate meaning."
+    },
+    {
+      "unit_id": "lane-unit:Amw:7274:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Amw:amawiyy:nisba"
+      ],
+      "note": "Nisba adjective relating to a female slave."
+    },
+    {
+      "unit_id": "lane-unit:Amw:7275:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive formation only; no independent lexical meaning is supplied."
+    }
+  ],
+  "cautions": [
+    "No Maqāyīs or Mufradāt evidence was supplied for this root, so the root-level development is necessarily limited.",
+    "The historical analysis of the noun's original form is explicitly disputed in the lexical evidence.",
+    "A doubtful imprecation reading in the noun entry is not treated as a separate meaning because the passage itself proposes that it may instead contain أَمْت."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Lane reports an imprecation containing أَمَة but suggests that the reading may actually be أَمْت; the uncertain reading is therefore not assigned as a lexical sense."
+  ]
+}

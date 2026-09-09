@@ -1,0 +1,69 @@
+{
+  "root": "kwy",
+  "arabic": "كوي",
+  "root_idea": {
+    "summary": "Burning with fire or intense heat, especially by applying it to the skin.",
+    "development": "The basic action is burning with fire; in the attested verb, this yields the specialized action of cauterizing or branding with fire or a heated implement.",
+    "source_refs": [
+      "maqayis:row:4071",
+      "lane:entry:32997"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kwy:tukowaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:kwy-kawa",
+      "reason": "Displayed under the normalized Form I perfect citation form كَوَى."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:kwy-kawa",
+      "form_group_ids": [
+        "qac-form:kwy:tukowaY`:verb:I"
+      ],
+      "headword_arabic": "كَوَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "quran-form:kwy-kawa:s1",
+          "definition": "To cauterize or brand by burning the skin with fire or a heated implement.",
+          "usage_conditions": "In the attested Quranic occurrence, the action is expressed of those who are branded or cauterized; the construction may be rendered in English with a passive expression such as “be branded.”",
+          "source_refs": [
+            "lane:entry:32997",
+            "mufradat:row:1278"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:35",
+          "word_location": "9:35:7",
+          "sense_ids": [
+            "quran-form:kwy-kawa:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kwy:32997:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "quran-form:kwy-kawa:s1"
+      ],
+      "note": "Cauterizing or burning with fire or an iron is represented by the Quranic sense."
+    }
+  ],
+  "cautions": [
+    "The Mufradat entry also discusses كي and كَيْلَا as particles expressing purpose or prevention; that clause is not securely assignable to the كوي root or to the attested verb form."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The clause in mufradat:row:1278 concerning كي and كَيْلَا, including the Quranic example كَيْ لا يَكُونَ دُولَةً [الحشر:7], appears to concern the particle كي rather than the verb root كوي and is therefore not assigned to this artifact."
+  ]
+}

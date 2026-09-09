@@ -1,0 +1,195 @@
+{
+  "root": "mhn",
+  "arabic": "مهن",
+  "root_idea": {
+    "summary": "The root centers on contempt, lowliness, and reduced worth, with a related lexical branch concerning service and labor.",
+    "development": "Alongside the core sense of being held low or in contempt, the lexical family includes terms for service, a servant, and specialized uses involving pulling a garment and milking camels.",
+    "source_refs": [
+      "maqayis:row:4478"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mhn:m~ahiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:mhn:mahin",
+      "reason": "Displayed under the normalized classical citation form مَهِين rather than the internally marked QAC lemma spelling."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:mhn:mahin",
+      "form_group_ids": [
+        "qac-form:mhn:m~ahiyn:nominal:-"
+      ],
+      "headword_arabic": "مَهِين",
+      "public_pos_label": "Adjective · also used substantivally",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qsen:mhn:mahin:1",
+          "definition": "Held in contempt; lowly, abject, insignificant, or of little worth.",
+          "usage_conditions": "Used adjectivally and substantivally in the supplied Quran occurrences to characterize the referent as lowly or lacking worth.",
+          "source_refs": [
+            "lane:entry:5883"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "32:8",
+          "word_location": "32:8:8",
+          "sense_ids": [
+            "qsen:mhn:mahin:1"
+          ]
+        },
+        {
+          "verse_key": "43:52",
+          "word_location": "43:52:8",
+          "sense_ids": [
+            "qsen:mhn:mahin:1"
+          ]
+        },
+        {
+          "verse_key": "68:10",
+          "word_location": "68:10:5",
+          "sense_ids": [
+            "qsen:mhn:mahin:1"
+          ]
+        },
+        {
+          "verse_key": "77:20",
+          "word_location": "77:20:5",
+          "sense_ids": [
+            "qsen:mhn:mahin:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:imtahana:service",
+      "headword_arabic": "اِمْتَهَنَ",
+      "definition": "To use something for service or work; to put it to service.",
+      "usage_conditions": "Form VIII verb.",
+      "source_refs": [
+        "lane:entry:5881"
+      ]
+    },
+    {
+      "meaning_id": "cm:imtahana:debase",
+      "headword_arabic": "اِمْتَهَنَ",
+      "definition": "To regard something as mean or of little account; to hold it in mean estimation.",
+      "usage_conditions": "Form VIII verb; a derived evaluative use distinct from the adjective مَهِين.",
+      "source_refs": [
+        "lane:entry:5881"
+      ]
+    },
+    {
+      "meaning_id": "cm:mihna:work",
+      "headword_arabic": "مِهْنَة",
+      "definition": "Work, labor, or service; the ministration or performance of an office.",
+      "usage_conditions": "Noun denoting work, service, or the execution of an office.",
+      "source_refs": [
+        "lane:entry:5882"
+      ]
+    },
+    {
+      "meaning_id": "cm:mihna:clothing",
+      "headword_arabic": "مِهْنَة",
+      "definition": "Clothing worn in service or in the performance of business.",
+      "usage_conditions": "A noun for service or business clothing.",
+      "source_refs": [
+        "lane:entry:5882"
+      ]
+    },
+    {
+      "meaning_id": "cm:mahin:weak",
+      "headword_arabic": "مَهِين",
+      "definition": "Weak; having little judgment and discrimination.",
+      "usage_conditions": "A Classical descriptive use for weakness accompanied by deficient judgment or discernment.",
+      "source_refs": [
+        "lane:entry:5883"
+      ]
+    },
+    {
+      "meaning_id": "cm:mahana:contempt",
+      "headword_arabic": "مَهَانَة",
+      "definition": "Contempt, lowliness, or baseness.",
+      "usage_conditions": "Abstract noun for the state or quality of being held in low estimation.",
+      "source_refs": [
+        "maqayis:row:4478"
+      ]
+    },
+    {
+      "meaning_id": "cm:mahin:servant",
+      "headword_arabic": "مَاهِن",
+      "definition": "A servant.",
+      "usage_conditions": "Noun designating one who serves.",
+      "source_refs": [
+        "maqayis:row:4478"
+      ]
+    },
+    {
+      "meaning_id": "cm:mahana:garmentpull",
+      "headword_arabic": "مَهَنَ",
+      "definition": "To pull or tug a garment; a garment so treated is described as مَمْهُون.",
+      "usage_conditions": "A reported transitive use specifically involving a garment.",
+      "source_refs": [
+        "maqayis:row:4478"
+      ]
+    },
+    {
+      "meaning_id": "cm:mahana:milkcamels",
+      "headword_arabic": "مَهَنَ",
+      "definition": "To milk camels.",
+      "usage_conditions": "A separately reported transitive usage; the source presents it as an additional reported expression.",
+      "source_refs": [
+        "maqayis:row:4478"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mhn:5881:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:imtahana:service",
+        "cm:imtahana:debase"
+      ],
+      "note": "Covers the Form VIII service/work and mean-estimation branches."
+    },
+    {
+      "unit_id": "lane-unit:mhn:5882:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mihna:work"
+      ],
+      "note": "Covers the noun sense of work, labor, service, and office performance."
+    },
+    {
+      "unit_id": "lane-unit:mhn:5882:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mihna:clothing"
+      ],
+      "note": "Covers the service or business clothing sense."
+    },
+    {
+      "unit_id": "lane-unit:mhn:5883:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:mhn:mahin:1",
+        "cm:mahin:weak"
+      ],
+      "note": "Covers the contemptible/abject Quranic sense and the distinct Classical weakness and poor-judgment sense."
+    }
+  ],
+  "cautions": [
+    "The QAC grouping combines three adjectival occurrences with one substantival occurrence; the public headword is normalized to مَهِين.",
+    "The weak and poor-judgment sense is retained as Classical Arabic coverage rather than folded into the Quranic low-worth sense, since the packet does not independently establish that specialization in a Quran occurrence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

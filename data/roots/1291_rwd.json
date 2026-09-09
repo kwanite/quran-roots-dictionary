@@ -1,0 +1,904 @@
+{
+  "root": "rwd",
+  "arabic": "رود",
+  "root_idea": {
+    "summary": "The root is centered on going to and fro in pursuit of something, especially moving through a field or direction while searching; from this develop meanings of seeking, gently approaching or inducing, and willing or intending.",
+    "development": "The semantic path runs from movement and roaming to searching and selecting, then to the gentleness associated with careful seeking. The Form IV meaning of willing or intending is treated as a developed lexical branch, while the Quranic Form III meaning retains the sense of trying to turn or induce another.",
+    "source_refs": [
+      "maqayis:row:2181",
+      "mufradat:row:596"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rwd:ra`wadu:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rwd:form:raawada",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:rwd:>araAda:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rwd:form:araada",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:rwd:ruwayod:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rwd:form:ruwayd",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "rwd:form:raawada",
+      "form_group_ids": [
+        "qac-form:rwd:ra`wadu:verb:III"
+      ],
+      "headword_arabic": "رَاوَدَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "rwd:raawada:s1",
+          "definition": "To try to turn, induce, or persuade someone toward or away from something, using persistent effort, blandishment, or artifice.",
+          "usage_conditions": "Commonly followed by عن or على. The construction presents an effort to alter another person's decision, stance, or compliance.",
+          "source_refs": [
+            "lane:entry:24883",
+            "mufradat:row:596"
+          ]
+        },
+        {
+          "sense_id": "rwd:raawada:s2",
+          "definition": "To seek sexual intercourse with someone by enticement or persuasion.",
+          "usage_conditions": "In the construction راوده عن نفسه, the object of the attempted persuasion is sexual access or intercourse; this is a specific Quran-attested use of the broader inducing construction.",
+          "source_refs": [
+            "lane:entry:24883",
+            "mufradat:row:596"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:23",
+          "word_location": "12:23:1",
+          "sense_ids": [
+            "rwd:raawada:s2"
+          ]
+        },
+        {
+          "verse_key": "12:61",
+          "word_location": "12:61:2",
+          "sense_ids": [
+            "rwd:raawada:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "rwd:form:araada",
+      "form_group_ids": [
+        "qac-form:rwd:>araAda:verb:IV"
+      ],
+      "headword_arabic": "أَرَادَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 139,
+      "senses": [
+        {
+          "sense_id": "rwd:araada:s1",
+          "definition": "To want, wish, will, or choose an object or action.",
+          "usage_conditions": "The ordinary agentive use expresses a person's or other capable subject's inclination or decision concerning an object, action, or outcome.",
+          "source_refs": [
+            "lane:entry:24884",
+            "mufradat:row:596"
+          ]
+        },
+        {
+          "sense_id": "rwd:araada:s2",
+          "definition": "To intend, mean, aim at, or pursue an outcome.",
+          "usage_conditions": "This use emphasizes directed purpose or what a person seeks to bring about, including an intended result or goal; it can overlap with ordinary wishing without being limited to an inward desire.",
+          "source_refs": [
+            "lane:entry:24884",
+            "mufradat:row:596"
+          ]
+        },
+        {
+          "sense_id": "rwd:araada:s3",
+          "definition": "Of God, to will an outcome by determining, prescribing, or decreeing it.",
+          "usage_conditions": "When the subject is God, the Quranic use is not a human-like psychological inclination; it denotes the determined or normative divine will, including what God prescribes or brings about.",
+          "source_refs": [
+            "lane:entry:24884",
+            "mufradat:row:596"
+          ]
+        },
+        {
+          "sense_id": "rwd:araada:s4",
+          "definition": "To be about or ready to do something, especially of an inanimate thing approaching a state or event.",
+          "usage_conditions": "In the construction أراد أن followed by an event, an inanimate subject may be described as tending or being ready to undergo that event, as with a wall about to fall.",
+          "source_refs": [
+            "lane:entry:24884",
+            "mufradat:row:596"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:185",
+          "word_location": "2:185:28",
+          "sense_ids": [
+            "rwd:araada:s3"
+          ]
+        },
+        {
+          "verse_key": "11:88",
+          "word_location": "11:88:15",
+          "sense_ids": [
+            "rwd:araada:s2"
+          ]
+        },
+        {
+          "verse_key": "18:77",
+          "word_location": "18:77:15",
+          "sense_ids": [
+            "rwd:araada:s4"
+          ]
+        },
+        {
+          "verse_key": "28:83",
+          "word_location": "28:83:7",
+          "sense_ids": [
+            "rwd:araada:s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "rwd:form:ruwayd",
+      "form_group_ids": [
+        "qac-form:rwd:ruwayod:nominal:-"
+      ],
+      "headword_arabic": "رُوَيْد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "rwd:ruwayd:s1",
+          "definition": "Gently, gradually, or for a little while; a request to proceed slowly or grant brief respite.",
+          "usage_conditions": "Used as an adverbial or imperative-like expression, including the Quranic use meaning to give a little time or respite.",
+          "source_refs": [
+            "lane:entry:24890",
+            "mufradat:row:596"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "86:17",
+          "word_location": "86:17:4",
+          "sense_ids": [
+            "rwd:ruwayd:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "rwd:cm:rad:movement",
+      "headword_arabic": "رَادَ",
+      "definition": "To come and go, move to and fro, or remain unsettled; of animals, to roam or graze while moving through a pasture, and of wind, to veer or move about.",
+      "usage_conditions": "This is the basic Form I movement branch, distinct from the later meanings of searching and willing.",
+      "source_refs": [
+        "lane:entry:24882"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:rad:restless",
+      "headword_arabic": "رَادَ",
+      "definition": "To be restless or sleepless, as when one's pillow does not remain still.",
+      "usage_conditions": "Used figuratively of restlessness caused by illness or anxiety.",
+      "source_refs": [
+        "lane:entry:24882"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:rad:search",
+      "headword_arabic": "رَادَ",
+      "definition": "To search for, seek, or look for something, especially pasture, water, sustenance, or a place to settle; to select the best available place or resource.",
+      "usage_conditions": "The seeking is traditionally associated with going to and fro while searching; it can also describe birds seeking sustenance or a person looking for a suitable place for a practical need.",
+      "source_refs": [
+        "lane:entry:24882"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:rad:question",
+      "headword_arabic": "رَادَ الدَّارَ",
+      "definition": "To question or interrogate a house or abode about a person who is sought or remembered.",
+      "usage_conditions": "A conventional expression involving questioning the dwelling rather than directly questioning the person.",
+      "source_refs": [
+        "lane:entry:24882"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:rad:pasture",
+      "headword_arabic": "رَادَ الدَّوَابَّ",
+      "definition": "To pasture or let beasts graze.",
+      "usage_conditions": "A transitive Form I use, related to the movement of grazing animals but lexically distinct from merely seeking pasture.",
+      "source_refs": [
+        "lane:entry:24882"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:arwada:gentle",
+      "headword_arabic": "أَرْوَدَ",
+      "definition": "To proceed gently, softly, or leisurely; to treat someone gently, grant respite, or leave someone for a while.",
+      "usage_conditions": "The intransitive use concerns manner or pace, while the transitive use concerns gentle treatment or delay.",
+      "source_refs": [
+        "lane:entry:24884"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:arwada:induce",
+      "headword_arabic": "أَرَادَهُ عَلَى",
+      "definition": "To induce, incite, constrain, or make someone do something.",
+      "usage_conditions": "This classical construction takes a person as object and an action or matter as the thing toward which the person is induced; it is not the same as simply wanting an object.",
+      "source_refs": [
+        "lane:entry:24884"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:tarawwad",
+      "headword_arabic": "تَرَوَّدَ",
+      "definition": "To tremble or quake because of extreme softness, tenderness, or fatness.",
+      "usage_conditions": "A rare Form V bodily description.",
+      "source_refs": [
+        "lane:entry:24885"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:istarwada:submit",
+      "headword_arabic": "اِسْتَرْوَدَ",
+      "definition": "To return and become gentle or submissive to a command.",
+      "usage_conditions": "A conventional usage reported in connection with returning to God's command.",
+      "source_refs": [
+        "lane:entry:24887"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:rad:womanroving",
+      "headword_arabic": "رَادَةٌ",
+      "definition": "A woman who goes to and fro among the tents or houses of her female neighbors.",
+      "usage_conditions": "A feminine nominal use describing habitual movement between neighboring households.",
+      "source_refs": [
+        "lane:entry:24888"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:rad:womansoft",
+      "headword_arabic": "رَادَةٌ",
+      "definition": "A soft or tender woman.",
+      "usage_conditions": "This adjectival use is distinct from the expression for a woman who roves among neighboring houses.",
+      "source_refs": [
+        "lane:entry:24888"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:rad:wind",
+      "headword_arabic": "رَادَةٌ",
+      "definition": "Of a wind, moving or veering to and fro, whether violently or gently.",
+      "usage_conditions": "The adjective can describe either strong commotion or a gentle moving wind according to context.",
+      "source_refs": [
+        "lane:entry:24888"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:reed",
+      "headword_arabic": "رِيدٌ",
+      "definition": "Will, wish, or desire; also the thing wished for and pursued, or a particular manner of wishing, with associated love or solicitude.",
+      "usage_conditions": "A nominal lexical branch with its own headword and semantic profile; it is not treated as merely another inflection of أَرَادَ.",
+      "source_refs": [
+        "lane:entry:24891"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:riyad:wildbull",
+      "headword_arabic": "الرِّيَادُ",
+      "definition": "A wild bull, so called because it moves to and fro while grazing.",
+      "usage_conditions": "A conventional animal name derived from roaming or grazing movement.",
+      "source_refs": [
+        "lane:entry:24895"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:riyad:visitor",
+      "headword_arabic": "الرِّيَادُ",
+      "definition": "A man who comes and goes, especially one accustomed to visiting women.",
+      "usage_conditions": "A figurative or socially marked application of the movement-based noun.",
+      "source_refs": [
+        "lane:entry:24895"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:riwand",
+      "headword_arabic": "الرِّوَنْدُ الصِّينِيُّ",
+      "definition": "Chinese rhubarb, a medicinal plant used as a cooling remedy, especially for the liver.",
+      "usage_conditions": "A foreign technical plant name included under this spelling although its non-Arabic etymology is noted.",
+      "source_refs": [
+        "lane:entry:24897"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:raaid:movement",
+      "headword_arabic": "رَائِدٌ",
+      "definition": "One or a thing that moves to and fro; applied to grazing beasts, moving wind, or a restless person.",
+      "usage_conditions": "An active-participial noun whose movement sense can be extended to a person uneasy on a pillow or to a thing moving within the eye.",
+      "source_refs": [
+        "lane:entry:24901"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:raaid:eye",
+      "headword_arabic": "رَائِدُ العَيْنِ",
+      "definition": "A mote or other foreign matter that moves to and fro in the eye.",
+      "usage_conditions": "A specialized anatomical expression.",
+      "source_refs": [
+        "lane:entry:24901"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:raaid:millhandle",
+      "headword_arabic": "رَائِدٌ",
+      "definition": "The handle of a hand-mill used to turn the millstone.",
+      "usage_conditions": "A concrete instrument name.",
+      "source_refs": [
+        "lane:entry:24901"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:raaid:scout",
+      "headword_arabic": "رَائِدٌ",
+      "definition": "A scout or forerunner sent ahead of a people to seek pasture, water, rain-rich places, or a suitable place to settle, and to choose the best of them.",
+      "usage_conditions": "The noun is also extended to a person sent ahead to seek a need, knowledge, or another objective, and to a precursor of a later event or deed.",
+      "source_refs": [
+        "lane:entry:24901"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:raaid:homeless",
+      "headword_arabic": "رَائِدٌ",
+      "definition": "A person who has no place in which to alight or abide.",
+      "usage_conditions": "A specialized application of the forerunner or roaming sense.",
+      "source_refs": [
+        "lane:entry:24901"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:raaida:seeking",
+      "headword_arabic": "رَائِدَةٌ",
+      "definition": "A substantive denoting seeking or willing, used in place of اِرْتِيَادٌ or إِرَادَةٌ.",
+      "usage_conditions": "A nominalized feminine form with an abstract function rather than an ordinary feminine personal description.",
+      "source_refs": [
+        "lane:entry:24902"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:arwad:quiet",
+      "headword_arabic": "أَرْوَدُ",
+      "definition": "Gentle, quiet, and unobtrusive in operation or change.",
+      "usage_conditions": "An adjective describing a process whose effects occur softly or without being noticed.",
+      "source_refs": [
+        "lane:entry:24903"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:aryad",
+      "headword_arabic": "أَرْيَدُ",
+      "definition": "More desirous than another.",
+      "usage_conditions": "A comparative form occurring in a conventional proverb; it is explained as an altered form related to أَرْوَدُ.",
+      "source_refs": [
+        "lane:entry:24903"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:marad:place",
+      "headword_arabic": "مَرَادٌ",
+      "definition": "A place where camels go to and fro while grazing, or a place where the wind comes and goes.",
+      "usage_conditions": "A place noun centered on repeated movement through or across a location.",
+      "source_refs": [
+        "lane:entry:24905"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:muraad",
+      "headword_arabic": "مُرَادٌ",
+      "definition": "What is willed, wished, sought, chosen, intended, or meant.",
+      "usage_conditions": "A passive-derived noun for the object or outcome of willing, seeking, choosing, saying, or action.",
+      "source_refs": [
+        "lane:entry:24906"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:mirwad:eye",
+      "headword_arabic": "مِرْوَدٌ",
+      "definition": "A small probe or applicator used to apply kohl to the eyes.",
+      "usage_conditions": "The name is associated with passing the instrument to and fro along the eyelids; its plural is مَرَاوِدُ.",
+      "source_refs": [
+        "lane:entry:24908"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:mirwad:pulley",
+      "headword_arabic": "مِرْوَدٌ",
+      "definition": "The iron pivot of a pulley sheave.",
+      "usage_conditions": "A technical mechanical use.",
+      "source_refs": [
+        "lane:entry:24908"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:mirwad:peg",
+      "headword_arabic": "مِرْوَدٌ",
+      "definition": "A wooden pin, peg, or stake.",
+      "usage_conditions": "A concrete implement sense, synonymous with وَتِدٌ in the cited usage.",
+      "source_refs": [
+        "lane:entry:24908"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:mirwad:swivel",
+      "headword_arabic": "مِرْوَدٌ",
+      "definition": "An iron swivel or turning attachment on a horse's bit, halter, or a hawk's leash.",
+      "usage_conditions": "The term can refer to the rotating attachment itself or to the paired rings at the end of a horse's headstall.",
+      "source_refs": [
+        "lane:entry:24908"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:mirwad:joint",
+      "headword_arabic": "مِرْوَدٌ",
+      "definition": "A joint or articulation.",
+      "usage_conditions": "An anatomical or structural use, synonymous with مَفْصِلٌ.",
+      "source_refs": [
+        "lane:entry:24908"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:mirwad:limit",
+      "headword_arabic": "مِرْوَدٌ",
+      "definition": "A limit or extent to which someone runs or is allowed to proceed.",
+      "usage_conditions": "A figurative use associated with granting delay or leaving someone a period of latitude.",
+      "source_refs": [
+        "lane:entry:24908"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:muriid",
+      "headword_arabic": "مُرِيدٌ",
+      "definition": "A religious aspirant undergoing probation, or a devotee devoted to complying with God's will.",
+      "usage_conditions": "A conventional post-classical religious-technical use of the active participle.",
+      "source_refs": [
+        "lane:entry:24909"
+      ]
+    },
+    {
+      "meaning_id": "rwd:cm:mustaraad",
+      "headword_arabic": "مُسْتَرَادٌ",
+      "definition": "A person whose like is sought after or coveted because of the high regard in which that person is held.",
+      "usage_conditions": "Used in the idiom فلان مستراد لمثله and its feminine counterpart; the construction concerns the desirability of an equal or counterpart.",
+      "source_refs": [
+        "lane:entry:24911"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rwd:24882:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:rad:movement"
+      ],
+      "note": "Movement, roaming, grazing, and wind motion are represented in the Form I movement branch."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24882:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:rad:restless"
+      ],
+      "note": "Restlessness and sleeplessness are represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24882:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:rad:search"
+      ],
+      "note": "Seeking pasture, water, sustenance, and a place is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24882:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:rad:question"
+      ],
+      "note": "The questioning-the-house construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24882:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:rad:pasture"
+      ],
+      "note": "The transitive pasturing use is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24883:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:raawada:s1",
+        "rwd:raawada:s2"
+      ],
+      "note": "Inducing or turning another person, including the sexual construction, is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24884:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:arwada:gentle"
+      ],
+      "note": "Gentle or leisurely proceeding is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24884:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:arwada:gentle"
+      ],
+      "note": "Gentle treatment and granting respite are represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24884:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "rwd:cm:rad:pasture"
+      ],
+      "note": "The cross-referenced pasturing use is already represented under the Form I transitive pasturing meaning."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24884:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:araada:s1",
+        "rwd:araada:s2",
+        "rwd:araada:s4"
+      ],
+      "note": "Willing, seeking or choosing, intending, and the inanimate about-to-fall construction are represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24884:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:arwada:induce"
+      ],
+      "note": "The classical induce-or-constrain construction is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24885:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:tarawwad"
+      ],
+      "note": "The rare trembling use is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24886:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24887:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24887:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:istarwada:submit"
+      ],
+      "note": "The return-and-submit usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24888:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only synonym and cross-reference material."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24888:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:rad:womanroving",
+        "rwd:cm:rad:womansoft"
+      ],
+      "note": "The roving-woman and soft-or-tender-woman uses are represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24888:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:rad:wind"
+      ],
+      "note": "The wind adjective and its contrasting degrees of motion are represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24889:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24890:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "rwd:ruwayd:s1"
+      ],
+      "note": "The gentleness, delay, respite, and imperative-like uses are covered by the Quranic nominal sense."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24891:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:reed"
+      ],
+      "note": "The nominal will, desired object, and solicitude branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24892:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24893:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24894:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24895:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:riyad:wildbull",
+        "rwd:cm:riyad:visitor"
+      ],
+      "note": "The wild-bull and human visitor applications are represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24896:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24897:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:riwand"
+      ],
+      "note": "The technical medicinal plant term is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24898:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24899:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24900:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24901:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:raaid:movement",
+        "rwd:cm:raaid:eye"
+      ],
+      "note": "The active-participial movement, restlessness, and eye-mote uses are represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24901:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:raaid:millhandle"
+      ],
+      "note": "The hand-mill handle is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24901:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24901:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:raaid:scout"
+      ],
+      "note": "The scout, forerunner, precursor, and seeker-of-a-need extensions are represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24901:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:raaid:homeless"
+      ],
+      "note": "The person without a place to settle is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24901:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24902:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:raaida:seeking"
+      ],
+      "note": "The substantive use for seeking or willing is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24903:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:arwad:quiet"
+      ],
+      "note": "The quiet, gentle, unobtrusive adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24903:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:aryad"
+      ],
+      "note": "The comparative desirability use is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24904:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24905:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:marad:place"
+      ],
+      "note": "The pasture and wind place noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24906:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:muraad"
+      ],
+      "note": "The desired, chosen, intended, or meant object is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24907:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24908:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:mirwad:eye",
+        "rwd:cm:mirwad:pulley",
+        "rwd:cm:mirwad:peg",
+        "rwd:cm:mirwad:swivel",
+        "rwd:cm:mirwad:joint",
+        "rwd:cm:mirwad:limit"
+      ],
+      "note": "All six independently attested instrument, structural, anatomical, and figurative branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24908:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:mirwad:pulley"
+      ],
+      "note": "The pulley pivot is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24908:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:mirwad:peg"
+      ],
+      "note": "The peg or stake is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24908:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:mirwad:swivel"
+      ],
+      "note": "The horse or hawk swivel is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24908:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:mirwad:joint"
+      ],
+      "note": "The joint sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24908:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:mirwad:limit"
+      ],
+      "note": "The figurative limit or extent is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24909:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:muriid"
+      ],
+      "note": "The post-classical religious-technical use is represented."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24910:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24911:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the place noun."
+    },
+    {
+      "unit_id": "lane-unit:rwd:24911:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rwd:cm:mustaraad"
+      ],
+      "note": "The idiom for a person whose like is sought or coveted is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic Form III and Form IV verbs are separate lexical forms: رَاوَدَ concerns trying to turn or induce another person, while أَرَادَ primarily concerns willing, intending, or pursuing an outcome.",
+    "The Form IV Quranic uses include divine, normative, and inanimate constructions; these should not all be reduced to a single human psychological sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,161 @@
+{
+  "root": "HDD",
+  "arabic": "حضض",
+  "root_idea": {
+    "summary": "The root has two established semantic axes: impelling someone toward an action and a low or depressed resting place.",
+    "development": "The urging sense is associated in the lexical tradition with pressing toward al-ḥaḍīḍ, the low ground; the two branches remain distinct in the verb حَضَّ and the noun حَضِيضٌ. A traditional comparison distinguishes حَضٌّ from حَثٌّ by not making travel or driving its primary domain, although other lexical testimony allows broader use.",
+    "source_refs": [
+      "maqayis:row:1382",
+      "mufradat:row:333",
+      "lane:entry:14792",
+      "lane:entry:14797"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:HDD:yaHuD~u:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdd-form1-hadda",
+      "reason": "The supplied Quran occurrences represent the basic Form I verb of urging or inciting."
+    },
+    {
+      "form_group_id": "qac-form:HDD:taHa`^D~u:verb:VI",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdd-form6-tahadda",
+      "reason": "The supplied Quran occurrence represents the reciprocal Form VI construction."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "hdd-form1-hadda",
+      "form_group_ids": [
+        "qac-form:HDD:yaHuD~u:verb:I"
+      ],
+      "headword_arabic": "حَضَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "hdd-form1-s1",
+          "definition": "To urge, incite, encourage, or press someone toward an action.",
+          "usage_conditions": "In the supplied Quranic occurrences, it is construed with عَلَى and concerns urging the feeding of the poor or needy. The contextual sense is strong encouragement or urgent incitement, with “command” representing an intensified rendering rather than a separate lexical sense.",
+          "source_refs": [
+            "lane:entry:14792",
+            "mufradat:row:333"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "69:34",
+          "word_location": "69:34:2",
+          "sense_ids": [
+            "hdd-form1-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hdd-form6-tahadda",
+      "form_group_ids": [
+        "qac-form:HDD:taHa`^D~u:verb:VI"
+      ],
+      "headword_arabic": "تَحَاضَّ",
+      "public_pos_label": "Verb · Form VI",
+      "verb_form": "VI",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "hdd-form6-s1",
+          "definition": "To urge one another or mutually encourage one another to act.",
+          "usage_conditions": "This is a reciprocal construction: each party urges the other. In the supplied Quranic occurrence, the mutual urging concerns feeding the poor or needy. A separately reported Form III reading of the same Quranic passage expresses the corresponding mutual-urging relation but is not a separate supplied QAC form group.",
+          "source_refs": [
+            "lane:entry:14795",
+            "lane:entry:14794"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "89:18",
+          "word_location": "89:18:2",
+          "sense_ids": [
+            "hdd-form6-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "hdd-c1",
+      "headword_arabic": "حَضِيضٌ",
+      "definition": "Low or depressed ground, especially the lower area at or near the foot of a mountain; also the ground simply, in an absolute use.",
+      "usage_conditions": "A noun denoting a low tract, a depression, or the lowest part of a stretch of land. The lexical evidence also records plural forms.",
+      "source_refs": [
+        "lane:entry:14797"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:HDD:14792:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdd-form1-s1"
+      ],
+      "note": "The urging, incitement, and urgent-encouragement branch is represented under the Quranic Form I sense."
+    },
+    {
+      "unit_id": "lane-unit:HDD:14793:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hdd-form1-s1"
+      ],
+      "note": "Pointer to the same urging meaning; it adds no independent semantic branch."
+    },
+    {
+      "unit_id": "lane-unit:HDD:14794:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hdd-form6-s1"
+      ],
+      "note": "The reciprocal urging described for Form III is covered by the mutual-urging sense; the alternate morphology is not a separate QAC group."
+    },
+    {
+      "unit_id": "lane-unit:HDD:14795:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdd-form6-s1"
+      ],
+      "note": "The Form VI reciprocal urging construction is represented directly."
+    },
+    {
+      "unit_id": "lane-unit:HDD:14796:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only nominal cross-reference; it adds no independent definition."
+    },
+    {
+      "unit_id": "lane-unit:HDD:14797:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdd-c1"
+      ],
+      "note": "The independent low-ground noun is represented under broader Classical Arabic meanings."
+    },
+    {
+      "unit_id": "lane-unit:HDD:14798:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only substantive cross-reference; it adds no independent definition."
+    }
+  ],
+  "cautions": [
+    "The supplied contextual English gloss “feel the urge” is not used as a standalone lexical definition; the direct lexical evidence supports urging or encouraging someone or one another.",
+    "A separately reported Form III reading occurs in the Quranic passage discussed by the lexical evidence; it is not counted as an additional QAC occurrence.",
+    "The historical Quran citation notation in the lexical evidence is not converted into a modern verse location; 89:18 is used because that location is independently supplied by QAC."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

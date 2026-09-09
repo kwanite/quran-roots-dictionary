@@ -1,0 +1,253 @@
+{
+  "root": "kfy",
+  "arabic": "كفي",
+  "root_idea": {
+    "summary": "The supplied lexical evidence centers the root on sufficiency: filling a need and bringing an intended matter to its desired result.",
+    "development": "Related attested extensions include standing in for another by undertaking an affair, warding off harm, and being content with what suffices. These extensions are not automatically meanings of every Quranic form.",
+    "source_refs": [
+      "mufradat:row:1259",
+      "lane:entry:32905",
+      "lane:entry:32906"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kfy:kafaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-kfy-kafa",
+      "reason": "The Form I verb has an independent Quranic lexical entry and is normalized to the Classical Arabic perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:kfy:kaAf:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-kfy-kafin",
+      "reason": "The Quranic occurrence is an active participle and is displayed under the normalized citation form كَافٍ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-kfy-kafa",
+      "form_group_ids": [
+        "qac-form:kfy:kafaY`:verb:I"
+      ],
+      "headword_arabic": "كَفَىٰ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 32,
+      "senses": [
+        {
+          "sense_id": "qf-kfy-kafa-s1",
+          "definition": "To suffice for someone or something; to be enough to fill a need, attain an intended result, or make further provision unnecessary.",
+          "usage_conditions": "Quranic uses include an agent sufficing a person or group, including by making a threat, opposition, or required action unnecessary. The agent may also be introduced with بِـ in a sufficiency construction such as كَفَى بِنَا.",
+          "source_refs": [
+            "lane:entry:32905",
+            "mufradat:row:1259"
+          ]
+        },
+        {
+          "sense_id": "qf-kfy-kafa-s2",
+          "definition": "To suffice or serve in a specified capacity, especially to be sufficient as a witness.",
+          "usage_conditions": "In the Quranic construction كَفَى بِاللَّهِ شَهِيدًا, بِـ may be understood as introducing the agent of “Allah suffices as witness.” The supplied lexical discussion also records an alternative construal equivalent to taking or being content with Allah as witness.",
+          "source_refs": [
+            "lane:entry:32905",
+            "mufradat:row:1259"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:137",
+          "word_location": "2:137:15",
+          "sense_ids": [
+            "qf-kfy-kafa-s1"
+          ]
+        },
+        {
+          "verse_key": "15:95",
+          "word_location": "15:95:2",
+          "sense_ids": [
+            "qf-kfy-kafa-s1"
+          ]
+        },
+        {
+          "verse_key": "4:79",
+          "word_location": "4:79:16",
+          "sense_ids": [
+            "qf-kfy-kafa-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-kfy-kafin",
+      "form_group_ids": [
+        "qac-form:kfy:kaAf:nominal:-"
+      ],
+      "headword_arabic": "كَافٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-kfy-kafin-s1",
+          "definition": "Sufficient or enough to meet a need.",
+          "usage_conditions": "An active participle used predicatively or after بِـ, as in بِكَافٍ, “sufficient.”",
+          "source_refs": [
+            "mufradat:row:1259"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:36",
+          "word_location": "39:36:3",
+          "sense_ids": [
+            "qf-kfy-kafin-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-kfy-contentment",
+      "headword_arabic": "كَفَى",
+      "definition": "To be satisfied or content with something.",
+      "usage_conditions": "A Classical Arabic use distinct from merely supplying what another person needs.",
+      "source_refs": [
+        "lane:entry:32905"
+      ]
+    },
+    {
+      "meaning_id": "cm-kfy-undertaking",
+      "headword_arabic": "كَفَى",
+      "definition": "To take an affair upon oneself, undertaking its accomplishment or averting it, and thereby stand in place of another.",
+      "usage_conditions": "The undertaking may concern accomplishing a beneficial matter or preventing and averting a harmful one.",
+      "source_refs": [
+        "lane:entry:32905"
+      ]
+    },
+    {
+      "meaning_id": "cm-kfy-repel",
+      "headword_arabic": "كَفَى",
+      "definition": "To repel or prevent something from someone; to defend or free someone from it.",
+      "usage_conditions": "This construction is classically used with مِنْ, as in كَفَاهُ الشَّرَّ, “he repelled evil from him.”",
+      "source_refs": [
+        "lane:entry:32905"
+      ]
+    },
+    {
+      "meaning_id": "cm-kfy-iktifa",
+      "headword_arabic": "اِكْتَفَى بِالشَّيْءِ",
+      "definition": "To content oneself with a thing, needing nothing more.",
+      "usage_conditions": "Form VIII construction with بِـ.",
+      "source_refs": [
+        "lane:entry:32906"
+      ]
+    },
+    {
+      "meaning_id": "cm-kfy-kifaya",
+      "headword_arabic": "كِفَايَةٌ",
+      "definition": "Sufficiency or adequacy: what fills a need and enables one to obtain what is sought.",
+      "usage_conditions": "An abstract noun for the state or quality of being sufficient.",
+      "source_refs": [
+        "lane:entry:32907"
+      ]
+    },
+    {
+      "meaning_id": "cm-kfy-maintenance",
+      "headword_arabic": "كِفَايَةٌ",
+      "definition": "Maintenance or support provided for someone's needs.",
+      "usage_conditions": "In the conventional expression قَامَ بِكِفَايَتِهِ, meaning to undertake or provide someone's upkeep.",
+      "source_refs": [
+        "lane:entry:32907"
+      ]
+    },
+    {
+      "meaning_id": "cm-kfy-kufya",
+      "headword_arabic": "كُفْيَةٌ",
+      "definition": "A sufficient portion of food or sustenance.",
+      "usage_conditions": "A provision sufficient for one's needs; the source also reports a plural كُفًى.",
+      "source_refs": [
+        "mufradat:row:1259"
+      ]
+    },
+    {
+      "meaning_id": "cm-kfy-akfa",
+      "headword_arabic": "أَكْفَى",
+      "definition": "More satisfying, or most satisfying.",
+      "usage_conditions": "A comparative or superlative lexical use reported for أَكْفَى.",
+      "source_refs": [
+        "lane:entry:32908"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kfy:32905:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-kfy-kafa-s1",
+        "qf-kfy-kafa-s2",
+        "cm-kfy-contentment",
+        "cm-kfy-undertaking"
+      ],
+      "note": "Its sufficiency, witness, contentment, and undertaking branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:kfy:32905:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-kfy-kafa-s1"
+      ],
+      "note": "The بِـ agent construction is covered under the Quranic sufficiency sense."
+    },
+    {
+      "unit_id": "lane-unit:kfy:32905:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kfy-repel"
+      ],
+      "note": "The repel, prevent, defend, and free construction is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:kfy:32906:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kfy-iktifa"
+      ],
+      "note": "The Form VIII contentment use is represented."
+    },
+    {
+      "unit_id": "lane-unit:kfy:32907:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kfy-kifaya"
+      ],
+      "note": "The abstract noun for sufficiency is represented."
+    },
+    {
+      "unit_id": "lane-unit:kfy:32907:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kfy-maintenance"
+      ],
+      "note": "The maintenance and upkeep construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:kfy:32908:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kfy-akfa"
+      ],
+      "note": "The comparative or superlative meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The construction كَفَى بِاللَّهِ شَهِيدًا is reported with two grammatical interpretations: Allah suffices as witness, or contentment with Allah as witness.",
+    "The supplied Mufradat row for كاف discusses the homonymous simile particle and is not evidence for the active participle كَافٍ; it is excluded from the form senses."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "mufradat:row:1227 was matched to the nominal lemma string كاف, but its text concerns الكافُ للتشبيه, the particle of comparison, rather than كَافٍ as the active participle of كفى."
+  ]
+}

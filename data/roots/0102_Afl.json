@@ -1,0 +1,189 @@
+{
+  "root": "Afl",
+  "arabic": "أفل",
+  "root_idea": {
+    "summary": "The root has two principal lexical branches: disappearance or absence, and the small or young among camels and related livestock.",
+    "development": "The absence branch appears in the Quran chiefly as the setting and disappearance of celestial bodies, and in broader Classical Arabic as general absence or departure. Classical evidence also records a specialized use for conception settling in the womb; the separate livestock branch denotes a young camel and a reported term for young sheep.",
+    "source_refs": [
+      "maqayis:row:117",
+      "lane:entry:6935",
+      "lane:entry:6936",
+      "mufradat:row:45"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Afl:>afala:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Afl_afala_I",
+      "reason": "Displayed as the normalized Form I perfect verb citation form."
+    },
+    {
+      "form_group_id": "qac-form:Afl:'aAfiliyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Afl_afil_active",
+      "reason": "Displayed as a distinct active participle, normalized from the Quranic plural form to its singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "Afl_afala_I",
+      "form_group_ids": [
+        "qac-form:Afl:>afala:verb:I"
+      ],
+      "headword_arabic": "أَفَلَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "Afl_afala_set",
+          "definition": "To set and disappear from sight.",
+          "usage_conditions": "In the supplied Quran occurrences, the verb describes a star, the moon, and the sun as they set or become absent from view.",
+          "source_refs": [
+            "lane:entry:6935",
+            "mufradat:row:45"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:76",
+          "word_location": "6:76:11",
+          "sense_ids": [
+            "Afl_afala_set"
+          ]
+        },
+        {
+          "verse_key": "6:77",
+          "word_location": "6:77:9",
+          "sense_ids": [
+            "Afl_afala_set"
+          ]
+        },
+        {
+          "verse_key": "6:78",
+          "word_location": "6:78:11",
+          "sense_ids": [
+            "Afl_afala_set"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "Afl_afil_active",
+      "form_group_ids": [
+        "qac-form:Afl:'aAfiliyn:nominal:-"
+      ],
+      "headword_arabic": "آفِلٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "Afl_afil_set",
+          "definition": "One that sets or disappears from sight.",
+          "usage_conditions": "The Quranic plural form is applied to celestial bodies that set, in the expression referring to those that set.",
+          "source_refs": [
+            "lane:entry:6937",
+            "lane:entry:6935",
+            "mufradat:row:45"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:76",
+          "word_location": "6:76:15",
+          "sense_ids": [
+            "Afl_afil_set"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "Afl_classical_absence",
+      "headword_arabic": "أَفَلَ",
+      "definition": "To become absent, hidden, or concealed; of a person, to go away from a country or town.",
+      "usage_conditions": "A broader Classical Arabic use for things generally and for a person departing from a locality, distinct from the Quranic celestial-body construction.",
+      "source_refs": [
+        "lane:entry:6935"
+      ]
+    },
+    {
+      "meaning_id": "Afl_afil_camel",
+      "headword_arabic": "أَفِيلٌ",
+      "definition": "A young or recently weaned camel.",
+      "usage_conditions": "The precise age range varies in the transmitted descriptions, which include a camel in its second or third year and a youthful weaned camel.",
+      "source_refs": [
+        "lane:entry:6936",
+        "maqayis:row:117",
+        "mufradat:row:45"
+      ]
+    },
+    {
+      "meaning_id": "Afl_ifal_sheep",
+      "headword_arabic": "إِفَالٌ",
+      "definition": "Young sheep.",
+      "usage_conditions": "A reported livestock use of the plural or collective term; the supplied evidence does not make its relation to the camel term fully uniform.",
+      "source_refs": [
+        "mufradat:row:45",
+        "lane:entry:6936"
+      ]
+    },
+    {
+      "meaning_id": "Afl_womb_settling",
+      "headword_arabic": "أَفَلَ",
+      "definition": "For conception or fertilization to settle in the womb.",
+      "usage_conditions": "A specialized reported Classical Arabic construction, not attested as a Quranic usage in the supplied form groups.",
+      "source_refs": [
+        "maqayis:row:117"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Afl:6935:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Afl_afala_set",
+        "Afl_classical_absence"
+      ],
+      "note": "Covers celestial setting and the broader absence or concealment branch."
+    },
+    {
+      "unit_id": "lane-unit:Afl:6935:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Afl_classical_absence"
+      ],
+      "note": "Covers a person becoming absent or going away from a locality."
+    },
+    {
+      "unit_id": "lane-unit:Afl:6936:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Afl_afil_camel",
+        "Afl_ifal_sheep"
+      ],
+      "note": "Covers the young-camel meaning and the reported young-sheep use of a related plural form."
+    },
+    {
+      "unit_id": "lane-unit:Afl:6937:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Afl_afil_set"
+      ],
+      "note": "Covers the active participle applied to the moon and stars in the Quranic expression."
+    }
+  ],
+  "cautions": [
+    "The supplied evidence differs on the livestock term إِفَالٌ: its main Mufradat wording gives “young sheep,” while an inserted note and Lane's primary entry associate related forms with young camels. The sheep use is therefore retained as a separately reported Classical meaning.",
+    "The womb-settling usage is reported in the root-level Classical evidence and has no supplied Quran occurrence."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The precise lexical identity and livestock reference of إِفَالٌ are not fully stable across the packet: Mufradat's main text assigns it to young sheep, its inserted note assigns it to young camels, and Lane records إِفَالٌ chiefly as a plural of أَفِيلٌ while mentioning young sheep under an alternate cited form."
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "root": "Syr",
+  "arabic": "صير",
+  "root_idea": {
+    "summary": "A movement or transition toward an eventual state, end, or destination.",
+    "development": "The root develops from coming to or changing into a state toward the endpoint, outcome, or place eventually reached.",
+    "source_refs": [
+      "maqayis:row:2875"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Syr:taSiyru:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "syr_sara",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Syr:maSiyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "syr_masir",
+      "reason": "Displayed as the nominal citation form مَصِير."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "syr_sara",
+      "form_group_ids": [
+        "qac-form:Syr:taSiyru:verb:I"
+      ],
+      "headword_arabic": "صَارَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "syr_sara_qs1",
+          "definition": "To come ultimately to; reach as an eventual destination or referent.",
+          "usage_conditions": "Used with إِلَى for a person, thing, or affair proceeding toward a destination or final point. In the supplied Qur'anic occurrence, affairs ultimately come to God.",
+          "source_refs": [
+            "lane:entry:27017",
+            "mufradat:row:862"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "42:53",
+          "word_location": "42:53:14",
+          "sense_ids": [
+            "syr_sara_qs1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "syr_masir",
+      "form_group_ids": [
+        "qac-form:Syr:maSiyr:nominal:-"
+      ],
+      "headword_arabic": "مَصِير",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 28,
+      "senses": [
+        {
+          "sense_id": "syr_masir_qs1",
+          "definition": "The eventual destination, final end, or outcome to which someone or something comes.",
+          "usage_conditions": "Frequently refers to the ultimate return or destination of people and affairs, including the final destination with God. It denotes an endpoint reached after transition to a later state or condition.",
+          "source_refs": [
+            "lane:entry:27017",
+            "lane:entry:27032",
+            "mufradat:row:862"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:28",
+          "word_location": "3:28:27",
+          "sense_ids": [
+            "syr_masir_qs1"
+          ]
+        },
+        {
+          "verse_key": "25:15",
+          "word_location": "25:15:13",
+          "sense_ids": [
+            "syr_masir_qs1"
+          ]
+        },
+        {
+          "verse_key": "40:3",
+          "word_location": "40:3:14",
+          "sense_ids": [
+            "syr_masir_qs1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_sar_become",
+      "headword_arabic": "صَارَ",
+      "definition": "To become; attain a new state or condition.",
+      "usage_conditions": "May be followed by a noun or adjective predicate. With a following imperfect verb, it can mean to come to be engaged in or begin doing something.",
+      "source_refs": [
+        "lane:entry:27017"
+      ]
+    },
+    {
+      "meaning_id": "cm_sar_acquire",
+      "headword_arabic": "صَارَ لَهُ",
+      "definition": "To come to have, receive, or become possessed of something; to befall someone.",
+      "usage_conditions": "Used with لِـ to express something coming to or becoming available to a person or thing.",
+      "source_refs": [
+        "lane:entry:27017"
+      ]
+    },
+    {
+      "meaning_id": "cm_sar_enter",
+      "headword_arabic": "صَارَ فِي",
+      "definition": "To come to be in a place or period; enter or find oneself in a circumstance.",
+      "usage_conditions": "The construction may describe entering a physical place, a season, or another surrounding condition.",
+      "source_refs": [
+        "lane:entry:27017"
+      ]
+    },
+    {
+      "meaning_id": "cm_water_stay",
+      "headword_arabic": "صَيْرٌ / صَائِرٌ",
+      "definition": "A watering place at which people or animals stay; one who stays or a group staying at such a place.",
+      "usage_conditions": "The noun can also describe the return of herbage-seekers to their watering places.",
+      "source_refs": [
+        "lane:entry:27017",
+        "lane:entry:27028"
+      ]
+    },
+    {
+      "meaning_id": "cm_cut_split",
+      "headword_arabic": "صَارَهُ",
+      "definition": "To cut, cleave, or split something.",
+      "usage_conditions": "A related noun denotes a cleft or split. This meaning is also associated with the reported reading فَصُرْهُنَّ, which is not a supplied QAC form group for this root.",
+      "source_refs": [
+        "lane:entry:27017",
+        "mufradat:row:862"
+      ]
+    },
+    {
+      "meaning_id": "cm_turn_twist",
+      "headword_arabic": "صَارَهُ",
+      "definition": "To make something incline or turn; turn the face toward someone or something; twist.",
+      "usage_conditions": "The usage includes turning toward a person or thing and twisting a neck. A Quranic variant reading is reported in connection with this branch, but it is not represented as a canonical supplied QAC form.",
+      "source_refs": [
+        "lane:entry:27017",
+        "lane:entry:27028"
+      ]
+    },
+    {
+      "meaning_id": "cm_confine",
+      "headword_arabic": "صَارَهُ",
+      "definition": "To confine, restrain, or restrict someone or something.",
+      "usage_conditions": "A transitive usage with a direct object.",
+      "source_refs": [
+        "lane:entry:27017"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_make",
+      "headword_arabic": "صَيَّرَ",
+      "definition": "To make someone or something become or be in a particular state; make into.",
+      "usage_conditions": "Form II causatively brings about a state or condition, whether by action or, in some usages, by declaration.",
+      "source_refs": [
+        "lane:entry:27018"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_bring",
+      "headword_arabic": "صَيَّرَ",
+      "definition": "To bring, cause, or reduce someone or something to a state, place, or condition.",
+      "usage_conditions": "With إِلَى, it describes causing a person or thing to come to a destination or resulting condition.",
+      "source_refs": [
+        "lane:entry:27018"
+      ]
+    },
+    {
+      "meaning_id": "cm_form2_assign",
+      "headword_arabic": "صَيَّرَ",
+      "definition": "To commit, assign, attribute, or declare something to belong to someone or something.",
+      "usage_conditions": "The construction may express entrusting an affair, assigning a possession, or establishing a status by word or covenant.",
+      "source_refs": [
+        "lane:entry:27018"
+      ]
+    },
+    {
+      "meaning_id": "cm_form5_resemble",
+      "headword_arabic": "تَصَيَّرَ",
+      "definition": "To resemble or take after someone in appearance or character.",
+      "usage_conditions": "Attested in the construction of becoming like one's father.",
+      "source_refs": [
+        "lane:entry:27020"
+      ]
+    },
+    {
+      "meaning_id": "cm_sir_end",
+      "headword_arabic": "صِيرٌ",
+      "definition": "The ultimate or latter state, end, conclusion, result, or issue of an affair.",
+      "usage_conditions": "It can also mean the verge or point at which an affair or task is nearing completion.",
+      "source_refs": [
+        "lane:entry:27022"
+      ]
+    },
+    {
+      "meaning_id": "cm_cleft",
+      "headword_arabic": "صِيرٌ",
+      "definition": "A cleft, split, or crevice, especially a crevice in a door.",
+      "usage_conditions": "The door-related sense is a specialized physical use of the word for a narrow opening or split.",
+      "source_refs": [
+        "lane:entry:27022",
+        "mufradat:row:862"
+      ]
+    },
+    {
+      "meaning_id": "cm_fish_condiment",
+      "headword_arabic": "صِيرٌ",
+      "definition": "A condiment made from small salted fish, or the small fish from which it is made.",
+      "usage_conditions": "This item is reported as possibly non-Arabic or foreign in origin.",
+      "source_refs": [
+        "lane:entry:27022"
+      ]
+    },
+    {
+      "meaning_id": "cm_jewish_bishop",
+      "headword_arabic": "صِيرٌ",
+      "definition": "The bishop or senior religious official of the Jews.",
+      "usage_conditions": "A specialized historical or institutional noun.",
+      "source_refs": [
+        "lane:entry:27022"
+      ]
+    },
+    {
+      "meaning_id": "cm_enclosure",
+      "headword_arabic": "صِيرَةٌ",
+      "definition": "An enclosure for sheep, goats, cattle, or other livestock.",
+      "usage_conditions": "The enclosure is constructed from wood, stones, or branches.",
+      "source_refs": [
+        "lane:entry:27023"
+      ]
+    },
+    {
+      "meaning_id": "cm_instrument",
+      "headword_arabic": "صِيَارٌ",
+      "definition": "The stringed instrument called a ṣanj, or its sound.",
+      "usage_conditions": "The evidence records both the instrument and, according to one authority, the sound produced by it.",
+      "source_refs": [
+        "lane:entry:27024"
+      ]
+    },
+    {
+      "meaning_id": "cm_stones",
+      "headword_arabic": "صِيَارَةٌ",
+      "definition": "Stones or a mass of stones.",
+      "usage_conditions": "This entry is given as equivalent to a separate term for stones and related stone material.",
+      "source_refs": [
+        "lane:entry:27025"
+      ]
+    },
+    {
+      "meaning_id": "cm_grave",
+      "headword_arabic": "صَيِّرٌ",
+      "definition": "A grave.",
+      "usage_conditions": "The word is explained as an ultimate or final abode.",
+      "source_refs": [
+        "lane:entry:27026"
+      ]
+    },
+    {
+      "meaning_id": "cm_company",
+      "headword_arabic": "صَيِّرٌ",
+      "definition": "A company, group, or gathering of people.",
+      "usage_conditions": "A collective noun for a group or company.",
+      "source_refs": [
+        "lane:entry:27026"
+      ]
+    },
+    {
+      "meaning_id": "cm_landmark",
+      "headword_arabic": "صَيِّرَةٌ",
+      "definition": "A cased stone landmark or monument on a small isolated mountain or similar elevation.",
+      "usage_conditions": "The structure resembles a piled stone way-marker and may be rounded, broad, and partly excavated.",
+      "source_refs": [
+        "lane:entry:27027"
+      ]
+    },
+    {
+      "meaning_id": "cm_door_pivot",
+      "headword_arabic": "صَائِرٌ",
+      "definition": "The pivot of a door, at its top or heel, turning in a socket.",
+      "usage_conditions": "A technical architectural term for a door's turning support.",
+      "source_refs": [
+        "lane:entry:27028"
+      ]
+    },
+    {
+      "meaning_id": "cm_rain",
+      "headword_arabic": "صَائِرَةٌ",
+      "definition": "Rain.",
+      "usage_conditions": "An independent nominal use.",
+      "source_refs": [
+        "lane:entry:27029"
+      ]
+    },
+    {
+      "meaning_id": "cm_herbage",
+      "headword_arabic": "صَائِرَةٌ",
+      "definition": "Herbage, pasture, or grazing vegetation.",
+      "usage_conditions": "A landscape and pastoral use distinct from the related sense for rain.",
+      "source_refs": [
+        "lane:entry:27029"
+      ]
+    },
+    {
+      "meaning_id": "cm_dry_herbage",
+      "headword_arabic": "صَائِرَةٌ / صَيُّورٌ",
+      "definition": "Dry herbage or pasture, especially vegetation eaten long after it was green.",
+      "usage_conditions": "A specialized pastoral term for grass or herbs in a dry, aged condition.",
+      "source_refs": [
+        "lane:entry:27029",
+        "lane:entry:27030"
+      ]
+    },
+    {
+      "meaning_id": "cm_judgment",
+      "headword_arabic": "صَيُّورٌ",
+      "definition": "Judgment, opinion, understanding, or intellect; especially a considered final judgment.",
+      "usage_conditions": "The word may refer either to mental discernment generally or to an opinion reached after deliberation.",
+      "source_refs": [
+        "lane:entry:27030"
+      ]
+    },
+    {
+      "meaning_id": "cm_confused_affair",
+      "headword_arabic": "أُمُّ صَيُّورٍ",
+      "definition": "A confused or dubious affair through which there is no clear way to pass.",
+      "usage_conditions": "An idiomatic expression; its derivation is reported as uncertain.",
+      "source_refs": [
+        "lane:entry:27030"
+      ]
+    },
+    {
+      "meaning_id": "cm_masir_lodging",
+      "headword_arabic": "مَصِيرٌ",
+      "definition": "A place where people alight and abide.",
+      "usage_conditions": "A specialized place-name use, distinct from the general sense of eventual destination.",
+      "source_refs": [
+        "lane:entry:27032"
+      ]
+    },
+    {
+      "meaning_id": "cm_masir_water",
+      "headword_arabic": "مَصِيرٌ",
+      "definition": "A place toward which waters come or take their course; a place of pasture and water.",
+      "usage_conditions": "The plural is used for places of herbage or pasture and water.",
+      "source_refs": [
+        "lane:entry:27032"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Syr:27017:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sar_become"
+      ],
+      "note": "Becoming or entering a state, including beginning an activity, is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27017:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "syr_masir_qs1"
+      ],
+      "note": "Eventual coming to a changed state is covered by the Quranic destination sense."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27017:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "syr_sara_qs1",
+        "syr_masir_qs1"
+      ],
+      "note": "Coming ultimately to a person or place and the cited Quranic expression are represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27017:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sar_acquire"
+      ],
+      "note": "Coming to have or being caused to have something is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27017:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sar_enter"
+      ],
+      "note": "Coming to be in a place or season is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27017:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_water_stay"
+      ],
+      "note": "Staying at or returning to a watering place is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27017:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_cut_split"
+      ],
+      "note": "The dialectal transitive sense of cutting or splitting is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27017:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_turn_twist"
+      ],
+      "note": "Inclining, turning, and twisting are represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27017:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_confine"
+      ],
+      "note": "The transitive sense of confining or restricting is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27018:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_make"
+      ],
+      "note": "Form II causation into a state is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27018:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_bring",
+        "cm_form2_assign"
+      ],
+      "note": "Causing someone to a state and committing or assigning an affair are represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27018:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form2_make",
+        "cm_form2_assign"
+      ],
+      "note": "Declarative making, attribution, and appointment are represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27019:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27020:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_form5_resemble"
+      ],
+      "note": "Form V resemblance is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27021:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27022:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sir_end"
+      ],
+      "note": "Ultimate state, end, result, and issue are represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27022:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sir_end"
+      ],
+      "note": "The verge or point of completion is included in the same end-state branch."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27022:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_water_stay"
+      ],
+      "note": "The watering-place sense is covered by the represented water-stay meaning."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27022:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_cleft"
+      ],
+      "note": "The specialized door-crevice sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27022:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fish_condiment"
+      ],
+      "note": "The salted-fish condiment and fish sense are represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27022:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jewish_bishop"
+      ],
+      "note": "The specialized institutional noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27022:g6:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27023:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_enclosure"
+      ],
+      "note": "The livestock enclosure is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27023:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27024:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_instrument"
+      ],
+      "note": "The stringed instrument and its reported sound are represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27024:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27025:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the enclosure entry."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27025:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_stones"
+      ],
+      "note": "The explicit stones equivalence is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27026:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_grave"
+      ],
+      "note": "The grave sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27026:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_company"
+      ],
+      "note": "The company or group sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27026:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27027:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_landmark"
+      ],
+      "note": "The specialized stone landmark is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27028:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_water_stay"
+      ],
+      "note": "Staying at a watering place is covered by the earlier water-stay meaning."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27028:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_turn_twist"
+      ],
+      "note": "The neck-twister agent noun is covered by the represented twisting branch."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27028:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_door_pivot"
+      ],
+      "note": "The technical door-pivot sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27029:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27029:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rain"
+      ],
+      "note": "The rain sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27029:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_herbage"
+      ],
+      "note": "The herbage or pasture sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27029:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dry_herbage"
+      ],
+      "note": "The dry-herbage state is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27030:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to صِيرٌ."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27030:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_judgment"
+      ],
+      "note": "Judgment, opinion, understanding, and intellect are represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27030:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_dry_herbage"
+      ],
+      "note": "The specialized dry-pasture sense is covered by the dry-herbage meaning."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27030:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_confused_affair"
+      ],
+      "note": "The idiomatic confused-affair sense is represented despite its reported derivational uncertainty."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27031:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the first sense of صِيرٌ."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27032:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional and grammatical information only."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27032:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "syr_masir_qs1"
+      ],
+      "note": "The exact nominal destination or eventual state is represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27032:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masir_lodging"
+      ],
+      "note": "The specialized lodging-place sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27032:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masir_water"
+      ],
+      "note": "The place of water and pasture sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27032:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another root."
+    },
+    {
+      "unit_id": "lane-unit:Syr:27033:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to صِيرٌ."
+    }
+  ],
+  "cautions": [
+    "The homographic مَصِيرٌ meaning an intestine belongs to the separate م ص ر entry in the supplied cross-reference context and is not assigned to this root.",
+    "The reported reading فَصُرْهُنَّ is preserved as variant-reading evidence under the classical cut/split branch, but it is not counted as a canonical QAC form because no corresponding QAC form group was supplied.",
+    "The fish-condiment sense is lexically recorded but is reported as possibly foreign or non-Arabic; the idiom أُمُّ صَيُّورٍ likewise has uncertain derivation."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

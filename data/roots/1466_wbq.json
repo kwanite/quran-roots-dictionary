@@ -1,0 +1,121 @@
+{
+  "root": "wbq",
+  "arabic": "وبق",
+  "root_idea": {
+    "summary": "The root covers two closely associated lexical orientations: interposition or separation between things, and perishing or causing something to perish.",
+    "development": "The supplied evidence connects being held back or obstructed with perishing; the derived Form IV expresses causation, while مَوْبِق denotes an intervening separation and is also associated with perishing. An additional Classical use reports مَوْبِق for an appointed time.",
+    "source_refs": [
+      "maqayis:row:5014",
+      "mufradat:row:1546"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wbq:yuwbiqo:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wbq-awbaqa",
+      "reason": "The Quran-attested Form IV verb has a distinct causative lexical meaning."
+    },
+    {
+      "form_group_id": "qac-form:wbq:m~awobiq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wbq-mawbiq",
+      "reason": "The Quran-attested nominal has distinct lexical and constructional content as an intervening barrier associated with perishing."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wbq-awbaqa",
+      "form_group_ids": [
+        "qac-form:wbq:yuwbiqo:verb:IV"
+      ],
+      "headword_arabic": "أَوْبَقَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wbq-awbaqa-s1",
+          "definition": "To cause to perish; to destroy.",
+          "usage_conditions": "A transitive causative use: the subject causes another being or thing to perish.",
+          "source_refs": [
+            "mufradat:row:1546"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "42:34",
+          "word_location": "42:34:2",
+          "sense_ids": [
+            "wbq-awbaqa-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wbq-mawbiq",
+      "form_group_ids": [
+        "qac-form:wbq:m~awobiq:nominal:-"
+      ],
+      "headword_arabic": "مَوْبِق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wbq-mawbiq-s1",
+          "definition": "An intervening barrier or separation between two things or parties.",
+          "usage_conditions": "Used in the Quranic construction of something placed between two groups or parties to keep them apart.",
+          "source_refs": [
+            "mufradat:row:1546",
+            "maqayis:row:5014"
+          ]
+        },
+        {
+          "sense_id": "wbq-mawbiq-s2",
+          "definition": "Perishing or destruction resulting from being held back or obstructed.",
+          "usage_conditions": "A related nominal use connected with the root expression for being held back until one perishes; it explains the destructive nuance associated with the Quranic noun.",
+          "source_refs": [
+            "mufradat:row:1546"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:52",
+          "word_location": "18:52:13",
+          "sense_ids": [
+            "wbq-mawbiq-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wbq-classical-s1",
+      "headword_arabic": "وَبِقَ",
+      "definition": "To perish or be destroyed.",
+      "usage_conditions": "An intransitive Form I use; the supplied lexical discussion frames the perishing as occurring after being held back or checked.",
+      "source_refs": [
+        "maqayis:row:5014",
+        "mufradat:row:1546"
+      ]
+    },
+    {
+      "meaning_id": "wbq-classical-s2",
+      "headword_arabic": "مَوْبِق",
+      "definition": "An appointment or appointed time.",
+      "usage_conditions": "A reported Classical use of the noun, distinct from its Quran-attested sense of an intervening barrier.",
+      "source_refs": [
+        "maqayis:row:5014"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [],
+  "cautions": [
+    "No Lane primary source units were supplied for this root; the broader Classical coverage is therefore limited to meanings directly supported by the supplied Maqayis and Mufradat evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

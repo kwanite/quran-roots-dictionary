@@ -1,0 +1,234 @@
+{
+  "root": "nwy",
+  "arabic": "نوي",
+  "root_idea": {
+    "summary": "The root has two principal semantic branches: directing something toward an intended aim or destination, and the kernel or pit of a thing, especially a date.",
+    "development": "The aim branch extends from destination and direction to intending, purpose, and movement toward a place. The kernel branch yields the date-stone sense and a conventional gold-weight usage. The separately hamzated material concerning rising or bearing a burden is distinct from this root.",
+    "source_refs": [
+      "maqayis:row:4800"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nwy:n~awaY`:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-nwy-nawa",
+      "reason": "The Quran-attested nominal date-stone sense merits its own public form, normalized to the classical citation form نَوًى."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-nwy-nawa",
+      "form_group_ids": [
+        "qac-form:nwy:n~awaY`:nominal:-"
+      ],
+      "headword_arabic": "نَوًى",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform-nwy-nawa-s1",
+          "definition": "A date-stone or date-pit; the hard kernel of a date.",
+          "usage_conditions": "The noun denotes the date's inner stone or seed. Date-stones are also recorded in connection with being crushed and used as camel fodder; this is a use of the same lexical sense, not a separate meaning.",
+          "source_refs": [
+            "lane:entry:32481"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:95",
+          "word_location": "6:95:5",
+          "sense_ids": [
+            "qform-nwy-nawa-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-nwy-nawah-intend",
+      "headword_arabic": "نَوَاهُ",
+      "definition": "He intended, purposed, designed, or aimed at it.",
+      "usage_conditions": "The object is treated as the thing set before the mind as an aim. The expression may also describe directing guidance or care toward someone.",
+      "source_refs": [
+        "lane:entry:32479",
+        "maqayis:row:4800"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwy-intawa-relocate",
+      "headword_arabic": "اِنْتَوَى",
+      "definition": "To betake oneself to or toward a place of abode; to move or relocate from one country or town to another.",
+      "usage_conditions": "Used with a destination or place of lodging, and also for movement between places.",
+      "source_refs": [
+        "lane:entry:32480"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwy-nawat-circumcision-cut",
+      "headword_arabic": "نَوَاةٌ",
+      "definition": "The part removed in female circumcision, traditionally identified as the clitoral prepuce.",
+      "usage_conditions": "A specialized anatomical usage.",
+      "source_refs": [
+        "lane:entry:32481"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwy-nawa-circumcision-remnant",
+      "headword_arabic": "النَّوَى",
+      "definition": "The part or site remaining after female circumcision, described as the remaining clitoris.",
+      "usage_conditions": "A specialized usage for the remnant or circumcision site after the operation.",
+      "source_refs": [
+        "lane:entry:32481"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwy-nawa-gold-weight",
+      "headword_arabic": "نَوًى",
+      "definition": "Pieces of gold, each weighing five dirhams.",
+      "usage_conditions": "A conventional weight-related usage.",
+      "source_refs": [
+        "lane:entry:32481"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwy-nawa-destination",
+      "headword_arabic": "نَوًى",
+      "definition": "The tract, region, destination, course, or direction toward which one goes.",
+      "usage_conditions": "Used for the object of a journey and, by extension, the direction pursued in conduct or action.",
+      "source_refs": [
+        "lane:entry:32481"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwy-niyyah-intention",
+      "headword_arabic": "نِيَّةٌ",
+      "definition": "An intention, purpose, design, aim, or determination of the mind; also the intended object, direction, or destination of an action or journey.",
+      "usage_conditions": "The noun may denote either the mental purpose itself or the thing or place toward which an action or journey is directed, including a distant objective or place.",
+      "source_refs": [
+        "lane:entry:32483"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwy-nawiyy-companion",
+      "headword_arabic": "نَوِيُّكَ",
+      "definition": "A companion or associate whose intention is the same as one's own.",
+      "usage_conditions": "A relational usage describing shared intention or aim.",
+      "source_refs": [
+        "maqayis:row:4800"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nwy:32479:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwy-nawah-intend"
+      ],
+      "note": "Intending or aiming at an object is represented."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32480:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwy-intawa-relocate"
+      ],
+      "note": "Betaking oneself toward a place is represented."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32480:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-nwy-intawa-relocate"
+      ],
+      "note": "Relocation between countries or towns is covered by the same travel meaning."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32481:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-nwy-nawa-s1"
+      ],
+      "note": "The date-stone sense is represented; camel-fodder use is treated as an application of it."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32481:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwy-nawat-circumcision-cut"
+      ],
+      "note": "The specialized circumcision-removal sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32481:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwy-nawa-circumcision-remnant"
+      ],
+      "note": "The distinct post-operation remnant or site sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32481:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwy-nawa-gold-weight"
+      ],
+      "note": "The gold-weight usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32481:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwy-nawa-destination"
+      ],
+      "note": "The destination, course, and direction sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32482:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another article, with no definition for this root."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32483:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwy-niyyah-intention"
+      ],
+      "note": "The intention, purpose, object, and destination senses of نِيَّةٌ are represented."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32483:g1:sub2",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "A specialized expression is equated with referenced terms, but the supplied packet does not provide their defining gloss."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32483:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-nwy-niyyah-intention"
+      ],
+      "note": "The distant-object or distant-place specialization is explicitly covered by the نِيَّةٌ entry."
+    },
+    {
+      "unit_id": "lane-unit:nwy:32484:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "The phrase is equated with مُتَرَيِّعٌ, but the supplied packet does not resolve that synonym's meaning."
+    }
+  ],
+  "cautions": [
+    "The Quranic form is normalized to the classical citation form نَوًى rather than reproducing the internally segmented QAC lemma candidate.",
+    "The intention, travel, destination, anatomical, and weight usages are broader Classical Arabic evidence and are kept separate from the Quranic date-stone sense.",
+    "Two Lane expressions remain unresolved because their cross-referenced synonyms are not included in the supplied evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:nwy:32483:g1:sub2: نِيَّةٌ نَقَحٌ is equated with طَرَحٌ and ضَرْحٌ, but the referenced definition is not supplied, so its independent lexical sense cannot be assigned confidently.",
+    "lane-unit:nwy:32484:g1:main: أَنَا مُنْتَوٍ عَنْ هَذَا الأَمْرِ is equated with مُتَرَيِّعٌ, but the supplied packet does not provide a gloss or resolved context for that synonym."
+  ]
+}

@@ -1,0 +1,2200 @@
+{
+  "root": "Hwl",
+  "arabic": "حول",
+  "root_idea": {
+    "summary": "The root centers on movement in a circuit or transition from one state, place, or relation to another.",
+    "development": "From turning and changing come meanings of intervening or separating, spatial surroundings, the yearly cycle, transfer, and the resourceful means by which an objective is reached.",
+    "source_refs": [
+      "maqayis:row:1480",
+      "mufradat:row:371"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hwl:HaAla:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Hwl:HaAla",
+      "reason": "Quran-attested Form I verb with a distinct intervening or separating construction."
+    },
+    {
+      "form_group_id": "qac-form:Hwl:Hawol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Hwl:Hawol",
+      "reason": "Primary nominal group for the spatial and temporal noun حَوْل."
+    },
+    {
+      "form_group_id": "qac-form:Hwl:Hiwal:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Hwl:Hiwal",
+      "reason": "Distinct noun حِوَل meaning removal or change of place."
+    },
+    {
+      "form_group_id": "qac-form:Hwl:Hiylap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Hwl:Hiyla",
+      "reason": "Distinct noun حِيلَة meaning a means, plan, or expedient."
+    },
+    {
+      "form_group_id": "qac-form:Hwl:taHowiyl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Hwl:Tahwil",
+      "reason": "Derived Form II verbal noun with Quranic change and transfer uses."
+    },
+    {
+      "form_group_id": "qac-form:Hwl:Hawol:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf:Hwl:Hawol",
+      "reason": "The LOC/T group is the same lexical item حَوْل, used spatially and temporally; it is presented with the primary nominal group."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf:Hwl:HaAla",
+      "form_group_ids": [
+        "qac-form:Hwl:HaAla:verb:I"
+      ],
+      "headword_arabic": "حَالَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s:Hwl:HaAla:1",
+          "definition": "To intervene or come between, creating a separation or barrier.",
+          "usage_conditions": "Used in Quranic constructions with بَيْنَ for something that separates two persons, things, or an inner relation. The intervention may be understood as turning a person away from a desired course.",
+          "source_refs": [
+            "lane:entry:16155",
+            "mufradat:row:371"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:24",
+          "word_location": "8:24:14",
+          "sense_ids": [
+            "s:Hwl:HaAla:1"
+          ]
+        },
+        {
+          "verse_key": "11:43",
+          "word_location": "11:43:18",
+          "sense_ids": [
+            "s:Hwl:HaAla:1"
+          ]
+        },
+        {
+          "verse_key": "34:54",
+          "word_location": "34:54:1",
+          "sense_ids": [
+            "s:Hwl:HaAla:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:Hwl:Hawol",
+      "form_group_ids": [
+        "qac-form:Hwl:Hawol:nominal:-",
+        "qac-form:Hwl:Hawol:other:-"
+      ],
+      "headword_arabic": "حَوْل",
+      "public_pos_label": "Noun · spatial and temporal uses",
+      "verb_form": null,
+      "occurrence_count": 17,
+      "senses": [
+        {
+          "sense_id": "s:Hwl:Hawol:1",
+          "definition": "The area around, vicinity, or surroundings of something.",
+          "usage_conditions": "Used spatially, often in an adverbial construction with a following pronoun or noun, meaning around or in the environs of it.",
+          "source_refs": [
+            "lane:entry:16165",
+            "mufradat:row:371"
+          ]
+        },
+        {
+          "sense_id": "s:Hwl:Hawol:2",
+          "definition": "A year or annual period.",
+          "usage_conditions": "Used for the completed yearly cycle and for a specified period of a year or years, as in حَوْلَيْنِ, two years.",
+          "source_refs": [
+            "lane:entry:16165",
+            "mufradat:row:371"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:159",
+          "word_location": "3:159:14",
+          "sense_ids": [
+            "s:Hwl:Hawol:1"
+          ]
+        },
+        {
+          "verse_key": "17:1",
+          "word_location": "17:1:14",
+          "sense_ids": [
+            "s:Hwl:Hawol:1"
+          ]
+        },
+        {
+          "verse_key": "2:233",
+          "word_location": "2:233:4",
+          "sense_ids": [
+            "s:Hwl:Hawol:2"
+          ]
+        },
+        {
+          "verse_key": "2:240",
+          "word_location": "2:240:10",
+          "sense_ids": [
+            "s:Hwl:Hawol:2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:Hwl:Hiwal",
+      "form_group_ids": [
+        "qac-form:Hwl:Hiwal:nominal:-"
+      ],
+      "headword_arabic": "حِوَل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:Hwl:Hiwal:1",
+          "definition": "Removal or change from one place to another; departure or escape.",
+          "usage_conditions": "In لَا يَبْغُونَ عَنْهَا حِوَلًا, it denotes not seeking removal from the abode; it is also explained as not seeking an evasion or way of escape from it.",
+          "source_refs": [
+            "lane:entry:16169",
+            "mufradat:row:371"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:108",
+          "word_location": "18:108:6",
+          "sense_ids": [
+            "s:Hwl:Hiwal:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:Hwl:Hiyla",
+      "form_group_ids": [
+        "qac-form:Hwl:Hiylap:nominal:-"
+      ],
+      "headword_arabic": "حِيلَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:Hwl:Hiyla:1",
+          "definition": "A means, plan, expedient, or artful device for attaining an objective.",
+          "usage_conditions": "May involve concealed or subtle management, especially a way of escaping an unwanted situation or accomplishing what is sought.",
+          "source_refs": [
+            "lane:entry:16173",
+            "mufradat:row:371"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:98",
+          "word_location": "4:98:9",
+          "sense_ids": [
+            "s:Hwl:Hiyla:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:Hwl:Tahwil",
+      "form_group_ids": [
+        "qac-form:Hwl:taHowiyl:nominal:-"
+      ],
+      "headword_arabic": "تَحْوِيل",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s:Hwl:Tahwil:1",
+          "definition": "Alteration or changing from one state, condition, or established course to another.",
+          "usage_conditions": "Used for a change in a state, condition, or customary order; the Quranic examples concern the absence of alteration in a divine way or decree.",
+          "source_refs": [
+            "lane:entry:16156",
+            "mufradat:row:371"
+          ]
+        },
+        {
+          "sense_id": "s:Hwl:Tahwil:2",
+          "definition": "Transfer or removal of something from one place, recipient, or position to another.",
+          "usage_conditions": "Used transitively for shifting or transferring an object, benefit, or circumstance elsewhere.",
+          "source_refs": [
+            "lane:entry:16156",
+            "mufradat:row:371"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:56",
+          "word_location": "17:56:13",
+          "sense_ids": [
+            "s:Hwl:Tahwil:2"
+          ]
+        },
+        {
+          "verse_key": "17:77",
+          "word_location": "17:77:11",
+          "sense_ids": [
+            "s:Hwl:Tahwil:1"
+          ]
+        },
+        {
+          "verse_key": "35:43",
+          "word_location": "35:43:26",
+          "sense_ids": [
+            "s:Hwl:Tahwil:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Hwl:HalaChange",
+      "headword_arabic": "حَالَ",
+      "definition": "To become altered, changed, shifted, or transferred from a prior state, direction, or place.",
+      "usage_conditions": "Includes change in constitution, condition, straightness, colour, or position; it may describe something becoming crooked or moving away from its place.",
+      "source_refs": [
+        "lane:entry:16155"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaArtifice",
+      "headword_arabic": "حَالَ",
+      "definition": "To use an artful device or contrivance to manage a matter.",
+      "usage_conditions": "An intransitive use equated with احتال and associated with seeking a way through a difficulty.",
+      "source_refs": [
+        "lane:entry:16155"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaMount",
+      "headword_arabic": "حَالَ",
+      "definition": "To leap onto and seat oneself firmly on a horse or riding animal.",
+      "usage_conditions": "Used with the back or middle of the riding animal.",
+      "source_refs": [
+        "lane:entry:16155"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaDraught",
+      "headword_arabic": "حَالَ",
+      "definition": "For a morning draught and an evening draught to become one.",
+      "usage_conditions": "An idiom for people suffering drought and scarcity of milk.",
+      "source_refs": [
+        "lane:entry:16155"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaYearPass",
+      "headword_arabic": "حَالَ",
+      "definition": "For a year to pass, revolve, or become complete.",
+      "usage_conditions": "May be said of a year passing over a person, house, food, or other thing; بِالْمَكَانِ can mean remaining in a place for a year or a long period.",
+      "source_refs": [
+        "lane:entry:16155"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaInfertile",
+      "headword_arabic": "حَالَ",
+      "definition": "For a female animal or woman not to conceive or become pregnant.",
+      "usage_conditions": "Also used of a palm that bears one year and not the next, or fails to bear after fertilization.",
+      "source_refs": [
+        "lane:entry:16155"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaPour",
+      "headword_arabic": "حَالَ",
+      "definition": "To pour or flow forth.",
+      "usage_conditions": "A use applied to a thing that pours out or forth.",
+      "source_refs": [
+        "lane:entry:16155"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawilaEye",
+      "headword_arabic": "حَوِلَ",
+      "definition": "For an eye to squint or have its black turned toward an angle of the eye.",
+      "usage_conditions": "The exact anatomical description varies among authorities; the common sense is a turned or squinting eye.",
+      "source_refs": [
+        "lane:entry:16155",
+        "lane:entry:16166"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:TahwilMind",
+      "headword_arabic": "حَوَّلَ",
+      "definition": "To turn an affair over in the mind and manage it by considering its possible results.",
+      "usage_conditions": "Also used of changing one's opinion concerning an affair.",
+      "source_refs": [
+        "lane:entry:16156"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:TahwilTranscribe",
+      "headword_arabic": "حَوَّلَ",
+      "definition": "To transfer or transcribe the contents of a book or writing to another copy without destroying the original.",
+      "usage_conditions": "A specialized use of transferring written contents.",
+      "source_refs": [
+        "lane:entry:16156"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:TahwilAbsurd",
+      "headword_arabic": "حَوَّلَ",
+      "definition": "To declare or make something absurd, inconsistent, or impossible.",
+      "usage_conditions": "Used of an utterance or proposition judged to be مُحَال.",
+      "source_refs": [
+        "lane:entry:16156"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:TahwilInfertile",
+      "headword_arabic": "حَوَّلَ",
+      "definition": "For a she-camel to fail to conceive after being covered.",
+      "usage_conditions": "A specialized animal-breeding use, equated with the corresponding Form I expression.",
+      "source_refs": [
+        "lane:entry:16156"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawilaSeek",
+      "headword_arabic": "حَاوَلَ",
+      "definition": "To desire, seek, or endeavor to obtain something, often by resourceful management.",
+      "usage_conditions": "The object may be pursued through an artful device, deliberation, or an attempt to induce someone to act.",
+      "source_refs": [
+        "lane:entry:16157"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawilaLook",
+      "headword_arabic": "حَاوَلَ",
+      "definition": "To look sharply or intently at someone.",
+      "usage_conditions": "A specialized use of directing one's sight toward the person observed.",
+      "source_refs": [
+        "lane:entry:16157"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalAbundance",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To leave abundance and turn toward hardship or scarcity.",
+      "usage_conditions": "Preserved in a proverb about withdrawing from a meadow and setting off.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalAttack",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To set upon, aim at, or attack someone with a whip, spear, or similar instrument.",
+      "usage_conditions": "May describe directing an attack or making death depend on the blows.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalWeak",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To reckon or esteem someone weak.",
+      "usage_conditions": "A transitive evaluative use.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalNight",
+      "headword_arabic": "أَحَالَ",
+      "definition": "For night to pour over the earth or come on.",
+      "usage_conditions": "An intransitive temporal use.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalFatten",
+      "headword_arabic": "أَحَالَ",
+      "definition": "For food or another thing to make someone fat.",
+      "usage_conditions": "Used with the person affected by the food or substance.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalAbsurd",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To do or say what is absurd, inconsistent, or impossible.",
+      "usage_conditions": "Includes making speech absurd or self-contradictory.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalInfertile",
+      "headword_arabic": "أَحَالَ",
+      "definition": "For a man's camels to pass a year without conceiving.",
+      "usage_conditions": "Used of covered she-camels that do not become pregnant.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalDebt",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To refer a creditor or affair to another person by transferring responsibility for a debt or task.",
+      "usage_conditions": "In debt law, the debtor directs the creditor to another debtor or responsible party.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalPour",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To pour water out or upon something, sometimes while turning over the vessel.",
+      "usage_conditions": "Used of pouring from a bucket or directing water onto an object.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalYear",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To make a year pass over someone or something, or to make the year complete.",
+      "usage_conditions": "A causative temporal use.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalInfertileCausative",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To cause a man's she-camels to pass a year without becoming pregnant.",
+      "usage_conditions": "A causative breeding expression distinct from the intransitive failure to conceive.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalEye",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To make an eye squint or become turned in its orientation.",
+      "usage_conditions": "A causative anatomical use.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalSpeech",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To make speech absurd, inconsistent, or self-contradictory.",
+      "usage_conditions": "Applied specifically to an utterance or statement.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhalArtifice",
+      "headword_arabic": "أَحَالَ",
+      "definition": "To employ evasions, shifts, or artful contrivances in managing a matter.",
+      "usage_conditions": "Preserved in expressions praising or reproaching a person's resourcefulness and evasions.",
+      "source_refs": [
+        "lane:entry:16158"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:TahawwalMove",
+      "headword_arabic": "تَحَوَّلَ",
+      "definition": "To shift, move, depart, or transfer oneself from one place or state to another.",
+      "usage_conditions": "Includes turning into a new condition or direction; the lexical core is movement or transition.",
+      "source_refs": [
+        "lane:entry:16159"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:TahawwalBundle",
+      "headword_arabic": "تَحَوَّلَ",
+      "definition": "To carry a bundle on one's back.",
+      "usage_conditions": "Also used when something is put into a cloak or garment and carried.",
+      "source_refs": [
+        "lane:entry:16159"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:TahawwalAdmonition",
+      "headword_arabic": "تَحَوَّلَ",
+      "definition": "To seek to place oneself in a condition ready or willing to accept admonition.",
+      "usage_conditions": "A specialized reflexive use concerning receptivity to advice.",
+      "source_refs": [
+        "lane:entry:16159"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:IhtalDebt",
+      "headword_arabic": "اِحْتَالَ",
+      "definition": "To be referred to another person for payment through a transfer of debt responsibility.",
+      "usage_conditions": "A legal debt-transfer construction derived from الحوالة.",
+      "source_refs": [
+        "lane:entry:16160"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:IhtalArtifice",
+      "headword_arabic": "اِحْتَالَ",
+      "definition": "To practise an evasion, stratagem, trick, or subtle device to achieve or avoid something.",
+      "usage_conditions": "May describe ingenuity or cunning in managing affairs, whether blameworthy or merely skillful.",
+      "source_refs": [
+        "lane:entry:16160"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:IhtalSurround",
+      "headword_arabic": "اِحْتَالَ",
+      "definition": "To encompass or surround someone, placing him in the midst of a group.",
+      "usage_conditions": "A distinct intransitive use from the artifice sense.",
+      "source_refs": [
+        "lane:entry:16160"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:IstahalAbsurd",
+      "headword_arabic": "اِسْتَحَالَ",
+      "definition": "For speech or a thing to become absurd, impossible, or inconsistent.",
+      "usage_conditions": "May mean becoming impossible in reality or being turned from its proper manner.",
+      "source_refs": [
+        "lane:entry:16162"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:IstahalWatch",
+      "headword_arabic": "اِسْتَحَالَ",
+      "definition": "To watch a person or cloud formation to see whether it moves or changes.",
+      "usage_conditions": "A transitive observational use expressing expectation of movement.",
+      "source_refs": [
+        "lane:entry:16162"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhwaltGreen",
+      "headword_arabic": "اِحْوَالَّتْ",
+      "definition": "For land to become green and its herbage to stand strong and erect.",
+      "usage_conditions": "A figurative or environmental specialization of becoming changed.",
+      "source_refs": [
+        "lane:entry:16163"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaState",
+      "headword_arabic": "حَال",
+      "definition": "The state, condition, case, or circumstance of a person or thing.",
+      "usage_conditions": "Includes a changing condition in the soul, body, or possessions; in grammar, it can denote a state accompanying the subject or object, and in logic a transient quality.",
+      "source_refs": [
+        "lane:entry:16164",
+        "lane:entry:16170"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaLoad",
+      "headword_arabic": "حَال",
+      "definition": "A load, burden, bundle, or bundle of clothing carried on the back.",
+      "usage_conditions": "The sense extends to a carrying bundle or burden.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaHerbGarment",
+      "headword_arabic": "حَال",
+      "definition": "A garment or piece of cloth used to gather and carry dry herbage.",
+      "usage_conditions": "A specialized garment sense.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaCart",
+      "headword_arabic": "حَال",
+      "definition": "A child's go-cart used for practising walking.",
+      "usage_conditions": "A small cart-like object.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaHorseback",
+      "headword_arabic": "حَال",
+      "definition": "The part or middle of a horse's back bearing the saddle-cloth.",
+      "usage_conditions": "Refers to the central back or saddle-bearing portion of a horse.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaMud",
+      "headword_arabic": "حَال",
+      "definition": "Black, fetid mud or soft earth.",
+      "usage_conditions": "The same headword is also reported for related substances such as stinking flesh, hot ashes, acacia leaves gathered in cloth, and milk; these are lexicalized material uses rather than a general meaning of mud.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaWeakness",
+      "headword_arabic": "حَال",
+      "definition": "Weakness or softness.",
+      "usage_conditions": "A figurative extension from soft earth.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaFlesh",
+      "headword_arabic": "حَال",
+      "definition": "Stinking flesh-meat.",
+      "usage_conditions": "A specialized material noun use.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaAshes",
+      "headword_arabic": "حَال",
+      "definition": "Hot ashes.",
+      "usage_conditions": "A specialized material noun use.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaAcaciaLeaves",
+      "headword_arabic": "حَال",
+      "definition": "Acacia leaves beaten or shaken into a garment or cloth.",
+      "usage_conditions": "A specialized gathered-material use.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaMilk",
+      "headword_arabic": "حَال",
+      "definition": "Milk.",
+      "usage_conditions": "A separately reported lexical use.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HalaWife",
+      "headword_arabic": "حَال",
+      "definition": "A wife.",
+      "usage_conditions": "A dialectal use attributed to Hudhayl.",
+      "source_refs": [
+        "lane:entry:16164"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawlPower",
+      "headword_arabic": "حَوْل",
+      "definition": "Strength, power, ability, or force.",
+      "usage_conditions": "The sense occurs in expressions such as لا حول ولا قوة إلا بالله; it may also be interpreted as capacity for motion or turning.",
+      "source_refs": [
+        "lane:entry:16165",
+        "lane:entry:16171"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HiwalFurrow",
+      "headword_arabic": "حِوَل",
+      "definition": "A furrow or trench in which palm trees are planted in a row.",
+      "usage_conditions": "An agricultural technical use.",
+      "source_refs": [
+        "lane:entry:16169"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HulaWonder",
+      "headword_arabic": "حُولَة",
+      "definition": "A wonder or wonderful thing; by extension, wonders.",
+      "usage_conditions": "The plural and singular forms vary in the transmitted lexical reports.",
+      "source_refs": [
+        "lane:entry:16172"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HulaCalamity",
+      "headword_arabic": "حُولَة",
+      "definition": "An evil, abominable, or calamitous event.",
+      "usage_conditions": "May be used as an epithet for something exceptionally disastrous.",
+      "source_refs": [
+        "lane:entry:16172"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HilaMechanics",
+      "headword_arabic": "حِيلَة",
+      "definition": "The science of devices or mechanics.",
+      "usage_conditions": "A technical expression, علم الحيل.",
+      "source_refs": [
+        "lane:entry:16173"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawliYearling",
+      "headword_arabic": "حَوْلِيّ",
+      "definition": "A yearling or something in its first year.",
+      "usage_conditions": "Applied to solid-hoofed animals, camels, plants, food, and a boy; the exact age extension varies by report.",
+      "source_refs": [
+        "lane:entry:16175"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawlaPlacenta",
+      "headword_arabic": "حُوَلَاء",
+      "definition": "The membrane or fluid-filled sac that comes out with or around a newborn.",
+      "usage_conditions": "Especially the fetal membrane of a she-camel, analogous to the woman's placenta; the term is also applied to a woman.",
+      "source_refs": [
+        "lane:entry:16177"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawlaAbundance",
+      "headword_arabic": "حُوَلَاء",
+      "definition": "Abundance of water and green herbage, or land covered with dark green growth.",
+      "usage_conditions": "A figurative use in comparisons with the fetal membrane and its contents.",
+      "source_refs": [
+        "lane:entry:16177"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawalFortune",
+      "headword_arabic": "حَوَال",
+      "definition": "The changing or varying of time or fortune.",
+      "usage_conditions": "A noun of temporal vicissitude.",
+      "source_refs": [
+        "lane:entry:16181"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HiyalFront",
+      "headword_arabic": "حِيَال",
+      "definition": "The front, opposite side, or place facing something.",
+      "usage_conditions": "Used as an adverb or noun meaning in front of, opposite, or facing.",
+      "source_refs": [
+        "lane:entry:16183"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HiyalIndependent",
+      "headword_arabic": "حِيَال",
+      "definition": "Independently or separately, by itself.",
+      "usage_conditions": "Used in the expression عَلَى حِيَالِهِ.",
+      "source_refs": [
+        "lane:entry:16183"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HiyalCamelString",
+      "headword_arabic": "حِيَال",
+      "definition": "A cord tied between a camel's belly-girth and hind-girth to keep the latter from moving against the sheath.",
+      "usage_conditions": "A specialized piece of camel equipment.",
+      "source_refs": [
+        "lane:entry:16183"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawilResponsible",
+      "headword_arabic": "حَوِيل",
+      "definition": "One who is responsible or answerable.",
+      "usage_conditions": "A personal noun of responsibility.",
+      "source_refs": [
+        "lane:entry:16184"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawilWitness",
+      "headword_arabic": "حَوِيل",
+      "definition": "A witness.",
+      "usage_conditions": "A separately reported nominal use.",
+      "source_refs": [
+        "lane:entry:16184"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawilSeeking",
+      "headword_arabic": "حَوِيل",
+      "definition": "Desire or seeking, especially seeking by artful management to attain an object.",
+      "usage_conditions": "A noun associated with حَاوَلَ.",
+      "source_refs": [
+        "lane:entry:16184"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawalaRiver",
+      "headword_arabic": "حَوَالَة",
+      "definition": "The diversion of one river or rivulet into another.",
+      "usage_conditions": "An agricultural or hydraulic technical use.",
+      "source_refs": [
+        "lane:entry:16185"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawalaDebt",
+      "headword_arabic": "حَوَالَة",
+      "definition": "The transfer of a debt or claim by shifting responsibility from one person to another.",
+      "usage_conditions": "A legal and financial term for referral of a creditor or payment obligation.",
+      "source_refs": [
+        "lane:entry:16185"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HawalaAccountability",
+      "headword_arabic": "حَوَالَة",
+      "definition": "Responsibility or accountability.",
+      "usage_conditions": "A related nominal use of being answerable for an obligation.",
+      "source_refs": [
+        "lane:entry:16185"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HuwalCunning",
+      "headword_arabic": "حُوَّل",
+      "definition": "A person skilled, experienced, or cunning in managing affairs.",
+      "usage_conditions": "May imply extensive resourcefulness, subtlety, or skill in devising means.",
+      "source_refs": [
+        "lane:entry:16187"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HailChange",
+      "headword_arabic": "حَائِل",
+      "definition": "Something altered, changing, or turned, especially becoming black or changed in colour.",
+      "usage_conditions": "Applied to a bone or other thing that has changed.",
+      "source_refs": [
+        "lane:entry:16191"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HailInfertile",
+      "headword_arabic": "حَائِل",
+      "definition": "A female animal or woman that does not conceive or become pregnant.",
+      "usage_conditions": "Especially a she-camel after being covered; also applied to a palm that bears intermittently.",
+      "source_refs": [
+        "lane:entry:16191"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HailNewborn",
+      "headword_arabic": "حَائِل",
+      "definition": "A female camel young at the time of birth.",
+      "usage_conditions": "The corresponding male is called سَقْب.",
+      "source_refs": [
+        "lane:entry:16191"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:HailBarrier",
+      "headword_arabic": "حَائِل",
+      "definition": "A thing intervening as a separation, partition, fence, barrier, or obstacle between two things.",
+      "usage_conditions": "A nominal counterpart of the separating construction, with the lexical identity of حَائِل preserved.",
+      "source_refs": [
+        "lane:entry:16191"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:AhwalWry",
+      "headword_arabic": "أَحْوَل",
+      "definition": "Crooked, wry, or inclining to one side.",
+      "usage_conditions": "Preserved in a proverb describing something that does not proceed straight.",
+      "source_refs": [
+        "lane:entry:16193"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:TahawilFallow",
+      "headword_arabic": "تَحَاوِيل",
+      "definition": "Alternating the cultivation of land by leaving it unsown one year and sowing it another.",
+      "usage_conditions": "An agricultural practice intended to strengthen the land.",
+      "source_refs": [
+        "lane:entry:16195"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MuhilAlternatingBirth",
+      "headword_arabic": "مُحِيل",
+      "definition": "A female that bears a male one year and a female the next, or bears a child of the opposite sex successively.",
+      "usage_conditions": "Applied to a woman or she-camel; the report is qualified in the source as an alternative lexical attribution.",
+      "source_refs": [
+        "lane:entry:16199"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MahalaPulley",
+      "headword_arabic": "مَحَالَة",
+      "definition": "A machine, wheel, or large pulley used in drawing water.",
+      "usage_conditions": "A technical water-drawing implement, with variant descriptions of its exact construction.",
+      "source_refs": [
+        "lane:entry:16200"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MahalaVertebra",
+      "headword_arabic": "مَحَالَة",
+      "definition": "The vertebrae, or a vertebra.",
+      "usage_conditions": "The number and whether the term is collective or singular vary in the lexical reports.",
+      "source_refs": [
+        "lane:entry:16200"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MahalaBack",
+      "headword_arabic": "مَحَالَة",
+      "definition": "The middle of the back.",
+      "usage_conditions": "A bodily or anatomical use.",
+      "source_refs": [
+        "lane:entry:16200"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MihwalAbsurd",
+      "headword_arabic": "مِحْوَال",
+      "definition": "A man who says much that is absurd or self-contradictory.",
+      "usage_conditions": "An agent noun referring to recurrent absurd speech.",
+      "source_refs": [
+        "lane:entry:16203"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MuhtalDryLand",
+      "headword_arabic": "مُحْتَال",
+      "definition": "Land upon which rain has not fallen.",
+      "usage_conditions": "A tropical or figurative use reported for the adjective.",
+      "source_refs": [
+        "lane:entry:16204"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MutahawwalPlace",
+      "headword_arabic": "مُتَحَوَّل",
+      "definition": "A place to which one shifts, removes, or becomes transferred.",
+      "usage_conditions": "A nominal place sense distinct from the participial and infinitival grammatical uses.",
+      "source_refs": [
+        "lane:entry:16205"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MustahalaCrooked",
+      "headword_arabic": "مُسْتَحَالَة",
+      "definition": "Crooked or uneven, as of a leg, bow, or ground.",
+      "usage_conditions": "Applied to a leg crooked in its shank, a bow bent from straightness, or uneven land.",
+      "source_refs": [
+        "lane:entry:16207"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MustahalaFallow",
+      "headword_arabic": "مُسْتَحَالَة",
+      "definition": "Land left unsown or uncultivated for a year or more.",
+      "usage_conditions": "An agricultural specialization of land that has undergone a change of condition.",
+      "source_refs": [
+        "lane:entry:16207"
+      ]
+    },
+    {
+      "meaning_id": "cm:Hwl:MustahilFull",
+      "headword_arabic": "مُسْتَحِيل",
+      "definition": "Full.",
+      "usage_conditions": "A separately reported lexical use in addition to the better-known sense impossible.",
+      "source_refs": [
+        "lane:entry:16208"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hwl:16155:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaChange"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16155:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaArtifice"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16155:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:HalaChange"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16155:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaMount"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16155:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaDraught"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16155:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaYearPass"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16155:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaInfertile"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16155:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:Hwl:HaAla:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16155:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaPour"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16155:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawilaEye"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16156:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s:Hwl:Tahwil:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16156:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:TahwilMind"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16156:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s:Hwl:Tahwil:2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16156:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:TahwilTranscribe"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16156:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:TahwilAbsurd"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16156:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another numbered passage."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16156:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other numbered material."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16156:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:TahwilInfertile"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16157:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawilaSeek"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16157:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawilaLook"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form I material."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalAbundance"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalAttack"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalWeak"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalNight"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalFatten"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalAbsurd"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalInfertile"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the transitive section."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalDebt"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalPour"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalYear"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalInfertileCausative"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g2:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalEye"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g2:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalSpeech"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhalArtifice"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16158:g3:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:AhalArtifice"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16159:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:TahawwalMove"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16159:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:TahawwalMove"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16159:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another numbered entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16159:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:TahawwalBundle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16159:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:TahawwalAdmonition"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16160:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:IhtalDebt"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16160:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I year use."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16160:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:IhtalArtifice"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16160:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:IhtalSurround"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16161:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the eye sense in Form I."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16161:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Bracketed pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16162:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form I material."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16162:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:IstahalAbsurd"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16162:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:IstahalWatch"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16162:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:IstahalAbsurd"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16163:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhwaltGreen"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaState"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaLoad"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaHerbGarment"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaCart"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaHorseback"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaMud"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g5:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaWeakness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g5:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaFlesh"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g5:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaAshes"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g5:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaAcaciaLeaves"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g5:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaMilk"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16164:g6:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HalaWife"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16165:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s:Hwl:Hawol:2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16165:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawlPower"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16165:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حِيلَة."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16165:g3:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s:Hwl:Hawol:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16166:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:HawilaEye"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16166:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another headword."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16167:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16167:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16168:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16168:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16168:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16169:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:Hwl:Hiwal:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16169:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حِيلَة."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16169:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حُولَة."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16169:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HiwalFurrow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16170:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:HalaState"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16171:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:HalaChange"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16171:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حِيلَة."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16171:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the power sense of حَوْل."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16172:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16172:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16172:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HulaWonder"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16172:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:HulaWonder"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16172:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HulaCalamity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16173:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s:Hwl:Hiyla:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16173:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حُولَة."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16173:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حَوْل."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16173:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HilaMechanics"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16174:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16175:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawliYearling"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16176:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16177:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawlaPlacenta",
+        "cm:Hwl:HawlaAbundance"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16177:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حُولَة."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16178:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16179:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16180:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16181:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawalFortune"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16181:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حَوْل."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16182:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16183:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HiyalFront"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16183:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HiyalIndependent"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16183:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HiyalCamelString"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16184:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16184:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawilResponsible"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16184:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawilWitness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16184:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حِوَل."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16184:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to حِيلَة."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16184:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawilSeeking"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16185:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawalaRiver"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16185:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawalaDebt"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16185:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HawalaAccountability"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16186:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16187:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HuwalCunning"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16188:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16189:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16190:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16191:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HailChange"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16191:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:HalaChange"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16191:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HailInfertile"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16191:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HailNewborn"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16191:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:HailBarrier"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16192:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16193:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the eye sense."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16193:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:AhwalWry"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16193:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Hwl:HuwalCunning"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16194:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16195:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:TahawilFallow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16196:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16196:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16197:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16197:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:IstahalAbsurd"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16198:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16198:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16199:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16199:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:MuhilAlternatingBirth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16199:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16200:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16200:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:MahalaPulley"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16200:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:MahalaVertebra"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16200:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:MahalaBack"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16201:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16202:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16202:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16203:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:MihwalAbsurd"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16204:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16204:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:MuhtalDryLand"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16204:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16205:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Incomplete grammatical pointer."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16205:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitival grammatical pointer."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16205:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:MutahawwalPlace"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16206:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16207:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:MustahalaCrooked",
+        "cm:Hwl:MustahalaFallow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16208:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16208:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hwl:16208:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Hwl:MustahilFull"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The two QAC groups for حَوْل are merged because one is tagged nominal and the other spatial/temporal; their Quranic uses remain represented under the same public headword.",
+    "حِوَلًا in 18:108 supports removal or change of place, with an explicitly reported alternative interpretation of seeking an evasion; it should not be reduced to the contextual gloss “transfer” alone."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

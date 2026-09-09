@@ -1,0 +1,176 @@
+{
+  "root": "*Am",
+  "arabic": "ذأم",
+  "root_idea": {
+    "summary": "The root centers on aversion joined with fault, blame, or disparagement.",
+    "development": "This orientation develops into blaming or finding fault, despising and abasing, and associated expulsion; Form IV extends the range to frightening or compelling someone against his will.",
+    "source_refs": [
+      "maqayis:row:1879",
+      "lane:entry:21290",
+      "lane:entry:21291",
+      "lane:entry:21294"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:*Am:ma*o'uwm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-madhum",
+      "reason": "The Quran-attested passive participle is displayed under the normalized singular citation form مَذْءُوم."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-madhum",
+      "form_group_ids": [
+        "qac-form:*Am:ma*o'uwm:nominal:-"
+      ],
+      "headword_arabic": "مَذْءُوم",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "madhum-s1",
+          "definition": "One who is blamed, reproached, or held at fault.",
+          "usage_conditions": "Quranic passive-participle use in the occurrence at 7:18; it emphasizes the person's blameworthiness or disgrace. The corresponding Form I lexical branch includes blaming and finding fault.",
+          "source_refs": [
+            "lane:entry:21294",
+            "mufradat:row:497"
+          ]
+        },
+        {
+          "sense_id": "madhum-s2",
+          "definition": "One who is driven away or banished.",
+          "usage_conditions": "An alternative interpretation of the same Quranic passive participle at 7:18, emphasizing expulsion rather than blame.",
+          "source_refs": [
+            "lane:entry:21294"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:18",
+          "word_location": "7:18:4",
+          "sense_ids": [
+            "madhum-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "dham-contempt",
+      "headword_arabic": "ذَأَمَ",
+      "definition": "To despise or scorn; to abase or humiliate.",
+      "usage_conditions": "Form I verb. Reported combined uses include despising while blaming, driving the object away, or beating the object.",
+      "source_refs": [
+        "lane:entry:21290"
+      ]
+    },
+    {
+      "meaning_id": "dham-requite",
+      "headword_arabic": "ذَأَمَ",
+      "definition": "To repay or requite someone.",
+      "usage_conditions": "A distinct Form I verbal use equivalent to repaying or requiting.",
+      "source_refs": [
+        "lane:entry:21290"
+      ]
+    },
+    {
+      "meaning_id": "izham-frighten",
+      "headword_arabic": "أَذْأَمَ",
+      "definition": "To frighten or terrify someone.",
+      "usage_conditions": "Form IV derived verb.",
+      "source_refs": [
+        "lane:entry:21291"
+      ]
+    },
+    {
+      "meaning_id": "izham-compel",
+      "headword_arabic": "أَذْأَمَ",
+      "definition": "To compel someone, against his will, to do something.",
+      "usage_conditions": "Form IV construction used with عَلَى to express compelled action against the person's will.",
+      "source_refs": [
+        "lane:entry:21291"
+      ]
+    },
+    {
+      "meaning_id": "dham-defect",
+      "headword_arabic": "ذَأْمٌ",
+      "definition": "A vice, fault, defect, or similar blemish.",
+      "usage_conditions": "Substantive noun for a fault or defect; the form is also recorded as the verbal noun of ذَأَمَ.",
+      "source_refs": [
+        "lane:entry:21292"
+      ]
+    },
+    {
+      "meaning_id": "dhamah-word",
+      "headword_arabic": "ذَأْمَةٌ",
+      "definition": "A word or utterance.",
+      "usage_conditions": "Attested in the idiom مَا سَمِعْتُ لَهُ ذَأْمَةً, meaning that no word was heard from him.",
+      "source_refs": [
+        "lane:entry:21293"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:*Am:21290:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "madhum-s1",
+        "madhum-s2",
+        "dham-contempt",
+        "dham-requite"
+      ],
+      "note": "Blame, contempt or abasement with reported expulsion and beating variants, and requital are represented."
+    },
+    {
+      "unit_id": "lane-unit:*Am:21291:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "izham-frighten"
+      ],
+      "note": "The Form IV frightening or terrifying use is represented."
+    },
+    {
+      "unit_id": "lane-unit:*Am:21291:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "izham-compel"
+      ],
+      "note": "The against-the-will compulsion construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:*Am:21292:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dham-defect"
+      ],
+      "note": "The noun meaning fault or defect is represented."
+    },
+    {
+      "unit_id": "lane-unit:*Am:21293:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dhamah-word"
+      ],
+      "note": "The idiomatic noun meaning word or utterance is represented."
+    },
+    {
+      "unit_id": "lane-unit:*Am:21294:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "madhum-s1",
+        "madhum-s2"
+      ],
+      "note": "The Quran-attested interpretations blamed, driven away, and banished are represented by two senses."
+    }
+  ],
+  "cautions": [
+    "Lane's printed Quran citation for this form appears as historical '[vii. 17]' and is not converted into a modern verse location; the supplied QAC occurrence and Quran-focused evidence securely identify the occurrence as 7:18."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

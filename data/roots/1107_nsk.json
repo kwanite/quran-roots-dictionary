@@ -1,0 +1,259 @@
+{
+  "root": "nsk",
+  "arabic": "نسك",
+  "root_idea": {
+    "summary": "Worshipful devotion and drawing near to God, expressed through devotional acts and offerings.",
+    "development": "The lexical network extends this orientation to the worshipper, prescribed ritual acts and their stations—especially in pilgrimage—and the sacrificial offering. Classical evidence also attests worship as a transitive action and deliberate devotion.",
+    "source_refs": [
+      "maqayis:row:4624",
+      "mufradat:row:1438",
+      "lane:entry:32210",
+      "lane:entry:32212",
+      "lane:entry:32214"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nsk:mansak:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nsk_mansak",
+      "reason": "Displayed under the normalized citation form مَنْسَك, covering the supplied singular and plural Quranic forms."
+    },
+    {
+      "form_group_id": "qac-form:nsk:naAsikuw:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nsk_nasik",
+      "reason": "Displayed under the singular active-participial citation form نَاسِك rather than the inflected plural QAC lemma."
+    },
+    {
+      "form_group_id": "qac-form:nsk:nusuk:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nsk_nusuk",
+      "reason": "Displayed as the distinct Quranic noun نُسُك."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nsk_mansak",
+      "form_group_ids": [
+        "qac-form:nsk:mansak:nominal:-"
+      ],
+      "headword_arabic": "مَنْسَك",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "nsk_mansak_s1",
+          "definition": "An appointed rite or act of worship; collectively, the rites and ceremonies of pilgrimage.",
+          "usage_conditions": "Used for prescribed religious observances, whether a single rite or the collective rites of a community or pilgrimage.",
+          "source_refs": [
+            "mufradat:row:1438",
+            "lane:entry:32214"
+          ]
+        },
+        {
+          "sense_id": "nsk_mansak_s2",
+          "definition": "An appointed station or setting in which a rite of worship is performed.",
+          "usage_conditions": "The Quran-focused lexical description encompasses both the stations or settings of worship and the acts performed there; the supplied contextual renderings emphasize the acts and rites.",
+          "source_refs": [
+            "mufradat:row:1438",
+            "lane:entry:32214"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:128",
+          "word_location": "2:128:11",
+          "sense_ids": [
+            "nsk_mansak_s1"
+          ]
+        },
+        {
+          "verse_key": "2:200",
+          "word_location": "2:200:3",
+          "sense_ids": [
+            "nsk_mansak_s1"
+          ]
+        },
+        {
+          "verse_key": "22:34",
+          "word_location": "22:34:4",
+          "sense_ids": [
+            "nsk_mansak_s1"
+          ]
+        },
+        {
+          "verse_key": "22:67",
+          "word_location": "22:67:4",
+          "sense_ids": [
+            "nsk_mansak_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nsk_nasik",
+      "form_group_ids": [
+        "qac-form:nsk:naAsikuw:nominal:-"
+      ],
+      "headword_arabic": "نَاسِك",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nsk_nasik_s1",
+          "definition": "A worshipper or devotee, especially one engaged in prescribed devotional or pilgrimage rites.",
+          "usage_conditions": "The supplied Quran occurrence is the plural active participle نَاسِكُوهُ, denoting those who perform the appointed rite referred to by the attached pronoun.",
+          "source_refs": [
+            "mufradat:row:1438",
+            "lane:entry:32212"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:67",
+          "word_location": "22:67:6",
+          "sense_ids": [
+            "nsk_nasik_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nsk_nusuk",
+      "form_group_ids": [
+        "qac-form:nsk:nusuk:nominal:-"
+      ],
+      "headword_arabic": "نُسُك",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "nsk_nusuk_s1",
+          "definition": "Worship or a devotional observance offered to God.",
+          "usage_conditions": "A broad religious use referring to an act or practice of worship.",
+          "source_refs": [
+            "mufradat:row:1438"
+          ]
+        },
+        {
+          "sense_id": "nsk_nusuk_s2",
+          "definition": "A sacrificial offering or sacrificial rite performed as an act of devotion.",
+          "usage_conditions": "In sacrificial contexts, the noun denotes the offering or rite of slaughter; it may also frame sacrificial observance as part of one's worship.",
+          "source_refs": [
+            "mufradat:row:1438"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:196",
+          "word_location": "2:196:33",
+          "sense_ids": [
+            "nsk_nusuk_s2"
+          ]
+        },
+        {
+          "verse_key": "6:162",
+          "word_location": "6:162:4",
+          "sense_ids": [
+            "nsk_nusuk_s1",
+            "nsk_nusuk_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nsk_cm_nasaka",
+      "headword_arabic": "نَسَكَ",
+      "definition": "To worship; to practice worship in a transitive construction.",
+      "usage_conditions": "A Classical Form I verbal use explicitly described as transitive.",
+      "source_refs": [
+        "lane:entry:32210"
+      ]
+    },
+    {
+      "meaning_id": "nsk_cm_ansaka",
+      "headword_arabic": "أَنْسَكَ",
+      "definition": "To wash and purify a garment.",
+      "usage_conditions": "This usage is reported with an evidential qualification in the supplied lexical source.",
+      "source_refs": [
+        "lane:entry:32211"
+      ]
+    },
+    {
+      "meaning_id": "nsk_cm_tanassaka",
+      "headword_arabic": "تَنَسَّكَ",
+      "definition": "To devote oneself to religious exercises, apply oneself to devotion, or become a worshipper.",
+      "usage_conditions": "A Classical Form V devotional use, including the resulting state of becoming a نَاسِك.",
+      "source_refs": [
+        "lane:entry:32212"
+      ]
+    },
+    {
+      "meaning_id": "nsk_cm_nasika",
+      "headword_arabic": "نَسِيكَة",
+      "definition": "A sacrificial animal or offering slaughtered as a devotional act.",
+      "usage_conditions": "The noun is specialized to the slaughtered sacrificial victim in the supplied lexical discussion.",
+      "source_refs": [
+        "mufradat:row:1438"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nsk:32210:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsk_cm_nasaka"
+      ],
+      "note": "Transitive worship use."
+    },
+    {
+      "unit_id": "lane-unit:nsk:32211:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsk_cm_ansaka"
+      ],
+      "note": "Garment-washing and purification use."
+    },
+    {
+      "unit_id": "lane-unit:nsk:32212:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsk_cm_tanassaka"
+      ],
+      "note": "Devotional dedication and becoming a worshipper."
+    },
+    {
+      "unit_id": "lane-unit:nsk:32213:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; no lexical definition is supplied in the unit."
+    },
+    {
+      "unit_id": "lane-unit:nsk:32214:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsk_mansak_s1",
+        "nsk_mansak_s2"
+      ],
+      "note": "Ritual-rite and ritual-place branches are covered under مَنْسَك."
+    }
+  ],
+  "cautions": [
+    "The QAC grouping places the singular مَنْسَك and plural مَنَاسِك forms under one public noun entry.",
+    "The station or place component is supported by the Quran-focused lexical description together with the Classical definition, while the supplied contextual glosses primarily render the Quranic occurrences as rites.",
+    "The root source reports, with reservation, an alternative claim that مَنْسَك can mean a place one frequents; that disputed claim is not adopted as an established meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Maqayis reports a disputed alternative meaning for مَنْسَك, namely a place one frequents, but immediately expresses reservations about it; it is therefore preserved as unresolved rather than presented as an established sense."
+  ]
+}

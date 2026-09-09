@@ -1,0 +1,370 @@
+{
+  "root": "x$y",
+  "arabic": "خشي",
+  "root_idea": {
+    "summary": "The root centers on fear and dread, with extensions into reverential awe and figurative apprehension or knowing.",
+    "development": "The core meaning of fear may be intensified by awareness of what is feared and by reverence; the lexicon also records a figurative knowing use and separate branches concerning dryness or decay.",
+    "source_refs": [
+      "maqayis:row:1590",
+      "mufradat:row:410",
+      "lane:entry:19219",
+      "lane:entry:19226"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:x$y:xa$iYa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "xsy-verb-I",
+      "reason": "The canonical Quranic Form I verb is displayed under its normalized Classical Arabic citation form."
+    },
+    {
+      "form_group_id": "qac-form:x$y:xa$oyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "xsy-noun-khashya",
+      "reason": "The Quranic verbal noun is displayed as a distinct nominal form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "xsy-verb-I",
+      "form_group_ids": [
+        "qac-form:x$y:xa$iYa:verb:I"
+      ],
+      "headword_arabic": "خَشِيَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 40,
+      "senses": [
+        {
+          "sense_id": "xsy-v-s1",
+          "definition": "To fear or dread; to feel fear marked by reverence, awe, or veneration.",
+          "usage_conditions": "Used with a direct object, مِنْ, عَلَى, or an أن-clause. The reverential nuance is especially prominent where the feared object is regarded with awe, while the Quran also uses the verb for apprehension of people or events.",
+          "source_refs": [
+            "lane:entry:19219",
+            "mufradat:row:410"
+          ]
+        },
+        {
+          "sense_id": "xsy-v-s2",
+          "definition": "To apprehend or anticipate that a consequence will occur; in a projected-outcome construction, to recognize or judge what may result.",
+          "usage_conditions": "In فَخَشِينَا أَنْ يُرْهِقَهُمَا ... (18:80), the verb expresses apprehension of a harmful consequence. The same Quranic expression is also explained as “we disapproved” or “we knew” that it would happen.",
+          "source_refs": [
+            "lane:entry:19219",
+            "mufradat:row:410"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:150",
+          "word_location": "2:150:25",
+          "sense_ids": [
+            "xsy-v-s1"
+          ]
+        },
+        {
+          "verse_key": "2:150",
+          "word_location": "2:150:26",
+          "sense_ids": [
+            "xsy-v-s1"
+          ]
+        },
+        {
+          "verse_key": "18:80",
+          "word_location": "18:80:6",
+          "sense_ids": [
+            "xsy-v-s2"
+          ]
+        },
+        {
+          "verse_key": "35:28",
+          "word_location": "35:28:9",
+          "sense_ids": [
+            "xsy-v-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "xsy-noun-khashya",
+      "form_group_ids": [
+        "qac-form:x$y:xa$oyap:nominal:-"
+      ],
+      "headword_arabic": "خَشْيَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "xsy-n-s1",
+          "definition": "Fear imbued with reverence, awe, or veneration.",
+          "usage_conditions": "Often associated with knowledge or awareness of what is feared. It may occur in constructions expressing fear of a person, consequence, or divine judgment.",
+          "source_refs": [
+            "lane:entry:19219",
+            "mufradat:row:410"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:74",
+          "word_location": "2:74:31",
+          "sense_ids": [
+            "xsy-n-s1"
+          ]
+        },
+        {
+          "verse_key": "4:77",
+          "word_location": "4:77:22",
+          "sense_ids": [
+            "xsy-n-s1"
+          ]
+        },
+        {
+          "verse_key": "17:31",
+          "word_location": "17:31:4",
+          "sense_ids": [
+            "xsy-n-s1"
+          ]
+        },
+        {
+          "verse_key": "21:28",
+          "word_location": "21:28:14",
+          "sense_ids": [
+            "xsy-n-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-xsy-hope",
+      "headword_arabic": "خَشِيَ",
+      "definition": "To hope for a favorable or easier outcome.",
+      "usage_conditions": "A reported figurative use, distinct from fear or dread.",
+      "source_refs": [
+        "lane:entry:19219"
+      ]
+    },
+    {
+      "meaning_id": "cm-xsy-form2-frighten",
+      "headword_arabic": "خَشَّىَ",
+      "definition": "To frighten or cause someone to fear.",
+      "usage_conditions": "May be expressed as frightening someone by means of a thing or event.",
+      "source_refs": [
+        "lane:entry:19220"
+      ]
+    },
+    {
+      "meaning_id": "cm-xsy-form3-vie",
+      "headword_arabic": "خَاشَىَ",
+      "definition": "To vie with someone in fear or dread, being more fearful than that person.",
+      "usage_conditions": "A reciprocal or comparative Form III use.",
+      "source_refs": [
+        "lane:entry:19221"
+      ]
+    },
+    {
+      "meaning_id": "cm-xsy-form3-abandon",
+      "headword_arabic": "خَاشَىَ",
+      "definition": "To leave, forsake, relinquish, or abandon someone.",
+      "usage_conditions": "A distinct Form III lexical use.",
+      "source_refs": [
+        "lane:entry:19221"
+      ]
+    },
+    {
+      "meaning_id": "cm-xsy-form3-guard",
+      "headword_arabic": "خَاشَىَ",
+      "definition": "To guard oneself against someone by acting with exceptional caution or wariness, and consequently to turn away or withdraw.",
+      "usage_conditions": "A Form III construction describing defensive avoidance.",
+      "source_refs": [
+        "lane:entry:19221"
+      ]
+    },
+    {
+      "meaning_id": "cm-xsy-khshyan",
+      "headword_arabic": "خَشْيَان",
+      "definition": "Fearful or dreading; in a reported specialized usage, a woman who fears everything.",
+      "usage_conditions": "The feminine and generalized-everything description belongs to the specifically reported usage and is not a restriction on the ordinary verb.",
+      "source_refs": [
+        "lane:entry:19224"
+      ]
+    },
+    {
+      "meaning_id": "cm-xsy-land",
+      "headword_arabic": "خَشَاء",
+      "definition": "A tract of land that is hard, barren, or rugged, including land without herbage.",
+      "usage_conditions": "A lexical use applied to land rather than to a feeling of fear.",
+      "source_refs": [
+        "lane:entry:19225"
+      ]
+    },
+    {
+      "meaning_id": "cm-xsy-dry",
+      "headword_arabic": "خَشِيّ",
+      "definition": "Dry, or dry and rotten, especially when applied to herbage, herbs, trees, or meat.",
+      "usage_conditions": "A separate material branch concerning dryness or decay.",
+      "source_refs": [
+        "lane:entry:19226"
+      ]
+    },
+    {
+      "meaning_id": "cm-xsy-comparative",
+      "headword_arabic": "أَخْشَى",
+      "definition": "More or most fearful, feared, or dreaded.",
+      "usage_conditions": "An anomalous comparative form functioning like a comparative adjective.",
+      "source_refs": [
+        "lane:entry:19228"
+      ]
+    },
+    {
+      "meaning_id": "cm-xsy-makhash",
+      "headword_arabic": "مَخَاشٍ",
+      "definition": "Causes of fear or dread.",
+      "usage_conditions": "A plural noun referring to things that occasion fear; related to مَخْشَاةٌ.",
+      "source_refs": [
+        "lane:entry:19229"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:x$y:19219:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xsy-v-s1",
+        "xsy-n-s1"
+      ],
+      "note": "Core fear, dread, reverential fear, and fear constructions are represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19219:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-hope"
+      ],
+      "note": "The reported hope use is represented under the Classical meanings."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19219:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xsy-v-s2",
+        "cm-xsy-hope"
+      ],
+      "note": "The figurative knowing and alternative hope readings are represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19219:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xsy-v-s2"
+      ],
+      "note": "The Quran-attested projected-outcome construction and its apprehension, disapproval, and knowing readings are represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19219:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form III entry."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19220:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-form2-frighten"
+      ],
+      "note": "Form II causative fear use is represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19221:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-form3-vie"
+      ],
+      "note": "Form III comparative fear use is represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19221:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-form3-abandon"
+      ],
+      "note": "Form III abandonment use is represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19221:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-form3-guard"
+      ],
+      "note": "Form III guarded avoidance and withdrawal use is represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19222:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the hope use in the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19223:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19224:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-khshyan"
+      ],
+      "note": "The fearful adjective and its specifically reported usage are represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19225:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-land"
+      ],
+      "note": "The land description is represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19226:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-dry"
+      ],
+      "note": "The dry or rotten use is represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19227:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to خَشْيَان."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19228:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-comparative"
+      ],
+      "note": "The comparative meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:x$y:19229:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xsy-makhash"
+      ],
+      "note": "The plural noun for causes of fear is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic construction in 18:80 has competing lexical renderings: fearing or apprehending a consequence, disapproving it, or knowing that it would occur; these readings should not be treated as unrelated ordinary meanings of every occurrence.",
+    "خَشْيَة may carry a pronounced nuance of reverence and knowledge, but the Quranic verb also occurs with ordinary feared persons or events, so that nuance should not be imposed uniformly on every context."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

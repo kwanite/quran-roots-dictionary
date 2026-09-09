@@ -1,0 +1,969 @@
+{
+  "root": "jwr",
+  "arabic": "جور",
+  "root_idea": {
+    "summary": "The root centers on turning aside from a course or right way, with extensions to crookedness, injustice, and related forms of deviation. Its neighboring and protection vocabulary reflects proximity and the security created by close association or covenant.",
+    "development": "The lexical development moves from physical proximity and neighboring to protective association, and from deviation from a path to moral or legal wrong. Heavy rain and related intensive senses are reported as exceptional or possibly separate developments.",
+    "source_refs": [
+      "maqayis:row:1256",
+      "mufradat:row:218"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jwr:yujaAwiru:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jwr_f3_jaawara",
+      "reason": "Distinct Quran-attested Form III verb expressing continued proximity or neighboring."
+    },
+    {
+      "form_group_id": "qac-form:jwr:yujiyru:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jwr_f4_ajaara",
+      "reason": "Distinct Quran-attested Form IV verb expressing granting protection or refuge."
+    },
+    {
+      "form_group_id": "qac-form:jwr:{sotajaAra:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jwr_f10_istajaara",
+      "reason": "Distinct Quran-attested Form X verb expressing seeking protection."
+    },
+    {
+      "form_group_id": "qac-form:jwr:jaA^}ir:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jwr_n_jaair",
+      "reason": "Distinct Quran-attested active participle meaning deviating or crooked."
+    },
+    {
+      "form_group_id": "qac-form:jwr:jaAr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jwr_n_jaar",
+      "reason": "Distinct Quran-attested noun with both neighbor and protector uses."
+    },
+    {
+      "form_group_id": "qac-form:jwr:m~utaja`wira`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jwr_ap_mutajaawir",
+      "reason": "Quran-attested active participle, normalized from the supplied feminine plural to its singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "jwr_f3_jaawara",
+      "form_group_ids": [
+        "qac-form:jwr:yujaAwiru:verb:III"
+      ],
+      "headword_arabic": "جَاوَرَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jwr_f3_jaawara_s1",
+          "definition": "To live near, neighbor, or remain in close proximity to someone.",
+          "usage_conditions": "The Quranic occurrence describes continued neighboring or proximity; the proximity sense may include a stranger who has become one's neighbor.",
+          "source_refs": [
+            "lane:entry:47737",
+            "mufradat:row:218"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:60",
+          "word_location": "33:60:16",
+          "sense_ids": [
+            "jwr_f3_jaawara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jwr_f4_ajaara",
+      "form_group_ids": [
+        "qac-form:jwr:yujiyru:verb:IV"
+      ],
+      "headword_arabic": "أَجَارَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "jwr_f4_ajaara_s1",
+          "definition": "To grant protection, refuge, or safe-conduct; to preserve or rescue someone from feared harm or hostile treatment.",
+          "usage_conditions": "The Quranic form includes active, imperative, and passive constructions, including protection from or against a threatening power. Voice and aspect do not create separate lexical senses.",
+          "source_refs": [
+            "lane:entry:47738",
+            "mufradat:row:218"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:6",
+          "word_location": "9:6:6",
+          "sense_ids": [
+            "jwr_f4_ajaara_s1"
+          ]
+        },
+        {
+          "verse_key": "23:88",
+          "word_location": "23:88:10",
+          "sense_ids": [
+            "jwr_f4_ajaara_s1"
+          ]
+        },
+        {
+          "verse_key": "72:22",
+          "word_location": "72:22:4",
+          "sense_ids": [
+            "jwr_f4_ajaara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jwr_f10_istajaara",
+      "form_group_ids": [
+        "qac-form:jwr:{sotajaAra:verb:X"
+      ],
+      "headword_arabic": "اِسْتَجَارَ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jwr_f10_istajaara_s1",
+          "definition": "To seek protection or refuge; to have recourse to someone for safety or rescue.",
+          "usage_conditions": "The subject seeks protection from another, and the transitive construction may specify the person whose protection is sought.",
+          "source_refs": [
+            "lane:entry:47742",
+            "mufradat:row:218"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:6",
+          "word_location": "9:6:5",
+          "sense_ids": [
+            "jwr_f10_istajaara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jwr_n_jaair",
+      "form_group_ids": [
+        "qac-form:jwr:jaA^}ir:nominal:-"
+      ],
+      "headword_arabic": "جَائِر",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jwr_n_jaair_s1",
+          "definition": "Deviating from the right way; crooked or departing from a straight course.",
+          "usage_conditions": "In the Quranic occurrence, the participle characterizes a route or course that departs from the straight way.",
+          "source_refs": [
+            "mufradat:row:218"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:9",
+          "word_location": "16:9:6",
+          "sense_ids": [
+            "jwr_n_jaair_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jwr_n_jaar",
+      "form_group_ids": [
+        "qac-form:jwr:jaAr:nominal:-"
+      ],
+      "headword_arabic": "جَار",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "jwr_n_jaar_s1",
+          "definition": "A neighbor: one who lives near another.",
+          "usage_conditions": "The Quranic neighbor may be near by residence, kinship, or another recognized connection; the term is relational and carries an associated claim to regard and care.",
+          "source_refs": [
+            "lane:entry:47743",
+            "mufradat:row:218"
+          ]
+        },
+        {
+          "sense_id": "jwr_n_jaar_s2",
+          "definition": "A protector, guarantor, or one who grants refuge.",
+          "usage_conditions": "In the Quranic expression جار لكم, the noun denotes someone who undertakes to protect or give security, rather than merely someone living nearby.",
+          "source_refs": [
+            "lane:entry:47743",
+            "mufradat:row:218"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:36",
+          "word_location": "4:36:13",
+          "sense_ids": [
+            "jwr_n_jaar_s1"
+          ]
+        },
+        {
+          "verse_key": "8:48",
+          "word_location": "8:48:14",
+          "sense_ids": [
+            "jwr_n_jaar_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jwr_ap_mutajaawir",
+      "form_group_ids": [
+        "qac-form:jwr:m~utaja`wira`t:nominal:-"
+      ],
+      "headword_arabic": "مُتَجَاوِر",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jwr_ap_mutajaawir_s1",
+          "definition": "Neighboring, adjacent, or situated next to one another.",
+          "usage_conditions": "The supplied Quran occurrence is a feminine plural active participle; the lexical relation is adjacency or proximity and is not restricted to a particular class of object.",
+          "source_refs": [
+            "lane:entry:47740",
+            "mufradat:row:218"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "13:4",
+          "word_location": "13:4:4",
+          "sense_ids": [
+            "jwr_ap_mutajaawir_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "jwr_c_jara_deviation",
+      "headword_arabic": "جَارَ",
+      "definition": "To turn aside or deviate from a road, course, or right way; to act wrongfully, unjustly, injuriously, or tyrannically.",
+      "usage_conditions": "The first use is physical deviation; the related transitive moral use is commonly construed with عَلَيْهِ or with judgment.",
+      "source_refs": [
+        "lane:entry:47735"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jara_herbage",
+      "headword_arabic": "جَارَتِ الأَرْضُ",
+      "definition": "Of the plants or herbage of the land, to grow tall.",
+      "usage_conditions": "Reported as a tropical or figurative use.",
+      "source_refs": [
+        "lane:entry:47735"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jawwara_impute",
+      "headword_arabic": "جَوَّرَ",
+      "definition": "To attribute or charge someone with wrongful, unjust, injurious, or tyrannical conduct.",
+      "usage_conditions": "This is the causative act of assigning such conduct to another.",
+      "source_refs": [
+        "lane:entry:47736"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jawwara_overturn",
+      "headword_arabic": "جَوَّرَ",
+      "definition": "To knock someone down or prostrate them by a blow, and to throw down, overturn, or dismantle a structure, tent, or household goods.",
+      "usage_conditions": "The same overthrowing branch applies to persons and to physical objects; the passive participle مُجَوَّرٌ can mean thrown down or overturned.",
+      "source_refs": [
+        "lane:entry:47736",
+        "lane:entry:47753"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jaawara_covenant",
+      "headword_arabic": "جَاوَرَ",
+      "definition": "To bind oneself to another by a covenant of protection, or to secure oneself through such a covenant.",
+      "usage_conditions": "The construction may describe entering a protective relationship with an individual or group, distinct from merely living nearby.",
+      "source_refs": [
+        "lane:entry:47737"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jaawara_retreat",
+      "headword_arabic": "جَاوَرَ",
+      "definition": "To confine oneself in a mosque or place of worship for a period of devotional retreat.",
+      "usage_conditions": "This is a conventional religious use associated with iʿtikāf-like seclusion.",
+      "source_refs": [
+        "lane:entry:47737"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jaawara_abide",
+      "headword_arabic": "جَاوَرَ",
+      "definition": "To abide in a place, especially Mecca or Medina, commonly as a resident or student.",
+      "usage_conditions": "Residence in a named holy city does not necessarily imply the formal conditions of devotional retreat.",
+      "source_refs": [
+        "lane:entry:47737"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_ajaar_store",
+      "headword_arabic": "أَجَارَ",
+      "definition": "To place household goods or commodities in a repository so as to preserve them from loss.",
+      "usage_conditions": "This is a preservation use applied to stored property.",
+      "source_refs": [
+        "lane:entry:47738"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_ajaar_seas",
+      "headword_arabic": "أَجَارَ",
+      "definition": "To separate bodies of water and prevent one from mixing with or encroaching upon another.",
+      "usage_conditions": "Reported in a traditional expression about dividing seas.",
+      "source_refs": [
+        "lane:entry:47738"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_tajawwar_down",
+      "headword_arabic": "تَجَوَّرَ",
+      "definition": "To fall or lie down; of a structure, to be thrown down or demolished.",
+      "usage_conditions": "The reported uses include a person becoming prostrate or lying on his side and a building collapsing or being demolished.",
+      "source_refs": [
+        "lane:entry:47739"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_tajaawara_covenant",
+      "headword_arabic": "تَجَاوَرَ",
+      "definition": "To bind oneself mutually with others by a covenant to protect one another.",
+      "usage_conditions": "This is the reciprocal protective-covenant use, distinct from reciprocal residence alone.",
+      "source_refs": [
+        "lane:entry:47740"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jar_protected",
+      "headword_arabic": "جَار",
+      "definition": "A person placed under another's protection from wrongful treatment, injury, or tyranny.",
+      "usage_conditions": "The noun denotes the protected party in a protection relationship.",
+      "source_refs": [
+        "lane:entry:47743"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jar_seeker",
+      "headword_arabic": "جَار",
+      "definition": "A person who seeks or asks another for protection.",
+      "usage_conditions": "The expression جارُكَ means one who seeks the addressee's protection.",
+      "source_refs": [
+        "lane:entry:47743"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jar_aider",
+      "headword_arabic": "جَار",
+      "definition": "An aider or assistant.",
+      "usage_conditions": "A generalized support sense, distinct from the more specific roles of protector and protected person.",
+      "source_refs": [
+        "lane:entry:47743"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jar_confederate",
+      "headword_arabic": "جَار",
+      "definition": "A confederate or ally bound by association.",
+      "usage_conditions": "The sense denotes an allied relationship rather than simple residential proximity.",
+      "source_refs": [
+        "lane:entry:47743"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jar_spouse",
+      "headword_arabic": "جَار",
+      "definition": "A marital partner: a woman's husband, or a man's wife; also, by extension, a beloved or fellow-wife.",
+      "usage_conditions": "These are reported conventional uses of the noun in marital relations.",
+      "source_refs": [
+        "lane:entry:47743"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jar_partner",
+      "headword_arabic": "جَار",
+      "definition": "A partner or co-sharer in property, merchandise, or a division.",
+      "usage_conditions": "The partner may share immovable property, goods, or an undivided entitlement, including a partner entitled to share before division.",
+      "source_refs": [
+        "lane:entry:47743"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jar_anatomy",
+      "headword_arabic": "جَار",
+      "definition": "The pudendum of a woman; figuratively, the anus.",
+      "usage_conditions": "Reported as a tropical anatomical use.",
+      "source_refs": [
+        "lane:entry:47743"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jar_shore",
+      "headword_arabic": "جَار",
+      "definition": "The part of a sea-shore near places where people have settled.",
+      "usage_conditions": "The sense is defined by proximity to inhabited or occupied landing places.",
+      "source_refs": [
+        "lane:entry:47743"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jawr_deviation",
+      "headword_arabic": "جَوْر",
+      "definition": "Deviation from the right course, and wrongful, unjust, injurious, or tyrannical conduct.",
+      "usage_conditions": "The noun can describe a road that deviates from the proper course or a person who departs from an accepted way.",
+      "source_refs": [
+        "lane:entry:47744"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jawr_wronged",
+      "headword_arabic": "جَوْر",
+      "definition": "Being wronged or unjustly treated by a judge.",
+      "usage_conditions": "A resultative or passive sense reported in a traditional expression.",
+      "source_refs": [
+        "lane:entry:47744"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jawr_abundance",
+      "headword_arabic": "جَوْر",
+      "definition": "An extraordinary abundance of property.",
+      "usage_conditions": "Reported as a tropical use.",
+      "source_refs": [
+        "lane:entry:47744"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_hasan_jira",
+      "headword_arabic": "حُسْنُ الجِيرَة",
+      "definition": "Good-neighbor conduct or proper observance of the duties of neighboring and protective association.",
+      "usage_conditions": "An idiomatic expression praising someone's manner of living as a neighbor or fulfilling a protective covenant.",
+      "source_refs": [
+        "lane:entry:47747"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jiwarr_rain",
+      "headword_arabic": "جِوَرّ",
+      "definition": "Rain accompanied by vehement thunder, copious rain, or an exceedingly great torrent.",
+      "usage_conditions": "The torrent sense is reported as an extension of the heavy-rain meaning.",
+      "source_refs": [
+        "lane:entry:47748"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jiwarr_camel",
+      "headword_arabic": "جِوَرّ",
+      "definition": "A hard, strong, or bulky camel.",
+      "usage_conditions": "The term is applied to a robust camel; a related use describes a camel that brays loudly.",
+      "source_refs": [
+        "lane:entry:47748"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jawaar_courtyard",
+      "headword_arabic": "جَوَار",
+      "definition": "The part of a house's exterior court or yard that is coextensive with the house.",
+      "usage_conditions": "A specialized architectural use.",
+      "source_refs": [
+        "lane:entry:47749"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jawaar_water",
+      "headword_arabic": "جَوَار",
+      "definition": "Abundant and deep water; by extension, rain.",
+      "usage_conditions": "The rain use derives from the abundance of water.",
+      "source_refs": [
+        "lane:entry:47749"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jawaar_ships",
+      "headword_arabic": "جَوَار",
+      "definition": "A reported variant form used for ships.",
+      "usage_conditions": "This is recorded as a dialectal or lexical variant.",
+      "source_refs": [
+        "lane:entry:47749"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jiwaar_covenant",
+      "headword_arabic": "جِوَار / جُوَار",
+      "definition": "A covenant between parties by which one or both parties are bound to protect the other.",
+      "usage_conditions": "The nouns are used for protective association and, in some attestations, for the covenant itself.",
+      "source_refs": [
+        "lane:entry:47737",
+        "lane:entry:47750"
+      ]
+    },
+    {
+      "meaning_id": "jwr_c_jaair_wide",
+      "headword_arabic": "جَائِر",
+      "definition": "Wide or large, especially of a bucket or a skin container.",
+      "usage_conditions": "Reported as a tropical adjectival use, distinct from deviation or injustice.",
+      "source_refs": [
+        "lane:entry:47752"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jwr:47735:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jara_deviation"
+      ],
+      "note": "Deviation from a course."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47735:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jara_deviation"
+      ],
+      "note": "Wrongful or unjust conduct."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47735:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jara_herbage"
+      ],
+      "note": "Tropical herbage-growth use."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47735:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47736:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawwara_impute"
+      ],
+      "note": "Attributing wrongful conduct."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47736:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawwara_overturn"
+      ],
+      "note": "Prostrating someone by a blow."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47736:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawwara_overturn"
+      ],
+      "note": "Throwing down or dismantling structures and goods."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47737:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_f3_jaawara_s1"
+      ],
+      "note": "Living near or becoming a neighbor."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47737:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jaawara_covenant",
+        "jwr_c_jiwaar_covenant"
+      ],
+      "note": "Protective covenant use of the verb and verbal noun."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47737:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jaawara_covenant",
+        "jwr_c_jiwaar_covenant"
+      ],
+      "note": "Securing oneself by a protective covenant."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47737:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jaawara_retreat",
+        "jwr_c_jaawara_abide"
+      ],
+      "note": "Devotional retreat and ordinary residence uses."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47738:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_f4_ajaara_s1"
+      ],
+      "note": "Granting protection, refuge, or rescue."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47738:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_ajaar_store"
+      ],
+      "note": "Preserving stored goods."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47738:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_ajaar_seas"
+      ],
+      "note": "Separating seas and preventing mixture."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47739:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_tajawwar_down"
+      ],
+      "note": "Falling or becoming prostrate."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47739:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_tajawwar_down"
+      ],
+      "note": "A building becoming demolished."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47739:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_tajawwar_down"
+      ],
+      "note": "Lying down on one's side."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47740:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_ap_mutajaawir_s1"
+      ],
+      "note": "Mutual neighboring or adjacency."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47740:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_tajaawara_covenant"
+      ],
+      "note": "Mutual protective covenant."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47741:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form VI."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47742:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_f10_istajaara_s1"
+      ],
+      "note": "Seeking protection or refuge."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_n_jaar_s1"
+      ],
+      "note": "Neighbor, including a stranger who becomes a neighbor and kin-connected proximity."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_protected"
+      ],
+      "note": "Person under protection."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_seeker"
+      ],
+      "note": "Person seeking protection."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_n_jaar_s2"
+      ],
+      "note": "Protector or refuge-granter."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_aider"
+      ],
+      "note": "Aider or assistant."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_confederate"
+      ],
+      "note": "Confederate or ally."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_spouse"
+      ],
+      "note": "Woman's husband."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_spouse"
+      ],
+      "note": "Man's wife and related marital uses."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_partner"
+      ],
+      "note": "Partner entitled to an undivided share."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_partner"
+      ],
+      "note": "Property or merchandise partner."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_partner"
+      ],
+      "note": "One who divides or shares with another."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_anatomy"
+      ],
+      "note": "Tropical anatomical use."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47743:g1:sub13",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jar_shore"
+      ],
+      "note": "Settled-adjacent part of a sea-shore."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47744:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawr_deviation"
+      ],
+      "note": "Deviation and unjust conduct."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47744:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawr_wronged"
+      ],
+      "note": "Being wronged by a judge."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47744:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawr_abundance"
+      ],
+      "note": "Tropical abundance of property."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47745:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to جار."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47745:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to جور."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47745:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form IV."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47746:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to جور."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47747:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_hasan_jira"
+      ],
+      "note": "Lexical idiom for good neighborliness or protective conduct."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47748:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jiwarr_rain"
+      ],
+      "note": "Heavy, thunderous rain and torrent."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47748:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jiwarr_camel"
+      ],
+      "note": "Strong or bulky camel."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47749:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form III entry."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47749:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawaar_courtyard"
+      ],
+      "note": "Specialized house-court term."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47749:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawaar_water"
+      ],
+      "note": "Abundant deep water and rain."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47749:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawaar_ships"
+      ],
+      "note": "Reported variant used for ships."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47750:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form III entry."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47750:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jiwaar_covenant"
+      ],
+      "note": "Protective covenant between parties."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47751:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding covenant discussion."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47751:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form information only."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47752:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to جور."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47752:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jaair_wide"
+      ],
+      "note": "Tropical wide or large container use."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47753:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jwr_c_jawwara_overturn"
+      ],
+      "note": "Passive participle meaning thrown down or overturned."
+    },
+    {
+      "unit_id": "lane-unit:jwr:47754:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form III entry."
+    }
+  ],
+  "cautions": [
+    "The proximity, neighbor, and protective-covenant branches are related but are not interchangeable in every construction.",
+    "The heavy-rain sense of جِوَرٌّ is treated as a reported lexical branch; its relation to the core root is described as exceptional or possibly separate in the root-level evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

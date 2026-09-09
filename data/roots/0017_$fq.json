@@ -1,0 +1,446 @@
+{
+  "root": "$fq",
+  "arabic": "شفق",
+  "root_idea": {
+    "summary": "The root centers on delicacy or thinness, extending to sensitive apprehension and solicitous concern, and to the delicate residual light of twilight.",
+    "development": "From the notion of something fine or delicate, the lexicon develops cautious fear and compassionate concern; the noun شَفَقٌ also denotes the faint, colored light remaining after sunset.",
+    "source_refs": [
+      "maqayis:row:2665",
+      "mufradat:row:777",
+      "lane:entry:38859"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$fq:>a$ofaqo:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_ashfaqa_iv",
+      "reason": "Displayed under the normalized Form IV perfect citation form أَشْفَقَ."
+    },
+    {
+      "form_group_id": "qac-form:$fq:$~afaq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_shafaq",
+      "reason": "Displayed under the normalized noun citation form شَفَقٌ."
+    },
+    {
+      "form_group_id": "qac-form:$fq:mu$ofiquwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_mushfiq",
+      "reason": "Displayed under the singular active-participle citation form مُشْفِقٌ; the Quran attestations are plural inflections."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_ashfaqa_iv",
+      "form_group_ids": [
+        "qac-form:$fq:>a$ofaqo:verb:IV"
+      ],
+      "headword_arabic": "أَشْفَقَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_ashfaqa_fear",
+          "definition": "To fear, be apprehensive, or be cautious about something.",
+          "usage_conditions": "In the Quranic occurrences, the construction expresses apprehension about bearing a burden or undertaking an action; with مِنْ or an أنْ-clause, the fear aspect is prominent.",
+          "source_refs": [
+            "lane:entry:38858",
+            "mufradat:row:777"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:72",
+          "word_location": "33:72:11",
+          "sense_ids": [
+            "sense_ashfaqa_fear"
+          ]
+        },
+        {
+          "verse_key": "58:13",
+          "word_location": "58:13:1",
+          "sense_ids": [
+            "sense_ashfaqa_fear"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_shafaq",
+      "form_group_ids": [
+        "qac-form:$fq:$~afaq:nominal:-"
+      ],
+      "headword_arabic": "شَفَقٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_shafaq_twilight",
+          "definition": "Twilight: the mingling of fading daylight with the darkness of night after sunset, commonly the reddish glow in the western sky.",
+          "usage_conditions": "In the Quranic oath, the noun denotes the residual twilight after sunset. Classical descriptions differ over whether the specific referent is the red afterglow or the remaining white light, so the sense is presented neutrally as twilight.",
+          "source_refs": [
+            "lane:entry:38859",
+            "mufradat:row:777"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "84:16",
+          "word_location": "84:16:3",
+          "sense_ids": [
+            "sense_shafaq_twilight"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_mushfiq",
+      "form_group_ids": [
+        "qac-form:$fq:mu$ofiquwn:nominal:-"
+      ],
+      "headword_arabic": "مُشْفِقٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "sense_mushfiq_fear",
+          "definition": "Fearful, apprehensive, or filled with awe before a feared consequence or authority.",
+          "usage_conditions": "With مِنْ, the fear aspect is especially prominent; Quranic uses include apprehension concerning the Resurrection, divine punishment, one's deeds, or a reckoning.",
+          "source_refs": [
+            "lane:entry:38863",
+            "mufradat:row:777"
+          ]
+        },
+        {
+          "sense_id": "sense_mushfiq_care",
+          "definition": "Solicitously concerned, with care and fear for the welfare of another or the avoidance of harm.",
+          "usage_conditions": "In the construction with فِي, care or solicitude is more prominent than simple fear, as in concern for one's family.",
+          "source_refs": [
+            "lane:entry:38863",
+            "mufradat:row:777"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:49",
+          "word_location": "21:49:8",
+          "sense_ids": [
+            "sense_mushfiq_fear"
+          ]
+        },
+        {
+          "verse_key": "42:22",
+          "word_location": "42:22:3",
+          "sense_ids": [
+            "sense_mushfiq_fear"
+          ]
+        },
+        {
+          "verse_key": "52:26",
+          "word_location": "52:26:7",
+          "sense_ids": [
+            "sense_mushfiq_care"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "class_shafaqa_niggardly",
+      "headword_arabic": "شَفِقَ",
+      "definition": "To be niggardly of something and withhold or stint it.",
+      "usage_conditions": "Used with عَلَيْهِ in a classical construction.",
+      "source_refs": [
+        "lane:entry:38856"
+      ]
+    },
+    {
+      "meaning_id": "class_tashfiq_scarcity",
+      "headword_arabic": "تَشْفِيقٌ",
+      "definition": "To make a gift or other thing scanty or small in amount or quantity.",
+      "usage_conditions": "A causative or intensive Form II usage concerning limited quantity.",
+      "source_refs": [
+        "lane:entry:38857"
+      ]
+    },
+    {
+      "meaning_id": "class_tashfiq_weaving",
+      "headword_arabic": "تَشْفِيقٌ",
+      "definition": "To weave badly or with scanty, unsubstantial yarn.",
+      "usage_conditions": "Applied to cloth or its weaving.",
+      "source_refs": [
+        "lane:entry:38857"
+      ]
+    },
+    {
+      "meaning_id": "class_ashfaqa_care",
+      "headword_arabic": "أَشْفَقَ",
+      "definition": "To show solicitous affection, kindness, compassion, or favourable inclination toward someone, with concern that harm may befall them.",
+      "usage_conditions": "With عَلَى, care and solicitude are more prominent than fear; this contrasts with the fear-dominant مِنْ construction.",
+      "source_refs": [
+        "lane:entry:38858"
+      ]
+    },
+    {
+      "meaning_id": "class_ashfaqa_impatient",
+      "headword_arabic": "أَشْفَقَ",
+      "definition": "To be impatient of someone or something.",
+      "usage_conditions": "A classical use with مِنْ distinct from the ordinary fear or caution sense.",
+      "source_refs": [
+        "lane:entry:38858"
+      ]
+    },
+    {
+      "meaning_id": "class_ashfaqa_twilight_entry",
+      "headword_arabic": "أَشْفَقَ",
+      "definition": "To enter upon or arrive during the time of twilight.",
+      "usage_conditions": "Used in a temporal construction with شَفَقٌ.",
+      "source_refs": [
+        "lane:entry:38858"
+      ]
+    },
+    {
+      "meaning_id": "class_shafaq_fear",
+      "headword_arabic": "شَفَقٌ",
+      "definition": "Fear or solicitous concern, especially the concern of one giving earnest advice for the person advised.",
+      "usage_conditions": "This emotional noun can include compassion, tenderness, and an effort to protect or reform the person concerned.",
+      "source_refs": [
+        "lane:entry:38859"
+      ]
+    },
+    {
+      "meaning_id": "class_shafaq_red_garment",
+      "headword_arabic": "شَفَقٌ",
+      "definition": "A garment or piece of cloth dyed red.",
+      "usage_conditions": "A figurative use based on the color of twilight.",
+      "source_refs": [
+        "lane:entry:38859"
+      ]
+    },
+    {
+      "meaning_id": "class_shafaq_day",
+      "headword_arabic": "شَفَقٌ",
+      "definition": "Daylight or day.",
+      "usage_conditions": "A reported classical lexical use distinct from the usual twilight sense.",
+      "source_refs": [
+        "lane:entry:38859"
+      ]
+    },
+    {
+      "meaning_id": "class_shafaq_side",
+      "headword_arabic": "شَفَقٌ",
+      "definition": "A side, quarter, or remote region.",
+      "usage_conditions": "The plural is أَشْفَاقٌ; the expression can describe being apart or on the outskirts of an affair.",
+      "source_refs": [
+        "lane:entry:38859"
+      ]
+    },
+    {
+      "meaning_id": "class_shafaq_bad_thin",
+      "headword_arabic": "شَفَقٌ",
+      "definition": "A bad, poor, or thin thing, especially a poor or insubstantial garment.",
+      "usage_conditions": "An evaluative use concerning inferior quality or thinness.",
+      "source_refs": [
+        "lane:entry:38859"
+      ]
+    },
+    {
+      "meaning_id": "class_shafiqu_advice",
+      "headword_arabic": "شَفِيقٌ",
+      "definition": "A compassionate or affectionate person; in a conventional use, one who gives sincere advice and strives to reform another.",
+      "usage_conditions": "It may function as an intensive epithet for compassionate concern and is explicitly related lexically to مُشْفِقٌ.",
+      "source_refs": [
+        "lane:entry:38863"
+      ]
+    },
+    {
+      "meaning_id": "class_mushaffaq_scarce_gift",
+      "headword_arabic": "مُشَفَّقٌ",
+      "definition": "Made scanty or small in amount, especially of a gift.",
+      "usage_conditions": "A figurative passive Form II usage describing limited quantity.",
+      "source_refs": [
+        "lane:entry:38866"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$fq:38856:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form IV entry."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38856:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_shafaqa_niggardly"
+      ],
+      "note": "Niggardly withholding construction."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38857:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_tashfiq_scarcity"
+      ],
+      "note": "Making a gift or thing scanty."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38857:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_tashfiq_weaving"
+      ],
+      "note": "Bad or unsubstantial weaving."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38857:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38858:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_ashfaqa_fear",
+        "class_ashfaqa_care",
+        "class_ashfaqa_impatient"
+      ],
+      "note": "Fear, solicitous care, and impatience constructions."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38858:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38858:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_ashfaqa_twilight_entry"
+      ],
+      "note": "Entering or arriving at twilight."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38859:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_shafaq_fear"
+      ],
+      "note": "Nominal fear and solicitous concern."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38859:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_shafaq_twilight"
+      ],
+      "note": "Twilight and the competing red or white specifications."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38859:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_shafaq_red_garment"
+      ],
+      "note": "Red-dyed garment."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38859:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_shafaq_day"
+      ],
+      "note": "Reported meaning day."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38859:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_shafaq_side"
+      ],
+      "note": "Side or remote region."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38859:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_shafaq_bad_thin"
+      ],
+      "note": "Bad or thin quality."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38860:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38861:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38862:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38863:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_mushfiq_fear",
+        "sense_mushfiq_care",
+        "class_shafiqu_advice"
+      ],
+      "note": "Fearful and compassionate senses, plus the advising and reforming use."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38864:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38864:g2:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "An unattributed assertion that مُشْفَقٌ means fear; no supporting authority is supplied."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38865:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$fq:38866:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_mushaffaq_scarce_gift"
+      ],
+      "note": "A gift made scanty."
+    }
+  ],
+  "cautions": [
+    "The emotional meanings distinguish fear-dominant مِنْ constructions from care-dominant عَلَى or فِي constructions.",
+    "For شَفَقٌ, classical authorities differ over whether the specific twilight referent is the red afterglow or the remaining white light; the Quranic entry therefore uses the broader term twilight.",
+    "The unattributed claim that مُشْفَقٌ independently means fear is retained as unresolved evidence rather than used as a separate meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:$fq:38864:g2:main reports, without a named supporting authority, that مُشْفَقٌ means fear; the claim cannot be assigned confidently beyond the independently supported entries."
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "root": "$yd",
+  "arabic": "شيد",
+  "root_idea": {
+    "summary": "The root centers on raising something upward, especially by building it up or making it high.",
+    "development": "This orientation extends from raising a structure with gypsum or mortar to making a building lofty or strongly constructed, and figuratively to raising the voice or publicizing something.",
+    "source_refs": [
+      "maqayis:row:2737",
+      "mufradat:row:804",
+      "lane:entry:39753"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$yd:m~a$iyd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:$yd:mashid",
+      "reason": "Displayed under the normalized masculine passive-participle citation form مَشِيدٌ."
+    },
+    {
+      "form_group_id": "qac-form:$yd:m~u$ay~adap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:$yd:mushayyad",
+      "reason": "Displayed under the normalized masculine Form II passive-participle citation form مُشَيَّدٌ rather than the inflected Quranic surface form مُشَيَّدَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:$yd:mashid",
+      "form_group_ids": [
+        "qac-form:$yd:m~a$iyd:nominal:-"
+      ],
+      "headword_arabic": "مَشِيدٌ",
+      "public_pos_label": "Passive participle · Form I",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "quran-sense:$yd:mashid:1",
+          "definition": "Plastered with gypsum or similar mortar; built using such material.",
+          "usage_conditions": "Applied to a palace or other structure, including the Quranic expression قَصْرٍ مَشِيدٍ.",
+          "source_refs": [
+            "lane:entry:39757",
+            "mufradat:row:804"
+          ]
+        },
+        {
+          "sense_id": "quran-sense:$yd:mashid:2",
+          "definition": "Built up high; lofty, of a palace or other structure.",
+          "usage_conditions": "The high or lofty interpretation is closely related to the elevation produced by the building or plastering described in the first sense.",
+          "source_refs": [
+            "lane:entry:39757",
+            "mufradat:row:804"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:45",
+          "word_location": "22:45:14",
+          "sense_ids": [
+            "quran-sense:$yd:mashid:1",
+            "quran-sense:$yd:mashid:2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "quran-form:$yd:mushayyad",
+      "form_group_ids": [
+        "qac-form:$yd:m~u$ay~adap:nominal:-"
+      ],
+      "headword_arabic": "مُشَيَّدٌ",
+      "public_pos_label": "Passive participle · Form II",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "quran-sense:$yd:mushayyad:1",
+          "definition": "Firmly or extensively built, including construction with gypsum or similar plaster.",
+          "usage_conditions": "Applied to a building or structure; the Quranic surface form is مُشَيَّدَةٌ.",
+          "source_refs": [
+            "lane:entry:39757"
+          ]
+        },
+        {
+          "sense_id": "quran-sense:$yd:mushayyad:2",
+          "definition": "Raised high; lofty or high-built, of a building.",
+          "usage_conditions": "The Form II passive can carry the implication of repeated or extensive building, by which a structure becomes high; the Quranic occurrence is the lexical plural form مُشَيَّدَةٌ.",
+          "source_refs": [
+            "lane:entry:39757"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:78",
+          "word_location": "4:78:9",
+          "sense_ids": [
+            "quran-sense:$yd:mushayyad:1",
+            "quran-sense:$yd:mushayyad:2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_shada_build",
+      "headword_arabic": "شَادَ",
+      "definition": "To plaster a wall with gypsum or similar material; to build a structure with it.",
+      "usage_conditions": "Form I active verb.",
+      "source_refs": [
+        "lane:entry:39751"
+      ]
+    },
+    {
+      "meaning_id": "cm_shada_strengthen",
+      "headword_arabic": "شَادَ",
+      "definition": "To strengthen and exalt something figuratively, as in strengthening or exalting a religion.",
+      "usage_conditions": "A metaphorical usage, also associated with the meanings of شَيَّدَ and أَشَادَ.",
+      "source_refs": [
+        "lane:entry:39751"
+      ]
+    },
+    {
+      "meaning_id": "cm_shiyad_camels",
+      "headword_arabic": "شِيَادٌ",
+      "definition": "Calling camels, including raising the voice while doing so.",
+      "usage_conditions": "An infinitival usage in the construction شَادَ بِالإِبِلِ.",
+      "source_refs": [
+        "lane:entry:39751"
+      ]
+    },
+    {
+      "meaning_id": "cm_shiyad_perfume",
+      "headword_arabic": "شِيَادٌ",
+      "definition": "Rubbing the skin with perfume.",
+      "usage_conditions": "An attributed infinitival usage of شَادَ; the lexicographic transmission records textual variation around its form.",
+      "source_refs": [
+        "lane:entry:39751"
+      ]
+    },
+    {
+      "meaning_id": "cm_shada_die",
+      "headword_arabic": "شَادَ",
+      "definition": "To perish or die.",
+      "usage_conditions": "Recorded as a verbal usage said of a man.",
+      "source_refs": [
+        "lane:entry:39751"
+      ]
+    },
+    {
+      "meaning_id": "cm_shayyada_build",
+      "headword_arabic": "شَيَّدَ",
+      "definition": "To build firmly or strongly and raise high, especially a palace or other building.",
+      "usage_conditions": "Form II may imply repeated or extensive building.",
+      "source_refs": [
+        "lane:entry:39752"
+      ]
+    },
+    {
+      "meaning_id": "cm_ishada_publicize",
+      "headword_arabic": "أَشَادَ",
+      "definition": "To raise the voice in proclaiming something, make it known, or publicize it; by extension, to raise a person's fame or publish a favorable or unfavorable report.",
+      "usage_conditions": "Used with constructions such as أَشَادَ بِهِ, أَشَادَ بِذِكْرِهِ, and أَشَادَ عَلَيْهِ.",
+      "source_refs": [
+        "lane:entry:39753"
+      ]
+    },
+    {
+      "meaning_id": "cm_ishada_destroy",
+      "headword_arabic": "إِشَادَةٌ",
+      "definition": "Destruction.",
+      "usage_conditions": "A figurative infinitival usage.",
+      "source_refs": [
+        "lane:entry:39753"
+      ]
+    },
+    {
+      "meaning_id": "cm_shayd_persian",
+      "headword_arabic": "شَيْدٌ",
+      "definition": "Possessed, insane, or intoxicated.",
+      "usage_conditions": "A Persian-derived homograph identified as distinct from the native lexical development of شيد.",
+      "source_refs": [
+        "lane:entry:39755"
+      ]
+    },
+    {
+      "meaning_id": "cm_shid_plaster",
+      "headword_arabic": "شِيدٌ",
+      "definition": "Gypsum or similar material used to plaster a wall; mortar or clay-like plaster.",
+      "usage_conditions": "Names the construction material rather than the completed building.",
+      "source_refs": [
+        "lane:entry:39756"
+      ]
+    },
+    {
+      "meaning_id": "cm_shid_fortress",
+      "headword_arabic": "شِيدٌ",
+      "definition": "A fortress or fortified place.",
+      "usage_conditions": "An attributed regional usage.",
+      "source_refs": [
+        "lane:entry:39756"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$yd:39751:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shada_build"
+      ],
+      "note": "Plastering or building with gypsum."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39751:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39751:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shada_strengthen"
+      ],
+      "note": "Metaphorical strengthening and exalting."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39751:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39751:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shiyad_camels"
+      ],
+      "note": "Calling camels and raising the voice."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39751:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shiyad_perfume"
+      ],
+      "note": "Rubbing the skin with perfume."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39751:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shada_die"
+      ],
+      "note": "Perishing or dying."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39752:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shayyada_build"
+      ],
+      "note": "Firmly building and raising a structure."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39752:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39753:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39753:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ishada_publicize"
+      ],
+      "note": "Proclaiming, publicizing, and raising fame or reports."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39753:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ishada_destroy"
+      ],
+      "note": "Figurative meaning of destruction."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39754:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39755:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shayd_persian"
+      ],
+      "note": "Persian-derived homographic lexical item."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39756:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shid_plaster"
+      ],
+      "note": "Gypsum, mortar, or wall-plastering material."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39756:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shid_fortress"
+      ],
+      "note": "Fortress or fortified place."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39757:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "quran-sense:$yd:mashid:1",
+        "quran-sense:$yd:mashid:2",
+        "quran-sense:$yd:mushayyad:1",
+        "quran-sense:$yd:mushayyad:2"
+      ],
+      "note": "Quran-attested meanings of مَشِيدٌ and مُشَيَّدٌ: plastered or built with gypsum, and high or lofty construction."
+    },
+    {
+      "unit_id": "lane-unit:$yd:39758:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The modern Quran locations shown here are the QAC-supplied locations; historical citation notation in the lexical discussion has not been converted into modern verse numbering.",
+    "The interpretations 'built or plastered with gypsum' and 'lofty' are closely connected in the evidence, with loftiness presented as the result or characterization of elevated construction.",
+    "شَيْدٌ meaning possessed, insane, or intoxicated is explicitly identified as Persian-derived and is retained as a homographic lexical item rather than assumed to be a native root derivative."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

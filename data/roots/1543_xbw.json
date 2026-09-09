@@ -1,0 +1,129 @@
+{
+  "root": "xbw",
+  "arabic": "خبو",
+  "root_idea": {
+    "summary": "The attested semantic orientation centers on a flame becoming quiet, abating, or subsiding, with an associated image of being covered by ash.",
+    "development": "The fire-related intransitive use extends figuratively to the abatement of war, anger, or irascibility; Form IV expresses causing such abatement. A related noun denotes a covering.",
+    "source_refs": [
+      "lane:entry:18416",
+      "lane:entry:18417",
+      "mufradat:row:389"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:xbw:xabato:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "xbw:verb:khaba:I",
+      "reason": "Displayed under the normalized Form I perfect citation form خَبَا rather than the inflected Quranic form خَبَتْ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "xbw:verb:khaba:I",
+      "form_group_ids": [
+        "qac-form:xbw:xabato:verb:I"
+      ],
+      "headword_arabic": "خَبَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "xbw:verb:khaba:I:s1",
+          "definition": "To subside, abate, or become extinguished, as a fire or flame; in the Quranic use, for the flame of Hell to quiet and become covered with ash.",
+          "usage_conditions": "Intransitive fire-related use. The supplied Quranic occurrence describes Hellfire; the associated ash covering explains the imagery of the flame's abatement rather than establishing a separate sense.",
+          "source_refs": [
+            "lane:entry:18416",
+            "mufradat:row:389"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:97",
+          "word_location": "17:97:25",
+          "sense_ids": [
+            "xbw:verb:khaba:I:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "xbw:khaba:figurative-abatement",
+      "headword_arabic": "خَبَا",
+      "definition": "To abate, be assuaged, or be appeased in figurative uses, especially of war, an irascible disposition, or the vehemence of anger.",
+      "usage_conditions": "Intransitive figurative extension of the fire-related use; the examples include the calming of war, an animal's irascibility, and anger's heat.",
+      "source_refs": [
+        "lane:entry:18416"
+      ]
+    },
+    {
+      "meaning_id": "xbw:akhba:causative-quelling",
+      "headword_arabic": "أَخْبَى",
+      "definition": "To extinguish or allay a fire; by extension, to quell war or an irascible state.",
+      "usage_conditions": "Form IV transitive use, taking the fire, war, or irascibility as its object.",
+      "source_refs": [
+        "lane:entry:18417"
+      ]
+    },
+    {
+      "meaning_id": "xbw:khibaa:covering",
+      "headword_arabic": "خِبَاءٌ",
+      "definition": "A covering used to cover oneself; reportedly, also the covering or sheath of a grain ear.",
+      "usage_conditions": "The association of this noun with the present root is qualified in the supplied evidence.",
+      "source_refs": [
+        "mufradat:row:389"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:xbw:18416:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xbw:verb:khaba:I:s1"
+      ],
+      "note": "Fire subsiding or becoming extinguished, explicitly connected with a Quranic use."
+    },
+    {
+      "unit_id": "lane-unit:xbw:18416:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xbw:khaba:figurative-abatement"
+      ],
+      "note": "Figurative abatement of war, irascibility, and anger."
+    },
+    {
+      "unit_id": "lane-unit:xbw:18417:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xbw:akhba:causative-quelling"
+      ],
+      "note": "Form IV causative use with a fire as object."
+    },
+    {
+      "unit_id": "lane-unit:xbw:18417:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "xbw:akhba:causative-quelling"
+      ],
+      "note": "Figurative Form IV use with war or irascibility as object."
+    },
+    {
+      "unit_id": "lane-unit:xbw:18418:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit with a qualified root attribution and no definition."
+    }
+  ],
+  "cautions": [
+    "The printed Lane citation for the Hellfire passage reads “Kur xvii. 99,” while the supplied QAC and Mufradat evidence securely identify the Quranic occurrence as 17:97; the example therefore uses the QAC location.",
+    "The assignment of خِبَاءٌ to this root is qualified in the supplied evidence, although its covering sense is explicitly described."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Lane entry 18418 gives only a qualified attribution of خِبَاءٌ to this root and refers elsewhere for discussion; its lexical definition is therefore supported here by the Mufradat passage, while the root assignment remains uncertain."
+  ]
+}

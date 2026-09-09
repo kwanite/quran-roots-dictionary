@@ -1,0 +1,173 @@
+{
+  "root": "qdw",
+  "arabic": "قدو",
+  "root_idea": {
+    "summary": "The root centers on taking guidance or a model from something and following or matching it.",
+    "development": "The lexical development extends from model-guided imitation and correspondence to the exemplar itself, measurement, and adherence to an established course. The record also preserves a separate specialized branch for first arrivals and an exceptional branch concerning the pleasant smell of meat.",
+    "source_refs": [
+      "maqayis:row:3738"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qdw:{qotadiho:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qdw-verb-viii",
+      "reason": "A distinct Quran-attested Form VIII verb, normalized from the supplied imperative to the perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:qdw:m~uqotaduwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qdw-active-participle",
+      "reason": "A distinct Quran-attested active participle, normalized from the supplied masculine plural form to its singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qdw-verb-viii",
+      "form_group_ids": [
+        "qac-form:qdw:{qotadiho:verb:VIII"
+      ],
+      "headword_arabic": "اِقْتَدَى",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qdw-verb-viii-s1",
+          "definition": "To follow or imitate an exemplar, model, or established guidance.",
+          "usage_conditions": "The supplied Quran occurrence is an imperative directing the addressee to follow an established model or guidance.",
+          "source_refs": [
+            "lane:entry:20879"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:90",
+          "word_location": "6:90:6",
+          "sense_ids": [
+            "qdw-verb-viii-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qdw-active-participle",
+      "form_group_ids": [
+        "qac-form:qdw:m~uqotaduwn:nominal:-"
+      ],
+      "headword_arabic": "مُقْتَدٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qdw-active-participle-s1",
+          "definition": "One who follows or imitates an exemplar, model, or established practice.",
+          "usage_conditions": "The supplied Quran occurrence is a masculine plural active participle referring to those who follow an established example or practice.",
+          "source_refs": [
+            "lane:entry:20879"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "43:23",
+          "word_location": "43:23:21",
+          "sense_ids": [
+            "qdw-active-participle-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qdw-cm-qidwah",
+      "headword_arabic": "قُدْوَةٌ",
+      "definition": "An exemplar, pattern, or model for imitation; a person or thing taken as an example.",
+      "usage_conditions": "A noun naming the model or object of imitation, distinct from the derived act of following it.",
+      "source_refs": [
+        "lane:entry:20879"
+      ]
+    },
+    {
+      "meaning_id": "qdw-cm-qiyas",
+      "headword_arabic": "قِدَى",
+      "definition": "A measure or standard of correspondence, especially the measure of a spear.",
+      "usage_conditions": "Attested in the expression قِدَى رُمْحٍ, referring to its measure or comparative extent.",
+      "source_refs": [
+        "maqayis:row:3738"
+      ]
+    },
+    {
+      "meaning_id": "qdw-cm-asl",
+      "headword_arabic": "قَدْوٌ",
+      "definition": "An origin or source from which branches develop.",
+      "usage_conditions": "A noun for the original from which derivative branches or offshoots proceed.",
+      "source_refs": [
+        "maqayis:row:3738"
+      ]
+    },
+    {
+      "meaning_id": "qdw-cm-sayr",
+      "headword_arabic": "قَدَا، تَقَدَّى",
+      "definition": "To proceed according to an established course, or to travel in a straight and orderly manner.",
+      "usage_conditions": "A classical usage describing adherence to a settled manner of travel or conduct.",
+      "source_refs": [
+        "maqayis:row:3738"
+      ]
+    },
+    {
+      "meaning_id": "qdw-cm-qadiyah",
+      "headword_arabic": "قَادِيَةٌ",
+      "definition": "The first members of a group to arrive at or come upon someone.",
+      "usage_conditions": "A noun for the initial arrivals from a company of people.",
+      "source_refs": [
+        "lane:entry:20881"
+      ]
+    },
+    {
+      "meaning_id": "qdw-cm-shamm",
+      "headword_arabic": "قَدَا اللَّحْمُ",
+      "definition": "To give off a pleasant smell, said of meat.",
+      "usage_conditions": "An explicitly exceptional lexical branch, marked as separate from the main model-and-following semantic family.",
+      "source_refs": [
+        "maqayis:row:3738"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qdw:20879:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qdw-verb-viii-s1",
+        "qdw-active-participle-s1",
+        "qdw-cm-qidwah"
+      ],
+      "note": "The exemplar and imitation branch supports the two Quranic following senses and is directly represented as قُدْوَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:qdw:20880:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader to فِدْيَهٌ; it supplies no lexical meaning for this root."
+    },
+    {
+      "unit_id": "lane-unit:qdw:20881:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qdw-cm-qadiyah"
+      ],
+      "note": "The first-arrivals meaning is represented as قَادِيَةٌ."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb is attested in the packet as an imperative but is displayed under the normalized perfect citation form اِقْتَدَى; the nominal is normalized from the supplied masculine plural active participle."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Maqayis entry appends قِنْدَأْوٌ, glossed as a strong-backed, short-necked man, but its lexical relation to قَدَوَ is not established clearly enough to assign it as a meaning of this root."
+  ]
+}

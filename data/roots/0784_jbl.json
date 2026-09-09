@@ -1,0 +1,963 @@
+{
+  "root": "jbl",
+  "arabic": "جبل",
+  "root_idea": {
+    "summary": "The root centers on gathering or massing something into elevation: a mountain is an elevated mass, and related words extend this idea to large groups, substantial physical form, innate constitution, and fixedness.",
+    "development": "The concrete sense of an elevated mass develops into meanings of magnitude, a great company, natural formation or disposition, bodily coarseness, and figurative immovability. Derived verbal uses also extend the root to creating someone with a disposition, entering or approaching a mountain, and encountering a hard obstruction.",
+    "source_refs": [
+      "maqayis:row:1074",
+      "mufradat:row:224"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jbl:jabal:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jbl-jabal",
+      "reason": "Displayed under the normalized singular noun جَبَلٌ; the Quranic occurrences include both singular and plural inflections."
+    },
+    {
+      "form_group_id": "qac-form:jbl:jibil~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jbl-jibilla",
+      "reason": "Displayed under the normalized noun جِبِلَّةٌ, which accounts for the two QAC occurrences and their constitution and multitude readings."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "jbl-jabal",
+      "form_group_ids": [
+        "qac-form:jbl:jabal:nominal:-"
+      ],
+      "headword_arabic": "جَبَلٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 39,
+      "senses": [
+        {
+          "sense_id": "jbl-jabal-s1",
+          "definition": "A mountain; a substantial elevated or rocky mass.",
+          "usage_conditions": "Used literally for a mountain or rocky elevation, in both singular and plural forms. Contextual renderings such as “hill” reflect the passage context rather than a separate lexical sense.",
+          "source_refs": [
+            "lane:entry:45912",
+            "mufradat:row:224"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:143",
+          "word_location": "7:143:18",
+          "sense_ids": [
+            "jbl-jabal-s1"
+          ]
+        },
+        {
+          "verse_key": "2:260",
+          "word_location": "2:260:28",
+          "sense_ids": [
+            "jbl-jabal-s1"
+          ]
+        },
+        {
+          "verse_key": "34:10",
+          "word_location": "34:10:6",
+          "sense_ids": [
+            "jbl-jabal-s1"
+          ]
+        },
+        {
+          "verse_key": "101:5",
+          "word_location": "101:5:2",
+          "sense_ids": [
+            "jbl-jabal-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "jbl-jibilla",
+      "form_group_ids": [
+        "qac-form:jbl:jibil~ap:nominal:-"
+      ],
+      "headword_arabic": "جِبِلَّةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "jbl-jibilla-s1",
+          "definition": "Innate constitution, natural disposition, or the created nature in which beings are formed.",
+          "usage_conditions": "In 26:184, the expression refers to the earlier created beings or to beings constituted according to their innate dispositions.",
+          "source_refs": [
+            "lane:entry:45923",
+            "mufradat:row:224"
+          ]
+        },
+        {
+          "sense_id": "jbl-jibilla-s2",
+          "definition": "A great company, multitude, or people.",
+          "usage_conditions": "In 36:62, the form is understood through the related classical readings as a large company or multitude.",
+          "source_refs": [
+            "lane:entry:45921",
+            "mufradat:row:224"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:184",
+          "word_location": "26:184:4",
+          "sense_ids": [
+            "jbl-jibilla-s1"
+          ]
+        },
+        {
+          "verse_key": "36:62",
+          "word_location": "36:62:4",
+          "sense_ids": [
+            "jbl-jibilla-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "jbl-create-dispose",
+      "headword_arabic": "جَبَلَهُ",
+      "definition": "To create or form someone, especially to endow the person with a disposition toward something.",
+      "usage_conditions": "The construction جَبَلَهُ عَلَى كَذَا means to create, adapt, or dispose someone by nature toward a thing.",
+      "source_refs": [
+        "lane:entry:45905"
+      ]
+    },
+    {
+      "meaning_id": "jbl-compel",
+      "headword_arabic": "جَبَلَهُ",
+      "definition": "To compel or constrain someone to do something.",
+      "usage_conditions": "Explained as a figurative extension of being created with a disposition so strong that it operates like compulsion.",
+      "source_refs": [
+        "lane:entry:45905"
+      ]
+    },
+    {
+      "meaning_id": "jbl-become-mountainlike",
+      "headword_arabic": "جَبِلَ",
+      "definition": "To become mountain-like in size, thickness, coarseness, or roughness.",
+      "usage_conditions": "A figurative Form I use describing a person or thing that acquires substantial or rough form.",
+      "source_refs": [
+        "lane:entry:45905"
+      ]
+    },
+    {
+      "meaning_id": "jbl-blunt",
+      "headword_arabic": "جَبِلٌ",
+      "definition": "Blunt or unable to penetrate, especially of iron, a blade, or a tool.",
+      "usage_conditions": "Applied to iron and to the heads or blades of arrows, spears, swords, and axes.",
+      "source_refs": [
+        "lane:entry:45905",
+        "lane:entry:45907",
+        "lane:entry:45914"
+      ]
+    },
+    {
+      "meaning_id": "jbl-settle-mountain",
+      "headword_arabic": "جَابَلَ",
+      "definition": "To descend to, settle in, or sojourn in a mountain.",
+      "usage_conditions": "A Form III verb describing residence or settlement in mountainous terrain.",
+      "source_refs": [
+        "lane:entry:45906"
+      ]
+    },
+    {
+      "meaning_id": "jbl-go-mountain",
+      "headword_arabic": "أَجْبَلَ",
+      "definition": "To come, go, or betake oneself to a mountain.",
+      "usage_conditions": "A Form IV verb of movement toward a mountain.",
+      "source_refs": [
+        "lane:entry:45907"
+      ]
+    },
+    {
+      "meaning_id": "jbl-hard-digging",
+      "headword_arabic": "أَجْبَلَ",
+      "definition": "To reach hard ground or stone while digging.",
+      "usage_conditions": "A figurative Form IV use describing a digger encountering a hard obstruction.",
+      "source_refs": [
+        "lane:entry:45907",
+        "lane:entry:45912"
+      ]
+    },
+    {
+      "meaning_id": "jbl-difficult-diction",
+      "headword_arabic": "أَجْبَلَ",
+      "definition": "To encounter difficulty or blockage in expression, producing no original or fresh diction.",
+      "usage_conditions": "A figurative Form IV use concerning a poet or verbal composition.",
+      "source_refs": [
+        "lane:entry:45907"
+      ]
+    },
+    {
+      "meaning_id": "jbl-fail-attain",
+      "headword_arabic": "أَجْبَلَ",
+      "definition": "To fail to attain a sought or desired thing.",
+      "usage_conditions": "Used of seeking something and falling short of obtaining it.",
+      "source_refs": [
+        "lane:entry:45907"
+      ]
+    },
+    {
+      "meaning_id": "jbl-refuse-withhold",
+      "headword_arabic": "أَجْبَلَ",
+      "definition": "To refuse or withhold something when asked, and not give it.",
+      "usage_conditions": "A figurative Form IV use of refusal or non-compliance.",
+      "source_refs": [
+        "lane:entry:45907"
+      ]
+    },
+    {
+      "meaning_id": "jbl-niggard",
+      "headword_arabic": "أَجْبَلَ",
+      "definition": "To find someone fixed and niggardly, or to describe a niggard.",
+      "usage_conditions": "A figurative use associating fixedness with stinginess.",
+      "source_refs": [
+        "lane:entry:45907",
+        "lane:entry:45912"
+      ]
+    },
+    {
+      "meaning_id": "jbl-enter-mountain",
+      "headword_arabic": "تَجَبَّلَ",
+      "definition": "To enter a mountain or the mountains.",
+      "usage_conditions": "A Form V verb; it may describe a group entering mountainous terrain.",
+      "source_refs": [
+        "lane:entry:45908"
+      ]
+    },
+    {
+      "meaning_id": "jbl-coarse-thick",
+      "headword_arabic": "جَبْلٌ",
+      "definition": "Thick, coarse, rough, or not finely made; by extension, substantial in build or left thick rather than finely pared.",
+      "usage_conditions": "Applied to physical build, bodily make, a hump, an arrow, or an object such as a sword that has not been made thin.",
+      "source_refs": [
+        "lane:entry:45909"
+      ]
+    },
+    {
+      "meaning_id": "jbl-house-court",
+      "headword_arabic": "جَبْلٌ",
+      "definition": "The court or open area of a house.",
+      "usage_conditions": "A nominal use synonymous with سَاحَةٌ.",
+      "source_refs": [
+        "lane:entry:45909"
+      ]
+    },
+    {
+      "meaning_id": "jbl-dry-trees",
+      "headword_arabic": "جُبْلٌ",
+      "definition": "Dry trees.",
+      "usage_conditions": "A separate nominal use reported for the vocalized form جُبْلٌ.",
+      "source_refs": [
+        "lane:entry:45910"
+      ]
+    },
+    {
+      "meaning_id": "jbl-numerous",
+      "headword_arabic": "جِبْلٌ",
+      "definition": "Much or numerous; a large or numerous group, such as a tribe or herd.",
+      "usage_conditions": "The word can describe abundant property or cattle as well as a numerous human group.",
+      "source_refs": [
+        "lane:entry:45911"
+      ]
+    },
+    {
+      "meaning_id": "jbl-rock-stone",
+      "headword_arabic": "جَبَلٌ",
+      "definition": "A rock, stone, or rocky tract, including a hard mass encountered by a digger.",
+      "usage_conditions": "A broader concrete use related to the mountain sense; it can apply to a rocky elevation that is not a full mountain.",
+      "source_refs": [
+        "lane:entry:45912"
+      ]
+    },
+    {
+      "meaning_id": "jbl-immovable",
+      "headword_arabic": "جَبَلٌ",
+      "definition": "An immovable or firmly settled person.",
+      "usage_conditions": "A figurative use of جَبَلٌ for someone who does not move from his place.",
+      "source_refs": [
+        "lane:entry:45912"
+      ]
+    },
+    {
+      "meaning_id": "jbl-chief-scholar",
+      "headword_arabic": "جَبَلٌ",
+      "definition": "The lord, chief, or learned man of a people or company.",
+      "usage_conditions": "A figurative social use of the mountain noun for a person of prominence or authority.",
+      "source_refs": [
+        "lane:entry:45912"
+      ]
+    },
+    {
+      "meaning_id": "jbl-serpent",
+      "headword_arabic": "ابْنَةُ الجَبَلِ",
+      "definition": "A serpent, literally associated with the mountain.",
+      "usage_conditions": "An idiomatic expression based on the serpent's habit of remaining in mountainous places.",
+      "source_refs": [
+        "lane:entry:45912"
+      ]
+    },
+    {
+      "meaning_id": "jbl-calamity",
+      "headword_arabic": "جَبَلٌ",
+      "definition": "A calamity or misfortune.",
+      "usage_conditions": "A figurative use reported as an assumed tropical extension.",
+      "source_refs": [
+        "lane:entry:45912"
+      ]
+    },
+    {
+      "meaning_id": "jbl-bow",
+      "headword_arabic": "جَبَلٌ",
+      "definition": "A bow made from the nabʿ tree.",
+      "usage_conditions": "A figurative designation connected with the tree's association with the mountain.",
+      "source_refs": [
+        "lane:entry:45912"
+      ]
+    },
+    {
+      "meaning_id": "jbl-echo",
+      "headword_arabic": "جَبَلٌ",
+      "definition": "An echo.",
+      "usage_conditions": "A figurative use reported for the noun.",
+      "source_refs": [
+        "lane:entry:45912"
+      ]
+    },
+    {
+      "meaning_id": "jbl-face-skin",
+      "headword_arabic": "جَبْلَةٌ",
+      "definition": "The face, its skin, or the outward-facing part of it.",
+      "usage_conditions": "The word can denote the visible or outward aspect turned toward an observer.",
+      "source_refs": [
+        "lane:entry:45916"
+      ]
+    },
+    {
+      "meaning_id": "jbl-vice-defect",
+      "headword_arabic": "جَبْلَةٌ",
+      "definition": "A vice, fault, defect, or blemish.",
+      "usage_conditions": "A separate nominal use of the vocalized form جَبْلَةٌ.",
+      "source_refs": [
+        "lane:entry:45916"
+      ]
+    },
+    {
+      "meaning_id": "jbl-strength",
+      "headword_arabic": "جَبْلَةٌ",
+      "definition": "Strength.",
+      "usage_conditions": "A nominal use reported independently from the senses of face and constitution.",
+      "source_refs": [
+        "lane:entry:45916"
+      ]
+    },
+    {
+      "meaning_id": "jbl-ground-hardness",
+      "headword_arabic": "جَبْلَةٌ",
+      "definition": "Hardness of the earth or ground.",
+      "usage_conditions": "A nominal use referring specifically to the hardness of soil or terrain.",
+      "source_refs": [
+        "lane:entry:45916"
+      ]
+    },
+    {
+      "meaning_id": "jbl-camel-hump",
+      "headword_arabic": "جُبْلَةٌ",
+      "definition": "A camel's hump.",
+      "usage_conditions": "A nominal use for the raised mass of a camel's back.",
+      "source_refs": [
+        "lane:entry:45917"
+      ]
+    },
+    {
+      "meaning_id": "jbl-origin-stock",
+      "headword_arabic": "جِبْلَةٌ",
+      "definition": "The origin, stock, or underlying formation of a created thing.",
+      "usage_conditions": "A broader Classical use of جِبْلَةٌ for what something is constituted from or derived from.",
+      "source_refs": [
+        "lane:entry:45918"
+      ]
+    },
+    {
+      "meaning_id": "jbl-mountain-composition",
+      "headword_arabic": "جِبْلَةٌ",
+      "definition": "The fundamental nature or composition of a mountain.",
+      "usage_conditions": "A specialized use referring to a mountain's constitution rather than to innate disposition generally.",
+      "source_refs": [
+        "lane:entry:45918"
+      ]
+    },
+    {
+      "meaning_id": "jbl-cloth-weave",
+      "headword_arabic": "جِبْلَةٌ",
+      "definition": "The quality of a garment's thread and weaving.",
+      "usage_conditions": "Used in the expression ثَوْبٌ جَيِّدُ الجِبْلَةِ.",
+      "source_refs": [
+        "lane:entry:45918"
+      ]
+    },
+    {
+      "meaning_id": "jbl-jibla-coarse-man",
+      "headword_arabic": "جِبْلَةٌ",
+      "definition": "A large, thick, coarse, or rough man.",
+      "usage_conditions": "A derived nominal use describing substantial physical build.",
+      "source_refs": [
+        "lane:entry:45918"
+      ]
+    },
+    {
+      "meaning_id": "jbl-mountain-adjective",
+      "headword_arabic": "جَبَلِيٌّ",
+      "definition": "Mountainous; of or relating to a mountain or mountains.",
+      "usage_conditions": "An attributive adjective contrasted with سُهْلِيٌّ, “of the plain.”",
+      "source_refs": [
+        "lane:entry:45924"
+      ]
+    },
+    {
+      "meaning_id": "jbl-natural-adjective",
+      "headword_arabic": "جِبِلِّيٌّ",
+      "definition": "Natural, innate, essential, or resulting from the original constitution.",
+      "usage_conditions": "An attributive adjective for qualities arising from the Creator-ordered natural disposition.",
+      "source_refs": [
+        "lane:entry:45925"
+      ]
+    },
+    {
+      "meaning_id": "jbl-body",
+      "headword_arabic": "جِبَالٌ",
+      "definition": "The body, with or without its bodily members.",
+      "usage_conditions": "A figurative plural use likening bodily mass to a mountain.",
+      "source_refs": [
+        "lane:entry:45926"
+      ]
+    },
+    {
+      "meaning_id": "jbl-camel-ugly-face",
+      "headword_arabic": "جَبِيلٌ",
+      "definition": "A man with a bad or ugly face.",
+      "usage_conditions": "A figurative adjectival use concerning facial appearance.",
+      "source_refs": [
+        "lane:entry:45927"
+      ]
+    },
+    {
+      "meaning_id": "jbl-abundance",
+      "headword_arabic": "جُبُلَّةٌ",
+      "definition": "Much, abundance, a large quantity or number, or—more broadly—anything in substantial amount.",
+      "usage_conditions": "A general quantitative use distinct from the Quranic constitution sense of جِبِلَّةٌ.",
+      "source_refs": [
+        "lane:entry:45922"
+      ]
+    },
+    {
+      "meaning_id": "jbl-large-man",
+      "headword_arabic": "مَجْبُولٌ",
+      "definition": "Large, big, or substantial in physical make.",
+      "usage_conditions": "Applied to a man figuratively as though he were a mountain.",
+      "source_refs": [
+        "lane:entry:45930"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jbl:45905:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-create-dispose"
+      ],
+      "note": "Creation and natural disposition."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45905:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-compel"
+      ],
+      "note": "Compulsion as a derived use."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45905:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-become-mountainlike"
+      ],
+      "note": "Becoming mountain-like in form."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45905:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-blunt"
+      ],
+      "note": "Blunting of iron."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45906:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-settle-mountain"
+      ],
+      "note": "Settling in a mountain."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45907:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-go-mountain"
+      ],
+      "note": "Going to a mountain."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45907:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-hard-digging"
+      ],
+      "note": "Reaching hard ground or stone while digging."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45907:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-difficult-diction"
+      ],
+      "note": "Difficulty and lack of originality in diction."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45907:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-fail-attain"
+      ],
+      "note": "Failing to attain a sought thing."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45907:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-refuse-withhold"
+      ],
+      "note": "Refusing or not giving."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45907:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-blunt"
+      ],
+      "note": "Blunting of iron."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45907:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-niggard"
+      ],
+      "note": "Fixedness associated with niggardliness."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45907:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45908:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-enter-mountain"
+      ],
+      "note": "Entering a mountain."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45909:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-coarse-thick"
+      ],
+      "note": "Thick, coarse, rough, or unthinned."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45909:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-house-court"
+      ],
+      "note": "Court of a house."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45910:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45910:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45910:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-dry-trees"
+      ],
+      "note": "Dry trees."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45911:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-numerous"
+      ],
+      "note": "Much or numerous, including a numerous tribe."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45911:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45912:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-jabal-s1",
+        "jbl-rock-stone"
+      ],
+      "note": "Mountain and the related rock or stone use."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45912:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-immovable"
+      ],
+      "note": "An immovable person."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45912:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-niggard"
+      ],
+      "note": "Niggardly person."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45912:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-chief-scholar"
+      ],
+      "note": "Chief or learned man of a group."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45912:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-serpent"
+      ],
+      "note": "Serpent idiom."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45912:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-calamity"
+      ],
+      "note": "Calamity or misfortune."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45912:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-bow"
+      ],
+      "note": "Bow made from nabʿ wood."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45912:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-echo"
+      ],
+      "note": "Echo."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45913:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45914:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45914:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-blunt"
+      ],
+      "note": "Blunt blade or tool."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45915:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45916:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-face-skin"
+      ],
+      "note": "Face, skin, or outward-facing part."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45916:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-vice-defect"
+      ],
+      "note": "Vice, fault, or blemish."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45916:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-strength"
+      ],
+      "note": "Strength."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45916:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-ground-hardness"
+      ],
+      "note": "Hardness of the ground."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45916:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45916:g5:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45917:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-camel-hump"
+      ],
+      "note": "Camel's hump."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45917:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45917:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45918:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45918:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-origin-stock"
+      ],
+      "note": "Origin or stock of a created thing."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45918:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-mountain-composition"
+      ],
+      "note": "Fundamental composition of a mountain."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45918:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-cloth-weave"
+      ],
+      "note": "Thread and weaving quality."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45918:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-jibla-coarse-man"
+      ],
+      "note": "Large, thick, coarse man."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45918:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45918:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45919:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45920:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45921:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-jibilla-s2"
+      ],
+      "note": "Quran-attested great company or multitude."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45922:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-abundance"
+      ],
+      "note": "Abundance or large quantity."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45922:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45922:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45923:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-jibilla-s1"
+      ],
+      "note": "Quran-attested innate constitution."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45923:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45923:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45924:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-mountain-adjective"
+      ],
+      "note": "Mountain-related adjective."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45925:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-natural-adjective"
+      ],
+      "note": "Natural or innate adjective."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45926:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-body"
+      ],
+      "note": "Body as a mountain-like mass."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45927:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45927:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-camel-ugly-face"
+      ],
+      "note": "Ugly or bad face."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45928:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45929:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:jbl:45930:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jbl-large-man"
+      ],
+      "note": "Large or substantial physical make."
+    }
+  ],
+  "cautions": [
+    "The QAC group for جِبِلَّةٌ includes the occurrence at 36:62, while the lexical evidence records several related classical readings there, including جِبِلٌّ; the multitude sense is therefore presented with an explicit reading/form caution rather than treated as identical to the constitution sense.",
+    "Lane's Quran citation for the multitude sense uses historical citation notation; the modern location used here is supplied independently by QAC."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,115 @@
+{
+  "root": "Asn",
+  "arabic": "أسن",
+  "root_idea": {
+    "summary": "The root primarily denotes alteration or deterioration, especially a change that makes something worse; a separate classical branch concerns means, ropes, and paths.",
+    "development": "The alteration branch is applied to water whose odor, and in broader lexical descriptions sometimes taste or color, has changed. Classical illness and fainting usages are explained through the effects or analogy of foul water, while the separate branch develops from ropes to figurative paths or ways.",
+    "source_refs": [
+      "maqayis:row:93",
+      "mufradat:row:37",
+      "lane:entry:6745",
+      "lane:entry:6747"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Asn:'aAsin:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-Asn-asin",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-Asn-asin",
+      "form_group_ids": [
+        "qac-form:Asn:'aAsin:nominal:-"
+      ],
+      "headword_arabic": "آسِن",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-Asn-asin-s1",
+          "definition": "Of water: altered for the worse, especially in odor, and consequently unpleasant or possibly unfit to drink.",
+          "usage_conditions": "Used of water that has deteriorated after standing. The lexical descriptions chiefly mention a bad change in odor and also report changes in taste or color; depending on the degree of alteration, the water may remain drinkable or become unfit to drink. The Quranic occurrence uses the form in the negated expression “water that is not altered.”",
+          "source_refs": [
+            "lane:entry:6747",
+            "mufradat:row:37"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "47:15",
+          "word_location": "47:15:11",
+          "sense_ids": [
+            "qf-Asn-asin-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical_asn_person_illness",
+      "headword_arabic": "أَسِنَ",
+      "definition": "To be overcome or become ill from the foul odor of a well; in particular, to faint or be overcome by the odor.",
+      "usage_conditions": "A Classical personal use distinct from the description of altered water.",
+      "source_refs": [
+        "maqayis:row:93",
+        "mufradat:row:37"
+      ]
+    },
+    {
+      "meaning_id": "classical_taasana_illness",
+      "headword_arabic": "تَأَسَّنَ",
+      "definition": "To become ill or languid and slow, by analogy with the effect of altered water.",
+      "usage_conditions": "A reported analogical usage; its derivation is treated as disputed in the lexical evidence.",
+      "source_refs": [
+        "maqayis:row:93",
+        "mufradat:row:37"
+      ]
+    },
+    {
+      "meaning_id": "classical_aasaan_ropes_paths",
+      "headword_arabic": "آسَان",
+      "definition": "Ropes; figuratively, paths or ways, as in an idiom for following a father’s ways.",
+      "usage_conditions": "A separate Classical lexical branch from the water-related meaning.",
+      "source_refs": [
+        "maqayis:row:93"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Asn:6745:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-Asn-asin-s1"
+      ],
+      "note": "The verb describes the same deterioration of water represented by the Quranic active participle."
+    },
+    {
+      "unit_id": "lane-unit:Asn:6746:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no independent lexical content."
+    },
+    {
+      "unit_id": "lane-unit:Asn:6747:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-Asn-asin-s1"
+      ],
+      "note": "Defines the water-related adjective and explicitly explains the Quranic expression."
+    }
+  ],
+  "cautions": [
+    "The supplied contextual gloss “polluted” is supporting context only; the lexical evidence centers on water altered for the worse, especially in odor.",
+    "The personal illness/fainting uses and the reported تَأَسَّنَ usage are Classical meanings, not additional Quranic senses of the displayed participle.",
+    "أُسُن, meaning a remainder of grease, is not included because the root analysis treats it as عُسُن with a substituted hamza rather than as a genuine branch of this root."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

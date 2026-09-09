@@ -1,0 +1,476 @@
+{
+  "root": "Ekf",
+  "arabic": "عكف",
+  "root_idea": {
+    "summary": "The root centers on turning toward something and remaining attached to it without turning away, with a related sense of holding or being held back.",
+    "development": "The core sense develops into persistent devotion or attachment, remaining in a place, and detention. Other attested branches extend to approaching, surrounding, arranging elements together, and bending or curling.",
+    "source_refs": [
+      "maqayis:row:3279",
+      "lane:entry:4292",
+      "lane:entry:4301"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Ekf:yaEokufu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Ekf:akafa",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Ekf:EaAkif:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Ekf:akif",
+      "reason": "Displayed as the singular active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:Ekf:maEokuwf:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Ekf:makuf",
+      "reason": "Displayed as the passive-participle citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:Ekf:akafa",
+      "form_group_ids": [
+        "qac-form:Ekf:yaEokufu:verb:I"
+      ],
+      "headword_arabic": "عَكَفَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:Ekf:akafa:devotion",
+          "definition": "To turn devotedly toward something and remain attached to it without turning away; in the Quran, to persist in the worship of idols.",
+          "usage_conditions": "Used with عَلَى for persistent attachment or devotion. The Quranic occurrence describes a group remaining devoted to its idols.",
+          "source_refs": [
+            "lane:entry:4292",
+            "mufradat:row:1001"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:138",
+          "word_location": "7:138:8",
+          "sense_ids": [
+            "qsen:Ekf:akafa:devotion"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:Ekf:akif",
+      "form_group_ids": [
+        "qac-form:Ekf:EaAkif:nominal:-"
+      ],
+      "headword_arabic": "عَاكِف",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "qsen:Ekf:akif:devoted",
+          "definition": "One who remains devotedly attached or intent upon something.",
+          "usage_conditions": "The Quran uses this of persistent devotional attachment, especially attachment to an object of worship; it may occur with عَلَى or as a predicate.",
+          "source_refs": [
+            "lane:entry:4294",
+            "lane:entry:4299",
+            "mufradat:row:1001"
+          ]
+        },
+        {
+          "sense_id": "qsen:Ekf:akif:resident",
+          "definition": "One who remains or resides in a place.",
+          "usage_conditions": "In Quranic usage, this is the place-oriented sense applied to those abiding at the sanctuary; it denotes residence or continued presence rather than necessarily the technical retreat of iʿtikāf.",
+          "source_refs": [
+            "lane:entry:4299",
+            "mufradat:row:1001"
+          ]
+        },
+        {
+          "sense_id": "qsen:Ekf:akif:itikaf",
+          "definition": "One engaged in iʿtikāf: a person remaining in a mosque or place of worship for a prescribed devotional retreat.",
+          "usage_conditions": "This technical religious construction involves seclusion in the mosque and observance of the conditions of the devotional retreat.",
+          "source_refs": [
+            "lane:entry:4297",
+            "mufradat:row:1001"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:25",
+          "word_location": "22:25:14",
+          "sense_ids": [
+            "qsen:Ekf:akif:resident"
+          ]
+        },
+        {
+          "verse_key": "2:187",
+          "word_location": "2:187:51",
+          "sense_ids": [
+            "qsen:Ekf:akif:itikaf"
+          ]
+        },
+        {
+          "verse_key": "20:91",
+          "word_location": "20:91:5",
+          "sense_ids": [
+            "qsen:Ekf:akif:devoted"
+          ]
+        },
+        {
+          "verse_key": "21:52",
+          "word_location": "21:52:11",
+          "sense_ids": [
+            "qsen:Ekf:akif:devoted"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:Ekf:makuf",
+      "form_group_ids": [
+        "qac-form:Ekf:maEokuwf:nominal:-"
+      ],
+      "headword_arabic": "مَعْكُوف",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:Ekf:makuf:detained",
+          "definition": "Prevented from proceeding; detained or held back from reaching its appointed destination.",
+          "usage_conditions": "In the Quran, used of the sacrificial offering prevented from reaching the place where it is to be offered.",
+          "source_refs": [
+            "lane:entry:4301",
+            "mufradat:row:1001"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "48:25",
+          "word_location": "48:25:9",
+          "sense_ids": [
+            "qsen:Ekf:makuf:detained"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Ekf:approach",
+      "headword_arabic": "عَكَفَ",
+      "definition": "To approach or advance toward someone, or keep close to him.",
+      "usage_conditions": "Attested in a construction describing movement or approach toward a leader.",
+      "source_refs": [
+        "lane:entry:4292"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:surround",
+      "headword_arabic": "عَكَفَ",
+      "definition": "To go around or circle something; to gather around it.",
+      "usage_conditions": "The lexicon applies this to going around an object or gathering around a slain person, and figuratively to elements running around among strung beads.",
+      "source_refs": [
+        "lane:entry:4292"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:behind",
+      "headword_arabic": "عَكَفَ",
+      "definition": "To go back or remain behind.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:4292"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:causative-detain",
+      "headword_arabic": "عَكَفَ",
+      "definition": "To make still or motionless; to detain, withhold, debar, or turn someone or something away from an intended object.",
+      "usage_conditions": "This is the transitive causative use, including withholding someone from the object of a need.",
+      "source_refs": [
+        "lane:entry:4292"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:tend",
+      "headword_arabic": "عَكَفَ",
+      "definition": "To tend or pasture.",
+      "usage_conditions": "An additionally attested verbal use.",
+      "source_refs": [
+        "lane:entry:4292"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:repair",
+      "headword_arabic": "عَكَفَ",
+      "definition": "To put something into a sound, right, or proper state.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:4292"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:arrange",
+      "headword_arabic": "عَكَّفَ",
+      "definition": "To keep components together or arrange them in an ordered formation.",
+      "usage_conditions": "Attested of the elements of a necklace and of gems arranged among strung beads.",
+      "source_refs": [
+        "lane:entry:4293"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:hair-curl",
+      "headword_arabic": "عَكَّفَ",
+      "definition": "To curl, twist, contract, or gather hair into plaits.",
+      "usage_conditions": "A derived-form use describing hair made to cleave together or arranged in plaits.",
+      "source_refs": [
+        "lane:entry:4293"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:self-confine",
+      "headword_arabic": "تَعَكَّفَ",
+      "definition": "To confine, restrain, withhold, or debar oneself.",
+      "usage_conditions": "A general reflexive use of self-restraint, distinct from the specifically religious retreat of iʿtikāf.",
+      "source_refs": [
+        "lane:entry:4295"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:curly-hair",
+      "headword_arabic": "عَكِف",
+      "definition": "Crisp, curly, twisted, or contracted hair.",
+      "usage_conditions": "An adjectival description of the condition or texture of hair.",
+      "source_refs": [
+        "lane:entry:4298"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:bent",
+      "headword_arabic": "مُعَكَّف",
+      "definition": "Bent, crooked, contorted, or distorted.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:4300"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:plaited-hair",
+      "headword_arabic": "مَعْكُوف",
+      "definition": "Hair that has been combed and plaited.",
+      "usage_conditions": "A nominal passive-participle use distinct from the Quranic sense of being detained.",
+      "source_refs": [
+        "lane:entry:4301"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ekf:itikaf-place",
+      "headword_arabic": "مُعْتَكَف",
+      "definition": "A place designated for iʿtikāf or devotional seclusion.",
+      "usage_conditions": "The noun denotes the place in which a person performs iʿtikāf, such as a mosque or comparable place of worship.",
+      "source_refs": [
+        "lane:entry:4302"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Ekf:4292:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Ekf:akafa:devotion"
+      ],
+      "note": "Persistent attachment and devotion, including the Quranic idol-worship use."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4292:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsen:Ekf:akif:resident"
+      ],
+      "note": "Keeping or cleaving to a place is covered by the place-residence sense."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4292:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:approach"
+      ],
+      "note": "Approaching or advancing toward a leader."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4292:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:surround"
+      ],
+      "note": "Going around or gathering around an object."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4292:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:behind"
+      ],
+      "note": "Going back or remaining behind."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4292:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:causative-detain"
+      ],
+      "note": "Making still and detaining or turning away."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4292:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4292:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:tend"
+      ],
+      "note": "Tending or pasturing."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4292:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:repair"
+      ],
+      "note": "Putting into a proper state."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4293:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4293:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:arrange"
+      ],
+      "note": "Keeping necklace elements from scattering."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4293:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:arrange"
+      ],
+      "note": "Arranging gems in regular order."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4293:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:hair-curl"
+      ],
+      "note": "Curling, contracting, or plaiting hair."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4294:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsen:Ekf:akif:devoted"
+      ],
+      "note": "Continual attachment is covered by the Quranic devoted-attachment sense."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4295:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:self-confine"
+      ],
+      "note": "Self-confinement or self-restraint."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4296:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4297:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4297:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Ekf:akif:itikaf"
+      ],
+      "note": "Technical devotional seclusion in a mosque or place of worship."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4298:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:curly-hair"
+      ],
+      "note": "Description of crisp, curly, or contracted hair."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4299:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Ekf:akif:devoted",
+        "qsen:Ekf:akif:resident"
+      ],
+      "note": "The unit states both persistent attachment to a thing and remaining or dwelling in a place."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4300:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:bent"
+      ],
+      "note": "Bent, crooked, or distorted."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4301:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Ekf:makuf:detained"
+      ],
+      "note": "Detained or withheld, explicitly including the Quranic use."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4301:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:plaited-hair"
+      ],
+      "note": "Combed and plaited hair."
+    },
+    {
+      "unit_id": "lane-unit:Ekf:4302:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ekf:itikaf-place"
+      ],
+      "note": "Place of iʿtikāf."
+    }
+  ],
+  "cautions": [
+    "Lane's historical Quran citation notation is not converted into modern verse locations; the displayed Quran examples use only independently supplied QAC locations.",
+    "Classical evidence records vocalic variants of the Form I verb, while the public headword is normalized to the dictionary citation form عَكَفَ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

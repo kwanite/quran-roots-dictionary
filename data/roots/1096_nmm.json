@@ -1,0 +1,215 @@
+{
+  "root": "nmm",
+  "arabic": "نمم",
+  "root_idea": {
+    "summary": "The root presents two principal orientations: making something apparent or bringing it out, especially by revealing speech, and forming close-set or variegated marks.",
+    "development": "In the speech branch, something concealed is made known through conveyed talk, developing into malicious tale-bearing and calumny. Related evidence also connects the root with whispering or slight movement, detectable signs, and patterned lines or surfaces.",
+    "source_refs": [
+      "maqayis:row:4753",
+      "mufradat:row:1489"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nmm:namiym:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf_nmm_namim",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf_nmm_namim",
+      "form_group_ids": [
+        "qac-form:nmm:namiym:nominal:-"
+      ],
+      "headword_arabic": "نَمِيم",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf_nmm_namim_s1",
+          "definition": "Malicious gossip, tale-bearing, or slanderous speech.",
+          "usage_conditions": "In the Quranic expression بِـنَمِيمٍ, the noun denotes talk conveyed maliciously, with the associated purpose or effect of misrepresentation and discord. Classical evidence also connects نَمِيم with نَمِيمَة and reports that it may be a plural form.",
+          "source_refs": [
+            "mufradat:row:1489",
+            "lane:entry:32413",
+            "lane:entry:32415"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "68:11",
+          "word_location": "68:11:3",
+          "sense_ids": [
+            "qf_nmm_namim_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl_namm_verb",
+      "headword_arabic": "نَمَّ",
+      "definition": "To divulge or convey speech maliciously so as to cause discord; to calumniate, misrepresent, or embellish speech with falsehood.",
+      "usage_conditions": "The verb is used with بِهِ or عَلَيْهِ when speaking maliciously about someone, and may also take conversation as its object.",
+      "source_refs": [
+        "lane:entry:32413"
+      ]
+    },
+    {
+      "meaning_id": "cl_namima_bowstring_sound",
+      "headword_arabic": "نَمِيمَة",
+      "definition": "The sound of a bowstring.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:32415"
+      ]
+    },
+    {
+      "meaning_id": "cl_namnama_verb",
+      "headword_arabic": "نَمْنَمَ",
+      "definition": "To variegate, decorate, or embellish a thing with differing or figured marks.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:32414"
+      ]
+    },
+    {
+      "meaning_id": "cl_namnama_close_lines",
+      "headword_arabic": "نَمْنَمَة",
+      "definition": "Closely spaced lines or fine linear ornamentation.",
+      "usage_conditions": "The term is associated with writing in which the lines are brought close together.",
+      "source_refs": [
+        "mufradat:row:1489"
+      ]
+    },
+    {
+      "meaning_id": "cl_namanim_skull_sutures",
+      "headword_arabic": "نَمَانِم",
+      "definition": "The sutures of the skull.",
+      "usage_conditions": "The lines of the sutures are understood as resembling lines of writing.",
+      "source_refs": [
+        "lane:entry:32416"
+      ]
+    },
+    {
+      "meaning_id": "cl_nammam_wild_thyme",
+      "headword_arabic": "نَمَّام",
+      "definition": "Wild thyme, Thymus serpyllum.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:32417"
+      ]
+    },
+    {
+      "meaning_id": "cl_namma_head_artery",
+      "headword_arabic": "نَامَّة",
+      "definition": "An artery in the head.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:32418"
+      ]
+    },
+    {
+      "meaning_id": "cl_munamnam_figured_cloth",
+      "headword_arabic": "مُنَمْنَم",
+      "definition": "A garment or piece of cloth figured with marks resembling writing or other designs.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:32419"
+      ]
+    },
+    {
+      "meaning_id": "cl_numnum_nail_whiteness",
+      "headword_arabic": "نُمْنُم",
+      "definition": "The whiteness appearing on the fingernails.",
+      "usage_conditions": "The corresponding singular form is reported as نُمْنُمَة.",
+      "source_refs": [
+        "maqayis:row:4753"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nmm:32413:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf_nmm_namim_s1",
+        "cl_namm_verb"
+      ],
+      "note": "Covers the malicious speech branch, its noun relation, and the verb's calumniating and divulging uses."
+    },
+    {
+      "unit_id": "lane-unit:nmm:32413:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cl_namm_verb"
+      ],
+      "note": "Further specifies the same malicious divulging of conversation."
+    },
+    {
+      "unit_id": "lane-unit:nmm:32414:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl_namnama_verb"
+      ],
+      "note": "Variegating and decorating use."
+    },
+    {
+      "unit_id": "lane-unit:nmm:32415:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl_namima_bowstring_sound"
+      ],
+      "note": "Sound of a bowstring."
+    },
+    {
+      "unit_id": "lane-unit:nmm:32415:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf_nmm_namim_s1"
+      ],
+      "note": "Malicious misrepresentation and calumny branch."
+    },
+    {
+      "unit_id": "lane-unit:nmm:32416:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl_namanim_skull_sutures"
+      ],
+      "note": "Sutures of the skull."
+    },
+    {
+      "unit_id": "lane-unit:nmm:32417:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl_nammam_wild_thyme"
+      ],
+      "note": "Plant name for wild thyme."
+    },
+    {
+      "unit_id": "lane-unit:nmm:32418:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl_namma_head_artery"
+      ],
+      "note": "Artery in the head."
+    },
+    {
+      "unit_id": "lane-unit:nmm:32419:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl_munamnam_figured_cloth"
+      ],
+      "note": "Figured or marked cloth."
+    }
+  ],
+  "cautions": [
+    "The Quranic headword نَمِيم is retained as a neutral noun citation form. Classical evidence connects it with نَمِيمَة and reports that it may be a plural of that form, but the packet does not settle the exact number or citation-form relationship."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

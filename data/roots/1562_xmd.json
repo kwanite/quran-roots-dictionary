@@ -1,0 +1,196 @@
+{
+  "root": "xmd",
+  "arabic": "خمد",
+  "root_idea": {
+    "summary": "A root orientation toward the subsiding of movement, heat, or flame and the resulting fall into stillness.",
+    "development": "The basic image is a fire whose blaze quiets or goes out, with related developments for the abatement of fever, fainting or death, and silence or motionlessness. The causative Form IV expresses causing a blaze to subside or be extinguished.",
+    "source_refs": [
+      "maqayis:row:1642",
+      "lane:entry:20025",
+      "lane:entry:20026",
+      "lane:entry:20028"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:xmd:xa`midiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_xmd_khamid",
+      "reason": "Displayed under the normalized singular active-participle citation form خَامِد rather than the Quranic plural morphology lemma."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_xmd_khamid",
+      "form_group_ids": [
+        "qac-form:xmd:xa`midiyn:nominal:-"
+      ],
+      "headword_arabic": "خَامِد",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform_xmd_khamid_s1",
+          "definition": "Dead and lifeless, silent as though a flame had gone out; extinguished in the sense of having lost vitality.",
+          "usage_conditions": "In the Quranic plural forms خَامِدِينَ and خَامِدُونَ, applied to people; the expression figuratively transfers the extinction of a fire's blaze to death and lifelessness.",
+          "source_refs": [
+            "lane:entry:20028",
+            "mufradat:row:434"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:15",
+          "word_location": "21:15:8",
+          "sense_ids": [
+            "qform_xmd_khamid_s1"
+          ]
+        },
+        {
+          "verse_key": "36:29",
+          "word_location": "36:29:8",
+          "sense_ids": [
+            "qform_xmd_khamid_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_xmd_fire_subside",
+      "headword_arabic": "خَمَدَ",
+      "definition": "Of a fire: to subside, its flame or blaze ceasing while its embers remain; also to die away and become completely extinguished.",
+      "usage_conditions": "An intransitive Form I usage describing the state or cessation of a fire's blaze.",
+      "source_refs": [
+        "lane:entry:20025"
+      ]
+    },
+    {
+      "meaning_id": "cm_xmd_fever_abate",
+      "headword_arabic": "خَمَدَ",
+      "definition": "Of a fever: to abate, especially in its heat or vehemence.",
+      "usage_conditions": "A transferred Form I usage applied to fever or its intensity.",
+      "source_refs": [
+        "lane:entry:20025",
+        "mufradat:row:434"
+      ]
+    },
+    {
+      "meaning_id": "cm_xmd_person_faint_die",
+      "headword_arabic": "خَمَدَ",
+      "definition": "Of a person: to faint or swoon; also, to die.",
+      "usage_conditions": "A Form I usage describing loss of consciousness or life.",
+      "source_refs": [
+        "lane:entry:20025"
+      ]
+    },
+    {
+      "meaning_id": "cm_akhmada_fire",
+      "headword_arabic": "أَخْمَدَ",
+      "definition": "To cause a fire's flame or blaze to subside, leaving its embers unextinguished, or to extinguish the fire completely.",
+      "usage_conditions": "A transitive Form IV causative; the subject may be a person or the wind.",
+      "source_refs": [
+        "lane:entry:20026"
+      ]
+    },
+    {
+      "meaning_id": "cm_akhmada_still",
+      "headword_arabic": "أَخْمَدَ",
+      "definition": "To be or become still, motionless, and silent.",
+      "usage_conditions": "A figurative Form IV usage.",
+      "source_refs": [
+        "lane:entry:20026"
+      ]
+    },
+    {
+      "meaning_id": "cm_xamud_fire_place",
+      "headword_arabic": "خَمُّود",
+      "definition": "A place where fire is buried so that its blaze ceases, while its embers remain unextinguished.",
+      "usage_conditions": "A specialized noun for a fire-burying place.",
+      "source_refs": [
+        "lane:entry:20027"
+      ]
+    },
+    {
+      "meaning_id": "cm_xamid_silent_still",
+      "headword_arabic": "خَامِد",
+      "definition": "Silent, with no voice heard; still or motionless; figuratively, composed and submitting oneself to an affair or event.",
+      "usage_conditions": "A broader Classical active-participle usage, distinct from the Quranic application meaning dead or lifeless.",
+      "source_refs": [
+        "lane:entry:20028"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:xmd:20025:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_xmd_fire_subside"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xmd:20025:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_xmd_fever_abate"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xmd:20025:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_xmd_person_faint_die"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xmd:20026:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_akhmada_fire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xmd:20026:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_akhmada_still"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xmd:20027:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_xamud_fire_place"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xmd:20028:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_xmd_khamid_s1",
+        "cm_xamid_silent_still"
+      ],
+      "note": "The unit contains both the broader silent/still usage and its Quranic dead-and-silent application."
+    },
+    {
+      "unit_id": "lane-unit:xmd:20029:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding entry."
+    }
+  ],
+  "cautions": [
+    "Lane's printed citation to the Yā-Sīn usage uses historical verse numbering; the modern example 36:29 follows the independently supplied QAC location."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,827 @@
+{
+  "root": "vmn",
+  "arabic": "ثمن",
+  "root_idea": {
+    "summary": "The root has two established semantic branches: compensation or exchange for something sold, and a part or portion belonging to eight.",
+    "development": "The exchange branch yields price, compensation, value, and pricing terminology; the numerical branch yields the eighth, one-eighth, eight, eighty, ordinal forms, and several eight-based conventional expressions.",
+    "source_refs": [
+      "maqayis:row:1049"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:vmn:vaAmin:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_vmn_thamin",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:vmn:vama`niY:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_vmn_thamaniya",
+      "reason": "This is the construct or inflected form of the cardinal numeral eight."
+    },
+    {
+      "form_group_id": "qac-form:vmn:vama`niyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_vmn_thamaniya",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:vmn:vama`niyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_vmn_thamanun",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:vmn:vaman:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_vmn_thaman",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:vmn:v~umun:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_vmn_thumn",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:vmn:vama`niyap:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_vmn_thamaniya",
+      "reason": "The distinct QAC tag represents the same cardinal numeral in the occurrence at 69:7."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_vmn_thamin",
+      "form_group_ids": [
+        "qac-form:vmn:vaAmin:nominal:-"
+      ],
+      "headword_arabic": "ثَامِنٌ",
+      "public_pos_label": "Ordinal numeral",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_vmn_thamin_eighth",
+          "definition": "Eighth in sequence; the eighth member of a counted group.",
+          "usage_conditions": "Used as an ordinal, including in a construction identifying the eighth member of a group.",
+          "source_refs": [
+            "lane:entry:27568",
+            "mufradat:row:211"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:22",
+          "word_location": "18:22:13",
+          "sense_ids": [
+            "s_vmn_thamin_eighth"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_vmn_thamaniya",
+      "form_group_ids": [
+        "qac-form:vmn:vama`niY:nominal:-",
+        "qac-form:vmn:vama`niyap:nominal:-",
+        "qac-form:vmn:vama`niyap:other:-"
+      ],
+      "headword_arabic": "ثَمَانِيَةٌ",
+      "public_pos_label": "Numeral · cardinal",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "s_vmn_thamaniya_eight",
+          "definition": "The cardinal number eight.",
+          "usage_conditions": "Its form varies with gender, case, and construct or compound-number syntax; the Quranic occurrences express eight in these grammatical environments.",
+          "source_refs": [
+            "lane:entry:27565",
+            "mufradat:row:211"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:6",
+          "word_location": "39:6:13",
+          "sense_ids": [
+            "s_vmn_thamaniya_eight"
+          ]
+        },
+        {
+          "verse_key": "28:27",
+          "word_location": "28:27:12",
+          "sense_ids": [
+            "s_vmn_thamaniya_eight"
+          ]
+        },
+        {
+          "verse_key": "69:7",
+          "word_location": "69:7:5",
+          "sense_ids": [
+            "s_vmn_thamaniya_eight"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_vmn_thamanun",
+      "form_group_ids": [
+        "qac-form:vmn:vama`niyn:nominal:-"
+      ],
+      "headword_arabic": "ثَمَانُونَ",
+      "public_pos_label": "Numeral · cardinal",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_vmn_thamanun_eighty",
+          "definition": "The cardinal number eighty.",
+          "usage_conditions": "Used as the ordinary cardinal numeral in the Quranic occurrence.",
+          "source_refs": [
+            "lane:entry:27566"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:4",
+          "word_location": "24:4:10",
+          "sense_ids": [
+            "s_vmn_thamanun_eighty"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_vmn_thaman",
+      "form_group_ids": [
+        "qac-form:vmn:vaman:nominal:-"
+      ],
+      "headword_arabic": "ثَمَنٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "s_vmn_thaman_price",
+          "definition": "The price or consideration received in exchange for something sold, whether money or a commodity.",
+          "usage_conditions": "In ordinary exchange, it is what the seller receives for the thing sold; Quranic usage includes the consideration associated with buying or selling.",
+          "source_refs": [
+            "lane:entry:27561",
+            "mufradat:row:211"
+          ]
+        },
+        {
+          "sense_id": "s_vmn_thaman_substitute",
+          "definition": "A substitute or compensation accepted in exchange, including a figurative price or gain.",
+          "usage_conditions": "In Quranic figurative constructions, the price need not be money: divine signs or covenantal obligations may be exchanged for a small worldly substitute or benefit.",
+          "source_refs": [
+            "lane:entry:27561",
+            "mufradat:row:211"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:20",
+          "word_location": "12:20:2",
+          "sense_ids": [
+            "s_vmn_thaman_price"
+          ]
+        },
+        {
+          "verse_key": "2:174",
+          "word_location": "2:174:11",
+          "sense_ids": [
+            "s_vmn_thaman_substitute"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_vmn_thumn",
+      "form_group_ids": [
+        "qac-form:vmn:v~umun:nominal:-"
+      ],
+      "headword_arabic": "ثُمُنٌ",
+      "public_pos_label": "Fractional noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_vmn_thumn_oneeighth",
+          "definition": "One eighth; an eighth share or portion.",
+          "usage_conditions": "In the Quranic inheritance construction, it denotes the fixed one-eighth share.",
+          "source_refs": [
+            "lane:entry:27562",
+            "mufradat:row:211"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:12",
+          "word_location": "4:12:40",
+          "sense_ids": [
+            "s_vmn_thumn_oneeighth"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_vmn_thamana_take_eighth",
+      "headword_arabic": "ثَمَنَ",
+      "definition": "To take one eighth of someone's goods or property.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27556"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thamana_be_eighth",
+      "headword_arabic": "ثَمَنَ",
+      "definition": "To be or become the eighth of a group, or to make a group eight including oneself.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27556"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thamuna_precious",
+      "headword_arabic": "ثَمُنَ",
+      "definition": "To be or become precious, costly, or high-priced; to have value.",
+      "usage_conditions": "Said of a commodity.",
+      "source_refs": [
+        "lane:entry:27556"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thammana_make_eight",
+      "headword_arabic": "ثَمَّنَ",
+      "definition": "To make something eight or designate it as eight.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27557"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thammana_octagonal",
+      "headword_arabic": "ثَمَّنَ",
+      "definition": "To make something octagonal.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27557"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thammana_eight_nights",
+      "headword_arabic": "ثَمَّنَ",
+      "definition": "To remain eight nights with one's wife; by extension, to continue for eight in relation to an action or saying.",
+      "usage_conditions": "This is a conventional time-related use of the derived verb.",
+      "source_refs": [
+        "lane:entry:27557"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thammana_collect",
+      "headword_arabic": "ثَمَّنَ",
+      "definition": "To collect or bring something together.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27557"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thammana_set_price",
+      "headword_arabic": "ثَمَّنَ",
+      "definition": "To state, assign, or name a price for a commodity.",
+      "usage_conditions": "May involve estimating or fixing the commodity's price.",
+      "source_refs": [
+        "lane:entry:27557"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_athmana_be_eight",
+      "headword_arabic": "أَثْمَنَ",
+      "definition": "For a party to become eight or eighty.",
+      "usage_conditions": "Said of a group or party of people.",
+      "source_refs": [
+        "lane:entry:27558"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_athmana_eighth_offspring",
+      "headword_arabic": "أَثْمَنَ",
+      "definition": "For a female to bring forth her eighth offspring.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27558"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_athmana_camel_cycle",
+      "headword_arabic": "أَثْمَنَ",
+      "definition": "For a man to be one whose camels come to water on the eighth night of the watering cycle.",
+      "usage_conditions": "A technical pastoral use referring to the interval between successive waterings.",
+      "source_refs": [
+        "lane:entry:27558"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_athmana_sell_price",
+      "headword_arabic": "أَثْمَنَ",
+      "definition": "To sell something for a price.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27558"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_athmana_assign_price",
+      "headword_arabic": "أَثْمَنَ",
+      "definition": "To give someone the price of a commodity, or to quote and assign that price.",
+      "usage_conditions": "Used with a person and the commodity or merchandise whose price is given or fixed.",
+      "source_refs": [
+        "lane:entry:27558"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thimn_offspring",
+      "headword_arabic": "ثِمْنٌ",
+      "definition": "The eighth young one or offspring.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27560"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thimn_camel_period",
+      "headword_arabic": "ثِمْنٌ",
+      "definition": "A period between two waterings of camels, especially the eighth night of that interval.",
+      "usage_conditions": "A technical term in camel-watering schedules.",
+      "source_refs": [
+        "lane:entry:27560"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thaman_value",
+      "headword_arabic": "ثَمَنٌ",
+      "definition": "The value or worth of a thing, including an estimated value fixed by mutual agreement.",
+      "usage_conditions": "This broader valuation sense may diverge from the thing's actual equivalent value and is distinct from the Quran-attested exchange and figurative-compensation uses listed above.",
+      "source_refs": [
+        "lane:entry:27561"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thamani_plant",
+      "headword_arabic": "الثَّمَانِي",
+      "definition": "A certain plant.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27565"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thamanun_deep",
+      "headword_arabic": "ثَمَانُونَ",
+      "definition": "Deep, used as an epithet.",
+      "usage_conditions": "An extended use of the number in expressions measuring depth, distinct from the ordinary cardinal meaning.",
+      "source_refs": [
+        "lane:entry:27566"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thamanun_eightieth",
+      "headword_arabic": "ثَمَانُونَ",
+      "definition": "Eightieth.",
+      "usage_conditions": "An ordinal use of the form.",
+      "source_refs": [
+        "lane:entry:27566"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thamin_high_value",
+      "headword_arabic": "ثَمِينٌ",
+      "definition": "High-priced or of high value.",
+      "usage_conditions": "This sense is reported in the lexical evidence but is disputed by an authority who restricts the form to the meaning connected with one eighth.",
+      "source_refs": [
+        "lane:entry:27564"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_thawamin_camels",
+      "headword_arabic": "ثَوَامِنُ",
+      "definition": "Camels that come to water on the eighth night after the preceding watering.",
+      "usage_conditions": "A technical plural expression derived from the eighth-night sense.",
+      "source_refs": [
+        "lane:entry:27568"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_athman_more_value",
+      "headword_arabic": "أَثْمَنُ",
+      "definition": "More or most valuable in price or worth.",
+      "usage_conditions": "A comparative or superlative adjective.",
+      "source_refs": [
+        "lane:entry:27569"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_muthman_sold_price",
+      "headword_arabic": "مُثْمَنٌ",
+      "definition": "Sold for a price, or having a price named and assigned to it.",
+      "usage_conditions": "A passive participial description of a commodity.",
+      "source_refs": [
+        "lane:entry:27570"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_mithmana_nosebag",
+      "headword_arabic": "مِثْمَنَةٌ",
+      "definition": "A nosebag or similar feed-bag.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27572"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_muthamman_octagonal",
+      "headword_arabic": "مُثَمَّنٌ",
+      "definition": "Octagonal.",
+      "usage_conditions": "A passive participial or adjectival description of an eight-sided object.",
+      "source_refs": [
+        "lane:entry:27573"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_muthamman_eight_feet",
+      "headword_arabic": "مُثَمَّنٌ",
+      "definition": "A verse composed of eight metrical feet.",
+      "usage_conditions": "A technical prosodic use.",
+      "source_refs": [
+        "lane:entry:27573"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_muthamman_collected",
+      "headword_arabic": "مُثَمَّنٌ",
+      "definition": "Collected together.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:27573"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_muthamman_poisoned",
+      "headword_arabic": "مُثَمَّنٌ",
+      "definition": "Poisoned.",
+      "usage_conditions": "Synonymous with مَسْمُومٌ in the cited usage.",
+      "source_refs": [
+        "lane:entry:27573"
+      ]
+    },
+    {
+      "meaning_id": "cm_vmn_muthamman_fevered",
+      "headword_arabic": "مُثَمَّنٌ",
+      "definition": "Fevered.",
+      "usage_conditions": "Synonymous with مَحْمُومٌ in the cited usage.",
+      "source_refs": [
+        "lane:entry:27573"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:vmn:27556:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thamana_take_eighth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27556:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thamana_be_eighth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27556:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thamuna_precious"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27557:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thammana_make_eight"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27557:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thammana_octagonal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27557:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thammana_eight_nights"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27557:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thammana_collect"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27557:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thammana_set_price"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27558:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_athmana_be_eight"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27558:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_athmana_eighth_offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27558:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_athmana_camel_cycle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27558:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I entry; it adds no independently stated lexical content."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27558:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_athmana_sell_price"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27558:g3:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27558:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_athmana_assign_price"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27559:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to ثُمُنٌ."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27560:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thimn_offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27560:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thimn_camel_period"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27561:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_vmn_thaman_price",
+        "s_vmn_thaman_substitute",
+        "cm_vmn_thaman_value"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27562:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_vmn_thumn_oneeighth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27563:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to ثَمَانِيَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27564:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to ثُمُنٌ."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27564:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thamin_high_value"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27565:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_vmn_thamaniya_eight"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27565:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Compound-number inflection and syntax."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27565:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive and orthographic morphology."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27565:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thamani_plant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27566:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_vmn_thamanun_eighty",
+        "cm_vmn_thamanun_deep"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27566:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thamanun_eightieth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27567:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the number entry."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27568:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_vmn_thamin_eighth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27568:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Compound ordinal-number syntax."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27568:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_thawamin_camels"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27569:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_athman_more_value"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27570:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_muthman_sold_price"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27571:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to ثَمِينٌ."
+    },
+    {
+      "unit_id": "lane-unit:vmn:27572:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_mithmana_nosebag"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27573:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_muthamman_octagonal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27573:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_muthamman_eight_feet"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27573:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_muthamman_collected"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27573:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_muthamman_poisoned"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:vmn:27573:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_vmn_muthamman_fevered"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The root contains distinct price/exchange and eight-based numerical branches, including homophonous forms for price, one eighth, and ordinal or cardinal numbers.",
+    "The high-value meaning reported for ثَمِينٌ is explicitly disputed in the cited lexical evidence; it is retained as a qualified Classical usage rather than treated as a Quranic sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

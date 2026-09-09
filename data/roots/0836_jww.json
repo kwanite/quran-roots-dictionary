@@ -1,0 +1,160 @@
+{
+  "root": "jww",
+  "arabic": "جوو",
+  "root_idea": {
+    "summary": "A containing or encompassing space understood by what surrounds something from its sides.",
+    "development": "The root's spatial principle is applied to the air or region above the earth, the interior of a house or other thing, and hollow or depressed expanses of ground; related Classical uses extend to inwardness and secrecy.",
+    "source_refs": [
+      "maqayis:row:1250",
+      "mufradat:row:277",
+      "lane:entry:47674"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jww:jaw~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jww-jaww",
+      "reason": "Quran-attested noun with a normalized citation headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "jww-jaww",
+      "form_group_ids": [
+        "qac-form:jww:jaw~:nominal:-"
+      ],
+      "headword_arabic": "جَوّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jww-jaww-s1",
+          "definition": "The air or atmospheric region between the sky and the earth; the midst of the sky.",
+          "usage_conditions": "In the Quranic construction فِي جَوِّ السَّمَاءِ, it denotes the air or middle region of the sky in which the birds are held.",
+          "source_refs": [
+            "lane:entry:47674",
+            "mufradat:row:277"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:79",
+          "word_location": "16:79:7",
+          "sense_ids": [
+            "jww-jaww-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "jww-cm-ground-valley",
+      "headword_arabic": "جَوّ",
+      "definition": "A low, hollow, or depressed part of the ground; also a broad part of a valley, including such an expanse when containing water.",
+      "usage_conditions": "A Classical spatial noun for a hollow or open area of land or valley.",
+      "source_refs": [
+        "lane:entry:47674"
+      ]
+    },
+    {
+      "meaning_id": "jww-cm-desolate-place",
+      "headword_arabic": "جَوّ",
+      "definition": "A vacant, void, or desolate place lacking the enlivening company of others.",
+      "usage_conditions": "A use describing an uninhabited or cheerless place.",
+      "source_refs": [
+        "lane:entry:47674"
+      ]
+    },
+    {
+      "meaning_id": "jww-cm-interior",
+      "headword_arabic": "جَوّ",
+      "definition": "The inside or interior of a house, tent, or other thing.",
+      "usage_conditions": "Used for an object's inner space, including the interior of a structure or other enclosed thing.",
+      "source_refs": [
+        "lane:entry:47674"
+      ]
+    },
+    {
+      "meaning_id": "jww-cm-jawwah-secrecy",
+      "headword_arabic": "جَوَّة",
+      "definition": "In a conventional expression, concealment or secrecy, opposed to publicity.",
+      "usage_conditions": "Used in the reported contrast between desiring concealment and desiring public exposure.",
+      "source_refs": [
+        "lane:entry:47674"
+      ]
+    },
+    {
+      "meaning_id": "jww-cm-jawwani",
+      "headword_arabic": "جَوَّانِيّ",
+      "definition": "Inner, inward, or interior; secret or private, opposed to external or public.",
+      "usage_conditions": "A relational adjective associated with جَوّ and used for inwardness, interiority, secrecy, or privacy.",
+      "source_refs": [
+        "lane:entry:47676"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jww:47674:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jww-jaww-s1"
+      ],
+      "note": "The atmospheric or sky-region meaning is Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:jww:47674:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jww-cm-ground-valley"
+      ],
+      "note": "Low ground, broad valley, and water-filled hollow usage are covered."
+    },
+    {
+      "unit_id": "lane-unit:jww:47674:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jww-cm-desolate-place"
+      ],
+      "note": "The vacant or desolate-place meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:jww:47674:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jww-cm-interior"
+      ],
+      "note": "The interior or inside meaning is covered."
+    },
+    {
+      "unit_id": "lane-unit:jww:47674:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jww-cm-jawwah-secrecy"
+      ],
+      "note": "The conventional secrecy-versus-publicity expression is covered."
+    },
+    {
+      "unit_id": "lane-unit:jww:47675:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to جَوّ; it adds no lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:jww:47676:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jww-cm-jawwani"
+      ],
+      "note": "The derived adjective's inner, private, and secret senses are covered."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is recorded in the inflected genitive form جَوِّ; the public headword is the normalized citation form جَوّ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

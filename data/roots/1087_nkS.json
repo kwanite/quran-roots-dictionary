@@ -1,0 +1,115 @@
+{
+  "root": "nkS",
+  "arabic": "نكص",
+  "root_idea": {
+    "summary": "The root centers on shrinking back, retreating, or turning away from something.",
+    "development": "Its core development is withdrawal from an undertaking, especially through apprehension or cowardice; it can also describe turning back from a course previously pursued, including a good course.",
+    "source_refs": [
+      "maqayis:row:4747",
+      "lane:entry:44537"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nkS:nakaSa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nkS-f1-nakasa",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nkS-f1-nakasa",
+      "form_group_ids": [
+        "qac-form:nkS:nakaSa:verb:I"
+      ],
+      "headword_arabic": "نَكَصَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "nkS-f1-s1",
+          "definition": "To shrink back from, recoil from, or turn away from a matter; to retreat or desist from it, including turning back from a course already undertaken.",
+          "usage_conditions": "Used with عَنْ for withdrawing or refraining from a matter. The construction عَلَى عَقِبَيْهِ expresses turning back from something previously undertaken. Fear or awe may motivate the withdrawal, but is not an obligatory semantic condition; the matter abandoned may be good or evil.",
+          "source_refs": [
+            "lane:entry:44537",
+            "mufradat:row:1486"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:48",
+          "word_location": "8:48:19",
+          "sense_ids": [
+            "nkS-f1-s1"
+          ]
+        },
+        {
+          "verse_key": "23:66",
+          "word_location": "23:66:9",
+          "sense_ids": [
+            "nkS-f1-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nkS-cm1",
+      "headword_arabic": "نَاكِصٌ",
+      "definition": "Receding or diminishing, especially of a person's lot or good fortune.",
+      "usage_conditions": "Attested in an idiomatic description of one's share or fortune as withdrawing or declining.",
+      "source_refs": [
+        "lane:entry:44539"
+      ]
+    },
+    {
+      "meaning_id": "nkS-cm2",
+      "headword_arabic": "مَنْكَصٌ",
+      "definition": "A place of retreat or withdrawal; a remote place to which one removes or retires.",
+      "usage_conditions": "A noun of place, comparable to مُتَنَحًّى.",
+      "source_refs": [
+        "lane:entry:44540"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nkS:44537:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nkS-f1-s1"
+      ],
+      "note": "The meanings of retreating, refraining, recoiling, and turning back from an undertaking are covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:nkS:44538:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference: “see above.”"
+    },
+    {
+      "unit_id": "lane-unit:nkS:44539:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nkS-cm1"
+      ],
+      "note": "The idiomatic use for receding fortune is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:nkS:44540:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nkS-cm2"
+      ],
+      "note": "The noun of place meaning a place of retreat is represented separately."
+    }
+  ],
+  "cautions": [
+    "Lane's supplied printed Quran reference to “xxiii. 68” is preserved only as evidence for a Quranic construction and is not normalized into a modern verse location; the examples use only the independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

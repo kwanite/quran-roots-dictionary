@@ -1,0 +1,123 @@
+{
+  "root": "hjE",
+  "arabic": "هجع",
+  "root_idea": {
+    "summary": "The root centers on sleep, especially sleep during the night.",
+    "development": "The basic sleep meaning extends to a sleep interval or light early-night sleep, a derived verb meaning to sleep, and a figurative description of a foolish person who is submissive to everyone. A specialized reported use denotes the setting of a star.",
+    "source_refs": [
+      "maqayis:row:4840",
+      "mufradat:row:1512",
+      "lane:entry:17047",
+      "lane:entry:17048"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hjE:yahojaEu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hjE_hajaa_I",
+      "reason": "Displayed under the normalized Form I perfect citation form هَجَعَ rather than the supplied imperfect QAC lemma يَهْجَعُ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_hjE_hajaa_I",
+      "form_group_ids": [
+        "qac-form:hjE:yahojaEu:verb:I"
+      ],
+      "headword_arabic": "هَجَعَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_hjE_hajaa_I_s1",
+          "definition": "To sleep, especially at night.",
+          "usage_conditions": "In كانوا قليلاً من الليل ما يهجعون (51:17), the wording may describe their sleeping as occupying little of the night, or, through the use of قليلًا for near-negation, their scarcely sleeping or not sleeping.",
+          "source_refs": [
+            "mufradat:row:1512"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "51:17",
+          "word_location": "51:17:6",
+          "sense_ids": [
+            "qform_hjE_hajaa_I_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_hjE_tahajju_sleep",
+      "headword_arabic": "تَهَجَّعَ",
+      "definition": "To sleep.",
+      "usage_conditions": "A Form V derived verb meaning to sleep.",
+      "source_refs": [
+        "lane:entry:17047"
+      ]
+    },
+    {
+      "meaning_id": "cm_hjE_hajcah_sleep_interval",
+      "headword_arabic": "هَجْعَةٌ",
+      "definition": "A sleep or sleep interval; specifically, a light sleep in the first part of the night.",
+      "usage_conditions": "A noun for an episode or period of sleep, with the supplied classical specialization to light early-night sleep.",
+      "source_refs": [
+        "lane:entry:17048",
+        "mufradat:row:1512"
+      ]
+    },
+    {
+      "meaning_id": "cm_hjE_hujac_compliant_fool",
+      "headword_arabic": "هُجَعٌ",
+      "definition": "A foolish person who is submissive or yielding to everyone.",
+      "usage_conditions": "A figurative characterization of a person, presented as an extension of the sleep-related root meaning.",
+      "source_refs": [
+        "maqayis:row:4840",
+        "mufradat:row:1512"
+      ]
+    },
+    {
+      "meaning_id": "cm_hjE_hajcah_star_setting",
+      "headword_arabic": "هَجْعَةٌ",
+      "definition": "The setting of a star.",
+      "usage_conditions": "A specialized reported use, marked in the evidence as tentative or assumed figurative usage.",
+      "source_refs": [
+        "lane:entry:17048"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hjE:17047:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hjE_tahajju_sleep"
+      ],
+      "note": "Form V lexical meaning ‘to sleep’ is represented."
+    },
+    {
+      "unit_id": "lane-unit:hjE:17048:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hjE_hajcah_star_setting"
+      ],
+      "note": "Specialized star-setting meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:hjE:17048:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hjE_hajcah_sleep_interval"
+      ],
+      "note": "Light early-night sleep meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is supplied in an imperfect plural surface form, while the public headword is normalized to the Form I perfect هَجَعَ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

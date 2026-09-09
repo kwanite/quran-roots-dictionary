@@ -1,0 +1,739 @@
+{
+  "root": "rdf",
+  "arabic": "ردف",
+  "root_idea": {
+    "summary": "The root denotes following or coming after one thing or person.",
+    "development": "From the basic idea of following develop the rear rider or follower, successive occurrence, a subsequent consequence, rear-position terms, and related roles of assistance or succession.",
+    "source_refs": [
+      "maqayis:row:2003"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rdf:radifa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rdf-radifa",
+      "reason": "The Form I verb has a distinct Quranic occurrence and lexical use."
+    },
+    {
+      "form_group_id": "qac-form:rdf:murodifiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rdf-murdif",
+      "reason": "The Quranic active participle is presented under its supported singular citation form."
+    },
+    {
+      "form_group_id": "qac-form:rdf:r~aAdifap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rdf-radifa-noun",
+      "reason": "The Quranic active participle is a substantivized lexical form with its own Quranic occurrence."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "rdf-radifa",
+      "form_group_ids": [
+        "qac-form:rdf:radifa:verb:I"
+      ],
+      "headword_arabic": "رَدِفَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "rdf-radifa-s1",
+          "definition": "To follow closely behind; to come after so as to draw near.",
+          "usage_conditions": "In the Quranic construction رَدِفَ لَكُمْ, the following is interpreted as drawing near to the addressees or becoming close behind them.",
+          "source_refs": [
+            "lane:entry:22995"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:72",
+          "word_location": "27:72:5",
+          "sense_ids": [
+            "rdf-radifa-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "rdf-murdif",
+      "form_group_ids": [
+        "qac-form:rdf:murodifiyn:nominal:-"
+      ],
+      "headword_arabic": "مُرْدِفٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "rdf-murdif-s1",
+          "definition": "Coming after in succession; arriving one after another.",
+          "usage_conditions": "This is one interpretation of مُرْدِفِينَ in the Quranic promise of angelic assistance.",
+          "source_refs": [
+            "mufradat:row:545",
+            "lane:entry:22998"
+          ]
+        },
+        {
+          "sense_id": "rdf-murdif-s2",
+          "definition": "Having others follow or accompany them; bringing successive followers as reinforcement.",
+          "usage_conditions": "In the Quranic expression, the form is also explained causatively: one group or person is accompanied by others made to follow.",
+          "source_refs": [
+            "mufradat:row:545",
+            "lane:entry:22998"
+          ]
+        },
+        {
+          "sense_id": "rdf-murdif-s3",
+          "definition": "Going ahead of an army as a vanguard.",
+          "usage_conditions": "A further Quranic interpretation understands the مُرْدِفِينَ as those preceding the army and inspiring fear in the enemy.",
+          "source_refs": [
+            "mufradat:row:545"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:9",
+          "word_location": "8:9:11",
+          "sense_ids": [
+            "rdf-murdif-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "rdf-radifa-noun",
+      "form_group_ids": [
+        "qac-form:rdf:r~aAdifap:nominal:-"
+      ],
+      "headword_arabic": "رَادِفَةٌ",
+      "public_pos_label": "Active participle · substantivized",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "rdf-radifa-noun-s1",
+          "definition": "The one that follows; in the Quran, the subsequent blast of the horn.",
+          "usage_conditions": "In 79:7 it is commonly understood as the second blast following the first. Another interpretation takes the referent to be the heaven and stars that follow in the ensuing upheaval.",
+          "source_refs": [
+            "lane:entry:23009"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "79:7",
+          "word_location": "79:7:2",
+          "sense_ids": [
+            "rdf-radifa-noun-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "rdf-cm-ridf-riding",
+      "headword_arabic": "رَدِفَهُ",
+      "definition": "To ride behind someone on the same beast; to be another person's rear rider.",
+      "usage_conditions": "The verb may also be construed with لِـ in this sense.",
+      "source_refs": [
+        "lane:entry:22995"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridf-overtake",
+      "headword_arabic": "رَدِفَهُ",
+      "definition": "To overtake and pass someone, or to overtake and follow him.",
+      "usage_conditions": "The transmitted explanation includes a textual uncertainty about whether the second action is passing or following.",
+      "source_refs": [
+        "lane:entry:22995"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridf-event",
+      "headword_arabic": "رَدِفَهُ الأَمْرُ",
+      "definition": "For an event to follow another event; for a subsequent event to come upon people suddenly or overwhelm them.",
+      "usage_conditions": "Used of an affair or event that occurs after another, especially when the later event arrives unexpectedly or with overpowering effect.",
+      "source_refs": [
+        "lane:entry:22995"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-radif-bear-rider",
+      "headword_arabic": "رَادَفَتِ الدَّابَّةُ",
+      "definition": "For a beast to allow or be strong enough to carry a rear rider.",
+      "usage_conditions": "The construction describes the beast's capacity to bear someone riding behind another person.",
+      "source_refs": [
+        "lane:entry:22997"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-radif-locust",
+      "headword_arabic": "مُرَادَفَةُ الجَرَادِ",
+      "definition": "The mounting of locusts one behind or upon another, including the male on the female and a third on the pair.",
+      "usage_conditions": "A conventional description of locust mating and successive mounting.",
+      "source_refs": [
+        "lane:entry:22997"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-radif-king-role",
+      "headword_arabic": "رَادَفَ المُلُوكَ / الرِّدَافَةُ",
+      "definition": "To act as a king's rear associate, deputy, or substitute in the royal administration.",
+      "usage_conditions": "The historical office included sitting or riding behind the king, representing him in his absence, and holding a defined share in war spoils.",
+      "source_refs": [
+        "lane:entry:22997",
+        "lane:entry:23002",
+        "lane:entry:23007"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-synonymy",
+      "headword_arabic": "تَرَادُفٌ / مُرَادِفُ لَفْظٍ / مُتَرَادِفٌ",
+      "definition": "Synonymy: the relation in which words or expressions signify the same thing in the same respect.",
+      "usage_conditions": "This is a conventional term of lexicology and may apply to single words, compounds, or a word and an expression.",
+      "source_refs": [
+        "lane:entry:22997",
+        "lane:entry:22999",
+        "lane:entry:23012",
+        "lane:entry:23014"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ardafa-seat",
+      "headword_arabic": "أَرْدَفَهُ",
+      "definition": "To make someone ride behind or with oneself on the same beast; to place him behind.",
+      "usage_conditions": "The causative construction concerns seating or carrying a rear rider.",
+      "source_refs": [
+        "lane:entry:22998"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ardafa-follow",
+      "headword_arabic": "أَرْدَفَ الشَّيْءَ بِالشَّيْءِ",
+      "definition": "To make one thing follow another; to cause things to occur or proceed successively.",
+      "usage_conditions": "The construction may describe successive things or stars following one another.",
+      "source_refs": [
+        "lane:entry:22998"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-taraduf-sequence",
+      "headword_arabic": "تَرَادُفٌ",
+      "definition": "Mutual following or succession; the condition of being consecutive in one's parts.",
+      "usage_conditions": "Used of people following one another and of any thing whose parts or instances occur successively.",
+      "source_refs": [
+        "lane:entry:22999"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-taraduf-intercourse",
+      "headword_arabic": "تَرَادَفَا",
+      "definition": "To engage in sexual intercourse.",
+      "usage_conditions": "An idiomatic use of the reciprocal form; the construction is stated neutrally without restricting the participants beyond the source's usage.",
+      "source_refs": [
+        "lane:entry:22999"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-taraduf-assistance",
+      "headword_arabic": "تَرَادَفُوا عَلَيْهِ",
+      "definition": "To aid, help, or assist one another against someone.",
+      "usage_conditions": "The reciprocal construction expresses mutual reinforcement or assistance.",
+      "source_refs": [
+        "lane:entry:22999"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-irtadaf-seize",
+      "headword_arabic": "اِرْتَدَفَهُ",
+      "definition": "To come behind someone; idiomatically, to seize or overpower an enemy by coming from behind.",
+      "usage_conditions": "The latter use includes taking an enemy captive or killing him from the rear.",
+      "source_refs": [
+        "lane:entry:23000"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-istardaf-request",
+      "headword_arabic": "اِسْتَرْدَفَهُ",
+      "definition": "To ask someone to let one ride behind him on his beast.",
+      "usage_conditions": "The Form X construction expresses a request for a rear-riding place.",
+      "source_refs": [
+        "lane:entry:23001"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridf-sequent",
+      "headword_arabic": "رِدْفٌ",
+      "definition": "A sequent or follower of a thing; in the plural, followers, camel-drivers or relay drivers, and aids or auxiliaries.",
+      "usage_conditions": "The uses are connected with following in turn or taking another's place when he becomes fatigued; the term may also be applied particularly to stars that follow other stars.",
+      "source_refs": [
+        "lane:entry:23002"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridf-times",
+      "headword_arabic": "الرِّدْفَانِ",
+      "definition": "The two successive periods of night and day; by extension, the corresponding morning and evening periods.",
+      "usage_conditions": "The paired periods are called successive because each follows the other.",
+      "source_refs": [
+        "lane:entry:23002"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridf-consequence",
+      "headword_arabic": "رِدْفٌ",
+      "definition": "The consequence, sequel, or result of an event or affair.",
+      "usage_conditions": "The expression لَيْسَ لَهُ رِدْفٌ means that an affair has no consequence or subsequent result.",
+      "source_refs": [
+        "lane:entry:23002"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridf-hindpart",
+      "headword_arabic": "رِدْفٌ",
+      "definition": "The hinder part of a thing, especially its buttocks or posteriors.",
+      "usage_conditions": "The anatomical use is not limited here to any one sex or class of object.",
+      "source_refs": [
+        "lane:entry:23002"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridf-king",
+      "headword_arabic": "رِدْفُ المَلِكِ",
+      "definition": "The king's deputy or vicegerent, who could manage affairs, represent him, and occupy his place.",
+      "usage_conditions": "The historical office also involved sitting or riding behind the king and receiving a fourth of the spoils on the army's return.",
+      "source_refs": [
+        "lane:entry:23002"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridf-star",
+      "headword_arabic": "الرِّدْفُ",
+      "definition": "A designated star, including a bright star in Cygnus or a star near the Lyre; رِدْفُ الثُّرَيَّا may denote Orion or Gemini.",
+      "usage_conditions": "These are astronomical names based on the relation of one star to another.",
+      "source_refs": [
+        "lane:entry:23002"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridf-stern-sailors",
+      "headword_arabic": "رِدْفٌ",
+      "definition": "A sailor stationed in the hinder part of a ship.",
+      "usage_conditions": "The dual رِدْفَانِ is used for two such sailors.",
+      "source_refs": [
+        "lane:entry:23002"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-radfa-lambs",
+      "headword_arabic": "بَهْمٌ رَدْفَى",
+      "definition": "Lambs or kids born late in the season in which sheep or goats give birth.",
+      "usage_conditions": "The term refers to young animals born toward the end of the relevant birthing period.",
+      "source_refs": [
+        "lane:entry:23004"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-ridaf-mount",
+      "headword_arabic": "رِدَافٌ",
+      "definition": "The place on which a rear rider sits or rides.",
+      "usage_conditions": "The noun denotes the riding-place rather than the rider.",
+      "source_refs": [
+        "lane:entry:23005"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-radif-follower",
+      "headword_arabic": "رَدِيفٌ",
+      "definition": "One who rides behind another; also a follower or a thing carried behind a person.",
+      "usage_conditions": "In plural usage it can describe people who come one after another, as well as a bag or other object conveyed behind a rider.",
+      "source_refs": [
+        "lane:entry:23006"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-radif-star",
+      "headword_arabic": "رَدِيفٌ",
+      "definition": "A star rising in the east when its opposite star sets in the west, or a star facing a rising star.",
+      "usage_conditions": "This astronomical use defines the star by its successive or opposite relation to another star.",
+      "source_refs": [
+        "lane:entry:23006"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-radif-gambling",
+      "headword_arabic": "رَدِيفٌ",
+      "definition": "A late entrant in the game of maysir who brings an arrow after one or two players have won and asks that it be included among their arrows.",
+      "usage_conditions": "The term can also refer to the person who enters after the slaughtered camel has been divided and is nevertheless allotted a share.",
+      "source_refs": [
+        "lane:entry:23006"
+      ]
+    },
+    {
+      "meaning_id": "rdf-cm-rawadif",
+      "headword_arabic": "رَوَادِفُ",
+      "definition": "Palm-tree shoots; also overlying streaks or layers of fat in the hinder part of a camel's hump.",
+      "usage_conditions": "The two applications are plural usages of رَادِفَةٌ and related forms.",
+      "source_refs": [
+        "lane:entry:23009"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rdf:22995:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-radifa-s1",
+        "rdf-cm-ridf-riding",
+        "rdf-cm-ridf-overtake",
+        "rdf-cm-ridf-event"
+      ],
+      "note": "Covers close following or approach, rear riding, overtaking, and a subsequent or overwhelming event."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22996:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the main Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22997:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-radif-bear-rider"
+      ],
+      "note": "Defines the beast that bears a rear rider."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22997:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-radif-locust"
+      ],
+      "note": "Defines successive locust mounting."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22997:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-radif-king-role"
+      ],
+      "note": "Defines acting as a rear associate to kings."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22997:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-synonymy"
+      ],
+      "note": "Defines the technical sense of synonymy."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22998:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ardafa-seat"
+      ],
+      "note": "Defines making someone ride behind or with the subject."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22998:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ardafa-follow"
+      ],
+      "note": "Defines making one thing follow another."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22998:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22998:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ardafa-follow"
+      ],
+      "note": "Illustrates successive following of stars."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22998:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form III discussion."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22999:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-taraduf-sequence"
+      ],
+      "note": "Defines mutual following and consecutive succession."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22999:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-taraduf-intercourse"
+      ],
+      "note": "Records the idiomatic sexual meaning."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22999:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-taraduf-assistance"
+      ],
+      "note": "Defines mutual aid or assistance."
+    },
+    {
+      "unit_id": "lane-unit:rdf:22999:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-synonymy"
+      ],
+      "note": "Defines technical synonymy."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23000:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23000:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointers to already treated entries."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23000:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-irtadaf-seize"
+      ],
+      "note": "Defines coming from behind and seizing an enemy."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23001:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-istardaf-request"
+      ],
+      "note": "Defines requesting a rear-riding place."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23002:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to رَدِيفٌ."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23002:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ridf-sequent"
+      ],
+      "note": "Covers a sequent, followers, camel-drivers, and auxiliaries."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23002:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ridf-times"
+      ],
+      "note": "Defines night and day as successive periods."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23002:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ridf-consequence"
+      ],
+      "note": "Defines consequence or result."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23002:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ridf-hindpart"
+      ],
+      "note": "Defines the hinder part of a thing."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23002:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ridf-hindpart"
+      ],
+      "note": "Specifies the anatomical posterior use."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23002:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ridf-king"
+      ],
+      "note": "Defines the historical king's deputy."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23002:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ridf-star"
+      ],
+      "note": "Defines astronomical star names."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23002:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ridf-stern-sailors"
+      ],
+      "note": "Defines sailors in the stern of a ship."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23003:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to رِدْفٌ."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23004:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-radfa-lambs"
+      ],
+      "note": "Defines late-season lambs or kids."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23005:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-ridaf-mount"
+      ],
+      "note": "Defines the place occupied by a rear rider."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23005:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the next entry."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23006:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-radif-follower"
+      ],
+      "note": "Covers the rear rider, follower, and object carried behind."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23006:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to رِدْفٌ and related forms."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23006:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-radif-star"
+      ],
+      "note": "Defines the astronomical follower or opposite star."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23006:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-radif-gambling"
+      ],
+      "note": "Defines the late entrant in maysir."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23007:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-radif-king-role"
+      ],
+      "note": "Defines the historical royal rear-associate office."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23008:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to رَدِيفٌ."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23009:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-radifa-noun-s1"
+      ],
+      "note": "Explicit Quranic interpretation of الرَّادِفَةُ."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23009:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to رِدْفٌ."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23009:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-rawadif"
+      ],
+      "note": "Defines the plural applications to palm shoots and camel fat."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23010:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23011:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Bracketed pointer to رِدْفٌ."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23012:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-synonymy"
+      ],
+      "note": "Defines a synonym of a word or expression."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23013:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the first sentence of رَدِيفٌ."
+    },
+    {
+      "unit_id": "lane-unit:rdf:23014:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rdf-cm-synonymy"
+      ],
+      "note": "Defines the technical term for synonymous words or expressions."
+    }
+  ],
+  "cautions": [
+    "The Form I occurrence is supplied by QAC at 27:72:5; the Lane text uses an older printed Quran citation that does not match that modern location exactly, so the QAC location is used here.",
+    "The interpretation of مُرْدِفِينَ in 8:9 is reported in several ways, including successive arrival, being accompanied by further angels, and preceding the army; these are retained as separate Quranic senses.",
+    "The interpretation of الرَّادِفَةُ in 79:7 varies between the subsequent blast and a cosmic referent involving heaven and stars."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

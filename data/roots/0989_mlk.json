@@ -1,0 +1,798 @@
+{
+  "root": "mlk",
+  "arabic": "ملك",
+  "root_idea": {
+    "summary": "A firm hold or strength in a thing, extending to possession, control, authority, and sovereignty.",
+    "development": "The root's basic notion of strength and firmness develops into having a secure hold over property or affairs, exercising power and rule, and designating kingship, ownership, and related realms of dominion.",
+    "source_refs": [
+      "maqayis:row:4462",
+      "mufradat:row:1388"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mlk:malakato:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mlk-malaka",
+      "reason": "Normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:mlk:ma`lik:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mlk-malik-owner",
+      "reason": "Presented under the active-participial citation form مَالِك."
+    },
+    {
+      "form_group_id": "qac-form:mlk:ma`lik2:nominal:-",
+      "disposition": "EXCLUDE_WITH_REASON",
+      "target_public_form_id": null,
+      "reason": "The single occurrence is a proper name, Mālik, rather than an independently evidenced lexical use of the active participle."
+    },
+    {
+      "form_group_id": "qac-form:mlk:malak:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mlk-malak",
+      "reason": "Displayed as the singular noun مَلَك."
+    },
+    {
+      "form_group_id": "qac-form:mlk:malakuwt:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mlk-malakut",
+      "reason": "Displayed as the noun مَلَكُوت."
+    },
+    {
+      "form_group_id": "qac-form:mlk:malik:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mlk-malik-king",
+      "reason": "Displayed as the noun/adjective مَلِك."
+    },
+    {
+      "form_group_id": "qac-form:mlk:maliyk:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-mlk-malik-king",
+      "reason": "The single مَلِيك occurrence belongs to the documented king/sovereign semantic branch and is subsumed under مَلِك rather than given an unsupported separate sense."
+    },
+    {
+      "form_group_id": "qac-form:mlk:malok:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mlk-malk",
+      "reason": "Displayed separately as مَلْك, the vocalized form attested in the Quranic reading of 20:87."
+    },
+    {
+      "form_group_id": "qac-form:mlk:mulok:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mlk-mulk",
+      "reason": "Displayed as the noun مُلْك."
+    },
+    {
+      "form_group_id": "qac-form:mlk:m~amoluwk:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mlk-mamluk",
+      "reason": "Normalized to the passive-participial citation form مَمْلُوك."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-mlk-malaka",
+      "form_group_ids": [
+        "qac-form:mlk:malakato:verb:I"
+      ],
+      "headword_arabic": "مَلَكَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 44,
+      "senses": [
+        {
+          "sense_id": "sense-mlk-malaka-own",
+          "definition": "To possess or own; to hold something under one's control.",
+          "usage_conditions": "In the Quranic construction مَلَكَتْ أَيْمَانُكُمْ and related expressions, the object is a person under ownership; the verb is otherwise general and is not restricted to persons or property.",
+          "source_refs": [
+            "lane:entry:5813",
+            "mufradat:row:1388"
+          ]
+        },
+        {
+          "sense_id": "sense-mlk-malaka-power",
+          "definition": "To have power or capacity over something; to be able to affect or dispose of it.",
+          "usage_conditions": "Often used with benefit, harm, life, death, resurrection, or another outcome; this use denotes capability or effective control rather than simple possession.",
+          "source_refs": [
+            "lane:entry:5813",
+            "mufradat:row:1388"
+          ]
+        },
+        {
+          "sense_id": "sense-mlk-malaka-rule",
+          "definition": "To exercise command or rule over an affair or a people.",
+          "usage_conditions": "The construction may concern the ordering of an affair or the exercise of dominion over people, emphasizing governing authority.",
+          "source_refs": [
+            "lane:entry:5813"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:3",
+          "word_location": "4:3:23",
+          "sense_ids": [
+            "sense-mlk-malaka-own"
+          ]
+        },
+        {
+          "verse_key": "7:188",
+          "word_location": "7:188:3",
+          "sense_ids": [
+            "sense-mlk-malaka-power"
+          ]
+        },
+        {
+          "verse_key": "27:23",
+          "word_location": "27:23:4",
+          "sense_ids": [
+            "sense-mlk-malaka-rule"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-mlk-malik-owner",
+      "form_group_ids": [
+        "qac-form:mlk:ma`lik:nominal:-"
+      ],
+      "headword_arabic": "مَالِك",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense-mlk-malik-owner",
+          "definition": "Owner, possessor, or master: one who possesses something and has disposal or authority over it.",
+          "usage_conditions": "Can designate human ownership or mastery and divine ownership and authority; it may occur in relation to a thing, a realm, or an affair.",
+          "source_refs": [
+            "mufradat:row:1388",
+            "lane:entry:5825"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "1:4",
+          "word_location": "1:4:1",
+          "sense_ids": [
+            "sense-mlk-malik-owner"
+          ]
+        },
+        {
+          "verse_key": "3:26",
+          "word_location": "3:26:3",
+          "sense_ids": [
+            "sense-mlk-malik-owner"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-mlk-malak",
+      "form_group_ids": [
+        "qac-form:mlk:malak:nominal:-"
+      ],
+      "headword_arabic": "مَلَك",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 88,
+      "senses": [
+        {
+          "sense_id": "sense-mlk-malak-angel",
+          "definition": "An angel; a single member of the angelic beings.",
+          "usage_conditions": "The singular denotes one angel, while مَلَائِكَة refers to angels collectively or in the plural; Quranic compounds also include the angel of death.",
+          "source_refs": [
+            "mufradat:row:1388",
+            "lane:entry:5821"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:102",
+          "word_location": "2:102:20",
+          "sense_ids": [
+            "sense-mlk-malak-angel"
+          ]
+        },
+        {
+          "verse_key": "32:11",
+          "word_location": "32:11:3",
+          "sense_ids": [
+            "sense-mlk-malak-angel"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-mlk-malakut",
+      "form_group_ids": [
+        "qac-form:mlk:malakuwt:nominal:-"
+      ],
+      "headword_arabic": "مَلَكُوت",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sense-mlk-malakut-divine-dominion",
+          "definition": "God's dominion or kingdom: the encompassing realm of divine sovereignty over creation.",
+          "usage_conditions": "In Quranic usage it is associated especially with the heavens and earth and with recognition of God's comprehensive authority.",
+          "source_refs": [
+            "mufradat:row:1388",
+            "lane:entry:5828"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:75",
+          "word_location": "6:75:4",
+          "sense_ids": [
+            "sense-mlk-malakut-divine-dominion"
+          ]
+        },
+        {
+          "verse_key": "7:185",
+          "word_location": "7:185:4",
+          "sense_ids": [
+            "sense-mlk-malakut-divine-dominion"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-mlk-malik-king",
+      "form_group_ids": [
+        "qac-form:mlk:malik:nominal:-",
+        "qac-form:mlk:maliyk:nominal:-"
+      ],
+      "headword_arabic": "مَلِك",
+      "public_pos_label": "Noun / adjective · Sovereign",
+      "verb_form": null,
+      "occurrence_count": 16,
+      "senses": [
+        {
+          "sense_id": "sense-mlk-malik-king",
+          "definition": "King or sovereign: one who exercises command and prohibition over a people.",
+          "usage_conditions": "The lexical focus is governance and political or sovereign authority, not mere possession; the Quran applies the title to human kings and to God as sovereign.",
+          "source_refs": [
+            "mufradat:row:1388",
+            "lane:entry:5822"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:43",
+          "word_location": "12:43:2",
+          "sense_ids": [
+            "sense-mlk-malik-king"
+          ]
+        },
+        {
+          "verse_key": "59:23",
+          "word_location": "59:23:8",
+          "sense_ids": [
+            "sense-mlk-malik-king"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-mlk-malk",
+      "form_group_ids": [
+        "qac-form:mlk:malok:nominal:-"
+      ],
+      "headword_arabic": "مَلْك",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-mlk-malk-possession",
+          "definition": "Possession, authority, or the effective hold by which something is controlled.",
+          "usage_conditions": "In the Quranic reading بِمَلْكِنَا, the expression means by our possession or authority; this vocalization is distinct from مِلْك and مُلْك.",
+          "source_refs": [
+            "mufradat:row:1388",
+            "lane:entry:5813"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:87",
+          "word_location": "20:87:5",
+          "sense_ids": [
+            "sense-mlk-malk-possession"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-mlk-mulk",
+      "form_group_ids": [
+        "qac-form:mlk:mulok:nominal:-"
+      ],
+      "headword_arabic": "مُلْك",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 48,
+      "senses": [
+        {
+          "sense_id": "sense-mlk-mulk-dominion",
+          "definition": "Dominion, sovereignty, kingship, or rule: authority and power to command and dispose over a realm or what is governed.",
+          "usage_conditions": "The Quran uses it for divine universal dominion as well as human kingship and rule; context may render it kingdom, dominion, sovereignty, or kingship.",
+          "source_refs": [
+            "mufradat:row:1388",
+            "lane:entry:5820"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:26",
+          "word_location": "3:26:4",
+          "sense_ids": [
+            "sense-mlk-mulk-dominion"
+          ]
+        },
+        {
+          "verse_key": "2:247",
+          "word_location": "2:247:15",
+          "sense_ids": [
+            "sense-mlk-mulk-dominion"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-mlk-mamluk",
+      "form_group_ids": [
+        "qac-form:mlk:m~amoluwk:nominal:-"
+      ],
+      "headword_arabic": "مَمْلُوك",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-mlk-mamluk-owned-slave",
+          "definition": "A person owned as a slave; a bondperson.",
+          "usage_conditions": "The Quranic form is a passive participle describing a human subject to ownership; it does not itself impose a gender restriction.",
+          "source_refs": [
+            "mufradat:row:1388",
+            "lane:entry:5832"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:75",
+          "word_location": "16:75:5",
+          "sense_ids": [
+            "sense-mlk-mamluk-owned-slave"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "class-mlk-mallaka",
+      "headword_arabic": "مَلَّكَ",
+      "definition": "To make someone possess a thing, or to make someone king and grant dominion, kingship, or rule.",
+      "usage_conditions": "Includes making a person responsible for the ordering of an affair as well as conferring possession or kingship.",
+      "source_refs": [
+        "lane:entry:5814"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-amlaka-dough",
+      "headword_arabic": "أَمْلَكَ",
+      "definition": "To knead dough thoroughly and make its kneading firm.",
+      "usage_conditions": "Used with dough as its object.",
+      "source_refs": [
+        "lane:entry:5816"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-tamallaka",
+      "headword_arabic": "تَمَلَّكَ",
+      "definition": "To take possession of something, absolutely or by force.",
+      "usage_conditions": "The form emphasizes acquisition of possession, including forcible acquisition.",
+      "source_refs": [
+        "lane:entry:5817"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-tamalaka",
+      "headword_arabic": "تَمَالَكَ",
+      "definition": "To restrain oneself from doing something.",
+      "usage_conditions": "Occurs especially in the negative idiom مَا تَمَالَكَ أَنْ فَعَلَ, meaning that one could not restrain oneself from acting.",
+      "source_refs": [
+        "lane:entry:5818"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-milk-property",
+      "headword_arabic": "مِلْك",
+      "definition": "Owned property, especially houses and lands.",
+      "usage_conditions": "A conventional usage of مِلْك includes real property and possessions.",
+      "source_refs": [
+        "lane:entry:5819"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-mulk-invisible",
+      "headword_arabic": "مُلْك",
+      "definition": "God's world of spirits or the invisible world.",
+      "usage_conditions": "A specialized theological usage distinguished from the apparent realm.",
+      "source_refs": [
+        "lane:entry:5820"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-mulk-apparent",
+      "headword_arabic": "مُلْك",
+      "definition": "The apparent or manifest dominion, especially the earthly realm when contrasted with مَلَكُوت.",
+      "usage_conditions": "This distinction is a Classical usage of مُلْك versus the less visible or spiritual realm.",
+      "source_refs": [
+        "lane:entry:5820"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-malak-water",
+      "headword_arabic": "مَلَك",
+      "definition": "Water carried by a traveler.",
+      "usage_conditions": "A separate homonymous Classical meaning, unrelated to the angelic noun in sense.",
+      "source_refs": [
+        "lane:entry:5821"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-maliku-amlak",
+      "headword_arabic": "مَلِكُ الأَمْلَاكِ",
+      "definition": "King of kings.",
+      "usage_conditions": "A conventional superlative-style title for the supreme king or ruler.",
+      "source_refs": [
+        "lane:entry:5822"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-malak-al-amr",
+      "headword_arabic": "مَلَاكُ الأَمْر",
+      "definition": "The foundation, support, cause, or means by which an affair subsists and is ordered.",
+      "usage_conditions": "Refers to what an affair depends upon for its maintenance, order, or governance.",
+      "source_refs": [
+        "lane:entry:5823"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-malik-kabir",
+      "headword_arabic": "مَالِكٌ الكَبِير",
+      "definition": "The great master or owner, especially God, contrasted with the lesser human owner.",
+      "usage_conditions": "A conventional distinction between divine supreme ownership and ordinary human ownership.",
+      "source_refs": [
+        "lane:entry:5825"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-malik-heron",
+      "headword_arabic": "مَالِكٌ الحَزِين",
+      "definition": "A heron or a species of long-necked, long-legged bird.",
+      "usage_conditions": "A specialized bird name and a homonymous lexical use of مَالِك.",
+      "source_refs": [
+        "lane:entry:5825"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-abu-malik-hunger",
+      "headword_arabic": "أَبُو مَالِك",
+      "definition": "Hunger.",
+      "usage_conditions": "An idiomatic expression rather than the ordinary owner or master meaning of مَالِك.",
+      "source_refs": [
+        "lane:entry:5825"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-amлакат",
+      "headword_arabic": "أَمْلَاكَات",
+      "definition": "A bride's goods or chattels.",
+      "usage_conditions": "A specialized plural referring to bridal property.",
+      "source_refs": [
+        "lane:entry:5826"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-malaka-faculty",
+      "headword_arabic": "مَلَكَة",
+      "definition": "A faculty or firmly rooted quality of mind.",
+      "usage_conditions": "A settled mental disposition or ability, not possession in the ordinary material sense.",
+      "source_refs": [
+        "lane:entry:5827"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-milik-slave",
+      "headword_arabic": "مِلِيك",
+      "definition": "A slave or bondperson; a synonym of مَمْلُوك.",
+      "usage_conditions": "This Classical form is vocalized مِلِيك and is distinct from the Quranic مَلِيك subsumed under the king/sovereign headword.",
+      "source_refs": [
+        "lane:entry:5829"
+      ]
+    },
+    {
+      "meaning_id": "class-mlk-mamlaka-realm",
+      "headword_arabic": "مَمْلَكَة",
+      "definition": "A kingdom or realm: the sultanate of a king and the regions under his possession.",
+      "usage_conditions": "Denotes the realm or territorial domain rather than the ruler himself.",
+      "source_refs": [
+        "lane:entry:5831"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mlk:5813:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-mlk-malaka-own",
+        "sense-mlk-malaka-power",
+        "sense-mlk-malaka-rule"
+      ],
+      "note": "Possession, authority, and effective power are represented under the Quranic verb senses."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5813:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-mlk-malaka-rule"
+      ],
+      "note": "Rule or ordering of an affair and dominion over people are represented under the verb's governing sense."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5813:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5814:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-mallaka"
+      ],
+      "note": "Making someone possess a thing is represented by the Form II classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5814:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-mallaka"
+      ],
+      "note": "Making someone king or granting dominion is represented by the Form II classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5814:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-mallaka"
+      ],
+      "note": "Granting responsibility for ordering an affair is represented by the Form II classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5815:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5816:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-amlaka-dough"
+      ],
+      "note": "Kneading dough thoroughly is represented by the Form IV classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5816:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5817:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-tamallaka"
+      ],
+      "note": "Taking possession, including by force, is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5818:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-tamalaka"
+      ],
+      "note": "The idiom of being unable to restrain oneself is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5819:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-milk-property"
+      ],
+      "note": "Owned property, including houses and lands, is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5820:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-mlk-mulk-dominion"
+      ],
+      "note": "The general dominion, sovereignty, rule, authority, and possession branch is represented under the dominion sense."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5820:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-mulk-invisible"
+      ],
+      "note": "The invisible or spiritual-world usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5820:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-mulk-apparent"
+      ],
+      "note": "The apparent or earthly dominion contrasted with malakut is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5821:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-mlk-malak-angel"
+      ],
+      "note": "The angel meaning is represented under the Quranic noun."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5821:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-malak-water"
+      ],
+      "note": "The separate water meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5822:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-maliku-amlak"
+      ],
+      "note": "The king-of-kings title is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5823:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-malak-al-amr"
+      ],
+      "note": "The foundation, support, cause, or means sustaining and ordering an affair is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5824:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5825:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5825:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-mlk-malik-owner"
+      ],
+      "note": "The possessor of command or rule is covered by the owner/master sense."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5825:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-malik-kabir"
+      ],
+      "note": "The great divine master contrasted with a lesser human owner is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5825:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-malik-heron"
+      ],
+      "note": "The specialized heron or long-necked bird name is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5825:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-abu-malik-hunger"
+      ],
+      "note": "The idiomatic expression for hunger is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5826:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "class-mlk-milk-property"
+      ],
+      "note": "Bride's goods or chattels are a specialized instance of owned property and possessions."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5827:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-malaka-faculty"
+      ],
+      "note": "A firmly rooted mental faculty is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5828:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-mlk-malakut-divine-dominion"
+      ],
+      "note": "God's kingdom and the created corporeal realm are covered by the malakut sense."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5829:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-milik-slave"
+      ],
+      "note": "The distinct milik slave meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5830:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5830:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only idiom reference."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5831:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-mlk-mamlaka-realm"
+      ],
+      "note": "The kingdom or realm noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:mlk:5832:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-mlk-mamluk-owned-slave"
+      ],
+      "note": "The slave or bondperson meaning is represented under the Quranic passive participle."
+    }
+  ],
+  "cautions": [
+    "The proper-name occurrence Mālik at 43:77 is excluded from the lexical form list and is not conflated with مَالِك, owner or master.",
+    "مَلَك meaning angel and the Classical homonym مَلَك meaning water are distinct lexical branches.",
+    "The Quranic مَلِيك occurrence is subsumed under the king/sovereign branch of مَلِك; the Classical مِلِيك meaning slave is a different vocalization and meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,79 @@
+{
+  "root": "xnzr",
+  "arabic": "خنزر",
+  "root_idea": {
+    "summary": "In the supplied evidence, خِنزِير denotes the swine and can be extended figuratively to people whose character and conduct resemble it.",
+    "development": "The attested semantic development is from the named animal to a figurative description of human morals and actions; no broader root-etymological analysis is supplied.",
+    "source_refs": [
+      "mufradat:row:439"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:xnzr:xinziyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:xinziyr",
+      "reason": "Displayed under the normalized singular noun citation form خِنزِير."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:xinziyr",
+      "form_group_ids": [
+        "qac-form:xnzr:xinziyr:nominal:-"
+      ],
+      "headword_arabic": "خِنزِير",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qform:xinziyr:s1",
+          "definition": "The pig or swine as the particular animal.",
+          "usage_conditions": "Literal animal designation; in 5:60, this is one of the two reported interpretations of the reference to swine.",
+          "source_refs": [
+            "mufradat:row:439"
+          ]
+        },
+        {
+          "sense_id": "qform:xinziyr:s2",
+          "definition": "People whose morals and actions resemble those associated with swine, without implying a change in their physical form.",
+          "usage_conditions": "A Quran-specific figurative interpretation of the swine mentioned in 5:60; the resemblance concerns character and conduct rather than bodily shape.",
+          "source_refs": [
+            "mufradat:row:439"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:173",
+          "word_location": "2:173:7",
+          "sense_ids": [
+            "qform:xinziyr:s1"
+          ]
+        },
+        {
+          "verse_key": "5:60",
+          "word_location": "5:60:18",
+          "sense_ids": [
+            "qform:xinziyr:s1",
+            "qform:xinziyr:s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:xnzr:20167:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to خزر; it supplies no independent lexical meaning."
+    }
+  ],
+  "cautions": [
+    "The interpretation of 5:60 supports both the literal animal reference and a figurative reference to human character and conduct."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

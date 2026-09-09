@@ -1,0 +1,439 @@
+{
+  "root": "sHb",
+  "arabic": "سحب",
+  "root_idea": {
+    "summary": "The root centers on dragging or drawing an extended thing along.",
+    "development": "From the image of something being drawn along, سحاب is explained as cloud or clouds drawn through the air, or drawing water or one another. Figurative extensions include pressing boldly upon someone. A branch meaning to eat and drink voraciously is also reported, though its derivation is disputed.",
+    "source_refs": [
+      "maqayis:row:2369",
+      "mufradat:row:666",
+      "lane:entry:40365",
+      "lane:entry:40367",
+      "lane:entry:40371"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sHb:yusoHabu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sHb:form:verbI",
+      "reason": "Displayed under the normalized Form I perfect citation form سَحَبَ rather than the Quranic passive imperfect form."
+    },
+    {
+      "form_group_id": "qac-form:sHb:saHaAb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sHb:form:sahab",
+      "reason": "Displayed under the lexical noun سَحَاب, covering its Quranic inflected forms."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "sHb:form:verbI",
+      "form_group_ids": [
+        "qac-form:sHb:yusoHabu:verb:I"
+      ],
+      "headword_arabic": "سَحَبَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sHb:verbI:s1",
+          "definition": "To drag or draw along; in the Quranic passive, to be dragged.",
+          "usage_conditions": "The supplied Quranic form is a passive imperfect plural. The cited uses describe people being dragged on their faces or into boiling water.",
+          "source_refs": [
+            "lane:entry:40365",
+            "mufradat:row:666"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "40:71",
+          "word_location": "40:71:6",
+          "sense_ids": [
+            "sHb:verbI:s1"
+          ]
+        },
+        {
+          "verse_key": "54:48",
+          "word_location": "54:48:2",
+          "sense_ids": [
+            "sHb:verbI:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "sHb:form:sahab",
+      "form_group_ids": [
+        "qac-form:sHb:saHaAb:nominal:-"
+      ],
+      "headword_arabic": "سَحَاب",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "sHb:sahab:s1",
+          "definition": "Cloud or clouds, whether rain-bearing or not.",
+          "usage_conditions": "The Quranic noun denotes atmospheric cloud or a collection of clouds; singular and collective reference are both compatible with the lexical usage.",
+          "source_refs": [
+            "lane:entry:40371",
+            "mufradat:row:666"
+          ]
+        },
+        {
+          "sense_id": "sHb:sahab:s2",
+          "definition": "By analogy, a cloud-like covering associated with shade and darkness.",
+          "usage_conditions": "This figurative interpretation is explicitly applied to the layered-darkness image in the Quranic passage at 24:40.",
+          "source_refs": [
+            "mufradat:row:666"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:43",
+          "word_location": "24:43:6",
+          "sense_ids": [
+            "sHb:sahab:s1"
+          ]
+        },
+        {
+          "verse_key": "30:48",
+          "word_location": "30:48:6",
+          "sense_ids": [
+            "sHb:sahab:s1"
+          ]
+        },
+        {
+          "verse_key": "24:40",
+          "word_location": "24:40:13",
+          "sense_ids": [
+            "sHb:sahab:s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "sHb:cm:dragidiom",
+      "headword_arabic": "سَحَبَ",
+      "definition": "In expressions based on dragging a skirt, to efface traces; figuratively, to overlook faults or what has passed.",
+      "usage_conditions": "A conventional figurative extension of dragging something over the ground, as in سحب الذيل على العيوب.",
+      "source_refs": [
+        "lane:entry:40365"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:voracious",
+      "headword_arabic": "سَحَبَ",
+      "definition": "To eat and drink voraciously.",
+      "usage_conditions": "A figurative Form I usage reported for consuming food and drink vehemently.",
+      "source_refs": [
+        "lane:entry:40365"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:asHabVoracious",
+      "headword_arabic": "أَسْحَبَ",
+      "definition": "To consume much food and drink.",
+      "usage_conditions": "Form IV usage with food and beverages; the sense is explained through the image of taking or drawing provisions to oneself.",
+      "source_refs": [
+        "lane:entry:40366"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:tasaHabBold",
+      "headword_arabic": "تَسَحَّبَ",
+      "definition": "To act toward someone boldly or presumptuously; also, to behave coquettishly with feigned opposition.",
+      "usage_conditions": "Used with عَلَيْهِ. The behavior may be grounded in confidence in the person's affection or expressed as coquettish boldness.",
+      "source_refs": [
+        "lane:entry:40367"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:tasaHabUsurp",
+      "headword_arabic": "تَسَحَّبَ",
+      "definition": "To seize another person's right or rightful property by force and annex it to one's own.",
+      "usage_conditions": "A figurative conventional use describing forcible appropriation of another's right or property.",
+      "source_refs": [
+        "lane:entry:40367"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:insahab",
+      "headword_arabic": "اِنْسَحَبَ",
+      "definition": "To be or become dragged or drawn along on the ground; of the fringes of wind, to trail over the ground and efface traces.",
+      "usage_conditions": "Used of a skirt, garment, or similar thing, and figuratively of wind's trailing fringes.",
+      "source_refs": [
+        "lane:entry:40368"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:suhbaEye",
+      "headword_arabic": "سُحْبَةٌ",
+      "definition": "A covering or film over the eye, producing ocular dimness.",
+      "usage_conditions": "A reported lexical equivalence with غِشَاوَةٌ; the evidence presents this use cautiously.",
+      "source_refs": [
+        "lane:entry:40369"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:suhbaPool",
+      "headword_arabic": "سُحْبَةٌ",
+      "definition": "Residual water remaining in a pool after a torrent.",
+      "usage_conditions": "A concrete noun use for water left behind by flowing water.",
+      "source_refs": [
+        "lane:entry:40369"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:sahban",
+      "headword_arabic": "سَحْبَانُ",
+      "definition": "An epithet for a man who sweeps away or carries off everything in his path.",
+      "usage_conditions": "Used as a descriptive epithet for a man characterized by removing everything encountered.",
+      "source_refs": [
+        "lane:entry:40370"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:sahabDay",
+      "headword_arabic": "سَحَابَةَ يَوْمِي",
+      "definition": "The whole of one's day; all day long.",
+      "usage_conditions": "A conventional expression originally associated with a cloudy day and then extended to any entire day.",
+      "source_refs": [
+        "lane:entry:40371"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:sahabWine",
+      "headword_arabic": "مَاءُ السَّحَابِ",
+      "definition": "Wine.",
+      "usage_conditions": "A conventional figurative expression, literally “the water of the clouds.”",
+      "source_refs": [
+        "lane:entry:40371"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:sahabTurban",
+      "headword_arabic": "السَّحَابُ",
+      "definition": "A designation for the Prophet's turban.",
+      "usage_conditions": "A figurative name comparing the turban to a rain cloud drawn through the air.",
+      "source_refs": [
+        "lane:entry:40371"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:sahabSword",
+      "headword_arabic": "السَّحَابُ",
+      "definition": "The name of a sword belonging to Dirar ibn al-Khattab.",
+      "usage_conditions": "A proper name rather than a general lexical sense.",
+      "source_refs": [
+        "lane:entry:40371"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:usHub",
+      "headword_arabic": "أُسْحُوبٌ",
+      "definition": "A man who eats and drinks much or voraciously.",
+      "usage_conditions": "A rare or figurative epithet; the form itself is reported as possibly less established than أُسْحُوتٌ.",
+      "source_refs": [
+        "lane:entry:40375"
+      ]
+    },
+    {
+      "meaning_id": "sHb:cm:masHab",
+      "headword_arabic": "مَسْحَبٌ",
+      "definition": "A place where a skirt, garment, or similar object is dragged along the ground.",
+      "usage_conditions": "A place noun referring to the location or track of dragging.",
+      "source_refs": [
+        "lane:entry:40376"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sHb:40365:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:verbI:s1"
+      ],
+      "note": "Core dragging sense."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40365:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:dragidiom"
+      ],
+      "note": "Figurative effacing and overlooking idiom."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40365:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:voracious"
+      ],
+      "note": "Form I voracious eating and drinking."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40366:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:asHabVoracious"
+      ],
+      "note": "Form IV consuming much food and drink."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40367:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form IV."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40367:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:tasaHabBold"
+      ],
+      "note": "Bold, presumptuous, or coquettish conduct."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40367:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:tasaHabUsurp"
+      ],
+      "note": "Forcible appropriation of another's right or property."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40368:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:insahab"
+      ],
+      "note": "Being or becoming dragged along."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40368:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:insahab"
+      ],
+      "note": "Wind's trailing fringes and effacing traces."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40369:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:suhbaEye"
+      ],
+      "note": "Covering or dimness over the eye."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40369:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:suhbaPool"
+      ],
+      "note": "Water remaining in a pool after a torrent."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40370:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:sahban"
+      ],
+      "note": "Epithet for a man who sweeps away everything in his path."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40370:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial comment identifying a likely mistranscription, with no independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40371:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:sahab:s1"
+      ],
+      "note": "Cloud or collection of clouds."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40371:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:sahabDay"
+      ],
+      "note": "Whole-day idiomatic use."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40371:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:sahabWine"
+      ],
+      "note": "Figurative term for wine."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40371:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:sahabTurban"
+      ],
+      "note": "Designation for the Prophet's turban."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40371:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:sahabSword"
+      ],
+      "note": "Proper name of a sword."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40372:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical statement identifying the feminine singular noun of سحاب."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40373:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سُحْبَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40374:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive and cross-reference information only."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40375:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:usHub"
+      ],
+      "note": "Epithet for a voracious eater and drinker."
+    },
+    {
+      "unit_id": "lane-unit:sHb:40376:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sHb:cm:masHab"
+      ],
+      "note": "Place of dragging."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb group is attested only as the passive imperfect يُسْحَبُ/يُسْحَبُونَ; the public headword is normalized to the active perfect citation form سَحَبَ.",
+    "The voracious-eating branch is independently reported in the classical evidence but is questioned in the root-level discussion as possibly belonging to سَحْت rather than سَحْب.",
+    "The eye-cover sense of سُحْبَةٌ is presented cautiously because the evidence gives it as an approximate equivalence with غِشَاوَةٌ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

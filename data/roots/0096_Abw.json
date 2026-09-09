@@ -1,0 +1,499 @@
+{
+  "root": "Abw",
+  "arabic": "أبو",
+  "root_idea": {
+    "summary": "The root centers on fatherhood understood as nurturing, feeding, and raising: the father is one who sustains and brings up.",
+    "development": "From this nurture-based orientation develop the noun for father and paternity, extensions to ancestors and broader kinship, verbs of fathering and rearing, and figurative compounds and idioms.",
+    "source_refs": [
+      "maqayis:row:16",
+      "lane:entry:6036",
+      "lane:entry:6040",
+      "lane:entry:6045"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Abw:>abN:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "abw_ab",
+      "reason": "Displayed under the normalized singular dictionary citation form."
+    },
+    {
+      "form_group_id": "qac-form:Abw:>abawaAn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "abw_ab",
+      "reason": "The dual أَبَوَانِ is an inflectional form of أَبٌ and has the conventional collective sense father and mother, or parents."
+    },
+    {
+      "form_group_id": "qac-form:Abw:A^baA':nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "abw_ab",
+      "reason": "The plural آبَاء is the regular plural of أَبٌ and is represented under the singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "abw_ab",
+      "form_group_ids": [
+        "qac-form:Abw:>abN:nominal:-",
+        "qac-form:Abw:>abawaAn:nominal:-",
+        "qac-form:Abw:A^baA':nominal:-"
+      ],
+      "headword_arabic": "أَبٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 117,
+      "senses": [
+        {
+          "sense_id": "abw_s1",
+          "definition": "Father; the male parent.",
+          "usage_conditions": "Used in ordinary kinship expressions and in the vocative form يا أبتِ, “O my father.”",
+          "source_refs": [
+            "lane:entry:6040"
+          ]
+        },
+        {
+          "sense_id": "abw_s2",
+          "definition": "Ancestor or forefather; a more remote male forebear.",
+          "usage_conditions": "The term, especially in the plural آباء, may extend beyond the immediate father to earlier forebears in genealogical or traditional reference.",
+          "source_refs": [
+            "lane:entry:6040"
+          ]
+        },
+        {
+          "sense_id": "abw_s3",
+          "definition": "Paternal uncle, in an extended kinship use of father terminology.",
+          "usage_conditions": "This is a broader kinship application distinct from the immediate-father sense; the lexical evidence explicitly attests it in a Quranic expression.",
+          "source_refs": [
+            "lane:entry:6040"
+          ]
+        },
+        {
+          "sense_id": "abw_s4",
+          "definition": "Father and mother together; parents.",
+          "usage_conditions": "This collective meaning is expressed by the dual أَبَوَانِ and its inflected forms, which can refer to a person's father and mother as a pair.",
+          "source_refs": [
+            "lane:entry:6040"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:4",
+          "word_location": "12:4:4",
+          "sense_ids": [
+            "abw_s1"
+          ]
+        },
+        {
+          "verse_key": "12:100",
+          "word_location": "12:100:9",
+          "sense_ids": [
+            "abw_s1"
+          ]
+        },
+        {
+          "verse_key": "12:100",
+          "word_location": "12:100:2",
+          "sense_ids": [
+            "abw_s4"
+          ]
+        },
+        {
+          "verse_key": "10:78",
+          "word_location": "10:78:7",
+          "sense_ids": [
+            "abw_s2"
+          ]
+        },
+        {
+          "verse_key": "2:133",
+          "word_location": "2:133:19",
+          "sense_ids": [
+            "abw_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "abw_cm_abawa_father",
+      "headword_arabic": "أَبَا",
+      "definition": "To become a father; to be or become a father to someone.",
+      "usage_conditions": "The transitive construction takes the person for whom one acts as father as its object.",
+      "source_refs": [
+        "lane:entry:6036"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_abawa_nurture",
+      "headword_arabic": "أَبَا",
+      "definition": "To feed, nourish, rear, or bring up, as a father does a child.",
+      "usage_conditions": "A figurative extension of fathering to the work of sustaining and raising a dependent; it is not restricted to the illustrative case of an orphan.",
+      "source_refs": [
+        "lane:entry:6036"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_ransom_formula",
+      "headword_arabic": "أَبَّى / بِأَبِي",
+      "definition": "To address someone with a formula meaning “may you be ransomed with my father,” offering one's father as ransom.",
+      "usage_conditions": "A conventional expression of affection, honor, or endearment, including بِأَبِي أَنْتَ and related forms.",
+      "source_refs": [
+        "lane:entry:6037",
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_adopt",
+      "headword_arabic": "تَأَبَّى",
+      "definition": "To adopt someone as a father, or to adopt a father.",
+      "usage_conditions": "The derived verb describes assuming or accepting a fatherly relationship by adoption rather than by birth.",
+      "source_refs": [
+        "lane:entry:6038"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_unknown_paternity",
+      "headword_arabic": "أَبٌ",
+      "definition": "In idiomatic expressions, to have no known father or not to know who one's father is.",
+      "usage_conditions": "Attested in expressions such as ما يَدْرِي لَهُ مِنْ أَبٍ and ما أَبٌ.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_la_aba_lak",
+      "headword_arabic": "لَا أَبَا لَكَ",
+      "definition": "A fixed address literally invoking lack of a father, used idiomatically as imprecation, emphatic reproach, praise, wonder, or exhortation.",
+      "usage_conditions": "It may be addressed even to someone who has a father; context determines whether it functions as rough speech, commendation, astonishment, a call to exert oneself, or a parenthetical interruption.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_lillahi_abuka",
+      "headword_arabic": "لِلَّهِ أَبُوكَ",
+      "definition": "An exclamation of wonder and praise attributing the excellence displayed by a person to God's creative power and to the worth of his father.",
+      "usage_conditions": "Used on an occasion of admiration or approval.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_bint_abihi",
+      "headword_arabic": "بِنْتُ أَبِيهَا",
+      "definition": "An idiom for resembling one's father in strength of mind or spirit, decisiveness, and energetic initiative.",
+      "usage_conditions": "It describes likeness of character and conduct rather than merely literal parentage.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_husband",
+      "headword_arabic": "أَبُو المَرْأَةِ",
+      "definition": "The woman's husband.",
+      "usage_conditions": "A conventional figurative compound designation.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_master_or_guest",
+      "headword_arabic": "أَبُو المَثْوَى",
+      "definition": "The master of a dwelling or place of abode; also, a guest.",
+      "usage_conditions": "The compound has context-dependent applications to the person associated with a place of lodging.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_hospitable_man",
+      "headword_arabic": "أَبُو الأَضْيَافِ",
+      "definition": "A very hospitable man.",
+      "usage_conditions": "A figurative compound describing a person's characteristic hospitality toward guests.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_lion",
+      "headword_arabic": "أَبُو الحَارِثِ",
+      "definition": "The lion, as a traditional animal byname.",
+      "usage_conditions": "A conventional animal designation rather than a literal kinship expression.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_wolf",
+      "headword_arabic": "أَبُو جَعْدَةَ",
+      "definition": "The wolf, as a traditional animal byname.",
+      "usage_conditions": "A conventional animal designation rather than a literal kinship expression.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_fox",
+      "headword_arabic": "أَبُو الحُصَيْنِ",
+      "definition": "The fox, as a traditional animal byname.",
+      "usage_conditions": "A conventional animal designation rather than a literal kinship expression.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_bread",
+      "headword_arabic": "أَبُو جَابِر",
+      "definition": "Bread, in a conventional figurative designation.",
+      "usage_conditions": "A fixed compound expression.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_old_age",
+      "headword_arabic": "أَبُو مَالِكٍ",
+      "definition": "Extreme old age.",
+      "usage_conditions": "One of the conventional meanings of this compound; context distinguishes it from its other reported use.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_hunger",
+      "headword_arabic": "أَبُو مَالِكٍ",
+      "definition": "Hunger.",
+      "usage_conditions": "A conventional meaning of the compound أَبُو مَالِكٍ.",
+      "source_refs": [
+        "lane:entry:6040"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_paternal",
+      "headword_arabic": "أَبَوِيٌّ",
+      "definition": "Paternal; relating or belonging to a father.",
+      "usage_conditions": "An adjective of relation derived from أَبٌ.",
+      "source_refs": [
+        "lane:entry:6043"
+      ]
+    },
+    {
+      "meaning_id": "abw_cm_fatherhood",
+      "headword_arabic": "أُبُوَّةٌ",
+      "definition": "Fatherhood, paternity, or the relation of a father.",
+      "usage_conditions": "Names the relationship or bond of fatherhood, including a tie of paternity between two people.",
+      "source_refs": [
+        "lane:entry:6045"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Abw:6036:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_abawa_father"
+      ],
+      "note": "Fathering or becoming a father."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6036:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "abw_cm_abawa_father"
+      ],
+      "note": "Transitive fathering is covered by the broader fathering meaning."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6036:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_abawa_nurture"
+      ],
+      "note": "Feeding, nourishing, and rearing as a father does."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6037:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_ransom_formula"
+      ],
+      "note": "The بِأَبِي ransom formula."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6038:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_adopt"
+      ],
+      "note": "Adopting someone as a father or adopting a father."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6039:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form V."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_s1",
+        "abw_s2",
+        "abw_s4"
+      ],
+      "note": "Father, ancestor, dual father-and-mother usage, and related nominal forms."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_unknown_paternity"
+      ],
+      "note": "Idioms concerning unknown paternity."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_la_aba_lak"
+      ],
+      "note": "The متعددة-use idiom لا أبا لك."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_lillahi_abuka"
+      ],
+      "note": "Expression of wonder and praise."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_bint_abihi"
+      ],
+      "note": "Idiom for likeness to one's father."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "abw_cm_ransom_formula"
+      ],
+      "note": "Additional forms of the ransom formula."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_s1"
+      ],
+      "note": "Quranic vocative يا أبتِ and related forms."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub8",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "abw_s2"
+      ],
+      "note": "Ancestor is covered by the Quran-attested ancestor sense."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_s3"
+      ],
+      "note": "Paternal-uncle usage explicitly tied to a Quranic expression."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub10",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial introduction to compounds without an independent meaning."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_husband",
+        "abw_cm_master_or_guest",
+        "abw_cm_hospitable_man"
+      ],
+      "note": "Three conventional compounds and their meanings."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_lion",
+        "abw_cm_wolf",
+        "abw_cm_fox"
+      ],
+      "note": "Animal bynames for lion, wolf, and fox."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub13",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_bread"
+      ],
+      "note": "Compound meaning bread."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6040:g1:sub14",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_old_age",
+        "abw_cm_hunger"
+      ],
+      "note": "Two reported meanings of أبو مالك."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6041:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to أَبٌ."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6042:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to أُبُوَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6043:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_paternal"
+      ],
+      "note": "Paternal adjective."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6044:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive and morphological information only."
+    },
+    {
+      "unit_id": "lane-unit:Abw:6045:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "abw_cm_fatherhood"
+      ],
+      "note": "Fatherhood and paternity as a relation."
+    }
+  ],
+  "cautions": [
+    "The Quranic dual and plural groups are merged under the singular citation form أَبٌ; their collective and ancestral uses remain explicitly represented.",
+    "A historical Quran citation in the lexical material uses Roman-numeral notation and is not converted here into an unsupported modern verse location."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Mufradat row 8 is explicitly shared between the roots Abw and Aby. Its broader discussions of metaphorical fatherhood for prophets and teachers, scholars as those who raise people in knowledge, general causes of existence or rectification, compounds such as أبو الحرب and أبو عذرتها, and the child's بابا expression are therefore not assigned uniquely to this root."
+  ]
+}

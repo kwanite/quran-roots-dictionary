@@ -1,0 +1,389 @@
+{
+  "root": "swE",
+  "arabic": "سوع",
+  "root_idea": {
+    "summary": "The root centers on something continuing, passing onward, or progressing through time.",
+    "development": "This orientation appears in the temporal noun سَاعَة, in hourly hiring, and in uses for leaving camels to proceed on their own; the latter develops into meanings of neglect, loss, and related derived descriptions.",
+    "source_refs": [
+      "maqayis:row:2525",
+      "mufradat:row:644"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:swE:saAEap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "swE-saaah",
+      "reason": "Displayed under the normalized noun سَاعَة."
+    },
+    {
+      "form_group_id": "qac-form:swE:suwaAE:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "swE-suwaa",
+      "reason": "Displayed as the distinct proper name سُوَاع."
+    },
+    {
+      "form_group_id": "qac-form:swE:saAEap:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "swE-saaah",
+      "reason": "The temporal-tagged occurrence is the same lexical item سَاعَة and is subsumed under its ordinary temporal sense."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "swE-saaah",
+      "form_group_ids": [
+        "qac-form:swE:saAEap:nominal:-",
+        "qac-form:swE:saAEap:other:-"
+      ],
+      "headword_arabic": "سَاعَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 48,
+      "senses": [
+        {
+          "sense_id": "swE-saaah-s1",
+          "definition": "A portion or period of time: an hour, a short while, or another brief interval.",
+          "usage_conditions": "Used for ordinary temporal duration, including expressions meaning for or during an hour or a little while; this is distinct from the eschatological use of السَّاعَة.",
+          "source_refs": [
+            "lane:entry:42714",
+            "mufradat:row:644"
+          ]
+        },
+        {
+          "sense_id": "swE-saaah-s2",
+          "definition": "The Hour: the Resurrection and the raising of humanity for reckoning, or the time of its occurrence.",
+          "usage_conditions": "Especially used in the definite form السَّاعَةُ; the Quranic usage may refer to the resurrection itself or to the time when it will occur.",
+          "source_refs": [
+            "lane:entry:42714",
+            "mufradat:row:644"
+          ]
+        },
+        {
+          "sense_id": "swE-saaah-s3",
+          "definition": "An individual’s death, understood as that person’s appointed “hour” at the end of worldly life.",
+          "usage_conditions": "A figurative “small Hour” reading, explicitly applied to the sudden coming of the hour in the Quranic discussion of those who deny meeting God.",
+          "source_refs": [
+            "lane:entry:42714",
+            "mufradat:row:644"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:45",
+          "word_location": "10:45:7",
+          "sense_ids": [
+            "swE-saaah-s1"
+          ]
+        },
+        {
+          "verse_key": "22:1",
+          "word_location": "22:1:7",
+          "sense_ids": [
+            "swE-saaah-s2"
+          ]
+        },
+        {
+          "verse_key": "6:31",
+          "word_location": "6:31:10",
+          "sense_ids": [
+            "swE-saaah-s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "swE-suwaa",
+      "form_group_ids": [
+        "qac-form:swE:suwaAE:nominal:-"
+      ],
+      "headword_arabic": "سُوَاع",
+      "public_pos_label": "Proper noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "swE-suwaa-s1",
+          "definition": "Suwaʿ, the name of an idol worshipped by the people of Noah.",
+          "usage_conditions": "A proper name occurring in the Quranic enumeration of idols.",
+          "source_refs": [
+            "lane:entry:42716",
+            "mufradat:row:644"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "71:23",
+          "word_location": "71:23:9",
+          "sense_ids": [
+            "swE-suwaa-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "swE-c-saa",
+      "headword_arabic": "سَاعَ",
+      "definition": "To be left to oneself or without a herder, and so to proceed without supervision.",
+      "usage_conditions": "Attested particularly of camels in the cited lexical usage.",
+      "source_refs": [
+        "lane:entry:42709"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-musaawaa",
+      "headword_arabic": "مُسَاوَعَة",
+      "definition": "Hourly hiring or bargaining: to engage someone for work by the hour.",
+      "usage_conditions": "A conventional form modeled on hiring by the day or by another fixed period.",
+      "source_refs": [
+        "lane:entry:42710"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-asa3-neglect",
+      "headword_arabic": "أَسَاعَ",
+      "definition": "To leave someone or something unattended or neglected, with the result that it is lost or destroyed.",
+      "usage_conditions": "The lexical use includes abandoning livestock and neglecting a dependent creature.",
+      "source_refs": [
+        "lane:entry:42711"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-aswa3-time",
+      "headword_arabic": "أَسْوَعَ / أَسَاعَ",
+      "definition": "To pass from hour to hour, or to remain behind, be held back, or be delayed for a period.",
+      "usage_conditions": "A time-related use distinct from the Form IV meaning of neglecting or losing something.",
+      "source_refs": [
+        "lane:entry:42711"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-saw3",
+      "headword_arabic": "سَوْع",
+      "definition": "A period or portion of the night, especially a quiet interval after the night has become still; also an hour or short period.",
+      "usage_conditions": "Used in the expression for coming after a period of the night has elapsed.",
+      "source_refs": [
+        "lane:entry:42713"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-saa-measured",
+      "headword_arabic": "سَاعَة",
+      "definition": "A formally measured division of day or night, including the astronomical hour; by extension, the present time or the moment at hand.",
+      "usage_conditions": "These are broader Classical Arabic temporal and deictic uses beyond the Quranic senses listed under the public Quranic form.",
+      "source_refs": [
+        "lane:entry:42714"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-saa-generation",
+      "headword_arabic": "السَّاعَةُ الوُسْطَى",
+      "definition": "The death of a generation or the passing away of the people of an age.",
+      "usage_conditions": "A conventional figurative designation distinguishing the death of a generation from the universal Resurrection and from an individual’s death.",
+      "source_refs": [
+        "lane:entry:42714"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-saa-distress",
+      "headword_arabic": "السَّاعَة",
+      "definition": "Difficulty, distress, or affliction.",
+      "usage_conditions": "A figurative extension of the temporal noun attested in Classical Arabic.",
+      "source_refs": [
+        "lane:entry:42714"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-saa-distance",
+      "headword_arabic": "السَّاعَة",
+      "definition": "Distance or remoteness.",
+      "usage_conditions": "A figurative Classical Arabic extension.",
+      "source_refs": [
+        "lane:entry:42714"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-saa-saw3aa",
+      "headword_arabic": "سَاعَةٌ سَوْعَاءُ",
+      "definition": "A severe, grievous, or distressing hour or period.",
+      "usage_conditions": "A conventional descriptive expression for an especially difficult time.",
+      "source_refs": [
+        "lane:entry:42715"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-saa3i3",
+      "headword_arabic": "سَائِع",
+      "definition": "Left to oneself, neglected, or abandoned; in a plural usage, perishing, being destroyed, or dying.",
+      "usage_conditions": "The first use describes neglect, while the plural-like use describes a resulting state of perdition or destruction.",
+      "source_refs": [
+        "lane:entry:42717"
+      ]
+    },
+    {
+      "meaning_id": "swE-c-misyaa3",
+      "headword_arabic": "مِسْيَاع",
+      "definition": "A habitual abandoner: a she-camel that leaves its young or wanders away in pasture; also a person who neglects or loses livestock or property.",
+      "usage_conditions": "The lexical descriptions include both the animal use and the corresponding description of a person who neglects valuables or livestock.",
+      "source_refs": [
+        "lane:entry:42719"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:swE:42709:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-saa"
+      ],
+      "note": "The unattended-camel use is represented under سَاعَ."
+    },
+    {
+      "unit_id": "lane-unit:swE:42710:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-musaawaa"
+      ],
+      "note": "Hourly hiring is represented."
+    },
+    {
+      "unit_id": "lane-unit:swE:42711:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-asa3-neglect"
+      ],
+      "note": "Neglect resulting in loss or destruction is represented."
+    },
+    {
+      "unit_id": "lane-unit:swE:42711:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-aswa3-time"
+      ],
+      "note": "Passing or delaying from hour to hour is represented."
+    },
+    {
+      "unit_id": "lane-unit:swE:42712:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سَاعَة."
+    },
+    {
+      "unit_id": "lane-unit:swE:42713:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-saw3"
+      ],
+      "note": "A period or quiet interval of the night is represented."
+    },
+    {
+      "unit_id": "lane-unit:swE:42714:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-saaah-s1",
+        "swE-c-saa-measured"
+      ],
+      "note": "The unit's ordinary temporal branch is covered by the Quranic duration sense; its measured and deictic uses are separately represented classically."
+    },
+    {
+      "unit_id": "lane-unit:swE:42714:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-saaah-s2"
+      ],
+      "note": "The Resurrection or its time is Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:swE:42714:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-saa-generation"
+      ],
+      "note": "The death of a generation is represented as a Classical figurative use."
+    },
+    {
+      "unit_id": "lane-unit:swE:42714:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-saaah-s3"
+      ],
+      "note": "The individual-death interpretation is Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:swE:42714:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-saa-distress"
+      ],
+      "note": "Difficulty or affliction is represented."
+    },
+    {
+      "unit_id": "lane-unit:swE:42714:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-saa-distance"
+      ],
+      "note": "Distance or remoteness is represented."
+    },
+    {
+      "unit_id": "lane-unit:swE:42714:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سَائِع."
+    },
+    {
+      "unit_id": "lane-unit:swE:42715:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-saa-saw3aa"
+      ],
+      "note": "The severe or distressing time expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:swE:42716:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سَوْع."
+    },
+    {
+      "unit_id": "lane-unit:swE:42716:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-suwaa-s1"
+      ],
+      "note": "The idol proper name is represented under سُوَاع."
+    },
+    {
+      "unit_id": "lane-unit:swE:42717:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-saa3i3"
+      ],
+      "note": "Neglect and the resulting state of perdition are represented under سَائِع."
+    },
+    {
+      "unit_id": "lane-unit:swE:42718:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following paragraph."
+    },
+    {
+      "unit_id": "lane-unit:swE:42719:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swE-c-misyaa3"
+      ],
+      "note": "The animal and human uses of مِسْيَاع are represented."
+    }
+  ],
+  "cautions": [
+    "The Resurrection, an individual's death, and the ordinary temporal duration are distinct uses of سَاعَة; the individual-death reading is a figurative “small Hour” interpretation of the cited Quranic passage.",
+    "The temporal-tagged Quran occurrence is merged with the nominal form because it is the same lexical headword, while broader Classical figurative extensions remain separate."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

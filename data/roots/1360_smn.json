@@ -1,0 +1,689 @@
+{
+  "root": "smn",
+  "arabic": "سمن",
+  "root_idea": {
+    "summary": "The root centers on fullness of flesh or fat, in contrast with leanness and emaciation; it also extends to fattening and ghee.",
+    "development": "The core idea of bodily or material fullness develops into becoming fat, causing fatness, possessing or supplying fatty provisions, and the noun سَمْنٌ for clarified butter. A regional divergent branch uses Form II for cooling.",
+    "source_refs": [
+      "maqayis:row:2490",
+      "mufradat:row:727"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:smn:yusominu:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:smn:asman",
+      "reason": "Normalized from the Quranic Form IV imperfect يُسْمِنُ to the classical perfect citation form أَسْمَنَ."
+    },
+    {
+      "form_group_id": "qac-form:smn:samiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:smn:samin",
+      "reason": "The singular adjective سَمِينٌ is the appropriate citation form for the Quranic singular and plural adjective forms."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf:smn:asman",
+      "form_group_ids": [
+        "qac-form:smn:yusominu:verb:IV"
+      ],
+      "headword_arabic": "أَسْمَنَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_smn_asman_1",
+          "definition": "To fatten; to cause something to become fat or plump.",
+          "usage_conditions": "A causative transitive use. In the Quranic occurrence it is negated: the food does not produce fatness.",
+          "source_refs": [
+            "mufradat:row:727"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "88:7",
+          "word_location": "88:7:2",
+          "sense_ids": [
+            "sense_smn_asman_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:smn:samin",
+      "form_group_ids": [
+        "qac-form:smn:samiyn:nominal:-"
+      ],
+      "headword_arabic": "سَمِينٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense_smn_samin_1",
+          "definition": "Fat, plump; having much flesh and fat.",
+          "usage_conditions": "The Quranic form occurs both as the singular سَمِينٍ and the plural سِمَانٍ.",
+          "source_refs": [
+            "lane:entry:42238",
+            "mufradat:row:727"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:46",
+          "word_location": "12:46:8",
+          "sense_ids": [
+            "sense_smn_samin_1"
+          ]
+        },
+        {
+          "verse_key": "51:26",
+          "word_location": "51:26:6",
+          "sense_ids": [
+            "sense_smn_samin_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_smn_samina_become_fat",
+      "headword_arabic": "سَمِنَ",
+      "definition": "To become fat or plump; to be in a condition of having much flesh and fat.",
+      "usage_conditions": "Form I intransitive usage.",
+      "source_refs": [
+        "lane:entry:42228"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samina_grain",
+      "headword_arabic": "سَمِنَ",
+      "definition": "Of grain, to become full in the grain.",
+      "usage_conditions": "A figurative extension applied to wheat.",
+      "source_refs": [
+        "lane:entry:42228"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samana_prepare_food",
+      "headword_arabic": "سَمَنَ",
+      "definition": "To prepare, moisten, or stir food or bread with ghee.",
+      "usage_conditions": "Form I transitive usage with food or bread as the object.",
+      "source_refs": [
+        "lane:entry:42228"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samana_feed_ghee",
+      "headword_arabic": "سَمَنَ",
+      "definition": "To feed a person, people, or a group with ghee.",
+      "usage_conditions": "A transitive provision-related use.",
+      "source_refs": [
+        "lane:entry:42228"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_sammana_fatten",
+      "headword_arabic": "سَمَّنَ",
+      "definition": "To render someone or something fat or plump; to cause it to have much flesh and fat.",
+      "usage_conditions": "Form II causative usage, distinct from the Quranic Form IV citation form.",
+      "source_refs": [
+        "lane:entry:42229"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_sammana_provision",
+      "headword_arabic": "سَمَّنَ",
+      "definition": "To furnish people with ghee as travelling provision or supplies.",
+      "usage_conditions": "A provision-related Form II use.",
+      "source_refs": [
+        "lane:entry:42229"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_sammana_cool",
+      "headword_arabic": "سَمَّنَ",
+      "definition": "To cool something.",
+      "usage_conditions": "A regional usage attributed to the dialects of al-Ṭāʾif and Yemen.",
+      "source_refs": [
+        "lane:entry:42229"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_asman_natural",
+      "headword_arabic": "أَسْمَنَ",
+      "definition": "To be fat or plump by nature.",
+      "usage_conditions": "An intransitive Form IV use.",
+      "source_refs": [
+        "lane:entry:42230"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_asman_fat_goods",
+      "headword_arabic": "أَسْمَنَ",
+      "definition": "To possess, buy, or give a fat or plump thing; of a people, to come into the condition of having fat cattle; also, to buy ghee.",
+      "usage_conditions": "The form is used for possession, acquisition, or transfer of fatty goods and for a community's condition with respect to fat cattle.",
+      "source_refs": [
+        "lane:entry:42230"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_tasammana_claim_abundance",
+      "headword_arabic": "تَسَمَّنَ",
+      "definition": "To make a display or claim of abundance by hoarding wealth, boasting of goods not possessed, or claiming an unearned nobility.",
+      "usage_conditions": "A figurative or assumed-tropical extension.",
+      "source_refs": [
+        "lane:entry:42231"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_tasammana_indulge",
+      "headword_arabic": "تَسَمَّنَ",
+      "definition": "To indulge in food and drink that cause fatness or plumpness.",
+      "usage_conditions": "A figurative or assumed-tropical extension referring to fattening consumption.",
+      "source_refs": [
+        "lane:entry:42231"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_istasmana_find_fat",
+      "headword_arabic": "اِسْتَسْمَنَ",
+      "definition": "To deem, reckon, or find a person or thing fat or plump.",
+      "usage_conditions": "The object may be a person, an animal, flesh-meat, or another thing.",
+      "source_refs": [
+        "lane:entry:42232"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_istasmana_seek_fat",
+      "headword_arabic": "اِسْتَسْمَنَ",
+      "definition": "To seek or demand something fat or plump, including ghee.",
+      "usage_conditions": "A seeking or requesting use, including the expression for coming to request ghee.",
+      "source_refs": [
+        "lane:entry:42232"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samn_ghee",
+      "headword_arabic": "سَمْنٌ",
+      "definition": "Clarified butter; ghee. In the compound سَمْنُ الهَبِيدِ, decocted juice of colocynth.",
+      "usage_conditions": "The ordinary noun denotes clarified butter from milk; the compound is a specialized lexical expression.",
+      "source_refs": [
+        "lane:entry:42233"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_siman_fatness",
+      "headword_arabic": "سِمَنٌ",
+      "definition": "Fatness or plumpness; the condition of having much flesh and fat.",
+      "usage_conditions": "An abstract noun contrasted with leanness or emaciation.",
+      "source_refs": [
+        "lane:entry:42234"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samna_herb",
+      "headword_arabic": "سَمْنَةٌ",
+      "definition": "A particular herb with leaves, slender twigs, and a white flower.",
+      "usage_conditions": "A plant name, distinct from the noun for ghee and the related noun for a fattening medicine.",
+      "source_refs": [
+        "lane:entry:42235"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_sumna_medicine",
+      "headword_arabic": "سُمْنَةٌ",
+      "definition": "A medicine used to fatten or render someone plump.",
+      "usage_conditions": "It may refer specifically to a medicine used for fattening women.",
+      "source_refs": [
+        "lane:entry:42236"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_sumaniyya_sect",
+      "headword_arabic": "السُّمَنِيَّةُ",
+      "definition": "A sect or people associated with metempsychosis and related doctrines about the world's duration and the sources of knowledge.",
+      "usage_conditions": "A specialized ethnoreligious designation, reported as an irregular relational noun from the name of an Indian town.",
+      "source_refs": [
+        "lane:entry:42237"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samin_land",
+      "headword_arabic": "سَمِينٌ",
+      "definition": "Of land, fertile and productive, with good soil and few stones.",
+      "usage_conditions": "An assumed-tropical extension of the adjective for fatness, applied to land that strongly fosters plants or herbage.",
+      "source_refs": [
+        "lane:entry:42238"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samin_speech",
+      "headword_arabic": "سَمِينٌ",
+      "definition": "Of speech, chaste, eloquent, or excellent.",
+      "usage_conditions": "An assumed-tropical figurative use.",
+      "source_refs": [
+        "lane:entry:42238"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_sumana_bird",
+      "headword_arabic": "سُمَانَى",
+      "definition": "A well-known bird, commonly identified with the quail.",
+      "usage_conditions": "Used both as a singular and a plural; the singular may also occur as سُمَانَاةٌ.",
+      "source_refs": [
+        "lane:entry:42239"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samman_ghee_seller",
+      "headword_arabic": "سَمَّانٌ",
+      "definition": "A seller of ghee.",
+      "usage_conditions": "An occupational noun.",
+      "source_refs": [
+        "lane:entry:42240"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samman_dyes",
+      "headword_arabic": "سَمَّانٌ",
+      "definition": "Dyes or pigments used for decoration or embellishment.",
+      "usage_conditions": "A specialized nominal use.",
+      "source_refs": [
+        "lane:entry:42240"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samman_plant",
+      "headword_arabic": "سَمَّانُ",
+      "definition": "The name of a particular plant.",
+      "usage_conditions": "A plant name distinguished from the occupational noun سَمَّانٌ.",
+      "source_refs": [
+        "lane:entry:42240"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_samin_possessor_ghee",
+      "headword_arabic": "سَامِنٌ",
+      "definition": "A possessor of ghee.",
+      "usage_conditions": "A possessive nominal formation, parallel to nouns meaning a possessor of milk or dates.",
+      "source_refs": [
+        "lane:entry:42241"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_asman_garments",
+      "headword_arabic": "أَسْمَانٌ",
+      "definition": "Waist-wrappers; old and worn-out garments or pieces of cloth.",
+      "usage_conditions": "A specialized plural-like noun.",
+      "source_refs": [
+        "lane:entry:42242"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_musmin_cattle",
+      "headword_arabic": "مُسْمِنٌ",
+      "definition": "Of a people or party, having cattle that have become fat or plump.",
+      "usage_conditions": "A specialized plural expression describing a community through the condition of its cattle.",
+      "source_refs": [
+        "lane:entry:42244"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_masmana_food",
+      "headword_arabic": "مَسْمَنَةٌ",
+      "definition": "Food that causes fattening of the body.",
+      "usage_conditions": "The feminine nominal form denotes a fattening property or effect.",
+      "source_refs": [
+        "lane:entry:42245"
+      ]
+    },
+    {
+      "meaning_id": "cm_smn_masmun_ghee_food",
+      "headword_arabic": "مَسْمُونٌ",
+      "definition": "Food made or prepared with ghee, or moistened and stirred with it.",
+      "usage_conditions": "A passive-participial adjective applied to food.",
+      "source_refs": [
+        "lane:entry:42247"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:smn:42228:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samina_become_fat"
+      ],
+      "note": "Form I becoming fat or plump."
+    },
+    {
+      "unit_id": "lane-unit:smn:42228:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samina_grain"
+      ],
+      "note": "Wheat becoming full in the grain."
+    },
+    {
+      "unit_id": "lane-unit:smn:42228:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samana_prepare_food"
+      ],
+      "note": "Preparing or moistening food with ghee."
+    },
+    {
+      "unit_id": "lane-unit:smn:42228:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samana_feed_ghee"
+      ],
+      "note": "Feeding people with ghee."
+    },
+    {
+      "unit_id": "lane-unit:smn:42228:g2:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_smn_samana_prepare_food"
+      ],
+      "note": "Seasoning bread with ghee is covered by preparing food with ghee."
+    },
+    {
+      "unit_id": "lane-unit:smn:42229:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_sammana_fatten"
+      ],
+      "note": "Form II causative fattening."
+    },
+    {
+      "unit_id": "lane-unit:smn:42229:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_sammana_provision"
+      ],
+      "note": "Supplying ghee as provisions."
+    },
+    {
+      "unit_id": "lane-unit:smn:42229:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:smn:42229:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_sammana_cool"
+      ],
+      "note": "Regional cooling usage."
+    },
+    {
+      "unit_id": "lane-unit:smn:42230:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_asman_natural"
+      ],
+      "note": "Being fat or plump by nature."
+    },
+    {
+      "unit_id": "lane-unit:smn:42230:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_asman_fat_goods"
+      ],
+      "note": "Possessing, acquiring, giving fat goods, and the cattle-related community use."
+    },
+    {
+      "unit_id": "lane-unit:smn:42230:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_smn_asman_fat_goods"
+      ],
+      "note": "Buying ghee is covered by the acquisition use."
+    },
+    {
+      "unit_id": "lane-unit:smn:42230:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_smn_asman_fat_goods"
+      ],
+      "note": "The condition of having much ghee is covered by the possession use."
+    },
+    {
+      "unit_id": "lane-unit:smn:42230:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form II."
+    },
+    {
+      "unit_id": "lane-unit:smn:42230:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:smn:42231:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:smn:42231:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_tasammana_claim_abundance",
+        "cm_smn_tasammana_indulge"
+      ],
+      "note": "Figurative claims of abundance and indulgence in fattening food."
+    },
+    {
+      "unit_id": "lane-unit:smn:42232:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_istasmana_find_fat"
+      ],
+      "note": "Finding or deeming something fat or plump."
+    },
+    {
+      "unit_id": "lane-unit:smn:42232:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_istasmana_seek_fat"
+      ],
+      "note": "Seeking or demanding ghee or something fat."
+    },
+    {
+      "unit_id": "lane-unit:smn:42233:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samn_ghee"
+      ],
+      "note": "Clarified butter or ghee."
+    },
+    {
+      "unit_id": "lane-unit:smn:42233:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samn_ghee"
+      ],
+      "note": "Specialized compound referring to decocted colocynth juice."
+    },
+    {
+      "unit_id": "lane-unit:smn:42234:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_siman_fatness"
+      ],
+      "note": "Abstract noun for fatness or plumpness."
+    },
+    {
+      "unit_id": "lane-unit:smn:42235:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samna_herb"
+      ],
+      "note": "Name of a particular herb."
+    },
+    {
+      "unit_id": "lane-unit:smn:42236:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_sumna_medicine"
+      ],
+      "note": "Medicine used for fattening."
+    },
+    {
+      "unit_id": "lane-unit:smn:42236:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the herb entry."
+    },
+    {
+      "unit_id": "lane-unit:smn:42237:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_sumaniyya_sect"
+      ],
+      "note": "Specialized sectarian designation."
+    },
+    {
+      "unit_id": "lane-unit:smn:42238:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_smn_samin_1"
+      ],
+      "note": "Fat or plump adjective, also directly Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:smn:42238:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samin_land"
+      ],
+      "note": "Figurative adjective for fertile land."
+    },
+    {
+      "unit_id": "lane-unit:smn:42238:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samin_speech"
+      ],
+      "note": "Figurative adjective for excellent speech."
+    },
+    {
+      "unit_id": "lane-unit:smn:42238:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:smn:42239:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_sumana_bird"
+      ],
+      "note": "Name of the quail or a related well-known bird."
+    },
+    {
+      "unit_id": "lane-unit:smn:42240:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samman_ghee_seller"
+      ],
+      "note": "Seller of ghee."
+    },
+    {
+      "unit_id": "lane-unit:smn:42240:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samman_dyes"
+      ],
+      "note": "Dyes or pigments."
+    },
+    {
+      "unit_id": "lane-unit:smn:42240:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samman_plant"
+      ],
+      "note": "Name of a plant."
+    },
+    {
+      "unit_id": "lane-unit:smn:42241:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سَمِينٌ."
+    },
+    {
+      "unit_id": "lane-unit:smn:42241:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_samin_possessor_ghee"
+      ],
+      "note": "A possessor of ghee."
+    },
+    {
+      "unit_id": "lane-unit:smn:42242:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_asman_garments"
+      ],
+      "note": "Waist-wrappers or worn-out garments."
+    },
+    {
+      "unit_id": "lane-unit:smn:42243:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the feminine of سَمِينٌ."
+    },
+    {
+      "unit_id": "lane-unit:smn:42244:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سَمِينٌ."
+    },
+    {
+      "unit_id": "lane-unit:smn:42244:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_musmin_cattle"
+      ],
+      "note": "People whose cattle have become fat or plump."
+    },
+    {
+      "unit_id": "lane-unit:smn:42245:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_masmana_food"
+      ],
+      "note": "Food that fattens the body."
+    },
+    {
+      "unit_id": "lane-unit:smn:42246:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the feminine of سَمِينٌ."
+    },
+    {
+      "unit_id": "lane-unit:smn:42247:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_smn_masmun_ghee_food"
+      ],
+      "note": "Food prepared or moistened with ghee."
+    }
+  ],
+  "cautions": [
+    "The Quranic adjective is presented under the singular citation form سَمِينٌ, while the Quran also contains its plural form سِمَانٍ.",
+    "The regional cooling sense of سَمَّنَ is kept among broader Classical Arabic meanings and is not treated as a Quranic meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

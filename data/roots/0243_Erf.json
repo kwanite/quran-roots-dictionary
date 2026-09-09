@@ -1,0 +1,1986 @@
+{
+  "root": "Erf",
+  "arabic": "عرف",
+  "root_idea": {
+    "summary": "The root develops two related orientations: ordered succession and settled recognition. From the first come the mane, elevated ridges, and things following one another; from the second come knowing, recognizing, familiarity, and what is accepted as good.",
+    "development": "Recognition is portrayed as a settling of the mind toward something rather than recoiling from it. From this extend knowledge by perception or reflection, acknowledgment, mutual acquaintance, recognized goodness, fragrance that is pleasing to the senses, and the various mane-like or elevated forms.",
+    "source_refs": [
+      "maqayis:row:3181",
+      "mufradat:row:965"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Erf:Earafa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_earafa",
+      "reason": "Canonical Form I verb, normalized to the perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Erf:Ear~afa:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_arrafa",
+      "reason": "Canonical Form II verb."
+    },
+    {
+      "form_group_id": "qac-form:Erf:yataEaArafu:verb:VI",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_taarafa",
+      "reason": "Canonical Form VI reciprocal verb, normalized to the perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Erf:{Eotarafu:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_itarafa",
+      "reason": "Canonical Form VIII verb, normalized to the perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Erf:>aEoraAf:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_aaraf",
+      "reason": "Quranic plural nominal with a distinct Quranic referent."
+    },
+    {
+      "form_group_id": "qac-form:Erf:Eurof:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_urf",
+      "reason": "Quranic noun with distinct goodness and succession usages."
+    },
+    {
+      "form_group_id": "qac-form:Erf:m~aEoruwf:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_maruf",
+      "reason": "Public citation form is the masculine singular passive participle."
+    },
+    {
+      "form_group_id": "qac-form:Erf:m~aEoruwfap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform_maruf",
+      "reason": "Feminine inflection of the same passive-participial lexical item; represented under مَعْرُوفٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_earafa",
+      "form_group_ids": [
+        "qac-form:Erf:Earafa:verb:I"
+      ],
+      "headword_arabic": "عَرَفَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 20,
+      "senses": [
+        {
+          "sense_id": "qsen_earafa_1",
+          "definition": "To know, recognize, or become acquainted with someone or something.",
+          "usage_conditions": "Quranic usage includes recognition by signs, prior familiarity, perception, or reflective discernment; the passive may mean to become known or recognizable.",
+          "source_refs": [
+            "lane:entry:2827",
+            "mufradat:row:965"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:146",
+          "word_location": "2:146:4",
+          "sense_ids": [
+            "qsen_earafa_1"
+          ]
+        },
+        {
+          "verse_key": "12:58",
+          "word_location": "12:58:6",
+          "sense_ids": [
+            "qsen_earafa_1"
+          ]
+        },
+        {
+          "verse_key": "33:59",
+          "word_location": "33:59:15",
+          "sense_ids": [
+            "qsen_earafa_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_arrafa",
+      "form_group_ids": [
+        "qac-form:Erf:Ear~afa:verb:II"
+      ],
+      "headword_arabic": "عَرَّفَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen_arrafa_1",
+          "definition": "To make known, disclose, describe, or designate something so that it is recognized.",
+          "usage_conditions": "The construction may take the person informed and the matter made known; in 66:3 it concerns making part of something known.",
+          "source_refs": [
+            "lane:entry:2828",
+            "mufradat:row:965"
+          ]
+        },
+        {
+          "sense_id": "qsen_arrafa_2",
+          "definition": "To render fragrant, beautify, or make something appealing and familiar by its description.",
+          "usage_conditions": "In the Quranic description of Paradise, the form is explained either as making it fragrant and adorned or as describing and designating it so that its inhabitants recognize their places.",
+          "source_refs": [
+            "lane:entry:2828",
+            "mufradat:row:965"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "66:3",
+          "word_location": "66:3:14",
+          "sense_ids": [
+            "qsen_arrafa_1"
+          ]
+        },
+        {
+          "verse_key": "47:6",
+          "word_location": "47:6:3",
+          "sense_ids": [
+            "qsen_arrafa_2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_taarafa",
+      "form_group_ids": [
+        "qac-form:Erf:yataEaArafu:verb:VI"
+      ],
+      "headword_arabic": "تَعَارَفَ",
+      "public_pos_label": "Verb · Form VI",
+      "verb_form": "VI",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen_taarafa_1",
+          "definition": "To know or become acquainted with one another.",
+          "usage_conditions": "A reciprocal construction denoting mutual recognition or acquaintance.",
+          "source_refs": [
+            "lane:entry:2831",
+            "mufradat:row:965"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "49:13",
+          "word_location": "49:13:11",
+          "sense_ids": [
+            "qsen_taarafa_1"
+          ]
+        },
+        {
+          "verse_key": "10:45",
+          "word_location": "10:45:10",
+          "sense_ids": [
+            "qsen_taarafa_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_itarafa",
+      "form_group_ids": [
+        "qac-form:Erf:{Eotarafu:verb:VIII"
+      ],
+      "headword_arabic": "اِعْتَرَفَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsen_itiraf_1",
+          "definition": "To acknowledge or confess something, especially a fault or sin.",
+          "usage_conditions": "The form commonly occurs with بِـ or لِـ and presents acknowledgment as an admission rather than mere recognition.",
+          "source_refs": [
+            "lane:entry:2832",
+            "mufradat:row:965"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:102",
+          "word_location": "9:102:2",
+          "sense_ids": [
+            "qsen_itiraf_1"
+          ]
+        },
+        {
+          "verse_key": "40:11",
+          "word_location": "40:11:7",
+          "sense_ids": [
+            "qsen_itiraf_1"
+          ]
+        },
+        {
+          "verse_key": "67:11",
+          "word_location": "67:11:1",
+          "sense_ids": [
+            "qsen_itiraf_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_aaraf",
+      "form_group_ids": [
+        "qac-form:Erf:>aEoraAf:nominal:-"
+      ],
+      "headword_arabic": "أَعْرَاف",
+      "public_pos_label": "Noun · plural",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen_aaraf_1",
+          "definition": "The elevated barrier or heights between Paradise and Hell.",
+          "usage_conditions": "In the Quranic expression أَصْحَابُ الْأَعْرَافِ, the inhabitants or occupants of these heights are variously explained in the lexical tradition; the physical referent is the elevated partition or its upper parts.",
+          "source_refs": [
+            "lane:entry:2836",
+            "mufradat:row:965"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:46",
+          "word_location": "7:46:4",
+          "sense_ids": [
+            "qsen_aaraf_1"
+          ]
+        },
+        {
+          "verse_key": "7:48",
+          "word_location": "7:48:3",
+          "sense_ids": [
+            "qsen_aaraf_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_urf",
+      "form_group_ids": [
+        "qac-form:Erf:Eurof:nominal:-"
+      ],
+      "headword_arabic": "عُرْف",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen_urf_1",
+          "definition": "Recognized goodness: an approved good, kindness, beneficence, or proper and moderate conduct.",
+          "usage_conditions": "The Quranic ethical sense denotes what reason, sound custom, or religious law recognizes as good; it can describe fair treatment, gracious speech, and beneficence.",
+          "source_refs": [
+            "lane:entry:2836",
+            "mufradat:row:965"
+          ]
+        },
+        {
+          "sense_id": "qsen_urf_2",
+          "definition": "A succession or series of things following one another, like the strands of a mane.",
+          "usage_conditions": "In the oath expression وَالْمُرْسَلَاتِ عُرْفًا, the form is explained as things sent consecutively; it is also interpreted as sent with beneficence. A reported alternative reading with عَرْفًا is kept distinct from the canonical QAC vocalization.",
+          "source_refs": [
+            "lane:entry:2836",
+            "mufradat:row:965"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:199",
+          "word_location": "7:199:4",
+          "sense_ids": [
+            "qsen_urf_1"
+          ]
+        },
+        {
+          "verse_key": "77:1",
+          "word_location": "77:1:2",
+          "sense_ids": [
+            "qsen_urf_2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_maruf",
+      "form_group_ids": [
+        "qac-form:Erf:m~aEoruwf:nominal:-",
+        "qac-form:Erf:m~aEoruwfap:nominal:-"
+      ],
+      "headword_arabic": "مَعْرُوفٌ",
+      "public_pos_label": "Passive participle · adjective / noun",
+      "verb_form": null,
+      "occurrence_count": 39,
+      "senses": [
+        {
+          "sense_id": "qsen_maruf_1",
+          "definition": "Known, recognized, familiar, or identifiable.",
+          "usage_conditions": "This is the ordinary passive-participial value of the form; the feminine occurrence is represented under the same citation form.",
+          "source_refs": [
+            "lane:entry:2860"
+          ]
+        },
+        {
+          "sense_id": "qsen_maruf_2",
+          "definition": "Recognized as good or appropriate; kind, fair, honorable, or proper treatment.",
+          "usage_conditions": "The Quranic ethical use describes conduct, speech, provision, or treatment approved by reason, sound custom, or religious law, often in the construction بِالْمَعْرُوفِ.",
+          "source_refs": [
+            "lane:entry:2836",
+            "mufradat:row:965"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:53",
+          "word_location": "24:53:12",
+          "sense_ids": [
+            "qsen_maruf_1"
+          ]
+        },
+        {
+          "verse_key": "2:231",
+          "word_location": "2:231:10",
+          "sense_ids": [
+            "qsen_maruf_2"
+          ]
+        },
+        {
+          "verse_key": "4:114",
+          "word_location": "4:114:12",
+          "sense_ids": [
+            "qsen_maruf_2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_formi_acknowledge",
+      "headword_arabic": "عَرَفَ",
+      "definition": "To acknowledge or admit something, used in place of اعترف.",
+      "usage_conditions": "A lexical substitution reported in Classical usage, distinct from the ordinary sense of knowing.",
+      "source_refs": [
+        "lane:entry:2827"
+      ]
+    },
+    {
+      "meaning_id": "cm_requite",
+      "headword_arabic": "عَرَفَ",
+      "definition": "To requite someone according to what he has done.",
+      "usage_conditions": "The object is the person or conduct for which a suitable recompense is made. A reported reading of the Quranic phrase عَرَفَ بَعْضَهُ is associated with this interpretation, but the canonical QAC token at that location is Form II.",
+      "source_refs": [
+        "lane:entry:2827"
+      ]
+    },
+    {
+      "meaning_id": "cm_clip_mane",
+      "headword_arabic": "عَرَفَ",
+      "definition": "To clip the mane of a horse.",
+      "usage_conditions": "A specialized transitive use with a horse as object.",
+      "source_refs": [
+        "lane:entry:2827"
+      ]
+    },
+    {
+      "meaning_id": "cm_lead_people",
+      "headword_arabic": "عَرَفَ عَلَى",
+      "definition": "To act as a عَرِيف: manage or order the affairs of a people or group.",
+      "usage_conditions": "The construction عَرَفَ عَلَى or عَرَفَ عَلَيْهِمْ denotes holding this office.",
+      "source_refs": [
+        "lane:entry:2827"
+      ]
+    },
+    {
+      "meaning_id": "cm_patience",
+      "headword_arabic": "عَرِفٌ",
+      "definition": "Patience or endurance in the face of an affair, affliction, or misfortune.",
+      "usage_conditions": "The related adjective عَارِفٌ or عَرُوفٌ may describe a person or soul that endures an event.",
+      "source_refs": [
+        "lane:entry:2827",
+        "lane:entry:2837",
+        "lane:entry:2852"
+      ]
+    },
+    {
+      "meaning_id": "cm_submissive",
+      "headword_arabic": "عَرَفَ",
+      "definition": "To become submissive, tractable, or manageable.",
+      "usage_conditions": "Said of a person or of a riding animal.",
+      "source_refs": [
+        "lane:entry:2827"
+      ]
+    },
+    {
+      "meaning_id": "cm_pleasant_odor",
+      "headword_arabic": "عَرُفَ",
+      "definition": "To be pleasant or sweet in odor.",
+      "usage_conditions": "The subject may be a person or food; this is an odor-related branch, not the recognition sense.",
+      "source_refs": [
+        "lane:entry:2827"
+      ]
+    },
+    {
+      "meaning_id": "cm_use_perfume",
+      "headword_arabic": "عَرِفَ",
+      "definition": "To make much use of perfume.",
+      "usage_conditions": "A specialized usage concerning habitual application of perfume.",
+      "source_refs": [
+        "lane:entry:2827"
+      ]
+    },
+    {
+      "meaning_id": "cm_abstain_perfume",
+      "headword_arabic": "عَرِفَ",
+      "definition": "To relinquish or abstain from perfume.",
+      "usage_conditions": "A separately reported, opposite usage concerning perfume.",
+      "source_refs": [
+        "lane:entry:2827"
+      ]
+    },
+    {
+      "meaning_id": "cm_pustule",
+      "headword_arabic": "عَرْفَة",
+      "definition": "A purulent pustule appearing in the whiteness or palm of the hand.",
+      "usage_conditions": "The meaning is anatomical and medical, and is also used in descriptions of a person bearing such a pustule.",
+      "source_refs": [
+        "lane:entry:2827",
+        "lane:entry:2839",
+        "lane:entry:2860"
+      ]
+    },
+    {
+      "meaning_id": "cm_define_term",
+      "headword_arabic": "تَعْرِيف",
+      "definition": "An explanation or making of a term known, less restricted than a formal definition.",
+      "usage_conditions": "This is the technical explanatory noun derived from Form II.",
+      "source_refs": [
+        "lane:entry:2828"
+      ]
+    },
+    {
+      "meaning_id": "cm_call_lost",
+      "headword_arabic": "عَرَّفَ",
+      "definition": "To announce and describe a stray animal, lost object, or found property in order to locate its owner.",
+      "usage_conditions": "The construction involves public mention and seeking someone who recognizes the lost thing.",
+      "source_refs": [
+        "lane:entry:2828"
+      ]
+    },
+    {
+      "meaning_id": "cm_stigmatize",
+      "headword_arabic": "عَرَّفَ",
+      "definition": "To brand or stigmatize someone with his misdeed.",
+      "usage_conditions": "The object is a person and the complement identifies the offense.",
+      "source_refs": [
+        "lane:entry:2828"
+      ]
+    },
+    {
+      "meaning_id": "cm_oil_hair",
+      "headword_arabic": "عَرَّفَ",
+      "definition": "To saturate or moisten the hair of the head with oil.",
+      "usage_conditions": "A specialized transitive use with hair as object.",
+      "source_refs": [
+        "lane:entry:2828"
+      ]
+    },
+    {
+      "meaning_id": "cm_season_food",
+      "headword_arabic": "عَرَّفَ",
+      "definition": "To give food abundant seasoning or condiment.",
+      "usage_conditions": "A specialized culinary use.",
+      "source_refs": [
+        "lane:entry:2828"
+      ]
+    },
+    {
+      "meaning_id": "cm_arafat_halt",
+      "headword_arabic": "عَرَّفَ",
+      "definition": "To halt or be present at ʿArafāt during the pilgrimage.",
+      "usage_conditions": "This pilgrimage term denotes the ritual stay at ʿArafāt; later usages also describe imitating that assembly elsewhere.",
+      "source_refs": [
+        "lane:entry:2828"
+      ]
+    },
+    {
+      "meaning_id": "cm_excite_evil",
+      "headword_arabic": "عَرَّفَ",
+      "definition": "To excite evil or mischief between people.",
+      "usage_conditions": "A rare lexical formation reported as a permutation from another root; it is not the ordinary Form II meaning of making known.",
+      "source_refs": [
+        "lane:entry:2828"
+      ]
+    },
+    {
+      "meaning_id": "cm_formiv_warn_forgive",
+      "headword_arabic": "أَعْرَفَ",
+      "definition": "To tell someone of his misdeed and then forgive him.",
+      "usage_conditions": "A specialized Form IV construction.",
+      "source_refs": [
+        "lane:entry:2829"
+      ]
+    },
+    {
+      "meaning_id": "cm_long_mane",
+      "headword_arabic": "أَعْرَفَ",
+      "definition": "To have a long or abundant mane.",
+      "usage_conditions": "Said particularly of a horse.",
+      "source_refs": [
+        "lane:entry:2829"
+      ]
+    },
+    {
+      "meaning_id": "cm_become_known",
+      "headword_arabic": "تَعَرَّفَ",
+      "definition": "To become known.",
+      "usage_conditions": "Intransitive Form V use.",
+      "source_refs": [
+        "lane:entry:2830"
+      ]
+    },
+    {
+      "meaning_id": "cm_self_introduce",
+      "headword_arabic": "تَعَرَّفَ إِلَى",
+      "definition": "To make oneself known or introduce oneself to someone.",
+      "usage_conditions": "The construction may involve revealing one's identity; related religious usage speaks of presenting oneself to God through worship.",
+      "source_refs": [
+        "lane:entry:2830"
+      ]
+    },
+    {
+      "meaning_id": "cm_learn_inquire",
+      "headword_arabic": "تَعَرَّفَ",
+      "definition": "To acquaint oneself with, investigate, or learn something through deliberate inquiry and observation.",
+      "usage_conditions": "The form can imply seeking knowledge leisurely, repeatedly, or thoroughly, including examining a place.",
+      "source_refs": [
+        "lane:entry:2830"
+      ]
+    },
+    {
+      "meaning_id": "cm_act_good",
+      "headword_arabic": "تَعَرَّفَ",
+      "definition": "To act with goodness or appropriately.",
+      "usage_conditions": "A rare and attributed lexical explanation connected with عُرْف, goodness.",
+      "source_refs": [
+        "lane:entry:2830"
+      ]
+    },
+    {
+      "meaning_id": "cm_boast",
+      "headword_arabic": "تَعَارَفَ",
+      "definition": "To vie or compete with one another in boasting or claiming superiority.",
+      "usage_conditions": "A reported non-Quranic reciprocal usage, distinct from mutual acquaintance.",
+      "source_refs": [
+        "lane:entry:2831"
+      ]
+    },
+    {
+      "meaning_id": "cm_self_describe",
+      "headword_arabic": "اعْتَرَفَ",
+      "definition": "To acquaint someone with one's name and condition or describe oneself so that one's identity is certified.",
+      "usage_conditions": "This identity-revealing construction is distinct from confessing a misdeed.",
+      "source_refs": [
+        "lane:entry:2832"
+      ]
+    },
+    {
+      "meaning_id": "cm_describe_lost",
+      "headword_arabic": "اعْتَرَفَ",
+      "definition": "To describe a found object or stray animal so that its owner can be identified.",
+      "usage_conditions": "The purpose is to establish ownership through recognizable description.",
+      "source_refs": [
+        "lane:entry:2832"
+      ]
+    },
+    {
+      "meaning_id": "cm_ask_information",
+      "headword_arabic": "اعْتَرَفَ",
+      "definition": "To ask a person or group for information in order to learn it.",
+      "usage_conditions": "A transitive inquiry construction reported for Form VIII.",
+      "source_refs": [
+        "lane:entry:2832"
+      ]
+    },
+    {
+      "meaning_id": "cm_seek_knowledge",
+      "headword_arabic": "اسْتَعْرَفَ",
+      "definition": "To seek or desire knowledge, or ask whether someone has knowledge of a person or thing.",
+      "usage_conditions": "The Form X meaning may imply deliberate information-seeking.",
+      "source_refs": [
+        "lane:entry:2833"
+      ]
+    },
+    {
+      "meaning_id": "cm_mention_lineage",
+      "headword_arabic": "اسْتَعْرَفَ إِلَى",
+      "definition": "To mention one's relationship, lineage, or genealogy to someone.",
+      "usage_conditions": "A self-identifying Form X construction.",
+      "source_refs": [
+        "lane:entry:2833"
+      ]
+    },
+    {
+      "meaning_id": "cm_mane_verb",
+      "headword_arabic": "اعْرَوْرَفَ",
+      "definition": "To have, mount upon, or rise around a mane or mane-like crest.",
+      "usage_conditions": "Said of a horse and, in one usage, of a person mounting the horse's mane.",
+      "source_refs": [
+        "lane:entry:2834"
+      ]
+    },
+    {
+      "meaning_id": "cm_rise_araf",
+      "headword_arabic": "اعْرَوْرَفَ",
+      "definition": "To rise upon the elevations called the أَعْرَاف.",
+      "usage_conditions": "A rare figurative or assumed-tropical usage associated with the barrier between Paradise and Hell.",
+      "source_refs": [
+        "lane:entry:2834"
+      ]
+    },
+    {
+      "meaning_id": "cm_waves_high",
+      "headword_arabic": "اعْرَوْرَفَ",
+      "definition": "For waves of the sea or a torrent, to become high, heaped, or crestlike.",
+      "usage_conditions": "The comparison is with the projecting mane of a horse.",
+      "source_refs": [
+        "lane:entry:2834",
+        "lane:entry:2836"
+      ]
+    },
+    {
+      "meaning_id": "cm_blood_froth",
+      "headword_arabic": "اعْرَوْرَفَ",
+      "definition": "For blood, to develop froth resembling a mane.",
+      "usage_conditions": "A figurative physical description.",
+      "source_refs": [
+        "lane:entry:2834"
+      ]
+    },
+    {
+      "meaning_id": "cm_dense_palms",
+      "headword_arabic": "اعْرَوْرَفَ",
+      "definition": "For palm trees, to become dense, luxuriant, or thickly intermixed.",
+      "usage_conditions": "The comparison is with the mane of a hyena.",
+      "source_refs": [
+        "lane:entry:2834"
+      ]
+    },
+    {
+      "meaning_id": "cm_prepare_evil",
+      "headword_arabic": "اعْرَوْرَفَ",
+      "definition": "To prepare oneself for evil or mischief, raising the head or stretching out the neck for it.",
+      "usage_conditions": "A figurative description of a person adopting an aggressive posture.",
+      "source_refs": [
+        "lane:entry:2834"
+      ]
+    },
+    {
+      "meaning_id": "cm_odor",
+      "headword_arabic": "عَرْف",
+      "definition": "Odor or scent, whether fragrant or fetid; usually, in favorable contexts, fragrance.",
+      "usage_conditions": "The word may refer to the smell of Paradise or to an unpleasant odor. A reported reading of وَالْمُرْسَلَاتِ عَرْفًا interprets that verse as sent with fragrance, but this is distinct from the canonical عُرْفًا form.",
+      "source_refs": [
+        "lane:entry:2835"
+      ]
+    },
+    {
+      "meaning_id": "cm_plant",
+      "headword_arabic": "عَرْف",
+      "definition": "A certain plant, including a species identified with panic grass.",
+      "usage_conditions": "A botanical meaning with variant descriptions of the plant.",
+      "source_refs": [
+        "lane:entry:2835"
+      ]
+    },
+    {
+      "meaning_id": "cm_confession_noun",
+      "headword_arabic": "عُرْف",
+      "definition": "Acknowledgment or confession, especially an admission that something is due.",
+      "usage_conditions": "A substantive derived from acknowledgment or confession, distinct in vocalization from the ethical عُرْف.",
+      "source_refs": [
+        "lane:entry:2836"
+      ]
+    },
+    {
+      "meaning_id": "cm_conventional_usage",
+      "headword_arabic": "عُرْف",
+      "definition": "Commonly known or conventionally received language, usage, or practice.",
+      "usage_conditions": "A technical lexical and legal term, often opposed to what is merely unknown or rejected.",
+      "source_refs": [
+        "lane:entry:2836"
+      ]
+    },
+    {
+      "meaning_id": "cm_mane",
+      "headword_arabic": "عُرْف",
+      "definition": "The mane of a horse or similar beast; also the neck feathers of a bird or the comb of a cock.",
+      "usage_conditions": "The word may denote the hair, feathers, or flesh-bearing place of growth, and extends metaphorically to a mane-like crest.",
+      "source_refs": [
+        "lane:entry:2836"
+      ]
+    },
+    {
+      "meaning_id": "cm_elevated_land",
+      "headword_arabic": "عُرْفَة",
+      "definition": "An elevated ridge, tract, or overtopping portion of land, sand, or mountain.",
+      "usage_conditions": "The elevated tract may be open and productive of plants; related plural forms denote elevated places generally.",
+      "source_refs": [
+        "lane:entry:2836",
+        "lane:entry:2840"
+      ]
+    },
+    {
+      "meaning_id": "cm_wind_heights",
+      "headword_arabic": "أَعْرَاف",
+      "definition": "The higher or foremost portions of winds, clouds, or mists.",
+      "usage_conditions": "A figurative plural usage based on elevated or crestlike forms.",
+      "source_refs": [
+        "lane:entry:2836"
+      ]
+    },
+    {
+      "meaning_id": "cm_palm_species",
+      "headword_arabic": "عُرْف",
+      "definition": "A species or developmental state of palm tree in which it begins to yield fruit.",
+      "usage_conditions": "A regional usage associated with Bahrain and with the palm called بُرْشُوم.",
+      "source_refs": [
+        "lane:entry:2836"
+      ]
+    },
+    {
+      "meaning_id": "cm_citron_tree",
+      "headword_arabic": "عُرْف",
+      "definition": "The tree of the citron.",
+      "usage_conditions": "A botanical usage.",
+      "source_refs": [
+        "lane:entry:2836"
+      ]
+    },
+    {
+      "meaning_id": "cm_late_recognition",
+      "headword_arabic": "عِرْف",
+      "definition": "Recognition occurring only at the end or later, in a fixed expression.",
+      "usage_conditions": "This meaning is restricted to the reported idiom مَا عَرَفَ عِرْفِي إِلَّا بِأَخَرَةٍ.",
+      "source_refs": [
+        "lane:entry:2837"
+      ]
+    },
+    {
+      "meaning_id": "cm_question",
+      "headword_arabic": "عَرْفَة",
+      "definition": "A question or inquiry about a subject of information in order to learn it.",
+      "usage_conditions": "A nominal form for asking or questioning.",
+      "source_refs": [
+        "lane:entry:2839"
+      ]
+    },
+    {
+      "meaning_id": "cm_open_tract",
+      "headword_arabic": "عُرْفَة",
+      "definition": "An open, elongated tract of land producing plants or herbage.",
+      "usage_conditions": "A geographical and botanical use of the feminine noun.",
+      "source_refs": [
+        "lane:entry:2840"
+      ]
+    },
+    {
+      "meaning_id": "cm_limit",
+      "headword_arabic": "عُرْفَة",
+      "definition": "A boundary or limit between two things.",
+      "usage_conditions": "The plural is reported as عُرَفٌ.",
+      "source_refs": [
+        "lane:entry:2840"
+      ]
+    },
+    {
+      "meaning_id": "cm_araf_day",
+      "headword_arabic": "يَوْمُ عَرَفَة",
+      "definition": "The ninth day of Dhū al-Ḥijjah, the day on which pilgrims halt at ʿArafāt.",
+      "usage_conditions": "A fixed calendrical and pilgrimage expression.",
+      "source_refs": [
+        "lane:entry:2842"
+      ]
+    },
+    {
+      "meaning_id": "cm_arafat_place",
+      "headword_arabic": "عَرَفَات",
+      "definition": "The place or mountain where pilgrims halt on the day of ʿArafah.",
+      "usage_conditions": "A proper place-name in plural form, not ordinarily treated as an ordinary plural. Traditional explanations connect the name with mutual recognition, instruction in the rites, sanctification, or worship.",
+      "source_refs": [
+        "lane:entry:2843",
+        "mufradat:row:965"
+      ]
+    },
+    {
+      "meaning_id": "cm_customary_adjective",
+      "headword_arabic": "عُرْفِيّ",
+      "definition": "Relating to common convention, customary usage, or ordinary parlance.",
+      "usage_conditions": "A technical derivative used in expressions concerning customary meaning and customary metaphor.",
+      "source_refs": [
+        "lane:entry:2844"
+      ]
+    },
+    {
+      "meaning_id": "cm_arafat_adjective",
+      "headword_arabic": "عَرَفِيّ",
+      "definition": "Relating to ʿArafāt.",
+      "usage_conditions": "A nisbah adjective formed from the proper place-name.",
+      "source_refs": [
+        "lane:entry:2845"
+      ]
+    },
+    {
+      "meaning_id": "cm_acknowledger",
+      "headword_arabic": "عِرِفَّان",
+      "definition": "A person who acknowledges or confesses a thing and points or directs to it.",
+      "usage_conditions": "An attributed epithet; a variant form عُرُفَّان is also reported.",
+      "source_refs": [
+        "lane:entry:2846"
+      ]
+    },
+    {
+      "meaning_id": "cm_insect",
+      "headword_arabic": "عُرُفَّان",
+      "definition": "A small creeping creature of the sands, or a large locust-like insect with a crest.",
+      "usage_conditions": "A zoological meaning with regional habitat and plant associations.",
+      "source_refs": [
+        "lane:entry:2846"
+      ]
+    },
+    {
+      "meaning_id": "cm_chief",
+      "headword_arabic": "عَرِيف",
+      "definition": "A chief, head, or superintendent responsible for managing and knowing the circumstances of a group.",
+      "usage_conditions": "The office is below that of a higher chief in some descriptions; the plural is عُرَفَاء.",
+      "source_refs": [
+        "lane:entry:2848"
+      ]
+    },
+    {
+      "meaning_id": "cm_school_monitor",
+      "headword_arabic": "عَرِيف",
+      "definition": "A school monitor who hears the lessons of other students.",
+      "usage_conditions": "A later institutional use derived from the supervisory sense.",
+      "source_refs": [
+        "lane:entry:2848"
+      ]
+    },
+    {
+      "meaning_id": "cm_office_chief",
+      "headword_arabic": "عِرَافَة",
+      "definition": "The holding or exercise of the office of a عَرِيف.",
+      "usage_conditions": "An abstract noun for the office or its administration.",
+      "source_refs": [
+        "lane:entry:2849"
+      ]
+    },
+    {
+      "meaning_id": "cm_diviner",
+      "headword_arabic": "عَرَّاف",
+      "definition": "A diviner, soothsayer, astrologer, or claimant to knowledge of hidden matters.",
+      "usage_conditions": "The precise division from كاهن is reported differently: the terms may distinguish knowledge of past and future, while both can refer to occult claims.",
+      "source_refs": [
+        "lane:entry:2851"
+      ]
+    },
+    {
+      "meaning_id": "cm_physician",
+      "headword_arabic": "عَرَّاف",
+      "definition": "A physician.",
+      "usage_conditions": "A separately reported lexical meaning of the same form.",
+      "source_refs": [
+        "lane:entry:2851"
+      ]
+    },
+    {
+      "meaning_id": "cm_water_finder",
+      "headword_arabic": "عَرَّاف",
+      "definition": "A person who smells the ground and thereby identifies water locations or the district in which he is.",
+      "usage_conditions": "A specialized tracker or water-finder usage.",
+      "source_refs": [
+        "lane:entry:2851"
+      ]
+    },
+    {
+      "meaning_id": "cm_knower",
+      "headword_arabic": "عَارِف",
+      "definition": "A knowing or knowledgeable person, especially one well acquainted with affairs.",
+      "usage_conditions": "The form may be intensive and can describe someone who recognizes a person even after seeing him only once.",
+      "source_refs": [
+        "lane:entry:2852"
+      ]
+    },
+    {
+      "meaning_id": "cm_spiritual_knower",
+      "headword_arabic": "عَارِف",
+      "definition": "One possessing knowledge of God, His kingdom, and the proper way of dealing with Him.",
+      "usage_conditions": "A specialized religious usage of the active participle.",
+      "source_refs": [
+        "lane:entry:2852"
+      ]
+    },
+    {
+      "meaning_id": "cm_little_knower",
+      "headword_arabic": "عُوَيْرِف",
+      "definition": "A person possessing little knowledge, especially one characterized by a sin or crime.",
+      "usage_conditions": "A diminutive of عَارِف with disparaging force.",
+      "source_refs": [
+        "lane:entry:2854"
+      ]
+    },
+    {
+      "meaning_id": "cm_mane_adjective",
+      "headword_arabic": "أَعْرَف",
+      "definition": "Having a mane, crest, or mane-like elevation; full-haired or high-crested.",
+      "usage_conditions": "Applied to horses, serpents, camels, mountains, rugged ground, and other things explicitly compared with a mane; the object examples do not restrict the general adjective.",
+      "source_refs": [
+        "lane:entry:2855"
+      ]
+    },
+    {
+      "meaning_id": "cm_face_features",
+      "headword_arabic": "مَعْرَف",
+      "definition": "The face, visible features, or recognizable parts of the face.",
+      "usage_conditions": "The plural مَعَارِف refers to the parts by which a person is recognized and may extend to the visible or known parts of land.",
+      "source_refs": [
+        "lane:entry:2856"
+      ]
+    },
+    {
+      "meaning_id": "cm_acquaintances",
+      "headword_arabic": "مَعْرَف",
+      "definition": "Known people, acquaintances, or persons entitled to one's affection.",
+      "usage_conditions": "A plural usage of مَعَارِف based on people with whom one has acquaintance.",
+      "source_refs": [
+        "lane:entry:2856"
+      ]
+    },
+    {
+      "meaning_id": "cm_mane_place",
+      "headword_arabic": "مَعْرَفَة",
+      "definition": "The place or flesh on which the mane of a horse grows, from forelock to withers.",
+      "usage_conditions": "This is the place-of-growth noun, distinct from مَعْرِفَة meaning knowledge.",
+      "source_refs": [
+        "lane:entry:2857"
+      ]
+    },
+    {
+      "meaning_id": "cm_knowledge_noun",
+      "headword_arabic": "مَعْرِفَة",
+      "definition": "Knowledge, cognition, cognizance, or acquaintance.",
+      "usage_conditions": "The noun denotes knowledge attained through perception, reflection, or becoming acquainted; it is also used in grammar for a determinate noun, but that grammatical use is not a lexical sense here.",
+      "source_refs": [
+        "lane:entry:2858",
+        "lane:entry:2841"
+      ]
+    },
+    {
+      "meaning_id": "cm_fragrant_food",
+      "headword_arabic": "مُعَرَّف",
+      "definition": "Food made fragrant.",
+      "usage_conditions": "A passive participial use of Form II.",
+      "source_refs": [
+        "lane:entry:2859"
+      ]
+    },
+    {
+      "meaning_id": "cm_layered_food",
+      "headword_arabic": "مُعَرَّف",
+      "definition": "Food placed layer upon layer so that its upper portion resembles a mane or crest.",
+      "usage_conditions": "A specialized culinary description.",
+      "source_refs": [
+        "lane:entry:2859"
+      ]
+    },
+    {
+      "meaning_id": "cm_halt_place",
+      "headword_arabic": "مُعَرَّف",
+      "definition": "The place of halting at ʿArafāt, or the period after that halt.",
+      "usage_conditions": "A pilgrimage term derived from the Form II use connected with ʿArafāt.",
+      "source_refs": [
+        "lane:entry:2859"
+      ]
+    },
+    {
+      "meaning_id": "cm_fragrant_land",
+      "headword_arabic": "مَعْرُوف",
+      "definition": "Land having a fragrant odor.",
+      "usage_conditions": "A specialized odor-related adjective, distinct from the Quranic ethical and recognizable meanings of مَعْرُوف.",
+      "source_refs": [
+        "lane:entry:2860"
+      ]
+    },
+    {
+      "meaning_id": "cm_confession_participle",
+      "headword_arabic": "مُعْتَرِف",
+      "definition": "One who confesses or informs against himself concerning an offense liable to punishment.",
+      "usage_conditions": "A substantivized active participle of Form VIII.",
+      "source_refs": [
+        "lane:entry:2861"
+      ]
+    },
+    {
+      "meaning_id": "cm_customary_language",
+      "headword_arabic": "مُتَعَارَف",
+      "definition": "Known by common conventional usage.",
+      "usage_conditions": "Applied to a word, phrase, or language recognized within a community.",
+      "source_refs": [
+        "lane:entry:2862"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Erf:2827:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_earafa_1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formi_acknowledge"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_requite"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_clip_mane"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lead_people"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_patience"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g4:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_submissive"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_pleasant_odor"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g5:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_use_perfume"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g5:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_abstain_perfume"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2827:g6:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_pustule"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsen_arrafa_1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_arrafa_1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_define_term"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical use: making a noun determinate."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_call_lost"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_stigmatize"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_arrafa_1",
+        "qsen_arrafa_2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_oil_hair"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_season_food"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_arafat_halt"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2828:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_excite_evil"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2829:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formiv_warn_forgive"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2829:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_long_mane"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2829:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2830:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_become_known"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2830:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_self_introduce"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2830:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_self_introduce",
+        "cm_requite"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2830:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_learn_inquire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2830:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_learn_inquire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2830:g2:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_learn_inquire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2830:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_act_good"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2831:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_taarafa_1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2831:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_boast"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2832:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsen_itiraf_1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2832:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_self_describe"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2832:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_describe_lost"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2832:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ask_information"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2832:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2832:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2833:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_seek_knowledge"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2833:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mention_lineage"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2833:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2834:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mane_verb"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2834:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mane_verb"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2834:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rise_araf"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2834:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waves_high"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2834:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_blood_froth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2834:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dense_palms"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2834:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_prepare_evil"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2835:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_odor"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2835:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_plant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_confession_noun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_urf_1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_conventional_usage"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_urf_2",
+        "cm_mane"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waves_high"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_elevated_land"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_aaraf_1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g2:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g2:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wind_heights"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g2:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_palm_species"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g2:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_citron_tree"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional plural pointer."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2836:g3:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional plural pointer."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2837:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_late_recognition"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2837:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_patience"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2838:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2839:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_question"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2839:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2839:g3:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_pustule"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2840:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2840:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_open_tract"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2840:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_limit"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2841:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_knowledge_noun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2841:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2842:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_araf_day"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2842:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2843:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_arafat_place"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2844:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_customary_adjective"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2845:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_arafat_adjective"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2846:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_acknowledger"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2846:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_insect"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2847:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2848:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2848:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_chief"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2848:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_school_monitor"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2848:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2849:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_office_chief"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2850:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2851:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_diviner"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2851:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_diviner"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2851:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_physician"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2851:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_water_finder"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2852:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_knower"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2852:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_patience"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2852:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_spiritual_knower"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2852:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2852:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_patience"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2853:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the goodness sense."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2854:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_little_knower"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2855:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Irregular comparative or grammatical formation."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2855:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mane_adjective"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2855:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mane_adjective"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2855:g2:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_mane_adjective"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2856:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_face_features",
+        "cm_acquaintances"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2857:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mane_place"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2858:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_knowledge_noun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2858:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2858:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical use: determinate noun."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2859:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Morphological pointer identifying a passive participle."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2859:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fragrant_food"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2859:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_layered_food"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2859:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_halt_place"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2859:g4:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_halt_place"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2860:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsen_maruf_1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2860:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical use: active voice."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2860:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Erf:2860:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fragrant_land"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2860:g3:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_pustule"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2861:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_confession_participle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Erf:2862:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_customary_language"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The reported Lane reading عَرَفَ بَعْضَهُ at 66:3 is an alternative reading or interpretation; the canonical QAC occurrence at that location is the Form II group عَرَّفَ, so it is not counted as a canonical Form I occurrence.",
+    "The Quranic interpretations of عَرَّفَهَا in 47:6 include making Paradise fragrant or beautified and describing or designating it so that it is recognized; both materially distinct interpretations are retained under Form II.",
+    "عُرْفًا in 77:1 is represented according to the canonical QAC form as succession like a mane. Lane also reports interpretations involving beneficence and an alternative reading عَرْفًا meaning fragrance; the latter is not conflated with the canonical QAC vocalization.",
+    "The Quranic أَعْرَاف refers to the barrier or elevated parts between Paradise and Hell; explanations of its occupants vary in the cited lexical tradition."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

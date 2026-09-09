@@ -1,0 +1,1549 @@
+{
+  "root": "dwr",
+  "arabic": "دور",
+  "root_idea": {
+    "summary": "The root centers on enclosing or surrounding something from all around it, and hence on circular movement, turning, circulation, and what comes around or encompasses.",
+    "development": "From the basic idea of surrounding arise movement in a circle, recurrence and circulation, circumferential forms, adverse circumstances that envelop people, and places or communities understood as a dwelling or bounded domain.",
+    "source_refs": [
+      "maqayis:row:1858",
+      "mufradat:row:452"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:dwr:taduwru:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dwr_verb_dara",
+      "reason": "Normalized Form I imperfect to the classical perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:dwr:tudiyru:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dwr_verb_adara",
+      "reason": "Normalized Form IV imperfect to the classical perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:dwr:daA^}irap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dwr_noun_daira",
+      "reason": "Displayed under the singular dictionary form."
+    },
+    {
+      "form_group_id": "qac-form:dwr:daAr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dwr_noun_dar",
+      "reason": "Displayed under the noun دار, covering its Quranic singular and plural inflections."
+    },
+    {
+      "form_group_id": "qac-form:dwr:day~aAr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dwr_noun_dayyar",
+      "reason": "Displayed under the lexical citation form دَيَّارٌ."
+    },
+    {
+      "form_group_id": "qac-form:dwr:d~awaA^}ir:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "dwr_noun_daira",
+      "reason": "Quranic plural of دائرة; merged with the singular dictionary headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "dwr_verb_dara",
+      "form_group_ids": [
+        "qac-form:dwr:taduwru:verb:I"
+      ],
+      "headword_arabic": "دَارَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "dwr_dara_s1",
+          "definition": "To turn, revolve, or move around; to circle.",
+          "usage_conditions": "Quranic Form I imperfect usage describing circular or revolving movement.",
+          "source_refs": [
+            "lane:entry:1564"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:19",
+          "word_location": "33:19:9",
+          "sense_ids": [
+            "dwr_dara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dwr_verb_adara",
+      "form_group_ids": [
+        "qac-form:dwr:tudiyru:verb:IV"
+      ],
+      "headword_arabic": "أَدَارَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "dwr_adara_s1",
+          "definition": "To circulate or pass something back and forth between people; to give and take it from hand to hand.",
+          "usage_conditions": "In the Quranic commercial construction, the merchandise is present and exchanged between the parties without deferral.",
+          "source_refs": [
+            "lane:entry:1567",
+            "mufradat:row:452"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:282",
+          "word_location": "2:282:101",
+          "sense_ids": [
+            "dwr_adara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dwr_noun_daira",
+      "form_group_ids": [
+        "qac-form:dwr:daA^}irap:nominal:-",
+        "qac-form:dwr:d~awaA^}ir:nominal:-"
+      ],
+      "headword_arabic": "دَائِرَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "dwr_daira_s1",
+          "definition": "A turn of fortune, especially an adverse turn, calamity, or misfortune that overtakes and envelops people.",
+          "usage_conditions": "The Quranic expressions دائرة السوء and الدوائر refer to harmful circumstances or reversals of fortune; the plural form denotes such turns collectively.",
+          "source_refs": [
+            "lane:entry:1593",
+            "mufradat:row:452"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:52",
+          "word_location": "5:52:12",
+          "sense_ids": [
+            "dwr_daira_s1"
+          ]
+        },
+        {
+          "verse_key": "9:98",
+          "word_location": "9:98:10",
+          "sense_ids": [
+            "dwr_daira_s1"
+          ]
+        },
+        {
+          "verse_key": "48:6",
+          "word_location": "48:6:11",
+          "sense_ids": [
+            "dwr_daira_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dwr_noun_dar",
+      "form_group_ids": [
+        "qac-form:dwr:daAr:nominal:-"
+      ],
+      "headword_arabic": "دَارٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 48,
+      "senses": [
+        {
+          "sense_id": "dwr_dar_s1",
+          "definition": "A house, home, or place of residence; a dwelling or group of dwellings.",
+          "usage_conditions": "Includes Quranic singular and plural forms, including دِيَار, when referring to people's houses or inhabited residences.",
+          "source_refs": [
+            "lane:entry:1570",
+            "mufradat:row:452"
+          ]
+        },
+        {
+          "sense_id": "dwr_dar_s2",
+          "definition": "An abode, domain, or established dwelling-place, including a worldly or hereafter realm.",
+          "usage_conditions": "Used in Quranic expressions such as the abode of this world, the Hereafter, peace, or the transgressors; the meaning is determined by the accompanying qualifier and context.",
+          "source_refs": [
+            "lane:entry:1570",
+            "mufradat:row:452"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:84",
+          "word_location": "2:84:11",
+          "sense_ids": [
+            "dwr_dar_s1"
+          ]
+        },
+        {
+          "verse_key": "6:127",
+          "word_location": "6:127:2",
+          "sense_ids": [
+            "dwr_dar_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dwr_noun_dayyar",
+      "form_group_ids": [
+        "qac-form:dwr:day~aAr:nominal:-"
+      ],
+      "headword_arabic": "دَيَّارٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "dwr_dayyar_s1",
+          "definition": "An inhabitant or resident; a person dwelling in a place.",
+          "usage_conditions": "The Quranic occurrence appears in a negative construction meaning that no inhabitant or resident is to be left.",
+          "source_refs": [
+            "lane:entry:1588",
+            "mufradat:row:452"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "71:26",
+          "word_location": "71:26:10",
+          "sense_ids": [
+            "dwr_dayyar_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_dawr_circulation",
+      "headword_arabic": "دَارَ",
+      "definition": "To circulate or go around among people or objects.",
+      "usage_conditions": "Includes things passed around from one person to another.",
+      "source_refs": [
+        "lane:entry:1564"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawr_celestial",
+      "headword_arabic": "دَارَ",
+      "definition": "Of a celestial sphere or firmament, to revolve in its orbit or about its axis.",
+      "usage_conditions": "A specialized application of circular movement to the heavens.",
+      "source_refs": [
+        "lane:entry:1564"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawr_circular_reasoning",
+      "headword_arabic": "دَارَ",
+      "definition": "To reason in a circle, with propositions depending circularly upon one another.",
+      "usage_conditions": "A figurative technical use.",
+      "source_refs": [
+        "lane:entry:1564"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawr_time_turn",
+      "headword_arabic": "دَارَ",
+      "definition": "For days, time, fortune, or an event to come round, recur, or come about.",
+      "usage_conditions": "Used of temporal cycles and changing circumstances.",
+      "source_refs": [
+        "lane:entry:1564"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawr_vertigo",
+      "headword_arabic": "دَارَ",
+      "definition": "To seem to turn around a person suffering vertigo or giddiness.",
+      "usage_conditions": "Used with the relevant preposition of the ground, sea, or surrounding scene.",
+      "source_refs": [
+        "lane:entry:1564"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawr_compass_control",
+      "headword_arabic": "دَارَ",
+      "definition": "To comprehend, encompass, or have something within one's power, compass, or care.",
+      "usage_conditions": "A figurative extension of surrounding; it may describe authority over people or control of an affair.",
+      "source_refs": [
+        "lane:entry:1564"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawr_amorous_dalliance",
+      "headword_arabic": "دَارَ",
+      "definition": "To court, dally with, or hold amorous converse with someone under one's power or care.",
+      "usage_conditions": "A specialized figurative construction involving an amorous relation.",
+      "source_refs": [
+        "lane:entry:1564"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawwara_round",
+      "headword_arabic": "دَوَّرَ",
+      "definition": "To make something round, circular, or spherical.",
+      "usage_conditions": "Form II causative use.",
+      "source_refs": [
+        "lane:entry:1565"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawwara_mental",
+      "headword_arabic": "دَوَّرَ",
+      "definition": "To turn thoughts or opinions over in the mind concerning an affair.",
+      "usage_conditions": "A figurative Form II use.",
+      "source_refs": [
+        "lane:entry:1565"
+      ]
+    },
+    {
+      "meaning_id": "cm_daawara_with",
+      "headword_arabic": "دَاوَرَ",
+      "definition": "To go round about with someone or accompany someone in circular movement.",
+      "usage_conditions": "Equivalent to going round with the person concerned.",
+      "source_refs": [
+        "lane:entry:1566"
+      ]
+    },
+    {
+      "meaning_id": "cm_daawara_circumvent",
+      "headword_arabic": "دَاوَرَ",
+      "definition": "To circumvent someone or seek to outmaneuver game by attending to its movements and sounds.",
+      "usage_conditions": "The hunting use describes skill in tracking and circumventing prey.",
+      "source_refs": [
+        "lane:entry:1566"
+      ]
+    },
+    {
+      "meaning_id": "cm_daawara_induce",
+      "headword_arabic": "دَاوَرَ",
+      "definition": "To try to turn or incline someone toward or away from an affair, sometimes by deceit or guile.",
+      "usage_conditions": "The construction may take عن for turning someone away or على for turning someone toward something.",
+      "source_refs": [
+        "lane:entry:1566"
+      ]
+    },
+    {
+      "meaning_id": "cm_daawara_manage",
+      "headword_arabic": "دَاوَرَ",
+      "definition": "To work at, manage, or seek the methods of carrying out affairs.",
+      "usage_conditions": "The verbal noun denotes sustained exertion in handling or accomplishing affairs.",
+      "source_refs": [
+        "lane:entry:1566"
+      ]
+    },
+    {
+      "meaning_id": "cm_adaara_rotate",
+      "headword_arabic": "أَدَارَ",
+      "definition": "To make someone or something go, move, turn, circle, or return around; to wind or stir something around.",
+      "usage_conditions": "Examples include winding a turban around the head and stirring saffron in water.",
+      "source_refs": [
+        "lane:entry:1567"
+      ]
+    },
+    {
+      "meaning_id": "cm_adaara_vertigo",
+      "headword_arabic": "أَدَارَ",
+      "definition": "To cause someone to experience vertigo or giddiness.",
+      "usage_conditions": "The passive and prepositional constructions describe being made to turn or being affected by vertigo.",
+      "source_refs": [
+        "lane:entry:1567"
+      ]
+    },
+    {
+      "meaning_id": "cm_adaara_induce",
+      "headword_arabic": "أَدَارَ",
+      "definition": "To endeavor to induce someone to do something or to leave it.",
+      "usage_conditions": "The construction may express turning someone toward an affair or away from it.",
+      "source_refs": [
+        "lane:entry:1567"
+      ]
+    },
+    {
+      "meaning_id": "cm_tadayyara_abode",
+      "headword_arabic": "تَدَيَّرَ",
+      "definition": "To take a place as a house or abode.",
+      "usage_conditions": "The Form V verb applies to settling in or treating a place as a dwelling.",
+      "source_refs": [
+        "lane:entry:1568"
+      ]
+    },
+    {
+      "meaning_id": "cm_istadaara_round",
+      "headword_arabic": "اِسْتَدَارَ",
+      "definition": "To become or assume a round or circular form; to become coiled or full.",
+      "usage_conditions": "Used, for example, of the moon becoming full or a thing winding around another.",
+      "source_refs": [
+        "lane:entry:1569"
+      ]
+    },
+    {
+      "meaning_id": "cm_dar_burial_ground",
+      "headword_arabic": "دَارٌ",
+      "definition": "A burial-ground.",
+      "usage_conditions": "A derived application of دار to a place where people are laid to rest.",
+      "source_refs": [
+        "lane:entry:1570"
+      ]
+    },
+    {
+      "meaning_id": "cm_dar_country",
+      "headword_arabic": "دَارٌ",
+      "definition": "A country, district, city, town, or village considered as an inhabited domain.",
+      "usage_conditions": "A broader territorial use distinct from the concrete house or dwelling.",
+      "source_refs": [
+        "lane:entry:1570"
+      ]
+    },
+    {
+      "meaning_id": "cm_dar_medina",
+      "headword_arabic": "الدَّارُ",
+      "definition": "The City of the Prophet, Medina, when used with the definite article.",
+      "usage_conditions": "A conventional proper-name use.",
+      "source_refs": [
+        "lane:entry:1570"
+      ]
+    },
+    {
+      "meaning_id": "cm_dar_tribe",
+      "headword_arabic": "دَارٌ",
+      "definition": "A tribe or people understood as the inhabitants of one house or domain.",
+      "usage_conditions": "A figurative collective use, as in the tribe of a named family.",
+      "source_refs": [
+        "lane:entry:1570"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawr_circumference",
+      "headword_arabic": "دَوْرٌ",
+      "definition": "The circumference of a circle.",
+      "usage_conditions": "A nominal derivative referring to the extent of circular movement.",
+      "source_refs": [
+        "lane:entry:1571"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawr_turban_twist",
+      "headword_arabic": "دَوْرٌ",
+      "definition": "A turn or twist of a turban, rope, or similar elongated object.",
+      "usage_conditions": "Refers to one winding or revolution in wrapping or twisting.",
+      "source_refs": [
+        "lane:entry:1571"
+      ]
+    },
+    {
+      "meaning_id": "cm_dayr_monastery",
+      "headword_arabic": "دَيْرٌ",
+      "definition": "A Christian convent or monastery, including a monk's cloister or cell.",
+      "usage_conditions": "A lexicalized place-name branch associated with a monastic dwelling.",
+      "source_refs": [
+        "lane:entry:1572"
+      ]
+    },
+    {
+      "meaning_id": "cm_dayr_head",
+      "headword_arabic": "رَأْسُ الدَّيْرِ",
+      "definition": "The head or chief of a group of companions.",
+      "usage_conditions": "An idiomatic figurative use of the head of a monastery.",
+      "source_refs": [
+        "lane:entry:1572"
+      ]
+    },
+    {
+      "meaning_id": "cm_dara_halo",
+      "headword_arabic": "دَارَةٌ",
+      "definition": "The halo or circular ring around the moon.",
+      "usage_conditions": "A specialized circumferential sense.",
+      "source_refs": [
+        "lane:entry:1573"
+      ]
+    },
+    {
+      "meaning_id": "cm_dara_sandy_circle",
+      "headword_arabic": "دَارَةٌ",
+      "definition": "A round space or tract of sand, sometimes with an open space in the middle.",
+      "usage_conditions": "The place may be used as a gathering place where people sit and drink.",
+      "source_refs": [
+        "lane:entry:1573"
+      ]
+    },
+    {
+      "meaning_id": "cm_dara_mountain_plain",
+      "headword_arabic": "دَارَةٌ",
+      "definition": "A wide plain or open tract of land enclosed or surrounded by mountains or sands.",
+      "usage_conditions": "The terrain may be soft and level or somewhat rugged, depending on the usage.",
+      "source_refs": [
+        "lane:entry:1573"
+      ]
+    },
+    {
+      "meaning_id": "cm_dara_enclosed_place",
+      "headword_arabic": "دَارَةٌ",
+      "definition": "A place surrounded and confined by something.",
+      "usage_conditions": "A general spatial use of enclosure.",
+      "source_refs": [
+        "lane:entry:1573"
+      ]
+    },
+    {
+      "meaning_id": "cm_dara_calamity",
+      "headword_arabic": "دَارَةٌ",
+      "definition": "A calamity or misfortune.",
+      "usage_conditions": "A determinate nominal use distinct from the Quranic noun دائرة.",
+      "source_refs": [
+        "lane:entry:1573"
+      ]
+    },
+    {
+      "meaning_id": "cm_dari_homebody",
+      "headword_arabic": "دَارِيٌّ",
+      "definition": "A person who remains in his house and scarcely leaves it.",
+      "usage_conditions": "The sense emphasizes staying at home rather than seeking sustenance elsewhere.",
+      "source_refs": [
+        "lane:entry:1577"
+      ]
+    },
+    {
+      "meaning_id": "cm_dari_comfort",
+      "headword_arabic": "دَارِيٌّ",
+      "definition": "A possessor of life's blessings, comforts, or conveniences.",
+      "usage_conditions": "A figurative extension of one who remains established in a house.",
+      "source_refs": [
+        "lane:entry:1577"
+      ]
+    },
+    {
+      "meaning_id": "cm_dari_staying_animal",
+      "headword_arabic": "دَارِيٌّ",
+      "definition": "A camel, sheep, or goat that remains at the house or stays behind instead of going to pasture.",
+      "usage_conditions": "Applied to a domestic animal that remains where the others lie down.",
+      "source_refs": [
+        "lane:entry:1577"
+      ]
+    },
+    {
+      "meaning_id": "cm_dari_sailor",
+      "headword_arabic": "دَارِيٌّ",
+      "definition": "A sailor responsible for handling the sail.",
+      "usage_conditions": "A specialized occupational use.",
+      "source_refs": [
+        "lane:entry:1577"
+      ]
+    },
+    {
+      "meaning_id": "cm_dari_perfumer",
+      "headword_arabic": "دَارِيٌّ",
+      "definition": "A seller of perfumes or perfumer.",
+      "usage_conditions": "A conventional attribution associated with Dārīn and its perfume market.",
+      "source_refs": [
+        "lane:entry:1577"
+      ]
+    },
+    {
+      "meaning_id": "cm_dayrani_monastery",
+      "headword_arabic": "دَيْرَانِيٌّ",
+      "definition": "The master or an inhabitant of a convent or monastery.",
+      "usage_conditions": "A relational noun from دَيْرٌ.",
+      "source_refs": [
+        "lane:entry:1580"
+      ]
+    },
+    {
+      "meaning_id": "cm_duwar_vertigo",
+      "headword_arabic": "دُوَارٌ",
+      "definition": "Vertigo or giddiness in the head.",
+      "usage_conditions": "The vocalized noun denotes the condition itself.",
+      "source_refs": [
+        "lane:entry:1582"
+      ]
+    },
+    {
+      "meaning_id": "cm_duwar_ritual",
+      "headword_arabic": "دُوَارٌ",
+      "definition": "An idol, stone, or the circular space around it, used for ritual circumambulation; the term was also applied to the Kaaba.",
+      "usage_conditions": "This is a pre-Islamic or conventional cultic use involving circling a sacred object or space.",
+      "source_refs": [
+        "lane:entry:1582"
+      ]
+    },
+    {
+      "meaning_id": "cm_duwar_sandy_circle",
+      "headword_arabic": "دُوَارٌ",
+      "definition": "A circling tract of sand around which wild animals move.",
+      "usage_conditions": "A landscape term for a circular sandy area.",
+      "source_refs": [
+        "lane:entry:1582"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawwar_celestial",
+      "headword_arabic": "دَوَّارٌ",
+      "definition": "Turning, circling, or revolving, especially when applied to the firmament.",
+      "usage_conditions": "An intensive adjectival description of circular celestial motion.",
+      "source_refs": [
+        "lane:entry:1586"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawwar_time_fortune",
+      "headword_arabic": "دَوَّارٌ",
+      "definition": "Turning people repeatedly from one state or condition to another, said of time or fortune.",
+      "usage_conditions": "A figurative description of the recurrent changes imposed by time or fortune.",
+      "source_refs": [
+        "lane:entry:1586"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawwara_mill",
+      "headword_arabic": "دَوَّارَةٌ",
+      "definition": "A piece of wood turned by water so that it makes a mill turn.",
+      "usage_conditions": "A technical implement sense.",
+      "source_refs": [
+        "lane:entry:1590"
+      ]
+    },
+    {
+      "meaning_id": "cm_dawwara_compass",
+      "headword_arabic": "دَوَّارَةٌ",
+      "definition": "A pair of compasses.",
+      "usage_conditions": "A tool named for its circular movement or function.",
+      "source_refs": [
+        "lane:entry:1590"
+      ]
+    },
+    {
+      "meaning_id": "cm_duwwara_head",
+      "headword_arabic": "دُوَّارَةٌ",
+      "definition": "A round part or portion of the head.",
+      "usage_conditions": "An anatomical use.",
+      "source_refs": [
+        "lane:entry:1591"
+      ]
+    },
+    {
+      "meaning_id": "cm_duwwara_guts",
+      "headword_arabic": "دُوَّارَةٌ",
+      "definition": "The coiled or circularly formed intestines or guts of a sheep or goat.",
+      "usage_conditions": "An anatomical and culinary-animal use concerning the belly.",
+      "source_refs": [
+        "lane:entry:1591"
+      ]
+    },
+    {
+      "meaning_id": "cm_duwwara_rotating",
+      "headword_arabic": "دُوَّارَةٌ",
+      "definition": "A round object that moves or turns around.",
+      "usage_conditions": "Contrasted with a similar form used for something round that does not move.",
+      "source_refs": [
+        "lane:entry:1591"
+      ]
+    },
+    {
+      "meaning_id": "cm_daira_circuit",
+      "headword_arabic": "دَائِرَةٌ",
+      "definition": "The circuit, compass, ambit, circumference, ring, or round boundary of a thing.",
+      "usage_conditions": "Includes the surrounding parts of the hoof or face and ordinary circular or ring-shaped objects.",
+      "source_refs": [
+        "lane:entry:1593"
+      ]
+    },
+    {
+      "meaning_id": "cm_daira_haircurl",
+      "headword_arabic": "دَائِرَةٌ",
+      "definition": "The circular or spiral curl of hair on the crown of the head.",
+      "usage_conditions": "A specialized anatomical and idiomatic use.",
+      "source_refs": [
+        "lane:entry:1593"
+      ]
+    },
+    {
+      "meaning_id": "cm_daira_horsehair",
+      "headword_arabic": "دَائِرَةٌ",
+      "definition": "A naturally curled or spirally arranged feather or patch of hair on a horse.",
+      "usage_conditions": "The term may refer to one of the recognized hair whorls on a horse.",
+      "source_refs": [
+        "lane:entry:1593"
+      ]
+    },
+    {
+      "meaning_id": "cm_daira_anatomy",
+      "headword_arabic": "دَائِرَةٌ",
+      "definition": "The round depression or protuberance beneath the nose or in the middle of the upper lip.",
+      "usage_conditions": "A precise anatomical use with variant terms for the two locations.",
+      "source_refs": [
+        "lane:entry:1593"
+      ]
+    },
+    {
+      "meaning_id": "cm_daira_stake",
+      "headword_arabic": "دَائِرَةٌ",
+      "definition": "A stake fixed in the middle of a heap of grain around which cattle turn while treading it.",
+      "usage_conditions": "An agricultural implement sense.",
+      "source_refs": [
+        "lane:entry:1593"
+      ]
+    },
+    {
+      "meaning_id": "cm_tadwira_sitting",
+      "headword_arabic": "تَدْوِرَةٌ",
+      "definition": "A sitting-place or place of assembly.",
+      "usage_conditions": "A specialized nominal use distinct from the circular-land sense referenced elsewhere.",
+      "source_refs": [
+        "lane:entry:1594"
+      ]
+    },
+    {
+      "meaning_id": "cm_madaar_axis",
+      "headword_arabic": "مَدَارٌ",
+      "definition": "The axis or orbital center of the firmament or celestial sphere.",
+      "usage_conditions": "A substantive use of the verbal noun.",
+      "source_refs": [
+        "lane:entry:1595"
+      ]
+    },
+    {
+      "meaning_id": "cm_madaar_basis",
+      "headword_arabic": "مَدَارٌ",
+      "definition": "The point or matter upon which a question or affair turns.",
+      "usage_conditions": "A figurative technical use; plural مدارَات denotes such focal points.",
+      "source_refs": [
+        "lane:entry:1595"
+      ]
+    },
+    {
+      "meaning_id": "cm_maduur_vertigo",
+      "headword_arabic": "مَدُورٌ",
+      "definition": "A person affected by vertigo or giddiness.",
+      "usage_conditions": "Used in the expression مَدُورٌ بِهِ.",
+      "source_refs": [
+        "lane:entry:1597"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudara_bucket",
+      "headword_arabic": "مُدَارَةٌ",
+      "definition": "A rounded, sewn skin bucket used for drawing water.",
+      "usage_conditions": "A technical container sense; a variant interpretation connects the word with managing or passing buckets.",
+      "source_refs": [
+        "lane:entry:1598"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudara_garment",
+      "headword_arabic": "مُدَارَةٌ",
+      "definition": "A garment decorated with various circles.",
+      "usage_conditions": "A textile use.",
+      "source_refs": [
+        "lane:entry:1598"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudawwara_camels",
+      "headword_arabic": "مُدْوَرَةٌ",
+      "definition": "She-camels around which the herder goes in order to milk them.",
+      "usage_conditions": "A specialized term for animals approached in a circuit during milking.",
+      "source_refs": [
+        "lane:entry:1599"
+      ]
+    },
+    {
+      "meaning_id": "cm_round_adjective",
+      "headword_arabic": "مُدَوَّرٌ؛ مُسْتَدِيرٌ",
+      "definition": "Round, circular, spherical, or having assumed a rounded form.",
+      "usage_conditions": "The two explicitly cross-referenced adjectival forms describe rounded shape; one example applies the sense to a full moon.",
+      "source_refs": [
+        "lane:entry:1600",
+        "lane:entry:1602"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:dwr:1564:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dwr_dara_s1"
+      ],
+      "note": "Core circular movement is the Quranic Form I sense."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1564:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "dwr_dara_s1"
+      ],
+      "note": "Going around or encircling is covered by the circular-movement sense."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1564:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawr_circulation",
+        "cm_dawr_celestial"
+      ],
+      "note": "Circulation among people and celestial revolution are retained."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1564:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawr_circular_reasoning"
+      ],
+      "note": "Circular reasoning is a distinct figurative use."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1564:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawr_time_turn"
+      ],
+      "note": "Recurring time, fortune, and events are retained."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1564:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawr_vertigo"
+      ],
+      "note": "The vertigo construction is lexical."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1564:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawr_compass_control"
+      ],
+      "note": "Figurative comprehension or encompassing is retained."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1564:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawr_compass_control",
+        "cm_dawr_amorous_dalliance"
+      ],
+      "note": "Power or care and amorous dalliance are both represented."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1564:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1565:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawwara_round"
+      ],
+      "note": "Form II making round."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1565:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1565:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawwara_mental"
+      ],
+      "note": "Turning thoughts over in the mind."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1566:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daawara_with"
+      ],
+      "note": "Going round with someone."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1566:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daawara_circumvent"
+      ],
+      "note": "Circumventing game."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1566:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daawara_induce"
+      ],
+      "note": "Inducing someone to turn toward or away from an affair."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1566:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daawara_manage"
+      ],
+      "note": "Managing or working at affairs."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1567:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adaara_rotate",
+        "cm_adaara_vertigo"
+      ],
+      "note": "Causative rotation and caused vertigo."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1567:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adaara_induce"
+      ],
+      "note": "Inducing someone toward or away from an affair."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1567:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dwr_adara_s1"
+      ],
+      "note": "The Quran-attested immediate exchange construction."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1567:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1567:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1568:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tadayyara_abode"
+      ],
+      "note": "Taking a place as an abode."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1569:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istadaara_round"
+      ],
+      "note": "Becoming round or full."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1569:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1569:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dwr_dar_s1"
+      ],
+      "note": "House, mansion, and place of abode."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dwr_dar_s2",
+        "cm_dar_burial_ground"
+      ],
+      "note": "Abode and burial-ground branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "dwr_dar_s2"
+      ],
+      "note": "Paradise as an abode is covered by the Quranic abode sense."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dwr_dar_s2"
+      ],
+      "note": "The Quranic abode of the transgressors."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dar_country"
+      ],
+      "note": "Country, district, city, town, or village."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dar_medina"
+      ],
+      "note": "Conventional name for Medina."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dar_tribe"
+      ],
+      "note": "Tribe as a collective house or domain."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g2:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "A year or long period is reported tentatively and is not assigned confidently."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dar_medina"
+      ],
+      "note": "Idol-name use is retained as a proper-name branch."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1570:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial correction rejecting an erroneous gloss."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1571:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional identification as a verbal noun."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1571:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawr_circumference"
+      ],
+      "note": "Circumference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1571:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawr_turban_twist"
+      ],
+      "note": "Turn or twist of a turban or rope."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1572:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dayr_monastery"
+      ],
+      "note": "Convent or monastery."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1572:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dayr_head"
+      ],
+      "note": "Idiomatic head-of-monastery use."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1573:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dara_halo"
+      ],
+      "note": "Moon's halo."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1573:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dara_sandy_circle"
+      ],
+      "note": "Round tract of sand."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1573:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dara_mountain_plain"
+      ],
+      "note": "Open land enclosed by mountains or sands."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1573:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dara_enclosed_place"
+      ],
+      "note": "Surrounded or confined place."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1573:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1573:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dara_calamity"
+      ],
+      "note": "Calamity or misfortune."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1574:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1574:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1575:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1576:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1577:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dari_homebody"
+      ],
+      "note": "Person who remains at home."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1577:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dari_comfort"
+      ],
+      "note": "Possessor of life's comforts."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1577:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dari_staying_animal"
+      ],
+      "note": "Animal remaining at the house."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1577:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1577:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dari_sailor"
+      ],
+      "note": "Sailor responsible for the sail."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1577:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dari_perfumer"
+      ],
+      "note": "Seller of perfumes."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1578:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1579:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1580:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dayrani_monastery"
+      ],
+      "note": "Master or inhabitant of a monastery."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1581:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1582:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_duwar_vertigo"
+      ],
+      "note": "Vertigo."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1582:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_duwar_ritual",
+        "cm_duwar_sandy_circle"
+      ],
+      "note": "Ritual idol or circuit and circling sandy tract."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1583:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1584:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1585:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1585:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1586:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawwar_celestial"
+      ],
+      "note": "Revolving firmament."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1586:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawwar_time_fortune"
+      ],
+      "note": "Time or fortune turning people between conditions."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1586:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1587:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1588:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dwr_dayyar_s1"
+      ],
+      "note": "Resident or inhabitant, especially in the negative phrase."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1588:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1589:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1590:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-references."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1590:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1590:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1590:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawwara_mill"
+      ],
+      "note": "Mill-turning wooden pieces."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1590:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dawwara_compass"
+      ],
+      "note": "Pair of compasses."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1591:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_duwwara_head"
+      ],
+      "note": "Round part of the head."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1591:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_duwwara_guts"
+      ],
+      "note": "Coiled guts or intestines."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1591:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_duwwara_rotating"
+      ],
+      "note": "Round object that moves and turns."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1591:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1592:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1593:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daira_circuit"
+      ],
+      "note": "Circuit, circumference, and ambit."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1593:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_daira_circuit"
+      ],
+      "note": "Ring, circle, and round thing are covered by the circuit sense."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1593:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daira_haircurl"
+      ],
+      "note": "Hair curl on the crown."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1593:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daira_horsehair"
+      ],
+      "note": "Horse hair whorl or feather."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1593:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daira_anatomy"
+      ],
+      "note": "Round anatomical feature beneath the nose or on the upper lip."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1593:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dwr_daira_s1"
+      ],
+      "note": "Quran-attested adverse turn of fortune."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1593:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daira_stake"
+      ],
+      "note": "Stake around which cattle turn in treading grain."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1594:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1594:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tadwira_sitting"
+      ],
+      "note": "Sitting-place."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1595:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional identification as a verbal noun."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1595:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_madaar_axis"
+      ],
+      "note": "Axis of the celestial sphere."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1595:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_madaar_basis"
+      ],
+      "note": "Point upon which an affair turns."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1596:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1596:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial continuation pointer."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1597:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maduur_vertigo"
+      ],
+      "note": "Person affected by vertigo."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1598:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudara_bucket"
+      ],
+      "note": "Rounded skin bucket."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1598:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudara_garment"
+      ],
+      "note": "Garment decorated with circles."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1599:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudawwara_camels"
+      ],
+      "note": "She-camels approached in a circuit for milking."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1600:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_round_adjective"
+      ],
+      "note": "Round or spherical adjective."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1601:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Derivational identification and pointer only."
+    },
+    {
+      "unit_id": "lane-unit:dwr:1602:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_round_adjective"
+      ],
+      "note": "Explicitly cross-referenced synonymic rounded-form adjective."
+    }
+  ],
+  "cautions": [
+    "The Quranic form دَيَّارٌ is presented with the general lexical sense inhabitant; its Quranic context is a negative construction, while broader Classical usage is not restricted to negation.",
+    "دَارٌ encompasses both concrete homes and qualified abodes or domains in Quranic usage; the plural forms دِيَارٌ and دُورٌ are included under the same public noun."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:dwr:1570:g2:main reports a tentative meaning of دَارٌ as 'a year' or 'a long period'; the evidence itself questions the attribution, so it is left unassigned."
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "root": "HyD",
+  "arabic": "حيض",
+  "root_idea": {
+    "summary": "The root centers on the flowing of reddish fluid, especially menstrual blood.",
+    "development": "The semantic orientation extends from the emission of red, blood-like fluid from a gum-acacia tree to menstruation and related terms; Classical Arabic also applies the flow image to torrents and water.",
+    "source_refs": [
+      "maqayis:row:1490",
+      "lane:entry:16334",
+      "lane:entry:16338"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:HyD:yaHiDo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "HyD:verb1",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:HyD:maHiyD:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "HyD:mahid",
+      "reason": "Displayed as the substantive Quranic noun مَحِيض."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "HyD:verb1",
+      "form_group_ids": [
+        "qac-form:HyD:yaHiDo:verb:I"
+      ],
+      "headword_arabic": "حَاضَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "HyD:verb1:s1",
+          "definition": "To menstruate; to have menstrual blood flow from the womb.",
+          "usage_conditions": "Quranic Form I usage describing menstruation. The public headword is the regular perfect citation form, while the attested Quran form is an imperfect feminine plural form.",
+          "source_refs": [
+            "lane:entry:16334"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "65:4",
+          "word_location": "65:4:14",
+          "sense_ids": [
+            "HyD:verb1:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "HyD:mahid",
+      "form_group_ids": [
+        "qac-form:HyD:maHiyD:nominal:-"
+      ],
+      "headword_arabic": "مَحِيضٌ",
+      "public_pos_label": "Noun · passive participle pattern",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "HyD:mahid:s1",
+          "definition": "Menstruation, menstrual flow, or the period or time of menstruation.",
+          "usage_conditions": "A substantive noun referring to the menstrual condition or its period. This sense fits the Quranic references to menstruation and to those who no longer expect it.",
+          "source_refs": [
+            "mufradat:row:376",
+            "lane:entry:16344"
+          ]
+        },
+        {
+          "sense_id": "HyD:mahid:s2",
+          "definition": "The place associated with menstruation, specifically the female genital place.",
+          "usage_conditions": "In the Quranic construction concerning approaching women during مَحِيض, the noun is understood as the place of intercourse associated with menstruation rather than the menstrual flow itself.",
+          "source_refs": [
+            "lane:entry:16344"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:222",
+          "word_location": "2:222:3",
+          "sense_ids": [
+            "HyD:mahid:s1"
+          ]
+        },
+        {
+          "verse_key": "2:222",
+          "word_location": "2:222:10",
+          "sense_ids": [
+            "HyD:mahid:s2"
+          ]
+        },
+        {
+          "verse_key": "65:4",
+          "word_location": "65:4:4",
+          "sense_ids": [
+            "HyD:mahid:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "HyD:class:had:age",
+      "headword_arabic": "حَاضَ",
+      "definition": "To attain the age at which menstruation begins.",
+      "usage_conditions": "A Classical usage describing the onset of menstruating age rather than an individual menstrual flow.",
+      "source_refs": [
+        "lane:entry:16334"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:had:treeflow",
+      "headword_arabic": "حَاضَ",
+      "definition": "Of a gum-acacia tree, to emit a blood-like fluid or gum.",
+      "usage_conditions": "A tropical usage applied to the reddish substance emitted by the tree.",
+      "source_refs": [
+        "lane:entry:16334"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:had:torrent",
+      "headword_arabic": "حَاضَ",
+      "definition": "Of a torrent, to overflow, pour forth from fullness, or run.",
+      "usage_conditions": "A tropical flow construction applied to a torrent.",
+      "source_refs": [
+        "lane:entry:16334"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:hayyada:attribute",
+      "headword_arabic": "حَيَّضَ",
+      "definition": "To attribute menstruation to a woman or declare her to be menstruating.",
+      "usage_conditions": "Form II causative or ascriptive usage.",
+      "source_refs": [
+        "lane:entry:16335"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:hayyada:intercourse",
+      "headword_arabic": "حَيَّضَ",
+      "definition": "To have sexual intercourse with a woman during her menstruation.",
+      "usage_conditions": "A conventional Form II construction specifying intercourse during menstruation.",
+      "source_refs": [
+        "lane:entry:16335"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:hayyada:waterflow",
+      "headword_arabic": "حَيَّضَ",
+      "definition": "To make water flow.",
+      "usage_conditions": "A tropical Form II causative usage.",
+      "source_refs": [
+        "lane:entry:16335"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:tahayyada:ritual",
+      "headword_arabic": "تَحَيَّضَ",
+      "definition": "To abstain from prayer during menstruation, or to reckon oneself menstruating and act accordingly.",
+      "usage_conditions": "A Form V reflexive usage concerning conduct associated with menstruation.",
+      "source_refs": [
+        "lane:entry:16336"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:istuhida:persistentbleeding",
+      "headword_arabic": "اُسْتُحِيضَ",
+      "definition": "To suffer persistent or excessive vaginal bleeding outside the menstrual flow.",
+      "usage_conditions": "Includes bleeding that continues after the menstrual days or flows continuously from a non-menstrual vein; it is distinguished from ordinary حَيْض.",
+      "source_refs": [
+        "lane:entry:16337"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:hayd:blood",
+      "headword_arabic": "حَيْضٌ",
+      "definition": "Menstrual blood itself.",
+      "usage_conditions": "A nominal use for the blood of menstruation.",
+      "source_refs": [
+        "lane:entry:16338"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:hayd:treefluid",
+      "headword_arabic": "حَيْضٌ",
+      "definition": "A blood-like fluid flowing from gum-acacia trees.",
+      "usage_conditions": "A tropical nominal use for the tree's emitted fluid.",
+      "source_refs": [
+        "lane:entry:16338"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:hayda:episode",
+      "headword_arabic": "حَيْضَةٌ",
+      "definition": "A single menstruation, turn, or episode of menstrual flow.",
+      "usage_conditions": "In practical law, it can denote the customary days of menstruation.",
+      "source_refs": [
+        "lane:entry:16339"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:hayda:waterflow",
+      "headword_arabic": "حَيْضَةٌ",
+      "definition": "A single flow of water or a similar fluid.",
+      "usage_conditions": "A tropical nominal use.",
+      "source_refs": [
+        "lane:entry:16339"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:hayda:state",
+      "headword_arabic": "حِيضَةٌ",
+      "definition": "Menstruation, the state or condition of menstruating, or menstrual blood.",
+      "usage_conditions": "A noun for the state of menstruation and, by extension, its blood; the associated state can include abstention from prayer and fasting.",
+      "source_refs": [
+        "lane:entry:16340"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:hayda:rag",
+      "headword_arabic": "حِيضَةٌ",
+      "definition": "A cloth placed over the vulva by a menstruating woman; in a related use, a discarded piece of cloth.",
+      "usage_conditions": "A concrete nominal use developed from the menstrual context.",
+      "source_refs": [
+        "lane:entry:16340"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:haydi:adjective",
+      "headword_arabic": "حَيْضِيٌّ",
+      "definition": "Menstrual; relating to menstruation.",
+      "usage_conditions": "An adjectival derivative describing what pertains to menstruation.",
+      "source_refs": [
+        "lane:entry:16341"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:haid:woman",
+      "headword_arabic": "حَائِضٌ",
+      "definition": "A menstruating woman; in differing usage, a woman of menstruating age or a female of the menstruating kind.",
+      "usage_conditions": "The term is an active participial designation applied particularly to females. Classical explanations differ over whether the defining feature is current menstruation, attainment of menstruating age, or the female kind more generally.",
+      "source_refs": [
+        "lane:entry:16343"
+      ]
+    },
+    {
+      "meaning_id": "HyD:class:mustahada:woman",
+      "headword_arabic": "مُسْتَحَاضَةٌ",
+      "definition": "A woman with persistent or excessive non-menstrual vaginal bleeding.",
+      "usage_conditions": "Refers to bleeding after the menstrual days or continuous bleeding from a non-menstrual vein, distinguished from ordinary menstruation.",
+      "source_refs": [
+        "lane:entry:16346"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:HyD:16334:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:verb1:s1"
+      ],
+      "note": "Menstruation with blood flowing from the womb."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16334:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:had:age"
+      ],
+      "note": "Attaining menstruating age."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16334:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:had:treeflow"
+      ],
+      "note": "Blood-like emission from a gum-acacia tree."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16334:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:had:torrent"
+      ],
+      "note": "Overflowing or running of a torrent."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16335:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:hayyada:attribute"
+      ],
+      "note": "Attributing menstruation to a woman."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16335:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:hayyada:intercourse"
+      ],
+      "note": "Intercourse during menstruation."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16335:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:hayyada:waterflow"
+      ],
+      "note": "Making water flow."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16336:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16336:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:tahayyada:ritual"
+      ],
+      "note": "Abstaining from prayer or acting as menstruating."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16337:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:istuhida:persistentbleeding"
+      ],
+      "note": "Persistent or excessive non-menstrual bleeding."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16338:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:hayd:blood"
+      ],
+      "note": "Menstrual blood."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16338:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:hayd:treefluid"
+      ],
+      "note": "Blood-like fluid from gum-acacia trees."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16339:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:hayda:episode"
+      ],
+      "note": "A single menstrual episode."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16339:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "HyD:class:hayda:episode"
+      ],
+      "note": "Legal usage for the customary menstruation days is included in the episode entry."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16339:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:hayda:waterflow"
+      ],
+      "note": "A single flow of water."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16340:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:hayda:state"
+      ],
+      "note": "Menstruation or the state of menstruating."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16340:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "HyD:class:hayda:state"
+      ],
+      "note": "Menstrual blood is included in the state-and-blood entry."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16340:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:hayda:rag"
+      ],
+      "note": "Menstrual cloth and related discarded cloth use."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16341:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:haydi:adjective"
+      ],
+      "note": "Adjective relating to menstruation."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16342:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حِيضَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16343:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:haid:woman"
+      ],
+      "note": "Active participial designation for a menstruating woman."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16343:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "HyD:class:haid:woman"
+      ],
+      "note": "Alternative age, womanhood, and female-kind interpretations are stated in the same entry."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16344:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:mahid:s2"
+      ],
+      "note": "Quran-attested place sense of مَحِيض."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16344:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "HyD:mahid:s1"
+      ],
+      "note": "Time-of-menstruation sense is covered by the Quranic period/time sense."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16344:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حِيضَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16344:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural information only."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16345:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حِيضَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:HyD:16346:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "HyD:class:mustahada:woman"
+      ],
+      "note": "Nominal designation for persistent non-menstrual bleeding."
+    }
+  ],
+  "cautions": [
+    "The Quranic noun مَحِيض is morphologically tagged in the supplied QAC data as a passive-participle form, but the lexical evidence treats it substantively as a noun of menstruation, time, and place.",
+    "The contextual English gloss does not itself distinguish the two Quranic مَحِيض senses; the place sense is assigned from the independently supplied lexical explanation of the Quranic construction."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

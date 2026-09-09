@@ -1,0 +1,791 @@
+{
+  "root": "Arb",
+  "arabic": "أرب",
+  "root_idea": {
+    "summary": "The root centers on need and the intelligence or contrivance used to meet it, with related branches involving a portion or bodily member and fastening or making complete.",
+    "development": "Classical root analysis organizes its derivatives around need, intelligence, portion, and binding. From these develop meanings of urgent desire and stratagem, skill and sagacity, bodily members or complete portions, overcoming, and tightening or completion.",
+    "source_refs": [
+      "maqayis:row:60"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Arb:<irobap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Arb:qform:irba",
+      "reason": "A distinct Quran-attested nominal form in 24:31, normalized to its singular dictionary citation form."
+    },
+    {
+      "form_group_id": "qac-form:Arb:ma_#aArib:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Arb:qform:maarib",
+      "reason": "A distinct Quran-attested plural nominal form in 20:18, presented under the supported singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "Arb:qform:irba",
+      "form_group_ids": [
+        "qac-form:Arb:<irobap:nominal:-"
+      ],
+      "headword_arabic": "إِرْبَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "Arb:qform:irba:s1",
+          "definition": "A compelling sexual need or desire; in the Quranic expression أُولِي الإِرْبَةِ, sexual appetite or need for women.",
+          "usage_conditions": "Used in the construction أُولِي الإِرْبَةِ مِنَ الرِّجَالِ in 24:31, describing men who do not possess such sexual desire or need.",
+          "source_refs": [
+            "lane:entry:6468",
+            "mufradat:row:26"
+          ]
+        },
+        {
+          "sense_id": "Arb:qform:irba:s2",
+          "definition": "In an alternative reported interpretation of the Quranic expression, intellectual capacity or sound understanding.",
+          "usage_conditions": "This interpretation takes أُولِي الإِرْبَةِ as referring to men deficient in intellect or judgment rather than men lacking sexual desire.",
+          "source_refs": [
+            "lane:entry:6467",
+            "lane:entry:6468"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:31",
+          "word_location": "24:31:52",
+          "sense_ids": [
+            "Arb:qform:irba:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "Arb:qform:maarib",
+      "form_group_ids": [
+        "qac-form:Arb:ma_#aArib:nominal:-"
+      ],
+      "headword_arabic": "مَأْرَبَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "Arb:qform:maarib:s1",
+          "definition": "A need, purpose, or desired end; مَآرِبُ, things one needs or seeks to accomplish.",
+          "usage_conditions": "The Quranic plural مَآرِبُ أُخْرَى in 20:18 refers to Moses' other purposes or uses for the staff.",
+          "source_refs": [
+            "lane:entry:6468",
+            "mufradat:row:26"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:18",
+          "word_location": "20:18:12",
+          "sense_ids": [
+            "Arb:qform:maarib:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "Arb:cm01",
+      "headword_arabic": "أَرُبَ",
+      "definition": "To be intelligent, sagacious, discerning, or cunning, with sound judgment and knowledge of affairs.",
+      "usage_conditions": "The verb may denote simple intelligence or intelligence combined with craft and foresight.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm02",
+      "headword_arabic": "أَرِبَ بِالشَّيْءِ",
+      "definition": "To become expert, practiced, or skilled in a thing.",
+      "usage_conditions": "Used with بِـ for becoming familiar with and proficient in a particular matter.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm03",
+      "headword_arabic": "أَرِبَ",
+      "definition": "To become familiar with a person or thing.",
+      "usage_conditions": "A reported use synonymous with becoming accustomed or familiar.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm04",
+      "headword_arabic": "أَرِبَ بِالشَّيْءِ",
+      "definition": "To devote oneself or cling to a thing; to be tenacious or avaricious concerning it.",
+      "usage_conditions": "The construction can describe persistent attachment, acquisitiveness, or unwillingness to relinquish something.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm05",
+      "headword_arabic": "أَرِبَ فِي الأَمْرِ / تَأَرَّبَ فِيهِ",
+      "definition": "To exert one's ability or strength in an affair, strain oneself, and understand or manage it.",
+      "usage_conditions": "Used with فِي for applying one's power or effort to an affair or need.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm06",
+      "headword_arabic": "أَرِبَ عَلَيْهِ",
+      "definition": "To obtain power over someone or something.",
+      "usage_conditions": "The preposition عَلَى marks the person or thing over which power is obtained.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm07",
+      "headword_arabic": "أَرِبَ إِلَيْهِ / بِهِ",
+      "definition": "To be in want or need of something, and consequently want, seek, or desire it.",
+      "usage_conditions": "The object is introduced with إِلَى or بِـ in the reported constructions.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm08",
+      "headword_arabic": "أَرِبَ الدَّهْرُ / أَرِبَ عَلَيْهِ",
+      "definition": "For fortune to become hard or adverse; to press hard upon someone in a demand.",
+      "usage_conditions": "The adverse or demanding force may be expressed by the subject of the verb or by عَلَى.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm09",
+      "headword_arabic": "أَرَبَهُ",
+      "definition": "To strike a member or limb belonging to someone.",
+      "usage_conditions": "The object is a bodily member or limb.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm10",
+      "headword_arabic": "أَرِبَ",
+      "definition": "For a member or limb to be cut off or fall away; in imprecatory expressions, may the limbs fall away or may what is in one's hands depart, leaving one in want.",
+      "usage_conditions": "The reported idioms allow both a literal bodily interpretation and a figurative interpretation of becoming needy.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm11",
+      "headword_arabic": "أَرِبَتْ مَعِدَتُهُ",
+      "definition": "For the stomach to become disordered or unsound.",
+      "usage_conditions": "A bodily-state expression.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm12",
+      "headword_arabic": "أَرِبَ",
+      "definition": "To prostrate oneself firmly or fixedly upon one's bodily members.",
+      "usage_conditions": "Used of firm prostration on the members involved in the posture.",
+      "source_refs": [
+        "lane:entry:6461"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm13",
+      "headword_arabic": "أَرَّبَ",
+      "definition": "To make someone intelligent, skilled, or knowledgeable; to cause someone to understand.",
+      "usage_conditions": "A causative Form II use corresponding to the intelligence and skill meanings of the root.",
+      "source_refs": [
+        "lane:entry:6462"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm14",
+      "headword_arabic": "أَرَّبَ",
+      "definition": "To become avaricious or eagerly desirous of a thing.",
+      "usage_conditions": "Desire is characterized as vehement want or acquisitiveness.",
+      "source_refs": [
+        "lane:entry:6462"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm15",
+      "headword_arabic": "أَرَّبَ",
+      "definition": "To cut up an animal limb by limb.",
+      "usage_conditions": "Reported especially of cutting a sheep or goat into pieces by its members.",
+      "source_refs": [
+        "lane:entry:6462"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm16",
+      "headword_arabic": "أَرَّبَ / مُؤَرَّبٌ",
+      "definition": "To cut off a member or limb whole; a member so cut off entire.",
+      "usage_conditions": "The passive participle may describe a complete, undivided limb removed from the body.",
+      "source_refs": [
+        "lane:entry:6462",
+        "lane:entry:6481"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm17",
+      "headword_arabic": "أَرَّبَ / مُؤَرَّبٌ",
+      "definition": "To make a thing, portion, or property ample, complete, or perfect; something made whole or fully provided.",
+      "usage_conditions": "The extension includes enlarging a share or property so that it is sufficient and complete.",
+      "source_refs": [
+        "lane:entry:6462",
+        "lane:entry:6481",
+        "mufradat:row:26"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm18",
+      "headword_arabic": "آرَبَهُ / مُؤَارَبَةٌ",
+      "definition": "To strive to outwit, deceive, beguile, or circumvent someone; to practise a stratagem or fraud against someone.",
+      "usage_conditions": "The verbal noun مُؤَارَبَةٌ denotes the attempt to outwit or circumvent another person.",
+      "source_refs": [
+        "lane:entry:6463"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm19",
+      "headword_arabic": "آرَبَ عَلَيْهِمْ",
+      "definition": "To succeed against people and overcome them.",
+      "usage_conditions": "A Form IV construction with عَلَى marking those overcome.",
+      "source_refs": [
+        "lane:entry:6464"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm20",
+      "headword_arabic": "تَأَرَّبَ",
+      "definition": "To affect or endeavour to acquire cunning, intelligence, guile, artifice, or malignity.",
+      "usage_conditions": "The Form V use may describe deliberately cultivating cleverness together with deceit or mischievousness.",
+      "source_refs": [
+        "lane:entry:6465"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm21",
+      "headword_arabic": "إِرْبٌ",
+      "definition": "Intelligence, sagacity, craft, and knowledge of affairs; in one reported use, intelligence joined with religious understanding.",
+      "usage_conditions": "The noun may denote either practical discernment or intelligence characterized as accompanied by religion.",
+      "source_refs": [
+        "lane:entry:6467"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm22",
+      "headword_arabic": "إِرْبٌ",
+      "definition": "Deceit, guile, artifice, or fraud.",
+      "usage_conditions": "A meaning associated with contrivance or crafty manipulation.",
+      "source_refs": [
+        "lane:entry:6467"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm23",
+      "headword_arabic": "أَرَبٌ",
+      "definition": "An extreme or urgent need that prompts contrivance; by extension, the stratagem used in response to such a need.",
+      "usage_conditions": "This narrower branch distinguishes a pressing need from an ordinary need and explains its association with clever maneuvering.",
+      "source_refs": [
+        "mufradat:row:26"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm24",
+      "headword_arabic": "إِرْبٌ",
+      "definition": "Wickedness, mischievousness, hidden rancor, or malice.",
+      "usage_conditions": "A moral or hostile extension of the root's cunning and contrivance vocabulary.",
+      "source_refs": [
+        "lane:entry:6467"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm25",
+      "headword_arabic": "إِرْبٌ / آرابٌ",
+      "definition": "A member or limb: a distinct, complete part of an animal body.",
+      "usage_conditions": "The plural آرابٌ may refer to the bodily members used in prostration, including the forehead, hands, knees, and feet.",
+      "source_refs": [
+        "lane:entry:6467",
+        "mufradat:row:26"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm26",
+      "headword_arabic": "إِرْبٌ",
+      "definition": "The genital member or pudendum.",
+      "usage_conditions": "A reported anatomical meaning; its lexical status is disputed in the cited discussion.",
+      "source_refs": [
+        "lane:entry:6467"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm27",
+      "headword_arabic": "آرابٌ",
+      "definition": "Pieces of flesh or flesh-meat.",
+      "usage_conditions": "A plural use referring to separate pieces of flesh.",
+      "source_refs": [
+        "lane:entry:6467"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm28",
+      "headword_arabic": "أَرِيبٌ",
+      "definition": "Cunning, intelligent, sagacious, and excellent in judgment; knowledgeable in affairs.",
+      "usage_conditions": "An adjective describing a person characterized by intelligence with craft and foresight.",
+      "source_refs": [
+        "lane:entry:6476"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm29",
+      "headword_arabic": "آرِبٌ",
+      "definition": "A wide, ample, or capacious cooking pot.",
+      "usage_conditions": "A lexical noun unrelated in immediate reference to the human intelligence adjective.",
+      "source_refs": [
+        "lane:entry:6476"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm30",
+      "headword_arabic": "أَرِبٌ",
+      "definition": "Expert, skilled, practiced, or accustomed to a thing.",
+      "usage_conditions": "An adjectival use for proficiency or practiced knowledge.",
+      "source_refs": [
+        "lane:entry:6469"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm31",
+      "headword_arabic": "أَرِبٌ بِشَيْءٍ",
+      "definition": "Wanting, needing, or desiring a thing.",
+      "usage_conditions": "The adjective takes a thing as the object of want or desire.",
+      "source_refs": [
+        "lane:entry:6469"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm32",
+      "headword_arabic": "أُرَبَى",
+      "definition": "Calamity or misfortune.",
+      "usage_conditions": "A rare lexical noun for an unwelcome or extraordinary misfortune.",
+      "source_refs": [
+        "lane:entry:6472"
+      ]
+    },
+    {
+      "meaning_id": "Arb:cm33",
+      "headword_arabic": "أَرَّبَ العُقْدَةَ",
+      "definition": "To tighten or make a knot secure so that it does not come undone without deliberate untying.",
+      "usage_conditions": "The meaning describes firm fastening and is distinct from merely tying a readily released knot.",
+      "source_refs": [
+        "mufradat:row:26"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Arb:6461:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm01"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm02"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm03"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm04"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm05"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm06"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm07"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm07"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm08"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm09"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm10"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm11"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6461:g3:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm12"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6462:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm13"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6462:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm14"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6462:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm15"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6462:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm16"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6462:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm17"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6463:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm18"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6464:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm19"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6465:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm20"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6465:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "Arb:cm05"
+      ],
+      "note": "Pointer to the Form I exertion construction."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6466:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6467:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm21"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6467:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm21"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6467:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm22"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6467:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm24"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6467:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6467:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm25"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6467:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm26"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6467:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm27"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6468:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6468:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:qform:irba:s1",
+        "Arb:qform:irba:s2",
+        "Arb:qform:maarib:s1",
+        "Arb:cm25",
+        "Arb:cm26"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6469:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6469:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm30"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6469:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm31"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6470:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6470:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6471:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6471:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6472:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm32"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6473:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dialect-variant statement without an independently supplied meaning."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6474:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dialect-variant statement without an independently supplied meaning."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6475:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dialect-variant statement without an independently supplied meaning."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6476:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm28"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6476:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm29"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Arb:6477:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "Arb:cm28"
+      ],
+      "note": "Comparative wording is covered by the adjective meaning of أَرِيبٌ."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6478:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6479:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6480:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Arb:6481:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Arb:cm16",
+        "Arb:cm17"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The anatomical meaning of إِرْبٌ as a genital member is reported but explicitly disputed in the lexical evidence.",
+    "The Quranic expression أُولِي الإِرْبَةِ in 24:31 has both a sexual-need interpretation and an alternative interpretation involving intellectual deficiency; both are preserved separately."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,38 @@
+index,category,path,role,preservation
+1,current-context,QURAN_ROOTS_CURRENT_CONTEXT.md,current project/new-chat handoff,KEEP
+2,frontend-guide,QURAN_VERSE_ROOT_EXPLORER_DATA_GUIDE.md,current front-end data contract,KEEP
+3,documentation,FINAL DOCUMENTATION/QURAN_ROOTS_DOCUMENTATION_INDEX_2026-08-30.md,current documentation authority map,KEEP
+4,documentation,FINAL DOCUMENTATION/QURAN_ROOTS_METHOD_PROVENANCE_AND_FREEZE_ADDENDUM_2026-08-30.md,v8/application provenance addendum,KEEP
+5,documentation,FINAL DOCUMENTATION/QURAN_ROOTS_REPRODUCIBILITY_ADDENDUM_2026-08-30.md,v8/application reproducibility addendum,KEEP
+6,source,sources/quran-texts/arabic/quran-simple-plain.json,dedicated Arabic verse source,KEEP
+7,source,sources/quran-texts/metadata/metadata_surahs.json,114-surah metadata,KEEP
+8,source,sources/quran-texts/translations/en-arberry-simple.json,Arberry verse translation,KEEP
+9,source,sources/quran-texts/translations/en-asad-simple.json,Muhammad Asad verse translation,KEEP
+10,source,sources/quran-texts/translations/en-haleem-with-footnote-tags.json,Abdel Haleem verse translation,KEEP
+11,source,sources/quran-texts/translations/en-sahih-international-with-footnote-tags.json,Sahih International verse translation,KEEP
+12,builder,build_quran_app_dataset_v2_2.py,current deterministic application builder,KEEP
+13,app-data,output/quran_app_dataset_v2/app_index.json,application key/lookup contract,KEEP
+14,app-data,output/quran_app_dataset_v2/source_manifest.json,input hashes/provenance,KEEP
+15,app-data,output/quran_app_dataset_v2/build_report.json,machine-readable successful build report,KEEP
+16,app-data,output/quran_app_dataset_v2/build_report.txt,human-readable successful build report,KEEP
+17,app-data,output/quran_app_dataset_v2/surahs.json,keyed surah registry,KEEP
+18,app-data,output/quran_app_dataset_v2/translation_catalog.json,translation registry,KEEP
+19,app-data,output/quran_app_dataset_v2/root_catalog.json,root ID/exact-root dictionary resolver,KEEP
+20,app-data,output/quran_app_dataset_v2/verses/,114 keyed verse-presentation files,KEEP
+21,app-data,output/quran_app_dataset_v2/word_analysis/,114 keyed static word-analysis files,KEEP
+22,app-data,output/quran_app_dataset_v2/root_occurrences/,1642 complete root-occurrence files,KEEP
+23,dictionary,final/numbered_roots_v8/,current application/publication root corpus,KEEP
+24,dictionary,final/numbered_v8_manifest.json,v8 manifest,KEEP
+25,audit,final/audit/final_freeze_v3/,v8 freeze/QF verification,KEEP
+26,checkpoint,final/numbered_roots/,immutable v7 semantic checkpoint,KEEP
+27,checkpoint,final/numbered_v7_manifest.json,v7 semantic manifest,KEEP
+28,audit,final/audit/final_freeze_v2/,v7 semantic freeze proof,KEEP
+29,source,sources/quran-foundation/qf_wbw_en.json,QF word Arabic/transliteration/gloss source,KEEP
+30,source,quranic-corpus-morphology-0.4.txt,QAC morphology/root identity,KEEP
+31,source,sources/lane/lexicon.sqlite,Lane structured lexical source,KEEP
+32,source,sources/arabic-lexicons/db.sqlite,Maqayis/Mufradat structured source,KEEP
+33,historical-doc,FINAL DOCUMENTATION/QURAN_ROOTS_METHOD_PROVENANCE_AND_FREEZE_2026-08-25.md,semantic construction/freeze history,KEEP
+34,historical-doc,FINAL DOCUMENTATION/QURAN_ROOTS_REPRODUCIBILITY_FILE_INDEX_2026-08-25.md,semantic reproducibility history,KEEP
+35,historical-doc,FINAL DOCUMENTATION/QURAN_ROOTS_DOCUMENTATION_INDEX_2026-08-25.md,older authority map,KEEP
+36,protected,visualization/,outside current front-end data documentation operation,DO_NOT_TOUCH
+37,protected,build_visualization_data.py,outside current front-end data documentation operation,DO_NOT_TOUCH

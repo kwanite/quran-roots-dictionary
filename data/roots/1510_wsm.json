@@ -1,0 +1,372 @@
+{
+  "root": "wsm",
+  "arabic": "وسم",
+  "root_idea": {
+    "summary": "The root centers on an impressed أثر or معلم: a mark or sign that identifies something and can be recognized as evidence.",
+    "development": "From making or bearing a mark, the lexicon develops meanings for identifying signs, discerning a thing through its outward signs, and things that mark or serve as landmarks, including seasonal rain and a gathering place.",
+    "source_refs": [
+      "maqayis:row:5110",
+      "mufradat:row:1577",
+      "lane:entry:30505",
+      "lane:entry:30507",
+      "lane:entry:30508"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wsm:nasimu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-wsm-wasama",
+      "reason": "Displayed under the normalized Form I perfect citation form وَسَمَ rather than the Quranic imperfect lemma identity."
+    },
+    {
+      "form_group_id": "qac-form:wsm:mutawas~imiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-wsm-mutawassim",
+      "reason": "Displayed under the normalized singular active-participle citation form مُتَوَسِّمٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-wsm-wasama",
+      "form_group_ids": [
+        "qac-form:wsm:nasimu:verb:I"
+      ],
+      "headword_arabic": "وَسَمَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wsm-wasama-s1",
+          "definition": "To mark or brand someone with an identifying sign.",
+          "usage_conditions": "In the Quranic construction, the mark is placed on a person as a recognizable sign. The verb's broader physical marking use is the same lexical branch, while the attested passage specifically describes branding a person.",
+          "source_refs": [
+            "lane:entry:30503",
+            "mufradat:row:1577"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "68:16",
+          "word_location": "68:16:1",
+          "sense_ids": [
+            "wsm-wasama-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-wsm-mutawassim",
+      "form_group_ids": [
+        "qac-form:wsm:mutawas~imiyn:nominal:-"
+      ],
+      "headword_arabic": "مُتَوَسِّمٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wsm-mutawassim-s1",
+          "definition": "One who discerns a thing's real state or character from its outward signs.",
+          "usage_conditions": "The Quranic participle denotes people who examine signs and form a sound perception from them; the usage is associated with discernment, sagacity, or keen perception.",
+          "source_refs": [
+            "lane:entry:30504",
+            "mufradat:row:1577"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:75",
+          "word_location": "15:75:5",
+          "sense_ids": [
+            "wsm-mutawassim-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wsm-classical-wasama-figurative",
+      "headword_arabic": "وَسَمَ",
+      "definition": "To stigmatize or figuratively mark someone with a distinguishing description, including through satire or speech.",
+      "usage_conditions": "A figurative extension of marking; the attributed quality may be adverse, such as a stigma, or favorable, such as being marked by goodness.",
+      "source_refs": [
+        "lane:entry:30503",
+        "mufradat:row:1577"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-wasama-title",
+      "headword_arabic": "وَسَمَ",
+      "definition": "To place a superscription or title on a book or writing.",
+      "usage_conditions": "Used of assigning an identifying title to written material.",
+      "source_refs": [
+        "lane:entry:30503"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-wasuma-beauty",
+      "headword_arabic": "وَسُمَ",
+      "definition": "To be beautiful in face or to bear the impress of beauty.",
+      "usage_conditions": "An intransitive description of a person's appearance; related nouns include وَسَامَةٌ and وَسَامٌ.",
+      "source_refs": [
+        "lane:entry:30503"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-wasim",
+      "headword_arabic": "وَسِيمٌ",
+      "definition": "Beautiful in face.",
+      "usage_conditions": "An adjectival description of physical beauty.",
+      "source_refs": [
+        "lane:entry:30503",
+        "mufradat:row:1577"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-wasamah",
+      "headword_arabic": "وَسَامَةٌ",
+      "definition": "Beauty, especially beauty of face.",
+      "usage_conditions": "The quality of being beautiful or bearing an impress of beauty.",
+      "source_refs": [
+        "lane:entry:30503",
+        "mufradat:row:1577"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-simah-mark",
+      "headword_arabic": "سِمَةٌ",
+      "definition": "A brand or mark, especially one made with a hot iron; more broadly, an identifying sign, badge, token, or symptom.",
+      "usage_conditions": "The noun denotes the mark itself rather than the act of marking.",
+      "source_refs": [
+        "lane:entry:30505",
+        "mufradat:row:1577"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-simah-title",
+      "headword_arabic": "سِمَةٌ",
+      "definition": "A title or superscription of a book or writing.",
+      "usage_conditions": "A written identifier or heading.",
+      "source_refs": [
+        "lane:entry:30505"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-wasma-plant",
+      "headword_arabic": "وَسْمَةٌ",
+      "definition": "A woad- or indigo-like plant whose leaves are used for tinting or dyeing.",
+      "usage_conditions": "A plant-name associated with coloring the hands or other materials.",
+      "source_refs": [
+        "lane:entry:30506"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-wasmi-rain",
+      "headword_arabic": "الوَسْمِيُّ",
+      "definition": "The first rain of a season.",
+      "usage_conditions": "The name reflects the rain's marking of the land through the vegetation it produces.",
+      "source_refs": [
+        "lane:entry:30507",
+        "maqayis:row:5110"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-mawsim",
+      "headword_arabic": "مَوْسِمٌ",
+      "definition": "A periodic festival or fair; specifically, the fair and meeting place of pilgrims.",
+      "usage_conditions": "A gathering place or occasion marked out for recurring communal assembly.",
+      "source_refs": [
+        "lane:entry:30508",
+        "mufradat:row:1577",
+        "maqayis:row:5110"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-wassama-attend",
+      "headword_arabic": "وَسَّمَ",
+      "definition": "To attend or take part in a موسم, especially a festival or pilgrimage gathering.",
+      "usage_conditions": "A conventional usage equivalent to attending the designated seasonal gathering.",
+      "source_refs": [
+        "mufradat:row:1577"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-tawassama-wasmi",
+      "headword_arabic": "تَوَسَّمَ",
+      "definition": "To seek the wasmī seasonal rain or the pasture associated with it.",
+      "usage_conditions": "A distinct traditional use of the Form V verb, separate from discerning through outward signs.",
+      "source_refs": [
+        "maqayis:row:5110",
+        "mufradat:row:1577"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-misam-mark",
+      "headword_arabic": "مِيسَمٌ",
+      "definition": "A branding or marking instrument; also a brand or mark made with a hot iron.",
+      "usage_conditions": "The word can denote either the tool used for marking or the resulting impress.",
+      "source_refs": [
+        "lane:entry:30509"
+      ]
+    },
+    {
+      "meaning_id": "wsm-classical-misam-beauty",
+      "headword_arabic": "مِيسَمٌ",
+      "definition": "An impress or character of beauty.",
+      "usage_conditions": "Used of a visible sign of physical beauty borne by a person.",
+      "source_refs": [
+        "lane:entry:30509",
+        "mufradat:row:1577"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wsm:30503:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wsm-wasama-s1"
+      ],
+      "note": "The general act of marking an object is covered by the Quranic marking sense; the trader reference adds no separate branch."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30503:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-wasama-figurative"
+      ],
+      "note": "Figurative stigmatizing through satire."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30503:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wsm-wasama-s1"
+      ],
+      "note": "General marking is covered by the identifying-mark sense."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30503:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-wasama-figurative"
+      ],
+      "note": "Figurative marking by speech."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30503:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-wasama-title"
+      ],
+      "note": "Placing a title on writing."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30503:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-wasuma-beauty",
+        "wsm-classical-wasamah"
+      ],
+      "note": "Beauty and the impress of beauty."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30504:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-mutawassim-s1"
+      ],
+      "note": "Perceiving goodness through outward signs."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30504:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-mutawassim-s1"
+      ],
+      "note": "Deliberate examination through external signs."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30504:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-mutawassim-s1"
+      ],
+      "note": "Perception based on outward signs."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30505:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-simah-mark",
+        "wsm-classical-simah-title"
+      ],
+      "note": "Brand, identifying sign, and written title."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30506:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-wasma-plant"
+      ],
+      "note": "Dyeing plant."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30507:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-wasmi-rain"
+      ],
+      "note": "Name for the first seasonal rain."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30508:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-mawsim"
+      ],
+      "note": "Periodic festival or fair."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30508:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-mawsim"
+      ],
+      "note": "Pilgrims' fair and meeting place."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30509:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-misam-mark"
+      ],
+      "note": "Brand or mark made with a hot iron."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30509:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-misam-mark"
+      ],
+      "note": "Branding or marking instrument."
+    },
+    {
+      "unit_id": "lane-unit:wsm:30509:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wsm-classical-misam-beauty"
+      ],
+      "note": "Visible character of beauty."
+    }
+  ],
+  "cautions": [
+    "The Mufradat discussion also cites sīma forms in Quranic passages, but no corresponding QAC form group is supplied; that evidence is retained under the classical سِمَةٌ entry rather than assigned to a Quranic form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

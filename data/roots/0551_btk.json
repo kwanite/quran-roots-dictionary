@@ -1,0 +1,168 @@
+{
+  "root": "btk",
+  "arabic": "بتك",
+  "root_idea": {
+    "summary": "The root centers on cutting or severing, especially detaching a part from its whole.",
+    "development": "The lexical range extends from cutting a part away or plucking it from its root to the detached piece, the state of becoming severed, and the sharp cutting quality of an instrument.",
+    "source_refs": [
+      "maqayis:row:677",
+      "mufradat:row:91"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:btk:yubat~iku:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "btk_f2_battaka",
+      "reason": "The Quran-attested Form II verb is presented under its normalized perfect-tense dictionary citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "btk_f2_battaka",
+      "form_group_ids": [
+        "qac-form:btk:yubat~iku:verb:II"
+      ],
+      "headword_arabic": "بَتَّكَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "btk_f2_s1",
+          "definition": "To cut off or sever a part, especially by cutting it from its root; in the Quranic construction, to cut or slit the ears of cattle.",
+          "usage_conditions": "Active Form II; the doubled form may convey extensive or repeated action, or its application to multiple objects. The attested Quranic construction concerns the ears of cattle.",
+          "source_refs": [
+            "lane:entry:35507",
+            "mufradat:row:91"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:119",
+          "word_location": "4:119:4",
+          "sense_ids": [
+            "btk_f2_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_btk_bataka_pluck",
+      "headword_arabic": "بَتَكَ",
+      "definition": "To pluck out hair, feathers, or the like by grasping and pulling them until they are detached from the root.",
+      "usage_conditions": "A transitive use describing removal by pulling rather than merely cutting across.",
+      "source_refs": [
+        "lane:entry:35507"
+      ]
+    },
+    {
+      "meaning_id": "cm_btk_inbataka",
+      "headword_arabic": "اِنْبَتَكَ",
+      "definition": "To become cut, severed, or detached, entirely or from the root; also, to become plucked out.",
+      "usage_conditions": "Intransitive Form VII construction describing the resulting state of severance or detachment.",
+      "source_refs": [
+        "lane:entry:35510"
+      ]
+    },
+    {
+      "meaning_id": "cm_btk_bitka",
+      "headword_arabic": "بِتْكَةٌ",
+      "definition": "A piece or portion cut off or severed; by extension, a portion of the latter part of the night, especially its remaining darkness.",
+      "usage_conditions": "Also attested with the variant pronunciation بَتْكَةٌ; plural بِتَكٌ.",
+      "source_refs": [
+        "lane:entry:35511"
+      ]
+    },
+    {
+      "meaning_id": "cm_btk_batik_batuk",
+      "headword_arabic": "بَاتِكٌ / بَتُوكٌ",
+      "definition": "An epithet meaning sharp or cutting; بَتُوكٌ is an intensive form meaning very sharp or keenly cutting.",
+      "usage_conditions": "The cited application is to a sword or other cutting instrument; بَتُوكٌ intensifies the description.",
+      "source_refs": [
+        "lane:entry:35513"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:btk:35507:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "btk_f2_s1"
+      ],
+      "note": "Its severing meaning and Quranic ear-cutting construction are represented by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:btk:35507:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_btk_bataka_pluck"
+      ],
+      "note": "The root-plucking use is represented as a Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:btk:35508:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:btk:35509:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader to Form VII."
+    },
+    {
+      "unit_id": "lane-unit:btk:35510:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_btk_inbataka"
+      ],
+      "note": "The intransitive becoming severed use is represented."
+    },
+    {
+      "unit_id": "lane-unit:btk:35510:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_btk_inbataka"
+      ],
+      "note": "The becoming plucked-out use is included in the Form VII meaning."
+    },
+    {
+      "unit_id": "lane-unit:btk:35511:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_btk_bitka"
+      ],
+      "note": "The severed-piece meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:btk:35511:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_btk_bitka"
+      ],
+      "note": "The extended night-portion meaning is included in the noun entry."
+    },
+    {
+      "unit_id": "lane-unit:btk:35512:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader to the following lexical discussion."
+    },
+    {
+      "unit_id": "lane-unit:btk:35513:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_btk_batik_batuk"
+      ],
+      "note": "The sharp or cutting epithet and its intensive counterpart are represented."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

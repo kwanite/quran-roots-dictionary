@@ -1,0 +1,782 @@
+{
+  "root": "srq",
+  "arabic": "سرق",
+  "root_idea": {
+    "summary": "The root centers on taking something secretly and out of sight.",
+    "development": "From covert taking, the lexical family extends to theft and the thief, covert listening, gradual or concealed appropriation, and several figurative or specialized uses. The silk term سَرَقٌ is treated as a divergent lexical item.",
+    "source_refs": [
+      "maqayis:row:2414",
+      "mufradat:row:686"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:srq:saraqa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_srq_saraqa_I",
+      "reason": "Canonical Form I Quranic verb for stealing."
+    },
+    {
+      "form_group_id": "qac-form:srq:{sotaraqa:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_srq_istarqa_VIII",
+      "reason": "Canonical Form VIII Quranic verb in the construction استرق السمع."
+    },
+    {
+      "form_group_id": "qac-form:srq:s~aAriq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_srq_sariq_active",
+      "reason": "Normalized to the singular masculine active-participle citation form سَارِق."
+    },
+    {
+      "form_group_id": "qac-form:srq:s~aAriqap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_srq_sariqa_active",
+      "reason": "Normalized to the singular feminine active-participle citation form سَارِقَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_srq_saraqa_I",
+      "form_group_ids": [
+        "qac-form:srq:saraqa:verb:I"
+      ],
+      "headword_arabic": "سَرَقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sense_srq_saraqa_I_1",
+          "definition": "To steal: to take what is not one's due secretly, often by artifice or from a place of custody.",
+          "usage_conditions": "The Quranic occurrences include narrative allegations of theft as well as legal and covenant-related contexts. In juridical formulation, the act is further specified as taking an object from a particular place and in a particular measure; these specifications do not replace the core meaning of covert taking.",
+          "source_refs": [
+            "lane:entry:40984",
+            "mufradat:row:686"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:77",
+          "word_location": "12:77:3",
+          "sense_ids": [
+            "sense_srq_saraqa_I_1"
+          ]
+        },
+        {
+          "verse_key": "12:81",
+          "word_location": "12:81:8",
+          "sense_ids": [
+            "sense_srq_saraqa_I_1"
+          ]
+        },
+        {
+          "verse_key": "60:12",
+          "word_location": "60:12:14",
+          "sense_ids": [
+            "sense_srq_saraqa_I_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_srq_istarqa_VIII",
+      "form_group_ids": [
+        "qac-form:srq:{sotaraqa:verb:VIII"
+      ],
+      "headword_arabic": "اِسْتَرَقَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_srq_istarqa_VIII_1",
+          "definition": "To listen secretly; to eavesdrop.",
+          "usage_conditions": "The Quranic construction is اِسْتَرَقَ السَّمْعَ, meaning to listen covertly or obtain aural information by stealth. This is a distinct covert-listening use, not merely the ordinary act of stealing.",
+          "source_refs": [
+            "mufradat:row:686"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:18",
+          "word_location": "15:18:3",
+          "sense_ids": [
+            "sense_srq_istarqa_VIII_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_srq_sariq_active",
+      "form_group_ids": [
+        "qac-form:srq:s~aAriq:nominal:-"
+      ],
+      "headword_arabic": "سَارِقٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense_srq_sariq_active_1",
+          "definition": "A thief: one who takes what belongs to another clandestinely.",
+          "usage_conditions": "An active participle of سَرَقَ; the Quran uses both singular and plural forms in narrative and legal contexts.",
+          "source_refs": [
+            "lane:entry:41000",
+            "mufradat:row:686"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:38",
+          "word_location": "5:38:1",
+          "sense_ids": [
+            "sense_srq_sariq_active_1"
+          ]
+        },
+        {
+          "verse_key": "12:70",
+          "word_location": "12:70:15",
+          "sense_ids": [
+            "sense_srq_sariq_active_1"
+          ]
+        },
+        {
+          "verse_key": "12:73",
+          "word_location": "12:73:12",
+          "sense_ids": [
+            "sense_srq_sariq_active_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_srq_sariqa_active",
+      "form_group_ids": [
+        "qac-form:srq:s~aAriqap:nominal:-"
+      ],
+      "headword_arabic": "سَارِقَةٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_srq_sariqa_active_1",
+          "definition": "A female thief: a woman who takes what belongs to another clandestinely.",
+          "usage_conditions": "Feminine active-participle counterpart of سَارِقٌ in the Quranic legal expression.",
+          "source_refs": [
+            "mufradat:row:686"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:38",
+          "word_location": "5:38:2",
+          "sense_ids": [
+            "sense_srq_sariqa_active_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "class_srq_tasriq_stealing",
+      "headword_arabic": "تَسْرِيقٌ",
+      "definition": "Stealing; the Form II verbal noun is also used for the act of taking secretly.",
+      "usage_conditions": "A derived-form usage related to the basic theft meaning.",
+      "source_refs": [
+        "lane:entry:40984"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_saraqa_hearing",
+      "headword_arabic": "سَرَقَ السَّمْعَ",
+      "definition": "To listen secretly or eavesdrop.",
+      "usage_conditions": "A conventional expression using سَرَقَ with السمع; this classical construction is distinct in form from the Quranic اِسْتَرَقَ السَّمْعَ.",
+      "source_refs": [
+        "lane:entry:40984"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_suriqa_hoarse",
+      "headword_arabic": "سُرِقَ صَوْتُهُ",
+      "definition": "To become hoarse, literally as though one's voice had been stolen.",
+      "usage_conditions": "Figurative passive expression.",
+      "source_refs": [
+        "lane:entry:40984"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_suriqa_honor",
+      "headword_arabic": "سُرِقَ عِرْضُهُ",
+      "definition": "To be robbed of one's honor or reputation.",
+      "usage_conditions": "Reported as a figurative expression; the transmitted wording is noted as uncertain.",
+      "source_refs": [
+        "lane:entry:40984"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_saraqa_night",
+      "headword_arabic": "سَرَقَ لَيْلَةً",
+      "definition": "To pass a night pleasantly or enjoyably.",
+      "usage_conditions": "Figurative idiomatic usage.",
+      "source_refs": [
+        "lane:entry:40984"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_saraqa_eye",
+      "headword_arabic": "سَرَقَتْهُ عَيْنُهُ",
+      "definition": "For the eye to overcome or overpower someone.",
+      "usage_conditions": "Figurative expression with the eye as the subject.",
+      "source_refs": [
+        "lane:entry:40984"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_sariqa_hidden",
+      "headword_arabic": "سَرِقَ",
+      "definition": "Of a thing, to become hidden, unnoticed, or barely perceptible.",
+      "usage_conditions": "Intransitive Form I usage, with a different vocalization from the ordinary transitive theft verb.",
+      "source_refs": [
+        "lane:entry:40984"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_sariqa_joints",
+      "headword_arabic": "سَرِقَتْ مَفَاصِلُهُ",
+      "definition": "For the joints to become weak or feeble.",
+      "usage_conditions": "A conventional bodily-state expression.",
+      "source_refs": [
+        "lane:entry:40984"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_sarraqa_accuse",
+      "headword_arabic": "سَرَّقَ",
+      "definition": "To attribute theft to someone or accuse someone of stealing.",
+      "usage_conditions": "Lane reports this in connection with an alternate reading at Qur'an 12:81; it is not the canonical QAC Form I analysis of that occurrence.",
+      "source_refs": [
+        "lane:entry:40985"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_yusariqa_stealth",
+      "headword_arabic": "يُسَارِقُ",
+      "definition": "To take an opportunity to look at or listen to someone by stealth.",
+      "usage_conditions": "The Form III construction concerns covertly watching or hearing, especially by exploiting another person's inadvertence.",
+      "source_refs": [
+        "lane:entry:40986"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_tasarraqa_gradual",
+      "headword_arabic": "تَسَرَّقَ",
+      "definition": "To steal gradually, one thing after another.",
+      "usage_conditions": "The derived verb emphasizes successive or piecemeal appropriation.",
+      "source_refs": [
+        "lane:entry:40987"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_insaraqa_withdraw",
+      "headword_arabic": "اِنْسَرَقَ",
+      "definition": "To withdraw, recede, or draw back in order to go away.",
+      "usage_conditions": "Intransitive Form VII usage, especially with عن someone or something.",
+      "source_refs": [
+        "lane:entry:40988"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_insaraqa_weak",
+      "headword_arabic": "اِنْسَرَقَ",
+      "definition": "To become languid, weak, or feeble.",
+      "usage_conditions": "A separate intransitive bodily-state use of the Form VII verb.",
+      "source_refs": [
+        "lane:entry:40988"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_istarqa_deceive",
+      "headword_arabic": "اِسْتَرَقَ",
+      "definition": "To deceive or circumvent secretly or by stealth.",
+      "usage_conditions": "Figurative Form VIII usage.",
+      "source_refs": [
+        "lane:entry:40989"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_istarqa_suppress",
+      "headword_arabic": "اِسْتَرَقَ",
+      "definition": "To suppress or omit some items from an account.",
+      "usage_conditions": "A specialized figurative usage applied to a writer's treatment of accounting entries.",
+      "source_refs": [
+        "lane:entry:40989"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_sarqana_manure",
+      "headword_arabic": "سَرْقَنَ",
+      "definition": "To manure land with dung.",
+      "usage_conditions": "Quadriliteral derived verb formed from the noun سِرْقِينٌ.",
+      "source_refs": [
+        "lane:entry:40990"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_saraq_silk",
+      "headword_arabic": "سَرَقٌ",
+      "definition": "A piece or oblong piece of silk; also silk generally.",
+      "usage_conditions": "A textile noun reported as an Arabicized term and divergent from the central covert-taking branch.",
+      "source_refs": [
+        "lane:entry:40991"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_sariq_theft",
+      "headword_arabic": "سَرِقٌ",
+      "definition": "Theft.",
+      "usage_conditions": "A noun derived from or associated with سَرَقَ; vocalized and nominally distinct from the verb.",
+      "source_refs": [
+        "lane:entry:40992"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_sariqa_stolen",
+      "headword_arabic": "سَرِقَةٌ",
+      "definition": "A thing stolen; by extension, a stolen piece of poetry or verse.",
+      "usage_conditions": "Plural usage can refer to appropriated poetic material.",
+      "source_refs": [
+        "lane:entry:40995"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_sirqin_dung",
+      "headword_arabic": "سِرْقِينٌ",
+      "definition": "Dung used as manure, especially dung of horses and other solid-hoofed animals.",
+      "usage_conditions": "A loanword with variant forms, including سَرْقِينٌ and سَرْجِينٌ.",
+      "source_refs": [
+        "lane:entry:40996"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_saruq_thievish",
+      "headword_arabic": "سَرُوقٌ",
+      "definition": "Thievish; a great thief.",
+      "usage_conditions": "An epithet applied to a man or a dog.",
+      "source_refs": [
+        "lane:entry:40997"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_suraqa_poetry",
+      "headword_arabic": "سُرَاقَةٌ",
+      "definition": "A stealer of poetry or verses.",
+      "usage_conditions": "A specialized agent noun for literary appropriation.",
+      "source_refs": [
+        "lane:entry:40998"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_saruqa_verythievish",
+      "headword_arabic": "سَرُوقَةٌ",
+      "definition": "Very thievish; a very great thief.",
+      "usage_conditions": "An intensive epithet with no reported plural.",
+      "source_refs": [
+        "lane:entry:40999"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_suraq_disease",
+      "headword_arabic": "سُورَقٌ",
+      "definition": "A disease affecting the limbs or members.",
+      "usage_conditions": "A specialized bodily term.",
+      "source_refs": [
+        "lane:entry:41001"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_sariqa_collar",
+      "headword_arabic": "سَارِقَةٌ",
+      "definition": "An iron collar or restraint by which the hands are confined together to the neck, attached to fetters or shackles.",
+      "usage_conditions": "This is a separate classical noun from the Quranic feminine active participle سَارِقَةٌ.",
+      "source_refs": [
+        "lane:entry:41002"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_sawariq_lock",
+      "headword_arabic": "سَوَارِقُ",
+      "definition": "The adjuncts or projections in the catches of a lock.",
+      "usage_conditions": "Plural technical usage related to the specialized noun سَارِقَةٌ.",
+      "source_refs": [
+        "lane:entry:41002"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_masruq_voice",
+      "headword_arabic": "مَسْرُوقُ الصَّوْتِ",
+      "definition": "Hoarse in voice; of a young gazelle, having a nasal sound or twang in its cry.",
+      "usage_conditions": "Figurative descriptions based on the idea of a voice having been stolen.",
+      "source_refs": [
+        "lane:entry:41003"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_mustariq_listen",
+      "headword_arabic": "مُسْتَرِقٌ",
+      "definition": "Listening by stealth, like a thief.",
+      "usage_conditions": "Active-participle usage associated with covert hearing.",
+      "source_refs": [
+        "lane:entry:41004"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_mustariq_defective",
+      "headword_arabic": "مُسْتَرِقٌ",
+      "definition": "Defective or weak in make.",
+      "usage_conditions": "Figurative descriptive usage.",
+      "source_refs": [
+        "lane:entry:41004"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_mustariq_speech",
+      "headword_arabic": "مُسْتَرِقُ القَوْلِ",
+      "definition": "Weak in speech or expression.",
+      "usage_conditions": "A specialized construction with القول.",
+      "source_refs": [
+        "lane:entry:41004"
+      ]
+    },
+    {
+      "meaning_id": "class_srq_mustariq_neck",
+      "headword_arabic": "مُسْتَرِقُ العُنُقِ",
+      "definition": "Short or contracted in the neck.",
+      "usage_conditions": "A bodily descriptive construction.",
+      "source_refs": [
+        "lane:entry:41004"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:srq:40984:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_srq_saraqa_I_1",
+        "class_srq_tasriq_stealing"
+      ],
+      "note": "Covers the basic theft meaning and the derived-form stealing usage."
+    },
+    {
+      "unit_id": "lane-unit:srq:40984:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_saraqa_hearing"
+      ],
+      "note": "Covert-listening construction."
+    },
+    {
+      "unit_id": "lane-unit:srq:40984:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_suriqa_hoarse"
+      ],
+      "note": "Figurative hoarseness expression."
+    },
+    {
+      "unit_id": "lane-unit:srq:40984:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_suriqa_honor"
+      ],
+      "note": "Reported figurative loss of honor."
+    },
+    {
+      "unit_id": "lane-unit:srq:40984:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_saraqa_night"
+      ],
+      "note": "Idiomatic passing of a night pleasantly."
+    },
+    {
+      "unit_id": "lane-unit:srq:40984:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_saraqa_eye"
+      ],
+      "note": "Figurative overpowering by the eye."
+    },
+    {
+      "unit_id": "lane-unit:srq:40984:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_sariqa_hidden"
+      ],
+      "note": "Intransitive meaning of becoming imperceptible."
+    },
+    {
+      "unit_id": "lane-unit:srq:40984:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_sariqa_joints"
+      ],
+      "note": "Weakening of the joints."
+    },
+    {
+      "unit_id": "lane-unit:srq:40985:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:srq:40985:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_sarraqa_accuse"
+      ],
+      "note": "Accusing someone of theft, with an alternate Quranic reading reported."
+    },
+    {
+      "unit_id": "lane-unit:srq:40986:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_yusariqa_stealth"
+      ],
+      "note": "Form III covert looking and listening."
+    },
+    {
+      "unit_id": "lane-unit:srq:40987:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_tasarraqa_gradual"
+      ],
+      "note": "Gradual or piecemeal stealing."
+    },
+    {
+      "unit_id": "lane-unit:srq:40987:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:srq:40988:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_insaraqa_withdraw"
+      ],
+      "note": "Withdrawal or recession."
+    },
+    {
+      "unit_id": "lane-unit:srq:40988:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_insaraqa_weak"
+      ],
+      "note": "Becoming languid or weak."
+    },
+    {
+      "unit_id": "lane-unit:srq:40989:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:srq:40989:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:srq:40989:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_istarqa_deceive"
+      ],
+      "note": "Secret deception or circumvention."
+    },
+    {
+      "unit_id": "lane-unit:srq:40989:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_istarqa_suppress"
+      ],
+      "note": "Suppression of accounting items."
+    },
+    {
+      "unit_id": "lane-unit:srq:40990:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_sarqana_manure"
+      ],
+      "note": "Quadriliteral land-manuring verb."
+    },
+    {
+      "unit_id": "lane-unit:srq:40991:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_saraq_silk"
+      ],
+      "note": "Divergent silk noun."
+    },
+    {
+      "unit_id": "lane-unit:srq:40992:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_sariq_theft"
+      ],
+      "note": "Nominal meaning theft."
+    },
+    {
+      "unit_id": "lane-unit:srq:40993:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:srq:40994:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:srq:40995:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:srq:40995:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_sariqa_stolen"
+      ],
+      "note": "A stolen thing and appropriated poetic material."
+    },
+    {
+      "unit_id": "lane-unit:srq:40996:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_sirqin_dung"
+      ],
+      "note": "Dung or manure noun."
+    },
+    {
+      "unit_id": "lane-unit:srq:40997:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_saruq_thievish"
+      ],
+      "note": "Intensive thievish epithet."
+    },
+    {
+      "unit_id": "lane-unit:srq:40998:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:srq:40998:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_suraqa_poetry"
+      ],
+      "note": "Stealer of poetry or verse."
+    },
+    {
+      "unit_id": "lane-unit:srq:40999:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_saruqa_verythievish"
+      ],
+      "note": "Intensive thievish epithet."
+    },
+    {
+      "unit_id": "lane-unit:srq:41000:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_srq_sariq_active_1"
+      ],
+      "note": "Agent noun thief."
+    },
+    {
+      "unit_id": "lane-unit:srq:41001:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_suraq_disease"
+      ],
+      "note": "Specialized disease term."
+    },
+    {
+      "unit_id": "lane-unit:srq:41002:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_sariqa_collar"
+      ],
+      "note": "Specialized restraint noun."
+    },
+    {
+      "unit_id": "lane-unit:srq:41002:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_sawariq_lock"
+      ],
+      "note": "Lock-catch technical plural."
+    },
+    {
+      "unit_id": "lane-unit:srq:41003:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_masruq_voice"
+      ],
+      "note": "Figurative voice descriptions."
+    },
+    {
+      "unit_id": "lane-unit:srq:41004:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_mustariq_listen"
+      ],
+      "note": "Covert listening participle."
+    },
+    {
+      "unit_id": "lane-unit:srq:41004:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_mustariq_defective"
+      ],
+      "note": "Weak or defective in make."
+    },
+    {
+      "unit_id": "lane-unit:srq:41004:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_mustariq_speech"
+      ],
+      "note": "Weakness in speech."
+    },
+    {
+      "unit_id": "lane-unit:srq:41004:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class_srq_mustariq_neck"
+      ],
+      "note": "Short or contracted neck."
+    }
+  ],
+  "cautions": [
+    "The Form VIII Quranic occurrence is the specific construction اِسْتَرَقَ السَّمْعَ, meaning covert listening; the contextual English gloss “steals” does not by itself define the sense.",
+    "سَارِقَةٌ is the Quranic feminine active participle “female thief,” while Lane also records a separate homonymous classical noun for an iron restraint; these are kept distinct.",
+    "The reported Form II reading meaning “was accused of theft” at 12:81 is not the canonical QAC form-group analysis, which records the Form I verb."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Lane wording for the figurative expression interpreted as being robbed of one's honor is explicitly treated as a possible mistranscription; it is retained as a qualified Classical Arabic meaning rather than treated as certain standard wording."
+  ]
+}

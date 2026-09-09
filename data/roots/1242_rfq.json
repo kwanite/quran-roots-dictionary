@@ -1,0 +1,995 @@
+{
+  "root": "rfq",
+  "arabic": "ر ف ق",
+  "root_idea": {
+    "summary": "The root centers on agreement, approach, and dealing without violence: gentleness, tact, and a manner that makes an affair easier.",
+    "development": "From this orientation, the lexicon develops meanings of gentleness and skilful handling, companionship and travel together, useful support or ease, leaning on the elbow, and several specialized bodily and animal terms.",
+    "source_refs": [
+      "maqayis:row:2103"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rfq:maraAfiq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rfq_mirfaq",
+      "reason": "Presented under the normalized singular citation form مِرْفَق; the Quranic form is the plural مَرَافِق."
+    },
+    {
+      "form_group_id": "qac-form:rfq:murotafaq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rfq_murtafaq",
+      "reason": "A distinct Quranic derived nominal meaning, presented under its passive-participial citation form."
+    },
+    {
+      "form_group_id": "qac-form:rfq:m~irofaq:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "rfq_mirfaq",
+      "reason": "A vocalized singular variant of مِرْفَق, normalized together with the plural مَرَافِق and its lexical citation form."
+    },
+    {
+      "form_group_id": "qac-form:rfq:rafiyq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rfq_rafiq",
+      "reason": "Distinct Quranic noun meaning companion."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "rfq_mirfaq",
+      "form_group_ids": [
+        "qac-form:rfq:maraAfiq:nominal:-",
+        "qac-form:rfq:m~irofaq:nominal:-"
+      ],
+      "headword_arabic": "مِرْفَق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "rfq_mirfaq_s1",
+          "definition": "Elbow; the elbow joint.",
+          "usage_conditions": "In the Quran, the plural مَرَافِق denotes the elbows in the ablution instruction.",
+          "source_refs": [
+            "lane:entry:24022"
+          ]
+        },
+        {
+          "sense_id": "rfq_mirfaq_s2",
+          "definition": "A means of benefit, ease, or useful advantage; a facility or resource.",
+          "usage_conditions": "In the Quranic construction مِنْ أَمْرِكُمْ مِرْفَقًا, the noun denotes something by which one profits or finds ease, rather than the anatomical elbow.",
+          "source_refs": [
+            "lane:entry:24022"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:6",
+          "word_location": "5:6:12",
+          "sense_ids": [
+            "rfq_mirfaq_s1"
+          ]
+        },
+        {
+          "verse_key": "18:16",
+          "word_location": "18:16:19",
+          "sense_ids": [
+            "rfq_mirfaq_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "rfq_murtafaq",
+      "form_group_ids": [
+        "qac-form:rfq:murotafaq:nominal:-"
+      ],
+      "headword_arabic": "مُرْتَفَق",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "rfq_murtafaq_s1",
+          "definition": "A place or thing upon which one leans; a resting place or support.",
+          "usage_conditions": "The passive-participial form is substantivized as a place or means of repose and support.",
+          "source_refs": [
+            "lane:entry:24027"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:29",
+          "word_location": "18:29:28",
+          "sense_ids": [
+            "rfq_murtafaq_s1"
+          ]
+        },
+        {
+          "verse_key": "18:31",
+          "word_location": "18:31:28",
+          "sense_ids": [
+            "rfq_murtafaq_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "rfq_rafiq",
+      "form_group_ids": [
+        "qac-form:rfq:rafiyq:nominal:-"
+      ],
+      "headword_arabic": "رَفِيق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "rfq_rafiq_s1",
+          "definition": "A companion; one who accompanies another.",
+          "usage_conditions": "The Quranic use denotes companions associated with one through the journey of life and its final destination.",
+          "source_refs": [
+            "lane:entry:24015"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:69",
+          "word_location": "4:69:18",
+          "sense_ids": [
+            "rfq_rafiq_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_rafq_gentleness",
+      "headword_arabic": "رِفْق / رَفَقَ",
+      "definition": "Gentleness, softness, tenderness, graciousness, courtesy, or civil treatment; to deal gently with someone or with an affair.",
+      "usage_conditions": "The verb may be construed with بِـ, عَلَى, or فِي and may describe applying tact to a need or undertaking.",
+      "source_refs": [
+        "lane:entry:23999",
+        "lane:entry:24008",
+        "lane:entry:24015"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafq_skill",
+      "headword_arabic": "رَفُقَ / رَفِيق",
+      "definition": "Delicacy, neatness, dexterity, or skill in work or operation.",
+      "usage_conditions": "This is the opposite of clumsy or rough execution.",
+      "source_refs": [
+        "lane:entry:23999",
+        "lane:entry:24008",
+        "lane:entry:24015"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafq_moderate",
+      "headword_arabic": "رَفَقَ",
+      "definition": "To proceed in a right, moderate, or well-judged manner in traveling or pacing.",
+      "usage_conditions": "Attested in the construction رَفَقَ فِي السَّيْرِ.",
+      "source_refs": [
+        "lane:entry:23999"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafq_companionship",
+      "headword_arabic": "رَفَاقَة",
+      "definition": "Companionship; the state of being a companion.",
+      "usage_conditions": "This is a verbal noun associated with being a رَفِيق, distinct from the concrete individual companion.",
+      "source_refs": [
+        "lane:entry:23999"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafq_elbow_strike",
+      "headword_arabic": "رَفَقَ",
+      "definition": "To strike another person’s elbow.",
+      "usage_conditions": "A specialized transitive bodily use.",
+      "source_refs": [
+        "lane:entry:23999"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafq_bind_camel",
+      "headword_arabic": "رَفَقَ",
+      "definition": "To bind a camel’s arm or foreleg to its lower leg in order to restrain its movement.",
+      "usage_conditions": "The operation is described especially for a she-camel liable to return toward her accustomed home, or for a slightly lame camel.",
+      "source_refs": [
+        "lane:entry:23999"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafiq_camel_elbow_distortion",
+      "headword_arabic": "رَفِقَ / رَفَق",
+      "definition": "A camel’s elbow being displaced or distorted outward from its side.",
+      "usage_conditions": "Used of camels and related to the animal’s elbow condition.",
+      "source_refs": [
+        "lane:entry:23999",
+        "lane:entry:24009"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafq_teat_disorder",
+      "headword_arabic": "رَفَق",
+      "definition": "A disorder or stoppage affecting the orifice of a she-camel’s teat, sometimes causing milk to revert, coagulate, or become mixed with blood.",
+      "usage_conditions": "A specialized veterinary and pastoral term.",
+      "source_refs": [
+        "lane:entry:23999",
+        "lane:entry:24009"
+      ]
+    },
+    {
+      "meaning_id": "cm_tarfiq_sheep_marking",
+      "headword_arabic": "تَرْفِيق",
+      "definition": "The condition of a sheep or goat whose forelegs are white up to the elbows.",
+      "usage_conditions": "A descriptive marking of the animal’s legs.",
+      "source_refs": [
+        "lane:entry:24000"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafiq_accompany",
+      "headword_arabic": "رَافَقَ",
+      "definition": "To accompany someone, especially as a traveling or journeying companion.",
+      "usage_conditions": "A Form III transitive construction describing companionship during a journey.",
+      "source_refs": [
+        "lane:entry:24001"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafiq_hypocrisy",
+      "headword_arabic": "رِفَاق",
+      "definition": "Hypocrisy or hypocritical behavior.",
+      "usage_conditions": "A separately attested lexical use of the verbal noun.",
+      "source_refs": [
+        "lane:entry:24001"
+      ]
+    },
+    {
+      "meaning_id": "cm_irfaq_benefit",
+      "headword_arabic": "أَرْفَقَ",
+      "definition": "To benefit someone or be useful to him.",
+      "usage_conditions": "A Form IV causative/useful-benefit construction.",
+      "source_refs": [
+        "lane:entry:24002"
+      ]
+    },
+    {
+      "meaning_id": "cm_irfaq_associate",
+      "headword_arabic": "أَرْفَقَ",
+      "definition": "To associate someone with another person or group.",
+      "usage_conditions": "A later usage explicitly described with بِغَيْرِهِ.",
+      "source_refs": [
+        "lane:entry:24002"
+      ]
+    },
+    {
+      "meaning_id": "cm_taraffuq_companions",
+      "headword_arabic": "تَرَافَقَ",
+      "definition": "To become traveling companions; to travel or journey together.",
+      "usage_conditions": "A reciprocal Form VI construction applying to two or more persons.",
+      "source_refs": [
+        "lane:entry:24004"
+      ]
+    },
+    {
+      "meaning_id": "cm_irtifaq_seek_aid",
+      "headword_arabic": "اِرْتَفَقَ",
+      "definition": "To seek or demand aid, help, or assistance.",
+      "usage_conditions": "The Form VIII verb is equated with seeking rِفْق in the sense of aid.",
+      "source_refs": [
+        "lane:entry:24005"
+      ]
+    },
+    {
+      "meaning_id": "cm_irtifaq_benefit",
+      "headword_arabic": "اِرْتَفَقَ",
+      "definition": "To profit by, gain advantage from, or make use of someone or something.",
+      "usage_conditions": "May be construed with بِـ and may refer to using an implement, garment, or other thing.",
+      "source_refs": [
+        "lane:entry:24005"
+      ]
+    },
+    {
+      "meaning_id": "cm_irtifaq_lean",
+      "headword_arabic": "اِرْتَفَقَ",
+      "definition": "To lean upon the elbow or upon a pillow used for leaning.",
+      "usage_conditions": "A bodily posture or the corresponding use of a support.",
+      "source_refs": [
+        "lane:entry:24005"
+      ]
+    },
+    {
+      "meaning_id": "cm_irtifaq_full",
+      "headword_arabic": "اِرْتَفَقَ",
+      "definition": "To become full or filled.",
+      "usage_conditions": "A distinct Form VIII resultative use.",
+      "source_refs": [
+        "lane:entry:24005"
+      ]
+    },
+    {
+      "meaning_id": "cm_istirfaq_benefit",
+      "headword_arabic": "اِسْتَرْفَقَ",
+      "definition": "To seek or demand that someone benefit or be useful to one.",
+      "usage_conditions": "A Form X request for useful benefit.",
+      "source_refs": [
+        "lane:entry:24006"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamarfuq_pillow",
+      "headword_arabic": "تَمَرْفَقَ",
+      "definition": "To take or use a مِرْفَقَة, a pillow on which one leans with the elbow.",
+      "usage_conditions": "A specialized Form Q.Q II usage.",
+      "source_refs": [
+        "lane:entry:24007"
+      ]
+    },
+    {
+      "meaning_id": "cm_rifq_aid",
+      "headword_arabic": "رِفْق",
+      "definition": "A thing by means of which one seeks help or assistance.",
+      "usage_conditions": "A concrete noun of aid or support, distinct from the abstract quality of gentleness.",
+      "source_refs": [
+        "lane:entry:24008"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafq_easy",
+      "headword_arabic": "رَفَق",
+      "definition": "Easy of attainment or access.",
+      "usage_conditions": "Used of pasture, water, or a desired object that is readily sought and obtained.",
+      "source_refs": [
+        "lane:entry:24009"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafq_group",
+      "headword_arabic": "رُفْقَة / رِفْقَة",
+      "definition": "A company or group of people traveling together.",
+      "usage_conditions": "The term applies while the travelers remain gathered in one journey or place of assembly; it ceases to apply when they separate.",
+      "source_refs": [
+        "lane:entry:24011"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafaq_provisioning",
+      "headword_arabic": "رِفَاق",
+      "definition": "A company of camels used by people traveling to obtain provisions from towns or villages.",
+      "usage_conditions": "A specialized plural use for provisioning caravans.",
+      "source_refs": [
+        "lane:entry:24011"
+      ]
+    },
+    {
+      "meaning_id": "cm_rifaq_cord",
+      "headword_arabic": "رِفَاق",
+      "definition": "A cord used to bind a camel’s elbow or arm to its lower leg.",
+      "usage_conditions": "The term names the restraining cord described in the corresponding camel practice.",
+      "source_refs": [
+        "lane:entry:24014"
+      ]
+    },
+    {
+      "meaning_id": "cm_rifaq_teat_device",
+      "headword_arabic": "رِفَاق",
+      "definition": "A finger-shaped device placed over a she-camel’s diseased teat and secured beneath the teat-binding cord.",
+      "usage_conditions": "Used as a treatment for the disorder called رَفَق.",
+      "source_refs": [
+        "lane:entry:24014"
+      ]
+    },
+    {
+      "meaning_id": "cm_rafiq_easy",
+      "headword_arabic": "رَفِيق",
+      "definition": "Easy or convenient for someone; favorable to one’s circumstances.",
+      "usage_conditions": "A figurative use applied to an affair or thing, commonly with بِكَ or عَلَيْكَ.",
+      "source_refs": [
+        "lane:entry:24015"
+      ]
+    },
+    {
+      "meaning_id": "cm_arfaqu_comparative",
+      "headword_arabic": "أَرْفَق",
+      "definition": "More or most gentle; by extension, more or most easy or convenient.",
+      "usage_conditions": "A comparative or superlative adjective derived from the gentleness and convenience senses.",
+      "source_refs": [
+        "lane:entry:24019"
+      ]
+    },
+    {
+      "meaning_id": "cm_arfaqu_camel_elbow",
+      "headword_arabic": "أَرْفَق",
+      "definition": "Of a camel: having the elbow distorted outward from the side.",
+      "usage_conditions": "A specialized animal epithet; the feminine form is also reported for a she-camel.",
+      "source_refs": [
+        "lane:entry:24019"
+      ]
+    },
+    {
+      "meaning_id": "cm_arfaqu_camel_teat",
+      "headword_arabic": "رَفْقَاء",
+      "definition": "Of a she-camel: having the orifice or orifices of the teat stopped up.",
+      "usage_conditions": "A specialized animal epithet associated with the teat disorder رَفَق.",
+      "source_refs": [
+        "lane:entry:24019"
+      ]
+    },
+    {
+      "meaning_id": "cm_mirfaq_house_facilities",
+      "headword_arabic": "مِرْفَق",
+      "definition": "A household facility or appurtenance, such as a privy, kitchen, sink, or similar convenience.",
+      "usage_conditions": "This pluralized architectural use is distinct from the anatomical elbow and from a general means of benefit.",
+      "source_refs": [
+        "lane:entry:24022"
+      ]
+    },
+    {
+      "meaning_id": "cm_mirfaqa_pillow",
+      "headword_arabic": "مِرْفَقَة",
+      "definition": "A pillow or cushion on which one leans with the elbow.",
+      "usage_conditions": "A derived noun naming the support used in leaning.",
+      "source_refs": [
+        "lane:entry:24023"
+      ]
+    },
+    {
+      "meaning_id": "cm_muraffaqa_marking",
+      "headword_arabic": "مُرَفَّقَة",
+      "definition": "A sheep or goat whose forelegs are white up to the elbows.",
+      "usage_conditions": "An animal-description term.",
+      "source_refs": [
+        "lane:entry:24024"
+      ]
+    },
+    {
+      "meaning_id": "cm_mirfaq_camel_elbow_pain",
+      "headword_arabic": "مِرْفَاق",
+      "definition": "A camel whose elbow hurts or presses against its side.",
+      "usage_conditions": "A specialized animal noun.",
+      "source_refs": [
+        "lane:entry:24025"
+      ]
+    },
+    {
+      "meaning_id": "cm_mirfaq_shecamel_udder",
+      "headword_arabic": "مِرْفَاق",
+      "definition": "A she-camel injured by the cord or binding applied to her udder, with blood issuing when she is released or milked.",
+      "usage_conditions": "A specialized pastoral term associated with binding the udder.",
+      "source_refs": [
+        "lane:entry:24025"
+      ]
+    },
+    {
+      "meaning_id": "cm_marfuq_camel_elbow",
+      "headword_arabic": "مَرْفُوق",
+      "definition": "A camel suffering from a complaint of the elbow.",
+      "usage_conditions": "A passive-participial animal description.",
+      "source_refs": [
+        "lane:entry:24026"
+      ]
+    },
+    {
+      "meaning_id": "cm_murtafiq_leaning",
+      "headword_arabic": "مُرْتَفِق",
+      "definition": "Leaning upon the elbow.",
+      "usage_conditions": "The active participle describes the person adopting this posture, not the place or support itself.",
+      "source_refs": [
+        "lane:entry:24028"
+      ]
+    },
+    {
+      "meaning_id": "cm_murtafiq_full",
+      "headword_arabic": "مُرْتَفِق",
+      "definition": "Full, standing, continuing, or nearly full.",
+      "usage_conditions": "A separate, rare descriptive use attested in poetic discussion of filled or abundant low ground and vegetation.",
+      "source_refs": [
+        "lane:entry:24028"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rfq:23999:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_gentleness"
+      ],
+      "note": "Gentleness and applying tact to an affair are represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:23999:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_skill"
+      ],
+      "note": "Skill and delicacy in work are represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:23999:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_skill"
+      ],
+      "note": "Doing work soundly and skilfully is covered."
+    },
+    {
+      "unit_id": "lane-unit:rfq:23999:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_moderate"
+      ],
+      "note": "Moderate travel or pacing is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:23999:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:23999:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_companionship"
+      ],
+      "note": "The verbal noun meaning companionship is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:23999:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_elbow_strike"
+      ],
+      "note": "Striking another’s elbow is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:23999:g4:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_bind_camel"
+      ],
+      "note": "Binding a camel’s limb to restrain it is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:23999:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafiq_camel_elbow_distortion"
+      ],
+      "note": "Camel elbow distortion is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:23999:g5:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_teat_disorder"
+      ],
+      "note": "The specialized she-camel teat disorder is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24000:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tarfiq_sheep_marking"
+      ],
+      "note": "The animal marking term is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24001:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafiq_accompany"
+      ],
+      "note": "Accompanying in travel is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24001:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafiq_hypocrisy"
+      ],
+      "note": "The separately attested hypocrisy sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24002:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24002:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irfaq_benefit"
+      ],
+      "note": "Benefiting or being useful is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24002:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irfaq_associate"
+      ],
+      "note": "Associating someone with others is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24003:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to four places in the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24004:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taraffuq_companions"
+      ],
+      "note": "Traveling together as companions is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24005:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irtifaq_seek_aid"
+      ],
+      "note": "Seeking aid or help is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24005:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irtifaq_benefit"
+      ],
+      "note": "Profiting by or using something is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24005:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the reciprocal travel-companion entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24005:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irtifaq_lean"
+      ],
+      "note": "Leaning on the elbow or a support is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24005:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_irtifaq_full"
+      ],
+      "note": "Becoming full or filled is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24006:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istirfaq_benefit"
+      ],
+      "note": "Seeking useful benefit is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24007:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamarfuq_pillow"
+      ],
+      "note": "Taking a leaning pillow is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24008:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_gentleness"
+      ],
+      "note": "Abstract gentleness and courteous treatment are represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24008:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_skill"
+      ],
+      "note": "Delicacy and skill in work are represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24008:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rifq_aid"
+      ],
+      "note": "A concrete means of assistance is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24009:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Definition is a pointer to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24009:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_easy"
+      ],
+      "note": "Easy attainment or access is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24009:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafiq_camel_elbow_distortion"
+      ],
+      "note": "Camel elbow distortion is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24009:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_teat_disorder"
+      ],
+      "note": "The teat-orifice disorder is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24009:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24010:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24011:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_group"
+      ],
+      "note": "A gathered traveling company is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24011:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafaq_provisioning"
+      ],
+      "note": "The specialized provisioning-caravan plural is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24012:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding group entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24013:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another animal epithet."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24014:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rifaq_cord"
+      ],
+      "note": "The camel-restraining cord is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24014:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rifaq_teat_device"
+      ],
+      "note": "The teat-treatment device is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24015:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_gentleness"
+      ],
+      "note": "Gentleness as an adjective is covered."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24015:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafq_skill"
+      ],
+      "note": "Skill and neatness as an adjective are covered."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24015:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rafiq_easy"
+      ],
+      "note": "The figurative convenient/easy use is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24015:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rfq_rafiq_s1"
+      ],
+      "note": "The Quran-attested companion sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24016:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other companion entries."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24017:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the رَفِيق entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24018:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the رِفْق entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24019:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_arfaqu_comparative"
+      ],
+      "note": "Comparative gentleness is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24019:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_arfaqu_comparative"
+      ],
+      "note": "Comparative ease or convenience is included in the same adjective entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24019:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_arfaqu_camel_elbow"
+      ],
+      "note": "The camel elbow epithet is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24019:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_arfaqu_camel_teat"
+      ],
+      "note": "The she-camel teat epithet is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24020:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the مِرْفَق entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24021:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24022:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Only grammatical information about verbal nouns."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24022:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rfq_mirfaq_s2"
+      ],
+      "note": "The Quran-attested means of benefit or ease is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24022:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mirfaq_house_facilities"
+      ],
+      "note": "Household facilities and conveniences are represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24022:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rfq_mirfaq_s1"
+      ],
+      "note": "The elbow sense is represented in the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24023:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mirfaqa_pillow"
+      ],
+      "note": "The elbow-support pillow is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24024:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muraffaqa_marking"
+      ],
+      "note": "The sheep or goat leg marking is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24025:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mirfaq_camel_elbow_pain"
+      ],
+      "note": "The camel with painful elbow is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24025:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mirfaq_shecamel_udder"
+      ],
+      "note": "The injured she-camel udder use is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24026:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_marfuq_camel_elbow"
+      ],
+      "note": "The passive animal description is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24027:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rfq_murtafaq_s1"
+      ],
+      "note": "The place or thing of support is represented in the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24028:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_murtafiq_leaning"
+      ],
+      "note": "Leaning upon the elbow is represented."
+    },
+    {
+      "unit_id": "lane-unit:rfq:24028:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_murtafiq_full"
+      ],
+      "note": "The rare full or continuing descriptive sense is represented."
+    }
+  ],
+  "cautions": [
+    "مَرْفَق and مِرْفَق are reported with variant vocalizations; the public headword مِرْفَق groups the Quranic anatomical plural and the singular means-of-benefit use. Lane’s historical Quran citations are not used here as modern verse locations; the displayed locations come from QAC."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

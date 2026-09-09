@@ -1,0 +1,199 @@
+{
+  "root": "Ass",
+  "arabic": "أسس",
+  "root_idea": {
+    "summary": "The root centers on an origin or firm, enduring foundation: the base from which a structure or thing is established.",
+    "development": "From the physical foundation or base, the lexical field extends to beginning, source, root, and figurative establishment. The Form II verb denotes laying or providing such a foundation.",
+    "source_refs": [
+      "maqayis:row:86",
+      "mufradat:row:33"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Ass:>as~asa:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran:Ass:assasa:formII",
+      "reason": "The sole QAC group is a Quran-attested Form II verb and is presented under its normalized classical citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran:Ass:assasa:formII",
+      "form_group_ids": [
+        "qac-form:Ass:>as~asa:verb:II"
+      ],
+      "headword_arabic": "أَسَّسَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense:Ass:assasa:foundation",
+          "definition": "To found or establish a building or structure by laying its foundation; to base it upon a foundation or basis.",
+          "usage_conditions": "Quranic usage includes both active and passive forms and concerns a building or structure, including one founded upon a specified basis.",
+          "source_refs": [
+            "lane:entry:6670",
+            "mufradat:row:33"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:108",
+          "word_location": "9:108:6",
+          "sense_ids": [
+            "sense:Ass:assasa:foundation"
+          ]
+        },
+        {
+          "verse_key": "9:109",
+          "word_location": "9:109:12",
+          "sense_ids": [
+            "sense:Ass:assasa:foundation"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Ass:assa:build",
+      "headword_arabic": "أَسَّ",
+      "definition": "To build a house or structure, or to lay its foundation.",
+      "usage_conditions": "A Form I lexical usage distinct from the Quran-attested Form II grouping.",
+      "source_refs": [
+        "lane:entry:6670"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ass:assasa:commence",
+      "headword_arabic": "أَسَّسَ",
+      "definition": "To commence the construction of a building.",
+      "usage_conditions": "A Classical usage emphasizing the beginning of construction.",
+      "source_refs": [
+        "lane:entry:6670"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ass:uss:foundation",
+      "headword_arabic": "أُسٌّ",
+      "definition": "The foundation, basis, or lowest part of a building or wall; also the beginning or commencement of a building or thing.",
+      "usage_conditions": "A nominal usage for the supporting base or starting point of something.",
+      "source_refs": [
+        "lane:entry:6672"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ass:uss:origin",
+      "headword_arabic": "أُسٌّ",
+      "definition": "The origin, source, stock, or root of a person or thing.",
+      "usage_conditions": "An extended usage treating the origin or source as the foundational element.",
+      "source_refs": [
+        "lane:entry:6672"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ass:uss:heart",
+      "headword_arabic": "أُسٌّ",
+      "definition": "The human heart.",
+      "usage_conditions": "A traditional anatomical conception connected with the heart as an originating part in the womb.",
+      "source_refs": [
+        "lane:entry:6672"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ass:uss:ancient-time",
+      "headword_arabic": "أُسٌّ",
+      "definition": "Ancient or primordial time.",
+      "usage_conditions": "Used idiomatically in expressions such as عَلَى أُسِّ الدَّهْرِ, meaning in old time or at the beginning of time.",
+      "source_refs": [
+        "lane:entry:6672"
+      ]
+    },
+    {
+      "meaning_id": "cm:Ass:uss:trace",
+      "headword_arabic": "أُسٌّ",
+      "definition": "A remnant, relic, trace, vestige, sign, mark, or track; also the remains of ashes between hearthstones.",
+      "usage_conditions": "It may denote a mark or track used to follow a way, or residue specifically left among hearthstones.",
+      "source_refs": [
+        "lane:entry:6672"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Ass:6669:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to entry 6670."
+    },
+    {
+      "unit_id": "lane-unit:Ass:6670:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Ass:assasa:foundation",
+        "cm:Ass:assa:build",
+        "cm:Ass:assasa:commence"
+      ],
+      "note": "Covers founding, the related Form I building usage, and commencing construction."
+    },
+    {
+      "unit_id": "lane-unit:Ass:6670:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another article."
+    },
+    {
+      "unit_id": "lane-unit:Ass:6671:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:Ass:6672:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ass:uss:foundation",
+        "cm:Ass:uss:origin",
+        "cm:Ass:uss:heart",
+        "cm:Ass:uss:ancient-time"
+      ],
+      "note": "Covers the nominal foundation, origin, heart, and ancient-time usages."
+    },
+    {
+      "unit_id": "lane-unit:Ass:6672:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Ass:uss:trace"
+      ],
+      "note": "Covers remnant, trace, track, and ash-residue usages."
+    },
+    {
+      "unit_id": "lane-unit:Ass:6673:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to أُسٌّ."
+    },
+    {
+      "unit_id": "lane-unit:Ass:6674:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to أُسٌّ."
+    },
+    {
+      "unit_id": "lane-unit:Ass:6675:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to أُسٌّ."
+    },
+    {
+      "unit_id": "lane-unit:Ass:6676:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to أُسٌّ."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

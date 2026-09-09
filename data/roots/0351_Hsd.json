@@ -1,0 +1,297 @@
+{
+  "root": "Hsd",
+  "arabic": "حسد",
+  "root_idea": {
+    "summary": "The root centers on ḥasad: wishing that a blessing be removed from its rightful possessor, sometimes with the desire that it pass to oneself.",
+    "development": "The core noun names envy, while related formations describe the act, its envier and object, reciprocal envy, and associated derived constructions. Classical usage also distinguishes a benign wish to possess a like excellence without wishing its removal.",
+    "source_refs": [
+      "maqayis:row:1356",
+      "mufradat:row:322",
+      "lane:entry:14431",
+      "lane:entry:14434",
+      "lane:entry:14437",
+      "lane:entry:14439"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hsd:Hasada:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hsd-verb-I",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Hsd:HaAsid:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hsd-active-participle",
+      "reason": "Displayed as the singular active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:Hsd:Hasad:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hsd-noun",
+      "reason": "Displayed as the Quran-attested abstract noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "hsd-verb-I",
+      "form_group_ids": [
+        "qac-form:Hsd:Hasada:verb:I"
+      ],
+      "headword_arabic": "حَسَدَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "hsd-verb-I-s1",
+          "definition": "To envy: to dislike another's possession of a blessing or excellence and wish that it be removed, sometimes wishing it transferred to oneself.",
+          "usage_conditions": "Quranic Form I usage includes active finite forms. The construction may concern a person or the blessing possessed by that person; the wished-for object is a blessing, source of happiness, or excellence.",
+          "source_refs": [
+            "lane:entry:14431"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:54",
+          "word_location": "4:54:2",
+          "sense_ids": [
+            "hsd-verb-I-s1"
+          ]
+        },
+        {
+          "verse_key": "48:15",
+          "word_location": "48:15:25",
+          "sense_ids": [
+            "hsd-verb-I-s1"
+          ]
+        },
+        {
+          "verse_key": "113:5",
+          "word_location": "113:5:5",
+          "sense_ids": [
+            "hsd-verb-I-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hsd-active-participle",
+      "form_group_ids": [
+        "qac-form:Hsd:HaAsid:nominal:-"
+      ],
+      "headword_arabic": "حَاسِد",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "hsd-active-participle-s1",
+          "definition": "An envier: one who wishes that another's blessing or excellence be removed.",
+          "usage_conditions": "Active participle used substantivally for the person characterized by the act of envy.",
+          "source_refs": [
+            "lane:entry:14437"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "113:5",
+          "word_location": "113:5:3",
+          "sense_ids": [
+            "hsd-active-participle-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hsd-noun",
+      "form_group_ids": [
+        "qac-form:Hsd:Hasad:nominal:-"
+      ],
+      "headword_arabic": "حَسَد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "hsd-noun-s1",
+          "definition": "Envy: wishing that a blessing be removed from its rightful possessor, sometimes with the desire that it pass to oneself.",
+          "usage_conditions": "Abstract noun for the state or disposition of envy; Quranic usage explicitly concerns a blessing possessed by another.",
+          "source_refs": [
+            "lane:entry:14435",
+            "mufradat:row:322"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:109",
+          "word_location": "2:109:12",
+          "sense_ids": [
+            "hsd-noun-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "hsd-benign-emulation",
+      "headword_arabic": "حَسَدَ",
+      "definition": "To wish for another's excellence or comparable good without wishing that the other be deprived of it; to admire or emulate.",
+      "usage_conditions": "A distinct Classical Form I use, explicitly contrasted with hostile envy and treated as synonymous with غَبَطَ.",
+      "source_refs": [
+        "lane:entry:14431"
+      ]
+    },
+    {
+      "meaning_id": "hsd-form-IV-find-envious",
+      "headword_arabic": "أَحْسَدَ",
+      "definition": "To find or regard someone as envious.",
+      "usage_conditions": "Classical Form IV usage in the construction of associating with someone and finding him envious.",
+      "source_refs": [
+        "lane:entry:14433"
+      ]
+    },
+    {
+      "meaning_id": "hsd-form-VI-mutual-envy",
+      "headword_arabic": "تَحَاسَدَ",
+      "definition": "To envy one another; to engage in mutual envy.",
+      "usage_conditions": "Reciprocal Form VI construction.",
+      "source_refs": [
+        "lane:entry:14434"
+      ]
+    },
+    {
+      "meaning_id": "hsd-hasud",
+      "headword_arabic": "حَسُود",
+      "definition": "Envious; an envious person.",
+      "usage_conditions": "Used as an epithet, including as a feminine epithet without ة; its plural is حُسُد.",
+      "source_refs": [
+        "lane:entry:14436"
+      ]
+    },
+    {
+      "meaning_id": "hsd-mahsada",
+      "headword_arabic": "المَحْسَدَة",
+      "definition": "A cause of envy; in a proverb, that which occasions envy is said also to occasion corruption or evil.",
+      "usage_conditions": "Occurs in the cited proverbial expression rather than as a general abstract noun for envy.",
+      "source_refs": [
+        "lane:entry:14438"
+      ]
+    },
+    {
+      "meaning_id": "hsd-mahsud",
+      "headword_arabic": "مَحْسُود",
+      "definition": "Envied; the object of another's envy.",
+      "usage_conditions": "Passive-participial designation for one whose blessing or excellence is envied.",
+      "source_refs": [
+        "lane:entry:14439"
+      ]
+    },
+    {
+      "meaning_id": "hsd-oath-idiom",
+      "headword_arabic": "حَسَدَنِيَ اللَّهُ إِنْ كُنْتُ أَحْسُدُكَ",
+      "definition": "An oath-like saying meaning, “May God punish me for my envy if I envy you.”",
+      "usage_conditions": "A fixed Arab saying, not an independent general sense of the verb.",
+      "source_refs": [
+        "lane:entry:14431"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hsd:14431:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-verb-I-s1"
+      ],
+      "note": "Core hostile-envy meaning."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14431:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-benign-emulation"
+      ],
+      "note": "Benign wish for comparable excellence."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14431:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-oath-idiom"
+      ],
+      "note": "Fixed oath-like saying."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14432:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14433:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-form-IV-find-envious"
+      ],
+      "note": "Form IV construction meaning to find someone envious."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14434:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-form-VI-mutual-envy"
+      ],
+      "note": "Reciprocal envy."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14435:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-noun-s1"
+      ],
+      "note": "Noun denoting envy."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14436:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-hasud"
+      ],
+      "note": "Envious epithet."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14437:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-active-participle-s1"
+      ],
+      "note": "Active participle for an envier."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14438:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-mahsada"
+      ],
+      "note": "Cause-of-envy expression and proverb."
+    },
+    {
+      "unit_id": "lane-unit:Hsd:14439:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hsd-mahsud"
+      ],
+      "note": "Passive participle for one who is envied."
+    }
+  ],
+  "cautions": [
+    "The Form I verb also has a Classical use for admiring or wishing to possess a like excellence without wishing the other person's loss; that distinct branch is listed under broader Classical meanings rather than assigned to the Quranic senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

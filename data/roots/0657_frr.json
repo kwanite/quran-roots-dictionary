@@ -1,0 +1,1405 @@
+{
+  "root": "frr",
+  "arabic": "فرر",
+  "root_idea": {
+    "summary": "The root has several classical branches: uncovering or exposing, flight or turning away, a class of young animals, and lightness or agitation. The Quranic forms chiefly represent the flight-and-escape branch.",
+    "development": "The lexical tradition relates flight to the broader notion of uncovering or moving away, while also recognizing separate animal and lightness/agitation branches rather than deriving every meaning from one direct Quranic sense.",
+    "source_refs": [
+      "maqayis:row:3553"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:frr:far~ato:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "frr_form1_farra",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:frr:firaAr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "frr_firar",
+      "reason": "Displayed as the verbal-noun citation form فِرَار."
+    },
+    {
+      "form_group_id": "qac-form:frr:mafar~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "frr_mafar",
+      "reason": "Displayed under the normalized place/action noun مَفَرّ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "frr_form1_farra",
+      "form_group_ids": [
+        "qac-form:frr:far~ato:verb:I"
+      ],
+      "headword_arabic": "فَرَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "frr_form1_s1",
+          "definition": "To flee or turn away in order to escape.",
+          "usage_conditions": "Used of fleeing from something feared or threatening; with إِلَى, it can express fleeing or turning toward a refuge or destination, including فَفِرُّوا إِلَى اللَّهِ.",
+          "source_refs": [
+            "lane:entry:33576",
+            "mufradat:row:1096"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:21",
+          "word_location": "26:21:1",
+          "sense_ids": [
+            "frr_form1_s1"
+          ]
+        },
+        {
+          "verse_key": "51:50",
+          "word_location": "51:50:1",
+          "sense_ids": [
+            "frr_form1_s1"
+          ]
+        },
+        {
+          "verse_key": "74:51",
+          "word_location": "74:51:1",
+          "sense_ids": [
+            "frr_form1_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "frr_firar",
+      "form_group_ids": [
+        "qac-form:frr:firaAr:nominal:-"
+      ],
+      "headword_arabic": "فِرَار",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "frr_firar_s1",
+          "definition": "Fleeing; flight; the act or state of turning away to escape.",
+          "usage_conditions": "A verbal noun of فَرَّ, used for flight or fleeing in general and in constructions describing escape from danger or rejection of a summons.",
+          "source_refs": [
+            "lane:entry:33576",
+            "mufradat:row:1096"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:18",
+          "word_location": "18:18:19",
+          "sense_ids": [
+            "frr_firar_s1"
+          ]
+        },
+        {
+          "verse_key": "33:16",
+          "word_location": "33:16:4",
+          "sense_ids": [
+            "frr_firar_s1"
+          ]
+        },
+        {
+          "verse_key": "71:6",
+          "word_location": "71:6:5",
+          "sense_ids": [
+            "frr_firar_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "frr_mafar",
+      "form_group_ids": [
+        "qac-form:frr:mafar~:nominal:-"
+      ],
+      "headword_arabic": "مَفَرّ",
+      "public_pos_label": "Noun · verbal/place noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "frr_mafar_s1",
+          "definition": "Fleeing or escape itself.",
+          "usage_conditions": "In أَيْنَ الْمَفَرُّ, the form can be understood as asking where or what the escape is, including the act of fleeing.",
+          "source_refs": [
+            "lane:entry:33576",
+            "lane:entry:33609",
+            "mufradat:row:1096"
+          ]
+        },
+        {
+          "sense_id": "frr_mafar_s2",
+          "definition": "A place or time of fleeing; a place or occasion to which one flees.",
+          "usage_conditions": "The Quranic occurrence أَيْنَ الْمَفَرُّ also permits place and time interpretations; the cited modern location is supplied by QAC.",
+          "source_refs": [
+            "lane:entry:33576",
+            "lane:entry:33609",
+            "mufradat:row:1096"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "75:10",
+          "word_location": "75:10:5",
+          "sense_ids": [
+            "frr_mafar_s1",
+            "frr_mafar_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "frr_fr_turnback",
+      "headword_arabic": "فَرَّ",
+      "definition": "To wheel widely away from an enemy in order to turn back.",
+      "usage_conditions": "A conventional fleeing-and-returning construction, distinct from simple flight.",
+      "source_refs": [
+        "lane:entry:33576"
+      ]
+    },
+    {
+      "meaning_id": "frr_fr_betake",
+      "headword_arabic": "فَرَّ إِلَى",
+      "definition": "To go or betake oneself to a thing.",
+      "usage_conditions": "A directional construction expressing movement toward a destination; it is broader than the Quranic refuge-oriented use represented under the verb.",
+      "source_refs": [
+        "lane:entry:33576"
+      ]
+    },
+    {
+      "meaning_id": "frr_fr_handfall",
+      "headword_arabic": "فَرَّتْ يَدُهُ",
+      "definition": "For the arm or hand to fall off.",
+      "usage_conditions": "An idiomatic bodily-use expression.",
+      "source_refs": [
+        "lane:entry:33576"
+      ]
+    },
+    {
+      "meaning_id": "frr_fr_teethexam",
+      "headword_arabic": "فَرَّ",
+      "definition": "To examine an animal's teeth by exposing them, especially to determine its age.",
+      "usage_conditions": "Used transitively of examining a horse or other beast's teeth, and of opening a horse's mouth for that purpose.",
+      "source_refs": [
+        "lane:entry:33576"
+      ]
+    },
+    {
+      "meaning_id": "frr_fr_investigate",
+      "headword_arabic": "فَرَّ",
+      "definition": "To examine, scrutinize, investigate, or inquire into an affair or a person's inner thoughts.",
+      "usage_conditions": "A figurative extension of examining; may take an affair or a person as its object.",
+      "source_refs": [
+        "lane:entry:33576"
+      ]
+    },
+    {
+      "meaning_id": "frr_fr_recommence",
+      "headword_arabic": "فُرَّ الأَمْرُ جَذَعًا",
+      "definition": "For an affair to return to its beginning and recommence.",
+      "usage_conditions": "An idiomatic, figurative construction.",
+      "source_refs": [
+        "lane:entry:33576"
+      ]
+    },
+    {
+      "meaning_id": "frr_fr_intelligent",
+      "headword_arabic": "فَرَّ",
+      "definition": "To become intelligent after having been weak in mind.",
+      "usage_conditions": "A rare classical intransitive use.",
+      "source_refs": [
+        "lane:entry:33576"
+      ]
+    },
+    {
+      "meaning_id": "frr_farrar_investigate",
+      "headword_arabic": "فَارَرْتُهُ",
+      "definition": "To investigate another's state while that person investigates one's own.",
+      "usage_conditions": "Form III reciprocal or mutually directed investigation.",
+      "source_refs": [
+        "lane:entry:33577"
+      ]
+    },
+    {
+      "meaning_id": "frr_iv_makeflee",
+      "headword_arabic": "أَفَرَّ",
+      "definition": "To make someone or something flee or turn away in order to escape.",
+      "usage_conditions": "Form IV causative use; the object may be a person or another animate being.",
+      "source_refs": [
+        "lane:entry:33578"
+      ]
+    },
+    {
+      "meaning_id": "frr_iv_handfall",
+      "headword_arabic": "أَفَرَّ",
+      "definition": "To cause an arm or hand to fall off.",
+      "usage_conditions": "An idiomatic bodily-use expression.",
+      "source_refs": [
+        "lane:entry:33578"
+      ]
+    },
+    {
+      "meaning_id": "frr_iv_splithead",
+      "headword_arabic": "أَفَرَرْتُ رَأْسَهُ",
+      "definition": "To split or cleave someone's head with a sword.",
+      "usage_conditions": "A transitive Form IV use.",
+      "source_refs": [
+        "lane:entry:33578"
+      ]
+    },
+    {
+      "meaning_id": "frr_iv_teethshed",
+      "headword_arabic": "أَفَرَّتِ الإِبِلُ",
+      "definition": "For camels or horses to shed their milk teeth and grow replacements.",
+      "usage_conditions": "Used of animals undergoing the indicated stage of dentition.",
+      "source_refs": [
+        "lane:entry:33578"
+      ]
+    },
+    {
+      "meaning_id": "frr_v_deride",
+      "headword_arabic": "تَفَرَّرَ بِهِ",
+      "definition": "To laugh at, deride, or ridicule someone.",
+      "usage_conditions": "A Form V idiomatic use with بِـ.",
+      "source_refs": [
+        "lane:entry:33579"
+      ]
+    },
+    {
+      "meaning_id": "frr_vi_mutualflee",
+      "headword_arabic": "تَفَارُّوا",
+      "definition": "To flee from one another.",
+      "usage_conditions": "A reciprocal Form VI construction.",
+      "source_refs": [
+        "lane:entry:33580"
+      ]
+    },
+    {
+      "meaning_id": "frr_viii_smile",
+      "headword_arabic": "اِفْتَرَّ",
+      "definition": "To smile broadly or beautifully so as to show the teeth.",
+      "usage_conditions": "A Form VIII expression for smiling without loud or prolonged laughter.",
+      "source_refs": [
+        "lane:entry:33581"
+      ]
+    },
+    {
+      "meaning_id": "frr_viii_lightning",
+      "headword_arabic": "اِفْتَرَّ",
+      "definition": "For lightning to glisten or flash.",
+      "usage_conditions": "A figurative extension of showing the teeth in a smile.",
+      "source_refs": [
+        "lane:entry:33581"
+      ]
+    },
+    {
+      "meaning_id": "frr_viii_snuff",
+      "headword_arabic": "اِفْتَرَّ",
+      "definition": "To snuff or draw a thing up into the nose.",
+      "usage_conditions": "A separate transitive Form VIII use.",
+      "source_refs": [
+        "lane:entry:33581"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_agitate",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To put something into motion, agitation, or commotion; to shake it about.",
+      "usage_conditions": "A reduplicated Form I use, including the motion of a bit in a horse's mouth.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_breakrend",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To break, cut, split, slit, rend, tear, or mangle something.",
+      "usage_conditions": "The listed uses range from breaking or cutting to violently mangling an object or animal.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_defame",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To defame someone or mangle his reputation.",
+      "usage_conditions": "A figurative extension of tearing or mangling.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_discommend",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To disparage or discommend something.",
+      "usage_conditions": "A figurative use, including disparaging the enjoyments of the present world.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_call",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To call, cry, or call out to someone.",
+      "usage_conditions": "A transitive or directed vocal use.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_intrans_agitate",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "For a camel to agitate or shake its body.",
+      "usage_conditions": "An intransitive animal use.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_horsebit",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "For a horse to strike its teeth against the bit and move its head about.",
+      "usage_conditions": "An intransitive equine use.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_hasten",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To hasten or go with short steps.",
+      "usage_conditions": "An intransitive movement use.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_lightminded",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To be light-minded, unsteady, or foolishly hasty.",
+      "usage_conditions": "Used of mental or behavioral lightness and haste.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_confusedtalk",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To speak confusedly or profusely; loquacity or excessive talk.",
+      "usage_conditions": "The verb describes confused or abundant speech, while فَرْفَرَةٌ can denote talk itself.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_vehicle",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To make the vehicle or women's saddle called فَرْفَار.",
+      "usage_conditions": "A specialized denominative use.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_rq_kindle",
+      "headword_arabic": "فَرْفَرَ",
+      "definition": "To kindle a fire with the wood of the tree called فَرْفَار.",
+      "usage_conditions": "A specialized use associated with the named tree.",
+      "source_refs": [
+        "lane:entry:33582"
+      ]
+    },
+    {
+      "meaning_id": "frr_furr_best",
+      "headword_arabic": "فُرٌّ",
+      "definition": "The best or choice member of a people, group, or stock of property.",
+      "usage_conditions": "Used of a chief or select person and, by extension, the choicest animals or possessions.",
+      "source_refs": [
+        "lane:entry:33584"
+      ]
+    },
+    {
+      "meaning_id": "frr_furra_heat",
+      "headword_arabic": "فُرَّةٌ",
+      "definition": "The beginning or first part of heat, or its vehemence.",
+      "usage_conditions": "The form may denote either the onset or intensity of heat.",
+      "source_refs": [
+        "lane:entry:33585"
+      ]
+    },
+    {
+      "meaning_id": "frr_furra_confusion",
+      "headword_arabic": "فُرَّةٌ",
+      "definition": "Confusion and difficulty.",
+      "usage_conditions": "Used in the expression for falling into confusion or difficulty.",
+      "source_refs": [
+        "lane:entry:33585"
+      ]
+    },
+    {
+      "meaning_id": "frr_firra_smiling",
+      "headword_arabic": "فِرَّةٌ",
+      "definition": "A manner of smiling.",
+      "usage_conditions": "Used in describing the quality or beauty of someone's smile.",
+      "source_refs": [
+        "lane:entry:33586"
+      ]
+    },
+    {
+      "meaning_id": "frr_furar_younganimal",
+      "headword_arabic": "فُرَارٌ",
+      "definition": "A young sheep, goat, cow, or wild bovine; especially a small-bodied young animal or a weaned lamb or kid.",
+      "usage_conditions": "The term can function as a singular or plural designation in the reported classical usages; the exact animal varies by authority.",
+      "source_refs": [
+        "lane:entry:33589"
+      ]
+    },
+    {
+      "meaning_id": "frr_farur_suspicion",
+      "headword_arabic": "فَرُرٌ",
+      "definition": "A woman who habitually avoids whatever might induce suspicion or an evil opinion.",
+      "usage_conditions": "A conventional epithet applied to a woman.",
+      "source_refs": [
+        "lane:entry:33590"
+      ]
+    },
+    {
+      "meaning_id": "frr_farir_mane",
+      "headword_arabic": "فَرِيرٌ",
+      "definition": "The place or base of the mane on a horse.",
+      "usage_conditions": "An anatomical equine term.",
+      "source_refs": [
+        "lane:entry:33591"
+      ]
+    },
+    {
+      "meaning_id": "frr_farir_mouth",
+      "headword_arabic": "فَرِيرٌ",
+      "definition": "The mouth, especially that of a horse or similar animal.",
+      "usage_conditions": "An anatomical use reported for an equine context.",
+      "source_refs": [
+        "lane:entry:33591"
+      ]
+    },
+    {
+      "meaning_id": "frr_furra_defeatedtroop",
+      "headword_arabic": "فُرَّى",
+      "definition": "A defeated military force or troop.",
+      "usage_conditions": "Used in the expression كَتِيبَةٌ فُرَّى.",
+      "source_refs": [
+        "lane:entry:33593"
+      ]
+    },
+    {
+      "meaning_id": "frr_farra_beautifulteeth",
+      "headword_arabic": "فَرَّاءُ",
+      "definition": "A woman beautiful in the front teeth.",
+      "usage_conditions": "A feminine epithet concerning the appearance of the front teeth.",
+      "source_refs": [
+        "lane:entry:33594"
+      ]
+    },
+    {
+      "meaning_id": "frr_farrar_quicksilver",
+      "headword_arabic": "فَرَّارٌ",
+      "definition": "Quicksilver or mercury.",
+      "usage_conditions": "A specialized name motivated by its flowing rapidly and not remaining in one place.",
+      "source_refs": [
+        "lane:entry:33595"
+      ]
+    },
+    {
+      "meaning_id": "frr_furrayra_top",
+      "headword_arabic": "فُرَّيْرَةٌ",
+      "definition": "A spinning top, a child's toy.",
+      "usage_conditions": "A diminutive form used for the toy.",
+      "source_refs": [
+        "lane:entry:33596"
+      ]
+    },
+    {
+      "meaning_id": "frr_farr_fugitive",
+      "headword_arabic": "فَارٌّ",
+      "definition": "A fugitive or one who is fleeing; by intensification, one who flees much or very readily.",
+      "usage_conditions": "Used as an epithet for one or more persons, including females; the form can function as an epithet or quasi-plural.",
+      "source_refs": [
+        "lane:entry:33597"
+      ]
+    },
+    {
+      "meaning_id": "frr_farfar_breaker",
+      "headword_arabic": "فَرْفَارٌ",
+      "definition": "A breaker or mangler of everything; specifically, a lion that mangles its antagonist.",
+      "usage_conditions": "The lion designation is a conventional epithet based on the animal's manner of attacking.",
+      "source_refs": [
+        "lane:entry:33601"
+      ]
+    },
+    {
+      "meaning_id": "frr_farfar_lightminded",
+      "headword_arabic": "فَرْفَارٌ",
+      "definition": "Light and unsteady in mind.",
+      "usage_conditions": "An adjectival use, with a feminine form in ـة.",
+      "source_refs": [
+        "lane:entry:33601"
+      ]
+    },
+    {
+      "meaning_id": "frr_farfar_loquacious",
+      "headword_arabic": "فَرْفَارٌ",
+      "definition": "Loquacious, talkative, or a great talker.",
+      "usage_conditions": "An adjectival use comparable to ثَرْثَارٌ, with a feminine form in ـة.",
+      "source_refs": [
+        "lane:entry:33601"
+      ]
+    },
+    {
+      "meaning_id": "frr_farfar_tree",
+      "headword_arabic": "فَرْفَارٌ",
+      "definition": "A hard, durable species of tree whose wood is used for vessels and other objects.",
+      "usage_conditions": "A botanical and material-culture term.",
+      "source_refs": [
+        "lane:entry:33601"
+      ]
+    },
+    {
+      "meaning_id": "frr_farfar_vehicle",
+      "headword_arabic": "فَرْفَارٌ",
+      "definition": "A vehicle or saddle for women or pastors, resembling a howdah.",
+      "usage_conditions": "A specialized object name.",
+      "source_refs": [
+        "lane:entry:33601"
+      ]
+    },
+    {
+      "meaning_id": "frr_furfur_younglamb",
+      "headword_arabic": "فُرْفُورٌ",
+      "definition": "A fat, weaned young lamb or kid.",
+      "usage_conditions": "The transmitted evidence includes a noted camel/lamb textual discrepancy; the young-livestock sense is presented cautiously.",
+      "source_refs": [
+        "lane:entry:33603"
+      ]
+    },
+    {
+      "meaning_id": "frr_furfur_youth",
+      "headword_arabic": "فُرْفُورٌ",
+      "definition": "A youth or young man.",
+      "usage_conditions": "A figurative extension likening a youth to a well-fed young animal.",
+      "source_refs": [
+        "lane:entry:33603"
+      ]
+    },
+    {
+      "meaning_id": "frr_furfur_bird",
+      "headword_arabic": "فُرْفُورٌ",
+      "definition": "A small bird, especially a sparrow or similar passerine.",
+      "usage_conditions": "The term is also reported for certain other small birds.",
+      "source_refs": [
+        "lane:entry:33603"
+      ]
+    },
+    {
+      "meaning_id": "frr_furfur_meal",
+      "headword_arabic": "فُرْفُورٌ",
+      "definition": "Parched meal prepared from the fruit of the yanbūt tree.",
+      "usage_conditions": "A specialized food term, also reported under closely related pronunciations.",
+      "source_refs": [
+        "lane:entry:33603"
+      ]
+    },
+    {
+      "meaning_id": "frr_firfir_purple",
+      "headword_arabic": "فِرْفِيرٌ",
+      "definition": "Purple or violet, and the violet flower or color.",
+      "usage_conditions": "The term may denote the color or the flower associated with it.",
+      "source_refs": [
+        "lane:entry:33604"
+      ]
+    },
+    {
+      "meaning_id": "frr_firfir_purslane",
+      "headword_arabic": "فِرْفِيرٌ",
+      "definition": "Purslane.",
+      "usage_conditions": "A separate plant designation reported in the lexical tradition.",
+      "source_refs": [
+        "lane:entry:33604"
+      ]
+    },
+    {
+      "meaning_id": "frr_firfiri_purple",
+      "headword_arabic": "فِرْفِيرِيٌّ",
+      "definition": "Purple-colored.",
+      "usage_conditions": "A nisba adjective, including use for a purple flower.",
+      "source_refs": [
+        "lane:entry:33605"
+      ]
+    },
+    {
+      "meaning_id": "frr_furafir_horse",
+      "headword_arabic": "فُرَافِرٌ",
+      "definition": "A horse that moves or agitates the bit in its mouth in order to disengage it.",
+      "usage_conditions": "An equine epithet.",
+      "source_refs": [
+        "lane:entry:33606"
+      ]
+    },
+    {
+      "meaning_id": "frr_furafir_rough",
+      "headword_arabic": "فُرَافِرٌ",
+      "definition": "Rough, ungentle, or uncouth.",
+      "usage_conditions": "An epithet applied to a man.",
+      "source_refs": [
+        "lane:entry:33606"
+      ]
+    },
+    {
+      "meaning_id": "frr_mufirr_days",
+      "headword_arabic": "الأَيَّامُ المُفَرِّاتُ",
+      "definition": "Days that reveal or cause news and tidings to spread.",
+      "usage_conditions": "A figurative adjectival expression.",
+      "source_refs": [
+        "lane:entry:33611"
+      ]
+    },
+    {
+      "meaning_id": "frr_mifarr_horse",
+      "headword_arabic": "مِفَرٌّ",
+      "definition": "A horse fit for fleeing or excellent in fleeing, ready to return to the fight and flee again.",
+      "usage_conditions": "An instrumental noun used as an equine epithet.",
+      "source_refs": [
+        "lane:entry:33612"
+      ]
+    },
+    {
+      "meaning_id": "frr_mafrur_examined",
+      "headword_arabic": "مَفْرُورٌ",
+      "definition": "Examined, investigated, searched into, or interrogated.",
+      "usage_conditions": "A passive participial form associated with the investigative use of فَرَّ.",
+      "source_refs": [
+        "lane:entry:33614"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:frr:33576:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_form1_s1",
+        "frr_firar_s1",
+        "frr_mafar_s1",
+        "frr_mafar_s2"
+      ],
+      "note": "Core flight sense and Quranic مَفَرّ interpretations represented."
+    },
+    {
+      "unit_id": "lane-unit:frr:33576:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_fr_turnback"
+      ],
+      "note": "Fleeing with a return maneuver."
+    },
+    {
+      "unit_id": "lane-unit:frr:33576:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_fr_betake"
+      ],
+      "note": "Directional betaking construction."
+    },
+    {
+      "unit_id": "lane-unit:frr:33576:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_fr_handfall"
+      ],
+      "note": "Idiomatic falling-off use."
+    },
+    {
+      "unit_id": "lane-unit:frr:33576:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_fr_teethexam"
+      ],
+      "note": "Examination of an animal's teeth."
+    },
+    {
+      "unit_id": "lane-unit:frr:33576:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_fr_investigate"
+      ],
+      "note": "Investigation and interrogation use."
+    },
+    {
+      "unit_id": "lane-unit:frr:33576:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_fr_recommence"
+      ],
+      "note": "Return of an affair to its beginning."
+    },
+    {
+      "unit_id": "lane-unit:frr:33576:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_fr_intelligent"
+      ],
+      "note": "Becoming intelligent after weakness of mind."
+    },
+    {
+      "unit_id": "lane-unit:frr:33577:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farrar_investigate"
+      ],
+      "note": "Reciprocal investigation."
+    },
+    {
+      "unit_id": "lane-unit:frr:33578:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_iv_makeflee"
+      ],
+      "note": "Causative fleeing."
+    },
+    {
+      "unit_id": "lane-unit:frr:33578:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_iv_handfall"
+      ],
+      "note": "Causative bodily idiom."
+    },
+    {
+      "unit_id": "lane-unit:frr:33578:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_iv_splithead"
+      ],
+      "note": "Splitting or cleaving the head."
+    },
+    {
+      "unit_id": "lane-unit:frr:33578:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_iv_teethshed"
+      ],
+      "note": "Animal dentition use."
+    },
+    {
+      "unit_id": "lane-unit:frr:33579:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_v_deride"
+      ],
+      "note": "Derision use."
+    },
+    {
+      "unit_id": "lane-unit:frr:33580:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_vi_mutualflee"
+      ],
+      "note": "Reciprocal fleeing."
+    },
+    {
+      "unit_id": "lane-unit:frr:33581:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_viii_smile"
+      ],
+      "note": "Smiling with visible teeth."
+    },
+    {
+      "unit_id": "lane-unit:frr:33581:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_viii_lightning"
+      ],
+      "note": "Lightning glistening."
+    },
+    {
+      "unit_id": "lane-unit:frr:33581:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33581:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_viii_snuff"
+      ],
+      "note": "Snuffing a thing into the nose."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_agitate"
+      ],
+      "note": "Transitive agitation or shaking."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_breakrend"
+      ],
+      "note": "Breaking."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_breakrend"
+      ],
+      "note": "Cutting."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_breakrend"
+      ],
+      "note": "Splitting, slitting, or tearing."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_breakrend"
+      ],
+      "note": "Maiming or mangling."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_defame"
+      ],
+      "note": "Mangled reputation."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_discommend"
+      ],
+      "note": "Discommendation."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_call"
+      ],
+      "note": "Calling or crying out."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_intrans_agitate"
+      ],
+      "note": "Intransitive bodily agitation."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_horsebit"
+      ],
+      "note": "Horse and bit movement."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_hasten"
+      ],
+      "note": "Hastening with short steps."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_lightminded"
+      ],
+      "note": "Lightness or instability of mind."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_lightminded"
+      ],
+      "note": "Foolish haste."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g2:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_confusedtalk"
+      ],
+      "note": "Confused or profuse speech."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g2:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_confusedtalk"
+      ],
+      "note": "Talk or loquacity."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_vehicle"
+      ],
+      "note": "Vehicle-making use."
+    },
+    {
+      "unit_id": "lane-unit:frr:33582:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_rq_kindle"
+      ],
+      "note": "Kindling with the named tree."
+    },
+    {
+      "unit_id": "lane-unit:frr:33583:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to فَارٌّ."
+    },
+    {
+      "unit_id": "lane-unit:frr:33584:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furr_best"
+      ],
+      "note": "Best or choice member."
+    },
+    {
+      "unit_id": "lane-unit:frr:33585:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furra_heat"
+      ],
+      "note": "Beginning or vehemence of heat."
+    },
+    {
+      "unit_id": "lane-unit:frr:33585:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furra_confusion"
+      ],
+      "note": "Confusion and difficulty."
+    },
+    {
+      "unit_id": "lane-unit:frr:33585:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33586:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_firra_smiling"
+      ],
+      "note": "Manner of smiling."
+    },
+    {
+      "unit_id": "lane-unit:frr:33587:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to فُرَارٌ."
+    },
+    {
+      "unit_id": "lane-unit:frr:33588:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to فَارٌّ."
+    },
+    {
+      "unit_id": "lane-unit:frr:33589:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furar_younganimal"
+      ],
+      "note": "Young-animal designation."
+    },
+    {
+      "unit_id": "lane-unit:frr:33590:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farur_suspicion"
+      ],
+      "note": "Epithet for avoiding suspicion."
+    },
+    {
+      "unit_id": "lane-unit:frr:33590:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33591:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the young-animal entry."
+    },
+    {
+      "unit_id": "lane-unit:frr:33591:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farir_mane"
+      ],
+      "note": "Equine mane anatomy."
+    },
+    {
+      "unit_id": "lane-unit:frr:33591:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farir_mouth"
+      ],
+      "note": "Animal mouth anatomy."
+    },
+    {
+      "unit_id": "lane-unit:frr:33592:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33593:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furra_defeatedtroop"
+      ],
+      "note": "Defeated military troop."
+    },
+    {
+      "unit_id": "lane-unit:frr:33594:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farra_beautifulteeth"
+      ],
+      "note": "Epithet concerning front teeth."
+    },
+    {
+      "unit_id": "lane-unit:frr:33595:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to فَارٌّ."
+    },
+    {
+      "unit_id": "lane-unit:frr:33595:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farrar_quicksilver"
+      ],
+      "note": "Specialized name for quicksilver."
+    },
+    {
+      "unit_id": "lane-unit:frr:33596:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furrayra_top"
+      ],
+      "note": "Child's spinning-top toy."
+    },
+    {
+      "unit_id": "lane-unit:frr:33597:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farr_fugitive"
+      ],
+      "note": "Fugitive or intensely fleeing person."
+    },
+    {
+      "unit_id": "lane-unit:frr:33598:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33598:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33598:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33599:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33600:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33601:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farfar_breaker"
+      ],
+      "note": "Breaker or mangler."
+    },
+    {
+      "unit_id": "lane-unit:frr:33601:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farfar_breaker"
+      ],
+      "note": "Lion epithet based on mangling."
+    },
+    {
+      "unit_id": "lane-unit:frr:33601:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farfar_lightminded"
+      ],
+      "note": "Light and unsteady in mind."
+    },
+    {
+      "unit_id": "lane-unit:frr:33601:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farfar_loquacious"
+      ],
+      "note": "Talkative or loquacious."
+    },
+    {
+      "unit_id": "lane-unit:frr:33601:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farfar_tree"
+      ],
+      "note": "Tree species and its wood."
+    },
+    {
+      "unit_id": "lane-unit:frr:33601:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_farfar_vehicle"
+      ],
+      "note": "Vehicle or saddle."
+    },
+    {
+      "unit_id": "lane-unit:frr:33602:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33603:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furfur_younglamb"
+      ],
+      "note": "Young-livestock sense, with a noted textual discrepancy."
+    },
+    {
+      "unit_id": "lane-unit:frr:33603:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furfur_youth"
+      ],
+      "note": "Figurative youth sense."
+    },
+    {
+      "unit_id": "lane-unit:frr:33603:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furfur_bird"
+      ],
+      "note": "Small-bird sense."
+    },
+    {
+      "unit_id": "lane-unit:frr:33603:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furfur_meal"
+      ],
+      "note": "Parched-meal sense."
+    },
+    {
+      "unit_id": "lane-unit:frr:33604:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_firfir_purple"
+      ],
+      "note": "Purple or violet color."
+    },
+    {
+      "unit_id": "lane-unit:frr:33604:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_firfir_purple"
+      ],
+      "note": "Violet flower or color."
+    },
+    {
+      "unit_id": "lane-unit:frr:33604:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_firfir_purslane"
+      ],
+      "note": "Purslane sense."
+    },
+    {
+      "unit_id": "lane-unit:frr:33605:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_firfiri_purple"
+      ],
+      "note": "Purple-colored adjective."
+    },
+    {
+      "unit_id": "lane-unit:frr:33606:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furafir_horse"
+      ],
+      "note": "Horse moving its bit."
+    },
+    {
+      "unit_id": "lane-unit:frr:33606:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_furafir_rough"
+      ],
+      "note": "Rough or ungentle person."
+    },
+    {
+      "unit_id": "lane-unit:frr:33606:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33606:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33606:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33607:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33608:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33609:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_mafar_s1",
+        "frr_mafar_s2"
+      ],
+      "note": "Action, place, and time senses of مَفَرّ."
+    },
+    {
+      "unit_id": "lane-unit:frr:33609:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_mafar_s2"
+      ],
+      "note": "Place-of-fleeing sense."
+    },
+    {
+      "unit_id": "lane-unit:frr:33610:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding مَفَرّ entry."
+    },
+    {
+      "unit_id": "lane-unit:frr:33611:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "frr_iv_makeflee"
+      ],
+      "note": "Participial gloss is the grammatical derivative of the represented Form IV causative sense."
+    },
+    {
+      "unit_id": "lane-unit:frr:33611:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_mufirr_days"
+      ],
+      "note": "Figurative days-and-news expression."
+    },
+    {
+      "unit_id": "lane-unit:frr:33612:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_mifarr_horse"
+      ],
+      "note": "Horse fit for fleeing or returning to combat."
+    },
+    {
+      "unit_id": "lane-unit:frr:33612:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33613:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:frr:33614:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frr_mafrur_examined"
+      ],
+      "note": "Examined or interrogated participial sense."
+    }
+  ],
+  "cautions": [
+    "مَفَرّ in 75:10 has an explicitly reported ambiguity between the act of fleeing and a place or time of fleeing; the example therefore links both numbered senses.",
+    "The young-animal evidence under فُرْفُورٌ contains a noted transmitted camel/lamb discrepancy and is stated cautiously rather than normalized beyond the evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

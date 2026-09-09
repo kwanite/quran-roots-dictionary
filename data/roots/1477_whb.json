@@ -1,0 +1,585 @@
+{
+  "root": "whb",
+  "arabic": "وهب",
+  "root_idea": {
+    "summary": "The clearest semantic orientation is voluntary bestowal: giving something freely and without compensation. The lexical tradition also records associated branches for accepting, requesting, exchanging, and intensifying gifts.",
+    "development": "The root's recorded branches are not all reducible to one semantic development. Alongside gift vocabulary, Classical Arabic preserves usages for readiness, availability, abundance, lasting provision, and water-holding hollows.",
+    "source_refs": [
+      "maqayis:row:5228",
+      "mufradat:row:1615"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:whb:wahaba:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "whb-v-wahaba",
+      "reason": "Displayed under the normalized Form I perfect citation form وَهَبَ."
+    },
+    {
+      "form_group_id": "qac-form:whb:wah~aAb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "whb-n-wahhab",
+      "reason": "Displayed as the distinct intensive epithet وَهَّابٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "whb-v-wahaba",
+      "form_group_ids": [
+        "qac-form:whb:wahaba:verb:I"
+      ],
+      "headword_arabic": "وَهَبَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 22,
+      "senses": [
+        {
+          "sense_id": "whb-v-s1",
+          "definition": "To give or bestow something freely, as a gift and without compensation.",
+          "usage_conditions": "Used for the bestowal of persons, family, wisdom, kingdom, mercy, and other benefits. The Quran may attribute the giving to an intermediary as the immediate cause, while also treating God as the true giver.",
+          "source_refs": [
+            "lane:entry:45759",
+            "mufradat:row:1615"
+          ]
+        },
+        {
+          "sense_id": "whb-v-s2",
+          "definition": "To offer or yield oneself to another.",
+          "usage_conditions": "A distinct self-offering construction in which the self is what is given; it is exemplified by the Quranic expression for a woman offering herself to the Prophet.",
+          "source_refs": [
+            "mufradat:row:1615"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:39",
+          "word_location": "14:39:4",
+          "sense_ids": [
+            "whb-v-s1"
+          ]
+        },
+        {
+          "verse_key": "19:19",
+          "word_location": "19:19:6",
+          "sense_ids": [
+            "whb-v-s1"
+          ]
+        },
+        {
+          "verse_key": "33:50",
+          "word_location": "33:50:31",
+          "sense_ids": [
+            "whb-v-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "whb-n-wahhab",
+      "form_group_ids": [
+        "qac-form:whb:wah~aAb:nominal:-"
+      ],
+      "headword_arabic": "وَهَّابٌ",
+      "public_pos_label": "Intensive epithet / noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "whb-n-s1",
+          "definition": "One who bestows abundantly, freely, and continually; the Bestower.",
+          "usage_conditions": "In Quranic usage, a divine epithet emphasizing unrestricted and abundant bestowal.",
+          "source_refs": [
+            "lane:entry:45769",
+            "mufradat:row:1615"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:8",
+          "word_location": "3:8:15",
+          "sense_ids": [
+            "whb-n-s1"
+          ]
+        },
+        {
+          "verse_key": "38:9",
+          "word_location": "38:9:7",
+          "sense_ids": [
+            "whb-n-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "whb-c-ransom",
+      "headword_arabic": "وَهَبَ",
+      "definition": "To make or be made someone's ransom; to be given as a substitute for another.",
+      "usage_conditions": "An idiomatic use attested in expressions such as وَهَبَنِيَ اللهُ فِدَاكَ, with the sense of being made or given as another's ransom; reported as rare by some authorities.",
+      "source_refs": [
+        "lane:entry:45759"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-suppose",
+      "headword_arabic": "هَبْ",
+      "definition": "To suppose, reckon, or count someone or something as being in a stated condition.",
+      "usage_conditions": "Restricted to the imperative هَبْ in this meaning and used with two objects; it is not used here in the past or imperfect.",
+      "source_refs": [
+        "lane:entry:45759"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-compete",
+      "headword_arabic": "وَاهَبَ",
+      "definition": "To compete in generosity, striving to surpass another in giving.",
+      "usage_conditions": "Form III usage describing reciprocal or competitive generosity.",
+      "source_refs": [
+        "lane:entry:45760"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-prepare",
+      "headword_arabic": "أَوْهَبَ",
+      "definition": "To prepare or make a thing ready for someone.",
+      "usage_conditions": "Form IV transitive usage; food and drink may be specifically prepared and made ready in abundance.",
+      "source_refs": [
+        "lane:entry:45761"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-food-abundance",
+      "headword_arabic": "أَوْهَبَ",
+      "definition": "Of food, grain, or similar produce, to become abundant enough for some of it to be given away.",
+      "usage_conditions": "An intransitive Form IV usage applied to provisions or produce.",
+      "source_refs": [
+        "lane:entry:45761"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-capable-reachable",
+      "headword_arabic": "أَوْهَبَ",
+      "definition": "To become capable of something; of a thing, to become available or within someone's reach so that it can be taken.",
+      "usage_conditions": "Form IV usage extended from a person's ability to the availability or accessibility of a thing.",
+      "source_refs": [
+        "lane:entry:45761"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-lasting-provision",
+      "headword_arabic": "أَوْهَبَ",
+      "definition": "To last or serve as a continuing provision for someone.",
+      "usage_conditions": "A reported Form IV reading applied to provisions; the reading and interpretation are disputed in the lexical discussion.",
+      "source_refs": [
+        "lane:entry:45761"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-mutual-gifting",
+      "headword_arabic": "تَوَاهَبَ",
+      "definition": "To give gifts to one another; to engage in mutual gifting.",
+      "usage_conditions": "Form VI usage, ordinarily describing voluntary exchange rather than giving under compulsion.",
+      "source_refs": [
+        "lane:entry:45762"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-accept-gift",
+      "headword_arabic": "اِتَّهَبَ",
+      "definition": "To accept a gift.",
+      "usage_conditions": "Form VIII usage, including accepting something from another as a gift.",
+      "source_refs": [
+        "lane:entry:45763"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-request-gift",
+      "headword_arabic": "اِسْتَوْهَبَ",
+      "definition": "To ask for a gift or ask someone to give something.",
+      "usage_conditions": "Form X usage; the requested gift may be a person or servant as well as an inanimate thing.",
+      "source_refs": [
+        "lane:entry:45764"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-hiba",
+      "headword_arabic": "هِبَةٌ",
+      "definition": "A gift or thing bestowed freely and without compensation.",
+      "usage_conditions": "In legal usage, a free gift may be distinguished from a gift given in expectation of requital or compensation.",
+      "source_refs": [
+        "lane:entry:45765"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-mawhib",
+      "headword_arabic": "مَوْهِب",
+      "definition": "A free gift or an act of giving freely.",
+      "usage_conditions": "A substantive associated with the Form I gift meaning.",
+      "source_refs": [
+        "lane:entry:45770"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-muhab-ready",
+      "headword_arabic": "مُوهَبٌ",
+      "definition": "A thing prepared and ready at hand.",
+      "usage_conditions": "A passive-form lexical usage describing something made ready for immediate use.",
+      "source_refs": [
+        "lane:entry:45771"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-muhib-firewood-valley",
+      "headword_arabic": "مُوهِبُ الحَطَبِ",
+      "definition": "A valley abounding in firewood.",
+      "usage_conditions": "A figurative or transferred usage describing a place rich in a resource.",
+      "source_refs": [
+        "lane:entry:45772"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-muhib-ready",
+      "headword_arabic": "مُوهِبٌ",
+      "definition": "Of a person, prepared, ready, and able.",
+      "usage_conditions": "A participial usage describing readiness and capability.",
+      "source_refs": [
+        "lane:entry:45772"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-mawhaba-rain",
+      "headword_arabic": "مَوْهَبَةٌ",
+      "definition": "A cloud that drops rain in a place; by extension, abundant rain over the land.",
+      "usage_conditions": "A figurative or specialized natural phenomenon usage.",
+      "source_refs": [
+        "lane:entry:45773"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-mawhaba-pool",
+      "headword_arabic": "مَوْهَبَةٌ",
+      "definition": "A small pool or hollow in rock or mountain where water stagnates, including one left by a torrent.",
+      "usage_conditions": "The exact form and lexical assignment are disputed in the cited discussion.",
+      "source_refs": [
+        "lane:entry:45773"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-wahib",
+      "headword_arabic": "وَاهِبٌ",
+      "definition": "One who gives freely; a giver or donor.",
+      "usage_conditions": "The ordinary active-participial sense is distinct from the intensive epithet وَهَّابٌ.",
+      "source_refs": [
+        "lane:entry:45769"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-mawhub-given",
+      "headword_arabic": "مَوْهُوبٌ",
+      "definition": "A thing given freely as a gift.",
+      "usage_conditions": "Passive-participial usage referring to the thing bestowed.",
+      "source_refs": [
+        "lane:entry:45775"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-mawhub-recipient",
+      "headword_arabic": "مَوْهُوبٌ لَهُ",
+      "definition": "One to whom something has been given freely.",
+      "usage_conditions": "A passive construction identifying the recipient of a gift.",
+      "source_refs": [
+        "lane:entry:45775"
+      ]
+    },
+    {
+      "meaning_id": "whb-c-mawhub-child",
+      "headword_arabic": "مَوْهُوبٌ",
+      "definition": "A son, child, or offspring; also something bestowed by God.",
+      "usage_conditions": "A substantivized passive participle, especially for offspring or a divine bestowal.",
+      "source_refs": [
+        "lane:entry:45775"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:whb:45759:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-v-s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45759:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:whb:45759:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-ransom"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45759:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-suppose"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45760:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-compete"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45761:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-prepare"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45761:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "whb-c-prepare"
+      ],
+      "note": "Specific food-and-drink example covered by the preparation meaning."
+    },
+    {
+      "unit_id": "lane-unit:whb:45761:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-food-abundance"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45761:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-capable-reachable"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45761:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "whb-c-capable-reachable"
+      ],
+      "note": "Availability within reach is covered by the broader capability/reachability meaning."
+    },
+    {
+      "unit_id": "lane-unit:whb:45761:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-lasting-provision"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45762:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-mutual-gifting"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45762:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "whb-c-mutual-gifting"
+      ],
+      "note": "Habitual mutual gifting is covered by the mutual-gifting meaning."
+    },
+    {
+      "unit_id": "lane-unit:whb:45762:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "whb-c-mutual-gifting"
+      ],
+      "note": "The reciprocal construction is covered by the mutual-gifting meaning."
+    },
+    {
+      "unit_id": "lane-unit:whb:45762:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "whb-c-mutual-gifting"
+      ],
+      "note": "Voluntary rather than compelled exchange is stated in usage conditions."
+    },
+    {
+      "unit_id": "lane-unit:whb:45763:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-accept-gift"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45764:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-request-gift"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45764:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "whb-c-request-gift"
+      ],
+      "note": "The servant example is covered by the request-for-gift construction."
+    },
+    {
+      "unit_id": "lane-unit:whb:45765:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-hiba"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45765:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "whb-c-hiba"
+      ],
+      "note": "The legal distinction is included in usage conditions."
+    },
+    {
+      "unit_id": "lane-unit:whb:45766:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:whb:45767:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:whb:45768:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the direct epithet discussion."
+    },
+    {
+      "unit_id": "lane-unit:whb:45769:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-n-s1",
+        "whb-c-wahib"
+      ],
+      "note": "Contains both the ordinary وَاهِبٌ branch and the intensive epithet branch."
+    },
+    {
+      "unit_id": "lane-unit:whb:45770:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-mawhib"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45771:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-muhab-ready"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45772:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-muhib-firewood-valley"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45772:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-muhib-ready"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45773:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:whb:45773:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-mawhaba-rain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45773:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-mawhaba-pool"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45774:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:whb:45775:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-mawhub-given"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45775:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-mawhub-recipient"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:whb:45775:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "whb-c-mawhub-child"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The Quranic Form I group is normalized to وَهَبَ although its occurrences include inflected forms such as هَبْ and لِأَهَبَ.",
+    "The self-offering construction in 33:50 is kept distinct from ordinary bestowal because it involves yielding the self as what is given.",
+    "The Form IV meaning 'to last as provision' and the water-pool meaning of مَوْهَبَةٌ are reported with lexical or reading disagreement in the evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

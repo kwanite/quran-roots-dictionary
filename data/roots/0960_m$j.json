@@ -1,0 +1,134 @@
+{
+  "root": "m$j",
+  "arabic": "مشج",
+  "root_idea": {
+    "summary": "The root centers on mixing, intermingling, and combination.",
+    "development": "Its verbal branch denotes mixing or confusing things, while its nominal and adjectival branch denotes something composite or mixed; the Quranic usage applies this latter branch to the mixed constituents of the human origin.",
+    "source_refs": [
+      "maqayis:row:4376",
+      "lane:entry:12671",
+      "lane:entry:12673"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:m$j:>amo$aAj:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_m$j_mashij",
+      "reason": "The Quranic plural adjective أَمْشَاج is presented under the supported singular dictionary citation form مَشِيجٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_m$j_mashij",
+      "form_group_ids": [
+        "qac-form:m$j:>amo$aAj:nominal:-"
+      ],
+      "headword_arabic": "مَشِيجٌ",
+      "public_pos_label": "Adjective · Quranic plural أَمْشَاج",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsense_m$j_mashij_1",
+          "definition": "Mixed or composite; in نُطْفَةٌ أَمْشَاجٌ, describing a drop made up of intermingled constituents.",
+          "usage_conditions": "Quranic usage in 76:2. The cited explanations variously describe the mixture as involving blood, seminal fluid and blood, the male and female contributions, or diverse powers within the drop; these are variant accounts of what is mixed, not separate lexical senses.",
+          "source_refs": [
+            "lane:entry:12673",
+            "mufradat:row:1369"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "76:2",
+          "word_location": "76:2:6",
+          "sense_ids": [
+            "qsense_m$j_mashij_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_m$j_mashaj_verb",
+      "headword_arabic": "مَشَجَ",
+      "definition": "To mix or confuse one thing with another; to cause confusion or disturbance between two parties.",
+      "usage_conditions": "The construction مَشَجَ بَيْنَهُمَا denotes making confusion or disturbance between the two.",
+      "source_refs": [
+        "lane:entry:12671"
+      ]
+    },
+    {
+      "meaning_id": "cm_m$j_mashij_mixture",
+      "headword_arabic": "مَشِيجٌ",
+      "definition": "A thing mixed or confused; a mixture formed by two things, including blended colours, especially a red-and-white mixture.",
+      "usage_conditions": "A broader Classical nominal or adjectival use for a mixed entity or combination.",
+      "source_refs": [
+        "lane:entry:12673"
+      ]
+    },
+    {
+      "meaning_id": "cm_m$j_amshaj_navel",
+      "headword_arabic": "أَمْشَاجٌ",
+      "definition": "That which collects in the navel.",
+      "usage_conditions": "A specialized Classical usage distinct from the Quranic description of a mixed drop.",
+      "source_refs": [
+        "lane:entry:12673"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:m$j:12671:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_m$j_mashaj_verb"
+      ],
+      "note": "Verbal mixing or confusing is represented under the Form I verb."
+    },
+    {
+      "unit_id": "lane-unit:m$j:12671:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_m$j_mashaj_verb"
+      ],
+      "note": "The construction for causing confusion between two parties is included with the verbal branch."
+    },
+    {
+      "unit_id": "lane-unit:m$j:12672:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَشِيجٌ."
+    },
+    {
+      "unit_id": "lane-unit:m$j:12673:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_m$j_mashij_mixture"
+      ],
+      "note": "General mixed-entity, combined-pair, and mixed-colour meanings are represented."
+    },
+    {
+      "unit_id": "lane-unit:m$j:12673:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense_m$j_mashij_1"
+      ],
+      "note": "The Quranic construction in 76:2 is represented under the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:m$j:12673:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_m$j_amshaj_navel"
+      ],
+      "note": "The specialized navel-collection meaning is represented separately."
+    }
+  ],
+  "cautions": [
+    "The cited explanations differ about which constituents are mixed in the Quranic drop; the stable lexical content is its being mixed or composite."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,511 @@
+{
+  "root": "myl",
+  "arabic": "ميل",
+  "root_idea": {
+    "summary": "The root denotes departing from the middle or straight position toward one side.",
+    "development": "The central image extends from physical leaning and inherent crookedness to directional or figurative inclination, deviation, partiality, reciprocal alignment, and causative attraction. Related derivatives also designate swaying movement and distance.",
+    "source_refs": [
+      "maqayis:row:4501",
+      "mufradat:row:1401"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:myl:yamiylu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "myl_form_mala",
+      "reason": "Displayed under the normalized Classical Arabic perfect citation form مالَ rather than the imperfect QAC lemma."
+    },
+    {
+      "form_group_id": "qac-form:myl:mayol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "myl_form_mayl",
+      "reason": "Independent Quran-attested nominal form."
+    },
+    {
+      "form_group_id": "qac-form:myl:m~ayolap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "myl_form_mayla",
+      "reason": "Independent Quran-attested nominal form denoting an assaulting movement."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "myl_form_mala",
+      "form_group_ids": [
+        "qac-form:myl:yamiylu:verb:I"
+      ],
+      "headword_arabic": "مَالَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "myl_mala_s1",
+          "definition": "To incline or turn aside from a middle course; figuratively, to deviate or show partiality.",
+          "usage_conditions": "The Quranic uses include deviation toward an extreme and inclination in a matter of justice or equitable treatment.",
+          "source_refs": [
+            "lane:entry:5904",
+            "mufradat:row:1401"
+          ]
+        },
+        {
+          "sense_id": "myl_mala_s2",
+          "definition": "To bear down upon, oppress, or attack someone.",
+          "usage_conditions": "Used with عَلَى; in the Quranic construction of 4:102, it describes a single assaulting movement against the addressed group.",
+          "source_refs": [
+            "mufradat:row:1401"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:27",
+          "word_location": "4:27:11",
+          "sense_ids": [
+            "myl_mala_s1"
+          ]
+        },
+        {
+          "verse_key": "4:102",
+          "word_location": "4:102:36",
+          "sense_ids": [
+            "myl_mala_s2"
+          ]
+        },
+        {
+          "verse_key": "4:129",
+          "word_location": "4:129:10",
+          "sense_ids": [
+            "myl_mala_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "myl_form_mayl",
+      "form_group_ids": [
+        "qac-form:myl:mayol:nominal:-"
+      ],
+      "headword_arabic": "مَيْل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "myl_mayl_s1",
+          "definition": "Inclination or deviation from the middle toward one side; figuratively, partiality or bias.",
+          "usage_conditions": "The Quran uses the noun both for a great deviation and for inclination in the context of equitable treatment.",
+          "source_refs": [
+            "lane:entry:5911",
+            "mufradat:row:1401"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:27",
+          "word_location": "4:27:12",
+          "sense_ids": [
+            "myl_mayl_s1"
+          ]
+        },
+        {
+          "verse_key": "4:129",
+          "word_location": "4:129:12",
+          "sense_ids": [
+            "myl_mayl_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "myl_form_mayla",
+      "form_group_ids": [
+        "qac-form:myl:m~ayolap:nominal:-"
+      ],
+      "headword_arabic": "مَيْلَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "myl_mayla_s1",
+          "definition": "A single onslaught or assaulting movement.",
+          "usage_conditions": "In فَيَمِيلُونَ عَلَيْكُمْ مَيْلَةً وَاحِدَةً, the noun specifies one concentrated attack or bearing-down action.",
+          "source_refs": [
+            "mufradat:row:1401"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:102",
+          "word_location": "4:102:38",
+          "sense_ids": [
+            "myl_mayla_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "myl_cls_mal_assist",
+      "headword_arabic": "مَالَ",
+      "definition": "To conform with, assist, or aid someone.",
+      "usage_conditions": "Used with مَعَهُ.",
+      "source_refs": [
+        "lane:entry:5904"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mal_love",
+      "headword_arabic": "مَالَ",
+      "definition": "To love or favor someone.",
+      "usage_conditions": "Used with إِلَيْهِ.",
+      "source_refs": [
+        "lane:entry:5904"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mal_hostile",
+      "headword_arabic": "مَالَ",
+      "definition": "To wrong someone or become inimical toward him.",
+      "usage_conditions": "A hostile relational use distinct from simple physical or directional inclination.",
+      "source_refs": [
+        "lane:entry:5904"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mal_limp",
+      "headword_arabic": "مَالَ",
+      "definition": "To limp.",
+      "usage_conditions": "Said of an animal whose leg causes it to limp.",
+      "source_refs": [
+        "lane:entry:5904"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mayyal_between",
+      "headword_arabic": "مَيَّلَ",
+      "definition": "To waver or vacillate between two things.",
+      "usage_conditions": "Used in the construction مَيَّلَ بَيْنَ شَيْئَيْنِ.",
+      "source_refs": [
+        "lane:entry:5905"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mayal_recip",
+      "headword_arabic": "مَايَلَ",
+      "definition": "To incline toward one another reciprocally.",
+      "usage_conditions": "A reciprocal Form III construction.",
+      "source_refs": [
+        "lane:entry:5906"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_tamayyal_speech",
+      "headword_arabic": "تَمَيَّلَ",
+      "definition": "To vacillate in one's speech.",
+      "usage_conditions": "Used with بِالقَوْلِ.",
+      "source_refs": [
+        "lane:entry:5907"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_tamayal_gait",
+      "headword_arabic": "تَمَايَلَ",
+      "definition": "To sway or bend from side to side while walking.",
+      "usage_conditions": "Describes an affected or pronounced inclination of the body in one's gait.",
+      "source_refs": [
+        "lane:entry:5908"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_tamayal_deviate",
+      "headword_arabic": "تَمَايَلَ",
+      "definition": "To deliberately deviate from one's course.",
+      "usage_conditions": "Used with directional expressions such as إِلَى and عَنْ; this is a derived construction rather than the Quranic Form I headword.",
+      "source_refs": [
+        "lane:entry:5908"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_istimal_attract",
+      "headword_arabic": "اِسْتَمَالَ",
+      "definition": "To attract someone or cause him to incline toward oneself, including winning over his heart.",
+      "usage_conditions": "A causative or persuasive Form X construction.",
+      "source_refs": [
+        "lane:entry:5909"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mil_distance",
+      "headword_arabic": "مِيل",
+      "definition": "A mile, a unit of distance.",
+      "usage_conditions": "The classical measure is defined by the distance to which the eye reaches along the land, with variant traditional calculations of its length.",
+      "source_refs": [
+        "lane:entry:5910"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mil_stylus",
+      "headword_arabic": "مِيل",
+      "definition": "A stylus or similar implement, identified with مُلْمُولٌ.",
+      "usage_conditions": "A specialized nominal use distinct from مَيْلٌ ‘inclination.’",
+      "source_refs": [
+        "lane:entry:5910"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mayal_wryness",
+      "headword_arabic": "مَيَل",
+      "definition": "Natural crookedness or wryness.",
+      "usage_conditions": "Refers to an inherent slant or irregularity rather than a temporary inclination.",
+      "source_refs": [
+        "lane:entry:5912"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mayyal",
+      "headword_arabic": "مَيَّال",
+      "definition": "Much inclined or swaying.",
+      "usage_conditions": "An intensive adjectival description, equivalent to مُتَمَايِلٌ in the cited evidence.",
+      "source_refs": [
+        "lane:entry:5914"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_amyal_horse",
+      "headword_arabic": "أَمْيَل",
+      "definition": "Swaying while mounted on horseback.",
+      "usage_conditions": "An adjectival use describing lack of steadiness in riding.",
+      "source_refs": [
+        "lane:entry:5915",
+        "maqayis:row:4501"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_amyal_nospear",
+      "headword_arabic": "أَمْيَل",
+      "definition": "A man without a spear.",
+      "usage_conditions": "An exceptional or divergent lexical usage reported alongside the horseback sense.",
+      "source_refs": [
+        "maqayis:row:4501"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mayla_moundtree",
+      "headword_arabic": "مَيْلَاء",
+      "definition": "A large isolated sand mound that inclines to one side; also, a many-branched tree.",
+      "usage_conditions": "Two related lexical uses under the feminine form مَيْلَاء.",
+      "source_refs": [
+        "maqayis:row:4501"
+      ]
+    },
+    {
+      "meaning_id": "myl_cls_mal_wealth",
+      "headword_arabic": "مَال",
+      "definition": "Property or wealth.",
+      "usage_conditions": "A related Classical Arabic noun whose naming is explained through the notion of something passing away, shifting, or changing hands; it is not a Quranic form group in this packet.",
+      "source_refs": [
+        "mufradat:row:1401"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:myl:5904:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_mala_s1"
+      ],
+      "note": "Core Form I inclination is represented by the Quranic verb sense."
+    },
+    {
+      "unit_id": "lane-unit:myl:5904:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mal_assist"
+      ],
+      "note": "Conforming with or aiding someone."
+    },
+    {
+      "unit_id": "lane-unit:myl:5904:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mal_love"
+      ],
+      "note": "Loving or favoring someone."
+    },
+    {
+      "unit_id": "lane-unit:myl:5904:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mal_hostile"
+      ],
+      "note": "Wronging or becoming inimical."
+    },
+    {
+      "unit_id": "lane-unit:myl:5904:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mal_limp"
+      ],
+      "note": "Limping of an animal."
+    },
+    {
+      "unit_id": "lane-unit:myl:5905:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mayyal_between"
+      ],
+      "note": "Vacillation between two things."
+    },
+    {
+      "unit_id": "lane-unit:myl:5906:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mayal_recip"
+      ],
+      "note": "Reciprocal inclination."
+    },
+    {
+      "unit_id": "lane-unit:myl:5907:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form VI entry."
+    },
+    {
+      "unit_id": "lane-unit:myl:5907:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_tamayyal_speech"
+      ],
+      "note": "Vacillation in speech."
+    },
+    {
+      "unit_id": "lane-unit:myl:5908:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_tamayal_gait"
+      ],
+      "note": "Swaying or bending from side to side in walking."
+    },
+    {
+      "unit_id": "lane-unit:myl:5908:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:myl:5908:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "myl_cls_tamayal_gait"
+      ],
+      "note": "Restates the same gait meaning."
+    },
+    {
+      "unit_id": "lane-unit:myl:5908:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_tamayal_deviate"
+      ],
+      "note": "Deliberate deviation from a course."
+    },
+    {
+      "unit_id": "lane-unit:myl:5909:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_istimal_attract"
+      ],
+      "note": "Causing a person or heart to incline."
+    },
+    {
+      "unit_id": "lane-unit:myl:5909:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "myl_cls_istimal_attract"
+      ],
+      "note": "Restates the attraction or winning-over sense."
+    },
+    {
+      "unit_id": "lane-unit:myl:5909:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Voice or grammatical characterization."
+    },
+    {
+      "unit_id": "lane-unit:myl:5910:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mil_distance"
+      ],
+      "note": "Distance measure."
+    },
+    {
+      "unit_id": "lane-unit:myl:5910:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mil_stylus"
+      ],
+      "note": "Specialized implement meaning."
+    },
+    {
+      "unit_id": "lane-unit:myl:5911:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "myl_mayl_s1"
+      ],
+      "note": "Classical inclination sense is covered by the Quranic nominal sense."
+    },
+    {
+      "unit_id": "lane-unit:myl:5912:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mayal_wryness"
+      ],
+      "note": "Natural wryness."
+    },
+    {
+      "unit_id": "lane-unit:myl:5913:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "A tentative technical term concerning a well apparatus is cited without enough context to define confidently."
+    },
+    {
+      "unit_id": "lane-unit:myl:5914:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_mayyal"
+      ],
+      "note": "Much inclining or swaying."
+    },
+    {
+      "unit_id": "lane-unit:myl:5915:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "myl_cls_amyal_horse"
+      ],
+      "note": "Swaying on horseback."
+    },
+    {
+      "unit_id": "lane-unit:myl:5915:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only phrase reference."
+    },
+    {
+      "unit_id": "lane-unit:myl:5916:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pronunciation and phonetic orthography of vowel imālah."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:myl:5913:g1:main reports مِيلَانِ, apparently a technical term associated with a component of a well apparatus, but marks the reading with uncertainty and supplies only a cross-reference; its precise lexical meaning remains unassigned."
+  ]
+}

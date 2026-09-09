@@ -1,0 +1,258 @@
+{
+  "root": "ywm",
+  "arabic": "يوم",
+  "root_idea": {
+    "summary": "A temporal unit or period, with a related extension to a significant occurrence or event.",
+    "development": "The root primarily denotes a day or temporal span; Arabic also extends it to an important event or occasion. The plural أيام reflects an underlying أيوام with assimilation.",
+    "source_refs": [
+      "maqayis:row:5274"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ywm:yawom:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ywm-yawm",
+      "reason": "Displayed under the normalized classical citation form."
+    },
+    {
+      "form_group_id": "qac-form:ywm:yawom:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "ywm-yawm",
+      "reason": "The T-tagged temporal-adverbial occurrences are the same lexeme and are represented under the noun يوم."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "ywm-yawm",
+      "form_group_ids": [
+        "qac-form:ywm:yawom:nominal:-",
+        "qac-form:ywm:yawom:other:-"
+      ],
+      "headword_arabic": "يَوْم",
+      "public_pos_label": "Noun · temporal adverbial use",
+      "verb_form": null,
+      "occurrence_count": 405,
+      "senses": [
+        {
+          "sense_id": "ywm-yawm-s1",
+          "definition": "A day: the ordinary daytime interval, especially the period from sunrise to sunset.",
+          "usage_conditions": "Used for a counted or specified day and in plural أَيَّام for days. Inflection, definiteness, number, and temporal-adverbial use do not create separate lexical meanings.",
+          "source_refs": [
+            "mufradat:row:1631",
+            "lane:entry:12207"
+          ]
+        },
+        {
+          "sense_id": "ywm-yawm-s2",
+          "definition": "A period or span of time of any duration, including a specified occasion or an extended epoch.",
+          "usage_conditions": "This broader temporal use includes expressions such as today, the days of God—whose genitive construction honors times marked by divine blessings—and يَوْمَئِذٍ, meaning “on that day” or “at that time.” In يَوْمَئِذٍ the form is bound to إِذ and may be treated as an inflected or indeclinable construction.",
+          "source_refs": [
+            "mufradat:row:1631",
+            "lane:entry:12207"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:184",
+          "word_location": "2:184:1",
+          "sense_ids": [
+            "ywm-yawm-s1"
+          ]
+        },
+        {
+          "verse_key": "12:92",
+          "word_location": "12:92:5",
+          "sense_ids": [
+            "ywm-yawm-s1"
+          ]
+        },
+        {
+          "verse_key": "41:9",
+          "word_location": "41:9:8",
+          "sense_ids": [
+            "ywm-yawm-s2"
+          ]
+        },
+        {
+          "verse_key": "14:5",
+          "word_location": "14:5:13",
+          "sense_ids": [
+            "ywm-yawm-s2"
+          ]
+        },
+        {
+          "verse_key": "1:4",
+          "word_location": "1:4:2",
+          "sense_ids": [
+            "ywm-yawm-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "ywm-class-event",
+      "headword_arabic": "يَوْم",
+      "definition": "An event, occurrence, or incident.",
+      "usage_conditions": "Used for an event when it befalls, including in the expression فِي اليَوْمِ.",
+      "source_refs": [
+        "lane:entry:12207"
+      ]
+    },
+    {
+      "meaning_id": "ywm-class-repeated",
+      "headword_arabic": "يَوْم",
+      "definition": "Day after day; every day.",
+      "usage_conditions": "A conventional repeated construction, as in يَوْمَ يَوْمَ or يَوْمَ يَوْمٍ.",
+      "source_refs": [
+        "lane:entry:12207"
+      ]
+    },
+    {
+      "meaning_id": "ywm-class-journey",
+      "headword_arabic": "يَوْم",
+      "definition": "A day's journey.",
+      "usage_conditions": "Used as a measure of travel or distance.",
+      "source_refs": [
+        "lane:entry:12207"
+      ]
+    },
+    {
+      "meaning_id": "ywm-class-conflict",
+      "headword_arabic": "يَوْم",
+      "definition": "A contest, fight, or battle; in أَيَّامُ العَرَبِ, the “days” are the conflicts or battles of the Arabs.",
+      "usage_conditions": "A conventional metonymic use referring to a significant conflict rather than an ordinary calendar day.",
+      "source_refs": [
+        "lane:entry:12207"
+      ]
+    },
+    {
+      "meaning_id": "ywm-class-idiom",
+      "headword_arabic": "ابْنُ يَوْمِهِ",
+      "definition": "A person concerned only with the present and not with the morrow.",
+      "usage_conditions": "An idiomatic expression meaning literally “son of his day.”",
+      "source_refs": [
+        "lane:entry:12207"
+      ]
+    },
+    {
+      "meaning_id": "ywm-class-daily-wages",
+      "headword_arabic": "يَوْمِيَّة",
+      "definition": "A day's wages.",
+      "usage_conditions": "A derived nominal related to يَوْم.",
+      "source_refs": [
+        "lane:entry:12208"
+      ]
+    },
+    {
+      "meaning_id": "ywm-class-muyawama",
+      "headword_arabic": "مُيَاوَمَة",
+      "definition": "Day-by-day dealing or arrangement.",
+      "usage_conditions": "A derivative formed from يَوْم, parallel to terms formed from night or month.",
+      "source_refs": [
+        "lane:entry:12209"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ywm-yawm-s1",
+        "ywm-yawm-s2"
+      ],
+      "note": "The day and broader time branches are represented by the two Quranic senses."
+    },
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ywm-class-event"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَهَار."
+    },
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ywm-class-repeated"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ywm-class-journey"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ywm-class-conflict"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:sub7",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "ywm-class-conflict"
+      ],
+      "note": "The أيام العرب specialization is grouped with the attested conflict or battle branch."
+    },
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ywm-class-idiom"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:sub9",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to شَكّ."
+    },
+    {
+      "unit_id": "lane-unit:ywm:12207:g1:sub10",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَدْرَة."
+    },
+    {
+      "unit_id": "lane-unit:ywm:12208:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ywm-class-daily-wages"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:ywm:12209:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ywm-class-muyawama"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The QAC N and T tags represent different grammatical uses of the same lexeme and are therefore merged under one public form.",
+    "The Quran-focused discussion of يَوْمَئِذٍ is represented as a constructional condition; no separate unlisted word location is claimed for that bound expression."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

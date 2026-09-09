@@ -1,0 +1,379 @@
+{
+  "root": "A*y",
+  "arabic": "أذي",
+  "root_idea": {
+    "summary": "The root centers on what is found disagreeable and cannot be comfortably endured or settled with, extending to harm, annoyance, hurt, and related discomfort.",
+    "development": "The basic notion of aversion or unsettledness develops into experiencing or causing slight harm and distress. Related Classical usages include bodily uncleanliness and the restless movement of a camel, while Form IV expresses causing harm.",
+    "source_refs": [
+      "maqayis:row:58",
+      "mufradat:row:25"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:A*y:>uw*iYa:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-Ay-IV",
+      "reason": "Distinct Quran-attested Form IV verb, normalized to its Classical Arabic perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:A*y:>a*FY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-Ay-noun",
+      "reason": "Distinct Quran-attested nominal form with its own noun senses and constructions."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-Ay-IV",
+      "form_group_ids": [
+        "qac-form:A*y:>uw*iYa:verb:IV"
+      ],
+      "headword_arabic": "آذَى",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 15,
+      "senses": [
+        {
+          "sense_id": "qform-Ay-IV-s1",
+          "definition": "To harm, hurt, annoy, molest, or trouble.",
+          "usage_conditions": "A transitive Form IV verb covering physical, verbal, social, and other forms of causing something disagreeable; passive forms express undergoing such harm.",
+          "source_refs": [
+            "lane:entry:6449",
+            "mufradat:row:25"
+          ]
+        },
+        {
+          "sense_id": "qform-Ay-IV-s2",
+          "definition": "To inflict physical harm, specifically to strike in the Quranic directive associated with 4:16.",
+          "usage_conditions": "A Quran-specific physical application of causing harm, explicitly explained as striking; it is a contextual specialization of the verb rather than a general restriction on its objects.",
+          "source_refs": [
+            "lane:entry:6449",
+            "mufradat:row:25"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:61",
+          "word_location": "9:61:3",
+          "sense_ids": [
+            "qform-Ay-IV-s1"
+          ]
+        },
+        {
+          "verse_key": "33:57",
+          "word_location": "33:57:3",
+          "sense_ids": [
+            "qform-Ay-IV-s1"
+          ]
+        },
+        {
+          "verse_key": "33:69",
+          "word_location": "33:69:7",
+          "sense_ids": [
+            "qform-Ay-IV-s1"
+          ]
+        },
+        {
+          "verse_key": "4:16",
+          "word_location": "4:16:4",
+          "sense_ids": [
+            "qform-Ay-IV-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-Ay-noun",
+      "form_group_ids": [
+        "qac-form:A*y:>a*FY:nominal:-"
+      ],
+      "headword_arabic": "أَذًى",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "qform-Ay-noun-s1",
+          "definition": "Harm, hurt, annoyance, or trouble; anything disagreeable that reaches a person in body, self, or consequences.",
+          "usage_conditions": "The Quranic noun covers physical and social harm, including hurtful treatment, troublesome conduct, and other injury or distress. Some Classical descriptions distinguish it from ضرر as lesser harm, but the Quranic usage is broader than a single type of injury.",
+          "source_refs": [
+            "lane:entry:6448",
+            "lane:entry:6449",
+            "lane:entry:6451",
+            "lane:entry:6456",
+            "mufradat:row:25"
+          ]
+        },
+        {
+          "sense_id": "qform-Ay-noun-s2",
+          "definition": "A bodily ailment or unclean condition regarded as harmful; in 2:222, the condition of menstruation is termed أذى.",
+          "usage_conditions": "This sense is tied to the Quranic medical and legal description in 2:222 and is distinct from the noun's general meaning of harm or annoyance.",
+          "source_refs": [
+            "lane:entry:6451",
+            "mufradat:row:25"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:262",
+          "word_location": "2:262:14",
+          "sense_ids": [
+            "qform-Ay-noun-s1"
+          ]
+        },
+        {
+          "verse_key": "3:186",
+          "word_location": "3:186:15",
+          "sense_ids": [
+            "qform-Ay-noun-s1"
+          ]
+        },
+        {
+          "verse_key": "33:48",
+          "word_location": "33:48:6",
+          "sense_ids": [
+            "qform-Ay-noun-s1"
+          ]
+        },
+        {
+          "verse_key": "2:222",
+          "word_location": "2:222:6",
+          "sense_ids": [
+            "qform-Ay-noun-s2"
+          ]
+        },
+        {
+          "verse_key": "2:196",
+          "word_location": "2:196:24",
+          "sense_ids": [
+            "qform-Ay-noun-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "class-Ay-adhya-verb",
+      "headword_arabic": "أَذِيَ",
+      "definition": "To experience or suffer slight harm, annoyance, or something disagreeable; also, to show the effect of such suffering.",
+      "usage_conditions": "Form I is intransitive in this use. The described harm is characterized in the lexical evidence as less than ضرر, and showing its effect is treated as an action within one's control.",
+      "source_refs": [
+        "lane:entry:6448"
+      ]
+    },
+    {
+      "meaning_id": "class-Ay-adhya-unclean",
+      "headword_arabic": "أَذِيَ",
+      "definition": "To be unclean, dirty, or filthy.",
+      "usage_conditions": "A Classical Form I verbal use applied to a thing.",
+      "source_refs": [
+        "lane:entry:6448"
+      ]
+    },
+    {
+      "meaning_id": "class-Ay-adhdha",
+      "headword_arabic": "أَذَّى",
+      "definition": "A state of annoyance or molestation, or anything that annoys, harms, or hurts; a slight evil.",
+      "usage_conditions": "A substantive or quasi-verbal-noun usage associated with the states and things that cause or embody annoyance and harm.",
+      "source_refs": [
+        "lane:entry:6451"
+      ]
+    },
+    {
+      "meaning_id": "class-Ay-adin-person",
+      "headword_arabic": "أَذٍ",
+      "definition": "Of a person, one who experiences, or causes, what is disagreeable or harmful in a great or vehement degree.",
+      "usage_conditions": "An intensive adjectival use; the lexical evidence describes both undergoing and causing pronounced harm.",
+      "source_refs": [
+        "lane:entry:6452"
+      ]
+    },
+    {
+      "meaning_id": "class-Ay-adin-camel",
+      "headword_arabic": "أَذٍ",
+      "definition": "Restless and unwilling to remain in one place by natural disposition.",
+      "usage_conditions": "Applied to a camel when the restlessness is not caused by pain or disease.",
+      "source_refs": [
+        "lane:entry:6452"
+      ]
+    },
+    {
+      "meaning_id": "class-Ay-adhiyya",
+      "headword_arabic": "أَذِيَّةٌ",
+      "definition": "A disagreeable, hateful, or harmful thing in a slight degree; annoyance or molestation.",
+      "usage_conditions": "A substantive derived from the root's Form I and Form V usages and also used in relation to causing harm.",
+      "source_refs": [
+        "lane:entry:6456"
+      ]
+    },
+    {
+      "meaning_id": "class-Ay-aadhiyy",
+      "headword_arabic": "آذِيٌّ",
+      "definition": "A wave of the sea, especially a vehement wave or roller raised by the wind.",
+      "usage_conditions": "The plural is reported as أَوَاذِيٌّ; this is a distinct maritime noun, not a meaning of the Quranic verb or noun.",
+      "source_refs": [
+        "lane:entry:6457"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:A*y:6448:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-Ay-adhya-verb",
+        "qform-Ay-noun-s1"
+      ],
+      "note": "Form I suffering/showing its effect and its verbal noun's harm sense are represented."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6448:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-Ay-adhya-unclean"
+      ],
+      "note": "Form I uncleanliness use is represented."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6449:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-Ay-IV-s1"
+      ],
+      "note": "Form IV causation of harm is represented."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6449:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-Ay-IV-s1",
+        "qform-Ay-noun-s1"
+      ],
+      "note": "The general Form IV verb and the cited noun expression of people's harm are covered."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6450:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6451:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-Ay-adhdha"
+      ],
+      "note": "Substantive state of annoyance is represented."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6451:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-Ay-adhdha"
+      ],
+      "note": "Quasi-substantive for causing annoyance or harm is covered."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6451:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-Ay-adhdha"
+      ],
+      "note": "Anything harmful or annoying, including harmful material removed from a road, is covered."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6451:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-Ay-noun-s2"
+      ],
+      "note": "The Quran-attested unclean or filthy condition is represented."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6452:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-Ay-adin-person"
+      ],
+      "note": "Intensive experience or causing of harm by a person is represented."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6452:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-Ay-adin-camel"
+      ],
+      "note": "The specialized restless-camel use is represented."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6453:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the separate particle entry إذا; no lexical meaning for this root is supplied."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6454:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive classification only."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6454:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Quasi-infinitive classification only."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6454:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6455:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the intensive adjective entry."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6456:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive classification only."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6456:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Quasi-infinitive classification only."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6456:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-Ay-adhiyya"
+      ],
+      "note": "Independent substantive meaning of a slight disagreeable or harmful thing is represented."
+    },
+    {
+      "unit_id": "lane-unit:A*y:6457:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class-Ay-aadhiyy"
+      ],
+      "note": "Distinct maritime noun for sea waves is represented."
+    }
+  ],
+  "cautions": [
+    "The Form IV public headword is normalized to the Classical perfect citation form آذَى rather than copying the inflected QAC lemma.",
+    "Lane's historical citation to the Quran at xxxiii. 47 is used only as lexical evidence; it is not converted into a modern verse key because 33:47 is not a supplied QAC occurrence for this packet.",
+    "The intensive adjective discussion in Lane entry 6452 contains an unclear omitted parallel form in the transcription; its clearly stated person and camel meanings are represented, but that unidentified form is not separately assigned."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "In Lane entry 6452, the text around the parallel intensive adjective is incomplete or omitted in the supplied transcription. The underlying additional form cannot be identified confidently, so only the explicitly recoverable meanings—intensive harm involving a person and natural restlessness of a camel—are assigned."
+  ]
+}

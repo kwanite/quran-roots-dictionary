@@ -1,0 +1,133 @@
+{
+  "root": "w*r",
+  "arabic": "وذر",
+  "root_idea": {
+    "summary": "The Quranic branch of وذر centers on putting someone or something aside: leaving it alone, desisting from it, abandoning it, or leaving it behind.",
+    "development": "The Quranic verb preserves a defective Form I paradigm: the imperfect يَذَرُ and imperative ذَرْ are used, while the perfect and infinitive are reported as largely disused and replaced by forms of ترك. Classical lexical evidence separately records a piece of flesh, الوَذَرَةُ, and the wound-incision term التَّوْذِيرُ.",
+    "source_refs": [
+      "lane:entry:45126",
+      "mufradat:row:1565",
+      "maqayis:row:5073"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:w*r:ya*ara:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wzr-v1",
+      "reason": "A Quran-attested Form I verb group, presented under its normalized perfect-tense dictionary citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wzr-v1",
+      "form_group_ids": [
+        "qac-form:w*r:ya*ara:verb:I"
+      ],
+      "headword_arabic": "وَذَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 45,
+      "senses": [
+        {
+          "sense_id": "wzr-v1-s1",
+          "definition": "To leave, let alone, or desist from someone or something; to leave an action undone.",
+          "usage_conditions": "Includes direct-object constructions such as ذَرْهُ and ذَرْنِي. In وَذَرْنِي وَ... it can mean to leave the matter or persons to the speaker’s handling rather than occupy oneself with them.",
+          "source_refs": [
+            "lane:entry:45126",
+            "mufradat:row:1565"
+          ]
+        },
+        {
+          "sense_id": "wzr-v1-s2",
+          "definition": "To cast off, abandon, relinquish, or leave behind someone or something rather than retain it.",
+          "usage_conditions": "The Quran-focused lexical explanation connects this use with casting something away because it is held in little regard. It appears in abandoning ancestral worship, relinquishing usury, and in وَيَذَرُونَ أَزْوَاجًا, leaving wives behind.",
+          "source_refs": [
+            "mufradat:row:1565"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "73:11",
+          "word_location": "73:11:1",
+          "sense_ids": [
+            "wzr-v1-s1"
+          ]
+        },
+        {
+          "verse_key": "15:3",
+          "word_location": "15:3:1",
+          "sense_ids": [
+            "wzr-v1-s1"
+          ]
+        },
+        {
+          "verse_key": "2:278",
+          "word_location": "2:278:6",
+          "sense_ids": [
+            "wzr-v1-s2"
+          ]
+        },
+        {
+          "verse_key": "2:234",
+          "word_location": "2:234:4",
+          "sense_ids": [
+            "wzr-v1-s2"
+          ]
+        },
+        {
+          "verse_key": "7:70",
+          "word_location": "7:70:6",
+          "sense_ids": [
+            "wzr-v1-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wzr-cm1",
+      "headword_arabic": "الوَذَرَةُ",
+      "definition": "A piece or fragment of meat.",
+      "usage_conditions": "A concrete nominal use recorded in the classical lexical tradition.",
+      "source_refs": [
+        "maqayis:row:5073"
+      ]
+    },
+    {
+      "meaning_id": "wzr-cm2",
+      "headword_arabic": "التَّوْذِيرُ",
+      "definition": "The act of slitting or opening a wound.",
+      "usage_conditions": "A derived verbal-noun usage for cutting into a wound.",
+      "source_refs": [
+        "maqayis:row:5073"
+      ]
+    },
+    {
+      "meaning_id": "wzr-cm3",
+      "headword_arabic": "الوَذَر",
+      "definition": "In the insulting expression يا ابنَ شامَّةِ الوَذَر, an allusion to the male sexual organs.",
+      "usage_conditions": "A rare idiomatic usage reported in connection with a classical hadith expression.",
+      "source_refs": [
+        "maqayis:row:5073"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:w*r:45126:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr-v1-s1"
+      ],
+      "note": "The unit’s leave, let-alone, desist, leave-undone, and leave-me construction are covered by the first Quranic sense."
+    }
+  ],
+  "cautions": [
+    "The perfect وَذَرَ is also reported as وَذِرَ; the perfect and infinitive وَذْر are described as rare or disused, with forms of ترك commonly used instead.",
+    "The nuance of casting something away because of little regard is explicit in the Quran-focused explanation, but should not be imposed as a contemptuous motive on every occurrence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,214 @@
+{
+  "root": "drhm",
+  "arabic": "درهم",
+  "root_idea": {
+    "summary": "The supplied evidence presents دِرْهَم as an Arabicized monetary term for a silver coin used in transactions, rather than establishing an independent native root principle.",
+    "development": "The central lexical sense is the silver coin; related Classical uses extend to its standard weight, collective money or cash, and a round plot likened to the coin. Derived forms also express resemblance to the coin or unrelated developments involving age and dimness.",
+    "source_refs": [
+      "lane:entry:626"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:drhm:dara`him:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_drhm",
+      "reason": "The Quranic plural is normalized under the singular dictionary citation form دِرْهَم."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_drhm",
+      "form_group_ids": [
+        "qac-form:drhm:dara`him:nominal:-"
+      ],
+      "headword_arabic": "دِرْهَم",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_drhm_s1_coin",
+          "definition": "A silver coin used as money; in the Quranic plural, a counted quantity of such coins.",
+          "usage_conditions": "The Quranic occurrence is the plural دَرَاهِمَ in a commercial exchange context.",
+          "source_refs": [
+            "lane:entry:626",
+            "mufradat:row:468"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:20",
+          "word_location": "12:20:4",
+          "sense_ids": [
+            "qform_drhm_s1_coin"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cls_drhm_weight",
+      "headword_arabic": "دِرْهَم",
+      "definition": "A unit of weight corresponding to the weight of a dirham coin; a drachm or dram.",
+      "usage_conditions": "Historical standards varied, and the evidence records several regional and period-specific weights.",
+      "source_refs": [
+        "lane:entry:626"
+      ]
+    },
+    {
+      "meaning_id": "cls_drhm_absolute_money",
+      "headword_arabic": "دِرَاهِم",
+      "definition": "Money, cash, or coin considered collectively, without reference to a specified number of individual coins.",
+      "usage_conditions": "Especially attested as an absolute use of the plural.",
+      "source_refs": [
+        "lane:entry:626"
+      ]
+    },
+    {
+      "meaning_id": "cls_drhm_round_plot",
+      "headword_arabic": "دِرْهَم",
+      "definition": "A round piece of land, such as a garden or rounded hollow, likened to the shape of a dirham.",
+      "usage_conditions": "A figurative usage based on the coin’s roundness; the evidence preserves a poetic comparison.",
+      "source_refs": [
+        "lane:entry:626"
+      ]
+    },
+    {
+      "meaning_id": "cls_darhama_round",
+      "headword_arabic": "دَرْهَمَ",
+      "definition": "To become round so as to resemble dirhams, as of leaves becoming rounded.",
+      "usage_conditions": "A derived Form I usage attested in describing leaves; the comparison to dirhams motivates the meaning.",
+      "source_refs": [
+        "lane:entry:624"
+      ]
+    },
+    {
+      "meaning_id": "cls_idrahham_age",
+      "headword_arabic": "اِدْرَهَمَّ",
+      "definition": "To become aged or to totter because of old age.",
+      "usage_conditions": "A derived verbal usage concerning the effects of advanced age.",
+      "source_refs": [
+        "lane:entry:625"
+      ]
+    },
+    {
+      "meaning_id": "cls_idrahham_dim_sight",
+      "headword_arabic": "اِدْرَهَمَّ",
+      "definition": "Of sight, to become dim or obscure.",
+      "usage_conditions": "The construction takes sight as the subject.",
+      "source_refs": [
+        "lane:entry:625"
+      ]
+    },
+    {
+      "meaning_id": "cls_mudarham_wealthy",
+      "headword_arabic": "مُدَرْهَم",
+      "definition": "A person possessing many dirhams; a wealthy person in coin.",
+      "usage_conditions": "A nominal descriptor; the evidence explicitly states that it has no corresponding verb.",
+      "source_refs": [
+        "lane:entry:631"
+      ]
+    },
+    {
+      "meaning_id": "cls_mudrahimm_tottering",
+      "headword_arabic": "مُدْرَهِمّ",
+      "definition": "An aged person tottering because of old age.",
+      "usage_conditions": "A nominal description of one whose movement is impaired by age.",
+      "source_refs": [
+        "lane:entry:632"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:drhm:624:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_darhama_round"
+      ],
+      "note": "Derived verb meaning of becoming round through resemblance to dirhams."
+    },
+    {
+      "unit_id": "lane-unit:drhm:625:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_idrahham_age"
+      ],
+      "note": "Derived verb meaning connected with aging and age-related tottering."
+    },
+    {
+      "unit_id": "lane-unit:drhm:625:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_idrahham_dim_sight"
+      ],
+      "note": "Distinct construction concerning dim or obscure sight."
+    },
+    {
+      "unit_id": "lane-unit:drhm:626:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_drhm_s1_coin",
+        "cls_drhm_weight",
+        "cls_drhm_absolute_money"
+      ],
+      "note": "Coin, associated weight, and absolute plural money usages are covered."
+    },
+    {
+      "unit_id": "lane-unit:drhm:626:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_drhm_round_plot"
+      ],
+      "note": "Figurative round-plot usage is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:drhm:627:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:drhm:628:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:drhm:629:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:drhm:630:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:drhm:631:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_mudarham_wealthy"
+      ],
+      "note": "Nominal meaning for one possessing many dirhams."
+    },
+    {
+      "unit_id": "lane-unit:drhm:632:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_mudrahimm_tottering"
+      ],
+      "note": "Nominal meaning of an aged person tottering."
+    }
+  ],
+  "cautions": [
+    "No Maqayis entry was supplied, so no separate native root principle is asserted.",
+    "The Quranic form is plural, while the public headword is normalized to the singular Classical Arabic citation form دِرْهَم."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

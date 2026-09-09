@@ -1,0 +1,492 @@
+{
+  "root": "nks",
+  "arabic": "نكس",
+  "root_idea": {
+    "summary": "The root denotes turning or placing a thing upside down, with its former upper or forward position reversed.",
+    "development": "From physical inversion, the lexicon develops senses of reversal into a former state, relapse, decline from strength into weakness or old age, lowered posture, defective orientation, and figurative baseness.",
+    "source_refs": [
+      "maqayis:row:4745",
+      "mufradat:row:1485"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nks:nukisu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nks_f1_nakasa",
+      "reason": "Distinct Quran-attested Form I passive verb, normalized to the Classical Arabic perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:nks:nunak~iso:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nks_f2_nakkasa",
+      "reason": "Distinct Quran-attested Form II verb, normalized to the Classical Arabic perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:nks:naAkisuwA:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nks_ap_nakis",
+      "reason": "Distinct Quran-attested active participle; the supplied plural Quran form is presented under the supported singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nks_f1_nakasa",
+      "form_group_ids": [
+        "qac-form:nks:nukisu:verb:I"
+      ],
+      "headword_arabic": "نَكَسَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nks_f1_s1",
+          "definition": "To be turned upside down or reversed, with the former order or position inverted.",
+          "usage_conditions": "Used in the passive Quranic construction ثُمَّ نُكِسُوا عَلَى رُؤُوسِهِمْ, literally portraying a turning upon the head.",
+          "source_refs": [
+            "lane:entry:44522",
+            "mufradat:row:1485"
+          ]
+        },
+        {
+          "sense_id": "nks_f1_s2",
+          "definition": "To be turned back to a former position or state, especially to revert from recognized truth to disputation or disbelief.",
+          "usage_conditions": "A Quranic construction uses the image of being turned back after having reached a sound course or recognized the evidence.",
+          "source_refs": [
+            "lane:entry:44522"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:65",
+          "word_location": "21:65:2",
+          "sense_ids": [
+            "nks_f1_s1",
+            "nks_f1_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nks_f2_nakkasa",
+      "form_group_ids": [
+        "qac-form:nks:nunak~iso:verb:II"
+      ],
+      "headword_arabic": "نَكَّسَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nks_f2_s1",
+          "definition": "To reverse a person's constitution through aging, bringing strength and youthfulness into weakness and extreme old age.",
+          "usage_conditions": "The Quranic use describes the causative reversal produced by prolonged life; it is the Form II counterpart of being reduced from an earlier state.",
+          "source_refs": [
+            "lane:entry:44522",
+            "mufradat:row:1485"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "36:68",
+          "word_location": "36:68:3",
+          "sense_ids": [
+            "nks_f2_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nks_ap_nakis",
+      "form_group_ids": [
+        "qac-form:nks:naAkisuwA:nominal:-"
+      ],
+      "headword_arabic": "نَاكِسٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nks_ap_s1",
+          "definition": "Lowering or hanging the head, with the head bowed toward the ground.",
+          "usage_conditions": "The Quranic occurrence presents the participle in a plural human context of abasement or humiliation.",
+          "source_refs": [
+            "lane:entry:44528"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "32:12",
+          "word_location": "32:12:5",
+          "sense_ids": [
+            "nks_ap_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_nakkasa_invert",
+      "headword_arabic": "نَكَّسَ",
+      "definition": "To turn or put something upside down, reverse it, or change its state, sometimes with an intensive force.",
+      "usage_conditions": "This is the broader Form II lexical use apart from the specifically Quranic aging construction.",
+      "source_refs": [
+        "lane:entry:44522",
+        "lane:entry:44523"
+      ]
+    },
+    {
+      "meaning_id": "cm_relapse",
+      "headword_arabic": "نُكِسَ / نَكَسَ",
+      "definition": "To relapse into an illness after convalescence or incomplete recovery; of a wound, to break open or become active again; causatively, to make a disease return.",
+      "usage_conditions": "The subject may be the person or wound that relapses, or food and another cause that brings the illness back.",
+      "source_refs": [
+        "lane:entry:44522",
+        "lane:entry:44530"
+      ]
+    },
+    {
+      "meaning_id": "cm_imprecation_naks",
+      "headword_arabic": "نَكْسٌ / نُكْسٌ",
+      "definition": "In an imprecation, to fall upon the face and not rise before suffering a second fall.",
+      "usage_conditions": "Occurs in the formula تَعْسًا لَهُ وَنُكْسًا, with نَكْسًا also reported as a dialectal or formally harmonized variant.",
+      "source_refs": [
+        "lane:entry:44522"
+      ]
+    },
+    {
+      "meaning_id": "cm_reapply_dye",
+      "headword_arabic": "نَكَسَ",
+      "definition": "To apply dye to the head repeatedly or several times.",
+      "usage_conditions": "A repeated-action use applied to the process of putting dye on the head.",
+      "source_refs": [
+        "lane:entry:44522"
+      ]
+    },
+    {
+      "meaning_id": "cm_weak_fallshort",
+      "headword_arabic": "نَكَسَ / نُكِسَ",
+      "definition": "To become weak or impotent, or to fall short of one's fellows and be unable to attain them.",
+      "usage_conditions": "A Classical usage describing reduced capacity or failure to reach the level of one's peers.",
+      "source_refs": [
+        "lane:entry:44522"
+      ]
+    },
+    {
+      "meaning_id": "cm_lowerhead",
+      "headword_arabic": "نَكَسَ رَأْسَهُ",
+      "definition": "To bend, lower, stoop, or hang the head toward the ground.",
+      "usage_conditions": "The construction may describe simple inclination or lowering caused by abasement; the Form VIII expression انْتَكَسَ is also equated with this use.",
+      "source_refs": [
+        "lane:entry:44522",
+        "lane:entry:44525"
+      ]
+    },
+    {
+      "meaning_id": "cm_formVIII_invert",
+      "headword_arabic": "انْتَكَسَ",
+      "definition": "To become overturned, inverted, or reversed; literally, to fall upon one's head.",
+      "usage_conditions": "A quasi-passive or intransitive Form VIII development of the turning-over idea.",
+      "source_refs": [
+        "lane:entry:44525"
+      ]
+    },
+    {
+      "meaning_id": "cm_formVIII_imprecation",
+      "headword_arabic": "تَعِسَ وَانْتَكَسَ",
+      "definition": "To be disappointed in attaining one's desire and suffer loss.",
+      "usage_conditions": "A figurative imprecation associated with being overthrown in one's affair.",
+      "source_refs": [
+        "lane:entry:44525"
+      ]
+    },
+    {
+      "meaning_id": "cm_arrow",
+      "headword_arabic": "نِكْسٌ",
+      "definition": "An arrow whose upper or notched part has broken, leaving it turned bottom-for-top; also an arrowhead or blade defective in this way.",
+      "usage_conditions": "The defining feature is the reversal of the arrow's intended upper and lower orientation.",
+      "source_refs": [
+        "lane:entry:44526"
+      ]
+    },
+    {
+      "meaning_id": "cm_bow",
+      "headword_arabic": "نِكْسٌ",
+      "definition": "A bow whose foot is made from the head of the branch, a defective construction.",
+      "usage_conditions": "A technical description of a bow with its parts arranged in the faulty reversed manner.",
+      "source_refs": [
+        "lane:entry:44526"
+      ]
+    },
+    {
+      "meaning_id": "cm_child",
+      "headword_arabic": "نِكْسٌ / وَلَدٌ مَنْكُوسٌ",
+      "definition": "A child born feet first, with the feet emerging before the head.",
+      "usage_conditions": "A rare obstetric expression; the evidence itself records qualification concerning its established authority.",
+      "source_refs": [
+        "lane:entry:44526",
+        "lane:entry:44530"
+      ]
+    },
+    {
+      "meaning_id": "cm_low_base",
+      "headword_arabic": "نِكْسٌ",
+      "definition": "A low, base, mean, or sordid person; by extension, one weak or falling short in courage, generosity, or attainment.",
+      "usage_conditions": "A figurative application derived from the defective or inferior condition associated with نِكْسٌ.",
+      "source_refs": [
+        "lane:entry:44526"
+      ]
+    },
+    {
+      "meaning_id": "cm_oldmen",
+      "headword_arabic": "نُكَسٌ",
+      "definition": "Very old men tottering because of extreme age.",
+      "usage_conditions": "A plural lexical use associated with advanced age and physical unsteadiness.",
+      "source_refs": [
+        "lane:entry:44527"
+      ]
+    },
+    {
+      "meaning_id": "cm_munakkis_horse",
+      "headword_arabic": "مُنَكِّسٌ",
+      "definition": "A horse that does not raise its head or neck while running because of weakness, or that fails to keep pace with the other horses.",
+      "usage_conditions": "A specialized equine description of weakness, impotence, or failure to reach the other runners.",
+      "source_refs": [
+        "lane:entry:44529"
+      ]
+    },
+    {
+      "meaning_id": "cm_inverted_tawaf",
+      "headword_arabic": "طَوَافٌ مَنْكُوسٌ",
+      "definition": "A circumambulation of the Kaaba performed contrary to the prescribed custom, saluting the Black Stone and then proceeding toward the left.",
+      "usage_conditions": "A specialized ritual expression describing an inverted or non-prescribed order of circumambulation.",
+      "source_refs": [
+        "lane:entry:44530"
+      ]
+    },
+    {
+      "meaning_id": "cm_reverse_recitation",
+      "headword_arabic": "مَنْكُوسٌ",
+      "definition": "Recited or read backwards, beginning with the last part and proceeding toward the first, or from the end of a chapter toward its beginning.",
+      "usage_conditions": "Applied to Quran recitation performed in an inverted order; the cited discussion distinguishes reported variants and notes limited instructional allowances.",
+      "source_refs": [
+        "lane:entry:44530"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nks:44522:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nks_f1_s1",
+        "nks_f2_s1",
+        "cm_nakkasa_invert"
+      ],
+      "note": "Covers inversion, the Quranic aging reversal, and the broader Form II reversal."
+    },
+    {
+      "unit_id": "lane-unit:nks:44522:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nks_f1_s2"
+      ],
+      "note": "Covers return to a former state, including return to disbelief or disputation."
+    },
+    {
+      "unit_id": "lane-unit:nks:44522:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_relapse",
+        "cm_imprecation_naks"
+      ],
+      "note": "Covers relapse or recrudescence and the associated imprecation."
+    },
+    {
+      "unit_id": "lane-unit:nks:44522:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_relapse",
+        "cm_reapply_dye"
+      ],
+      "note": "Covers causing disease to return and repeated application of dye."
+    },
+    {
+      "unit_id": "lane-unit:nks:44522:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_weak_fallshort"
+      ],
+      "note": "Covers weakness, impotence, and falling short of one's peers."
+    },
+    {
+      "unit_id": "lane-unit:nks:44522:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_lowerhead"
+      ],
+      "note": "Covers lowering or hanging the head."
+    },
+    {
+      "unit_id": "lane-unit:nks:44523:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 44522."
+    },
+    {
+      "unit_id": "lane-unit:nks:44524:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the last part of entry 44522."
+    },
+    {
+      "unit_id": "lane-unit:nks:44525:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_formVIII_invert",
+        "cm_formVIII_imprecation"
+      ],
+      "note": "Covers intransitive overturning and the figurative imprecation."
+    },
+    {
+      "unit_id": "lane-unit:nks:44525:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_lowerhead"
+      ],
+      "note": "The Form VIII head-lowering use is explicitly equated with the represented head-lowering construction."
+    },
+    {
+      "unit_id": "lane-unit:nks:44526:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_arrow"
+      ],
+      "note": "Covers the defective inverted arrow."
+    },
+    {
+      "unit_id": "lane-unit:nks:44526:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_arrow"
+      ],
+      "note": "Further description of the same defective arrow orientation."
+    },
+    {
+      "unit_id": "lane-unit:nks:44526:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bow"
+      ],
+      "note": "Covers the defective reversed construction of a bow."
+    },
+    {
+      "unit_id": "lane-unit:nks:44526:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_child"
+      ],
+      "note": "Covers feet-first childbirth."
+    },
+    {
+      "unit_id": "lane-unit:nks:44526:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_low_base"
+      ],
+      "note": "Covers low status, weakness, and related figurative inferiority."
+    },
+    {
+      "unit_id": "lane-unit:nks:44526:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مُنَكِّسٌ."
+    },
+    {
+      "unit_id": "lane-unit:nks:44526:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نُكُسٌ."
+    },
+    {
+      "unit_id": "lane-unit:nks:44527:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_oldmen"
+      ],
+      "note": "Covers very old men tottering from age."
+    },
+    {
+      "unit_id": "lane-unit:nks:44528:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nks_ap_s1"
+      ],
+      "note": "Directly covers the Quran-attested active participle meaning of lowering the head."
+    },
+    {
+      "unit_id": "lane-unit:nks:44529:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_munakkis_horse"
+      ],
+      "note": "Covers the specialized description of a weak or lagging horse."
+    },
+    {
+      "unit_id": "lane-unit:nks:44530:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_child"
+      ],
+      "note": "Repeats the feet-first childbirth meaning."
+    },
+    {
+      "unit_id": "lane-unit:nks:44530:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_child"
+      ],
+      "note": "Repeats the same obstetric meaning."
+    },
+    {
+      "unit_id": "lane-unit:nks:44530:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_inverted_tawaf"
+      ],
+      "note": "Covers the contrary ritual circumambulation."
+    },
+    {
+      "unit_id": "lane-unit:nks:44530:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_reverse_recitation"
+      ],
+      "note": "Covers reading or reciting in reverse order."
+    },
+    {
+      "unit_id": "lane-unit:nks:44530:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_relapse"
+      ],
+      "note": "Repeats the relapse meaning."
+    },
+    {
+      "unit_id": "lane-unit:nks:44530:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نِكْسٌ."
+    }
+  ],
+  "cautions": [
+    "The nominal headword is normalized from the supplied plural Quran form نَاكِسُوا۟ to the singular active-participle citation نَاكِسٌ.",
+    "The feet-first childbirth sense is rare and explicitly reported with an authority qualification, but it is retained as an attested Classical usage."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,779 @@
+{
+  "root": "skr",
+  "arabic": "سكر",
+  "root_idea": {
+    "summary": "A root oriented toward confusion or obstruction of normal clarity, whether of the intellect, sight, or movement.",
+    "development": "The central notion develops from intoxication obstructing reason to obscured vision, while related usages describe water being held back, wind becoming still, and other states of stoppage or fullness.",
+    "source_refs": [
+      "maqayis:row:2459",
+      "mufradat:row:709"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:skr:suk~irato:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:skr:sukkar",
+      "reason": "Displayed under the normalized Form II perfect citation form سَكَّرَ."
+    },
+    {
+      "form_group_id": "qac-form:skr:sakar:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:skr:sakar",
+      "reason": "Displayed as the Quranic noun سَكَر."
+    },
+    {
+      "form_group_id": "qac-form:skr:sakorap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:skr:sakra",
+      "reason": "Displayed as the normalized feminine noun سَكْرَة."
+    },
+    {
+      "form_group_id": "qac-form:skr:suka`raY`:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf:skr:sakran",
+      "reason": "The Quranic plural سُكَارَى is presented under its supported singular adjective citation form سَكْرَان."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf:skr:sukkar",
+      "form_group_ids": [
+        "qac-form:skr:suk~irato:verb:II"
+      ],
+      "headword_arabic": "سَكَّرَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:skr:sukkar:1",
+          "definition": "To obstruct, confuse, or dazzle the sight so that normal seeing is prevented.",
+          "usage_conditions": "In the Quranic passive construction سُكِّرَتْ أَبْصَارُنَا, the eyes are described as covered, closed, dazzled, or otherwise rendered unable to see; some interpretations express this as enchantment or confusion.",
+          "source_refs": [
+            "lane:entry:41622",
+            "mufradat:row:709"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:15",
+          "word_location": "15:15:3",
+          "sense_ids": [
+            "s:skr:sukkar:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:skr:sakar",
+      "form_group_ids": [
+        "qac-form:skr:sakar:nominal:-"
+      ],
+      "headword_arabic": "سَكَر",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:skr:sakar:1",
+          "definition": "An intoxicating beverage, especially wine or a fermented beverage made from dates.",
+          "usage_conditions": "In 16:67, it is contrasted with good or lawful provision; the lexical discussion includes wine and intoxicating date beverages, in a context understood as preceding the prohibition of wine.",
+          "source_refs": [
+            "lane:entry:41629",
+            "mufradat:row:709"
+          ]
+        },
+        {
+          "sense_id": "s:skr:sakar:2",
+          "definition": "Vinegar, in a reported interpretation of the Quranic term.",
+          "usage_conditions": "This interpretation is attributed to some Quranic expositors for 16:67 but is explicitly reported as disputed and not accepted by the leading lexicologists.",
+          "source_refs": [
+            "lane:entry:41629"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:67",
+          "word_location": "16:67:7",
+          "sense_ids": [
+            "s:skr:sakar:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:skr:sakra",
+      "form_group_ids": [
+        "qac-form:skr:sakorap:nominal:-"
+      ],
+      "headword_arabic": "سَكْرَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "s:skr:sakra:1",
+          "definition": "A fit or episode of intoxication in which consciousness or intellectual clarity is impaired.",
+          "usage_conditions": "The noun may describe a transient state between sensibility and insensibility; the Quranic occurrence in 15:72 refers to such a state of intoxication.",
+          "source_refs": [
+            "lane:entry:41631",
+            "mufradat:row:709"
+          ]
+        },
+        {
+          "sense_id": "s:skr:sakra:2",
+          "definition": "The overpowering stupor, confusion, or insensibility accompanying death.",
+          "usage_conditions": "In the Quranic construction سَكْرَةُ الْمَوْتِ, the term denotes the oppressive mental and sensory disturbance associated with the agony of death.",
+          "source_refs": [
+            "lane:entry:41631",
+            "mufradat:row:709"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:72",
+          "word_location": "15:72:4",
+          "sense_ids": [
+            "s:skr:sakra:1"
+          ]
+        },
+        {
+          "verse_key": "50:19",
+          "word_location": "50:19:2",
+          "sense_ids": [
+            "s:skr:sakra:2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:skr:sakran",
+      "form_group_ids": [
+        "qac-form:skr:suka`raY`:nominal:-"
+      ],
+      "headword_arabic": "سَكْرَان",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "s:skr:sakran:1",
+          "definition": "Intoxicated, inebriated, or drunken; deprived of ordinary reason by intoxication.",
+          "usage_conditions": "The supplied Quran form is the irregular plural سُكَارَى. For 4:43, the evidence also records an alternative interpretation as being overcome by sleep, while the ordinary lexical sense is intoxication; the occurrences in 22:2 use the same adjective in the imagery of overwhelming terror.",
+          "source_refs": [
+            "lane:entry:41633"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:43",
+          "word_location": "4:43:8",
+          "sense_ids": [
+            "s:skr:sakran:1"
+          ]
+        },
+        {
+          "verse_key": "22:2",
+          "word_location": "22:2:15",
+          "sense_ids": [
+            "s:skr:sakran:1"
+          ]
+        },
+        {
+          "verse_key": "22:2",
+          "word_location": "22:2:18",
+          "sense_ids": [
+            "s:skr:sakran:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:skr:sakira:drunk",
+      "headword_arabic": "سَكِرَ",
+      "definition": "To become intoxicated, inebriated, or drunken.",
+      "usage_conditions": "The basic Form I verbal use; it is contrasted with becoming sober.",
+      "source_refs": [
+        "lane:entry:41621"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sukr:state",
+      "headword_arabic": "سُكْر",
+      "definition": "Intoxication or drunkenness as a state obstructing the intellect.",
+      "usage_conditions": "Usually used of intoxicating drink, but also extended to states arising from anger or passionate love.",
+      "source_refs": [
+        "lane:entry:41627"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakira:anger",
+      "headword_arabic": "سَكِرَ",
+      "definition": "To become violently angry or enraged.",
+      "usage_conditions": "A figurative Form I use, including the construction سَكِرَ عَلَيْهِ.",
+      "source_refs": [
+        "lane:entry:41621"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakira:full",
+      "headword_arabic": "سَكِرَ",
+      "definition": "To become full, especially of water.",
+      "usage_conditions": "Attested of a watering trough or tank becoming full.",
+      "source_refs": [
+        "lane:entry:41621"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakira:still",
+      "headword_arabic": "سَكِرَ",
+      "definition": "To become still or cease moving, flowing, boiling, or burning; to subside.",
+      "usage_conditions": "Used of wind, water, food or hot liquid ceasing to boil, and heat becoming allayed.",
+      "source_refs": [
+        "lane:entry:41621"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakara:fill",
+      "headword_arabic": "سَكَرَ",
+      "definition": "To fill something.",
+      "usage_conditions": "A transitive use, distinct from the intransitive description of a container becoming full.",
+      "source_refs": [
+        "lane:entry:41621"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakara:dam",
+      "headword_arabic": "سَكَرَ",
+      "definition": "To stop up or dam a river or rivulet; by extension, to close or block a door.",
+      "usage_conditions": "The object is a channel of water or, figuratively, a door.",
+      "source_refs": [
+        "lane:entry:41621"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sukkar:judgment",
+      "headword_arabic": "سَكَّرَ",
+      "definition": "To confuse or cloud a person's judgment concerning a matter.",
+      "usage_conditions": "Used of a person whose judgment is unsettled before deciding about the object of a need.",
+      "source_refs": [
+        "lane:entry:41622"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sukkar:throttle",
+      "headword_arabic": "سَكَّرَ",
+      "definition": "To squeeze or throttle someone, nearly killing him.",
+      "usage_conditions": "The recorded illustration describes one camel throttling another with its foreleg.",
+      "source_refs": [
+        "lane:entry:41622"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:askara:intoxicate",
+      "headword_arabic": "أَسْكَرَ",
+      "definition": "To intoxicate or deprive someone of reason.",
+      "usage_conditions": "Form IV is used transitively of wine or another beverage affecting a person; it can also describe causing the after-effects of intoxication.",
+      "source_refs": [
+        "lane:entry:41623"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:tasakara:feign",
+      "headword_arabic": "تَسَاكَرَ",
+      "definition": "To feign intoxication or a state of drunkenness.",
+      "usage_conditions": "A reciprocal Form VI usage describing assumed rather than actual drunkenness.",
+      "source_refs": [
+        "lane:entry:41624"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:istakara:full",
+      "headword_arabic": "اِسْتَكَرَ",
+      "definition": "To become full or abundant.",
+      "usage_conditions": "Used of an udder becoming full of milk and of the sky raining vehemently.",
+      "source_refs": [
+        "lane:entry:41625"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sikr:dam",
+      "headword_arabic": "سِكْر",
+      "definition": "A dam or barrier by which a river or rivulet is stopped up.",
+      "usage_conditions": "A substantive denoting the physical obstruction, with plural سُكُور.",
+      "source_refs": [
+        "lane:entry:41628"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakar:food",
+      "headword_arabic": "سَكَر",
+      "definition": "Food.",
+      "usage_conditions": "A reported usage attributed to one authority and disputed by the leading lexicologists in the cited poetic example, where wine is considered more probable.",
+      "source_refs": [
+        "lane:entry:41629"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakra:anger",
+      "headword_arabic": "سَكْرَة",
+      "definition": "A fit of anger.",
+      "usage_conditions": "A figurative extension of the noun's overpowering-state meaning.",
+      "source_refs": [
+        "lane:entry:41631"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakra:delight",
+      "headword_arabic": "سَكْرَة",
+      "definition": "An overpowering sensation of delight affecting a young person.",
+      "usage_conditions": "A figurative noun use describing an overwhelming emotional state.",
+      "source_refs": [
+        "lane:entry:41631"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakra:anxiety-sleep",
+      "headword_arabic": "سَكْرَة",
+      "definition": "The oppressive sensation, disturbance of mind, or insensibility accompanying anxiety or sleep.",
+      "usage_conditions": "A figurative extension parallel to the expression for the stupor of death; these are Classical uses rather than supplied Quranic occurrences of this construction.",
+      "source_refs": [
+        "lane:entry:41631"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakara:plant",
+      "headword_arabic": "سَكَرَة",
+      "definition": "A plant identified with shaylam or a similar herb, reportedly used in an anaesthetic decoction.",
+      "usage_conditions": "A botanical meaning, distinct from the abstract noun سَكْرَة.",
+      "source_refs": [
+        "lane:entry:41632"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sukkar:sugar",
+      "headword_arabic": "سُكَّر",
+      "definition": "Sugar; by extension, something compared to sugar for its sweetness, including named sweet varieties of dates and grapes.",
+      "usage_conditions": "The entry describes the term as an Arabicized loanword and records several food-specific applications.",
+      "source_refs": [
+        "lane:entry:41636"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sukkari:sweet",
+      "headword_arabic": "سُكَّرِيّ",
+      "definition": "Sugary or saccharine; also a sweet cake containing sugar or barley sugar with nuts.",
+      "usage_conditions": "The adjective and the recorded food noun are included under this derived form.",
+      "source_refs": [
+        "lane:entry:41637"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakkar:maker",
+      "headword_arabic": "سَكَّار",
+      "definition": "A maker or seller of the beverage called نَبِيذ.",
+      "usage_conditions": "A professional or occupational noun synonymous with نَبَّاذ.",
+      "source_refs": [
+        "lane:entry:41638"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sikkir:drunkard",
+      "headword_arabic": "سِكِّير",
+      "definition": "A habitual drunkard or tippler, one who intoxicates himself often.",
+      "usage_conditions": "An intensive personal adjective or noun describing repeated intoxication.",
+      "source_refs": [
+        "lane:entry:41639"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:sakira:still-adjective",
+      "headword_arabic": "سَاكِرَة",
+      "definition": "Still or motionless, especially of wind, a night, or water.",
+      "usage_conditions": "The recorded expressions describe a windless night and water that is no longer running.",
+      "source_refs": [
+        "lane:entry:41640"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:saykuran:plant",
+      "headword_arabic": "سَيْكُرَان",
+      "definition": "A particular evergreen plant whose grain is eaten; in later usage, a species of henbane.",
+      "usage_conditions": "A botanical term with variant identifications in the lexical record.",
+      "source_refs": [
+        "lane:entry:41641"
+      ]
+    },
+    {
+      "meaning_id": "cm:skr:musakkar:residual",
+      "headword_arabic": "مُسَكَّر",
+      "definition": "Affected by the lingering effects of intoxication.",
+      "usage_conditions": "A passive participial adjective describing residual rather than initial intoxication.",
+      "source_refs": [
+        "lane:entry:41642"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:skr:41621:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakira:drunk"
+      ],
+      "note": "Form I intoxication verb."
+    },
+    {
+      "unit_id": "lane-unit:skr:41621:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakira:anger"
+      ],
+      "note": "Figurative anger use."
+    },
+    {
+      "unit_id": "lane-unit:skr:41621:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another unit."
+    },
+    {
+      "unit_id": "lane-unit:skr:41621:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakira:full"
+      ],
+      "note": "Intransitive fullness of a trough or tank."
+    },
+    {
+      "unit_id": "lane-unit:skr:41621:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakira:still"
+      ],
+      "note": "Stilling or subsiding of wind, water, boiling, or heat."
+    },
+    {
+      "unit_id": "lane-unit:skr:41621:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form IV discussion."
+    },
+    {
+      "unit_id": "lane-unit:skr:41621:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakara:fill"
+      ],
+      "note": "Transitive filling use."
+    },
+    {
+      "unit_id": "lane-unit:skr:41621:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakara:dam"
+      ],
+      "note": "Damming or closing use."
+    },
+    {
+      "unit_id": "lane-unit:skr:41621:g2:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Quranic eye expression."
+    },
+    {
+      "unit_id": "lane-unit:skr:41622:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another numbered entry."
+    },
+    {
+      "unit_id": "lane-unit:skr:41622:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to explanations in another entry."
+    },
+    {
+      "unit_id": "lane-unit:skr:41622:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:skr:sukkar:1"
+      ],
+      "note": "Quranic obstructed or dazzled sight."
+    },
+    {
+      "unit_id": "lane-unit:skr:41622:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sukkar:judgment"
+      ],
+      "note": "Confused judgment construction."
+    },
+    {
+      "unit_id": "lane-unit:skr:41622:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sukkar:throttle"
+      ],
+      "note": "Throttling construction."
+    },
+    {
+      "unit_id": "lane-unit:skr:41623:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:askara:intoxicate"
+      ],
+      "note": "Transitive intoxication or deprivation of reason."
+    },
+    {
+      "unit_id": "lane-unit:skr:41624:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:tasakara:feign"
+      ],
+      "note": "Feigning drunkenness."
+    },
+    {
+      "unit_id": "lane-unit:skr:41625:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:istakara:full"
+      ],
+      "note": "Fullness or abundant outpouring."
+    },
+    {
+      "unit_id": "lane-unit:skr:41625:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:istakara:full"
+      ],
+      "note": "Rain falling vehemently."
+    },
+    {
+      "unit_id": "lane-unit:skr:41626:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سَكْرَان."
+    },
+    {
+      "unit_id": "lane-unit:skr:41626:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another lexical entry."
+    },
+    {
+      "unit_id": "lane-unit:skr:41626:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakara:plant"
+      ],
+      "note": "Botanical plant term."
+    },
+    {
+      "unit_id": "lane-unit:skr:41627:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sukr:state"
+      ],
+      "note": "State of intoxication."
+    },
+    {
+      "unit_id": "lane-unit:skr:41628:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sikr:dam"
+      ],
+      "note": "Noun for a dam or barrier."
+    },
+    {
+      "unit_id": "lane-unit:skr:41629:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:skr:sakar:1",
+        "s:skr:sakar:2",
+        "cm:skr:sakar:food"
+      ],
+      "note": "Quranic beverage sense, disputed vinegar reading, and reported food use."
+    },
+    {
+      "unit_id": "lane-unit:skr:41630:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سَكْرَان."
+    },
+    {
+      "unit_id": "lane-unit:skr:41630:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another intensive adjective."
+    },
+    {
+      "unit_id": "lane-unit:skr:41631:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:skr:sakra:1"
+      ],
+      "note": "Fit of intoxication."
+    },
+    {
+      "unit_id": "lane-unit:skr:41631:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakra:anger"
+      ],
+      "note": "Figurative fit of anger."
+    },
+    {
+      "unit_id": "lane-unit:skr:41631:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakra:delight"
+      ],
+      "note": "Overpowering delight."
+    },
+    {
+      "unit_id": "lane-unit:skr:41631:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:skr:sakra:2",
+        "cm:skr:sakra:anxiety-sleep"
+      ],
+      "note": "Death stupor and related anxiety or sleep extensions."
+    },
+    {
+      "unit_id": "lane-unit:skr:41632:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakara:plant"
+      ],
+      "note": "Distinct botanical noun."
+    },
+    {
+      "unit_id": "lane-unit:skr:41633:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:skr:sakran:1"
+      ],
+      "note": "Quranic intoxicated adjective."
+    },
+    {
+      "unit_id": "lane-unit:skr:41634:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another root article."
+    },
+    {
+      "unit_id": "lane-unit:skr:41635:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another intensive adjective."
+    },
+    {
+      "unit_id": "lane-unit:skr:41636:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sukkar:sugar"
+      ],
+      "note": "Sugar noun."
+    },
+    {
+      "unit_id": "lane-unit:skr:41636:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sukkar:sugar"
+      ],
+      "note": "Sugar-like sweetness."
+    },
+    {
+      "unit_id": "lane-unit:skr:41636:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sukkar:sugar"
+      ],
+      "note": "Sweet date variety."
+    },
+    {
+      "unit_id": "lane-unit:skr:41636:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sukkar:sugar"
+      ],
+      "note": "Sweet grape variety."
+    },
+    {
+      "unit_id": "lane-unit:skr:41637:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sukkari:sweet"
+      ],
+      "note": "Sugary or saccharine adjective."
+    },
+    {
+      "unit_id": "lane-unit:skr:41637:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sukkari:sweet"
+      ],
+      "note": "Sugar-containing cake."
+    },
+    {
+      "unit_id": "lane-unit:skr:41638:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakkar:maker"
+      ],
+      "note": "Maker or seller of nabidh."
+    },
+    {
+      "unit_id": "lane-unit:skr:41639:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sikkir:drunkard"
+      ],
+      "note": "Habitual drunkard."
+    },
+    {
+      "unit_id": "lane-unit:skr:41640:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:sakira:still-adjective"
+      ],
+      "note": "Still wind, night, or water."
+    },
+    {
+      "unit_id": "lane-unit:skr:41641:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:saykuran:plant"
+      ],
+      "note": "Botanical term."
+    },
+    {
+      "unit_id": "lane-unit:skr:41642:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:skr:musakkar:residual"
+      ],
+      "note": "Lingering intoxication."
+    },
+    {
+      "unit_id": "lane-unit:skr:41643:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سِكِّير."
+    }
+  ],
+  "cautions": [
+    "The Quranic سُكَارَى is an irregular plural and is displayed under the supported singular citation form سَكْرَان.",
+    "The sleep-based interpretation of سُكَارَى in 4:43 is recorded as an alternative reading of the passage, not as the primary lexical definition.",
+    "The vinegar interpretation of سَكَر in 16:67 is explicitly disputed in the lexical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

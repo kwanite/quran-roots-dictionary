@@ -1,0 +1,153 @@
+{
+  "root": "wzE",
+  "arabic": "وزع",
+  "root_idea": {
+    "summary": "The root centers on restraining, regulating, or holding something together so that what leads is coordinated with what follows.",
+    "development": "From the basic idea of restraint and controlled ordering, the lexical range extends to authority's restraining agents and to the causative sense of impelling or deeply inclining someone toward an action, especially gratitude. These developments describe the root's orientation and are not meanings of every derived form.",
+    "source_refs": [
+      "maqayis:row:5095",
+      "mufradat:row:1571"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wzE:yuwzaEu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wzE-formI-wazaEa",
+      "reason": "Displayed under the normalized Form I perfect citation form وَزَعَ; the supplied Quran occurrences are passive imperfect forms."
+    },
+    {
+      "form_group_id": "qac-form:wzE:>awoziEo:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wzE-formIV-awzaEa",
+      "reason": "Displayed under the normalized Form IV perfect citation form أَوْزَعَ; the supplied Quran occurrences are imperative forms."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wzE-formI-wazaEa",
+      "form_group_ids": [
+        "qac-form:wzE:yuwzaEu:verb:I"
+      ],
+      "headword_arabic": "وَزَعَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "wzE-formI-s1",
+          "definition": "To restrain or hold back; in the Quranic passive, to keep the foremost in a group from proceeding until the rear joins, thereby maintaining an ordered formation.",
+          "usage_conditions": "The supplied Quranic usage is passive and describes controlled marshalling rather than a group being left dispersed.",
+          "source_refs": [
+            "mufradat:row:1571",
+            "maqayis:row:5095"
+          ]
+        },
+        {
+          "sense_id": "wzE-formI-s2",
+          "definition": "To be forcibly held in check as punishment.",
+          "usage_conditions": "In the Quranic interpretation associated with 41:19, the restraint is punitive rather than merely organizational.",
+          "source_refs": [
+            "mufradat:row:1571"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:17",
+          "word_location": "27:17:9",
+          "sense_ids": [
+            "wzE-formI-s1"
+          ]
+        },
+        {
+          "verse_key": "27:83",
+          "word_location": "27:83:11",
+          "sense_ids": [
+            "wzE-formI-s1"
+          ]
+        },
+        {
+          "verse_key": "41:19",
+          "word_location": "41:19:8",
+          "sense_ids": [
+            "wzE-formI-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wzE-formIV-awzaEa",
+      "form_group_ids": [
+        "qac-form:wzE:>awoziEo:verb:IV"
+      ],
+      "headword_arabic": "أَوْزَعَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "wzE-formIV-s1",
+          "definition": "To inspire or impel someone toward an action, or to make someone deeply inclined and devoted to it; in the Quranic prayer, to prompt the speaker to gratitude.",
+          "usage_conditions": "The Quranic construction أَوْزِعْنِي أَنْ أَشْكُرَ expresses a request to be inspired or impelled to give thanks, with the associated nuance of being ardently committed to gratitude and restrained from ingratitude.",
+          "source_refs": [
+            "mufradat:row:1571",
+            "maqayis:row:5095"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:19",
+          "word_location": "27:19:7",
+          "sense_ids": [
+            "wzE-formIV-s1"
+          ]
+        },
+        {
+          "verse_key": "46:15",
+          "word_location": "46:15:23",
+          "sense_ids": [
+            "wzE-formIV-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-wazaEa-agents",
+      "headword_arabic": "الوَزَعَةُ",
+      "definition": "A person's assistants or agents; in a ruler's administration, restraining officials who keep people in check.",
+      "usage_conditions": "A collective designation for those who assist or exercise restraining authority.",
+      "source_refs": [
+        "lane:entry:30471",
+        "mufradat:row:1571"
+      ]
+    },
+    {
+      "meaning_id": "cm-awzaEa-groups",
+      "headword_arabic": "أَوْزَاعٌ",
+      "definition": "Groups or bands of people.",
+      "usage_conditions": "A Classical plural expression for separate groupings or companies of people.",
+      "source_refs": [
+        "maqayis:row:5095"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wzE:30471:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wazaEa-agents"
+      ],
+      "note": "Defines الوَزَعَةُ as a man's assistants; the وَازِعٌ cross-reference is pointer-only."
+    }
+  ],
+  "cautions": [
+    "The Form I public headword is the normalized perfect وَزَعَ, while the Quranic tokens are passive imperfect يُوزَعُ. The Form IV headword is normalized to أَوْزَعَ, while the Quranic tokens are imperative أَوْزِعْ.",
+    "The Form IV Quranic construction is explicitly explained both as inspiration to gratitude and as a deep inclination toward it that restrains ingratitude; these nuances are presented as one prompting sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

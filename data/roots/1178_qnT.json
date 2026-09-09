@@ -1,0 +1,228 @@
+{
+  "root": "qnT",
+  "arabic": "قنط",
+  "root_idea": {
+    "summary": "The root denotes despairing of something: giving up hope in it, especially hope of good or divine mercy.",
+    "development": "The core despair sense appears in the Form I verb and its participial derivatives. Classical Arabic also extends it to a causative Form II meaning “to make someone despair” and an intensive adjectival form meaning “intensely despairing,” while recording a separate noun use for withholding.",
+    "source_refs": [
+      "maqayis:row:3877",
+      "lane:entry:9031",
+      "lane:entry:9032",
+      "lane:entry:9036",
+      "mufradat:row:1213"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qnT:qanaTu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qnT.verbI",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:qnT:qa`niTiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qnT.qanit",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:qnT:qanuwT:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qnT.qanut",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qnT.verbI",
+      "form_group_ids": [
+        "qac-form:qnT:qanaTu:verb:I"
+      ],
+      "headword_arabic": "قَنَطَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qnT.verbI.s1",
+          "definition": "To despair of something; to give up hope of good or mercy.",
+          "usage_conditions": "The Quranic construction uses مِنْ for what is despaired of, especially divine mercy or good. Reported vocalic and dialectal variants of the Form I verb do not create additional senses.",
+          "source_refs": [
+            "lane:entry:9031",
+            "mufradat:row:1213"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:56",
+          "word_location": "15:56:3",
+          "sense_ids": [
+            "qnT.verbI.s1"
+          ]
+        },
+        {
+          "verse_key": "39:53",
+          "word_location": "39:53:8",
+          "sense_ids": [
+            "qnT.verbI.s1"
+          ]
+        },
+        {
+          "verse_key": "42:28",
+          "word_location": "42:28:8",
+          "sense_ids": [
+            "qnT.verbI.s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qnT.qanit",
+      "form_group_ids": [
+        "qac-form:qnT:qa`niTiyn:nominal:-"
+      ],
+      "headword_arabic": "قَانِط",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qnT.qanit.s1",
+          "definition": "Despairing; one who has given up hope of good.",
+          "usage_conditions": "An active participle, occurring in the Quran in the plural قَانِطِينَ; in its cited construction it denotes those who despair and are told not to do so.",
+          "source_refs": [
+            "lane:entry:9036",
+            "mufradat:row:1213"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:55",
+          "word_location": "15:55:7",
+          "sense_ids": [
+            "qnT.qanit.s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qnT.qanut",
+      "form_group_ids": [
+        "qac-form:qnT:qanuwT:nominal:-"
+      ],
+      "headword_arabic": "قَنُوط",
+      "public_pos_label": "Intensive adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qnT.qanut.s1",
+          "definition": "Intensely despairing; profoundly hopeless.",
+          "usage_conditions": "A Quranic nominal/adjectival characterization treated lexically as an intensive counterpart of قَانِط. The cited verse places it in a paired description with يَؤُوسٌ.",
+          "source_refs": [
+            "lane:entry:9036",
+            "mufradat:row:1213"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "41:49",
+          "word_location": "41:49:11",
+          "sense_ids": [
+            "qnT.qanut.s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qnT.cm.withholding",
+      "headword_arabic": "قَنْط",
+      "definition": "Withholding or debarring; specifically, withholding one's water from others.",
+      "usage_conditions": "A distinct Classical noun use, as in withholding water from someone.",
+      "source_refs": [
+        "lane:entry:9031"
+      ]
+    },
+    {
+      "meaning_id": "qnT.cm.causative",
+      "headword_arabic": "قَنَّطَ",
+      "definition": "To cause someone to despair; to make someone give up hope.",
+      "usage_conditions": "A transitive causative Form II construction, including causing people to despair of God's mercy.",
+      "source_refs": [
+        "lane:entry:9032"
+      ]
+    },
+    {
+      "meaning_id": "qnT.cm.qanit",
+      "headword_arabic": "قَنِط",
+      "definition": "Despairing; having given up hope.",
+      "usage_conditions": "A Classical adjectival form treated alongside قَانِط; it is distinct in form from the supplied Quranic active-participle group.",
+      "source_refs": [
+        "lane:entry:9036"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qnT:9031:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qnT.verbI.s1"
+      ],
+      "note": "Core Form I despair sense, including the Quran-attested construction."
+    },
+    {
+      "unit_id": "lane-unit:qnT:9031:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qnT.cm.withholding"
+      ],
+      "note": "Separate withholding or debarring use."
+    },
+    {
+      "unit_id": "lane-unit:qnT:9032:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qnT.cm.causative"
+      ],
+      "note": "Causative Form II meaning."
+    },
+    {
+      "unit_id": "lane-unit:qnT:9033:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:qnT:9034:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following lexical entry."
+    },
+    {
+      "unit_id": "lane-unit:qnT:9035:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following lexical entry."
+    },
+    {
+      "unit_id": "lane-unit:qnT:9036:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qnT.qanit.s1",
+        "qnT.qanut.s1",
+        "qnT.cm.qanit"
+      ],
+      "note": "Despairing participial and adjectival forms, including the intensive qanuṭ form."
+    }
+  ],
+  "cautions": [
+    "قَنُوط is tagged as a Quranic nominal by QAC but is lexically characterized here as an intensive adjectival form, distinct from the ordinary active participle قَانِط."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

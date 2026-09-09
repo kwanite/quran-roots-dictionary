@@ -1,0 +1,591 @@
+{
+  "root": "nfq",
+  "arabic": "نفق",
+  "root_idea": {
+    "summary": "The root centers on going out, passing away, or reaching an exit, alongside concealment and hidden passage.",
+    "development": "These orientations develop into meanings of expenditure as something that passes away, a subterranean passage with an outlet, and hypocrisy as concealed departure from what is outwardly professed.",
+    "source_refs": [
+      "maqayis:row:4715",
+      "mufradat:row:1472"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nfq:naAfaqu:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfq_nafaqa_III",
+      "reason": "Displayed under the normalized Form III perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:nfq:>anfaqa:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfq_anfaqa_IV",
+      "reason": "Displayed under the normalized Form IV perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:nfq:<infaAq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfq_infaq",
+      "reason": "Displayed as the verbal noun إِنْفَاق."
+    },
+    {
+      "form_group_id": "qac-form:nfq:muna`fiqa`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "nfq_munafiq",
+      "reason": "Feminine plural active participle; normalized under the singular citation form مُنَافِق."
+    },
+    {
+      "form_group_id": "qac-form:nfq:muna`fiquwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfq_munafiq",
+      "reason": "Masculine plural active participle; displayed under the normalized singular citation form مُنَافِق."
+    },
+    {
+      "form_group_id": "qac-form:nfq:munfiqiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfq_munfiq",
+      "reason": "Displayed under the normalized singular active-participle citation form مُنْفِق."
+    },
+    {
+      "form_group_id": "qac-form:nfq:nafaq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfq_nafaq",
+      "reason": "Displayed as the noun نَفَق."
+    },
+    {
+      "form_group_id": "qac-form:nfq:nafaqa`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "nfq_nafaqa",
+      "reason": "Plural noun; merged under the singular citation form نَفَقَة."
+    },
+    {
+      "form_group_id": "qac-form:nfq:nafaqap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfq_nafaqa",
+      "reason": "Displayed under the singular noun citation form نَفَقَة."
+    },
+    {
+      "form_group_id": "qac-form:nfq:nifaAq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nfq_nifaq",
+      "reason": "Displayed as the verbal noun نِفَاق."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nfq_nafaqa_III",
+      "form_group_ids": [
+        "qac-form:nfq:naAfaqu:verb:III"
+      ],
+      "headword_arabic": "نَافَقَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "nfq_nafaqa_III_s1",
+          "definition": "To act hypocritically: to profess adherence to Islam while concealing another religion or contrary belief.",
+          "usage_conditions": "In Quranic usage, the verb describes religious hypocrisy and concealed opposition behind an outward profession.",
+          "source_refs": [
+            "lane:entry:32347",
+            "mufradat:row:1472"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:167",
+          "word_location": "3:167:3",
+          "sense_ids": [
+            "nfq_nafaqa_III_s1"
+          ]
+        },
+        {
+          "verse_key": "59:11",
+          "word_location": "59:11:5",
+          "sense_ids": [
+            "nfq_nafaqa_III_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nfq_anfaqa_IV",
+      "form_group_ids": [
+        "qac-form:nfq:>anfaqa:verb:IV"
+      ],
+      "headword_arabic": "أَنْفَقَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 68,
+      "senses": [
+        {
+          "sense_id": "nfq_anfaqa_IV_s1",
+          "definition": "To expend or disburse wealth and other resources; to spend or give out, including gifts.",
+          "usage_conditions": "The Quranic verb is used for spending from what one possesses, whether in obligation, charity, support, or other expenditure; grammatical forms include commands, imperfects, and perfects.",
+          "source_refs": [
+            "lane:entry:32348",
+            "mufradat:row:1472"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:195",
+          "word_location": "2:195:1",
+          "sense_ids": [
+            "nfq_anfaqa_IV_s1"
+          ]
+        },
+        {
+          "verse_key": "2:254",
+          "word_location": "2:254:4",
+          "sense_ids": [
+            "nfq_anfaqa_IV_s1"
+          ]
+        },
+        {
+          "verse_key": "65:7",
+          "word_location": "65:7:10",
+          "sense_ids": [
+            "nfq_anfaqa_IV_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nfq_infaq",
+      "form_group_ids": [
+        "qac-form:nfq:<infaAq:nominal:-"
+      ],
+      "headword_arabic": "إِنْفَاق",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nfq_infaq_s1",
+          "definition": "Spending, expenditure, or disbursement of wealth and other resources.",
+          "usage_conditions": "The verbal noun denotes the act of expending; it may refer to obligatory or voluntary expenditure and is used with resources generally, especially wealth.",
+          "source_refs": [
+            "lane:entry:32348",
+            "mufradat:row:1472"
+          ]
+        },
+        {
+          "sense_id": "nfq_infaq_s2",
+          "definition": "Impoverishment through depletion of one's resources.",
+          "usage_conditions": "In the Quranic expression describing fear of الْإِنْفَاقِ, the noun is interpreted as impoverishment or being reduced to want, rather than merely an individual act of spending.",
+          "source_refs": [
+            "mufradat:row:1472"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:100",
+          "word_location": "17:100:11",
+          "sense_ids": [
+            "nfq_infaq_s1",
+            "nfq_infaq_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nfq_munafiq",
+      "form_group_ids": [
+        "qac-form:nfq:muna`fiqa`t:nominal:-",
+        "qac-form:nfq:muna`fiquwn:nominal:-"
+      ],
+      "headword_arabic": "مُنَافِق",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 32,
+      "senses": [
+        {
+          "sense_id": "nfq_munafiq_s1",
+          "definition": "A religious hypocrite: one who outwardly professes Islam while concealing another religion or contrary belief.",
+          "usage_conditions": "The public form is normalized to the singular active-participle citation form; the supplied Quran occurrences are masculine and feminine plural inflections.",
+          "source_refs": [
+            "lane:entry:32347",
+            "mufradat:row:1472"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "63:1",
+          "word_location": "63:1:3",
+          "sense_ids": [
+            "nfq_munafiq_s1"
+          ]
+        },
+        {
+          "verse_key": "33:73",
+          "word_location": "33:73:4",
+          "sense_ids": [
+            "nfq_munafiq_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nfq_munfiq",
+      "form_group_ids": [
+        "qac-form:nfq:munfiqiyn:nominal:-"
+      ],
+      "headword_arabic": "مُنْفِق",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nfq_munfiq_s1",
+          "definition": "One who spends or disburses wealth and other resources.",
+          "usage_conditions": "The supplied Quran occurrence is a plural inflection of the active participle; the citation form is normalized to the singular مُنْفِق.",
+          "source_refs": [
+            "lane:entry:32348",
+            "mufradat:row:1472"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:17",
+          "word_location": "3:17:4",
+          "sense_ids": [
+            "nfq_munfiq_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nfq_nafaq",
+      "form_group_ids": [
+        "qac-form:nfq:nafaq:nominal:-"
+      ],
+      "headword_arabic": "نَفَق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nfq_nafaq_s1",
+          "definition": "A subterranean passage or tunnel through the earth, with a way out.",
+          "usage_conditions": "The Quranic noun denotes a passable underground route or opening sought as an alternative way through the earth.",
+          "source_refs": [
+            "lane:entry:32350",
+            "mufradat:row:1472"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:35",
+          "word_location": "6:35:10",
+          "sense_ids": [
+            "nfq_nafaq_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nfq_nafaqa",
+      "form_group_ids": [
+        "qac-form:nfq:nafaqa`t:nominal:-",
+        "qac-form:nfq:nafaqap:nominal:-"
+      ],
+      "headword_arabic": "نَفَقَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "nfq_nafaqa_s1",
+          "definition": "An expenditure: something that is spent or disbursed.",
+          "usage_conditions": "The Quranic noun is used for an expenditure or contribution, including expenditure described as small or large and made in different circumstances; the displayed headword also covers the supplied plural form.",
+          "source_refs": [
+            "lane:entry:32351",
+            "mufradat:row:1472"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:270",
+          "word_location": "2:270:4",
+          "sense_ids": [
+            "nfq_nafaqa_s1"
+          ]
+        },
+        {
+          "verse_key": "9:54",
+          "word_location": "9:54:6",
+          "sense_ids": [
+            "nfq_nafaqa_s1"
+          ]
+        },
+        {
+          "verse_key": "9:121",
+          "word_location": "9:121:3",
+          "sense_ids": [
+            "nfq_nafaqa_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nfq_nifaq",
+      "form_group_ids": [
+        "qac-form:nfq:nifaAq:nominal:-"
+      ],
+      "headword_arabic": "نِفَاق",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "nfq_nifaq_s1",
+          "definition": "Religious hypocrisy: outwardly entering or professing a religion while concealing an opposing inward position.",
+          "usage_conditions": "The Quranic noun describes concealed departure from the professed religious commitment and is closely associated with the hypocrite as a person.",
+          "source_refs": [
+            "lane:entry:32347",
+            "mufradat:row:1472"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:77",
+          "word_location": "9:77:2",
+          "sense_ids": [
+            "nfq_nifaq_s1"
+          ]
+        },
+        {
+          "verse_key": "9:101",
+          "word_location": "9:101:11",
+          "sense_ids": [
+            "nfq_nifaq_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nfq_class_nufiq_market",
+      "headword_arabic": "نَفَقَ",
+      "definition": "To be brisk in trade; of goods, to be saleable or in demand; of a woman, to be sought in marriage by many.",
+      "usage_conditions": "Used of a market, commodity, or—by an extended conventional application—someone sought in marriage.",
+      "source_refs": [
+        "lane:entry:32346"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_nufaq_thing",
+      "headword_arabic": "نَفَقَ",
+      "definition": "Of a thing, to pass away or be used up; of an animal, to die.",
+      "usage_conditions": "The usage describes disappearance or cessation, including the death of an animal.",
+      "source_refs": [
+        "mufradat:row:1472"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_nafiqa_money",
+      "headword_arabic": "نَفِقَ",
+      "definition": "Of money, to pass away, be spent, come to an end, or become exhausted.",
+      "usage_conditions": "Used particularly of dirhams or other money that has been depleted.",
+      "source_refs": [
+        "lane:entry:32346",
+        "mufradat:row:1472"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_tanaffafa_distribution",
+      "headword_arabic": "تَنَفَّفَ",
+      "definition": "Of a slaughtered camel, to become divided out or distributed.",
+      "usage_conditions": "A rare derived-verb usage describing the apportioning of the slaughtered animal.",
+      "source_refs": [
+        "lane:entry:32349"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_tanaffaqa_wound",
+      "headword_arabic": "تَنَفَّقَ",
+      "definition": "Of a wound, to crack at its sides and form holes or cavities in the flesh.",
+      "usage_conditions": "A rare anatomical description using the image of holes or subterranean excavations.",
+      "source_refs": [
+        "lane:entry:32349"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_nafaq_burrow",
+      "headword_arabic": "نَفَق",
+      "definition": "A burrow, hole, or subterranean excavation, especially a hole made by a rat or mouse.",
+      "usage_conditions": "This includes underground cavities or habitations and is distinct from the Quranic use as a traversable passage with an outlet.",
+      "source_refs": [
+        "lane:entry:32350"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_nafaq_oil",
+      "headword_arabic": "نَفَق",
+      "definition": "Fresh olive oil.",
+      "usage_conditions": "A rare lexical use reported for the noun.",
+      "source_refs": [
+        "lane:entry:32350"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_nafaqa_household",
+      "headword_arabic": "نَفَقَة",
+      "definition": "The maintenance or support one expends for oneself and one's family or household.",
+      "usage_conditions": "A conventional domestic-use specialization of expenditure.",
+      "source_refs": [
+        "lane:entry:32351"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_nafiqa_interpersonal",
+      "headword_arabic": "نَافَقَ",
+      "definition": "To act hypocritically toward a person or in a relationship, including in matters of affection.",
+      "usage_conditions": "This interpersonal or relational construction is broader than the Quran-attested religious use of the Form III verb.",
+      "source_refs": [
+        "lane:entry:32347"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_nafaqa_jerboa",
+      "headword_arabic": "نَافَقَ",
+      "definition": "Of a jerboa, to use or emerge through its concealed side passage.",
+      "usage_conditions": "A zoological usage associated with the animal's hidden escape route.",
+      "source_refs": [
+        "mufradat:row:1472"
+      ]
+    },
+    {
+      "meaning_id": "nfq_class_nayfaq",
+      "headword_arabic": "نَيْفَق",
+      "definition": "The folded and sewn upper part of trousers through which the waistband or drawstring passes.",
+      "usage_conditions": "A clothing term; its etymological status is treated separately from the core root meanings.",
+      "source_refs": [
+        "lane:entry:32352"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nfq:32346:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_class_nufiq_market"
+      ],
+      "note": "Market becoming brisk or goods selling readily."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32346:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nfq_class_nufiq_market"
+      ],
+      "note": "Saleability and being in demand are covered by the market-demand meaning."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32346:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nfq_class_nufiq_market"
+      ],
+      "note": "The marriage-demand application is stated in the target usage."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32346:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_class_nafiqa_money"
+      ],
+      "note": "Money passing away or becoming exhausted."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32347:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_nafaqa_III_s1",
+        "nfq_class_nafiqa_interpersonal"
+      ],
+      "note": "Religious hypocrisy and interpersonal hypocritical conduct are both represented."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32348:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_anfaqa_IV_s1"
+      ],
+      "note": "Expenditure and dispensing gifts are covered by disbursement."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32349:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_class_tanaffafa_distribution"
+      ],
+      "note": "Distribution of a slaughtered camel."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32349:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference without an independent lexical statement."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32349:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_class_tanaffaqa_wound"
+      ],
+      "note": "Wound cracking and forming cavity-like holes."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32350:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32350:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_class_nafaq_burrow"
+      ],
+      "note": "Animal holes and subterranean excavations."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32350:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_class_nafaq_oil"
+      ],
+      "note": "Fresh olive oil."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32351:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_class_nafaqa_household"
+      ],
+      "note": "Expenditure for oneself and one's household."
+    },
+    {
+      "unit_id": "lane-unit:nfq:32352:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nfq_class_nayfaq"
+      ],
+      "note": "The trousers waistband opening."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

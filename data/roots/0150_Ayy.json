@@ -1,0 +1,634 @@
+{
+  "root": "Ayy",
+  "arabic": "أيي",
+  "root_idea": {
+    "summary": "The root's semantic field centers on attending to or recognizing something, especially through an apparent marker that makes something otherwise hidden knowable.",
+    "development": "The evidence also records related developments of pausing or awaiting, acting deliberately, and deliberately directing oneself toward a person or object. These root-level developments do not constitute meanings of every derived form.",
+    "source_refs": [
+      "maqayis:row:184",
+      "mufradat:row:65"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Ayy:'aAyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:aya",
+      "reason": "The sole QAC group is the Quran-attested nominal آيَة and its inflected forms; these are normalized under the singular dictionary citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:aya",
+      "form_group_ids": [
+        "qac-form:Ayy:'aAyap:nominal:-"
+      ],
+      "headword_arabic": "آيَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 382,
+      "senses": [
+        {
+          "sense_id": "aya-s1",
+          "definition": "An apparent sign, indication, evidence, or proof by which something otherwise not directly perceived is recognized.",
+          "usage_conditions": "Applies to sensible or intelligible signs and to a sign regarded as inseparable from what it reveals.",
+          "source_refs": [
+            "lane:entry:7576",
+            "mufradat:row:65"
+          ]
+        },
+        {
+          "sense_id": "aya-s2",
+          "definition": "A miraculous or wondrous sign, especially a divinely sent portent.",
+          "usage_conditions": "Used of extraordinary signs and wonders, including signs sent to peoples as admonition or warning.",
+          "source_refs": [
+            "lane:entry:7576",
+            "mufradat:row:65"
+          ]
+        },
+        {
+          "sense_id": "aya-s3",
+          "definition": "An instructive example or warning that serves as a lesson.",
+          "usage_conditions": "May refer to a narrated person, event, or divinely presented case insofar as it functions as an exemplary warning; this is distinct from the bounded verse sense.",
+          "source_refs": [
+            "lane:entry:7576",
+            "mufradat:row:65"
+          ]
+        },
+        {
+          "sense_id": "aya-s4",
+          "definition": "A verse or distinct bounded passage of Quranic revelation.",
+          "usage_conditions": "Refers to a connected portion of the Quran at which recitation or speech may properly break; the plural commonly denotes the revealed verses collectively.",
+          "source_refs": [
+            "lane:entry:7576",
+            "mufradat:row:65"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:12",
+          "word_location": "17:12:6",
+          "sense_ids": [
+            "aya-s1"
+          ]
+        },
+        {
+          "verse_key": "20:22",
+          "word_location": "20:22:10",
+          "sense_ids": [
+            "aya-s2"
+          ]
+        },
+        {
+          "verse_key": "12:7",
+          "word_location": "12:7:6",
+          "sense_ids": [
+            "aya-s3"
+          ]
+        },
+        {
+          "verse_key": "10:1",
+          "word_location": "10:1:3",
+          "sense_ids": [
+            "aya-s4"
+          ]
+        },
+        {
+          "verse_key": "24:1",
+          "word_location": "24:1:6",
+          "sense_ids": [
+            "aya-s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl-set-sign",
+      "headword_arabic": "أَيَّا",
+      "definition": "To put or set a sign, token, or mark by which a person or thing may be known.",
+      "usage_conditions": "A Form II verbal use.",
+      "source_refs": [
+        "lane:entry:7558"
+      ]
+    },
+    {
+      "meaning_id": "cl-chide-camels",
+      "headword_arabic": "أَيَّا",
+      "definition": "To chide or urge camels by calling to them with a repeated cry.",
+      "usage_conditions": "A specialized verbal use in addressing camels.",
+      "source_refs": [
+        "lane:entry:7558"
+      ]
+    },
+    {
+      "meaning_id": "cl-pause-wait",
+      "headword_arabic": "تَأَيَّا",
+      "definition": "To pause, stay, remain, tarry, or restrain oneself; also to wait for something and act deliberately or leisurely.",
+      "usage_conditions": "Includes remaining or confining oneself in a place and conducting oneself without haste.",
+      "source_refs": [
+        "lane:entry:7559"
+      ]
+    },
+    {
+      "meaning_id": "cl-direct-toward-person",
+      "headword_arabic": "تَآيَيْتُهُ",
+      "definition": "To direct one's course or aim toward a person's body, visible form, or person.",
+      "usage_conditions": "A transitive Form VI use; the object may be the person or the person's visible corporeal form.",
+      "source_refs": [
+        "lane:entry:7560"
+      ]
+    },
+    {
+      "meaning_id": "cl-ay-vocative",
+      "headword_arabic": "أَىْ",
+      "definition": "A vocative particle used to call or address someone.",
+      "usage_conditions": "Its use and range of address vary among authorities; it may occur before a personal name or expression of address.",
+      "source_refs": [
+        "lane:entry:7561",
+        "mufradat:row:66"
+      ]
+    },
+    {
+      "meaning_id": "cl-ay-explicative",
+      "headword_arabic": "أَىْ",
+      "definition": "An explicative particle meaning “that is,” “namely,” or “meaning.”",
+      "usage_conditions": "Introduces an explanation, clarification, or substitute for what precedes it.",
+      "source_refs": [
+        "lane:entry:7561",
+        "mufradat:row:66"
+      ]
+    },
+    {
+      "meaning_id": "cl-yes-reply",
+      "headword_arabic": "إِىْ",
+      "definition": "A reply particle meaning “yes,” “indeed,” or “yea,” affirming the truth of an assertion.",
+      "usage_conditions": "Commonly precedes an oath, especially in the formula إِىْ وَرَبِّي or إِىْ وَاللّٰهِ.",
+      "source_refs": [
+        "lane:entry:7562"
+      ]
+    },
+    {
+      "meaning_id": "cl-interrogative-ay",
+      "headword_arabic": "أَيٌّ",
+      "definition": "An interrogative determiner or pronoun meaning “which,” “who,” or “what.”",
+      "usage_conditions": "Selects a person or thing from a set and is used with intellectual beings as well as non-intellectual things.",
+      "source_refs": [
+        "lane:entry:7563",
+        "mufradat:row:65"
+      ]
+    },
+    {
+      "meaning_id": "cl-conditional-whichever",
+      "headword_arabic": "أَيٌّ",
+      "definition": "A conditional selector meaning “whichever,” “whatever,” or “any … that.”",
+      "usage_conditions": "Used of persons or things in conditional constructions, including expressions equivalent to “wherever.”",
+      "source_refs": [
+        "lane:entry:7563",
+        "mufradat:row:65"
+      ]
+    },
+    {
+      "meaning_id": "cl-relative-ay",
+      "headword_arabic": "أَيٌّ",
+      "definition": "A relative or conjunct noun meaning “the one who,” “the one which,” or “which of them.”",
+      "usage_conditions": "Requires a complement or following proposition and can function in constructions comparable to الَّذِي.",
+      "source_refs": [
+        "lane:entry:7563"
+      ]
+    },
+    {
+      "meaning_id": "cl-perfection-ay",
+      "headword_arabic": "أَيٌّ",
+      "definition": "An intensive epithet expressing perfection, completeness, or an exceptional degree of a quality.",
+      "usage_conditions": "Applied to a noun in expressions of admiration or wonder; this use is figurative.",
+      "source_refs": [
+        "lane:entry:7563"
+      ]
+    },
+    {
+      "meaning_id": "cl-ka-ayyin-many",
+      "headword_arabic": "كَأَيِّنْ",
+      "definition": "With ك prefixed, “how many” or “many a.”",
+      "usage_conditions": "The following noun commonly functions as a specification, often with مِنْ.",
+      "source_refs": [
+        "lane:entry:7563"
+      ]
+    },
+    {
+      "meaning_id": "cl-vocative-connector",
+      "headword_arabic": "أَيُّهَا",
+      "definition": "A connective used with يَا to address a noun made definite by ال, a demonstrative, or a relative expression.",
+      "usage_conditions": "Occurs in formulas such as يَا أَيُّهَا الرَّجُلُ and يَا أَيَّتُهَا الْمَرْأَةُ; the feminine form is أَيَّتُهَا.",
+      "source_refs": [
+        "lane:entry:7563"
+      ]
+    },
+    {
+      "meaning_id": "cl-sun-radiance",
+      "headword_arabic": "إِيَا الشَّمْسِ",
+      "definition": "The light, radiance, rays, or halo of the sun; by extension, the beauty and brightness of vegetation.",
+      "usage_conditions": "The vegetation use is figurative and concerns the brilliance of its verdure, growth, or blossoms.",
+      "source_refs": [
+        "lane:entry:7565"
+      ]
+    },
+    {
+      "meaning_id": "cl-district-origin",
+      "headword_arabic": "أَيِّىٌّ",
+      "definition": "A person belonging to a particular district, city, town, or region.",
+      "usage_conditions": "Used as a relational designation when asking or stating from what locality someone comes.",
+      "source_refs": [
+        "lane:entry:7573"
+      ]
+    },
+    {
+      "meaning_id": "cl-when-ayyan",
+      "headword_arabic": "أَيَّانَ",
+      "definition": "An interrogative adverb meaning “when?”",
+      "usage_conditions": "Concerns time rather than place and is used to ask about the time of an event.",
+      "source_refs": [
+        "lane:entry:7574"
+      ]
+    },
+    {
+      "meaning_id": "cl-signal-time-marker",
+      "headword_arabic": "آيَة",
+      "definition": "A signal or marker used to designate the time or occasion of an action.",
+      "usage_conditions": "In constructions such as بِآيَةِ كَذَا, it may govern or introduce a following verbal expression in the sense “at the sign or time of ….”",
+      "source_refs": [
+        "lane:entry:7576"
+      ]
+    },
+    {
+      "meaning_id": "cl-message-communication",
+      "headword_arabic": "آيَة",
+      "definition": "A message or communication sent from one person or party to another.",
+      "usage_conditions": "A Classical Arabic nominal use distinct from the sign, miracle, example, and Quranic-verse branches.",
+      "source_refs": [
+        "lane:entry:7576"
+      ]
+    },
+    {
+      "meaning_id": "cl-visible-person",
+      "headword_arabic": "آيَة",
+      "definition": "A person's visible body, form, figure, or person perceived from a distance.",
+      "usage_conditions": "Refers to the corporeal appearance or individual as seen, rather than to a sign that points beyond itself.",
+      "source_refs": [
+        "lane:entry:7576"
+      ]
+    },
+    {
+      "meaning_id": "cl-whole-company",
+      "headword_arabic": "آيَة",
+      "definition": "A whole company or group of people, with none left behind.",
+      "usage_conditions": "Occurs in the expression خَرَجَ القَوْمُ بِآيَتِهِمْ, “the people went forth with their whole company.”",
+      "source_refs": [
+        "lane:entry:7576"
+      ]
+    },
+    {
+      "meaning_id": "cl-aya-vocative",
+      "headword_arabic": "أَيَا",
+      "definition": "A vocative particle used to call or address someone.",
+      "usage_conditions": "A variant of the vocative forms أَيْ and أَ; it is not the nominal آيَة.",
+      "source_refs": [
+        "mufradat:row:66"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Ayy:7558:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-set-sign"
+      ],
+      "note": "Verb meaning: setting a sign."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7558:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-chide-camels"
+      ],
+      "note": "Specialized camel-urging use."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7559:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following Form VI entry."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7559:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-pause-wait"
+      ],
+      "note": "Pausing, remaining, restraint, and tarriance."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7559:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-pause-wait"
+      ],
+      "note": "Waiting and deliberate, unhurried action."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7560:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-direct-toward-person"
+      ],
+      "note": "Directing one's course toward a person's visible form."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7561:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ay-vocative"
+      ],
+      "note": "Vocative particle use."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7561:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ay-explicative"
+      ],
+      "note": "Explicative particle use."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7561:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other entries."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7562:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-yes-reply"
+      ],
+      "note": "Affirmative reply and oath-associated particle."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7563:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-interrogative-ay"
+      ],
+      "note": "Interrogative which/who/what use."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7563:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional and distributional introduction to later uses."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7563:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-conditional-whichever"
+      ],
+      "note": "Conditional whichever/whatever use."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7563:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-relative-ay"
+      ],
+      "note": "Relative or conjunct-noun use."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7563:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-perfection-ay"
+      ],
+      "note": "Intensive or admiring use."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7563:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ka-ayyin-many"
+      ],
+      "note": "كَأَيِّنْ expressing number or multitude."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7563:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-vocative-connector"
+      ],
+      "note": "Vocative connective construction."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7564:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7564:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the next paragraph."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7565:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-sun-radiance"
+      ],
+      "note": "Sunlight, rays, radiance, and halo."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7565:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-sun-radiance"
+      ],
+      "note": "Figurative brightness and beauty of vegetation."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7565:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7566:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7567:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7568:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7569:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive and cross-reference information."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7570:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive and cross-reference information."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7571:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7572:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer with tentative etymological speculation, not an independent secure meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7573:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-district-origin"
+      ],
+      "note": "Relational designation for locality of origin."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7574:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-when-ayyan"
+      ],
+      "note": "Interrogative adverb of time."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7575:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to أَىْ."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7575:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7575:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Orthographic and cross-reference information."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7576:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "aya-s1",
+        "cl-signal-time-marker"
+      ],
+      "note": "General sign meaning and its signal/time-marker construction."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7576:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "aya-s1"
+      ],
+      "note": "Indication, evidence, and proof are covered by the general sign sense."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7576:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "aya-s2"
+      ],
+      "note": "Miraculous and wondrous sign."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7576:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "aya-s3"
+      ],
+      "note": "Exemplary or warning use explicitly tied to Quranic material."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7576:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-message-communication"
+      ],
+      "note": "Message or communication meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7576:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-visible-person"
+      ],
+      "note": "Visible body, form, or person meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7576:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-whole-company"
+      ],
+      "note": "Whole-company meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7576:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "aya-s4"
+      ],
+      "note": "Quranic verse or bounded passage meaning."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7577:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another article."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7578:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Relational-adjective cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ayy:7579:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form V discussion."
+    }
+  ],
+  "cautions": [
+    "Lane matching uses a contracted/geminate root representation and therefore includes several homographic particles, derived verbs, and unrelated headwords; these have been kept separate by headword rather than assigned to آيَة.",
+    "Historical Quran citations appearing inside Lane's particle discussions are not converted into modern verse locations; the Quran examples shown here use only independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Lane entry 7572 contains a tentative derivation of إِيَّا from the Form VI verb in addition to a pointer; this speculative etymological proposal was not treated as an independently established meaning."
+  ]
+}

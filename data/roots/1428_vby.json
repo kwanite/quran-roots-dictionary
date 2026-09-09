@@ -1,0 +1,106 @@
+{
+  "root": "vby",
+  "arabic": "ثبي",
+  "root_idea": {
+    "summary": "The supplied root analysis centers on دوام: continuing or remaining attached to something.",
+    "development": "Classical usage develops this orientation into persistence, while also associating ثُبَة with a distinct company and with the center of a basin to which water returns. The relation of the basin term to this root is disputed; a derived ثَبَّى also denotes enumerative praise.",
+    "source_refs": [
+      "maqayis:row:996",
+      "mufradat:row:195"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:vby:vubaAt:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "vby-thubah",
+      "reason": "The Quranic plural ثُبَات is presented under its supported singular dictionary citation form ثُبَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "vby-thubah",
+      "form_group_ids": [
+        "qac-form:vby:vubaAt:nominal:-"
+      ],
+      "headword_arabic": "ثُبَة",
+      "public_pos_label": "Noun · group noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "vby-thubah-s1",
+          "definition": "A separate group or detachment.",
+          "usage_conditions": "In the Quran, ثُبَاتٍ is the plural of ثُبَة and describes going forth in separate groups, contrasted with going forth all together.",
+          "source_refs": [
+            "mufradat:row:195"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:71",
+          "word_location": "4:71:7",
+          "sense_ids": [
+            "vby-thubah-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "vby-thabba-persist",
+      "headword_arabic": "ثَبَّى",
+      "definition": "To persist in or continue doing something.",
+      "usage_conditions": "Used with على for persistence in an undertaking or activity.",
+      "source_refs": [
+        "maqayis:row:996"
+      ]
+    },
+    {
+      "meaning_id": "vby-thabba-praise",
+      "headword_arabic": "ثَبَّى",
+      "definition": "To praise a person during his lifetime by recounting the person’s merits separately or one by one.",
+      "usage_conditions": "A derived Classical Arabic use involving the enumeration of distinct merits.",
+      "source_refs": [
+        "maqayis:row:996",
+        "mufradat:row:195"
+      ]
+    },
+    {
+      "meaning_id": "vby-thubah-horsemen",
+      "headword_arabic": "ثُبَة",
+      "definition": "A company or band of horsemen.",
+      "usage_conditions": "A Classical specialization of the group noun; it is not asserted as a restriction on the Quranic use in 4:71.",
+      "source_refs": [
+        "maqayis:row:996"
+      ]
+    },
+    {
+      "meaning_id": "vby-thubah-basin",
+      "headword_arabic": "ثُبَة",
+      "definition": "The middle or central part of a basin, where the water returns.",
+      "usage_conditions": "The supplied Classical discussion treats this as a distinct lexical use but disputes its derivation: it may be connected with ثبي or with the ثاب/ثوب branch because of the omitted weak radical.",
+      "source_refs": [
+        "maqayis:row:996",
+        "mufradat:row:195"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:vby:27154:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit: “See ثبو”; it supplies no lexical definition or independently usable meaning."
+    }
+  ],
+  "cautions": [
+    "The relation of the basin term ثُبَة to the canonical root ثبي is explicitly disputed in the supplied evidence.",
+    "The supplied Lane primary material is pointer-only, so the lexical senses rely on the supplied Mufradat and Maqayis evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The basin-center meaning is lexically attested, but its root assignment is unresolved: one analysis connects it with ثبي, while another derives it through ثاب/ثوب."
+  ]
+}

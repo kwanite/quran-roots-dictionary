@@ -1,0 +1,934 @@
+{
+  "root": "*rw",
+  "arabic": "ذرو",
+  "root_idea": {
+    "summary": "The root is associated with two orientations: something elevated or overhanging, and something falling or being scattered apart.",
+    "development": "The scattering orientation extends to windborne dispersal, winnowing, and scattered remnants; the elevated orientation extends to tops, humps, and sheltering protection. These root-level developments do not apply as direct meanings to every derived form.",
+    "source_refs": [
+      "maqayis:row:1894",
+      "mufradat:row:504"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:*rw:ta*oruw:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:*rw:dhara",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:*rw:*arow:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:*rw:dharw",
+      "reason": "Displayed as the verbal noun ذَرْوٌ."
+    },
+    {
+      "form_group_id": "qac-form:*rw:*~a`riya`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:*rw:dhariya",
+      "reason": "The Quranic feminine plural active participle is normalized to the singular citation form ذَارِيَةٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf:*rw:dhara",
+      "form_group_ids": [
+        "qac-form:*rw:ta*oruw:verb:I"
+      ],
+      "headword_arabic": "ذَرَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:*rw:dhara:1",
+          "definition": "To scatter, disperse, raise, and carry away.",
+          "usage_conditions": "In the Quranic occurrence, the verb is an imperfect form with an object pronoun and describes material being dispersed, as by wind.",
+          "source_refs": [
+            "lane:entry:21492",
+            "mufradat:row:504"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:45",
+          "word_location": "18:45:16",
+          "sense_ids": [
+            "s:*rw:dhara:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:*rw:dharw",
+      "form_group_ids": [
+        "qac-form:*rw:*arow:nominal:-"
+      ],
+      "headword_arabic": "ذَرْوٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:*rw:dharw:1",
+          "definition": "Scattering or dispersing, especially the raising and carrying away of material by wind.",
+          "usage_conditions": "The Quranic form is a verbal noun used in an oath construction; it denotes the action of scattering rather than a separate concrete object.",
+          "source_refs": [
+            "lane:entry:21492",
+            "mufradat:row:504"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "51:1",
+          "word_location": "51:1:2",
+          "sense_ids": [
+            "s:*rw:dharw:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:*rw:dhariya",
+      "form_group_ids": [
+        "qac-form:*rw:*~a`riya`t:nominal:-"
+      ],
+      "headword_arabic": "ذَارِيَةٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:*rw:dhariya:1",
+          "definition": "One that scatters or disperses; scatterers.",
+          "usage_conditions": "The Quranic occurrence is the feminine plural ذَارِيَاتِ in an oath. It is understood literally as winds dispersing dust, and also figuratively in interpretations referring to prolific women who scatter offspring or to causes that disperse created beings.",
+          "source_refs": [
+            "lane:entry:21509",
+            "mufradat:row:504"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "51:1",
+          "word_location": "51:1:1",
+          "sense_ids": [
+            "s:*rw:dhariya:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:rapid_speech",
+      "headword_arabic": "ذَرَا",
+      "definition": "To carry on a report or narration rapidly and without interruption.",
+      "usage_conditions": "A figurative use comparing rapid speech with wind carrying away dry herbage.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:winnow",
+      "headword_arabic": "ذَرَا / ذَرَوْتُ",
+      "definition": "To winnow grain and clear it from straw; to make grain or a similar material fly away.",
+      "usage_conditions": "Used especially of wheat, grain, or heaps of grain undergoing separation from chaff.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:sow",
+      "headword_arabic": "ذَرَى",
+      "definition": "To scatter seed for sowing; to sow land by scattering seed.",
+      "usage_conditions": "The verb is used for throwing grain in the manner of sowing.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:create_variant",
+      "headword_arabic": "ذَرَا",
+      "definition": "To create, as a dialectal variant of ذَرَأَ.",
+      "usage_conditions": "A reported dialectal or variant usage, distinct from the ordinary scattering sense.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:break_without_separation",
+      "headword_arabic": "ذَرَا",
+      "definition": "To break a thing without separating it.",
+      "usage_conditions": "The same usage is illustrated with breaking a canine tooth.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:uproot_spear",
+      "headword_arabic": "ذَرَاهُ بِالرُّمْحِ",
+      "definition": "To displace or uproot a person or thing with a spear.",
+      "usage_conditions": "A transitive construction describing forcible displacement.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:fly_away",
+      "headword_arabic": "ذَرَا",
+      "definition": "To fly up and go away or become carried away.",
+      "usage_conditions": "Intransitive use, especially of dust or another light thing carried by wind.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:hasten",
+      "headword_arabic": "ذَرَا",
+      "definition": "To hasten in running or pass quickly; with إِلَى, to rise and betake oneself to someone.",
+      "usage_conditions": "The running sense is particularly reported of a gazelle, while the construction with إِلَى expresses going toward someone.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:fall",
+      "headword_arabic": "ذَرَا",
+      "definition": "To fall.",
+      "usage_conditions": "An intransitive usage reported independently of the wind-scattering sense.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:tooth_fall",
+      "headword_arabic": "ذَرَا نَابَهُ",
+      "definition": "For a canine tooth to break or fall out.",
+      "usage_conditions": "A bodily and specifically dental construction.",
+      "source_refs": [
+        "lane:entry:21492"
+      ]
+    },
+    {
+      "meaning_id": "cm:comb_head",
+      "headword_arabic": "ذَرَّى",
+      "definition": "To comb the head so as to remove scurf and similar matter.",
+      "usage_conditions": "A Form II usage compared with winnowing.",
+      "source_refs": [
+        "lane:entry:21493"
+      ]
+    },
+    {
+      "meaning_id": "cm:shear_wool",
+      "headword_arabic": "ذَرَّى",
+      "definition": "To shear the wool of a sheep or camel while leaving a recognizable portion unshorn.",
+      "usage_conditions": "The remaining patch is left between the shoulders or on the back for identification.",
+      "source_refs": [
+        "lane:entry:21493"
+      ]
+    },
+    {
+      "meaning_id": "cm:praise_exalt",
+      "headword_arabic": "ذَرَّى",
+      "definition": "To praise or exalt someone or something.",
+      "usage_conditions": "A figurative Form II usage, especially of elevating a person's status or one's own grounds for honour.",
+      "source_refs": [
+        "lane:entry:21493"
+      ]
+    },
+    {
+      "meaning_id": "cm:throw_down",
+      "headword_arabic": "أَذْرَى",
+      "definition": "To strike and throw down, or throw down from a mount; also to sever and make something fall.",
+      "usage_conditions": "The construction may describe a sword blow, a thrust that dislodges a rider, or striking an object down.",
+      "source_refs": [
+        "lane:entry:21494"
+      ]
+    },
+    {
+      "meaning_id": "cm:pour_tears",
+      "headword_arabic": "أَذْرَى",
+      "definition": "To pour forth or let fall tears.",
+      "usage_conditions": "Used with the eye or with tears as subject or object.",
+      "source_refs": [
+        "lane:entry:21494"
+      ]
+    },
+    {
+      "meaning_id": "cm:camel_hump_height",
+      "headword_arabic": "أَذْرَى",
+      "definition": "For a camel to become tall or long in its hump.",
+      "usage_conditions": "A Form IV usage specifically describing the camel's ذِرْوَة.",
+      "source_refs": [
+        "lane:entry:21494"
+      ]
+    },
+    {
+      "meaning_id": "cm:become_winnowed",
+      "headword_arabic": "تَذَرَّتِ الحِنْطَةُ",
+      "definition": "To become winnowed or cleared from straw.",
+      "usage_conditions": "An inchoative or passive-like use describing grain after the winnowing process.",
+      "source_refs": [
+        "lane:entry:21495"
+      ]
+    },
+    {
+      "meaning_id": "cm:seek_shelter",
+      "headword_arabic": "تَذَرَّى",
+      "definition": "To protect or shelter oneself by means of something; to seek refuge and come under someone's protection.",
+      "usage_conditions": "The object may be a wall, tree, other shelter, or a person who provides protection.",
+      "source_refs": [
+        "lane:entry:21495"
+      ]
+    },
+    {
+      "meaning_id": "cm:mount_hump",
+      "headword_arabic": "تَذَرَّى",
+      "definition": "To mount the hump or top of a camel.",
+      "usage_conditions": "Used with the hump or uppermost part as the place mounted.",
+      "source_refs": [
+        "lane:entry:21495"
+      ]
+    },
+    {
+      "meaning_id": "cm:marry_high",
+      "headword_arabic": "تَذَرَّى / ذِرْوَةٌ",
+      "definition": "To marry among the highest-ranking or noblest people.",
+      "usage_conditions": "A figurative construction based on the uppermost part or summit.",
+      "source_refs": [
+        "lane:entry:21495",
+        "lane:entry:21504"
+      ]
+    },
+    {
+      "meaning_id": "cm:mate",
+      "headword_arabic": "اِسْتَذْرَى",
+      "definition": "To seek mating or mount sexually.",
+      "usage_conditions": "Attested in animal-mating expressions; the related verbal noun is glossed as leaping upon a female.",
+      "source_refs": [
+        "lane:entry:21497"
+      ]
+    },
+    {
+      "meaning_id": "cm:millet",
+      "headword_arabic": "ذُرَةٌ",
+      "definition": "A species of grain, especially millet or sorghum.",
+      "usage_conditions": "Used as both a unit noun and a collective noun.",
+      "source_refs": [
+        "lane:entry:21498"
+      ]
+    },
+    {
+      "meaning_id": "cm:incomplete_speech",
+      "headword_arabic": "ذَرْوٌ",
+      "definition": "An incomplete portion or a little of a saying.",
+      "usage_conditions": "Used in the expression بَلَغَنِي عَنْهُ ذَرْوٌ مِنْ قَوْلٍ, “an incomplete portion of a saying reached me from him.”",
+      "source_refs": [
+        "lane:entry:21499"
+      ]
+    },
+    {
+      "meaning_id": "cm:offspring",
+      "headword_arabic": "ذَرْوٌ",
+      "definition": "Created beings, offspring, or the number of one's progeny.",
+      "usage_conditions": "A reported equivalent of ذَرْءٌ in expressions concerning increase of offspring; this is not assigned to the Quranic forms above.",
+      "source_refs": [
+        "lane:entry:21499"
+      ]
+    },
+    {
+      "meaning_id": "cm:fire_phrase",
+      "headword_arabic": "ذَرْوُ النَّارِ",
+      "definition": "In the expression ذَرْوُ النَّارِ, either the children of Hell or being scattered in the fire.",
+      "usage_conditions": "A reported variant wording with more than one transmitted interpretation.",
+      "source_refs": [
+        "lane:entry:21499"
+      ]
+    },
+    {
+      "meaning_id": "cm:bow_curve",
+      "headword_arabic": "ذَرْوٌ",
+      "definition": "The curved extremity of a bow.",
+      "usage_conditions": "A technical nominal sense.",
+      "source_refs": [
+        "lane:entry:21499"
+      ]
+    },
+    {
+      "meaning_id": "cm:windborne_matter",
+      "headword_arabic": "ذَرًى",
+      "definition": "Material raised, scattered, and carried away by wind, or material left by winnowing.",
+      "usage_conditions": "May refer to dust and similar matter or to what has been separated from grain.",
+      "source_refs": [
+        "lane:entry:21500"
+      ]
+    },
+    {
+      "meaning_id": "cm:poured_tears",
+      "headword_arabic": "ذَرًى",
+      "definition": "Tears poured forth.",
+      "usage_conditions": "A nominal use referring to what has been shed as tears.",
+      "source_refs": [
+        "lane:entry:21500"
+      ]
+    },
+    {
+      "meaning_id": "cm:shelter_protection",
+      "headword_arabic": "ذَرًى / ذَرِيٌّ",
+      "definition": "A shelter or protection, especially a warm shelter from cold wind; figuratively, the protection of a patron.",
+      "usage_conditions": "The shelter may be made of walls or trees, including a shelter prepared for camels; the warm-shelter form is also reported separately.",
+      "source_refs": [
+        "lane:entry:21500",
+        "lane:entry:21505"
+      ]
+    },
+    {
+      "meaning_id": "cm:courtyard",
+      "headword_arabic": "ذَرًى",
+      "definition": "The court or yard of a house.",
+      "usage_conditions": "A distinct nominal sense of the form ذَرًى.",
+      "source_refs": [
+        "lane:entry:21500"
+      ]
+    },
+    {
+      "meaning_id": "cm:generous_disposition",
+      "headword_arabic": "كَرِيمُ الذَّرَى",
+      "definition": "Generous in disposition.",
+      "usage_conditions": "A figurative expression based on the shelter or protective sense.",
+      "source_refs": [
+        "lane:entry:21500"
+      ]
+    },
+    {
+      "meaning_id": "cm:wealth",
+      "headword_arabic": "ذَرْوَةٌ",
+      "definition": "Much property or wealth.",
+      "usage_conditions": "Used in the expression ذُو ذَرْوَةٍ, “possessor of much property.”",
+      "source_refs": [
+        "lane:entry:21502"
+      ]
+    },
+    {
+      "meaning_id": "cm:uppermost_part",
+      "headword_arabic": "ذِرْوَةٌ / ذُرْوَةٌ",
+      "definition": "The uppermost part of a thing, especially a camel's hump or the head; also the hump itself.",
+      "usage_conditions": "The plural is ذُرًى. The term is also used figuratively for the highest rank or position.",
+      "source_refs": [
+        "lane:entry:21504"
+      ]
+    },
+    {
+      "meaning_id": "cm:camel_screen",
+      "headword_arabic": "ذَرِيَّةٌ",
+      "definition": "A she-camel used to conceal a hunter from the objects of the chase.",
+      "usage_conditions": "A rare reported usage; the more approved form is said to be دَرِيَّةٌ or دَرِيئَةٌ.",
+      "source_refs": [
+        "lane:entry:21506"
+      ]
+    },
+    {
+      "meaning_id": "cm:windblown_fragments",
+      "headword_arabic": "ذُرَاوَةٌ",
+      "definition": "Small particles or fragments of dried plant matter blown away by wind; also what falls from corn during winnowing or from a thing generally.",
+      "usage_conditions": "The sense emphasizes material broken into particles or separated and fallen away.",
+      "source_refs": [
+        "lane:entry:21507"
+      ]
+    },
+    {
+      "meaning_id": "cm:winnowing_tool",
+      "headword_arabic": "مِذْرًى",
+      "definition": "A wooden implement with prongs used to winnow wheat and clear grain from straw.",
+      "usage_conditions": "Variants distinguish the implement itself from the thing used to carry grain for winnowing.",
+      "source_refs": [
+        "lane:entry:21510"
+      ]
+    },
+    {
+      "meaning_id": "cm:buttock_extremities",
+      "headword_arabic": "مِذْرًى",
+      "definition": "The extremity or uppermost parts of the buttocks.",
+      "usage_conditions": "The dual form is used for the two sides; related proverbial expressions describe insolent or unsuccessful behavior.",
+      "source_refs": [
+        "lane:entry:21510"
+      ]
+    },
+    {
+      "meaning_id": "cm:head_sides",
+      "headword_arabic": "مِذْرًى",
+      "definition": "The two sides of the head or the temples.",
+      "usage_conditions": "A bodily anatomical sense, with مَذَارٍ reported for the temples.",
+      "source_refs": [
+        "lane:entry:21510"
+      ]
+    },
+    {
+      "meaning_id": "cm:bow_string_rests",
+      "headword_arabic": "مِذْرًى",
+      "definition": "The two places on a bow where the string lies, at the upper and lower portions.",
+      "usage_conditions": "A technical bow-making sense; the form may be treated as having no singular in this usage.",
+      "source_refs": [
+        "lane:entry:21510"
+      ]
+    },
+    {
+      "meaning_id": "cm:unshorn_wool_patch",
+      "headword_arabic": "مُذَرَّى",
+      "definition": "A sheep with a patch of wool left unshorn between the shoulders after the rest has been shorn.",
+      "usage_conditions": "The corresponding feminine form is مُذَرَّاةٌ.",
+      "source_refs": [
+        "lane:entry:21513"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:*rw:21492:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:*rw:dhara:1",
+        "s:*rw:dharw:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:rapid_speech"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:winnow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:sow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:create_variant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:break_without_separation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:uproot_spear"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fly_away"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:hasten"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fall"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21492:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:tooth_fall"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21493:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21493:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:comb_head"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21493:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:shear_wool"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21493:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:praise_exalt"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21494:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21494:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:throw_down",
+        "cm:pour_tears"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21494:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:camel_hump_height"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21495:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:become_winnowed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21495:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:seek_shelter"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21495:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mount_hump"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21495:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:marry_high"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21496:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21496:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21497:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21497:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mate"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21497:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mate"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21498:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:millet"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21499:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:incomplete_speech"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21499:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:offspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21499:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:fire_phrase"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21499:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:bow_curve"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21500:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:windborne_matter"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21500:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:poured_tears"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21500:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:shelter_protection"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21500:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:courtyard"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21500:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21501:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21501:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21502:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:wealth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21502:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21503:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21504:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:uppermost_part"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21504:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:marry_high"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21505:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21505:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:shelter_protection"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21506:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:camel_screen"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21507:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:windblown_fragments"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21507:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:windblown_fragments"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21508:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21509:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:*rw:dhariya:1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21510:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:winnowing_tool"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21510:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:buttock_extremities"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21510:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:head_sides"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21510:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:bow_string_rests"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:*rw:21511:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21512:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:*rw:21513:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:unshorn_wool_patch"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The Quranic interpretation of ذَارِيَاتِ includes literal and figurative readings; these are retained as interpretive applications of the scattering sense rather than separate lexical forms.",
+    "The Lane Quran citation for الذَّارِيَاتٌ uses historical citation notation; the modern location 51:1:1 is used here only because it is independently supplied by QAC.",
+    "Classical sources report variant relationships with ذَرَأَ and disputed or less-approved forms, including ذَرِيَّةٌ for the hunter's decoy camel and ذَرْوُ النَّارِ; these are kept as qualified Classical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

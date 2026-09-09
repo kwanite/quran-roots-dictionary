@@ -1,0 +1,159 @@
+{
+  "root": "Snm",
+  "arabic": "صنم",
+  "root_idea": {
+    "summary": "A made material object fashioned for worship, especially an idol or image.",
+    "development": "The concrete sense of a manufactured worshipped object is extended in Quran-focused interpretation to anything that diverts a person from God.",
+    "source_refs": [
+      "maqayis:row:2849",
+      "mufradat:row:852"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Snm:>aSonaAm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "snm-asnam",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "snm-asnam",
+      "form_group_ids": [
+        "qac-form:Snm:>aSonaAm:nominal:-"
+      ],
+      "headword_arabic": "صَنَم",
+      "public_pos_label": "Noun · Quranic plural أَصْنَام",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "snm-asnam-s1",
+          "definition": "A fabricated idol: a material object or image made from substances such as wood, stone, silver, copper, or other metal and worshipped.",
+          "usage_conditions": "The Quranic plural أَصْنَام refers to concrete objects of idolatrous worship. Classical descriptions differ over the precise material or form of an idol.",
+          "source_refs": [
+            "lane:entry:26710",
+            "mufradat:row:852"
+          ]
+        },
+        {
+          "sense_id": "snm-asnam-s2",
+          "definition": "Anything that diverts a person from God or occupies the person in place of devotion to Him.",
+          "usage_conditions": "An explicitly reported figurative interpretation of the idols in Abraham's prayer at 14:35; this extends the term beyond physical statues and does not replace the concrete idol sense in other passages.",
+          "source_refs": [
+            "mufradat:row:852"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:74",
+          "word_location": "6:74:7",
+          "sense_ids": [
+            "snm-asnam-s1"
+          ]
+        },
+        {
+          "verse_key": "14:35",
+          "word_location": "14:35:13",
+          "sense_ids": [
+            "snm-asnam-s2"
+          ]
+        },
+        {
+          "verse_key": "21:57",
+          "word_location": "21:57:3",
+          "sense_ids": [
+            "snm-asnam-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "snm-classical-form2",
+      "headword_arabic": "صَنَّمَ",
+      "definition": "To form, fashion, figure, shape, sculpt, or picture.",
+      "usage_conditions": "Form II verb; its verbal noun is تَصْنِيمٌ.",
+      "source_refs": [
+        "lane:entry:26709"
+      ]
+    },
+    {
+      "meaning_id": "snm-classical-calamity",
+      "headword_arabic": "صَنَمَةٌ",
+      "definition": "A calamity.",
+      "usage_conditions": "A reported variant of صَلَمَةٌ.",
+      "source_refs": [
+        "lane:entry:26711"
+      ]
+    },
+    {
+      "meaning_id": "snm-classical-dial",
+      "headword_arabic": "صَنَمَةٌ",
+      "definition": "A dial.",
+      "usage_conditions": "A reported variant of صَلَمَةٌ.",
+      "source_refs": [
+        "lane:entry:26711"
+      ]
+    },
+    {
+      "meaning_id": "snm-classical-feather-quill",
+      "headword_arabic": "صَنَمَةٌ",
+      "definition": "The quill or shaft of a feather.",
+      "usage_conditions": "Applied to the shaft of any feather.",
+      "source_refs": [
+        "lane:entry:26711"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Snm:26709:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "snm-classical-form2"
+      ],
+      "note": "Form II meaning of fashioning or shaping."
+    },
+    {
+      "unit_id": "lane-unit:Snm:26710:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "snm-asnam-s1",
+        "snm-asnam-s2"
+      ],
+      "note": "Concrete idol meaning and the reported Quran-focused extension to what diverts from God."
+    },
+    {
+      "unit_id": "lane-unit:Snm:26711:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:Snm:26711:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "snm-classical-calamity",
+        "snm-classical-dial"
+      ],
+      "note": "Two independent meanings reported for صَنَمَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Snm:26711:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "snm-classical-feather-quill"
+      ],
+      "note": "Meaning of the feather quill or shaft."
+    }
+  ],
+  "cautions": [
+    "Classical authorities give differing criteria for distinguishing صَنَمٌ from وَثَنٌ, including material, shape, and corporeality; the concrete idol sense states their shared lexical core.",
+    "Lane's historical Quran citation in the idol entry is not used as a modern verse location; the example at 14:35 is located independently by QAC and the Quran-focused evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

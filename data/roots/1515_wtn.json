@@ -1,0 +1,96 @@
+{
+  "root": "wtn",
+  "arabic": "وتن",
+  "root_idea": {
+    "summary": "A semantic orientation of steadfast attachment, abiding connection, and persistence.",
+    "development": "The attached or abiding relation is concretized in وَتِين as a vital vessel closely associated with the heart. A related derived usage extends the image to close approach or proximity.",
+    "source_refs": [
+      "maqayis:row:5021",
+      "mufradat:row:1550"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wtn:watiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-wtn-watin",
+      "reason": "Displayed as the normalized singular nominal citation form وَتِين."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-wtn-watin",
+      "form_group_ids": [
+        "qac-form:wtn:watiyn:nominal:-"
+      ],
+      "headword_arabic": "وَتِين",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform-wtn-watin-s1",
+          "definition": "A vital great artery or vein associated with the heart and supplying the liver and other tissues; it is described variously as the aorta, a vessel along the backbone, or the heart’s khilb, that is, its niyāṭ. Severing it is fatal.",
+          "usage_conditions": "In Quranic use, it occurs in the definite expression الْوَتِينَ in 69:46, where cutting it is presented as a fatal act. Classical anatomical descriptions vary in their identification of the precise vessel.",
+          "source_refs": [
+            "lane:entry:30357",
+            "mufradat:row:1550"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "69:46",
+          "word_location": "69:46:4",
+          "sense_ids": [
+            "qform-wtn-watin-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-wtn-mawtun",
+      "headword_arabic": "المَوْتُونُ",
+      "definition": "One whose watin has been severed.",
+      "usage_conditions": "A derived designation formed from the anatomical noun.",
+      "source_refs": [
+        "mufradat:row:1550"
+      ]
+    },
+    {
+      "meaning_id": "cm-wtn-muwatana",
+      "headword_arabic": "المُوَاتَنَةُ",
+      "definition": "Close approach or drawing near to someone, likened to the close attachment of the watin.",
+      "usage_conditions": "A derived conventional usage expressing proximity rather than the anatomical vessel itself.",
+      "source_refs": [
+        "mufradat:row:1550"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wtn:30357:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-wtn-watin-s1"
+      ],
+      "note": "Its anatomical descriptions and fatal-severing association are covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:wtn:30357:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform-wtn-watin-s1"
+      ],
+      "note": "The alternative identification with the khilb or heart’s niyāṭ is covered within the same anatomical sense."
+    }
+  ],
+  "cautions": [
+    "Classical anatomical descriptions differ on whether the watin is identified specifically as the aorta, another major vein or artery, or a vessel associated with the heart and backbone."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The final Mufradat clause records a camel-related form as اسْتَوْطَنَ, whose ط formally indicates the separate root و-ط-ن rather than canonical و-ت-ن; its meaning is therefore not assigned to this root."
+  ]
+}

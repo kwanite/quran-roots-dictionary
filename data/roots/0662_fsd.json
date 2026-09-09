@@ -1,0 +1,466 @@
+{
+  "root": "fsd",
+  "arabic": "فسد",
+  "root_idea": {
+    "summary": "The root centers on departure from proper balance, soundness, or order, opposed to ṣalāḥ; it extends to corruption, disorder, damage, and ruin.",
+    "development": "The intransitive Form I denotes becoming unsound or coming to nought, while Form IV causatively denotes making something corrupt or ruined. The related nouns name corruption and its agent or cause.",
+    "source_refs": [
+      "maqayis:row:3582",
+      "mufradat:row:1113"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fsd:fasadati:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fsd-v1",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:fsd:>afosadu:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fsd-v4",
+      "reason": "Displayed under the normalized Form IV perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:fsd:fasaAd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fsd-fasad",
+      "reason": "Displayed as the ordinary verbal noun فساد."
+    },
+    {
+      "form_group_id": "qac-form:fsd:mufosid:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fsd-mufsid",
+      "reason": "Displayed under the singular active-participle citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "fsd-v1",
+      "form_group_ids": [
+        "qac-form:fsd:fasadati:verb:I"
+      ],
+      "headword_arabic": "فَسَدَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "fsd-v1-s1",
+          "definition": "To become bad, corrupt, unsound, or otherwise disordered.",
+          "usage_conditions": "An intransitive use describing a thing or state as departing from soundness or proper order.",
+          "source_refs": [
+            "lane:entry:34154",
+            "mufradat:row:1113"
+          ]
+        },
+        {
+          "sense_id": "fsd-v1-s2",
+          "definition": "To become null or void, come to nought, or perish.",
+          "usage_conditions": "A resultative use in which something loses force or fails to endure; this explains the Quranic use concerning the heavens and earth.",
+          "source_refs": [
+            "lane:entry:34154",
+            "mufradat:row:1113"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "23:71",
+          "word_location": "23:71:5",
+          "sense_ids": [
+            "fsd-v1-s1"
+          ]
+        },
+        {
+          "verse_key": "21:22",
+          "word_location": "21:22:7",
+          "sense_ids": [
+            "fsd-v1-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fsd-v4",
+      "form_group_ids": [
+        "qac-form:fsd:>afosadu:verb:IV"
+      ],
+      "headword_arabic": "أَفْسَدَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 15,
+      "senses": [
+        {
+          "sense_id": "fsd-v4-s1",
+          "definition": "To make or render bad, corrupt, disordered, spoiled, or ruined; to cause or spread corruption.",
+          "usage_conditions": "A causative transitive use, with the object sometimes explicit and sometimes understood; Quranic contexts include corrupting in the land, damaging a settlement, and causing disorder or mischief.",
+          "source_refs": [
+            "lane:entry:34157",
+            "mufradat:row:1113"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:205",
+          "word_location": "2:205:6",
+          "sense_ids": [
+            "fsd-v4-s1"
+          ]
+        },
+        {
+          "verse_key": "27:34",
+          "word_location": "27:34:7",
+          "sense_ids": [
+            "fsd-v4-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fsd-fasad",
+      "form_group_ids": [
+        "qac-form:fsd:fasaAd:nominal:-"
+      ],
+      "headword_arabic": "فَسَاد",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "fsd-fasad-s1",
+          "definition": "Corruption; a state of departure from proper balance, soundness, or order.",
+          "usage_conditions": "An abstract noun for corrupt condition, disorder, damage, or ruin, opposed to صلاح.",
+          "source_refs": [
+            "lane:entry:34161",
+            "mufradat:row:1113"
+          ]
+        },
+        {
+          "sense_id": "fsd-fasad-s2",
+          "definition": "Drought, barrenness, dearth, or scarcity of good.",
+          "usage_conditions": "A Quranic interpretation of فساد in the expression concerning its appearance in the land and sea; this is a contextual specialization rather than the general meaning of the noun.",
+          "source_refs": [
+            "lane:entry:34161"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:77",
+          "word_location": "28:77:19",
+          "sense_ids": [
+            "fsd-fasad-s1"
+          ]
+        },
+        {
+          "verse_key": "30:41",
+          "word_location": "30:41:2",
+          "sense_ids": [
+            "fsd-fasad-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fsd-mufsid",
+      "form_group_ids": [
+        "qac-form:fsd:mufosid:nominal:-"
+      ],
+      "headword_arabic": "مُفْسِد",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 21,
+      "senses": [
+        {
+          "sense_id": "fsd-mufsid-s1",
+          "definition": "One who causes or spreads corruption; a corrupter.",
+          "usage_conditions": "The active participle of أفسد, used substantivally in the Quran for persons or groups characterized by such conduct.",
+          "source_refs": [
+            "mufradat:row:1113"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:12",
+          "word_location": "2:12:4",
+          "sense_ids": [
+            "fsd-mufsid-s1"
+          ]
+        },
+        {
+          "verse_key": "11:85",
+          "word_location": "11:85:14",
+          "sense_ids": [
+            "fsd-mufsid-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "fsd-fasada-action",
+      "headword_arabic": "فَسَاد",
+      "definition": "Corrupt conduct, wrongdoing, or mischief; creating disorder, discord, strife, or quarrelling, especially wrongful taking of property.",
+      "usage_conditions": "A broader Classical use of the verbal noun, including the conventional expression of acting corruptly or doing harm.",
+      "source_refs": [
+        "lane:entry:34161"
+      ]
+    },
+    {
+      "meaning_id": "fsd-fasada-nursing",
+      "headword_arabic": "أَفْسَدَ",
+      "definition": "To injure a nursing child by causing the mother's pregnancy during lactation and thereby vitiating her milk.",
+      "usage_conditions": "A specialized lexical use associated with the harm caused to the child through this circumstance.",
+      "source_refs": [
+        "lane:entry:34157"
+      ]
+    },
+    {
+      "meaning_id": "fsd-fasada-III",
+      "headword_arabic": "فَاسَدَ",
+      "definition": "To become at variance with another and cut, sever, or break the tie of friendship or kinship.",
+      "usage_conditions": "A reciprocal or relational use concerning a tie between people.",
+      "source_refs": [
+        "lane:entry:34156"
+      ]
+    },
+    {
+      "meaning_id": "fsd-tafasada",
+      "headword_arabic": "تَفَاسَدَ",
+      "definition": "To become mutually at variance and sever ties of kinship or friendship with one another.",
+      "usage_conditions": "A reciprocal plural construction.",
+      "source_refs": [
+        "lane:entry:34158"
+      ]
+    },
+    {
+      "meaning_id": "fsd-istafsada-regard",
+      "headword_arabic": "اِسْتَفْسَدَ",
+      "definition": "To regard or esteem a thing or person as bad, corrupt, unsound, or otherwise defective.",
+      "usage_conditions": "A Form X evaluative use, opposed to regarding something as صالح or sound.",
+      "source_refs": [
+        "lane:entry:34160"
+      ]
+    },
+    {
+      "meaning_id": "fsd-istafsada-render",
+      "headword_arabic": "اِسْتَفْسَدَ",
+      "definition": "To wish or seek for something to become corrupt, or to seek to render it corrupt; to treat someone so as to make that person disaffected or rebellious.",
+      "usage_conditions": "The sought-after result may concern a thing, person, subject, or subordinate relationship.",
+      "source_refs": [
+        "lane:entry:34160"
+      ]
+    },
+    {
+      "meaning_id": "fsd-istafsada-act",
+      "headword_arabic": "اِسْتَفْسَدَ",
+      "definition": "To seek to act corruptly or to seek discord and dissension.",
+      "usage_conditions": "A volitional Form X use describing pursuit of corrupt conduct or conflict.",
+      "source_refs": [
+        "lane:entry:34160"
+      ]
+    },
+    {
+      "meaning_id": "fsd-istafsada-event",
+      "headword_arabic": "اِسْتَفْسَدَ",
+      "definition": "Of an event, to happen in a bad or evil manner.",
+      "usage_conditions": "Used of the manner in which an event unfolds rather than of an agent causing corruption.",
+      "source_refs": [
+        "lane:entry:34160"
+      ]
+    },
+    {
+      "meaning_id": "fsd-fasid",
+      "headword_arabic": "فَاسِد",
+      "definition": "Bad, corrupt, unsound, wrong, improper, unrighteous, wicked, depraved, or dishonest; devoid of virtue or efficacy.",
+      "usage_conditions": "An adjective and active participle of Form I, distinct from the Form IV active participle مُفْسِد.",
+      "source_refs": [
+        "lane:entry:34163"
+      ]
+    },
+    {
+      "meaning_id": "fsd-afsad-comparative",
+      "headword_arabic": "أَفْسَد",
+      "definition": "More corrupt, unsound, or defective; anomalously, more corrupting or damaging.",
+      "usage_conditions": "A comparative or superlative adjective, with an additional anomalous use derived from إفساد.",
+      "source_refs": [
+        "lane:entry:34164"
+      ]
+    },
+    {
+      "meaning_id": "fsd-mafsada",
+      "headword_arabic": "مَفْسَدَة",
+      "definition": "A cause, means, or occasion of corruption or evil.",
+      "usage_conditions": "Opposed to مصلحة, a cause or means of benefit.",
+      "source_refs": [
+        "lane:entry:34165"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fsd:34154:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-v1-s1",
+        "fsd-v1-s2"
+      ],
+      "note": "The unit contains both becoming corrupt and becoming null or perishing."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34155:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to Form IV."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34156:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-fasada-III"
+      ],
+      "note": "Relational Form III meaning."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34157:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-v4-s1",
+        "fsd-fasada-nursing"
+      ],
+      "note": "General causative use and specialized nursing-related use are both represented."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34158:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-tafasada"
+      ],
+      "note": "Mutual severing of kinship or friendship ties."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34159:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Reports an unattested or impermissible quasi-passive form rather than an established lexical use."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34160:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-istafsada-regard"
+      ],
+      "note": "Evaluative Form X use is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34160:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-istafsada-render"
+      ],
+      "note": "Desiring something to become corrupt."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34160:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-istafsada-render"
+      ],
+      "note": "Seeking to render something corrupt."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34160:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-istafsada-render"
+      ],
+      "note": "Treating someone so as to cause disaffection or rebellion."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34160:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-istafsada-act"
+      ],
+      "note": "Seeking to act corruptly."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34160:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-istafsada-act"
+      ],
+      "note": "Seeking discord or dissension."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34160:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-istafsada-event"
+      ],
+      "note": "Bad manner of an event's occurrence."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34160:g1:sub8",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference back to Form I."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34161:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-fasad-s1",
+        "fsd-fasada-action"
+      ],
+      "note": "The unit contains the state meaning and the broader conduct or wrongful-taking use."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34161:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-fasad-s2"
+      ],
+      "note": "Quran-attested drought or barrenness interpretation."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34162:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following adjective entry."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34163:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-fasid"
+      ],
+      "note": "Independent adjective meaning."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34164:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-afsad-comparative"
+      ],
+      "note": "Comparative and anomalous corrupting sense."
+    },
+    {
+      "unit_id": "lane-unit:fsd:34165:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsd-mafsada"
+      ],
+      "note": "Cause or occasion of corruption."
+    }
+  ],
+  "cautions": [
+    "The historical Lane citation for the drought or barrenness interpretation is not converted directly into a modern verse reference; 30:41 is used because QAC independently supplies that occurrence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

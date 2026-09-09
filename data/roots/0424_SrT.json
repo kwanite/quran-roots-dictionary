@@ -1,0 +1,125 @@
+{
+  "root": "SrT",
+  "arabic": "صرط",
+  "root_idea": {
+    "summary": "The root is oriented toward the notion of a road or way, especially a directed course.",
+    "development": "The supplied root discussion treats صرط as an ibdāl variant associated with the semantic field of the road or path. In Quranic usage, this develops into the straight path of divine guidance.",
+    "source_refs": [
+      "maqayis:row:2783",
+      "mufradat:row:827"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:SrT:Sira`T:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-SrT-sirat",
+      "reason": "A distinct Quran-attested nominal lexical item, normalized from the QAC lemma to the citation form صِرَاط."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-SrT-sirat",
+      "form_group_ids": [
+        "qac-form:SrT:Sira`T:nominal:-"
+      ],
+      "headword_arabic": "صِرَاط",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 45,
+      "senses": [
+        {
+          "sense_id": "qfsense-SrT-sirat-1",
+          "definition": "A path or way; in Quranic religious usage, the straight path of divine guidance.",
+          "usage_conditions": "Denotes a directed course or way, including the path attributed to God and prescribed for following. The Quran-focused lexical explanation explicitly characterizes it as straight.",
+          "source_refs": [
+            "lane:entry:25818",
+            "mufradat:row:827"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "1:6",
+          "word_location": "1:6:2",
+          "sense_ids": [
+            "qfsense-SrT-sirat-1"
+          ]
+        },
+        {
+          "verse_key": "6:153",
+          "word_location": "6:153:3",
+          "sense_ids": [
+            "qfsense-SrT-sirat-1"
+          ]
+        },
+        {
+          "verse_key": "36:61",
+          "word_location": "36:61:4",
+          "sense_ids": [
+            "qfsense-SrT-sirat-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-SrT-surat-sword",
+      "headword_arabic": "صُرَاط",
+      "definition": "A long sword.",
+      "usage_conditions": "Recorded under the vocalized form صُرَاطٌ as a variant of سُرَاطٌ; this is distinct from صِرَاط ‘path’.",
+      "source_refs": [
+        "lane:entry:25817"
+      ]
+    },
+    {
+      "meaning_id": "cm-SrT-sirat-hell-bridge",
+      "headword_arabic": "صِرَاط",
+      "definition": "An eschatological bridge extended over Hell.",
+      "usage_conditions": "A specialized theological usage, described as sharper than a sword and thinner than a hair, and distinct from the ordinary meaning ‘path’ or ‘way’.",
+      "source_refs": [
+        "lane:entry:25818"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:SrT:25817:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SrT-surat-sword"
+      ],
+      "note": "The unit explicitly defines the distinct sword usage."
+    },
+    {
+      "unit_id": "lane-unit:SrT:25818:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfsense-SrT-sirat-1"
+      ],
+      "note": "The unit defines the path or way sense."
+    },
+    {
+      "unit_id": "lane-unit:SrT:25818:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-SrT-sirat-hell-bridge"
+      ],
+      "note": "The unit defines the specialized bridge-over-Hell usage."
+    },
+    {
+      "unit_id": "lane-unit:SrT:25819:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَسْرَطٌ; no independent lexical definition is supplied."
+    }
+  ],
+  "cautions": [
+    "Classical lexica record سِرَاطٌ and زِرَاطٌ as variants associated with the path word; the Quranic form here is صِرَاط.",
+    "The same written form صِرَاط is also recorded for the specialized eschatological bridge sense, which is kept separate from the Quranic path/way sense."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Lane entry 25817 includes the additional opaque gloss “a dial” alongside “a long sword”; it cannot be confidently assigned as a separate lexical meaning from the supplied evidence."
+  ]
+}

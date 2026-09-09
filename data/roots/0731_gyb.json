@@ -1,0 +1,809 @@
+{
+  "root": "gyb",
+  "arabic": "غيب",
+  "root_idea": {
+    "summary": "The root centers on something being concealed from sight or otherwise absent from perception.",
+    "development": "From concealment and absence, the root develops meanings for the unseen and unknown, departure and hidden places, concealment, and speech about someone in their absence.",
+    "source_refs": [
+      "maqayis:row:3483",
+      "mufradat:row:1078"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:gyb:yagotab:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:gyb:ightaba",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gyb:gaA^}ibap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:gyb:ghaib",
+      "reason": "The Quran occurrence is a feminine inflected active participle; it is presented under the singular citation form غائب."
+    },
+    {
+      "form_group_id": "qac-form:gyb:gaA^}ibiyn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:gyb:ghaib",
+      "reason": "The Quran occurrence is a plural active participle; it is presented under the singular citation form غائب."
+    },
+    {
+      "form_group_id": "qac-form:gyb:gaya`bat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:gyb:ghiyaba",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gyb:gayob:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:gyb:ghayb",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gyb:guyuwb:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:gyb:ghayb",
+      "reason": "غُيُوب is the supplied plural of غَيْب and is presented under the singular noun citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:gyb:ightaba",
+      "form_group_ids": [
+        "qac-form:gyb:yagotab:verb:VIII"
+      ],
+      "headword_arabic": "اغْتَابَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsense:gyb:ightaba:1",
+          "definition": "To speak of a person in their absence in a way that would distress them, especially by mentioning a real fault.",
+          "usage_conditions": "The Quranic usage is the conventional sense of backbiting. A false attribution is distinguished in the lexical tradition as buhtān.",
+          "source_refs": [
+            "lane:entry:30200",
+            "mufradat:row:1078"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "49:12",
+          "word_location": "49:12:15",
+          "sense_ids": [
+            "qsense:gyb:ightaba:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:gyb:ghaib",
+      "form_group_ids": [
+        "qac-form:gyb:gaA^}ibap:nominal:-",
+        "qac-form:gyb:gaA^}ibiyn:nominal:-"
+      ],
+      "headword_arabic": "غَائِبٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qsense:gyb:ghaib:1",
+          "definition": "Absent, not present, or hidden and unapparent.",
+          "usage_conditions": "Used as an active participle for people or things; the feminine form غائبة in 27:75 refers to something hidden or absent from human perception.",
+          "source_refs": [
+            "lane:entry:30211",
+            "mufradat:row:1078"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:7",
+          "word_location": "7:7:6",
+          "sense_ids": [
+            "qsense:gyb:ghaib:1"
+          ]
+        },
+        {
+          "verse_key": "27:75",
+          "word_location": "27:75:3",
+          "sense_ids": [
+            "qsense:gyb:ghaib:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:gyb:ghiyaba",
+      "form_group_ids": [
+        "qac-form:gyb:gaya`bat:nominal:-"
+      ],
+      "headword_arabic": "غَيَابَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsense:gyb:ghiyaba:1",
+          "definition": "A concealed hollow or depressed place, especially the hidden bottom of a well.",
+          "usage_conditions": "In the Quranic construction غَيَابَةُ الْجُبِّ, it denotes the concealed bottom or interior of the well; the word can also denote a depressed place or hollow more generally.",
+          "source_refs": [
+            "lane:entry:30210",
+            "mufradat:row:1078"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:10",
+          "word_location": "12:10:9",
+          "sense_ids": [
+            "qsense:gyb:ghiyaba:1"
+          ]
+        },
+        {
+          "verse_key": "12:15",
+          "word_location": "12:15:8",
+          "sense_ids": [
+            "qsense:gyb:ghiyaba:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:gyb:ghayb",
+      "form_group_ids": [
+        "qac-form:gyb:gayob:nominal:-",
+        "qac-form:gyb:guyuwb:nominal:-"
+      ],
+      "headword_arabic": "غَيْبٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 53,
+      "senses": [
+        {
+          "sense_id": "qsense:gyb:ghayb:1",
+          "definition": "What is absent from human perception or knowledge; the unseen and hidden realm or matters.",
+          "usage_conditions": "The term is relative to human beings, not to God, and can include matters known through divine revelation, such as future events and the realities of resurrection, Paradise, and Hell. The plural غُيُوب refers to multiple unseen matters.",
+          "source_refs": [
+            "lane:entry:30202",
+            "mufradat:row:1078"
+          ]
+        },
+        {
+          "sense_id": "qsense:gyb:ghayb:2",
+          "definition": "Absence from an observer, or concealment from people; hence conduct or action carried out in another’s absence or secretly.",
+          "usage_conditions": "In constructions such as بِالْغَيْبِ and لِلْغَيْبِ, the context may emphasize being unseen by others or acting in a person’s absence rather than the unseen realm as such.",
+          "source_refs": [
+            "lane:entry:30202",
+            "mufradat:row:1078"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:3",
+          "word_location": "2:3:3",
+          "sense_ids": [
+            "qsense:gyb:ghayb:1"
+          ]
+        },
+        {
+          "verse_key": "4:34",
+          "word_location": "4:34:18",
+          "sense_ids": [
+            "qsense:gyb:ghayb:2"
+          ]
+        },
+        {
+          "verse_key": "12:52",
+          "word_location": "12:52:6",
+          "sense_ids": [
+            "qsense:gyb:ghayb:2"
+          ]
+        },
+        {
+          "verse_key": "34:48",
+          "word_location": "34:48:7",
+          "sense_ids": [
+            "qsense:gyb:ghayb:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:ghab:absence",
+      "headword_arabic": "غَابَ",
+      "definition": "To be absent, distant, remote, or hidden; to depart or go away.",
+      "usage_conditions": "Used with عَنْ for being absent or concealed from someone, and also of a thing being hidden within another thing.",
+      "source_refs": [
+        "lane:entry:30194"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghab:mind-absorption",
+      "headword_arabic": "غَابَ",
+      "definition": "To become absent-minded or withdrawn from ordinary awareness.",
+      "usage_conditions": "A figurative use for the mind being wholly occupied, especially by contemplation of divine matters.",
+      "source_refs": [
+        "lane:entry:30194"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghab:stranger",
+      "headword_arabic": "غَابَ",
+      "definition": "To be unacquainted with or unfamiliar with something; not to be a stranger to it.",
+      "usage_conditions": "An idiomatic, figurative use attested in traditional expression.",
+      "source_refs": [
+        "lane:entry:30194"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghab:set",
+      "headword_arabic": "غَابَ",
+      "definition": "To set, of the sun, moon, or another celestial body.",
+      "usage_conditions": "Used of a celestial body disappearing below the horizon.",
+      "source_refs": [
+        "lane:entry:30194"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghayyaba:causative",
+      "headword_arabic": "غَيَّبَ",
+      "definition": "To cause someone or something to become absent or disappear; to hide or conceal it.",
+      "usage_conditions": "The object is made absent or concealed from another person.",
+      "source_refs": [
+        "lane:entry:30195"
+      ]
+    },
+    {
+      "meaning_id": "cm:mughayaba:mutual-absence",
+      "headword_arabic": "مُغَايَبَةٌ",
+      "definition": "Mutual absence, or communication conducted with someone who is absent.",
+      "usage_conditions": "The communication may take place by letter or through a messenger rather than face to face.",
+      "source_refs": [
+        "lane:entry:30196"
+      ]
+    },
+    {
+      "meaning_id": "cm:agaba:spousal-absence",
+      "headword_arabic": "أَغَابَتْ",
+      "definition": "For a woman to have her husband or a family member absent from her.",
+      "usage_conditions": "A specialized expression for the state of having a close household member away.",
+      "source_refs": [
+        "lane:entry:30197"
+      ]
+    },
+    {
+      "meaning_id": "cm:taghayyaba:withdrawal",
+      "headword_arabic": "تَغَيَّبَ",
+      "definition": "To absent oneself, withdraw, or stay away.",
+      "usage_conditions": "A derived reflexive or intransitive use related to becoming absent.",
+      "source_refs": [
+        "lane:entry:30198"
+      ]
+    },
+    {
+      "meaning_id": "cm:taghayyub:stray-slave-sale",
+      "headword_arabic": "تَغَيُّبٌ",
+      "definition": "The sale of a stray slave whose owner is unknown.",
+      "usage_conditions": "A specialized legal usage in the context of a sale contract.",
+      "source_refs": [
+        "lane:entry:30198"
+      ]
+    },
+    {
+      "meaning_id": "cm:ightiyab:broader-use",
+      "headword_arabic": "اغْتَابَ",
+      "definition": "To speak about someone by imputing good or evil, a fault, or another quality; by extension, to express a disparaging opinion of someone.",
+      "usage_conditions": "Broader Classical usage can extend beyond literal absence and beyond a true report, including certain face-to-face or gestural expressions. The Quranic backbiting sense is listed separately.",
+      "source_refs": [
+        "lane:entry:30200"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghayb:doubt",
+      "headword_arabic": "غَيْبٌ",
+      "definition": "Doubt, or something doubted.",
+      "usage_conditions": "A disputed or figurative Classical usage; some authorities reject or restrict this sense.",
+      "source_refs": [
+        "lane:entry:30202"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghayb:hidden-place",
+      "headword_arabic": "غَيْبٌ",
+      "definition": "A concealed hollow or depression in the ground, especially a place whose interior or far side cannot be seen.",
+      "usage_conditions": "The word can denote a low place that hides what is in it or behind it.",
+      "source_refs": [
+        "lane:entry:30202"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghayb:memory-idiom",
+      "headword_arabic": "غَيْبٌ",
+      "definition": "A hidden or unobserved setting invoked in the expression of speaking from memory.",
+      "usage_conditions": "In عَنْ ظَهْرِ غَيْبٍ, it means speaking from memory or without consulting a book or similar source.",
+      "source_refs": [
+        "lane:entry:30202"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghayb:conjecture",
+      "headword_arabic": "غَيْبٌ",
+      "definition": "The unknown subject of conjectural or unsupported speech.",
+      "usage_conditions": "In expressions such as رَجَمَ بِالْغَيْبِ and قَالَ رَجْمًا بِالْغَيْبِ, it refers to speaking without knowledge or proof.",
+      "source_refs": [
+        "lane:entry:30202"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghayb:kidney-pit",
+      "headword_arabic": "غَيْبٌ",
+      "definition": "A depression beside or at the place of an animal’s kidney.",
+      "usage_conditions": "An anatomical term for a pit that becomes prominent as the animal grows heavy in the belly.",
+      "source_refs": [
+        "lane:entry:30202"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghayb:fat",
+      "headword_arabic": "غَيْبٌ",
+      "definition": "The concealed fat of the omentum of a sheep or goat.",
+      "usage_conditions": "So called because it is hidden from sight.",
+      "source_refs": [
+        "lane:entry:30202"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghaba:lowland",
+      "headword_arabic": "غَابَةٌ",
+      "definition": "A low or depressed place, or a hollow in the ground, with an eminence before it or along its approach.",
+      "usage_conditions": "A topographical use distinct from the sense of a wooded thicket.",
+      "source_refs": [
+        "lane:entry:30204"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghaba:thicket",
+      "headword_arabic": "غَابَةٌ",
+      "definition": "A bed of reeds or canes; a dense thicket, wood, or forest.",
+      "usage_conditions": "The vegetation is densely disposed and conceals what is within it.",
+      "source_refs": [
+        "lane:entry:30204"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghaba:spears",
+      "headword_arabic": "غَابَةٌ",
+      "definition": "A long spear or an assemblage of numerous, dense, or quivering spears.",
+      "usage_conditions": "A figurative extension comparing the spears with a dense thicket or forest.",
+      "source_refs": [
+        "lane:entry:30204"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghaba:company",
+      "headword_arabic": "غَابَةٌ",
+      "definition": "A company or congregated body of men.",
+      "usage_conditions": "A collective use of the noun.",
+      "source_refs": [
+        "lane:entry:30204"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghayba:lowland",
+      "headword_arabic": "غَيْبَةٌ",
+      "definition": "A low or depressed piece of land or ground.",
+      "usage_conditions": "Used in expressions describing falling into or reaching such a depression.",
+      "source_refs": [
+        "lane:entry:30205"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghiba:backbiting-noun",
+      "headword_arabic": "غِيبَةٌ",
+      "definition": "Backbiting or evil speech about a person in their absence, especially mentioning a fault that would distress them.",
+      "usage_conditions": "A false accusation is distinguished as buhtān in the cited lexical tradition.",
+      "source_refs": [
+        "lane:entry:30206"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghayban:hidden-roots",
+      "headword_arabic": "غَيِبَانٌ",
+      "definition": "Roots of trees or plants hidden from sight or untouched by sunlight.",
+      "usage_conditions": "The term is also used for herbage concealed from the sun.",
+      "source_refs": [
+        "lane:entry:30207"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghiyab:grave",
+      "headword_arabic": "غَيَابٌ",
+      "definition": "A thing that hides or conceals; hence a grave.",
+      "usage_conditions": "In an imprecation, غَيَابُهُ refers to being buried in his grave.",
+      "source_refs": [
+        "lane:entry:30209"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghiyaba:veil-covert",
+      "headword_arabic": "غَيَابَةٌ",
+      "definition": "The part of something that veils or conceals it; a covert or place of concealment.",
+      "usage_conditions": "The word can denote a concealed place, including a covert used by birds, apart from its Quranic use for the hollow of a well.",
+      "source_refs": [
+        "lane:entry:30210"
+      ]
+    },
+    {
+      "meaning_id": "cm:ghaib:horse-run",
+      "headword_arabic": "غَائِبٌ",
+      "definition": "A run in which a horse reserves some of its strength for a time of need.",
+      "usage_conditions": "A specialized equestrian term.",
+      "source_refs": [
+        "lane:entry:30211"
+      ]
+    },
+    {
+      "meaning_id": "cm:maghib:setting-place-time",
+      "headword_arabic": "مَغِيبٌ",
+      "definition": "The setting of the sun, moon, or another celestial body; the place or time of setting.",
+      "usage_conditions": "A verbal noun and a noun of place or time.",
+      "source_refs": [
+        "lane:entry:30212"
+      ]
+    },
+    {
+      "meaning_id": "cm:mughīb:spousal-absence",
+      "headword_arabic": "مُغِيبٌ",
+      "definition": "A woman whose husband or a member of her family is absent.",
+      "usage_conditions": "A specialized descriptive noun, with feminine variants also recorded.",
+      "source_refs": [
+        "lane:entry:30213"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:gyb:30194:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghab:absence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30194:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghab:mind-absorption"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30194:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghab:stranger"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30194:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghab:absence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30194:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghab:set"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30194:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghab:absence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30194:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30195:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghayyaba:causative"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30195:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30196:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mughayaba:mutual-absence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30196:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mughayaba:mutual-absence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30197:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:agaba:spousal-absence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30198:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30198:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:taghayyub:stray-slave-sale"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30199:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30200:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:gyb:ightaba:1",
+        "cm:ightiyab:broader-use"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30201:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30202:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:gyb:ghayb:1",
+        "qsense:gyb:ghayb:2",
+        "cm:ghayb:conjecture"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30202:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghayb:doubt"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30202:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghayb:hidden-place",
+        "cm:ghayb:memory-idiom"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30202:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghayb:kidney-pit"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30202:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghayb:fat"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30202:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30203:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30204:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghaba:lowland"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30204:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghaba:thicket"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30204:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghaba:spears"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30204:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghaba:company"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30205:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive label and cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30205:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghayba:lowland"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30205:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30206:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghiba:backbiting-noun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30207:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghayban:hidden-roots"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30208:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30209:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghiyab:grave"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30210:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:gyb:ghiyaba:1",
+        "cm:ghiyaba:veil-covert"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30210:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30211:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:gyb:ghaib:1",
+        "cm:ghaib:horse-run"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30211:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30211:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ghaib:horse-run"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30212:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Incomplete infinitive label only."
+    },
+    {
+      "unit_id": "lane-unit:gyb:30212:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:maghib:setting-place-time"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30213:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:mughīb:spousal-absence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:gyb:30214:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The expression بِالْغَيْبِ can emphasize the unseen realm or, in some Quranic contexts, conduct in a person's absence; both readings are lexically attested.",
+    "The Classical sense غَيْبٌ meaning doubt is reported as disputed or figurative and is kept separate from the Quranic sense of the unseen."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

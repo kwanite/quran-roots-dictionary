@@ -1,0 +1,151 @@
+{
+  "root": "ndm",
+  "arabic": "ندم",
+  "root_idea": {
+    "summary": "The root centers on remorseful reconsideration of something that has already happened.",
+    "development": "Its semantic development connects a past event with grief, changed judgment, regret, and repentance. The related term نَدِيمٌ is explained in the lexical tradition as a convivial drinking companion, associated with conduct that may later be regretted.",
+    "source_refs": [
+      "maqayis:row:4597",
+      "mufradat:row:1427"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ndm:na`dimiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ndm_nadim",
+      "reason": "Distinct Quran-attested active participle, normalized from the Quranic plural form."
+    },
+    {
+      "form_group_id": "qac-form:ndm:n~adaAmap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ndm_nadamah",
+      "reason": "Distinct Quran-attested abstract noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "ndm_nadim",
+      "form_group_ids": [
+        "qac-form:ndm:na`dimiyn:nominal:-"
+      ],
+      "headword_arabic": "نَادِم",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "ndm_nadim_s1",
+          "definition": "Experiencing remorse or regret over a past matter or action.",
+          "usage_conditions": "An active participle describing people who have reached a state of regret for what has happened or what they have done; the Quranic occurrences are plural inflections.",
+          "source_refs": [
+            "lane:entry:32146",
+            "mufradat:row:1427"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:31",
+          "word_location": "5:31:25",
+          "sense_ids": [
+            "ndm_nadim_s1"
+          ]
+        },
+        {
+          "verse_key": "23:40",
+          "word_location": "23:40:5",
+          "sense_ids": [
+            "ndm_nadim_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "ndm_nadamah",
+      "form_group_ids": [
+        "qac-form:ndm:n~adaAmap:nominal:-"
+      ],
+      "headword_arabic": "نَدَامَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "ndm_nadamah_s1",
+          "definition": "Regret or remorse concerning a past matter or action.",
+          "usage_conditions": "An abstract noun naming the state or experience of regret, rather than the person experiencing it.",
+          "source_refs": [
+            "lane:entry:32146",
+            "mufradat:row:1427"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:54",
+          "word_location": "10:54:12",
+          "sense_ids": [
+            "ndm_nadamah_s1"
+          ]
+        },
+        {
+          "verse_key": "34:33",
+          "word_location": "34:33:19",
+          "sense_ids": [
+            "ndm_nadamah_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "ndm_cm_nadim_companion",
+      "headword_arabic": "نَدِيمٌ",
+      "definition": "A companion in drinking; a convivial or boon companion.",
+      "usage_conditions": "A conventional noun for a companion in drinking or convivial company.",
+      "source_refs": [
+        "lane:entry:32147"
+      ]
+    },
+    {
+      "meaning_id": "ndm_cm_mandam_repentance",
+      "headword_arabic": "مَنْدَمٌ",
+      "definition": "Repentance.",
+      "usage_conditions": "An infinitive noun associated with نَدِمَ.",
+      "source_refs": [
+        "lane:entry:32148"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ndm:32146:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ndm_nadim_s1",
+        "ndm_nadamah_s1"
+      ],
+      "note": "The regret, grief, repentance, and related aversion over a past action are covered by the Quranic regret senses."
+    },
+    {
+      "unit_id": "lane-unit:ndm:32147:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ndm_cm_nadim_companion"
+      ],
+      "note": "Drinking or convivial companion."
+    },
+    {
+      "unit_id": "lane-unit:ndm:32148:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ndm_cm_mandam_repentance"
+      ],
+      "note": "Repentance as a nominal form."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

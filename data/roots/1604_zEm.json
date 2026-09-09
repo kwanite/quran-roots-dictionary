@@ -1,0 +1,882 @@
+{
+  "root": "zEm",
+  "arabic": "زعم",
+  "root_idea": {
+    "summary": "The root has two principal semantic orientations: making an assertion without certainty, and undertaking responsibility or guarantee.",
+    "development": "The first orientation develops into doubtful report, supposition, false assertion, and related expressions; the second develops into guaranteeing, responsibility, leadership, and rank.",
+    "source_refs": [
+      "maqayis:row:2251",
+      "mufradat:row:621"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zEm:zaEama:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zEm_verb_I",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:zEm:zaEiym:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zEm_zaim_noun",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:zEm:zaEom:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zEm_zam_noun",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "zEm_verb_I",
+      "form_group_ids": [
+        "qac-form:zEm:zaEama:verb:I"
+      ],
+      "headword_arabic": "زَعَمَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 13,
+      "senses": [
+        {
+          "sense_id": "zEm_verb_I_s1",
+          "definition": "To assert, say, or report a claim, characteristically one regarded as doubtful or false.",
+          "usage_conditions": "In the Quran, the verb introduces or attributes claims presented in a condemnatory context; the emphasis is on the asserted content rather than on a neutral act of speaking.",
+          "source_refs": [
+            "lane:entry:31235",
+            "mufradat:row:621"
+          ]
+        },
+        {
+          "sense_id": "zEm_verb_I_s2",
+          "definition": "To hold or believe that something is the case.",
+          "usage_conditions": "This Quranic use expresses a belief or conviction, specifically in the statement attributed to those who deny resurrection.",
+          "source_refs": [
+            "lane:entry:31235",
+            "mufradat:row:621"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:62",
+          "word_location": "28:62:8",
+          "sense_ids": [
+            "zEm_verb_I_s1"
+          ]
+        },
+        {
+          "verse_key": "64:7",
+          "word_location": "64:7:1",
+          "sense_ids": [
+            "zEm_verb_I_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zEm_zaim_noun",
+      "form_group_ids": [
+        "qac-form:zEm:zaEiym:nominal:-"
+      ],
+      "headword_arabic": "زَعِيمٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "zEm_zaim_noun_s1",
+          "definition": "A guarantor; one responsible or answerable for something.",
+          "usage_conditions": "The Quranic construction assigns responsibility or guarantee for an object or matter; the term may be understood through the branch of suretyship or responsibility.",
+          "source_refs": [
+            "lane:entry:31247",
+            "mufradat:row:621"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:72",
+          "word_location": "12:72:12",
+          "sense_ids": [
+            "zEm_zaim_noun_s1"
+          ]
+        },
+        {
+          "verse_key": "68:40",
+          "word_location": "68:40:4",
+          "sense_ids": [
+            "zEm_zaim_noun_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zEm_zam_noun",
+      "form_group_ids": [
+        "qac-form:zEm:zaEom:nominal:-"
+      ],
+      "headword_arabic": "زَعْمٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "zEm_zam_noun_s1",
+          "definition": "An assertion or professed claim, especially one suspected of falsehood.",
+          "usage_conditions": "In the Quranic expression بِزَعْمِهِمْ, the noun denotes an asserted explanation or claim presented with blameworthy or doubtful status.",
+          "source_refs": [
+            "lane:entry:31235",
+            "mufradat:row:621"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:136",
+          "word_location": "6:136:12",
+          "sense_ids": [
+            "zEm_zam_noun_s1"
+          ]
+        },
+        {
+          "verse_key": "6:138",
+          "word_location": "6:138:11",
+          "sense_ids": [
+            "zEm_zam_noun_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_zamam_describe",
+      "headword_arabic": "زَعَمَ",
+      "definition": "To describe someone or something.",
+      "usage_conditions": "A separately attested classical transitive use.",
+      "source_refs": [
+        "lane:entry:31235"
+      ]
+    },
+    {
+      "meaning_id": "cm_zamam_promise",
+      "headword_arabic": "زَعَمَ",
+      "definition": "To promise.",
+      "usage_conditions": "A classical use illustrated by an assertion understood as a promise.",
+      "source_refs": [
+        "lane:entry:31235"
+      ]
+    },
+    {
+      "meaning_id": "cm_zam_opinion",
+      "headword_arabic": "زَعْمٌ",
+      "definition": "An opinion or supposition.",
+      "usage_conditions": "Used in expressions such as فِي زَعْمِي, “in my opinion.”",
+      "source_refs": [
+        "lane:entry:31235"
+      ]
+    },
+    {
+      "meaning_id": "cm_zamam_think",
+      "headword_arabic": "زَعَمَ",
+      "definition": "To think or suppose someone to be a certain way.",
+      "usage_conditions": "Used with a personal object in the sense of regarding or supposing that person to possess a specified quality.",
+      "source_refs": [
+        "lane:entry:31235"
+      ]
+    },
+    {
+      "meaning_id": "cm_zamam_testify",
+      "headword_arabic": "زَعَمَ",
+      "definition": "To bear witness or testify.",
+      "usage_conditions": "A classical use distinct from merely reporting an assertion.",
+      "source_refs": [
+        "lane:entry:31235"
+      ]
+    },
+    {
+      "meaning_id": "cm_zamam_guarantee",
+      "headword_arabic": "زَعَمَ بِهِ",
+      "definition": "To guarantee, undertake responsibility for, or stand surety for something.",
+      "usage_conditions": "A classical verb construction with بِهِ; the Quranic guarantor noun is treated separately above.",
+      "source_refs": [
+        "lane:entry:31235"
+      ]
+    },
+    {
+      "meaning_id": "cm_zamam_chief",
+      "headword_arabic": "زَعَمَ",
+      "definition": "To become chief, master, prince, or spokesman of a people.",
+      "usage_conditions": "A classical leadership use, including becoming the representative speaker of a group.",
+      "source_refs": [
+        "lane:entry:31235"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaaem_jostle",
+      "headword_arabic": "زَاعَمَ",
+      "definition": "To jostle or compete with another.",
+      "usage_conditions": "A Form III lexical variant related to زاحم.",
+      "source_refs": [
+        "lane:entry:31236"
+      ]
+    },
+    {
+      "meaning_id": "cm_azama_responsibility",
+      "headword_arabic": "أَزْعَمَ",
+      "definition": "To make someone responsible, answerable, or surety for something.",
+      "usage_conditions": "Form IV causative use, especially with property or another specified matter.",
+      "source_refs": [
+        "lane:entry:31237"
+      ]
+    },
+    {
+      "meaning_id": "cm_azama_covet",
+      "headword_arabic": "أَزْعَمَ",
+      "definition": "To make someone covet or eagerly desire something.",
+      "usage_conditions": "Form IV causative use corresponding to inducing eager desire.",
+      "source_refs": [
+        "lane:entry:31237"
+      ]
+    },
+    {
+      "meaning_id": "cm_azama_obey",
+      "headword_arabic": "أَزْعَمَ",
+      "definition": "To obey the chief or leader.",
+      "usage_conditions": "A classical use referring to obedience to a زَعِيم.",
+      "source_refs": [
+        "lane:entry:31237"
+      ]
+    },
+    {
+      "meaning_id": "cm_azama_possible",
+      "headword_arabic": "أَزْعَمَ",
+      "definition": "To become possible, said of an affair.",
+      "usage_conditions": "An intransitive classical use applied to a matter or affair.",
+      "source_refs": [
+        "lane:entry:31237"
+      ]
+    },
+    {
+      "meaning_id": "cm_azama_milk",
+      "headword_arabic": "أَزْعَمَ",
+      "definition": "To begin to become good, pleasant, or fit to drink, said of milk.",
+      "usage_conditions": "A specialized classical use applied to milk.",
+      "source_refs": [
+        "lane:entry:31237"
+      ]
+    },
+    {
+      "meaning_id": "cm_azama_camel_fat",
+      "headword_arabic": "أَزْعَمَ",
+      "definition": "To be thought to have fat in the hump, said of a she-camel.",
+      "usage_conditions": "A specialized use attributed in the lexical evidence to a young or full-grown she-camel.",
+      "source_refs": [
+        "lane:entry:31237"
+      ]
+    },
+    {
+      "meaning_id": "cm_azama_earth",
+      "headword_arabic": "أَزْعَمَ",
+      "definition": "To put forth its first plants or herbage, said of the earth.",
+      "usage_conditions": "A specialized intransitive use applied to land; the source reports a possible textual uncertainty about the form.",
+      "source_refs": [
+        "lane:entry:31237"
+      ]
+    },
+    {
+      "meaning_id": "cm_tazakkathaba",
+      "headword_arabic": "تَزَعَّمَ",
+      "definition": "To speak falsely or fabricate assertions.",
+      "usage_conditions": "Form V use equated with false speaking.",
+      "source_refs": [
+        "lane:entry:31238"
+      ]
+    },
+    {
+      "meaning_id": "cm_taza_assertions",
+      "headword_arabic": "تَزَاعَمَا",
+      "definition": "To exchange doubtful assertions or stories and differ over them.",
+      "usage_conditions": "Form VI reciprocal use for disputing or discoursing about reports in which little confidence is placed.",
+      "source_refs": [
+        "lane:entry:31239"
+      ]
+    },
+    {
+      "meaning_id": "cm_taza_responsible",
+      "headword_arabic": "تَزَاعَمَ",
+      "definition": "To become mutually responsible for one another, and hence to league together or aid one another.",
+      "usage_conditions": "A reciprocal responsibility and alliance construction.",
+      "source_refs": [
+        "lane:entry:31239"
+      ]
+    },
+    {
+      "meaning_id": "cm_zum_pride",
+      "headword_arabic": "زُعْمٌ",
+      "definition": "Pride, pretension, or vain self-assertion.",
+      "usage_conditions": "A later or vulgar use explained as arising from false or vain assertion.",
+      "source_refs": [
+        "lane:entry:31240"
+      ]
+    },
+    {
+      "meaning_id": "cm_zamam_noun_guarantee",
+      "headword_arabic": "زَعَمٌ",
+      "definition": "Responsibility, answerableness, or suretyship.",
+      "usage_conditions": "A noun associated with the construction زَعَمَ بِهِ.",
+      "source_refs": [
+        "lane:entry:31241"
+      ]
+    },
+    {
+      "meaning_id": "cm_zamim_meat",
+      "headword_arabic": "زَعِمٌ",
+      "definition": "Succulent or gravy-laden, said of roasted meat.",
+      "usage_conditions": "Applied to meat that is rich in grease, gravy, or juice and quickly drips over the fire.",
+      "source_refs": [
+        "lane:entry:31242"
+      ]
+    },
+    {
+      "meaning_id": "cm_zamamah_assertion",
+      "headword_arabic": "زَعْمَةٌ",
+      "definition": "An assertion or stated claim; in a conventional rejection formula, an assertion judged untrue.",
+      "usage_conditions": "The plural may denote stories or assertions in which no confidence is placed; the form also occurs in formulas rejecting another person's statement.",
+      "source_refs": [
+        "lane:entry:31243"
+      ]
+    },
+    {
+      "meaning_id": "cm_zumiy_contrary",
+      "headword_arabic": "زُعْمِيٌّ",
+      "definition": "Mendacious; also, in a contrary reported use, veracious.",
+      "usage_conditions": "The lexical evidence explicitly records these two opposite values.",
+      "source_refs": [
+        "lane:entry:31244"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaum_uncertain_fat",
+      "headword_arabic": "زَعُومٌ",
+      "definition": "A she-camel or sheep or goat whose fatness is uncertain and is tested by touch.",
+      "usage_conditions": "A specialized feminine epithet for an animal whose fatness is in question.",
+      "source_refs": [
+        "lane:entry:31246"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaum_contrary_fat",
+      "headword_arabic": "زَعُومٌ",
+      "definition": "Having little fat; also reported in the contrary sense, having much fat.",
+      "usage_conditions": "The evidence explicitly records both opposite applications; related feminine forms are also reported.",
+      "source_refs": [
+        "lane:entry:31246"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaum_speech",
+      "headword_arabic": "زَعُومٌ",
+      "definition": "Impotent or ineffective in speech.",
+      "usage_conditions": "A specialized descriptive use, also reported for زُعْمُومٌ.",
+      "source_refs": [
+        "lane:entry:31246"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaim_chief",
+      "headword_arabic": "زَعِيمٌ",
+      "definition": "A chief, lord, master, prince, or spokesman of a people.",
+      "usage_conditions": "A leadership noun; the spokesman is so called because he speaks on behalf of the group.",
+      "source_refs": [
+        "lane:entry:31247"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaim_described",
+      "headword_arabic": "زَعِيمٌ",
+      "definition": "Described or characterized.",
+      "usage_conditions": "A distinct adjectival use equivalent to مَوْصُوفٌ.",
+      "source_refs": [
+        "lane:entry:31247"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaamah_rank",
+      "headword_arabic": "زَعَامَةٌ",
+      "definition": "High or elevated rank, nobility, chiefdom, lordship, mastery, or princedom.",
+      "usage_conditions": "A classical abstract noun for elevated status or leadership.",
+      "source_refs": [
+        "lane:entry:31248"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaamah_weapons",
+      "headword_arabic": "زَعَامَةٌ",
+      "definition": "A weapon or weapons.",
+      "usage_conditions": "A specialized lexical use, particularly in the cited inheritance context.",
+      "source_refs": [
+        "lane:entry:31248"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaamah_mail",
+      "headword_arabic": "زَعَامَةٌ",
+      "definition": "A coat of mail or coats of mail.",
+      "usage_conditions": "A specialized military use.",
+      "source_refs": [
+        "lane:entry:31248"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaamah_spoil",
+      "headword_arabic": "زَعَامَةٌ",
+      "definition": "The chief's share of spoil.",
+      "usage_conditions": "A specialized inheritance or distribution term.",
+      "source_refs": [
+        "lane:entry:31248"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaamah_inheritance",
+      "headword_arabic": "زَعَامَةٌ",
+      "definition": "The best or greater portion of property in an inheritance or similar division.",
+      "usage_conditions": "A specialized use for the superior portion of an estate or property.",
+      "source_refs": [
+        "lane:entry:31248"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaamah_ox",
+      "headword_arabic": "زَعَامَةٌ",
+      "definition": "An animal of the ox kind, probably a wild bovine.",
+      "usage_conditions": "A specialized zoological noun equivalent to بَقَرَةٌ.",
+      "source_refs": [
+        "lane:entry:31248"
+      ]
+    },
+    {
+      "meaning_id": "cm_mazam_untrusted",
+      "headword_arabic": "مَزْعَمٌ",
+      "definition": "A thing or affair in which no confidence is placed; a disputed or untenable assertion.",
+      "usage_conditions": "Also used of saying what is not right or asserting what is impossible.",
+      "source_refs": [
+        "lane:entry:31250"
+      ]
+    },
+    {
+      "meaning_id": "cm_mazam_coveted",
+      "headword_arabic": "مَزْعَمٌ",
+      "definition": "A thing coveted or eagerly desired.",
+      "usage_conditions": "A noun equivalent to مَطْمَعٌ, “an object of desire.”",
+      "source_refs": [
+        "lane:entry:31250"
+      ]
+    },
+    {
+      "meaning_id": "cm_muzim_desire",
+      "headword_arabic": "مُزْعِمٌ",
+      "definition": "Something that induces coveting or eager desire.",
+      "usage_conditions": "Used in the expression أَمْرٌ مُزْعِمٌ, an affair that makes one desire eagerly.",
+      "source_refs": [
+        "lane:entry:31252"
+      ]
+    },
+    {
+      "meaning_id": "cm_mizamah_serpent",
+      "headword_arabic": "مِزْعَامَةٌ",
+      "definition": "A serpent.",
+      "usage_conditions": "A specialized zoological noun.",
+      "source_refs": [
+        "lane:entry:31254"
+      ]
+    },
+    {
+      "meaning_id": "cm_zamam_covet",
+      "headword_arabic": "زَعِمَ",
+      "definition": "To covet or eagerly desire.",
+      "usage_conditions": "A classical use of زَعِمَ expressing eager desire; it may be used with فِي for the desired object.",
+      "source_refs": [
+        "lane:entry:31235"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zEm:31235:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zEm_verb_I_s1",
+        "zEm_zam_noun_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31235:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zamam_describe"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31235:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zamam_promise"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31235:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zam_opinion",
+        "cm_zamam_think"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31235:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zEm_verb_I_s2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31235:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zamam_testify"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31235:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zamam_guarantee"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31235:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zamam_chief"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31235:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:zEm:31235:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zamam_covet"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31236:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaaem_jostle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31237:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azama_responsibility"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31237:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azama_covet"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31237:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azama_obey"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31237:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azama_possible"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31237:g4:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azama_milk"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31237:g4:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azama_camel_fat"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31237:g4:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azama_earth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31238:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tazakkathaba"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31239:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taza_assertions"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31239:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taza_responsible"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31240:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zum_pride"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31241:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zamam_noun_guarantee"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31242:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zamim_meat"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31243:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zamamah_assertion"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31244:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zumiy_contrary"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31245:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:zEm:31246:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaum_uncertain_fat",
+        "cm_zaum_contrary_fat"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31246:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaum_speech"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31247:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zEm_zaim_noun_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31247:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaim_chief"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31247:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaim_described"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31248:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to زَعَمٌ."
+    },
+    {
+      "unit_id": "lane-unit:zEm:31248:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaamah_rank"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31248:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaamah_weapons"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31248:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaamah_mail"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31248:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaamah_spoil"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31248:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaamah_inheritance"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31248:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaamah_ox"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31249:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding sentence."
+    },
+    {
+      "unit_id": "lane-unit:zEm:31250:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mazam_untrusted"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31250:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mazam_coveted"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31251:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to a feminine form."
+    },
+    {
+      "unit_id": "lane-unit:zEm:31252:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muzim_desire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31253:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to a feminine form."
+    },
+    {
+      "unit_id": "lane-unit:zEm:31254:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mizamah_serpent"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:zEm:31255:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "The lexical gloss is explicitly suspected to be a mistranscription of a different phrase."
+    }
+  ],
+  "cautions": [
+    "The Quranic زَعِيمٌ occurrences are represented in the responsibility or guarantee sense; the separately attested chief or spokesman sense is classical but not assigned to those Quran occurrences.",
+    "The Mufradat discussion records an alternative derivational interpretation of زَعِيمٌ through assertion as well as through guarantee; the contextual Quranic sense remains responsibility or guarantee.",
+    "Lane's historical Quran citation notation has not been converted into a modern verse location where an independently secure QAC location was unavailable."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:zEm:31255:g1:main: its phrase meaning “one in whom no confidence is placed” is accompanied by an explicit editorial judgment that the expression is probably a mistranscription, so it is retained as ambiguous rather than assigned to مَزْعَمٌ."
+  ]
+}

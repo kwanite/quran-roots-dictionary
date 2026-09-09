@@ -1,0 +1,204 @@
+{
+  "root": "nw$",
+  "arabic": "نوش",
+  "root_idea": {
+    "summary": "A root principle of reaching out to take, obtain, or attain something.",
+    "development": "The lexical family extends this orientation from reaching and taking to reciprocal reaching in combat, causing attainment, and drawing someone out of destruction in a derived form.",
+    "source_refs": [
+      "maqayis:row:4788",
+      "mufradat:row:1498",
+      "lane:entry:44758",
+      "lane:entry:44759",
+      "lane:entry:44761"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nw$:t~anaAwu$:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-nwsh-tanawush",
+      "reason": "Displayed under the normalized verbal-noun citation form تَنَاوُشٌ rather than the inflected Quranic surface form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-nwsh-tanawush",
+      "form_group_ids": [
+        "qac-form:nw$:t~anaAwu$:nominal:-"
+      ],
+      "headword_arabic": "تَنَاوُشٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform-nwsh-tanawush-s1",
+          "definition": "Reaching or attaining something; in the Quranic expression, attaining faith from a distant place.",
+          "usage_conditions": "The occurrence describes seeking or attaining faith only belatedly, after the opportunity for near and effective belief has passed.",
+          "source_refs": [
+            "lane:entry:44758",
+            "mufradat:row:1498"
+          ]
+        },
+        {
+          "sense_id": "qform-nwsh-tanawush-s2",
+          "definition": "Returning to, or recovering, faith that has been lost or missed.",
+          "usage_conditions": "An explicitly reported alternative interpretation of the same Quranic expression at 34:52, understanding the belated attainment as a return or recovery rather than simply an act of reaching.",
+          "source_refs": [
+            "lane:entry:44758"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "34:52",
+          "word_location": "34:52:6",
+          "sense_ids": [
+            "qform-nwsh-tanawush-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-nwsh-cling",
+      "headword_arabic": "نَاشَ بِهِ",
+      "definition": "To cling or cleave to someone or something.",
+      "usage_conditions": "A Form I construction with بِـ.",
+      "source_refs": [
+        "lane:entry:44758"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwsh-cause-attainment",
+      "headword_arabic": "نَاشَ",
+      "definition": "To cause someone to attain good or evil.",
+      "usage_conditions": "Used transitively in the construction نُشْتُهُ خَيْرًا or شَرًّا.",
+      "source_refs": [
+        "lane:entry:44758"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwsh-spear-exchange",
+      "headword_arabic": "نَاوَشَ / تَنَاوَشَ",
+      "definition": "To reach or thrust at one another with spears or other weapons.",
+      "usage_conditions": "A reciprocal combat construction for opposing parties who are near, but not close together.",
+      "source_refs": [
+        "lane:entry:44759",
+        "lane:entry:44760"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwsh-engage",
+      "headword_arabic": "نَاوَشَ",
+      "definition": "To mix with or engage in a thing.",
+      "usage_conditions": "A Form III construction; the evidence does not restrict the object class.",
+      "source_refs": [
+        "lane:entry:44759"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwsh-rescue",
+      "headword_arabic": "اِنْتَاشَ",
+      "definition": "To bring, lead, or draw someone out of destruction and rescue him.",
+      "usage_conditions": "A Form VIII causative/rescuing use involving removal from a place or condition of destruction.",
+      "source_refs": [
+        "lane:entry:44761"
+      ]
+    },
+    {
+      "meaning_id": "cm-nwsh-strong-man",
+      "headword_arabic": "نَوُوشٌ",
+      "definition": "A man characterized by might, strength, courage, valour, or prowess.",
+      "usage_conditions": "The noun also has the reported variant نَؤُوشٌ.",
+      "source_refs": [
+        "lane:entry:44762"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nw$:44758:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-nwsh-tanawush-s1",
+        "qform-nwsh-tanawush-s2"
+      ],
+      "note": "The unit supplies the reach/attain sense and the Quran-specific return interpretation."
+    },
+    {
+      "unit_id": "lane-unit:nw$:44758:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwsh-cling"
+      ],
+      "note": "Clinging or cleaving is independently represented."
+    },
+    {
+      "unit_id": "lane-unit:nw$:44758:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwsh-cause-attainment"
+      ],
+      "note": "The causative attainment construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:nw$:44759:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwsh-spear-exchange"
+      ],
+      "note": "Reciprocal spear-reaching in combat is represented."
+    },
+    {
+      "unit_id": "lane-unit:nw$:44759:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwsh-engage"
+      ],
+      "note": "The distinct engage-or-mix use is represented."
+    },
+    {
+      "unit_id": "lane-unit:nw$:44760:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:nw$:44760:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-nwsh-spear-exchange"
+      ],
+      "note": "The Form VI combat construction is covered by the represented reciprocal spear-reaching meaning."
+    },
+    {
+      "unit_id": "lane-unit:nw$:44761:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:nw$:44761:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwsh-rescue"
+      ],
+      "note": "The Form VIII rescue-from-destruction use is represented."
+    },
+    {
+      "unit_id": "lane-unit:nw$:44762:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-nwsh-strong-man"
+      ],
+      "note": "The noun for a strong or valiant man is represented."
+    }
+  ],
+  "cautions": [
+    "The Quran occurrence is independently located by QAC at 34:52:6; the historical citation notation in the lexical evidence is not treated as a modern verse location.",
+    "The reported hamzated reading belongs to a variant and etymological discussion and is not presented as a separate Quranic form here."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

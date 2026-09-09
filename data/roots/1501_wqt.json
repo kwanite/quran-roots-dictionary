@@ -1,0 +1,466 @@
+{
+  "root": "wqt",
+  "arabic": "وقت",
+  "root_idea": {
+    "summary": "The root centers on delimiting or fixing a boundary, especially in time: what is fixed becomes a defined time, appointment, marker, or determinate limit.",
+    "development": "From the principle of setting a limit in time or elsewhere, the root develops meanings of appointing a time or action, designating a time or place, marking the beginning of a period, and describing something as fixed or limited.",
+    "source_refs": [
+      "maqayis:row:5180",
+      "mufradat:row:1600"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wqt:>uq~itato:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-wqt-waqqata-II",
+      "reason": "The passive Quranic occurrence is presented under the normalized Form II perfect citation form وَقَّتَ."
+    },
+    {
+      "form_group_id": "qac-form:wqt:miyqa`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-wqt-miqat",
+      "reason": "Distinct nominal derivative with temporal, place-designating, and period-marker uses."
+    },
+    {
+      "form_group_id": "qac-form:wqt:m~awoquwt:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-wqt-mawqut",
+      "reason": "Distinct Quranic passive participial adjective."
+    },
+    {
+      "form_group_id": "qac-form:wqt:waqot:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-wqt-waqt",
+      "reason": "The basic temporal noun is retained as its own public form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-wqt-waqqata-II",
+      "form_group_ids": [
+        "qac-form:wqt:>uq~itato:verb:II"
+      ],
+      "headword_arabic": "وَقَّتَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-wqt-waqqata-assigned",
+          "definition": "To be assigned a particular time for an appointed decision or action.",
+          "usage_conditions": "The Quranic occurrence is passive and concerns the messengers being assigned a definite time.",
+          "source_refs": [
+            "lane:entry:45557",
+            "mufradat:row:1600"
+          ]
+        },
+        {
+          "sense_id": "sense-wqt-waqqata-gathered",
+          "definition": "To be gathered at an appointed time.",
+          "usage_conditions": "This is an alternative interpretation of the passive Quranic construction, emphasizing gathering at the time appointed for them.",
+          "source_refs": [
+            "lane:entry:45557"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "77:11",
+          "word_location": "77:11:3",
+          "sense_ids": [
+            "sense-wqt-waqqata-gathered"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-wqt-miqat",
+      "form_group_ids": [
+        "qac-form:wqt:miyqa`t:nominal:-"
+      ],
+      "headword_arabic": "مِيقَات",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "sense-wqt-miqat-appointed-time",
+          "definition": "A time fixed for a thing; an appointed term, appointment, or promised occasion.",
+          "usage_conditions": "Used for a definite time assigned to an event, meeting, promise, or eschatological term.",
+          "source_refs": [
+            "mufradat:row:1600"
+          ]
+        },
+        {
+          "sense_id": "sense-wqt-miqat-appointed-place",
+          "definition": "A designated place at which an appointed action or meeting is to occur.",
+          "usage_conditions": "The Quranic place-oriented construction refers to coming to an appointed place; the place sense is distinct from the temporal appointment itself.",
+          "source_refs": [
+            "mufradat:row:1600",
+            "lane:entry:45562"
+          ]
+        },
+        {
+          "sense_id": "sense-wqt-miqat-period-marker",
+          "definition": "A marker that determines the beginning or reckoning of a period.",
+          "usage_conditions": "In the plural, the form can denote markers by which recurring periods are recognized or measured, as with the indicators of calendrical periods.",
+          "source_refs": [
+            "lane:entry:45562"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:189",
+          "word_location": "2:189:6",
+          "sense_ids": [
+            "sense-wqt-miqat-period-marker"
+          ]
+        },
+        {
+          "verse_key": "7:142",
+          "word_location": "7:142:8",
+          "sense_ids": [
+            "sense-wqt-miqat-appointed-time"
+          ]
+        },
+        {
+          "verse_key": "7:143",
+          "word_location": "7:143:4",
+          "sense_ids": [
+            "sense-wqt-miqat-appointed-place"
+          ]
+        },
+        {
+          "verse_key": "44:40",
+          "word_location": "44:40:4",
+          "sense_ids": [
+            "sense-wqt-miqat-appointed-time"
+          ]
+        },
+        {
+          "verse_key": "78:17",
+          "word_location": "78:17:5",
+          "sense_ids": [
+            "sense-wqt-miqat-appointed-time"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-wqt-mawqut",
+      "form_group_ids": [
+        "qac-form:wqt:m~awoquwt:nominal:-"
+      ],
+      "headword_arabic": "مَوْقُوت",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-wqt-mawqut-fixed-time",
+          "definition": "Fixed, appointed, or prescribed to occur at a determinate time.",
+          "usage_conditions": "In the Quranic occurrence, prayer is an ordinance prescribed to be performed at its appointed times.",
+          "source_refs": [
+            "lane:entry:45563",
+            "mufradat:row:1600"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:103",
+          "word_location": "4:103:20",
+          "sense_ids": [
+            "sense-wqt-mawqut-fixed-time"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-wqt-waqt",
+      "form_group_ids": [
+        "qac-form:wqt:waqot:nominal:-"
+      ],
+      "headword_arabic": "وَقْت",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense-wqt-waqt-appointed-period",
+          "definition": "An appointed or allotted time or period.",
+          "usage_conditions": "The Quranic uses refer to a definite time or period allotted to an event or state, rather than to time as an undifferentiated abstraction.",
+          "source_refs": [
+            "lane:entry:45560",
+            "mufradat:row:1600"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:187",
+          "word_location": "7:187:13",
+          "sense_ids": [
+            "sense-wqt-waqt-appointed-period"
+          ]
+        },
+        {
+          "verse_key": "15:38",
+          "word_location": "15:38:3",
+          "sense_ids": [
+            "sense-wqt-waqt-appointed-period"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl-wqt-waqata-time-setting",
+      "headword_arabic": "وَقَتَ",
+      "definition": "To determine, define, or limit something with respect to time; to declare or appoint a time for an action.",
+      "usage_conditions": "A Form I verbal use, including fixing a time for prayer or defining a temporal limit.",
+      "source_refs": [
+        "lane:entry:45557"
+      ]
+    },
+    {
+      "meaning_id": "cl-wqt-waqata-obligation",
+      "headword_arabic": "وَقَتَ",
+      "definition": "To make an observance obligatory at its appointed time.",
+      "usage_conditions": "Reported in connection with entering the state of ihram during pilgrimage and with prayer at the beginning of its appointed time.",
+      "source_refs": [
+        "lane:entry:45557"
+      ]
+    },
+    {
+      "meaning_id": "cl-wqt-waqata-place",
+      "headword_arabic": "وَقَتَ",
+      "definition": "To designate a place as the point at which an action is to be performed.",
+      "usage_conditions": "Reported especially for designating the place where people enter the state of ihram.",
+      "source_refs": [
+        "lane:entry:45557"
+      ]
+    },
+    {
+      "meaning_id": "cl-wqt-waqt-general-time",
+      "headword_arabic": "وَقْت",
+      "definition": "A time, season, or measure or space of time.",
+      "usage_conditions": "The noun may refer to past or future time. Some usage distinguishes the general temporal noun from مِيقَات, a time appointed for an action.",
+      "source_refs": [
+        "lane:entry:45560"
+      ]
+    },
+    {
+      "meaning_id": "cl-wqt-waqt-extension",
+      "headword_arabic": "وَقْت",
+      "definition": "A measure of local extension or distance, such as a mile.",
+      "usage_conditions": "A specialized non-temporal usage reported in connection with local extension.",
+      "source_refs": [
+        "lane:entry:45560"
+      ]
+    },
+    {
+      "meaning_id": "cl-wqt-mawqit",
+      "headword_arabic": "مَوْقِت",
+      "definition": "A designated time or place for an event or appointment.",
+      "usage_conditions": "The derived noun may denote the time or place associated with an appointed event.",
+      "source_refs": [
+        "lane:entry:45561"
+      ]
+    },
+    {
+      "meaning_id": "cl-wqt-muqatat-appointment",
+      "headword_arabic": "وَاقَتَهُ",
+      "definition": "To make an appointment with someone for a particular time.",
+      "usage_conditions": "Form III usage with a reciprocal or interpersonal appointment construction.",
+      "source_refs": [
+        "lane:entry:45559"
+      ]
+    },
+    {
+      "meaning_id": "cl-wqt-miqat-pilgrimage-station",
+      "headword_arabic": "مِيقَات",
+      "definition": "A designated station at which pilgrims enter the state of ihram.",
+      "usage_conditions": "The conventional pilgrimage expression مِيقَاتُ الحَجِّ denotes the prescribed station for entering ihram.",
+      "source_refs": [
+        "lane:entry:45562"
+      ]
+    },
+    {
+      "meaning_id": "cl-wqt-mawqut-extent",
+      "headword_arabic": "مَوْقُوت",
+      "definition": "Defined, definite, or limited in its extreme limit, extent, or amount.",
+      "usage_conditions": "This broader non-temporal specialization concerns the bounded extent or amount of a thing, not its scheduled time.",
+      "source_refs": [
+        "lane:entry:45563"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wqt:45557:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-wqt-waqqata-assigned",
+        "cl-wqt-waqata-time-setting"
+      ],
+      "note": "The Form I time-setting meaning and the explicitly equated Form II appointment meaning are represented."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45557:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-wqt-waqqata-assigned",
+        "sense-wqt-waqqata-gathered"
+      ],
+      "note": "Both reported Quranic interpretations are represented."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45557:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cl-wqt-waqata-time-setting"
+      ],
+      "note": "Determining a defined penalty is an application of the general Form I time-setting or defining meaning."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45557:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wqt-waqata-obligation"
+      ],
+      "note": "The specialized sense of making an observance incumbent is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45557:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wqt-waqata-place"
+      ],
+      "note": "Designation of a place for an action is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45558:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45559:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wqt-muqatat-appointment"
+      ],
+      "note": "Form III appointment meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45560:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-wqt-waqt-appointed-period",
+        "cl-wqt-waqt-general-time"
+      ],
+      "note": "The appointed-time branch and the broader general-time noun are both covered."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45560:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wqt-waqt-extension"
+      ],
+      "note": "The specialized local-extension meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45561:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wqt-mawqit"
+      ],
+      "note": "The derived time-or-place designation is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45562:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to وقت."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45562:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-wqt-miqat-appointed-place",
+        "cl-wqt-miqat-pilgrimage-station"
+      ],
+      "note": "The general appointed-place sense and the pilgrimage-station specialization are both covered."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45562:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense-wqt-miqat-appointed-place"
+      ],
+      "note": "An appointed meeting place is covered by the broader designated-place or meeting-place sense."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45562:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-wqt-miqat-period-marker"
+      ],
+      "note": "The period-commencement marker meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45562:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَوْقِت."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45563:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-wqt-mawqut-fixed-time"
+      ],
+      "note": "The temporal fixedness meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45563:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense-wqt-mawqut-fixed-time"
+      ],
+      "note": "A determined or limited time is covered by the Quranic fixed-time sense."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45563:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-wqt-mawqut-fixed-time"
+      ],
+      "note": "The Quranic prayer construction is represented directly."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45563:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-wqt-mawqut-extent"
+      ],
+      "note": "The broader non-temporal limit-of-extent meaning is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:wqt:45564:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَوْقُوت."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb occurrence is passive feminine, while the public headword is normalized to the Form II perfect citation form وَقَّتَ.",
+    "The interpretation of 77:11 includes both assignment of a time and gathering at an appointed time; these alternatives are kept as separate Quranic senses.",
+    "For مِيقَات, appointed-time, designated-place, and period-marker uses are distinct lexical branches, although contextual translations may overlap."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,172 @@
+{
+  "root": "Hyv",
+  "arabic": "حيث",
+  "root_idea": {
+    "summary": "A vague, indefinite place-denoting adverbial expression whose location is normally specified by a following clause.",
+    "development": "The basic locative expression extends, with ما, to the conditional sense “wherever” and, in later technical usage, to relational, causal, and resultative constructions.",
+    "source_refs": [
+      "maqayis:row:1484",
+      "mufradat:row:372",
+      "lane:entry:16284"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hyv:Hayov:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hyv_haythu",
+      "reason": "Primary public citation form for the shared Quranic lexeme."
+    },
+    {
+      "form_group_id": "qac-form:Hyv:Hayov:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform_hyv_haythu",
+      "reason": "The LOC analysis represents the same written lexeme and its ordinary locative adverbial use."
+    },
+    {
+      "form_group_id": "qac-form:Hyv:Hayov2:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform_hyv_haythu",
+      "reason": "The COND analysis is a constructional use of the same lexeme, represented in a separate conditional sense."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_hyv_haythu",
+      "form_group_ids": [
+        "qac-form:Hyv:Hayov:nominal:-",
+        "qac-form:Hyv:Hayov:other:-",
+        "qac-form:Hyv:Hayov2:other:-"
+      ],
+      "headword_arabic": "حَيْثُ",
+      "public_pos_label": "Adverbial noun · locative and conditional use",
+      "verb_form": null,
+      "occurrence_count": 31,
+      "senses": [
+        {
+          "sense_id": "sense_hyv_place",
+          "definition": "An indefinite adverbial noun of place: where, at the place where, or in whatever place.",
+          "usage_conditions": "Normally followed by a nominal or verbal clause that identifies the location. It may occur after مِنْ or another preposition, occupy an adverbial or objective position, and participate in a correlative construction meaning “where X is, there Y is.”",
+          "source_refs": [
+            "lane:entry:16284",
+            "mufradat:row:372"
+          ]
+        },
+        {
+          "sense_id": "sense_hyv_conditional",
+          "definition": "In the construction حَيْثُمَا or حَيْثُ مَا, wherever or in whatever place.",
+          "usage_conditions": "The accompanying ما gives the expression conditional force. In Classical grammatical usage, the construction may govern the following verbs in the jussive; a reported analysis also allows the related temporal sense “whenever.”",
+          "source_refs": [
+            "lane:entry:16284",
+            "mufradat:row:372"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:149",
+          "word_location": "2:149:2",
+          "sense_ids": [
+            "sense_hyv_place"
+          ]
+        },
+        {
+          "verse_key": "12:68",
+          "word_location": "12:68:4",
+          "sense_ids": [
+            "sense_hyv_place"
+          ]
+        },
+        {
+          "verse_key": "2:144",
+          "word_location": "2:144:15",
+          "sense_ids": [
+            "sense_hyv_conditional"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_hyv_temporal",
+      "headword_arabic": "حَيْثُ",
+      "definition": "When or whenever, as a temporal adverbial expression.",
+      "usage_conditions": "A less common Classical usage reported by some grammarians; it is distinct from the ordinary locative use and is not assigned here to a Quranic occurrence.",
+      "source_refs": [
+        "lane:entry:16284"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hyv_aspect",
+      "headword_arabic": "مِنْ حَيْثُ",
+      "definition": "As to, in respect of; considered as or merely as.",
+      "usage_conditions": "A scientific and post-Classical prepositional construction used to specify the aspect or consideration under which something is being discussed.",
+      "source_refs": [
+        "lane:entry:16284"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hyv_causal",
+      "headword_arabic": "مِنْ حَيْثُ",
+      "definition": "Since or because.",
+      "usage_conditions": "A post-Classical explanatory construction, especially مِنْ حَيْثُ إِنَّ...; بِحَيْثُ is also reported with this causal force in less formal usage.",
+      "source_refs": [
+        "lane:entry:16284"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hyv_resultative",
+      "headword_arabic": "بِحَيْثُ",
+      "definition": "So that; so as to; in such a state or condition that.",
+      "usage_conditions": "A post-Classical resultative or consequential construction, often used to express the resulting state or outcome of an action.",
+      "source_refs": [
+        "lane:entry:16284"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hyv:16284:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hyv_place",
+        "sense_hyv_conditional",
+        "meaning_hyv_temporal"
+      ],
+      "note": "Covers the core locative use, conditional example, and reported temporal use."
+    },
+    {
+      "unit_id": "lane-unit:Hyv:16284:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_hyv_place"
+      ],
+      "note": "The two-place correlative construction is covered by the locative sense."
+    },
+    {
+      "unit_id": "lane-unit:Hyv:16284:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hyv_conditional",
+        "meaning_hyv_temporal"
+      ],
+      "note": "Covers the حيثما conditional construction and its reported whenever interpretation."
+    },
+    {
+      "unit_id": "lane-unit:Hyv:16284:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hyv_aspect",
+        "meaning_hyv_causal",
+        "meaning_hyv_resultative"
+      ],
+      "note": "Covers the later relational, causal, and resultative constructions."
+    }
+  ],
+  "cautions": [
+    "The QAC N, LOC, and COND analyses are merged under the single citation form حَيْثُ; the conditional analysis is represented as a constructional sense.",
+    "Lane records variant vocalizations including حَيْثَ, حَيْثِ, and حَوْثُ. The public headword follows the Quranic form حَيْثُ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

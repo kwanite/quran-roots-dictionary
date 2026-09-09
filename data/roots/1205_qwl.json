@@ -1,0 +1,705 @@
+{
+  "root": "qwl",
+  "arabic": "قول",
+  "root_idea": {
+    "summary": "The root centers on قول, articulated speech or an utterance.",
+    "development": "From the basic act of speaking, the lexicon develops meanings for a saying or statement, inwardly conceived speech, authoritative pronouncement, forms of eloquence, and several derived terms connected with speech and its content.",
+    "source_refs": [
+      "maqayis:row:3900",
+      "mufradat:row:1220"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qwl:qaAla:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qwl-qaala",
+      "reason": "Normalized Form I citation form قَالَ."
+    },
+    {
+      "form_group_id": "qac-form:qwl:taqaw~ala:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qwl-taqawwala",
+      "reason": "Distinct Form V verb meaning to fabricate speech."
+    },
+    {
+      "form_group_id": "qac-form:qwl:>aqaAwiyl:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qwl-qawl",
+      "reason": "أَقَاوِيل is the plural of قَوْل and is represented under the normalized nominal headword قَوْل."
+    },
+    {
+      "form_group_id": "qac-form:qwl:qaA^}il:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qwl-qaail",
+      "reason": "Distinct active participle, normalized as قَائِل."
+    },
+    {
+      "form_group_id": "qac-form:qwl:qawol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qwl-qawl",
+      "reason": "Normalized verbal-noun citation form قَوْل."
+    },
+    {
+      "form_group_id": "qac-form:qwl:qiyl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qwl-qiyl",
+      "reason": "Distinct nominal form قِيل, explicitly treated as a saying or statement."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qwl-qaala",
+      "form_group_ids": [
+        "qac-form:qwl:qaAla:verb:I"
+      ],
+      "headword_arabic": "قَالَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1618,
+      "senses": [
+        {
+          "sense_id": "qwl-qaala-s1",
+          "definition": "To say, speak, utter, or express a word, proposition, or statement.",
+          "usage_conditions": "The object may be a word, a complete proposition, a command, or a sound signifying something. The form includes ordinary speech, reported speech, and assertions, without making grammatical voice or tense a separate lexical sense.",
+          "source_refs": [
+            "lane:entry:21179",
+            "mufradat:row:1220"
+          ]
+        },
+        {
+          "sense_id": "qwl-qaala-s2",
+          "definition": "To entertain or formulate an unspoken thought or saying in the mind.",
+          "usage_conditions": "This use describes what is conceived inwardly before being expressed aloud; the Quranic context explicitly locates the saying in the speakers' selves.",
+          "source_refs": [
+            "mufradat:row:1220"
+          ]
+        },
+        {
+          "sense_id": "qwl-qaala-s3",
+          "definition": "To communicate, command, or bring about something by a divine pronouncement, inspiration, or imposed response rather than ordinary audible address.",
+          "usage_conditions": "The Quran applies the verb to inspired direction and to created beings responding through divine subjection; the expression need not describe ordinary human speech heard by an addressee.",
+          "source_refs": [
+            "mufradat:row:1220"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:15",
+          "word_location": "10:15:6",
+          "sense_ids": [
+            "qwl-qaala-s1"
+          ]
+        },
+        {
+          "verse_key": "58:8",
+          "word_location": "58:8:26",
+          "sense_ids": [
+            "qwl-qaala-s2"
+          ]
+        },
+        {
+          "verse_key": "41:11",
+          "word_location": "41:11:14",
+          "sense_ids": [
+            "qwl-qaala-s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qwl-taqawwala",
+      "form_group_ids": [
+        "qac-form:qwl:taqaw~ala:verb:V"
+      ],
+      "headword_arabic": "تَقَوَّلَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qwl-taqawwala-s1",
+          "definition": "To fabricate or make up speech, especially to falsely attribute a statement to someone.",
+          "usage_conditions": "In the Quran this describes inventing a saying and falsely presenting it as authoritative or revealed speech.",
+          "source_refs": [
+            "lane:entry:21180",
+            "mufradat:row:1220"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "52:33",
+          "word_location": "52:33:3",
+          "sense_ids": [
+            "qwl-taqawwala-s1"
+          ]
+        },
+        {
+          "verse_key": "69:44",
+          "word_location": "69:44:2",
+          "sense_ids": [
+            "qwl-taqawwala-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qwl-qawl",
+      "form_group_ids": [
+        "qac-form:qwl:qawol:nominal:-",
+        "qac-form:qwl:>aqaAwiyl:nominal:-"
+      ],
+      "headword_arabic": "قَوْل",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 93,
+      "senses": [
+        {
+          "sense_id": "qwl-qawl-s1",
+          "definition": "An utterance, saying, speech, statement, word, or expressed proposition.",
+          "usage_conditions": "In Quranic usage it may denote a single word or a complete statement, and may refer to the speech of a person, messenger, or its ultimate source. It can also name the claim or matter expressed by speech. The plural أَقَاوِيل in 69:44 denotes sayings or claims; the associated fabrication is expressed by تَقَوَّلَ.",
+          "source_refs": [
+            "lane:entry:21182",
+            "mufradat:row:1220"
+          ]
+        },
+        {
+          "sense_id": "qwl-qawl-s2",
+          "definition": "A binding divine pronouncement or decree whose fulfillment has become certain.",
+          "usage_conditions": "In expressions such as حَقَّ الْقَوْلُ, قول denotes the divine determination or word established against a people, rather than merely an audible utterance.",
+          "source_refs": [
+            "mufradat:row:1220"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:23",
+          "word_location": "17:23:24",
+          "sense_ids": [
+            "qwl-qawl-s1"
+          ]
+        },
+        {
+          "verse_key": "69:44",
+          "word_location": "69:44:5",
+          "sense_ids": [
+            "qwl-qawl-s1"
+          ]
+        },
+        {
+          "verse_key": "36:7",
+          "word_location": "36:7:3",
+          "sense_ids": [
+            "qwl-qawl-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qwl-qaail",
+      "form_group_ids": [
+        "qac-form:qwl:qaA^}il:nominal:-"
+      ],
+      "headword_arabic": "قَائِل",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qwl-qaail-s1",
+          "definition": "One who says or speaks; a speaker.",
+          "usage_conditions": "This is the regular active-participle sense of the supplied form, including a person who voices or conveys a saying.",
+          "source_refs": [
+            "lane:entry:21179"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:10",
+          "word_location": "12:10:2",
+          "sense_ids": [
+            "qwl-qaail-s1"
+          ]
+        },
+        {
+          "verse_key": "23:100",
+          "word_location": "23:100:10",
+          "sense_ids": [
+            "qwl-qaail-s1"
+          ]
+        },
+        {
+          "verse_key": "33:18",
+          "word_location": "33:18:6",
+          "sense_ids": [
+            "qwl-qaail-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qwl-qiyl",
+      "form_group_ids": [
+        "qac-form:qwl:qiyl:nominal:-"
+      ],
+      "headword_arabic": "قِيل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qwl-qiyl-s1",
+          "definition": "A saying, statement, or word.",
+          "usage_conditions": "قِيل is a nominal counterpart of قَوْل in the supplied lexical evidence and may denote a statement or saying in general.",
+          "source_refs": [
+            "lane:entry:21184",
+            "mufradat:row:1220"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:122",
+          "word_location": "4:122:21",
+          "sense_ids": [
+            "qwl-qiyl-s1"
+          ]
+        },
+        {
+          "verse_key": "56:26",
+          "word_location": "56:26:2",
+          "sense_ids": [
+            "qwl-qiyl-s1"
+          ]
+        },
+        {
+          "verse_key": "43:88",
+          "word_location": "43:88:1",
+          "sense_ids": [
+            "qwl-qiyl-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-qaala-constructions",
+      "headword_arabic": "قَالَ",
+      "definition": "With different prepositions, to address someone; report or narrate from someone; speak or judge concerning someone or something; falsely attribute a statement to someone; or assert a doctrine or position.",
+      "usage_conditions": "These are conventional prepositional constructions, including قَالَ لَهُ, قَالَ عَنْهُ, قَالَ فِيهِ, قَالَ عَلَيْهِ, and قَالَ بِهِ.",
+      "source_refs": [
+        "lane:entry:21179"
+      ]
+    },
+    {
+      "meaning_id": "cm-qaala-vituperate",
+      "headword_arabic": "قَالَ فِيهِ",
+      "definition": "To speak against someone or vituperate him.",
+      "usage_conditions": "This is a specialized use of the phrase قَالَ فِيهِ and is distinct from merely saying something about someone.",
+      "source_refs": [
+        "lane:entry:21179"
+      ]
+    },
+    {
+      "meaning_id": "cm-qaala-poetry",
+      "headword_arabic": "قَالَ شِعْرًا",
+      "definition": "To utter, recite, compose, or versify poetry.",
+      "usage_conditions": "The poetic form of the utterance is part of the meaning in this construction.",
+      "source_refs": [
+        "lane:entry:21179"
+      ]
+    },
+    {
+      "meaning_id": "cm-qaala-gesture",
+      "headword_arabic": "قَالَ",
+      "definition": "To signal or communicate by a gesture, including with the eyes, head, or hand.",
+      "usage_conditions": "The gesture is understood as conveying a message without necessarily involving spoken words.",
+      "source_refs": [
+        "lane:entry:21179"
+      ]
+    },
+    {
+      "meaning_id": "cm-qaala-idiom",
+      "headword_arabic": "قَالَ بِـ",
+      "definition": "In idiomatic body-part or object constructions, to take with the hand, walk or strike with the foot, raise a garment, pour water onto an arm or hand, or strike a hand against something.",
+      "usage_conditions": "These meanings belong to the cited idiomatic constructions with بِيَدِهِ, بِرِجْلِهِ, بِثَوْبِهِ, and بِالْمَاءِ, rather than to ordinary unmarked speech.",
+      "source_refs": [
+        "lane:entry:21179"
+      ]
+    },
+    {
+      "meaning_id": "cm-iqtala-authority",
+      "headword_arabic": "اِقْتَالَ عَلَيْهِ",
+      "definition": "To exercise authority or jurisdiction over someone or something; to arbitrate or assume control.",
+      "usage_conditions": "The construction is اِقْتَالَ عَلَيْهِ or اِقْتَالَ عَلَيْهِمْ.",
+      "source_refs": [
+        "lane:entry:21181",
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-iqtala-self",
+      "headword_arabic": "اِقْتَالَ قَوْلًا",
+      "definition": "To say something that brings or draws good or evil upon oneself.",
+      "usage_conditions": "This specialized use is reported with the expression اِقْتَالَ قَوْلًا.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qawl-belief",
+      "headword_arabic": "قَوْل",
+      "definition": "A doctrine, belief, or position that one professes.",
+      "usage_conditions": "This is the use of قول for an adopted view, as in saying or holding the doctrine of a particular authority.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qawl-indication",
+      "headword_arabic": "قَوْل",
+      "definition": "An indication or sign by which something is signified.",
+      "usage_conditions": "This is a figurative extension from speech to what conveys meaning or points to something else.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qawl-care",
+      "headword_arabic": "قَالَ بِهِ",
+      "definition": "To show sincere concern for, stand by, or take genuine care of something.",
+      "usage_conditions": "This specialized use is expressed by قَالَ بِكَذَا in the cited lexical discussion and is distinct from merely asserting a belief.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qawl-literary",
+      "headword_arabic": "قَوْل",
+      "definition": "An extended verbal composition such as a poem, sermon, or similar speech.",
+      "usage_conditions": "The term can be applied to the composition as a whole because it is constituted by speech, without making the reciter its author.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qawl-logic",
+      "headword_arabic": "قَوْلُ الجَوْهَرِ",
+      "definition": "In logic, the definition or delimitation of a thing or category.",
+      "usage_conditions": "This is a technical usage, such as قول الجوهر and قول العرض, and is not ordinary speech.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qayl-title",
+      "headword_arabic": "قَيْل",
+      "definition": "A king or ruling title among the kings of Himyar; one whose word is relied upon and followed.",
+      "usage_conditions": "The title is explained in relation to authority resting on the person's word and to succession from a father.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-taqayyala",
+      "headword_arabic": "تَقَيَّلَ",
+      "definition": "To follow or take after one's father.",
+      "usage_conditions": "This derived use is associated with the title قَيْل and its inherited authority.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qaal-spread",
+      "headword_arabic": "قَال",
+      "definition": "A saying or report that is spread or circulated.",
+      "usage_conditions": "This nominal use is distinct from the ordinary verb قَالَ and from the agent noun قَائِل.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qaal-agent",
+      "headword_arabic": "قَال",
+      "definition": "A speaker or utterer, used in place of قَائِل.",
+      "usage_conditions": "The noun may stand for the agent who says something, while قَوْل remains the saying itself.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qaalah-spread",
+      "headword_arabic": "قَالَة",
+      "definition": "A saying or piece of speech that is circulated.",
+      "usage_conditions": "This is the feminine nominal form in the expression القَالُ والقَالَةُ لِمَا يُنْشَرُ مِنَ القَوْلِ.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-qawwal",
+      "headword_arabic": "قَوَّال",
+      "definition": "Loquacious, copious in speech, perspicuous or eloquent in expression.",
+      "usage_conditions": "The related expression ابن أَقْوَال refers to a man who talks much.",
+      "source_refs": [
+        "lane:entry:21186"
+      ]
+    },
+    {
+      "meaning_id": "cm-maqul",
+      "headword_arabic": "مَقُولُ القَوْلِ",
+      "definition": "The thing said; the content or object of an utterance.",
+      "usage_conditions": "This denotes what is expressed in constructions such as قَالَ كَذَا and يُقَالُ كَذَا.",
+      "source_refs": [
+        "lane:entry:21187"
+      ]
+    },
+    {
+      "meaning_id": "cm-miqwal",
+      "headword_arabic": "مِقْوَل",
+      "definition": "The tongue, as the instrument of speech.",
+      "usage_conditions": "This is an anatomical and lexical designation, not a verbal form meaning to speak.",
+      "source_refs": [
+        "mufradat:row:1220"
+      ]
+    },
+    {
+      "meaning_id": "cm-maqulat",
+      "headword_arabic": "المَقُولَاتُ العَشْرُ",
+      "definition": "In logic, the ten categories or predicaments: substance, quantity, quality, relation, place, time, posture, possession, action, and passion.",
+      "usage_conditions": "This is a technical logical expression.",
+      "source_refs": [
+        "lane:entry:21189",
+        "mufradat:row:1220"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical restriction on the objective complement of قَالَ."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-constructions"
+      ],
+      "note": "Prepositional construction meanings."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-qaala-constructions"
+      ],
+      "note": "Judging or exercising judgment in قال فيه."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-constructions"
+      ],
+      "note": "Lying or falsely speaking against someone."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-qaala-constructions"
+      ],
+      "note": "Saying something about a person or thing."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-constructions"
+      ],
+      "note": "Asserting a doctrine or position."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-gesture"
+      ],
+      "note": "Signaling with the eyes."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-gesture"
+      ],
+      "note": "Signaling with the head."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-idiom"
+      ],
+      "note": "Hand-based idiomatic action."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-idiom"
+      ],
+      "note": "Foot-based idiomatic action."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-idiom"
+      ],
+      "note": "Garment-raising idiom."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-idiom"
+      ],
+      "note": "Water-pouring idiom."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub13",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-vituperate"
+      ],
+      "note": "Speaking against or vituperating."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub14",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-poetry"
+      ],
+      "note": "Speaking or reciting poetry."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21179:g1:sub15",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qaala-gesture",
+        "cm-qaala-idiom"
+      ],
+      "note": "Signaling and striking-hand idioms."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21180:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qwl-taqawwala-s1"
+      ],
+      "note": "Lying against someone is covered by the Quran-attested fabrication sense."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21181:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-iqtala-authority"
+      ],
+      "note": "Exercising authority or jurisdiction."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21182:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qwl-qawl-s1"
+      ],
+      "note": "Saying, speech, or diction."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21182:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qwl-qawl-s1"
+      ],
+      "note": "Difficulty of diction or speech adds no separate branch."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21183:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21184:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to examples without an independent lexical statement."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21184:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qwl-qiyl-s1"
+      ],
+      "note": "قِيلَة as a saying."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21185:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21186:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-qawwal"
+      ],
+      "note": "Loquacity, copiousness, and eloquence."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21186:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-qawwal"
+      ],
+      "note": "A talkative man is covered by the broader speech-quality meaning."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21187:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-maqul"
+      ],
+      "note": "The thing said."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21188:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qwl:21189:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-maqulat"
+      ],
+      "note": "Technical logical categories."
+    }
+  ],
+  "cautions": [
+    "The Form I QAC group combines many persons, aspects, voices, and imperative forms; the public headword is the normalized citation form قَالَ, and these grammatical variants are not separate senses.",
+    "أَقَاوِيل is merged under قَوْل as its plural, while قِيل and قَائِل remain separate public forms because they are distinct nominal formations.",
+    "The internal QAC form identity for قِيل is retained as a nominal form; no Lane historical citation has been converted into a modern verse location."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

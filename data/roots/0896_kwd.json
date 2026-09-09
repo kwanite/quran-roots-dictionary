@@ -1,0 +1,147 @@
+{
+  "root": "kwd",
+  "arabic": "كود",
+  "root_idea": {
+    "summary": "Approach or pursuit toward something, often with effort, yielding the notion of nearness.",
+    "development": "The root is associated with seeking something through difficulty and with كَادَ in the sense of approaching or being near. In the approximation construction, polarity affects how the nearness and realization of the action are understood.",
+    "source_refs": [
+      "maqayis:row:4062"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kwd:kaAda:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "kwd-kada-v1",
+      "reason": "Canonical Quran-attested Form I verb, presented under the normalized citation form كَادَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "kwd-kada-v1",
+      "form_group_ids": [
+        "qac-form:kwd:kaAda:verb:I"
+      ],
+      "headword_arabic": "كَادَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 24,
+      "senses": [
+        {
+          "sense_id": "kwd-kada-s1",
+          "definition": "To be near to doing something; almost or nearly do it.",
+          "usage_conditions": "An incomplete verb normally taking a nominative subject and an imperfect predicate, usually without أَنْ. Affirmative use presents the complement as near or imminent. In negated constructions, classical analyses allow readings such as “not nearly,” “hardly” or “scarcely,” action only after difficulty or delay, and in some analyses a connective with little independent force.",
+          "source_refs": [
+            "lane:entry:28645"
+          ]
+        },
+        {
+          "sense_id": "kwd-kada-s2",
+          "definition": "To desire, intend, or purpose an action.",
+          "usage_conditions": "The occurrence أَكَادُ أُخْفِيهَا (20:15) is explicitly read in this intention-based sense, though it also has an interpretation under the ordinary proximity sense.",
+          "source_refs": [
+            "lane:entry:28645"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:20",
+          "word_location": "2:20:1",
+          "sense_ids": [
+            "kwd-kada-s1"
+          ]
+        },
+        {
+          "verse_key": "2:71",
+          "word_location": "2:71:23",
+          "sense_ids": [
+            "kwd-kada-s1"
+          ]
+        },
+        {
+          "verse_key": "20:15",
+          "word_location": "20:15:4",
+          "sense_ids": [
+            "kwd-kada-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "kwd-classical-certainty",
+      "headword_arabic": "كَادَ",
+      "definition": "To be certain or to treat something as certain.",
+      "usage_conditions": "An attributed usage in some Arabic speech, compared with ظَنَّ when that verb denotes certainty; it is distinct from the ordinary proximity construction.",
+      "source_refs": [
+        "lane:entry:28645"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kwd:28645:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "kwd-kada-s1",
+        "kwd-kada-s2"
+      ],
+      "note": "The unit's proximity and intention branches are represented under the Quranic verb."
+    },
+    {
+      "unit_id": "lane-unit:kwd:28645:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "kwd-kada-s1"
+      ],
+      "note": "The idiom expresses nearness to doing and adds no separate public sense."
+    },
+    {
+      "unit_id": "lane-unit:kwd:28645:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "kwd-kada-s1",
+        "kwd-kada-s2",
+        "kwd-classical-certainty"
+      ],
+      "note": "The unit contains the Quranic intention reading, the ordinary proximity reading, and the attributed certainty usage."
+    },
+    {
+      "unit_id": "lane-unit:kwd:28645:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "kwd-kada-s2"
+      ],
+      "note": "The expression concerns what is desired or intended."
+    },
+    {
+      "unit_id": "lane-unit:kwd:28645:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "kwd-kada-s2"
+      ],
+      "note": "The idioms express desire, purpose, or intention."
+    },
+    {
+      "unit_id": "lane-unit:kwd:28645:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "kwd-kada-s2"
+      ],
+      "note": "The expression denotes absence of purpose or intention."
+    },
+    {
+      "unit_id": "lane-unit:kwd:28645:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no new lexical content."
+    }
+  ],
+  "cautions": [
+    "The interaction of كَادَ with negation and the resulting implication about completion is subject to competing classical grammatical analyses.",
+    "The intention reading in 20:15 is explicitly attested, but that verse is also interpreted through the ordinary proximity sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

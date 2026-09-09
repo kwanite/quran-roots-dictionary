@@ -1,0 +1,200 @@
+{
+  "root": "lHy",
+  "arabic": "لحي",
+  "root_idea": {
+    "summary": "The root has two principal semantic branches: the jaw or beard-bearing part of the body, and the bark or outer covering of a plant.",
+    "development": "The bodily branch yields terms for the jaw and beard, while the covering branch yields bark, skins, and the action of stripping or peeling. Derived usage also records winding a turban beneath the jaw.",
+    "source_refs": [
+      "maqayis:row:4130"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lHy:liHoyat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lHy-lihya",
+      "reason": "Displayed under the normalized singular citation form لِحْيَة rather than the inflected QAC lemma form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "lHy-lihya",
+      "form_group_ids": [
+        "qac-form:lHy:liHoyat:nominal:-"
+      ],
+      "headword_arabic": "لِحْيَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "lHy-lihya-s1",
+          "definition": "Beard; facial hair.",
+          "usage_conditions": "In the attested Quran occurrence, it appears in the prepositional possessive expression بِلِحْيَتِي, “by my beard.”",
+          "source_refs": [
+            "lane:entry:20589",
+            "lane:entry:20588"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:94",
+          "word_location": "20:94:5",
+          "sense_ids": [
+            "lHy-lihya-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "lHy-cm-jaw",
+      "headword_arabic": "لَحْى",
+      "definition": "Jawbone; either the upper or lower jaw, including the part on which the beard grows in a man.",
+      "usage_conditions": "The term may also denote a lateral portion of the lower jaw.",
+      "source_refs": [
+        "lane:entry:20588"
+      ]
+    },
+    {
+      "meaning_id": "lHy-cm-wholeperson",
+      "headword_arabic": "لِحْيَة",
+      "definition": "By synecdoche, the beard standing for the whole person.",
+      "usage_conditions": "A figurative usage in which a bodily feature represents its bearer.",
+      "source_refs": [
+        "lane:entry:20589"
+      ]
+    },
+    {
+      "meaning_id": "lHy-cm-bark",
+      "headword_arabic": "لِحَاء",
+      "definition": "Bark or outer covering of a plant; by extension, the pulp or flesh covering a date stone and the skin of a grape.",
+      "usage_conditions": "Used for the protective or enclosing layer of vegetal materials.",
+      "source_refs": [
+        "lane:entry:20591"
+      ]
+    },
+    {
+      "meaning_id": "lHy-cm-talahha",
+      "headword_arabic": "تَلَحَّى",
+      "definition": "To wind part of one's turban under the lower jaw.",
+      "usage_conditions": "The construction تَلَحَّى بِعِمَامَتِهِ describes arranging the turban beneath the jaw.",
+      "source_refs": [
+        "lane:entry:20586"
+      ]
+    },
+    {
+      "meaning_id": "lHy-cm-iltaha",
+      "headword_arabic": "اِلْتَحَى",
+      "definition": "To peel or strip flesh from a bone.",
+      "usage_conditions": "Used with the flesh as the object and the bone as the point from which it is removed.",
+      "source_refs": [
+        "lane:entry:20587"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lHy:20585:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; no lexical definition is supplied."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20585:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; no lexical definition is supplied."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20586:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHy-cm-talahha"
+      ],
+      "note": "Turban-wrapping construction."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20587:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHy-cm-iltaha"
+      ],
+      "note": "Stripping flesh from bone."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20588:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHy-cm-jaw"
+      ],
+      "note": "Jawbone and beard-bearing part."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20588:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lHy-cm-jaw"
+      ],
+      "note": "Lateral lower-jaw specification covered by the jawbone meaning."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20589:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lHy-lihya-s1"
+      ],
+      "note": "The goat's beard expression is covered by the Quranic beard sense."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20589:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHy-cm-wholeperson"
+      ],
+      "note": "Synecdochic use for the whole person."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20590:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; no lexical definition is supplied."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20591:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lHy-cm-bark"
+      ],
+      "note": "Bark or plant covering."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20591:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lHy-cm-bark"
+      ],
+      "note": "Date covering specified as a type of vegetal outer layer."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20591:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "lHy-cm-bark"
+      ],
+      "note": "Grape skin specified as a type of vegetal outer layer."
+    },
+    {
+      "unit_id": "lane-unit:lHy:20592:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to a related entry."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is an inflected possessive form; the public headword is normalized to the singular citation form لِحْيَة."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

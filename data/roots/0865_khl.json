@@ -1,0 +1,136 @@
+{
+  "root": "khl",
+  "arabic": "كهل",
+  "root_idea": {
+    "summary": "The root conveys strength or an integrated, fully formed constitution.",
+    "development": "This orientation extends to the mature human stage, the strong upper back at the neck and shoulders, and—by analogy—to vegetation reaching full growth and flowering.",
+    "source_refs": [
+      "maqayis:row:4057"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:khl:kahol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-khl-kahl",
+      "reason": "The Quran-attested noun is presented under its normalized citation form كَهْل."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-khl-kahl",
+      "form_group_ids": [
+        "qac-form:khl:kahol:nominal:-"
+      ],
+      "headword_arabic": "كَهْل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen-khl-kahl-1",
+          "definition": "A person in mature middle age, with the onset or presence of gray hair.",
+          "usage_conditions": "In the Quran, used in the life-stage expression contrasting infancy with being a كَهْل, referring to mature adulthood.",
+          "source_refs": [
+            "lane:entry:32979",
+            "mufradat:row:1274"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:46",
+          "word_location": "3:46:5",
+          "sense_ids": [
+            "qsen-khl-kahl-1"
+          ]
+        },
+        {
+          "verse_key": "5:110",
+          "word_location": "5:110:20",
+          "sense_ids": [
+            "qsen-khl-kahl-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cmean-khl-ikta-hal",
+      "headword_arabic": "اِكْتَهَلَ",
+      "definition": "Of vegetation, to become tall and full-grown, attain its full height, and flower; at mature growth, to approach drying.",
+      "usage_conditions": "A Form VIII verb said of plants or vegetation; the reported nuances describe the plant's advanced maturity.",
+      "source_refs": [
+        "lane:entry:32978",
+        "mufradat:row:1274"
+      ]
+    },
+    {
+      "meaning_id": "cmean-khl-kahil-anatomy",
+      "headword_arabic": "كَاهِلٌ",
+      "definition": "The withers: the upper back at the junction of the neck and shoulders, including the region between the shoulder blades.",
+      "usage_conditions": "An anatomical term used especially of a horse or similar animal; it may refer to the upper portion of the back or the base of the neck.",
+      "source_refs": [
+        "lane:entry:32981"
+      ]
+    },
+    {
+      "meaning_id": "cmean-khl-kihanah",
+      "headword_arabic": "كِهَانَةٌ",
+      "definition": "Divination or soothsaying.",
+      "usage_conditions": "A noun for the practice of divination.",
+      "source_refs": [
+        "lane:entry:32982"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:khl:32978:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean-khl-ikta-hal"
+      ],
+      "note": "Plant maturation and flowering are represented as a Classical Form VIII meaning."
+    },
+    {
+      "unit_id": "lane-unit:khl:32979:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen-khl-kahl-1"
+      ],
+      "note": "The human middle-age and graying meaning is represented in the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:khl:32980:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit referring to another entry."
+    },
+    {
+      "unit_id": "lane-unit:khl:32981:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean-khl-kahil-anatomy"
+      ],
+      "note": "The anatomical withers and upper-back meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:khl:32982:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cmean-khl-kihanah"
+      ],
+      "note": "The divination meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:khl:32983:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit referring to other entries."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

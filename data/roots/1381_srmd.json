@@ -1,0 +1,114 @@
+{
+  "root": "srmd",
+  "arabic": "سرمد",
+  "root_idea": {
+    "summary": "Uninterrupted continuity and lasting duration.",
+    "development": "The supplied lexical evidence centers on duration that continues without interruption; a related adjectival derivative extends this idea to what has neither beginning nor end.",
+    "source_refs": [
+      "lane:entry:41009",
+      "lane:entry:41010"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:srmd:saromad:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "srmd-sarmad",
+      "reason": "The Quran-attested noun is presented under the normalized citation form سَرْمَد."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "srmd-sarmad",
+      "form_group_ids": [
+        "qac-form:srmd:saromad:nominal:-"
+      ],
+      "headword_arabic": "سَرْمَد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "srmd-sarmad-s1",
+          "definition": "Continuous, unceasing, or endless duration.",
+          "usage_conditions": "In the Quran, it is applied to night or day when conceived as continuing without interruption. The same perpetuity sense can also be used predicatively with the meaning “ever” or “forever.”",
+          "source_refs": [
+            "lane:entry:41009",
+            "mufradat:row:687"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:71",
+          "word_location": "28:71:8",
+          "sense_ids": [
+            "srmd-sarmad-s1"
+          ]
+        },
+        {
+          "verse_key": "28:72",
+          "word_location": "28:72:8",
+          "sense_ids": [
+            "srmd-sarmad-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "srmd-classical-sarmadi",
+      "headword_arabic": "سَرْمَدِيّ",
+      "definition": "Having neither beginning nor end; eternal.",
+      "usage_conditions": "Adjectival derivative describing something without a beginning or an end.",
+      "source_refs": [
+        "lane:entry:41010"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:srmd:41009:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "srmd-sarmad-s1"
+      ],
+      "note": "Continuance or incessant continuance of time is covered by the Quranic duration sense."
+    },
+    {
+      "unit_id": "lane-unit:srmd:41009:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "srmd-sarmad-s1"
+      ],
+      "note": "Endless continuation applied to night and day is explicitly Quran-attested."
+    },
+    {
+      "unit_id": "lane-unit:srmd:41009:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Etymological and morphological discussion."
+    },
+    {
+      "unit_id": "lane-unit:srmd:41009:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "srmd-sarmad-s1"
+      ],
+      "note": "The predicative “ever/forever” expression adds no distinct semantic branch."
+    },
+    {
+      "unit_id": "lane-unit:srmd:41010:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "srmd-classical-sarmadi"
+      ],
+      "note": "The adjectival meaning of having neither beginning nor end is separately represented."
+    }
+  ],
+  "cautions": [
+    "No Maqāyīs evidence was supplied; the root orientation is therefore based on the supplied direct lexical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,596 @@
+{
+  "root": "Hyn",
+  "arabic": "حين",
+  "root_idea": {
+    "summary": "The root centers on time: an interval or point at which something arrives, occurs, or becomes due.",
+    "development": "From this temporal basis come meanings involving the approach of an appointed time, assigning or awaiting intervals, and specialized expressions for duration, contracting, and recurring schedules. Death, destruction, and affliction are also connected by the notion of an appointed time arriving.",
+    "source_refs": [
+      "maqayis:row:1495",
+      "mufradat:row:379"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hyn:Hiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-hyn-hin",
+      "reason": "The nominal Quranic occurrences are presented under the normalized citation headword حِين."
+    },
+    {
+      "form_group_id": "qac-form:Hyn:Hiyn:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-hyn-hin",
+      "reason": "The T-tagged occurrences are temporal or adverbial uses of the same lexical item حِين, including حينئذ and حين used in when-constructions."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-hyn-hin",
+      "form_group_ids": [
+        "qac-form:Hyn:Hiyn:nominal:-",
+        "qac-form:Hyn:Hiyn:other:-"
+      ],
+      "headword_arabic": "حِين",
+      "public_pos_label": "Noun · temporal adverbial use",
+      "verb_form": null,
+      "occurrence_count": 35,
+      "senses": [
+        {
+          "sense_id": "qform-hyn-hin-s1",
+          "definition": "A time or period; the time at which something arrives, occurs, becomes due, or is attained.",
+          "usage_conditions": "The word is deliberately broad as to duration: context may make it a brief moment, a recurring interval, an appointed term, the time of an event or death, or an indefinite period. In temporal constructions, حِينَ may mean “when” or “at the time that”; حِينَئِذٍ means “at that time,” and لا تَحِينَ / لاتَ حِينَ expresses that it is not the time for something.",
+          "source_refs": [
+            "lane:entry:16397",
+            "mufradat:row:379"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "76:1",
+          "word_location": "76:1:5",
+          "sense_ids": [
+            "qform-hyn-hin-s1"
+          ]
+        },
+        {
+          "verse_key": "37:148",
+          "word_location": "37:148:4",
+          "sense_ids": [
+            "qform-hyn-hin-s1"
+          ]
+        },
+        {
+          "verse_key": "14:25",
+          "word_location": "14:25:4",
+          "sense_ids": [
+            "qform-hyn-hin-s1"
+          ]
+        },
+        {
+          "verse_key": "30:17",
+          "word_location": "30:17:3",
+          "sense_ids": [
+            "qform-hyn-hin-s1"
+          ]
+        },
+        {
+          "verse_key": "38:3",
+          "word_location": "38:3:9",
+          "sense_ids": [
+            "qform-hyn-hin-s1"
+          ]
+        },
+        {
+          "verse_key": "56:84",
+          "word_location": "56:84:2",
+          "sense_ids": [
+            "qform-hyn-hin-s1"
+          ]
+        },
+        {
+          "verse_key": "39:42",
+          "word_location": "39:42:4",
+          "sense_ids": [
+            "qform-hyn-hin-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-hana-near",
+      "headword_arabic": "حَانَ",
+      "definition": "To come due, draw near, or become at hand, especially of a time, season, or event.",
+      "usage_conditions": "The approach of prayer, reaping, or another expected occasion may be expressed in this way.",
+      "source_refs": [
+        "lane:entry:16390"
+      ]
+    },
+    {
+      "meaning_id": "cm-hana-die",
+      "headword_arabic": "حَانَ",
+      "definition": "To die or perish.",
+      "usage_conditions": "This is a verbal use distinct from the noun حَيْنٌ meaning death or destruction.",
+      "source_refs": [
+        "lane:entry:16390"
+      ]
+    },
+    {
+      "meaning_id": "cm-hana-trial",
+      "headword_arabic": "حَانَ",
+      "definition": "To undergo a trial or trying affliction.",
+      "usage_conditions": "A rare Classical Arabic usage reported as a lexical meaning.",
+      "source_refs": [
+        "lane:entry:16390"
+      ]
+    },
+    {
+      "meaning_id": "cm-hana-misguided",
+      "headword_arabic": "حَانَ",
+      "definition": "To be unaccommodated, maladjusted, or not disposed toward the right course or direction.",
+      "usage_conditions": "This meaning concerns a state of improper adaptation or disposition, not the approach of a time.",
+      "source_refs": [
+        "lane:entry:16390"
+      ]
+    },
+    {
+      "meaning_id": "cm-hana-happen",
+      "headword_arabic": "حَانَ",
+      "definition": "To happen or come about.",
+      "usage_conditions": "A distinct Classical synonymic use equivalent to occurrence or happening.",
+      "source_refs": [
+        "lane:entry:16390"
+      ]
+    },
+    {
+      "meaning_id": "cm-hayyana-appoint",
+      "headword_arabic": "حَيَّنَ",
+      "definition": "To assign or appoint a time for someone or something.",
+      "usage_conditions": "The appointment may be a recurring interval, including a fixed time for milking a she-camel.",
+      "source_refs": [
+        "lane:entry:16391"
+      ]
+    },
+    {
+      "meaning_id": "cm-hayyana-misguided",
+      "headword_arabic": "حَيَّنَ",
+      "definition": "To render someone or something unaccommodated, maladjusted, or not disposed toward the right course.",
+      "usage_conditions": "A transitive counterpart to the corresponding intransitive Classical use.",
+      "source_refs": [
+        "lane:entry:16391"
+      ]
+    },
+    {
+      "meaning_id": "cm-muhayyana-contract",
+      "headword_arabic": "مُحَايَنَةٌ / حِيَانٌ",
+      "definition": "Contracting, bargaining, or hiring for a specified period.",
+      "usage_conditions": "Used of arranging work, service, or employment for a defined duration.",
+      "source_refs": [
+        "lane:entry:16392"
+      ]
+    },
+    {
+      "meaning_id": "cm-ahana-duration",
+      "headword_arabic": "أَحَانَ",
+      "definition": "For time, including a long time, to pass over someone or something; to endure or continue for a period.",
+      "usage_conditions": "A Form IV duration or continuance use.",
+      "source_refs": [
+        "lane:entry:16393"
+      ]
+    },
+    {
+      "meaning_id": "cm-ahyana-stay",
+      "headword_arabic": "أَحْيَنَ",
+      "definition": "To remain, stay, abide, or dwell for a time.",
+      "usage_conditions": "The meaning describes residence or continuance at a place for a period.",
+      "source_refs": [
+        "lane:entry:16393"
+      ]
+    },
+    {
+      "meaning_id": "cm-ahyana-approach",
+      "headword_arabic": "أَحْيَنَ",
+      "definition": "For the time to come or draw near for an expected activity or attainment.",
+      "usage_conditions": "Recorded of the time for camels to be milked or loaded, and of the time when people attain what they seek.",
+      "source_refs": [
+        "lane:entry:16393"
+      ]
+    },
+    {
+      "meaning_id": "cm-ahana-destroy",
+      "headword_arabic": "أَحَانَ",
+      "definition": "To cause someone to die or to destroy someone or something.",
+      "usage_conditions": "A transitive Form IV causative use.",
+      "source_refs": [
+        "lane:entry:16393"
+      ]
+    },
+    {
+      "meaning_id": "cm-ahana-trial",
+      "headword_arabic": "أَحَانَ",
+      "definition": "To try someone or afflict them with a trial.",
+      "usage_conditions": "A transitive Form IV use distinct from causing death or destruction.",
+      "source_refs": [
+        "lane:entry:16393"
+      ]
+    },
+    {
+      "meaning_id": "cm-tahayyana-await",
+      "headword_arabic": "تَحَيَّنَ",
+      "definition": "To watch for, await, or seek the appropriate time for something.",
+      "usage_conditions": "Includes watching for an opportunity, waiting for food or a person, and seeking the proper time for prayer.",
+      "source_refs": [
+        "lane:entry:16394"
+      ]
+    },
+    {
+      "meaning_id": "cm-tahayyana-dispense",
+      "headword_arabic": "تَحَيَّنَ",
+      "definition": "To dispense with something or become self-sufficient.",
+      "usage_conditions": "A rare usage explicitly characterized as vulgar in the lexical source.",
+      "source_refs": [
+        "lane:entry:16394"
+      ]
+    },
+    {
+      "meaning_id": "cm-hayn-death",
+      "headword_arabic": "حَيْنٌ",
+      "definition": "Death, destruction, or perdition; the appointed term or time of death.",
+      "usage_conditions": "This diphthongal noun is distinct from حِينٌ meaning time.",
+      "source_refs": [
+        "lane:entry:16396"
+      ]
+    },
+    {
+      "meaning_id": "cm-hayn-trial",
+      "headword_arabic": "حَيْنٌ",
+      "definition": "A trial or trying affliction.",
+      "usage_conditions": "A distinct noun meaning separate from حَيْنٌ in the sense of death or destruction.",
+      "source_refs": [
+        "lane:entry:16396"
+      ]
+    },
+    {
+      "meaning_id": "cm-hina-interval",
+      "headword_arabic": "حِينَةٌ",
+      "definition": "A scheduled time or interval; especially a recurring once-daily milking or eating occasion, and by repetition an occasional time.",
+      "usage_conditions": "The lexical examples include a she-camel's once-daily milking, a person's once-daily meal, and the expression time after time or occasionally.",
+      "source_refs": [
+        "lane:entry:16400"
+      ]
+    },
+    {
+      "meaning_id": "cm-hain-foolish",
+      "headword_arabic": "حَائِنٌ",
+      "definition": "Stupid, foolish, or deficient in intellect or understanding.",
+      "usage_conditions": "An adjectival usage.",
+      "source_refs": [
+        "lane:entry:16406"
+      ]
+    },
+    {
+      "meaning_id": "cm-haina-calamity",
+      "headword_arabic": "حَائِنَةٌ",
+      "definition": "A deadly or destructive calamity that befalls someone.",
+      "usage_conditions": "A calamity characterized by death or destruction; its plural is حَوَائِنُ.",
+      "source_refs": [
+        "lane:entry:16407"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hyn:16390:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hana-near"
+      ],
+      "note": "Time coming near or becoming due."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16390:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-hana-near"
+      ],
+      "note": "Season for reaping becoming due."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16390:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hana-die"
+      ],
+      "note": "Death or perishing."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16390:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-hana-die"
+      ],
+      "note": "The same dying use applied to a person."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16390:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hana-trial"
+      ],
+      "note": "Experiencing a trial or affliction."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16390:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hana-misguided"
+      ],
+      "note": "Not adapted or disposed toward the right course."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16390:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hana-happen"
+      ],
+      "note": "Happening or coming about."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16391:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hayyana-appoint"
+      ],
+      "note": "Assigning or appointing a time."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16391:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-hayyana-appoint"
+      ],
+      "note": "A recurring appointed time for camel milking."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16391:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hayyana-misguided"
+      ],
+      "note": "Making someone or something improperly disposed."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16391:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16392:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-muhayyana-contract"
+      ],
+      "note": "Contracting or hiring for a specified time."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16393:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ahana-duration"
+      ],
+      "note": "Time passing over or continued duration."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16393:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ahyana-stay"
+      ],
+      "note": "Remaining or dwelling for a time."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16393:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ahyana-approach"
+      ],
+      "note": "Time approaching for camel milking or loading."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16393:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-ahyana-approach"
+      ],
+      "note": "Time approaching for attaining a desired object."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16393:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16393:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ahana-destroy"
+      ],
+      "note": "Causing death or destruction."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16393:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ahana-trial"
+      ],
+      "note": "Trying or afflicting someone."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16394:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tahayyana-await"
+      ],
+      "note": "Watching for or seeking an appropriate time."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16394:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16394:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16394:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tahayyana-dispense"
+      ],
+      "note": "Rare vulgar usage meaning to dispense with or become self-sufficient."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16395:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16396:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hayn-death"
+      ],
+      "note": "Death, destruction, or the appointed term of life."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16396:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hayn-trial"
+      ],
+      "note": "Trial or trying affliction."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16397:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-hyn-hin-s1"
+      ],
+      "note": "Quran-attested time or period sense."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16397:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-hyn-hin-s1"
+      ],
+      "note": "حينئذ meaning at that time."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16397:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-hyn-hin-s1"
+      ],
+      "note": "The Quranic لا تَحِينَ / لاتَ حِينَ construction."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16397:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16398:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another root article."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16399:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16400:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hina-interval"
+      ],
+      "note": "Scheduled interval, recurring occasion, and occasional repetition."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16401:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another root article."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16402:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other root articles."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16403:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another root article."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16404:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another root article."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16405:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to other root articles."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16406:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hain-foolish"
+      ],
+      "note": "Foolishness or deficient understanding."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16407:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-haina-calamity"
+      ],
+      "note": "Deadly or destructive calamity."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16408:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Etymological or cross-entry attribution without an independent lexical definition here."
+    },
+    {
+      "unit_id": "lane-unit:Hyn:16409:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only synonymic cross-reference."
+    }
+  ],
+  "cautions": [
+    "حِين is intentionally represented by one Quranic sense: “time,” “period,” “when,” “appointed term,” and “at that time” reflect contextual specification or temporal construction rather than separate lexical roots.",
+    "Lane records related Form IV material with variant spellings such as أَحَانَ and أَحْيَنَ; the Classical entries preserve the distinctions supported by the individual passages."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

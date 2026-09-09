@@ -1,0 +1,718 @@
+{
+  "root": "hlk",
+  "arabic": "هلك",
+  "root_idea": {
+    "summary": "The root centers on breaking, falling, and loss of integrity, extending to perishing, death, ruin, destruction, and perdition.",
+    "development": "The basic notion of falling or collapse develops into becoming nonexistent or ruined, dying, causing destruction, and describing things or circumstances that lead to perdition.",
+    "source_refs": [
+      "maqayis:row:4929"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hlk:halaka:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_hlaka",
+      "reason": "Distinct Quran-attested Form I verb."
+    },
+    {
+      "form_group_id": "qac-form:hlk:>aholaka:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_ahlaka",
+      "reason": "Distinct Quran-attested Form IV causative verb."
+    },
+    {
+      "form_group_id": "qac-form:hlk:haAlik:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_halik",
+      "reason": "Normalized as the singular active-participial citation form."
+    },
+    {
+      "form_group_id": "qac-form:hlk:maholik:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_mahlik",
+      "reason": "Distinct Quran-attested noun meaning destruction or perishing."
+    },
+    {
+      "form_group_id": "qac-form:hlk:muholakiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_muhlak",
+      "reason": "Normalized from the Quranic plural passive participle to its singular citation form."
+    },
+    {
+      "form_group_id": "qac-form:hlk:muholik:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_muhlik",
+      "reason": "Normalized as the singular Form IV active participle."
+    },
+    {
+      "form_group_id": "qac-form:hlk:muholikiY:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_muhlik",
+      "reason": "Inflected Quranic variant of the same Form IV active participle."
+    },
+    {
+      "form_group_id": "qac-form:hlk:t~aholukap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_tahlukah",
+      "reason": "Normalized as the noun تَهْلُكَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_hlaka",
+      "form_group_ids": [
+        "qac-form:hlk:halaka:verb:I"
+      ],
+      "headword_arabic": "هَلَكَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "q_hlaka_die",
+          "definition": "To die or pass away.",
+          "usage_conditions": "Intransitive Form I usage referring to a person’s death or passing away.",
+          "source_refs": [
+            "lane:entry:17141",
+            "mufradat:row:1527"
+          ]
+        },
+        {
+          "sense_id": "q_hlaka_perish",
+          "definition": "To perish, be destroyed, come to an end, or cease to be.",
+          "usage_conditions": "Intransitive usage for a person or thing that perishes or is brought to an end; this is distinct from the causative Form IV meaning.",
+          "source_refs": [
+            "lane:entry:17141"
+          ]
+        },
+        {
+          "sense_id": "q_hlaka_lost",
+          "definition": "To be gone or lost from someone while still existing elsewhere.",
+          "usage_conditions": "A loss or absence construction, as in the Quranic expression for something being gone from a person although not annihilated.",
+          "source_refs": [
+            "mufradat:row:1527"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:176",
+          "word_location": "4:176:9",
+          "sense_ids": [
+            "q_hlaka_die"
+          ]
+        },
+        {
+          "verse_key": "8:42",
+          "word_location": "8:42:22",
+          "sense_ids": [
+            "q_hlaka_perish"
+          ]
+        },
+        {
+          "verse_key": "69:29",
+          "word_location": "69:29:1",
+          "sense_ids": [
+            "q_hlaka_lost"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_ahlaka",
+      "form_group_ids": [
+        "qac-form:hlk:>aholaka:verb:IV"
+      ],
+      "headword_arabic": "أَهْلَكَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 51,
+      "senses": [
+        {
+          "sense_id": "q_ahlaka_destroy",
+          "definition": "To destroy, cause to perish, bring to an end, ruin, or take away life.",
+          "usage_conditions": "Transitive causative usage for people, communities, crops, or other things; Quranic contexts include destruction, death, corruption, and ruin, including the destruction of a people or generation and the bringing about of perdition.",
+          "source_refs": [
+            "lane:entry:17143",
+            "mufradat:row:1527"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:205",
+          "word_location": "2:205:8",
+          "sense_ids": [
+            "q_ahlaka_destroy"
+          ]
+        },
+        {
+          "verse_key": "26:139",
+          "word_location": "26:139:2",
+          "sense_ids": [
+            "q_ahlaka_destroy"
+          ]
+        },
+        {
+          "verse_key": "46:35",
+          "word_location": "46:35:24",
+          "sense_ids": [
+            "q_ahlaka_destroy"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_halik",
+      "form_group_ids": [
+        "qac-form:hlk:haAlik:nominal:-"
+      ],
+      "headword_arabic": "هَالِك",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "q_halik_dying",
+          "definition": "Dead or dying; one who has perished.",
+          "usage_conditions": "Active participial description of a person who is dead or in the process of dying.",
+          "source_refs": [
+            "lane:entry:17149",
+            "mufradat:row:1527"
+          ]
+        },
+        {
+          "sense_id": "q_halik_perishable",
+          "definition": "Subject to perish; destined to pass away.",
+          "usage_conditions": "Predicative or attributive use for what is liable to perish or cease to exist, including the Quranic statement that everything is perishable except God’s face.",
+          "source_refs": [
+            "lane:entry:17149",
+            "mufradat:row:1527"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:85",
+          "word_location": "12:85:12",
+          "sense_ids": [
+            "q_halik_dying"
+          ]
+        },
+        {
+          "verse_key": "28:88",
+          "word_location": "28:88:13",
+          "sense_ids": [
+            "q_halik_perishable"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_mahlik",
+      "form_group_ids": [
+        "qac-form:hlk:maholik:nominal:-"
+      ],
+      "headword_arabic": "مَهْلِك",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "q_mahlik_destruction",
+          "definition": "Destruction or perishing; the event of being destroyed.",
+          "usage_conditions": "Used in constructions referring to the destruction or perishing of persons or a people, including possessive and genitive constructions.",
+          "source_refs": [
+            "lane:entry:17151",
+            "mufradat:row:1527"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:59",
+          "word_location": "18:59:7",
+          "sense_ids": [
+            "q_mahlik_destruction"
+          ]
+        },
+        {
+          "verse_key": "27:49",
+          "word_location": "27:49:11",
+          "sense_ids": [
+            "q_mahlik_destruction"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_muhlak",
+      "form_group_ids": [
+        "qac-form:hlk:muholakiyn:nominal:-"
+      ],
+      "headword_arabic": "مُهْلَك",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q_muhlak_destroyed",
+          "definition": "Destroyed or made to perish.",
+          "usage_conditions": "Passive participial description of those who have been brought to ruin or destruction.",
+          "source_refs": [
+            "lane:entry:17143",
+            "mufradat:row:1527"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "23:48",
+          "word_location": "23:48:4",
+          "sense_ids": [
+            "q_muhlak_destroyed"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_muhlik",
+      "form_group_ids": [
+        "qac-form:hlk:muholik:nominal:-",
+        "qac-form:hlk:muholikiY:nominal:-"
+      ],
+      "headword_arabic": "مُهْلِك",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "q_muhlik_destroyer",
+          "definition": "One who destroys or causes others to perish.",
+          "usage_conditions": "Active participial description of the agent responsible for destruction or ruin.",
+          "source_refs": [
+            "lane:entry:17143"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:131",
+          "word_location": "6:131:6",
+          "sense_ids": [
+            "q_muhlik_destroyer"
+          ]
+        },
+        {
+          "verse_key": "28:59",
+          "word_location": "28:59:4",
+          "sense_ids": [
+            "q_muhlik_destroyer"
+          ]
+        },
+        {
+          "verse_key": "28:59",
+          "word_location": "28:59:16",
+          "sense_ids": [
+            "q_muhlik_destroyer"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_tahlukah",
+      "form_group_ids": [
+        "qac-form:hlk:t~aholukap:nominal:-"
+      ],
+      "headword_arabic": "تَهْلُكَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q_tahlukah_peril",
+          "definition": "What leads to destruction; a cause or course of ruin.",
+          "usage_conditions": "Used for an action, condition, or course that brings about perdition or destruction.",
+          "source_refs": [
+            "mufradat:row:1527"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:195",
+          "word_location": "2:195:9",
+          "sense_ids": [
+            "q_tahlukah_peril"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_hlaka_corrupt",
+      "headword_arabic": "هَلَكَ",
+      "definition": "To fall; to become bad, corrupt, vitiated, marred, or spoiled; or to go away so that none knows where.",
+      "usage_conditions": "Broader Form I uses describing collapse, deterioration, or disappearance, apart from the Quran-attested uses of dying, perishing, or being gone from someone.",
+      "source_refs": [
+        "lane:entry:17141"
+      ]
+    },
+    {
+      "meaning_id": "cm_hlaka_landdry",
+      "headword_arabic": "هَلَكَ",
+      "definition": "Of land, to have its herbage dry up through drought.",
+      "usage_conditions": "A specialized use with land as the subject.",
+      "source_refs": [
+        "lane:entry:17141"
+      ]
+    },
+    {
+      "meaning_id": "cm_tuhallak_valley",
+      "headword_arabic": "وَادِي تُهُلِّكَ",
+      "definition": "A valley described as misleading or causing one to go astray.",
+      "usage_conditions": "Fixed expression for a named or characterized valley.",
+      "source_refs": [
+        "lane:entry:17142"
+      ]
+    },
+    {
+      "meaning_id": "cm_tahalak_grief",
+      "headword_arabic": "تَهَالَكَ",
+      "definition": "To perish gradually from grief.",
+      "usage_conditions": "Used with غَمًّا, “through grief.”",
+      "source_refs": [
+        "lane:entry:17144"
+      ]
+    },
+    {
+      "meaning_id": "cm_tahalak_eager",
+      "headword_arabic": "تَهَالَكَ",
+      "definition": "To be vehemently eager for something.",
+      "usage_conditions": "Used in the construction تَهَالَكَ عَلَيْهِ.",
+      "source_refs": [
+        "lane:entry:17144"
+      ]
+    },
+    {
+      "meaning_id": "cm_tahalak_strive",
+      "headword_arabic": "تَهَالَكَ",
+      "definition": "To strive, toil, exert oneself, and hasten in an activity or affair.",
+      "usage_conditions": "Used with فِي for strenuous exertion in running or another matter.",
+      "source_refs": [
+        "lane:entry:17144"
+      ]
+    },
+    {
+      "meaning_id": "cm_tahalak_camel_desire",
+      "headword_arabic": "تَهَالَكَتْ",
+      "definition": "Of a she-camel, to vehemently desire the stallion.",
+      "usage_conditions": "A specialized description of a female camel’s sexual desire.",
+      "source_refs": [
+        "lane:entry:17144"
+      ]
+    },
+    {
+      "meaning_id": "cm_istahlak_seek",
+      "headword_arabic": "اِسْتَهْلَكَ",
+      "definition": "To seek or court destruction; to risk oneself as one bent on death.",
+      "usage_conditions": "A Form X usage comparable to اِسْتَمَاتَ.",
+      "source_refs": [
+        "lane:entry:17146"
+      ]
+    },
+    {
+      "meaning_id": "cm_istahlak_distress",
+      "headword_arabic": "اِسْتَهْلَكَ",
+      "definition": "To distress, trouble, or fatigue oneself concerning something.",
+      "usage_conditions": "Used in the construction اِسْتَهْلَكَ فِي كَذَا.",
+      "source_refs": [
+        "lane:entry:17146"
+      ]
+    },
+    {
+      "meaning_id": "cm_halakah_dry",
+      "headword_arabic": "هَلَكَةٌ",
+      "definition": "The drying up of plants or herbage.",
+      "usage_conditions": "A noun for the condition produced by drought.",
+      "source_refs": [
+        "lane:entry:17147"
+      ]
+    },
+    {
+      "meaning_id": "cm_halak_noun",
+      "headword_arabic": "هَلَاكٌ",
+      "definition": "Perdition, destruction, a lost state, or death.",
+      "usage_conditions": "The noun may also be used of punishment, fear, or poverty and in expressions for being caught in situations of perdition.",
+      "source_refs": [
+        "lane:entry:17148",
+        "mufradat:row:1527"
+      ]
+    },
+    {
+      "meaning_id": "cm_huluk_cause",
+      "headword_arabic": "هُلْكٌ",
+      "definition": "Destruction or the act of causing destruction.",
+      "usage_conditions": "A noun described as equivalent to إهلاك.",
+      "source_refs": [
+        "mufradat:row:1527"
+      ]
+    },
+    {
+      "meaning_id": "cm_mahlakah_cause",
+      "headword_arabic": "مَهْلَكَةٌ",
+      "definition": "A cause of perdition or death.",
+      "usage_conditions": "Used for something that brings about ruin or death.",
+      "source_refs": [
+        "lane:entry:17152"
+      ]
+    },
+    {
+      "meaning_id": "cm_mahlakah_place",
+      "headword_arabic": "مَهْلَكَةٌ",
+      "definition": "A place of perdition or death, especially a desert in which people perish.",
+      "usage_conditions": "A figurative or place-name use based on the danger of the locality.",
+      "source_refs": [
+        "lane:entry:17152"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustahlik_seek",
+      "headword_arabic": "مُسْتَهْلِكٌ",
+      "definition": "One who courts destruction or is bent on risking death.",
+      "usage_conditions": "Used in the expression هُوَ مُسْتَهْلِكٌ إِلَى كَذَا.",
+      "source_refs": [
+        "lane:entry:17153"
+      ]
+    },
+    {
+      "meaning_id": "cm_mustahlik_road",
+      "headword_arabic": "مُسْتَهْلِكُ الوِرْدِ",
+      "definition": "A road that destroys the person seeking water because of its great distance.",
+      "usage_conditions": "An idiomatic description of a dangerously long route to water.",
+      "source_refs": [
+        "lane:entry:17153"
+      ]
+    },
+    {
+      "meaning_id": "cm_haluk_woman",
+      "headword_arabic": "هَلُوكٌ",
+      "definition": "A woman who moves with languorous, broken or swaying gait; figuratively, a wanton woman.",
+      "usage_conditions": "The figurative sense derives from the manner of her swaying.",
+      "source_refs": [
+        "mufradat:row:1527"
+      ]
+    },
+    {
+      "meaning_id": "cm_haliki_blacksmith",
+      "headword_arabic": "هَالِكِيٌّ",
+      "definition": "A blacksmith; a person belonging by attribution to Hālik, the eponym associated with the craft.",
+      "usage_conditions": "A specialized nisbah usage, extended to blacksmiths generally.",
+      "source_refs": [
+        "mufradat:row:1527"
+      ]
+    },
+    {
+      "meaning_id": "cm_hulk_thing",
+      "headword_arabic": "هُلْكٌ",
+      "definition": "A thing that is perishing or has perished.",
+      "usage_conditions": "A nominal use describing the thing itself as ruined or perished.",
+      "source_refs": [
+        "mufradat:row:1527"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hlk:17141:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q_hlaka_die",
+        "q_hlaka_perish",
+        "q_hlaka_lost",
+        "cm_hlaka_corrupt"
+      ],
+      "note": "General Form I perishing, death, disappearance, falling, and corruption are covered."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17141:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hlaka_landdry"
+      ],
+      "note": "Specialized drought use for land."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17142:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tuhallak_valley"
+      ],
+      "note": "Fixed Form II valley expression."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17143:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q_ahlaka_destroy",
+        "q_muhlik_destroyer",
+        "q_muhlak_destroyed"
+      ],
+      "note": "Causative destruction and its active and passive participles."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17144:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tahalak_grief"
+      ],
+      "note": "Gradual perishing from grief."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17144:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tahalak_eager"
+      ],
+      "note": "Vehement eagerness construction."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17144:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tahalak_strive"
+      ],
+      "note": "Striving, exertion, and hastening construction."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17144:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tahalak_camel_desire"
+      ],
+      "note": "Specialized she-camel desire use."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17145:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form VI entry."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17146:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istahlak_seek"
+      ],
+      "note": "Form X seeking or courting destruction."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17146:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istahlak_distress"
+      ],
+      "note": "Form X distressing or fatiguing oneself."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17147:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hlaka_landdry"
+      ],
+      "note": "Drying up of plants or herbage."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17148:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_halak_noun"
+      ],
+      "note": "Perdition, destruction, lost state, and death."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17148:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_halak_noun"
+      ],
+      "note": "Synonymic confirmation of the same noun branch."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17148:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_halak_noun"
+      ],
+      "note": "Expression involving being caught in cases of perdition."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17149:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q_halik_dying"
+      ],
+      "note": "Dead or dying active participle."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17149:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q_halik_perishable"
+      ],
+      "note": "Quran-attested sense of being subject to perish."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17150:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17151:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q_mahlik_destruction"
+      ],
+      "note": "Death or destruction noun corresponding to the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17152:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mahlakah_cause"
+      ],
+      "note": "Cause of perdition or death."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17152:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mahlakah_place"
+      ],
+      "note": "Place of perdition, including a dangerous desert."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17153:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustahlik_seek"
+      ],
+      "note": "One who courts destruction."
+    },
+    {
+      "unit_id": "lane-unit:hlk:17153:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mustahlik_road"
+      ],
+      "note": "Idiomatic road description."
+    }
+  ],
+  "cautions": [
+    "The Quran Foundation gloss “I have squandered” at 90:6 is retained only as contextual translation evidence; the packet supplies no independent Lane or Mufradat evidence for a separate lexical sense of “squander.”"
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

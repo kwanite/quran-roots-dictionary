@@ -1,0 +1,958 @@
+{
+  "root": "jhd",
+  "arabic": "جهد",
+  "root_idea": {
+    "summary": "The root centers on hardship and the expenditure of power or capacity.",
+    "development": "From the basic notion of hardship, the lexicon develops meanings of exerting one's utmost, striving against resistance, being distressed or overburdened, and related extensions such as hard or barren land and intensively processed milk.",
+    "source_refs": [
+      "maqayis:row:1239",
+      "mufradat:row:272"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jhd:ja`hada:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_jahada_III",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jhd:jahod:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_jahd",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jhd:jihaAd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_jihad",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jhd:juhod:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_juhd",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:jhd:muja`hidiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_mujahid",
+      "reason": "The Quranic form is plural, but the singular active-participle citation form is the appropriate public headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_jahada_III",
+      "form_group_ids": [
+        "qac-form:jhd:ja`hada:verb:III"
+      ],
+      "headword_arabic": "جَاهَدَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 27,
+      "senses": [
+        {
+          "sense_id": "q3s1_strive_against",
+          "definition": "To exert one's utmost in striving against an opposing or disapproved force or interest; to contend with resistance.",
+          "usage_conditions": "The Quran-focused lexical discussion includes struggle against a visible enemy, the devil, or one's own self. The verb may take an opponent or occur in the cause of God, and is not restricted to armed action.",
+          "source_refs": [
+            "lane:entry:47571",
+            "mufradat:row:272"
+          ]
+        },
+        {
+          "sense_id": "q3s2_fight_enemy",
+          "definition": "To fight or wage war against an enemy.",
+          "usage_conditions": "This is the established enemy-combat use of the Form III verb, especially in the expression of fighting in the way of God; the same form also has the broader striving use.",
+          "source_refs": [
+            "lane:entry:47571",
+            "mufradat:row:272"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:78",
+          "word_location": "22:78:1",
+          "sense_ids": [
+            "q3s1_strive_against"
+          ]
+        },
+        {
+          "verse_key": "25:52",
+          "word_location": "25:52:4",
+          "sense_ids": [
+            "q3s1_strive_against"
+          ]
+        },
+        {
+          "verse_key": "9:20",
+          "word_location": "9:20:4",
+          "sense_ids": [
+            "q3s2_fight_enemy"
+          ]
+        },
+        {
+          "verse_key": "9:73",
+          "word_location": "9:73:3",
+          "sense_ids": [
+            "q3s2_fight_enemy"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_jahd",
+      "form_group_ids": [
+        "qac-form:jhd:jahod:nominal:-"
+      ],
+      "headword_arabic": "جَهْد",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "jahd_utmost_force_oaths",
+          "definition": "Utmost force, strength, or exertion; the strongest or most forceful degree.",
+          "usage_conditions": "In the Quranic occurrences it appears in the emphatic oath construction جَهْدَ أَيْمَانِهِمْ, meaning that the oaths were made with their utmost force or were their strongest oaths.",
+          "source_refs": [
+            "lane:entry:47575",
+            "mufradat:row:272"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:53",
+          "word_location": "5:53:8",
+          "sense_ids": [
+            "jahd_utmost_force_oaths"
+          ]
+        },
+        {
+          "verse_key": "16:38",
+          "word_location": "16:38:3",
+          "sense_ids": [
+            "jahd_utmost_force_oaths"
+          ]
+        },
+        {
+          "verse_key": "24:53",
+          "word_location": "24:53:3",
+          "sense_ids": [
+            "jahd_utmost_force_oaths"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_jihad",
+      "form_group_ids": [
+        "qac-form:jhd:jihaAd:nominal:-"
+      ],
+      "headword_arabic": "جِهَاد",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "jihad_striving_opposition",
+          "definition": "The exertion of one's utmost power or capacity in striving against an opposing or disapproved force.",
+          "usage_conditions": "The Quran-focused lexical account includes striving against a visible enemy, the devil, or the self; it can be carried out with one's wealth, one's person, one's hand, or one's speech.",
+          "source_refs": [
+            "lane:entry:47571",
+            "mufradat:row:272"
+          ]
+        },
+        {
+          "sense_id": "jihad_warfare",
+          "definition": "Fighting or waging war against an enemy, especially in the cause of religion.",
+          "usage_conditions": "This is the enemy-combat specialization of the verbal noun; it belongs to the broader Quranic field of striving but should not be treated as the only meaning of جهاد.",
+          "source_refs": [
+            "lane:entry:47571",
+            "mufradat:row:272"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:52",
+          "word_location": "25:52:6",
+          "sense_ids": [
+            "jihad_striving_opposition"
+          ]
+        },
+        {
+          "verse_key": "60:1",
+          "word_location": "60:1:28",
+          "sense_ids": [
+            "jihad_striving_opposition"
+          ]
+        },
+        {
+          "verse_key": "9:24",
+          "word_location": "9:24:21",
+          "sense_ids": [
+            "jihad_warfare"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_juhd",
+      "form_group_ids": [
+        "qac-form:jhd:juhod:nominal:-"
+      ],
+      "headword_arabic": "جُهْد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "juhd_capacity_means",
+          "definition": "Available power, capacity, or means; what a person is able to exert or provide.",
+          "usage_conditions": "In the Quranic occurrence, the word denotes the limited effort or means available to those who can contribute only what they possess.",
+          "source_refs": [
+            "lane:entry:47575",
+            "mufradat:row:272"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:79",
+          "word_location": "9:79:12",
+          "sense_ids": [
+            "juhd_capacity_means"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_mujahid",
+      "form_group_ids": [
+        "qac-form:jhd:muja`hidiyn:nominal:-"
+      ],
+      "headword_arabic": "مُجَاهِد",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "mujahid_one_who_strives",
+          "definition": "One who strives or exerts oneself in opposition to resistance, especially one engaged in striving in God's cause.",
+          "usage_conditions": "The Quranic form is the masculine plural active participle. Its context contrasts those who strive with those who remain behind; the participle can encompass the broad striving denoted by جاهد and جهاد.",
+          "source_refs": [
+            "lane:entry:47571",
+            "mufradat:row:272"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:95",
+          "word_location": "4:95:9",
+          "sense_ids": [
+            "mujahid_one_who_strives"
+          ]
+        },
+        {
+          "verse_key": "4:95",
+          "word_location": "4:95:17",
+          "sense_ids": [
+            "mujahid_one_who_strives"
+          ]
+        },
+        {
+          "verse_key": "47:31",
+          "word_location": "47:31:4",
+          "sense_ids": [
+            "mujahid_one_who_strives"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_jahada_strive",
+      "headword_arabic": "جَهَدَ",
+      "definition": "To strive, labor, toil, or exert one's power and efforts; to do one's utmost in an affair.",
+      "usage_conditions": "Usually used with في in an affair or undertaking; the Form I verb is distinct from the Quranic Form III headword.",
+      "source_refs": [
+        "lane:entry:47570"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahada_test",
+      "headword_arabic": "جَهَدَ بِهِ",
+      "definition": "To try, prove, or examine someone with respect to good qualities or otherwise.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:47570"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahada_distress",
+      "headword_arabic": "جَهَدَهُ",
+      "definition": "To affect, harass, distress, fatigue, or overburden someone or something; to impose a task beyond its power; also to press someone hard in petitioning.",
+      "usage_conditions": "The object may be a person, an affair, a disease, a beast, or another burden-bearing thing; passive usage describes being severely afflicted or wearied.",
+      "source_refs": [
+        "lane:entry:47570"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahada_butter",
+      "headword_arabic": "جَهَدَ",
+      "definition": "To deprive milk of its butter, or churn and dilute it so that the butter is extracted and the liquid is largely water; the same may be said of broth.",
+      "usage_conditions": "A figurative or specialized use concerning milk and broth.",
+      "source_refs": [
+        "lane:entry:47570"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahada_intercourse",
+      "headword_arabic": "جَهَدَهَا",
+      "definition": "To have sexual intercourse with her, or to compress or press her.",
+      "usage_conditions": "An idiomatic transitive use; the object-class details in the lexical example are not a general restriction.",
+      "source_refs": [
+        "lane:entry:47570"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahada_food",
+      "headword_arabic": "جَهَدَ",
+      "definition": "To crave food eagerly and to eat it greedily or extensively.",
+      "usage_conditions": "The sources distinguish eager desire from consuming much or leaving none; both belong to the specialized food-appetite branch.",
+      "source_refs": [
+        "lane:entry:47570"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahida_hardlife",
+      "headword_arabic": "جَهِدَ",
+      "definition": "To be or become hard, difficult, strait, or distressful.",
+      "usage_conditions": "Said of a state or condition of life.",
+      "source_refs": [
+        "lane:entry:47570"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_cause",
+      "headword_arabic": "أَجْهَدَ",
+      "definition": "To make or incite another to strive, labor, toil, or exert power.",
+      "usage_conditions": "A transitive Form IV causative use.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ujhida_distress",
+      "headword_arabic": "أُجْهِدَ",
+      "definition": "To be thrown into difficulty, distress, affliction, trouble, inconvenience, or fatigue.",
+      "usage_conditions": "Passive or resultative usage describing a person brought into hardship.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_property",
+      "headword_arabic": "أَجْهَدَ مَالَهُ",
+      "definition": "To consume, waste, disperse, or give away one's property altogether.",
+      "usage_conditions": "A transitive use with property as the object.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_hostility",
+      "headword_arabic": "أَجْهَدَ",
+      "definition": "To exert oneself energetically in hostility or to strive against someone.",
+      "usage_conditions": "The intransitive use may take an opponent with عَلَيْهِ or عَلَيْنَا.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_energy",
+      "headword_arabic": "أَجْهَدَ",
+      "definition": "To act, travel, march, or speak with energy or with the utmost energy.",
+      "usage_conditions": "This usage is specifically distinguished from the Form I verb in the cited expressions.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_prudence",
+      "headword_arabic": "أَجْهَدَ",
+      "definition": "To take the course prescribed by prudence, precaution, and sound judgment.",
+      "usage_conditions": "Synonymous with acting cautiously or taking proper precautions in an affair.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_difficulty",
+      "headword_arabic": "أَجْهَدَ",
+      "definition": "To become or be in a state of difficulty, embarrassment, distress, affliction, trouble, inconvenience, or fatigue.",
+      "usage_conditions": "An intransitive Form IV state description.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_mixed",
+      "headword_arabic": "أَجْهَدَ",
+      "definition": "To become mixed or confused.",
+      "usage_conditions": "Marked in the lexical evidence as a figurative extension.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_desert",
+      "headword_arabic": "أَجْهَدَ",
+      "definition": "To enter hard or open land, or to go forth into the desert or plain.",
+      "usage_conditions": "Used with land characterized as جَهَاد.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_appear",
+      "headword_arabic": "أَجْهَدَ",
+      "definition": "To rise into view, appear, or come within sight.",
+      "usage_conditions": "May be said of people, hoariness, or another thing that becomes visible.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ajhada_open",
+      "headword_arabic": "أَجْهَدَ",
+      "definition": "To become open, apparent, manifest, accessible, or within someone's reach or power.",
+      "usage_conditions": "Used of land, a road, the truth, or an affair that presents itself or becomes available.",
+      "source_refs": [
+        "lane:entry:47572"
+      ]
+    },
+    {
+      "meaning_id": "cm_ijtihad_legal",
+      "headword_arabic": "اِجْتِهَاد",
+      "definition": "The exertion of a lawyer's or jurist's faculties to form an opinion on a doubtful or difficult legal question.",
+      "usage_conditions": "A technical term for investigating the law and working out a solution by reason, comparison, and reference to the Quran and Sunnah.",
+      "source_refs": [
+        "lane:entry:47574"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahd_capacity",
+      "headword_arabic": "جَهْد",
+      "definition": "Power, ability, labor, toil, exertion, effort, energy, or the utmost of these.",
+      "usage_conditions": "This is the broader Classical lexical range; the Quranic form is separately recorded for its emphatic oath construction.",
+      "source_refs": [
+        "lane:entry:47575"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahd_difficulty",
+      "headword_arabic": "جَهْد",
+      "definition": "Difficulty, grievousness, distress, affliction, trouble, inconvenience, fatigue, or weariness.",
+      "usage_conditions": "Also used in the expression جَهْدُ البَلَاءِ for an extreme state of hardship, including severe poverty and family burden.",
+      "source_refs": [
+        "lane:entry:47575"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahd_poorprovision",
+      "headword_arabic": "جَهْد",
+      "definition": "A small provision on which a person of little property can live with difficulty, or the limited amount such a person can afford to pay as poor-rate.",
+      "usage_conditions": "A specialized social and economic use.",
+      "source_refs": [
+        "lane:entry:47575"
+      ]
+    },
+    {
+      "meaning_id": "cm_juhd_milk",
+      "headword_arabic": "جُهْد",
+      "definition": "Milk mixed with water or otherwise deprived of its butter, and by extension similarly diluted broth.",
+      "usage_conditions": "A specialized usage related to the extraction or dilution of milk.",
+      "source_refs": [
+        "lane:entry:47576",
+        "lane:entry:47570",
+        "lane:entry:47584"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahad_land",
+      "headword_arabic": "جَهَاد",
+      "definition": "Hard, barren, sterile, open, level, or rugged land lacking herbage.",
+      "usage_conditions": "The term may be used adjectivally of land; its descriptions include both level open country and hard unproductive ground.",
+      "source_refs": [
+        "lane:entry:47577"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahad_arak",
+      "headword_arabic": "جَهَاد",
+      "definition": "The fruit of the arāk tree.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:47577"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahid_pasture",
+      "headword_arabic": "جَهِيد",
+      "definition": "Pasture whose herbage has been heavily eaten by cattle, or land whose vegetation has been extensively grazed.",
+      "usage_conditions": "An adjectival description of pasture or land.",
+      "source_refs": [
+        "lane:entry:47578"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahid_intensive",
+      "headword_arabic": "جَاهِد",
+      "definition": "Striving, laborious, or toiling; intensely exerted or severely difficult.",
+      "usage_conditions": "An intensive adjectival expression, including descriptions of laborious journeying or severe distress.",
+      "source_refs": [
+        "lane:entry:47581"
+      ]
+    },
+    {
+      "meaning_id": "cm_jahid_food",
+      "headword_arabic": "جَاهِد",
+      "definition": "Eagerly desiring food; hungry and greedy, leaving no food.",
+      "usage_conditions": "A figurative food-appetite use of the active participle.",
+      "source_refs": [
+        "lane:entry:47581"
+      ]
+    },
+    {
+      "meaning_id": "cm_mujhad_distressed",
+      "headword_arabic": "مُجْهَد",
+      "definition": "A person thrown into difficulty, embarrassment, distress, affliction, inconvenience, trouble, or fatigue.",
+      "usage_conditions": "A passive-result description of someone overcome by hardship.",
+      "source_refs": [
+        "lane:entry:47582"
+      ]
+    },
+    {
+      "meaning_id": "cm_mujhid_prudent",
+      "headword_arabic": "مُجْهِد",
+      "definition": "Careful and prudent; one who takes the course prescribed by sound judgment, especially as a sincere adviser or counsellor.",
+      "usage_conditions": "Distinct from the passive participle مُجْهَد meaning distressed.",
+      "source_refs": [
+        "lane:entry:47583"
+      ]
+    },
+    {
+      "meaning_id": "cm_mujhad_poor",
+      "headword_arabic": "مُجْهَد",
+      "definition": "A person in difficulty or distress who possesses little property and is poor.",
+      "usage_conditions": "A specialized description of hardship combined with poverty.",
+      "source_refs": [
+        "lane:entry:47583"
+      ]
+    },
+    {
+      "meaning_id": "cm_mujhad_beast",
+      "headword_arabic": "مُجْهَد",
+      "definition": "A beast weakened by fatigue.",
+      "usage_conditions": "A passive-result description of an animal worn down through exertion.",
+      "source_refs": [
+        "lane:entry:47583"
+      ]
+    },
+    {
+      "meaning_id": "cm_majhud_distressed",
+      "headword_arabic": "مَجْهُود",
+      "definition": "Severely affected, harassed, embarrassed, distressed, afflicted, troubled, inconvenienced, fatigued, or wearied; also afflicted by disease, drought, barrenness, or dearth.",
+      "usage_conditions": "Describes a person or condition brought into severe hardship; it may also denote a hard, difficult, strait, or distressful state of life.",
+      "source_refs": [
+        "lane:entry:47584"
+      ]
+    },
+    {
+      "meaning_id": "cm_majhud_angry",
+      "headword_arabic": "مَجْهُود",
+      "definition": "Angry.",
+      "usage_conditions": "A separately reported adjectival use.",
+      "source_refs": [
+        "lane:entry:47584"
+      ]
+    },
+    {
+      "meaning_id": "cm_majhud_milk",
+      "headword_arabic": "مَجْهُود",
+      "definition": "Milk or broth from which the butter has been extracted, or which has been mixed with water or diluted.",
+      "usage_conditions": "A specialized and figurative extension concerning processed liquids.",
+      "source_refs": [
+        "lane:entry:47584"
+      ]
+    },
+    {
+      "meaning_id": "cm_majhud_food",
+      "headword_arabic": "مَجْهُود",
+      "definition": "Eagerly desired or longed for, especially food or drink consumed with perseverance because of its pleasantness.",
+      "usage_conditions": "A specialized adjectival use associated with appetite and palatability.",
+      "source_refs": [
+        "lane:entry:47584"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jhd:47570:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahada_strive"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47570:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahada_test"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47570:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahada_distress"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47570:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahada_butter"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47570:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahada_intercourse"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47570:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahada_food"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47570:g2:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_jahada_food"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47570:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahida_hardlife"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47571:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q3s1_strive_against",
+        "q3s2_fight_enemy",
+        "jihad_striving_opposition",
+        "jihad_warfare"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ajhada_cause"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ujhida_distress"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ajhada_property"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ajhada_hostility"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ajhada_energy"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ajhada_prudence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ajhada_difficulty"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ajhada_mixed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ajhada_desert"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47572:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ajhada_appear",
+        "cm_ajhada_open"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47573:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:jhd:47574:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:jhd:47574:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ijtihad_legal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47575:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jahd_utmost_force_oaths",
+        "cm_jahd_capacity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47575:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahd_difficulty"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47575:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahd_poorprovision"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47576:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to جَهْدٌ."
+    },
+    {
+      "unit_id": "lane-unit:jhd:47576:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_juhd_milk"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47577:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahad_land"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47577:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahad_arak"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47578:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahid_pasture"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47579:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to جَهْدٌ."
+    },
+    {
+      "unit_id": "lane-unit:jhd:47580:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to جَهْدٌ."
+    },
+    {
+      "unit_id": "lane-unit:jhd:47581:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahid_intensive"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47581:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jahid_food"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47581:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_jahid_food"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47582:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mujhad_distressed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47583:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mujhid_prudent"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47583:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mujhad_poor"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47583:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mujhad_beast"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47584:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_majhud_distressed",
+        "cm_majhud_angry"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47584:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_majhud_distressed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47584:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_majhud_milk",
+        "cm_majhud_food"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:jhd:47584:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to جَهْدٌ."
+    }
+  ],
+  "cautions": [
+    "جِهَاد and جَاهَدَ cover a broad field of exerted striving as well as the specialized enemy-combat use; the latter should not be treated as their only Quranic sense.",
+    "The Quranic جَهْد and جُهْد forms are distinct vocalizations with overlapping Classical discussion: the supplied Quran occurrences attest emphatic utmost force for جَهْد and available capacity or means for جُهْد.",
+    "The printed historical Quran citation in the lexical evidence is preserved only as source context; modern verse locations are used here only where independently supplied by QAC."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

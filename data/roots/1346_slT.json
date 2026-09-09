@@ -1,0 +1,396 @@
+{
+  "root": "slT",
+  "arabic": "سلط",
+  "root_idea": {
+    "summary": "The root's principal semantic orientation is force exerted to overcome or prevail over something or someone.",
+    "development": "This develops into meanings of domination, delegated authority, and proof understood as something that forcefully establishes a claim. Related lexical branches extend force and sharpness to physical qualities and speech, while the oil sense is treated as a divergent dialectal branch.",
+    "source_refs": [
+      "maqayis:row:2470",
+      "mufradat:row:716"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:slT:sal~aTa:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-slt-sallata",
+      "reason": "The Quran-attested Form II verb has an independently supported causative meaning."
+    },
+    {
+      "form_group_id": "qac-form:slT:suloTa`n:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-slt-sultan",
+      "reason": "The Quran-attested nominal has distinct authority/power and proof/evidence uses."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-slt-sallata",
+      "form_group_ids": [
+        "qac-form:slT:sal~aTa:verb:II"
+      ],
+      "headword_arabic": "سَلَّطَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qfslt-sallata-1",
+          "definition": "To give or assign power, authority, or mastery over someone; to cause someone to prevail over another.",
+          "usage_conditions": "A causative construction, commonly followed by عَلَى, expressing the granting or exercise of superior power over an object.",
+          "source_refs": [
+            "lane:entry:41846",
+            "mufradat:row:716"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:90",
+          "word_location": "4:90:21",
+          "sense_ids": [
+            "qfslt-sallata-1"
+          ]
+        },
+        {
+          "verse_key": "59:6",
+          "word_location": "59:6:16",
+          "sense_ids": [
+            "qfslt-sallata-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-slt-sultan",
+      "form_group_ids": [
+        "qac-form:slT:suloTa`n:nominal:-"
+      ],
+      "headword_arabic": "سُلْطَان",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 37,
+      "senses": [
+        {
+          "sense_id": "qfslt-sultan-1",
+          "definition": "Authority, power, or dominion exercised over others or granted to an agent.",
+          "usage_conditions": "Used for effective or delegated power and authority, including power attributed to or denied to Satan and authority granted to a person. In some passages it can denote ruling power rather than an abstract proof.",
+          "source_refs": [
+            "lane:entry:41852",
+            "mufradat:row:716"
+          ]
+        },
+        {
+          "sense_id": "qfslt-sultan-2",
+          "definition": "A proof, evidence, argument, plea, or manifest sign that establishes or forcefully demonstrates a claim.",
+          "usage_conditions": "Corresponds to حُجَّةٌ or بُرْهَانٌ and can include a manifest miracle or sign. In passages such as 17:33 and 69:29, the word is explicitly compatible with either authority/power or a plea.",
+          "source_refs": [
+            "lane:entry:41852",
+            "mufradat:row:716"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:10",
+          "word_location": "14:10:32",
+          "sense_ids": [
+            "qfslt-sultan-1"
+          ]
+        },
+        {
+          "verse_key": "4:144",
+          "word_location": "4:144:16",
+          "sense_ids": [
+            "qfslt-sultan-2"
+          ]
+        },
+        {
+          "verse_key": "51:38",
+          "word_location": "51:38:7",
+          "sense_ids": [
+            "qfslt-sultan-2"
+          ]
+        },
+        {
+          "verse_key": "69:29",
+          "word_location": "69:29:3",
+          "sense_ids": [
+            "qfslt-sultan-1",
+            "qfslt-sultan-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-slt-saluta-overcome",
+      "headword_arabic": "سَلُطَ",
+      "definition": "To overcome, prevail, or predominate; to become established in superior power and possess dominion or rule.",
+      "usage_conditions": "An intransitive Form I verb describing prevailing power or sovereignty.",
+      "source_refs": [
+        "lane:entry:41845"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-saluta-hard",
+      "headword_arabic": "سَلُطَ",
+      "definition": "To become strong or hard, especially of a solid hoof or a camel's foot.",
+      "usage_conditions": "Applied to physical objects whose hardness or strength is being described.",
+      "source_refs": [
+        "lane:entry:41845"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-saluta-sharp-speech",
+      "headword_arabic": "سَلُطَ",
+      "definition": "To become sharp; of a person or speech, to be eloquent and sharp-tongued, long-tongued, clamorous, or foul-tongued.",
+      "usage_conditions": "The speech-related applications describe forceful or cutting expression; the source gives both commendatory and blameworthy uses.",
+      "source_refs": [
+        "lane:entry:41845"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-tasallata",
+      "headword_arabic": "تَسَلَّطَ",
+      "definition": "To overcome, prevail, or exercise superior power, dominion, or authority over others; to receive or be made to have such power.",
+      "usage_conditions": "An intransitive or quasi-passive Form V counterpart of سَلَّطَ عَلَيْهِمْ.",
+      "source_refs": [
+        "lane:entry:41847"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-sultan-ruler",
+      "headword_arabic": "سُلْطَان",
+      "definition": "A ruler, governor, king, sovereign, or caliph; a person vested with ruling power.",
+      "usage_conditions": "A person-denoting application of the noun, distinct from its abstract sense of authority or proof.",
+      "source_refs": [
+        "lane:entry:41852"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-sultan-intensity",
+      "headword_arabic": "سُلْطَان",
+      "definition": "Strength, hardness, sharpness, force, or violence as manifested in a thing; by extension, severe winter, inflamed blood, or blazing fire.",
+      "usage_conditions": "A broader Classical Arabic application to physical or natural intensity rather than political or evidentiary authority.",
+      "source_refs": [
+        "lane:entry:41852"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-salit-hard-hoof",
+      "headword_arabic": "سَلِيط",
+      "definition": "Strong or hard, especially describing a solid hoof or a beast with a hard foot.",
+      "usage_conditions": "An adjective applied to physical strength or hardness, with hoof and foot as the recorded applications.",
+      "source_refs": [
+        "lane:entry:41854"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-salit-sharp",
+      "headword_arabic": "سَلِيط",
+      "definition": "Sharp, including the sharp edges of the foreparts of hoofs.",
+      "usage_conditions": "Applied to things possessing a sharp edge or point.",
+      "source_refs": [
+        "lane:entry:41854"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-salit-eloquent",
+      "headword_arabic": "سَلِيط",
+      "definition": "Eloquent and sharp-tongued; also long-tongued, clamorous, or foul-tongued.",
+      "usage_conditions": "Applied to a person, speech, or tongue; the speech-related use may be praise or blame depending on the expression.",
+      "source_refs": [
+        "lane:entry:41854"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-salit-oil",
+      "headword_arabic": "سَلِيط",
+      "definition": "Olive oil; in a dialectal usage, sesame oil, and more broadly oil pressed from grains or berries.",
+      "usage_conditions": "The geographic attribution of the sesame-oil sense varies among authorities.",
+      "source_refs": [
+        "lane:entry:41854"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-aslatu-power",
+      "headword_arabic": "أَسْلَط",
+      "definition": "More or most overcoming, prevailing, predominating, or superior in power or force.",
+      "usage_conditions": "A comparative or superlative adjective describing superiority in power.",
+      "source_refs": [
+        "lane:entry:41855"
+      ]
+    },
+    {
+      "meaning_id": "cm-slt-aslatu-speech",
+      "headword_arabic": "أَسْلَط",
+      "definition": "Most eloquent, chaste, or sharp-tongued in speech.",
+      "usage_conditions": "A comparative or superlative application describing superiority in verbal expression.",
+      "source_refs": [
+        "lane:entry:41855"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:slT:41845:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-saluta-overcome"
+      ],
+      "note": "Form I prevailing and dominion meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41845:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-saluta-hard"
+      ],
+      "note": "Physical hardness meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41845:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-saluta-sharp-speech"
+      ],
+      "note": "Sharpness and forceful speech meanings represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41846:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfslt-sallata-1"
+      ],
+      "note": "Form II causative power meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41847:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-tasallata"
+      ],
+      "note": "Form V prevailing and having authority represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41848:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:slT:41849:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:slT:41850:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سُلْطَان."
+    },
+    {
+      "unit_id": "lane-unit:slT:41851:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to سُلْطَان."
+    },
+    {
+      "unit_id": "lane-unit:slT:41852:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfslt-sultan-1",
+        "cm-slt-sultan-ruler"
+      ],
+      "note": "Power/dominion is covered by the Quranic authority sense; ruler application is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41852:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-sultan-intensity"
+      ],
+      "note": "Physical and natural intensity branch represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41852:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qfslt-sultan-1",
+        "qfslt-sultan-2"
+      ],
+      "note": "Quran-attested authority, proof, plea, and miracle applications represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41852:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-sultan-ruler"
+      ],
+      "note": "Ruler and sovereign application represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41853:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:slT:41854:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-salit-hard-hoof"
+      ],
+      "note": "Strong or hard adjective meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41854:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-salit-sharp"
+      ],
+      "note": "Sharpness meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41854:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-salit-eloquent"
+      ],
+      "note": "Sharp-tongued and clamorous speech meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41854:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-salit-oil"
+      ],
+      "note": "Oil meaning represented as a dialectal branch."
+    },
+    {
+      "unit_id": "lane-unit:slT:41855:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-aslatu-power"
+      ],
+      "note": "Comparative power meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slT:41855:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-slt-aslatu-speech"
+      ],
+      "note": "Comparative speech meaning represented."
+    }
+  ],
+  "cautions": [
+    "سُلْطَان in several Quranic contexts, especially 17:33 and 69:29, permits an authority/power reading as well as a proof or plea reading; the examples preserve that lexical ambiguity.",
+    "The oil sense of سَلِيط is a dialectal branch, and the reported identification of the relevant oil varies between olive oil and sesame oil among authorities.",
+    "Classical usage reports سُلْطَان as both masculine and feminine; this grammatical variation does not create a separate lexical sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,544 @@
+{
+  "root": "nhr",
+  "arabic": "نهر",
+  "root_idea": {
+    "summary": "The root centers on opening or making a passage, especially by splitting something so that what is contained is released. From this develop the ideas of flowing water, channels, spaciousness, and the opening of darkness into daylight.",
+    "development": "Opening or cleaving produces a watercourse and the flow through it; forceful release of blood and widening are related developments. The word نهار extends the idea to the spreading of light between dawn and sunset.",
+    "source_refs": [
+      "maqayis:row:4770"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nhr:tanoharo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nhr_form_nahara",
+      "reason": "Normalized from the Quranic imperfect form to the Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:nhr:nahaAr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nhr_form_nahar_day",
+      "reason": "Displayed under the normalized nominal citation form نهار."
+    },
+    {
+      "form_group_id": "qac-form:nhr:nahar:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nhr_form_nahr",
+      "reason": "Displayed under the normalized nominal citation form نهر."
+    },
+    {
+      "form_group_id": "qac-form:nhr:nahaAr:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "nhr_form_nahar_day",
+      "reason": "The T-tagged occurrence is an adverbial use of the same lexical noun نهار and shares its day/daytime meaning."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nhr_form_nahara",
+      "form_group_ids": [
+        "qac-form:nhr:tanoharo:verb:I"
+      ],
+      "headword_arabic": "نَهَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "nhr_form_nahara_s1",
+          "definition": "To rebuke or harshly check and restrain someone.",
+          "usage_conditions": "The Quranic transitive construction prohibits addressing a beggar or one's parents with rough, chiding speech; it can consequently be rendered as repelling or turning someone away.",
+          "source_refs": [
+            "lane:entry:44626",
+            "mufradat:row:1492"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:23",
+          "word_location": "17:23:21",
+          "sense_ids": [
+            "nhr_form_nahara_s1"
+          ]
+        },
+        {
+          "verse_key": "93:10",
+          "word_location": "93:10:4",
+          "sense_ids": [
+            "nhr_form_nahara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nhr_form_nahr",
+      "form_group_ids": [
+        "qac-form:nhr:nahar:nominal:-"
+      ],
+      "headword_arabic": "نَهْرٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 54,
+      "senses": [
+        {
+          "sense_id": "nhr_form_nahr_s1",
+          "definition": "A river or watercourse carrying running water; in the plural, rivers.",
+          "usage_conditions": "The noun may refer to the running water and to the course that carries it. The Quran uses both the singular نَهَر and the plural أَنْهَار for watercourses, including those associated with gardens.",
+          "source_refs": [
+            "lane:entry:44630",
+            "mufradat:row:1492"
+          ]
+        },
+        {
+          "sense_id": "nhr_form_nahr_s2",
+          "definition": "Spaciousness or abundance, by comparison with the ample flow of a river.",
+          "usage_conditions": "This is an alternative lexical interpretation of فِي جَنَّاتٍ وَنَهَرٍ in 54:54; the same expression is also understood in the ordinary sense of gardens and rivers.",
+          "source_refs": [
+            "lane:entry:44631",
+            "mufradat:row:1492"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:249",
+          "word_location": "2:249:9",
+          "sense_ids": [
+            "nhr_form_nahr_s1"
+          ]
+        },
+        {
+          "verse_key": "18:33",
+          "word_location": "18:33:11",
+          "sense_ids": [
+            "nhr_form_nahr_s1"
+          ]
+        },
+        {
+          "verse_key": "47:15",
+          "word_location": "47:15:7",
+          "sense_ids": [
+            "nhr_form_nahr_s1"
+          ]
+        },
+        {
+          "verse_key": "54:54",
+          "word_location": "54:54:5",
+          "sense_ids": [
+            "nhr_form_nahr_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nhr_form_nahar_day",
+      "form_group_ids": [
+        "qac-form:nhr:nahaAr:nominal:-",
+        "qac-form:nhr:nahaAr:other:-"
+      ],
+      "headword_arabic": "نَهَارٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 57,
+      "senses": [
+        {
+          "sense_id": "nhr_form_nahar_day_s1",
+          "definition": "Daytime; the period in which light is manifest, in contrast with night.",
+          "usage_conditions": "The Quran uses the word for the daytime as a temporal counterpart to الليل and in adverbial expressions meaning by day. Classical descriptions place its ordinary interval between dawn and sunset, while some describe the original interval as sunrise to sunset.",
+          "source_refs": [
+            "lane:entry:44633",
+            "mufradat:row:1492"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:24",
+          "word_location": "10:24:32",
+          "sense_ids": [
+            "nhr_form_nahar_day_s1"
+          ]
+        },
+        {
+          "verse_key": "17:12",
+          "word_location": "17:12:10",
+          "sense_ids": [
+            "nhr_form_nahar_day_s1"
+          ]
+        },
+        {
+          "verse_key": "21:20",
+          "word_location": "21:20:3",
+          "sense_ids": [
+            "nhr_form_nahar_day_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nhr_cm_nahara_flow",
+      "headword_arabic": "نَهَرَ",
+      "definition": "To run or flow; of water or another copious substance, and of blood to flow forcefully.",
+      "usage_conditions": "Also said of the belly when it becomes loose or discharges; flowing water may run along the ground and make a channel.",
+      "source_refs": [
+        "lane:entry:44626"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_nahara_dig",
+      "headword_arabic": "نَهَرَ",
+      "definition": "To dig a watercourse or make a river run.",
+      "usage_conditions": "A transitive use concerning the making or opening of a channel and the setting of water in motion.",
+      "source_refs": [
+        "lane:entry:44626"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_nahara_raid",
+      "headword_arabic": "نَهَرَ",
+      "definition": "To raid or make an incursion into enemy territory by day.",
+      "usage_conditions": "The daytime restriction belongs to this conventional military use.",
+      "source_refs": [
+        "lane:entry:44626"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_anhar_blood",
+      "headword_arabic": "أَنْهَرَ",
+      "definition": "To make blood flow, cause it to issue forth, or pour it out copiously.",
+      "usage_conditions": "Used of blood released from a wound or place of slaughter; the flow is compared with water running in a river.",
+      "source_refs": [
+        "lane:entry:44627"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_anhar_widen",
+      "headword_arabic": "أَنْهَرَ",
+      "definition": "To make wide, especially a wound or a channel.",
+      "usage_conditions": "This is a derived, figurative extension of opening or widening and is distinct from causing blood to flow.",
+      "source_refs": [
+        "lane:entry:44627"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_anhar_daytime",
+      "headword_arabic": "أَنْهَرَ",
+      "definition": "To enter daytime or become in daytime.",
+      "usage_conditions": "A temporal use derived from نهار.",
+      "source_refs": [
+        "lane:entry:44627"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_istnahara_channel",
+      "headword_arabic": "اِسْتَنْهَرَ",
+      "definition": "For a river to take a settled place or course as its channel.",
+      "usage_conditions": "Describes the establishment of a river's bed or channel.",
+      "source_refs": [
+        "lane:entry:44629"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_istnahara_widen",
+      "headword_arabic": "اِسْتَنْهَرَ",
+      "definition": "For a thing to become wide.",
+      "usage_conditions": "An intransitive use of widening, distinct from the river's taking a channel.",
+      "source_refs": [
+        "lane:entry:44629"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_nahr_trench",
+      "headword_arabic": "نَهْرٌ",
+      "definition": "A trench or cut serving as a channel through which water runs.",
+      "usage_conditions": "A secondary application of the watercourse term, emphasizing the excavated or hollowed channel rather than the flowing water itself.",
+      "source_refs": [
+        "lane:entry:44630"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_nahir_abundant",
+      "headword_arabic": "نَهِرٌ",
+      "definition": "Abundant in water; wide and water-rich, said of a river or watercourse.",
+      "usage_conditions": "An adjectival description of plentiful water and a broad watercourse.",
+      "source_refs": [
+        "lane:entry:44632"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_nahir_daytime",
+      "headword_arabic": "نَهِرٌ",
+      "definition": "A person active by day, especially one who raids or works in daytime.",
+      "usage_conditions": "Contrasted with a person associated with nighttime; the term can describe daytime activity generally or daytime incursions.",
+      "source_refs": [
+        "lane:entry:44632"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_nahari_food",
+      "headword_arabic": "نَهَارِيٌّ",
+      "definition": "Food eaten at the beginning of the day.",
+      "usage_conditions": "A specialized adjectival or substantival use relating to the early daytime.",
+      "source_refs": [
+        "lane:entry:44635"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_manhar_waterplace",
+      "headword_arabic": "مَنْهَرٌ",
+      "definition": "A place where a river is or where water hollows out a river channel.",
+      "usage_conditions": "Refers to a river site, a water-carved hollow, or a place associated with the course of a river.",
+      "source_refs": [
+        "lane:entry:44637"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_manhar_fortresswater",
+      "headword_arabic": "مَنْهَرٌ",
+      "definition": "A cleft or opening in a fortress through which water runs or enters.",
+      "usage_conditions": "A specialized architectural or hydraulic use; the plural is مَنَاهِرُ.",
+      "source_refs": [
+        "lane:entry:44637"
+      ]
+    },
+    {
+      "meaning_id": "nhr_cm_nahar_bustard",
+      "headword_arabic": "نَهَارٌ",
+      "definition": "A reported, disputed term for a bustard chick.",
+      "usage_conditions": "This use is recorded in the lexical discussion but explicitly dismissed there as lacking a reliable meaning; it is not a Quranic sense.",
+      "source_refs": [
+        "mufradat:row:1492",
+        "maqayis:row:4770"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nhr:44626:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_nahara_flow"
+      ],
+      "note": "Flowing water and the making of a channel are covered by the intransitive flow meaning."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44626:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nhr_cm_nahara_flow"
+      ],
+      "note": "General running or flowing is covered by the broader flow meaning."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44626:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nhr_cm_nahara_flow"
+      ],
+      "note": "Forceful blood flow and discharge are stated in the target usage conditions."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44626:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_nahara_dig"
+      ],
+      "note": "Digging a channel and making a river run are represented separately from intransitive flow."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44626:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_nahara_raid"
+      ],
+      "note": "The daytime military incursion use is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44626:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_form_nahara_s1"
+      ],
+      "note": "The Quran-attested chiding and harsh checking use is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44627:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44627:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_anhar_blood"
+      ],
+      "note": "The causative blood-flow use is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44627:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_anhar_widen"
+      ],
+      "note": "The widening use is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44627:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_anhar_daytime"
+      ],
+      "note": "The temporal derived-verb use is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44628:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44629:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44629:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_istnahara_channel"
+      ],
+      "note": "A river's taking a settled channel is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44629:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_istnahara_widen"
+      ],
+      "note": "The intransitive widening use is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44630:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_form_nahr_s1",
+        "nhr_cm_nahr_trench"
+      ],
+      "note": "The Quran-attested river meaning and the distinct secondary trench/channel application are both covered."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44631:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَهْرٌ."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44631:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_form_nahr_s2"
+      ],
+      "note": "The alternative Quranic interpretation involving spaciousness or abundance is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44632:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_nahir_abundant"
+      ],
+      "note": "The abundant-water adjectival meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44632:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nhr_cm_nahir_abundant"
+      ],
+      "note": "A wide river is covered by the abundant, water-rich adjective."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44632:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_nahir_daytime"
+      ],
+      "note": "The person active by day, including one who raids or works by day, is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44632:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44633:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_form_nahar_day_s1"
+      ],
+      "note": "The day/daytime lexical branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44634:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44635:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the daytime adjective."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44635:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_nahari_food"
+      ],
+      "note": "The specialized early-day food use is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44636:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Intensive adjectival formation describing a very bright day; it adds no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44637:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_manhar_waterplace"
+      ],
+      "note": "A river place or water-hollowed place is represented."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44637:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nhr_cm_manhar_waterplace"
+      ],
+      "note": "The water-hollowed place is covered by the broader river-place meaning."
+    },
+    {
+      "unit_id": "lane-unit:nhr:44637:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhr_cm_manhar_fortresswater"
+      ],
+      "note": "The specialized fortress water-opening meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The expression فِي جَنَّاتٍ وَنَهَرٍ in 54:54 has more than one lexical interpretation: rivers, or spaciousness/abundance. Both are represented under the river form.",
+    "Classical descriptions differ on whether the daytime interval begins at dawn or sunrise.",
+    "The reported use of نَهَارٌ for a bustard chick is retained only as a disputed classical report; the supplied root discussion rejects it as lacking a reliable meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

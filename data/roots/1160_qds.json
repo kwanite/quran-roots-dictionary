@@ -1,0 +1,593 @@
+{
+  "root": "qds",
+  "arabic": "قدس",
+  "root_idea": {
+    "summary": "The root centers on purity, holiness, and removal from impurity or imperfection.",
+    "development": "Its meanings extend from becoming or making pure to sanctification, sacred places, the Holy Spirit, and the divine epithet denoting transcendent purity.",
+    "source_refs": [
+      "maqayis:row:3734",
+      "mufradat:row:1162"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qds:nuqad~isu:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qds_qaddasa",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:qds:muqad~as:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qds_muqaddas",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:qds:muqad~asap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qds_muqaddas",
+      "reason": "The feminine passive-participle form is an inflection of the same adjective cited under the normalized masculine headword مُقَدَّس."
+    },
+    {
+      "form_group_id": "qac-form:qds:qudus:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qds_qudus",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:qds:qud~uws:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qds_quddus",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qds_qaddasa",
+      "form_group_ids": [
+        "qac-form:qds:nuqad~isu:verb:II"
+      ],
+      "headword_arabic": "قَدَّسَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qds_qaddasa_s1",
+          "definition": "To purify or sanctify a person or thing in a spiritual or devotional sense.",
+          "usage_conditions": "In وَنُقَدِّسُ لَكَ, this is explained as purifying oneself and those who obey God for Him; the purification is distinguished from merely removing perceptible filth.",
+          "source_refs": [
+            "lane:entry:7961",
+            "mufradat:row:1162"
+          ]
+        },
+        {
+          "sense_id": "qds_qaddasa_s2",
+          "definition": "To declare God holy, affirming that He is free from impurity, evil, or imperfection.",
+          "usage_conditions": "This is an alternative explanation of وَنُقَدِّسُ لَكَ: declaring God to be holy and free from anything derogatory to His glory.",
+          "source_refs": [
+            "lane:entry:7961",
+            "mufradat:row:1162"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:30",
+          "word_location": "2:30:21",
+          "sense_ids": [
+            "qds_qaddasa_s1",
+            "qds_qaddasa_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qds_muqaddas",
+      "form_group_ids": [
+        "qac-form:qds:muqad~as:nominal:-",
+        "qac-form:qds:muqad~asap:nominal:-"
+      ],
+      "headword_arabic": "مُقَدَّس",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qds_muqaddas_s1",
+          "definition": "Hallowed, sacred, or purified from spiritual impurity; consecrated.",
+          "usage_conditions": "Used of sacred places, including the holy land and the sacred valley; in the Quran-focused explanation, purification concerns spiritual impurity such as associationism rather than merely physical dirt.",
+          "source_refs": [
+            "lane:entry:7969",
+            "mufradat:row:1162"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:21",
+          "word_location": "5:21:4",
+          "sense_ids": [
+            "qds_muqaddas_s1"
+          ]
+        },
+        {
+          "verse_key": "20:12",
+          "word_location": "20:12:8",
+          "sense_ids": [
+            "qds_muqaddas_s1"
+          ]
+        },
+        {
+          "verse_key": "79:16",
+          "word_location": "79:16:5",
+          "sense_ids": [
+            "qds_muqaddas_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qds_qudus",
+      "form_group_ids": [
+        "qac-form:qds:qudus:nominal:-"
+      ],
+      "headword_arabic": "قُدُس",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qds_qudus_s1",
+          "definition": "The Holy Spirit; in the Quranic usage, the spirit identified with Gabriel and associated with conveying divine purification, revelation, or guidance.",
+          "usage_conditions": "All supplied Quran occurrences are in the construction رُوحُ الْقُدُسِ. The Quran-focused interpretation identifies the referent with Gabriel; classical discussion also records the Spirit of Jesus, the Gospel, the divine name, or divine protection and guidance as alternative explanations of the expression.",
+          "source_refs": [
+            "lane:entry:7963",
+            "mufradat:row:1162"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:102",
+          "word_location": "16:102:4",
+          "sense_ids": [
+            "qds_qudus_s1"
+          ]
+        },
+        {
+          "verse_key": "2:87",
+          "word_location": "2:87:16",
+          "sense_ids": [
+            "qds_qudus_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qds_quddus",
+      "form_group_ids": [
+        "qac-form:qds:qud~uws:nominal:-"
+      ],
+      "headword_arabic": "قُدُّوس",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qds_quddus_s1",
+          "definition": "The All-Holy or utterly pure one, free from every imperfection and anything derogatory to divine glory.",
+          "usage_conditions": "A divine epithet with an intensive sense of holiness, purity, and perfection.",
+          "source_refs": [
+            "lane:entry:7967"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "59:23",
+          "word_location": "59:23:9",
+          "sense_ids": [
+            "qds_quddus_s1"
+          ]
+        },
+        {
+          "verse_key": "62:1",
+          "word_location": "62:1:10",
+          "sense_ids": [
+            "qds_quddus_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_qadasa_faraway",
+      "headword_arabic": "قَدَسَ",
+      "definition": "To go far away into the land or country.",
+      "usage_conditions": "An intransitive Form I usage describing departure deep into a land or country.",
+      "source_refs": [
+        "lane:entry:7960"
+      ]
+    },
+    {
+      "meaning_id": "cm_qadusa_pure",
+      "headword_arabic": "قَدُسَ",
+      "definition": "To be or become holy or pure.",
+      "usage_conditions": "Said of a thing; it may also be applied emphatically to God in the sense of holiness.",
+      "source_refs": [
+        "lane:entry:7960"
+      ]
+    },
+    {
+      "meaning_id": "cm_qaddasa_bless",
+      "headword_arabic": "قَدَّسَ",
+      "definition": "To bless someone.",
+      "usage_conditions": "A classical Form II usage, including in expressions invoking or denying divine blessing.",
+      "source_refs": [
+        "lane:entry:7961"
+      ]
+    },
+    {
+      "meaning_id": "cm_taqdis_prayer",
+      "headword_arabic": "تَقْدِيسٌ",
+      "definition": "A prayer for a blessing.",
+      "usage_conditions": "A nominal use referring to the act of praying that a blessing be granted to someone.",
+      "source_refs": [
+        "lane:entry:7961"
+      ]
+    },
+    {
+      "meaning_id": "cm_qaddasa_jerusalem",
+      "headword_arabic": "قَدَّسَ",
+      "definition": "To go or come to Jerusalem, Bayt al-Maqdis.",
+      "usage_conditions": "A specialized Form II directional usage, comparable to verbs formed from place-names.",
+      "source_refs": [
+        "lane:entry:7961"
+      ]
+    },
+    {
+      "meaning_id": "cm_taqaddasa_hallowed",
+      "headword_arabic": "تَقَدَّسَ",
+      "definition": "To become hallowed, sanctified, or purified; to be free from impurity or imperfection; or to purify oneself.",
+      "usage_conditions": "Form V usage, including descriptions of God as free from every impurity or defect and of a person or thing as becoming purified.",
+      "source_refs": [
+        "lane:entry:7962"
+      ]
+    },
+    {
+      "meaning_id": "cm_quds_holiness",
+      "headword_arabic": "قُدْسٌ",
+      "definition": "Holiness, sanctity, or purity.",
+      "usage_conditions": "A noun and verbal noun referring to the state or quality of holiness and purity.",
+      "source_refs": [
+        "lane:entry:7963"
+      ]
+    },
+    {
+      "meaning_id": "cm_quds_paradise",
+      "headword_arabic": "حَظِيرَةُ الْقُدْسِ",
+      "definition": "The Enclosure of Holiness, identified with Paradise.",
+      "usage_conditions": "A conventional expression for Paradise.",
+      "source_refs": [
+        "lane:entry:7963"
+      ]
+    },
+    {
+      "meaning_id": "cm_quds_blessing",
+      "headword_arabic": "قُدْسٌ",
+      "definition": "Blessing.",
+      "usage_conditions": "A classical nominal sense distinct from holiness or purity.",
+      "source_refs": [
+        "lane:entry:7963"
+      ]
+    },
+    {
+      "meaning_id": "cm_quds_jerusalem",
+      "headword_arabic": "الْقُدْسُ / بَيْتُ الْمَقْدِسِ",
+      "definition": "Jerusalem, especially in the designations al-Quds and Bayt al-Maqdis.",
+      "usage_conditions": "A place-name meaning the hallowed or consecrated dwelling.",
+      "source_refs": [
+        "lane:entry:7963",
+        "lane:entry:7969"
+      ]
+    },
+    {
+      "meaning_id": "cm_holy_land_regional",
+      "headword_arabic": "الْأَرْضُ الْمُقَدَّسَةُ",
+      "definition": "The Holy Land, a designation variously applied to Damascus, Palestine, part of the Jordan region, or Syria.",
+      "usage_conditions": "A classical geographical designation whose precise territorial reference varies among authorities.",
+      "source_refs": [
+        "lane:entry:7963",
+        "lane:entry:7969"
+      ]
+    },
+    {
+      "meaning_id": "cm_muqaddas_blessed",
+      "headword_arabic": "مُقَدَّسٌ",
+      "definition": "Blessed.",
+      "usage_conditions": "A broader classical extension of the passive participle beyond the Quranic sense of being hallowed or purified.",
+      "source_refs": [
+        "lane:entry:7969"
+      ]
+    },
+    {
+      "meaning_id": "cm_quddus_blessed",
+      "headword_arabic": "قُدُّوسٌ",
+      "definition": "The Blessed or greatly blessed one.",
+      "usage_conditions": "A classical divine epithet emphasizing blessing in addition to holiness and purity.",
+      "source_refs": [
+        "lane:entry:7967"
+      ]
+    },
+    {
+      "meaning_id": "cm_muqaddis_person",
+      "headword_arabic": "مُقَدِّسٌ",
+      "definition": "A religious person associated with pilgrimage to Jerusalem, especially a Christian monk; in some usages, a Christian or Jew, or a learned Jew.",
+      "usage_conditions": "A specialized personal noun connected with coming from or going to Bayt al-Maqdis and seeking blessing from it.",
+      "source_refs": [
+        "lane:entry:7970"
+      ]
+    },
+    {
+      "meaning_id": "cm_maqdisi",
+      "headword_arabic": "مَقْدِسِيٌّ / مُقَدَّسِيٌّ",
+      "definition": "Jerusalem-related or belonging to Jerusalem; as a personal designation, a Jew associated with Jerusalem.",
+      "usage_conditions": "A relational adjective and corresponding personal noun.",
+      "source_refs": [
+        "lane:entry:7971"
+      ]
+    },
+    {
+      "meaning_id": "cm_qadas_vessel",
+      "headword_arabic": "قَدَسٌ",
+      "definition": "A vessel like a bucket or tub.",
+      "usage_conditions": "A Hijazi dialectal term for a vessel used for purification.",
+      "source_refs": [
+        "lane:entry:7964"
+      ]
+    },
+    {
+      "meaning_id": "cm_qadus_waterpot",
+      "headword_arabic": "قَادُوسٌ",
+      "definition": "An earthen or wooden pot attached to a water-wheel.",
+      "usage_conditions": "Its plural is قَوَادِيسُ.",
+      "source_refs": [
+        "lane:entry:20856"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qds:7960:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qadasa_faraway"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7960:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qadusa_pure"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7961:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qds_qaddasa_s1"
+      ],
+      "note": "Hallowing or sanctifying is covered by the Quranic purify-or-sanctify sense."
+    },
+    {
+      "unit_id": "lane-unit:qds:7961:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qds_qaddasa_s2"
+      ],
+      "note": "Declaring God free from impurity or imperfection is covered by the Quranic declaration-of-holiness sense."
+    },
+    {
+      "unit_id": "lane-unit:qds:7961:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qds_qaddasa_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7961:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qaddasa_bless"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7961:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taqdis_prayer"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7961:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qaddasa_jerusalem"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7962:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taqaddasa_hallowed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7962:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taqaddasa_hallowed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7963:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_quds_holiness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7963:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_quds_paradise"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7963:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qds_qudus_s1"
+      ],
+      "note": "The Quranic Holy Spirit construction and its recorded referential interpretations are covered there."
+    },
+    {
+      "unit_id": "lane-unit:qds:7963:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_quds_blessing"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7963:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_quds_jerusalem"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7963:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_holy_land_regional"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7964:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qadas_vessel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7965:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring throughout to قُدْسٌ."
+    },
+    {
+      "unit_id": "lane-unit:qds:7966:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to the separate article for hadith."
+    },
+    {
+      "unit_id": "lane-unit:qds:7967:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qds_quddus_s1",
+        "cm_quddus_blessed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7968:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to مُقَدَّسٌ."
+    },
+    {
+      "unit_id": "lane-unit:qds:7969:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qds_muqaddas_s1",
+        "cm_muqaddas_blessed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7969:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only synonymic cross-reference to القُدُّوسُ."
+    },
+    {
+      "unit_id": "lane-unit:qds:7969:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_quds_jerusalem"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7969:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qds_muqaddas_s1",
+        "cm_holy_land_regional"
+      ],
+      "note": "The Quranic sacred-land use and the broader regional designation are both represented."
+    },
+    {
+      "unit_id": "lane-unit:qds:7970:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muqaddis_person"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7971:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maqdisi"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:qds:7972:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to القُدُّوسُ."
+    },
+    {
+      "unit_id": "lane-unit:qds:20856:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qadus_waterpot"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "All supplied Quran occurrences of قُدُس are in the construction رُوحُ الْقُدُسِ; the referent is interpreted as Gabriel in the Quran-focused evidence, while classical interpretations vary.",
+    "The classical geographical scope of الْأَرْضُ الْمُقَدَّسَةُ is reported with differing identifications, including Palestine, Damascus, part of Jordan, and Syria."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,218 @@
+{
+  "root": "mrA",
+  "arabic": "مرأ",
+  "root_idea": {
+    "summary": "An irregular hamzated lexical family centered on the human individual and its feminine counterpart, with related vocabulary for human excellence, bodily digestion, and food that agrees with one's constitution.",
+    "development": "The person terms are treated as a set of non-productive inherited forms rather than a single regular pattern. From the person notion, مُرُوءَة denotes perfected manliness, while مَرِيء and related forms concern the throat-adjacent stomach and the agreeableness of food.",
+    "source_refs": [
+      "maqayis:row:4337",
+      "mufradat:row:1354"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mrA:maro':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mrA_person",
+      "reason": "Displayed under the normalized masculine-person citation form مَرْء."
+    },
+    {
+      "form_group_id": "qac-form:mrA:m~ariy^_#:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mrA_mari_adj",
+      "reason": "Displayed as the distinct Quranic adjective مَرِيء."
+    },
+    {
+      "form_group_id": "qac-form:mrA:{mora>:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "mrA_person",
+      "reason": "An inflected Quranic variant in the construction امْرَأَ سُوء, covered by the male-person noun."
+    },
+    {
+      "form_group_id": "qac-form:mrA:{mora>at:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mrA_woman",
+      "reason": "Displayed under the normalized feminine citation form امْرَأَة."
+    },
+    {
+      "form_group_id": "qac-form:mrA:{mori}:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "mrA_person",
+      "reason": "Case-form variant امْرِئِ of the masculine-person noun."
+    },
+    {
+      "form_group_id": "qac-form:mrA:{moru&NA:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "mrA_person",
+      "reason": "The Quranic form امْرُؤٌ is an inherited citation-form variant of the masculine-person noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mrA_person",
+      "form_group_ids": [
+        "qac-form:mrA:maro':nominal:-",
+        "qac-form:mrA:{mora>:nominal:-",
+        "qac-form:mrA:{mori}:nominal:-",
+        "qac-form:mrA:{moru&NA:nominal:-"
+      ],
+      "headword_arabic": "مَرْء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "mrA_person_s1",
+          "definition": "An individual person; in gendered or contextual usage, a man.",
+          "usage_conditions": "The Quranic noun appears in inherited forms including مَرْء، امْرُؤ، امْرِئ، and امْرَأ. In the construction امْرَأَ سُوء, the person is characterized by the following qualification; the qualification is not part of the headword's meaning.",
+          "source_refs": [
+            "mufradat:row:1354"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:176",
+          "word_location": "4:176:8",
+          "sense_ids": [
+            "mrA_person_s1"
+          ]
+        },
+        {
+          "verse_key": "24:11",
+          "word_location": "24:11:16",
+          "sense_ids": [
+            "mrA_person_s1"
+          ]
+        },
+        {
+          "verse_key": "19:28",
+          "word_location": "19:28:6",
+          "sense_ids": [
+            "mrA_person_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mrA_woman",
+      "form_group_ids": [
+        "qac-form:mrA:{mora>at:nominal:-"
+      ],
+      "headword_arabic": "امْرَأَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 26,
+      "senses": [
+        {
+          "sense_id": "mrA_woman_s1",
+          "definition": "A woman; in relation to a husband, a wife.",
+          "usage_conditions": "The Quranic form covers singular, dual, case, and possessive forms. The relational sense 'wife' is contextual usage of the noun, not a separate lexical headword.",
+          "source_refs": [
+            "mufradat:row:1354"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:5",
+          "word_location": "19:5:7",
+          "sense_ids": [
+            "mrA_woman_s1"
+          ]
+        },
+        {
+          "verse_key": "2:282",
+          "word_location": "2:282:61",
+          "sense_ids": [
+            "mrA_woman_s1"
+          ]
+        },
+        {
+          "verse_key": "27:23",
+          "word_location": "27:23:3",
+          "sense_ids": [
+            "mrA_woman_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "mrA_mari_adj",
+      "form_group_ids": [
+        "qac-form:mrA:m~ariy^_#:nominal:-"
+      ],
+      "headword_arabic": "مَرِيء",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "mrA_mari_adj_s1",
+          "definition": "Agreeable, wholesome, and easy to consume or digest.",
+          "usage_conditions": "Used of food or what is consumed, especially in the Quranic expression هَنِيئًا مَرِيئًا.",
+          "source_refs": [
+            "mufradat:row:1354"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:4",
+          "word_location": "4:4:14",
+          "sense_ids": [
+            "mrA_mari_adj_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mrA_muruah",
+      "headword_arabic": "مُرُوءَة",
+      "definition": "Fullness or perfection of the person, especially perfected manliness.",
+      "usage_conditions": "An abstract noun describing human completeness rather than the ordinary noun for a person.",
+      "source_refs": [
+        "maqayis:row:4337",
+        "mufradat:row:1354"
+      ]
+    },
+    {
+      "meaning_id": "mrA_mari_org",
+      "headword_arabic": "مَرِيء",
+      "definition": "The upper part of the stomach and the adjacent rumen attached to the throat.",
+      "usage_conditions": "An anatomical noun, distinct from the Quranic adjectival use meaning agreeable or wholesome.",
+      "source_refs": [
+        "maqayis:row:4337",
+        "mufradat:row:1354"
+      ]
+    },
+    {
+      "meaning_id": "mrA_maraa",
+      "headword_arabic": "مَرَاءَة",
+      "definition": "The digestibility or agreeableness of food—its being well received by the natural constitution.",
+      "usage_conditions": "A verbal noun for the quality of being مَرِيئًا or easy to digest.",
+      "source_refs": [
+        "maqayis:row:4337"
+      ]
+    },
+    {
+      "meaning_id": "mrA_maru_food",
+      "headword_arabic": "مَرُؤَ / أَمْرَأَ",
+      "definition": "Of food, to be agreeable to a person, suit the constitution, or be well tolerated.",
+      "usage_conditions": "The food may be construed as agreeing with or pleasing a person, as in the construction مَرَأَنِي الطَّعَامُ / أَمْرَأَنِي.",
+      "source_refs": [
+        "maqayis:row:4337",
+        "mufradat:row:1354"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [],
+  "cautions": [
+    "No Lane primary source units were supplied in this packet; the broader classical branches therefore rely on the supplied Maqayis and Mufradat evidence.",
+    "The six QAC groups include inherited spelling and case variants of the masculine-person noun; they are consolidated under one public headword rather than treated as separate meanings.",
+    "مَرِيء has two distinct attested branches: the Quranic adjective meaning agreeable or wholesome to consume and the classical anatomical noun."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

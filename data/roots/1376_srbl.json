@@ -1,0 +1,174 @@
+{
+  "root": "srbl",
+  "arabic": "سربل",
+  "root_idea": {
+    "summary": "The supplied evidence centers on the garment as a covering of the body: سِرْبَال denotes a shirt or garment, while related derived forms express putting on or becoming clothed in one.",
+    "development": "The lexical field extends from the garment noun to transitive and reflexive clothing constructions, a broader use for anything worn, protective mail or armor, and several specialized Classical extensions.",
+    "source_refs": [
+      "lane:entry:40839",
+      "lane:entry:40836",
+      "lane:entry:40837",
+      "mufradat:row:677"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:srbl:sara`biyl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:srbl:sirbal",
+      "reason": "Displayed under the attested Classical singular citation form سِرْبَال rather than the Quranic plural morphology lemma سَرَٰبِيل."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:srbl:sirbal",
+      "form_group_ids": [
+        "qac-form:srbl:sara`biyl:nominal:-"
+      ],
+      "headword_arabic": "سِرْبَال",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform:srbl:sirbal:s1",
+          "definition": "A shirt or garment worn on the body.",
+          "usage_conditions": "In the Quranic plural سَرَابِيل, this includes garments generally, including clothing associated with protection from heat.",
+          "source_refs": [
+            "lane:entry:40839",
+            "mufradat:row:677"
+          ]
+        },
+        {
+          "sense_id": "qform:srbl:sirbal:s2",
+          "definition": "A protective garment, specifically a coat of mail or armor used to guard against battle.",
+          "usage_conditions": "Attested in the Quranic plural سَرَابِيل for clothing that protects against the harm of combat.",
+          "source_refs": [
+            "lane:entry:40839",
+            "mufradat:row:677"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:50",
+          "word_location": "14:50:1",
+          "sense_ids": [
+            "qform:srbl:sirbal:s1"
+          ]
+        },
+        {
+          "verse_key": "16:81",
+          "word_location": "16:81:14",
+          "sense_ids": [
+            "qform:srbl:sirbal:s1"
+          ]
+        },
+        {
+          "verse_key": "16:81",
+          "word_location": "16:81:17",
+          "sense_ids": [
+            "qform:srbl:sirbal:s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_srbl_sarbala_clothe_other",
+      "headword_arabic": "سَرْبَلَ",
+      "definition": "To clothe someone with a garment.",
+      "usage_conditions": "A transitive Form I construction; the garment may be expressed directly or with بِـ.",
+      "source_refs": [
+        "lane:entry:40836"
+      ]
+    },
+    {
+      "meaning_id": "cm_srbl_tasarbala_clothe_self",
+      "headword_arabic": "تَسَرْبَلَ",
+      "definition": "To clothe oneself or become clothed in a garment.",
+      "usage_conditions": "A reflexive or intransitive construction; the garment may be expressed directly or with بِـ.",
+      "source_refs": [
+        "lane:entry:40837"
+      ]
+    },
+    {
+      "meaning_id": "cm_srbl_sarbalah_bread",
+      "headword_arabic": "سَرْبَلَةٌ",
+      "definition": "A dish of broken or crumbled bread with grease, dripping, or gravy.",
+      "usage_conditions": "A specialized food term, distinct from the garment meanings.",
+      "source_refs": [
+        "lane:entry:40838"
+      ]
+    },
+    {
+      "meaning_id": "cm_srbl_sirbal_anything_worn",
+      "headword_arabic": "سِرْبَالٌ",
+      "definition": "Anything worn as an article of dress or covering.",
+      "usage_conditions": "A broader Classical nominal extension beyond the specifically attested Quranic applications; its plural is سَرَابِيل.",
+      "source_refs": [
+        "lane:entry:40839"
+      ]
+    },
+    {
+      "meaning_id": "cm_srbl_sirbal_caliphate_office",
+      "headword_arabic": "سِرْبَالٌ",
+      "definition": "Metonymically, the office of the caliph.",
+      "usage_conditions": "An idiomatic use in which the garment metaphorically represents the office invested in its holder.",
+      "source_refs": [
+        "lane:entry:40839"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:srbl:40836:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_srbl_sarbala_clothe_other"
+      ],
+      "note": "Transitive clothing use represented under the derived Classical verb."
+    },
+    {
+      "unit_id": "lane-unit:srbl:40837:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_srbl_tasarbala_clothe_self"
+      ],
+      "note": "Reflexive or self-clothing use represented under the derived Classical verb."
+    },
+    {
+      "unit_id": "lane-unit:srbl:40838:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_srbl_sarbalah_bread"
+      ],
+      "note": "Specialized food meaning represented separately."
+    },
+    {
+      "unit_id": "lane-unit:srbl:40839:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:srbl:sirbal:s1",
+        "qform:srbl:sirbal:s2",
+        "cm_srbl_sirbal_anything_worn"
+      ],
+      "note": "The unit supplies the shirt, coat-of-mail, and broader anything-worn branches; all are represented."
+    },
+    {
+      "unit_id": "lane-unit:srbl:40839:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_srbl_sirbal_caliphate_office"
+      ],
+      "note": "Metonymic office meaning represented separately."
+    }
+  ],
+  "cautions": [
+    "The Quranic evidence consists of the plural form سَرَابِيل; the public headword is normalized to the attested singular citation form سِرْبَال.",
+    "Lane's printed Quran citation uses the historical notation “xvi. 83”; it is not converted here into a modern verse key. Quran examples use only the independently supplied QAC locations.",
+    "No Maqayis entry was supplied, so the root-level orientation is based on the available lexical evidence rather than an independent Maqayis root discussion."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

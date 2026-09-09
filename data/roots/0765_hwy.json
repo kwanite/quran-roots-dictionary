@@ -1,0 +1,527 @@
+{
+  "root": "hwy",
+  "arabic": "هوي",
+  "root_idea": {
+    "summary": "The root centers on emptiness and falling: an unfilled space or air, and movement downward into a fall or depth.",
+    "development": "From emptiness and descent develop the senses of vacant space, abyss, falling and overthrowing. Desire is treated as an inclination that can draw a person away from what is right or downward into harm.",
+    "source_refs": [
+      "maqayis:row:4972"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hwy:hawaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_hwy_hawa_i",
+      "reason": "Displayed as the normalized Form I citation form هَوَى."
+    },
+    {
+      "form_group_id": "qac-form:hwy:{sotahowato:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_hwy_istahwa_x",
+      "reason": "Displayed under the normalized Form X citation form اِسْتَهْوَى."
+    },
+    {
+      "form_group_id": "qac-form:hwy:>ahowaA^':nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form_hwy_hawa_noun",
+      "reason": "The Quranic plural أَهْوَاء is represented under the supported singular noun citation form هَوًى."
+    },
+    {
+      "form_group_id": "qac-form:hwy:haAwiyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_hwy_hawiya",
+      "reason": "Displayed as the substantivized active-participle noun هَاوِيَة."
+    },
+    {
+      "form_group_id": "qac-form:hwy:hawaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_hwy_hawa_noun",
+      "reason": "Displayed under the nominal citation forms هَوًى and هَوَاءٌ, whose Quranic occurrences in this QAC group include desire and emptiness."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_hwy_hawa_i",
+      "form_group_ids": [
+        "qac-form:hwy:hawaY`:verb:I"
+      ],
+      "headword_arabic": "هَوَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "sense_hwy_hawa_i_fall",
+          "definition": "To fall, descend, or plunge downward; contextually, to perish through a fall.",
+          "usage_conditions": "Includes downward movement and being swept or carried downward or away; the resulting sense may be perishing or destruction.",
+          "source_refs": [
+            "mufradat:row:1539"
+          ]
+        },
+        {
+          "sense_id": "sense_hwy_hawa_i_incline",
+          "definition": "To incline toward, desire, or be drawn to something.",
+          "usage_conditions": "May describe an inclination toward a person or place, or what the self desires.",
+          "source_refs": [
+            "mufradat:row:1539",
+            "lane:entry:17197",
+            "lane:entry:17202"
+          ]
+        },
+        {
+          "sense_id": "sense_hwy_hawa_i_overthrow",
+          "definition": "To bring something down or overthrow it.",
+          "usage_conditions": "A causative use represented in the Quranic occurrence أَهْوَىٰ; it expresses causing a fall rather than merely falling oneself.",
+          "source_refs": [
+            "mufradat:row:1539",
+            "lane:entry:17197"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "53:1",
+          "word_location": "53:1:3",
+          "sense_ids": [
+            "sense_hwy_hawa_i_fall"
+          ]
+        },
+        {
+          "verse_key": "20:81",
+          "word_location": "20:81:17",
+          "sense_ids": [
+            "sense_hwy_hawa_i_fall"
+          ]
+        },
+        {
+          "verse_key": "14:37",
+          "word_location": "14:37:20",
+          "sense_ids": [
+            "sense_hwy_hawa_i_incline"
+          ]
+        },
+        {
+          "verse_key": "2:87",
+          "word_location": "2:87:22",
+          "sense_ids": [
+            "sense_hwy_hawa_i_incline"
+          ]
+        },
+        {
+          "verse_key": "53:53",
+          "word_location": "53:53:2",
+          "sense_ids": [
+            "sense_hwy_hawa_i_overthrow"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_hwy_istahwa_x",
+      "form_group_ids": [
+        "qac-form:hwy:{sotahowato:verb:X"
+      ],
+      "headword_arabic": "اِسْتَهْوَى",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_hwy_istahwa_x_entice",
+          "definition": "To entice, lead astray, or cause someone to follow a desire.",
+          "usage_conditions": "The Quranic construction takes a person as the one led or enticed, especially toward misguided desire.",
+          "source_refs": [
+            "mufradat:row:1539"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:71",
+          "word_location": "6:71:19",
+          "sense_ids": [
+            "sense_hwy_istahwa_x_entice"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_hwy_hawa_noun",
+      "form_group_ids": [
+        "qac-form:hwy:hawaA^':nominal:-",
+        "qac-form:hwy:>ahowaA^':nominal:-"
+      ],
+      "headword_arabic": "هَوًى / هَوَاءٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 28,
+      "senses": [
+        {
+          "sense_id": "sense_hwy_hawa_noun_desire",
+          "definition": "Desire or personal inclination; in Quranic usage, often a vain or blameworthy desire opposed to revealed guidance.",
+          "usage_conditions": "The singular هَوًى denotes an individual's inclination or desire, while أَهْوَاء can denote the differing desires of individuals or groups.",
+          "source_refs": [
+            "lane:entry:17202",
+            "mufradat:row:1539"
+          ]
+        },
+        {
+          "sense_id": "sense_hwy_hawa_noun_void",
+          "definition": "Emptiness, vacancy, or a void.",
+          "usage_conditions": "In the Quranic expression describing hearts as هَوَاءٌ, it denotes hearts left empty or void rather than a separate desire.",
+          "source_refs": [
+            "lane:entry:17204",
+            "mufradat:row:1539"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "38:26",
+          "word_location": "38:26:13",
+          "sense_ids": [
+            "sense_hwy_hawa_noun_desire"
+          ]
+        },
+        {
+          "verse_key": "13:37",
+          "word_location": "13:37:7",
+          "sense_ids": [
+            "sense_hwy_hawa_noun_desire"
+          ]
+        },
+        {
+          "verse_key": "14:43",
+          "word_location": "14:43:9",
+          "sense_ids": [
+            "sense_hwy_hawa_noun_void"
+          ]
+        },
+        {
+          "verse_key": "79:40",
+          "word_location": "79:40:9",
+          "sense_ids": [
+            "sense_hwy_hawa_noun_desire"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_hwy_hawiya",
+      "form_group_ids": [
+        "qac-form:hwy:haAwiyap:nominal:-"
+      ],
+      "headword_arabic": "هَاوِيَة",
+      "public_pos_label": "Active participle (substantivized)",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_hwy_hawiya_abyss",
+          "definition": "An abyss or deep pit; in the Quran, the Pit into which the ruined person falls.",
+          "usage_conditions": "A substantivized active participle with an eschatological application to the fire or abyss of punishment.",
+          "source_refs": [
+            "lane:entry:17207",
+            "mufradat:row:1539"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "101:9",
+          "word_location": "101:9:2",
+          "sense_ids": [
+            "sense_hwy_hawiya_abyss"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_hwy_love_attachment",
+      "headword_arabic": "الهَوَى",
+      "definition": "Love or attachment; an affective inclination toward something.",
+      "usage_conditions": "A general affection or attachment sense, distinct from the specifically blameworthy-desire use.",
+      "source_refs": [
+        "lane:entry:17202"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_beloved",
+      "headword_arabic": "هَوًى",
+      "definition": "A beloved person or object of love.",
+      "usage_conditions": "The form may function as an inflectionally flexible noun for a beloved or object of affection.",
+      "source_refs": [
+        "lane:entry:17202"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_erroneous_opinions",
+      "headword_arabic": "أَهْوَاء",
+      "definition": "Opinions or doctrines that diverge from the right way or the truth.",
+      "usage_conditions": "A plural conventional use, especially in the expression أهل الأهواء, “people of erroneous opinions.”",
+      "source_refs": [
+        "lane:entry:17202"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_hearing_sound",
+      "headword_arabic": "هَوَى بِهِ",
+      "definition": "In the expression هَوَتْ أُذُنُهُ, to hear a confused, humming, or singing sound.",
+      "usage_conditions": "An idiomatic expression concerning the sound heard by the ear.",
+      "source_refs": [
+        "lane:entry:17197"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_curse",
+      "headword_arabic": "هَوَتْ أُمُّهُ",
+      "definition": "A curse or expression of wonder implying that the person's mother has fallen or perished.",
+      "usage_conditions": "A fixed exclamatory or insulting expression, not a literal statement about a particular mother.",
+      "source_refs": [
+        "lane:entry:17197"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_form_iv_reach",
+      "headword_arabic": "أَهْوَى",
+      "definition": "To extend or stretch the hand toward something nearby in order to take it; to reach for or take hold of something, and also to signal with an object.",
+      "usage_conditions": "The construction distinguishes reaching toward a nearby object from reaching toward a distant one; it includes reaching for a sword.",
+      "source_refs": [
+        "lane:entry:17198"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_huwwa_hollow",
+      "headword_arabic": "هُوَّة",
+      "definition": "A deep hollow, cavity, pit, or depressed place in the ground.",
+      "usage_conditions": "The noun covers a deep descent or low place as well as a hollow or cavity.",
+      "source_refs": [
+        "lane:entry:17203"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_huwwa_idiom",
+      "headword_arabic": "هُوَّة",
+      "definition": "In the expression جعل الأمر هوة واحدة, to make a matter uniform or reduce it to one consistent state.",
+      "usage_conditions": "A conventional idiomatic use.",
+      "source_refs": [
+        "lane:entry:17203"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_mortar",
+      "headword_arabic": "هَاوَن",
+      "definition": "A mortar or vessel in which substances are pounded or bruised.",
+      "usage_conditions": "The lexical item is reported with an etymological connection to هَاوُونٌ.",
+      "source_refs": [
+        "lane:entry:17206"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_mahwa_well",
+      "headword_arabic": "مَهْوَى الرَّكِيَّة",
+      "definition": "The cavity or depth of a well.",
+      "usage_conditions": "A construction referring specifically to the hollow portion of a well.",
+      "source_refs": [
+        "lane:entry:17208"
+      ]
+    },
+    {
+      "meaning_id": "meaning_hwy_mahwa_between_mountains",
+      "headword_arabic": "مَهْوَاة",
+      "definition": "The space between two mountains, or a pit or hollow dug into the ground.",
+      "usage_conditions": "The noun applies both to a natural gap or descent and to an excavated hollow.",
+      "source_refs": [
+        "lane:entry:17209"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hwy:17197:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hwy_hawa_i_overthrow"
+      ],
+      "note": "The construction means to make something fall."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17197:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17197:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_hearing_sound"
+      ],
+      "note": "Idiomatic hearing use."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17197:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_curse"
+      ],
+      "note": "Fixed curse or exclamation."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17198:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_form_iv_reach"
+      ],
+      "note": "Extension of the hand and reaching construction."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17199:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17200:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17201:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17202:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_love_attachment",
+        "sense_hwy_hawa_noun_desire"
+      ],
+      "note": "Love, attachment, inclination, and blameworthy desire are covered by the listed targets."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17202:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_beloved"
+      ],
+      "note": "Beloved or object of love."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17202:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hwy_hawa_noun_desire"
+      ],
+      "note": "Blameworthy inclination toward appetites."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17202:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_erroneous_opinions"
+      ],
+      "note": "Plural use for opinions diverging from truth."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17203:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_huwwa_hollow"
+      ],
+      "note": "Deep hollow, pit, or depressed place."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17203:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_huwwa_idiom"
+      ],
+      "note": "Idiomatic use for making a matter uniform."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17204:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hwy_hawa_noun_void"
+      ],
+      "note": "Vacancy or empty space."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17204:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_hwy_hawa_noun_void"
+      ],
+      "note": "The vacant or empty thing is covered by the void sense."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17205:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17206:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_mortar"
+      ],
+      "note": "Mortar or pounding vessel."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17207:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hwy_hawiya_abyss"
+      ],
+      "note": "Abyss or unreachable depth."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17208:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_mahwa_well"
+      ],
+      "note": "Cavity of a well."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17208:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17209:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to هُوَّة."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17209:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_hwy_mahwa_between_mountains"
+      ],
+      "note": "Space between mountains or excavated pit."
+    },
+    {
+      "unit_id": "lane-unit:hwy:17210:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only equivalence to another headword."
+    }
+  ],
+  "cautions": [
+    "The supplied QAC nominal group for هَوَآء includes both the Quranic desire forms written هَوَىٰ and the occurrence meaning emptiness; they are retained as distinct senses under a combined citation display rather than silently conflated.",
+    "The supplied QAC analysis places the Quranic surface form أَهْوَىٰ at 53:53 in the Form I group, while the Lane evidence separately catalogs أَهْوَى as Form IV. The artifact follows the supplied QAC morphology and retains the explicitly attested causative “bring down or overthrow” use.",
+    "The displayed nominal occurrence count of 28 aggregates the 11 occurrences in the هَوَآء group and the 17 occurrences in the merged أَهْوَاء group."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

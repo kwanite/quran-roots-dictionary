@@ -1,0 +1,125 @@
+{
+  "root": "nsw",
+  "arabic": "نسو",
+  "root_idea": {
+    "summary": "No unified root-level semantic orientation is established by the supplied evidence.",
+    "development": "The packet contains a Form VI forgetting-related branch and the anatomical noun النَّسَا, but no Maqāyīs or Mufradāt discussion from which to infer a supported root-level historical development.",
+    "source_refs": []
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nsw:nisaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_nsw_nisaa",
+      "reason": "Displayed as the normalized nominal citation form نِسَاء."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_nsw_nisaa",
+      "form_group_ids": [
+        "qac-form:nsw:nisaA^':nominal:-"
+      ],
+      "headword_arabic": "نِسَاء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 59,
+      "senses": [],
+      "quran_examples": []
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_nsw_tanasa_feign",
+      "headword_arabic": "تَنَاسَى",
+      "definition": "To pretend to have forgotten something.",
+      "usage_conditions": "Form VI verb, normally used transitively with an object; the construction can describe feigned rather than actual forgetting.",
+      "source_refs": [
+        "lane:entry:32226"
+      ]
+    },
+    {
+      "meaning_id": "cm_nsw_tanasa_forget",
+      "headword_arabic": "تَنَاسَى",
+      "definition": "To forget something, or deliberately put it out of one’s mind.",
+      "usage_conditions": "Form VI verb; the evidence includes both ordinary forgetting and intentional mental dismissal.",
+      "source_refs": [
+        "lane:entry:32226"
+      ]
+    },
+    {
+      "meaning_id": "cm_nsw_tunusiya_gradual",
+      "headword_arabic": "تُنُوسِيَ",
+      "definition": "To be forgotten gradually.",
+      "usage_conditions": "A passive Form VI construction used of something that fades from memory, including a word or similar expression.",
+      "source_refs": [
+        "lane:entry:32226"
+      ]
+    },
+    {
+      "meaning_id": "cm_nsw_nasa_vein",
+      "headword_arabic": "النَّسَا",
+      "definition": "A vein or cord running through the thigh from the hip toward the shank, especially the sciatic vein.",
+      "usage_conditions": "An anatomical term applied in descriptions of the human or animal body.",
+      "source_refs": [
+        "lane:entry:32227"
+      ]
+    },
+    {
+      "meaning_id": "cm_nsw_nasa_sciatica",
+      "headword_arabic": "النَّسَا",
+      "definition": "Sciatica or hip-gout.",
+      "usage_conditions": "A medical use of النَّسَا or عِرْقُ النَّسَا for a painful condition associated with the hip and sciatic region.",
+      "source_refs": [
+        "lane:entry:32227"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nsw:32225:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form VI; it supplies no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:nsw:32226:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nsw_tanasa_feign",
+        "cm_nsw_tanasa_forget"
+      ],
+      "note": "Covers feigned forgetting, forgetting, and deliberate dismissal from mind."
+    },
+    {
+      "unit_id": "lane-unit:nsw:32226:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nsw_tunusiya_gradual"
+      ],
+      "note": "Covers being forgotten by degrees."
+    },
+    {
+      "unit_id": "lane-unit:nsw:32227:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nsw_nasa_vein",
+        "cm_nsw_nasa_sciatica"
+      ],
+      "note": "Covers the anatomical vein and the associated medical use."
+    },
+    {
+      "unit_id": "lane-unit:nsw:32228:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another form and a cited verse; no lexical definition is supplied here."
+    }
+  ],
+  "cautions": [
+    "The sole QAC form group is identified as the noun نِسَاء and occurs 59 times, with contextual renderings such as “women” and “wives.” However, the supplied packet contains no Lane or Mufradāt lexical evidence directly establishing that Quranic sense, so no numbered Quranic sense is asserted.",
+    "The Lane record is a supplemental-root match and its supplied lexical material concerns Form VI forgetting-related expressions and النَّسَا, not the Quranic noun نِسَاء."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Quranic form نِسَاء is consistently rendered contextually as “women” or related expressions, but that meaning cannot be assigned a numbered Quranic sense from Quran Foundation context alone because no matching Lane or Mufradāt explanation is supplied."
+  ]
+}

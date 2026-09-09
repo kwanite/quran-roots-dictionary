@@ -1,0 +1,178 @@
+{
+  "root": "$mx",
+  "arabic": "شمخ",
+  "root_idea": {
+    "summary": "The root centers on elevation and exaltation: physical height or loftiness, and figuratively self-exaltation and pride.",
+    "development": "The evidence develops from the height of mountains to proud bearing, while related expressions apply elevation or extension to intentions, deserts, and lineage.",
+    "source_refs": [
+      "maqayis:row:2692",
+      "lane:entry:39182",
+      "lane:entry:39183",
+      "lane:entry:39184",
+      "lane:entry:39186"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$mx:$a`mixa`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_$mx_shamikh",
+      "reason": "Displayed under the normalized singular adjective citation form شَامِخٌ rather than the Quranic feminine plural surface form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_$mx_shamikh",
+      "form_group_ids": [
+        "qac-form:$mx:$a`mixa`t:nominal:-"
+      ],
+      "headword_arabic": "شَامِخٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_$mx_shamikh_lofty",
+          "definition": "Lofty; high.",
+          "usage_conditions": "The Quranic occurrence is the feminine plural adjective شَامِخَاتٍ, describing the lofty mountains mentioned in 77:27. The sense denotes physical elevation.",
+          "source_refs": [
+            "lane:entry:39186",
+            "mufradat:row:787"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "77:27",
+          "word_location": "77:27:4",
+          "sense_ids": [
+            "sense_$mx_shamikh_lofty"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical_$mx_pride",
+      "headword_arabic": "شَمَخَ بِأَنْفِهِ؛ شَامِخٌ",
+      "definition": "To exalt oneself and be proud or disdainful; of a person, to carry the nose high in pride.",
+      "usage_conditions": "Used in the construction شَمَخَ بِأَنْفِهِ and also adjectivally of someone proud or disdainful; elevated noses are described in the same branch.",
+      "source_refs": [
+        "lane:entry:39182",
+        "lane:entry:39186",
+        "mufradat:row:787"
+      ]
+    },
+    {
+      "meaning_id": "classical_$mx_far_intention",
+      "headword_arabic": "نِيَّةٌ شَمَخٌ",
+      "definition": "A distant or far-reaching intention, purpose, or design.",
+      "usage_conditions": "A conventional description of an intention or purpose that extends far ahead.",
+      "source_refs": [
+        "lane:entry:39183"
+      ]
+    },
+    {
+      "meaning_id": "classical_$mx_far_desert",
+      "headword_arabic": "مَفَازَةٌ شَمُوخٌ",
+      "definition": "A far-extending or vast desert, especially a waterless desert.",
+      "usage_conditions": "Describes a desert in terms of its great extent.",
+      "source_refs": [
+        "lane:entry:39184"
+      ]
+    },
+    {
+      "meaning_id": "classical_$mx_lofty_lineage",
+      "headword_arabic": "نَسَبٌ شَامِخٌ",
+      "definition": "A high, distinguished, or proud lineage.",
+      "usage_conditions": "A figurative use of elevation for lineage.",
+      "source_refs": [
+        "lane:entry:39186"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$mx:39182:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense_$mx_shamikh_lofty"
+      ],
+      "note": "The high or lofty branch is covered by the Quranic elevation sense."
+    },
+    {
+      "unit_id": "lane-unit:$mx:39182:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_$mx_pride"
+      ],
+      "note": "The self-exalting and proud construction is represented under the classical pride meaning."
+    },
+    {
+      "unit_id": "lane-unit:$mx:39183:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_$mx_far_intention"
+      ],
+      "note": "The far-reaching intention expression is represented directly."
+    },
+    {
+      "unit_id": "lane-unit:$mx:39184:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_$mx_far_desert"
+      ],
+      "note": "The far-extending desert expression is represented directly."
+    },
+    {
+      "unit_id": "lane-unit:$mx:39184:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$mx:39185:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$mx:39186:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_$mx_shamikh_lofty"
+      ],
+      "note": "The high or lofty mountain branch is represented under the Quranic elevation sense."
+    },
+    {
+      "unit_id": "lane-unit:$mx:39186:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "classical_$mx_pride"
+      ],
+      "note": "The proud or disdainful adjectival use is covered by the classical pride meaning."
+    },
+    {
+      "unit_id": "lane-unit:$mx:39186:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "classical_$mx_pride"
+      ],
+      "note": "The elevated-nose expression adds no separate lexical branch beyond pride."
+    },
+    {
+      "unit_id": "lane-unit:$mx:39186:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical_$mx_lofty_lineage"
+      ],
+      "note": "The figurative lineage usage is represented separately."
+    }
+  ],
+  "cautions": [
+    "The sole Quran occurrence is the feminine plural form شَامِخَاتٍ; the public headword is normalized to the singular adjective شَامِخٌ.",
+    "The Quranic evidence attests physical loftiness; the pride, far-reaching, desert, and lineage applications are broader Classical Arabic usages."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

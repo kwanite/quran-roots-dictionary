@@ -1,0 +1,750 @@
+{
+  "root": "nwb",
+  "arabic": "نوب",
+  "root_idea": {
+    "summary": "The root centers on repeatedly returning to a familiar place, point, or state.",
+    "development": "The notion of recurrent return yields senses of repeated visits and turns, as well as related uses for taking another's place and for events that befall someone. In the Quranic Form IV, this return is directed to God through repentance and sincere obedience.",
+    "source_refs": [
+      "maqayis:row:4782",
+      "mufradat:row:1494"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nwb:>anaAba:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_nwb_anaba",
+      "reason": "Quran-attested Form IV verb with a distinct religious sense of returning to God."
+    },
+    {
+      "form_group_id": "qac-form:nwb:m~uniyb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_nwb_munib",
+      "reason": "Quran-attested active participle used adjectivally and substantivally for one who turns to God."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_nwb_anaba",
+      "form_group_ids": [
+        "qac-form:nwb:>anaAba:verb:IV"
+      ],
+      "headword_arabic": "أَنَابَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "sense_nwb_anaba_return_to_god",
+          "definition": "To turn or return to God in repentance and sincere obedience.",
+          "usage_conditions": "In Quranic usage, the return is directed to God or expressed as a renewed orientation toward Him; the form may convey repeated return or steadfast adherence to obedience.",
+          "source_refs": [
+            "lane:entry:44677",
+            "mufradat:row:1494"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "13:27",
+          "word_location": "13:27:19",
+          "sense_ids": [
+            "sense_nwb_anaba_return_to_god"
+          ]
+        },
+        {
+          "verse_key": "38:24",
+          "word_location": "38:24:32",
+          "sense_ids": [
+            "sense_nwb_anaba_return_to_god"
+          ]
+        },
+        {
+          "verse_key": "39:54",
+          "word_location": "39:54:1",
+          "sense_ids": [
+            "sense_nwb_anaba_return_to_god"
+          ]
+        },
+        {
+          "verse_key": "60:4",
+          "word_location": "60:4:50",
+          "sense_ids": [
+            "sense_nwb_anaba_return_to_god"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_nwb_munib",
+      "form_group_ids": [
+        "qac-form:nwb:m~uniyb:nominal:-"
+      ],
+      "headword_arabic": "مُنِيبٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "sense_nwb_munib_turning_to_god",
+          "definition": "One who turns or returns to God in repentance and sincere, devoted obedience.",
+          "usage_conditions": "Active participle used adjectivally or substantivally; it presents return to God as an enduring or recurrent orientation.",
+          "source_refs": [
+            "lane:entry:44692",
+            "mufradat:row:1494"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:75",
+          "word_location": "11:75:5",
+          "sense_ids": [
+            "sense_nwb_munib_turning_to_god"
+          ]
+        },
+        {
+          "verse_key": "30:31",
+          "word_location": "30:31:1",
+          "sense_ids": [
+            "sense_nwb_munib_turning_to_god"
+          ]
+        },
+        {
+          "verse_key": "34:9",
+          "word_location": "34:9:29",
+          "sense_ids": [
+            "sense_nwb_munib_turning_to_god"
+          ]
+        },
+        {
+          "verse_key": "50:33",
+          "word_location": "50:33:7",
+          "sense_ids": [
+            "sense_nwb_munib_turning_to_god"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_nwb_repeated",
+      "headword_arabic": "نَابَ / اِنْتَابَ",
+      "definition": "To come to someone or a place repeatedly or by turns; to return at intervals.",
+      "usage_conditions": "Especially used of repeated visits to water; the broader sense can include doing something repeatedly or by turns.",
+      "source_refs": [
+        "lane:entry:44677"
+      ]
+    },
+    {
+      "meaning_id": "cm_nwb_substitute",
+      "headword_arabic": "نَابَ عَنْهُ",
+      "definition": "To take or supply another's place; to act as a substitute, deputy, agent, or representative.",
+      "usage_conditions": "May be said of a person or thing taking the place of another in an affair.",
+      "source_refs": [
+        "lane:entry:44677"
+      ]
+    },
+    {
+      "meaning_id": "cm_nwb_befall",
+      "headword_arabic": "نَابَهُ أَمْرٌ",
+      "definition": "For an event or affair to befall, happen to, or overtake someone.",
+      "usage_conditions": "The event is generally understood as a misfortune or adverse occurrence.",
+      "source_refs": [
+        "lane:entry:44677"
+      ]
+    },
+    {
+      "meaning_id": "cm_naawaba_turns",
+      "headword_arabic": "نَاوَبَ",
+      "definition": "To do something with another by turns, each taking a turn; to share in alternating turns.",
+      "usage_conditions": "Applies to jointly performed work or an activity divided between participants.",
+      "source_refs": [
+        "lane:entry:44678"
+      ]
+    },
+    {
+      "meaning_id": "cm_anabtu_substitute",
+      "headword_arabic": "أَنَبْتُهُ عَنْهُ",
+      "definition": "To make someone take another's place or act as another's substitute, deputy, or agent.",
+      "usage_conditions": "A causative substitution construction used with an affair or task in which the substitute acts.",
+      "source_refs": [
+        "lane:entry:44679"
+      ]
+    },
+    {
+      "meaning_id": "cm_anabtu_disregard",
+      "headword_arabic": "أَنَبْتُ لَهُ",
+      "definition": "To pay no regard to someone who comes; to give him no consideration.",
+      "usage_conditions": "Attested in the idiomatic expression describing indifference to a visitor.",
+      "source_refs": [
+        "lane:entry:44679"
+      ]
+    },
+    {
+      "meaning_id": "cm_tanaawaba_turns",
+      "headword_arabic": "تَنَاوَبَ",
+      "definition": "To perform, handle, or share an affair by turns.",
+      "usage_conditions": "Used of alternating work, provisions, water, or occurrences that come to people successively.",
+      "source_refs": [
+        "lane:entry:44680"
+      ]
+    },
+    {
+      "meaning_id": "cm_nawb_distance",
+      "headword_arabic": "نَوْبٌ",
+      "definition": "Proximity or a distance measured by the interval of travel between visits, especially a journey to water.",
+      "usage_conditions": "Reported measures vary from a day's and night's journey to several days or leagues; in poetic usage it may denote nearness permitting repeated visits.",
+      "source_refs": [
+        "lane:entry:44683"
+      ]
+    },
+    {
+      "meaning_id": "cm_nawb_strength",
+      "headword_arabic": "نَوْبٌ",
+      "definition": "Strength or power.",
+      "usage_conditions": "Attested in expressions describing someone as left without strength.",
+      "source_refs": [
+        "lane:entry:44683"
+      ]
+    },
+    {
+      "meaning_id": "cm_nub_bees",
+      "headword_arabic": "نُبٌ",
+      "definition": "Bees.",
+      "usage_conditions": "The form is explained in the lexical discussion as a plural or quasi-plural associated with recurring return to the hive, with alternative etymological explanations also reported.",
+      "source_refs": [
+        "lane:entry:44684"
+      ]
+    },
+    {
+      "meaning_id": "cm_nubians",
+      "headword_arabic": "النُّوبُ / نُوبِيٌّ",
+      "definition": "The Nubians or Nubia, their country; in the related gentilic use, a Nubian.",
+      "usage_conditions": "The designation may refer to the people, their country, or an individual member of the people.",
+      "source_refs": [
+        "lane:entry:44684"
+      ]
+    },
+    {
+      "meaning_id": "cm_nawba_turn",
+      "headword_arabic": "نَوْبَةٌ",
+      "definition": "A turn, allotted time, or opportunity in a succession.",
+      "usage_conditions": "Includes one's turn to perform an activity or to come to water after another's turn.",
+      "source_refs": [
+        "lane:entry:44685"
+      ]
+    },
+    {
+      "meaning_id": "cm_nawba_assembly",
+      "headword_arabic": "نَوْبَةٌ",
+      "definition": "An assembly, company, troop, or gathered body of people.",
+      "usage_conditions": "A collective noun for a congregated group.",
+      "source_refs": [
+        "lane:entry:44685"
+      ]
+    },
+    {
+      "meaning_id": "cm_naib_recurrent",
+      "headword_arabic": "نَائِبٌ / نَائِبَةٌ",
+      "definition": "Recurring or coming again and again.",
+      "usage_conditions": "Applied to things such as abundant good, a quotidian fever, or visitors who come repeatedly.",
+      "source_refs": [
+        "lane:entry:44688"
+      ]
+    },
+    {
+      "meaning_id": "cm_naib_substitute",
+      "headword_arabic": "نَائِبٌ",
+      "definition": "One who takes or supplies another's place; a substitute, deputy, agent, or representative.",
+      "usage_conditions": "A personal agentive use of the substitution branch.",
+      "source_refs": [
+        "lane:entry:44688"
+      ]
+    },
+    {
+      "meaning_id": "cm_naiba_misfortune",
+      "headword_arabic": "نَائِبَةٌ",
+      "definition": "An event that befalls someone, especially an affliction, misfortune, disaster, or difficult occurrence.",
+      "usage_conditions": "The predominant use is for something evil or distressing, though some authorities extend it to an event of either good or evil nature.",
+      "source_refs": [
+        "lane:entry:44688"
+      ]
+    },
+    {
+      "meaning_id": "cm_manab_waterroad",
+      "headword_arabic": "مَنَابٌ",
+      "definition": "A road or route to water.",
+      "usage_conditions": "A concrete travel term associated with reaching a water source.",
+      "source_refs": [
+        "lane:entry:44689"
+      ]
+    },
+    {
+      "meaning_id": "cm_manab_recourse",
+      "headword_arabic": "مَنَابٌ",
+      "definition": "A place or means of return and recourse.",
+      "usage_conditions": "Figurative usage for one's return or recourse to someone or something.",
+      "source_refs": [
+        "lane:entry:44689"
+      ]
+    },
+    {
+      "meaning_id": "cm_munab_substitute",
+      "headword_arabic": "مُنَابٌ",
+      "definition": "A person made to take another's place, or an affair in which someone acts as another's substitute.",
+      "usage_conditions": "Passive-participial use of the causative substitution construction.",
+      "source_refs": [
+        "lane:entry:44690"
+      ]
+    },
+    {
+      "meaning_id": "cm_manub_substituted",
+      "headword_arabic": "مَنُوبٌ عَنْهُ",
+      "definition": "A person whose place is supplied by another, or an affair in which another acts in his place.",
+      "usage_conditions": "The construction marks the person or matter for whom substitution is made.",
+      "source_refs": [
+        "lane:entry:44691"
+      ]
+    },
+    {
+      "meaning_id": "cm_munib_substitute",
+      "headword_arabic": "مُنِيبٌ",
+      "definition": "One who causes another to take his or another's place or to act as a substitute.",
+      "usage_conditions": "This is the causative substitution use of the active participle and is distinct from the Quranic use meaning one who turns to God.",
+      "source_refs": [
+        "lane:entry:44692"
+      ]
+    },
+    {
+      "meaning_id": "cm_munib_rain",
+      "headword_arabic": "مُنِيبٌ",
+      "definition": "Copious, good rain.",
+      "usage_conditions": "A specialized descriptive use for abundant rain, including excellent spring rain that may be followed by further rain.",
+      "source_refs": [
+        "lane:entry:44692"
+      ]
+    },
+    {
+      "meaning_id": "cm_muntab_recurrent",
+      "headword_arabic": "مُنْتَابٌ",
+      "definition": "One who comes or visits repeatedly, by turns, or does something successively.",
+      "usage_conditions": "An active-participial use covering recurrent visitation and alternating performance.",
+      "source_refs": [
+        "lane:entry:44693"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nwb:44677:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nwb_repeated"
+      ],
+      "note": "Repeated coming by turns."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44677:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nwb_repeated"
+      ],
+      "note": "Repeated coming to a group."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44677:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nwb_repeated"
+      ],
+      "note": "Tentative repeated/by-turn action covered by the recurrent-use meaning."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44677:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nwb_repeated"
+      ],
+      "note": "Repeated visits to water."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44677:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_nwb_anaba_return_to_god"
+      ],
+      "note": "Return to God through repentance and obedience."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44677:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nwb_substitute"
+      ],
+      "note": "Taking another's place."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44677:g1:sub7",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nwb_substitute"
+      ],
+      "note": "A thing supplying another's place."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44677:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nwb_befall"
+      ],
+      "note": "An affair befalling someone."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44678:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_naawaba_turns"
+      ],
+      "note": "Doing an affair with another by turns."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44678:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_naawaba_turns"
+      ],
+      "note": "Sharing with another by turns."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44679:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_anabtu_substitute"
+      ],
+      "note": "Making someone act as a substitute."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44679:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44679:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_anabtu_disregard"
+      ],
+      "note": "Idiomatic disregard of someone who comes."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44680:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tanaawaba_turns"
+      ],
+      "note": "Performing an affair by turns."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44680:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_tanaawaba_turns"
+      ],
+      "note": "Alternating performance."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44680:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_tanaawaba_turns"
+      ],
+      "note": "Taking turns supplying food."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44680:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_tanaawaba_turns"
+      ],
+      "note": "Sharing water by turns."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44680:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_tanaawaba_turns"
+      ],
+      "note": "Deaths coming successively by turns."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44681:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to Form I."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44682:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to Form IV."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44683:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nawb_distance"
+      ],
+      "note": "Distance or nearness associated with travel and repeated visits."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44683:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nawb_strength"
+      ],
+      "note": "Strength."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44683:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nawb_distance"
+      ],
+      "note": "Nearness covered by the distance/nearness meaning."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44683:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Unresolved morphological analysis without an independently stated lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44684:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nub_bees"
+      ],
+      "note": "Bees."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44684:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nubians"
+      ],
+      "note": "Nubians or Nubia."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44684:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nubians"
+      ],
+      "note": "Individual Nubian covered by the people/gentilic meaning."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44684:g2:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another lexical article."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44685:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nawba_turn"
+      ],
+      "note": "A turn, allotted time, or opportunity."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44685:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_nawba_turn"
+      ],
+      "note": "A turn to come to water."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44685:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_nawba_assembly"
+      ],
+      "note": "An assembled company of people."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44686:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44687:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44688:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_naib_recurrent"
+      ],
+      "note": "Good recurring again and again."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44688:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_naib_recurrent"
+      ],
+      "note": "Quotidian recurring fever."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44688:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_naib_recurrent"
+      ],
+      "note": "Guests coming repeatedly."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44688:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44688:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_naib_substitute"
+      ],
+      "note": "One who supplies another's place."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44688:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_naiba_misfortune"
+      ],
+      "note": "An afflictive event or misfortune."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44689:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_manab_waterroad"
+      ],
+      "note": "Road to water."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44689:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_manab_recourse"
+      ],
+      "note": "Figurative recourse or return."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44690:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_munab_substitute"
+      ],
+      "note": "Person made to act as a substitute."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44690:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_munab_substitute"
+      ],
+      "note": "An affair involving substitution."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44691:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_manub_substituted"
+      ],
+      "note": "Person whose place is supplied by another."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44691:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_manub_substituted"
+      ],
+      "note": "An affair in which another acts in one's place."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44692:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_nwb_munib_turning_to_god"
+      ],
+      "note": "Repentant person turning to God."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44692:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_munib_substitute"
+      ],
+      "note": "Active participle in the causative substitution sense."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44692:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44692:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_munib_rain"
+      ],
+      "note": "Copious or good rain."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44693:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Participle label alone; lexical content is supplied by the following units."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44693:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muntab_recurrent"
+      ],
+      "note": "Coming by turns."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44693:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_muntab_recurrent"
+      ],
+      "note": "Repeated visiting."
+    },
+    {
+      "unit_id": "lane-unit:nwb:44693:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_muntab_recurrent"
+      ],
+      "note": "Doing something repeatedly or by turns."
+    }
+  ],
+  "cautions": [
+    "The classical distance sense of نَوْبٌ is reported with varying travel measures and should not be reduced to one fixed modern distance.",
+    "The substitution and rain meanings recorded for مُنِيبٌ are Classical Arabic uses distinct from its Quranic sense of turning to God."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

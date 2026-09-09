@@ -1,0 +1,469 @@
+{
+  "root": "ZmA",
+  "arabic": "ظمأ",
+  "root_idea": {
+    "summary": "The root centers on thirst and on the interval of abstention between drinkings.",
+    "development": "The lexical development links the interval between two drinkings, ظِمْءٌ, with the thirst that arises during it, ظَمَأٌ, and extends to descriptions of the thirsty state, its causation, and endurance.",
+    "source_refs": [
+      "mufradat:row:930",
+      "lane:entry:32682",
+      "lane:entry:32686"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ZmA:taZoma&uA@:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_ZmA_Zami_a",
+      "reason": "Distinct attested Form I verb, normalized to its classical citation form."
+    },
+    {
+      "form_group_id": "qac-form:ZmA:Zama>:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_ZmA_Zama",
+      "reason": "Distinct Quran-attested noun denoting thirst."
+    },
+    {
+      "form_group_id": "qac-form:ZmA:Z~amo_#aAn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_ZmA_Zam_an",
+      "reason": "Distinct Quran-attested adjectival form, normalized to the singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_ZmA_Zami_a",
+      "form_group_ids": [
+        "qac-form:ZmA:taZoma&uA@:verb:I"
+      ],
+      "headword_arabic": "ظَمِئَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_ZmA_verb_thirst",
+          "definition": "To thirst; to be thirsty.",
+          "usage_conditions": "An intransitive Form I verb. In the Quranic occurrence, the imperfect is negated to express the absence of thirst.",
+          "source_refs": [
+            "lane:entry:32682",
+            "mufradat:row:930"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:119",
+          "word_location": "20:119:3",
+          "sense_ids": [
+            "s_ZmA_verb_thirst"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_ZmA_Zama",
+      "form_group_ids": [
+        "qac-form:ZmA:Zama>:nominal:-"
+      ],
+      "headword_arabic": "ظَمَأٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_ZmA_noun_thirst",
+          "definition": "Thirst; the condition of being thirsty.",
+          "usage_conditions": "The noun names the experience or condition of thirst.",
+          "source_refs": [
+            "lane:entry:32682"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:120",
+          "word_location": "9:120:23",
+          "sense_ids": [
+            "s_ZmA_noun_thirst"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_ZmA_Zam_an",
+      "form_group_ids": [
+        "qac-form:ZmA:Z~amo_#aAn:nominal:-"
+      ],
+      "headword_arabic": "ظَمْآنُ",
+      "public_pos_label": "Adjective · substantivized",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_ZmA_adj_thirsty",
+          "definition": "Thirsty; suffering from thirst.",
+          "usage_conditions": "An adjective describing one who is thirsty; the Quranic occurrence is substantivized and definite.",
+          "source_refs": [
+            "lane:entry:32688",
+            "mufradat:row:930"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:39",
+          "word_location": "24:39:7",
+          "sense_ids": [
+            "s_ZmA_adj_thirsty"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "m_ZmA_verb_longing",
+      "headword_arabic": "ظَمِئَ",
+      "definition": "To desire or long to meet someone.",
+      "usage_conditions": "A figurative extension of thirst.",
+      "source_refs": [
+        "lane:entry:32682"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_iv_cause_thirst",
+      "headword_arabic": "أَظْمَأَ",
+      "definition": "To make someone thirsty.",
+      "usage_conditions": "Causative Form IV; the lexical evidence allows variation in the degree of thirst.",
+      "source_refs": [
+        "lane:entry:32684"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_iv_lean",
+      "headword_arabic": "أَظْمَأَ",
+      "definition": "To make a horse lean or lank by sweating it.",
+      "usage_conditions": "A figurative or specialized use applied to a horse.",
+      "source_refs": [
+        "lane:entry:32684"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_v_endure",
+      "headword_arabic": "تَظَمَّأَ",
+      "definition": "To constrain oneself to endure a state of thirst.",
+      "usage_conditions": "Reflexive Form V usage.",
+      "source_refs": [
+        "lane:entry:32685"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_zim_thirst",
+      "headword_arabic": "ظِمْءٌ",
+      "definition": "Thirst; the condition of being thirsty.",
+      "usage_conditions": "A nominal form distinct from ظَمَأٌ.",
+      "source_refs": [
+        "lane:entry:32686"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_zim_longing",
+      "headword_arabic": "ظِمْءٌ",
+      "definition": "Figurative desire or longing to meet someone.",
+      "usage_conditions": "A tropical extension from the sense of thirst.",
+      "source_refs": [
+        "lane:entry:32686"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_zim_interval",
+      "headword_arabic": "ظِمْءٌ",
+      "definition": "The interval between two drinkings or waterings, especially the period between a camel’s visits to water; also the period for which camels are kept from water during it.",
+      "usage_conditions": "A conventional term in the management of camels and other livestock.",
+      "source_refs": [
+        "lane:entry:32686"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_zim_lifetime",
+      "headword_arabic": "ظِمْءُ الحَيَاةِ",
+      "definition": "The period from birth to death; a lifetime.",
+      "usage_conditions": "Figurative usage.",
+      "source_refs": [
+        "lane:entry:32686"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_zman_longing",
+      "headword_arabic": "ظَمْآنُ",
+      "definition": "Desirous or longing to meet someone.",
+      "usage_conditions": "A figurative adjectival extension of thirst.",
+      "source_refs": [
+        "lane:entry:32688"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_zman_lean",
+      "headword_arabic": "ظَمْآنُ",
+      "definition": "Spare or lean, with little flesh; of joints, firm and well-braced rather than flabby.",
+      "usage_conditions": "A figurative use applied to bodily features, a horse’s legs, and firm joints.",
+      "source_refs": [
+        "lane:entry:32688"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_zman_wind",
+      "headword_arabic": "ظَمْآنُ",
+      "definition": "Hot and dry, lacking moisture; said of a non-gentle wind.",
+      "usage_conditions": "A figurative description of wind.",
+      "source_refs": [
+        "lane:entry:32688"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_zamaa_badnature",
+      "headword_arabic": "ظَمَاءَةٌ",
+      "definition": "Evilness of character: meanness of disposition and failure to deal equitably with associates.",
+      "usage_conditions": "An assumed-tropical extension.",
+      "source_refs": [
+        "lane:entry:32690"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_azmaa_tawny",
+      "headword_arabic": "أَظْمَأُ",
+      "definition": "Tawny.",
+      "usage_conditions": "Applied to a spear.",
+      "source_refs": [
+        "lane:entry:32692"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_azmaa_black",
+      "headword_arabic": "أَظْمَأُ",
+      "definition": "Black.",
+      "usage_conditions": "Applied to an antelope or camel.",
+      "source_refs": [
+        "lane:entry:32692"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_mazmaa_ground",
+      "headword_arabic": "مَظْمَأٌ",
+      "definition": "A thirsty or arid place of the earth or ground.",
+      "usage_conditions": "A noun describing land or ground.",
+      "source_refs": [
+        "lane:entry:32693"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_mizmaa_verythirsty",
+      "headword_arabic": "مِظْمَاءٌ",
+      "definition": "One suffering very severe thirst.",
+      "usage_conditions": "A term for a person in extreme thirst.",
+      "source_refs": [
+        "lane:entry:32694"
+      ]
+    },
+    {
+      "meaning_id": "m_ZmA_mizmai_rainfed",
+      "headword_arabic": "مِظْمَئِيٌّ",
+      "definition": "Rain-fed, receiving water only from rain rather than irrigation.",
+      "usage_conditions": "Applied to seed or produce.",
+      "source_refs": [
+        "lane:entry:32695"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ZmA:32682:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ZmA_verb_thirst",
+        "s_ZmA_noun_thirst"
+      ],
+      "note": "The base verb and its listed infinitive noun for thirst are represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32682:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_verb_longing"
+      ],
+      "note": "Figurative longing to meet is represented under the verb."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32683:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to the next paragraph."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32684:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_iv_cause_thirst"
+      ],
+      "note": "The causative meaning of Form IV is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32684:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_iv_lean"
+      ],
+      "note": "The specialized horse-leaning use is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32685:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_v_endure"
+      ],
+      "note": "The Form V endurance construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32686:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_zim_thirst",
+        "m_ZmA_zim_longing"
+      ],
+      "note": "The substantive thirst term and its referenced two-sense range are covered."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32686:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_zim_longing"
+      ],
+      "note": "Figurative longing is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32686:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_zim_interval"
+      ],
+      "note": "The interval and withholding-from-water construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32686:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_zim_lifetime"
+      ],
+      "note": "The lifetime expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32686:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dialectal variant with no additional meaning."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32687:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32688:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ZmA_adj_thirsty"
+      ],
+      "note": "The thirsty adjective and its substantivized Quranic use are represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32688:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_zman_longing"
+      ],
+      "note": "Figurative longing is represented under the adjective."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32688:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_zman_lean"
+      ],
+      "note": "The spare, lean, and firm-jointed applications are grouped in one meaning."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32688:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_zman_wind"
+      ],
+      "note": "The hot, dry wind use is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32689:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only synonym entry."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32690:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_zamaa_badnature"
+      ],
+      "note": "The ethical and character-related extension is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32691:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32692:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_azmaa_tawny"
+      ],
+      "note": "The tawny color use is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32692:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_azmaa_black"
+      ],
+      "note": "The black color use is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32693:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_mazmaa_ground"
+      ],
+      "note": "The thirsty-ground noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32694:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_mizmaa_verythirsty"
+      ],
+      "note": "The term for extreme thirst is represented."
+    },
+    {
+      "unit_id": "lane-unit:ZmA:32695:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "m_ZmA_mizmai_rainfed"
+      ],
+      "note": "The rain-fed agricultural adjective is represented."
+    }
+  ],
+  "cautions": [
+    "No Maqāyīs entry was supplied; the root-level orientation is therefore limited to the directly attested lexical discussion."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

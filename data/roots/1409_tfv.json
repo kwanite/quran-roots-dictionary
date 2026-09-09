@@ -1,0 +1,122 @@
+{
+  "root": "tfv",
+  "arabic": "تفث",
+  "root_idea": {
+    "summary": "A root centered on accumulated bodily dirt and unkemptness, especially the condition produced by suspended grooming.",
+    "development": "The lexical development extends from dirt on the nails and body, and matted or dusty hair, to the pilgrimage expression قضاء التفث: removing that condition through cleansing, grooming, and related acts of release from ihram restrictions.",
+    "source_refs": [
+      "maqayis:row:940",
+      "mufradat:row:186",
+      "lane:entry:16702"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:tfv:tafav:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-tfv-tafath",
+      "reason": "The Quran-attested nominal is presented under the normalized citation form تَفَثٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-tfv-tafath",
+      "form_group_ids": [
+        "qac-form:tfv:tafav:nominal:-"
+      ],
+      "headword_arabic": "تَفَثٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-tfv-tafath-s1",
+          "definition": "Accumulated bodily dirt and unkemptness, including matted or dusty hair and neglected bodily grooming.",
+          "usage_conditions": "In the Quranic pilgrimage context, this is the condition to be removed after the period of ihram-related grooming restrictions; the term can also denote bodily dirt more generally.",
+          "source_refs": [
+            "lane:entry:16702",
+            "mufradat:row:186"
+          ]
+        },
+        {
+          "sense_id": "qf-tfv-tafath-s2",
+          "definition": "The cleansing and grooming acts that remove pilgrimage-related unkemptness and complete the transition out of ihram.",
+          "usage_conditions": "Used especially in the construction قضاء التفث. Explanations include shaving or shortening hair, trimming the moustache, paring the nails, removing unwanted hair, and related acts; some explanations extend it to associated pilgrimage rites and release from ihram restrictions.",
+          "source_refs": [
+            "lane:entry:16702"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:29",
+          "word_location": "22:29:3",
+          "sense_ids": [
+            "qf-tfv-tafath-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-tfv-tafitha",
+      "headword_arabic": "تَفِثَ",
+      "definition": "To become dirty or unkempt after leaving off anointing oneself and grooming the body.",
+      "usage_conditions": "Form I verb; the described condition includes neglected anointing and shaving or other grooming, particularly in the pilgrimage setting.",
+      "source_refs": [
+        "lane:entry:16702"
+      ]
+    },
+    {
+      "meaning_id": "cm-tfv-tafith-adjective",
+      "headword_arabic": "تَفِثٌ",
+      "definition": "Dusty, matted-haired, and altered in odour; unkempt from lack of anointing and grooming.",
+      "usage_conditions": "An adjectival description of a person or one exhibiting this unkempt condition.",
+      "source_refs": [
+        "lane:entry:16703"
+      ]
+    },
+    {
+      "meaning_id": "cm-tfv-contaminate-place",
+      "headword_arabic": "تَفَثَتِ الدِّمَاءُ مَكَانَهُ",
+      "definition": "To contaminate or soil a place, as blood does in the cited expression.",
+      "usage_conditions": "Attested as a reported idiomatic expression and distinct from the pilgrimage-related dirt and cleansing usage.",
+      "source_refs": [
+        "lane:entry:16702"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:tfv:16702:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-tfv-tafath-s1",
+        "qf-tfv-tafath-s2",
+        "cm-tfv-tafitha"
+      ],
+      "note": "Covers the dirty or unkempt condition, its removal in the pilgrimage construction, and the related Form I verb."
+    },
+    {
+      "unit_id": "lane-unit:tfv:16702:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tfv-contaminate-place"
+      ],
+      "note": "Reports the distinct contaminating expression involving blood and a place."
+    },
+    {
+      "unit_id": "lane-unit:tfv:16703:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tfv-tafith-adjective"
+      ],
+      "note": "Covers the adjectival sense of dusty, matted, and unkempt."
+    }
+  ],
+  "cautions": [
+    "The single Quran occurrence is in قضاء التفث. Classical explanations differ over whether the expression emphasizes the dirt or unkempt condition itself, the grooming acts that remove it, or a wider set of pilgrimage completion rites."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

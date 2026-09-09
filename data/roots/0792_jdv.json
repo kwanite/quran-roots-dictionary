@@ -1,0 +1,92 @@
+{
+  "root": "jdv",
+  "arabic": "جدث",
+  "root_idea": {
+    "summary": "The root denotes a grave or sepulchre; its Quranic plural أَجْدَاث refers to graves.",
+    "development": "The lexical evidence shows a concrete burial-place noun, جَدَثٌ, with the plural أَجْدَاث; the derived Form VIII اِجْتَدَثَ expresses making or preparing a grave.",
+    "source_refs": [
+      "maqayis:row:1102",
+      "lane:entry:46144"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jdv:>ajodaAv:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:jdv:jadath",
+      "reason": "The Quranic plural أَجْدَاث is presented under the normalized singular dictionary citation form جَدَث."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:jdv:jadath",
+      "form_group_ids": [
+        "qac-form:jdv:>ajodaAv:nominal:-"
+      ],
+      "headword_arabic": "جَدَث",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsen:jdv:jadath:1",
+          "definition": "A grave or sepulchre.",
+          "usage_conditions": "The Quran attests the plural أَجْدَاث, used for graves in resurrection scenes. Classical evidence also records أَجْدُث as a plural and notes dialectal variation in the corresponding form.",
+          "source_refs": [
+            "lane:entry:46145",
+            "mufradat:row:234"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "36:51",
+          "word_location": "36:51:7",
+          "sense_ids": [
+            "qsen:jdv:jadath:1"
+          ]
+        },
+        {
+          "verse_key": "70:43",
+          "word_location": "70:43:4",
+          "sense_ids": [
+            "qsen:jdv:jadath:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:jdv:ijtdath",
+      "headword_arabic": "اِجْتَدَثَ",
+      "definition": "To make or prepare a grave or sepulchre, whether for oneself or another.",
+      "usage_conditions": "Form VIII derived verb; the construction may express preparing a grave for the agent himself.",
+      "source_refs": [
+        "lane:entry:46144"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jdv:46144:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:jdv:ijtdath"
+      ],
+      "note": "The derived Form VIII action of making or preparing a grave is represented as a Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:jdv:46145:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:jdv:jadath:1"
+      ],
+      "note": "The noun's grave or sepulchre meaning is represented under the Quran-attested form."
+    }
+  ],
+  "cautions": [
+    "The public headword is normalized to the singular جَدَث, while all three Quranic occurrences are the plural أَجْدَاث."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,906 @@
+{
+  "root": "*mm",
+  "arabic": "ذمم",
+  "root_idea": {
+    "summary": "The root centers on blame and censure, the opposite of praise.",
+    "development": "From blame developed associated meanings of a covenant or protected right, since neglecting or violating it incurs blame. The root also preserves distinct usages for scanty wells and flowing or deposited matter.",
+    "source_refs": [
+      "maqayis:row:1910"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:*mm:*im~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_dhimmah",
+      "reason": "Quran-attested noun with the lexical meaning of covenant, protection, and inviolable obligation."
+    },
+    {
+      "form_group_id": "qac-form:*mm:ma*omuwm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_madhmum",
+      "reason": "Quran-attested passive participle with a distinct blame or disgrace meaning."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_dhimmah",
+      "form_group_ids": [
+        "qac-form:*mm:*im~ap:nominal:-"
+      ],
+      "headword_arabic": "ذِمَّةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform_dhimmah_s1",
+          "definition": "A covenant or compact carrying an inviolable right or obligation, and the protection or security arising from it.",
+          "usage_conditions": "Used in the Quran for a protected covenant or undertaking whose violation entails blame; the two occurrences are in the expression ذِمَّةً.",
+          "source_refs": [
+            "lane:entry:21696"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:8",
+          "word_location": "9:8:10",
+          "sense_ids": [
+            "qform_dhimmah_s1"
+          ]
+        },
+        {
+          "verse_key": "9:10",
+          "word_location": "9:10:7",
+          "sense_ids": [
+            "qform_dhimmah_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_madhmum",
+      "form_group_ids": [
+        "qac-form:*mm:ma*omuwm:nominal:-"
+      ],
+      "headword_arabic": "مَذْمُومٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform_madhmum_s1",
+          "definition": "Blamed, censured, or discredited; hence disgraced or regarded as not praiseworthy.",
+          "usage_conditions": "A passive participle of ذَمَّ. Quranic contextual renderings vary between being blamed and being disgraced, without requiring separate lexical senses.",
+          "source_refs": [
+            "lane:entry:21698",
+            "mufradat:row:510"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:18",
+          "word_location": "17:18:17",
+          "sense_ids": [
+            "qform_madhmum_s1"
+          ]
+        },
+        {
+          "verse_key": "68:49",
+          "word_location": "68:49:10",
+          "sense_ids": [
+            "qform_madhmum_s1"
+          ]
+        },
+        {
+          "verse_key": "17:22",
+          "word_location": "17:22:8",
+          "sense_ids": [
+            "qform_madhmum_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_dhamm_blame_verb",
+      "headword_arabic": "ذَمَّ",
+      "definition": "To blame, censure, dispraise, or find fault with; also to satirize, especially in verse, or to suffer loss or diminution in reputation.",
+      "usage_conditions": "The core Form I verbal use; the satirical and reputational uses are associated extensions of blame.",
+      "source_refs": [
+        "lane:entry:21685"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamm_barren_land",
+      "headword_arabic": "ذَمَّ",
+      "definition": "Of a place: to become barren or affected by drought, with its produce becoming scanty.",
+      "usage_conditions": "A specialized, figurative use applied to land or its pasture.",
+      "source_refs": [
+        "lane:entry:21685"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamm_nasal_flow",
+      "headword_arabic": "ذَمَّ",
+      "definition": "Of the nose: to flow with mucus or other nasal discharge.",
+      "usage_conditions": "A bodily use distinct from the blame verb.",
+      "source_refs": [
+        "lane:entry:21685"
+      ]
+    },
+    {
+      "meaning_id": "cm_yudammu_scarcity",
+      "headword_arabic": "يُذَامُّ",
+      "definition": "To pass one’s life contending with or resigned to scantiness.",
+      "usage_conditions": "A Form III expression describing endurance of a meagre condition.",
+      "source_refs": [
+        "lane:entry:21687"
+      ]
+    },
+    {
+      "meaning_id": "cm_adhamma_do_blameworthy",
+      "headword_arabic": "أَذَمَّ",
+      "definition": "To do or say something for which one deserves blame or censure.",
+      "usage_conditions": "Form IV intransitive use; it may be construed with a person or people affected by the blame.",
+      "source_refs": [
+        "lane:entry:21688"
+      ]
+    },
+    {
+      "meaning_id": "cm_adhamma_camel_lag",
+      "headword_arabic": "أَذَمَّ",
+      "definition": "Of a riding camel or other mount: to become jaded, cease progressing, and lag behind the traveling company.",
+      "usage_conditions": "A figurative or specialized Form IV use associated with failure to keep pace.",
+      "source_refs": [
+        "lane:entry:21688"
+      ]
+    },
+    {
+      "meaning_id": "cm_adhamma_find_blameworthy",
+      "headword_arabic": "أَذَمَّ",
+      "definition": "To find a person, place, or thing blameworthy, faulty, or discommendable.",
+      "usage_conditions": "A transitive Form IV use meaning to judge or discover something to be blameworthy.",
+      "source_refs": [
+        "lane:entry:21688"
+      ]
+    },
+    {
+      "meaning_id": "cm_adhamma_contempt",
+      "headword_arabic": "أَذَمَّ",
+      "definition": "To hold someone in low or mean estimation or contempt, or to leave someone blamed among the people.",
+      "usage_conditions": "The contempt sense occurs with بِهِ or بِهِمْ in the cited constructions.",
+      "source_refs": [
+        "lane:entry:21688"
+      ]
+    },
+    {
+      "meaning_id": "cm_adhamma_protect",
+      "headword_arabic": "أَذَمَّ",
+      "definition": "To grant protection, refuge, or security; to obtain a promise or covenant of safety for someone.",
+      "usage_conditions": "The Form IV protective use includes securing another’s protection or taking responsibility for that security.",
+      "source_refs": [
+        "lane:entry:21688"
+      ]
+    },
+    {
+      "meaning_id": "cm_tadhammum_avoid_blame",
+      "headword_arabic": "تَذَمَّمَ",
+      "definition": "To shun or avoid blame; to refrain from something out of disdain, shame, or fear of censure.",
+      "usage_conditions": "It can also mean being regardful of what deserves reverence, respect, honour, or defence in a companion or neighbour.",
+      "source_refs": [
+        "lane:entry:21689"
+      ]
+    },
+    {
+      "meaning_id": "cm_tadhamum_mutual_blame",
+      "headword_arabic": "تَذَامَّ",
+      "definition": "To blame, censure, or find fault with one another.",
+      "usage_conditions": "Reciprocal Form VI use.",
+      "source_refs": [
+        "lane:entry:21690"
+      ]
+    },
+    {
+      "meaning_id": "cm_istadhamm_require_blame",
+      "headword_arabic": "اِسْتَذَمَّ",
+      "definition": "To require or invite blame, or to be blamed or dispraised.",
+      "usage_conditions": "Form X use expressing seeking or undergoing the state of blame.",
+      "source_refs": [
+        "lane:entry:21691"
+      ]
+    },
+    {
+      "meaning_id": "cm_istadhamm_protection_request",
+      "headword_arabic": "اِسْتَذَمَّ بِذِمَامِهِ",
+      "definition": "To beg or implore someone’s protection.",
+      "usage_conditions": "Reported as a post-classical expression and possibly an older Classical phrase; the attribution is therefore qualified.",
+      "source_refs": [
+        "lane:entry:21691"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamdhama_scarcity",
+      "headword_arabic": "ذَمْذَمَ",
+      "definition": "To make a gift small, scanty, or insufficient.",
+      "usage_conditions": "A reduplicated or special-form usage.",
+      "source_refs": [
+        "lane:entry:21692"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamm_noun_blame",
+      "headword_arabic": "ذَمٌّ",
+      "definition": "Blame, dispraise, or censure; in the plural, vices, faults, or defects.",
+      "usage_conditions": "Nominal and plural uses corresponding to the core blame branch.",
+      "source_refs": [
+        "lane:entry:21693"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhimm_emaciated",
+      "headword_arabic": "ذِمٌّ",
+      "definition": "Excessively lean or emaciated; perishing or like one who is perishing.",
+      "usage_conditions": "A specialized adjectival or substantival use.",
+      "source_refs": [
+        "lane:entry:21694"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhammah_well",
+      "headword_arabic": "ذَمَّةٌ",
+      "definition": "A well containing little water; according to another reported usage, a well containing much water.",
+      "usage_conditions": "The two opposed descriptions are explicitly reported as variant meanings. This vowel pattern is distinct from ذِمَّةٌ, the covenant noun.",
+      "source_refs": [
+        "lane:entry:21695"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhimmah_responsibility",
+      "headword_arabic": "ذِمَّةٌ",
+      "definition": "A binding right or due, responsibility, surety, or obligation for fulfilling an undertaking, repaying what is owed, or safeguarding a person or thing.",
+      "usage_conditions": "Classical constructions extend the covenant sense to the moral or legal seat of obligation and to a due owed to another person.",
+      "source_refs": [
+        "lane:entry:21696"
+      ]
+    },
+    {
+      "meaning_id": "cm_ahl_dhimmah",
+      "headword_arabic": "أَهْلُ الذِّمَّةِ",
+      "definition": "People placed under a covenant of protection, especially protected non-Muslim subjects who pay the jizyah.",
+      "usage_conditions": "A conventional expression formed from ذِمَّةٌ; the protected status includes security for life and property.",
+      "source_refs": [
+        "lane:entry:21696"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhimmah_banquet",
+      "headword_arabic": "ذِمَّةٌ",
+      "definition": "A repast or banquet to which guests are invited, whether simply for food or for a wedding.",
+      "usage_conditions": "A distinct nominal usage.",
+      "source_refs": [
+        "lane:entry:21696"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamim_blame",
+      "headword_arabic": "ذَمِيمٌ",
+      "definition": "Blamed, dispraised, or disapproved; discommendable when applied to a person, a place of sojourning, or water.",
+      "usage_conditions": "This adjectival synonym is kept distinct from the Quranic passive participle مَذْمُومٌ.",
+      "source_refs": [
+        "lane:entry:21698"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamim_mucus",
+      "headword_arabic": "ذَمِيمٌ",
+      "definition": "Mucus or another fluid discharge, including fluid issuing from the nose or from the penis of a male goat.",
+      "usage_conditions": "A substantivized bodily-fluid use.",
+      "source_refs": [
+        "lane:entry:21698"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamim_milk",
+      "headword_arabic": "ذَمِيمٌ",
+      "definition": "Milk that flows from the teats or becomes spread upon the udders and thighs of livestock.",
+      "usage_conditions": "A specialized use for flowing milk, especially from sheep, goats, or camels.",
+      "source_refs": [
+        "lane:entry:21698"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamim_dew",
+      "headword_arabic": "ذَمِيمٌ",
+      "definition": "Dew, especially dew falling at night on trees and becoming dust-covered like small pieces of clay or mud.",
+      "usage_conditions": "A substantival natural-material use.",
+      "source_refs": [
+        "lane:entry:21698"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamim_nasal_lesions",
+      "headword_arabic": "ذَمِيمٌ",
+      "definition": "Sebaceous matter, pimples, small pustules, or dirty matter appearing on the nose or face.",
+      "usage_conditions": "The source associates these formations with heat or scab; the meaning is distinct from ordinary nasal mucus.",
+      "source_refs": [
+        "lane:entry:21698"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamim_kid_nose",
+      "headword_arabic": "ذَمِيمٌ",
+      "definition": "Whiteness appearing on the nose of a kid.",
+      "usage_conditions": "A specialized descriptive use for an animal’s marking.",
+      "source_refs": [
+        "lane:entry:21698"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamamah_shame",
+      "headword_arabic": "ذَمَامَةٌ",
+      "definition": "Shame, disgrace, or fear of blame arising from neglecting an inviolable right, duty, or obligation.",
+      "usage_conditions": "A feeling or consequence connected with failure to honour what is due to another.",
+      "source_refs": [
+        "lane:entry:21699"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhumamah_remnant",
+      "headword_arabic": "ذُمَامَةٌ",
+      "definition": "A remainder, remnant, remaining portion, or relic.",
+      "usage_conditions": "A distinct vowel pattern and lexical branch.",
+      "source_refs": [
+        "lane:entry:21700"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamimah_infirmity",
+      "headword_arabic": "ذَمِيمَةٌ",
+      "definition": "A crippling or chronic disease, or an infirmity that prevents a person from going forth.",
+      "usage_conditions": "A substantival designation of disabling infirmity.",
+      "source_refs": [
+        "lane:entry:21702"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhamma_last_remains",
+      "headword_arabic": "ذَمَّاءُ",
+      "definition": "The last remains of something poured or discharged at once.",
+      "usage_conditions": "A specialized expression for residual liquid or material.",
+      "source_refs": [
+        "lane:entry:21703"
+      ]
+    },
+    {
+      "meaning_id": "cm_dhammam_frequent_blame",
+      "headword_arabic": "ذَمَّامٌ",
+      "definition": "One who blames, dispraises, or censures much or often.",
+      "usage_conditions": "An intensive personal noun.",
+      "source_refs": [
+        "lane:entry:21705"
+      ]
+    },
+    {
+      "meaning_id": "cm_daam_fault",
+      "headword_arabic": "ذَامٌّ",
+      "definition": "A vice, fault, defect, or similar imperfection.",
+      "usage_conditions": "The source also records a variant without gemination, belonging to another related lexical form.",
+      "source_refs": [
+        "lane:entry:21706"
+      ]
+    },
+    {
+      "meaning_id": "cm_adham_fatigued_horse",
+      "headword_arabic": "أَذَمُّ",
+      "definition": "A fatigued horse that has stopped and stands still.",
+      "usage_conditions": "A specialized adjectival animal description.",
+      "source_refs": [
+        "lane:entry:21707"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudhimm_faulty",
+      "headword_arabic": "مُذِّمٌّ",
+      "definition": "A thing that is blamed or has been made faulty, defective, or vitiated.",
+      "usage_conditions": "The form may describe either exposure to blame or the causing of a defect.",
+      "source_refs": [
+        "lane:entry:21709"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudhimm_motionless",
+      "headword_arabic": "مُذِّمٌّ",
+      "definition": "A man in whom there is no motion.",
+      "usage_conditions": "A specialized description of inertness or immobility.",
+      "source_refs": [
+        "lane:entry:21709"
+      ]
+    },
+    {
+      "meaning_id": "cm_madhamm_blame_cause",
+      "headword_arabic": "مَذَمَّةٌ",
+      "definition": "A cause of blame or censure, or a blameworthy quality or action.",
+      "usage_conditions": "The noun may designate either the quality itself or the act for which one is blamed.",
+      "source_refs": [
+        "lane:entry:21711"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudhammam_often_blame",
+      "headword_arabic": "مُذَمَّمٌ",
+      "definition": "A man who is blamed, censured, or dispraised much.",
+      "usage_conditions": "An intensive passive description of a person frequently subjected to blame.",
+      "source_refs": [
+        "lane:entry:21713"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudhammam_honored_place",
+      "headword_arabic": "مُذَمَّمٌ",
+      "definition": "A place held in reverence, respect, or honour.",
+      "usage_conditions": "A distinct specialized use applied to a place rather than a person.",
+      "source_refs": [
+        "lane:entry:21713"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:*mm:21685:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamm_blame_verb"
+      ],
+      "note": "Core blame verb and its satirical and reputational extensions are covered."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21685:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamm_barren_land"
+      ],
+      "note": "Land becoming barren or scant in produce."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21685:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamm_nasal_flow"
+      ],
+      "note": "Nasal flow use."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21686:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21687:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_yudammu_scarcity"
+      ],
+      "note": "Life endured under scantiness."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21688:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adhamma_do_blameworthy"
+      ],
+      "note": "Doing or saying what merits blame."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21688:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adhamma_camel_lag"
+      ],
+      "note": "Jaded mounts lagging behind."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21688:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adhamma_find_blameworthy"
+      ],
+      "note": "Finding a person or thing blameworthy."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21688:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adhamma_contempt"
+      ],
+      "note": "Holding someone in contempt or leaving them blamed."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21688:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adhamma_protect"
+      ],
+      "note": "Granting protection or refuge."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21688:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adhamma_protect"
+      ],
+      "note": "Obtaining a promise or covenant of security."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21688:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the next paragraph."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21689:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tadhammum_avoid_blame"
+      ],
+      "note": "Avoiding blame through restraint, shame, or regard for honour."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21690:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tadhamum_mutual_blame"
+      ],
+      "note": "Reciprocal blame."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21691:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istadhamm_require_blame"
+      ],
+      "note": "Requiring or undergoing blame."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21691:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form V discussion."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21691:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istadhamm_protection_request"
+      ],
+      "note": "Qualified expression for seeking protection."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21692:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamdhama_scarcity"
+      ],
+      "note": "Making a gift scanty."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21693:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamm_noun_blame"
+      ],
+      "note": "Blame as a noun."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21693:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamm_noun_blame"
+      ],
+      "note": "Plural faults and vices are included in the noun entry."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21693:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذَمِيمٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21693:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذَمَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21694:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذَمِيمٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21694:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhimm_emaciated"
+      ],
+      "note": "Emaciated or perishing condition."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21694:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذِمَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21695:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhammah_well"
+      ],
+      "note": "Well with little water and the reported opposite usage."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21696:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_dhimmah_s1",
+        "cm_dhimmah_responsibility",
+        "cm_ahl_dhimmah"
+      ],
+      "note": "Covenant, protected right, responsibility, and أهل الذمة constructions are covered."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21696:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhimmah_banquet"
+      ],
+      "note": "Banquet or invited repast."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21696:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذَمَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21697:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer and plural cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21698:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamim_blame"
+      ],
+      "note": "Adjectival blame and disapproval use."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21698:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذَمَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21698:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamim_blame"
+      ],
+      "note": "Disapproval applied to water is covered by the broader adjectival entry."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21698:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamim_mucus"
+      ],
+      "note": "Mucus and related flowing discharge."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21698:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamim_milk"
+      ],
+      "note": "Flowing milk on livestock."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21698:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamim_dew"
+      ],
+      "note": "Dew use."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21698:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamim_nasal_lesions"
+      ],
+      "note": "Nasal matter, pimples, or pustules."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21698:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamim_kid_nose"
+      ],
+      "note": "Whiteness on a kid’s nose."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21699:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذِمَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21699:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamamah_shame"
+      ],
+      "note": "Shame and fear of blame from neglecting a due."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21700:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhumamah_remnant"
+      ],
+      "note": "Remainder or remnant."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21701:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذِمَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21702:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamimah_infirmity"
+      ],
+      "note": "Disabling infirmity."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21703:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhamma_last_remains"
+      ],
+      "note": "Last remains of poured material."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21704:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the ذِمَّةٌ discussion."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21705:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dhammam_frequent_blame"
+      ],
+      "note": "Frequent or intensive blamer."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21706:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daam_fault"
+      ],
+      "note": "Vice, fault, or defect."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21707:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adham_fatigued_horse"
+      ],
+      "note": "Fatigued stationary horse."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21708:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذِمَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21709:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudhimm_faulty"
+      ],
+      "note": "Blamed or defective thing."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21709:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudhimm_motionless"
+      ],
+      "note": "Motionless man."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21710:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21711:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_madhamm_blame_cause"
+      ],
+      "note": "Cause or object of blame."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21711:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذِمَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21711:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذَمَامَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21712:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذِمَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21712:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذَمَامَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21713:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudhammam_often_blame"
+      ],
+      "note": "Man frequently blamed."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21713:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudhammam_honored_place"
+      ],
+      "note": "Honoured or revered place."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21714:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the adjectival ذَمِيمٌ entry."
+    },
+    {
+      "unit_id": "lane-unit:*mm:21715:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form V discussion."
+    }
+  ],
+  "cautions": [
+    "ذِمَّةٌ, the Quranic covenant and protection noun, is distinct in vocalization and meaning from ذَمَّةٌ, the reported term for a scanty or, in one account, plentiful well.",
+    "Lane’s entry is organized under the contracted root ذم, while the canonical Quran root is ذمم; the Quran form identities and counts follow the supplied QAC data."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

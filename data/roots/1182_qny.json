@@ -1,0 +1,82 @@
+{
+  "root": "qny",
+  "arabic": "قني",
+  "root_idea": {
+    "summary": "The supplied evidence centers on provision of sufficiency through retained possessions, with a related extension to contentment.",
+    "development": "The Quran-focused discussion connects قِنْيَة with saved wealth and also interprets the Quranic expression as granting رضا وطاعة, described as a higher form of sufficiency. This development is supported by the Quran-focused lexical discussion, not by an independent root-principle source.",
+    "source_refs": [
+      "mufradat:row:1216"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qny:>aqonaY`:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qny_aqna",
+      "reason": "The sole Quran-attested form is retained as a public entry in normalized Arabic orthography."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qny_aqna",
+      "form_group_ids": [
+        "qac-form:qny:>aqonaY`:nominal:-"
+      ],
+      "headword_arabic": "أَقْنَى",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qny_aqna_s1",
+          "definition": "To provide what gives sufficiency, specifically retained or stored wealth (qinyah).",
+          "usage_conditions": "In the Quranic pairing أَغْنَىٰ وَأَقْنَىٰ, this is explained as granting what contains sufficiency and what constitutes qinyah, namely saved wealth.",
+          "source_refs": [
+            "mufradat:row:1216"
+          ]
+        },
+        {
+          "sense_id": "qny_aqna_s2",
+          "definition": "To satisfy; to grant contentment.",
+          "usage_conditions": "A further interpretation of the same Quranic expression understands the granted qinyah figuratively as رضا وطاعة, contentment and obedience.",
+          "source_refs": [
+            "mufradat:row:1216"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "53:48",
+          "word_location": "53:48:4",
+          "sense_ids": [
+            "qny_aqna_s1",
+            "qny_aqna_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qny_cm_acquire_retain",
+      "headword_arabic": "قنى / اقتنى",
+      "definition": "To acquire, possess, or retain something as a possession.",
+      "usage_conditions": "The cited Classical forms include acquiring or keeping a thing and figuratively retaining such qualities as modesty; this is broader than the Quranic causative use.",
+      "source_refs": [
+        "mufradat:row:1216"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qny:21162:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit: it only says to see قنو and supplies no lexical definition."
+    }
+  ],
+  "cautions": [
+    "The supplied QAC record labels أَقْنَىٰ as a noun, while the Quran-focused lexical discussion explains the form through the verbal interpretations of granting qinyah and satisfying; the public POS label follows the supplied QAC morphology."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

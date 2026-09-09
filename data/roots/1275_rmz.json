@@ -1,0 +1,158 @@
+{
+  "root": "rmz",
+  "arabic": "رمز",
+  "root_idea": {
+    "summary": "The root is oriented toward movement or agitation; in its communicative branch, a controlled movement or subdued sound functions as an indication.",
+    "development": "The evidence presents signaling as movement of the lips, eyes, eyebrows, mouth, hand, arm, or head, or as a low voice used to convey meaning without ordinary articulated speech. A separate poetic report connects الراموز with the sea, but this does not establish a Quranic form sense.",
+    "source_refs": [
+      "maqayis:row:2139",
+      "mufradat:row:587",
+      "lane:entry:24467"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rmz:ramoz:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-ramz",
+      "reason": "The canonical Quranic verbal noun is displayed under the normalized citation form رَمْز."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-ramz",
+      "form_group_ids": [
+        "qac-form:rmz:ramoz:nominal:-"
+      ],
+      "headword_arabic": "رَمْز",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense-ramz-1",
+          "definition": "A sign or gesture used to convey an indication, especially communication by bodily movement or subdued sound instead of ordinary articulated speech.",
+          "usage_conditions": "In 3:41 it describes communicating without speaking normally. The sign may be made with the lips, eyes, eyebrows, mouth, hand, arm, or head, or by a low voice. The same communicative-sign construction includes reciprocal sign-making in a reported variant reading, but that reading is not counted as a separate canonical QAC form here.",
+          "source_refs": [
+            "lane:entry:24467",
+            "lane:entry:24473",
+            "mufradat:row:587"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:41",
+          "word_location": "3:41:14",
+          "sense_ids": [
+            "sense-ramz-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical-taramaza-mutual",
+      "headword_arabic": "تَرَامَزَ",
+      "definition": "To make signs to one another; to exchange indications by gesture or other sign.",
+      "usage_conditions": "A reciprocal Form VI construction describing mutual sign-making.",
+      "source_refs": [
+        "lane:entry:24469"
+      ]
+    },
+    {
+      "meaning_id": "classical-rammaaz-frequent",
+      "headword_arabic": "رَمَّاز",
+      "definition": "A frequent or habitual maker of signs.",
+      "usage_conditions": "An intensive lexical form for repeated or habitual sign-making.",
+      "source_refs": [
+        "lane:entry:24472"
+      ]
+    },
+    {
+      "meaning_id": "classical-rammaaza-prostitute",
+      "headword_arabic": "رَمَّازَة",
+      "definition": "An adulteress, fornicatress, or prostitute.",
+      "usage_conditions": "An idiomatic extension explicitly associated with making suggestive signs with the eye.",
+      "source_refs": [
+        "lane:entry:24472"
+      ]
+    },
+    {
+      "meaning_id": "classical-ramuz-intensive",
+      "headword_arabic": "رَمُوز",
+      "definition": "An intensive sign-maker, one who makes signs frequently.",
+      "usage_conditions": "This form is also involved in a reported Quranic variant reading interpreted as people making signs mutually; that variant is not the canonical QAC form displayed above.",
+      "source_refs": [
+        "lane:entry:24473"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rmz:24467:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-ramz-1"
+      ],
+      "note": "Core sign-making and its bodily or subdued-vocal means are covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:rmz:24468:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:rmz:24469:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-taramaza-mutual"
+      ],
+      "note": "Reciprocal sign-making is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:rmz:24470:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رَامِز."
+    },
+    {
+      "unit_id": "lane-unit:rmz:24471:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رَامِز."
+    },
+    {
+      "unit_id": "lane-unit:rmz:24472:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-rammaaz-frequent"
+      ],
+      "note": "Frequent or habitual sign-making is represented as a Classical lexical specialization."
+    },
+    {
+      "unit_id": "lane-unit:rmz:24472:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-rammaaza-prostitute"
+      ],
+      "note": "The idiomatic sexual-morality specialization is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:rmz:24473:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-ramz-1",
+        "classical-rammaaz-frequent",
+        "classical-ramuz-intensive"
+      ],
+      "note": "The Quran-linked sign-making interpretation and the intensive sign-maker reading are covered."
+    }
+  ],
+  "cautions": [
+    "Lane's citation “Kur iii. 36” is retained as a historical citation convention and is not converted into an independent modern verse location; the canonical Quran example uses the QAC location 3:41."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

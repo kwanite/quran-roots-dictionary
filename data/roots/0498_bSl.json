@@ -1,0 +1,177 @@
+{
+  "root": "bSl",
+  "arabic": "بصل",
+  "root_idea": {
+    "summary": "The root is centered on بَصَل, the onion, a known bulbous plant.",
+    "development": "The onion's layered coats motivate Classical extensions involving many-fold structure, thick or multilayered coverings, and a helmet; related derived verbs also express stripping and figurative exhaustion.",
+    "source_refs": [
+      "maqayis:row:775",
+      "lane:entry:36512",
+      "lane:entry:36513",
+      "lane:entry:36514",
+      "lane:entry:36515"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bSl:baSal:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_basal",
+      "reason": "Standalone Quran-attested noun, presented under the normalized lexical citation form بَصَل."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_basal",
+      "form_group_ids": [
+        "qac-form:bSl:baSal:nominal:-"
+      ],
+      "headword_arabic": "بَصَل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_basal_onion",
+          "definition": "Onion; collectively, onions.",
+          "usage_conditions": "In the Quranic food-list expression وَبَصَلِهَا, “and its onions,” in 2:61.",
+          "source_refs": [
+            "lane:entry:36514",
+            "mufradat:row:128"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:61",
+          "word_location": "2:61:22",
+          "sense_ids": [
+            "qsen_basal_onion"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_tabsil_strip",
+      "headword_arabic": "تَبْصِيلٌ",
+      "definition": "The act of stripping or divesting; to strip someone of clothing.",
+      "usage_conditions": "A verbal noun for the Form II usage بَصَّلَ.",
+      "source_refs": [
+        "lane:entry:36512"
+      ]
+    },
+    {
+      "meaning_id": "cm_tabassul_multifold",
+      "headword_arabic": "تَبَصَّلَ",
+      "definition": "To become several-fold or many-fold, like the coats of an onion.",
+      "usage_conditions": "An intransitive derived-verb usage describing increased multiplicity or layered form.",
+      "source_refs": [
+        "lane:entry:36513"
+      ]
+    },
+    {
+      "meaning_id": "cm_tabassul_exhaustion",
+      "headword_arabic": "تَبَصَّلَ",
+      "definition": "To be importuned until one's possessions are exhausted.",
+      "usage_conditions": "A figurative transitive usage in which repeated begging exhausts what a person has.",
+      "source_refs": [
+        "lane:entry:36513"
+      ]
+    },
+    {
+      "meaning_id": "cm_basal_bulb",
+      "headword_arabic": "بَصَل",
+      "definition": "A bulb or bulbous plant, including various wild bulbs such as squill.",
+      "usage_conditions": "A broader botanical use than the ordinary onion designation.",
+      "source_refs": [
+        "lane:entry:36514"
+      ]
+    },
+    {
+      "meaning_id": "cm_basal_helmet",
+      "headword_arabic": "بَصَل / بَصَلَة",
+      "definition": "A pointed iron helmet, named by resemblance to an onion.",
+      "usage_conditions": "A figurative Classical use based on the form of the onion and its projecting middle.",
+      "source_refs": [
+        "lane:entry:36514"
+      ]
+    },
+    {
+      "meaning_id": "cm_mutabassil_covering",
+      "headword_arabic": "مُتَبَصِّل",
+      "definition": "A covering consisting of many coats; thick or multilayered.",
+      "usage_conditions": "An adjective or participial description of something having numerous coverings, by comparison with onion layers.",
+      "source_refs": [
+        "lane:entry:36515"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bSl:36512:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tabsil_strip"
+      ],
+      "note": "The stripping or divesting meaning is represented under the verbal noun."
+    },
+    {
+      "unit_id": "lane-unit:bSl:36513:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tabassul_multifold"
+      ],
+      "note": "The intransitive many-fold development is represented."
+    },
+    {
+      "unit_id": "lane-unit:bSl:36513:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit directing the reader to another entry."
+    },
+    {
+      "unit_id": "lane-unit:bSl:36513:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tabassul_exhaustion"
+      ],
+      "note": "The figurative exhaustion-through-begging usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:bSl:36514:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_basal_onion"
+      ],
+      "note": "The ordinary onion meaning is represented by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:bSl:36514:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_basal_bulb"
+      ],
+      "note": "The broader bulb or bulbous-plant meaning is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:bSl:36514:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_basal_helmet"
+      ],
+      "note": "The helmet metaphor is represented as a Classical extension."
+    },
+    {
+      "unit_id": "lane-unit:bSl:36515:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mutabassil_covering"
+      ],
+      "note": "The many-coated or thick-covering meaning is represented."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

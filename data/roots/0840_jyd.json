@@ -1,0 +1,125 @@
+{
+  "root": "jyd",
+  "arabic": "جيد",
+  "root_idea": {
+    "summary": "The root centers on the neck, especially as a bodily feature characterized by its length or form.",
+    "development": "The basic noun denotes the neck; related formations describe having, or being characterized by, a long, beautiful, or slender neck.",
+    "source_refs": [
+      "maqayis:row:1267",
+      "lane:entry:47885",
+      "lane:entry:47889"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jyd:jiyd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-jyd-jid",
+      "reason": "The Quran-attested nominal is displayed under the normalized dictionary citation form جِيدٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-jyd-jid",
+      "form_group_ids": [
+        "qac-form:jyd:jiyd:nominal:-"
+      ],
+      "headword_arabic": "جِيدٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-jyd-jid-s1",
+          "definition": "The neck.",
+          "usage_conditions": "In the Quranic occurrence, it appears in the possessive prepositional construction فِي جِيدِهَا, “in her neck.”",
+          "source_refs": [
+            "lane:entry:47886"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "111:5",
+          "word_location": "111:5:2",
+          "sense_ids": [
+            "qf-jyd-jid-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-jyd-jayida",
+      "headword_arabic": "جَيِدَ",
+      "definition": "To have a long, beautiful, or slender neck.",
+      "usage_conditions": "A Form I verb describing the possession of this bodily feature.",
+      "source_refs": [
+        "lane:entry:47885"
+      ]
+    },
+    {
+      "meaning_id": "cm-jyd-neckfront",
+      "headword_arabic": "جِيدٌ",
+      "definition": "The front or necklace-bearing part of the neck.",
+      "usage_conditions": "A specialized extension of the noun’s basic meaning, referring to the portion on which a necklace rests or the forepart of the neck.",
+      "source_refs": [
+        "lane:entry:47886"
+      ]
+    },
+    {
+      "meaning_id": "cm-jyd-ajyad",
+      "headword_arabic": "أَجْيَدُ",
+      "definition": "Having a long, beautiful, or slender neck.",
+      "usage_conditions": "An adjectival formation; a reported usage note says it is not applied to a man, and its feminine counterpart is جَيْدَاءُ.",
+      "source_refs": [
+        "lane:entry:47889"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jyd:47885:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jyd-jayida"
+      ],
+      "note": "Represents the Form I predicate of having a long or well-formed neck."
+    },
+    {
+      "unit_id": "lane-unit:jyd:47886:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-jyd-jid-s1",
+        "cm-jyd-neckfront"
+      ],
+      "note": "Covers the Quran-attested noun meaning “neck” and its necklace-bearing or forepart specialization."
+    },
+    {
+      "unit_id": "lane-unit:jyd:47887:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:jyd:47888:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to جود."
+    },
+    {
+      "unit_id": "lane-unit:jyd:47889:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-jyd-ajyad"
+      ],
+      "note": "Represents the adjectival meaning of being long-, beautiful-, or slender-necked."
+    }
+  ],
+  "cautions": [
+    "There is disagreement over whether جِيدٌ is conventionally restricted to laudatory use; one reported interpretation treats its Quranic occurrence as ironic.",
+    "The Quranic surface form جِيدِ is part of جِيدِهَا with a possessive suffix; the public headword is normalized to جِيدٌ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

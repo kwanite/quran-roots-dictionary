@@ -1,0 +1,853 @@
+{
+  "root": "$rk",
+  "arabic": "شرك",
+  "root_idea": {
+    "summary": "The root centers on joining or sharing something so that it is not exclusive to one party; a secondary branch denotes extension and linear spread.",
+    "development": "The first branch develops into participation, partnership, making someone a partner, and religiously attributing a partner to God. The second develops into road tracks, sandal straps, and hunting snares through the ideas of extension and connected lines.",
+    "source_refs": [
+      "maqayis:row:2621",
+      "mufradat:row:763"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$rk:$aAriko:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_sharaka",
+      "reason": "Displayed under the normalized Form III perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:$rk:>a$oraka:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_ashraka",
+      "reason": "Displayed under the normalized Form IV perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:$rk:$ariyk:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_sharik",
+      "reason": "Displayed under the singular nominal citation form."
+    },
+    {
+      "form_group_id": "qac-form:$rk:$irok:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_shirk",
+      "reason": "Displayed as the distinct noun شِرْك."
+    },
+    {
+      "form_group_id": "qac-form:$rk:mu$orik:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_mushrik",
+      "reason": "Displayed under the singular active-participial citation form."
+    },
+    {
+      "form_group_id": "qac-form:$rk:mu$orika`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_mushrik",
+      "reason": "Feminine plural active-participle forms are grammatical counterparts of مُشْرِك and are covered under the same lexical headword."
+    },
+    {
+      "form_group_id": "qac-form:$rk:mu$orikap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_mushrik",
+      "reason": "The feminine singular active participle is the gender counterpart of مُشْرِك."
+    },
+    {
+      "form_group_id": "qac-form:$rk:mu$otarikuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_mushtarik",
+      "reason": "Displayed under the normalized singular active-participial citation form مُشْتَرِك."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_sharaka",
+      "form_group_ids": [
+        "qac-form:$rk:$aAriko:verb:III"
+      ],
+      "headword_arabic": "شَارَكَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "pf_sharaka_s1",
+          "definition": "To share or participate with another; to become a partner or associate in an affair.",
+          "usage_conditions": "Takes a person or party as the partner and may be followed by فِي for the affair, property, or matter shared. Quranic usage includes being made a partner in another's affair.",
+          "source_refs": [
+            "lane:entry:38392",
+            "mufradat:row:763"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:64",
+          "word_location": "17:64:10",
+          "sense_ids": [
+            "pf_sharaka_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_ashraka",
+      "form_group_ids": [
+        "qac-form:$rk:>a$oraka:verb:IV"
+      ],
+      "headword_arabic": "أَشْرَكَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 71,
+      "senses": [
+        {
+          "sense_id": "pf_ashraka_s1",
+          "definition": "To make someone a partner, associate, or participant in an affair.",
+          "usage_conditions": "The person made a partner may be introduced as sharing in an affair, sale, property, or other matter; the Quranic construction وَأَشْرِكْهُ فِي أَمْرِي exemplifies inclusion in an affair.",
+          "source_refs": [
+            "lane:entry:38393",
+            "mufradat:row:763"
+          ]
+        },
+        {
+          "sense_id": "pf_ashraka_s2",
+          "definition": "To attribute a partner or partners to God; to associate another with Him in worship or divine prerogative.",
+          "usage_conditions": "This is the Quranic theological construction أَشْرَكَ بِاللَّهِ and includes treating another as sharing God's exclusive divinity. Lexically, unbelief may be described more broadly as a form of this association.",
+          "source_refs": [
+            "lane:entry:38393",
+            "mufradat:row:763"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:32",
+          "word_location": "20:32:1",
+          "sense_ids": [
+            "pf_ashraka_s1"
+          ]
+        },
+        {
+          "verse_key": "4:48",
+          "word_location": "4:48:6",
+          "sense_ids": [
+            "pf_ashraka_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_sharik",
+      "form_group_ids": [
+        "qac-form:$rk:$ariyk:nominal:-"
+      ],
+      "headword_arabic": "شَرِيك",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 40,
+      "senses": [
+        {
+          "sense_id": "pf_sharik_s1",
+          "definition": "A partner, co-owner, associate, or colleague sharing a thing, affair, right, or dominion.",
+          "usage_conditions": "The Quran commonly uses the plural شُرَكَاء for alleged partners of God and for parties treated as sharing authority or possession.",
+          "source_refs": [
+            "lane:entry:38407",
+            "mufradat:row:763"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:111",
+          "word_location": "17:111:11",
+          "sense_ids": [
+            "pf_sharik_s1"
+          ]
+        },
+        {
+          "verse_key": "10:34",
+          "word_location": "10:34:4",
+          "sense_ids": [
+            "pf_sharik_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_shirk",
+      "form_group_ids": [
+        "qac-form:$rk:$irok:nominal:-"
+      ],
+      "headword_arabic": "شِرْك",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "pf_shirk_s1",
+          "definition": "Sharing, participation, partnership; a share or portion in something.",
+          "usage_conditions": "The noun can denote participation between parties or an allocated share, including a share in property or an affair.",
+          "source_refs": [
+            "lane:entry:38397",
+            "mufradat:row:763"
+          ]
+        },
+        {
+          "sense_id": "pf_shirk_s2",
+          "definition": "Religious association: attributing a partner to God or sharing religious devotion or regard with another.",
+          "usage_conditions": "In theological usage this includes the great shirk of affirming a partner for God and the more hidden association described as ostentation or hypocrisy in some religious acts.",
+          "source_refs": [
+            "lane:entry:38397",
+            "mufradat:row:763"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "34:22",
+          "word_location": "34:22:21",
+          "sense_ids": [
+            "pf_shirk_s1"
+          ]
+        },
+        {
+          "verse_key": "31:13",
+          "word_location": "31:13:12",
+          "sense_ids": [
+            "pf_shirk_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_mushrik",
+      "form_group_ids": [
+        "qac-form:$rk:mu$orik:nominal:-",
+        "qac-form:$rk:mu$orika`t:nominal:-",
+        "qac-form:$rk:mu$orikap:nominal:-"
+      ],
+      "headword_arabic": "مُشْرِك",
+      "public_pos_label": "Active participle · substantivized",
+      "verb_form": null,
+      "occurrence_count": 49,
+      "senses": [
+        {
+          "sense_id": "pf_mushrik_s1",
+          "definition": "One who attributes a partner or partners to God; a polytheist.",
+          "usage_conditions": "This active participle is substantivized for people characterized by associating others with God. The feminine forms مُشْرِكَة and مُشْرِكَات are included under this headword.",
+          "source_refs": [
+            "lane:entry:38408",
+            "mufradat:row:763"
+          ]
+        },
+        {
+          "sense_id": "pf_mushrik_s2",
+          "definition": "A disbeliever in God, in the widened lexical sense that unbelief entails a form of shirk.",
+          "usage_conditions": "This is an extended usage related to the primary sense of polytheism; Quranic contexts most directly identify the person who associates another with God.",
+          "source_refs": [
+            "lane:entry:38408",
+            "mufradat:row:763"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:105",
+          "word_location": "2:105:9",
+          "sense_ids": [
+            "pf_mushrik_s1"
+          ]
+        },
+        {
+          "verse_key": "2:221",
+          "word_location": "2:221:10",
+          "sense_ids": [
+            "pf_mushrik_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_mushtarik",
+      "form_group_ids": [
+        "qac-form:$rk:mu$otarikuwn:nominal:-"
+      ],
+      "headword_arabic": "مُشْتَرِك",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "pf_mushtarik_s1",
+          "definition": "Sharing or participating jointly with others; a co-sharer.",
+          "usage_conditions": "The active participle describes parties who share or participate together in a matter; the Quranic occurrences are plural and substantivized.",
+          "source_refs": [
+            "lane:entry:38395",
+            "mufradat:row:763"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:33",
+          "word_location": "37:33:5",
+          "sense_ids": [
+            "pf_mushtarik_s1"
+          ]
+        },
+        {
+          "verse_key": "43:39",
+          "word_location": "43:39:9",
+          "sense_ids": [
+            "pf_mushtarik_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_sharika_formI",
+      "headword_arabic": "شَرِكَهُ",
+      "definition": "To share or participate with someone in a sale, purchase, inheritance, affair, or other matter; to become his partner.",
+      "usage_conditions": "The construction may also mean to enter or engage with another in an affair.",
+      "source_refs": [
+        "lane:entry:38390"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharika_sandal",
+      "headword_arabic": "شَرِكَتِ النَّعْلُ",
+      "definition": "Of a sandal: for its sandal strap to break.",
+      "usage_conditions": "A specialized intransitive use concerning the sandal and its شِرَاك.",
+      "source_refs": [
+        "lane:entry:38390"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharraka_sale",
+      "headword_arabic": "شَرَّكَ",
+      "definition": "To sell a part or share of something one has purchased for the price or purpose for which it was purchased.",
+      "usage_conditions": "A commercial technical use of the verbal noun تَشْرِيكٌ.",
+      "source_refs": [
+        "lane:entry:38391"
+      ]
+    },
+    {
+      "meaning_id": "cm_sharraka_sandal",
+      "headword_arabic": "شَرَّكَ",
+      "definition": "To put a sandal strap on a sandal.",
+      "usage_conditions": "A transitive sandal-making or repair construction; the alternative Form IV expression is also reported in the same lexical discussion.",
+      "source_refs": [
+        "lane:entry:38391"
+      ]
+    },
+    {
+      "meaning_id": "cm_ishtaraka_verb",
+      "headword_arabic": "اِشْتَرَكَ",
+      "definition": "To share, participate, or become a copartner with another in something.",
+      "usage_conditions": "The reciprocal Form VIII verb describes mutual or joint participation between parties.",
+      "source_refs": [
+        "lane:entry:38395"
+      ]
+    },
+    {
+      "meaning_id": "cm_homonymy",
+      "headword_arabic": "مُشْتَرَكٌ",
+      "definition": "A word shared by several meanings; a homonym.",
+      "usage_conditions": "A technical lexicological use of مُشْتَرَكٌ, literally something participated in by multiple meanings.",
+      "source_refs": [
+        "lane:entry:38395",
+        "lane:entry:38413"
+      ]
+    },
+    {
+      "meaning_id": "cm_confused_affair",
+      "headword_arabic": "اِشْتَرَكَ الأَمْرُ",
+      "definition": "For an affair or case to become confused or dubious.",
+      "usage_conditions": "Lane marks this as an assumed figurative extension.",
+      "source_refs": [
+        "lane:entry:38395"
+      ]
+    },
+    {
+      "meaning_id": "cm_snare",
+      "headword_arabic": "شَرَكٌ",
+      "definition": "A snare or set of snares for catching wild animals, birds, or other game.",
+      "usage_conditions": "The collective noun may refer to the cords or devices composing a trap; its plural is also reported as شُرُكٌ.",
+      "source_refs": [
+        "lane:entry:38398"
+      ]
+    },
+    {
+      "meaning_id": "cm_roadtracks",
+      "headword_arabic": "شَرَكُ الطَّرِيقِ",
+      "definition": "The main or middle parts of a road, its conspicuous tracks, furrows, or branching lesser tracks.",
+      "usage_conditions": "The term may refer either to the distinct tracks made in the road or to branch tracks that leave the main road and terminate.",
+      "source_refs": [
+        "lane:entry:38398"
+      ]
+    },
+    {
+      "meaning_id": "cm_fleshshare",
+      "headword_arabic": "شِرْكَةٌ",
+      "definition": "A piece or portion of flesh-meat shared among people.",
+      "usage_conditions": "A dialectal usage, especially reported of a slaughtered camel and the people sharing it.",
+      "source_refs": [
+        "lane:entry:38402"
+      ]
+    },
+    {
+      "meaning_id": "cm_quick_consecutive",
+      "headword_arabic": "شُرَكِيٌّ",
+      "definition": "Quick and consecutive movement or action; a rapid repeated striking or coming to water.",
+      "usage_conditions": "The adjective can describe a quick pace, consecutive slapping, or repeated prompt arrival.",
+      "source_refs": [
+        "lane:entry:38405"
+      ]
+    },
+    {
+      "meaning_id": "cm_sandalstrap",
+      "headword_arabic": "شِرَاكٌ",
+      "definition": "The thong or strap on the upper face of a sandal.",
+      "usage_conditions": "The term may include the arms of the strap attached near the sides of the sandal; its plural is شُرُكٌ.",
+      "source_refs": [
+        "lane:entry:38406"
+      ]
+    },
+    {
+      "meaning_id": "cm_herbage_streaks",
+      "headword_arabic": "شُرُكٌ",
+      "definition": "Streaks or discontinuous rows of herbage.",
+      "usage_conditions": "A figurative extension describing vegetation occurring in separate strips rather than continuously.",
+      "source_refs": [
+        "lane:entry:38406"
+      ]
+    },
+    {
+      "meaning_id": "cm_palm_shoots",
+      "headword_arabic": "شُرُكٌ",
+      "definition": "A row of shoots or offsets cut from palm trees and planted.",
+      "usage_conditions": "A specialized agricultural usage reported in connection with planted palm offsets.",
+      "source_refs": [
+        "lane:entry:38406"
+      ]
+    },
+    {
+      "meaning_id": "cm_uniform_line",
+      "headword_arabic": "شِرَاكٌ",
+      "definition": "A uniform line, manner, or arrangement.",
+      "usage_conditions": "A figurative expression for proceeding in one consistent way or making an affair uniform.",
+      "source_refs": [
+        "lane:entry:38406"
+      ]
+    },
+    {
+      "meaning_id": "cm_marital_relation",
+      "headword_arabic": "شَرِيكٌ",
+      "definition": "A spouse, beloved woman, or a person related through marriage, such as a son-in-law.",
+      "usage_conditions": "The specialized usage may call a man's wife or object of love شَرِيكَة and may use شَرِيك for a man married to another's daughter or sister.",
+      "source_refs": [
+        "lane:entry:38407"
+      ]
+    },
+    {
+      "meaning_id": "cm_inheritance_case",
+      "headword_arabic": "الفَرِيضَةُ المُشَرَّكَةُ",
+      "definition": "A technical inheritance case in which maternal half-siblings and full siblings are made to share a portion together.",
+      "usage_conditions": "Also called the مُشَرِّكَة, مُشْتَرَكَة, حِمَارِيَّة, حَجَرِيَّة, يَمِّيَّة, or عُمَرِيَّة case in the reported terminology.",
+      "source_refs": [
+        "lane:entry:38410",
+        "lane:entry:38411"
+      ]
+    },
+    {
+      "meaning_id": "cm_wind_between_directions",
+      "headword_arabic": "رِيحٌ مُشَارِكٌ",
+      "definition": "A wind nearer to the crosswind than to either of the two winds between which it blows.",
+      "usage_conditions": "A technical description of an intermediate wind direction.",
+      "source_refs": [
+        "lane:entry:38412"
+      ]
+    },
+    {
+      "meaning_id": "cm_shared_nonexclusive",
+      "headword_arabic": "مُشْتَرَكٌ",
+      "definition": "Shared or common rather than reserved exclusively for one person.",
+      "usage_conditions": "Applied to a road open to common use or to a worker whose services are available to successive clients rather than held exclusively by one employer.",
+      "source_refs": [
+        "lane:entry:38413"
+      ]
+    },
+    {
+      "meaning_id": "cm_common_sense",
+      "headword_arabic": "الحِسُّ المُشْتَرَكُ",
+      "definition": "The faculty said by philosophers to be participated in by the five senses; common sense in popular usage.",
+      "usage_conditions": "A technical philosophical expression distinct from the ordinary meaning of مُشْتَرَكٌ.",
+      "source_refs": [
+        "lane:entry:38413"
+      ]
+    },
+    {
+      "meaning_id": "cm_anxious_selftalk",
+      "headword_arabic": "مُشْتَرَكٌ",
+      "definition": "Of a man, talking to himself as one affected by anxiety or troubled judgment.",
+      "usage_conditions": "An assumed figurative use in which his judgment is described as shared or not unified.",
+      "source_refs": [
+        "lane:entry:38413"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$rk:38390:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharika_formI"
+      ],
+      "note": "Form I sharing and entering an affair."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38390:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharika_sandal"
+      ],
+      "note": "Sandal-strap breaking construction."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38391:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38391:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharraka_sale"
+      ],
+      "note": "Selling a purchased share."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38391:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sharraka_sandal"
+      ],
+      "note": "Putting a strap on a sandal."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38392:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "pf_sharaka_s1"
+      ],
+      "note": "Form III sharing and partnership."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38393:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "pf_ashraka_s1"
+      ],
+      "note": "Making someone a partner in an affair."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38393:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "pf_ashraka_s2"
+      ],
+      "note": "Attributing partners to God and extended unbelief."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38393:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form I."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38393:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38394:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the next paragraph."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38395:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ishtaraka_verb"
+      ],
+      "note": "Form VIII mutual sharing."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38395:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_homonymy"
+      ],
+      "note": "Lexicological homonymy."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38395:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_confused_affair"
+      ],
+      "note": "Figurative confusion of an affair."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38396:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38397:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "pf_shirk_s1"
+      ],
+      "note": "Sharing, participation, and partnership."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38397:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "pf_shirk_s1"
+      ],
+      "note": "A share or portion."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38397:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "pf_shirk_s2"
+      ],
+      "note": "Religious association and hidden hypocrisy."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38397:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to شَرِيكٌ."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38398:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_snare"
+      ],
+      "note": "Hunting snare."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38398:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_roadtracks"
+      ],
+      "note": "Road tracks and branches."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38399:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the first sentence of شِرْكٌ."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38400:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the first sentence of شِرْكٌ."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38401:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the first sentence of شِرْكٌ."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38402:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the first sentence of شِرْكٌ."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38402:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fleshshare"
+      ],
+      "note": "Dialectal shared piece of meat."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38403:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to شَرَكٌ."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38404:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to the first sentence of شِرْكٌ."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38405:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_quick_consecutive"
+      ],
+      "note": "Quick consecutive movement or action."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38406:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sandalstrap"
+      ],
+      "note": "Sandal strap."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38406:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_herbage_streaks"
+      ],
+      "note": "Streaks of herbage."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38406:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_palm_shoots"
+      ],
+      "note": "Rows of planted palm shoots."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38406:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_uniform_line"
+      ],
+      "note": "Uniform line or arrangement."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38407:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "pf_sharik_s1",
+        "cm_marital_relation"
+      ],
+      "note": "Partner and specialized marital relationship uses."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38408:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "pf_mushrik_s1",
+        "pf_mushrik_s2"
+      ],
+      "note": "Polytheist and widened disbeliever usages."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38408:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial correction of a mistaken form."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38409:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38410:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_inheritance_case"
+      ],
+      "note": "Technical shared-inheritance case."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38411:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38412:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to شَرِيكٌ."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38412:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wind_between_directions"
+      ],
+      "note": "Intermediate wind direction."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38413:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shared_nonexclusive"
+      ],
+      "note": "Shared or common road."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38413:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_shared_nonexclusive"
+      ],
+      "note": "Non-exclusive hired worker use covered by the shared/non-exclusive branch."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38413:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the inheritance entry."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38413:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_homonymy"
+      ],
+      "note": "Homonymous word shared by meanings."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38413:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_common_sense"
+      ],
+      "note": "Philosophical common-sense faculty."
+    },
+    {
+      "unit_id": "lane-unit:$rk:38413:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_anxious_selftalk"
+      ],
+      "note": "Anxious self-directed speech."
+    }
+  ],
+  "cautions": [
+    "Lane's historical Quran citation conventions are not converted into modern verse locations; Quran examples here use only secure QAC-supplied locations.",
+    "The wider senses of أَشْرَكَ and مُشْرِك involving unbelief are lexical extensions recorded alongside the primary Quranic sense of associating partners with God.",
+    "The masculine, feminine singular, and feminine plural active-participle QAC groups for مُشْرِك are presented under one normalized lexical headword."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

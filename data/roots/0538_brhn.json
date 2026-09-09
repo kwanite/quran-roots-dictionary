@@ -1,0 +1,115 @@
+{
+  "root": "brhn",
+  "arabic": "برهن",
+  "root_idea": {
+    "summary": "The supplied lexical record is organized around proof made manifest: بُرْهَانٌ is evidence or proof, while بَرْهَنَ means to adduce or establish it.",
+    "development": "The noun's formation is disputed in the supplied record: analyses differ over whether its final ن is augmentative or radical and connect it to different proposed bases; no independent historical development is otherwise established.",
+    "source_refs": [
+      "lane:entry:36233",
+      "lane:entry:36234"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:brhn:buroha`n:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:brhn:burhan",
+      "reason": "Displayed under the normalized singular noun citation form بُرْهَان rather than its inflected Quranic surface forms."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:brhn:burhan",
+      "form_group_ids": [
+        "qac-form:brhn:buroha`n:nominal:-"
+      ],
+      "headword_arabic": "بُرْهَان",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "sense:brhn:burhan:1",
+          "definition": "Evidence or proof, including a demonstrative or manifest proof.",
+          "usage_conditions": "Used in the Quran for proof presented, demanded, or possessed; the form may occur as singular or dual, with the dual referring to two evidences.",
+          "source_refs": [
+            "lane:entry:36234"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:174",
+          "word_location": "4:174:5",
+          "sense_ids": [
+            "sense:brhn:burhan:1"
+          ]
+        },
+        {
+          "verse_key": "21:24",
+          "word_location": "21:24:8",
+          "sense_ids": [
+            "sense:brhn:burhan:1"
+          ]
+        },
+        {
+          "verse_key": "28:32",
+          "word_location": "28:32:16",
+          "sense_ids": [
+            "sense:brhn:burhan:1"
+          ]
+        },
+        {
+          "verse_key": "23:117",
+          "word_location": "23:117:8",
+          "sense_ids": [
+            "sense:brhn:burhan:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:brhn:barhana",
+      "headword_arabic": "بَرْهَنَ",
+      "definition": "To adduce or establish evidence or proof; to produce one's proof.",
+      "usage_conditions": "Constructed with عَلَيْهِ for adducing proof against, upon, or concerning someone or something, and with لَهُ for adducing proof to or for someone.",
+      "source_refs": [
+        "lane:entry:36233"
+      ]
+    },
+    {
+      "meaning_id": "cm:brhn:burhan:decisive",
+      "headword_arabic": "بُرْهَان",
+      "definition": "A decisive, manifest, and exceptionally strong proof whose implication is truth or veracity.",
+      "usage_conditions": "A technical characterization of the strongest or most valid kind of evidence among several types of evidentiary force; it is distinct from the ordinary generic use of proof.",
+      "source_refs": [
+        "lane:entry:36234"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:brhn:36233:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:brhn:barhana"
+      ],
+      "note": "The verb's proof-adducing and proof-establishing use is represented."
+    },
+    {
+      "unit_id": "lane-unit:brhn:36234:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:brhn:burhan:1",
+        "cm:brhn:burhan:decisive"
+      ],
+      "note": "The noun's generic proof branch and stronger technical characterization are represented."
+    }
+  ],
+  "cautions": [
+    "Lane records disagreement over the classical status of بَرْهَنَ, with some authorities preferring أَبْرَهَ; the verb is retained here as broader Classical Arabic evidence, not as a supplied Quranic form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

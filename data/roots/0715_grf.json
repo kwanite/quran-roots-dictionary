@@ -1,0 +1,781 @@
+{
+  "root": "grf",
+  "arabic": "غرف",
+  "root_idea": {
+    "summary": "A semantically diverse root centered most clearly on scooping or taking up, especially water by hand, with established branches for the quantity taken, upper chambers, cutting, vegetation, and related implements or products.",
+    "development": "The lexical family develops from the act and result of scooping water to the amount scooped and the tools used for it. Other established branches are not fully reducible to that image: they include cutting or clipping, upper chambers, dense vegetation, tanning materials, and abundant flowing water.",
+    "source_refs": [
+      "maqayis:row:3400",
+      "mufradat:row:1045"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:grf:{gotarafa:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "grf-ightarafa",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:grf:gurofap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "grf-gurfa",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:grf:gurufa`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "grf-gurfa",
+      "reason": "Plural form grouped under the singular dictionary citation form غُرْفَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "grf-ightarafa",
+      "form_group_ids": [
+        "qac-form:grf:{gotarafa:verb:VIII"
+      ],
+      "headword_arabic": "اِغْتَرَفَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "grf-ightarafa-s1",
+          "definition": "To scoop up or take water by hand.",
+          "usage_conditions": "In the Quranic construction, the verb describes taking a handful directly with one's hand.",
+          "source_refs": [
+            "mufradat:row:1045",
+            "lane:entry:29127"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:249",
+          "word_location": "2:249:22",
+          "sense_ids": [
+            "grf-ightarafa-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "grf-gurfa",
+      "form_group_ids": [
+        "qac-form:grf:gurofap:nominal:-",
+        "qac-form:grf:gurufa`t:nominal:-"
+      ],
+      "headword_arabic": "غُرْفَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "grf-gurfa-s1",
+          "definition": "A quantity or handful of water scooped up by hand.",
+          "usage_conditions": "The noun denotes what has been scooped, rather than the act of scooping itself; in the Quran it occurs for a handful taken by hand.",
+          "source_refs": [
+            "mufradat:row:1045",
+            "lane:entry:29134"
+          ]
+        },
+        {
+          "sense_id": "grf-gurfa-s2",
+          "definition": "An upper chamber or elevated dwelling; in Quranic contexts, a lofty dwelling of Paradise.",
+          "usage_conditions": "The Quranic plural forms refer to elevated dwellings, including the dwellings prepared in Paradise. The term is also explained in Quranic interpretation as the highest places of Paradise or a name for Paradise.",
+          "source_refs": [
+            "mufradat:row:1045",
+            "lane:entry:29134"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:249",
+          "word_location": "2:249:23",
+          "sense_ids": [
+            "grf-gurfa-s1"
+          ]
+        },
+        {
+          "verse_key": "25:75",
+          "word_location": "25:75:3",
+          "sense_ids": [
+            "grf-gurfa-s2"
+          ]
+        },
+        {
+          "verse_key": "29:58",
+          "word_location": "29:58:8",
+          "sense_ids": [
+            "grf-gurfa-s2"
+          ]
+        },
+        {
+          "verse_key": "34:37",
+          "word_location": "34:37:22",
+          "sense_ids": [
+            "grf-gurfa-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-grf-cut",
+      "headword_arabic": "غَرَفَ",
+      "definition": "To cut or cut off; specifically, to clip a horse's forelock.",
+      "usage_conditions": "The forelock usage is a particular application of the cutting sense.",
+      "source_refs": [
+        "lane:entry:29127"
+      ]
+    },
+    {
+      "meaning_id": "cm-grf-tan",
+      "headword_arabic": "غَرَفَ",
+      "definition": "To tan a hide with garf, a tanning plant or material.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29127"
+      ]
+    },
+    {
+      "meaning_id": "cm-grf-camelrope",
+      "headword_arabic": "غَرَفَ",
+      "definition": "To put on a camel's head a rope or cord called غُرْفَة.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29127"
+      ]
+    },
+    {
+      "meaning_id": "cm-grf-camelailment",
+      "headword_arabic": "غَرِفَتِ الإِبِلُ",
+      "definition": "Of camels: to suffer an abdominal complaint from eating garf.",
+      "usage_conditions": "This is an expression specifically describing the effect of eating the plant called garf.",
+      "source_refs": [
+        "lane:entry:29127"
+      ]
+    },
+    {
+      "meaning_id": "cm-tgrf-takeall",
+      "headword_arabic": "تَغَرَّفَنِي",
+      "definition": "To take away everything that someone has with him.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29128"
+      ]
+    },
+    {
+      "meaning_id": "cm-ngrf-cutoff",
+      "headword_arabic": "اِنْغَرَفَ",
+      "definition": "To become cut or cut off.",
+      "usage_conditions": "This is an intransitive or passive-result construction describing a thing that has become severed.",
+      "source_refs": [
+        "lane:entry:29129"
+      ]
+    },
+    {
+      "meaning_id": "cm-ngrf-bendbreak",
+      "headword_arabic": "اِنْغَرَفَ",
+      "definition": "To become bent or broken.",
+      "usage_conditions": "Applied especially to a bone, branch, stick, or similar object; a branch may be broken without being completely severed.",
+      "source_refs": [
+        "lane:entry:29129"
+      ]
+    },
+    {
+      "meaning_id": "cm-ngrf-die",
+      "headword_arabic": "اِنْغَرَفَ",
+      "definition": "To die.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29129"
+      ]
+    },
+    {
+      "meaning_id": "cm-grf-tree",
+      "headword_arabic": "غَرْفٌ",
+      "definition": "A species of tree whose leaves are used for tanning.",
+      "usage_conditions": "The branches are also reported in connection with making bows; descriptions of the tree and the precise tanning practice vary among authorities.",
+      "source_refs": [
+        "lane:entry:29131"
+      ]
+    },
+    {
+      "meaning_id": "cm-grf-tannedskins",
+      "headword_arabic": "غَرْفٌ",
+      "definition": "Skins tanned with the garf tree, or the tanning material or quantity prepared for treating such skins.",
+      "usage_conditions": "The term is reported both for the tanned skins and for material ladled from the tanning preparation; the lexical application varies in the transmitted explanations.",
+      "source_refs": [
+        "lane:entry:29131"
+      ]
+    },
+    {
+      "meaning_id": "cm-garaf-plant",
+      "headword_arabic": "غَرَفٌ",
+      "definition": "A name applied to several desert plants, including panic grass and broom- or reed-like vegetation.",
+      "usage_conditions": "The name is also applied to various other listed plant species, and to leaves used in tanning; the botanical identifications are not uniform.",
+      "source_refs": [
+        "lane:entry:29132"
+      ]
+    },
+    {
+      "meaning_id": "cm-garfa-act-scoop",
+      "headword_arabic": "غَرْفَةٌ",
+      "definition": "A single act of scooping or lading out water by hand.",
+      "usage_conditions": "This vocalization denotes the act or occurrence, distinct from غُرْفَة, the quantity scooped.",
+      "source_refs": [
+        "lane:entry:29133"
+      ]
+    },
+    {
+      "meaning_id": "cm-garfa-act-cut",
+      "headword_arabic": "غَرْفَةٌ",
+      "definition": "A single act of cutting or clipping, including clipping a horse's forelock.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29133"
+      ]
+    },
+    {
+      "meaning_id": "cm-gurfa-milk",
+      "headword_arabic": "غُرْفَةٌ",
+      "definition": "Some milk remaining in a vessel or udder.",
+      "usage_conditions": "This is a reported specialized usage of the same nominal form.",
+      "source_refs": [
+        "lane:entry:29134"
+      ]
+    },
+    {
+      "meaning_id": "cm-gurfa-hairlock",
+      "headword_arabic": "غُرْفَةٌ",
+      "definition": "A lock or tuft of hair.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29134"
+      ]
+    },
+    {
+      "meaning_id": "cm-gurfa-camelrope",
+      "headword_arabic": "غُرْفَةٌ",
+      "definition": "A rope or cord tied with a bow or double bow and put on a camel's head or hung around its neck.",
+      "usage_conditions": "The usage is reported as dialectal in Yemen.",
+      "source_refs": [
+        "lane:entry:29134"
+      ]
+    },
+    {
+      "meaning_id": "cm-girfa-mode",
+      "headword_arabic": "غِرْفَةٌ",
+      "definition": "A mode or manner of scooping or lading out water by hand.",
+      "usage_conditions": "This vocalization denotes the manner of performing the action, not the quantity taken.",
+      "source_refs": [
+        "lane:entry:29135"
+      ]
+    },
+    {
+      "meaning_id": "cm-girfa-sandal",
+      "headword_arabic": "غِرْفَةٌ",
+      "definition": "A sandal.",
+      "usage_conditions": "Reported as a dialectal usage of Asad.",
+      "source_refs": [
+        "lane:entry:29135"
+      ]
+    },
+    {
+      "meaning_id": "cm-garfi-skin",
+      "headword_arabic": "غَرْفِيٌّ",
+      "definition": "Of a leather water- or milk-skin: tanned with the garf tree.",
+      "usage_conditions": "The adjective is also reported for a full water-skin, or, in an alternative explanation, one tanned with dates, arta, and salt.",
+      "source_refs": [
+        "lane:entry:29136"
+      ]
+    },
+    {
+      "meaning_id": "cm-giraf-measure",
+      "headword_arabic": "غِرَافٌ",
+      "definition": "A large measure of capacity.",
+      "usage_conditions": "The word is also used as the plural of غُرْفَة in its water-quantity sense.",
+      "source_refs": [
+        "lane:entry:29138"
+      ]
+    },
+    {
+      "meaning_id": "cm-garuf-well",
+      "headword_arabic": "غَرُوفٌ",
+      "definition": "A well from which water is taken by hand.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29139"
+      ]
+    },
+    {
+      "meaning_id": "cm-garuf-bucket",
+      "headword_arabic": "غَرُوفٌ",
+      "definition": "A large bucket that takes up much water.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29139"
+      ]
+    },
+    {
+      "meaning_id": "cm-garif-thicket",
+      "headword_arabic": "غَرِيفٌ",
+      "definition": "A dense, tangled growth of reeds, papyrus, halfa, or trees; also water in such a thicket.",
+      "usage_conditions": "The term is associated with an assemblage of dense vegetation, with regional variation in the plants included.",
+      "source_refs": [
+        "lane:entry:29140"
+      ]
+    },
+    {
+      "meaning_id": "cm-giryaf-tree",
+      "headword_arabic": "غِرْيَفٌ",
+      "definition": "A species of soft or weak tree, or the papyrus plant.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29141"
+      ]
+    },
+    {
+      "meaning_id": "cm-garifa-scabbard",
+      "headword_arabic": "غَرِيفَةٌ",
+      "definition": "A dangling piece of leather, about a span long, attached to the lower part of a sword scabbard and sometimes notched or ornamented.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29143"
+      ]
+    },
+    {
+      "meaning_id": "cm-garifa-sandal",
+      "headword_arabic": "غَرِيفَةٌ",
+      "definition": "A sandal, including an old or worn-out sandal.",
+      "usage_conditions": "Reported in the dialects of Banu Asad and Tayy.",
+      "source_refs": [
+        "lane:entry:29143"
+      ]
+    },
+    {
+      "meaning_id": "cm-garraf-channel",
+      "headword_arabic": "غَرَّافٌ",
+      "definition": "A river or running-water channel containing abundant water.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29144"
+      ]
+    },
+    {
+      "meaning_id": "cm-garraf-rain",
+      "headword_arabic": "غَرَّافٌ",
+      "definition": "Copious rain.",
+      "usage_conditions": "The sense is reported in a verse, though one transmission gives a different word for that verse.",
+      "source_refs": [
+        "lane:entry:29144"
+      ]
+    },
+    {
+      "meaning_id": "cm-garraf-horse",
+      "headword_arabic": "غَرَّافٌ",
+      "definition": "A horse wide in step and taking much ground with its legs.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:29144"
+      ]
+    },
+    {
+      "meaning_id": "cm-garifa-swift",
+      "headword_arabic": "غَارِفَةٌ",
+      "definition": "A swift female camel; by extension, a swift horse or horseman.",
+      "usage_conditions": "The descriptions extend from the female camel to swift horses and a swift rider.",
+      "source_refs": [
+        "lane:entry:29145"
+      ]
+    },
+    {
+      "meaning_id": "cm-garifa-haircut",
+      "headword_arabic": "غَارِفَةٌ",
+      "definition": "A clipped front-hair fringe or the clipping fashioned across the forehead.",
+      "usage_conditions": "The term is also explained as the clipper of a woman's front hair in the context of an affliction, or as a noun for the clipping itself.",
+      "source_refs": [
+        "lane:entry:29145"
+      ]
+    },
+    {
+      "meaning_id": "cm-migraf-ladle",
+      "headword_arabic": "مِغْرَفَةٌ",
+      "definition": "A ladle or other utensil used for scooping water, food, or similar material.",
+      "usage_conditions": "The shorter form مِغْرَفٌ and the plural مَغَارِفُ are also reported.",
+      "source_refs": [
+        "lane:entry:29147"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:grf:29127:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "grf-ightarafa-s1"
+      ],
+      "note": "The base-verb water-scooping sense is covered by the Quran-attested scooping sense through the explicit Form VIII cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:grf:29127:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-grf-cut"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29127:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-grf-cut"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29127:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-grf-tan"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29127:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-grf-camelrope"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29127:g5:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:grf:29127:g6:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-grf-camelailment"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29128:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tgrf-takeall"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29129:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ngrf-cutoff"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29129:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ngrf-bendbreak"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29129:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ngrf-die"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29130:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the base-verb entry."
+    },
+    {
+      "unit_id": "lane-unit:grf:29131:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-grf-tree",
+        "cm-grf-tannedskins"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29132:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garaf-plant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29132:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:grf:29132:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garaf-plant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29133:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garfa-act-scoop"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29133:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garfa-act-cut"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29134:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "grf-gurfa-s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29134:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gurfa-milk"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29134:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "grf-gurfa-s2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29134:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "grf-gurfa-s2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29134:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gurfa-hairlock"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29134:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gurfa-camelrope"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29135:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-girfa-mode"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29135:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-girfa-sandal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29136:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garfi-skin"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29136:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garfi-skin"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29137:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:grf:29138:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-giraf-measure"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29138:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural reference adds morphology but no independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:grf:29139:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garuf-well"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29139:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garuf-bucket"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29140:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:grf:29140:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garif-thicket"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29141:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-giryaf-tree"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29142:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:grf:29143:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garifa-scabbard"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29143:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garifa-sandal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29143:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:grf:29144:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garraf-channel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29144:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garraf-rain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29144:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garraf-horse"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29145:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garifa-swift"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29145:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-garifa-haircut"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:grf:29146:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:grf:29147:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-migraf-ladle"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The Quran Foundation gloss for 2:249:23 is “(in the) hollow”; the lexical evidence instead identifies غُرْفَة in that passage as the quantity or handful scooped by hand.",
+    "The copious-rain sense of غَرَّافٌ is reported with a variant transmission that the cited verse may contain عَزَّاف rather than غَرَّاف."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,203 @@
+{
+  "root": "HyS",
+  "arabic": "حيص",
+  "root_idea": {
+    "summary": "The root centers on turning aside with deviation, wavering, or retreat.",
+    "development": "From physical or behavioral turning away, the semantic range extends to retreat, flight, avoidance, and escape; the idiom حَيْصَ بَيْصَ applies the notion of being unable to find a way out to confusion or severe straitness.",
+    "source_refs": [
+      "maqayis:row:1489",
+      "lane:entry:16325"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:HyS:m~aHiyS:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:HyS:mahis",
+      "reason": "Displayed under the normalized classical citation form مَحِيصٌ as a verbal noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:HyS:mahis",
+      "form_group_ids": [
+        "qac-form:HyS:m~aHiyS:nominal:-"
+      ],
+      "headword_arabic": "مَحِيصٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "sense:HyS:mahis:escape",
+          "definition": "A place or way of escape; a refuge or way out.",
+          "usage_conditions": "In the Quranic occurrences, the form denotes an available escape or refuge, often in constructions with مِنْ meaning that there is no escape from something; contextual renderings include “place of escape,” “place of refuge,” and “any escape.”",
+          "source_refs": [
+            "lane:entry:16333"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:121",
+          "word_location": "4:121:7",
+          "sense_ids": [
+            "sense:HyS:mahis:escape"
+          ]
+        },
+        {
+          "verse_key": "14:21",
+          "word_location": "14:21:34",
+          "sense_ids": [
+            "sense:HyS:mahis:escape"
+          ]
+        },
+        {
+          "verse_key": "42:35",
+          "word_location": "42:35:9",
+          "sense_ids": [
+            "sense:HyS:mahis:escape"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:HyS:mahis:action",
+      "headword_arabic": "مَحِيصٌ",
+      "definition": "The act of turning away, retreating, or fleeing.",
+      "usage_conditions": "A Classical infinitive use of the same form, distinct from its Quran-attested noun-of-place sense.",
+      "source_refs": [
+        "lane:entry:16325",
+        "lane:entry:16333"
+      ]
+    },
+    {
+      "meaning_id": "meaning:HyS:hasa",
+      "headword_arabic": "حَاصَ",
+      "definition": "To turn away, retreat, or flee from something; figuratively, to deviate from the truth; also to avoid a thing and thereby become safe from it.",
+      "usage_conditions": "Used with عن and in contexts of withdrawal from combat or an adversary, flight, deviation, or avoidance.",
+      "source_refs": [
+        "lane:entry:16325"
+      ]
+    },
+    {
+      "meaning_id": "meaning:HyS:hayasa",
+      "headword_arabic": "حَايَصَ",
+      "definition": "To deal with someone by artifice or guile; to vie with or strive to overcome him.",
+      "usage_conditions": "A Form III construction describing adversarial maneuvering or competition.",
+      "source_refs": [
+        "lane:entry:16326"
+      ]
+    },
+    {
+      "meaning_id": "meaning:HyS:haybays",
+      "headword_arabic": "حَيْصَ بَيْصَ",
+      "definition": "A state of confusion, severe straitness, or difficulty from which there is no escape; figuratively, being so hemmed in that one cannot act freely.",
+      "usage_conditions": "An idiomatic expression that may describe falling into difficulty or putting someone in circumstances where movement, livelihood, or free action is restricted.",
+      "source_refs": [
+        "lane:entry:16330"
+      ]
+    },
+    {
+      "meaning_id": "meaning:HyS:haybays:hole",
+      "headword_arabic": "حَيْصَ بَيْصَ",
+      "definition": "The hole of a rat or mouse.",
+      "usage_conditions": "A separate lexical use of the fixed expression, not the idiom for confusion or straitness.",
+      "source_refs": [
+        "lane:entry:16330"
+      ]
+    },
+    {
+      "meaning_id": "meaning:HyS:hayus",
+      "headword_arabic": "حَيُوصٌ",
+      "definition": "A skittish, wayward beast that takes fright and runs off at random; especially, a badly behaved mule.",
+      "usage_conditions": "Describes an animal that turns away from what its master wants.",
+      "source_refs": [
+        "lane:entry:16332"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:HyS:16325:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:HyS:hasa",
+        "meaning:HyS:mahis:action"
+      ],
+      "note": "Covers the Form I retreat, flight, deviation, avoidance, and related infinitive meaning."
+    },
+    {
+      "unit_id": "lane-unit:HyS:16326:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:HyS:hayasa"
+      ],
+      "note": "Covers the Form III guile, rivalry, and striving construction."
+    },
+    {
+      "unit_id": "lane-unit:HyS:16327:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:HyS:16328:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:HyS:16329:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only direction to the following idiom entry."
+    },
+    {
+      "unit_id": "lane-unit:HyS:16330:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:HyS:haybays"
+      ],
+      "note": "Covers the idiom of confusion, straitness, and having no way out."
+    },
+    {
+      "unit_id": "lane-unit:HyS:16330:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:HyS:haybays:hole"
+      ],
+      "note": "Covers the separate meaning “the hole of a rat or mouse.”"
+    },
+    {
+      "unit_id": "lane-unit:HyS:16331:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form I."
+    },
+    {
+      "unit_id": "lane-unit:HyS:16332:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:HyS:hayus"
+      ],
+      "note": "Covers the skittish, wayward-animal meaning."
+    },
+    {
+      "unit_id": "lane-unit:HyS:16333:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:HyS:mahis:escape",
+        "meaning:HyS:mahis:action"
+      ],
+      "note": "Covers the noun-of-place escape/refuge sense and the Classical infinitive sense."
+    }
+  ],
+  "cautions": [
+    "The Quranic contextual renderings “place of escape,” “place of refuge,” and “any escape” are treated as one escape/refuge sense rather than separate meanings.",
+    "The Classical infinitive use of مَحِيصٌ is listed separately from the Quranic noun-of-place use."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

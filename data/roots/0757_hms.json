@@ -1,0 +1,225 @@
+{
+  "root": "hms",
+  "arabic": "همس",
+  "root_idea": {
+    "summary": "The root centers on the concealment or extreme faintness of sound and sensory trace.",
+    "development": "This orientation extends from inaudible speech to barely perceptible footfall and soft movement; a classical figurative development associates it with a lion whose tread or bite is quiet.",
+    "source_refs": [
+      "maqayis:row:4938",
+      "mufradat:row:1533"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hms:hamos:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-hms-hams",
+      "reason": "The Quran-attested noun is displayed under its normalized lexical citation form هَمْس."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-hms-hams",
+      "form_group_ids": [
+        "qac-form:hms:hamos:nominal:-"
+      ],
+      "headword_arabic": "هَمْس",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform-hms-hams-s1",
+          "definition": "A low, faint, barely audible sound; in the Quranic occurrence, the subdued sound of footsteps.",
+          "usage_conditions": "The Quranic expression is understood as the faint sound of feet moving toward the gathering, with an alternative explanation referring to the soft pattering of feet. The broader lexical sense covers any sound of extreme faintness.",
+          "source_refs": [
+            "lane:entry:10659",
+            "mufradat:row:1533"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:108",
+          "word_location": "20:108:13",
+          "sense_ids": [
+            "qform-hms-hams-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-hms-hamas-whisper",
+      "headword_arabic": "هَمَسَ",
+      "definition": "To speak inaudibly or in a low, faint, gentle manner, so as to be scarcely intelligible; of a devil, to whisper or suggest vain thoughts inwardly.",
+      "usage_conditions": "The verb may be used with speech or with إِلَى to indicate speaking softly to someone; the whispering or suggestion use is specifically applied to the devil.",
+      "source_refs": [
+        "lane:entry:10656"
+      ]
+    },
+    {
+      "meaning_id": "cm-hms-hamas-tread",
+      "headword_arabic": "هَمَسَ",
+      "definition": "To make the faintest sound while treading; to walk softly.",
+      "usage_conditions": "Used of the barely audible sound made by feet or other treading movement.",
+      "source_refs": [
+        "lane:entry:10656"
+      ]
+    },
+    {
+      "meaning_id": "cm-hms-hamas-lower",
+      "headword_arabic": "هَمَسَ",
+      "definition": "To make a sound, voice, or speech low, faint, gentle, or soft.",
+      "usage_conditions": "This is the transitive construction in which the sound or speech is made low.",
+      "source_refs": [
+        "lane:entry:10656"
+      ]
+    },
+    {
+      "meaning_id": "cm-hms-hamas-chew",
+      "headword_arabic": "هَمَسَ الطَّعَامَ",
+      "definition": "To chew food with the mouth closed, without opening it.",
+      "usage_conditions": "The verb may also be used absolutely of chewing without opening the mouth.",
+      "source_refs": [
+        "lane:entry:10656"
+      ]
+    },
+    {
+      "meaning_id": "cm-hms-haamasa-secret",
+      "headword_arabic": "هَامَسَ",
+      "definition": "To speak or converse secretly with another; to discourse privately.",
+      "usage_conditions": "The construction may mean speaking secretly to someone or conversing secretly together.",
+      "source_refs": [
+        "lane:entry:10657"
+      ]
+    },
+    {
+      "meaning_id": "cm-hms-hams-voicequality",
+      "headword_arabic": "هَمْس",
+      "definition": "A faint or gentle vocal sound formed in the mouth without chest resonance or loudness.",
+      "usage_conditions": "This is a specialized description of the quality of a subdued voice.",
+      "source_refs": [
+        "lane:entry:10659"
+      ]
+    },
+    {
+      "meaning_id": "cm-hms-mahmus-speech",
+      "headword_arabic": "كَلَامٌ مَهْمُوسٌ",
+      "definition": "Speech uttered inaudibly, in a low or faint manner, or not spoken openly.",
+      "usage_conditions": "An adjectival description of speech that is quiet or private rather than openly voiced.",
+      "source_refs": [
+        "lane:entry:10661"
+      ]
+    },
+    {
+      "meaning_id": "cm-hms-mahmus-letter",
+      "headword_arabic": "حَرْفٌ مَهْمُوسٌ",
+      "definition": "A consonant articulated with the breath alone, without vocal voicing.",
+      "usage_conditions": "A technical phonetic term for the traditionally recognized whispered or non-vocal letters.",
+      "source_refs": [
+        "lane:entry:10661"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hms:10656:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hms-hamas-whisper"
+      ],
+      "note": "Low, faint speech and inward whispering are represented."
+    },
+    {
+      "unit_id": "lane-unit:hms:10656:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hms-hamas-tread"
+      ],
+      "note": "Barely audible treading is represented."
+    },
+    {
+      "unit_id": "lane-unit:hms:10656:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hms-hamas-lower"
+      ],
+      "note": "The transitive use of making sound or speech low is represented."
+    },
+    {
+      "unit_id": "lane-unit:hms:10656:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hms-hamas-chew"
+      ],
+      "note": "Closed-mouth chewing is represented."
+    },
+    {
+      "unit_id": "lane-unit:hms:10657:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hms-haamasa-secret"
+      ],
+      "note": "Secret conversation is represented."
+    },
+    {
+      "unit_id": "lane-unit:hms:10658:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form III entry; it adds no independently stated lexical content."
+    },
+    {
+      "unit_id": "lane-unit:hms:10659:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-hms-hams-s1"
+      ],
+      "note": "The Quran-attested low, faint sound is represented."
+    },
+    {
+      "unit_id": "lane-unit:hms:10659:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hms-hams-voicequality"
+      ],
+      "note": "The specialized faint vocal quality is represented."
+    },
+    {
+      "unit_id": "lane-unit:hms:10659:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform-hms-hams-s1"
+      ],
+      "note": "The broader application to faint speech and footfall is covered by the low, barely audible sound sense."
+    },
+    {
+      "unit_id": "lane-unit:hms:10660:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring back to هَمَس and هَمْس."
+    },
+    {
+      "unit_id": "lane-unit:hms:10661:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hms-mahmus-speech"
+      ],
+      "note": "The adjectival description of quiet or undisclosed speech is represented."
+    },
+    {
+      "unit_id": "lane-unit:hms:10661:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hms-mahmus-letter"
+      ],
+      "note": "The technical phonetic use for breath-only consonants is represented."
+    }
+  ],
+  "cautions": [
+    "The printed classical citation associated with the Quran discussion is historical notation; the modern example location used here is the independently supplied QAC location 20:108.",
+    "The Quranic faint sound is explained both as barely audible footfall and as the soft pattering of feet; these are interpretive variants within the same lexical sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

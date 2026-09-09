@@ -1,0 +1,189 @@
+{
+  "root": "wkz",
+  "arabic": "وكز",
+  "root_idea": {
+    "summary": "Forceful contact directed at another body: striking with the whole hand, thrusting or piercing, and pushing.",
+    "development": "The lexical range differentiates forceful contact by its manner or effect, extending from a hand-blow to a spear-thrust, push, and related agentive or resultative uses.",
+    "source_refs": [
+      "maqayis:row:5199",
+      "mufradat:row:1609",
+      "lane:entry:45684"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wkz:wakaza:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_wkz_wakaza",
+      "reason": "Displayed under the normalized Form I perfect citation form وَكَزَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_wkz_wakaza",
+      "form_group_ids": [
+        "qac-form:wkz:wakaza:verb:I"
+      ],
+      "headword_arabic": "وَكَزَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_wkz_wakaza_1",
+          "definition": "To strike or beat forcefully; in the Quranic occurrence, to deliver a blow with the hand or fist.",
+          "usage_conditions": "The object is a person in 28:15, where Moses delivers the blow. The broader striking sense is not restricted to a particular object or instrument.",
+          "source_refs": [
+            "lane:entry:45684",
+            "mufradat:row:1609"
+          ]
+        },
+        {
+          "sense_id": "sense_wkz_wakaza_2",
+          "definition": "To thrust or pierce forcefully, including with a spear.",
+          "usage_conditions": "This forceful-thrusting value is included in the Quran-focused lexical range, although the supplied contextual gloss for the sole occurrence identifies a hand-blow rather than separately disambiguating a spear-thrust.",
+          "source_refs": [
+            "lane:entry:45684",
+            "mufradat:row:1609"
+          ]
+        },
+        {
+          "sense_id": "sense_wkz_wakaza_3",
+          "definition": "To push, impel, or repel.",
+          "usage_conditions": "This pushing or repelling value is included in the Quran-focused lexical range, though the supplied contextual gloss for the sole occurrence reflects the striking sense.",
+          "source_refs": [
+            "lane:entry:45684",
+            "mufradat:row:1609"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:15",
+          "word_location": "28:15:26",
+          "sense_ids": [
+            "sense_wkz_wakaza_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_wkz_breaknose",
+      "headword_arabic": "وَكَزَ",
+      "definition": "To break someone's nose by a forceful blow.",
+      "usage_conditions": "A resultative specialization of striking, recorded as a distinct Classical Arabic use.",
+      "source_refs": [
+        "lane:entry:45684"
+      ]
+    },
+    {
+      "meaning_id": "meaning_wkz_goad",
+      "headword_arabic": "وَكَزَ",
+      "definition": "To goad someone.",
+      "usage_conditions": "A conventional use describing incitement or urging.",
+      "source_refs": [
+        "lane:entry:45684"
+      ]
+    },
+    {
+      "meaning_id": "meaning_wkz_wakzah",
+      "headword_arabic": "وَكْزَةٌ",
+      "definition": "A blow with the fist.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:45685"
+      ]
+    },
+    {
+      "meaning_id": "meaning_wkz_wakkaz",
+      "headword_arabic": "وَكَّازٌ",
+      "definition": "One who strikes or beats much with his fist.",
+      "usage_conditions": "An intensive agentive description.",
+      "source_refs": [
+        "lane:entry:45686"
+      ]
+    },
+    {
+      "meaning_id": "meaning_wkz_mutawakiz",
+      "headword_arabic": "مُتَوَكِّزٌ بِأَمْرٍ",
+      "definition": "Standing ready or prepared for a thing or affair.",
+      "usage_conditions": "Occurs in the expression مُتَوَكِّزٌ بِأَمْرٍ.",
+      "source_refs": [
+        "lane:entry:45687"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wkz:45684:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_wkz_wakaza_1"
+      ],
+      "note": "Forceful striking or beating."
+    },
+    {
+      "unit_id": "lane-unit:wkz:45684:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_wkz_wakaza_3"
+      ],
+      "note": "Pushing, impelling, or repelling."
+    },
+    {
+      "unit_id": "lane-unit:wkz:45684:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_wkz_wakaza_2"
+      ],
+      "note": "Piercing with a spear."
+    },
+    {
+      "unit_id": "lane-unit:wkz:45684:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_wkz_goad"
+      ],
+      "note": "Goading or inciting."
+    },
+    {
+      "unit_id": "lane-unit:wkz:45684:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_wkz_breaknose"
+      ],
+      "note": "Breaking the nose as a result of a blow."
+    },
+    {
+      "unit_id": "lane-unit:wkz:45685:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_wkz_wakzah"
+      ],
+      "note": "Fist-blow noun."
+    },
+    {
+      "unit_id": "lane-unit:wkz:45686:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_wkz_wakkaz"
+      ],
+      "note": "Frequent fist-striker."
+    },
+    {
+      "unit_id": "lane-unit:wkz:45687:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_wkz_mutawakiz"
+      ],
+      "note": "Preparedness expression."
+    }
+  ],
+  "cautions": [
+    "The sole QAC occurrence is 28:15 and its supplied contextual gloss is a fist-strike. The Quran-focused lexical entry lists thrusting and pushing alongside hand-striking but does not separately assign those values to that verse.",
+    "The preparedness meaning of مُتَوَكِّزٌ بِأَمْرٍ is retained as a supplied Classical entry, but it is not projected into the Quranic meanings of وَكَزَ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

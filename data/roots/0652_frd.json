@@ -1,0 +1,859 @@
+{
+  "root": "frd",
+  "arabic": "فرد",
+  "root_idea": {
+    "summary": "The root centers on singleness: being one, separate, or without a counterpart.",
+    "development": "From the basic idea of unity and non-pairing, the lexicon develops meanings of being alone, set apart, individually distinguished, unequalled, and separated from others.",
+    "source_refs": [
+      "maqayis:row:3559",
+      "mufradat:row:1101"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:frd:farod:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "frd_fard",
+      "reason": "Displayed under the normalized singular citation form فَرْد."
+    },
+    {
+      "form_group_id": "qac-form:frd:fura`daY`:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "frd_fard",
+      "reason": "فُرَادَىٰ is the Quranic individually/one-by-one form associated with the citation headword فَرْد."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "frd_fard",
+      "form_group_ids": [
+        "qac-form:frd:farod:nominal:-",
+        "qac-form:frd:fura`daY`:nominal:-"
+      ],
+      "headword_arabic": "فَرْد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "frd_fard_s1",
+          "definition": "Single, alone, or solitary; without another joined with or accompanying it.",
+          "usage_conditions": "In the Quran, this describes a person or entity left without a companion, counterpart, or associated partner.",
+          "source_refs": [
+            "lane:entry:33709",
+            "mufradat:row:1101"
+          ]
+        },
+        {
+          "sense_id": "frd_fard_s2",
+          "definition": "Individually; as separate individuals, one by one.",
+          "usage_conditions": "Used in the plural-like expression فُرَادَىٰ for people appearing or being considered separately, including in contrast with pairs or groups.",
+          "source_refs": [
+            "lane:entry:33717",
+            "mufradat:row:1101"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:80",
+          "word_location": "19:80:5",
+          "sense_ids": [
+            "frd_fard_s1"
+          ]
+        },
+        {
+          "verse_key": "19:95",
+          "word_location": "19:95:5",
+          "sense_ids": [
+            "frd_fard_s1"
+          ]
+        },
+        {
+          "verse_key": "21:89",
+          "word_location": "21:89:8",
+          "sense_ids": [
+            "frd_fard_s1"
+          ]
+        },
+        {
+          "verse_key": "6:94",
+          "word_location": "6:94:3",
+          "sense_ids": [
+            "frd_fard_s2"
+          ]
+        },
+        {
+          "verse_key": "34:46",
+          "word_location": "34:46:9",
+          "sense_ids": [
+            "frd_fard_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_tafrid_religious",
+      "headword_arabic": "تَفْرِيد",
+      "definition": "Devotion to the study and observance of religious law while withdrawing from the rest of humanity.",
+      "usage_conditions": "A Form II verbal noun associated with dedicated religious practice and retreat from worldly company.",
+      "source_refs": [
+        "lane:entry:33704"
+      ]
+    },
+    {
+      "meaning_id": "cm_afrada_birth",
+      "headword_arabic": "أَفْرَدَ",
+      "definition": "To cause a female to bring forth one offspring only.",
+      "usage_conditions": "Explicitly used of a female, including a pregnant female, ewe, she-goat, or woman, in opposition to bearing twins.",
+      "source_refs": [
+        "lane:entry:33705"
+      ]
+    },
+    {
+      "meaning_id": "cm_afrada_make_single",
+      "headword_arabic": "أَفْرَدَ",
+      "definition": "To make a person or thing single, sole, or one only.",
+      "usage_conditions": "A causative Form IV use.",
+      "source_refs": [
+        "lane:entry:33705"
+      ]
+    },
+    {
+      "meaning_id": "cm_afrada_set_apart",
+      "headword_arabic": "أَفْرَدَ",
+      "definition": "To put apart or separate, or to reserve something exclusively for one person without a share for others.",
+      "usage_conditions": "The construction may take مِنْ to express separation from another, or بِـ to express exclusive allocation.",
+      "source_refs": [
+        "lane:entry:33705"
+      ]
+    },
+    {
+      "meaning_id": "cm_afrada_hajj",
+      "headword_arabic": "أَفْرَدَ",
+      "definition": "To perform the pilgrimage rites separately from the rites of the minor pilgrimage.",
+      "usage_conditions": "A conventional pilgrimage construction: أَفْرَدَ الحجَّ عن العمرةِ.",
+      "source_refs": [
+        "lane:entry:33705"
+      ]
+    },
+    {
+      "meaning_id": "cm_afrada_messenger",
+      "headword_arabic": "أَفْرَدَ",
+      "definition": "To send a messenger separately to someone.",
+      "usage_conditions": "Occurs with إِلَيْهِ in the cited construction.",
+      "source_refs": [
+        "lane:entry:33705"
+      ]
+    },
+    {
+      "meaning_id": "cm_infarada_alone",
+      "headword_arabic": "اِنْفَرَدَ",
+      "definition": "To be or become alone, apart, or independent of others, without anyone sharing in an affair, possession, or opinion; also, to be alone with someone.",
+      "usage_conditions": "An intransitive Form VII use with constructions such as بِنَفْسِهِ, عَنْهُ, بِفُلَانٍ, بِالأَمْرِ, or بِالمَالِ.",
+      "source_refs": [
+        "lane:entry:33707"
+      ]
+    },
+    {
+      "meaning_id": "cm_infarada_die",
+      "headword_arabic": "اِنْفَرَدَ",
+      "definition": "To die, figuratively described as a bodily part becoming separated from the body.",
+      "usage_conditions": "An assumed-tropical idiom in which separation of the neck from the body represents death.",
+      "source_refs": [
+        "lane:entry:33707"
+      ]
+    },
+    {
+      "meaning_id": "cm_istafrada_find",
+      "headword_arabic": "اِسْتَفْرَدَ",
+      "definition": "To find a person or thing alone, with no second alongside it.",
+      "usage_conditions": "A Form X use of discovering someone or something isolated from its companions.",
+      "source_refs": [
+        "lane:entry:33708"
+      ]
+    },
+    {
+      "meaning_id": "cm_istafrada_take",
+      "headword_arabic": "اِسْتَفْرَدَ",
+      "definition": "To take or select something alone, by itself, or out from among accompanying things.",
+      "usage_conditions": "A Form X use expressing isolation or selection from a set.",
+      "source_refs": [
+        "lane:entry:33708"
+      ]
+    },
+    {
+      "meaning_id": "cm_fard_unique",
+      "headword_arabic": "فَرْد",
+      "definition": "Without equal or like; unmatched or unequalled.",
+      "usage_conditions": "May qualify God as the One without counterpart, or an object such as a sword as unequalled in excellence.",
+      "source_refs": [
+        "lane:entry:33709"
+      ]
+    },
+    {
+      "meaning_id": "cm_fard_apart_unmixed",
+      "headword_arabic": "فَرْد",
+      "definition": "Apart, separate, unconnected, or unmixed with others.",
+      "usage_conditions": "A broader Classical use for persons, animals, plants, or things existing separately from their group or kind.",
+      "source_refs": [
+        "lane:entry:33709"
+      ]
+    },
+    {
+      "meaning_id": "cm_fard_half_pair",
+      "headword_arabic": "فَرْد",
+      "definition": "One member or half of a pair or couple.",
+      "usage_conditions": "A specialized nominal use referring to one of two paired members.",
+      "source_refs": [
+        "lane:entry:33709"
+      ]
+    },
+    {
+      "meaning_id": "cm_fard_alone_together",
+      "headword_arabic": "فَرْد",
+      "definition": "Alone together with another person, apart from the rest.",
+      "usage_conditions": "The dual expression فَرْدَيْنِ describes two people encountered without others present.",
+      "source_refs": [
+        "lane:entry:33709"
+      ]
+    },
+    {
+      "meaning_id": "cm_fard_stars",
+      "headword_arabic": "فَرْد",
+      "definition": "A bright star or group of stars standing apart from surrounding stars.",
+      "usage_conditions": "An astronomical and traditional star-name usage, including stars around the Pleiades or near Ḥaḍār.",
+      "source_refs": [
+        "lane:entry:33709"
+      ]
+    },
+    {
+      "meaning_id": "cm_fard_jaw",
+      "headword_arabic": "فَرْد",
+      "definition": "One side of the jaw.",
+      "usage_conditions": "An anatomical noun with the plural أَفْرَاد.",
+      "source_refs": [
+        "lane:entry:33709"
+      ]
+    },
+    {
+      "meaning_id": "cm_fard_sandal",
+      "headword_arabic": "فَرْد",
+      "definition": "A sandal with a single sole, not patched or doubled with a second sole.",
+      "usage_conditions": "A specialized description of sandal construction.",
+      "source_refs": [
+        "lane:entry:33709"
+      ]
+    },
+    {
+      "meaning_id": "cm_fard_wild_bull",
+      "headword_arabic": "فَرْد",
+      "definition": "A bull, apparently a wild bull.",
+      "usage_conditions": "A separately attested animal-name use.",
+      "source_refs": [
+        "lane:entry:33709"
+      ]
+    },
+    {
+      "meaning_id": "cm_fard_lexicology",
+      "headword_arabic": "أَفْرَاد",
+      "definition": "In lexicology, material transmitted by only one lexicologist.",
+      "usage_conditions": "A technical term distinguished from material reported by only one Arab informant.",
+      "source_refs": [
+        "lane:entry:33709"
+      ]
+    },
+    {
+      "meaning_id": "cm_furada_person",
+      "headword_arabic": "فُرَدَة",
+      "definition": "A person who goes away alone after leaving companions.",
+      "usage_conditions": "A personal noun for one departing separately from a group.",
+      "source_refs": [
+        "lane:entry:33712"
+      ]
+    },
+    {
+      "meaning_id": "cm_furdat_hills",
+      "headword_arabic": "فُرْدَات",
+      "definition": "Hills or similar elevations, especially isolated mounds.",
+      "usage_conditions": "A specialized plural noun for formations described as آكَام.",
+      "source_refs": [
+        "lane:entry:33713"
+      ]
+    },
+    {
+      "meaning_id": "cm_farid_pearl",
+      "headword_arabic": "فَرِيد",
+      "definition": "A pearl or precious, highly valued gem; specifically, a bead that separates other beads or pieces of gold in a necklace.",
+      "usage_conditions": "The lexical association is with something precious and exceptional, or with a pearl set apart among other elements.",
+      "source_refs": [
+        "lane:entry:33719"
+      ]
+    },
+    {
+      "meaning_id": "cm_farid_vertebra",
+      "headword_arabic": "فَرِيد",
+      "definition": "A vertebra in the intermediate or projecting part of a horse's back.",
+      "usage_conditions": "A technical anatomical term for the vertebral region between the dorsal and lumbar areas.",
+      "source_refs": [
+        "lane:entry:33719"
+      ]
+    },
+    {
+      "meaning_id": "cm_farrad_pearl_seller",
+      "headword_arabic": "فَرَّاد",
+      "definition": "One who sells or makes فَرِيد, namely beads or separated necklace elements.",
+      "usage_conditions": "An occupational noun derived from the specialized pearl-and-necklace sense.",
+      "source_refs": [
+        "lane:entry:33722"
+      ]
+    },
+    {
+      "meaning_id": "cm_farid_sugar",
+      "headword_arabic": "فَارِد",
+      "definition": "Of sugar: of the finest and whitest kind.",
+      "usage_conditions": "A specialized adjectival use in the expression سُكَّرٌ فَارِدٌ.",
+      "source_refs": [
+        "lane:entry:33726"
+      ]
+    },
+    {
+      "meaning_id": "cm_farid_camels",
+      "headword_arabic": "فَارِد",
+      "definition": "Of she-camels: not resembling, or possibly not desired by, the stallions.",
+      "usage_conditions": "The source records a textual reading uncertainty: the transmitted explanation gives عدم resemblance, while a proposed correction yields عدم desire.",
+      "source_refs": [
+        "lane:entry:33726"
+      ]
+    },
+    {
+      "meaning_id": "cm_mufrad_simple_word",
+      "headword_arabic": "مُفْرَد",
+      "definition": "A single or simple word whose parts do not each express a corresponding part of its meaning.",
+      "usage_conditions": "A conventional term in grammar and lexicology.",
+      "source_refs": [
+        "lane:entry:33727"
+      ]
+    },
+    {
+      "meaning_id": "cm_mufrad_medicinal_simple",
+      "headword_arabic": "مُفْرَد",
+      "definition": "A simple medicinal substance, used without being compounded with another.",
+      "usage_conditions": "A technical medical use, especially in the plural مُفْرَدَاتُ الطِّبِّ.",
+      "source_refs": [
+        "lane:entry:33727"
+      ]
+    },
+    {
+      "meaning_id": "cm_mufrad_wild_bull",
+      "headword_arabic": "مُفْرَد",
+      "definition": "A wild bull.",
+      "usage_conditions": "A specialized animal-name use of the active-participial form.",
+      "source_refs": [
+        "lane:entry:33727"
+      ]
+    },
+    {
+      "meaning_id": "cm_mufrid_birth",
+      "headword_arabic": "مُفْرِد",
+      "definition": "A female that gives birth to one offspring only.",
+      "usage_conditions": "Explicitly used of a female, pregnant female, ewe, she-goat, or woman, in opposition to one bearing twins.",
+      "source_refs": [
+        "lane:entry:33728"
+      ]
+    },
+    {
+      "meaning_id": "cm_mufarrad_gold",
+      "headword_arabic": "مُفَرَّد",
+      "definition": "Of pieces of gold in a necklace: separated from one another by pearls or other فَرِيد elements.",
+      "usage_conditions": "A passive-participial description of divided necklace components.",
+      "source_refs": [
+        "lane:entry:33729"
+      ]
+    },
+    {
+      "meaning_id": "cm_mufarrid_rider",
+      "headword_arabic": "مُفَرِّد",
+      "definition": "A rider who has no other person with him, or who has only his camel with him.",
+      "usage_conditions": "A specialized description of a solitary traveler.",
+      "source_refs": [
+        "lane:entry:33730"
+      ]
+    },
+    {
+      "meaning_id": "cm_mufarrid_religious",
+      "headword_arabic": "مُفَرِّد",
+      "definition": "One who withdraws from people to devote himself to religious observance, or one devoted to frequent remembrance and praise of God.",
+      "usage_conditions": "In a transmitted religious expression, the term is also explained as referring to those who remain devoted to God's praise after their contemporaries have died.",
+      "source_refs": [
+        "lane:entry:33730"
+      ]
+    },
+    {
+      "meaning_id": "cm_mafarid_lexicology",
+      "headword_arabic": "المَفَارِيد",
+      "definition": "In lexicology, expressions uttered by only one Arab informant.",
+      "usage_conditions": "A technical term distinguished from أَفْرَاد, which concerns transmission by only one leading lexicologist.",
+      "source_refs": [
+        "lane:entry:33732"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:frd:33703:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "frd_fard_s1"
+      ],
+      "note": "The basic state of becoming single is covered by the Quranic solitary sense."
+    },
+    {
+      "unit_id": "lane-unit:frd:33703:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to related forms."
+    },
+    {
+      "unit_id": "lane-unit:frd:33704:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tafrid_religious"
+      ],
+      "note": "Religious withdrawal and devotion."
+    },
+    {
+      "unit_id": "lane-unit:frd:33705:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form VII."
+    },
+    {
+      "unit_id": "lane-unit:frd:33705:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_afrada_birth"
+      ],
+      "note": "Causative birth of one offspring."
+    },
+    {
+      "unit_id": "lane-unit:frd:33705:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_afrada_make_single"
+      ],
+      "note": "Making a person or thing single."
+    },
+    {
+      "unit_id": "lane-unit:frd:33705:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_afrada_set_apart"
+      ],
+      "note": "Putting apart or separating."
+    },
+    {
+      "unit_id": "lane-unit:frd:33705:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_afrada_set_apart"
+      ],
+      "note": "Exclusive allocation without a share for others."
+    },
+    {
+      "unit_id": "lane-unit:frd:33705:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_afrada_hajj"
+      ],
+      "note": "Performing pilgrimage rites separately."
+    },
+    {
+      "unit_id": "lane-unit:frd:33705:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_afrada_messenger"
+      ],
+      "note": "Sending a messenger separately."
+    },
+    {
+      "unit_id": "lane-unit:frd:33706:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following paragraph."
+    },
+    {
+      "unit_id": "lane-unit:frd:33707:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_infarada_alone"
+      ],
+      "note": "Being alone, independent, or alone with someone."
+    },
+    {
+      "unit_id": "lane-unit:frd:33707:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_infarada_die"
+      ],
+      "note": "Figurative death idiom."
+    },
+    {
+      "unit_id": "lane-unit:frd:33708:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form VII."
+    },
+    {
+      "unit_id": "lane-unit:frd:33708:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form VII."
+    },
+    {
+      "unit_id": "lane-unit:frd:33708:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istafrada_find"
+      ],
+      "note": "Finding someone or something alone."
+    },
+    {
+      "unit_id": "lane-unit:frd:33708:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istafrada_take"
+      ],
+      "note": "Taking or selecting something alone."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frd_fard_s1"
+      ],
+      "note": "Single, one only, and individual."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fard_unique"
+      ],
+      "note": "Without equal or like."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fard_half_pair"
+      ],
+      "note": "One half of a pair."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frd_fard_s1",
+        "cm_fard_apart_unmixed"
+      ],
+      "note": "Quranic solitude and broader separation or lack of mixture."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fard_alone_together"
+      ],
+      "note": "Two people alone together."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fard_stars"
+      ],
+      "note": "Isolated or specially named stars."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fard_jaw"
+      ],
+      "note": "One side of the jaw."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fard_sandal"
+      ],
+      "note": "Single-soled sandal."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fard_wild_bull"
+      ],
+      "note": "Bull or wild bull."
+    },
+    {
+      "unit_id": "lane-unit:frd:33709:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fard_lexicology"
+      ],
+      "note": "Technical lexicological term."
+    },
+    {
+      "unit_id": "lane-unit:frd:33710:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to preceding meanings."
+    },
+    {
+      "unit_id": "lane-unit:frd:33711:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Feminine inflectional cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:frd:33712:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_furada_person"
+      ],
+      "note": "Person who departs alone."
+    },
+    {
+      "unit_id": "lane-unit:frd:33713:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_furdat_hills"
+      ],
+      "note": "Specialized noun for isolated hills or mounds."
+    },
+    {
+      "unit_id": "lane-unit:frd:33714:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to فَرْد."
+    },
+    {
+      "unit_id": "lane-unit:frd:33714:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to فُرَاد."
+    },
+    {
+      "unit_id": "lane-unit:frd:33715:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to a prior meaning."
+    },
+    {
+      "unit_id": "lane-unit:frd:33715:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to فُرَاد."
+    },
+    {
+      "unit_id": "lane-unit:frd:33716:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following paragraph."
+    },
+    {
+      "unit_id": "lane-unit:frd:33717:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "frd_fard_s2"
+      ],
+      "note": "One by one or separately."
+    },
+    {
+      "unit_id": "lane-unit:frd:33718:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to prior meanings."
+    },
+    {
+      "unit_id": "lane-unit:frd:33719:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to prior meanings."
+    },
+    {
+      "unit_id": "lane-unit:frd:33719:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_farid_pearl"
+      ],
+      "note": "Pearls, necklace separators, and precious gems."
+    },
+    {
+      "unit_id": "lane-unit:frd:33719:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_farid_vertebra"
+      ],
+      "note": "Technical vertebral meaning."
+    },
+    {
+      "unit_id": "lane-unit:frd:33720:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to فَرِيد."
+    },
+    {
+      "unit_id": "lane-unit:frd:33721:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to prior meanings."
+    },
+    {
+      "unit_id": "lane-unit:frd:33722:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_farrad_pearl_seller"
+      ],
+      "note": "Maker or seller of pearl necklace elements."
+    },
+    {
+      "unit_id": "lane-unit:frd:33723:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to فُرَاد."
+    },
+    {
+      "unit_id": "lane-unit:frd:33724:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to فَرْد."
+    },
+    {
+      "unit_id": "lane-unit:frd:33725:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to a prior meaning."
+    },
+    {
+      "unit_id": "lane-unit:frd:33726:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to فَرْد."
+    },
+    {
+      "unit_id": "lane-unit:frd:33726:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Additional cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:frd:33726:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_farid_sugar"
+      ],
+      "note": "Specialized adjective for fine white sugar."
+    },
+    {
+      "unit_id": "lane-unit:frd:33726:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_farid_camels"
+      ],
+      "note": "Specialized she-camel usage with a recorded reading uncertainty."
+    },
+    {
+      "unit_id": "lane-unit:frd:33727:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to فَرْد."
+    },
+    {
+      "unit_id": "lane-unit:frd:33727:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mufrad_simple_word"
+      ],
+      "note": "Technical term for a simple word."
+    },
+    {
+      "unit_id": "lane-unit:frd:33727:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical number information."
+    },
+    {
+      "unit_id": "lane-unit:frd:33727:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mufrad_medicinal_simple"
+      ],
+      "note": "Technical medical use."
+    },
+    {
+      "unit_id": "lane-unit:frd:33727:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mufrad_wild_bull"
+      ],
+      "note": "Wild bull."
+    },
+    {
+      "unit_id": "lane-unit:frd:33728:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mufrid_birth"
+      ],
+      "note": "Female producing one offspring."
+    },
+    {
+      "unit_id": "lane-unit:frd:33729:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mufarrad_gold"
+      ],
+      "note": "Gold pieces separated by pearls."
+    },
+    {
+      "unit_id": "lane-unit:frd:33730:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mufarrid_rider"
+      ],
+      "note": "Solitary rider."
+    },
+    {
+      "unit_id": "lane-unit:frd:33730:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mufarrid_religious"
+      ],
+      "note": "Religious devotee or frequent celebrant of God's praise."
+    },
+    {
+      "unit_id": "lane-unit:frd:33731:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to an earlier meaning."
+    },
+    {
+      "unit_id": "lane-unit:frd:33732:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mafarid_lexicology"
+      ],
+      "note": "Technical term for an expression reported by one Arab informant."
+    }
+  ],
+  "cautions": [
+    "The specialized فَارِد description of she-camels preserves a source-reported reading uncertainty: the transmitted explanation concerns resemblance to stallions, while a proposed correction concerns whether stallions desire them."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

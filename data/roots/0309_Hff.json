@@ -1,0 +1,955 @@
+{
+  "root": "Hff",
+  "arabic": "حفف",
+  "root_idea": {
+    "summary": "The root develops around three semantic orientations: sound, enclosure or encircling, and dryness or hardship.",
+    "development": "The enclosure branch extends to sides, borders, and being surrounded, with figurative extensions to care and support. The dryness branch includes parched land, ungreased or matted hair, hair removal, and scant livelihood; the sound branch covers rustling, pattering, murmuring, and similar noises.",
+    "source_refs": [
+      "maqayis:row:1399",
+      "mufradat:row:341"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hff:Hafafo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_hff_haffa",
+      "reason": "Distinct Quran-attested Form I verb, normalized from the inflected QAC lemma to the classical perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Hff:HaA^f~iyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_hff_haaff",
+      "reason": "Distinct Quran-attested active participle, presented under its singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_hff_haffa",
+      "form_group_ids": [
+        "qac-form:Hff:Hafafo:verb:I"
+      ],
+      "headword_arabic": "حَفَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_hff_haffa_surround",
+          "definition": "To surround or border something with something else.",
+          "usage_conditions": "In the Quranic construction حَفَّ ... بِـ, the object is made to have the surrounding thing at its sides; in 18:32, the two gardens are bordered by palm trees.",
+          "source_refs": [
+            "lane:entry:14955",
+            "mufradat:row:341"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:32",
+          "word_location": "18:32:10",
+          "sense_ids": [
+            "sense_hff_haffa_surround"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_hff_haaff",
+      "form_group_ids": [
+        "qac-form:Hff:HaA^f~iyn:nominal:-"
+      ],
+      "headword_arabic": "حَافّ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_hff_haaff_surrounding",
+          "definition": "Surrounding or encircling; standing around the sides of something.",
+          "usage_conditions": "The Quranic form is the masculine plural active participle حَافِّينَ. It describes the angels surrounding the Throne, with the expression also understood as referring to its sides.",
+          "source_refs": [
+            "lane:entry:14971",
+            "mufradat:row:341"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:75",
+          "word_location": "39:75:3",
+          "sense_ids": [
+            "sense_hff_haaff_surrounding"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_hff_haffa_care",
+      "headword_arabic": "حَفَّ",
+      "definition": "To attend to, support, provide for, or treat someone with benevolent solicitude; in a proverbial expression, also to praise someone.",
+      "usage_conditions": "Used in expressions such as حَفَّنَا وَرَفَّنَا, where the surrounding image is extended to tending, supplying, guarding, or caring for people; praising is reported as a further proverbial use.",
+      "source_refs": [
+        "lane:entry:14955"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffa_want",
+      "headword_arabic": "حَفَّ",
+      "definition": "To beset or encompass someone with want.",
+      "usage_conditions": "Figurative intransitive usage, as in saying that want has surrounded people.",
+      "source_refs": [
+        "lane:entry:14955"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffa_cut_hair",
+      "headword_arabic": "حَفَّ",
+      "definition": "To cut or clip the moustache, head hair, or beard closely or extensively.",
+      "usage_conditions": "The object is hair or facial hair; the degree may be much, short, or to the utmost extent.",
+      "source_refs": [
+        "lane:entry:14955"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffa_pluck_face",
+      "headword_arabic": "حَفَّ",
+      "definition": "To remove facial hair by plucking, scraping, or similar grooming.",
+      "usage_conditions": "A conventional facial-grooming use, including removing hair with threads or a razor.",
+      "source_refs": [
+        "lane:entry:14955"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffa_dry",
+      "headword_arabic": "حَفَّ",
+      "definition": "To become dry, parched, rough, or matted from lack of moisture or grease; of land or plants, to dry up.",
+      "usage_conditions": "Said of hair, beards, food, bellies, land, or vegetation according to context.",
+      "source_refs": [
+        "lane:entry:14955"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffa_hearing",
+      "headword_arabic": "حَفَّ",
+      "definition": "For hearing to cease entirely.",
+      "usage_conditions": "A figurative use reported for the loss of hearing.",
+      "source_refs": [
+        "lane:entry:14955"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffa_sound",
+      "headword_arabic": "حَفَّ",
+      "definition": "To make a rustling, pattering, or resonant sound.",
+      "usage_conditions": "Said of a horse in vigorous running, heavy rain, a serpent, tree branches, a bird’s wings, and similar sources; of the beetle جُعَل, the sound is associated with flying.",
+      "source_refs": [
+        "lane:entry:14955"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffafa_distress",
+      "headword_arabic": "حَفَّفَ",
+      "definition": "To become straitened or distressed in one’s means, with property becoming scant.",
+      "usage_conditions": "A figurative Form II development associated with the drying up of land or resources.",
+      "source_refs": [
+        "lane:entry:14956"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_ahaffa_ungreased",
+      "headword_arabic": "أَحْفَفَ",
+      "definition": "To leave or cause the head to remain long without ointment, so that its hair becomes shaggy or matted.",
+      "usage_conditions": "Causative Form IV usage applied to the condition of the hair.",
+      "source_refs": [
+        "lane:entry:14957"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_ahaffa_slander",
+      "headword_arabic": "أَحْفَفَ",
+      "definition": "To speak evil of someone.",
+      "usage_conditions": "A figurative Form IV use.",
+      "source_refs": [
+        "lane:entry:14957"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_ahaffa_urgehorse",
+      "headword_arabic": "أَحْفَفَ",
+      "definition": "To urge a horse to run vehemently, causing it to make a resonant sound.",
+      "usage_conditions": "The action is directed toward the horse’s vigorous running.",
+      "source_refs": [
+        "lane:entry:14957"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_ahaffa_weave",
+      "headword_arabic": "أَحْفَفَ",
+      "definition": "To weave cloth using the loom apparatus or beam called الحَفّ.",
+      "usage_conditions": "A technical weaving use of Form IV.",
+      "source_refs": [
+        "lane:entry:14957"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_ihtaffa_encompassed",
+      "headword_arabic": "اِحْتَفَّ",
+      "definition": "To become encompassed or surrounded by something, and thus to be in its midst.",
+      "usage_conditions": "An intransitive or reciprocal Form VIII construction.",
+      "source_refs": [
+        "lane:entry:14958"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_ihtaffa_cut_herbage",
+      "headword_arabic": "اِحْتَفَّ",
+      "definition": "To cut or mow herbage.",
+      "usage_conditions": "A Form VIII use applied to vegetation; a variant lexicographical transmission gives “to estimate its quantity.”",
+      "source_refs": [
+        "lane:entry:14958"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_ihtaffa_camels_herbage",
+      "headword_arabic": "اِحْتَفَّ",
+      "definition": "For camels to eat or obtain herbage.",
+      "usage_conditions": "The subject is camels and the object is pasture or herbage.",
+      "source_refs": [
+        "lane:entry:14958"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_ihtaffa_consume",
+      "headword_arabic": "اِحْتَفَّ",
+      "definition": "To consume entirely what is in a cooking pot or vessel.",
+      "usage_conditions": "A Form VIII use denoting complete consumption.",
+      "source_refs": [
+        "lane:entry:14958"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_istahaffa_possessions",
+      "headword_arabic": "اِسْتَحَفَّ",
+      "definition": "To take all of someone’s possessions in a raid.",
+      "usage_conditions": "A Form X military or raiding construction.",
+      "source_refs": [
+        "lane:entry:14959"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_hafhaf_straitened",
+      "headword_arabic": "حَفْحَفَ",
+      "definition": "To become straitened in one’s means of subsistence.",
+      "usage_conditions": "A reduplicated form with a livelihood-related figurative meaning.",
+      "source_refs": [
+        "lane:entry:14960"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haff_saddlebow",
+      "headword_arabic": "حَفّ",
+      "definition": "Possibly a saddlebow or similar part of a saddle.",
+      "usage_conditions": "A tentative, possibly post-classical technical attribution.",
+      "source_refs": [
+        "lane:entry:14961"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haff_time",
+      "headword_arabic": "حَفّ",
+      "definition": "The time or season of an event.",
+      "usage_conditions": "Used in the expression عَلَى حَفِّ ذَلِكَ, “in the time or season of that.”",
+      "source_refs": [
+        "lane:entry:14961"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haff_trace",
+      "headword_arabic": "حَفّ",
+      "definition": "The track or immediate aftermath of something.",
+      "usage_conditions": "An alternative interpretation of expressions with عَلَى حَفِّ ذَلِكَ, understood as “after” or “near after” it.",
+      "source_refs": [
+        "lane:entry:14961"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haff_self",
+      "headword_arabic": "حَفّ",
+      "definition": "Preoccupied with or anxious about oneself.",
+      "usage_conditions": "Used in the expression فُلَانٌ حَفٌّ بِنَفْسِهِ.",
+      "source_refs": [
+        "lane:entry:14961"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffa_loombeam",
+      "headword_arabic": "حَفَّةٌ",
+      "definition": "A loom beam or wooden implement used in weaving, including the piece that arranges or beats the woof.",
+      "usage_conditions": "A technical weaving noun with several reported applications to parts of the loom.",
+      "source_refs": [
+        "lane:entry:14962"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffa_camelforage",
+      "headword_arabic": "حَفَّةٌ",
+      "definition": "The herbage eaten or obtained by camels.",
+      "usage_conditions": "A noun derived from the Form VIII expression for camels consuming herbage.",
+      "source_refs": [
+        "lane:entry:14962"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_hafaf_verge",
+      "headword_arabic": "حَفَفٌ",
+      "definition": "The verge or edge of an event or affair.",
+      "usage_conditions": "Used in عَلَى حَفَفِ أَمْرٍ, “on the verge of an affair.”",
+      "source_refs": [
+        "lane:entry:14964"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_hafaf_livelihood",
+      "headword_arabic": "حَفَفٌ",
+      "definition": "Straitened or scant circumstances, especially limited means of subsistence.",
+      "usage_conditions": "May indicate want, paucity of property, or a livelihood barely sufficient for the household.",
+      "source_refs": [
+        "lane:entry:14964"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_hifaf_sideborder",
+      "headword_arabic": "حِفَافٌ",
+      "definition": "A side, border, or edge of a thing; including the rim of hair left around a bald head and the place where sand ends.",
+      "usage_conditions": "The dual حِفَافَا شَيْءٍ denotes the two sides of a thing.",
+      "source_refs": [
+        "lane:entry:14965"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_hifaf_proportionate",
+      "headword_arabic": "حِفَافٌ",
+      "definition": "A quantity of food proportionate to what is eaten.",
+      "usage_conditions": "Used of provisions that correspond to the number or needs of those eating.",
+      "source_refs": [
+        "lane:entry:14965"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_hafif_sound",
+      "headword_arabic": "حَفِيفٌ",
+      "definition": "A rustling, pattering, murmuring, rushing, whizzing, or buzzing sound.",
+      "usage_conditions": "Applied to sounds of running animals, rain, serpents, wings, trees, wind, fire, stones, arrows, and bees.",
+      "source_refs": [
+        "lane:entry:14967"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_hafif_dryherbage",
+      "headword_arabic": "حَفِيفٌ",
+      "definition": "Dry herbage.",
+      "usage_conditions": "A nominal use distinct from the sound noun.",
+      "source_refs": [
+        "lane:entry:14967"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_hufafa_pluckedhair",
+      "headword_arabic": "حُفَافَةٌ",
+      "definition": "Hair that has been plucked, or what has fallen from plucked hair.",
+      "usage_conditions": "A noun denoting the removed material or its remains.",
+      "source_refs": [
+        "lane:entry:14968"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_hufafa_straw",
+      "headword_arabic": "حُفَافَةٌ",
+      "definition": "Remains of straw or dry trefoil.",
+      "usage_conditions": "A residue noun applied to leftover dry plant material.",
+      "source_refs": [
+        "lane:entry:14968"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffan_fullvessel",
+      "headword_arabic": "حَفَّانٌ",
+      "definition": "A full vessel, filled nearly to the top or to the level of its sides.",
+      "usage_conditions": "The noun can describe contents reaching the vessel’s upper edges.",
+      "source_refs": [
+        "lane:entry:14970"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffan_ostrichyoung",
+      "headword_arabic": "حَفَّانٌ",
+      "definition": "The young of an ostrich.",
+      "usage_conditions": "Reported of males and females together, with variation as to whether it can specifically denote females.",
+      "source_refs": [
+        "lane:entry:14970"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffan_ostrichfeathers",
+      "headword_arabic": "حَفَّانٌ",
+      "definition": "The feathers or plumage of an ostrich.",
+      "usage_conditions": "A related zoological use.",
+      "source_refs": [
+        "lane:entry:14970"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffan_camelyoung",
+      "headword_arabic": "حَفَّانٌ",
+      "definition": "Young camels.",
+      "usage_conditions": "A usage sometimes applied to camels below the age-class called حِقَاق.",
+      "source_refs": [
+        "lane:entry:14970"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haffan_servants",
+      "headword_arabic": "حَفَّانٌ",
+      "definition": "Servants.",
+      "usage_conditions": "A figurative use explained as likening servants to young ostriches.",
+      "source_refs": [
+        "lane:entry:14970"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_haff_dryfood",
+      "headword_arabic": "حَفّ",
+      "definition": "Dry, unmoistened food; by extension, a person whose food is dry.",
+      "usage_conditions": "Said of parched barley meal, bread, or other food lacking water, clarified butter, or a savory accompaniment.",
+      "source_refs": [
+        "lane:entry:14971"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_mahfuf_surrounded",
+      "headword_arabic": "مَحْفُوفٌ",
+      "definition": "Encompassed or surrounded.",
+      "usage_conditions": "A passive participle, as in someone surrounded by servants.",
+      "source_refs": [
+        "lane:entry:14972"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_mihaffa_vehicle",
+      "headword_arabic": "مِحَفَّةٌ",
+      "definition": "A woman’s covered vehicle or camel saddle surrounded by a wooden frame and cloth.",
+      "usage_conditions": "Distinguished from a هَوْدَج by lacking its dome-like top.",
+      "source_refs": [
+        "lane:entry:14973"
+      ]
+    },
+    {
+      "meaning_id": "cm_hff_muhaffaf_decorated",
+      "headword_arabic": "مُحَفَّفٌ",
+      "definition": "Hung or trimmed around with ornamental material, especially silk brocade.",
+      "usage_conditions": "Used of an object decorated around its exterior, such as a hoodaj.",
+      "source_refs": [
+        "lane:entry:14974"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hff:14955:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hff_haffa_surround",
+        "cm_hff_haffa_care",
+        "cm_hff_haffa_want"
+      ],
+      "note": "Surrounding, caring or providing for, and figuratively being beset by want are all represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hff_haffa_surround"
+      ],
+      "note": "The transitive surrounding construction and its Quranic example are covered."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_cut_hair"
+      ],
+      "note": "Hair cutting or clipping is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_pluck_face"
+      ],
+      "note": "Facial-hair removal is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_dry"
+      ],
+      "note": "Dry, shaggy, or matted hair is covered by the dryness branch."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_dry"
+      ],
+      "note": "Drying and cracking of food is covered by the dryness branch."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_dry"
+      ],
+      "note": "Being dry without grease is covered."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g3:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_dry"
+      ],
+      "note": "Dryness of the belly from a diet lacking grease is covered."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g3:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_dry"
+      ],
+      "note": "Drying of land or vegetation is covered."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g3:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_hearing"
+      ],
+      "note": "The figurative loss of hearing is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14955:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_sound"
+      ],
+      "note": "The verb’s sound-making branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14956:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14956:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14956:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffafa_distress"
+      ],
+      "note": "Form II straitening of means is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14957:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14957:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_ahaffa_ungreased"
+      ],
+      "note": "Leaving the head ungreased is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14957:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_ahaffa_slander"
+      ],
+      "note": "The figurative slander use is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14957:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_ahaffa_urgehorse"
+      ],
+      "note": "Urging a horse to run vehemently is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14957:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_ahaffa_weave"
+      ],
+      "note": "The technical weaving use is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14958:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14958:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_ihtaffa_encompassed"
+      ],
+      "note": "The intransitive encompassed construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14958:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14958:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_ihtaffa_cut_herbage"
+      ],
+      "note": "Cutting herbage and the reported variant are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14958:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_ihtaffa_camels_herbage"
+      ],
+      "note": "Camels eating or obtaining herbage is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14958:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_ihtaffa_consume"
+      ],
+      "note": "Complete consumption of a vessel’s contents is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14959:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_istahaffa_possessions"
+      ],
+      "note": "Taking all possessions in a raid is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14960:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14960:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hafhaf_straitened"
+      ],
+      "note": "Straitened livelihood is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14961:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14961:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haff_saddlebow"
+      ],
+      "note": "The tentative saddlebow meaning is preserved."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14961:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haff_time",
+        "cm_hff_haff_trace"
+      ],
+      "note": "Both reported interpretations, time/season and track or aftermath, are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14961:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haff_self"
+      ],
+      "note": "Being preoccupied with oneself is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14962:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_loombeam"
+      ],
+      "note": "The loom implement is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14962:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffa_camelforage"
+      ],
+      "note": "The noun for herbage eaten or obtained by camels is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14962:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14963:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14964:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hafaf_verge"
+      ],
+      "note": "The verge of an affair is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14964:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14964:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hafaf_livelihood"
+      ],
+      "note": "Straitened or scant livelihood is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14965:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hifaf_sideborder"
+      ],
+      "note": "Side or border is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14965:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hff_haaff_surrounding",
+        "cm_hff_hifaf_sideborder"
+      ],
+      "note": "The surrounding-people use and the border-of-hair use are both covered."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14965:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hifaf_sideborder"
+      ],
+      "note": "The edge of a sand formation is covered."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14965:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hifaf_proportionate"
+      ],
+      "note": "Proportionate food is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14965:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14966:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional pointer with no new lexical content."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14966:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14967:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hafif_sound"
+      ],
+      "note": "The noun’s sound branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14967:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hafif_dryherbage"
+      ],
+      "note": "Dry herbage is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14968:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hufafa_pluckedhair"
+      ],
+      "note": "Plucked hair and its fallen remains are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14968:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_hufafa_straw"
+      ],
+      "note": "Plant residues are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14969:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive-noun pointer with no new lexical content."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14969:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14970:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffan_fullvessel"
+      ],
+      "note": "A full or brim-filled vessel is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14970:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffan_ostrichyoung"
+      ],
+      "note": "Young ostriches are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14970:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffan_ostrichfeathers"
+      ],
+      "note": "Ostrich feathers are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14970:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffan_camelyoung"
+      ],
+      "note": "Young camels are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14970:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haffan_servants"
+      ],
+      "note": "The figurative use for servants is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14971:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_hff_haaff_surrounding"
+      ],
+      "note": "The Quran-attested surrounding sense is explicitly attested."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14971:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14971:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_haff_dryfood"
+      ],
+      "note": "Dry food is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14971:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14972:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_mahfuf_surrounded"
+      ],
+      "note": "The passive participle meaning encompassed is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14972:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14973:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_mihaffa_vehicle"
+      ],
+      "note": "The women’s vehicle or surrounded saddle is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hff:14974:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hff_muhaffaf_decorated"
+      ],
+      "note": "Being hung or trimmed around with brocade is represented."
+    }
+  ],
+  "cautions": [
+    "The public verb headword is normalized to the classical citation form حَفَّ; the supplied QAC lemma is an inflected morphological identity.",
+    "The Quranic nominal is a plural active participle, حَافِّينَ, presented under the singular citation form حَافّ.",
+    "One reported saddlebow meaning is explicitly tentative and possibly post-classical; a variant interpretation is also recorded for the Form VIII herbage entry."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

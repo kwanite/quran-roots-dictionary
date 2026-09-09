@@ -1,0 +1,240 @@
+{
+  "root": "lmz",
+  "arabic": "لمز",
+  "root_idea": {
+    "summary": "The root centers on marking, exposing, or pursuing a defect, yielding the meanings of blaming, fault-finding, and disparaging others.",
+    "development": "The lexical development includes an original nonverbal sign made with the eye, head, or lip, then extends to verbal blame and speaking ill of others. A separate Classical branch denotes pushing, repelling, or striking.",
+    "source_refs": [
+      "maqayis:row:4222",
+      "mufradat:row:1322",
+      "lane:entry:9864"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lmz:yalomizu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lmz-verb-I",
+      "reason": "Displayed under the normalized Form I perfect citation form لَمَزَ."
+    },
+    {
+      "form_group_id": "qac-form:lmz:l~umazap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lmz-lumazah",
+      "reason": "Displayed under the normalized nominal citation form لُمَزَةٌ rather than the inflected Quranic occurrence."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "lmz-verb-I",
+      "form_group_ids": [
+        "qac-form:lmz:yalomizu:verb:I"
+      ],
+      "headword_arabic": "لَمَزَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "lmz-verb-I-s1",
+          "definition": "To blame, reproach, criticize, or find fault with someone or with what they have done.",
+          "usage_conditions": "In Quranic usage, this includes blaming someone concerning the distribution of alms and criticizing others; the action may be expressed directly to the person.",
+          "source_refs": [
+            "lane:entry:9864"
+          ]
+        },
+        {
+          "sense_id": "lmz-verb-I-s2",
+          "definition": "To speak ill of, disparage, or backbite another by exposing or mentioning faults.",
+          "usage_conditions": "The use may concern a person in their presence or absence. It denotes verbal detracting and fault-finding, not merely a nonverbal sign.",
+          "source_refs": [
+            "lane:entry:9864",
+            "mufradat:row:1322"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:58",
+          "word_location": "9:58:3",
+          "sense_ids": [
+            "lmz-verb-I-s1"
+          ]
+        },
+        {
+          "verse_key": "9:79",
+          "word_location": "9:79:2",
+          "sense_ids": [
+            "lmz-verb-I-s1"
+          ]
+        },
+        {
+          "verse_key": "49:11",
+          "word_location": "49:11:24",
+          "sense_ids": [
+            "lmz-verb-I-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "lmz-lumazah",
+      "form_group_ids": [
+        "qac-form:lmz:l~umazap:nominal:-"
+      ],
+      "headword_arabic": "لُمَزَةٌ",
+      "public_pos_label": "Noun · intensive agent",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "lmz-lumazah-s1",
+          "definition": "A habitual fault-finder or detractor; one who repeatedly speaks ill of others.",
+          "usage_conditions": "Applied to a man or woman; the ending ة is reported as expressing intensiveness rather than necessarily feminine gender. Classical descriptions differ over whether the fault-finding is done to the face or behind the back, and by tongue, eye, or other signs.",
+          "source_refs": [
+            "lane:entry:9866",
+            "mufradat:row:1322"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "104:1",
+          "word_location": "104:1:4",
+          "sense_ids": [
+            "lmz-lumazah-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "lmz-classical-sign",
+      "headword_arabic": "لَمَزَ",
+      "definition": "To make a sign to someone with the eye or another feature, such as the head or lip, accompanied by low speech.",
+      "usage_conditions": "This is the reported original nonverbal signification of the verb.",
+      "source_refs": [
+        "lane:entry:9864"
+      ]
+    },
+    {
+      "meaning_id": "lmz-classical-push-strike",
+      "headword_arabic": "لَمَزَ",
+      "definition": "To push, impel, or repel; also to strike or beat.",
+      "usage_conditions": "A distinct physical-action branch of the Form I verb in Classical Arabic.",
+      "source_refs": [
+        "lane:entry:9864"
+      ]
+    },
+    {
+      "meaning_id": "lmz-classical-mulamazah",
+      "headword_arabic": "مُلَامَزَةٌ",
+      "definition": "Enigmatic or indirect conversation, or communication by signs, between two people.",
+      "usage_conditions": "The construction is described as involving talking enigmatically and making signs with one another; مُلَامَزَةٌ is also reported as synonymous with مُلَاغَزَةٌ.",
+      "source_refs": [
+        "lane:entry:9865"
+      ]
+    },
+    {
+      "meaning_id": "lmz-classical-lammaz",
+      "headword_arabic": "لَمَّازٌ",
+      "definition": "One who frequently makes signs with the eye or the like.",
+      "usage_conditions": "An intensive agent noun formed from the nonverbal signification.",
+      "source_refs": [
+        "lane:entry:9868"
+      ]
+    },
+    {
+      "meaning_id": "lmz-classical-lummaz",
+      "headword_arabic": "لُمَّازٌ",
+      "definition": "Persons who speak ill of others, even truthfully, in their presence.",
+      "usage_conditions": "A plural lexical form described as referring to people who engage in this kind of direct verbal disparagement.",
+      "source_refs": [
+        "lane:entry:9869"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lmz:9864:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lmz-classical-sign"
+      ],
+      "note": "Covers the original nonverbal signification."
+    },
+    {
+      "unit_id": "lane-unit:lmz:9864:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lmz-verb-I-s1",
+        "lmz-verb-I-s2"
+      ],
+      "note": "Covers blaming, reproaching, finding fault, and speaking ill of others."
+    },
+    {
+      "unit_id": "lane-unit:lmz:9864:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lmz-classical-push-strike"
+      ],
+      "note": "Covers pushing, repelling, striking, and beating."
+    },
+    {
+      "unit_id": "lane-unit:lmz:9865:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lmz-classical-mulamazah"
+      ],
+      "note": "Covers enigmatic conversation and communication by signs."
+    },
+    {
+      "unit_id": "lane-unit:lmz:9866:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lmz-lumazah-s1"
+      ],
+      "note": "Covers the intensive agent noun for habitual fault-finding and speaking ill."
+    },
+    {
+      "unit_id": "lane-unit:lmz:9867:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to لُمَزَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:lmz:9868:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lmz-classical-lammaz"
+      ],
+      "note": "Covers the frequent sign-maker."
+    },
+    {
+      "unit_id": "lane-unit:lmz:9868:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to لُمَزَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:lmz:9869:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Active-participle identification without an independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:lmz:9869:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lmz-classical-lummaz"
+      ],
+      "note": "Covers the plural form for persons who speak ill of others in their presence."
+    }
+  ],
+  "cautions": [
+    "Classical descriptions give competing distinctions between هُمَزَةٌ and لُمَزَةٌ, including presence versus absence and tongue versus eye; the nominal sense therefore preserves their shared habitual-detractor core without selecting one disputed distinction.",
+    "The physical pushing or striking branch is Classical Arabic evidence and is not assigned to the Quranic Form I senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

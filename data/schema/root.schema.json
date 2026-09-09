@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/quran-roots/root.schema.json",
+  "title": "Quran Roots public root record",
+  "type": "object",
+  "required": [
+    "root",
+    "arabic",
+    "root_idea",
+    "quranic_forms"
+  ],
+  "properties": {
+    "root": {
+      "type": "string",
+      "minLength": 1
+    },
+    "arabic": {
+      "type": "string"
+    },
+    "root_idea": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "development": {
+          "type": "string"
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "quranic_forms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "public_form_id"
+        ],
+        "properties": {
+          "public_form_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "form_group_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "headword_arabic": {
+            "type": "string"
+          },
+          "public_pos_label": {
+            "type": "string"
+          },
+          "verb_form": {},
+          "occurrence_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "senses": {
+            "type": "array"
+          },
+          "quran_examples": {
+            "type": "array"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "other_classical_meanings": {
+      "type": "array"
+    },
+    "cautions": {
+      "type": "array"
+    },
+    "unassigned_or_ambiguous_evidence": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

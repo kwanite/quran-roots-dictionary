@@ -1,0 +1,388 @@
+{
+  "root": "$gl",
+  "arabic": "شغل",
+  "root_idea": {
+    "summary": "The root centers on occupying or preoccupying, in contrast to emptiness or leisure.",
+    "development": "The basic idea of occupying another or being occupied extends to diversion of attention, business and preoccupation, states of engagement, resource-use, and specialized senses involving substances taking effect.",
+    "source_refs": [
+      "maqayis:row:2658",
+      "mufradat:row:774"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$gl:$agalato:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_$gl_shaghala",
+      "reason": "Displayed under the normalized Form I perfect citation form شَغَلَ rather than the Quranic feminine singular token شَغَلَتْ."
+    },
+    {
+      "form_group_id": "qac-form:$gl:$ugul:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_$gl_shughul",
+      "reason": "Displayed as the Quran-attested noun شُغُلٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_$gl_shaghala",
+      "form_group_ids": [
+        "qac-form:$gl:$agalato:verb:I"
+      ],
+      "headword_arabic": "شَغَلَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_$gl_shaghala_1",
+          "definition": "To busy, occupy, or engage someone, diverting them from something.",
+          "usage_conditions": "A transitive Form I verb; the diversion-from nuance is especially expressed with عَنْ. The Quranic occurrence is an active form referring to being kept busy.",
+          "source_refs": [
+            "lane:entry:38768"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "48:11",
+          "word_location": "48:11:6",
+          "sense_ids": [
+            "sense_$gl_shaghala_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_$gl_shughul",
+      "form_group_ids": [
+        "qac-form:$gl:$ugul:nominal:-"
+      ],
+      "headword_arabic": "شُغُلٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_$gl_shughul_1",
+          "definition": "An engrossing preoccupation or circumstance that absorbs and distracts a person’s attention.",
+          "usage_conditions": "In the Quranic expression شُغُلٍ فَاكِهُونَ, it denotes an engrossing state or occupation; the sense may involve being made forgetful or unmindful of other matters.",
+          "source_refs": [
+            "mufradat:row:774",
+            "lane:entry:38774"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "36:55",
+          "word_location": "36:55:6",
+          "sense_ids": [
+            "sense_$gl_shughul_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_$gl_shughul_business",
+      "headword_arabic": "شُغْلٌ",
+      "definition": "Business, occupation, or employment; the opposite of leisure.",
+      "usage_conditions": "The related vowel forms شُغُلٌ and شَغَلٌ are also recorded. The preoccupying or distracting extension overlaps the Quranic nominal sense.",
+      "source_refs": [
+        "lane:entry:38774"
+      ]
+    },
+    {
+      "meaning_id": "cm_$gl_resource_occupation",
+      "headword_arabic": "شَغَلَ",
+      "definition": "To occupy a place, resource, or supply so that it is kept from another; hence, to have enough for oneself.",
+      "usage_conditions": "Attested in expressions concerning pasture or water being occupied and thereby unavailable to another.",
+      "source_refs": [
+        "lane:entry:38768"
+      ]
+    },
+    {
+      "meaning_id": "cm_$gl_busy_state",
+      "headword_arabic": "شَغِلٌ",
+      "definition": "Busy, occupied, or employed; engaged with something so as to be diverted from another matter.",
+      "usage_conditions": "Related forms include مَشْغُولٌ, مُشْتَغِلٌ, and مُشْتَغَلٌ. شَغَّالٌ expresses intensive or habitual busyness, أَشْغَلُ is comparative or superlative, and مَا أَشْغَلَهُ is an anomalous exclamative meaning how greatly someone is busied.",
+      "source_refs": [
+        "lane:entry:38768",
+        "lane:entry:38770",
+        "lane:entry:38776",
+        "lane:entry:38780",
+        "lane:entry:38782"
+      ]
+    },
+    {
+      "meaning_id": "cm_$gl_tashaghala",
+      "headword_arabic": "تَشَاغَلَ",
+      "definition": "To busy oneself with something, or to occupy one another.",
+      "usage_conditions": "May be construed with عَنْ for turning oneself away from or keeping oneself occupied away from someone or something.",
+      "source_refs": [
+        "lane:entry:38771"
+      ]
+    },
+    {
+      "meaning_id": "cm_$gl_ishtaghala_effect",
+      "headword_arabic": "اِشْتَغَلَ",
+      "definition": "To spread through or pervade, of poison; to enter and take effect, of medicine.",
+      "usage_conditions": "A specialized construction describing a substance penetrating or producing its effect in a person or thing.",
+      "source_refs": [
+        "lane:entry:38772"
+      ]
+    },
+    {
+      "meaning_id": "cm_$gl_agent",
+      "headword_arabic": "شَاغِلٌ",
+      "definition": "One or something that busies, occupies, or diverts another.",
+      "usage_conditions": "Applied to a person or to an affair; its plural may refer to busifying or distracting affairs.",
+      "source_refs": [
+        "lane:entry:38781"
+      ]
+    },
+    {
+      "meaning_id": "cm_$gl_harvest",
+      "headword_arabic": "شَغْلَةٌ",
+      "definition": "Reaped grain or wheat collected together at the place where it is threshed.",
+      "usage_conditions": "A specialized agricultural noun, also associated with بَيْدَرٌ and كُدْسٌ.",
+      "source_refs": [
+        "lane:entry:38778"
+      ]
+    },
+    {
+      "meaning_id": "cm_$gl_ushghula",
+      "headword_arabic": "أُشْغُولَةٌ",
+      "definition": "A thing with which one is busied or occupied.",
+      "usage_conditions": "An أُفْعُولَةٌ formation from the occupation sense; it can also function as a synonym of شُغْلٌ.",
+      "source_refs": [
+        "lane:entry:38783"
+      ]
+    },
+    {
+      "meaning_id": "cm_$gl_mashghala",
+      "headword_arabic": "مَشْغَلَةٌ",
+      "definition": "A thing that causes someone to be busied or occupied.",
+      "usage_conditions": "The plural is مَشَاغِلُ.",
+      "source_refs": [
+        "lane:entry:38784"
+      ]
+    },
+    {
+      "meaning_id": "cm_$gl_mashghul_specialized",
+      "headword_arabic": "مَشْغُولٌ",
+      "definition": "Occupied, engaged, or in use in specialized applications.",
+      "usage_conditions": "A person may be occupied with an unprofitable pursuit; a young woman may be married; property may be devoted to commerce; and a house may be inhabited.",
+      "source_refs": [
+        "lane:entry:38785"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$gl:38768:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_$gl_shaghala_1",
+        "cm_$gl_busy_state"
+      ],
+      "note": "The transitive occupation sense is Quranic; passive, adjectival, and intensive related uses are represented classically."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38768:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_resource_occupation"
+      ],
+      "note": "Specialized occupation of pasture or water is represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38769:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38770:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38770:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_$gl_busy_state"
+      ],
+      "note": "An anomalous exclamative retaining the ordinary busy meaning."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38771:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_tashaghala"
+      ],
+      "note": "Self-busying and reciprocal occupation are represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38772:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38772:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_ishtaghala_effect"
+      ],
+      "note": "Specialized poison and medicine constructions are represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38773:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Infinitive-noun identification with no additional lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38773:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to شَغْلَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38774:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_$gl_shughul_1",
+        "cm_$gl_shughul_business"
+      ],
+      "note": "The business/occupation branch and the preoccupying or distracting branch are both represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38775:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding nominal entry."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38776:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_busy_state"
+      ],
+      "note": "The occupied or employed adjectival state and its related participles are represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38777:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to شُغْلٌ."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38778:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_harvest"
+      ],
+      "note": "The agricultural noun for reaped grain is represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38779:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to شَغْلَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38780:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_$gl_busy_state"
+      ],
+      "note": "An intensive adjective within the busy or occupied branch."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38781:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_agent"
+      ],
+      "note": "The agent or cause that busies another is represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38782:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_$gl_busy_state"
+      ],
+      "note": "A comparative or superlative form of the same busy meaning."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38783:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_ushghula"
+      ],
+      "note": "The noun for a thing that occupies one is represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38784:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_mashghala"
+      ],
+      "note": "The noun for a thing causing occupation is represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38785:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the adjectival entry."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38785:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_mashghul_specialized"
+      ],
+      "note": "The idiomatic application to an unprofitable pursuit is represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38785:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_mashghul_specialized"
+      ],
+      "note": "The specialized application to a married young woman is represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38785:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_mashghul_specialized"
+      ],
+      "note": "The specialized application to property devoted to commerce is represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38785:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_$gl_mashghul_specialized"
+      ],
+      "note": "The specialized application to an inhabited house is represented."
+    },
+    {
+      "unit_id": "lane-unit:$gl:38786:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the occupied-state entry."
+    }
+  ],
+  "cautions": [
+    "The verb is displayed as the normalized Form I citation form شَغَلَ; the Quranic token شَغَلَتْ is its feminine singular perfect form.",
+    "Some derived forms in the Classical evidence are marked dialectal, rare, anomalous, or disputed; they are retained only where their lexical construction is independently meaningful."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

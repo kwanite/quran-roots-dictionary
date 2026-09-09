@@ -1,0 +1,246 @@
+{
+  "root": "bxs",
+  "arabic": "بخس",
+  "root_idea": {
+    "summary": "The root centers on decrease: a reduction, deficiency, or shortfall.",
+    "development": "The core idea of decrease is illustrated by the loss of marrow from the bones or eye. In its lexical extensions, it describes deficient amounts or prices and the wrongful withholding of what is due from another.",
+    "source_refs": [
+      "maqayis:row:704",
+      "mufradat:row:97",
+      "lane:entry:35688",
+      "lane:entry:35690"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bxs:yaboxaso:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bxs-verb-I",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:bxs:baxos:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bxs-nominal-bakhs",
+      "reason": "Displayed as the Quranic nominal headword بَخْسٌ, covering its adjective and noun attestations."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bxs-verb-I",
+      "form_group_ids": [
+        "qac-form:bxs:yaboxaso:verb:I"
+      ],
+      "headword_arabic": "بَخَسَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "bxs-verb-I-s1",
+          "definition": "To diminish, lessen, or make deficient.",
+          "usage_conditions": "Used of an amount, due, reward, or other thing that is reduced or made deficient; the passive expresses being diminished.",
+          "source_refs": [
+            "lane:entry:35688",
+            "mufradat:row:97"
+          ]
+        },
+        {
+          "sense_id": "bxs-verb-I-s2",
+          "definition": "To wrongfully deprive or shortchange someone by withholding part of what is due.",
+          "usage_conditions": "A transitive construction may take a person together with that person’s right, property, or things; the passive may describe someone whose due is not diminished or who is not wronged.",
+          "source_refs": [
+            "lane:entry:35688",
+            "mufradat:row:97"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:282",
+          "word_location": "2:282:32",
+          "sense_ids": [
+            "bxs-verb-I-s1"
+          ]
+        },
+        {
+          "verse_key": "11:15",
+          "word_location": "11:15:14",
+          "sense_ids": [
+            "bxs-verb-I-s2"
+          ]
+        },
+        {
+          "verse_key": "11:85",
+          "word_location": "11:85:7",
+          "sense_ids": [
+            "bxs-verb-I-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bxs-nominal-bakhs",
+      "form_group_ids": [
+        "qac-form:bxs:baxos:nominal:-"
+      ],
+      "headword_arabic": "بَخْسٌ",
+      "public_pos_label": "Adjective / noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "bxs-nominal-bakhs-s1",
+          "definition": "Deficiency, diminution, or loss; something deficient or defective.",
+          "usage_conditions": "May denote a shortfall in what is due, including diminution of a reward or other amount.",
+          "source_refs": [
+            "lane:entry:35688",
+            "lane:entry:35690",
+            "mufradat:row:97"
+          ]
+        },
+        {
+          "sense_id": "bxs-nominal-bakhs-s2",
+          "definition": "A deficient, insufficient, or unjustly low price.",
+          "usage_conditions": "Used attributively of a price in a sale, especially one below what is due or appropriate.",
+          "source_refs": [
+            "lane:entry:35690",
+            "mufradat:row:97"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "72:13",
+          "word_location": "72:13:12",
+          "sense_ids": [
+            "bxs-nominal-bakhs-s1"
+          ]
+        },
+        {
+          "verse_key": "12:20",
+          "word_location": "12:20:3",
+          "sense_ids": [
+            "bxs-nominal-bakhs-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-bxs-tbakhas-sale",
+      "headword_arabic": "تَبَاخَسَ",
+      "definition": "To defraud one another in a sale; to mutually under-value or cheat one another.",
+      "usage_conditions": "A reciprocal Form VI construction describing mutual defrauding in a commercial exchange.",
+      "source_refs": [
+        "lane:entry:35689",
+        "mufradat:row:97"
+      ]
+    },
+    {
+      "meaning_id": "cm-bxs-bakhs-rainland",
+      "headword_arabic": "بَخْسٌ",
+      "definition": "Land or seed-produce that is deficiently watered and depends only on rainfall rather than irrigation from a spring, well, or the like.",
+      "usage_conditions": "A specialized application to land or crops characterized by deficient irrigation.",
+      "source_refs": [
+        "lane:entry:35690"
+      ]
+    },
+    {
+      "meaning_id": "cm-bxs-baakhis-thing",
+      "headword_arabic": "بَاخِسٌ",
+      "definition": "A slight or deficient thing.",
+      "usage_conditions": "A lexical use of the active-participial form as a description of something small or lacking.",
+      "source_refs": [
+        "mufradat:row:97"
+      ]
+    },
+    {
+      "meaning_id": "cm-bxs-baakhis-person",
+      "headword_arabic": "بَاخِسٌ",
+      "definition": "One who acts wrongfully or unjustly.",
+      "usage_conditions": "In a proverb, it is applied to someone who feigns weak understanding while being crafty and cunning.",
+      "source_refs": [
+        "lane:entry:35692"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bxs:35688:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bxs-verb-I-s1",
+        "bxs-verb-I-s2",
+        "bxs-nominal-bakhs-s1"
+      ],
+      "note": "Covers diminution, wrongful deprivation, and the cited diminution of a due or reward."
+    },
+    {
+      "unit_id": "lane-unit:bxs:35688:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "bxs-verb-I-s2"
+      ],
+      "note": "The general wrongful-treatment statement is covered by the wrongful deprivation sense."
+    },
+    {
+      "unit_id": "lane-unit:bxs:35688:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another root entry."
+    },
+    {
+      "unit_id": "lane-unit:bxs:35689:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bxs-tbakhas-sale"
+      ],
+      "note": "Mutual defrauding in a sale."
+    },
+    {
+      "unit_id": "lane-unit:bxs:35690:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bxs-nominal-bakhs-s1",
+        "bxs-nominal-bakhs-s2"
+      ],
+      "note": "General deficiency and the deficient-price usage."
+    },
+    {
+      "unit_id": "lane-unit:bxs:35690:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bxs-bakhs-rainland"
+      ],
+      "note": "Specialized sense for deficiently watered land or produce."
+    },
+    {
+      "unit_id": "lane-unit:bxs:35690:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-bxs-bakhs-rainland"
+      ],
+      "note": "Further specification of rain-watered seed-produce."
+    },
+    {
+      "unit_id": "lane-unit:bxs:35691:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بَخْسٌ."
+    },
+    {
+      "unit_id": "lane-unit:bxs:35692:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bxs-baakhis-person"
+      ],
+      "note": "Baakhis as a wrongful or unjust person, including the proverbial use."
+    }
+  ],
+  "cautions": [
+    "The Form I group includes both active and passive imperfect Quranic occurrences; voice is treated as a constructional difference within the same lexical senses, not as a separate headword."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

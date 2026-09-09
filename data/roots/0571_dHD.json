@@ -1,0 +1,323 @@
+{
+  "root": "dHD",
+  "arabic": "دحض",
+  "root_idea": {
+    "summary": "A semantic core of slipping, moving away from stability, or failing to remain firm.",
+    "development": "The physical loss of footing extends to the sun's decline, arguments becoming invalid or being rebutted, and persons being overcome or brought to loss.",
+    "source_refs": [
+      "maqayis:row:1717",
+      "mufradat:row:459"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:dHD:yudoHiDu:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dHD-form-IV-adhada",
+      "reason": "Displayed under the normalized Form IV perfect citation form أَدْحَضَ."
+    },
+    {
+      "form_group_id": "qac-form:dHD:daAHiDap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dHD-form-AP-dahid",
+      "reason": "Displayed under the singular active-participle citation form دَاحِضٌ."
+    },
+    {
+      "form_group_id": "qac-form:dHD:mudoHaDiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dHD-form-PP-mudhadh",
+      "reason": "Displayed under the singular passive-participle citation form مُدْحَضٌ; the Quran occurrence is its plural form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "dHD-form-IV-adhada",
+      "form_group_ids": [
+        "qac-form:dHD:yudoHiDu:verb:IV"
+      ],
+      "headword_arabic": "أَدْحَضَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "dHD-iv-s1",
+          "definition": "To rebut, invalidate, or render null.",
+          "usage_conditions": "In the Quranic construction لِيُدْحِضُوا بِهِ الْحَقَّ, the verb denotes using something to rebut or invalidate the truth; this is the figurative argumentative use of the causative Form IV.",
+          "source_refs": [
+            "lane:entry:295",
+            "mufradat:row:459"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:56",
+          "word_location": "18:56:11",
+          "sense_ids": [
+            "dHD-iv-s1"
+          ]
+        },
+        {
+          "verse_key": "40:5",
+          "word_location": "40:5:15",
+          "sense_ids": [
+            "dHD-iv-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dHD-form-AP-dahid",
+      "form_group_ids": [
+        "qac-form:dHD:daAHiDap:nominal:-"
+      ],
+      "headword_arabic": "دَاحِضٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "dHD-ap-s1",
+          "definition": "Invalid, null, or rebutted.",
+          "usage_conditions": "Used of an argument, plea, allegation, or evidence; in the Quranic occurrence, it predicates that the opponents' argument lacks validity or has been refuted.",
+          "source_refs": [
+            "lane:entry:299",
+            "mufradat:row:459"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "42:16",
+          "word_location": "42:16:11",
+          "sense_ids": [
+            "dHD-ap-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dHD-form-PP-mudhadh",
+      "form_group_ids": [
+        "qac-form:dHD:mudoHaDiyn:nominal:-"
+      ],
+      "headword_arabic": "مُدْحَضٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "dHD-pp-s1",
+          "definition": "Made to slip; overcome or defeated.",
+          "usage_conditions": "Passive result of Form IV, describing those brought into loss or defeat; the Quranic occurrence uses the plural form مُدْحَضِينَ.",
+          "source_refs": [
+            "lane:entry:295",
+            "mufradat:row:459"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:141",
+          "word_location": "37:141:4",
+          "sense_ids": [
+            "dHD-pp-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "dHD-cm-dahada-foot",
+      "headword_arabic": "دَحَضَ",
+      "definition": "To slip or lose one's footing.",
+      "usage_conditions": "The basic intransitive physical use, said of a foot and also of a person.",
+      "source_refs": [
+        "lane:entry:294"
+      ]
+    },
+    {
+      "meaning_id": "dHD-cm-dahada-sun",
+      "headword_arabic": "دَحَضَ",
+      "definition": "Of the sun, to decline from the meridian toward the place of setting.",
+      "usage_conditions": "A figurative extension of physical slipping or movement away from a stable position.",
+      "source_refs": [
+        "lane:entry:294"
+      ]
+    },
+    {
+      "meaning_id": "dHD-cm-adhada-physical",
+      "headword_arabic": "أَدْحَضَ",
+      "definition": "To cause a foot or person to slip; of rain, to make a place slippery.",
+      "usage_conditions": "The physical causative use of Form IV, distinct from its Quranic figurative use of rebutting or invalidating.",
+      "source_refs": [
+        "lane:entry:295"
+      ]
+    },
+    {
+      "meaning_id": "dHD-cm-dahd-slippery-place",
+      "headword_arabic": "دَحْضٌ",
+      "definition": "A slippery place; also water that causes slipping.",
+      "usage_conditions": "A concrete noun for a place or substance associated with loss of footing.",
+      "source_refs": [
+        "lane:entry:296"
+      ]
+    },
+    {
+      "meaning_id": "dHD-cm-dahid-idiom",
+      "headword_arabic": "دَاحِضٌ",
+      "definition": "Lacking firmness, stability, determination, or resolve in affairs.",
+      "usage_conditions": "A figurative idiomatic use associated with the expression دُحْضُ الأَقْدَامِ.",
+      "source_refs": [
+        "lane:entry:299"
+      ]
+    },
+    {
+      "meaning_id": "dHD-cm-madhada",
+      "headword_arabic": "مَدْحَضَةٌ",
+      "definition": "A cause or place of slipping; a place where feet do not remain firm.",
+      "usage_conditions": "A place or circumstance liable to cause loss of footing; synonymous with مَزَلَّةٌ in the cited usage.",
+      "source_refs": [
+        "lane:entry:301"
+      ]
+    },
+    {
+      "meaning_id": "dHD-cm-midhas",
+      "headword_arabic": "مِدْحَاضٌ",
+      "definition": "A place in which one slips often or repeatedly.",
+      "usage_conditions": "An intensive designation for a frequently slippery place.",
+      "source_refs": [
+        "lane:entry:302"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:dHD:294:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-cm-dahada-foot"
+      ],
+      "note": "Physical slipping of a foot or person."
+    },
+    {
+      "unit_id": "lane-unit:dHD:294:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-cm-dahada-sun"
+      ],
+      "note": "The sun's decline from the meridian."
+    },
+    {
+      "unit_id": "lane-unit:dHD:294:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-ap-s1"
+      ],
+      "note": "An argument or plea becoming null or void."
+    },
+    {
+      "unit_id": "lane-unit:dHD:294:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dHD:295:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-cm-adhada-physical"
+      ],
+      "note": "Form IV causation of physical slipping."
+    },
+    {
+      "unit_id": "lane-unit:dHD:295:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-cm-adhada-physical"
+      ],
+      "note": "Rain making a place slippery."
+    },
+    {
+      "unit_id": "lane-unit:dHD:295:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-iv-s1"
+      ],
+      "note": "Figurative Form IV use for rebutting or invalidating, explicitly tied to Quranic expressions."
+    },
+    {
+      "unit_id": "lane-unit:dHD:296:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-cm-dahd-slippery-place"
+      ],
+      "note": "A slippery place."
+    },
+    {
+      "unit_id": "lane-unit:dHD:296:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-cm-dahd-slippery-place"
+      ],
+      "note": "Water that causes slipping."
+    },
+    {
+      "unit_id": "lane-unit:dHD:297:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:dHD:298:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:dHD:299:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-cm-dahid-idiom"
+      ],
+      "note": "Figurative idiom for lack of firmness or resolve."
+    },
+    {
+      "unit_id": "lane-unit:dHD:299:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-ap-s1"
+      ],
+      "note": "Quranic dāḥiḍah describing an invalid or rebutted argument."
+    },
+    {
+      "unit_id": "lane-unit:dHD:300:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the slippery-place entry."
+    },
+    {
+      "unit_id": "lane-unit:dHD:301:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-cm-madhada"
+      ],
+      "note": "A cause or place where feet do not remain firm."
+    },
+    {
+      "unit_id": "lane-unit:dHD:302:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dHD-cm-midhas"
+      ],
+      "note": "A place where slipping occurs frequently."
+    }
+  ],
+  "cautions": [
+    "The Quranic Form IV occurrences attest the figurative meaning of rebutting or invalidating; the physical slipping use is broader Classical Arabic evidence.",
+    "The supplied lexical evidence directly describes the Form IV causative action. The gloss “the losers” for مُدْحَضِينَ is contextual support for its passive result, not an independent lexical source."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

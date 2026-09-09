@@ -1,0 +1,33 @@
+============================================================================================================
+QURAN ROOTS — FINAL FREEZE AUDIT V3 (V8 QF CONTEXT ENRICHMENT)
+============================================================================================================
+
+FREEZE GATE:                      PASS
+
+Canonical packet roots:           1642
+FINAL JSON artifacts:             1642
+Exact internal roots:             1642
+Missing roots:                    0
+Hard anomalies:                   0
+Authorized v8 changed roots:      271
+Unchanged v7→v8 roots:            1371
+
+QF EXAMPLE VERIFICATION
+------------------------------------------------------------------------------------------------------------
+MATCH                                                            9178
+
+CURRENT VALIDATOR WARNING CODE ROOT COUNTS
+------------------------------------------------------------------------------------------------------------
+LANE_SOURCE_REF_NOT_LINKED_BY_UNIT_LEDGER                                             496
+QF_REPRESENTATIVE_NOT_SUPPLIED                                                        276
+QF_GLOSS_MISMATCH                                                                      66
+DERIVED_NOMINAL_PARENT_LEXICAL_SUPPORT                                                 31
+PUBLIC_DERIVED_NOMINAL_LABEL_TOO_GENERIC                                                9
+PUBLIC_VERB_LABEL_TOO_GENERIC                                                           2
+
+OUTPUTS
+------------------------------------------------------------------------------------------------------------
+final/audit/final_freeze_v3/report.json
+final/audit/final_freeze_v3/manifest.json
+final/audit/final_freeze_v3/anomalies.json
+final/audit/final_freeze_v3/qf_example_verification.csv

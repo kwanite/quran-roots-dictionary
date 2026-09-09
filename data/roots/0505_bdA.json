@@ -1,0 +1,774 @@
+{
+  "root": "bdA",
+  "arabic": "بدأ",
+  "root_idea": {
+    "summary": "The root centers on opening or initiating something, putting it first, and bringing it into existence.",
+    "development": "From the basic idea of opening or beginning, the lexical development extends to giving precedence, originating or creating anew, first occurrence, first place, and related nouns for beginnings and principles.",
+    "source_refs": [
+      "maqayis:row:711",
+      "mufradat:row:100"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bdA:bada>a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdA_bada",
+      "reason": "Quran-attested Form I verb with distinct senses of beginning with, commencing, and originating."
+    },
+    {
+      "form_group_id": "qac-form:bdA:yubodi}u:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdA_abdaa",
+      "reason": "Quran-attested Form IV verb meaning to originate or bring forth in the first instance."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bdA_bada",
+      "form_group_ids": [
+        "qac-form:bdA:bada>a:verb:I"
+      ],
+      "headword_arabic": "بَدَأَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 12,
+      "senses": [
+        {
+          "sense_id": "bdA_bada_s1",
+          "definition": "To begin with something; put it first or give it precedence; in a hostile context, to initiate the action against someone.",
+          "usage_conditions": "Used with بِـ for beginning with or giving precedence to something; it may also describe being the party that initiates an action.",
+          "source_refs": [
+            "lane:entry:35752",
+            "mufradat:row:100"
+          ]
+        },
+        {
+          "sense_id": "bdA_bada_s2",
+          "definition": "To begin or commence an action, affair, or sequence.",
+          "usage_conditions": "Describes the start of an activity or ordered course, without necessarily implying creation of the thing begun.",
+          "source_refs": [
+            "lane:entry:35752"
+          ]
+        },
+        {
+          "sense_id": "bdA_bada_s3",
+          "definition": "To originate, create, or bring into existence for the first time.",
+          "usage_conditions": "Used especially of bringing creation or a created order into existence, and of an origin that has no preceding instance.",
+          "source_refs": [
+            "lane:entry:35752",
+            "mufradat:row:100"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:76",
+          "word_location": "12:76:1",
+          "sense_ids": [
+            "bdA_bada_s1"
+          ]
+        },
+        {
+          "verse_key": "9:13",
+          "word_location": "9:13:10",
+          "sense_ids": [
+            "bdA_bada_s1"
+          ]
+        },
+        {
+          "verse_key": "21:104",
+          "word_location": "21:104:8",
+          "sense_ids": [
+            "bdA_bada_s2"
+          ]
+        },
+        {
+          "verse_key": "7:29",
+          "word_location": "7:29:15",
+          "sense_ids": [
+            "bdA_bada_s3"
+          ]
+        },
+        {
+          "verse_key": "29:20",
+          "word_location": "29:20:7",
+          "sense_ids": [
+            "bdA_bada_s3"
+          ]
+        },
+        {
+          "verse_key": "32:7",
+          "word_location": "32:7:6",
+          "sense_ids": [
+            "bdA_bada_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bdA_abdaa",
+      "form_group_ids": [
+        "qac-form:bdA:yubodi}u:verb:IV"
+      ],
+      "headword_arabic": "أَبْدَأَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "bdA_abdaa_s1",
+          "definition": "To originate or produce something in the first instance; bring it forth as new.",
+          "usage_conditions": "A transitive causative form used for origination or production, including divine origination; it emphasizes bringing something into being rather than merely starting an activity.",
+          "source_refs": [
+            "lane:entry:35752",
+            "lane:entry:35753"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "34:49",
+          "word_location": "34:49:5",
+          "sense_ids": [
+            "bdA_abdaa_s1"
+          ]
+        },
+        {
+          "verse_key": "85:13",
+          "word_location": "85:13:3",
+          "sense_ids": [
+            "bdA_abdaa_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_beginning",
+      "headword_arabic": "بَدْءٌ",
+      "definition": "The act or state of beginning; a commencement. In expressions of return, the beginning may be the point to which one returns or from which one recommences.",
+      "usage_conditions": "A verbal noun and noun of beginning, including idioms for doing something again from its starting point.",
+      "source_refs": [
+        "lane:entry:35756"
+      ]
+    },
+    {
+      "meaning_id": "cm_first",
+      "headword_arabic": "بَدْءٌ",
+      "definition": "The first or former thing, preceding all others; also a first thought, opinion, or impression formed before fuller consideration.",
+      "usage_conditions": "Used in expressions meaning at first, as a first matter, or at the first appearance of an opinion.",
+      "source_refs": [
+        "lane:entry:35756"
+      ]
+    },
+    {
+      "meaning_id": "cm_chief",
+      "headword_arabic": "بَدْءٌ",
+      "definition": "A chief or lord occupying the first place in chieftainship; by extension, an intelligent or capable young man whose judgment is consulted.",
+      "usage_conditions": "A social-status and leadership use, with plural بُدُوءٌ reported.",
+      "source_refs": [
+        "lane:entry:35756"
+      ]
+    },
+    {
+      "meaning_id": "cm_camel_share",
+      "headword_arabic": "بَدْءٌ",
+      "definition": "A share or portion of a slaughtered camel, especially a best portion; also a joint or a bone with its meat.",
+      "usage_conditions": "A technical term for portions distributed from a slaughtered camel, including portions associated with the game of maysir.",
+      "source_refs": [
+        "lane:entry:35756"
+      ]
+    },
+    {
+      "meaning_id": "cm_dig_well",
+      "headword_arabic": "بَدَأَ",
+      "definition": "To dig a well for the first time.",
+      "usage_conditions": "A specialized transitive use referring to the initial digging of a well.",
+      "source_refs": [
+        "lane:entry:35752"
+      ]
+    },
+    {
+      "meaning_id": "cm_depart_land",
+      "headword_arabic": "بَدَأَ",
+      "definition": "To go forth from one land to another, or from one's own land.",
+      "usage_conditions": "Used with مِنْ to mark the land from which one departs.",
+      "source_refs": [
+        "lane:entry:35752"
+      ]
+    },
+    {
+      "meaning_id": "cm_illness",
+      "headword_arabic": "بُدِئَ",
+      "definition": "To be afflicted with smallpox, measles, or a similar eruptive illness; more generally, to fall sick.",
+      "usage_conditions": "A passive-form expression for being attacked by illness, including inquiry about when a person became ill.",
+      "source_refs": [
+        "lane:entry:35752"
+      ]
+    },
+    {
+      "meaning_id": "cm_abdaa_new",
+      "headword_arabic": "أَبْدَأَ",
+      "definition": "To do or produce a new, previously unknown, strange, or wonderful thing.",
+      "usage_conditions": "A Classical Form IV extension emphasizing novelty or unfamiliarity rather than the Quranic creation sense alone.",
+      "source_refs": [
+        "lane:entry:35753"
+      ]
+    },
+    {
+      "meaning_id": "cm_abdaa_excrement",
+      "headword_arabic": "أَبْدَأَ",
+      "definition": "To void excrement or break wind.",
+      "usage_conditions": "An idiomatic bodily use of the Form IV verb.",
+      "source_refs": [
+        "lane:entry:35753"
+      ]
+    },
+    {
+      "meaning_id": "cm_abdaa_teeth",
+      "headword_arabic": "أَبْدَأَ",
+      "definition": "To put forth one's second teeth.",
+      "usage_conditions": "Said of a child or a colt during the replacement of its first teeth.",
+      "source_refs": [
+        "lane:entry:35753"
+      ]
+    },
+    {
+      "meaning_id": "cm_tabaddaa_begin",
+      "headword_arabic": "تَبَدَّأَ",
+      "definition": "To begin or make a beginning.",
+      "usage_conditions": "A derived Form V expression for entering upon a beginning; it is not a separate Quran-attested form group in this packet.",
+      "source_refs": [
+        "lane:entry:35754"
+      ]
+    },
+    {
+      "meaning_id": "cm_ibtadaa_promise",
+      "headword_arabic": "اِبْتَدَأَ",
+      "definition": "To make someone a promise in anticipation, without that person first asking for it.",
+      "usage_conditions": "Used in the construction اِبْتَدَأَهُ بِوَعْدٍ.",
+      "source_refs": [
+        "lane:entry:35755"
+      ]
+    },
+    {
+      "meaning_id": "cm_military_departure",
+      "headword_arabic": "بَدْأَةٌ",
+      "definition": "The beginning or outward course of a military expedition, as opposed to its return course.",
+      "usage_conditions": "A specialized military term contrasted with رَجْعَةٌ, the homeward course.",
+      "source_refs": [
+        "lane:entry:35759"
+      ]
+    },
+    {
+      "meaning_id": "cm_early_state",
+      "headword_arabic": "بَدْأَةٌ",
+      "definition": "The first period of one's condition or life, especially one's youth or adolescence.",
+      "usage_conditions": "Used in expressions referring to the beginning of a person's state or development.",
+      "source_refs": [
+        "lane:entry:35759"
+      ]
+    },
+    {
+      "meaning_id": "cm_black_truffle_plant",
+      "headword_arabic": "بَدْأَةٌ",
+      "definition": "A certain black plant resembling a truffle and regarded as useless.",
+      "usage_conditions": "A botanical lexical item distinct from the noun for a beginning.",
+      "source_refs": [
+        "lane:entry:35759"
+      ]
+    },
+    {
+      "meaning_id": "cm_badaa_excrement",
+      "headword_arabic": "بَدَاءٌ",
+      "definition": "Excrement from the anus.",
+      "usage_conditions": "A substantive associated with the bodily use of أَبْدَأَ; it is kept distinct from that verb's headword.",
+      "source_refs": [
+        "lane:entry:35763"
+      ]
+    },
+    {
+      "meaning_id": "cm_badii_new",
+      "headword_arabic": "بَدِيءٌ",
+      "definition": "Originated or newly brought into existence; unprecedented, strange, or wonderful.",
+      "usage_conditions": "Applied to a thing not previously existing or not made after the likeness of an earlier thing.",
+      "source_refs": [
+        "lane:entry:35764"
+      ]
+    },
+    {
+      "meaning_id": "cm_badii_well",
+      "headword_arabic": "بَدِيءٌ",
+      "definition": "A newly dug well.",
+      "usage_conditions": "A technical description of a well dug recently or in previously unoccupied ground, contrasted with an ancient or pre-existing well.",
+      "source_refs": [
+        "lane:entry:35764"
+      ]
+    },
+    {
+      "meaning_id": "cm_badii_first_occurrence",
+      "headword_arabic": "بَدِيئَةٌ",
+      "definition": "The first occurrence of something, especially an occurrence that happens unexpectedly or takes one unawares.",
+      "usage_conditions": "May also denote the first of anything; plural بَدَايَا is reported.",
+      "source_refs": [
+        "lane:entry:35768"
+      ]
+    },
+    {
+      "meaning_id": "cm_badii_extemporizing",
+      "headword_arabic": "بَدِيئَةٌ",
+      "definition": "The faculty of extemporizing or producing speech and accounts through prompt intelligence.",
+      "usage_conditions": "Used of a person's quickness and ability to utter or relate things spontaneously.",
+      "source_refs": [
+        "lane:entry:35768"
+      ]
+    },
+    {
+      "meaning_id": "cm_mabdaa_place_time",
+      "headword_arabic": "مَبْدَأٌ",
+      "definition": "A place or time at which something begins; a starting point.",
+      "usage_conditions": "Originally a noun of place or time derived from the verb of beginning.",
+      "source_refs": [
+        "lane:entry:35772"
+      ]
+    },
+    {
+      "meaning_id": "cm_mabdaa_principle",
+      "headword_arabic": "مَبْدَأٌ",
+      "definition": "A principle or first rule of a science or other system.",
+      "usage_conditions": "Often used in the plural مَبَادِئُ for foundational principles.",
+      "source_refs": [
+        "lane:entry:35772"
+      ]
+    },
+    {
+      "meaning_id": "cm_mabdaa_primary_import",
+      "headword_arabic": "مَبْدَأٌ",
+      "definition": "The primary or initial import of a word, opposed to its ultimate or extended end.",
+      "usage_conditions": "A technical metalinguistic use contrasted with غَايَةٌ.",
+      "source_refs": [
+        "lane:entry:35772"
+      ]
+    },
+    {
+      "meaning_id": "cm_mubdii_creator",
+      "headword_arabic": "المُبْدِئُ",
+      "definition": "The Creator or Originator who produced existing things at the beginning, not after the likeness of anything pre-existing.",
+      "usage_conditions": "A divine epithet and participial title, distinct in headword from the Quran-attested finite Form IV verb.",
+      "source_refs": [
+        "lane:entry:35774"
+      ]
+    },
+    {
+      "meaning_id": "cm_mubdii_war_experience",
+      "headword_arabic": "مُبْدِئٌ مُعِيدٌ",
+      "definition": "A man experienced through repeated war or raiding expeditions; also a horse repeatedly trained and exercised and therefore obedient to its rider.",
+      "usage_conditions": "Used in the compound مُبْدِئٌ مُعِيدٌ for repeated experience and practiced ability.",
+      "source_refs": [
+        "lane:entry:35774"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bdA:35752:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdA_bada_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35752:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdA_bada_s2",
+        "bdA_bada_s3"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35752:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdA_bada_s2",
+        "bdA_bada_s3"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35752:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdA_bada_s3",
+        "bdA_abdaa_s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35752:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dig_well"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35752:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_depart_land"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35752:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_illness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35752:g4:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_illness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35753:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35753:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_abdaa_new"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35753:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_abdaa_excrement"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35753:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_abdaa_teeth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35754:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tabaddaa_begin"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35755:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35755:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ibtadaa_promise"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35756:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_beginning"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35756:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_first"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35756:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_chief"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35756:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_camel_share"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35756:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35757:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35758:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35759:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35759:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_military_departure"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35759:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_early_state"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35759:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_black_truffle_plant"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35760:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35761:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35762:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35763:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badaa_excrement"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35764:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35764:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badii_new"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35764:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badii_well"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35765:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35766:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35767:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35768:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35768:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badii_first_occurrence"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35768:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badii_extemporizing"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35769:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35770:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35771:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35772:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mabdaa_place_time"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35772:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35772:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mabdaa_principle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35772:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mabdaa_primary_import"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35773:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35774:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mubdii_creator"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35774:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mubdii_war_experience"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdA:35774:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35775:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35776:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Passive participle gloss without an independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35776:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35777:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdA:35777:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Grammatical terminology: the inchoative subject."
+    }
+  ],
+  "cautions": [
+    "Lane's discussion of بَادِئَ/بَادِيَ الرَّأْيِ involves variant Quran readings and is retained as broader lexical evidence, not assigned to a QAC Quran form because no corresponding form group is supplied here.",
+    "Lane's printed citation for the expression involving يُبْدِئُ uses its historical citation notation; the modern Form IV examples use only the independently supplied QAC locations 34:49 and 85:13."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

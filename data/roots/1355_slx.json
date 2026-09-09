@@ -1,0 +1,818 @@
+{
+  "root": "slx",
+  "arabic": "سلخ",
+  "root_idea": {
+    "summary": "The root centers on removing something from its skin, covering, or enclosing layer.",
+    "development": "The literal act of skinning extends to stripping clothing, shedding a slough, becoming detached, drawing daylight out of night, and metaphorically passing through or reaching the end of a period. Related nouns denote skins, sloughs, stripped objects, places of skinning, and things that shed or are shed.",
+    "source_refs": [
+      "maqayis:row:2468",
+      "mufradat:row:715"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:slx:nasolaxu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "slx-salaxa-I",
+      "reason": "Displayed under the normalized Form I citation headword سَلَخَ rather than the imperfect QAC surface form نَسْلَخُ."
+    },
+    {
+      "form_group_id": "qac-form:slx:{nsalaxa:verb:VII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "slx-insalaxa-VII",
+      "reason": "Displayed under the normalized Form VII citation headword اِنْسَلَخَ rather than the inflected QAC form ٱنسَلَخَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "slx-salaxa-I",
+      "form_group_ids": [
+        "qac-form:slx:nasolaxu:verb:I"
+      ],
+      "headword_arabic": "سَلَخَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "slx-salaxa-I-s1",
+          "definition": "To draw something out or strip it away from what covers or surrounds it; in the Quran, to draw the daylight out of the night.",
+          "usage_conditions": "The Quranic occurrence describes the removal of النهار from الليل, with the image of one layer being stripped away from another.",
+          "source_refs": [
+            "lane:entry:41807",
+            "mufradat:row:715"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "36:37",
+          "word_location": "36:37:4",
+          "sense_ids": [
+            "slx-salaxa-I-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "slx-insalaxa-VII",
+      "form_group_ids": [
+        "qac-form:slx:{nsalaxa:verb:VII"
+      ],
+      "headword_arabic": "اِنْسَلَخَ",
+      "public_pos_label": "Verb · Form VII",
+      "verb_form": "VII",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "slx-insalaxa-VII-s1",
+          "definition": "To become detached or wholly separated from something.",
+          "usage_conditions": "The Quranic use at 7:175 describes detachment from a former state or attachment; the form is intransitive and presents the separation as occurring to the subject.",
+          "source_refs": [
+            "lane:entry:41810",
+            "mufradat:row:715"
+          ]
+        },
+        {
+          "sense_id": "slx-insalaxa-VII-s2",
+          "definition": "To pass away or come to the end of a period.",
+          "usage_conditions": "Used of a defined period, especially a month or other span of time, as in the Quranic expression for the passing of the sacred months.",
+          "source_refs": [
+            "lane:entry:41810",
+            "mufradat:row:715"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:175",
+          "word_location": "7:175:7",
+          "sense_ids": [
+            "slx-insalaxa-VII-s1"
+          ]
+        },
+        {
+          "verse_key": "9:5",
+          "word_location": "9:5:2",
+          "sense_ids": [
+            "slx-insalaxa-VII-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl-salaxa-skin",
+      "headword_arabic": "سَلَخَ",
+      "definition": "To strip or skin the hide of a sheep or goat.",
+      "usage_conditions": "The direct physical use is chiefly described with the hide of a sheep or goat.",
+      "source_refs": [
+        "lane:entry:41807"
+      ]
+    },
+    {
+      "meaning_id": "cl-salaxa-garment",
+      "headword_arabic": "سَلَخَ",
+      "definition": "To pull off or strip off a garment.",
+      "usage_conditions": "Used with clothing as the object of removal.",
+      "source_refs": [
+        "lane:entry:41807"
+      ]
+    },
+    {
+      "meaning_id": "cl-salaxa-period",
+      "headword_arabic": "سَلَخَ",
+      "definition": "To pass through a month or reach its end.",
+      "usage_conditions": "A figurative time expression, used of a month or its completion.",
+      "source_refs": [
+        "lane:entry:41807",
+        "lane:entry:41812"
+      ]
+    },
+    {
+      "meaning_id": "cl-salaxa-excoriation",
+      "headword_arabic": "سَلَخَ",
+      "definition": "To cause skin, hide, or feathers to peel or come off.",
+      "usage_conditions": "Attested of heat, mange, or a disease affecting the covering of a person, animal, or bird.",
+      "source_refs": [
+        "lane:entry:41807"
+      ]
+    },
+    {
+      "meaning_id": "cl-salaxa-plant-regrowth",
+      "headword_arabic": "سَلَخَ",
+      "definition": "Of a plant, to shed its foliage and become green again after drying.",
+      "usage_conditions": "A plant-growth usage describing renewed greenness after the loss or drying of foliage.",
+      "source_refs": [
+        "lane:entry:41807"
+      ]
+    },
+    {
+      "meaning_id": "cl-salaxa-dig-water",
+      "headword_arabic": "سَلَخَ",
+      "definition": "To strip away the surface of a place by digging until water is reached.",
+      "usage_conditions": "A figurative expression comparing excavation to removing a hide.",
+      "source_refs": [
+        "lane:entry:41807"
+      ]
+    },
+    {
+      "meaning_id": "cl-salaxa-womb",
+      "headword_arabic": "سُلِخَ",
+      "definition": "To be drawn out from the womb.",
+      "usage_conditions": "Said of a child in a figurative passive construction.",
+      "source_refs": [
+        "lane:entry:41807"
+      ]
+    },
+    {
+      "meaning_id": "cl-salaxa-poetry",
+      "headword_arabic": "سَلْخُ الشِّعْرِ",
+      "definition": "To replace the original words of a poem throughout with synonymous words.",
+      "usage_conditions": "A technical usage concerning extensive verbal substitution in poetry; a lesser degree is distinguished by another term.",
+      "source_refs": [
+        "lane:entry:41807"
+      ]
+    },
+    {
+      "meaning_id": "cl-insalaxa-skin",
+      "headword_arabic": "اِنْسَلَخَ",
+      "definition": "To become stripped of the skin or to become excoriated.",
+      "usage_conditions": "Used of skin becoming removed or damaged, including through the action of heat.",
+      "source_refs": [
+        "lane:entry:41810"
+      ]
+    },
+    {
+      "meaning_id": "cl-insalaxa-slough",
+      "headword_arabic": "اِنْسَلَخَ",
+      "definition": "Of a serpent or other creeping thing, to cast off or withdraw from its slough.",
+      "usage_conditions": "The subject is the creature that leaves its old outer covering.",
+      "source_refs": [
+        "lane:entry:41810"
+      ]
+    },
+    {
+      "meaning_id": "cl-insalaxa-clothes",
+      "headword_arabic": "اِنْسَلَخَ",
+      "definition": "To become stripped or divested of one's clothes.",
+      "usage_conditions": "An intransitive or reflexive clothing construction.",
+      "source_refs": [
+        "lane:entry:41810"
+      ]
+    },
+    {
+      "meaning_id": "cl-insalaxa-emergence",
+      "headword_arabic": "اِنْسَلَخَ",
+      "definition": "To emerge from or become wholly separate from something, especially of daylight emerging from night.",
+      "usage_conditions": "The construction emphasizes complete separation or emergence from a surrounding state.",
+      "source_refs": [
+        "lane:entry:41810"
+      ]
+    },
+    {
+      "meaning_id": "cl-isalakh-side",
+      "headword_arabic": "اِسْلِخَاخٌ",
+      "definition": "To lie upon one's side.",
+      "usage_conditions": "A specialized verbal-noun usage.",
+      "source_refs": [
+        "lane:entry:41811"
+      ]
+    },
+    {
+      "meaning_id": "cl-salx-endmonth",
+      "headword_arabic": "سَلْخٌ",
+      "definition": "The end of a month, especially its last day.",
+      "usage_conditions": "A temporal noun associated with the completion of a month.",
+      "source_refs": [
+        "lane:entry:41812"
+      ]
+    },
+    {
+      "meaning_id": "cl-salax-thread",
+      "headword_arabic": "سَلَخٌ",
+      "definition": "The spun thread lying on a spindle.",
+      "usage_conditions": "A nominal usage for thread wound or placed upon the spindle.",
+      "source_refs": [
+        "lane:entry:41814"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikh-skinned-animal",
+      "headword_arabic": "سَلِيخٌ",
+      "definition": "A skinned sheep or goat.",
+      "usage_conditions": "One usage applies the term before any part has been eaten; another related usage can denote a fully prepared skinned animal.",
+      "source_refs": [
+        "lane:entry:41816"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikh-insipid",
+      "headword_arabic": "سَلِيخٌ",
+      "definition": "Insipid or without taste.",
+      "usage_conditions": "Also occurs in the expression سَلِيخٌ مَلِيخٌ; the attribution is reported with lexical qualification.",
+      "source_refs": [
+        "lane:entry:41816"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikh-sexual",
+      "headword_arabic": "سَلِيخٌ",
+      "definition": "A man characterized by vigorous sexual intercourse without causing conception.",
+      "usage_conditions": "A specialized and rare description of a man and the stated sexual result.",
+      "source_refs": [
+        "lane:entry:41816"
+      ]
+    },
+    {
+      "meaning_id": "cl-salakhah-insipid",
+      "headword_arabic": "سَلَاخَةٌ",
+      "definition": "Insipidity or tastelessness.",
+      "usage_conditions": "Used in the expression فِيهِ سَلَاخَةٌ for something or someone lacking taste.",
+      "source_refs": [
+        "lane:entry:41817"
+      ]
+    },
+    {
+      "meaning_id": "cl-sulakhah-skinpiece",
+      "headword_arabic": "سُلَاخَةٌ",
+      "definition": "A piece of skin or hide that has been stripped off.",
+      "usage_conditions": "A nominal result of the act of stripping.",
+      "source_refs": [
+        "lane:entry:41818"
+      ]
+    },
+    {
+      "meaning_id": "cl-sulakhah-urine",
+      "headword_arabic": "سُلَاخَةٌ",
+      "definition": "The urine of a mountain goat.",
+      "usage_conditions": "A specialized zoological or material term.",
+      "source_refs": [
+        "lane:entry:41818"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikhah-perfume",
+      "headword_arabic": "سَلِيخَةٌ",
+      "definition": "A perfume or odoriferous substance resembling stripped bark and having forked projections.",
+      "usage_conditions": "A specialized name for the described aromatic substance.",
+      "source_refs": [
+        "lane:entry:41819"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikhah-dryplant",
+      "headword_arabic": "سَلِيخَةٌ",
+      "definition": "The dry woody remainder of certain pasture plants after the useful foliage has been stripped away.",
+      "usage_conditions": "Used of remth and ʿarfaj, including thick dried portions of the latter.",
+      "source_refs": [
+        "lane:entry:41819"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikhah-ban-oil",
+      "headword_arabic": "سَلِيخَةٌ",
+      "definition": "The unseasoned oil of the fruit of the ban tree.",
+      "usage_conditions": "The term applies before the oil is mixed with musk or other aromatics.",
+      "source_refs": [
+        "lane:entry:41819"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikhah-offspring",
+      "headword_arabic": "سَلِيخَةٌ",
+      "definition": "Offspring drawn out from the belly of its mother.",
+      "usage_conditions": "A figurative usage based on removal from the womb.",
+      "source_refs": [
+        "lane:entry:41819"
+      ]
+    },
+    {
+      "meaning_id": "cl-sallakh-flayer",
+      "headword_arabic": "سَلَّاخٌ",
+      "definition": "A skinner or flayer.",
+      "usage_conditions": "An occupational noun for one who skins animals.",
+      "source_refs": [
+        "lane:entry:41821"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikh-skinning",
+      "headword_arabic": "سَالِخٌ",
+      "definition": "Skinning or flaying.",
+      "usage_conditions": "A noun denoting the act or practice of removing an animal's hide.",
+      "source_refs": [
+        "lane:entry:41822"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikh-mange",
+      "headword_arabic": "سَالِخٌ",
+      "definition": "Mange or scab that causes an animal to become excoriated.",
+      "usage_conditions": "Attested especially of the condition affecting a camel.",
+      "source_refs": [
+        "lane:entry:41822"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikh-serpent",
+      "headword_arabic": "سَالِخٌ",
+      "definition": "A serpent that casts off its slough; specifically, a black serpent associated with this yearly shedding.",
+      "usage_conditions": "The specialized serpent epithet is masculine in the cited expression, with distinct feminine and plural forms reported.",
+      "source_refs": [
+        "lane:entry:41822"
+      ]
+    },
+    {
+      "meaning_id": "cl-salikh-plant",
+      "headword_arabic": "سَالِخٌ",
+      "definition": "A plant that has shed its foliage and then become green again.",
+      "usage_conditions": "A specialized botanical usage describing renewed growth after shedding.",
+      "source_refs": [
+        "lane:entry:41822"
+      ]
+    },
+    {
+      "meaning_id": "cl-aslakhu-red",
+      "headword_arabic": "أَسْلَخُ",
+      "definition": "Very red, as though skinned.",
+      "usage_conditions": "An adjective applied to a man in the cited usage.",
+      "source_refs": [
+        "lane:entry:41823"
+      ]
+    },
+    {
+      "meaning_id": "cl-aslakhu-mange",
+      "headword_arabic": "أَسْلَخُ",
+      "definition": "Affected by mange or scab that excoriates the skin.",
+      "usage_conditions": "The plural form is applied to camels in the cited usage.",
+      "source_refs": [
+        "lane:entry:41823"
+      ]
+    },
+    {
+      "meaning_id": "cl-aslakhu-bald",
+      "headword_arabic": "أَسْلَخُ",
+      "definition": "Bald at the front of the head.",
+      "usage_conditions": "A less common adjectival usage; another form is reported as more usual.",
+      "source_refs": [
+        "lane:entry:41823"
+      ]
+    },
+    {
+      "meaning_id": "cl-islikh-plant",
+      "headword_arabic": "إِسْلِيخٌ",
+      "definition": "A certain plant.",
+      "usage_conditions": "The plant's identification is uncertain and the form may be a dialectal variant or transcriptional variant of another plant name.",
+      "source_refs": [
+        "lane:entry:41824"
+      ]
+    },
+    {
+      "meaning_id": "cl-maslak-place",
+      "headword_arabic": "مَسْلَخٌ",
+      "definition": "A place where sheep or goats are skinned.",
+      "usage_conditions": "A place noun for the location of animal skinning.",
+      "source_refs": [
+        "lane:entry:41825"
+      ]
+    },
+    {
+      "meaning_id": "cl-mislakh-hide",
+      "headword_arabic": "مِسْلَاخٌ",
+      "definition": "A skin or hide, especially the hide stripped from a sheep or goat.",
+      "usage_conditions": "The noun can also enter a figurative expression describing an outward human appearance concealing an incongruous character.",
+      "source_refs": [
+        "lane:entry:41826"
+      ]
+    },
+    {
+      "meaning_id": "cl-mislakh-slough",
+      "headword_arabic": "مِسْلَاخٌ",
+      "definition": "The slough of a serpent.",
+      "usage_conditions": "A nominal term for the outer covering cast off by a snake.",
+      "source_refs": [
+        "lane:entry:41826"
+      ]
+    },
+    {
+      "meaning_id": "cl-mislakh-palm",
+      "headword_arabic": "مِسْلَاخٌ",
+      "definition": "A palm tree whose unripe dates fall and become scattered while still green.",
+      "usage_conditions": "A specialized botanical usage.",
+      "source_refs": [
+        "lane:entry:41826"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:slx:41807:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salaxa-skin"
+      ],
+      "note": "Literal skinning meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41807:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salaxa-garment"
+      ],
+      "note": "Garment-stripping construction represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41807:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "slx-salaxa-I-s1",
+        "cl-salaxa-period"
+      ],
+      "note": "Day-from-night removal and passing a month are both covered."
+    },
+    {
+      "unit_id": "lane-unit:slx:41807:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:slx:41807:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salaxa-excoriation"
+      ],
+      "note": "Peeling or excoriation of skin, hide, or feathers represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41807:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salaxa-plant-regrowth"
+      ],
+      "note": "Plant shedding and regrowth represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41807:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salaxa-dig-water"
+      ],
+      "note": "Stripping a surface by digging to water represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41807:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salaxa-womb"
+      ],
+      "note": "Being drawn from the womb represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41807:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salaxa-poetry"
+      ],
+      "note": "Technical poetic substitution represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41808:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:slx:41809:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following paragraph."
+    },
+    {
+      "unit_id": "lane-unit:slx:41810:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-insalaxa-skin"
+      ],
+      "note": "Inchoative skin-stripping meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41810:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cl-insalaxa-skin"
+      ],
+      "note": "Heat-induced excoriation is covered by the broader skin-stripping meaning."
+    },
+    {
+      "unit_id": "lane-unit:slx:41810:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-insalaxa-slough"
+      ],
+      "note": "Creature shedding its slough represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41810:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-insalaxa-clothes"
+      ],
+      "note": "Divesting oneself of clothing represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41810:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "slx-insalaxa-VII-s1",
+        "slx-insalaxa-VII-s2",
+        "cl-insalaxa-emergence"
+      ],
+      "note": "Complete separation, elapsed period, and daylight emergence are all represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41811:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-isalakh-side"
+      ],
+      "note": "Specialized Form IX meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41812:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مِسْلَاخٌ."
+    },
+    {
+      "unit_id": "lane-unit:slx:41812:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salx-endmonth"
+      ],
+      "note": "End-of-month noun meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41813:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مِسْلَاخٌ."
+    },
+    {
+      "unit_id": "lane-unit:slx:41814:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salax-thread"
+      ],
+      "note": "Spindle-thread meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41815:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مِسْلَاخٌ."
+    },
+    {
+      "unit_id": "lane-unit:slx:41816:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikh-skinned-animal"
+      ],
+      "note": "Skinned sheep or goat meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41816:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikh-insipid"
+      ],
+      "note": "Insipid or tasteless meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41816:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikh-sexual"
+      ],
+      "note": "Specialized sexual description represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41817:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salakhah-insipid"
+      ],
+      "note": "Insipidity meaning under its own headword represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41818:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-sulakhah-skinpiece"
+      ],
+      "note": "Stripped skin-piece meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41818:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-sulakhah-urine"
+      ],
+      "note": "Mountain-goat urine meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41819:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikhah-perfume"
+      ],
+      "note": "Bark-like perfume meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41819:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikhah-dryplant"
+      ],
+      "note": "Dry woody plant remainder represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41819:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikhah-ban-oil",
+        "cl-salikhah-offspring"
+      ],
+      "note": "Ban oil and figurative offspring meanings are both represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41820:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural or quasi-plural cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:slx:41821:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-sallakh-flayer"
+      ],
+      "note": "Occupational flayer meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41822:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikh-skinning"
+      ],
+      "note": "Skinning or flaying meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41822:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikh-mange"
+      ],
+      "note": "Mange or scab meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41822:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikh-serpent"
+      ],
+      "note": "Serpent and black-serpent epithet represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41822:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-salikh-plant"
+      ],
+      "note": "Plant shedding and regrowth represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41823:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-aslakhu-red"
+      ],
+      "note": "Very-red adjective represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41823:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-aslakhu-mange"
+      ],
+      "note": "Mange-afflicted camel adjective represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41823:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-aslakhu-bald"
+      ],
+      "note": "Forehead-bald adjective represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41824:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-islikh-plant"
+      ],
+      "note": "Uncertain plant name represented with its identification caveat."
+    },
+    {
+      "unit_id": "lane-unit:slx:41825:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-maslak-place"
+      ],
+      "note": "Animal-skinning place noun represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41826:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-mislakh-hide"
+      ],
+      "note": "Skin or hide meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41826:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-mislakh-slough"
+      ],
+      "note": "Snake slough meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41826:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-mislakh-palm"
+      ],
+      "note": "Specialized palm-tree meaning represented."
+    },
+    {
+      "unit_id": "lane-unit:slx:41827:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to سَلِيخٌ."
+    },
+    {
+      "unit_id": "lane-unit:slx:41828:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to سَلْخٌ."
+    }
+  ],
+  "cautions": [
+    "Several rare or figurative branches are explicitly marked as assumed metaphorical in the lexical evidence; they are retained as Classical usages and are not presented as additional Quranic senses.",
+    "The Quranic Form I headword is normalized from the imperfect occurrence نَسْلَخُ, and the Form VII headword from the inflected occurrence ٱنسَلَخَ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

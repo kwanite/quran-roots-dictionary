@@ -1,0 +1,617 @@
+{
+  "root": "qtl",
+  "arabic": "قتل",
+  "root_idea": {
+    "summary": "The root centers on bringing low or causing loss of life, with related extensions to overcoming, combat, and complete apprehension.",
+    "development": "The core movement from humbling and causing death develops into expressions for killing, mutual fighting, intensified destruction, and—by extension—knowing something fully or with certainty. Some derived expressions retain figurative or idiomatic senses of subduing and being exposed to death.",
+    "source_refs": [
+      "maqayis:row:3713"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qtl:qatala:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qtl_f1",
+      "reason": "Separate Form I Quranic verb headword."
+    },
+    {
+      "form_group_id": "qac-form:qtl:qut~ilu:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qtl_f2",
+      "reason": "Separate Form II Quranic verb headword."
+    },
+    {
+      "form_group_id": "qac-form:qtl:qa`tala:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qtl_f3",
+      "reason": "Separate Form III Quranic verb headword."
+    },
+    {
+      "form_group_id": "qac-form:qtl:{qotatala:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qtl_f8",
+      "reason": "Separate Form VIII reciprocal verb headword."
+    },
+    {
+      "form_group_id": "qac-form:qtl:qatol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qtl_qatl",
+      "reason": "Separate Quranic verbal noun."
+    },
+    {
+      "form_group_id": "qac-form:qtl:qatolaY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qtl_qatla",
+      "reason": "Separate Quranic plural nominal."
+    },
+    {
+      "form_group_id": "qac-form:qtl:qitaAl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qtl_qital",
+      "reason": "Separate Quranic verbal noun for combat."
+    },
+    {
+      "form_group_id": "qac-form:qtl:taqotiyl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qtl_taqtil",
+      "reason": "Separate Quranic Form II verbal noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qtl_f1",
+      "form_group_ids": [
+        "qac-form:qtl:qatala:verb:I"
+      ],
+      "headword_arabic": "قَتَلَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 83,
+      "senses": [
+        {
+          "sense_id": "qtl_f1_s1",
+          "definition": "To kill; to cause the loss of life.",
+          "usage_conditions": "Includes active and passive constructions and applies to persons, animals, and other living beings. In prohibitions such as فاقتلوا أنفسكم, the ordinary reading is literal killing, including mutual killing; other reported interpretations understand the expression figuratively as removing desires. In the prohibition concerning game, قتل is broader than slaughter or ritual slaughter and denotes forfeiting life by any means.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        },
+        {
+          "sense_id": "qtl_f1_s2",
+          "definition": "To know, recognize, or apprehend something completely and with certainty.",
+          "usage_conditions": "A figurative construction such as قَتَلَهُ عِلْمًا or قَتَلَهُ خُبْرًا; in ما قتلوه يقينًا, the expression is interpreted as denying that they knew the matter with certainty.",
+          "source_refs": [
+            "lane:entry:20833",
+            "mufradat:row:1158"
+          ]
+        },
+        {
+          "sense_id": "qtl_f1_s3",
+          "definition": "To suppress or remove the self’s desires.",
+          "usage_conditions": "A reported figurative interpretation of فاقتلوا أنفسكم; it is distinct from the ordinary physical-killing interpretation of the same expression.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        },
+        {
+          "sense_id": "qtl_f1_s4",
+          "definition": "In a maledictory formula, to perish or be destroyed.",
+          "usage_conditions": "Used in formulaic passive-looking expressions such as قُتِلَ الْإِنْسَانُ and قُتِلَ الْخَرَّاصُونَ; the expression functions as an imprecation rather than a straightforward report that someone was killed.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:30",
+          "word_location": "5:30:6",
+          "sense_ids": [
+            "qtl_f1_s1"
+          ]
+        },
+        {
+          "verse_key": "2:54",
+          "word_location": "2:54:14",
+          "sense_ids": [
+            "qtl_f1_s1",
+            "qtl_f1_s3"
+          ]
+        },
+        {
+          "verse_key": "4:157",
+          "word_location": "4:157:3",
+          "sense_ids": [
+            "qtl_f1_s2"
+          ]
+        },
+        {
+          "verse_key": "51:10",
+          "word_location": "51:10:1",
+          "sense_ids": [
+            "qtl_f1_s4"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qtl_f2",
+      "form_group_ids": [
+        "qac-form:qtl:qut~ilu:verb:II"
+      ],
+      "headword_arabic": "قَتَّلَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qtl_f2_s1",
+          "definition": "To kill in an intensified or extensive manner; to put to death wholesale.",
+          "usage_conditions": "Form II gives the killing action intensified force; Quranic contexts include collective or severe killing and its passive counterpart.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:33",
+          "word_location": "5:33:12",
+          "sense_ids": [
+            "qtl_f2_s1"
+          ]
+        },
+        {
+          "verse_key": "7:127",
+          "word_location": "7:127:15",
+          "sense_ids": [
+            "qtl_f2_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qtl_f3",
+      "form_group_ids": [
+        "qac-form:qtl:qa`tala:verb:III"
+      ],
+      "headword_arabic": "قَاتَلَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 54,
+      "senses": [
+        {
+          "sense_id": "qtl_f3_s1",
+          "definition": "To fight, combat, or engage an adversary in battle.",
+          "usage_conditions": "The construction is reciprocal or adversarial: one fights against or combats another, with or without an expressed object.",
+          "source_refs": [
+            "lane:entry:20835",
+            "mufradat:row:1158"
+          ]
+        },
+        {
+          "sense_id": "qtl_f3_s2",
+          "definition": "In قَاتَلَهُمُ اللَّهُ, to invoke destruction or ruin upon them.",
+          "usage_conditions": "A Quranic maledictory formula whose interpretation varies between ‘may God destroy them’ and ‘may God curse them’; it is a conventional expression rather than ordinary combat with God.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:190",
+          "word_location": "2:190:6",
+          "sense_ids": [
+            "qtl_f3_s1"
+          ]
+        },
+        {
+          "verse_key": "9:14",
+          "word_location": "9:14:1",
+          "sense_ids": [
+            "qtl_f3_s1"
+          ]
+        },
+        {
+          "verse_key": "9:30",
+          "word_location": "9:30:20",
+          "sense_ids": [
+            "qtl_f3_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qtl_f8",
+      "form_group_ids": [
+        "qac-form:qtl:{qotatala:verb:VIII"
+      ],
+      "headword_arabic": "اِقْتَتَلَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qtl_f8_s1",
+          "definition": "To fight one another; to engage in mutual combat.",
+          "usage_conditions": "The reciprocal construction presents the parties as fighting each other rather than one party simply acting upon another.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:15",
+          "word_location": "28:15:11",
+          "sense_ids": [
+            "qtl_f8_s1"
+          ]
+        },
+        {
+          "verse_key": "49:9",
+          "word_location": "49:9:5",
+          "sense_ids": [
+            "qtl_f8_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qtl_qatl",
+      "form_group_ids": [
+        "qac-form:qtl:qatol:nominal:-"
+      ],
+      "headword_arabic": "قَتْل",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "qtl_qatl_s1",
+          "definition": "Killing; the act or occurrence of causing loss of life.",
+          "usage_conditions": "The verbal noun focuses on the killing action or its occurrence, though context may foreground the resulting death.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:191",
+          "word_location": "2:191:11",
+          "sense_ids": [
+            "qtl_qatl_s1"
+          ]
+        },
+        {
+          "verse_key": "3:154",
+          "word_location": "3:154:60",
+          "sense_ids": [
+            "qtl_qatl_s1"
+          ]
+        },
+        {
+          "verse_key": "17:33",
+          "word_location": "17:33:19",
+          "sense_ids": [
+            "qtl_qatl_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qtl_qatla",
+      "form_group_ids": [
+        "qac-form:qtl:qatolaY:nominal:-"
+      ],
+      "headword_arabic": "قَتْلَى",
+      "public_pos_label": "Noun · plural",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qtl_qatla_s1",
+          "definition": "Those killed; the slain or murdered.",
+          "usage_conditions": "A plural designation for persons whose lives have been taken, especially in the context of legal retaliation.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:178",
+          "word_location": "2:178:8",
+          "sense_ids": [
+            "qtl_qatla_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qtl_qital",
+      "form_group_ids": [
+        "qac-form:qtl:qitaAl:nominal:-"
+      ],
+      "headword_arabic": "قِتَال",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 13,
+      "senses": [
+        {
+          "sense_id": "qtl_qital_s1",
+          "definition": "Fighting, combat, or battle.",
+          "usage_conditions": "The verbal noun of mutual combat; it can denote fighting generally, a particular battle, or warfare.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:216",
+          "word_location": "2:216:3",
+          "sense_ids": [
+            "qtl_qital_s1"
+          ]
+        },
+        {
+          "verse_key": "3:121",
+          "word_location": "3:121:8",
+          "sense_ids": [
+            "qtl_qital_s1"
+          ]
+        },
+        {
+          "verse_key": "8:16",
+          "word_location": "8:16:7",
+          "sense_ids": [
+            "qtl_qital_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qtl_taqtil",
+      "form_group_ids": [
+        "qac-form:qtl:taqotiyl:nominal:-"
+      ],
+      "headword_arabic": "تَقْتِيل",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qtl_taqtil_s1",
+          "definition": "Intensive or wholesale killing; massacre.",
+          "usage_conditions": "The verbal noun of Form II and its intensified killing action.",
+          "source_refs": [
+            "mufradat:row:1158"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:61",
+          "word_location": "33:61:6",
+          "sense_ids": [
+            "qtl_taqtil_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cls_qatal_subdue",
+      "headword_arabic": "قَتَلَ",
+      "definition": "To subdue, humble, or bring someone under control.",
+      "usage_conditions": "A broader Classical Arabic extension distinct from the Quranic physical-killing sense.",
+      "source_refs": [
+        "mufradat:row:1158"
+      ]
+    },
+    {
+      "meaning_id": "cls_qatal_mix",
+      "headword_arabic": "قَتَلَ",
+      "definition": "To mix wine with water, thereby weakening or ‘killing’ it.",
+      "usage_conditions": "A figurative idiom for dilution by mixing.",
+      "source_refs": [
+        "mufradat:row:1158"
+      ]
+    },
+    {
+      "meaning_id": "cls_aqtala_expose",
+      "headword_arabic": "أَقْتَلَ",
+      "definition": "To expose or subject someone to being killed.",
+      "usage_conditions": "Causative Form IV usage.",
+      "source_refs": [
+        "mufradat:row:1158"
+      ]
+    },
+    {
+      "meaning_id": "cls_qattala_subdue",
+      "headword_arabic": "قَتَّلَ",
+      "definition": "To subdue or humble forcefully; figuratively, to overwhelm the heart through love.",
+      "usage_conditions": "Includes the Classical expression of a heart overcome by passion; this is not assigned to the Quranic intensive-killing sense.",
+      "source_refs": [
+        "mufradat:row:1158"
+      ]
+    },
+    {
+      "meaning_id": "cls_taqattala_affection",
+      "headword_arabic": "تَقَتَّلَ",
+      "definition": "To humble or submit oneself, especially in a manner intended to win affection.",
+      "usage_conditions": "The cited construction is تَقَتَّلَتْ لَهُ and describes submission continuing until he falls in love.",
+      "source_refs": [
+        "lane:entry:20836"
+      ]
+    },
+    {
+      "meaning_id": "cls_istaqtala_death",
+      "headword_arabic": "اِسْتَقْتَلَ",
+      "definition": "To court or seek slaughter; to resign oneself to death and show no concern for dying.",
+      "usage_conditions": "A courage-related Form X usage.",
+      "source_refs": [
+        "lane:entry:20837"
+      ]
+    },
+    {
+      "meaning_id": "cls_qitla_manner",
+      "headword_arabic": "قِتْلَة",
+      "definition": "A manner or state in which someone is killed; also a single act or occurrence of killing.",
+      "usage_conditions": "The two related nominal uses describe the manner of killing and one instance of it.",
+      "source_refs": [
+        "maqayis:row:3713"
+      ]
+    },
+    {
+      "meaning_id": "cls_qitl_adversary",
+      "headword_arabic": "قِتْل",
+      "definition": "An enemy, adversary, or equal opponent; by extension, one of two matching equals.",
+      "usage_conditions": "Includes the expressions قِتْلٌ for an adversary or peer and هُمَا قِتْلَانِ for two equals.",
+      "source_refs": [
+        "mufradat:row:1158"
+      ]
+    },
+    {
+      "meaning_id": "cls_ictatala_love_jinn",
+      "headword_arabic": "اِقْتَتَلَ",
+      "definition": "To be overcome or afflicted by love or by jinn.",
+      "usage_conditions": "A restricted Classical Arabic specialization explicitly associated with love or jinn, not with ordinary human mutual combat.",
+      "source_refs": [
+        "mufradat:row:1158"
+      ]
+    },
+    {
+      "meaning_id": "cls_qattal_deadly",
+      "headword_arabic": "قَتَّال",
+      "definition": "Murderous, slaughterous, or very deadly.",
+      "usage_conditions": "An intensive adjective applied to something exceptionally lethal.",
+      "source_refs": [
+        "lane:entry:20839"
+      ]
+    },
+    {
+      "meaning_id": "cls_qatil_deadly",
+      "headword_arabic": "قَاتِل",
+      "definition": "Deadly or poisonous.",
+      "usage_conditions": "An adjectival use applied to a lethal tree or poison.",
+      "source_refs": [
+        "lane:entry:20840"
+      ]
+    },
+    {
+      "meaning_id": "cls_maqtal_vitalspot",
+      "headword_arabic": "مَقْتَل",
+      "definition": "A vital place where a wound causes death.",
+      "usage_conditions": "May refer to a fatal spot in a person or animal; plural مَقَاتِل.",
+      "source_refs": [
+        "lane:entry:20841"
+      ]
+    },
+    {
+      "meaning_id": "cls_maqatil_turnface",
+      "headword_arabic": "مَقَاتِلَكَ",
+      "definition": "In the expression وَلِنِّي مَقَاتِلَكَ: turn your face toward me.",
+      "usage_conditions": "A fixed idiomatic expression, not the ordinary plural noun for vital places.",
+      "source_refs": [
+        "lane:entry:20842"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qtl:20833:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qtl_f1_s2"
+      ],
+      "note": "Complete knowledge sense, including the Quran-linked certainty construction, is represented."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20834:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20835:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qtl_f3_s1"
+      ],
+      "note": "Combat sense is represented under Form III."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20836:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_taqattala_affection"
+      ],
+      "note": "Submission-to-win-affection construction is represented as Classical Arabic."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20837:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_istaqtala_death"
+      ],
+      "note": "Seeking or disregarding death is represented as Classical Arabic."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20838:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Reports a plural form only; no independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20839:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_qattal_deadly"
+      ],
+      "note": "Intensive deadly adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20840:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_qatil_deadly"
+      ],
+      "note": "Deadly or poisonous adjectival use is represented."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20841:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_maqtal_vitalspot"
+      ],
+      "note": "Fatal bodily location is represented."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20842:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cls_maqatil_turnface"
+      ],
+      "note": "Idiomatic turn-your-face expression is represented."
+    },
+    {
+      "unit_id": "lane-unit:qtl:20843:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مُسْتَمِيتٌ."
+    }
+  ],
+  "cautions": [
+    "قُتِلَ الْإِنْسَانُ and related expressions can function as conventional imprecations (‘perish’, ‘be destroyed’) rather than ordinary passive reports of killing; قَاتَلَهُمُ اللَّهُ is likewise an idiomatic malediction with varying translations.",
+    "A Maqayis discussion reports a disputed use of قِتَال for bodily strength or compactness in a she-camel, while also deriving it from an alternative كتل; it is therefore not assigned as a Quranic meaning of قِتَال."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The disputed Classical use of قِتَال for a strong or compact she-camel is preserved as an ambiguity because the source itself offers an alternative derivation from كتل."
+  ]
+}

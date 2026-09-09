@@ -1,0 +1,360 @@
+{
+  "root": "wdy",
+  "arabic": "ودي",
+  "root_idea": {
+    "summary": "This root comprises several non-analogical lexical branches, including downward discharge or flow, blood compensation, and young palm offshoots; its hamzated branches develop a distinct field of destruction and loss.",
+    "development": "The classical root analysis explicitly treats the principal unhamzated words as separate branches rather than deriving them from one regular principle. It also states that hamzation shifts the meaning toward destruction, burial, and ruin.",
+    "source_refs": [
+      "maqayis:row:5071"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wdy:>awodiyap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form-wdy-wadi",
+      "reason": "أَوْدِيَة is explicitly identified as the plural of الوادي and is normalized under the singular valley noun."
+    },
+    {
+      "form_group_id": "qac-form:wdy:diyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-wdy-diya",
+      "reason": "This is an independent Quranic noun meaning blood-money compensation."
+    },
+    {
+      "form_group_id": "qac-form:wdy:waAd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-wdy-wadi",
+      "reason": "The principal public form is the normalized dictionary citation form وَادٍ."
+    },
+    {
+      "form_group_id": "qac-form:wdy:waAdiy:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form-wdy-wadi",
+      "reason": "The Quranic وَادِيًا is an inflected form of the same valley noun, normalized under وَادٍ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-wdy-wadi",
+      "form_group_ids": [
+        "qac-form:wdy:waAd:nominal:-",
+        "qac-form:wdy:>awodiyap:nominal:-",
+        "qac-form:wdy:waAdiy:nominal:-"
+      ],
+      "headword_arabic": "وَادٍ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "sense-wdy-wadi-valley",
+          "definition": "A valley or watercourse, especially the space or channel between elevations through which water flows.",
+          "usage_conditions": "In the Qur'an, the term is used for a valley or water-bearing channel, including the plural أَوْدِيَة; the surrounding context may emphasize the water carried by such channels.",
+          "source_refs": [
+            "lane:entry:30443",
+            "mufradat:row:1544"
+          ]
+        },
+        {
+          "sense_id": "sense-wdy-wadi-figurative",
+          "definition": "A figurative way, style, or field of discourse.",
+          "usage_conditions": "In the expression فِي كُلِّ وَادٍ يَهِيمُونَ, it refers to the varied paths and styles of speech or poetry, such as praise, satire, debate, and love poetry.",
+          "source_refs": [
+            "mufradat:row:1544"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:37",
+          "word_location": "14:37:6",
+          "sense_ids": [
+            "sense-wdy-wadi-valley"
+          ]
+        },
+        {
+          "verse_key": "13:17",
+          "word_location": "13:17:6",
+          "sense_ids": [
+            "sense-wdy-wadi-valley"
+          ]
+        },
+        {
+          "verse_key": "9:121",
+          "word_location": "9:121:9",
+          "sense_ids": [
+            "sense-wdy-wadi-valley"
+          ]
+        },
+        {
+          "verse_key": "26:225",
+          "word_location": "26:225:6",
+          "sense_ids": [
+            "sense-wdy-wadi-figurative"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-wdy-diya",
+      "form_group_ids": [
+        "qac-form:wdy:diyap:nominal:-"
+      ],
+      "headword_arabic": "دِيَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense-wdy-diya-bloodmoney",
+          "definition": "Blood-money compensation paid in a homicide case.",
+          "usage_conditions": "In the Qur'anic legal construction, it is to be delivered to the slain person's family or heirs.",
+          "source_refs": [
+            "lane:entry:30441",
+            "mufradat:row:1544"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:92",
+          "word_location": "4:92:16",
+          "sense_ids": [
+            "sense-wdy-diya-bloodmoney"
+          ]
+        },
+        {
+          "verse_key": "4:92",
+          "word_location": "4:92:41",
+          "sense_ids": [
+            "sense-wdy-diya-bloodmoney"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-wdy-horse-lower",
+      "headword_arabic": "وَدَى الفَرَسُ",
+      "definition": "Of a horse: to lower itself in order to strike or urinate.",
+      "usage_conditions": "A specialized use said of the horse's posture or action.",
+      "source_refs": [
+        "maqayis:row:5071"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-fluid",
+      "headword_arabic": "وَدْي",
+      "definition": "A genital fluid discharged after urination or during sexual stimulation.",
+      "usage_conditions": "The term is used for a bodily fluid likened to madhy, and also for the corresponding male-animal fluid in the cited usage.",
+      "source_refs": [
+        "maqayis:row:5071",
+        "mufradat:row:1544"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-emit-fluid",
+      "headword_arabic": "وَدِيَ",
+      "definition": "To emit wadī fluid.",
+      "usage_conditions": "Used of the discharge described by وَدْي, especially after urination or during stimulation.",
+      "source_refs": [
+        "mufradat:row:1544"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-awda-fluid",
+      "headword_arabic": "أَوْدَى",
+      "definition": "To emit wadī fluid.",
+      "usage_conditions": "A usage parallel to أَمْذَى and أَمْنَى in the terminology for bodily discharge.",
+      "source_refs": [
+        "mufradat:row:1544"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-pay-bloodwit",
+      "headword_arabic": "وَدَى",
+      "definition": "To pay the bloodwit for a slain person to the heir or next of kin.",
+      "usage_conditions": "The verb takes the slain person as its object and the payment is made to the entitled heir or relative.",
+      "source_refs": [
+        "lane:entry:30438",
+        "mufradat:row:1544"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-receive-diya",
+      "headword_arabic": "وَادَى",
+      "definition": "To take or receive the blood-money from someone.",
+      "usage_conditions": "A Form III construction relating to the receipt of a دِيَة.",
+      "source_refs": [
+        "lane:entry:30439"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-wound-fine",
+      "headword_arabic": "دِيَة",
+      "definition": "A prescribed compensation or fine for bodily wounds.",
+      "usage_conditions": "The cited usage occurs in the plural expression دِيَاتُ جِرَاحَاتٍ, fines for wounds.",
+      "source_refs": [
+        "lane:entry:30441"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-destroy",
+      "headword_arabic": "أَوْدَى",
+      "definition": "To destroy, remove, or take someone away, especially through death.",
+      "usage_conditions": "Used with بِهِ and said of death or another cause that brings about destruction or removal.",
+      "source_refs": [
+        "lane:entry:30440",
+        "mufradat:row:1544"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-river",
+      "headword_arabic": "وَادٍ",
+      "definition": "A river, in an occasional extension of the valley or watercourse term.",
+      "usage_conditions": "This is a broader Classical Arabic use of the same noun.",
+      "source_refs": [
+        "lane:entry:30443"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-idiom-supersede",
+      "headword_arabic": "حَلَّ بِوَادِيهِ",
+      "definition": "To supersede someone or take his place.",
+      "usage_conditions": "A tropical idiomatic expression.",
+      "source_refs": [
+        "lane:entry:30443"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-palm-offshoot",
+      "headword_arabic": "وَدِيّ",
+      "definition": "A small palm-tree offshoot or offset cut from a palm and planted; a young palm tree.",
+      "usage_conditions": "The term is associated with the elongated, flowing growth of the offshoot.",
+      "source_refs": [
+        "lane:entry:30442",
+        "maqayis:row:5071",
+        "mufradat:row:1544"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-muwdah-place",
+      "headword_arabic": "مُوَدَّأَة",
+      "definition": "A place of destruction or ruin.",
+      "usage_conditions": "A hamzated branch associated with the semantic field of perdition.",
+      "source_refs": [
+        "maqayis:row:5071"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-wadda-bury",
+      "headword_arabic": "وَدَّأَ",
+      "definition": "To bury someone by putting earth over him.",
+      "usage_conditions": "Used with the earth as the covering or burying medium.",
+      "source_refs": [
+        "maqayis:row:5071"
+      ]
+    },
+    {
+      "meaning_id": "cm-wdy-wadda-destroy",
+      "headword_arabic": "وَدَّأَ",
+      "definition": "To cast a people into destruction or ruin them.",
+      "usage_conditions": "Used with بِالقَوْمِ in the cited construction.",
+      "source_refs": [
+        "maqayis:row:5071"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wdy:30438:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wdy-pay-bloodwit"
+      ],
+      "note": "Payment of bloodwit to the slain person's heir is represented."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30439:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wdy-receive-diya"
+      ],
+      "note": "The Form III receipt of blood-money is represented."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30440:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wdy-destroy"
+      ],
+      "note": "Destruction or removal, especially by death, is represented."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30440:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30440:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Example-only cross-reference with no independent lexical explanation."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30441:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-wdy-diya-bloodmoney"
+      ],
+      "note": "Bloodwit or homicide compensation is represented by the Quranic دِيَة sense."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30441:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wdy-wound-fine"
+      ],
+      "note": "The distinct wound-fine usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30442:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wdy-palm-offshoot"
+      ],
+      "note": "The palm offshoot meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30443:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-wdy-wadi-valley",
+        "cm-wdy-river"
+      ],
+      "note": "The valley, watercourse, and occasional river meanings are represented."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30443:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wdy-idiom-supersede"
+      ],
+      "note": "The idiomatic sense of superseding someone is represented."
+    },
+    {
+      "unit_id": "lane-unit:wdy:30444:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry giving no lexical definition."
+    }
+  ],
+  "cautions": [
+    "The valley groups وَادٍ, وَادِيًا, and أَوْدِيَة are presented under the normalized singular headword وَادٍ; their separate QAC groups reflect morphological or orthographic grouping rather than separate public lexical items.",
+    "The root contains distinct, non-analogical branches, and the similar-looking form أَوْدَى has both fluid-emission and destruction uses in the Classical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

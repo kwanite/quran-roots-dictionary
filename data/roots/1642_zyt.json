@@ -1,0 +1,406 @@
+{
+  "root": "zyt",
+  "arabic": "زيت",
+  "root_idea": {
+    "summary": "The root centers on the olive and its expressed oil, with related lexical uses for applying, preparing, supplying, and seeking oil.",
+    "development": "The concrete noun زيت denotes olive oil, while the related terms زيتون and زيتونة denote the olive tree or its fruit and the individual tree; derived verbs extend the root to anointing, seasoning, provisioning, self-anointing, and requesting oil.",
+    "source_refs": [
+      "maqayis:row:2326",
+      "mufradat:row:637"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zyt:zayot:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zyt_zayt",
+      "reason": "Distinct Quran-attested noun denoting olive oil."
+    },
+    {
+      "form_group_id": "qac-form:zyt:zayotuwnap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zyt_zaytuna",
+      "reason": "Distinct Quran-attested singulative noun for an individual olive tree."
+    },
+    {
+      "form_group_id": "qac-form:zyt:z~ayotuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zyt_zaytun",
+      "reason": "Distinct Quran-attested collective noun for the olive tree or its fruit."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "zyt_zayt",
+      "form_group_ids": [
+        "qac-form:zyt:zayot:nominal:-"
+      ],
+      "headword_arabic": "زَيْت",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "zyt_zayt_s1",
+          "definition": "Olive oil, the expressed juice of the olive.",
+          "usage_conditions": "In the Quranic occurrence, the noun appears possessively in reference to the oil belonging to the olive tree.",
+          "source_refs": [
+            "lane:entry:31954",
+            "mufradat:row:637"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:35",
+          "word_location": "24:35:27",
+          "sense_ids": [
+            "zyt_zayt_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zyt_zaytuna",
+      "form_group_ids": [
+        "qac-form:zyt:zayotuwnap:nominal:-"
+      ],
+      "headword_arabic": "زَيْتُونَة",
+      "public_pos_label": "Noun · singulative",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "zyt_zaytuna_s1",
+          "definition": "An individual olive tree.",
+          "usage_conditions": "The singulative counterpart of the collective زيتون; the Quranic occurrence is in the lamp parable of 24:35.",
+          "source_refs": [
+            "lane:entry:31955",
+            "mufradat:row:637"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:35",
+          "word_location": "24:35:21",
+          "sense_ids": [
+            "zyt_zaytuna_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zyt_zaytun",
+      "form_group_ids": [
+        "qac-form:zyt:z~ayotuwn:nominal:-"
+      ],
+      "headword_arabic": "زَيْتُون",
+      "public_pos_label": "Collective noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "zyt_zaytun_s1",
+          "definition": "The olive, as a collective term for the olive tree and its fruit.",
+          "usage_conditions": "The collective noun has the singulative زيتونة. In Quranic usage, the referent may be the tree or its fruit according to context; the supplied English gloss does not by itself resolve that distinction.",
+          "source_refs": [
+            "lane:entry:31955",
+            "mufradat:row:637"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:11",
+          "word_location": "16:11:5",
+          "sense_ids": [
+            "zyt_zaytun_s1"
+          ]
+        },
+        {
+          "verse_key": "80:29",
+          "word_location": "80:29:1",
+          "sense_ids": [
+            "zyt_zaytun_s1"
+          ]
+        },
+        {
+          "verse_key": "95:1",
+          "word_location": "95:1:2",
+          "sense_ids": [
+            "zyt_zaytun_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_zata_anoint",
+      "headword_arabic": "زَاتَ",
+      "definition": "To anoint someone or something with olive oil.",
+      "usage_conditions": "Transitive Form I verb.",
+      "source_refs": [
+        "lane:entry:31949"
+      ]
+    },
+    {
+      "meaning_id": "cm_zata_food",
+      "headword_arabic": "زَاتَ",
+      "definition": "To put olive oil into food, or to prepare, moisten, or mix food with it.",
+      "usage_conditions": "Reported of food, bread, or crumbled bread.",
+      "source_refs": [
+        "lane:entry:31949"
+      ]
+    },
+    {
+      "meaning_id": "cm_zata_feed",
+      "headword_arabic": "زَاتَ",
+      "definition": "To feed people with oil, or to use oil as the seasoning of their food.",
+      "usage_conditions": "A food-provisioning use of the Form I verb.",
+      "source_refs": [
+        "lane:entry:31949"
+      ]
+    },
+    {
+      "meaning_id": "cm_zayyata_provision",
+      "headword_arabic": "زَيَّتَ",
+      "definition": "To furnish someone with oil as travelling provision.",
+      "usage_conditions": "Form II verb; the oil is supplied as provisions for a journey.",
+      "source_refs": [
+        "lane:entry:31950"
+      ]
+    },
+    {
+      "meaning_id": "cm_azata_abundance",
+      "headword_arabic": "أَزَاتَ",
+      "definition": "To have much oil, or for one's oil to become abundant.",
+      "usage_conditions": "Form IV verb describing abundance or increase of oil.",
+      "source_refs": [
+        "lane:entry:31951"
+      ]
+    },
+    {
+      "meaning_id": "cm_izdata_self_anoint",
+      "headword_arabic": "اِزْدَاتَ",
+      "definition": "To anoint oneself with olive oil.",
+      "usage_conditions": "Form VIII reflexive use.",
+      "source_refs": [
+        "lane:entry:31952"
+      ]
+    },
+    {
+      "meaning_id": "cm_istazata_seek",
+      "headword_arabic": "اِسْتَزَاتَ",
+      "definition": "To seek or demand oil, including by requesting it as a gift.",
+      "usage_conditions": "Form X verb of seeking or requesting oil.",
+      "source_refs": [
+        "lane:entry:31953"
+      ]
+    },
+    {
+      "meaning_id": "cm_zayt_extended",
+      "headword_arabic": "زَيْت",
+      "definition": "By extension, any oil; also the choicest or essential part of a thing, figuratively its “marrow.”",
+      "usage_conditions": "The general-oil application is noted as current usage, while the choicest-constituent value is a rare lexical extension.",
+      "source_refs": [
+        "lane:entry:31954"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaytun_lapis",
+      "headword_arabic": "زَيْتُونُ بَنِي إِسْرَائِيلَ",
+      "definition": "A technical name for Lapis Judaicus, a stone resembling an olive and found in Judaea.",
+      "usage_conditions": "Fixed technical expression.",
+      "source_refs": [
+        "lane:entry:31955"
+      ]
+    },
+    {
+      "meaning_id": "cm_zaytuni",
+      "headword_arabic": "زَيْتُونِيّ",
+      "definition": "Of or relating to the olive; olive-coloured.",
+      "usage_conditions": "Adjectival use.",
+      "source_refs": [
+        "lane:entry:31956"
+      ]
+    },
+    {
+      "meaning_id": "cm_zayyat_agent",
+      "headword_arabic": "زَيَّات",
+      "definition": "A seller or presser of oil.",
+      "usage_conditions": "Agent noun; the oil may be olive oil or, in colloquial usage, any oil.",
+      "source_refs": [
+        "lane:entry:31957"
+      ]
+    },
+    {
+      "meaning_id": "cm_zayyat_idiom",
+      "headword_arabic": "زَيَّات",
+      "definition": "A conventional expression for someone arriving in dirty clothes.",
+      "usage_conditions": "Occurs in the idiom جَاءَ فُلَانٌ فِي ثِيَابِ زَيَّاتٍ, literally referring to the clothes of an oil seller or presser.",
+      "source_refs": [
+        "lane:entry:31957"
+      ]
+    },
+    {
+      "meaning_id": "cm_mazit",
+      "headword_arabic": "مَزِيت",
+      "definition": "Food into which oil has been put or with which it has been prepared.",
+      "usage_conditions": "Describes food made or treated with oil.",
+      "source_refs": [
+        "lane:entry:31958"
+      ]
+    },
+    {
+      "meaning_id": "cm_muzdat",
+      "headword_arabic": "مُزْدَات",
+      "definition": "One who anoints themself with oil.",
+      "usage_conditions": "Nominal descriptor for a person characterized by self-anointing with oil; the wording does not impose a gender restriction.",
+      "source_refs": [
+        "lane:entry:31960"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zyt:31949:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zata_anoint"
+      ],
+      "note": "Anointing another with oil."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31949:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zata_food"
+      ],
+      "note": "Putting oil into or mixing it with food."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31949:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zata_feed"
+      ],
+      "note": "Feeding or seasoning food with oil."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31950:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zayyata_provision"
+      ],
+      "note": "Furnishing oil as travelling provision."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31951:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azata_abundance"
+      ],
+      "note": "Abundance or increase of oil."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31952:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_izdata_self_anoint"
+      ],
+      "note": "Self-anointing with oil."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31953:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istazata_seek"
+      ],
+      "note": "Seeking or demanding oil."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31954:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyt_zayt_s1",
+        "cm_zayt_extended"
+      ],
+      "note": "Olive oil is covered by the Quranic sense; general oil and choicest-constituent extensions are covered classically."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31955:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zyt_zaytun_s1",
+        "zyt_zaytuna_s1"
+      ],
+      "note": "Olive tree and fruit, with the singulative زيتونة, are represented under the Quranic forms."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31955:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaytun_lapis"
+      ],
+      "note": "Technical compound for Lapis Judaicus."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31956:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zaytuni"
+      ],
+      "note": "Olive-related and olive-coloured adjective."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31957:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zayyat_agent"
+      ],
+      "note": "Seller or presser of oil."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31957:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zayyat_idiom"
+      ],
+      "note": "Idiomatic dirty-clothing expression."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31958:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mazit"
+      ],
+      "note": "Food prepared with oil."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31959:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31960:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muzdat"
+      ],
+      "note": "One who anoints themself with oil."
+    },
+    {
+      "unit_id": "lane-unit:zyt:31961:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive statement only; it adds no independent lexical meaning."
+    }
+  ],
+  "cautions": [
+    "زَيْتُون is a collective noun whose referent may be the olive tree or its fruit; زيتونة is its individually specified form. The Quranic contextual glosses do not always resolve that distinction."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

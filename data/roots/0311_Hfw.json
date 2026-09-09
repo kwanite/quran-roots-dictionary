@@ -1,0 +1,671 @@
+{
+  "root": "Hfw",
+  "arabic": "حفو",
+  "root_idea": {
+    "summary": "A semantic field of going to an extreme or being worn down, extending to insistent inquiry, exceptional attentiveness, and thorough knowledge.",
+    "development": "The supplied lexical discussion links pressing inquiry to making a hoof worn through travel, and also records related extensions such as close trimming, attentive kindness, and knowing thoroughly.",
+    "source_refs": [
+      "mufradat:row:345"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hfw:yuHofi:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-hfw-ahfa",
+      "reason": "Displayed under the normalized Form IV perfect citation form أَحْفَى rather than the inflected Quranic imperfect يُحْفِ."
+    },
+    {
+      "form_group_id": "qac-form:Hfw:Hafiy~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-hfw-hafiyy",
+      "reason": "Displayed as the adjective حَفِيّ, the citation form corresponding to the Quranic inflections."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-hfw-ahfa",
+      "form_group_ids": [
+        "qac-form:Hfw:yuHofi:verb:IV"
+      ],
+      "headword_arabic": "أَحْفَى",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen-hfw-ahfa-press",
+          "definition": "To press or importune someone in asking, demanding, or seeking information.",
+          "usage_conditions": "In the Quranic construction, the subject presses the addressee in a demand; the same lexical use includes persistent questioning and insistence in seeking an answer.",
+          "source_refs": [
+            "lane:entry:15060",
+            "mufradat:row:345"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "47:37",
+          "word_location": "47:37:3",
+          "sense_ids": [
+            "qsen-hfw-ahfa-press"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-hfw-hafiyy",
+      "form_group_ids": [
+        "qac-form:Hfw:Hafiy~:nominal:-"
+      ],
+      "headword_arabic": "حَفِيّ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen-hfw-hafiyy-gracious",
+          "definition": "Exceptionally kind, gracious, and benevolently attentive toward someone.",
+          "usage_conditions": "Used with بِـ for the person receiving the kindness; the Quranic occurrence in 19:47 describes gracious and considerate treatment.",
+          "source_refs": [
+            "lane:entry:15072",
+            "mufradat:row:345"
+          ]
+        },
+        {
+          "sense_id": "qsen-hfw-hafiyy-informed",
+          "definition": "Thoroughly knowing or well informed about something.",
+          "usage_conditions": "The Quranic occurrence in 7:187 uses the adjective for being fully informed; this is distinct from its gracious-treatment use.",
+          "source_refs": [
+            "lane:entry:15072",
+            "mufradat:row:345"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:187",
+          "word_location": "7:187:26",
+          "sense_ids": [
+            "qsen-hfw-hafiyy-informed"
+          ]
+        },
+        {
+          "verse_key": "19:47",
+          "word_location": "19:47:10",
+          "sense_ids": [
+            "qsen-hfw-hafiyy-gracious"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-hfw-hafiya-bare",
+      "headword_arabic": "حَفِيَ",
+      "definition": "To become barefoot, without sandals or boots.",
+      "usage_conditions": "A Form I bodily use, describing the loss or absence of footwear.",
+      "source_refs": [
+        "lane:entry:15058"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hafaa-bare",
+      "headword_arabic": "حَفَاءٌ",
+      "definition": "Barefootedness: the state of being without sandals or boots.",
+      "usage_conditions": "A verbal noun associated with the Form I use of becoming or being barefoot.",
+      "source_refs": [
+        "lane:entry:15058"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hafiya-worn",
+      "headword_arabic": "حَفِيَ",
+      "definition": "Of a foot or hoof, to become attenuated, chafed, abraded, or worn through walking, treading, or travel.",
+      "usage_conditions": "Applied to human feet and to the hooves of camels, horses, and similar animals.",
+      "source_refs": [
+        "lane:entry:15058"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hafiya-care",
+      "headword_arabic": "حَفِيَ بِهِ / عَنْهُ",
+      "definition": "To receive or treat someone with marked honour, kindness, affection, gentleness, solicitude, and joy; to take pains over his needs and inquire carefully into his condition.",
+      "usage_conditions": "A Form I construction expressing unusually attentive and warm treatment, including especially careful greeting or inquiry.",
+      "source_refs": [
+        "lane:entry:15058"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hafiya-urging",
+      "headword_arabic": "حَفِيَ إِلَيْهِ",
+      "definition": "To exceed the usual bounds in an injunction, charge, or urging directed to someone.",
+      "usage_conditions": "The construction takes a person toward whom the excessive injunction or charge is directed.",
+      "source_refs": [
+        "lane:entry:15058"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hafa-honor",
+      "headword_arabic": "حَفَا بِهِ",
+      "definition": "To honour someone.",
+      "usage_conditions": "A Form I transitive construction distinct from حَفِيَ بِهِ.",
+      "source_refs": [
+        "lane:entry:15058"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hafahu-give",
+      "headword_arabic": "حَفَاهُ",
+      "definition": "To give something to someone.",
+      "usage_conditions": "A transitive Form I use.",
+      "source_refs": [
+        "lane:entry:15058"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hafahu-refuse",
+      "headword_arabic": "حَفَاهُ",
+      "definition": "To deny or refuse someone, or to withhold good from him.",
+      "usage_conditions": "A reported contrary meaning of the same transitive form.",
+      "source_refs": [
+        "lane:entry:15058"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-haafahu-dispute",
+      "headword_arabic": "حَافَاهُ",
+      "definition": "To dispute with someone in words, vehemently or obstinately.",
+      "usage_conditions": "A Form III reciprocal or adversarial verbal use.",
+      "source_refs": [
+        "lane:entry:15059"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-ahfa-beastworn",
+      "headword_arabic": "أَحْفَى",
+      "definition": "Of an animal, to become attenuated, chafed, or abraded in the hoof.",
+      "usage_conditions": "A Form IV use describing the resulting condition of the animal's hoof.",
+      "source_refs": [
+        "lane:entry:15060"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-ahfa-bare",
+      "headword_arabic": "أَحْفَى",
+      "definition": "To make someone barefoot or make his feet bare of sandals or boots.",
+      "usage_conditions": "A causative Form IV use concerning footwear.",
+      "source_refs": [
+        "lane:entry:15060"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-ahfa-wear",
+      "headword_arabic": "أَحْفَى",
+      "definition": "To wear down or abrade a person's foot or an animal's hoof through much walking, treading, or travel.",
+      "usage_conditions": "A causative Form IV use describing physical wear of the sole or hoof.",
+      "source_refs": [
+        "lane:entry:15060"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-ahfa-moustache",
+      "headword_arabic": "أَحْفَى",
+      "definition": "To clip the moustache very closely or to the utmost degree.",
+      "usage_conditions": "A Form IV grooming use expressing extreme closeness or thoroughness.",
+      "source_refs": [
+        "lane:entry:15060"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-ahfa-teeth",
+      "headword_arabic": "أَحْفَى",
+      "definition": "To examine a horse's teeth thoroughly.",
+      "usage_conditions": "A specialized Form IV use of carrying an examination to the utmost degree.",
+      "source_refs": [
+        "lane:entry:15060"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-ahfa-incite",
+      "headword_arabic": "أَحْفَى",
+      "definition": "To urge someone to investigate news or information thoroughly.",
+      "usage_conditions": "A causative Form IV use in which one incites another to inquire or investigate to the utmost.",
+      "source_refs": [
+        "lane:entry:15060"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-ahfa-disparage",
+      "headword_arabic": "أَحْفَى بِهِ",
+      "definition": "To despise someone or bring a fault-imputation against him so as to involve him in confusion.",
+      "usage_conditions": "A specialized Form IV hostile or disparaging construction.",
+      "source_refs": [
+        "lane:entry:15060"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-tahaffa-strive",
+      "headword_arabic": "تَحَفَّى",
+      "definition": "To strive or labour earnestly in an affair.",
+      "usage_conditions": "A Form V use expressing exertion in a matter.",
+      "source_refs": [
+        "lane:entry:15061"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-tahaffa-artifice",
+      "headword_arabic": "تَحَفَّى",
+      "definition": "To practise an artifice or contrivance.",
+      "usage_conditions": "A separately reported Form V use.",
+      "source_refs": [
+        "lane:entry:15061"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-tahaafa-complaint",
+      "headword_arabic": "تَحَافَى",
+      "definition": "For each of two parties to bring a complaint against the other before a ruler, who refers the case to a judge.",
+      "usage_conditions": "A Form VI reciprocal legal construction.",
+      "source_refs": [
+        "lane:entry:15062"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-ihtafa-uproot",
+      "headword_arabic": "اِحْتَفَى",
+      "definition": "To pull up short or scant herbs from the ground, or to uproot something completely.",
+      "usage_conditions": "A Form VIII use associated with removing vegetation by the fingertips or extirpating it.",
+      "source_refs": [
+        "lane:entry:15063"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-ihtafa-pasture",
+      "headword_arabic": "اِحْتَفَى القَوْمُ المَرْعَى",
+      "definition": "For people or animals to consume a pasture so completely that none of its herbage remains.",
+      "usage_conditions": "A conventional Form VIII use describing exhaustive grazing.",
+      "source_refs": [
+        "lane:entry:15063"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-istahfa-inquire",
+      "headword_arabic": "اِسْتَحْفَى",
+      "definition": "To ask or inquire after news or tidings beyond the usual bounds.",
+      "usage_conditions": "A Form X use expressing excessive persistence in seeking information.",
+      "source_refs": [
+        "lane:entry:15064"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hafi-worn",
+      "headword_arabic": "حَفٍ",
+      "definition": "Having a foot or hoof attenuated, chafed, abraded, or worn through walking, treading, or travel.",
+      "usage_conditions": "An adjectival description of a person, camel, horse, or similar animal.",
+      "source_refs": [
+        "lane:entry:15066"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hifwa-bare",
+      "headword_arabic": "حِفْوَةٌ",
+      "definition": "The state of being barefoot, without sandals or boots.",
+      "usage_conditions": "One of the simple nouns used for barefootedness.",
+      "source_refs": [
+        "lane:entry:15069"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hifwa-worn",
+      "headword_arabic": "حِفْوَةٌ",
+      "definition": "The state of having a foot or hoof attenuated, chafed, abraded, or worn through walking or travel.",
+      "usage_conditions": "This secondary nominal attribution is lexicographically qualified in the supplied evidence and may properly belong to a verbal noun instead.",
+      "source_refs": [
+        "lane:entry:15069"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-hafiyy-inquire",
+      "headword_arabic": "حَفِيٌّ",
+      "definition": "Excessively attentive or importunate in asking or inquiring about another's condition.",
+      "usage_conditions": "A Classical adjectival use focused on persistent inquiry, distinct from the Quranic senses of graciousness and full knowledge.",
+      "source_refs": [
+        "lane:entry:15072"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-haafin-bare",
+      "headword_arabic": "حَافٍ",
+      "definition": "Walking barefoot, without sandals or boots.",
+      "usage_conditions": "An active-participial adjective; its plural is reported as حُفَاةٌ.",
+      "source_refs": [
+        "lane:entry:15074"
+      ]
+    },
+    {
+      "meaning_id": "cm-hfw-haafin-judge",
+      "headword_arabic": "حَافٍ",
+      "definition": "A judge.",
+      "usage_conditions": "A specialized lexical use synonymous with قَاضٍ.",
+      "source_refs": [
+        "lane:entry:15074"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hfw:15058:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-hafiya-bare",
+        "cm-hfw-hafaa-bare"
+      ],
+      "note": "Form I barefoot use and its stated verbal noun are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15058:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-hafiya-worn"
+      ],
+      "note": "Foot and hoof wear through travel is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15058:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-hafiya-care"
+      ],
+      "note": "Attentive honour, kindness, solicitude, inquiry, and warm treatment are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15058:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-hafiya-urging"
+      ],
+      "note": "Excessive injunction or charge is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15058:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-hafa-honor"
+      ],
+      "note": "The transitive honouring use is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15058:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-hafahu-give"
+      ],
+      "note": "The giving use is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15058:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-hafahu-refuse"
+      ],
+      "note": "The contrary denying or withholding use is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15058:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15059:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-haafahu-dispute"
+      ],
+      "note": "Vehement verbal dispute is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15060:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ahfa-beastworn"
+      ],
+      "note": "The animal-hoof resultative use is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15060:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ahfa-bare"
+      ],
+      "note": "Making someone barefoot is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15060:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ahfa-wear"
+      ],
+      "note": "Causing foot or hoof wear is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15060:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen-hfw-ahfa-press"
+      ],
+      "note": "Repeating a question is covered by the Quranic pressing and importuning sense."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15060:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen-hfw-ahfa-press"
+      ],
+      "note": "Importuning or pressing in asking is covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15060:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ahfa-moustache"
+      ],
+      "note": "Close moustache clipping is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15060:g3:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ahfa-teeth"
+      ],
+      "note": "Thorough examination of a horse's teeth is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15060:g3:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ahfa-incite"
+      ],
+      "note": "Urging another to investigate information thoroughly is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15060:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ahfa-disparage"
+      ],
+      "note": "The disparaging or fault-imputation use is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15061:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15061:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-tahaffa-strive"
+      ],
+      "note": "Striving or labouring in an affair is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15061:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-tahaffa-artifice"
+      ],
+      "note": "Practising artifice is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15062:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-tahaafa-complaint"
+      ],
+      "note": "The reciprocal complaint-before-authority construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15063:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15063:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15063:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ihtafa-uproot"
+      ],
+      "note": "Pulling up short or scant herbs is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15063:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ihtafa-uproot"
+      ],
+      "note": "Uprooting anything is covered by the broader uprooting meaning."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15063:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-ihtafa-pasture"
+      ],
+      "note": "Exhaustive grazing of pasture is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15064:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-istahfa-inquire"
+      ],
+      "note": "Excessive inquiry after news is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15065:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حِفْوَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15066:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-hafi-worn"
+      ],
+      "note": "The adjective for a worn foot or hoof is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15067:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form VIII entry."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15068:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following nominal entry."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15069:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-hifwa-bare",
+        "cm-hfw-hifwa-worn"
+      ],
+      "note": "The barefootedness and qualified worn-foot nominal senses are represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15070:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حِفْوَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15071:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حِفْوَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15072:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen-hfw-hafiyy-gracious",
+        "qsen-hfw-hafiyy-informed",
+        "cm-hfw-hafiyy-inquire"
+      ],
+      "note": "The gracious, fully knowing, and importunate-inquiry branches are all represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15073:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حِفْوَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15074:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-haafin-bare"
+      ],
+      "note": "The active participle for walking barefoot is represented."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15074:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حَفٍ."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15074:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to حَفِيٌّ."
+    },
+    {
+      "unit_id": "lane-unit:Hfw:15074:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hfw-haafin-judge"
+      ],
+      "note": "The specialized sense meaning judge is represented."
+    }
+  ],
+  "cautions": [
+    "The reported worn-foot sense of حِفْوَةٌ is lexicographically qualified and may properly belong to a verbal noun rather than that nominal form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

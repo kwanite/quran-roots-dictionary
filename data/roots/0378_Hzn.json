@@ -1,0 +1,581 @@
+{
+  "root": "Hzn",
+  "arabic": "حزن",
+  "root_idea": {
+    "summary": "The root centers on roughness or hardness, extending from rugged terrain to inner roughness experienced as grief and to the causing or expression of grief.",
+    "development": "The physical sense of roughness is presented as the root orientation, with emotional grief understood as a corresponding harshness or roughness of the spirit.",
+    "source_refs": [
+      "maqayis:row:1352",
+      "mufradat:row:319"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hzn:yaHozun:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Hzn-verb-I",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Hzn:Hazan:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "Hzn-noun-grief",
+      "reason": "حَزَن and حُزْن are recorded as vocalic variants of the same grief noun and are presented under one public entry."
+    },
+    {
+      "form_group_id": "qac-form:Hzn:Huzon:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Hzn-noun-grief",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "Hzn-verb-I",
+      "form_group_ids": [
+        "qac-form:Hzn:yaHozun:verb:I"
+      ],
+      "headword_arabic": "حَزِنَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 37,
+      "senses": [
+        {
+          "sense_id": "Hzn-verb-I-s1",
+          "definition": "To grieve, be sorrowful, sad, or unhappy.",
+          "usage_conditions": "Intransitive use: the subject experiences grief. In prohibitions such as “do not grieve,” the construction concerns avoiding what produces grief rather than voluntarily generating an emotion.",
+          "source_refs": [
+            "lane:entry:14358",
+            "mufradat:row:319"
+          ]
+        },
+        {
+          "sense_id": "Hzn-verb-I-s2",
+          "definition": "To cause someone or something to grieve; to sadden.",
+          "usage_conditions": "Transitive use with a person, event, affair, or other cause as the subject and the one affected as the object. Classical usage records variation in the perfect and imperfect vowel patterns.",
+          "source_refs": [
+            "lane:entry:14358",
+            "mufradat:row:319"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:88",
+          "word_location": "15:88:11",
+          "sense_ids": [
+            "Hzn-verb-I-s1"
+          ]
+        },
+        {
+          "verse_key": "10:65",
+          "word_location": "10:65:2",
+          "sense_ids": [
+            "Hzn-verb-I-s2"
+          ]
+        },
+        {
+          "verse_key": "12:13",
+          "word_location": "12:13:3",
+          "sense_ids": [
+            "Hzn-verb-I-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "Hzn-noun-grief",
+      "form_group_ids": [
+        "qac-form:Hzn:Hazan:nominal:-",
+        "qac-form:Hzn:Huzon:nominal:-"
+      ],
+      "headword_arabic": "حُزْنٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "Hzn-noun-grief-s1",
+          "definition": "Grief, sorrow, sadness, or mourning.",
+          "usage_conditions": "A noun for emotional distress arising from an unpleasant event, loss, or comparable cause; the Quran also uses it in the expression of having grief removed.",
+          "source_refs": [
+            "lane:entry:14366",
+            "mufradat:row:319"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "35:34",
+          "word_location": "35:34:7",
+          "sense_ids": [
+            "Hzn-noun-grief-s1"
+          ]
+        },
+        {
+          "verse_key": "12:84",
+          "word_location": "12:84:10",
+          "sense_ids": [
+            "Hzn-noun-grief-s1"
+          ]
+        },
+        {
+          "verse_key": "9:92",
+          "word_location": "9:92:19",
+          "sense_ids": [
+            "Hzn-noun-grief-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "Hzn-cm-rugged-ground",
+      "headword_arabic": "حَزْنٌ، حُزْنَةٌ",
+      "definition": "Rugged, hard, or high ground, including rugged mountains.",
+      "usage_conditions": "Applied to terrain; land that is merely good but hard is not necessarily designated by this term.",
+      "source_refs": [
+        "lane:entry:14358",
+        "lane:entry:14365",
+        "lane:entry:14372"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-rough-animal-pace",
+      "headword_arabic": "حَزُنَ",
+      "definition": "Of an animal, to have a rough, difficult pace or to be difficult to ride.",
+      "usage_conditions": "Applied specifically to the animal’s manner of movement or ease of riding.",
+      "source_refs": [
+        "lane:entry:14358"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-plaintive-recitation",
+      "headword_arabic": "التَّحْزِينُ",
+      "definition": "Reciting or reading with a slender, plaintive voice.",
+      "usage_conditions": "A vocal style characterized as plaintive rather than a separate emotional state.",
+      "source_refs": [
+        "lane:entry:14359"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-put-on-rough-ground",
+      "headword_arabic": "أَحْزَنَ",
+      "definition": "To be in rugged terrain or to put someone on rugged, hard ground.",
+      "usage_conditions": "May describe a place becoming rough for people or causing them to occupy such ground.",
+      "source_refs": [
+        "lane:entry:14360"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-treat-harshly",
+      "headword_arabic": "أَحْزَنَ",
+      "definition": "To treat people roughly or harshly.",
+      "usage_conditions": "A figurative extension of using roughness with people.",
+      "source_refs": [
+        "lane:entry:14360"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-express-grief",
+      "headword_arabic": "تَحَزَّنَ",
+      "definition": "To express pain, grief, or sorrow; to lament or moan for or on account of someone or something.",
+      "usage_conditions": "An expressive or outward manifestation of grief.",
+      "source_refs": [
+        "lane:entry:14361"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-hardships",
+      "headword_arabic": "حُزْنَةٌ",
+      "definition": "Difficulties, hardships, or distresses.",
+      "usage_conditions": "A figurative pluralized extension from rugged or difficult terrain.",
+      "source_refs": [
+        "lane:entry:14372"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-roughland-camel",
+      "headword_arabic": "حَزْنِيٌّ",
+      "definition": "A camel that pastures in rugged terrain.",
+      "usage_conditions": "A lexical adjective associated with grazing in a tract designated حَزْنٌ.",
+      "source_refs": [
+        "lane:entry:14373"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-intense-grief",
+      "headword_arabic": "حَزْنَانُ",
+      "definition": "Affected by vehement or intense grief.",
+      "usage_conditions": "An intensified description of a person experiencing grief.",
+      "source_refs": [
+        "lane:entry:14374"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-evil-disposition",
+      "headword_arabic": "حَزُونٌ",
+      "definition": "Of a sheep or goat, evil in disposition.",
+      "usage_conditions": "Applied to an animal’s bad or difficult temperament.",
+      "source_refs": [
+        "lane:entry:14375"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-grieving-adjective",
+      "headword_arabic": "حَزِينٌ",
+      "definition": "Grieving, mourning, lamenting, sorrowful, sad, or unhappy.",
+      "usage_conditions": "An adjectival description of a person or other subject affected by grief.",
+      "source_refs": [
+        "lane:entry:14376"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-plaintive-voice",
+      "headword_arabic": "صَوْتٌ حَزِينٌ",
+      "definition": "A soft, gentle, slender, plaintive, and melodious voice.",
+      "usage_conditions": "A conventional description of vocal quality.",
+      "source_refs": [
+        "lane:entry:14376"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-bird-name",
+      "headword_arabic": "مَالِكُ الحَزِينِ",
+      "definition": "The name of a certain bird.",
+      "usage_conditions": "A lexicalized bird name.",
+      "source_refs": [
+        "lane:entry:14376"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-household",
+      "headword_arabic": "حُزَانَةٌ",
+      "definition": "One’s family or household, especially viewed as those for whose welfare one suffers grief or anxiety.",
+      "usage_conditions": "The term may also simply mean one’s family or household without requiring an explicit statement of anxiety.",
+      "source_refs": [
+        "lane:entry:14377"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-foreigners-lodging-custom",
+      "headword_arabic": "حُزَانَةٌ",
+      "definition": "A customary prior right of Arabs over foreigners concerning houses and lands, or the obligation to lodge and provision passing Arab soldiery.",
+      "usage_conditions": "A historical social and administrative usage associated with Arab settlements and military passage in Khurasan.",
+      "source_refs": [
+        "lane:entry:14377"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-causing-grief-adjective",
+      "headword_arabic": "مُحْزِنٌ",
+      "definition": "Causing grief or making someone mourn or be sorrowful.",
+      "usage_conditions": "Applied to an event, affair, or case, and also to a voice in the recorded usage.",
+      "source_refs": [
+        "lane:entry:14380"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-mahzun",
+      "headword_arabic": "مَحْزُونٌ",
+      "definition": "Grieved, sorrowful, or made to mourn or be sad.",
+      "usage_conditions": "The supplied lexical description records both an affected state and a causative gloss under this headword.",
+      "source_refs": [
+        "lane:entry:14382"
+      ]
+    },
+    {
+      "meaning_id": "Hzn-cm-jaw-anatomy",
+      "headword_arabic": "مَحْزُونُ اللِّهْزِمَةِ",
+      "definition": "Having roughness or a hanging slackness in the lower-jaw area, associated with grief.",
+      "usage_conditions": "An anatomical expression describing the angle or flesh of the lower jaw.",
+      "source_refs": [
+        "lane:entry:14382"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hzn:14358:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-verb-I-s1"
+      ],
+      "note": "Intransitive experience of grief, with Quranic usage."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14358:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-verb-I-s2"
+      ],
+      "note": "Transitive causation of grief."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14358:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-rugged-ground"
+      ],
+      "note": "Rough or rugged ground."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14358:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-rough-animal-pace"
+      ],
+      "note": "Rough pace of an animal."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14359:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-plaintive-recitation"
+      ],
+      "note": "Plaintive recitation style."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14359:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14360:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14360:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-put-on-rough-ground"
+      ],
+      "note": "Being in or putting someone on rugged ground."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14360:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-put-on-rough-ground",
+        "Hzn-cm-treat-harshly"
+      ],
+      "note": "Rugged terrain and figurative harsh treatment."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14361:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14361:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-express-grief"
+      ],
+      "note": "Expressing grief or lament."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14362:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14363:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14364:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14365:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-rugged-ground"
+      ],
+      "note": "Rugged, hard, or high ground."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14366:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-noun-grief-s1"
+      ],
+      "note": "Grief, sorrow, and Quran-attested removal of grief."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14367:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14368:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14369:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14370:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14371:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14372:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-rugged-ground"
+      ],
+      "note": "Rugged mountains."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14372:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-hardships"
+      ],
+      "note": "Figurative difficulties and hardships."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14373:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-roughland-camel"
+      ],
+      "note": "Camel grazing in rugged terrain."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14373:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14374:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-intense-grief"
+      ],
+      "note": "Vehement or intense grief."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14375:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-evil-disposition"
+      ],
+      "note": "Bad disposition of a sheep or goat."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14376:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-grieving-adjective"
+      ],
+      "note": "Adjectival state of grief."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14376:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-plaintive-voice"
+      ],
+      "note": "Soft or plaintive voice."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14376:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-bird-name"
+      ],
+      "note": "Lexicalized name of a bird."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14377:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-household"
+      ],
+      "note": "Family or household."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14377:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-foreigners-lodging-custom"
+      ],
+      "note": "Historical lodging and provisioning custom."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14378:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an entry in another root."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14379:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14380:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-causing-grief-adjective"
+      ],
+      "note": "Adjective for something causing grief."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14381:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to حَزْنَانُ."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14382:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-mahzun"
+      ],
+      "note": "Grieved or sorrowful, with a reported causative gloss."
+    },
+    {
+      "unit_id": "lane-unit:Hzn:14382:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Hzn-cm-jaw-anatomy"
+      ],
+      "note": "Anatomical expression involving the lower jaw."
+    }
+  ],
+  "cautions": [
+    "The Form I Quranic group is represented under حَزِنَ, while the lexical evidence records dialectal variation in the perfect and imperfect vowel patterns, especially for the transitive causative use.",
+    "حَزَن and حُزْن are retained as Quranic evidence but merged into one public noun entry because the supplied lexical discussion treats them as vocalic variants of grief.",
+    "The supplied description of مَحْزُونٌ combines a passive state with a causative gloss; both are retained cautiously rather than forcing a resolution not established by the packet."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

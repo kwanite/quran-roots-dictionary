@@ -1,0 +1,853 @@
+{
+  "root": "sdd",
+  "arabic": "سدد",
+  "root_idea": {
+    "summary": "The root centers on closing or filling a gap and thereby making something firm, complete, and properly aligned.",
+    "development": "From sealing a breach, the root develops meanings of barrier, stopper, and obstruction; figuratively it extends to supplying a lack and to rightness or sound direction, as though there were no defect or gap.",
+    "source_refs": [
+      "maqayis:row:2390",
+      "mufradat:row:673"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sdd:sadiyd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sdd-sadiyd",
+      "reason": "The Quranic adjective سَدِيد is a distinct lexical form meaning right, sound, or properly directed speech."
+    },
+    {
+      "form_group_id": "qac-form:sdd:sad~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sdd-sadd",
+      "reason": "The Quranic noun سَدّ is a distinct lexical form denoting a barrier or obstruction."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "sdd-sadiyd",
+      "form_group_ids": [
+        "qac-form:sdd:sadiyd:nominal:-"
+      ],
+      "headword_arabic": "سَدِيد",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sdd-sadiyd-1",
+          "definition": "Right, sound, and properly directed; specifically, of speech, correct and appropriate.",
+          "usage_conditions": "In the Quran, the adjective qualifies قول, meaning speech that is right, sound, or appropriate.",
+          "source_refs": [
+            "lane:entry:40639"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:9",
+          "word_location": "4:9:15",
+          "sense_ids": [
+            "sdd-sadiyd-1"
+          ]
+        },
+        {
+          "verse_key": "33:70",
+          "word_location": "33:70:8",
+          "sense_ids": [
+            "sdd-sadiyd-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "sdd-sadd",
+      "form_group_ids": [
+        "qac-form:sdd:sad~:nominal:-"
+      ],
+      "headword_arabic": "سَدّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sdd-sadd-1",
+          "definition": "A barrier, partition, or obstruction that closes a passage or separates things; a dam or rampart.",
+          "usage_conditions": "The Quranic noun denotes a physical barrier, including the barrier associated with the two mountains, and figurative barriers placed before and behind a person. The Quranic occurrences include both singular and dual forms.",
+          "source_refs": [
+            "lane:entry:40629",
+            "mufradat:row:673"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:93",
+          "word_location": "18:93:5",
+          "sense_ids": [
+            "sdd-sadd-1"
+          ]
+        },
+        {
+          "verse_key": "18:94",
+          "word_location": "18:94:19",
+          "sense_ids": [
+            "sdd-sadd-1"
+          ]
+        },
+        {
+          "verse_key": "36:9",
+          "word_location": "36:9:5",
+          "sense_ids": [
+            "sdd-sadd-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-sdd-close",
+      "headword_arabic": "سَدَّ",
+      "definition": "To close or stop up an opening, passage, or gap; to obstruct or bar something, and to repair and make firm a breach.",
+      "usage_conditions": "Also used figuratively of obstructing a horizon or what lies behind something, and of preventing speech.",
+      "source_refs": [
+        "lane:entry:40623"
+      ]
+    },
+    {
+      "meaning_id": "cm-sdd-fillneed",
+      "headword_arabic": "سَدَّ",
+      "definition": "To fill a vacancy, supply a need, or sustain life and strength.",
+      "usage_conditions": "Used of supplying what is lacking, including satisfying part of a hungry person's need.",
+      "source_refs": [
+        "lane:entry:40623"
+      ]
+    },
+    {
+      "meaning_id": "cm-sdd-accuse",
+      "headword_arabic": "سَدَّهُ",
+      "definition": "To attribute or impute a fault to someone; to accuse or charge him with it.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40623"
+      ]
+    },
+    {
+      "meaning_id": "cm-sdd-rightverb",
+      "headword_arabic": "سَدَّ",
+      "definition": "To become right, direct, or properly ordered; of a person, to pursue, seek, or hit what is right in speech or action.",
+      "usage_conditions": "This intransitive use describes a saying, affair, action, bodily faculty, or person taking the correct direction or course.",
+      "source_refs": [
+        "lane:entry:40623"
+      ]
+    },
+    {
+      "meaning_id": "cm-sdd2-fillvessel",
+      "headword_arabic": "سَدَّدَ",
+      "definition": "To fill a vessel or trough.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40624"
+      ]
+    },
+    {
+      "meaning_id": "cm-sdd2-refute",
+      "headword_arabic": "سَدَّدَ",
+      "definition": "To annul or neutralize an opponent's statements while opposing him.",
+      "usage_conditions": "The use concerns countering everything said by an opposing party.",
+      "source_refs": [
+        "lane:entry:40624"
+      ]
+    },
+    {
+      "meaning_id": "cm-sdd2-aim",
+      "headword_arabic": "سَدَّدَ",
+      "definition": "To direct or aim an arrow or spear toward a target; by extension, to teach the art of shooting.",
+      "usage_conditions": "The object is an implement directed toward a person, game, or other target.",
+      "source_refs": [
+        "lane:entry:40624"
+      ]
+    },
+    {
+      "meaning_id": "cm-sdd2-guide",
+      "headword_arabic": "سَدَّدَ",
+      "definition": "To direct, adapt, accommodate, or dispose someone or something toward what is right; to manage property appropriately.",
+      "usage_conditions": "The use includes teaching a companion right conduct, acting well with property or cattle, and giving camels access to suitable pasture.",
+      "source_refs": [
+        "lane:entry:40624"
+      ]
+    },
+    {
+      "meaning_id": "cm-intrans-close",
+      "headword_arabic": "اِنْسَدَّ",
+      "definition": "To become closed or stopped up, or to become repaired and firm after a breach or opening has been sealed.",
+      "usage_conditions": "The use may describe an interstice, gap, or the punctures in a skin becoming closed.",
+      "source_refs": [
+        "lane:entry:40627"
+      ]
+    },
+    {
+      "meaning_id": "cm-sadd-fault",
+      "headword_arabic": "سَدّ",
+      "definition": "A fault or defect that obstructs a person's functioning, including blindness, deafness, dumbness, or a defect that prevents speech.",
+      "usage_conditions": "Used figuratively for a defect that closes the mouth or otherwise impedes normal activity.",
+      "source_refs": [
+        "lane:entry:40629"
+      ]
+    },
+    {
+      "meaning_id": "cm-sadd-decoy",
+      "headword_arabic": "سَدّ",
+      "definition": "A she-camel used by a hunter as a screen or concealment from game.",
+      "usage_conditions": "A specialized hunting expression.",
+      "source_refs": [
+        "lane:entry:40629"
+      ]
+    },
+    {
+      "meaning_id": "cm-sadd-shade",
+      "headword_arabic": "سَدّ",
+      "definition": "Shade, shelter, cover, or protection used as a screen.",
+      "usage_conditions": "The meaning is figurative and includes cover behind which a person lies in wait.",
+      "source_refs": [
+        "lane:entry:40629"
+      ]
+    },
+    {
+      "meaning_id": "cm-sadd-basket",
+      "headword_arabic": "سَدّ",
+      "definition": "A covered basket or container made of twigs.",
+      "usage_conditions": "The lexical item may refer to a basket of the type called سَلَّة, with its covers.",
+      "source_refs": [
+        "lane:entry:40629"
+      ]
+    },
+    {
+      "meaning_id": "cm-sud-horizon",
+      "headword_arabic": "سُدّ",
+      "definition": "A swarm of locusts or a mass of cloud that obstructs or fills the horizon.",
+      "usage_conditions": "The word may describe either locusts blocking the horizon by their multitude or a dark, elevated cloud formation.",
+      "source_refs": [
+        "lane:entry:40630"
+      ]
+    },
+    {
+      "meaning_id": "cm-sud-valley",
+      "headword_arabic": "سُدّ",
+      "definition": "A valley, especially a stony or rocky valley in which water remains for some time.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40630"
+      ]
+    },
+    {
+      "meaning_id": "cm-sud-lossvision",
+      "headword_arabic": "سُدّ",
+      "definition": "The departure or loss of sight.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40630"
+      ]
+    },
+    {
+      "meaning_id": "cm-sudda-disease",
+      "headword_arabic": "سُدَّة",
+      "definition": "A disease or obstruction in the nose or body that blocks respiration or the passage of bodily fluids or food.",
+      "usage_conditions": "The term may refer generally to an obstruction in a bodily passage.",
+      "source_refs": [
+        "lane:entry:40633"
+      ]
+    },
+    {
+      "meaning_id": "cm-sudda-vestibule",
+      "headword_arabic": "سُدَّة",
+      "definition": "A vestibule, porch, covered space, or portico before a door; also the door or gate itself and, figuratively, a means of access or communication.",
+      "usage_conditions": "The meaning varies between a covered area before a house, the door or gate, and a portico of a large mosque; it can be used metaphorically for a person or channel of communication.",
+      "source_refs": [
+        "lane:entry:40633"
+      ]
+    },
+    {
+      "meaning_id": "cm-sudda-palmbed",
+      "headword_arabic": "سُدَّة",
+      "definition": "A sleeping platform made of bound palm-sticks stripped of their leaves.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40633"
+      ]
+    },
+    {
+      "meaning_id": "cm-sadad-rightness",
+      "headword_arabic": "سَدَاد",
+      "definition": "Rightness, correctness, or sound judgment in speech, action, management, or aim; also a traditional name for a bow associated with hitting its mark.",
+      "usage_conditions": "The noun may denote a right saying or course of action, the ability to hit the proper aim, or a name motivated by accurate shooting.",
+      "source_refs": [
+        "lane:entry:40635"
+      ]
+    },
+    {
+      "meaning_id": "cm-sadad-direction",
+      "headword_arabic": "سَدَاد",
+      "definition": "The direction or quarter of a place.",
+      "usage_conditions": "Occurs in the expression for a wind coming from the direction of someone's land.",
+      "source_refs": [
+        "lane:entry:40635"
+      ]
+    },
+    {
+      "meaning_id": "cm-sidad-stopper",
+      "headword_arabic": "سِدَاد",
+      "definition": "Something used to close an interstice or breach; a stopper or plug, especially of a bottle.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40637"
+      ]
+    },
+    {
+      "meaning_id": "cm-sidad-blockade",
+      "headword_arabic": "سِدَاد",
+      "definition": "A body of horse and foot stationed to blockade or guard the frontier of a hostile country.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40637"
+      ]
+    },
+    {
+      "meaning_id": "cm-sidad-sustain",
+      "headword_arabic": "سِدَاد",
+      "definition": "Something by which a want is supplied and life is sustained.",
+      "usage_conditions": "Used of an incomplete provision that supplies part of a person's needs or provides a means of subsistence.",
+      "source_refs": [
+        "lane:entry:40637"
+      ]
+    },
+    {
+      "meaning_id": "cm-sadid-classical",
+      "headword_arabic": "سَدِيد",
+      "definition": "Right, direct, or true: of a spear or arrow that hits its mark, an action or affair that is rightly ordered, or a person who pursues the right course.",
+      "usage_conditions": "This broader Classical range extends the Quranic adjectival sense beyond its attested qualification of speech.",
+      "source_refs": [
+        "lane:entry:40639"
+      ]
+    },
+    {
+      "meaning_id": "cm-sadda-eye",
+      "headword_arabic": "سَادَّة",
+      "definition": "An eye whose sight has gone or become very weak, often one that has become white without yet bursting.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40642"
+      ]
+    },
+    {
+      "meaning_id": "cm-sadda-camel",
+      "headword_arabic": "سَادَّة",
+      "definition": "An old and weak she-camel.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40642"
+      ]
+    },
+    {
+      "meaning_id": "cm-masadd-place",
+      "headword_arabic": "مَسَدّ",
+      "definition": "A place of closing or stopping.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40644"
+      ]
+    },
+    {
+      "meaning_id": "cm-musaddad",
+      "headword_arabic": "مُسَدَّد",
+      "definition": "Directed or pointed in a right direction; of a person, directed, adapted, or disposed toward what is right and acting according to the right course.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40646"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sdd:40623:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sdd-close"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40623:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sdd-close"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40623:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sdd-close"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40623:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sdd-fillneed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40623:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sdd-accuse"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40623:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sdd-rightverb"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40623:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sdd-rightverb"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40624:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the first entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40624:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sdd2-fillvessel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40624:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sdd2-refute"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40624:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sdd2-aim"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40624:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sdd2-aim"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40624:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sdd2-guide"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40624:g2:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sdd2-guide"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40624:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the first entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40625:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the first entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40625:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another location in the same entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40626:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the first entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40627:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-intrans-close"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40628:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40628:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another location in the same entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40629:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sdd-sadd-1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40629:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sadd-fault"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40629:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the related سُدّ entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40629:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sadd-decoy"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40629:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sadd-shade"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40629:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sadd-basket"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40630:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40630:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sud-horizon"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40630:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sud-horizon"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40630:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sud-valley"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40630:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sud-valley"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40630:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sud-lossvision"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40631:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سَدِيد."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40632:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the final part of سَدّ."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40633:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sudda-disease"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40633:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سُدّ."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40633:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sudda-vestibule"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40633:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sudda-vestibule"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40633:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sudda-palmbed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40634:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40634:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سَدِيد."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40635:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sadad-rightness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40635:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sadad-rightness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40635:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sadad-direction"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40635:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sadad-rightness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40635:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sadad-rightness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40635:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سِدَاد."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40636:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سُدَّة."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40637:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sidad-stopper",
+        "cm-sidad-blockade"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40637:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sidad-sustain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40637:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to related meanings under سَدّ."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40638:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سُدّ."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40639:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sdd-sadiyd-1",
+        "cm-sadid-classical"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40639:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-sadid-classical"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40640:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to meanings under سَدّ."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40641:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سَدِيد."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40642:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sadda-eye"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40642:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sadda-camel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40643:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سَدِيد."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40644:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-masadd-place"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40645:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سَدِيد."
+    },
+    {
+      "unit_id": "lane-unit:sdd:40646:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musaddad"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40646:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-musaddad"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:sdd:40647:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding entry."
+    }
+  ],
+  "cautions": [
+    "The Quranic noun is reported with both the سَدّ and سُدّ vocalizations; the sources differ over whether this distinction corresponds to human-made versus naturally created barriers."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

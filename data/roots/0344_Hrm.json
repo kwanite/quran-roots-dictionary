@@ -1,0 +1,1361 @@
+{
+  "root": "Hrm",
+  "arabic": "حرم",
+  "root_idea": {
+    "summary": "The root centers on withholding, barring, and imposing restraint, with a closely related sense of making something inviolable or specially protected.",
+    "development": "From this core develop prohibition and unlawfulness, sacredness and protected precincts, entry into a restricted ritual state, deprivation or denial, and several specialized usages involving hardening or being prevented from attaining something.",
+    "source_refs": [
+      "maqayis:row:1342"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Hrm:Har~ama:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hrm-verb-ii-harrama",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Hrm:HaraAm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hrm-haram",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Hrm:Huruma`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hrm-hurumat",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Hrm:maHoruwm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hrm-mahrum",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Hrm:muHar~am:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hrm-muharram",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Hrm:muHar~amap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "hrm-muharram",
+      "reason": "The feminine passive participle is the gendered inflection of the same Quranic lexical item."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "hrm-verb-ii-harrama",
+      "form_group_ids": [
+        "qac-form:Hrm:Har~ama:verb:II"
+      ],
+      "headword_arabic": "حَرَّمَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 39,
+      "senses": [
+        {
+          "sense_id": "hrm-v2-s1",
+          "definition": "To forbid, prohibit, or make something unlawful.",
+          "usage_conditions": "Used of divine, legal, or human declarations that place an act, object, or relationship under prohibition. Active and passive Quranic forms express the same lexical relation.",
+          "source_refs": [
+            "lane:entry:14217",
+            "mufradat:row:316"
+          ]
+        },
+        {
+          "sense_id": "hrm-v2-s2",
+          "definition": "To bar someone from something, making it unavailable or inaccessible to them.",
+          "usage_conditions": "Includes prevention by divine arrangement or force, as well as exclusion from a thing or destination; this is distinct from merely declaring an act unlawful.",
+          "source_refs": [
+            "lane:entry:14217",
+            "mufradat:row:316"
+          ]
+        },
+        {
+          "sense_id": "hrm-v2-s3",
+          "definition": "To make sacred or inviolable.",
+          "usage_conditions": "In Quranic usage this may describe the consecration or protected status of a place or thing, rather than only its legal prohibition.",
+          "source_refs": [
+            "lane:entry:14217"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:173",
+          "word_location": "2:173:2",
+          "sense_ids": [
+            "hrm-v2-s1"
+          ]
+        },
+        {
+          "verse_key": "28:12",
+          "word_location": "28:12:1",
+          "sense_ids": [
+            "hrm-v2-s2"
+          ]
+        },
+        {
+          "verse_key": "27:91",
+          "word_location": "27:91:9",
+          "sense_ids": [
+            "hrm-v2-s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hrm-haram",
+      "form_group_ids": [
+        "qac-form:Hrm:HaraAm:nominal:-"
+      ],
+      "headword_arabic": "حَرَام / حَرَم",
+      "public_pos_label": "Adjective / noun",
+      "verb_form": null,
+      "occurrence_count": 33,
+      "senses": [
+        {
+          "sense_id": "hrm-haram-s1",
+          "definition": "Forbidden, prohibited, or unlawful.",
+          "usage_conditions": "The adjectival use is the opposite of حَلَال; it can qualify acts, objects, relationships, or provisions declared impermissible.",
+          "source_refs": [
+            "lane:entry:14235",
+            "mufradat:row:316"
+          ]
+        },
+        {
+          "sense_id": "hrm-haram-s2",
+          "definition": "Sacred, inviolable, and protected from violation.",
+          "usage_conditions": "Used especially of places, times, and things whose sanctity imposes restrictions on conduct.",
+          "source_refs": [
+            "lane:entry:14235",
+            "mufradat:row:316"
+          ]
+        },
+        {
+          "sense_id": "hrm-haram-s3",
+          "definition": "In a restricted ritual state, specifically in or entering iḥrām.",
+          "usage_conditions": "A conventional pilgrimage-related use describing a person subject to the prohibitions associated with ḥajj or ʿumrah.",
+          "source_refs": [
+            "lane:entry:14235"
+          ]
+        },
+        {
+          "sense_id": "hrm-haram-s4",
+          "definition": "A sacred precinct or sanctuary.",
+          "usage_conditions": "The noun حَرَم denotes a protected territory, especially the sacred precinct of Makkah or Madinah; the QAC grouping also contains occurrences conventionally represented by this related noun.",
+          "source_refs": [
+            "lane:entry:14225"
+          ]
+        },
+        {
+          "sense_id": "hrm-haram-s5",
+          "definition": "Decreed or inevitable, as an unavoidable outcome.",
+          "usage_conditions": "This interpretation is explicitly reported for the Quranic expression in 21:95 alongside a competing reading and interpretation meaning “forbidden”; it should not be generalized to every occurrence of حَرَام.",
+          "source_refs": [
+            "lane:entry:14224",
+            "mufradat:row:316"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:59",
+          "word_location": "10:59:11",
+          "sense_ids": [
+            "hrm-haram-s1"
+          ]
+        },
+        {
+          "verse_key": "2:194",
+          "word_location": "2:194:2",
+          "sense_ids": [
+            "hrm-haram-s2"
+          ]
+        },
+        {
+          "verse_key": "5:1",
+          "word_location": "5:1:18",
+          "sense_ids": [
+            "hrm-haram-s3"
+          ]
+        },
+        {
+          "verse_key": "28:57",
+          "word_location": "28:57:12",
+          "sense_ids": [
+            "hrm-haram-s4"
+          ]
+        },
+        {
+          "verse_key": "21:95",
+          "word_location": "21:95:1",
+          "sense_ids": [
+            "hrm-haram-s5"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hrm-hurumat",
+      "form_group_ids": [
+        "qac-form:Hrm:Huruma`t:nominal:-"
+      ],
+      "headword_arabic": "حُرْمَة",
+      "public_pos_label": "Noun · plural form حُرُمَات",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "hrm-hurumat-s1",
+          "definition": "Inviolable ordinances, sacred rites, and things whose violation is prohibited.",
+          "usage_conditions": "The plural refers collectively to sacred requirements, protected institutions, rites, and other matters that must be observed and not violated.",
+          "source_refs": [
+            "lane:entry:14227"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:194",
+          "word_location": "2:194:5",
+          "sense_ids": [
+            "hrm-hurumat-s1"
+          ]
+        },
+        {
+          "verse_key": "22:30",
+          "word_location": "22:30:4",
+          "sense_ids": [
+            "hrm-hurumat-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hrm-mahrum",
+      "form_group_ids": [
+        "qac-form:Hrm:maHoruwm:nominal:-"
+      ],
+      "headword_arabic": "مَحْرُوم",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "hrm-mahrum-s1",
+          "definition": "Deprived, denied prosperity, or deprived of an expected share of provision.",
+          "usage_conditions": "In Quranic usage it can describe a person lacking the prosperity or increase enjoyed by others, including one whose need is not adequately met, and can describe people deprived of an anticipated yield.",
+          "source_refs": [
+            "lane:entry:14246",
+            "mufradat:row:316"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "51:19",
+          "word_location": "51:19:5",
+          "sense_ids": [
+            "hrm-mahrum-s1"
+          ]
+        },
+        {
+          "verse_key": "56:67",
+          "word_location": "56:67:3",
+          "sense_ids": [
+            "hrm-mahrum-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hrm-muharram",
+      "form_group_ids": [
+        "qac-form:Hrm:muHar~am:nominal:-",
+        "qac-form:Hrm:muHar~amap:nominal:-"
+      ],
+      "headword_arabic": "مُحَرَّم",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "hrm-muharram-s1",
+          "definition": "Forbidden or prohibited; made unlawful.",
+          "usage_conditions": "The feminine form مُحَرَّمَة is included as the gendered inflection of this passive participle. The Quranic use describes things or actions placed under prohibition.",
+          "source_refs": [
+            "lane:entry:14245",
+            "mufradat:row:316"
+          ]
+        },
+        {
+          "sense_id": "hrm-muharram-s2",
+          "definition": "Sacred or inviolable.",
+          "usage_conditions": "In the description of the House, the passive participle denotes a place invested with sacredness and protected status, not merely an ordinary legal prohibition.",
+          "source_refs": [
+            "lane:entry:14245"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:145",
+          "word_location": "6:145:8",
+          "sense_ids": [
+            "hrm-muharram-s1"
+          ]
+        },
+        {
+          "verse_key": "5:26",
+          "word_location": "5:26:3",
+          "sense_ids": [
+            "hrm-muharram-s1"
+          ]
+        },
+        {
+          "verse_key": "14:37",
+          "word_location": "14:37:12",
+          "sense_ids": [
+            "hrm-muharram-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-haruma-become",
+      "headword_arabic": "حَرُمَ",
+      "definition": "To be or become forbidden, unlawful, sacred, or inviolable.",
+      "usage_conditions": "A Form I intransitive use; the subject itself enters the condition of prohibition or sacred protection.",
+      "source_refs": [
+        "lane:entry:14216"
+      ]
+    },
+    {
+      "meaning_id": "cm-harama-denial",
+      "headword_arabic": "حَرَمَ",
+      "definition": "To deny, refuse, or withhold something from someone; to deprive them of it.",
+      "usage_conditions": "Includes rendering a person hopeless of attaining a desired thing and the related noun حِرْمَان for deprivation or ill-fatedness.",
+      "source_refs": [
+        "lane:entry:14216",
+        "lane:entry:14240"
+      ]
+    },
+    {
+      "meaning_id": "cm-animal-desire",
+      "headword_arabic": "حَرِمَ / حِرْمَة",
+      "definition": "Of a female animal, to desire the male.",
+      "usage_conditions": "Reported especially of ewes, she-goats, female cloven-hoofed animals, she-wolves, and bitches; the same lexical usage is also reported in relation to human males in a traditional report.",
+      "source_refs": [
+        "lane:entry:14216",
+        "lane:entry:14228",
+        "lane:entry:14232"
+      ]
+    },
+    {
+      "meaning_id": "cm-gambling-loss",
+      "headword_arabic": "حَرِمَ / أَحْرَمَ",
+      "definition": "To lose in a contest for stakes or wagers.",
+      "usage_conditions": "A specialized gambling and hazard-game usage, describing the one who fails to overcome an opponent.",
+      "source_refs": [
+        "lane:entry:14216",
+        "lane:entry:14218"
+      ]
+    },
+    {
+      "meaning_id": "cm-persist-contend",
+      "headword_arabic": "حَرِمَ",
+      "definition": "To persist obstinately, or to contend, litigate, or wrangle.",
+      "usage_conditions": "A reported Form I usage concerning persistence or contentious dispute.",
+      "source_refs": [
+        "lane:entry:14216"
+      ]
+    },
+    {
+      "meaning_id": "cm-harden-unsoftened",
+      "headword_arabic": "مُحَرَّم",
+      "definition": "Hard or left unsoftened, especially of a whip or hide.",
+      "usage_conditions": "Applied to a whip that has not been softened and to a hide that is untanned, incompletely tanned, or not made supple.",
+      "source_refs": [
+        "lane:entry:14217",
+        "lane:entry:14245"
+      ]
+    },
+    {
+      "meaning_id": "cm-ihram-enter",
+      "headword_arabic": "إِحْرَام",
+      "definition": "To enter a state of prohibition or sacred restriction, especially by beginning ḥajj or ʿumrah.",
+      "usage_conditions": "The state begins when formerly allowable acts become prohibited, including hunting, sexual intercourse, anointing oneself, and wearing sewn garments; the same verb can describe entering a sacred territory or sacred month.",
+      "source_refs": [
+        "lane:entry:14218"
+      ]
+    },
+    {
+      "meaning_id": "cm-refrain",
+      "headword_arabic": "أَحْرَمَ",
+      "definition": "To refrain from something as though prohibited from doing it.",
+      "usage_conditions": "A construction with عَنْ expressing abstention or avoidance.",
+      "source_refs": [
+        "lane:entry:14218"
+      ]
+    },
+    {
+      "meaning_id": "cm-protect-self",
+      "headword_arabic": "تَحَرَّمَ",
+      "definition": "To protect or defend oneself by invoking a bond, companionship, right, or covenant.",
+      "usage_conditions": "The protective means may be a compact, promise of security, companionship, or an acknowledged right.",
+      "source_refs": [
+        "lane:entry:14219"
+      ]
+    },
+    {
+      "meaning_id": "cm-taharrama-honor",
+      "headword_arabic": "تَحَرَّمَ",
+      "definition": "To become entitled to reverence, respect, or honor.",
+      "usage_conditions": "A Form V use describing acquisition or possession of a status that warrants respect.",
+      "source_refs": [
+        "lane:entry:14219"
+      ]
+    },
+    {
+      "meaning_id": "cm-ihtaram-honor",
+      "headword_arabic": "اِحْتَرَمَ",
+      "definition": "To hold someone in reverence, respect, or honor.",
+      "usage_conditions": "A transitive Form VIII use; the passive sense “to be held in respect” is separately reported as a correction to some lexicographical explanations.",
+      "source_refs": [
+        "lane:entry:14220"
+      ]
+    },
+    {
+      "meaning_id": "cm-ihram-state",
+      "headword_arabic": "حُرْم / مُحْرِم",
+      "definition": "The state of iḥrām, or a person subject to its restrictions.",
+      "usage_conditions": "Includes the pilgrimage state and, by extension, a person protected or restricted by a sacred, ritual, or other binding condition.",
+      "source_refs": [
+        "lane:entry:14223",
+        "lane:entry:14235",
+        "lane:entry:14243"
+      ]
+    },
+    {
+      "meaning_id": "cm-quranic-unit-bound",
+      "headword_arabic": "إِحْرَام / مُحْرِم",
+      "definition": "A state or person bound by a prohibition, including the restrictions of fasting or an oath.",
+      "usage_conditions": "These are conventional extensions of the idea that a person is prohibited from acts that would break the fast or violate the oath.",
+      "source_refs": [
+        "lane:entry:14218",
+        "lane:entry:14243"
+      ]
+    },
+    {
+      "meaning_id": "cm-covenant-security",
+      "headword_arabic": "حُرْمَة / مُحْرِم",
+      "definition": "A covenant, obligation, protection, or condition of security that must be honored.",
+      "usage_conditions": "Includes a compact or responsibility securing a person or property and the protected status of one who is not to be attacked or harmed.",
+      "source_refs": [
+        "lane:entry:14219",
+        "lane:entry:14227",
+        "lane:entry:14243"
+      ]
+    },
+    {
+      "meaning_id": "cm-hurma-sanctity",
+      "headword_arabic": "حُرْمَة",
+      "definition": "Sanctity, inviolability, or the state of being forbidden or revered.",
+      "usage_conditions": "The singular noun can denote the quality itself as well as a sacred or protected matter; its plural is used for inviolable ordinances and rites.",
+      "source_refs": [
+        "lane:entry:14227"
+      ]
+    },
+    {
+      "meaning_id": "cm-family-protected",
+      "headword_arabic": "حُرَم / حَرِيم",
+      "definition": "A protected family, household, wife, or woman under one’s protection.",
+      "usage_conditions": "This is a Classical Arabic social and protective usage, distinct from the Quranic abstract sense of prohibition.",
+      "source_refs": [
+        "lane:entry:14227",
+        "lane:entry:14238"
+      ]
+    },
+    {
+      "meaning_id": "cm-share-lot",
+      "headword_arabic": "حُرْمَة",
+      "definition": "A share, portion, or allotted lot.",
+      "usage_conditions": "A reported synonym of نَصِيبٌ.",
+      "source_refs": [
+        "lane:entry:14227"
+      ]
+    },
+    {
+      "meaning_id": "cm-haram-sanctuary",
+      "headword_arabic": "حَرَم",
+      "definition": "The sacred territory or protected precinct of Makkah or Madinah.",
+      "usage_conditions": "May denote the territory, the city itself, or the protected limits marked around it; the plural can refer to both sacred territories.",
+      "source_refs": [
+        "lane:entry:14225"
+      ]
+    },
+    {
+      "meaning_id": "cm-protected-environs",
+      "headword_arabic": "حَرِيم",
+      "definition": "The protected environs or appurtenances of a place, such as the precincts of a well, river, canal, house, or mosque.",
+      "usage_conditions": "The protected area is not to be appropriated by anyone other than the owner or entitled party; it may also denote a place one is obliged to defend.",
+      "source_refs": [
+        "lane:entry:14238"
+      ]
+    },
+    {
+      "meaning_id": "cm-partner-sharer",
+      "headword_arabic": "حَرِيم",
+      "definition": "A partner, copartner, or sharer.",
+      "usage_conditions": "A distinct nominal usage reported without a more specific contextual restriction.",
+      "source_refs": [
+        "lane:entry:14238"
+      ]
+    },
+    {
+      "meaning_id": "cm-friend",
+      "headword_arabic": "حَرِيم",
+      "definition": "A genuine or sincere friend.",
+      "usage_conditions": "Attested in the expression حَرِيمٌ صَرِيحٌ.",
+      "source_refs": [
+        "lane:entry:14238"
+      ]
+    },
+    {
+      "meaning_id": "cm-pilgrim-garment",
+      "headword_arabic": "حَرِيم",
+      "definition": "The garment of a person in iḥrām, including garments cast off on entering the sacred territory.",
+      "usage_conditions": "The historical pilgrimage usage includes clothing left aside during circumambulation and clothing associated with entry into the ḥaram.",
+      "source_refs": [
+        "lane:entry:14238"
+      ]
+    },
+    {
+      "meaning_id": "cm-escaped-desire",
+      "headword_arabic": "حَرِيمَة",
+      "definition": "Something eagerly desired or coveted that escapes one’s attainment.",
+      "usage_conditions": "Also used of what the Lord withholds from a person.",
+      "source_refs": [
+        "lane:entry:14239"
+      ]
+    },
+    {
+      "meaning_id": "cm-denying-refusing",
+      "headword_arabic": "حَارِم",
+      "definition": "Denying, refusing, or refusing to give.",
+      "usage_conditions": "A participial noun for one who withholds a thing from another.",
+      "source_refs": [
+        "lane:entry:14240"
+      ]
+    },
+    {
+      "meaning_id": "cm-mahram-relation",
+      "headword_arabic": "مَحْرَم",
+      "definition": "A person related in such a way that marriage with them is unlawful.",
+      "usage_conditions": "Used of a male or female relation whose kinship creates a permanent marriage prohibition.",
+      "source_refs": [
+        "lane:entry:14242"
+      ]
+    },
+    {
+      "meaning_id": "cm-fearful-places",
+      "headword_arabic": "مَحَارِمُ اللَّيْل",
+      "definition": "The fearful places of the night that a coward regards as forbidden to traverse.",
+      "usage_conditions": "A figurative plural expression referring to dangerous or frightening nocturnal routes.",
+      "source_refs": [
+        "lane:entry:14242"
+      ]
+    },
+    {
+      "meaning_id": "cm-protected-person",
+      "headword_arabic": "مُحْرِم",
+      "definition": "A person at peace with another or protected from attack, harm, or seizure.",
+      "usage_conditions": "The protection may arise from sacred status, a covenant, Islam, a sacred place or month, or a reciprocal condition in which neither party may harm the other.",
+      "source_refs": [
+        "lane:entry:14243"
+      ]
+    },
+    {
+      "meaning_id": "cm-sacred-month",
+      "headword_arabic": "مُحَرَّم / شَهْر حَرَام",
+      "definition": "A sacred month in which fighting is prohibited.",
+      "usage_conditions": "The classical list identifies four sacred months and describes the prohibition on fighting during them, subject to reported historical exceptions.",
+      "source_refs": [
+        "lane:entry:14235",
+        "lane:entry:14245"
+      ]
+    },
+    {
+      "meaning_id": "cm-refractory-camel",
+      "headword_arabic": "مُحَرَّم",
+      "definition": "Refractory, difficult to control, or insufficiently trained, especially of a camel.",
+      "usage_conditions": "May describe an animal difficult to turn or not yet broken to riding; the feminine form applies to a she-camel.",
+      "source_refs": [
+        "lane:entry:14217",
+        "lane:entry:14245"
+      ]
+    },
+    {
+      "meaning_id": "cm-sterile-shecamel",
+      "headword_arabic": "حَرُوم",
+      "definition": "A she-camel that does not conceive when covered.",
+      "usage_conditions": "A specialized animal-breeding term.",
+      "source_refs": [
+        "lane:entry:14237"
+      ]
+    },
+    {
+      "meaning_id": "cm-desert-arab",
+      "headword_arabic": "مُحَرَّم",
+      "definition": "A rude or unschooled desert Arab, characterized as chaste in speech and unaccustomed to town life.",
+      "usage_conditions": "A reported figurative or social characterization, not a general meaning of the passive participle.",
+      "source_refs": [
+        "lane:entry:14245"
+      ]
+    },
+    {
+      "meaning_id": "cm-soft-nose",
+      "headword_arabic": "مُحَرَّم",
+      "definition": "The soft part of the nose felt by the hand.",
+      "usage_conditions": "An explicitly marked, uncertainly derived specialized usage.",
+      "source_refs": [
+        "lane:entry:14245"
+      ]
+    },
+    {
+      "meaning_id": "cm-pilgrim-association",
+      "headword_arabic": "حِرْمِيّ",
+      "definition": "Relating to the sacred territory; in a historical pilgrimage custom, a protected local associate of a pilgrim or the pilgrim associated with him.",
+      "usage_conditions": "The special custom involved sharing food and clothing during pilgrimage and is distinct from the ordinary nisbah meaning “of the sacred territory.”",
+      "source_refs": [
+        "lane:entry:14233"
+      ]
+    },
+    {
+      "meaning_id": "cm-oath-formula",
+      "headword_arabic": "حَرَامَ اللَّه",
+      "definition": "An oath-like declaration invoking what is forbidden by God.",
+      "usage_conditions": "Used idiomatically in pledges such as “By the prohibition of God, I will not do it,” and could declare a wife or female slave forbidden without intending divorce or emancipation.",
+      "source_refs": [
+        "lane:entry:14235"
+      ]
+    },
+    {
+      "meaning_id": "cm-illegitimate-dishonest",
+      "headword_arabic": "اِبْنُ حَرَام",
+      "definition": "An illegitimate son; by extension, a disingenuous or dishonest person.",
+      "usage_conditions": "A fixed idiomatic expression rather than a productive literal description.",
+      "source_refs": [
+        "lane:entry:14235"
+      ]
+    },
+    {
+      "meaning_id": "cm-speechless",
+      "headword_arabic": "مَحْرُوم",
+      "definition": "According to one reported interpretation, unable to speak.",
+      "usage_conditions": "A rare attributed interpretation of مَحْرُوم, likening the condition to that of a dog or cat; it is not the primary Quranic sense of deprivation.",
+      "source_refs": [
+        "lane:entry:14246"
+      ]
+    },
+    {
+      "meaning_id": "cm-honored-mahrum",
+      "headword_arabic": "مَحْرُوم",
+      "definition": "Held in reverence, respect, or honor.",
+      "usage_conditions": "A distinct reported sense of the form, separate from مَحْرُوم meaning deprived.",
+      "source_refs": [
+        "lane:entry:14246"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Hrm:14216:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-haruma-become"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14216:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-haruma-become"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14216:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-harama-denial"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14216:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-animal-desire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14216:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gambling-loss"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14216:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-persist-contend"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14217:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hrm-v2-s1",
+        "hrm-v2-s2",
+        "hrm-v2-s3",
+        "cm-refractory-camel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14217:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hrm-v2-s3"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14217:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-harden-unsoftened"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14217:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-harden-unsoftened"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14217:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14218:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ihram-enter",
+        "cm-covenant-security",
+        "cm-quranic-unit-bound"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14218:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-refrain"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14218:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14218:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14218:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-gambling-loss"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14219:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-ihram-enter"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14219:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-protect-self"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14219:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-taharrama-honor"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14220:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ihtaram-honor"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14221:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-ihram-enter"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14221:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-animal-desire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14222:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14223:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ihram-state"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14224:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14224:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14224:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hrm-haram-s5"
+      ],
+      "note": "Quranic reading and interpretation are preserved under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14225:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hrm-haram-s4"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14225:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hrm-haram-s4",
+        "cm-haram-sanctuary"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14225:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14226:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-harama-denial"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14227:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hurma-sanctity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14227:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-hurma-sanctity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14227:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hrm-hurumat-s1",
+        "cm-hurma-sanctity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14227:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-covenant-security"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14227:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-family-protected"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14227:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-share-lot"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14228:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-animal-desire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14229:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14230:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14231:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14232:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-animal-desire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14232:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-oath-formula"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14233:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-pilgrim-association"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14233:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-pilgrim-association"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14234:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14235:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hrm-haram-s1",
+        "hrm-haram-s2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14235:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-oath-formula"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14235:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-illegitimate-dishonest"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14235:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sacred-month"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14235:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hrm-haram-s3",
+        "cm-ihram-state"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14235:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14236:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14237:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sterile-shecamel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14238:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14238:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-protected-environs"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14238:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-partner-sharer"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14238:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-friend"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14238:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-pilgrim-garment"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14238:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-pilgrim-garment"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14239:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-escaped-desire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14240:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-denying-refusing"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14240:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial correction and phrase explanation, not an independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14241:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional description of another entry."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14241:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14242:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14242:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14242:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mahram-relation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14242:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fearful-places"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14243:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-protected-person",
+        "cm-ihram-state"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14243:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-protected-person"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14243:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-protected-person"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14243:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-quranic-unit-bound"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14243:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-quranic-unit-bound"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14244:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14245:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hrm-muharram-s1",
+        "hrm-muharram-s2"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14245:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sacred-month"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14245:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-refractory-camel"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14245:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-harden-unsoftened"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14245:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-harden-unsoftened"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14245:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-desert-arab"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14245:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-soft-nose"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14246:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hrm-mahrum-s1",
+        "cm-speechless"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14246:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-honored-mahrum"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14247:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form classification and pointer."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14247:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form classification."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14247:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form classification and related glosses without a new lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14248:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form classification."
+    },
+    {
+      "unit_id": "lane-unit:Hrm:14249:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference and orthographic correction."
+    }
+  ],
+  "cautions": [
+    "The QAC HaraAm group contains both حَرَام and occurrences conventionally represented by the related noun حَرَم; these are shown together publicly but distinguished in the senses.",
+    "The interpretation of 21:95 has competing readings and explanations: one makes the expression mean inevitable or decreed, while another takes it in the ordinary sense of prohibition.",
+    "The Quranic discussion of prohibition distinguishes divine prevention, coercive exclusion, and legal prohibition; these are related uses but not interchangeable in every context.",
+    "The form مُحَرَّم occurs as both a masculine and feminine passive participle in the supplied QAC groups; the feminine group is merged as an inflectional variant."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

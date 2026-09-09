@@ -1,0 +1,170 @@
+{
+  "root": "nHl",
+  "arabic": "نحل",
+  "root_idea": {
+    "summary": "Classical root analysis distinguishes three semantic branches: becoming thin or emaciated, giving, and claiming or adopting something as one's own.",
+    "development": "A proposed derivation connects the gift branch with the bee's beneficial giving. The thinness branch extends from an emaciated body to thin sword edges; these developments do not merge the distinct lexical branches.",
+    "source_refs": [
+      "maqayis:row:4574",
+      "mufradat:row:1421"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nHl:niHolap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_nihlah",
+      "reason": "Displayed under the normalized singular noun citation form."
+    },
+    {
+      "form_group_id": "qac-form:nHl:n~aHol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_nahl",
+      "reason": "Displayed under the normalized noun citation form for the bee."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_nihlah",
+      "form_group_ids": [
+        "qac-form:nHl:niHolap:nominal:-"
+      ],
+      "headword_arabic": "نِحْلَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_nihlah_free_gift",
+          "definition": "A freely bestowed gift or donation; in Qur'an 4:4, the bridal gift or dower given to women as a free and willing bestowal.",
+          "usage_conditions": "Used in the construction وَآتُوا النِّسَاءَ صَدُقَاتِهِنَّ نِحْلَةً, characterizing the giving as voluntary and without seeking an exchange.",
+          "source_refs": [
+            "mufradat:row:1421"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:4",
+          "word_location": "4:4:4",
+          "sense_ids": [
+            "sense_nihlah_free_gift"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_nahl",
+      "form_group_ids": [
+        "qac-form:nHl:n~aHol:nominal:-"
+      ],
+      "headword_arabic": "نَحْل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_nahl_bee",
+          "definition": "The bee.",
+          "usage_conditions": "The noun denotes the specified bee in the Quranic account of God's inspiration to it.",
+          "source_refs": [
+            "mufradat:row:1421"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:68",
+          "word_location": "16:68:4",
+          "sense_ids": [
+            "sense_nahl_bee"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_nahil_lean",
+      "headword_arabic": "نَحِلَ",
+      "definition": "To become thin, lean, or emaciated.",
+      "usage_conditions": "Said especially of the body; the same thinness is reflected in the term for thin-edged swords.",
+      "source_refs": [
+        "lane:entry:32113",
+        "mufradat:row:1421"
+      ]
+    },
+    {
+      "meaning_id": "meaning_nahl_bestow",
+      "headword_arabic": "نَحَلَ / أَنْحَلَ",
+      "definition": "To give or bestow something as a free gift.",
+      "usage_conditions": "The giving is understood as voluntary and without seeking compensation; the usage includes giving a gift to a person such as a child or wife.",
+      "source_refs": [
+        "maqayis:row:4574",
+        "mufradat:row:1421"
+      ]
+    },
+    {
+      "meaning_id": "meaning_nahlah_obligation",
+      "headword_arabic": "نِحْلَة",
+      "definition": "A prescribed obligation or religious duty.",
+      "usage_conditions": "A Classical Arabic sense distinct from the voluntary-gift use.",
+      "source_refs": [
+        "lane:entry:32114"
+      ]
+    },
+    {
+      "meaning_id": "meaning_nahlah_religion",
+      "headword_arabic": "نِحْلَة",
+      "definition": "A religion, creed, or religious affiliation.",
+      "usage_conditions": "Used in expressions such as مَا نِحْلَتُكَ, meaning “What is your religion?”",
+      "source_refs": [
+        "lane:entry:32114"
+      ]
+    },
+    {
+      "meaning_id": "meaning_nawahil_swords",
+      "headword_arabic": "نَوَاحِل",
+      "definition": "Thin-edged swords whose blade edges have become thin through repeated striking.",
+      "usage_conditions": "A derived plural description based on the thinness of the sword edges.",
+      "source_refs": [
+        "maqayis:row:4574",
+        "mufradat:row:1421"
+      ]
+    },
+    {
+      "meaning_id": "meaning_intihal_claim",
+      "headword_arabic": "اِنْتَحَلَ / تَنَحَّلَ",
+      "definition": "To claim or adopt something as one's own, including poetry or another literary production.",
+      "usage_conditions": "The two forms are treated as equivalent here; a proposed distinction between rightful and wrongful claiming is not established.",
+      "source_refs": [
+        "maqayis:row:4574",
+        "mufradat:row:1421"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nHl:32113:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_nahil_lean"
+      ],
+      "note": "The unit's meaning of becoming lean or emaciated is represented."
+    },
+    {
+      "unit_id": "lane-unit:nHl:32114:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_nahlah_obligation",
+        "meaning_nahlah_religion"
+      ],
+      "note": "The unit's obligation and religion senses are represented separately."
+    }
+  ],
+  "cautions": [
+    "نِحْلَة, the free-gift or dower term, and نَحْل, the bee, are distinct Quranic lexical items despite sharing the consonantal root.",
+    "The obligation and religion senses of نِحْلَة are Classical Arabic meanings and are not treated as the meaning of the Quranic dower usage in this packet."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

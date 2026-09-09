@@ -1,0 +1,122 @@
+{
+  "root": "jbt",
+  "arabic": "جبت",
+  "root_idea": {
+    "summary": "A rare lexical field centered on occult authority and false veneration: a sorcerer or diviner, sorcery, the Devil, and idols or other things worshipped instead of God.",
+    "development": "The evidence associates جبت with something vile or lacking good and records related applications to occult practices, demonic influence, and false objects of worship. This describes the attested semantic field rather than a general productive root rule.",
+    "source_refs": [
+      "maqayis:row:1068",
+      "lane:entry:45858",
+      "mufradat:row:222"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jbt:jibot:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_jbt_jibt",
+      "reason": "Displayed under the normalized Classical Arabic noun citation form جِبْت."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_jbt_jibt",
+      "form_group_ids": [
+        "qac-form:jbt:jibot:nominal:-"
+      ],
+      "headword_arabic": "جِبْت",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "q_jbt_s1",
+          "definition": "An idol or any false object of worship, worshipped instead of or to the exclusion of God.",
+          "usage_conditions": "In 4:51, the term is variously understood as a particular idol or idols, or by reference to people associated with promoting or preferring such worship; these are contextual identifications rather than separate general senses.",
+          "source_refs": [
+            "lane:entry:45858",
+            "mufradat:row:222"
+          ]
+        },
+        {
+          "sense_id": "q_jbt_s2",
+          "definition": "Enchantment or sorcery.",
+          "usage_conditions": "In the Quranic expression paired with al-ṭāghūt in 4:51, one attested interpretation understands جبت as enchantment or sorcery.",
+          "source_refs": [
+            "lane:entry:45858"
+          ]
+        },
+        {
+          "sense_id": "q_jbt_s3",
+          "definition": "The Devil or Satan.",
+          "usage_conditions": "In 4:51, another attested interpretation understands جبت as the Devil or Satan, especially as the demonic power behind false religion and occult practice.",
+          "source_refs": [
+            "lane:entry:45858"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:51",
+          "word_location": "4:51:10",
+          "sense_ids": [
+            "q_jbt_s1",
+            "q_jbt_s2",
+            "q_jbt_s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_jbt_sorcerer_diviner",
+      "headword_arabic": "جِبْت",
+      "definition": "A sorcerer or diviner.",
+      "usage_conditions": "This denotes the human practitioner of occult activity, distinct from enchantment or sorcery as the practice itself.",
+      "source_refs": [
+        "lane:entry:45858",
+        "mufradat:row:222"
+      ]
+    },
+    {
+      "meaning_id": "cm_jbt_vile_no_good",
+      "headword_arabic": "جِبْت",
+      "definition": "A vile or worthless person or thing, one in which there is no good.",
+      "usage_conditions": "The usage is associated in the lexical tradition with جِبْس and with an intensification of vileness; it is broader than the specific Quranic interpretations of 4:51.",
+      "source_refs": [
+        "lane:entry:45858",
+        "mufradat:row:222"
+      ]
+    },
+    {
+      "meaning_id": "cm_jbt_divination_practices",
+      "headword_arabic": "جِبْت",
+      "definition": "A category of occult practices, including divination and related omen practices.",
+      "usage_conditions": "In the construction مِنَ الجِبْتِ, reported examples such as omens and forms of divination are classified as jibt; the explanation also allows the sense of practices lacking good or deriving from the Devil.",
+      "source_refs": [
+        "lane:entry:45858"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jbt:45858:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "q_jbt_s1",
+        "q_jbt_s2",
+        "q_jbt_s3",
+        "cm_jbt_sorcerer_diviner",
+        "cm_jbt_vile_no_good",
+        "cm_jbt_divination_practices"
+      ],
+      "note": "Its material branches are represented across the three Quranic senses and three broader Classical meanings."
+    }
+  ],
+  "cautions": [
+    "The sole Quran occurrence, 4:51, has competing lexical and exegetical interpretations: idol or false worship, sorcery, the Devil, and particular historical referents.",
+    "The public headword is normalized to جِبْت; the Quran occurrence is the inflected form بِالْجِبْتِ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

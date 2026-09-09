@@ -1,0 +1,972 @@
+{
+  "root": "tlw",
+  "arabic": "تلو",
+  "root_idea": {
+    "summary": "The root centers on following or coming after something, whether physically, sequentially, imitatively, or by adherence.",
+    "development": "From following and succession developed the usages for reciting a text in sequence, following revealed guidance in knowledge and action, and referring to what remains after something else.",
+    "source_refs": [
+      "maqayis:row:956",
+      "mufradat:row:190"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:tlw:talaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_tlw_tala",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:tlw:tilaAwat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_tlw_tilawah",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:tlw:t~a`liya`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_tlw_talin",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_tlw_tala",
+      "form_group_ids": [
+        "qac-form:tlw:talaY`:verb:I"
+      ],
+      "headword_arabic": "تَلَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 61,
+      "senses": [
+        {
+          "sense_id": "qsen_tlw_tala_follow",
+          "definition": "To follow, come after, or succeed another in sequence, position, or rank.",
+          "usage_conditions": "The Quranic usage includes following in a physical or figurative sense, as in the moon following the sun.",
+          "source_refs": [
+            "lane:entry:16800",
+            "mufradat:row:190"
+          ]
+        },
+        {
+          "sense_id": "qsen_tlw_tala_recite",
+          "definition": "To read, recite, rehearse, or present a revealed text, passage, or account.",
+          "usage_conditions": "Used especially with revealed scripture and with presenting or recounting a narrative; the form may be active or passive and may take a direct object or occur with عَلَى.",
+          "source_refs": [
+            "lane:entry:16800",
+            "mufradat:row:190"
+          ]
+        },
+        {
+          "sense_id": "qsen_tlw_tala_adhere",
+          "definition": "To follow revealed scripture by understanding it and acting according to its commands and guidance.",
+          "usage_conditions": "This is the scripture-oriented sense of تلاوة: recitation is accompanied by faithful adherence, knowledge, and practice rather than being mere vocal reading.",
+          "source_refs": [
+            "lane:entry:16800",
+            "mufradat:row:190"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "91:2",
+          "word_location": "91:2:3",
+          "sense_ids": [
+            "qsen_tlw_tala_follow"
+          ]
+        },
+        {
+          "verse_key": "29:45",
+          "word_location": "29:45:1",
+          "sense_ids": [
+            "qsen_tlw_tala_recite"
+          ]
+        },
+        {
+          "verse_key": "11:17",
+          "word_location": "11:17:7",
+          "sense_ids": [
+            "qsen_tlw_tala_adhere"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_tlw_tilawah",
+      "form_group_ids": [
+        "qac-form:tlw:tilaAwat:nominal:-"
+      ],
+      "headword_arabic": "تِلَاوَةٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_tlw_tilawah_scripture",
+          "definition": "Recitation of revealed scripture with attentive following and observance of its guidance.",
+          "usage_conditions": "In the Quranic construction حَقَّ تِلَاوَتِهِ, the verbal noun includes following the scripture through knowledge and action, not only reading it aloud.",
+          "source_refs": [
+            "lane:entry:16800",
+            "mufradat:row:190"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:121",
+          "word_location": "2:121:6",
+          "sense_ids": [
+            "qsen_tlw_tilawah_scripture"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_tlw_talin",
+      "form_group_ids": [
+        "qac-form:tlw:t~a`liya`t:nominal:-"
+      ],
+      "headword_arabic": "تَالٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen_tlw_talin_reciters",
+          "definition": "One who recites or rehearses praise.",
+          "usage_conditions": "The Quranic occurrence is the feminine plural تَالِيَات, interpreted as those who recite divine praise; the interpretation includes angels or angels and others.",
+          "source_refs": [
+            "lane:entry:16816"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:3",
+          "word_location": "37:3:1",
+          "sense_ids": [
+            "qsen_tlw_talin_reciters"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "c_tlw_follow_imitate",
+      "headword_arabic": "تَلَا",
+      "definition": "To imitate another and follow that person's actions.",
+      "usage_conditions": "A general imitation or following usage, distinct from merely coming after someone physically.",
+      "source_refs": [
+        "lane:entry:16800"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_drive_camels",
+      "headword_arabic": "تَلَا",
+      "definition": "To drive, bring, or gather camels together.",
+      "usage_conditions": "The usage is explained as arising because the driver follows the animals being driven.",
+      "source_refs": [
+        "lane:entry:16800"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_lie_about",
+      "headword_arabic": "تَلَا عَلَى",
+      "definition": "To say false things against someone or attribute a lie to that person.",
+      "usage_conditions": "A conventional عَلَى construction meaning to lie about or against someone.",
+      "source_refs": [
+        "lane:entry:16800",
+        "mufradat:row:190"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_hold_back",
+      "headword_arabic": "تَلَا",
+      "definition": "To hold back, lag behind, withdraw from someone, or leave someone without aid.",
+      "usage_conditions": "This is a contrary-looking Classical branch in which the one who was accompanying another remains behind or abandons him.",
+      "source_refs": [
+        "lane:entry:16800"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_animal_offspring",
+      "headword_arabic": "تِلْوٌ",
+      "definition": "A follower; especially a young animal that follows its mother, including a young mule, ass, camel, sheep, or goat.",
+      "usage_conditions": "The animal sense may refer to a weaned young that remains with or follows its mother.",
+      "source_refs": [
+        "lane:entry:16800",
+        "lane:entry:16808"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_remain_remainder",
+      "headword_arabic": "تَلِيَ",
+      "definition": "To remain as a remainder of a due, claim, month, or other allotted matter.",
+      "usage_conditions": "Used in expressions for something still remaining to someone or remaining of a period.",
+      "source_refs": [
+        "lane:entry:16800"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_seek_remainder",
+      "headword_arabic": "تَلَّوَ",
+      "definition": "To demand or seek to obtain the remainder of a right, due, need, or desired thing.",
+      "usage_conditions": "The Form II usage emphasizes seeking the outstanding portion until it is obtained.",
+      "source_refs": [
+        "lane:entry:16801"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_prayer_follow",
+      "headword_arabic": "تَلَّوَ",
+      "definition": "To make one prayer follow another, especially to follow an obligatory prayer with a supererogatory one.",
+      "usage_conditions": "A conventional Form II prayer construction.",
+      "source_refs": [
+        "lane:entry:16801"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_stand_prayer",
+      "headword_arabic": "تَلَّوَ",
+      "definition": "To stand erect for prayer.",
+      "usage_conditions": "A separately reported Classical usage of the Form II verb.",
+      "source_refs": [
+        "lane:entry:16801"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_fulfill_vow",
+      "headword_arabic": "تَلَّوَ",
+      "definition": "To accomplish or fulfill a vow.",
+      "usage_conditions": "A reported Form II usage with a vow as its object.",
+      "source_refs": [
+        "lane:entry:16801"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_last_gasp",
+      "headword_arabic": "تَلَّوَ",
+      "definition": "To be at the last gasp or near death.",
+      "usage_conditions": "A reported figurative or situational usage of the Form II verb.",
+      "source_refs": [
+        "lane:entry:16801"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_assist_singing_work",
+      "headword_arabic": "تَالَاهُ",
+      "definition": "To alternate with or relieve another in singing or in a task by taking up the strain when the other cannot continue.",
+      "usage_conditions": "The Form III construction may refer to mutual assistance in singing or work.",
+      "source_refs": [
+        "lane:entry:16802"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_causative_follow",
+      "headword_arabic": "أَتْلَى",
+      "definition": "To cause someone or something to follow; of a mother animal, to have its young following her.",
+      "usage_conditions": "The Form IV causative may describe a person followed by children or an animal followed by its young.",
+      "source_refs": [
+        "lane:entry:16803"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_outstrip",
+      "headword_arabic": "أَتْلَى",
+      "definition": "To get ahead of, outstrip, or precede someone after pursuing him.",
+      "usage_conditions": "The meaning develops from following until one has overtaken the person followed.",
+      "source_refs": [
+        "lane:entry:16803"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_leave_remainder",
+      "headword_arabic": "أَتْلَى",
+      "definition": "To leave a remainder of one's due, claim, or needed matter with someone.",
+      "usage_conditions": "Used for an outstanding portion deliberately left in another person's possession.",
+      "source_refs": [
+        "lane:entry:16803",
+        "lane:entry:16804"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_transfer_debt",
+      "headword_arabic": "أَتْلَى",
+      "definition": "To transfer a debt or claim to another person, shifting responsibility for payment.",
+      "usage_conditions": "The transferred obligation is referred to the person who assumes responsibility for it.",
+      "source_refs": [
+        "lane:entry:16803",
+        "lane:entry:16809"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_protection_bond",
+      "headword_arabic": "أَتْلَى",
+      "definition": "To give someone a bond, obligation, or token securing that person's protection and safe conduct.",
+      "usage_conditions": "The token could be an arrow bearing the giver's name, or another recognized object such as a sandal, shown to a tribe to obtain protection.",
+      "source_refs": [
+        "lane:entry:16803",
+        "lane:entry:16809"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_make_companion",
+      "headword_arabic": "أَتْلَى",
+      "definition": "To make someone a follower or companion.",
+      "usage_conditions": "A figurative Form IV extension of causing someone to follow.",
+      "source_refs": [
+        "lane:entry:16803"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_pursue_due",
+      "headword_arabic": "تَتَلَّى",
+      "definition": "To seek a right, due, or desired thing repeatedly, gradually, or at leisure until it is obtained.",
+      "usage_conditions": "The Form V usage emphasizes continued or stepwise pursuit.",
+      "source_refs": [
+        "lane:entry:16804"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_collect_wealth",
+      "headword_arabic": "تَتَلَّى",
+      "definition": "To collect or accumulate much wealth.",
+      "usage_conditions": "A reported Form V usage without a necessary implication of gradual acquisition.",
+      "source_refs": [
+        "lane:entry:16804"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_consecutive",
+      "headword_arabic": "تَتَالَى",
+      "definition": "To follow one another consecutively; to occur in succession.",
+      "usage_conditions": "Used of events, things, horses, or horsemen arriving one after another.",
+      "source_refs": [
+        "lane:entry:16805"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_invite_follow",
+      "headword_arabic": "اِسْتَتْلَى",
+      "definition": "To invite or cause someone or something to follow.",
+      "usage_conditions": "The Form X construction may describe making a person follow or inviting him to follow a thing.",
+      "source_refs": [
+        "lane:entry:16806"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_await",
+      "headword_arabic": "اِسْتَتْلَى",
+      "definition": "To look for, expect, await, or wait for someone.",
+      "usage_conditions": "A Form X usage involving expectation or waiting.",
+      "source_refs": [
+        "lane:entry:16806"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_seek_debt_transfer",
+      "headword_arabic": "اِسْتَتْلَى",
+      "definition": "To seek or demand the transfer of a debt or claim from one responsible person to another.",
+      "usage_conditions": "This is the active-participial and verbal usage associated with shifting responsibility for an obligation.",
+      "source_refs": [
+        "lane:entry:16806",
+        "lane:entry:16819"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_follower",
+      "headword_arabic": "تِلْوٌ",
+      "definition": "A thing that follows another, or a follower of another person.",
+      "usage_conditions": "The noun can be used generally for what comes after or remains in another's following.",
+      "source_refs": [
+        "lane:entry:16808"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_high_lofty",
+      "headword_arabic": "تِلْوٌ",
+      "definition": "High or lofty in measure or stature.",
+      "usage_conditions": "A separate adjectival usage, as in describing someone or something as high in rank or extent.",
+      "source_refs": [
+        "lane:entry:16808"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_persistent_follower",
+      "headword_arabic": "تَلُوٌّ",
+      "definition": "A person who follows persistently or incessantly.",
+      "usage_conditions": "An intensive nominal pattern describing continued following.",
+      "source_refs": [
+        "lane:entry:16810"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_many_oaths",
+      "headword_arabic": "تَلِيٌّ",
+      "definition": "A person who uses many oaths.",
+      "usage_conditions": "A reported descriptive usage of the adjective or noun.",
+      "source_refs": [
+        "lane:entry:16811"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_wealthy",
+      "headword_arabic": "تَلِيٌّ",
+      "definition": "A person possessing much wealth.",
+      "usage_conditions": "A separate reported meaning of the same headword.",
+      "source_refs": [
+        "lane:entry:16811"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_remainder_noun",
+      "headword_arabic": "تَلِيَّةٌ",
+      "definition": "A remainder or remnant of a thing, right, due, debt, or desired matter.",
+      "usage_conditions": "The word may also refer figuratively to remaining youthfulness or the last surviving member of a class.",
+      "source_refs": [
+        "lane:entry:16812"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_after",
+      "headword_arabic": "تَلِيَّةٌ",
+      "definition": "That which occurs after something else; subsequently to.",
+      "usage_conditions": "Used in the construction تَلِيَّةَ كَذَا for an event occurring after another event.",
+      "source_refs": [
+        "lane:entry:16812"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_follow_boat",
+      "headword_arabic": "تَلَوَّى",
+      "definition": "A small boat that follows a larger vessel.",
+      "usage_conditions": "A specialized noun explained through the boat's following relationship to the larger ship.",
+      "source_refs": [
+        "lane:entry:16814"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_frequent_quran_reader",
+      "headword_arabic": "تَلَّاءٌ",
+      "definition": "A person who reads, studies, or recites the Quran frequently, or who frequently follows and acts upon it.",
+      "usage_conditions": "An intensive descriptive noun for habitual engagement with the Quran.",
+      "source_refs": [
+        "lane:entry:16815"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_tali_following",
+      "headword_arabic": "تَالٍ",
+      "definition": "One who or that which follows, goes, or walks behind or after another.",
+      "usage_conditions": "The active participle may describe immediate or effective following, bodily or figurative.",
+      "source_refs": [
+        "lane:entry:16816"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_race_fourth",
+      "headword_arabic": "التَّالِي",
+      "definition": "The fourth of ten horses started together in a race.",
+      "usage_conditions": "A technical racing designation derived from ordinal succession.",
+      "source_refs": [
+        "lane:entry:16816"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_aldebaran",
+      "headword_arabic": "تَالِي النَّجْمِ",
+      "definition": "Aldebaran, the star that follows the Pleiades.",
+      "usage_conditions": "A conventional astronomical name based on the star's position after the Pleiades.",
+      "source_refs": [
+        "lane:entry:16816"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_last_stars",
+      "headword_arabic": "تَالِيَاتُ النُّجُومِ",
+      "definition": "The last or following stars, especially those seen last in the morning twilight.",
+      "usage_conditions": "A plural astronomical usage; the exact group is described by its following or trailing position.",
+      "source_refs": [
+        "lane:entry:16816"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_last_travelers",
+      "headword_arabic": "التَّوَالِي",
+      "definition": "The last women traveling in vehicles on camels, and likewise the last camels in a group.",
+      "usage_conditions": "A plural usage for those or those animals bringing up the rear.",
+      "source_refs": [
+        "lane:entry:16816"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_hind_parts",
+      "headword_arabic": "التَّوَالِي",
+      "definition": "The hind parts, posteriors, or rumps; of a horse, its tail and hind legs.",
+      "usage_conditions": "A specialized plural noun for the rear portion of a body or animal.",
+      "source_refs": [
+        "lane:entry:16816"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_mother_with_young",
+      "headword_arabic": "مُتْلٍ / مُتْلِيَةٌ",
+      "definition": "A mother or female animal whose young follows her.",
+      "usage_conditions": "The terms may be applied to a human mother, a she-camel, or a female wild animal.",
+      "source_refs": [
+        "lane:entry:16817"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_late_bearing",
+      "headword_arabic": "مُتْلٍ / مُتْلِيَةٌ",
+      "definition": "A female camel or similar animal that bears late in the breeding season, or is pregnant according to some explanations.",
+      "usage_conditions": "The evidence records variant explanations, including late bearing, pregnancy, and being heavy with pregnancy; the term is not restricted to one of these interpretations.",
+      "source_refs": [
+        "lane:entry:16817"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_singing_assistant",
+      "headword_arabic": "مُتَالٍ",
+      "definition": "One who relieves or assists another in singing or work by taking up the strain or task when the other cannot continue.",
+      "usage_conditions": "The assistance may be performed with a high voice in singing.",
+      "source_refs": [
+        "lane:entry:16818"
+      ]
+    },
+    {
+      "meaning_id": "c_tlw_camel_singer",
+      "headword_arabic": "مُتَالٍ",
+      "definition": "One who sings to camels to urge or excite them onward.",
+      "usage_conditions": "A specialized use of the participle in camel-driving contexts.",
+      "source_refs": [
+        "lane:entry:16818"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:tlw:16800:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_tlw_tala_follow"
+      ],
+      "note": "Following or coming after is represented in the Quranic following sense."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16800:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_drive_camels"
+      ],
+      "note": "Camel-driving usage represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16800:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_follow_imitate"
+      ],
+      "note": "Imitating and following another's actions represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16800:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_tlw_tala_recite",
+        "qsen_tlw_tala_adhere",
+        "c_tlw_lie_about"
+      ],
+      "note": "Recitation, scriptural adherence, and lying against someone are all represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16800:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_hold_back"
+      ],
+      "note": "Holding back and leaving someone represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16800:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_animal_offspring"
+      ],
+      "note": "Young mule usage is included in the animal-offspring meaning."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16800:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_remain_remainder"
+      ],
+      "note": "Remaining as a remainder represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16801:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16801:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_seek_remainder"
+      ],
+      "note": "Seeking an outstanding due or need represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16801:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_prayer_follow"
+      ],
+      "note": "Making one prayer follow another represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16801:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_stand_prayer"
+      ],
+      "note": "Standing erect for prayer represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16801:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_fulfill_vow"
+      ],
+      "note": "Fulfilling a vow represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16801:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_last_gasp"
+      ],
+      "note": "Being at the last gasp represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16801:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16802:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_assist_singing_work"
+      ],
+      "note": "Alternating or relieving another in singing or work represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16803:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_causative_follow"
+      ],
+      "note": "Causative following and offspring-following construction represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16803:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_outstrip"
+      ],
+      "note": "Overtaking and outstripping represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16803:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_leave_remainder"
+      ],
+      "note": "Leaving a remainder of a due represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16803:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_transfer_debt"
+      ],
+      "note": "Transferring responsibility for a debt represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16803:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_protection_bond",
+        "c_tlw_make_companion"
+      ],
+      "note": "Protection bond and follower-or-companion extensions both represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16804:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_pursue_due"
+      ],
+      "note": "Repeated or gradual pursuit of a due or desired thing represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16804:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_collect_wealth"
+      ],
+      "note": "Collecting much wealth represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16804:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_leave_remainder"
+      ],
+      "note": "Leaving part of a due outstanding represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16804:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_remain_remainder"
+      ],
+      "note": "A remainder of debt remaining represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16805:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_consecutive"
+      ],
+      "note": "Consecutive succession represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16806:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_invite_follow"
+      ],
+      "note": "Inviting a person or thing to follow represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16806:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_invite_follow"
+      ],
+      "note": "Making someone follow represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16806:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_await"
+      ],
+      "note": "Awaiting or expecting someone represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16806:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_seek_debt_transfer"
+      ],
+      "note": "Seeking transfer of a debt or claim represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16807:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16808:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_follower",
+        "c_tlw_animal_offspring"
+      ],
+      "note": "General follower and following young-animal senses represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16808:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_high_lofty"
+      ],
+      "note": "High or lofty usage represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16809:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_protection_bond"
+      ],
+      "note": "Bond, obligation, and protection token represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16809:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_transfer_debt"
+      ],
+      "note": "Transfer of a debt or claim represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16810:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_persistent_follower"
+      ],
+      "note": "Persistent follower represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16811:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_many_oaths",
+        "c_tlw_wealthy"
+      ],
+      "note": "Both reported descriptive branches represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16812:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_remainder_noun"
+      ],
+      "note": "Remainder and figurative remnant usage represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16812:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_after"
+      ],
+      "note": "After or subsequent-to construction represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16813:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the remainder noun."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16814:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_follow_boat"
+      ],
+      "note": "Boat following a larger vessel represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16815:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_frequent_quran_reader"
+      ],
+      "note": "Intensive Quran-reader designation represented as its own derived noun."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16816:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_tali_following"
+      ],
+      "note": "Active-participial following sense represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16816:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_race_fourth"
+      ],
+      "note": "Technical racing designation represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16816:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_aldebaran"
+      ],
+      "note": "Aldebaran designation represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16816:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_last_stars"
+      ],
+      "note": "Last or following stars represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16816:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_last_travelers"
+      ],
+      "note": "Last travelers or camels in a group represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16816:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_hind_parts"
+      ],
+      "note": "Hind parts and a horse's tail and hind legs represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16816:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_tlw_talin_reciters"
+      ],
+      "note": "Quranic reciters of praise represented under the active-participle form."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16817:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_mother_with_young"
+      ],
+      "note": "Mother or female animal with following young represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16817:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_late_bearing"
+      ],
+      "note": "Late-bearing and variant pregnancy explanations represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16818:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_singing_assistant",
+        "c_tlw_camel_singer"
+      ],
+      "note": "Assisting in song or work and singing to camels represented."
+    },
+    {
+      "unit_id": "lane-unit:tlw:16819:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "c_tlw_seek_debt_transfer"
+      ],
+      "note": "Seeking transfer of debt or claim represented."
+    }
+  ],
+  "cautions": [
+    "The root has a documented Classical branch in which تَلَا means to hold back or leave someone; this contrary-looking usage is kept separate from following and recitation.",
+    "The animal terms مُتْلٍ and مُتْلِيَةٌ have divergent reported explanations, including late bearing, pregnancy, and being heavy with pregnancy; no narrower interpretation is imposed.",
+    "Mufradat records an alternate reading تَبْلُوا at 10:30. That reading is not treated as a تلو occurrence because 10:30 is absent from the supplied QAC locations for this root."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

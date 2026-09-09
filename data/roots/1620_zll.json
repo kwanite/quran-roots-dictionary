@@ -1,0 +1,940 @@
+{
+  "root": "zll",
+  "arabic": "زلل",
+  "root_idea": {
+    "summary": "The root centers on slipping or moving away from a position, course, or stable state.",
+    "development": "From physical displacement and the ease of sliding, the root extends to deviation and error, while reduplicated forms express repeated agitation or violent motion; clear, sweet water is described as slipping easily from the tongue.",
+    "source_refs": [
+      "maqayis:row:2277",
+      "mufradat:row:626"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zll:zalalo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran:zll:zalla",
+      "reason": "Distinct Quran-attested Form I verb, normalized to the classical citation form زَلَّ."
+    },
+    {
+      "form_group_id": "qac-form:zll:>azal~a:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran:zll:azalla",
+      "reason": "Distinct Quran-attested Form IV causative verb."
+    },
+    {
+      "form_group_id": "qac-form:zll:{sotazal~a:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran:zll:istazalla",
+      "reason": "Distinct Quran-attested Form X verb expressing attempted or induced slipping."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran:zll:zalla",
+      "form_group_ids": [
+        "qac-form:zll:zalalo:verb:I"
+      ],
+      "headword_arabic": "زَلَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "quran:zll:zalla:s1",
+          "definition": "To slip, move aside, or deviate; hence, to lapse or err.",
+          "usage_conditions": "Used intransitively for physical slipping or movement from a place, and figuratively for deviation or a lapse in speech, judgment, action, religion, or the right course.",
+          "source_refs": [
+            "lane:entry:31392",
+            "mufradat:row:626"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:209",
+          "word_location": "2:209:2",
+          "sense_ids": [
+            "quran:zll:zalla:s1"
+          ]
+        },
+        {
+          "verse_key": "16:94",
+          "word_location": "16:94:6",
+          "sense_ids": [
+            "quran:zll:zalla:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "quran:zll:azalla",
+      "form_group_ids": [
+        "qac-form:zll:>azal~a:verb:IV"
+      ],
+      "headword_arabic": "أَزَلَّ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "quran:zll:azalla:s1",
+          "definition": "To cause someone to slip or fall away, including into error.",
+          "usage_conditions": "A transitive causative use, applicable to physical slipping or displacement and to inducing a wrong action or deviation; in the Quranic occurrence, persons are caused to slip from a place.",
+          "source_refs": [
+            "lane:entry:31394",
+            "mufradat:row:626"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:36",
+          "word_location": "2:36:1",
+          "sense_ids": [
+            "quran:zll:azalla:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "quran:zll:istazalla",
+      "form_group_ids": [
+        "qac-form:zll:{sotazal~a:verb:X"
+      ],
+      "headword_arabic": "اِسْتَزَلَّ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "quran:zll:istazalla:s1",
+          "definition": "To seek to make someone slip or fall into error; to lead someone into a lapse.",
+          "usage_conditions": "A transitive, intentional or attempted induction into slipping, including seeking out or exploiting another person's lapse; the Quranic usage describes being drawn into error until one slips.",
+          "source_refs": [
+            "mufradat:row:626"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:155",
+          "word_location": "3:155:9",
+          "sense_ids": [
+            "quran:zll:istazalla:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_zalla_receive",
+      "headword_arabic": "زَلَّ",
+      "definition": "To take or receive something given, especially food.",
+      "usage_conditions": "An intransitive counterpart inferred in legal usage from أَزَلَّ إِلَيْهِ, “he gave to him.”",
+      "source_refs": [
+        "lane:entry:31392"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalla_benefit_transfer",
+      "headword_arabic": "زَلَّ",
+      "definition": "For a benefit to pass or be transferred from a benefactor to another person.",
+      "usage_conditions": "Used of a benefit or favor moving from its giver to its recipient.",
+      "source_refs": [
+        "lane:entry:31392"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalla_run",
+      "headword_arabic": "زَلَّ",
+      "definition": "To pass along quickly or run; to move lightly.",
+      "usage_conditions": "Used of rapid or light movement, including the movement of camels between places.",
+      "source_refs": [
+        "lane:entry:31392"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalla_life_pass",
+      "headword_arabic": "زَلَّ",
+      "definition": "For a person's life to pass or glide away.",
+      "usage_conditions": "A figurative use of passing or moving away.",
+      "source_refs": [
+        "lane:entry:31392"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalla_money",
+      "headword_arabic": "زَلَّ",
+      "definition": "For money to pour forth, or to become deficient in weight.",
+      "usage_conditions": "Used of dirhams or other pieces of money.",
+      "source_refs": [
+        "lane:entry:31392"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalal_lean",
+      "headword_arabic": "زَلَلٌ",
+      "definition": "Leanness in the hips, haunches, buttocks, or thighs.",
+      "usage_conditions": "A physical description of insufficient flesh.",
+      "source_refs": [
+        "lane:entry:31392"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulla_thinned",
+      "headword_arabic": "زُلَّ",
+      "definition": "To be made or rendered thin or slender.",
+      "usage_conditions": "A lexical usage equated with دُقِّقَ.",
+      "source_refs": [
+        "lane:entry:31392"
+      ]
+    },
+    {
+      "meaning_id": "cm_azalla_send_forward",
+      "headword_arabic": "أَزَلَّ",
+      "definition": "To send or put someone forward to a people or party.",
+      "usage_conditions": "A transitive use distinct from causing someone to slip.",
+      "source_refs": [
+        "lane:entry:31394"
+      ]
+    },
+    {
+      "meaning_id": "cm_azalla_turn_opinion",
+      "headword_arabic": "أَزَلَّ",
+      "definition": "To make someone turn away from an opinion.",
+      "usage_conditions": "Used transitively of causing a person to abandon a view.",
+      "source_refs": [
+        "lane:entry:31394"
+      ]
+    },
+    {
+      "meaning_id": "cm_azalla_benefit",
+      "headword_arabic": "أَزَلَّ",
+      "definition": "To give or bestow a benefit, gift, food, or part of what is due.",
+      "usage_conditions": "Used with a recipient and, where specified, with food or another apportioned thing.",
+      "source_refs": [
+        "lane:entry:31394"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalzala_causative",
+      "headword_arabic": "زَلْزَلَ",
+      "definition": "To put someone or something into motion, agitation, commotion, or violent convulsion; to unsettle or alarm.",
+      "usage_conditions": "Used of violent movement, driving camels forcefully, the agitation of a people, and the casting of fear into them. This reduplicated derived form is Quran-attested in the supplied lexical evidence but is not a supplied QAC form group.",
+      "source_refs": [
+        "lane:entry:31396",
+        "mufradat:row:626"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalzala_swallow",
+      "headword_arabic": "زَلْزَلَ",
+      "definition": "To cause liquid to pass into the throat.",
+      "usage_conditions": "A conventional expression used of putting water into the throat.",
+      "source_refs": [
+        "lane:entry:31396"
+      ]
+    },
+    {
+      "meaning_id": "cm_tazalzala_motion",
+      "headword_arabic": "تَزَلْزَلَ",
+      "definition": "To be or become in a state of motion, agitation, commotion, or violent convulsion.",
+      "usage_conditions": "Used intransitively of the earth or other things; of the soul, it can describe its heaving in the chest at death.",
+      "source_refs": [
+        "lane:entry:31397",
+        "mufradat:row:626"
+      ]
+    },
+    {
+      "meaning_id": "cm_zull_slippery_place",
+      "headword_arabic": "زُلٌّ",
+      "definition": "A slippery place or surface on which the foot slips.",
+      "usage_conditions": "Used of a standing-place, smooth rock, slope, or slide.",
+      "source_refs": [
+        "lane:entry:31398"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalla_fault",
+      "headword_arabic": "زَلَّةٌ",
+      "definition": "A slip, lapse, fault, wrong action, mistake, or error; sometimes a sin or crime.",
+      "usage_conditions": "A noun for an unintended or blameworthy lapse, especially in speech, conduct, or judgment.",
+      "source_refs": [
+        "lane:entry:31399"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalla_benefit_noun",
+      "headword_arabic": "زَلَّةٌ",
+      "definition": "A benefit, good action, gift, or favor.",
+      "usage_conditions": "A noun distinct from زَلَّةٌ meaning a fault.",
+      "source_refs": [
+        "lane:entry:31399"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalla_feast",
+      "headword_arabic": "زَلَّةٌ",
+      "definition": "A feast or repast prepared for guests; also a marriage feast or food carried from another's table.",
+      "usage_conditions": "Some of these uses are dialectal or colloquial.",
+      "source_refs": [
+        "lane:entry:31399"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulla_breath",
+      "headword_arabic": "زُلَّةٌ",
+      "definition": "A straitened state of the breath.",
+      "usage_conditions": "The lexical analysis is reported with uncertainty over the underlying word in the source explanation.",
+      "source_refs": [
+        "lane:entry:31400"
+      ]
+    },
+    {
+      "meaning_id": "cm_zilla_stones",
+      "headword_arabic": "زِلَّةٌ",
+      "definition": "A stone or smooth stone.",
+      "usage_conditions": "The plural is reported as زِلَلٌ.",
+      "source_refs": [
+        "lane:entry:31401"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalal_deficiency",
+      "headword_arabic": "زَلَلٌ",
+      "definition": "A deficiency, especially a deficiency in weight.",
+      "usage_conditions": "Used of a shortfall in a measure or balance.",
+      "source_refs": [
+        "lane:entry:31402"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulal_animal",
+      "headword_arabic": "زُلَالٌ",
+      "definition": "A small white animal said to cool or chill water when placed in it.",
+      "usage_conditions": "A rare lexical item describing the animal itself.",
+      "source_refs": [
+        "lane:entry:31403"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulal_water",
+      "headword_arabic": "زُلَالٌ",
+      "definition": "Of water: cool or cold, sweet, clear, limpid, and easy or quick to swallow.",
+      "usage_conditions": "Used adjectivally of water and its pleasant, unobstructed passage into the throat.",
+      "source_refs": [
+        "lane:entry:31403"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulal_clear",
+      "headword_arabic": "زُلَالٌ",
+      "definition": "Clear or limpid.",
+      "usage_conditions": "The adjective may be applied more generally than to water.",
+      "source_refs": [
+        "lane:entry:31403"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalil_food",
+      "headword_arabic": "زَلِيلٌ",
+      "definition": "A sweet food called فَالُوذ.",
+      "usage_conditions": "A specialized food term.",
+      "source_refs": [
+        "lane:entry:31405"
+      ]
+    },
+    {
+      "meaning_id": "cm_zilliya_carpet",
+      "headword_arabic": "زِلِّيَّةٌ",
+      "definition": "A carpet or a type of woollen floor covering.",
+      "usage_conditions": "A loanword and a term for a kind of woven furnishing.",
+      "source_refs": [
+        "lane:entry:31406"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalzil_household",
+      "headword_arabic": "زَلْزِلٌ",
+      "definition": "Household goods, utensils, or the furniture and equipment of a house or tent.",
+      "usage_conditions": "A nominal use distinct from the reduplicated movement vocabulary.",
+      "source_refs": [
+        "lane:entry:31408"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulzul_agile",
+      "headword_arabic": "زُلْزُلٌ",
+      "definition": "Light or agile, especially a light, agile boy or young man.",
+      "usage_conditions": "An epithet for physical quickness or agility.",
+      "source_refs": [
+        "lane:entry:31409"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulzul_drummer",
+      "headword_arabic": "زُلْزُلٌ",
+      "definition": "A skilful player on the drum.",
+      "usage_conditions": "A specialized occupational or skill description.",
+      "source_refs": [
+        "lane:entry:31409"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalzal_earthquake",
+      "headword_arabic": "زَلْزَالٌ",
+      "definition": "Agitation, convulsion, or violent motion, especially an earthquake.",
+      "usage_conditions": "A noun for violent earthly shaking; the supplied evidence also uses it in Quranic expressions, although no corresponding QAC form group was supplied.",
+      "source_refs": [
+        "lane:entry:31412",
+        "mufradat:row:626"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulzul_lightness",
+      "headword_arabic": "زُلْزُولٌ",
+      "definition": "Lightness or activity.",
+      "usage_conditions": "A noun for agility or active movement.",
+      "source_refs": [
+        "lane:entry:31413"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulzul_acute",
+      "headword_arabic": "زُلْزُولٌ",
+      "definition": "Light or active in spirit and body; acute, quick, clever, or ingenious in intellect.",
+      "usage_conditions": "An adjective describing physical and mental liveliness.",
+      "source_refs": [
+        "lane:entry:31413"
+      ]
+    },
+    {
+      "meaning_id": "cm_zulzul_conflict",
+      "headword_arabic": "زُلْزُولٌ",
+      "definition": "Conflict or fighting accompanied by an evil or troubled condition.",
+      "usage_conditions": "Used in the expression تَرَكْتُ القَوْمَ فِى زُلْزُولٍ وَعُلْعُولٍ.",
+      "source_refs": [
+        "lane:entry:31413"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalazil_difficulties",
+      "headword_arabic": "زَلَازِلُ",
+      "definition": "Difficulties, terrors, or causes of fear.",
+      "usage_conditions": "A plural form with an irregular or unreported singular in this usage.",
+      "source_refs": [
+        "lane:entry:31414"
+      ]
+    },
+    {
+      "meaning_id": "cm_zal_deficient_weight",
+      "headword_arabic": "زَالٌّ",
+      "definition": "Deficient in weight, especially said of a coin.",
+      "usage_conditions": "Used of dirhams and dinars; plural forms are also reported.",
+      "source_refs": [
+        "lane:entry:31416"
+      ]
+    },
+    {
+      "meaning_id": "cm_azallu_quick",
+      "headword_arabic": "أَزَلُّ",
+      "definition": "Quick or swift.",
+      "usage_conditions": "A general adjective of rapid movement.",
+      "source_refs": [
+        "lane:entry:31417"
+      ]
+    },
+    {
+      "meaning_id": "cm_azallu_lean",
+      "headword_arabic": "أَزَلُّ",
+      "definition": "Having little flesh in the buttocks, hips, or thighs; lean-rumped.",
+      "usage_conditions": "Applied to a person or animal, including the specifically described wolf; the feminine form is used of a woman with this physical trait.",
+      "source_refs": [
+        "lane:entry:31417"
+      ]
+    },
+    {
+      "meaning_id": "cm_zalla_bow",
+      "headword_arabic": "زَلَّاءُ",
+      "definition": "A bow from which the arrow slips because of the rapidity of its discharge.",
+      "usage_conditions": "A specialized description of a bow and the arrow's rapid release.",
+      "source_refs": [
+        "lane:entry:31417"
+      ]
+    },
+    {
+      "meaning_id": "cm_izilzil_exclamation",
+      "headword_arabic": "إِزِلْزِلْ",
+      "definition": "An exclamation uttered in alarm or distress.",
+      "usage_conditions": "Used on occasions of violent agitation or terror; its etymological analysis is disputed.",
+      "source_refs": [
+        "lane:entry:31418"
+      ]
+    },
+    {
+      "meaning_id": "cm_mazalla_cause",
+      "headword_arabic": "مَزَلَّةٌ",
+      "definition": "A cause of slipping.",
+      "usage_conditions": "A proposed primary sense of this variant form; the source directs the reader to the related form مَزِلَّةٌ.",
+      "source_refs": [
+        "lane:entry:31419"
+      ]
+    },
+    {
+      "meaning_id": "cm_mazilla_place",
+      "headword_arabic": "مَزِلَّةٌ",
+      "definition": "A slippery place, such as a smooth rock or similar surface.",
+      "usage_conditions": "The form مَزِلَّةٌ is reported as the more chaste variant; it is also used metaphorically of a hazardous path.",
+      "source_refs": [
+        "lane:entry:31420"
+      ]
+    },
+    {
+      "meaning_id": "cm_muzallil_benefactor",
+      "headword_arabic": "مُزَلِّلٌ",
+      "definition": "One who bestows many benefits or gifts.",
+      "usage_conditions": "An active-participial noun for a benefactor.",
+      "source_refs": [
+        "lane:entry:31421"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zll:31392:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "quran:zll:zalla:s1"
+      ],
+      "note": "Slip, movement aside, and figurative lapse are covered by the Form I sense."
+    },
+    {
+      "unit_id": "lane-unit:zll:31392:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalla_benefit_transfer"
+      ],
+      "note": "Benefit transferred to a recipient."
+    },
+    {
+      "unit_id": "lane-unit:zll:31392:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalla_run"
+      ],
+      "note": "Rapid or light movement."
+    },
+    {
+      "unit_id": "lane-unit:zll:31392:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalla_life_pass"
+      ],
+      "note": "Figurative passing of life."
+    },
+    {
+      "unit_id": "lane-unit:zll:31392:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalla_money"
+      ],
+      "note": "Money poured out or deficient in weight."
+    },
+    {
+      "unit_id": "lane-unit:zll:31392:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalal_lean"
+      ],
+      "note": "Physical leanness in the hips or thighs."
+    },
+    {
+      "unit_id": "lane-unit:zll:31392:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalla_receive"
+      ],
+      "note": "Intransitive taking or receiving."
+    },
+    {
+      "unit_id": "lane-unit:zll:31392:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulla_thinned"
+      ],
+      "note": "Being made thin or slender."
+    },
+    {
+      "unit_id": "lane-unit:zll:31393:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the next paragraph; no independent definition."
+    },
+    {
+      "unit_id": "lane-unit:zll:31394:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "quran:zll:azalla:s1"
+      ],
+      "note": "Form IV causative slipping, including the Quran-attested construction."
+    },
+    {
+      "unit_id": "lane-unit:zll:31394:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azalla_send_forward"
+      ],
+      "note": "Sending someone forward."
+    },
+    {
+      "unit_id": "lane-unit:zll:31394:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azalla_turn_opinion"
+      ],
+      "note": "Turning someone from an opinion."
+    },
+    {
+      "unit_id": "lane-unit:zll:31394:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azalla_benefit"
+      ],
+      "note": "Giving a benefit, food, gift, or due."
+    },
+    {
+      "unit_id": "lane-unit:zll:31395:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form IV evidence; no independent definition."
+    },
+    {
+      "unit_id": "lane-unit:zll:31396:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalzala_causative"
+      ],
+      "note": "Putting into violent motion and figurative unsettling."
+    },
+    {
+      "unit_id": "lane-unit:zll:31396:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalzala_swallow"
+      ],
+      "note": "Idiomatic passage of water into the throat."
+    },
+    {
+      "unit_id": "lane-unit:zll:31397:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tazalzala_motion"
+      ],
+      "note": "Intransitive agitation and the soul's heaving."
+    },
+    {
+      "unit_id": "lane-unit:zll:31398:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zull_slippery_place"
+      ],
+      "note": "A slippery place or surface."
+    },
+    {
+      "unit_id": "lane-unit:zll:31399:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalla_fault"
+      ],
+      "note": "Noun for a fault, lapse, or error."
+    },
+    {
+      "unit_id": "lane-unit:zll:31399:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalla_benefit_noun"
+      ],
+      "note": "Noun for a benefit or gift."
+    },
+    {
+      "unit_id": "lane-unit:zll:31399:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalla_feast"
+      ],
+      "note": "Feast, repast, or marriage feast."
+    },
+    {
+      "unit_id": "lane-unit:zll:31400:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to زَلَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:zll:31400:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulla_breath"
+      ],
+      "note": "Straitened breath."
+    },
+    {
+      "unit_id": "lane-unit:zll:31401:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zilla_stones"
+      ],
+      "note": "Stones or smooth stones."
+    },
+    {
+      "unit_id": "lane-unit:zll:31402:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional reference without a lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:zll:31402:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to related entries."
+    },
+    {
+      "unit_id": "lane-unit:zll:31402:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalal_deficiency"
+      ],
+      "note": "Deficiency in weight."
+    },
+    {
+      "unit_id": "lane-unit:zll:31403:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulal_animal"
+      ],
+      "note": "Rare animal term."
+    },
+    {
+      "unit_id": "lane-unit:zll:31403:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulal_water"
+      ],
+      "note": "Qualities of cool, sweet, clear water."
+    },
+    {
+      "unit_id": "lane-unit:zll:31403:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulal_clear"
+      ],
+      "note": "General sense of clear."
+    },
+    {
+      "unit_id": "lane-unit:zll:31404:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to زُلٌّ."
+    },
+    {
+      "unit_id": "lane-unit:zll:31404:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to زُلَالٌ."
+    },
+    {
+      "unit_id": "lane-unit:zll:31405:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to زُلَالٌ."
+    },
+    {
+      "unit_id": "lane-unit:zll:31405:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalil_food"
+      ],
+      "note": "Specialized sweet-food term."
+    },
+    {
+      "unit_id": "lane-unit:zll:31406:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zilliya_carpet"
+      ],
+      "note": "Carpet or woven floor covering."
+    },
+    {
+      "unit_id": "lane-unit:zll:31407:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to زَلَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:zll:31408:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalzil_household"
+      ],
+      "note": "Household goods and furnishings."
+    },
+    {
+      "unit_id": "lane-unit:zll:31409:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulzul_agile"
+      ],
+      "note": "Light or agile."
+    },
+    {
+      "unit_id": "lane-unit:zll:31409:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulzul_drummer"
+      ],
+      "note": "Skilful drummer."
+    },
+    {
+      "unit_id": "lane-unit:zll:31410:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to زَلْزِلٌ."
+    },
+    {
+      "unit_id": "lane-unit:zll:31411:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following earthquake entry."
+    },
+    {
+      "unit_id": "lane-unit:zll:31412:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalzal_earthquake"
+      ],
+      "note": "Agitation, convulsion, and earthquake."
+    },
+    {
+      "unit_id": "lane-unit:zll:31413:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulzul_acute"
+      ],
+      "note": "Physical and intellectual quickness."
+    },
+    {
+      "unit_id": "lane-unit:zll:31413:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulzul_lightness"
+      ],
+      "note": "Lightness or activity."
+    },
+    {
+      "unit_id": "lane-unit:zll:31413:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zulzul_conflict"
+      ],
+      "note": "Conflict and evil condition."
+    },
+    {
+      "unit_id": "lane-unit:zll:31414:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalazil_difficulties"
+      ],
+      "note": "Difficulties, terrors, and causes of fear."
+    },
+    {
+      "unit_id": "lane-unit:zll:31415:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to زُلَالٌ."
+    },
+    {
+      "unit_id": "lane-unit:zll:31416:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zal_deficient_weight"
+      ],
+      "note": "Coins deficient in weight."
+    },
+    {
+      "unit_id": "lane-unit:zll:31417:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azallu_quick"
+      ],
+      "note": "Quick or swift."
+    },
+    {
+      "unit_id": "lane-unit:zll:31417:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to زُلْزُلٌ."
+    },
+    {
+      "unit_id": "lane-unit:zll:31417:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_azallu_lean"
+      ],
+      "note": "Lean-rumped physical description."
+    },
+    {
+      "unit_id": "lane-unit:zll:31417:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_zalla_bow"
+      ],
+      "note": "Bow from which an arrow slips rapidly."
+    },
+    {
+      "unit_id": "lane-unit:zll:31418:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_izilzil_exclamation"
+      ],
+      "note": "Alarm or distress exclamation."
+    },
+    {
+      "unit_id": "lane-unit:zll:31419:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mazalla_cause"
+      ],
+      "note": "Tentative lexical sense of a cause of slipping."
+    },
+    {
+      "unit_id": "lane-unit:zll:31420:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mazilla_place"
+      ],
+      "note": "Slippery place."
+    },
+    {
+      "unit_id": "lane-unit:zll:31420:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional note without additional lexical content."
+    },
+    {
+      "unit_id": "lane-unit:zll:31421:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_muzallil_benefactor"
+      ],
+      "note": "One who bestows benefits or gifts."
+    }
+  ],
+  "cautions": [
+    "Lane and Maqayis evidence is matched to the canonical geminate root زلل through the packet's contracted-root mapping; reduplicated زلزل forms are retained as lexical evidence but are not additional QAC form groups.",
+    "A historical Lane Quran citation in the Form I discussion is not converted into a modern surah:ayah location; the displayed Quran examples use only independently supplied QAC locations.",
+    "The Form I QAC lemma زَلَلْ and the supplied inflected Form IV and Form X candidates have been normalized to the classical citation forms زَلَّ, أَزَلَّ, and اِسْتَزَلَّ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

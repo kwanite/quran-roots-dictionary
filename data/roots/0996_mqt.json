@@ -1,0 +1,252 @@
+{
+  "root": "mqt",
+  "arabic": "مقت",
+  "root_idea": {
+    "summary": "The root centers on intense aversion toward what is ugly, foul, or reprehensible.",
+    "development": "The semantic range develops from judging something as foul or loathsome to vehement hatred, reciprocal or manifested hatred, and the specialized expression نكاح المقت for a strongly abhorrent marriage practice.",
+    "source_refs": [
+      "maqayis:row:4432",
+      "mufradat:row:1379"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mqt:maqot:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mqt-maqt",
+      "reason": "Displayed under the normalized classical noun مَقْت."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-mqt-maqt",
+      "form_group_ids": [
+        "qac-form:mqt:maqot:nominal:-"
+      ],
+      "headword_arabic": "مَقْت",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "mqt-q-s1",
+          "definition": "Intense hatred, abhorrence, or loathing toward what is foul or reprehensible.",
+          "usage_conditions": "The noun may be rendered “hatred” or “hatefulness” according to its construction. The supplied lexical evidence commonly associates it with revulsion toward a foul act, without restricting the object to any particular class of person or thing.",
+          "source_refs": [
+            "mufradat:row:1379",
+            "lane:entry:12873"
+          ]
+        },
+        {
+          "sense_id": "mqt-q-s2",
+          "definition": "In نِكَاحُ المَقْتِ, the abhorrent pre-Islamic marriage of a man to his father’s wife after the father’s divorce or death.",
+          "usage_conditions": "This is a fixed conventional expression. The practice was associated with the strongest hatred and is the practice described as abhorrent in the Quranic discussion of the prohibition of marrying women formerly married to one’s father.",
+          "source_refs": [
+            "lane:entry:12873",
+            "mufradat:row:1379"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:22",
+          "word_location": "4:22:15",
+          "sense_ids": [
+            "mqt-q-s2"
+          ]
+        },
+        {
+          "verse_key": "40:10",
+          "word_location": "40:10:9",
+          "sense_ids": [
+            "mqt-q-s1"
+          ]
+        },
+        {
+          "verse_key": "61:3",
+          "word_location": "61:3:2",
+          "sense_ids": [
+            "mqt-q-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mqt-c-v1",
+      "headword_arabic": "مَقَتَ، مَقَّتَ",
+      "definition": "To hate or loathe someone intensely, especially because of a foul or evil act; in an intransitive use, to be hateful or an object of hatred for such an act.",
+      "usage_conditions": "مَقَّتَ is reported as an intensive counterpart of مَقَتَ. The degree of hatred may be described as extreme.",
+      "source_refs": [
+        "lane:entry:12867"
+      ]
+    },
+    {
+      "meaning_id": "mqt-c-mutual",
+      "headword_arabic": "مَاقَتَ، تَمَاقَتَ",
+      "definition": "To hate one another reciprocally, especially on account of a foul or evil affair.",
+      "usage_conditions": "The forms express mutual hatred; some attestations intensify the degree of hatred.",
+      "source_refs": [
+        "lane:entry:12869",
+        "lane:entry:12872"
+      ]
+    },
+    {
+      "meaning_id": "mqt-c-excl",
+      "headword_arabic": "مَا أَمْقَتَهُ",
+      "definition": "An exclamatory expression meaning “How hateful, odious, or hated he is to me!” or “How I hate him!”",
+      "usage_conditions": "The supplied evidence attests the exclamatory construction مَا أَفْعَلَهُ rather than a general causative meaning.",
+      "source_refs": [
+        "lane:entry:12870"
+      ]
+    },
+    {
+      "meaning_id": "mqt-c-tamaqqat",
+      "headword_arabic": "تَمَقَّتَ إِلَيْهِ",
+      "definition": "To show or manifest hatred toward someone.",
+      "usage_conditions": "This construction is presented as the opposite of showing affection or seeking to endear oneself to someone.",
+      "source_refs": [
+        "lane:entry:12871"
+      ]
+    },
+    {
+      "meaning_id": "mqt-c-maqti",
+      "headword_arabic": "مَقْتِيّ",
+      "definition": "A man who contracted نكاح المقت, or the son of such a man.",
+      "usage_conditions": "This is a specialized social designation derived from the named marriage practice.",
+      "source_refs": [
+        "lane:entry:12874"
+      ]
+    },
+    {
+      "meaning_id": "mqt-c-maqit",
+      "headword_arabic": "مَقِيت",
+      "definition": "A reported adjective meaning hateful or hated.",
+      "usage_conditions": "Its attribution to مقت is uncertain in the supplied evidence, since a Quran-focused lexical analysis derives مَقِيت from قوت rather than from this root.",
+      "source_refs": [
+        "lane:entry:12875",
+        "mufradat:row:1379"
+      ]
+    },
+    {
+      "meaning_id": "mqt-c-mamqut",
+      "headword_arabic": "مَمْقُوت",
+      "definition": "Hated; an object of hatred.",
+      "usage_conditions": "A passive adjectival or participial description of one who is hated.",
+      "source_refs": [
+        "lane:entry:12875"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mqt:12867:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mqt-c-v1"
+      ],
+      "note": "Core transitive hatred branch, including intense hatred and the reported intensive counterpart."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12867:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mqt-c-v1"
+      ],
+      "note": "Intransitive state of being hateful or an object of hatred is covered by the same branch."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12868:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12869:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mqt-c-mutual"
+      ],
+      "note": "Reciprocal hatred."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12869:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mqt-c-mutual"
+      ],
+      "note": "Same mutual-hatred construction in a plural form."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12870:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mqt-c-excl"
+      ],
+      "note": "Exclamatory expression of extreme hatred or odiousness."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12870:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mqt-c-excl"
+      ],
+      "note": "Second-personal formulation of the same exclamatory construction."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12871:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mqt-c-tamaqqat"
+      ],
+      "note": "Manifesting hatred toward someone."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12872:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "mqt-c-mutual"
+      ],
+      "note": "Mutual hatred is covered by the represented reciprocal branch."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12873:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mqt-q-s2"
+      ],
+      "note": "Specialized Quran-attested expression نكاح المقت."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12874:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mqt-c-maqti"
+      ],
+      "note": "Designation for a participant in نكاح المقت or his son."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12875:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mqt-c-maqit",
+        "mqt-c-mamqut"
+      ],
+      "note": "Lexical discussion of مَقِيت and مَمْقُوت, including hateful and hated senses."
+    },
+    {
+      "unit_id": "lane-unit:mqt:12876:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the مَقِيت discussion."
+    }
+  ],
+  "cautions": [
+    "The supplied evidence conflicts over the root assignment of مَقِيت: Lane lists hateful/hated senses under مقت, while Mufradat derives مَقِيت from قوت; it is retained as a reported Classical item with that qualification.",
+    "Lane’s historical Roman-numbered Quran citation for نكاح المقت is not treated as a modern verse location; 4:22 is used because that location is independently supplied by QAC and Mufradat."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The derivational identity of مَقِيت remains unresolved between مقت and قوت in the supplied lexical evidence."
+  ]
+}

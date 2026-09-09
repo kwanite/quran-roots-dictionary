@@ -1,0 +1,1571 @@
+{
+  "root": "$rq",
+  "arabic": "شرق",
+  "root_idea": {
+    "summary": "A root oriented toward illumination and opening: the rising or shining of the sun, eastern direction, and the opening or splitting of an object.",
+    "development": "The central meanings develop into sunrise, brightness, eastern orientation, and exposure to sunlight. Other lexical branches extend toward saturation or obstruction, redness, splitting, and sun-drying.",
+    "source_refs": [
+      "maqayis:row:2620",
+      "mufradat:row:762"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$rq:>a$oraqati:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-sharqa-form4",
+      "reason": "Distinct Quran-attested Form IV verb."
+    },
+    {
+      "form_group_id": "qac-form:$rq:$aroqiy~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-sharqiyy",
+      "reason": "Public adjective citation form."
+    },
+    {
+      "form_group_id": "qac-form:$rq:$aroqiy~ap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qf-sharqiyy",
+      "reason": "Feminine inflection of the same eastern adjective."
+    },
+    {
+      "form_group_id": "qac-form:$rq:<i$oraAq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-ishraq",
+      "reason": "Distinct Quran-attested verbal noun."
+    },
+    {
+      "form_group_id": "qac-form:$rq:ma$oriq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-mashriq",
+      "reason": "Dictionary noun for the east, sunrise direction, and its dual and plural uses."
+    },
+    {
+      "form_group_id": "qac-form:$rq:m~u$oriqiyn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qf-mushriq",
+      "reason": "Plural active participle normalized to the singular participial citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-sharqa-form4",
+      "form_group_ids": [
+        "qac-form:$rq:>a$oraqati:verb:IV"
+      ],
+      "headword_arabic": "أَشْرَقَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-sharqa-form4-s1",
+          "definition": "To become bright or shine with light.",
+          "usage_conditions": "In the Quranic occurrence, the earth becomes bright with the light of its Lord; the verb is intransitive.",
+          "source_refs": [
+            "lane:entry:38359",
+            "mufradat:row:762"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:69",
+          "word_location": "39:69:1",
+          "sense_ids": [
+            "qf-sharqa-form4-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-sharqiyy",
+      "form_group_ids": [
+        "qac-form:$rq:$aroqiy~:nominal:-",
+        "qac-form:$rq:$aroqiy~ap:nominal:-"
+      ],
+      "headword_arabic": "شَرْقِيّ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf-sharqiyy-s1",
+          "definition": "Eastern; of or pertaining to the east or place of sunrise.",
+          "usage_conditions": "Used adjectivally for something situated toward, associated with, or receiving light from the east.",
+          "source_refs": [
+            "lane:entry:38374",
+            "mufradat:row:762"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:16",
+          "word_location": "19:16:10",
+          "sense_ids": [
+            "qf-sharqiyy-s1"
+          ]
+        },
+        {
+          "verse_key": "24:35",
+          "word_location": "24:35:23",
+          "sense_ids": [
+            "qf-sharqiyy-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-ishraq",
+      "form_group_ids": [
+        "qac-form:$rq:<i$oraAq:nominal:-"
+      ],
+      "headword_arabic": "إِشْرَاق",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-ishraq-s1",
+          "definition": "Sunrise; the time when the sun rises and begins to shine.",
+          "usage_conditions": "In the Quranic expression, it denotes a time of day.",
+          "source_refs": [
+            "mufradat:row:762"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "38:18",
+          "word_location": "38:18:7",
+          "sense_ids": [
+            "qf-ishraq-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-mashriq",
+      "form_group_ids": [
+        "qac-form:$rq:ma$oriq:nominal:-"
+      ],
+      "headword_arabic": "مَشْرِق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "qf-mashriq-s1",
+          "definition": "The east; the place, quarter, or direction of sunrise.",
+          "usage_conditions": "The singular denotes the eastern direction or the place from which the sun rises.",
+          "source_refs": [
+            "lane:entry:38381",
+            "mufradat:row:762"
+          ]
+        },
+        {
+          "sense_id": "qf-mashriq-s2",
+          "definition": "The two sunrise points, especially those of summer and winter; by extension in a Quranic dual construction, the east and the west.",
+          "usage_conditions": "The dual may refer to the seasonal sunrise points or to the paired places of sunrise and sunset, according to context.",
+          "source_refs": [
+            "lane:entry:38381",
+            "mufradat:row:762"
+          ]
+        },
+        {
+          "sense_id": "qf-mashriq-s3",
+          "definition": "The various points or places of sunrise; the risings or eastern parts.",
+          "usage_conditions": "The plural may reflect the changing sunrise point across days or seasons and can denote multiple eastern regions or risings.",
+          "source_refs": [
+            "lane:entry:38381",
+            "mufradat:row:762"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:115",
+          "word_location": "2:115:2",
+          "sense_ids": [
+            "qf-mashriq-s1"
+          ]
+        },
+        {
+          "verse_key": "43:38",
+          "word_location": "43:38:9",
+          "sense_ids": [
+            "qf-mashriq-s2"
+          ]
+        },
+        {
+          "verse_key": "37:5",
+          "word_location": "37:5:7",
+          "sense_ids": [
+            "qf-mashriq-s3"
+          ]
+        },
+        {
+          "verse_key": "70:40",
+          "word_location": "70:40:4",
+          "sense_ids": [
+            "qf-mashriq-s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-mushriq",
+      "form_group_ids": [
+        "qac-form:$rq:m~u$oriqiyn:nominal:-"
+      ],
+      "headword_arabic": "مُشْرِق",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf-mushriq-s1",
+          "definition": "Entering upon sunrise; at sunrise.",
+          "usage_conditions": "The Quranic form is a plural active participle used in a temporal construction meaning that an action occurred at sunrise.",
+          "source_refs": [
+            "lane:entry:38382"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:73",
+          "word_location": "15:73:3",
+          "sense_ids": [
+            "qf-mushriq-s1"
+          ]
+        },
+        {
+          "verse_key": "26:60",
+          "word_location": "26:60:2",
+          "sense_ids": [
+            "qf-mushriq-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-form1-rise",
+      "headword_arabic": "شَرَقَ",
+      "definition": "The sun, moon, or stars rose; the sun shone and spread its light over the ground.",
+      "usage_conditions": "A Form I intransitive verb of rising or shining, distinct from the Quranic Form IV usage.",
+      "source_refs": [
+        "lane:entry:38359"
+      ]
+    },
+    {
+      "meaning_id": "cm-form1-palm-red",
+      "headword_arabic": "شَرَقَ",
+      "definition": "The palm trees showed redness or the colors of their dates.",
+      "usage_conditions": "Used of fruit or date palms as they develop visible color.",
+      "source_refs": [
+        "lane:entry:38359"
+      ]
+    },
+    {
+      "meaning_id": "cm-form1-slit-ear-verb",
+      "headword_arabic": "شَرَقَ",
+      "definition": "To slit the ear of a sheep or goat.",
+      "usage_conditions": "The slitting is performed in the manner described under شَرْقَاء.",
+      "source_refs": [
+        "lane:entry:38359"
+      ]
+    },
+    {
+      "meaning_id": "cm-form1-harvest-fruit",
+      "headword_arabic": "شَرَقَ",
+      "definition": "To pluck or cut fruit.",
+      "usage_conditions": "A transitive Form I use referring to harvesting fruit.",
+      "source_refs": [
+        "lane:entry:38359"
+      ]
+    },
+    {
+      "meaning_id": "cm-form1-choke",
+      "headword_arabic": "شَرِقَ",
+      "definition": "To become choked with spittle, water, or something similar.",
+      "usage_conditions": "Used of a person or other animate subject with the obstructing substance expressed by بِـ.",
+      "source_refs": [
+        "lane:entry:38359"
+      ]
+    },
+    {
+      "meaning_id": "cm-form1-fill-saturate",
+      "headword_arabic": "شَرِقَ",
+      "definition": "To become filled, obstructed, or saturated with something.",
+      "usage_conditions": "The lexical extension applies to a wound filled with blood, a place crowded by its occupants, a body saturated with perfume, or cloth saturated with dye.",
+      "source_refs": [
+        "lane:entry:38359"
+      ]
+    },
+    {
+      "meaning_id": "cm-form1-red",
+      "headword_arabic": "شَرِقَ",
+      "definition": "To become red or have blood visibly suffuse it.",
+      "usage_conditions": "Used of an eye, complexion, or other thing becoming red; the evidence also connects the use with intense redness.",
+      "source_refs": [
+        "lane:entry:38359"
+      ]
+    },
+    {
+      "meaning_id": "cm-form1-mixed",
+      "headword_arabic": "شَرِقَ",
+      "definition": "To become mixed, commingled, or blended.",
+      "usage_conditions": "A figurative extension of becoming filled or intermingled.",
+      "source_refs": [
+        "lane:entry:38359"
+      ]
+    },
+    {
+      "meaning_id": "cm-form1-sunset",
+      "headword_arabic": "شَرِقَتِ الشَّمْسُ",
+      "definition": "The sun became dim, reddish, or close to setting.",
+      "usage_conditions": "A distinct usage describing the late-day sun, including the time when its light weakens or it becomes yellow or red.",
+      "source_refs": [
+        "lane:entry:38359",
+        "mufradat:row:762"
+      ]
+    },
+    {
+      "meaning_id": "cm-form2-go-east",
+      "headword_arabic": "شَرَّقَ",
+      "definition": "To go toward the east, take the eastern direction, or direct oneself eastward.",
+      "usage_conditions": "A Form II motion verb; the destination or orientation is the east or place of sunrise.",
+      "source_refs": [
+        "lane:entry:38360"
+      ]
+    },
+    {
+      "meaning_id": "cm-form2-sunrise-prayer",
+      "headword_arabic": "شَرَّقَ",
+      "definition": "To pray at sunrise, and consequently to perform the festival-of-sacrifice prayer.",
+      "usage_conditions": "A conventional ritual use associated with prayer after sunrise.",
+      "source_refs": [
+        "lane:entry:38360"
+      ]
+    },
+    {
+      "meaning_id": "cm-form2-drought",
+      "headword_arabic": "شَرَّقَتِ الأَرْضُ",
+      "definition": "The land became parched and dry from sun and lack of water.",
+      "usage_conditions": "Used of land affected by drought or not reached by water.",
+      "source_refs": [
+        "lane:entry:38360"
+      ]
+    },
+    {
+      "meaning_id": "cm-form2-beauty",
+      "headword_arabic": "تَشْرِيق",
+      "definition": "Being beautiful, sunny, or shining in the face.",
+      "usage_conditions": "A nominal or verbal-noun use describing brightness and beauty of appearance.",
+      "source_refs": [
+        "lane:entry:38360"
+      ]
+    },
+    {
+      "meaning_id": "cm-form2-dry-meat",
+      "headword_arabic": "شَرَّقَ",
+      "definition": "To cut meat into strips or pieces and expose it to the sun to dry.",
+      "usage_conditions": "Also used of throwing barley into a sunny place to dry or exposing an animal’s back so dew will dry.",
+      "source_refs": [
+        "lane:entry:38360"
+      ]
+    },
+    {
+      "meaning_id": "cm-form2-festival-days",
+      "headword_arabic": "أَيَّامُ التَّشْرِيقِ",
+      "definition": "The three days following the day of sacrifice.",
+      "usage_conditions": "A conventional name explained in connection with drying sacrificial meat in the sun, the sacrifice after sunrise, or the prayer that follows the sacrifice.",
+      "source_refs": [
+        "lane:entry:38360"
+      ]
+    },
+    {
+      "meaning_id": "cm-form2-dye",
+      "headword_arabic": "شَرَّقَ",
+      "definition": "To dye cloth yellow, red, or with saffron, including to saturate it thoroughly with dye.",
+      "usage_conditions": "The evidence distinguishes saffron dyeing from dyeing with safflower.",
+      "source_refs": [
+        "lane:entry:38360"
+      ]
+    },
+    {
+      "meaning_id": "cm-form2-plaster",
+      "headword_arabic": "شَرَّقَ",
+      "definition": "To plaster a watering-trough or tank with شَارُوق or صَارُوج.",
+      "usage_conditions": "A specialized construction use, with the plastering material named in the expression.",
+      "source_refs": [
+        "lane:entry:38360"
+      ]
+    },
+    {
+      "meaning_id": "cm-form4-face-shine",
+      "headword_arabic": "أَشْرَقَ",
+      "definition": "The face or complexion shone and became bright with beauty.",
+      "usage_conditions": "A Form IV intransitive use applied to the face or color.",
+      "source_refs": [
+        "lane:entry:38361"
+      ]
+    },
+    {
+      "meaning_id": "cm-form4-cause-shine",
+      "headword_arabic": "أَشْرَقَ",
+      "definition": "To cause something to shine or make the world bright.",
+      "usage_conditions": "A reported and disputed transitive usage regarded in the evidence as post-classical or lacking decisive proof.",
+      "source_refs": [
+        "lane:entry:38361"
+      ]
+    },
+    {
+      "meaning_id": "cm-form4-enter-sunrise",
+      "headword_arabic": "أَشْرَقَ",
+      "definition": "To enter upon the time of sunrise.",
+      "usage_conditions": "A Form IV temporal use comparable to entering morning or the time of daylight.",
+      "source_refs": [
+        "lane:entry:38361"
+      ]
+    },
+    {
+      "meaning_id": "cm-form4-choke",
+      "headword_arabic": "أَشْرَقَ",
+      "definition": "To cause an enemy to choke; figuratively, to impede someone’s speech or action.",
+      "usage_conditions": "The causative construction takes a person as the affected object; the figurative use describes preventing someone from saying or doing something.",
+      "source_refs": [
+        "lane:entry:38361"
+      ]
+    },
+    {
+      "meaning_id": "cm-form4-dye",
+      "headword_arabic": "أَشْرَقَ",
+      "definition": "To saturate or thoroughly dye a garment.",
+      "usage_conditions": "A transitive use with the dye expressed by بِـ or فِي.",
+      "source_refs": [
+        "lane:entry:38361"
+      ]
+    },
+    {
+      "meaning_id": "cm-form5-sunbathe",
+      "headword_arabic": "تَشَرَّقَ",
+      "definition": "To sit in a sunny place.",
+      "usage_conditions": "The usage is especially associated in some reports with sitting in the sun during winter.",
+      "source_refs": [
+        "lane:entry:38362"
+      ]
+    },
+    {
+      "meaning_id": "cm-form5-chink",
+      "headword_arabic": "تَشَرَّقُوا",
+      "definition": "To look through a door’s sunlit chink, the opening into which the rising sun’s light falls.",
+      "usage_conditions": "A specialized plural construction involving a door or its fissure.",
+      "source_refs": [
+        "lane:entry:38362"
+      ]
+    },
+    {
+      "meaning_id": "cm-form7-bow-split",
+      "headword_arabic": "اِنْشَرَقَتِ القَوْسُ",
+      "definition": "The bow split.",
+      "usage_conditions": "A Form VII intransitive use describing the bow’s breaking or separation.",
+      "source_refs": [
+        "lane:entry:38363"
+      ]
+    },
+    {
+      "meaning_id": "cm-form12-tears",
+      "headword_arabic": "اِشْرَوْرَقَ",
+      "definition": "To become drowned or immersed in tears.",
+      "usage_conditions": "Used of an eye or person overwhelmed by tears.",
+      "source_refs": [
+        "lane:entry:38364"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharq-sun",
+      "headword_arabic": "شَرْق",
+      "definition": "The sun, especially the rising sun, or the sun’s upper limb as it begins to rise.",
+      "usage_conditions": "The noun can denote the rising celestial body or its visible upper edge.",
+      "source_refs": [
+        "lane:entry:38365"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharq-sunlit-place",
+      "headword_arabic": "شَرْق",
+      "definition": "A place where the sun shines, the warmth of the sun, or a sunny place.",
+      "usage_conditions": "A noun for a sunlit location or the warmth produced by sunlight.",
+      "source_refs": [
+        "lane:entry:38365"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharq-chink",
+      "headword_arabic": "شَرْق",
+      "definition": "The light entering through the chink of a door.",
+      "usage_conditions": "Used for the beam or remnant of light visible through a narrow opening.",
+      "source_refs": [
+        "lane:entry:38365"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharq-fissure",
+      "headword_arabic": "شَرْق",
+      "definition": "A chink or fissure.",
+      "usage_conditions": "A noun for a narrow opening, including the chink of the mouth.",
+      "source_refs": [
+        "lane:entry:38365"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharq-bird",
+      "headword_arabic": "شَرْق",
+      "definition": "A bird of prey between a kite and a hawk or falcon.",
+      "usage_conditions": "A zoological noun with the plural شُرُوق.",
+      "source_refs": [
+        "lane:entry:38365"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharaq-choke-noun",
+      "headword_arabic": "شَرَق",
+      "definition": "Something such as spittle obstructing or choking the throat.",
+      "usage_conditions": "A noun denoting the obstructing substance or condition.",
+      "source_refs": [
+        "lane:entry:38367"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-bright-place",
+      "headword_arabic": "شَرِق",
+      "definition": "A place made bright by the sun’s shining upon it.",
+      "usage_conditions": "A descriptive noun or adjective for a sun-brightened place.",
+      "source_refs": [
+        "lane:entry:38368"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-choked-man",
+      "headword_arabic": "شَرِق",
+      "definition": "A person choked with spittle, water, or the like.",
+      "usage_conditions": "The derived descriptive form names the person affected by choking.",
+      "source_refs": [
+        "lane:entry:38368"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-irrigated",
+      "headword_arabic": "شَرِق",
+      "definition": "A plant or herbage flourishing, fresh, or juicy because of plentiful irrigation.",
+      "usage_conditions": "A figurative or extended descriptive use, synonymous with being well-watered.",
+      "source_refs": [
+        "lane:entry:38368"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-red",
+      "headword_arabic": "شَرِق",
+      "definition": "Red, intensely red, or saturated with red dye or blood.",
+      "usage_conditions": "Applied to dyed cloth, lean red meat, a blood-colored object, or something of beautiful intense redness.",
+      "source_refs": [
+        "lane:entry:38368"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-mixed",
+      "headword_arabic": "شَرِق",
+      "definition": "Mixed, commingled, or blended.",
+      "usage_conditions": "An extended descriptive use associated with intermixture.",
+      "source_refs": [
+        "lane:entry:38368"
+      ]
+    },
+    {
+      "meaning_id": "cm-shurqa-anxiety",
+      "headword_arabic": "شُرْقَة",
+      "definition": "Anxiety, grief, or anguish.",
+      "usage_conditions": "A rare dialectal noun.",
+      "source_refs": [
+        "lane:entry:38370"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharaqa-brand",
+      "headword_arabic": "شَرَقَة",
+      "definition": "A brand used to mark a sheep or goat with a slit ear.",
+      "usage_conditions": "A specialized livestock term.",
+      "source_refs": [
+        "lane:entry:38371"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharqaa-slit-sheep",
+      "headword_arabic": "شَرْقَاء",
+      "definition": "A sheep or goat whose ear has been slit.",
+      "usage_conditions": "The sources describe several forms of slitting, including lengthwise slitting without complete separation and slitting into two or three parts.",
+      "source_refs": [
+        "lane:entry:38373"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharqi-dye",
+      "headword_arabic": "شَرْقِيّ",
+      "definition": "A certain red dye.",
+      "usage_conditions": "A noun sense distinct from the adjective meaning eastern.",
+      "source_refs": [
+        "lane:entry:38374"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-boy",
+      "headword_arabic": "شَرِيق",
+      "definition": "A handsome or beautiful boy or young man.",
+      "usage_conditions": "A descriptive personal noun focused on beauty of face.",
+      "source_refs": [
+        "lane:entry:38375"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-woman",
+      "headword_arabic": "شَرِيق",
+      "definition": "A woman with a small vulva, or whose vagina and rectum have become joined by tearing of the intervening separation.",
+      "usage_conditions": "An anatomical term with the alternatives explicitly reported in the lexical evidence.",
+      "source_refs": [
+        "lane:entry:38375"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-idol",
+      "headword_arabic": "الشَّرِيق",
+      "definition": "The name of a particular idol.",
+      "usage_conditions": "A proper-name use from pre-Islamic religious vocabulary.",
+      "source_refs": [
+        "lane:entry:38375"
+      ]
+    },
+    {
+      "meaning_id": "cm-shurayqa-first-rise",
+      "headword_arabic": "شُرَيْقَة",
+      "definition": "The first part of the rising sun.",
+      "usage_conditions": "A diminutive noun for the initial visible portion of sunrise.",
+      "source_refs": [
+        "lane:entry:38376"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharaqi-drought-land",
+      "headword_arabic": "شَرَاقِيّ",
+      "definition": "Land not reached by water or inundation and consequently parched by the sun.",
+      "usage_conditions": "A dialectal Egyptian term.",
+      "source_refs": [
+        "lane:entry:38377"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-side-east",
+      "headword_arabic": "شَارِق",
+      "definition": "The side of a hill or mountain nearest the east; the eastern side.",
+      "usage_conditions": "A geographical noun contrasted with the western side.",
+      "source_refs": [
+        "lane:entry:38378"
+      ]
+    },
+    {
+      "meaning_id": "cm-shariq-trials",
+      "headword_arabic": "الشُّرْقُ الجُونُ",
+      "definition": "In a disputed traditional expression, trials, conflicts, or factions rising from the east and likened to portions of a dark night.",
+      "usage_conditions": "This interpretation is explicitly reported as an alternative transmission or attribution, not as the ordinary geographical sense.",
+      "source_refs": [
+        "lane:entry:38378"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharq-idol",
+      "headword_arabic": "الشَّارِق",
+      "definition": "The name of a particular idol.",
+      "usage_conditions": "A proper-name use from the pre-Islamic period.",
+      "source_refs": [
+        "lane:entry:38378"
+      ]
+    },
+    {
+      "meaning_id": "cm-sharuq-plaster",
+      "headword_arabic": "شَارُوق",
+      "definition": "A plastering material equivalent to صَارُوج or lime plaster.",
+      "usage_conditions": "Used for plastering structures or watering-troughs; one related citation is qualified as possibly a transcription issue.",
+      "source_refs": [
+        "lane:entry:38378",
+        "lane:entry:38379"
+      ]
+    },
+    {
+      "meaning_id": "cm-mashariq-dried-meat",
+      "headword_arabic": "مَشَارِق",
+      "definition": "In a disputed interpretation of a cited phrase, strips of meat cut and spread in the sun to dry.",
+      "usage_conditions": "This is an attributed interpretation of a poetic expression, distinct from the ordinary plural of مَشْرِق for sunrise points.",
+      "source_refs": [
+        "lane:entry:38381"
+      ]
+    },
+    {
+      "meaning_id": "cm-mushriq-bright-place",
+      "headword_arabic": "مُشْرِق",
+      "definition": "Bright from the sun’s shining.",
+      "usage_conditions": "A descriptive participial use for a place or thing made bright by sunlight.",
+      "source_refs": [
+        "lane:entry:38382"
+      ]
+    },
+    {
+      "meaning_id": "cm-mashruqa-sunny-place",
+      "headword_arabic": "مَشْرُقَة",
+      "definition": "A place of sitting in the sun or a place upon which the sun shines.",
+      "usage_conditions": "Some usage restricts the reference particularly to a sunny place used in winter.",
+      "source_refs": [
+        "lane:entry:38383"
+      ]
+    },
+    {
+      "meaning_id": "cm-mashriqi-person",
+      "headword_arabic": "مَشْرِقِيّ",
+      "definition": "A person of the east; eastern or oriental.",
+      "usage_conditions": "Applied specifically to a person in the cited lexical description, distinct from the adjective شَرْقِيّ.",
+      "source_refs": [
+        "lane:entry:38384"
+      ]
+    },
+    {
+      "meaning_id": "cm-musharraq-prayer-place",
+      "headword_arabic": "مُشَرَّق",
+      "definition": "A place of prayer, especially the festival prayer-ground.",
+      "usage_conditions": "The term can denote the prayer place generally, the place of the two festivals, the festival ground at Mecca, or the mosque of al-Khayf.",
+      "source_refs": [
+        "lane:entry:38385"
+      ]
+    },
+    {
+      "meaning_id": "cm-musharraq-festival",
+      "headword_arabic": "مُشَرَّق",
+      "definition": "The festival itself.",
+      "usage_conditions": "A conventional shortening based on the festival prayer occurring after sunrise.",
+      "source_refs": [
+        "lane:entry:38385"
+      ]
+    },
+    {
+      "meaning_id": "cm-musharraq-dried-meat",
+      "headword_arabic": "مُشَرَّق",
+      "definition": "Meat cut into strips and spread in the sun to dry.",
+      "usage_conditions": "A substantivized passive-participial noun derived from the sun-drying process.",
+      "source_refs": [
+        "lane:entry:38385"
+      ]
+    },
+    {
+      "meaning_id": "cm-musharraq-dyed-cloth",
+      "headword_arabic": "مُشَرَّق",
+      "definition": "A garment or piece of cloth dyed yellow, saffron-colored, or red.",
+      "usage_conditions": "The color and method vary in the reported lexical descriptions.",
+      "source_refs": [
+        "lane:entry:38385"
+      ]
+    },
+    {
+      "meaning_id": "cm-musharraq-plastered-fortress",
+      "headword_arabic": "مُشَرَّق",
+      "definition": "A fortress, watering-trough, or tank plastered with شَارُوق.",
+      "usage_conditions": "A specialized nominal use referring to a structure treated with the named plaster.",
+      "source_refs": [
+        "lane:entry:38385"
+      ]
+    },
+    {
+      "meaning_id": "cm-musharriq-go-east",
+      "headword_arabic": "مُشَرِّق",
+      "definition": "One going toward the east or place of sunrise.",
+      "usage_conditions": "An active participle used substantivally and contrasted with one going west.",
+      "source_refs": [
+        "lane:entry:38386"
+      ]
+    },
+    {
+      "meaning_id": "cm-mishraq-choke",
+      "headword_arabic": "مِشْرَاق",
+      "definition": "A man accustomed to make his enemy choke with spittle.",
+      "usage_conditions": "An agent noun describing a habitual or characteristic action.",
+      "source_refs": [
+        "lane:entry:38387"
+      ]
+    },
+    {
+      "meaning_id": "cm-mishriq-chink",
+      "headword_arabic": "مِشْرِيق",
+      "definition": "A door chink into which the light of the rising sun falls.",
+      "usage_conditions": "A specialized architectural noun for a sunlit opening.",
+      "source_refs": [
+        "lane:entry:38388"
+      ]
+    },
+    {
+      "meaning_id": "cm-mishriq-heaven-gate",
+      "headword_arabic": "المِشْرِيق",
+      "definition": "The name of a gate for repentance in Heaven.",
+      "usage_conditions": "A proper-name or religious-cultural use reported in traditional vocabulary.",
+      "source_refs": [
+        "lane:entry:38388"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$rq:38359:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-rise"
+      ],
+      "note": "Form I rising and shining."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-palm-red"
+      ],
+      "note": "Reddening of palm fruit."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-slit-ear-verb"
+      ],
+      "note": "Slitting an animal’s ear."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-harvest-fruit"
+      ],
+      "note": "Plucking or cutting fruit."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-sharqa-form4-s1"
+      ],
+      "note": "Quran-attested brightening of the earth."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial derivational comment without an independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-choke"
+      ],
+      "note": "Choking with spittle or water."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-fill-saturate"
+      ],
+      "note": "A wound filled with blood."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-fill-saturate"
+      ],
+      "note": "A place filled and constricted by occupants."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-fill-saturate"
+      ],
+      "note": "A body saturated with perfume."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-fill-saturate"
+      ],
+      "note": "Cloth saturated with dye."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-red"
+      ],
+      "note": "An eye becoming blood-red."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-red"
+      ],
+      "note": "Complexion becoming red."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-red"
+      ],
+      "note": "Intense redness."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-mixed"
+      ],
+      "note": "Becoming mixed or blended."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-sunset"
+      ],
+      "note": "Sun near setting and weakening."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g3:sub13",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form1-sunset"
+      ],
+      "note": "Traditional expression for the dying sun."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38359:g4:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-form1-slit-ear-verb"
+      ],
+      "note": "Same ear-slitting verb construction."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38360:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form2-go-east"
+      ],
+      "note": "Going or directing oneself east."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38360:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form2-sunrise-prayer"
+      ],
+      "note": "Prayer at sunrise."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38360:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form2-drought"
+      ],
+      "note": "Land parched by sun and lack of water."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38360:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form2-beauty"
+      ],
+      "note": "Beauty or shining appearance."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38360:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form2-dry-meat"
+      ],
+      "note": "Cutting and sun-drying meat."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38360:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form2-festival-days"
+      ],
+      "note": "The Days of Tashriq."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38360:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form2-dye"
+      ],
+      "note": "Dyeing cloth."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38360:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form2-plaster"
+      ],
+      "note": "Plastering a watering-trough."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38361:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form4-face-shine"
+      ],
+      "note": "Face or complexion shining."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38361:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form4-cause-shine"
+      ],
+      "note": "Reported transitive causative use."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38361:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form4-enter-sunrise"
+      ],
+      "note": "Entering sunrise."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38361:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form4-choke"
+      ],
+      "note": "Causing an enemy to choke or impeding action."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38361:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form4-dye"
+      ],
+      "note": "Thorough dye saturation."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38362:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form5-sunbathe"
+      ],
+      "note": "Sitting in a sunny place."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38362:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form5-chink"
+      ],
+      "note": "Looking through a sunlit door chink."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38363:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form7-bow-split"
+      ],
+      "note": "Bow splitting."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38364:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38364:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form12-tears"
+      ],
+      "note": "Being drowned in tears."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38365:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Truncated pointer to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38365:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharq-sun"
+      ],
+      "note": "Sun or rising sun."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38365:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to مَشْرِق."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38365:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharq-sunlit-place"
+      ],
+      "note": "Place where the sun shines."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38365:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharq-sunlit-place"
+      ],
+      "note": "Warmth of the sun."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38365:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharq-chink"
+      ],
+      "note": "Light through a door chink."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38365:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharq-fissure"
+      ],
+      "note": "Chink or fissure."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38365:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharq-bird"
+      ],
+      "note": "Bird of prey."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38366:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38367:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38367:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding lexical paragraph."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38367:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharaq-choke-noun"
+      ],
+      "note": "Obstructing substance in the throat."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38368:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-bright-place"
+      ],
+      "note": "Sun-brightened place."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38368:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-choked-man"
+      ],
+      "note": "Person choked with spittle or water."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38368:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-irrigated"
+      ],
+      "note": "Fresh, well-irrigated plant."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38368:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-red"
+      ],
+      "note": "Red or dye-saturated cloth."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38368:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-red"
+      ],
+      "note": "Lean red meat."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38368:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-red"
+      ],
+      "note": "Intensely red thing."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38368:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-mixed"
+      ],
+      "note": "Mixed or blended thing."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38369:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38369:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38370:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shurqa-anxiety"
+      ],
+      "note": "Anxiety, grief, or anguish."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38371:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38371:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38371:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharaqa-brand"
+      ],
+      "note": "Livestock marking brand."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38372:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38373:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharqaa-slit-sheep"
+      ],
+      "note": "Sheep or goat with slit ear."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38374:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-sharqiyy-s1"
+      ],
+      "note": "General eastern adjective meaning covered by the Quranic adjective sense."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38374:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-sharqiyy-s1"
+      ],
+      "note": "Quranic eastern construction."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38374:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharqi-dye"
+      ],
+      "note": "Red dye noun."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38375:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38375:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-boy"
+      ],
+      "note": "Handsome boy or young man."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38375:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-woman"
+      ],
+      "note": "Anatomical noun for a woman."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38375:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-idol"
+      ],
+      "note": "Name of an idol."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38376:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shurayqa-first-rise"
+      ],
+      "note": "First visible part of sunrise."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38377:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharaqi-drought-land"
+      ],
+      "note": "Parched land."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38378:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38378:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shariq-side-east",
+        "cm-shariq-trials"
+      ],
+      "note": "Eastern side and disputed figurative expression."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38378:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharq-idol"
+      ],
+      "note": "Name of an idol."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38378:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharuq-plaster"
+      ],
+      "note": "Possibly a plastering material."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38379:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sharuq-plaster"
+      ],
+      "note": "Plaster material equivalent to صاروج."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38380:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38381:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-mashriq-s1",
+        "qf-mashriq-s2",
+        "qf-mashriq-s3"
+      ],
+      "note": "Noun, dual, plural, and Quranic east-west construction."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38381:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38381:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mashariq-dried-meat"
+      ],
+      "note": "Disputed interpretation involving sun-dried meat."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38382:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38382:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-mushriq-s1"
+      ],
+      "note": "Quran-attested temporal sunrise use."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38383:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mashruqa-sunny-place"
+      ],
+      "note": "Place of sitting in sunlight."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38384:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mashriqi-person"
+      ],
+      "note": "Eastern person or eastern."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38385:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musharraq-prayer-place"
+      ],
+      "note": "Prayer place."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38385:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musharraq-festival"
+      ],
+      "note": "Festival name."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38385:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musharraq-dried-meat"
+      ],
+      "note": "Sun-dried meat."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38385:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musharraq-dyed-cloth"
+      ],
+      "note": "Dyed cloth."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38385:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musharraq-plastered-fortress"
+      ],
+      "note": "Plastered fortress or tank."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38386:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-musharriq-go-east"
+      ],
+      "note": "One going east."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38387:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38387:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mishraq-choke"
+      ],
+      "note": "Habitual choker of an enemy."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38388:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38388:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38388:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mishriq-chink"
+      ],
+      "note": "Sunlit door chink."
+    },
+    {
+      "unit_id": "lane-unit:$rq:38388:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mishriq-heaven-gate"
+      ],
+      "note": "Traditional name of a heavenly repentance gate."
+    }
+  ],
+  "cautions": [
+    "مَشْرِقَيْنِ may denote the two seasonal sunrise points or the paired east and west; the surrounding construction determines the intended relation.",
+    "Several rare Classical branches are reported with qualifications such as disputed attribution, dialectal restriction, or alternative interpretation; those qualifications are retained in their usage conditions."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

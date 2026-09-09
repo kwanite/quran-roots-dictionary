@@ -1,0 +1,200 @@
+{
+  "root": "lsn",
+  "arabic": "لسن",
+  "root_idea": {
+    "summary": "A subtle, gently elongated projection, whether in an organ or in another thing.",
+    "development": "The root centers on the tongue as an elongated organ, extending to its power of speech, language, eloquence, tongue-like projections, reports, and certain metonymic uses for communication.",
+    "source_refs": [
+      "maqayis:row:4160",
+      "mufradat:row:1302",
+      "lane:entry:20616",
+      "lane:entry:20617"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lsn:lisaAn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-lsn-lisan",
+      "reason": "Displayed under the normalized singular noun citation form لِسَان."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-lsn-lisan",
+      "form_group_ids": [
+        "qac-form:lsn:lisaAn:nominal:-"
+      ],
+      "headword_arabic": "لِسَان",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 25,
+      "senses": [
+        {
+          "sense_id": "s-lsn-01",
+          "definition": "The tongue, the bodily organ.",
+          "usage_conditions": "Used literally for the anatomical organ of the mouth.",
+          "source_refs": [
+            "mufradat:row:1302"
+          ]
+        },
+        {
+          "sense_id": "s-lsn-02",
+          "definition": "The tongue as the faculty or power of speech and articulation.",
+          "usage_conditions": "May refer to the speaking faculty rather than to the physical organ itself; in the expression concerning the knot of the tongue, the difficulty concerns the power of speech.",
+          "source_refs": [
+            "mufradat:row:1302"
+          ]
+        },
+        {
+          "sense_id": "s-lsn-03",
+          "definition": "A language or linguistic mode of expression.",
+          "usage_conditions": "Used for the language of a people and, in the plural, for differing languages; the discussion also includes distinct vocal intonations. It occurs in constructions meaning “in” or “with” a language.",
+          "source_refs": [
+            "mufradat:row:1302"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "90:9",
+          "word_location": "90:9:1",
+          "sense_ids": [
+            "s-lsn-01"
+          ]
+        },
+        {
+          "verse_key": "20:27",
+          "word_location": "20:27:4",
+          "sense_ids": [
+            "s-lsn-02"
+          ]
+        },
+        {
+          "verse_key": "26:195",
+          "word_location": "26:195:1",
+          "sense_ids": [
+            "s-lsn-03"
+          ]
+        },
+        {
+          "verse_key": "30:22",
+          "word_location": "30:22:7",
+          "sense_ids": [
+            "s-lsn-03"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-lasan-speech-quality",
+      "headword_arabic": "لَسَنٌ",
+      "definition": "Chasteness, clarity, perspicuity, and eloquence of speech; good speaking and sharpness of tongue.",
+      "usage_conditions": "A quality of speech and expression, distinct from the noun لِسَان for the tongue, speech faculty, or language.",
+      "source_refs": [
+        "lane:entry:20616"
+      ]
+    },
+    {
+      "meaning_id": "cm-lisan-projection",
+      "headword_arabic": "لِسَانٌ",
+      "definition": "A projecting part resembling or called a tongue, especially the forepart of a sandal; also the tongue or cock of a balance.",
+      "usage_conditions": "Concrete specialized uses for a tongue-like or projecting component.",
+      "source_refs": [
+        "lane:entry:20617"
+      ]
+    },
+    {
+      "meaning_id": "cm-lisan-report",
+      "headword_arabic": "لِسَانٌ",
+      "definition": "Information, news, or tidings; a report.",
+      "usage_conditions": "A non-physical use synonymous with خبر.",
+      "source_refs": [
+        "lane:entry:20617"
+      ]
+    },
+    {
+      "meaning_id": "cm-mulassan-sandal",
+      "headword_arabic": "مُلَسَّنٌ",
+      "definition": "A long, slender sandal shaped like a tongue, or having its front extremity shaped like one.",
+      "usage_conditions": "A derived descriptive noun or adjective for the form of a sandal.",
+      "source_refs": [
+        "lane:entry:20619"
+      ]
+    },
+    {
+      "meaning_id": "cm-lisan-message",
+      "headword_arabic": "لِسَانٌ",
+      "definition": "A message or communication, expressed metonymically by لِسَان.",
+      "usage_conditions": "When used in this sense, the noun is treated as feminine in the cited usage.",
+      "source_refs": [
+        "maqayis:row:4160"
+      ]
+    },
+    {
+      "meaning_id": "cm-lasan-take-with-tongue",
+      "headword_arabic": "لَسَنَ",
+      "definition": "To take or seize something with the tongue.",
+      "usage_conditions": "A reported verbal usage, distinct from the nominal meanings of لِسَان.",
+      "source_refs": [
+        "maqayis:row:4160"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lsn:20616:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lasan-speech-quality"
+      ],
+      "note": "Speech quality, eloquence, and sharpness are grouped in one classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:lsn:20617:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lisan-projection"
+      ],
+      "note": "The projecting forepart of a sandal is represented."
+    },
+    {
+      "unit_id": "lane-unit:lsn:20617:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-lisan-projection"
+      ],
+      "note": "The balance tongue is included under the broader projecting-part meaning."
+    },
+    {
+      "unit_id": "lane-unit:lsn:20617:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lisan-report"
+      ],
+      "note": "The report, news, or tidings use is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:lsn:20618:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no lexical definition in the supplied unit."
+    },
+    {
+      "unit_id": "lane-unit:lsn:20619:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mulassan-sandal"
+      ],
+      "note": "The tongue-shaped sandal meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The single Quranic noun group covers distinct lexical uses for the physical tongue, the faculty of speech, and language; inflectional differences are not separate public forms."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The contextual rendering “a mention” at 26:84 is not treated as an independent Quranic sense because the supplied direct lexical discussion does not independently establish that meaning for this form."
+  ]
+}

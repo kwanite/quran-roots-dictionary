@@ -1,0 +1,1125 @@
+{
+  "root": "ktb",
+  "arabic": "كتب",
+  "root_idea": {
+    "summary": "The root denotes joining or bringing one thing together with another, especially by writing, binding, or assembling.",
+    "development": "From the idea of joining, it develops into writing as the joining of letters, then into a written document, an established prescription or decree, a record, and a formal contract.",
+    "source_refs": [
+      "maqayis:row:3926",
+      "mufradat:row:1233"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ktb:kataba:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-ktb-kataba1",
+      "reason": "Form I verb with distinct Quranic writing, prescribing, and inclusion uses."
+    },
+    {
+      "form_group_id": "qac-form:ktb:kaAtibu:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-ktb-kataba3",
+      "reason": "Form III verb with the Quranic written-emancipation-contract construction."
+    },
+    {
+      "form_group_id": "qac-form:ktb:{kotataba:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-ktb-iktataba8",
+      "reason": "Form VIII verb with the Quranic sense of having a text written or fabricated."
+    },
+    {
+      "form_group_id": "qac-form:ktb:kaAtib:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-ktb-katib",
+      "reason": "Active participle with Quranic writer, recorder, and learned-person uses."
+    },
+    {
+      "form_group_id": "qac-form:ktb:kita`b:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-ktb-kitab",
+      "reason": "Core nominal headword كتاب."
+    },
+    {
+      "form_group_id": "qac-form:ktb:kita`biY:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-ktb-kitab",
+      "reason": "Inflected possessive form كتابي, the same noun as كتاب."
+    },
+    {
+      "form_group_id": "qac-form:ktb:makotuwb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-ktb-maktub",
+      "reason": "Distinct passive participle مَكْتُوب meaning written or recorded."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-ktb-kataba1",
+      "form_group_ids": [
+        "qac-form:ktb:kataba:verb:I"
+      ],
+      "headword_arabic": "كَتَبَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 49,
+      "senses": [
+        {
+          "sense_id": "s-ktb-kataba-write",
+          "definition": "To write, inscribe, or record.",
+          "usage_conditions": "Includes writing down a text, statement, or account; active, passive, and imperative forms occur in the Quran.",
+          "source_refs": [
+            "lane:entry:27857",
+            "mufradat:row:1233"
+          ]
+        },
+        {
+          "sense_id": "s-ktb-kataba-prescribe",
+          "definition": "To prescribe, ordain, decree, or establish as fixed or due.",
+          "usage_conditions": "Used for divine laws and obligations, appointed outcomes, allotted matters, and what is firmly established, including something established in the heart. The passive construction كُتِبَ عَلَى or كُتِبَ لِ commonly means “was prescribed” or “was decreed for.”",
+          "source_refs": [
+            "lane:entry:27857",
+            "mufradat:row:1233"
+          ]
+        },
+        {
+          "sense_id": "s-ktb-kataba-include",
+          "definition": "To include or place someone among a group.",
+          "usage_conditions": "Especially used with مَعَ in the Quranic construction “include us among …,” rather than meaning physical writing.",
+          "source_refs": [
+            "mufradat:row:1233"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:79",
+          "word_location": "2:79:3",
+          "sense_ids": [
+            "s-ktb-kataba-write"
+          ]
+        },
+        {
+          "verse_key": "2:183",
+          "word_location": "2:183:4",
+          "sense_ids": [
+            "s-ktb-kataba-prescribe"
+          ]
+        },
+        {
+          "verse_key": "3:53",
+          "word_location": "3:53:7",
+          "sense_ids": [
+            "s-ktb-kataba-include"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-ktb-kataba3",
+      "form_group_ids": [
+        "qac-form:ktb:kaAtibu:verb:III"
+      ],
+      "headword_arabic": "كَاتَبَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s-ktb-kataba3-contract",
+          "definition": "To enter into a written contract of emancipation with someone.",
+          "usage_conditions": "The Quranic construction concerns a contract between an enslaved person and the master, under which payment leads to freedom; the act is reciprocal between the parties.",
+          "source_refs": [
+            "lane:entry:27859",
+            "mufradat:row:1233"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:33",
+          "word_location": "24:33:17",
+          "sense_ids": [
+            "s-ktb-kataba3-contract"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-ktb-iktataba8",
+      "form_group_ids": [
+        "qac-form:ktb:{kotataba:verb:VIII"
+      ],
+      "headword_arabic": "اِكْتَتَبَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s-ktb-iktataba8-havewritten",
+          "definition": "To have a text written for oneself; to procure or fabricate a written account.",
+          "usage_conditions": "In the Quranic accusation, the subject is said to have had earlier tales written or transcribed for him, rather than necessarily writing them personally.",
+          "source_refs": [
+            "lane:entry:27863",
+            "mufradat:row:1233"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:5",
+          "word_location": "25:5:4",
+          "sense_ids": [
+            "s-ktb-iktataba8-havewritten"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-ktb-katib",
+      "form_group_ids": [
+        "qac-form:ktb:kaAtib:nominal:-"
+      ],
+      "headword_arabic": "كَاتِب",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "s-ktb-katib-writer",
+          "definition": "A writer, scribe, secretary, or recorder.",
+          "usage_conditions": "The active participle can denote a person engaged in writing or recording, including scribes and recorders.",
+          "source_refs": [
+            "lane:entry:27857",
+            "lane:entry:27873"
+          ]
+        },
+        {
+          "sense_id": "s-ktb-katib-learned",
+          "definition": "A learned or knowledgeable person.",
+          "usage_conditions": "An older lexical extension associates literacy with learning; this use is explicitly connected with Quranic expressions involving كَاتِبٌ.",
+          "source_refs": [
+            "lane:entry:27857",
+            "lane:entry:27873"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:282",
+          "word_location": "2:282:13",
+          "sense_ids": [
+            "s-ktb-katib-writer"
+          ]
+        },
+        {
+          "verse_key": "21:94",
+          "word_location": "21:94:12",
+          "sense_ids": [
+            "s-ktb-katib-writer"
+          ]
+        },
+        {
+          "verse_key": "82:11",
+          "word_location": "82:11:2",
+          "sense_ids": [
+            "s-ktb-katib-writer"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-ktb-kitab",
+      "form_group_ids": [
+        "qac-form:ktb:kita`b:nominal:-",
+        "qac-form:ktb:kita`biY:nominal:-"
+      ],
+      "headword_arabic": "كِتَاب",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 261,
+      "senses": [
+        {
+          "sense_id": "s-ktb-kitab-writtenobject",
+          "definition": "A written text, document, book, record, register, or letter.",
+          "usage_conditions": "Denotes a physical or conceived written object, including a written communication and a record of information or deeds.",
+          "source_refs": [
+            "lane:entry:27868",
+            "mufradat:row:1233"
+          ]
+        },
+        {
+          "sense_id": "s-ktb-kitab-scripture",
+          "definition": "A revealed scripture or divinely given book.",
+          "usage_conditions": "Can refer to a revealed scripture such as the Torah, Gospel, or Quran, and to the authoritative contents conveyed by such a scripture.",
+          "source_refs": [
+            "lane:entry:27868",
+            "mufradat:row:1233"
+          ]
+        },
+        {
+          "sense_id": "s-ktb-kitab-decree",
+          "definition": "A divine prescription, ordinance, judgment, decree, or appointed destiny.",
+          "usage_conditions": "Used for a ruling or determination established by God, including an obligatory ordinance, a prescribed term, and a decree governing events.",
+          "source_refs": [
+            "lane:entry:27868",
+            "mufradat:row:1233"
+          ]
+        },
+        {
+          "sense_id": "s-ktb-kitab-proof",
+          "definition": "A divinely grounded proof or authoritative warrant.",
+          "usage_conditions": "In Quranic argumentation, كتاب may denote an established warrant from God rather than merely the physical document containing it.",
+          "source_refs": [
+            "mufradat:row:1233"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:29",
+          "word_location": "27:29:7",
+          "sense_ids": [
+            "s-ktb-kitab-writtenobject"
+          ]
+        },
+        {
+          "verse_key": "17:14",
+          "word_location": "17:14:2",
+          "sense_ids": [
+            "s-ktb-kitab-writtenobject"
+          ]
+        },
+        {
+          "verse_key": "3:3",
+          "word_location": "3:3:3",
+          "sense_ids": [
+            "s-ktb-kitab-scripture"
+          ]
+        },
+        {
+          "verse_key": "3:145",
+          "word_location": "3:145:9",
+          "sense_ids": [
+            "s-ktb-kitab-decree"
+          ]
+        },
+        {
+          "verse_key": "22:8",
+          "word_location": "22:8:12",
+          "sense_ids": [
+            "s-ktb-kitab-proof"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-ktb-maktub",
+      "form_group_ids": [
+        "qac-form:ktb:makotuwb:nominal:-"
+      ],
+      "headword_arabic": "مَكْتُوب",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s-ktb-maktub-written",
+          "definition": "Written down or recorded.",
+          "usage_conditions": "A passive participle describing something whose mention or description has been set down in writing or otherwise recorded.",
+          "source_refs": [
+            "lane:entry:27857",
+            "mufradat:row:1233"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:157",
+          "word_location": "7:157:8",
+          "sense_ids": [
+            "s-ktb-maktub-written"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl-ktb-judge",
+      "headword_arabic": "كَتَبَ",
+      "definition": "To judge, pass sentence, or decree against someone that he should do something.",
+      "usage_conditions": "Used in the construction كَتَبَ عَلَيْهِ كَذَا, especially of a judgment or sentence.",
+      "source_refs": [
+        "lane:entry:27857"
+      ]
+    },
+    {
+      "meaning_id": "cl-ktb-conjoin",
+      "headword_arabic": "كَتَبَ",
+      "definition": "To draw together, bring together, or conjoin.",
+      "usage_conditions": "A general classical branch of the root’s joining sense.",
+      "source_refs": [
+        "lane:entry:27857"
+      ]
+    },
+    {
+      "meaning_id": "cl-ktb-vulvaseal",
+      "headword_arabic": "كَتَبَ",
+      "definition": "To close the vulva of a camel or mule with a ring or thong.",
+      "usage_conditions": "The device conjoins the edges to prevent mating.",
+      "source_refs": [
+        "lane:entry:27857"
+      ]
+    },
+    {
+      "meaning_id": "cl-ktb-sewskin",
+      "headword_arabic": "كَتَبَ",
+      "definition": "To sew or bind a waterskin or similar leather receptacle.",
+      "usage_conditions": "May mean sewing it with two thongs or binding its mouth so that its contents do not escape.",
+      "source_refs": [
+        "lane:entry:27857"
+      ]
+    },
+    {
+      "meaning_id": "cl-ktb-fostercamel",
+      "headword_arabic": "كَتَبَ",
+      "definition": "To make a she-camel accept a young animal that is not her own.",
+      "usage_conditions": "The described practice involves a device at the nostrils to prevent the camel from detecting the young animal’s smell.",
+      "source_refs": [
+        "lane:entry:27857"
+      ]
+    },
+    {
+      "meaning_id": "cl-ktb-collectarmy",
+      "headword_arabic": "كَتَبَ",
+      "definition": "To collect a military unit or troop.",
+      "usage_conditions": "A tropical usage related to assembling a كَتِيبَة.",
+      "source_refs": [
+        "lane:entry:27857"
+      ]
+    },
+    {
+      "meaning_id": "cl-kattab-udder",
+      "headword_arabic": "كَتَّبَ",
+      "definition": "To tie or bind the udder of a camel.",
+      "usage_conditions": "A derived Form II usage.",
+      "source_refs": [
+        "lane:entry:27858"
+      ]
+    },
+    {
+      "meaning_id": "cl-kattab-troops",
+      "headword_arabic": "كَتَّبَ",
+      "definition": "To prepare or arrange troops in ordered units.",
+      "usage_conditions": "A Form II military usage, especially arranging forces troop by troop.",
+      "source_refs": [
+        "lane:entry:27858"
+      ]
+    },
+    {
+      "meaning_id": "cl-mukataba-correspond",
+      "headword_arabic": "مُكَاتَبَةٌ",
+      "definition": "Correspondence or writing to one another.",
+      "usage_conditions": "The derived noun can denote reciprocal written communication between two people.",
+      "source_refs": [
+        "lane:entry:27859"
+      ]
+    },
+    {
+      "meaning_id": "cl-aktaba-dictate",
+      "headword_arabic": "أَكْتَبَ",
+      "definition": "To dictate something for another person to write.",
+      "usage_conditions": "A Form IV causative construction, as in dictating an ode or other text.",
+      "source_refs": [
+        "lane:entry:27860"
+      ]
+    },
+    {
+      "meaning_id": "cl-aktaba-teachwriting",
+      "headword_arabic": "أَكْتَبَ",
+      "definition": "To teach the art of writing.",
+      "usage_conditions": "A Form IV causative usage.",
+      "source_refs": [
+        "lane:entry:27860"
+      ]
+    },
+    {
+      "meaning_id": "cl-takataba-gird",
+      "headword_arabic": "تَكْتَّبَ",
+      "definition": "To gird oneself and draw one’s garments together.",
+      "usage_conditions": "A tropical Form V usage involving gathering clothing around the body.",
+      "source_refs": [
+        "lane:entry:27861"
+      ]
+    },
+    {
+      "meaning_id": "cl-takataba-assemble",
+      "headword_arabic": "تَكْتَّبَ",
+      "definition": "To collect itself into a group.",
+      "usage_conditions": "Used of an army or other organized body assembling.",
+      "source_refs": [
+        "lane:entry:27861"
+      ]
+    },
+    {
+      "meaning_id": "cl-iktataba-transcribe",
+      "headword_arabic": "اِكْتَتَبَ",
+      "definition": "To write or transcribe a book from another book.",
+      "usage_conditions": "A Form VIII nominal and verbal branch concerning copying or transcription.",
+      "source_refs": [
+        "lane:entry:27863"
+      ]
+    },
+    {
+      "meaning_id": "cl-iktataba-enroll",
+      "headword_arabic": "اِكْتَتَبَ",
+      "definition": "To register one’s name in an official list.",
+      "usage_conditions": "Used of enrollment among recipients of stipends or maintenance and of registration in a military roster.",
+      "source_refs": [
+        "lane:entry:27863"
+      ]
+    },
+    {
+      "meaning_id": "cl-iktataba-requestwriting",
+      "headword_arabic": "اِكْتَتَبَ",
+      "definition": "To request or have a book or similar text written for oneself.",
+      "usage_conditions": "Distinct from personally transcribing a text; the construction presents the subject as procuring its writing.",
+      "source_refs": [
+        "lane:entry:27863"
+      ]
+    },
+    {
+      "meaning_id": "cl-iktataba-obstruct",
+      "headword_arabic": "اِكْتَتَبَ",
+      "definition": "To become obstructed bodily, with urine suppressed or the belly constipated.",
+      "usage_conditions": "A tropical medical usage of Form VIII.",
+      "source_refs": [
+        "lane:entry:27863"
+      ]
+    },
+    {
+      "meaning_id": "cl-istaktaba-requestwriting",
+      "headword_arabic": "اِسْتَكْتَبَ",
+      "definition": "To ask someone to write something for oneself.",
+      "usage_conditions": "A Form X request construction.",
+      "source_refs": [
+        "lane:entry:27864"
+      ]
+    },
+    {
+      "meaning_id": "cl-kutba-thong",
+      "headword_arabic": "كُتْبَةٌ",
+      "definition": "A thong used for sewing a waterskin or leather receptacle.",
+      "usage_conditions": "A concrete noun for the sewing or binding thong.",
+      "source_refs": [
+        "lane:entry:27865"
+      ]
+    },
+    {
+      "meaning_id": "cl-kutba-vulvaseal",
+      "headword_arabic": "كُتْبَةٌ",
+      "definition": "A device used to close the vulva of a camel or mule.",
+      "usage_conditions": "A ring or similar thong used to prevent the female animal from being covered.",
+      "source_refs": [
+        "lane:entry:27865"
+      ]
+    },
+    {
+      "meaning_id": "cl-kutba-seam",
+      "headword_arabic": "كُتْبَةٌ",
+      "definition": "A seam, suture, or thong-joined stitch in a skin or hide.",
+      "usage_conditions": "Refers to the joined place where a thong brings two surfaces or edges together.",
+      "source_refs": [
+        "lane:entry:27865"
+      ]
+    },
+    {
+      "meaning_id": "cl-kitba-writingmode",
+      "headword_arabic": "كِتْبَةٌ",
+      "definition": "A mode or manner of writing.",
+      "usage_conditions": "A nominal usage distinct from the concrete sewing sense of كُتْبَةٌ.",
+      "source_refs": [
+        "lane:entry:27866"
+      ]
+    },
+    {
+      "meaning_id": "cl-kutubi-bookseller",
+      "headword_arabic": "كُتُبِيٌّ",
+      "definition": "A bookseller.",
+      "usage_conditions": "A vulgar or nonstandard designation; the regular form would be كتابيّ.",
+      "source_refs": [
+        "lane:entry:27867"
+      ]
+    },
+    {
+      "meaning_id": "cl-kitab-inkwell",
+      "headword_arabic": "كِتَابٌ",
+      "definition": "A receptacle for ink.",
+      "usage_conditions": "A concrete noun homonymous with the ordinary noun for a book or written document.",
+      "source_refs": [
+        "lane:entry:27868"
+      ]
+    },
+    {
+      "meaning_id": "cl-katib-sewnskin",
+      "headword_arabic": "قِرْبَةٌ كَتِيبٌ",
+      "definition": "A skin sewn with two thongs or bound closed at its mouth.",
+      "usage_conditions": "An adjective describing a leather receptacle whose opening has been secured.",
+      "source_refs": [
+        "lane:entry:27869"
+      ]
+    },
+    {
+      "meaning_id": "cl-kitaba-writingart",
+      "headword_arabic": "كِتَابَةٌ",
+      "definition": "The art or practice of writing.",
+      "usage_conditions": "The verbal noun used as the name of the writing skill.",
+      "source_refs": [
+        "lane:entry:27870"
+      ]
+    },
+    {
+      "meaning_id": "cl-katiba-army",
+      "headword_arabic": "كَتِيبَةٌ",
+      "definition": "An army, military force, corps, or troop.",
+      "usage_conditions": "May denote a collected portion of an army, including a troop of horse.",
+      "source_refs": [
+        "lane:entry:27871"
+      ]
+    },
+    {
+      "meaning_id": "cl-kuttab-arrow",
+      "headword_arabic": "كُتَّابٌ",
+      "definition": "A small round-headed arrow used by boys in learning to shoot.",
+      "usage_conditions": "A concrete technical noun, with variant lexical discussion in the source.",
+      "source_refs": [
+        "lane:entry:27872"
+      ]
+    },
+    {
+      "meaning_id": "cl-maktab-school",
+      "headword_arabic": "مَكْتَبٌ",
+      "definition": "A school or place where writing is taught.",
+      "usage_conditions": "The usage is disputed in the source, which also records an interpretation referring to the boys of a school rather than the place.",
+      "source_refs": [
+        "lane:entry:27874"
+      ]
+    },
+    {
+      "meaning_id": "cl-muktib-teacher",
+      "headword_arabic": "مُكْتِبٌ",
+      "definition": "A teacher of the art of writing.",
+      "usage_conditions": "An active occupational noun.",
+      "source_refs": [
+        "lane:entry:27876"
+      ]
+    },
+    {
+      "meaning_id": "cl-maktuba-vulvaclosed",
+      "headword_arabic": "مَكْتُوبَةٌ",
+      "definition": "A female mule whose vulva has been closed with a ring or thong.",
+      "usage_conditions": "A specialized passive-participial usage concerning prevention of mating.",
+      "source_refs": [
+        "lane:entry:27877"
+      ]
+    },
+    {
+      "meaning_id": "cl-mukattab-partialbunch",
+      "headword_arabic": "مُكَتَّبٌ",
+      "definition": "A bunch of grapes or similar cluster from which part has been eaten.",
+      "usage_conditions": "A specialized derived adjective or noun.",
+      "source_refs": [
+        "lane:entry:27878"
+      ]
+    },
+    {
+      "meaning_id": "cl-muktawtib-swollen",
+      "headword_arabic": "مُكْتَوْتِبٌ",
+      "definition": "Swollen or full.",
+      "usage_conditions": "A specialized descriptive usage.",
+      "source_refs": [
+        "lane:entry:27880"
+      ]
+    },
+    {
+      "meaning_id": "cl-kitab-marriageceremony",
+      "headword_arabic": "كِتَابٌ",
+      "definition": "The ceremony of a marriage contract.",
+      "usage_conditions": "A legal or customary usage referring to performance of the contract, not to the certificate itself.",
+      "source_refs": [
+        "lane:entry:32770"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ktb:27857:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-ktb-kataba-write"
+      ],
+      "note": "Writing, recording, and having text dictated are covered by the writing sense."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s-ktb-kataba-write"
+      ],
+      "note": "Writing material heard or learned is covered by writing or recording."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-ktb-katib-writer",
+        "s-ktb-katib-learned"
+      ],
+      "note": "Writer, scribe, and learned-person uses are represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-ktb-kataba-prescribe"
+      ],
+      "note": "Prescribing and making obligatory are represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ktb-judge"
+      ],
+      "note": "Judging or decreeing against someone is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ktb-conjoin"
+      ],
+      "note": "The general conjoining sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ktb-vulvaseal"
+      ],
+      "note": "The specialized animal-vulva closure is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ktb-sewskin"
+      ],
+      "note": "Sewing a waterskin is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g3:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cl-ktb-sewskin"
+      ],
+      "note": "Binding the mouth of a skin is covered by the sewing and binding branch."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ktb-fostercamel"
+      ],
+      "note": "The foster-camel manipulation is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27857:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-ktb-collectarmy"
+      ],
+      "note": "Collecting a military unit is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27858:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27858:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kattab-udder"
+      ],
+      "note": "Tying a camel’s udder is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27858:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kattab-troops"
+      ],
+      "note": "Preparing and ordering troops is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27859:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-mukataba-correspond"
+      ],
+      "note": "Reciprocal correspondence is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27859:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-ktb-kataba3-contract"
+      ],
+      "note": "The written emancipation contract is a Quranic Form III sense."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27860:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-aktaba-dictate"
+      ],
+      "note": "Dictating text is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27860:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-aktaba-teachwriting"
+      ],
+      "note": "Teaching writing is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27860:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27861:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-takataba-gird"
+      ],
+      "note": "Girding and gathering garments is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27861:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-takataba-assemble"
+      ],
+      "note": "An army collecting itself is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27862:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form III."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27863:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27863:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-iktataba-transcribe"
+      ],
+      "note": "Transcribing a book is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27863:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-iktataba-enroll"
+      ],
+      "note": "Writing one’s name in a stipend list is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27863:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cl-iktataba-enroll"
+      ],
+      "note": "Registration in a military list is covered by enrollment."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27863:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-iktataba-requestwriting"
+      ],
+      "note": "Having a book written for oneself is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27863:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-iktataba-obstruct"
+      ],
+      "note": "Suppressed urine is represented in the bodily-obstruction branch."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27863:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cl-iktataba-obstruct"
+      ],
+      "note": "Constipation is covered by the same bodily-obstruction branch."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27864:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-istaktaba-requestwriting"
+      ],
+      "note": "Asking someone to write is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27864:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another entry."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27865:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kutba-thong"
+      ],
+      "note": "The sewing thong is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27865:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kutba-vulvaseal"
+      ],
+      "note": "The animal-vulva closure device is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27865:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kutba-seam"
+      ],
+      "note": "The seam or suture is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27866:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27866:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kitba-writingmode"
+      ],
+      "note": "Mode or manner of writing is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27867:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kutubi-bookseller"
+      ],
+      "note": "The bookseller term is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27868:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional and pointer information only."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27868:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-ktb-kitab-writtenobject",
+        "s-ktb-kitab-scripture"
+      ],
+      "note": "Written object, letter, record, and revelation branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27868:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "s-ktb-kitab-scripture"
+      ],
+      "note": "Specific revealed scriptures are covered by the revealed-scripture sense."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27868:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27868:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-ktb-kitab-decree"
+      ],
+      "note": "Divine ordinance, judgment, and predestination are represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27868:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kitab-inkwell"
+      ],
+      "note": "The ink receptacle is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27869:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-katib-sewnskin"
+      ],
+      "note": "The sewn or bound skin adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27870:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kitaba-writingart"
+      ],
+      "note": "The art of writing is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27870:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27871:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27871:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-katiba-army"
+      ],
+      "note": "Army, corps, or troop is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27872:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27872:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kuttab-arrow"
+      ],
+      "note": "The boys’ learning arrow is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27873:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-ktb-katib-writer"
+      ],
+      "note": "Writer, scribe, and secretary are represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27873:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-ktb-katib-learned"
+      ],
+      "note": "The learned-person extension is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27874:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-maktab-school"
+      ],
+      "note": "School or place of writing instruction is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27875:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27876:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-muktib-teacher"
+      ],
+      "note": "Teacher of writing is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27877:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-maktuba-vulvaclosed"
+      ],
+      "note": "The specialized closed-vulva adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27878:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-mukattab-partialbunch"
+      ],
+      "note": "The partially eaten bunch is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27879:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ktb:27880:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-muktawtib-swollen"
+      ],
+      "note": "Swollen or full is represented."
+    },
+    {
+      "unit_id": "lane-unit:ktb:32770:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-kitab-marriageceremony"
+      ],
+      "note": "The marriage-contract ceremony is represented as a Classical Arabic specialization."
+    },
+    {
+      "unit_id": "lane-unit:ktb:32770:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to أهل."
+    }
+  ],
+  "cautions": [
+    "Lane’s historical Quran citation notation is used only as lexical evidence; modern verse locations in the examples come from the supplied QAC occurrences.",
+    "The Form III Quran occurrence is an inflected imperative; the public headword is normalized to the Classical Arabic perfect citation form كَاتَبَ.",
+    "The possessive form كتابي is accounted for under the core noun كتاب rather than displayed as a separate lexical headword."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

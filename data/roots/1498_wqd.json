@@ -1,0 +1,624 @@
+{
+  "root": "wqd",
+  "arabic": "وقد",
+  "root_idea": {
+    "summary": "The root centers on the kindling and blazing of fire.",
+    "development": "From the basic notion of fire burning or becoming ablaze, the lexicon develops causative ignition, fuel, the fire itself, intense heat, and figurative extensions involving brightness, ardor, war, and mental sharpness. These root-level developments should not be assumed to be meanings of every derived Quranic form.",
+    "source_refs": [
+      "maqayis:row:5182",
+      "mufradat:row:1601"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wqd:>awoqadu:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_awqada",
+      "reason": "Distinct Quran-attested Form IV causative verb."
+    },
+    {
+      "form_group_id": "qac-form:wqd:{sotawoqada:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_istawqada",
+      "reason": "Distinct Quran-attested Form X verb expressing undertaking or preparing to kindle."
+    },
+    {
+      "form_group_id": "qac-form:wqd:muwqadap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_muqad",
+      "reason": "Quran-attested passive participle, normalized from the feminine form in the verse to its dictionary citation form."
+    },
+    {
+      "form_group_id": "qac-form:wqd:waquwd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_waqud",
+      "reason": "Distinct Quran-attested nominal form with fuel and burning-related uses."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_awqada",
+      "form_group_ids": [
+        "qac-form:wqd:>awoqadu:verb:IV"
+      ],
+      "headword_arabic": "أَوْقَدَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qiv_ignite",
+          "definition": "To kindle or light a fire; to cause it to burn, blaze, or burn intensely.",
+          "usage_conditions": "A transitive causative use, including raising or sustaining a fire with fuel. It also covers passive and contextually translated instances referring to something being lit.",
+          "source_refs": [
+            "lane:entry:45577",
+            "mufradat:row:1601"
+          ]
+        },
+        {
+          "sense_id": "qiv_war",
+          "definition": "To kindle or stir up war or a destructive conflict.",
+          "usage_conditions": "A figurative construction with fire imagery, as in kindling a fire for war; the expression can refer to contriving a mischievous or deceitful plot that is then annulled.",
+          "source_refs": [
+            "lane:entry:45577",
+            "mufradat:row:1601"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:64",
+          "word_location": "5:64:35",
+          "sense_ids": [
+            "qiv_war"
+          ]
+        },
+        {
+          "verse_key": "13:17",
+          "word_location": "13:17:13",
+          "sense_ids": [
+            "qiv_ignite"
+          ]
+        },
+        {
+          "verse_key": "24:35",
+          "word_location": "24:35:17",
+          "sense_ids": [
+            "qiv_ignite"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_istawqada",
+      "form_group_ids": [
+        "qac-form:wqd:{sotawoqada:verb:X"
+      ],
+      "headword_arabic": "اِسْتَوْقَدَ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qx_prepare_ignite",
+          "definition": "To set about, undertake, or prepare to kindle a fire.",
+          "usage_conditions": "The Form X use indicates undertaking or becoming ready for the act of kindling, rather than simply stating the completed causative ignition.",
+          "source_refs": [
+            "lane:entry:45577",
+            "mufradat:row:1601"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:17",
+          "word_location": "2:17:4",
+          "sense_ids": [
+            "qx_prepare_ignite"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_muqad",
+      "form_group_ids": [
+        "qac-form:wqd:muwqadap:nominal:-"
+      ],
+      "headword_arabic": "مُوقَد",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qpp_kindled",
+          "definition": "Kindled, lit, or made to burn.",
+          "usage_conditions": "A passive participle used adjectivally; in the Quranic occurrence it describes the fire as continually kindled.",
+          "source_refs": [
+            "mufradat:row:1601",
+            "lane:entry:45577"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "104:6",
+          "word_location": "104:6:3",
+          "sense_ids": [
+            "qpp_kindled"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_waqud",
+      "form_group_ids": [
+        "qac-form:wqd:waquwd:nominal:-"
+      ],
+      "headword_arabic": "وَقُود",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qn_fuel",
+          "definition": "Fuel or firewood: material used to kindle or sustain a fire.",
+          "usage_conditions": "In the Quran, it may be specified as people and stones or otherwise as the fuel belonging to a fire.",
+          "source_refs": [
+            "lane:entry:45584",
+            "mufradat:row:1601"
+          ]
+        },
+        {
+          "sense_id": "qn_burning_flame",
+          "definition": "The burning or blazing action of fire, and the flame produced by it.",
+          "usage_conditions": "In the expression النار ذات الوقود at 85:5, the word is explicitly interpreted as a verbal noun referring to the fire's burning; the lexical tradition also records the related result, its flame or blaze.",
+          "source_refs": [
+            "lane:entry:45584",
+            "mufradat:row:1601"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:24",
+          "word_location": "2:24:9",
+          "sense_ids": [
+            "qn_fuel"
+          ]
+        },
+        {
+          "verse_key": "85:5",
+          "word_location": "85:5:3",
+          "sense_ids": [
+            "qn_burning_flame"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_wqada_burn",
+      "headword_arabic": "وَقَدَ",
+      "definition": "Of a fire: to burn, burn up, blaze, or flame.",
+      "usage_conditions": "An intransitive Form I use, said of fire itself.",
+      "source_refs": [
+        "lane:entry:45575"
+      ]
+    },
+    {
+      "meaning_id": "cm_wqada_aid",
+      "headword_arabic": "وَقَدَ",
+      "definition": "To aid or help someone.",
+      "usage_conditions": "A figurative idiom in the expression وَقَدَتْ بِكَ زِنَادِي, literally invoking a fire-producing firestick through someone’s agency.",
+      "source_refs": [
+        "lane:entry:45575"
+      ]
+    },
+    {
+      "meaning_id": "cm_wqada_shine",
+      "headword_arabic": "وَقَدَ",
+      "definition": "To shine or glisten.",
+      "usage_conditions": "Said of anything that displays brightness or a gleam.",
+      "source_refs": [
+        "lane:entry:45575"
+      ]
+    },
+    {
+      "meaning_id": "cm_wqada_ardor",
+      "headword_arabic": "وَقَدَ",
+      "definition": "Of the heart: to become excited with ardor or eagerness.",
+      "usage_conditions": "A figurative use describing inward animation or enthusiasm.",
+      "source_refs": [
+        "lane:entry:45575"
+      ]
+    },
+    {
+      "meaning_id": "cm_wqada_clever",
+      "headword_arabic": "وَقَدَ",
+      "definition": "To become clever, ingenious, acute, sharp, or penetrating.",
+      "usage_conditions": "A figurative Form I use applied to a person’s intellectual acuity.",
+      "source_refs": [
+        "lane:entry:45575"
+      ]
+    },
+    {
+      "meaning_id": "cm_awqada_youth",
+      "headword_arabic": "أَوْقَدَ",
+      "definition": "To relinquish silly, youthful, or frivolous conduct.",
+      "usage_conditions": "An idiomatic figurative use in أَوْقَدَ لِلصِّبَا نَارًا, literally ‘kindled a fire for youth.’",
+      "source_refs": [
+        "lane:entry:45577"
+      ]
+    },
+    {
+      "meaning_id": "cm_awqada_restore",
+      "headword_arabic": "أَوْقَدَ",
+      "definition": "Not to bring someone back or restore him.",
+      "usage_conditions": "A traditional idiom involving lighting a fire behind a person whose departure was feared, expressing a wish that his evil not return.",
+      "source_refs": [
+        "lane:entry:45577"
+      ]
+    },
+    {
+      "meaning_id": "cm_tawaqqada_odor",
+      "headword_arabic": "تَوَقَّدَ",
+      "definition": "Of perfume or its odor: to become hot or strong.",
+      "usage_conditions": "A figurative intensification applied to the effect or strength of an odor.",
+      "source_refs": [
+        "lane:entry:45578"
+      ]
+    },
+    {
+      "meaning_id": "cm_ittaqada_sun",
+      "headword_arabic": "اِتَّقَدَ",
+      "definition": "Of the sun: to become burning or fiercely hot.",
+      "usage_conditions": "A Form VIII use describing intensified heat.",
+      "source_refs": [
+        "lane:entry:45579"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqad_fire",
+      "headword_arabic": "وَقَد",
+      "definition": "Fire itself.",
+      "usage_conditions": "A noun naming the fire rather than its fuel or the act of burning.",
+      "source_refs": [
+        "lane:entry:45581"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqda_heat",
+      "headword_arabic": "وَقْدَة",
+      "definition": "The greatest heat or hottest period.",
+      "usage_conditions": "Especially وَقْدَةُ الصَّيْفِ, the peak heat of summer; the period is described as lasting ten days or half a month.",
+      "source_refs": [
+        "lane:entry:45582"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqada_y_shine",
+      "headword_arabic": "وَقَدَى",
+      "definition": "Shining or glistening.",
+      "usage_conditions": "A feminine lexical form with the meaning of brightness or sheen.",
+      "source_refs": [
+        "lane:entry:45583"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqqad_star",
+      "headword_arabic": "وَقَّاد",
+      "definition": "Shining brightly.",
+      "usage_conditions": "Applied especially to a star.",
+      "source_refs": [
+        "lane:entry:45585"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqqad_ardent",
+      "headword_arabic": "وَقَّاد",
+      "definition": "Ardent, lively, acute, or penetrating in mind.",
+      "usage_conditions": "Applied to a heart or mind that is quickly excited with ardor and displays liveliness or acuity.",
+      "source_refs": [
+        "lane:entry:45585"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqqad_clever",
+      "headword_arabic": "وَقَّاد",
+      "definition": "Clever, ingenious, acute, sharp, or penetrating.",
+      "usage_conditions": "Applied to a person as a characterization of intellectual sharpness.",
+      "source_refs": [
+        "lane:entry:45585"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqidayn_eyes",
+      "headword_arabic": "الوَاقِدَيْنِ",
+      "definition": "The two eyes.",
+      "usage_conditions": "A rare reading or interpretation in the expression غَائِرُ الوَاقِدَيْنِ, ‘blind’; the commonly known wording is reported as الوَافِدَيْنِ.",
+      "source_refs": [
+        "lane:entry:45586"
+      ]
+    },
+    {
+      "meaning_id": "cm_mawqid_fireplace",
+      "headword_arabic": "مَوْقِد",
+      "definition": "A fireplace or fire-place: a place in which fire is lit.",
+      "usage_conditions": "A noun for the location or receptacle of a fire.",
+      "source_refs": [
+        "lane:entry:45587"
+      ]
+    },
+    {
+      "meaning_id": "cm_miqad_firestick",
+      "headword_arabic": "مِيقَاد",
+      "definition": "A fire-producing firestick or fire-drill.",
+      "usage_conditions": "Used of a زَنْد that quickly produces fire.",
+      "source_refs": [
+        "lane:entry:45589"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wqd:45575:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqada_burn"
+      ],
+      "note": "The Form I intransitive fire meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45575:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqada_aid"
+      ],
+      "note": "The idiomatic meaning of aiding or helping is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45575:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqada_shine"
+      ],
+      "note": "The meaning ‘shine or glisten’ is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45575:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqada_ardor"
+      ],
+      "note": "The figurative heart-and-ardor meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45575:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqada_clever"
+      ],
+      "note": "The characterization of a person as clever or penetrating is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45576:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to the Form IV entry."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45577:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qiv_ignite",
+        "qx_prepare_ignite"
+      ],
+      "note": "The causative ignition branch and the associated undertaking-to-kindle construction are represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45577:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qiv_war"
+      ],
+      "note": "The Quran-attested figurative war construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45577:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_awqada_youth"
+      ],
+      "note": "The idiom about relinquishing youthful conduct is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45577:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_awqada_restore"
+      ],
+      "note": "The idiom expressing non-return or non-restoration is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45578:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to Form I and Form IV."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45578:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tawaqqada_odor"
+      ],
+      "note": "The intensified odor construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45579:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to Form I."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45579:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ittaqada_sun"
+      ],
+      "note": "The sun becoming fiercely hot is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45580:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to Form I and Form IV."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45581:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqad_fire"
+      ],
+      "note": "The noun naming fire itself is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45581:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45582:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqda_heat"
+      ],
+      "note": "The peak-heat meaning and its seasonal specification are represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45582:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_waqda_heat"
+      ],
+      "note": "Illustrates the summer-heat meaning without adding a separate lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45582:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45583:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqada_y_shine"
+      ],
+      "note": "The feminine form meaning shining or glistening is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45583:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45584:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qn_fuel",
+        "qn_burning_flame"
+      ],
+      "note": "The fuel and burning-or-flame branches are represented under the Quranic nominal."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45584:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qn_fuel"
+      ],
+      "note": "The Quranic fuel construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45584:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qn_burning_flame"
+      ],
+      "note": "The Quranic verbal-noun interpretation at 85:5 is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45585:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqqad_star"
+      ],
+      "note": "The bright-shining star use is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45585:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqqad_ardent"
+      ],
+      "note": "The ardent, lively, acute heart-or-mind use is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45585:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqqad_clever"
+      ],
+      "note": "The clever or penetrating person use is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45586:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqidayn_eyes"
+      ],
+      "note": "The rare reading that interprets الواقدين as the two eyes is represented with its qualification."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45587:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mawqid_fireplace"
+      ],
+      "note": "The fire-place meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45588:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to the fire-place entry."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45589:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_miqad_firestick"
+      ],
+      "note": "The fire-producing firestick meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45590:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to وقاد."
+    },
+    {
+      "unit_id": "lane-unit:wqd:45591:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to مَوْقِد."
+    }
+  ],
+  "cautions": [
+    "At 85:5, وَقُود is explicitly treated in the lexical evidence as a verbal noun meaning the burning or blazing of fire, although another reading and the usual contextual translation present it as fuel.",
+    "The interpretation of الوَاقِدَيْنِ as ‘the two eyes’ is a rare reading in a Classical idiom; the commonly reported wording is الوَافِدَيْنِ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,751 @@
+{
+  "root": "sfh",
+  "arabic": "سفه",
+  "root_idea": {
+    "summary": "The root centers on lightness, frivolity, and lack of solidity, especially lightness of judgment or understanding.",
+    "development": "The lexical development extends from physical lightness and motion to mental levity, foolishness, and unsound judgment, with further applications to agitation, poor weaving, excessive drinking, delusion, and related forms of instability.",
+    "source_refs": [
+      "maqayis:row:2446",
+      "lane:entry:41427"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sfh:safiha:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-sfh-safiha",
+      "reason": "Form I verb with a distinct Quranic construction."
+    },
+    {
+      "form_group_id": "qac-form:sfh:safaAhap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-sfh-safah",
+      "reason": "سَفَاهَة is an explicitly cross-referenced variant verbal noun of سَفَه, with the same abstract meaning."
+    },
+    {
+      "form_group_id": "qac-form:sfh:safah:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-sfh-safah",
+      "reason": "Public citation form for the abstract verbal noun; it also contains the سَفَاهَة variant."
+    },
+    {
+      "form_group_id": "qac-form:sfh:safiyh:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-sfh-safih",
+      "reason": "Adjectival and substantivized nominal form with distinct Quranic worldly, religious, and polemical uses."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-sfh-safiha",
+      "form_group_ids": [
+        "qac-form:sfh:safiha:verb:I"
+      ],
+      "headword_arabic": "سَفِهَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sfh-safiha-s1",
+          "definition": "To be foolish or unsound in one's own mind; in the construction سَفِهَ نَفْسَهُ, to debase or lose oneself through such light-mindedness.",
+          "usage_conditions": "The Quranic construction concerns the person's own self or mind. Lexical explanations include being foolish in oneself, making oneself low or contemptible, and losing oneself; these are related interpretations of the same self-directed construction.",
+          "source_refs": [
+            "lane:entry:41421",
+            "mufradat:row:701"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:130",
+          "word_location": "2:130:8",
+          "sense_ids": [
+            "sfh-safiha-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-sfh-safah",
+      "form_group_ids": [
+        "qac-form:sfh:safah:nominal:-",
+        "qac-form:sfh:safaAhap:nominal:-"
+      ],
+      "headword_arabic": "سَفَه",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sfh-safah-s1",
+          "definition": "Foolishness or light-mindedness: a deficiency of intellect, understanding, or sound judgment.",
+          "usage_conditions": "An abstract noun for mental foolishness or levity. The Quran applies the concept in accusations of foolishness and to conduct carried out in foolishness; the paired forms سَفَه and سَفَاهَة are treated as lexical variants here.",
+          "source_refs": [
+            "lane:entry:41427",
+            "mufradat:row:701"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:140",
+          "word_location": "6:140:6",
+          "sense_ids": [
+            "sfh-safah-s1"
+          ]
+        },
+        {
+          "verse_key": "7:66",
+          "word_location": "7:66:10",
+          "sense_ids": [
+            "sfh-safah-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-sfh-safih",
+      "form_group_ids": [
+        "qac-form:sfh:safiyh:nominal:-"
+      ],
+      "headword_arabic": "سَفِيه",
+      "public_pos_label": "Adjective / substantivized noun",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "sfh-safih-s1",
+          "definition": "A foolish person, deficient in intellect, understanding, or sound judgment.",
+          "usage_conditions": "In Quranic polemic, the term is used for those who disparage believers or question their divinely directed practice; the rebuttal can identify the accusers themselves as the foolish ones.",
+          "source_refs": [
+            "lane:entry:41429",
+            "mufradat:row:701"
+          ]
+        },
+        {
+          "sense_id": "sfh-safih-s2",
+          "definition": "A person lacking sound worldly judgment or competence in practical and financial affairs.",
+          "usage_conditions": "This use appears in discussions of entrusting property and conducting or receiving financial dictation. The lexical evidence concerns practical judgment and management, not a universal restriction to any particular gender or age.",
+          "source_refs": [
+            "lane:entry:41429",
+            "mufradat:row:701"
+          ]
+        },
+        {
+          "sense_id": "sfh-safih-s3",
+          "definition": "A person foolish or misguided in religious judgment, especially one who speaks impiously about God.",
+          "usage_conditions": "This specifically religious use is attested in the construction سَفِيهُنَا عَلَى اللَّهِ, describing a speaker's religious foolishness or excess.",
+          "source_refs": [
+            "lane:entry:41429",
+            "mufradat:row:701"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:13",
+          "word_location": "2:13:12",
+          "sense_ids": [
+            "sfh-safih-s1"
+          ]
+        },
+        {
+          "verse_key": "2:142",
+          "word_location": "2:142:2",
+          "sense_ids": [
+            "sfh-safih-s1"
+          ]
+        },
+        {
+          "verse_key": "2:282",
+          "word_location": "2:282:40",
+          "sense_ids": [
+            "sfh-safih-s2"
+          ]
+        },
+        {
+          "verse_key": "4:5",
+          "word_location": "4:5:3",
+          "sense_ids": [
+            "sfh-safih-s2"
+          ]
+        },
+        {
+          "verse_key": "72:4",
+          "word_location": "72:4:4",
+          "sense_ids": [
+            "sfh-safih-s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-safiha-general",
+      "headword_arabic": "سَفِهَ",
+      "definition": "To be or become light-minded, witless, or deficient in understanding.",
+      "usage_conditions": "Intransitive Form I usage outside the specifically self-directed Quranic construction.",
+      "source_refs": [
+        "lane:entry:41421"
+      ]
+    },
+    {
+      "meaning_id": "cm-regard-truth",
+      "headword_arabic": "سَفِهَ",
+      "definition": "To regard truth or right as foolishness, or to ignore it.",
+      "usage_conditions": "The truth or right may occur as the object; this is a broader Classical construction distinct from the Quranic self-directed use.",
+      "source_refs": [
+        "lane:entry:41421"
+      ]
+    },
+    {
+      "meaning_id": "cm-feign-ignorance",
+      "headword_arabic": "سَفِهَ",
+      "definition": "To feign ignorance toward someone.",
+      "usage_conditions": "Used with عَلَى in the cited construction.",
+      "source_refs": [
+        "lane:entry:41421"
+      ]
+    },
+    {
+      "meaning_id": "cm-forget-share",
+      "headword_arabic": "سَفِهَ",
+      "definition": "To forget one's share or portion.",
+      "usage_conditions": "A Classical Form I use with a person's share as the object.",
+      "source_refs": [
+        "lane:entry:41421"
+      ]
+    },
+    {
+      "meaning_id": "cm-overcome-companion",
+      "headword_arabic": "سَفِهَ",
+      "definition": "To overcome a companion in the contest called مُسَافَهَة.",
+      "usage_conditions": "A specialized competitive or interpersonal construction.",
+      "source_refs": [
+        "lane:entry:41421"
+      ]
+    },
+    {
+      "meaning_id": "cm-wound-blood",
+      "headword_arabic": "سَفِهَ",
+      "definition": "Of a spear wound or similar injury, to emit blood rapidly and then dry up.",
+      "usage_conditions": "An intransitive description of the behavior of a wound.",
+      "source_refs": [
+        "lane:entry:41421"
+      ]
+    },
+    {
+      "meaning_id": "cm-safiha-drink",
+      "headword_arabic": "سَفِهَ",
+      "definition": "To drink much of a beverage or water without becoming satisfied or quenched.",
+      "usage_conditions": "Used of excessive drinking; the water or beverage is the object.",
+      "source_refs": [
+        "lane:entry:41421"
+      ]
+    },
+    {
+      "meaning_id": "cm-safiha-occupied",
+      "headword_arabic": "سَفِهَ",
+      "definition": "To be occupied, busied, or diverted from something.",
+      "usage_conditions": "A separate Classical use with the meaning of being preoccupied or, in variant transmission, occupying another.",
+      "source_refs": [
+        "lane:entry:41421"
+      ]
+    },
+    {
+      "meaning_id": "cm-form2-declare-foolish",
+      "headword_arabic": "سَفَّهَ",
+      "definition": "To make someone foolish, declare someone foolish, or attribute foolishness to someone.",
+      "usage_conditions": "Form II causative or denominative usage; it may also describe making a person's gravity or judgment light and unstable.",
+      "source_refs": [
+        "lane:entry:41422"
+      ]
+    },
+    {
+      "meaning_id": "cm-form3-act-foolishly",
+      "headword_arabic": "سَافَهَ",
+      "definition": "To behave foolishly or ignorantly with someone, showing levity and lack of composure.",
+      "usage_conditions": "Form III reciprocal or interpersonal usage.",
+      "source_refs": [
+        "lane:entry:41423"
+      ]
+    },
+    {
+      "meaning_id": "cm-form3-revile",
+      "headword_arabic": "سَافَهَ",
+      "definition": "To revile someone, or to exchange revilement with him.",
+      "usage_conditions": "A conventional hostile or mutually abusive use, synonymous with verbal abuse.",
+      "source_refs": [
+        "lane:entry:41423"
+      ]
+    },
+    {
+      "meaning_id": "cm-form3-drink",
+      "headword_arabic": "سَافَهَ",
+      "definition": "To drink repeatedly or immoderately from a jar, waterskin, or beverage.",
+      "usage_conditions": "The construction may describe sitting with a vessel and drinking from it intermittently, or exceeding proper limits in drinking.",
+      "source_refs": [
+        "lane:entry:41423"
+      ]
+    },
+    {
+      "meaning_id": "cm-form3-camel-road",
+      "headword_arabic": "سَافَهَ",
+      "definition": "Of a she-camel, to take or keep to a road at a vehement or agile pace.",
+      "usage_conditions": "A specialized usage describing the animal's manner of going.",
+      "source_refs": [
+        "lane:entry:41423"
+      ]
+    },
+    {
+      "meaning_id": "cm-form4-find-foolish",
+      "headword_arabic": "أَسْفَهَ",
+      "definition": "To find someone to be foolish or light-minded.",
+      "usage_conditions": "Form IV causative or estimative construction with the person judged foolish as object.",
+      "source_refs": [
+        "lane:entry:41424"
+      ]
+    },
+    {
+      "meaning_id": "cm-form4-cause-drink",
+      "headword_arabic": "أَسْفَهَ",
+      "definition": "To cause someone to drink much without satisfying thirst.",
+      "usage_conditions": "A specialized Form IV drinking construction, also used of causing excessive water or wine consumption.",
+      "source_refs": [
+        "lane:entry:41424"
+      ]
+    },
+    {
+      "meaning_id": "cm-form5-wind-agitate",
+      "headword_arabic": "تَسَفَّهَ",
+      "definition": "To become agitated or to make something move, bend, or incline through wind-like commotion.",
+      "usage_conditions": "Used of winds and of winds ruffling, moving, or bending trees and branches.",
+      "source_refs": [
+        "lane:entry:41425"
+      ]
+    },
+    {
+      "meaning_id": "cm-form5-cause-levity",
+      "headword_arabic": "تَسَفَّهَ",
+      "definition": "To cause someone to become light-minded or frivolous.",
+      "usage_conditions": "The cited proverbial use describes a younger person inciting an older person to levity.",
+      "source_refs": [
+        "lane:entry:41425"
+      ]
+    },
+    {
+      "meaning_id": "cm-form5-delude-property",
+      "headword_arabic": "تَسَفَّهَ",
+      "definition": "To delude or beguile someone out of his property.",
+      "usage_conditions": "Used with عَنْ to describe diverting a person from possession of his wealth by deception.",
+      "source_refs": [
+        "lane:entry:41425"
+      ]
+    },
+    {
+      "meaning_id": "cm-form5-act-foolishly",
+      "headword_arabic": "تَسَفَّهَ",
+      "definition": "To act foolishly or with levity toward someone.",
+      "usage_conditions": "An interpersonal Form V construction.",
+      "source_refs": [
+        "lane:entry:41425"
+      ]
+    },
+    {
+      "meaning_id": "cm-form5-revile",
+      "headword_arabic": "تَسَفَّهَ",
+      "definition": "To revile someone.",
+      "usage_conditions": "A Form V hostile-speech construction.",
+      "source_refs": [
+        "lane:entry:41425"
+      ]
+    },
+    {
+      "meaning_id": "cm-form6-act-foolishly",
+      "headword_arabic": "تَسَافَهَ",
+      "definition": "To behave foolishly, lightly, or ignorantly with one another.",
+      "usage_conditions": "A reciprocal Form VI construction.",
+      "source_refs": [
+        "lane:entry:41426"
+      ]
+    },
+    {
+      "meaning_id": "cm-form6-revile",
+      "headword_arabic": "تَسَافَهَ",
+      "definition": "To revile one another or exchange abuse.",
+      "usage_conditions": "A reciprocal hostile-speech construction.",
+      "source_refs": [
+        "lane:entry:41426"
+      ]
+    },
+    {
+      "meaning_id": "cm-form6-camel-foam",
+      "headword_arabic": "تَسَافَهَ",
+      "definition": "Of the sides of camels' mouths, to cast foam toward one another.",
+      "usage_conditions": "A poetic expression describing swift camels; the transmitted form is reported with some uncertainty in the source.",
+      "source_refs": [
+        "lane:entry:41426"
+      ]
+    },
+    {
+      "meaning_id": "cm-physical-lightness",
+      "headword_arabic": "سَفَه",
+      "definition": "Physical lightness accompanied by movement, commotion, or agitation.",
+      "usage_conditions": "The primary physical sense of the verbal noun, extended to restless motion and agitation.",
+      "source_refs": [
+        "lane:entry:41427"
+      ]
+    },
+    {
+      "meaning_id": "cm-safih-camel-rein",
+      "headword_arabic": "سَفِيه",
+      "definition": "Of a camel's nose-rein, light or quivering.",
+      "usage_conditions": "A specialized adjectival use based on the rein's movement as the she-camel pulls or shakes it.",
+      "source_refs": [
+        "lane:entry:41429"
+      ]
+    },
+    {
+      "meaning_id": "cm-cloth",
+      "headword_arabic": "سَفِيه",
+      "definition": "Of a garment or cloth, badly woven, thin, flimsy, or scanty in its yarn.",
+      "usage_conditions": "A figurative or specialized adjectival use describing insubstantial weaving.",
+      "source_refs": [
+        "lane:entry:41429"
+      ]
+    },
+    {
+      "meaning_id": "cm-safih-thirsty",
+      "headword_arabic": "سَافِه",
+      "definition": "Vehemently thirsty.",
+      "usage_conditions": "A specialized adjectival use applied to a person; it is associated with the root's drinking-related extensions.",
+      "source_refs": [
+        "lane:entry:41431"
+      ]
+    },
+    {
+      "meaning_id": "cm-valley-filled",
+      "headword_arabic": "مُسْفَه",
+      "definition": "Of a valley, filled with water.",
+      "usage_conditions": "A figurative passive-participial expression for a valley overflowing or filled as though it had exceeded proper bounds.",
+      "source_refs": [
+        "lane:entry:41432"
+      ]
+    },
+    {
+      "meaning_id": "cm-food-drinking",
+      "headword_arabic": "مَسْفَهَة",
+      "definition": "Food that incites a person to drink much water.",
+      "usage_conditions": "A specialized adjectival description of food that produces excessive thirst or drinking.",
+      "source_refs": [
+        "lane:entry:41433"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sfh:41421:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-safiha-general"
+      ],
+      "note": "Form I intransitive meaning of becoming foolish."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41421:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sfh-safiha-s1",
+        "cm-regard-truth"
+      ],
+      "note": "Quranic self-directed construction and separate truth/right construction."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41421:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-feign-ignorance"
+      ],
+      "note": "Construction with عَلَى."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41421:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-forget-share"
+      ],
+      "note": "Forgetting one's share."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41421:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-overcome-companion"
+      ],
+      "note": "Specialized contest meaning."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41421:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wound-blood"
+      ],
+      "note": "Rapid emission and drying of blood from a wound."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41421:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-safiha-drink"
+      ],
+      "note": "Excessive unsatisfying drinking."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41421:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-safiha-occupied"
+      ],
+      "note": "Being occupied or diverted."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41422:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form V."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41422:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form2-declare-foolish"
+      ],
+      "note": "Making or declaring someone foolish."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41423:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form3-act-foolishly"
+      ],
+      "note": "Interpersonal foolish or ignorant behavior."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41423:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form3-revile"
+      ],
+      "note": "Revilement or mutual abuse."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41423:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form3-drink"
+      ],
+      "note": "Repeated or immoderate drinking."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41423:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form3-camel-road"
+      ],
+      "note": "She-camel's vehement or agile movement along a road."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41424:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form4-find-foolish"
+      ],
+      "note": "Finding someone foolish."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41424:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form4-cause-drink"
+      ],
+      "note": "Causing unsatisfying excessive drinking."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41425:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form5-wind-agitate"
+      ],
+      "note": "Wind becoming agitated."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41425:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form5-wind-agitate"
+      ],
+      "note": "Wind moving, bending, or ruffling branches."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41425:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form5-cause-levity"
+      ],
+      "note": "Inciting another to levity."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41425:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form5-delude-property"
+      ],
+      "note": "Beguilement out of property."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41425:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form5-act-foolishly"
+      ],
+      "note": "Acting foolishly toward someone."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41425:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form5-revile"
+      ],
+      "note": "Reviling."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41426:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41426:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form6-act-foolishly"
+      ],
+      "note": "Reciprocal foolish behavior."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41426:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form6-revile"
+      ],
+      "note": "Reciprocal reviling."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41426:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-form6-camel-foam"
+      ],
+      "note": "Poetic reciprocal foam-casting expression."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41427:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-physical-lightness"
+      ],
+      "note": "Physical lightness and agitation."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41427:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sfh-safah-s1"
+      ],
+      "note": "Mental foolishness and deficient judgment."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41428:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41429:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-safih-camel-rein"
+      ],
+      "note": "Light or quivering camel nose-rein."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41429:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sfh-safih-s1",
+        "sfh-safih-s2",
+        "sfh-safih-s3"
+      ],
+      "note": "General adjective and explicitly Quran-attested worldly and religious applications."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41429:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-cloth"
+      ],
+      "note": "Thin or badly woven cloth."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41430:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to سَفَه."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41431:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to سَفِيه."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41431:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-safih-thirsty"
+      ],
+      "note": "Specialized description of intense thirst."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41432:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-valley-filled"
+      ],
+      "note": "Valley filled with water."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41433:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-food-drinking"
+      ],
+      "note": "Food provoking excessive water drinking."
+    },
+    {
+      "unit_id": "lane-unit:sfh:41434:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Only identifies the active participle of Form III."
+    }
+  ],
+  "cautions": [
+    "Lane's printed Quran citation in the discussion of سَفِهَ نَفْسَهُ uses historical citation conventions; it is not converted here into a modern verse location. The modern example uses the independently supplied QAC location 2:130.",
+    "The Quranic سَفِيه group includes singular and plural surface forms; the public headword is the singular citation form.",
+    "Interpretations of السُّفَهَاء in 4:5 include particular demographic applications in the lexical commentary, but the dictionary sense states the underlying property of deficient worldly judgment rather than imposing a gender or age restriction.",
+    "The final Form VI poetic expression is reported with uncertainty as possibly تَتَسَافَهُ; its lexical interpretation is retained with that limitation."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

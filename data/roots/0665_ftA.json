@@ -1,0 +1,107 @@
+{
+  "root": "ftA",
+  "arabic": "فتأ",
+  "root_idea": {
+    "summary": "A cessation-oriented root: ceasing or desisting, with a related causative sense of making something cease.",
+    "development": "The supplied evidence distinguishes the Form I negative construction meaning “not cease,” hence continued action, from positive uses of abstaining and of stilling or extinguishing. No Maqāyīs or Mufradāt development discussion was supplied.",
+    "source_refs": [
+      "lane:entry:33090"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ftA:tafota&uA@:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-ftA-fatia",
+      "reason": "Displayed under the normalized Form I perfect citation form فَتِئَ rather than the Quranic imperfect surface form تَفْتَؤُا۟."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-ftA-fatia",
+      "form_group_ids": [
+        "qac-form:ftA:tafota&uA@:verb:I"
+      ],
+      "headword_arabic": "فَتِئَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-ftA-fatia-s1",
+          "definition": "To cease or leave off doing something.",
+          "usage_conditions": "In the Quranic occurrence, the verb appears after an oath in a construction understood as negative, meaning “you will not cease remembering Joseph.” Form I in this sense is characteristically used in negative phrases.",
+          "source_refs": [
+            "lane:entry:33090"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:85",
+          "word_location": "12:85:3",
+          "sense_ids": [
+            "qf-ftA-fatia-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-ftA-fatia-abstain",
+      "headword_arabic": "فَتِئَ",
+      "definition": "To forget an affair; to abstain or desist from it.",
+      "usage_conditions": "Recorded with عَنْهُ in the construction فَتِئَ عَنْهُ. This use is reported as generally occurring in negative phrases.",
+      "source_refs": [
+        "lane:entry:33090"
+      ]
+    },
+    {
+      "meaning_id": "cm-ftA-fataa-still",
+      "headword_arabic": "فَتَأَ",
+      "definition": "To still, quiet, abate, or allay something; to make someone cease from an affair; to extinguish.",
+      "usage_conditions": "A complete, active verb distinct from the negative Form I construction; the evidence illustrates its use both for making a person cease from an affair and for extinguishing a fire.",
+      "source_refs": [
+        "lane:entry:33090"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ftA:33090:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-ftA-fatia-s1"
+      ],
+      "note": "Form I cessation use and its Quranic negative construction are represented."
+    },
+    {
+      "unit_id": "lane-unit:ftA:33090:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ftA-fatia-abstain"
+      ],
+      "note": "The use for forgetting and abstaining or desisting is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftA:33090:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ftA-fataa-still"
+      ],
+      "note": "The positive use for stilling, abating, making cease, and extinguishing is represented."
+    },
+    {
+      "unit_id": "lane-unit:ftA:33091:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph; it adds no independent lexical content."
+    }
+  ],
+  "cautions": [
+    "The Quranic form is an imperfect active Form I occurrence whose negative interpretation is carried by the oath construction rather than by an overt لا immediately before the verb.",
+    "No Maqāyīs or Mufradāt evidence was supplied for this root."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,194 @@
+{
+  "root": "zmhr",
+  "arabic": "زمهر",
+  "root_idea": {
+    "summary": "The supplied evidence suggests a semantic field of striking intensity, especially severe cold and brilliant manifestation, extended to strongly marked facial and emotional states.",
+    "development": "The attested branches range from intense cold and shining brightness to reddened eyes, facial contraction or tooth-displaying laughter, and violent anger. No Maqāyīs or Mufradāt material is supplied for a fuller root-level historical development.",
+    "source_refs": [
+      "lane:entry:31640",
+      "lane:entry:31641",
+      "lane:entry:31642"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zmhr:zamohariyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:zmhr:zamharir",
+      "reason": "The Quran-attested noun is presented under its normalized dictionary headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:zmhr:zamharir",
+      "form_group_ids": [
+        "qac-form:zmhr:zamohariyr:nominal:-"
+      ],
+      "headword_arabic": "زَمْهَرِير",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:qform:zmhr:zamharir:1",
+          "definition": "Intense or hurting cold.",
+          "usage_conditions": "In the occurrence at 76:13, the noun is explained as severe or hurting cold, with a simpler reading of cold also reported.",
+          "source_refs": [
+            "lane:entry:31641"
+          ]
+        },
+        {
+          "sense_id": "sense:qform:zmhr:zamharir:2",
+          "definition": "The moon.",
+          "usage_conditions": "A reported alternative interpretation of the noun in 76:13; this reading is distinct from the cold interpretation and is also recorded as a dialectal lexical meaning.",
+          "source_refs": [
+            "lane:entry:31641"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "76:13",
+          "word_location": "76:13:10",
+          "sense_ids": [
+            "sense:qform:zmhr:zamharir:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:zmhr:izmaharra:brightness",
+      "headword_arabic": "اِزْمَهَرَّ",
+      "definition": "To shine and become intensely bright.",
+      "usage_conditions": "Attested of stars.",
+      "source_refs": [
+        "lane:entry:31640"
+      ]
+    },
+    {
+      "meaning_id": "cm:zmhr:izmaharra:red-eye",
+      "headword_arabic": "اِزْمَهَرَّ",
+      "definition": "Of the eye, to become red through anger.",
+      "usage_conditions": "The usage is described in connection with distressing events.",
+      "source_refs": [
+        "lane:entry:31640"
+      ]
+    },
+    {
+      "meaning_id": "cm:zmhr:izmaharra:face",
+      "headword_arabic": "اِزْمَهَرَّ",
+      "definition": "Of the face, to grin so as to display the teeth, or to become contracted into a stern, austere, or morose expression.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:31640"
+      ]
+    },
+    {
+      "meaning_id": "cm:zmhr:izmaharra:day-cold",
+      "headword_arabic": "اِزْمَهَرَّ",
+      "definition": "To become intensely cold.",
+      "usage_conditions": "Attested of a day.",
+      "source_refs": [
+        "lane:entry:31640"
+      ]
+    },
+    {
+      "meaning_id": "cm:zmhr:muzmahirr:tooth-laugh",
+      "headword_arabic": "مُزْمَهِرّ",
+      "definition": "Laughing so as to show the teeth.",
+      "usage_conditions": "The expression is associated with the shining appearance of stars.",
+      "source_refs": [
+        "lane:entry:31642"
+      ]
+    },
+    {
+      "meaning_id": "cm:zmhr:muzmahirr:anger",
+      "headword_arabic": "مُزْمَهِرّ",
+      "definition": "Angry; violently angry.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:31642"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zmhr:31639:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to the next paragraph."
+    },
+    {
+      "unit_id": "lane-unit:zmhr:31640:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:zmhr:izmaharra:brightness"
+      ],
+      "note": "Bright shining of stars."
+    },
+    {
+      "unit_id": "lane-unit:zmhr:31640:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:zmhr:izmaharra:red-eye"
+      ],
+      "note": "Reddening of the eye through anger."
+    },
+    {
+      "unit_id": "lane-unit:zmhr:31640:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:zmhr:izmaharra:face"
+      ],
+      "note": "Tooth-displaying or contracted facial expression."
+    },
+    {
+      "unit_id": "lane-unit:zmhr:31640:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:zmhr:izmaharra:day-cold"
+      ],
+      "note": "Becoming intensely cold."
+    },
+    {
+      "unit_id": "lane-unit:zmhr:31641:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:qform:zmhr:zamharir:1",
+        "sense:qform:zmhr:zamharir:2"
+      ],
+      "note": "Intense cold and the reported alternative Quranic interpretation."
+    },
+    {
+      "unit_id": "lane-unit:zmhr:31641:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense:qform:zmhr:zamharir:2"
+      ],
+      "note": "Moon meaning, including its reported Quranic interpretation."
+    },
+    {
+      "unit_id": "lane-unit:zmhr:31642:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:zmhr:muzmahirr:tooth-laugh"
+      ],
+      "note": "Laughing while showing the teeth."
+    },
+    {
+      "unit_id": "lane-unit:zmhr:31642:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:zmhr:muzmahirr:anger"
+      ],
+      "note": "Anger or violent anger."
+    }
+  ],
+  "cautions": [
+    "The reading “the moon” for 76:13 is reported as an alternative; the other supplied readings understand the verse as referring to hurting or ordinary cold.",
+    "No Maqāyīs or Mufradāt entry is supplied, so the root-level semantic development is limited to the attested Lane evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

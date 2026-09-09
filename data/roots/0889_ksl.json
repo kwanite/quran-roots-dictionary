@@ -1,0 +1,115 @@
+{
+  "root": "ksl",
+  "arabic": "كسل",
+  "root_idea": {
+    "summary": "The root centers on heaviness and sluggishness that make one refrain from an action or fail to complete it.",
+    "development": "This core develops into ordinary laziness and indolence, causative rendering of someone heavy or sluggish, and a specialized sexual usage denoting penetration without emission.",
+    "source_refs": [
+      "maqayis:row:3987",
+      "mufradat:row:1249",
+      "lane:entry:32858",
+      "lane:entry:32859"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ksl:kusaAlaY`:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ksl_kusala",
+      "reason": "The Quranic plural is normalized to the supported singular adjective citation form كَسْلَانٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "ksl_kusala",
+      "form_group_ids": [
+        "qac-form:ksl:kusaAlaY`:nominal:-"
+      ],
+      "headword_arabic": "كَسْلَانٌ",
+      "public_pos_label": "Adjective · Quranic plural كُسَالَىٰ",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "ksl_kusala_s1",
+          "definition": "Lazy, sluggish, or lacking active willingness in performing an action.",
+          "usage_conditions": "The Quranic form is the plural كُسَالَىٰ, used of people who come to or stand for prayer in a sluggish, unenergetic manner.",
+          "source_refs": [
+            "mufradat:row:1249",
+            "lane:entry:32860"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:142",
+          "word_location": "4:142:12",
+          "sense_ids": [
+            "ksl_kusala_s1"
+          ]
+        },
+        {
+          "verse_key": "9:54",
+          "word_location": "9:54:17",
+          "sense_ids": [
+            "ksl_kusala_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_ksl_taksil",
+      "headword_arabic": "كَسَّلَ",
+      "definition": "To make someone heavy, sluggish, lazy, indolent, or torpid.",
+      "usage_conditions": "Form II; the supplied lexical evidence specifically describes the effect of satiety.",
+      "source_refs": [
+        "lane:entry:32858"
+      ]
+    },
+    {
+      "meaning_id": "cm_ksl_iksal",
+      "headword_arabic": "أَكْسَلَ",
+      "definition": "To penetrate sexually without emitting.",
+      "usage_conditions": "A specialized Form IV construction, supplied with عَنْهَا in the expression أَكْسَلَ عَنْهَا.",
+      "source_refs": [
+        "lane:entry:32859"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ksl:32858:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ksl_taksil"
+      ],
+      "note": "Form II causative meaning is represented as a Classical Arabic meaning."
+    },
+    {
+      "unit_id": "lane-unit:ksl:32859:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ksl_iksal"
+      ],
+      "note": "Specialized Form IV sexual construction is represented as a Classical Arabic meaning."
+    },
+    {
+      "unit_id": "lane-unit:ksl:32860:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "ksl_kusala_s1"
+      ],
+      "note": "The adjective's heavy, sluggish, lazy meaning is covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:ksl:32861:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry directing the reader to another entry; it supplies no independent lexical definition."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

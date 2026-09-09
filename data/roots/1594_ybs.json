@@ -1,0 +1,587 @@
+{
+  "root": "ybs",
+  "arabic": "يبس",
+  "root_idea": {
+    "summary": "The root centers on dryness: the loss or absence of moisture.",
+    "development": "Its basic sense develops from drying vegetation, places, and substances to firmness or hardness, and further to figurative states such as withered relations, milklessness, bodily dryness, and lack of benefit. Derived forms also express causing something to dry or describing land whose vegetation has dried.",
+    "source_refs": [
+      "maqayis:row:5247",
+      "lane:entry:17246",
+      "lane:entry:17259"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ybs:yaAbis:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:ybs:yabis",
+      "reason": "Normalized to the singular active-participial citation form يَابِسٌ."
+    },
+    {
+      "form_group_id": "qac-form:ybs:yaAbisa`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform:ybs:yabis",
+      "reason": "The Quran-only feminine plural adjective is represented under the singular citation form يَابِسٌ."
+    },
+    {
+      "form_group_id": "qac-form:ybs:yabas:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:ybs:yabas",
+      "reason": "The form denotes the distinct dry-place or dry-passage construction attested in 20:77."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:ybs:yabis",
+      "form_group_ids": [
+        "qac-form:ybs:yaAbis:nominal:-",
+        "qac-form:ybs:yaAbisa`t:nominal:-"
+      ],
+      "headword_arabic": "يَابِسٌ",
+      "public_pos_label": "Active participle / adjective",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsen:ybs:yabis:dry",
+          "definition": "Dry or dried up, with moisture absent.",
+          "usage_conditions": "Used substantively of a dry thing and adjectivally of dry vegetation or other things. It may describe something that has dried after being moist, while broader lexical usage also permits what is naturally dry.",
+          "source_refs": [
+            "lane:entry:17259"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:59",
+          "word_location": "6:59:27",
+          "sense_ids": [
+            "qsen:ybs:yabis:dry"
+          ]
+        },
+        {
+          "verse_key": "12:43",
+          "word_location": "12:43:15",
+          "sense_ids": [
+            "qsen:ybs:yabis:dry"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:ybs:yabas",
+      "form_group_ids": [
+        "qac-form:ybs:yabas:nominal:-"
+      ],
+      "headword_arabic": "يَبَسٌ",
+      "public_pos_label": "Adjective / noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:ybs:yabas:dryplace",
+          "definition": "Dry, especially a place or passage from which water or moisture has gone.",
+          "usage_conditions": "In the Quranic construction, it describes the path through the sea after its water had departed, rather than merely a dry object or substance.",
+          "source_refs": [
+            "mufradat:row:1623",
+            "lane:entry:17259"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:77",
+          "word_location": "20:77:13",
+          "sense_ids": [
+            "qsen:ybs:yabas:dryplace"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:ybs:verb:dry",
+      "headword_arabic": "يَبِسَ",
+      "definition": "To become dry or dry up after having been moist; also to become stiff, rigid, tough, firm, or hard.",
+      "usage_conditions": "The verb is used of plants, land, and other things that lose moisture, and by extension of things that become resistant or rigid.",
+      "source_refs": [
+        "lane:entry:17246"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:verb:costive",
+      "headword_arabic": "يَبِسَ",
+      "definition": "To become costive.",
+      "usage_conditions": "A figurative bodily application of becoming dry.",
+      "source_refs": [
+        "lane:entry:17246"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:verb:disunited",
+      "headword_arabic": "يَبِسَ",
+      "definition": "Of a bond or friendship, to wither and become severed; to become disunited.",
+      "usage_conditions": "A figurative application to the relationship between people.",
+      "source_refs": [
+        "lane:entry:17246"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:imperative:silence",
+      "headword_arabic": "أَيْبِسْ",
+      "definition": "Be silent or cease speaking.",
+      "usage_conditions": "An imperative expression addressed to a person.",
+      "source_refs": [
+        "lane:entry:17246"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:form2:dry",
+      "headword_arabic": "يَبَّسَ",
+      "definition": "To dry something or make it dry.",
+      "usage_conditions": "The causative Form II construction.",
+      "source_refs": [
+        "lane:entry:17247"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:form2:sever",
+      "headword_arabic": "يَبَّسَ",
+      "definition": "To wither or sever a relationship or bond.",
+      "usage_conditions": "A figurative causative use applied to a relationship.",
+      "source_refs": [
+        "lane:entry:17247"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:form3:harsh",
+      "headword_arabic": "يَابَسَهُ",
+      "definition": "To treat someone with dryness, hardness, or niggardliness; to deal harshly with him.",
+      "usage_conditions": "A transitive conventional construction describing harsh treatment.",
+      "source_refs": [
+        "lane:entry:17248"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:form4:land",
+      "headword_arabic": "أَيْبَسَ",
+      "definition": "Of land, to have its plants or herbage dry up, or to become abundant in dry vegetation.",
+      "usage_conditions": "Used of land and its vegetation.",
+      "source_refs": [
+        "lane:entry:17249"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:form4:camel",
+      "headword_arabic": "أَيْبَسَ",
+      "definition": "Of a she-camel, to become milkless.",
+      "usage_conditions": "A specialized use describing the cessation of milk.",
+      "source_refs": [
+        "lane:entry:17249"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:form4:journey",
+      "headword_arabic": "أَيْبَسَ",
+      "definition": "Of people, to journey through the land, especially through dry land.",
+      "usage_conditions": "A conventional use describing travel in a waterless or barren tract.",
+      "source_refs": [
+        "lane:entry:17249"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:hard",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "Stiff, rigid, tough, firm, resistant to pressure, or hard.",
+      "usage_conditions": "Applied literally to hard materials such as stone and in related figurative descriptions; this is distinct from simple absence of moisture.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:palsy",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "Palsied on one side, with that half lacking sensation and movement.",
+      "usage_conditions": "A specialized bodily description.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:costive",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "Costive.",
+      "usage_conditions": "A figurative bodily application of dryness.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:intoxicated",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "So heavily intoxicated as not to speak.",
+      "usage_conditions": "A figurative description of a person rendered speechless by intoxication.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:ass",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "Of a she-ass, dry and lean.",
+      "usage_conditions": "A specialized description of an animal's condition.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:milkless",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "Of a ewe, she-goat, or woman, having no milk or having ceased to give milk.",
+      "usage_conditions": "Applied to a female animal or woman whose milk has stopped and whose udder has become dry.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:duct",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "A dry duct, used for the penis.",
+      "usage_conditions": "An anatomical usage.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:hair",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "Of hair, so dry that water or oil produces no effect on it.",
+      "usage_conditions": "A specialized description of unusually resistant, dry hair.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:sweat",
+      "headword_arabic": "يَبِيسٌ",
+      "definition": "Dry sweat; also sweat generally.",
+      "usage_conditions": "A specialized bodily usage.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:little-good",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "Of a man or woman, having little or no good, or yielding no benefit.",
+      "usage_conditions": "A figurative evaluation of a person's usefulness or benefit.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabis:disunion",
+      "headword_arabic": "يَابِسٌ",
+      "definition": "Disunion between two people; a relationship in which the bond has withered.",
+      "usage_conditions": "A figurative relational usage.",
+      "source_refs": [
+        "lane:entry:17259"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:yabasi:anatomy",
+      "headword_arabic": "يَبَاسِ",
+      "definition": "The pudendum or the anus.",
+      "usage_conditions": "An anatomical noun used as a proper-name-like expression.",
+      "source_refs": [
+        "lane:entry:17256"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:aybas:shanks",
+      "headword_arabic": "الأَيْبَسَانِ",
+      "definition": "The fleshless, dry, or tough parts of the shanks and related leg or ankle regions.",
+      "usage_conditions": "Applied to the exposed or fleshless parts of human or animal legs, including corresponding parts of a horse's legs.",
+      "source_refs": [
+        "maqayis:row:5247",
+        "lane:entry:17260"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:ayabas:sword-tests",
+      "headword_arabic": "أَيَابِسُ",
+      "definition": "Hard things upon which swords are tested.",
+      "usage_conditions": "A plural technical application to hard testing materials.",
+      "source_refs": [
+        "lane:entry:17260"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:mubisa:land",
+      "headword_arabic": "مُوبِسَةٌ",
+      "definition": "Of land, having its plants or herbage drying up or already dried.",
+      "usage_conditions": "A passive-participial description of land and its vegetation.",
+      "source_refs": [
+        "lane:entry:17261"
+      ]
+    },
+    {
+      "meaning_id": "cm:ybs:mibas:wind",
+      "headword_arabic": "مِيبَاسٌ",
+      "definition": "Very drying, of a wind.",
+      "usage_conditions": "A specialized description of a strongly desiccating wind.",
+      "source_refs": [
+        "lane:entry:17262"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ybs:17246:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:verb:dry"
+      ],
+      "note": "Core Form I drying and hardening meanings."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17246:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:verb:costive",
+        "cm:ybs:verb:disunited"
+      ],
+      "note": "Bodily and relational figurative uses."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17246:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:imperative:silence"
+      ],
+      "note": "Imperative idiom meaning cease speaking."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17247:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:form2:dry"
+      ],
+      "note": "Form II causative drying."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17247:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:form2:sever"
+      ],
+      "note": "Figurative causative use for severing a bond."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17248:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:form3:harsh"
+      ],
+      "note": "Form III harsh treatment."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17249:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:form4:land"
+      ],
+      "note": "Form IV use of land and vegetation."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17249:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:form4:camel"
+      ],
+      "note": "Form IV use for a milkless she-camel."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17249:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:form4:journey"
+      ],
+      "note": "Form IV use for journeying through dry land."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17249:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to an already stated imperative."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17249:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17250:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form V cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17251:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form VIII cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17252:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the primary drying entry."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17252:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to يَابِسٌ."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17253:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the primary drying entry."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17253:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to يَابِسٌ."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17254:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the primary drying entry."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17254:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to يَابِسٌ."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17255:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to يَابِسٌ."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17256:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the yabis discussion."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17256:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:yabasi:anatomy"
+      ],
+      "note": "Anatomical meaning of يَبَاسِ."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17257:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to يَابِسٌ."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17258:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to يَابِسٌ."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17259:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:ybs:yabis:dry",
+        "qsen:ybs:yabas:dryplace",
+        "cm:ybs:yabis:hard"
+      ],
+      "note": "Dryness, the Quran-attested dry passage, and hardness branches."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17259:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:yabis:palsy",
+        "cm:ybs:yabis:costive",
+        "cm:ybs:yabis:intoxicated",
+        "cm:ybs:yabis:ass",
+        "cm:ybs:yabis:milkless",
+        "cm:ybs:yabis:duct",
+        "cm:ybs:yabis:hair",
+        "cm:ybs:yabis:sweat",
+        "cm:ybs:yabis:little-good",
+        "cm:ybs:yabis:disunion"
+      ],
+      "note": "Specialized bodily, animal, social, and figurative uses."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17260:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Comparative and superlative formation."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17260:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Illustrative comparative example only."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17260:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the yabis discussion."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17260:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:aybas:shanks"
+      ],
+      "note": "Anatomical meaning of الأَيْبَسَانِ."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17260:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:ayabas:sword-tests"
+      ],
+      "note": "Plural technical meaning for sword-testing objects."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17261:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:mubisa:land"
+      ],
+      "note": "Adjectival description of drying land."
+    },
+    {
+      "unit_id": "lane-unit:ybs:17262:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:ybs:mibas:wind"
+      ],
+      "note": "Specialized description of a drying wind."
+    }
+  ],
+  "cautions": [
+    "The historical Quran citation notation in the lexical evidence is not converted into a modern verse reference; the modern Quran examples here use only the independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

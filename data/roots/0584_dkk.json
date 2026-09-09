@@ -1,0 +1,843 @@
+{
+  "root": "dkk",
+  "arabic": "دكك",
+  "root_idea": {
+    "summary": "The root centers on pressing, breaking down, lowering, and spreading until elevations are removed and a thing becomes compact, flat, or level.",
+    "development": "The lexical evidence distinguishes a principal development toward lowering and flattening, alongside a closely related pounding or crushing branch. These extend to level ground, compact sand, low hills, crushed objects, and several specialized derived uses.",
+    "source_refs": [
+      "maqayis:row:1796",
+      "mufradat:row:478"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:dkk:duk~ati:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dkk_dakka_verb",
+      "reason": "A Quran-attested Form I verb with distinct passive verbal usage."
+    },
+    {
+      "form_group_id": "qac-form:dkk:dak~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dkk_dakk_verbalnoun",
+      "reason": "A Quran-attested verbal noun with crushing and leveling uses."
+    },
+    {
+      "form_group_id": "qac-form:dkk:dak~aA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dkk_dakkaa",
+      "reason": "A distinct Quran-attested feminine adjective or substantivized nominal describing a level, low formation."
+    },
+    {
+      "form_group_id": "qac-form:dkk:dak~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dkk_dakka_noun",
+      "reason": "A distinct Quran-attested noun in the construction meaning a single crushing or flattening act."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "dkk_dakka_verb",
+      "form_group_ids": [
+        "qac-form:dkk:duk~ati:verb:I"
+      ],
+      "headword_arabic": "دَكَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "dkk_dakka_verb_s1",
+          "definition": "To crush, break, pound, or beat something so that it is broken down.",
+          "usage_conditions": "In the Quranic occurrences the verb is passive: the object is subjected to crushing, with the result presented as crushed or reduced to fine particles.",
+          "source_refs": [
+            "lane:entry:990"
+          ]
+        },
+        {
+          "sense_id": "dkk_dakka_verb_s2",
+          "definition": "To demolish or level something, removing its elevations and making it even.",
+          "usage_conditions": "The Quranic event may be understood as the leveling of earth or mountains, their reduction to fine dust, or the demolition of structures; these are related outcomes of the same destructive action.",
+          "source_refs": [
+            "lane:entry:990",
+            "mufradat:row:478"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "69:14",
+          "word_location": "69:14:4",
+          "sense_ids": [
+            "dkk_dakka_verb_s1"
+          ]
+        },
+        {
+          "verse_key": "89:21",
+          "word_location": "89:21:3",
+          "sense_ids": [
+            "dkk_dakka_verb_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dkk_dakk_verbalnoun",
+      "form_group_ids": [
+        "qac-form:dkk:dak~:nominal:-"
+      ],
+      "headword_arabic": "دَكّ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "dkk_dakk_verbalnoun_s1",
+          "definition": "Crushing, pounding, or breaking down; a crushing blow or act.",
+          "usage_conditions": "In the Quranic construction دَكَّةً وَاحِدَةً, the verbal noun denotes one crushing or flattening blow. It may describe an object being pounded or broken down.",
+          "source_refs": [
+            "lane:entry:990",
+            "mufradat:row:478"
+          ]
+        },
+        {
+          "sense_id": "dkk_dakk_verbalnoun_s2",
+          "definition": "Leveling or flattening, with the resulting state of smooth, soft, even ground.",
+          "usage_conditions": "The Quranic usage can describe earth or a mountain being made like low, level ground; translations may emphasize leveling, crumbling, or fine dust.",
+          "source_refs": [
+            "lane:entry:996",
+            "mufradat:row:478"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:143",
+          "word_location": "7:143:29",
+          "sense_ids": [
+            "dkk_dakk_verbalnoun_s1",
+            "dkk_dakk_verbalnoun_s2"
+          ]
+        },
+        {
+          "verse_key": "89:21",
+          "word_location": "89:21:5",
+          "sense_ids": [
+            "dkk_dakk_verbalnoun_s1"
+          ]
+        },
+        {
+          "verse_key": "89:21",
+          "word_location": "89:21:6",
+          "sense_ids": [
+            "dkk_dakk_verbalnoun_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dkk_dakkaa",
+      "form_group_ids": [
+        "qac-form:dkk:dak~aA^':nominal:-"
+      ],
+      "headword_arabic": "دَكَّاءُ",
+      "public_pos_label": "Adjective · feminine substantivized",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "dkk_dakkaa_s1",
+          "definition": "Broad, low, level, or flattened land or hill; a formation without rugged mountainous elevation.",
+          "usage_conditions": "The Quranic construction جَعَلَهُ دَكَّاءَ describes making a formation level or flattened. The feminine form may be used substantively for a low mound or tract of level ground.",
+          "source_refs": [
+            "lane:entry:1004",
+            "mufradat:row:478"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:98",
+          "word_location": "18:98:11",
+          "sense_ids": [
+            "dkk_dakkaa_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dkk_dakka_noun",
+      "form_group_ids": [
+        "qac-form:dkk:dak~ap:nominal:-"
+      ],
+      "headword_arabic": "دَكَّةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "dkk_dakka_noun_s1",
+          "definition": "A single crushing or flattening blow or act.",
+          "usage_conditions": "In فَدُكَّتَا دَكَّةً وَاحِدَةً, the noun specifies one unified crushing or leveling action; it does not have the platform meaning found in broader Classical usage.",
+          "source_refs": [
+            "lane:entry:990",
+            "mufradat:row:478"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "69:14",
+          "word_location": "69:14:5",
+          "sense_ids": [
+            "dkk_dakka_noun_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "dkk_dakka_coverearth",
+      "headword_arabic": "دَكَّ",
+      "definition": "To spread or pour earth over a roof, flat roof, or corpse.",
+      "usage_conditions": "A conventional construction for covering a surface or a burial place with earth.",
+      "source_refs": [
+        "lane:entry:990"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakka_fillwell",
+      "headword_arabic": "دَكَّ",
+      "definition": "To fill a well with earth.",
+      "usage_conditions": "Used of filling or burying a well by putting earth into it.",
+      "source_refs": [
+        "lane:entry:990"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakka_push",
+      "headword_arabic": "دَكَّ",
+      "definition": "To push or thrust someone.",
+      "usage_conditions": "A transitive use compared with verbs meaning to strike or thrust.",
+      "source_refs": [
+        "lane:entry:990"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakka_sexual",
+      "headword_arabic": "دَكَّ",
+      "definition": "To press upon a sexual partner by one's weight; to have sexual intercourse.",
+      "usage_conditions": "A specialized conventional construction describing sexual pressing or compression.",
+      "source_refs": [
+        "lane:entry:990"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakka_fatigue",
+      "headword_arabic": "دَكَّ",
+      "definition": "To fatigue or exhaust an animal by prolonged travel.",
+      "usage_conditions": "Used with an animal subjected to tiring journeying.",
+      "source_refs": [
+        "lane:entry:990"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dukk_sickverb",
+      "headword_arabic": "دُكَّ",
+      "definition": "To be weakened by fever or disease, or to become ill.",
+      "usage_conditions": "A passive or stative construction describing the person's condition under illness.",
+      "source_refs": [
+        "lane:entry:990"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakka_camelherd",
+      "headword_arabic": "دَكَّ",
+      "definition": "To send camels forth all together.",
+      "usage_conditions": "A specialized use describing the coordinated dispatch of a group of camels.",
+      "source_refs": [
+        "lane:entry:990"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakkaka_mix",
+      "headword_arabic": "دَكَّكَ",
+      "definition": "To mix colocynth with dates or another ingredient.",
+      "usage_conditions": "Used of preparing a mixture, especially the named food mixture.",
+      "source_refs": [
+        "lane:entry:991"
+      ]
+    },
+    {
+      "meaning_id": "dkk_tadaakka_crowd",
+      "headword_arabic": "تَدَاكَّ",
+      "definition": "To press or crowd upon someone or something.",
+      "usage_conditions": "Used of people, horses, or horsemen pressing together or upon a target.",
+      "source_refs": [
+        "lane:entry:992"
+      ]
+    },
+    {
+      "meaning_id": "dkk_indakka_level",
+      "headword_arabic": "اِنْدَكَّ",
+      "definition": "To become level, with elevations and depressions made even.",
+      "usage_conditions": "An intransitive change of state applied especially to a place or tract of land.",
+      "source_refs": [
+        "lane:entry:993"
+      ]
+    },
+    {
+      "meaning_id": "dkk_indakka_hump",
+      "headword_arabic": "اِنْدَكَّ",
+      "definition": "For a camel's hump to become spread over the animal's sides or back.",
+      "usage_conditions": "A specialized intransitive use describing loss of a prominent hump.",
+      "source_refs": [
+        "lane:entry:993"
+      ]
+    },
+    {
+      "meaning_id": "dkk_indakka_sand",
+      "headword_arabic": "اِنْدَكَّ",
+      "definition": "For sand to become compact.",
+      "usage_conditions": "Used of sand becoming pressed together rather than remaining loose.",
+      "source_refs": [
+        "lane:entry:993"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakdaka_covercamel",
+      "headword_arabic": "دَكْدَكَ",
+      "definition": "For a stallion-camel to cover a she-camel, pressing her by his weight.",
+      "usage_conditions": "A specialized camel-breeding construction referring to the act of covering.",
+      "source_refs": [
+        "lane:entry:994"
+      ]
+    },
+    {
+      "meaning_id": "dkk_tadakdaka_mountains",
+      "headword_arabic": "تَدَكْدَكَ",
+      "definition": "For mountains to become low hills or mounds of mould or clay.",
+      "usage_conditions": "Used of mountains losing their rugged elevation and becoming mound-like formations.",
+      "source_refs": [
+        "lane:entry:995"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakk_sand",
+      "headword_arabic": "دَكّ",
+      "definition": "Even or level sand.",
+      "usage_conditions": "A nominal use describing sand that lies flat or even.",
+      "source_refs": [
+        "lane:entry:996"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakk_mound",
+      "headword_arabic": "دَكّ",
+      "definition": "A mound or hill of dust or earth, such as a low tell.",
+      "usage_conditions": "A distinct nominal topographical use, not necessarily implying complete leveling.",
+      "source_refs": [
+        "lane:entry:996"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dukk_lowhill",
+      "headword_arabic": "دُكّ",
+      "definition": "A low mountain or elevated hill of mould or clay; also disintegrated hills or knolls.",
+      "usage_conditions": "Used for low or crumbling elevations and related landforms.",
+      "source_refs": [
+        "lane:entry:997"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dukk_strong",
+      "headword_arabic": "دُكّ",
+      "definition": "Strong and bulky.",
+      "usage_conditions": "An adjectival use describing robust physical build.",
+      "source_refs": [
+        "lane:entry:997"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakka_platform",
+      "headword_arabic": "دَكَّةٌ",
+      "definition": "An elevated place or flat-topped structure on which one sits; a wide bench or platform.",
+      "usage_conditions": "A nominal architectural and furnishing use, distinct from the Quranic noun in the expression for one crushing.",
+      "source_refs": [
+        "lane:entry:998"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakak_camel",
+      "headword_arabic": "دَكَكٌ",
+      "definition": "The condition of a camel having no hump or having a hump that is broken, bruised, or not prominent.",
+      "usage_conditions": "Applied to camels whose hump is absent, flattened, or spread rather than prominently raised.",
+      "source_refs": [
+        "lane:entry:1000",
+        "lane:entry:1001"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dukkaka_food",
+      "headword_arabic": "دُكَكَةٌ",
+      "definition": "A food made from colocynth and flour when flour is scarce.",
+      "usage_conditions": "A specialized culinary noun for the prepared mixture.",
+      "source_refs": [
+        "lane:entry:1002"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakik_complete",
+      "headword_arabic": "دَكِيكٌ",
+      "definition": "Complete or full, when applied to a year, month, or day.",
+      "usage_conditions": "A specialized adjective of periods of time.",
+      "source_refs": [
+        "lane:entry:1003"
+      ]
+    },
+    {
+      "meaning_id": "dkk_adakk_land",
+      "headword_arabic": "أَدَكُّ",
+      "definition": "Broad, flat-topped, or expanded, when applied to a hill; also even and compact, when applied to sand.",
+      "usage_conditions": "An adjectival description of low, broad landforms and compact, level sand.",
+      "source_refs": [
+        "lane:entry:1008"
+      ]
+    },
+    {
+      "meaning_id": "dkk_adakk_horse",
+      "headword_arabic": "أَدَكُّ",
+      "definition": "A horse broad and short in the back.",
+      "usage_conditions": "A specialized description of equine build.",
+      "source_refs": [
+        "lane:entry:1008"
+      ]
+    },
+    {
+      "meaning_id": "dkk_adakk_camel",
+      "headword_arabic": "أَدَكُّ",
+      "definition": "A camel whose hump is absent, not prominent, or spread over the sides.",
+      "usage_conditions": "Applied to either a male or female camel according to the cited usage.",
+      "source_refs": [
+        "lane:entry:1008"
+      ]
+    },
+    {
+      "meaning_id": "dkk_midak_strong",
+      "headword_arabic": "مِدَكّ",
+      "definition": "A strong person who treads the ground forcefully or is strong at work.",
+      "usage_conditions": "An adjectival noun for physical strength and vigorous exertion.",
+      "source_refs": [
+        "lane:entry:1009"
+      ]
+    },
+    {
+      "meaning_id": "dkk_madakkak_food",
+      "headword_arabic": "مَدَكَّكٌ",
+      "definition": "Colocynth eaten with dates or another food.",
+      "usage_conditions": "A specialized descriptive noun or adjective for the prepared food.",
+      "source_refs": [
+        "lane:entry:1010"
+      ]
+    },
+    {
+      "meaning_id": "dkk_madkook_crushed",
+      "headword_arabic": "مَدْكُوكٌ",
+      "definition": "Broken, crushed, bruised, or pounded.",
+      "usage_conditions": "The passive participle describes an object subjected to the action of دَكَّ.",
+      "source_refs": [
+        "lane:entry:1011"
+      ]
+    },
+    {
+      "meaning_id": "dkk_madkook_land",
+      "headword_arabic": "مَدْكُوكٌ",
+      "definition": "Land without elevations, producing the shrub called رِمْث.",
+      "usage_conditions": "A specialized description of flat land in the cited environmental usage.",
+      "source_refs": [
+        "lane:entry:1011"
+      ]
+    },
+    {
+      "meaning_id": "dkk_madkook_horse",
+      "headword_arabic": "مَدْكُوكٌ",
+      "definition": "A horse lacking prominence in the crest of the hip or haunch.",
+      "usage_conditions": "A specialized description of equine bodily form.",
+      "source_refs": [
+        "lane:entry:1011"
+      ]
+    },
+    {
+      "meaning_id": "dkk_madkook_sick",
+      "headword_arabic": "مَدْكُوكٌ",
+      "definition": "Weakened by fever or disease; sick or ill.",
+      "usage_conditions": "Applied to a person whose strength has been reduced by illness.",
+      "source_refs": [
+        "lane:entry:1011"
+      ]
+    },
+    {
+      "meaning_id": "dkk_mudakdaka_land",
+      "headword_arabic": "مُدَكْدَكَةٌ",
+      "definition": "Land marred and trampled by heavy human and livestock traffic.",
+      "usage_conditions": "The cited use describes land containing abundant tracks and animal urine and disliked for that reason, except when rain makes it a necessary gathering place.",
+      "source_refs": [
+        "lane:entry:1012"
+      ]
+    },
+    {
+      "meaning_id": "dkk_dakdak_land",
+      "headword_arabic": "دَكْدَاكٌ",
+      "definition": "Compact, low, and level sand or land; a tract whose surface is pressed together and not much elevated, including a low even tract or land with some ruggedness.",
+      "usage_conditions": "A specialized topographical description applied to sand and to low or depressed tracts of land; the evidence groups compactness, lack of elevation, evenness, and limited ruggedness under this headword.",
+      "source_refs": [
+        "lane:entry:1007"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:dkk:990:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakka_verb_s1",
+        "dkk_dakka_verb_s2"
+      ],
+      "note": "Crushing, demolition, and leveling are represented in the Quranic verb senses."
+    },
+    {
+      "unit_id": "lane-unit:dkk:990:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakka_coverearth"
+      ],
+      "note": "Earth-spreading and pouring construction represented separately."
+    },
+    {
+      "unit_id": "lane-unit:dkk:990:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakka_fillwell"
+      ],
+      "note": "Filling a well with earth represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:990:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakka_push"
+      ],
+      "note": "Pushing or thrusting represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:990:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakka_sexual",
+        "dkk_dakka_fatigue",
+        "dkk_dukk_sickverb"
+      ],
+      "note": "Sexual pressing, animal fatigue, and illness are separately represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:990:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakka_camelherd"
+      ],
+      "note": "Sending camels together represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:991:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakkaka_mix"
+      ],
+      "note": "Mixing colocynth with dates or another ingredient represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:992:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_tadaakka_crowd"
+      ],
+      "note": "Crowding or pressing upon someone represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:993:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_indakka_level"
+      ],
+      "note": "A place becoming level represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:993:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_indakka_hump"
+      ],
+      "note": "A camel hump spreading over the back represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:993:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_indakka_sand"
+      ],
+      "note": "Sand becoming compact represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:994:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dkk:994:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakdaka_covercamel"
+      ],
+      "note": "Specific stallion-camel covering construction represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:995:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_tadakdaka_mountains"
+      ],
+      "note": "Mountains becoming low clay or mould hills represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:996:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakk_verbalnoun_s2",
+        "dkk_dakkaa_s1"
+      ],
+      "note": "Level ground and the low, flattened formation are represented in the Quranic entries."
+    },
+    {
+      "unit_id": "lane-unit:dkk:996:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakk_sand"
+      ],
+      "note": "Even or level sand represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:996:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakk_mound"
+      ],
+      "note": "A dust or earth mound represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:997:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dukk_lowhill"
+      ],
+      "note": "Low or disintegrating hills represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:997:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dkk:997:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dukk_strong"
+      ],
+      "note": "Strong and bulky represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:998:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakka_platform"
+      ],
+      "note": "Elevated sitting platform or bench represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:998:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dkk:999:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dkk:999:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dialectal substitution note without an independent دكك lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1000:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakak_camel"
+      ],
+      "note": "Camel condition involving an absent or nonprominent hump represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1001:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "dkk_dakak_camel"
+      ],
+      "note": "The plural camel usage is covered by the broader camel-condition entry."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1002:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dukkaka_food"
+      ],
+      "note": "Colocynth-and-flour food represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1003:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakik_complete"
+      ],
+      "note": "Complete time period represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1004:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakkaa_s1"
+      ],
+      "note": "The low, non-rugged clay hill sense is represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1005:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1006:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1007:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_dakdak_land"
+      ],
+      "note": "Compact, low, level, and pressed sand or land under the دَكْدَاكٌ headword represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1008:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_adakk_land"
+      ],
+      "note": "Broad or flat-topped hills and compact even sand represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1008:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_adakk_horse"
+      ],
+      "note": "Horse conformation represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1008:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_adakk_camel"
+      ],
+      "note": "Camel conformation represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1009:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_midak_strong"
+      ],
+      "note": "Strong person or vigorous worker represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1009:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Dialectal pointer to another lexical item without a stated independent meaning."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1010:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_madakkak_food"
+      ],
+      "note": "Colocynth eaten with dates or another food represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1011:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_madkook_crushed"
+      ],
+      "note": "Crushed or broken passive participle represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1011:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_madkook_land"
+      ],
+      "note": "Specialized flat-land description represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1011:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_madkook_horse"
+      ],
+      "note": "Horse conformation represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1011:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_madkook_sick"
+      ],
+      "note": "Illness and weakness represented."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1011:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dkk:1012:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dkk_mudakdaka_land"
+      ],
+      "note": "Land marred by heavy traffic and livestock use represented."
+    }
+  ],
+  "cautions": [
+    "Quranic translations alternate among crushed, pounded, leveled, and reduced to dust; the evidence supports related crushing and flattening outcomes rather than treating every English rendering as a separate lexical sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

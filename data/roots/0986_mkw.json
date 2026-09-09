@@ -1,0 +1,76 @@
+{
+  "root": "mkw",
+  "arabic": "مكو",
+  "root_idea": {
+    "summary": "The supplied evidence centers on producing a whistling sound, especially the call of a bird.",
+    "development": "The lexical discussion connects the bird's whistling with the Quranic description of a human ritual sound as bird-like and of little benefit; it also records a related bird-name formed from the same lexical complex.",
+    "source_refs": [
+      "mufradat:row:1380"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mkw:mukaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "mkw-mukaa",
+      "reason": "Quran-attested verbal noun meaning whistling; presented under its normalized lexical citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "mkw-mukaa",
+      "form_group_ids": [
+        "qac-form:mkw:mukaA^':nominal:-"
+      ],
+      "headword_arabic": "مُكَاء",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "mkw-mukaa-s1",
+          "definition": "Whistling; a bird-like whistling sound or performance.",
+          "usage_conditions": "In the Quranic construction, this is coordinated with تصدية and describes the sound treated by the unbelievers as their prayer at the Sacred House, characterized as having little devotional benefit.",
+          "source_refs": [
+            "mufradat:row:1380"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:35",
+          "word_location": "8:35:7",
+          "sense_ids": [
+            "mkw-mukaa-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "mkw-mukkaa-bird",
+      "headword_arabic": "مُكَّاء",
+      "definition": "A bird so called because of its colour.",
+      "usage_conditions": "A distinct nominal bird-name, not the Quranic verbal noun مُكَاء.",
+      "source_refs": [
+        "lane:entry:5797",
+        "mufradat:row:1380"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mkw:5797:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "mkw-mukkaa-bird"
+      ],
+      "note": "Defines مُكَّاء as a bird named for its colour."
+    }
+  ],
+  "cautions": [
+    "The Quranic verbal noun مُكَاء meaning whistling should be distinguished from the separately attested bird-name مُكَّاء."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

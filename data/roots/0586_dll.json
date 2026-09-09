@@ -1,0 +1,928 @@
+{
+  "root": "dll",
+  "arabic": "دلل",
+  "root_idea": {
+    "summary": "The root has two principal semantic orientations: making something known through a sign or indication, and movement or disturbance.",
+    "development": "The first orientation yields directing, guiding, indicating, evidence, and signification. The second yields dangling, agitation, wavering, and figurative bodily or social movement; related lexical extensions include boldness and presumptuous behavior.",
+    "source_refs": [
+      "maqayis:row:1802",
+      "mufradat:row:479"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:dll:dal~a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dll_v1_dalla",
+      "reason": "The Form I verb is a distinct Quran-attested lexical form."
+    },
+    {
+      "form_group_id": "qac-form:dll:daliyl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dll_n1_dalil",
+      "reason": "The Quran-attested noun is presented under its normalized citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "dll_v1_dalla",
+      "form_group_ids": [
+        "qac-form:dll:dal~a:verb:I"
+      ],
+      "headword_arabic": "دَلَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "dll_v1_dalla_s1",
+          "definition": "To direct, guide, show, or indicate something to someone.",
+          "usage_conditions": "Used for directing someone toward a way, thing, person, or knowledge, including indicating a matter to those who learn of it.",
+          "source_refs": [
+            "lane:entry:1022",
+            "mufradat:row:479"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "34:14",
+          "word_location": "34:14:6",
+          "sense_ids": [
+            "dll_v1_dalla_s1"
+          ]
+        },
+        {
+          "verse_key": "20:120",
+          "word_location": "20:120:7",
+          "sense_ids": [
+            "dll_v1_dalla_s1"
+          ]
+        },
+        {
+          "verse_key": "61:10",
+          "word_location": "61:10:5",
+          "sense_ids": [
+            "dll_v1_dalla_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dll_n1_dalil",
+      "form_group_ids": [
+        "qac-form:dll:daliyl:nominal:-"
+      ],
+      "headword_arabic": "دَلِيلٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "dll_n1_dalil_s1",
+          "definition": "An indication or sign by which something is known or guidance is obtained.",
+          "usage_conditions": "A thing may function as a دليل when it makes another thing knowable or directs attention toward it; the Quranic occurrence uses this sense of an indication.",
+          "source_refs": [
+            "lane:entry:1036",
+            "mufradat:row:479"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:45",
+          "word_location": "25:45:16",
+          "sense_ids": [
+            "dll_n1_dalil_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_dall_amorous",
+      "headword_arabic": "دَلَّ، دَلٌّ",
+      "definition": "Amorous or coquettish behavior, including pleasing talk, jesting, gesture, or mien.",
+      "usage_conditions": "Reported especially of a woman toward her husband, and also of a man in conduct toward his wife.",
+      "source_refs": [
+        "lane:entry:1022",
+        "lane:entry:1031"
+      ]
+    },
+    {
+      "meaning_id": "cm_dall_boast",
+      "headword_arabic": "دَلَّ",
+      "definition": "To glory in or boast of particular qualities or properties.",
+      "usage_conditions": "A distinct classical use of the Form I verb.",
+      "source_refs": [
+        "lane:entry:1022"
+      ]
+    },
+    {
+      "meaning_id": "cm_dall_gift",
+      "headword_arabic": "دَلَّ",
+      "definition": "To favor someone with or confer a gift or benefit.",
+      "usage_conditions": "The object is a gift or benefit bestowed on another.",
+      "source_refs": [
+        "lane:entry:1022"
+      ]
+    },
+    {
+      "meaning_id": "cm_dall_embolden",
+      "headword_arabic": "دَلَّ",
+      "definition": "To embolden someone or make that person presume against another.",
+      "usage_conditions": "Used in constructions expressing what has emboldened someone to act against another.",
+      "source_refs": [
+        "lane:entry:1022"
+      ]
+    },
+    {
+      "meaning_id": "cm_adalla_bold",
+      "headword_arabic": "أَدَلَّ",
+      "definition": "To act boldly or presumptuously toward someone.",
+      "usage_conditions": "The boldness is directed toward another person.",
+      "source_refs": [
+        "lane:entry:1024"
+      ]
+    },
+    {
+      "meaning_id": "cm_adalla_confidence",
+      "headword_arabic": "أَدَلَّ",
+      "definition": "To presume on another's love or confidence, or to confide in someone.",
+      "usage_conditions": "This use expresses confidence in the affection or support of the person concerned.",
+      "source_refs": [
+        "lane:entry:1024"
+      ]
+    },
+    {
+      "meaning_id": "cm_adalla_overcome",
+      "headword_arabic": "أَدَلَّ",
+      "definition": "To overcome or overpower an adversary, literally taking him from above.",
+      "usage_conditions": "Used of combat, war, or a predator overcoming its prey.",
+      "source_refs": [
+        "lane:entry:1024"
+      ]
+    },
+    {
+      "meaning_id": "cm_adalla_wolf",
+      "headword_arabic": "أَدَلَّ",
+      "definition": "Of a wolf, to become mangy or scabby, lean, emaciated, and small-bodied.",
+      "usage_conditions": "A specialized lexical use reported specifically of a wolf.",
+      "source_refs": [
+        "lane:entry:1024"
+      ]
+    },
+    {
+      "meaning_id": "cm_tadallala_haughty",
+      "headword_arabic": "تَدَلَّلَ",
+      "definition": "To exalt oneself or become haughty, proud, or disdainful.",
+      "usage_conditions": "Used of behaving arrogantly or disdainfully toward an authority or another person.",
+      "source_refs": [
+        "lane:entry:1025"
+      ]
+    },
+    {
+      "meaning_id": "cm_andalla_pour",
+      "headword_arabic": "اِنْدَلَّ",
+      "definition": "To pour out or forth, or to become poured out or forth.",
+      "usage_conditions": "An intransitive Form VII use describing something issuing or flowing out.",
+      "source_refs": [
+        "lane:entry:1026"
+      ]
+    },
+    {
+      "meaning_id": "cm_istadalla_evidence",
+      "headword_arabic": "اِسْتَدَلَّ",
+      "definition": "To seek, use, adduce, or regard something as an indication, evidence, proof, or argument, and thereby infer or deduce another thing.",
+      "usage_conditions": "The construction commonly relates one thing used as evidence to another thing inferred or established.",
+      "source_refs": [
+        "lane:entry:1028"
+      ]
+    },
+    {
+      "meaning_id": "cm_istadalla_guided",
+      "headword_arabic": "اِسْتَدَلَّ",
+      "definition": "To be guided, or to guide oneself, by one thing to another thing or to knowledge of it.",
+      "usage_conditions": "A quasi-passive or reflexive use of the Form X verb.",
+      "source_refs": [
+        "lane:entry:1028"
+      ]
+    },
+    {
+      "meaning_id": "cm_daldala_motion",
+      "headword_arabic": "دَلْدَلَ",
+      "definition": "To put a suspended thing into motion or commotion, or to move the head and limbs while walking.",
+      "usage_conditions": "A transitive reduplicated form describing movement of something suspended or bodily movement.",
+      "source_refs": [
+        "lane:entry:1029"
+      ]
+    },
+    {
+      "meaning_id": "cm_daldala_depart",
+      "headword_arabic": "دَلْدَلَ",
+      "definition": "To go away into the country or land.",
+      "usage_conditions": "An idiomatic use in the construction دَلْدَلَ فِي الأَرْضِ.",
+      "source_refs": [
+        "lane:entry:1029"
+      ]
+    },
+    {
+      "meaning_id": "cm_tadaldala_dangle",
+      "headword_arabic": "تَدَلْدَلَ",
+      "definition": "To move or hang down loosely; to dangle.",
+      "usage_conditions": "An intransitive description of something suspended and moving or hanging down.",
+      "source_refs": [
+        "lane:entry:1030"
+      ]
+    },
+    {
+      "meaning_id": "cm_tadaldala_waver",
+      "headword_arabic": "تَدَلْدَلَ",
+      "definition": "To waver, vacillate, or remain suspended between two affairs without pursuing a direct course.",
+      "usage_conditions": "A figurative extension of hanging or suspended movement.",
+      "source_refs": [
+        "lane:entry:1030"
+      ]
+    },
+    {
+      "meaning_id": "cm_dall_deportment",
+      "headword_arabic": "دَلٌّ",
+      "definition": "A calm, placid, grave, and pleasing manner of deportment or mien.",
+      "usage_conditions": "Used of a person's manner, aspect, or natural disposition.",
+      "source_refs": [
+        "lane:entry:1031"
+      ]
+    },
+    {
+      "meaning_id": "cm_dall_boldness",
+      "headword_arabic": "دَلٌّ",
+      "definition": "Boldness or presumptuousness toward a person whose esteem, affection, or love one possesses.",
+      "usage_conditions": "A noun associated with the corresponding Form IV usage.",
+      "source_refs": [
+        "lane:entry:1031"
+      ]
+    },
+    {
+      "meaning_id": "cm_dulla_favor",
+      "headword_arabic": "دُلَّةٌ",
+      "definition": "A favor or benefit conferred or bestowed.",
+      "usage_conditions": "A noun denoting the bestowed favor itself.",
+      "source_refs": [
+        "lane:entry:1033"
+      ]
+    },
+    {
+      "meaning_id": "cm_dalil_human_guide",
+      "headword_arabic": "دَلِيلٌ",
+      "definition": "A director, guide, or person who directs another toward what is sought.",
+      "usage_conditions": "Used particularly of a rational guide or leader.",
+      "source_refs": [
+        "lane:entry:1036"
+      ]
+    },
+    {
+      "meaning_id": "cm_dalil_proof",
+      "headword_arabic": "دَلِيلٌ",
+      "definition": "An evidence, proof, argument, or sign by which a matter is established or discovered.",
+      "usage_conditions": "The evidence may concern a sensory matter, a legal matter, or another object of knowledge, and may be decisive or indecisive.",
+      "source_refs": [
+        "lane:entry:1036"
+      ]
+    },
+    {
+      "meaning_id": "cm_dalala_semantics",
+      "headword_arabic": "دَلَالَةٌ",
+      "definition": "The signification or indication of a word or expression.",
+      "usage_conditions": "In technical usage, signification may be by complete correspondence, partial inclusion, or a necessary implication.",
+      "source_refs": [
+        "lane:entry:1037"
+      ]
+    },
+    {
+      "meaning_id": "cm_dilala_skill",
+      "headword_arabic": "دِلَالَةٌ",
+      "definition": "Direction, right guidance, or the skill and practiced ability of a guide.",
+      "usage_conditions": "The word can denote either the act or quality of guiding, or a guide's well-grounded skill in finding the way.",
+      "source_refs": [
+        "lane:entry:1038"
+      ]
+    },
+    {
+      "meaning_id": "cm_dilala_brokerage",
+      "headword_arabic": "دِلَالَةٌ",
+      "definition": "The occupation or service of a broker or intermediary.",
+      "usage_conditions": "A commercial use connected with bringing a seller and buyer together.",
+      "source_refs": [
+        "lane:entry:1038"
+      ]
+    },
+    {
+      "meaning_id": "cm_dilala_hire",
+      "headword_arabic": "دِلَالَةٌ",
+      "definition": "The fee paid to a guide or broker.",
+      "usage_conditions": "A commercial or service payment associated with guiding or brokerage.",
+      "source_refs": [
+        "lane:entry:1038"
+      ]
+    },
+    {
+      "meaning_id": "cm_dulla_road",
+      "headword_arabic": "دُلَّى",
+      "definition": "A conspicuous road or beaten track.",
+      "usage_conditions": "One reported variety specifies a white road or beaten track.",
+      "source_refs": [
+        "lane:entry:1041"
+      ]
+    },
+    {
+      "meaning_id": "cm_dallal_broker",
+      "headword_arabic": "دَلَّالٌ",
+      "definition": "A broker or intermediary who brings a seller and buyer together to effect a sale.",
+      "usage_conditions": "The broker directs the purchaser to the merchandise and the seller to the price.",
+      "source_refs": [
+        "lane:entry:1042"
+      ]
+    },
+    {
+      "meaning_id": "cm_duldul_waver",
+      "headword_arabic": "دُلْدُلٌ",
+      "definition": "A person or group wavering or vacillating between two affairs without taking a direct course.",
+      "usage_conditions": "Also used of coming or proceeding while wavering and inclining to neither side.",
+      "source_refs": [
+        "lane:entry:1044"
+      ]
+    },
+    {
+      "meaning_id": "cm_duldul_affair",
+      "headword_arabic": "دُلْدُلٌ",
+      "definition": "A grave, difficult, formidable, or momentous affair.",
+      "usage_conditions": "Used of a situation into which people fall and which is difficult to resolve.",
+      "source_refs": [
+        "lane:entry:1044"
+      ]
+    },
+    {
+      "meaning_id": "cm_duldul_hedgehog",
+      "headword_arabic": "دُلْدُلٌ",
+      "definition": "A hedgehog or a related large, long-spined animal.",
+      "usage_conditions": "Lexicographers distinguish among a large hedgehog, a male hedgehog, and a similar spiny beast.",
+      "source_refs": [
+        "lane:entry:1044"
+      ]
+    },
+    {
+      "meaning_id": "cm_duldul_mule",
+      "headword_arabic": "دُلْدُلٌ",
+      "definition": "The name of a particular mule.",
+      "usage_conditions": "A proper name for a mule described as predominantly white over black.",
+      "source_refs": [
+        "lane:entry:1044"
+      ]
+    },
+    {
+      "meaning_id": "cm_daldal_agitation",
+      "headword_arabic": "دَلْدَالٌ",
+      "definition": "Motion, commotion, agitation, convulsion, tumult, or disturbance.",
+      "usage_conditions": "A noun derived from the movement sense of دَلْدَلَ.",
+      "source_refs": [
+        "lane:entry:1045"
+      ]
+    },
+    {
+      "meaning_id": "cm_daldal_disorder",
+      "headword_arabic": "دَلْدَالٌ",
+      "definition": "A disordered, unsteady, or fluctuating state of affairs.",
+      "usage_conditions": "Used figuratively of affairs that have become unsound or unstable.",
+      "source_refs": [
+        "lane:entry:1045"
+      ]
+    },
+    {
+      "meaning_id": "cm_adall_beneficent",
+      "headword_arabic": "أَدَلٌّ",
+      "definition": "Very bountiful or beneficent.",
+      "usage_conditions": "An adjectival use reported as a distinct lexical item.",
+      "source_refs": [
+        "lane:entry:1050"
+      ]
+    },
+    {
+      "meaning_id": "cm_istidlali_inferential",
+      "headword_arabic": "اِسْتِدْلَالِيٌّ",
+      "definition": "Inferential, illative, or deductive knowledge.",
+      "usage_conditions": "A technical term for knowledge reached through reflection and examination of evidence, opposed to immediate or intuitive knowledge.",
+      "source_refs": [
+        "lane:entry:1051"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudill_bold",
+      "headword_arabic": "مُدِلٌّ",
+      "definition": "Bold, daring, or presumptuous, especially one trusting in himself, his courage, weapons, or equipment.",
+      "usage_conditions": "An active-participial description of a person acting with confident boldness.",
+      "source_refs": [
+        "lane:entry:1052"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudallala_foster",
+      "headword_arabic": "مُدَلَّلَةٌ",
+      "definition": "In a Baghdadi expression, a foster-child or child under the care of a particular man.",
+      "usage_conditions": "The cited source explicitly identifies this as a Baghdadi usage rather than Classical Arabic.",
+      "source_refs": [
+        "lane:entry:1053"
+      ]
+    },
+    {
+      "meaning_id": "cm_mudallil_accuser",
+      "headword_arabic": "مُدَلِّلٌ",
+      "definition": "One who wrongfully accuses someone of a crime, offense, or injurious act.",
+      "usage_conditions": "A specialized active-participial use.",
+      "source_refs": [
+        "lane:entry:1054"
+      ]
+    },
+    {
+      "meaning_id": "cm_madlul_guided",
+      "headword_arabic": "مَدْلُولٌ",
+      "definition": "Directed, rightly directed, or guided.",
+      "usage_conditions": "The passive participle may describe one who has been directed or guided.",
+      "source_refs": [
+        "lane:entry:1055"
+      ]
+    },
+    {
+      "meaning_id": "cm_madlul_signified",
+      "headword_arabic": "مَدْلُولٌ",
+      "definition": "Indicated, denoted, or signified; the meaning indicated by a word.",
+      "usage_conditions": "Especially used in the expression مَدْلُولُ لَفْظٍ for the signified meaning of an expression.",
+      "source_refs": [
+        "lane:entry:1055"
+      ]
+    },
+    {
+      "meaning_id": "cm_madlul_emboldened",
+      "headword_arabic": "مَدْلُولٌ",
+      "definition": "Emboldened.",
+      "usage_conditions": "A separate passive-participial extension of the root's boldness branch.",
+      "source_refs": [
+        "lane:entry:1055"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:dll:1022:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dll_v1_dalla_s1"
+      ],
+      "note": "Direction, guidance, and indication."
+    },
+    {
+      "unit_id": "lane-unit:dll:1022:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "dll_v1_dalla_s1"
+      ],
+      "note": "Being directed or knowing a way is covered by the guidance sense."
+    },
+    {
+      "unit_id": "lane-unit:dll:1022:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dall_amorous"
+      ],
+      "note": "Amorous or coquettish behavior."
+    },
+    {
+      "unit_id": "lane-unit:dll:1022:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dall_boast"
+      ],
+      "note": "Boasting of qualities."
+    },
+    {
+      "unit_id": "lane-unit:dll:1022:g3:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dall_gift"
+      ],
+      "note": "Conferring a gift."
+    },
+    {
+      "unit_id": "lane-unit:dll:1022:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dall_embolden"
+      ],
+      "note": "Emboldening another."
+    },
+    {
+      "unit_id": "lane-unit:dll:1023:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dll:1023:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to an external entry."
+    },
+    {
+      "unit_id": "lane-unit:dll:1024:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dll:1024:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adalla_bold"
+      ],
+      "note": "Bold or presumptuous conduct."
+    },
+    {
+      "unit_id": "lane-unit:dll:1024:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adalla_confidence"
+      ],
+      "note": "Presumption based on another's love."
+    },
+    {
+      "unit_id": "lane-unit:dll:1024:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adalla_confidence"
+      ],
+      "note": "Confiding in another."
+    },
+    {
+      "unit_id": "lane-unit:dll:1024:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adalla_overcome"
+      ],
+      "note": "Overcoming an adversary."
+    },
+    {
+      "unit_id": "lane-unit:dll:1024:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adalla_wolf"
+      ],
+      "note": "Specialized description of a wolf."
+    },
+    {
+      "unit_id": "lane-unit:dll:1025:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tadallala_haughty"
+      ],
+      "note": "Haughtiness and self-exaltation."
+    },
+    {
+      "unit_id": "lane-unit:dll:1026:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dll:1026:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_andalla_pour"
+      ],
+      "note": "Pouring out or forth."
+    },
+    {
+      "unit_id": "lane-unit:dll:1027:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dll:1028:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istadalla_evidence",
+        "cm_istadalla_guided"
+      ],
+      "note": "Seeking or using evidence, inference, and quasi-passive guidance."
+    },
+    {
+      "unit_id": "lane-unit:dll:1029:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daldala_motion"
+      ],
+      "note": "Moving a suspended thing or bodily limbs."
+    },
+    {
+      "unit_id": "lane-unit:dll:1029:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daldala_depart"
+      ],
+      "note": "Going away into the land."
+    },
+    {
+      "unit_id": "lane-unit:dll:1030:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tadaldala_dangle"
+      ],
+      "note": "Dangling or hanging down."
+    },
+    {
+      "unit_id": "lane-unit:dll:1030:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tadaldala_waver"
+      ],
+      "note": "Figurative wavering between affairs."
+    },
+    {
+      "unit_id": "lane-unit:dll:1031:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dall_amorous",
+        "cm_dall_deportment",
+        "cm_dall_boldness"
+      ],
+      "note": "Amorous behavior, pleasing or grave deportment, and presumptuous boldness."
+    },
+    {
+      "unit_id": "lane-unit:dll:1031:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Arabicized Persian loanword and etymological/editorial note."
+    },
+    {
+      "unit_id": "lane-unit:dll:1032:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial report that the proposed sense is not found in the cited works."
+    },
+    {
+      "unit_id": "lane-unit:dll:1033:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dulla_favor"
+      ],
+      "note": "A favor or benefit."
+    },
+    {
+      "unit_id": "lane-unit:dll:1034:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دَلٌّ."
+    },
+    {
+      "unit_id": "lane-unit:dll:1035:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دَلٌّ."
+    },
+    {
+      "unit_id": "lane-unit:dll:1036:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dll_n1_dalil_s1",
+        "cm_dalil_human_guide",
+        "cm_dalil_proof"
+      ],
+      "note": "Human guide, sign, evidence, proof, and indication."
+    },
+    {
+      "unit_id": "lane-unit:dll:1037:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:dll:1037:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:dll:1037:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dalala_semantics"
+      ],
+      "note": "Technical signification of words."
+    },
+    {
+      "unit_id": "lane-unit:dll:1038:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dilala_skill"
+      ],
+      "note": "Guidance and the skill of guiding."
+    },
+    {
+      "unit_id": "lane-unit:dll:1038:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dilala_brokerage"
+      ],
+      "note": "Occupation of a broker."
+    },
+    {
+      "unit_id": "lane-unit:dll:1038:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dilala_hire"
+      ],
+      "note": "Fee paid to a guide or broker."
+    },
+    {
+      "unit_id": "lane-unit:dll:1039:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Definition identifies an infinitive noun and points to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:dll:1040:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دَلِيلٌ."
+    },
+    {
+      "unit_id": "lane-unit:dll:1040:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:dll:1041:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dulla_road"
+      ],
+      "note": "Conspicuous or beaten road."
+    },
+    {
+      "unit_id": "lane-unit:dll:1042:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_dallal_broker"
+      ],
+      "note": "Commercial broker or intermediary."
+    },
+    {
+      "unit_id": "lane-unit:dll:1043:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دَلِيلٌ."
+    },
+    {
+      "unit_id": "lane-unit:dll:1043:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دِلَالَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:dll:1044:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_duldul_waver"
+      ],
+      "note": "Wavering or suspended conduct."
+    },
+    {
+      "unit_id": "lane-unit:dll:1044:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_duldul_affair"
+      ],
+      "note": "A formidable affair."
+    },
+    {
+      "unit_id": "lane-unit:dll:1044:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_duldul_hedgehog"
+      ],
+      "note": "Hedgehog or related spiny animal."
+    },
+    {
+      "unit_id": "lane-unit:dll:1044:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_duldul_mule"
+      ],
+      "note": "Name of a particular mule."
+    },
+    {
+      "unit_id": "lane-unit:dll:1045:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_daldal_agitation",
+        "cm_daldal_disorder"
+      ],
+      "note": "Physical agitation and figurative disorder."
+    },
+    {
+      "unit_id": "lane-unit:dll:1045:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another signification."
+    },
+    {
+      "unit_id": "lane-unit:dll:1046:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دُلْدُلٌ."
+    },
+    {
+      "unit_id": "lane-unit:dll:1047:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دَلِيلٌ."
+    },
+    {
+      "unit_id": "lane-unit:dll:1048:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دَلٌّ."
+    },
+    {
+      "unit_id": "lane-unit:dll:1049:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دَلٌّ."
+    },
+    {
+      "unit_id": "lane-unit:dll:1050:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_adall_beneficent"
+      ],
+      "note": "Bountiful or beneficent."
+    },
+    {
+      "unit_id": "lane-unit:dll:1051:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istidlali_inferential"
+      ],
+      "note": "Technical inferential knowledge."
+    },
+    {
+      "unit_id": "lane-unit:dll:1052:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudill_bold"
+      ],
+      "note": "Confident or presumptuous boldness."
+    },
+    {
+      "unit_id": "lane-unit:dll:1053:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudallala_foster"
+      ],
+      "note": "Non-Classical Baghdadi foster-child usage is explicitly labeled in the target."
+    },
+    {
+      "unit_id": "lane-unit:dll:1054:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mudallil_accuser"
+      ],
+      "note": "Wrongful accuser."
+    },
+    {
+      "unit_id": "lane-unit:dll:1055:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_madlul_guided",
+        "cm_madlul_signified"
+      ],
+      "note": "Directed or guided, and indicated or signified."
+    },
+    {
+      "unit_id": "lane-unit:dll:1055:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_madlul_emboldened"
+      ],
+      "note": "Emboldened."
+    }
+  ],
+  "cautions": [
+    "The Lane material is attached to the contracted root دل, which is the supplied Lane match for canonical QAC root دلل.",
+    "The Quran Foundation gloss for 7:22, “So he made both of them fall,” has no independent form-level lexical explanation in the supplied Lane or Mufradat evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The 7:22 verb occurrence is retained in the QAC accounting but not assigned a separate Quranic sense: its contextual gloss suggests causing a fall, while the supplied direct lexical sources do not independently establish that usage for دَلَّ."
+  ]
+}

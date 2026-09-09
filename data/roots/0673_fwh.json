@@ -1,0 +1,759 @@
+{
+  "root": "fwh",
+  "arabic": "فوه",
+  "root_idea": {
+    "summary": "An underlying idea of opening or expansion, especially the opening of the mouth; hence the mouth, utterance, and openings such as the mouth of a river.",
+    "development": "The root develops from physical opening and breadth to speaking or emitting words, to openings or foremost entrances of places. The designation of perfume and aromatics is explained through the idea of fragrance as if it were speaking or issuing forth.",
+    "source_refs": [
+      "maqayis:row:3680"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fwh:>afowa`h:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fwh-fuh",
+      "reason": "The Quranic plural is normalized to the classical singular citation form فُوهٌ."
+    },
+    {
+      "form_group_id": "qac-form:fwh:faA:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "fwh-fuh",
+      "reason": "فَاهُ is an inflected form of the same mouth noun represented by the normalized headword فُوهٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "fwh-fuh",
+      "form_group_ids": [
+        "qac-form:fwh:>afowa`h:nominal:-",
+        "qac-form:fwh:faA:nominal:-"
+      ],
+      "headword_arabic": "فُوهٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 13,
+      "senses": [
+        {
+          "sense_id": "fwh-fuh-s1",
+          "definition": "Mouth; the bodily organ of speech.",
+          "usage_conditions": "The form occurs in both plural and singular inflected usage. It may denote the mouth in a literal bodily action or situation.",
+          "source_refs": [
+            "lane:entry:35285",
+            "mufradat:row:1146"
+          ]
+        },
+        {
+          "sense_id": "fwh-fuh-s2",
+          "definition": "An outward spoken claim or profession issuing from the mouth, especially one that does not correspond to the heart; hence, in the relevant Quranic constructions, an indication of falsehood or insincerity.",
+          "usage_conditions": "This figurative sense is specific to constructions that attach speech or profession to the mouth while contrasting it with inward belief or the heart; it does not apply to every literal occurrence of mouth.",
+          "source_refs": [
+            "mufradat:row:1146"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "13:14",
+          "word_location": "13:14:18",
+          "sense_ids": [
+            "fwh-fuh-s1"
+          ]
+        },
+        {
+          "verse_key": "14:9",
+          "word_location": "14:9:24",
+          "sense_ids": [
+            "fwh-fuh-s1"
+          ]
+        },
+        {
+          "verse_key": "3:167",
+          "word_location": "3:167:25",
+          "sense_ids": [
+            "fwh-fuh-s2"
+          ]
+        },
+        {
+          "verse_key": "5:41",
+          "word_location": "5:41:13",
+          "sense_ids": [
+            "fwh-fuh-s2"
+          ]
+        },
+        {
+          "verse_key": "18:5",
+          "word_location": "18:5:12",
+          "sense_ids": [
+            "fwh-fuh-s2"
+          ]
+        },
+        {
+          "verse_key": "24:15",
+          "word_location": "24:15:5",
+          "sense_ids": [
+            "fwh-fuh-s2"
+          ]
+        },
+        {
+          "verse_key": "33:4",
+          "word_location": "33:4:22",
+          "sense_ids": [
+            "fwh-fuh-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-fwh-faha-say",
+      "headword_arabic": "فَاهَ",
+      "definition": "To utter or pronounce a saying; to mention or give voice to something.",
+      "usage_conditions": "Used with بِهِ for the saying or matter uttered.",
+      "source_refs": [
+        "lane:entry:35278"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fawah-wide",
+      "headword_arabic": "فَوِهَ / فَوَهٌ",
+      "definition": "To have a wide or large mouth; also, to have protruding or elongated teeth, especially the upper central incisors.",
+      "usage_conditions": "The term may refer to width of the mouth, protrusion of the teeth from the lips, or the length of the teeth.",
+      "source_refs": [
+        "lane:entry:35278"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuwwaha-makewide",
+      "headword_arabic": "فَوَّهَ",
+      "definition": "To make someone wide-mouthed or broad in the mouth.",
+      "usage_conditions": "The object is the person made أَفْوَه, or wide-mouthed.",
+      "source_refs": [
+        "lane:entry:35279"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuwwiha-eat",
+      "headword_arabic": "فُوِّهَ",
+      "definition": "To have eaten much of a food.",
+      "usage_conditions": "This is preserved as a reported passive reading of a cited expression; the source itself corrects the transmitted active vocalization toward the passive.",
+      "source_refs": [
+        "lane:entry:35279"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fawaha-converse",
+      "headword_arabic": "فَاوَهَ",
+      "definition": "To talk or discourse with someone; also, to contend with him for superiority in glory or excellence.",
+      "usage_conditions": "The verb expresses reciprocal conversation or, in another construction, verbal contest for distinction.",
+      "source_refs": [
+        "lane:entry:35280"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-tafawwaha-speak",
+      "headword_arabic": "تَفَوَّهَ",
+      "definition": "To speak.",
+      "usage_conditions": "This is the ordinary intransitive verbal use.",
+      "source_refs": [
+        "lane:entry:35281"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-tafawwaha-opening",
+      "headword_arabic": "تَفَوَّهَ",
+      "definition": "To enter the mouth or opening of a place.",
+      "usage_conditions": "Used of entering the opening of a place, by analogy with the mouth as the first entrance to an interior.",
+      "source_refs": [
+        "lane:entry:35281"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-tafawah-talk",
+      "headword_arabic": "تَفَاوَهَ",
+      "definition": "To talk or converse with one another.",
+      "usage_conditions": "A reciprocal Form VI usage.",
+      "source_refs": [
+        "lane:entry:35282"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-istafaha-eatdrink",
+      "headword_arabic": "اِسْتَفَاهَ",
+      "definition": "To eat or drink vehemently or copiously; to eat much, and to quench one's thirst by drinking.",
+      "usage_conditions": "It may especially describe eating or drinking after scarcity or weakness, though the broader sense of eating much is also attested; drinking is less frequent in the evidence.",
+      "source_refs": [
+        "lane:entry:35283"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuh-near",
+      "headword_arabic": "فُوهٌ / فَاهٌ",
+      "definition": "The mouth of one person near the mouth of another, in an expression describing face-to-face proximity.",
+      "usage_conditions": "In كَلَّمْتُهُ فَاهُ إِلَى فِيَّ, the phrase following the verb expresses the speaker's state or the close positioning of the two mouths.",
+      "source_refs": [
+        "lane:entry:35285"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuh-imprecation",
+      "headword_arabic": "فَاهَا لِفِيكَ",
+      "definition": "An imprecation wishing that misfortune, disappointment, or the ground cleave to someone's mouth.",
+      "usage_conditions": "A fixed proverbial expression; the mouth may be used metonymically for the teeth or for the dust of the earth.",
+      "source_refs": [
+        "lane:entry:35285"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuh-camels",
+      "headword_arabic": "فُوهٌ / أَفْوَاهٌ",
+      "definition": "In expressions concerning camels, watering them as they come to drink, or allowing them to graze while moving along.",
+      "usage_conditions": "Used in the constructions عَلَى أَفْوَاهِهَا and جَرَّ إِبِلَهُ عَلَى أَفْوَاهِهَا.",
+      "source_refs": [
+        "lane:entry:35285"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuh-nearest",
+      "headword_arabic": "فَا كَرِشٍ",
+      "definition": "The nearest or shortest way to something.",
+      "usage_conditions": "A fixed idiomatic expression meaning the nearest route or means of access.",
+      "source_refs": [
+        "lane:entry:35285"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuh-stinking",
+      "headword_arabic": "فُو فَرَسٍ حَمِرٍ",
+      "definition": "An appellation for one whose breath smells foul.",
+      "usage_conditions": "A nickname or descriptive expression, literally referring to the mouth of a horse suffering from foul-smelling indigestion.",
+      "source_refs": [
+        "lane:entry:35285"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuh-littleman",
+      "headword_arabic": "فُو جُرَدٍ / فُو دَبًا",
+      "definition": "A nickname applied to a little man.",
+      "usage_conditions": "These are fixed appellations, literally framed as the mouth of a field rat or of a small wingless locust.",
+      "source_refs": [
+        "lane:entry:35285"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuh-teeth",
+      "headword_arabic": "فُوهٌ",
+      "definition": "The teeth or front teeth, by metonymic use of mouth.",
+      "usage_conditions": "Attested in expressions about teeth not being broken or falling out.",
+      "source_refs": [
+        "lane:entry:35285"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuh-face",
+      "headword_arabic": "فُوهٌ / فِيهٌ",
+      "definition": "The face, especially in expressions of falling or being prostrated face-down; also to die or be caused to die prostrate.",
+      "usage_conditions": "The mouth term is used metonymically for the face, with لِ functioning in the sense of عَلَى in the cited expressions.",
+      "source_refs": [
+        "lane:entry:35285"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuh-perfume",
+      "headword_arabic": "فُوهٌ / أَفْوَاهُ الطِّيبِ",
+      "definition": "Perfume or an odoriferous substance; also an aromatic, spice, flower, or other ingredient used to compound fragrance, and by extension kinds or mixtures of such substances.",
+      "usage_conditions": "The plural أَفْوَاهُ الطِّيبِ is especially used for aromatics, spices, and fragrant flowers; one lexical qualification excludes things called عَقَّارٌ.",
+      "source_refs": [
+        "lane:entry:35285"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fawwah-madder",
+      "headword_arabic": "فُوَّهٌ",
+      "definition": "A red-rooted dye plant, identified in the evidence with madder.",
+      "usage_conditions": "The identification is reported as a specialized lexical usage and is distinguished from the ordinary mouth noun.",
+      "source_refs": [
+        "lane:entry:35289"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuwwaha-place-opening",
+      "headword_arabic": "فُوَّهَةٌ",
+      "definition": "The mouth or opening of a river, valley, watercourse, street, or road; the foremost or entrance part of a place.",
+      "usage_conditions": "Depending on the object, it can denote the inlet, outlet, head, foremost portion, or place of egress; the basic comparison is with a mouth as an entrance to an interior.",
+      "source_refs": [
+        "lane:entry:35291"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuwwaha-speech",
+      "headword_arabic": "فُوَّهَةٌ",
+      "definition": "A say, saying, or speech.",
+      "usage_conditions": "The noun is used in expressions concerning what has been said or the speech of people.",
+      "source_refs": [
+        "lane:entry:35291"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuwwaha-backbiting",
+      "headword_arabic": "فُوَّهَةٌ",
+      "definition": "Evil speech or backbiting that damages another person's reputation.",
+      "usage_conditions": "A specialized use for speech that rends or harms reputation.",
+      "source_refs": [
+        "lane:entry:35291"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuwwaha-eloquence",
+      "headword_arabic": "فُوَّهَةٌ",
+      "definition": "Strength, freedom, or uninhibited force in speech.",
+      "usage_conditions": "Used of a person who is powerful or unconstrained in expression.",
+      "source_refs": [
+        "lane:entry:35291"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuwwaha-eating",
+      "headword_arabic": "فُوَّهَةٌ",
+      "definition": "Vehement eating by a camel or horse; good eating that reveals the animal's fatness.",
+      "usage_conditions": "Used in expressions describing an animal's vigorous feeding and the inference of good condition drawn from it.",
+      "source_refs": [
+        "lane:entry:35291"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-fuwwaha-milk",
+      "headword_arabic": "فُوَّهَةٌ",
+      "definition": "Milk retaining a sweet taste.",
+      "usage_conditions": "A specialized food-related usage; a variant with ق is also reported.",
+      "source_refs": [
+        "lane:entry:35291"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-faawuha-disclose",
+      "headword_arabic": "فَاوُوهَةٌ",
+      "definition": "A person who discloses everything in his mind; one who openly reveals his hunger.",
+      "usage_conditions": "The term describes openness or indiscretion in revealing what is inward, including hunger.",
+      "source_refs": [
+        "lane:entry:35292"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-afwah-wide",
+      "headword_arabic": "أَفْوَهُ / فَوْهَاءُ",
+      "definition": "Wide-mouthed, with a broad opening; by extension, wide in a well or wound, or broad in a pulley-sheave with long teeth.",
+      "usage_conditions": "The masculine and feminine forms are applied to people and horses; the extended uses include a wide-mouthed well, a wide wound, and a wide sheave whose teeth are long.",
+      "source_refs": [
+        "lane:entry:35293"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-mufawwah-eloquent",
+      "headword_arabic": "مُفَوَّهٌ",
+      "definition": "Eloquent or able in speech; a good and effective speaker.",
+      "usage_conditions": "Used of a person or of speech, as in مِنْطِيقٌ مُفَوَّهٌ and مَنْطِقٌ مُفَوَّهٌ.",
+      "source_refs": [
+        "lane:entry:35294"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-mufawwah-eater",
+      "headword_arabic": "مُفَوَّهٌ",
+      "definition": "A vehement or excessive eater; one with an inordinate appetite.",
+      "usage_conditions": "Applied to a man or to another creature; the evidence also relates it to eating vehemently after scarcity or weakness.",
+      "source_refs": [
+        "lane:entry:35294"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-mufawwah-perfumed",
+      "headword_arabic": "مُفَوَّهٌ",
+      "definition": "Perfumed or flavored with aromatic substances.",
+      "usage_conditions": "Used of a beverage or wine prepared with the aromatics called أَفَاوِيهُ.",
+      "source_refs": [
+        "lane:entry:35294"
+      ]
+    },
+    {
+      "meaning_id": "cm-fwh-mufawwah-dyed",
+      "headword_arabic": "مُفَوَّهٌ / مُفَوًّى",
+      "definition": "Dyed with madder or the related red dye plant فُوَّه.",
+      "usage_conditions": "Used of a garment or piece of cloth.",
+      "source_refs": [
+        "lane:entry:35294"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fwh:35278:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-faha-say"
+      ],
+      "note": "Uttering or pronouncing a saying is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35278:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35278:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fawah-wide"
+      ],
+      "note": "Width of mouth and protruding or long teeth are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35279:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuwwaha-makewide"
+      ],
+      "note": "Making someone wide-mouthed is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35279:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuwwiha-eat"
+      ],
+      "note": "The disputed passive reading meaning eating much is preserved."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35280:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fawaha-converse"
+      ],
+      "note": "Conversation and contest for superiority are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35281:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-tafawwaha-speak"
+      ],
+      "note": "Speaking is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35281:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35281:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-tafawwaha-opening"
+      ],
+      "note": "Entering the opening of a place is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35282:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-tafawah-talk"
+      ],
+      "note": "Reciprocal talking is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35283:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-istafaha-eatdrink"
+      ],
+      "note": "Vehement eating or drinking is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35283:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-fwh-istafaha-eatdrink"
+      ],
+      "note": "Quenching thirst by drinking is covered by the same eating-and-drinking meaning."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35284:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35284:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "fwh-fuh-s1"
+      ],
+      "note": "The ordinary mouth noun and its plural are covered by the Quranic mouth sense."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuh-near"
+      ],
+      "note": "The fixed close-mouth construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuh-imprecation"
+      ],
+      "note": "The proverbial imprecation is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuh-camels"
+      ],
+      "note": "The camel-watering and grazing constructions are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuh-nearest"
+      ],
+      "note": "The idiom for the nearest way is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuh-stinking"
+      ],
+      "note": "The stinking-breath appellation is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuh-littleman"
+      ],
+      "note": "The nicknames for a little man are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuh-teeth"
+      ],
+      "note": "The metonymic use for teeth is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuh-face"
+      ],
+      "note": "The face-down and prostration expressions are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g1:sub10",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35285:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuh-perfume"
+      ],
+      "note": "Perfume, aromatics, spices, and fragrant flowers are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35286:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer back to an already treated unit."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35286:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-fwh-fawah-wide"
+      ],
+      "note": "The wide-sheave quality is covered under breadth and width."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35287:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Synonym-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35288:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35289:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fawwah-madder"
+      ],
+      "note": "The specialized dye plant is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35289:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35290:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35291:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the synonym فُوهٌ."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35291:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuwwaha-place-opening"
+      ],
+      "note": "Openings and foremost parts of places are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35291:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuwwaha-speech"
+      ],
+      "note": "A say or speech is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35291:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuwwaha-backbiting"
+      ],
+      "note": "Harmful speech and backbiting are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35291:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuwwaha-eloquence"
+      ],
+      "note": "Forceful or unconstrained speech is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35291:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuwwaha-eating"
+      ],
+      "note": "Vehement animal eating is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35291:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-fuwwaha-milk"
+      ],
+      "note": "Milk retaining sweetness is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35292:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-faawuha-disclose"
+      ],
+      "note": "Open disclosure of thoughts or hunger is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35293:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-afwah-wide"
+      ],
+      "note": "The wide-mouthed adjective and its tooth-related description are represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35293:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-fwh-afwah-wide"
+      ],
+      "note": "The wide-mouthed well is covered by the adjective's extended uses."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35293:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-fwh-afwah-wide"
+      ],
+      "note": "The wide wound is covered by the adjective's extended uses."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35293:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-fwh-afwah-wide"
+      ],
+      "note": "The broad sheave with long teeth is covered by the adjective's extended uses."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35294:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-mufawwah-eloquent",
+        "cm-fwh-mufawwah-eater"
+      ],
+      "note": "The unit contains both eloquence and excessive-appetite branches."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35294:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-mufawwah-perfumed"
+      ],
+      "note": "A beverage perfumed with aromatics is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35294:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fwh-mufawwah-dyed"
+      ],
+      "note": "A garment dyed with madder is represented."
+    },
+    {
+      "unit_id": "lane-unit:fwh:35295:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The public headword فُوهٌ is a normalized classical citation form covering the Quranic plural أَفْوَاه and the inflected singular form فَاهُ.",
+    "The speech-related Quranic sense is construction-sensitive: it concerns outward speech or profession contrasted with inward belief, not every occurrence of the anatomical mouth."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The packet integrity metadata reports 48 Lane primary source units; the supplied records enumerate 48 distinct unit_ids in the ledger above, all assigned. The passive eating reading in lane-unit:fwh:35279:g1:sub2 is retained with an explicit caution because the source itself questions the transmitted vocalization."
+  ]
+}

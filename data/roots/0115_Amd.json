@@ -1,0 +1,261 @@
+{
+  "root": "Amd",
+  "arabic": "أمد",
+  "root_idea": {
+    "summary": "An endpoint, goal, or limiting extent; the root is oriented toward what a span reaches as its limit.",
+    "development": "From the idea of a terminal extent, أَمَد denotes a span considered with regard to its endpoint, especially a period or term, and can also denote an intervening distance or extent.",
+    "source_refs": [
+      "maqayis:row:141",
+      "mufradat:row:53"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Amd:>amad:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:amad",
+      "reason": "The canonical Quranic noun is displayed under the normalized citation form أَمَد."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:amad",
+      "form_group_ids": [
+        "qac-form:Amd:>amad:nominal:-"
+      ],
+      "headword_arabic": "أَمَد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "amad-s1-term",
+          "definition": "A term or span of time considered with regard to its endpoint; a period whose limit may be unspecified or specified in relation to something.",
+          "usage_conditions": "Temporal use, emphasizing the eventual limit or goal of the span rather than time viewed generally; it may be distant or otherwise defined by context.",
+          "source_refs": [
+            "lane:entry:7183",
+            "mufradat:row:53"
+          ]
+        },
+        {
+          "sense_id": "amad-s2-distance",
+          "definition": "An intervening extent or distance between two points, understood as a reach toward a limit.",
+          "usage_conditions": "Used for a spatial interval, especially in a construction describing the distance between one thing and another.",
+          "source_refs": [
+            "lane:entry:7183",
+            "mufradat:row:53"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:30",
+          "word_location": "3:30:19",
+          "sense_ids": [
+            "amad-s2-distance"
+          ]
+        },
+        {
+          "verse_key": "18:12",
+          "word_location": "18:12:9",
+          "sense_ids": [
+            "amad-s1-term"
+          ]
+        },
+        {
+          "verse_key": "57:16",
+          "word_location": "57:16:23",
+          "sense_ids": [
+            "amad-s1-term"
+          ]
+        },
+        {
+          "verse_key": "72:25",
+          "word_location": "72:25:11",
+          "sense_ids": [
+            "amad-s1-term"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "amad-c1-anger",
+      "headword_arabic": "أَمِدَ عَلَيْهِ",
+      "definition": "To be angry with someone.",
+      "usage_conditions": "Form I verb used with عَلَيْهِ.",
+      "source_refs": [
+        "lane:entry:7181"
+      ]
+    },
+    {
+      "meaning_id": "amad-c2-declare-term",
+      "headword_arabic": "أمّد",
+      "definition": "To declare or specify a time, term, utmost extent, or limit by reference to its endpoint.",
+      "usage_conditions": "Form II verb; a causative or specifying use of the term/limit concept.",
+      "source_refs": [
+        "lane:entry:7182"
+      ]
+    },
+    {
+      "meaning_id": "amad-c3-life-endpoints",
+      "headword_arabic": "أَمَدٌ",
+      "definition": "A life-term, specifically either of the two terminal points of a person's life: birth or death.",
+      "usage_conditions": "A specialized Classical Arabic use referring to one of the two defining times of a life.",
+      "source_refs": [
+        "lane:entry:7183"
+      ]
+    },
+    {
+      "meaning_id": "amad-c4-race-endpoints",
+      "headword_arabic": "أَمَدٌ",
+      "definition": "The starting point or goal of horses in a race.",
+      "usage_conditions": "A specialized use for either endpoint of a racecourse.",
+      "source_refs": [
+        "lane:entry:7183"
+      ]
+    },
+    {
+      "meaning_id": "amad-c5-limited-duration",
+      "headword_arabic": "ذُو أَمَدٍ / ذَاتُ أَمَدٍ",
+      "definition": "Having a term or limit; limited in duration.",
+      "usage_conditions": "Adjectival construction, including agreement with a feminine noun in ذَاتُ أَمَدٍ.",
+      "source_refs": [
+        "lane:entry:7183"
+      ]
+    },
+    {
+      "meaning_id": "amad-c6-remainder",
+      "headword_arabic": "أُمْدَةٌ",
+      "definition": "A remainder, or what remains, of something.",
+      "usage_conditions": "A distinct nominal derivative referring to what is left over.",
+      "source_refs": [
+        "lane:entry:7184"
+      ]
+    },
+    {
+      "meaning_id": "amad-c7-exhausted-skin",
+      "headword_arabic": "مُؤَمَّدٌ",
+      "definition": "Of a skin or water-container, exhausted so that not a gulp remains.",
+      "usage_conditions": "A specialized descriptive use for a completely drained skin.",
+      "source_refs": [
+        "lane:entry:7185"
+      ]
+    },
+    {
+      "meaning_id": "amad-c8-attained-limit",
+      "headword_arabic": "أَمَرَهُ",
+      "definition": "An extreme term, limit, or point that has been reached or attained.",
+      "usage_conditions": "The reported lexical expression is retained with its supplied headword and gloss.",
+      "source_refs": [
+        "lane:entry:7186"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Amd:7181:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "amad-c1-anger"
+      ],
+      "note": "The verb's anger meaning is represented as a Classical Arabic branch."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7182:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "amad-c2-declare-term"
+      ],
+      "note": "The Form II specifying-a-term construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7183:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "amad-s1-term",
+        "amad-s2-distance"
+      ],
+      "note": "The unit supplies the temporal-term and extent/distance branches."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7183:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "amad-s1-term"
+      ],
+      "note": "A period of life reached is covered by the temporal-term sense."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7183:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "amad-c3-life-endpoints"
+      ],
+      "note": "The specialized birth-or-death life endpoints use is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7183:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "amad-c4-race-endpoints"
+      ],
+      "note": "The specialized race-endpoint use is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7183:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "amad-s1-term"
+      ],
+      "note": "An unbounded or unknown-limit span of time is covered by the temporal-term sense."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7183:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "amad-s1-term"
+      ],
+      "note": "A particular time is covered by the temporal-term sense."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7183:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "amad-c5-limited-duration"
+      ],
+      "note": "The adjectival limited-duration construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7184:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "amad-c6-remainder"
+      ],
+      "note": "The derivative meaning remainder is represented."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7185:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "amad-c7-exhausted-skin"
+      ],
+      "note": "The specialized exhausted-skin description is represented."
+    },
+    {
+      "unit_id": "lane-unit:Amd:7186:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "amad-c8-attained-limit"
+      ],
+      "note": "The reported attained-limit expression is retained as a Classical branch."
+    }
+  ],
+  "cautions": [
+    "أَمَد differs from أَبَد in that it denotes a span considered with regard to an endpoint; أَبَد denotes an unlimited duration.",
+    "The Quranic occurrence in 3:30 is represented as an intervening distance, while the other supplied occurrences illustrate the temporal-term use.",
+    "The Lane unit headed أَمَرَهُ has an unusual headword-to-gloss pairing; its supplied lexical interpretation is retained without normalization."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

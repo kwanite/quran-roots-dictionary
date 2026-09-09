@@ -1,0 +1,120 @@
+{
+  "root": "$wZ",
+  "arabic": "شوظ",
+  "root_idea": {
+    "summary": "A root centered on the intense, smokeless flame of fire.",
+    "development": "The concrete sense of a smokeless flame is associated with fire's heat and related fiery effects; Classical Arabic also extends the term tropically to intense thirst and clamour.",
+    "source_refs": [
+      "maqayis:row:2725",
+      "lane:entry:39577"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$wZ:$uwaAZ:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "shwz-shuwaz",
+      "reason": "The Quran-attested nominal is an independent lexical item and is displayed under its normalized citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "shwz-shuwaz",
+      "form_group_ids": [
+        "qac-form:$wZ:$uwaAZ:nominal:-"
+      ],
+      "headword_arabic": "شُوَاظ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "shwz-shuwaz-s1",
+          "definition": "A flame or mass of fire without smoke; a fiery substance or flame, possibly described as fire mixed with something else.",
+          "usage_conditions": "The primary interpretation of the Quranic expression شُوَاظٌ مِنْ نَارٍ in 55:35; the description emphasizes a smokeless flame.",
+          "source_refs": [
+            "lane:entry:39577",
+            "mufradat:row:798"
+          ]
+        },
+        {
+          "sense_id": "shwz-shuwaz-s2",
+          "definition": "Smoke of fire.",
+          "usage_conditions": "A distinct lexicographical interpretation of the Quranic occurrence in 55:35, alongside the smokeless-flame interpretation.",
+          "source_refs": [
+            "lane:entry:39577"
+          ]
+        },
+        {
+          "sense_id": "shwz-shuwaz-s3",
+          "definition": "Heat of fire, or the heat of the sun.",
+          "usage_conditions": "A distinct interpretation reported for the Quranic occurrence in 55:35, treating the term as fiery or solar heat rather than a visible flame.",
+          "source_refs": [
+            "lane:entry:39577"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "55:35",
+          "word_location": "55:35:3",
+          "sense_ids": [
+            "shwz-shuwaz-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "shwz-cm1",
+      "headword_arabic": "شُوَاظ",
+      "definition": "Intense thirst; thirst itself.",
+      "usage_conditions": "A tropical Classical Arabic use, including the expression for a thirsting camel.",
+      "source_refs": [
+        "lane:entry:39577"
+      ]
+    },
+    {
+      "meaning_id": "shwz-cm2",
+      "headword_arabic": "شُوَاظ",
+      "definition": "Clamour or noisy outcry.",
+      "usage_conditions": "A tropical Classical Arabic use.",
+      "source_refs": [
+        "lane:entry:39577"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$wZ:39577:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "shwz-shuwaz-s1",
+        "shwz-shuwaz-s2",
+        "shwz-shuwaz-s3"
+      ],
+      "note": "The unit gives several interpretations explicitly in connection with the Quranic occurrence."
+    },
+    {
+      "unit_id": "lane-unit:$wZ:39577:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "shwz-cm1"
+      ],
+      "note": "The unit states the tropical thirst meaning and its camel construction."
+    },
+    {
+      "unit_id": "lane-unit:$wZ:39577:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "shwz-cm2"
+      ],
+      "note": "The unit states the tropical meaning of clamour."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence has multiple recorded lexical interpretations, including smokeless flame, fire-smoke, and fire or solar heat; the contextual gloss “a flame” reflects the primary interpretation. Lane also records the variant vocalization شِوَاظٌ, which is not treated as a separate Quranic form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

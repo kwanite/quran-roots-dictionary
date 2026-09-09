@@ -1,0 +1,278 @@
+{
+  "root": "Awd",
+  "arabic": "أود",
+  "root_idea": {
+    "summary": "The root centers on bending, curving, and inclination.",
+    "development": "The physical image extends to weight or an affair that bends a person down, yielding the sense of burdening or distressing.",
+    "source_refs": [
+      "maqayis:row:166"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Awd:ya_#uwdu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "awd-f1",
+      "reason": "Displayed under the normalized Classical Arabic perfect citation form آدَ rather than the Quranic imperfect يَـُٔودُ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "awd-f1",
+      "form_group_ids": [
+        "qac-form:Awd:ya_#uwdu:verb:I"
+      ],
+      "headword_arabic": "آدَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "awd-f1-s1",
+          "definition": "To burden, weigh heavily upon, or tire someone.",
+          "usage_conditions": "Transitive Form I. In the Quranic occurrence, the preservation of the heavens and earth is said not to burden or tire God; the object is expressed by a pronoun.",
+          "source_refs": [
+            "lane:entry:7475"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:255",
+          "word_location": "2:255:46",
+          "sense_ids": [
+            "awd-f1-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "awd-cm-bend-intrans",
+      "headword_arabic": "أَوِدَ",
+      "definition": "To be or become crooked, curved, or bent.",
+      "usage_conditions": "Intransitive Form I.",
+      "source_refs": [
+        "lane:entry:7475"
+      ]
+    },
+    {
+      "meaning_id": "awd-cm-recede-return",
+      "headword_arabic": "آدَ",
+      "definition": "To recede or decline, especially toward evening; to return; of shadows, to return and incline toward the east.",
+      "usage_conditions": "Reported of the day, evening, things, and shadows in the cited constructions.",
+      "source_refs": [
+        "lane:entry:7475"
+      ]
+    },
+    {
+      "meaning_id": "awd-cm-incline-pity",
+      "headword_arabic": "آدَ عَلَيْهِ",
+      "definition": "To incline toward someone or take pity on him.",
+      "usage_conditions": "Occurs in the construction آدَ عَلَيْهِ.",
+      "source_refs": [
+        "lane:entry:7475"
+      ]
+    },
+    {
+      "meaning_id": "awd-cm-bend-trans",
+      "headword_arabic": "آدَهُ",
+      "definition": "To bend, curve, or crook something.",
+      "usage_conditions": "Transitive Form I; said of a stick or other thing.",
+      "source_refs": [
+        "lane:entry:7475"
+      ]
+    },
+    {
+      "meaning_id": "awd-cm-taawwad",
+      "headword_arabic": "تَأَوَّدَ",
+      "definition": "To become crooked, curved, or bent through an extraneous or acquired action.",
+      "usage_conditions": "Intransitive Form V; it can also describe bending while rising because of heaviness.",
+      "source_refs": [
+        "lane:entry:7477"
+      ]
+    },
+    {
+      "meaning_id": "awd-cm-burden-deriv",
+      "headword_arabic": "اِنْآدَ / آئِدٌ / مَؤُودٌ",
+      "definition": "In derived constructions: to become burdened or oppressed by a load; to be burdening or distressing; or to be burdened or pressed heavily by a load.",
+      "usage_conditions": "The forms include an intransitive verb and active and passive participles. A related transposed construction is used of an affair pressing heavily upon someone.",
+      "source_refs": [
+        "lane:entry:7475",
+        "lane:entry:7479",
+        "lane:entry:7482",
+        "lane:entry:7483"
+      ]
+    },
+    {
+      "meaning_id": "awd-cm-crooked-adj",
+      "headword_arabic": "أَوِدٌ / آوَدُ",
+      "definition": "Crooked, curved, or bent.",
+      "usage_conditions": "Adjectival usage; a feminine form أَوْدَاءُ is also reported.",
+      "source_refs": [
+        "lane:entry:7480"
+      ]
+    },
+    {
+      "meaning_id": "awd-cm-calamities",
+      "headword_arabic": "مَآوِدُ",
+      "definition": "Calamities or afflictions.",
+      "usage_conditions": "The word is reported either as lacking a singular or as a plural analyzed in another way.",
+      "source_refs": [
+        "lane:entry:7484"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Awd:7475:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-bend-intrans"
+      ],
+      "note": "Intransitive becoming crooked or bent."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7475:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-recede-return"
+      ],
+      "note": "Recession of the day toward evening."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7475:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "awd-cm-recede-return"
+      ],
+      "note": "Decline of the evening is covered by the recession/return branch."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7475:g2:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "awd-cm-recede-return"
+      ],
+      "note": "Return of a thing is covered by the same branch."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7475:g2:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "awd-cm-recede-return"
+      ],
+      "note": "The shadow construction is included in the recession/return entry."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7475:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-incline-pity"
+      ],
+      "note": "Inclining toward or pitying someone."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7475:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-bend-trans"
+      ],
+      "note": "Transitive bending or curving."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7475:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-f1-s1",
+        "awd-cm-burden-deriv"
+      ],
+      "note": "Transitive burdening/distressing and related derived burden constructions."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7476:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring back to Form I."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7477:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-taawwad"
+      ],
+      "note": "Form V becoming bent; its Quran citation is used as a grammatical analogy."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7477:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to آدَهُ."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7478:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to آدَهُ."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7479:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring to Form V."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7479:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-burden-deriv"
+      ],
+      "note": "Becoming oppressed or burdened by a load."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7480:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-crooked-adj"
+      ],
+      "note": "Adjectival meaning crooked, curved, or bent."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7481:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant entry."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7482:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-burden-deriv"
+      ],
+      "note": "Active participial meaning burdening or distressing."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7483:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-burden-deriv"
+      ],
+      "note": "Passive participial meaning burdened by a load."
+    },
+    {
+      "unit_id": "lane-unit:Awd:7484:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "awd-cm-calamities"
+      ],
+      "note": "Calamities or afflictions, with disputed singular analysis."
+    }
+  ],
+  "cautions": [
+    "The Quranic imperfect يَـُٔودُ is presented under the normalized perfect citation form آدَ; the separate intransitive أَوِدَ remains a Classical Arabic meaning and is not merged with the Quranic form.",
+    "A Quran reference in the Form V discussion is an illustrative grammatical analogy, not a QAC occurrence of this root.",
+    "The root-level lexicon also records أَوْد as a tribal name and أُود as a place-name; the derivation of the tribal name is left uncertain."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

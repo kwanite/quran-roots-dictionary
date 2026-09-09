@@ -1,0 +1,207 @@
+{
+  "root": "qsw",
+  "arabic": "قسو",
+  "root_idea": {
+    "summary": "Hardness or solidity, extended from a hard physical object to hardness of the heart.",
+    "development": "The lexical orientation moves from physical hardness or solidity to the condition of a heart becoming hard or remaining hard-hearted; مُقَاسَاة denotes dealing with or undergoing that condition.",
+    "source_refs": [
+      "mufradat:row:1180"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qsw:qasato:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsw_form_qasa",
+      "reason": "Canonical Form I verb group, normalized to the Classical Arabic perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:qsw:qa`siyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsw_form_qasin",
+      "reason": "Canonical active-participle group, normalized from the inflected feminine Quranic form to the singular citation form."
+    },
+    {
+      "form_group_id": "qac-form:qsw:qasowap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qsw_form_qaswa",
+      "reason": "Canonical abstract noun group with its own distinct lexical headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qsw_form_qasa",
+      "form_group_ids": [
+        "qac-form:qsw:qasato:verb:I"
+      ],
+      "headword_arabic": "قَسَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsw_form_qasa_s1",
+          "definition": "To become hard or hardened; of hearts, to become hard-hearted.",
+          "usage_conditions": "Quranic Form I perfect usage describing a change into hardness of heart.",
+          "source_refs": [
+            "mufradat:row:1180"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:74",
+          "word_location": "2:74:2",
+          "sense_ids": [
+            "qsw_form_qasa_s1"
+          ]
+        },
+        {
+          "verse_key": "6:43",
+          "word_location": "6:43:7",
+          "sense_ids": [
+            "qsw_form_qasa_s1"
+          ]
+        },
+        {
+          "verse_key": "57:16",
+          "word_location": "57:16:24",
+          "sense_ids": [
+            "qsw_form_qasa_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsw_form_qasin",
+      "form_group_ids": [
+        "qac-form:qsw:qa`siyap:nominal:-"
+      ],
+      "headword_arabic": "قَاسٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsw_form_qasin_s1",
+          "definition": "Hard-hearted or hardened, characterized by hardness of heart.",
+          "usage_conditions": "Quranic active-participle usage describing hearts as hard or hardened.",
+          "source_refs": [
+            "mufradat:row:1180"
+          ]
+        },
+        {
+          "sense_id": "qsw_form_qasin_s2",
+          "definition": "Not pure or not genuine, in the reported variant reading قَسِيَّةً.",
+          "usage_conditions": "This variant interpretation is attached to the Quranic passage at 5:13 and is explained by comparison with قَسِيّ, a debased silver coin. It is not a separate canonical QAC form or occurrence.",
+          "source_refs": [
+            "mufradat:row:1180"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:13",
+          "word_location": "5:13:7",
+          "sense_ids": [
+            "qsw_form_qasin_s1"
+          ]
+        },
+        {
+          "verse_key": "22:53",
+          "word_location": "22:53:10",
+          "sense_ids": [
+            "qsw_form_qasin_s1"
+          ]
+        },
+        {
+          "verse_key": "39:22",
+          "word_location": "39:22:12",
+          "sense_ids": [
+            "qsw_form_qasin_s1"
+          ]
+        },
+        {
+          "verse_key": "5:13",
+          "word_location": "5:13:7",
+          "sense_ids": [
+            "qsw_form_qasin_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qsw_form_qaswa",
+      "form_group_ids": [
+        "qac-form:qsw:qasowap:nominal:-"
+      ],
+      "headword_arabic": "قَسْوَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsw_form_qaswa_s1",
+          "definition": "Hardness of heart.",
+          "usage_conditions": "Quranic abstract-noun usage describing the hardened condition of hearts.",
+          "source_refs": [
+            "mufradat:row:1180"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:74",
+          "word_location": "2:74:11",
+          "sense_ids": [
+            "qsw_form_qaswa_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qsw_classical_qasin_physical",
+      "headword_arabic": "قَاسٍ",
+      "definition": "Physically hard or solid.",
+      "usage_conditions": "A Classical physical sense, illustrated by a hard stone; distinct from the Quranic description of hearts as hard-hearted.",
+      "source_refs": [
+        "mufradat:row:1180"
+      ]
+    },
+    {
+      "meaning_id": "qsw_classical_muqasah",
+      "headword_arabic": "مُقَاسَاة",
+      "definition": "The treatment, undergoing, or grappling with hardness.",
+      "usage_conditions": "A derived noun denoting dealing with the condition of hardness rather than the condition itself.",
+      "source_refs": [
+        "mufradat:row:1180"
+      ]
+    },
+    {
+      "meaning_id": "qsw_classical_qasiyy_coin",
+      "headword_arabic": "قَسِيّ",
+      "definition": "A debased or adulterated silver coin.",
+      "usage_conditions": "A Classical coin term; it also supplies the comparison used for the reported Quranic interpretation “not pure.”",
+      "source_refs": [
+        "mufradat:row:1180"
+      ]
+    },
+    {
+      "meaning_id": "qsw_classical_qasawah",
+      "headword_arabic": "قَسَاوَة",
+      "definition": "Solidity or hardness, including the hardness of debased silver.",
+      "usage_conditions": "A Classical noun for physical hardness or solidity.",
+      "source_refs": [
+        "mufradat:row:1180"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [],
+  "cautions": [
+    "The interpretation “not pure” is associated with the reported variant reading قَسِيَّةً at 5:13, not with an additional canonical QAC occurrence.",
+    "No Lane or Maqayis entries were supplied; the root-level and Classical coverage here is therefore based on the supplied Quran-focused lexical discussion."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

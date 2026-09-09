@@ -1,0 +1,135 @@
+{
+  "root": "klw",
+  "arabic": "كلو",
+  "root_idea": {
+    "summary": "The supplied evidence does not establish an independent root-level semantic principle. It chiefly documents the dual expression كِلَا and its feminine counterpart كِلْتَا.",
+    "development": "The lexical discussion treats كِلَا as singular in form but dual in meaning, with كِلْتَا used for the feminine counterpart; no broader semantic development is supplied.",
+    "source_refs": [
+      "mufradat:row:1262"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:klw:kilaA:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "klw-kila",
+      "reason": "Distinct Quran-attested masculine dual pronoun/determiner form."
+    },
+    {
+      "form_group_id": "qac-form:klw:kilotaA:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "klw-kilta",
+      "reason": "Distinct Quran-attested feminine dual counterpart."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "klw-kila",
+      "form_group_ids": [
+        "qac-form:klw:kilaA:nominal:-"
+      ],
+      "headword_arabic": "كِلَا",
+      "public_pos_label": "Dual pronoun/determiner",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "klw-kila-s1",
+          "definition": "The masculine dual pronoun or determiner: both of the two.",
+          "usage_conditions": "Singular in form but dual in meaning. When annexed to an explicit noun, its alif remains; when annexed to a pronoun, it is inflected, as in كِلَاهُمَا and كِلَيْهِمَا. The supplied Quran occurrence is the attached-pronoun form كِلَاهُمَا.",
+          "source_refs": [
+            "mufradat:row:1262"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:23",
+          "word_location": "17:23:15",
+          "sense_ids": [
+            "klw-kila-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "klw-kilta",
+      "form_group_ids": [
+        "qac-form:klw:kilotaA:nominal:-"
+      ],
+      "headword_arabic": "كِلْتَا",
+      "public_pos_label": "Feminine dual pronoun/determiner",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "klw-kilta-s1",
+          "definition": "The feminine dual pronoun or determiner: both of two feminine entities.",
+          "usage_conditions": "The feminine counterpart of كِلَا. It is used with a feminine dual referent; the supplied Quran occurrence is annexed to the explicit noun الْجَنَّتَيْنِ.",
+          "source_refs": [
+            "mufradat:row:1262"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:33",
+          "word_location": "18:33:1",
+          "sense_ids": [
+            "klw-kilta-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "klw-class-feathers",
+      "headword_arabic": "الكُلَى",
+      "definition": "A term for feathers of the kind so designated.",
+      "usage_conditions": "A Classical Arabic lexical noun; the supplied evidence gives a cross-reference for further clarification.",
+      "source_refs": [
+        "lane:entry:32935"
+      ]
+    },
+    {
+      "meaning_id": "klw-class-taurus-stars",
+      "headword_arabic": "الكُلْيَتَانِ",
+      "definition": "A name for two stars on the ear of Taurus.",
+      "usage_conditions": "A dual astronomical name, also referred to by the name الكَلْبَانِ in the supplied entry.",
+      "source_refs": [
+        "lane:entry:32936"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:klw:32934:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Paradigmatic forms followed by a pointer to كَلَأَ; no lexical definition is supplied."
+    },
+    {
+      "unit_id": "lane-unit:klw:32935:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "klw-class-feathers"
+      ],
+      "note": "The unit gives the lexical meaning of a term for feathers."
+    },
+    {
+      "unit_id": "lane-unit:klw:32936:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "klw-class-taurus-stars"
+      ],
+      "note": "The unit gives the astronomical name for two stars on Taurus."
+    }
+  ],
+  "cautions": [
+    "The unvocalized spelling كلا is ambiguous. The supplied Mufradat entry for كَلَّا concerns a particle of repudiation or rebuke, not the Quranic nominal forms كِلَا and كِلْتَا, so it is not assigned to either public form."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Mufradat row 1266 discusses the distinct particle كَلَّا and has no corresponding supplied QAC form group; it is therefore excluded from the lexical senses of this root artifact."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "root": "kmh",
+  "arabic": "كمه",
+  "root_idea": {
+    "summary": "The root is centered on blindness, especially blindness present from birth, with a related extension to obscurity or gloom.",
+    "development": "The lexical evidence distinguishes congenital blindness from blindness or loss of an eye arising after an affliction, and also preserves a Classical adjectival use for land enveloped in gloom.",
+    "source_refs": [
+      "maqayis:row:4038",
+      "mufradat:row:1269",
+      "lane:entry:32954"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kmh:>akomah:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-kmh-akmah",
+      "reason": "Displayed under the normalized masculine singular lexical citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-kmh-akmah",
+      "form_group_ids": [
+        "qac-form:kmh:>akomah:nominal:-"
+      ],
+      "headword_arabic": "أَكْمَه",
+      "public_pos_label": "Adjective · substantivized noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform-kmh-akmah-s1",
+          "definition": "Blind from birth; a person born without sight.",
+          "usage_conditions": "In the Quran, the adjective is used substantivally with the definite article, including in the expression for healing the blind-born.",
+          "source_refs": [
+            "mufradat:row:1269"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:49",
+          "word_location": "3:49:25",
+          "sense_ids": [
+            "qform-kmh-akmah-s1"
+          ]
+        },
+        {
+          "verse_key": "5:110",
+          "word_location": "5:110:40",
+          "sense_ids": [
+            "qform-kmh-akmah-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-kmh-acquired-blindness",
+      "headword_arabic": "أَكْمَه",
+      "definition": "A person whose eye or sight has been lost after birth.",
+      "usage_conditions": "An extended Classical use for acquired loss of an eye or sight, distinct from the congenital-blindness sense established for the Quranic form.",
+      "source_refs": [
+        "mufradat:row:1269"
+      ]
+    },
+    {
+      "meaning_id": "cm-kmh-gloomy-land",
+      "headword_arabic": "كَمْهَاءٌ",
+      "definition": "Of land: enveloped in gloom or obscurity; overcast.",
+      "usage_conditions": "An adjectival description specifically applied to land.",
+      "source_refs": [
+        "lane:entry:32954"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kmh:32954:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kmh-gloomy-land"
+      ],
+      "note": "The land adjective meaning is represented under the Classical meaning for كَمْهَاءٌ."
+    }
+  ],
+  "cautions": [
+    "The Quranic contextual gloss varies between “the blind” and “the born blind,” while the supplied lexical discussion specifically supports blindness from birth.",
+    "Lane equates the land adjective with مُغَمَّةٌ and مِغَمَّةٌ but does not supply the referenced غم entry here; “overcast” and “gloomy” are therefore broad renderings of that equivalence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

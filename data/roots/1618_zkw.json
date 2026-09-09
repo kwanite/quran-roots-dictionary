@@ -1,0 +1,703 @@
+{
+  "root": "zkw",
+  "arabic": "زكو",
+  "root_idea": {
+    "summary": "The root centers on increase, flourishing, and growth through blessing, with extensions to purity, moral cultivation, and the beneficial giving of zakah.",
+    "development": "The lexical development runs from the growth of crops, wealth, life, and other things to moral purification and goodness. Zakah is associated with both purification and the hope of increase and blessing.",
+    "source_refs": [
+      "mufradat:row:625"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:zkw:zakaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zkw_f1_zaka",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:zkw:zak~aY`:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zkw_f2_zakka",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:zkw:tazak~aY`:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zkw_f5_tazakka",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:zkw:>azokaY`:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zkw_adj_azka",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:zkw:zakaw`p:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zkw_n_zakat",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:zkw:zakiy~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "zkw_adj_zakiyy",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:zkw:zakiy~ap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "zkw_adj_zakiyy",
+      "reason": "Feminine زَكِيَّة is the feminine counterpart of the attested adjective زَكِيّ and is represented under that normalized adjective headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "zkw_f1_zaka",
+      "form_group_ids": [
+        "qac-form:zkw:zakaY`:verb:I"
+      ],
+      "headword_arabic": "زَكَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "zkw_f1_s1",
+          "definition": "To be or become pure, good, or righteous.",
+          "usage_conditions": "An intransitive Form I use describing a person’s moral condition.",
+          "source_refs": [
+            "lane:entry:31378"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:21",
+          "word_location": "24:21:22",
+          "sense_ids": [
+            "zkw_f1_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zkw_f2_zakka",
+      "form_group_ids": [
+        "qac-form:zkw:zak~aY`:verb:II"
+      ],
+      "headword_arabic": "زَكَّى",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 12,
+      "senses": [
+        {
+          "sense_id": "zkw_f2_s1",
+          "definition": "To purify someone or something; to make morally pure.",
+          "usage_conditions": "A transitive causative use. The agent may be God, a prophet, or a human being, and the object may be an individual, soul, or group.",
+          "source_refs": [
+            "lane:entry:31379",
+            "mufradat:row:625"
+          ]
+        },
+        {
+          "sense_id": "zkw_f2_s2",
+          "definition": "To give the zakah due from property; also, to take or collect another person’s zakah.",
+          "usage_conditions": "A specialized zakah construction: the property or its owner is associated with the due payment, while the payer’s zakah may be taken or collected.",
+          "source_refs": [
+            "lane:entry:31379"
+          ]
+        },
+        {
+          "sense_id": "zkw_f2_s3",
+          "definition": "To declare or attribute purity, goodness, or righteousness; to praise, especially oneself.",
+          "usage_conditions": "The construction includes commendation of another person, validation of witnesses, and self-praise; self-ascription of purity is censured in the Quranic usage.",
+          "source_refs": [
+            "lane:entry:31379",
+            "mufradat:row:625"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:129",
+          "word_location": "2:129:12",
+          "sense_ids": [
+            "zkw_f2_s1"
+          ]
+        },
+        {
+          "verse_key": "62:2",
+          "word_location": "62:2:11",
+          "sense_ids": [
+            "zkw_f2_s1"
+          ]
+        },
+        {
+          "verse_key": "4:49",
+          "word_location": "4:49:5",
+          "sense_ids": [
+            "zkw_f2_s3"
+          ]
+        },
+        {
+          "verse_key": "53:32",
+          "word_location": "53:32:26",
+          "sense_ids": [
+            "zkw_f2_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zkw_f5_tazakka",
+      "form_group_ids": [
+        "qac-form:zkw:tazak~aY`:verb:V"
+      ],
+      "headword_arabic": "تَزَكَّى",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "zkw_f5_s1",
+          "definition": "To purify oneself, become purified, or strive to attain piety.",
+          "usage_conditions": "A reflexive or intransitive use describing active self-purification and, in a Quranic construction, striving toward moral and religious excellence.",
+          "source_refs": [
+            "lane:entry:31381",
+            "mufradat:row:625"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "87:14",
+          "word_location": "87:14:4",
+          "sense_ids": [
+            "zkw_f5_s1"
+          ]
+        },
+        {
+          "verse_key": "92:18",
+          "word_location": "92:18:4",
+          "sense_ids": [
+            "zkw_f5_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zkw_adj_azka",
+      "form_group_ids": [
+        "qac-form:zkw:>azokaY`:nominal:-"
+      ],
+      "headword_arabic": "أَزْكَى",
+      "public_pos_label": "Adjective · comparative/superlative",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "zkw_azka_s1",
+          "definition": "Purer, better, more wholesome, or more beneficial; purest or best.",
+          "usage_conditions": "A comparative or superlative adjective. According to context it may concern purity, lawful and pleasant food, a better course, or greater benefit, abundance, or affordability.",
+          "source_refs": [
+            "lane:entry:31388",
+            "mufradat:row:625"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:19",
+          "word_location": "18:19:29",
+          "sense_ids": [
+            "zkw_azka_s1"
+          ]
+        },
+        {
+          "verse_key": "24:28",
+          "word_location": "24:28:17",
+          "sense_ids": [
+            "zkw_azka_s1"
+          ]
+        },
+        {
+          "verse_key": "2:232",
+          "word_location": "2:232:26",
+          "sense_ids": [
+            "zkw_azka_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zkw_n_zakat",
+      "form_group_ids": [
+        "qac-form:zkw:zakaw`p:nominal:-"
+      ],
+      "headword_arabic": "زَكَاة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 32,
+      "senses": [
+        {
+          "sense_id": "zkw_zakat_s1",
+          "definition": "The prescribed zakah: the due portion of property given for God’s sake to those entitled to receive it.",
+          "usage_conditions": "A conventional religious payment associated with purification of property and the hope of increase and blessing.",
+          "source_refs": [
+            "lane:entry:31383",
+            "mufradat:row:625"
+          ]
+        },
+        {
+          "sense_id": "zkw_zakat_s2",
+          "definition": "Purification, or the righteous and religious practice pursued as its means.",
+          "usage_conditions": "In Quranic constructions the word can denote purification itself, the righteous conduct or worship that effects it, or the aim of such conduct. In لِلزَّكَاةِ فَاعِلُونَ, the preposition expresses purpose or cause rather than a direct object.",
+          "source_refs": [
+            "lane:entry:31383",
+            "mufradat:row:625"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:43",
+          "word_location": "2:43:4",
+          "sense_ids": [
+            "zkw_zakat_s1"
+          ]
+        },
+        {
+          "verse_key": "2:110",
+          "word_location": "2:110:4",
+          "sense_ids": [
+            "zkw_zakat_s1"
+          ]
+        },
+        {
+          "verse_key": "23:4",
+          "word_location": "23:4:3",
+          "sense_ids": [
+            "zkw_zakat_s2"
+          ]
+        },
+        {
+          "verse_key": "19:13",
+          "word_location": "19:13:4",
+          "sense_ids": [
+            "zkw_zakat_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "zkw_adj_zakiyy",
+      "form_group_ids": [
+        "qac-form:zkw:zakiy~:nominal:-",
+        "qac-form:zkw:zakiy~ap:nominal:-"
+      ],
+      "headword_arabic": "زَكِيّ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "zkw_zakiyy_s1",
+          "definition": "Pure, innocent, or morally sound.",
+          "usage_conditions": "Used of a person; the Quranic descriptions allow for purity by nature or prospective purification, with growth in goodness also associated with the adjective.",
+          "source_refs": [
+            "lane:entry:31385",
+            "mufradat:row:625"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:19",
+          "word_location": "19:19:9",
+          "sense_ids": [
+            "zkw_zakiyy_s1"
+          ]
+        },
+        {
+          "verse_key": "18:74",
+          "word_location": "18:74:10",
+          "sense_ids": [
+            "zkw_zakiyy_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "zkw_zaka_growth",
+      "headword_arabic": "زَكَا",
+      "definition": "To increase, grow, thrive, yield increase, or prosper in abundance.",
+      "usage_conditions": "Said of crops, land, wealth, cattle, people, deeds, knowledge, and other things capable of growth; it may also be used tropically of a work or activity.",
+      "source_refs": [
+        "lane:entry:31378"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zaka_suitability",
+      "headword_arabic": "زَكَا",
+      "definition": "To be suitable or befit someone.",
+      "usage_conditions": "Used in the conventional expression زَكَا الأَمْرُ بِفُلَانٍ or its negation for an affair’s suitability to a person.",
+      "source_refs": [
+        "lane:entry:31378"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zakka_game",
+      "headword_arabic": "زَكَّى",
+      "definition": "To call or determine the even-or-odd result in a guessing game.",
+      "usage_conditions": "A specialized gaming expression paired with the verb for the opposite result.",
+      "source_refs": [
+        "lane:entry:31379"
+      ]
+    },
+    {
+      "meaning_id": "zkw_formiv_increase",
+      "headword_arabic": "أَزْكَى",
+      "definition": "To cause something to increase, thrive, or enter a good condition.",
+      "usage_conditions": "Form IV, said of produce, wealth, livestock, or anything capable of increase.",
+      "source_refs": [
+        "lane:entry:31380"
+      ]
+    },
+    {
+      "meaning_id": "zkw_formiv_store",
+      "headword_arabic": "أَزْكَى",
+      "definition": "To put property into a bag or another receptacle.",
+      "usage_conditions": "A specialized Form IV use for placing property in storage or containment.",
+      "source_refs": [
+        "lane:entry:31380"
+      ]
+    },
+    {
+      "meaning_id": "zkw_formv_zakat",
+      "headword_arabic": "تَزَكَّى",
+      "definition": "To give the poor-rate.",
+      "usage_conditions": "A Classical Arabic use distinct from the Quranic reflexive sense of purifying oneself.",
+      "source_refs": [
+        "lane:entry:31381"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zaka_even",
+      "headword_arabic": "زَكَا",
+      "definition": "An even number, a pair, or the even side in a numerical opposition.",
+      "usage_conditions": "Used in the expression خَسَا أَوْ زَكَا for asking whether a number is odd or even.",
+      "source_refs": [
+        "lane:entry:31382"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zakat_increase",
+      "headword_arabic": "زَكَاة",
+      "definition": "Increase or augmentation resulting from divine blessing.",
+      "usage_conditions": "A broader nominal use concerning increase in worldly or otherworldly benefits.",
+      "source_refs": [
+        "lane:entry:31383"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zakat_ground_purity",
+      "headword_arabic": "زَكَاة",
+      "definition": "The dryness and purity of earth or ground from defilement.",
+      "usage_conditions": "A specialized physical sense of purity applied to the ground.",
+      "source_refs": [
+        "lane:entry:31383"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zakat_praise",
+      "headword_arabic": "زَكَاة",
+      "definition": "Praise understood as attribution of purity, goodness, or righteousness.",
+      "usage_conditions": "A nominal use for commendatory attribution, distinct from the act of praising expressed by Form II.",
+      "source_refs": [
+        "lane:entry:31383"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zakat_best_part",
+      "headword_arabic": "زَكَاة",
+      "definition": "The pure or best part of a thing.",
+      "usage_conditions": "A partitive use referring to the choice or excellence of an entity’s best portion.",
+      "source_refs": [
+        "lane:entry:31383"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zakaa_fruits",
+      "headword_arabic": "زَكَاء",
+      "definition": "The increase of the earth, or fruits brought forth by God.",
+      "usage_conditions": "A specialized noun for the earth’s produce and its divinely caused increase.",
+      "source_refs": [
+        "lane:entry:31384"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zakiyy_growth",
+      "headword_arabic": "زَكِيّ",
+      "definition": "Increasing, growing, thriving, fertile, or prosperous.",
+      "usage_conditions": "Applied to a growing boy, a prosperous person, or productive and fertile land.",
+      "source_refs": [
+        "lane:entry:31385"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zakawi_relational",
+      "headword_arabic": "زَكَوِيّ",
+      "definition": "Relating to zakah or the poor-rate.",
+      "usage_conditions": "A relational adjective derived from زَكَاة.",
+      "source_refs": [
+        "lane:entry:31386"
+      ]
+    },
+    {
+      "meaning_id": "zkw_zakat_purity",
+      "headword_arabic": "زَكَاة",
+      "definition": "Purity or freedom from defilement.",
+      "usage_conditions": "A general nominal sense of purity, including the physical purity of earth or ground.",
+      "source_refs": [
+        "lane:entry:31383"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:zkw:31378:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_f1_s1",
+        "zkw_zaka_growth",
+        "zkw_zaka_suitability"
+      ],
+      "note": "Covers moral purity, growth and prosperity, and suitability."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31379:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to another Lane entry."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31379:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_f2_s1"
+      ],
+      "note": "Transitive purification, including the Quranic constructions cited."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31379:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_f2_s2"
+      ],
+      "note": "Giving or collecting zakah."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31379:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_f2_s3"
+      ],
+      "note": "Attributing purity or goodness, praising, validating witnesses, and self-praise."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31379:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakka_game"
+      ],
+      "note": "Specialized even-or-odd gaming expression."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31380:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_formiv_increase"
+      ],
+      "note": "Form IV causing increase, thriving, or a good condition."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31380:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_formiv_store"
+      ],
+      "note": "Form IV storage or containment use."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31380:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31381:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31381:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_f5_s1"
+      ],
+      "note": "Becoming purified or purifying oneself."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31381:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_f5_s1"
+      ],
+      "note": "Endeavouring to attain piety in the Quranic usage."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31381:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_formv_zakat"
+      ],
+      "note": "Classical Form V use for giving the poor-rate."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31382:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zaka_even"
+      ],
+      "note": "Even number, pair, or even result in the stated expression."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31383:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakat_increase"
+      ],
+      "note": "Nominal increase or augmentation resulting from blessing."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31383:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakat_purity",
+        "zkw_zakat_ground_purity"
+      ],
+      "note": "General purity and the particular purity or dryness of earth or ground."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31383:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakat_s2"
+      ],
+      "note": "Quranic purification and the purpose-or-cause construction."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31383:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakat_s2"
+      ],
+      "note": "Quranic goodness, righteous conduct, religious service, or purification."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31383:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakat_s1"
+      ],
+      "note": "The prescribed poor-rate."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31383:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakat_praise"
+      ],
+      "note": "Praise as attribution of purity or goodness."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31383:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakat_best_part"
+      ],
+      "note": "The pure or best part of a thing."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31384:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional and pointer-only reference to related entries."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31384:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakaa_fruits"
+      ],
+      "note": "Increase of the earth and fruits brought forth."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31385:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakiyy_growth"
+      ],
+      "note": "Active-participial sense of increasing, growing, or thriving."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31385:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakiyy_s1",
+        "zkw_zakiyy_growth"
+      ],
+      "note": "Quranic purity and the related growth, goodness, righteousness, and prosperity branches."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31385:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakiyy_growth"
+      ],
+      "note": "Good, fertile, or productive land."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31386:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_zakawi_relational"
+      ],
+      "note": "Relational adjective referring to zakah."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31387:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the زَكِيّ entry."
+    },
+    {
+      "unit_id": "lane-unit:zkw:31388:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "zkw_azka_s1"
+      ],
+      "note": "Comparative and superlative senses including purity, goodness, benefit, abundance, and affordability."
+    }
+  ],
+  "cautions": [
+    "Lane's printed Quran references use historical citation conventions and are not treated as modern verse keys; the displayed examples use only secure QAC locations.",
+    "The lexical evidence connects zakah with both purification and increase, while the Quranic form entries preserve the distinct almsgiving, purification-purpose, and comparative constructions explicitly attested."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

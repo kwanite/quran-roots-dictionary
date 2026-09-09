@@ -1,0 +1,529 @@
+{
+  "root": "sqf",
+  "arabic": "سقف",
+  "root_idea": {
+    "summary": "An elevated, overhanging form, with an associated idea of bending or bowing.",
+    "development": "The semantic development centers on the roof or ceiling as something high and projecting, extends to the sky as the earth’s roof and to roofed structures or boards, and yields related descriptions of tall, bent forms.",
+    "source_refs": [
+      "maqayis:row:2452",
+      "mufradat:row:704"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sqf:saqof:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "sqf_saqf",
+      "reason": "The Quranic noun is presented under its normalized singular citation form سَقْف."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "sqf_saqf",
+      "form_group_ids": [
+        "qac-form:sqf:saqof:nominal:-"
+      ],
+      "headword_arabic": "سَقْف",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sqf_saqf_s1",
+          "definition": "A roof, ceiling, or overhead covering.",
+          "usage_conditions": "Used for a roof or ceiling of a house or other structure, and for an overhead covering described as protective. The singular can carry a plural sense in the Quranic expression referring to roofs of silver.",
+          "source_refs": [
+            "lane:entry:41508",
+            "mufradat:row:704"
+          ]
+        },
+        {
+          "sense_id": "sqf_saqf_s2",
+          "definition": "The sky or heaven, conceived as a roof over the earth.",
+          "usage_conditions": "A specialized Quran-attested application in which the heavens are understood as the elevated covering or roof of the earth.",
+          "source_refs": [
+            "lane:entry:41508",
+            "mufradat:row:704"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:26",
+          "word_location": "16:26:13",
+          "sense_ids": [
+            "sqf_saqf_s1"
+          ]
+        },
+        {
+          "verse_key": "21:32",
+          "word_location": "21:32:3",
+          "sense_ids": [
+            "sqf_saqf_s1"
+          ]
+        },
+        {
+          "verse_key": "43:33",
+          "word_location": "43:33:12",
+          "sense_ids": [
+            "sqf_saqf_s1"
+          ]
+        },
+        {
+          "verse_key": "52:5",
+          "word_location": "52:5:1",
+          "sense_ids": [
+            "sqf_saqf_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_sqf_roof_verbs",
+      "headword_arabic": "سَقَفَ، سَقَّفَ، أَسْقَفَ",
+      "definition": "To make a roof or ceiling for a house, chamber, or tent; to roof or cover a structure.",
+      "usage_conditions": "The Form II derivative may convey intensive force; the forms are explicitly cross-referenced within this roofing construction.",
+      "source_refs": [
+        "lane:entry:41504",
+        "lane:entry:41505",
+        "lane:entry:41506"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_make_bishop",
+      "headword_arabic": "سُقِّفَ",
+      "definition": "To be made a bishop.",
+      "usage_conditions": "Passive Form II construction.",
+      "source_refs": [
+        "lane:entry:41505"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_become_bishop",
+      "headword_arabic": "تَسَقَّفَ",
+      "definition": "To become a bishop.",
+      "usage_conditions": "A Form V denominative or derived construction referring to attaining the office of bishop.",
+      "source_refs": [
+        "lane:entry:41507"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_tall_bent",
+      "headword_arabic": "سَقِفٌ، سَقَفٌ، أَسْقَفُ",
+      "definition": "Tall and bent or bowed; in one usage, thick-boned.",
+      "usage_conditions": "Applied to people and animals, including an ostrich or she-camel; the descriptions concern height, curvature, or bodily build rather than a roof itself.",
+      "source_refs": [
+        "lane:entry:41504",
+        "lane:entry:41510",
+        "lane:entry:41516"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_jaw",
+      "headword_arabic": "سَقِفٌ",
+      "definition": "Long, flaccid, or pendulous, especially of the jaw or the part on which the beard grows.",
+      "usage_conditions": "An adjectival bodily description.",
+      "source_refs": [
+        "lane:entry:41508"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_hairless_camel",
+      "headword_arabic": "أَسْقَفُ",
+      "definition": "Hairless, of a camel.",
+      "usage_conditions": "A specialized description of a camel lacking fur.",
+      "source_refs": [
+        "lane:entry:41516"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_saqifa_shelter",
+      "headword_arabic": "سَقِيفَةٌ",
+      "definition": "A roofed or covered place, such as a portico, porch, projecting shelter, or covered passage.",
+      "usage_conditions": "The term can denote a covered portion of a building or street and similar roofed structures.",
+      "source_refs": [
+        "lane:entry:41513"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_saqifa_plank",
+      "headword_arabic": "سَقِيفَةٌ",
+      "definition": "A broad piece of wood or stone used as a roof, covering, or structural board.",
+      "usage_conditions": "Includes a board used over a hunter’s lurking-place, flat pieces used to cover a hollow, and a broad board laid above house roofs for reed mats.",
+      "source_refs": [
+        "lane:entry:41513"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_saqifa_ship_plank",
+      "headword_arabic": "سَقِيفَةٌ",
+      "definition": "A plank of a ship or boat.",
+      "usage_conditions": "A specialized extended use, apparently referring to a plank of the deck.",
+      "source_refs": [
+        "lane:entry:41513"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_saqifa_cranial_bone",
+      "headword_arabic": "سَقِيفَةٌ",
+      "definition": "A single cranial bone of a camel.",
+      "usage_conditions": "The camel’s cranial bones are termed سَقَائِفُ collectively.",
+      "source_refs": [
+        "lane:entry:41513"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_saqifa_rib",
+      "headword_arabic": "سَقِيفَةٌ",
+      "definition": "A single rib of a camel.",
+      "usage_conditions": "The camel’s ribs are termed سَقَائِفُ collectively.",
+      "source_refs": [
+        "lane:entry:41513"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_saqifa_splint",
+      "headword_arabic": "سَقِيفَةٌ",
+      "definition": "A splint used to set or support a fractured bone.",
+      "usage_conditions": "A piece of wood or similar material applied in bone treatment.",
+      "source_refs": [
+        "lane:entry:41513"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_saqifa_metal",
+      "headword_arabic": "سَقِيفَةٌ",
+      "definition": "A piece of gold or silver beaten thin and long.",
+      "usage_conditions": "An extended material use for thin, elongated beaten metal.",
+      "source_refs": [
+        "lane:entry:41513"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_roofer",
+      "headword_arabic": "سَقَّافٌ",
+      "definition": "A person whose occupation is constructing roofs or ceilings.",
+      "usage_conditions": "An occupational noun derived from the roofing sense.",
+      "source_refs": [
+        "lane:entry:41514"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_bishop",
+      "headword_arabic": "أُسْقُفٌ، أُسْقُفٌّ",
+      "definition": "A bishop: a Christian religious headman or learned religious authority.",
+      "usage_conditions": "One description places the office above a presbyter and below a metropolitan; an alternative account describes a ruler who affects humility in his gait.",
+      "source_refs": [
+        "lane:entry:41516",
+        "lane:entry:41518"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_bishop_office",
+      "headword_arabic": "سِقِيفَى، أُسْقُفِيَّةٌ",
+      "definition": "The office or rank of a bishop.",
+      "usage_conditions": "A noun denoting episcopal office rather than the person holding it.",
+      "source_refs": [
+        "lane:entry:41515"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_wide_boned",
+      "headword_arabic": "مُسَقَّفٌ",
+      "definition": "Wide in the bone or bones of the body.",
+      "usage_conditions": "A bodily description referring to broad skeletal structure.",
+      "source_refs": [
+        "lane:entry:41520"
+      ]
+    },
+    {
+      "meaning_id": "cm_sqf_raised_hair",
+      "headword_arabic": "مُسَقْفَفٌ",
+      "definition": "Raised, shaggy, dishevelled, or disordered hair.",
+      "usage_conditions": "Applied specifically to the condition or arrangement of hair.",
+      "source_refs": [
+        "lane:entry:41521"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sqf:41504:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_roof_verbs"
+      ],
+      "note": "Roof-making verb and its explicitly related derived forms."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41504:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_tall_bent"
+      ],
+      "note": "Tall and bent or bowed."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41504:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41505:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the roofing entry."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41505:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_make_bishop"
+      ],
+      "note": "Being made a bishop."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41506:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the roofing entry."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41507:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_become_bishop"
+      ],
+      "note": "Becoming a bishop."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41508:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sqf_saqf_s1"
+      ],
+      "note": "Roof, ceiling, covering, and the singular-for-plural Quranic usage."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41508:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sqf_saqf_s2"
+      ],
+      "note": "Sky or heaven as the roof of the earth."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41508:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_jaw"
+      ],
+      "note": "Long, flaccid, or pendulous jaw."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41508:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41509:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41509:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form information only."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41510:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_tall_bent"
+      ],
+      "note": "Tallness with bending or bowing."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41511:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "The lexical item is reported as unknown and may be a scribal corruption of an unrelated word."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41512:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41512:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41513:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_saqifa_shelter"
+      ],
+      "note": "Roofed or covered place."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41513:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_saqifa_plank"
+      ],
+      "note": "Broad wood or stone roofing and covering piece."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41513:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_saqifa_ship_plank"
+      ],
+      "note": "Ship or boat plank."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41513:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_saqifa_cranial_bone"
+      ],
+      "note": "Camel cranial bone."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41513:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_saqifa_rib"
+      ],
+      "note": "Camel rib."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41513:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_saqifa_splint"
+      ],
+      "note": "Bone-setting splint."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41513:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_saqifa_plank"
+      ],
+      "note": "Broad board used above house roofs."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41513:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_saqifa_metal"
+      ],
+      "note": "Thin elongated beaten gold or silver."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41514:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_roofer"
+      ],
+      "note": "Occupational noun for a roof constructor."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41515:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_bishop_office"
+      ],
+      "note": "Office of a bishop."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41516:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_tall_bent",
+        "cm_sqf_bishop"
+      ],
+      "note": "Tall or bent adjective and its stated connection with the bishop term."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41516:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_hairless_camel"
+      ],
+      "note": "Hairless camel."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41517:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41517:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41518:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_bishop"
+      ],
+      "note": "Bishop and descriptions of the office."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41519:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41520:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_wide_boned"
+      ],
+      "note": "Wide in the bones."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41520:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41521:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sqf_raised_hair"
+      ],
+      "note": "Raised, shaggy, or disordered hair."
+    },
+    {
+      "unit_id": "lane-unit:sqf:41522:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The Quranic noun is normalized under the singular citation form سَقْف; its supplied occurrences include singular and plural surface forms.",
+    "One historical Lane lexical item, السُّقَفَآءَ, remains unresolved because its meaning is explicitly reported as unknown and its proposed correction points to another word."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:sqf:41511:g1:main: السُّقَفَآءَ is reported as an unknown word; the proposed correction to الشُّفَعَاء is not confidently assignable to this root."
+  ]
+}

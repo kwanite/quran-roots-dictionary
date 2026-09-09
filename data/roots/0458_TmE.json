@@ -1,0 +1,458 @@
+{
+  "root": "TmE",
+  "arabic": "طمع",
+  "root_idea": {
+    "summary": "A strong inward hope or desire directed toward a thing.",
+    "development": "The root develops from powerful expectation and longing into eager coveting, hoping for an outcome, and related causative, adjectival, and object-noun formations.",
+    "source_refs": [
+      "maqayis:row:3062",
+      "mufradat:row:913"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:TmE:yaTomaEu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_tami3a_I",
+      "reason": "Displayed under the normalized Form I perfect citation form طَمِعَ."
+    },
+    {
+      "form_group_id": "qac-form:TmE:TamaE:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_tama3",
+      "reason": "Displayed as the abstract noun طَمَعٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_tami3a_I",
+      "form_group_ids": [
+        "qac-form:TmE:yaTomaEu:verb:I"
+      ],
+      "headword_arabic": "طَمِعَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "s_tami3a_desire",
+          "definition": "To desire, long for, or covet something eagerly.",
+          "usage_conditions": "Describes a strong inclination toward a desired thing. The emphasis may fall on eager wanting rather than on the expectation that the thing will actually be obtained.",
+          "source_refs": [
+            "lane:entry:11752",
+            "mufradat:row:913"
+          ]
+        },
+        {
+          "sense_id": "s_tami3a_hope",
+          "definition": "To hope for or expect a desired outcome.",
+          "usage_conditions": "Commonly used with a following event or goal, including constructions with أَنْ. It can refer to an outcome regarded as relatively near or possible, though that is not an absolute restriction.",
+          "source_refs": [
+            "lane:entry:11752",
+            "mufradat:row:913"
+          ]
+        },
+        {
+          "sense_id": "s_tami3a_lust",
+          "definition": "To lust after or be moved by sexual desire.",
+          "usage_conditions": "A context-specific use of eager desire. In the Quranic construction involving speech that may awaken desire, the sense is sexual, but the lexical construction itself is described neutrally and is not restricted to a particular gender or object class.",
+          "source_refs": [
+            "lane:entry:11752"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:75",
+          "word_location": "2:75:1",
+          "sense_ids": [
+            "s_tami3a_hope"
+          ]
+        },
+        {
+          "verse_key": "26:51",
+          "word_location": "26:51:2",
+          "sense_ids": [
+            "s_tami3a_hope"
+          ]
+        },
+        {
+          "verse_key": "33:32",
+          "word_location": "33:32:12",
+          "sense_ids": [
+            "s_tami3a_lust"
+          ]
+        },
+        {
+          "verse_key": "74:15",
+          "word_location": "74:15:2",
+          "sense_ids": [
+            "s_tami3a_desire"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_tama3",
+      "form_group_ids": [
+        "qac-form:TmE:TamaE:nominal:-"
+      ],
+      "headword_arabic": "طَمَعٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "s_tama3_hopeful_desire",
+          "definition": "Hope or eager desire for a desired outcome.",
+          "usage_conditions": "An abstract noun describing hopeful longing, especially when paired with fear or used of an anticipated benefit, relief, or fulfillment.",
+          "source_refs": [
+            "mufradat:row:913"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:56",
+          "word_location": "7:56:9",
+          "sense_ids": [
+            "s_tama3_hopeful_desire"
+          ]
+        },
+        {
+          "verse_key": "13:12",
+          "word_location": "13:12:6",
+          "sense_ids": [
+            "s_tama3_hopeful_desire"
+          ]
+        },
+        {
+          "verse_key": "30:24",
+          "word_location": "30:24:6",
+          "sense_ids": [
+            "s_tama3_hopeful_desire"
+          ]
+        },
+        {
+          "verse_key": "32:16",
+          "word_location": "32:16:8",
+          "sense_ids": [
+            "s_tama3_hopeful_desire"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_tami3a_acquire_mastery",
+      "headword_arabic": "طَمِعَ",
+      "definition": "To covet and strive to acquire, obtain, or attain something; to hope to gain mastery over or overcome someone.",
+      "usage_conditions": "The construction طَمِعَ فِي may take a person or thing as its object and can express eager pursuit, hoped-for possession, or attempted mastery.",
+      "source_refs": [
+        "lane:entry:11752"
+      ]
+    },
+    {
+      "meaning_id": "cm_tamu3_become_covetous",
+      "headword_arabic": "طَمُعَ",
+      "definition": "To become very covetous.",
+      "usage_conditions": "Also attested as an expressive verb of wonder in the cited grammatical pattern.",
+      "source_refs": [
+        "lane:entry:11752"
+      ]
+    },
+    {
+      "meaning_id": "cm_atma3a_causative",
+      "headword_arabic": "أَطْمَعَ",
+      "definition": "To make someone covet or desire something.",
+      "usage_conditions": "The object is the person whose desire is aroused; the verb may be followed by فِي, and apparently also بِ, before the desired object.",
+      "source_refs": [
+        "lane:entry:11754"
+      ]
+    },
+    {
+      "meaning_id": "cm_tatamma3_intense_desire",
+      "headword_arabic": "تَطَمَّعَ",
+      "definition": "To become intensely desirous or lustful.",
+      "usage_conditions": "The cited construction describes becoming excited by eager desire; the example does not establish a general restriction on the object.",
+      "source_refs": [
+        "lane:entry:11755"
+      ]
+    },
+    {
+      "meaning_id": "cm_tama3_covetousness",
+      "headword_arabic": "طَمَعٌ",
+      "definition": "Coveting, covetousness, or greed.",
+      "usage_conditions": "An abstract noun for acquisitive or excessive desire, distinct from the Quranic use emphasizing hopeful expectation.",
+      "source_refs": [
+        "lane:entry:11756"
+      ]
+    },
+    {
+      "meaning_id": "cm_tama3_desired_object",
+      "headword_arabic": "طَمَعٌ",
+      "definition": "A thing that is coveted or vehemently desired.",
+      "usage_conditions": "A nominal use referring to the desired object rather than to the state of desiring.",
+      "source_refs": [
+        "lane:entry:11756"
+      ]
+    },
+    {
+      "meaning_id": "cm_tama3_allowance",
+      "headword_arabic": "طَمَعٌ",
+      "definition": "A soldier’s allowance of food, subsistence money, or pay; by extension, the times at which such allowances are received.",
+      "usage_conditions": "A specialized plural usage in أَطْمَاعٌ.",
+      "source_refs": [
+        "lane:entry:11756"
+      ]
+    },
+    {
+      "meaning_id": "cm_tami3_adjectival_family",
+      "headword_arabic": "طَمُعٌ، طَمِعٌ، طَامِعٌ، طَمَّاعٌ، طَمُوعٌ",
+      "definition": "Covetous or desirous; in some forms, very or habitually covetous.",
+      "usage_conditions": "These are adjectival epithets derived from طَمِعَ, with some forms functioning as intensified descriptions.",
+      "source_refs": [
+        "lane:entry:11758"
+      ]
+    },
+    {
+      "meaning_id": "cm_atma3_comparative",
+      "headword_arabic": "أَطْمَعُ",
+      "definition": "More or most covetous.",
+      "usage_conditions": "A comparative or superlative adjective, also used in the cited proverbial expression.",
+      "source_refs": [
+        "lane:entry:11762"
+      ]
+    },
+    {
+      "meaning_id": "cm_tatmi3_first_rain",
+      "headword_arabic": "تَطْمِيعٌ",
+      "definition": "The first slight rain at the beginning of a rainfall, when only a little has fallen and it makes one desire more.",
+      "usage_conditions": "A specialized or figurative noun named for the desire that the initial rain arouses for further rain.",
+      "source_refs": [
+        "lane:entry:11763"
+      ]
+    },
+    {
+      "meaning_id": "cm_mazma3_desired_object",
+      "headword_arabic": "مَظْمَعٌ",
+      "definition": "A thing coveted or vehemently desired; an object of aspiration.",
+      "usage_conditions": "The plural is مَطَامِعُ. The word may also describe an attainment whose prospect is remote or improbable.",
+      "source_refs": [
+        "lane:entry:11764"
+      ]
+    },
+    {
+      "meaning_id": "cm_mazma3_hope",
+      "headword_arabic": "مَظْمَعٌ",
+      "definition": "A hope or hoped-for prospect.",
+      "usage_conditions": "It can be used as an abstract noun in expressions such as hoping for a cure, including when the prospect is unlikely.",
+      "source_refs": [
+        "lane:entry:11764"
+      ]
+    },
+    {
+      "meaning_id": "cm_mazma3_decoy",
+      "headword_arabic": "مَظْمَعٌ",
+      "definition": "A bird placed within a fowler’s net to lure and ensnare other birds.",
+      "usage_conditions": "A specialized transferred use based on the bird’s function as an object that arouses desire or attraction.",
+      "source_refs": [
+        "lane:entry:11764"
+      ]
+    },
+    {
+      "meaning_id": "cm_matma3a_cause_of_desire",
+      "headword_arabic": "مَطْمَعَةٌ",
+      "definition": "A cause of coveting or intense desire; something on account of which one desires.",
+      "usage_conditions": "The noun denotes the occasion or object that stimulates desire, not the desire itself.",
+      "source_refs": [
+        "lane:entry:11765"
+      ]
+    },
+    {
+      "meaning_id": "cm_mitma3_arousing_woman",
+      "headword_arabic": "مِطْمَاعٌ",
+      "definition": "A woman who arouses intense desire but does not grant fulfillment.",
+      "usage_conditions": "A lexical description of a woman whose attractiveness or conduct excites desire without allowing attainment.",
+      "source_refs": [
+        "lane:entry:11766"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:TmE:11752:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_tami3a_desire",
+        "s_tami3a_hope",
+        "s_tami3a_lust",
+        "cm_tami3a_acquire_mastery"
+      ],
+      "note": "Covers eager desire, hope, lust, and eager pursuit or mastery constructions."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11752:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tamu3_become_covetous"
+      ],
+      "note": "Defines طَمُعَ as becoming very covetous."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11753:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form II entry."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11753:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the verbal noun."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11754:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_atma3a_causative"
+      ],
+      "note": "Defines the causative verb as making someone covet."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11755:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tatamma3_intense_desire"
+      ],
+      "note": "Defines the Form V intensive-desire use."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11756:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tama3_covetousness"
+      ],
+      "note": "Defines the abstract noun as coveting, covetousness, or greed."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11756:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tama3_desired_object"
+      ],
+      "note": "Defines a coveted or vehemently desired thing."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11756:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tama3_allowance"
+      ],
+      "note": "Defines the specialized allowance and pay usage."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11757:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11758:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tami3_adjectival_family"
+      ],
+      "note": "Defines the adjectival family for covetousness."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11759:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11760:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11761:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11762:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_atma3_comparative"
+      ],
+      "note": "Defines the comparative or superlative adjective."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11763:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Derivational identification of the verbal noun without an independent definition."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11763:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tatmi3_first_rain"
+      ],
+      "note": "Defines the specialized initial-rain usage."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11764:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mazma3_desired_object",
+        "cm_mazma3_hope"
+      ],
+      "note": "Covers the desired object and abstract hope/prospect uses."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11764:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mazma3_decoy"
+      ],
+      "note": "Defines the bird used as a fowler’s decoy."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11764:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mazma3_hope"
+      ],
+      "note": "Attests the abstract hope use in the expression about a cure."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11765:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_matma3a_cause_of_desire"
+      ],
+      "note": "Defines a cause or object that stimulates desire."
+    },
+    {
+      "unit_id": "lane-unit:TmE:11766:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mitma3_arousing_woman"
+      ],
+      "note": "Defines the specialized وصف for a woman who arouses desire without granting attainment."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb group consists of imperfect active Form I occurrences; the public headword is normalized to the classical perfect citation form طَمِعَ.",
+    "Hope, eager desire, and coveting overlap semantically, but context determines whether expectation or strong wanting is foregrounded. The sexual sense is specifically contextual and should not be projected onto every occurrence."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Form II headword طَمَّعَ is listed only through pointer text in the supplied Lane units; no standalone definition for that form is securely recoverable, so it is not asserted as a separate classical meaning."
+  ]
+}

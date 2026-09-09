@@ -1,0 +1,310 @@
+{
+  "root": "Alm",
+  "arabic": "ألم",
+  "root_idea": {
+    "summary": "The root centers on pain or ache, whether experienced or caused.",
+    "development": "The lexical pattern extends from undergoing pain (أَلِمَ) to what causes pain (أَلِيمٌ), with further causative and expressive derivatives.",
+    "source_refs": [
+      "maqayis:row:136",
+      "mufradat:row:50",
+      "lane:entry:7077",
+      "lane:entry:7078",
+      "lane:entry:7084"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Alm:ya>olamu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Alm:alima:I",
+      "reason": "Displayed under the normalized Form I perfect citation form أَلِمَ rather than the QAC imperfect lemma."
+    },
+    {
+      "form_group_id": "qac-form:Alm:>aliym:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Alm:alim:ADJ",
+      "reason": "Displayed as the normalized adjective citation form أَلِيم."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:Alm:alima:I",
+      "form_group_ids": [
+        "qac-form:Alm:ya>olamu:verb:I"
+      ],
+      "headword_arabic": "أَلِمَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense:Alm:alima:1",
+          "definition": "To be in pain; to suffer pain.",
+          "usage_conditions": "In the Quran, the active imperfect denotes experiencing pain, including the contrasting construction in which one group suffers as another group suffers.",
+          "source_refs": [
+            "lane:entry:7076",
+            "mufradat:row:50"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:104",
+          "word_location": "4:104:8",
+          "sense_ids": [
+            "sense:Alm:alima:1"
+          ]
+        },
+        {
+          "verse_key": "4:104",
+          "word_location": "4:104:10",
+          "sense_ids": [
+            "sense:Alm:alima:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:Alm:alim:ADJ",
+      "form_group_ids": [
+        "qac-form:Alm:>aliym:nominal:-"
+      ],
+      "headword_arabic": "أَلِيم",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 72,
+      "senses": [
+        {
+          "sense_id": "sense:Alm:alim:1",
+          "definition": "Painful; causing pain or suffering.",
+          "usage_conditions": "In Quranic usage, it frequently qualifies punishment, torment, or another affliction. The adjective may express the causative sense of something that produces pain, rather than a separate meaning from the ordinary translation “painful.”",
+          "source_refs": [
+            "lane:entry:7084",
+            "mufradat:row:50"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:4",
+          "word_location": "10:4:25",
+          "sense_ids": [
+            "sense:Alm:alim:1"
+          ]
+        },
+        {
+          "verse_key": "15:50",
+          "word_location": "15:50:5",
+          "sense_ids": [
+            "sense:Alm:alim:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Alm:alam:pain",
+      "headword_arabic": "أَلَمٌ",
+      "definition": "Pain or ache, especially severe pain.",
+      "usage_conditions": "A noun for pain or aching generally.",
+      "source_refs": [
+        "lane:entry:7080",
+        "mufradat:row:50"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alm:alam:distress",
+      "headword_arabic": "أَلَمٌ",
+      "definition": "Distress or difficulty.",
+      "usage_conditions": "An idiomatic extension in an expression for bringing hardship or difficulty upon someone.",
+      "source_refs": [
+        "lane:entry:7080"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alm:alim:state",
+      "headword_arabic": "أَلِمٌ",
+      "definition": "Being in pain; suffering pain; aching.",
+      "usage_conditions": "An adjective describing a person or thing undergoing pain.",
+      "source_refs": [
+        "lane:entry:7081"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alm:aalim:state",
+      "headword_arabic": "آلِمٌ",
+      "definition": "Experiencing or suffering pain; being in pain.",
+      "usage_conditions": "A descriptive form for one who is experiencing pain.",
+      "source_refs": [
+        "mufradat:row:50"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alm:aalama:cause",
+      "headword_arabic": "آلَمَ",
+      "definition": "To cause someone pain or aching.",
+      "usage_conditions": "A causative verb taking the sufferer as its object.",
+      "source_refs": [
+        "lane:entry:7077"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alm:taallama:become",
+      "headword_arabic": "تَأَلَّمَ",
+      "definition": "To be or become pained.",
+      "usage_conditions": "A Form V inchoative or reflexive expression of undergoing pain.",
+      "source_refs": [
+        "lane:entry:7078"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alm:taallama:express",
+      "headword_arabic": "تَأَلَّمَ",
+      "definition": "To express pain, grief, or sorrow; to lament, complain, or moan.",
+      "usage_conditions": "It may be used with مِنْ for complaint about someone or something, or with لِـ for complaint on account of hardship.",
+      "source_refs": [
+        "lane:entry:7078"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alm:aluma:lowness",
+      "headword_arabic": "أَلُومَةٌ",
+      "definition": "Lowness, ignobleness, baseness, vileness, or meanness.",
+      "usage_conditions": "An independent nominal use with a moral or social evaluation.",
+      "source_refs": [
+        "lane:entry:7085"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alm:aylama:sound",
+      "headword_arabic": "أَيْلَمَةٌ",
+      "definition": "A sound or voice.",
+      "usage_conditions": "Applied to a sound belonging to a person or thing.",
+      "source_refs": [
+        "lane:entry:7086"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alm:aylama:motion",
+      "headword_arabic": "أَيْلَمَةٌ",
+      "definition": "Motion.",
+      "usage_conditions": "A separately reported lexical use of the noun.",
+      "source_refs": [
+        "lane:entry:7086"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Alm:7076:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Alm:alima:1"
+      ],
+      "note": "Pain experienced by the subject."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7077:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alm:aalama:cause"
+      ],
+      "note": "Causative action of causing pain."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7078:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alm:taallama:become",
+        "cm:Alm:taallama:express"
+      ],
+      "note": "Inchoative and expressive Form V uses."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7079:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7080:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alm:alam:pain",
+        "cm:Alm:alam:distress"
+      ],
+      "note": "Noun for pain and its idiomatic hardship use."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7081:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alm:alim:state"
+      ],
+      "note": "Adjectival state of being in pain."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7082:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7083:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Orthographic contraction of إلى ما, not a lexical meaning of this root."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7084:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Alm:alim:1"
+      ],
+      "note": "Painful or pain-causing adjective."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7085:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alm:aluma:lowness"
+      ],
+      "note": "Nominal meaning of baseness or meanness."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7086:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7086:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alm:aylama:sound"
+      ],
+      "note": "Reported meaning of sound or voice."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7086:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alm:aylama:motion"
+      ],
+      "note": "Reported meaning of motion."
+    },
+    {
+      "unit_id": "lane-unit:Alm:7087:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to أَلِيمٌ."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb tokens are imperfect forms; the public headword is normalized to the perfect citation form أَلِمَ.",
+    "The evidence records both أَلِمٌ and آلِمٌ for the state of being in pain. They are retained as separate classical headwords because their forms differ despite overlapping meanings.",
+    "A separate homographic note in the lexical evidence concerns the interrogative prefix with لَمْ, not the root ألم."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

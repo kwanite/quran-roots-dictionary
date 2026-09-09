@@ -1,0 +1,99 @@
+{
+  "root": "Dyz",
+  "arabic": "ضيز",
+  "root_idea": {
+    "summary": "The root centers on deficiency or injustice in apportionment, especially withholding someone’s due.",
+    "development": "The lexical evidence links a deficient division with depriving a person of a right. The root’s etymological origin is reported as possibly deriving from wāw.",
+    "source_refs": [
+      "maqayis:row:2975"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Dyz:DiyzaY`^:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:Dyz-diza",
+      "reason": "Displayed as the Quran-attested adjective ضِيزَىٰ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:Dyz-diza",
+      "form_group_ids": [
+        "qac-form:Dyz:DiyzaY`^:nominal:-"
+      ],
+      "headword_arabic": "ضِيزَىٰ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "quran-form:Dyz-diza:s1",
+          "definition": "Deficient or unjust; inequitable.",
+          "usage_conditions": "Used in the Quranic expression قِسْمَةٌ ضِيزَىٰ, describing an allocation or division as defective and unjust.",
+          "source_refs": [
+            "lane:entry:18170",
+            "mufradat:row:884"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "53:22",
+          "word_location": "53:22:4",
+          "sense_ids": [
+            "quran-form:Dyz-diza:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical-Dyz-deviate",
+      "headword_arabic": "ضَازَ",
+      "definition": "To deviate from the right course; to act unjustly, wrongfully, injuriously, or tyrannically, especially in judgment.",
+      "usage_conditions": "An intransitive lexical use, including the construction فِي الْحُكْمِ, “in judgment.”",
+      "source_refs": [
+        "lane:entry:18169"
+      ]
+    },
+    {
+      "meaning_id": "classical-Dyz-withhold-right",
+      "headword_arabic": "ضَازَهُ حَقَّهُ",
+      "definition": "To deprive or defraud someone of part or all of a right or due; to refuse or withhold it.",
+      "usage_conditions": "A transitive construction governing the person’s right or due.",
+      "source_refs": [
+        "lane:entry:18169"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Dyz:18169:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-Dyz-deviate"
+      ],
+      "note": "The unit’s independent meaning of deviating from justice or acting unjustly is represented."
+    },
+    {
+      "unit_id": "lane-unit:Dyz:18169:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-Dyz-withhold-right"
+      ],
+      "note": "The unit’s construction for depriving or withholding a right is represented."
+    },
+    {
+      "unit_id": "lane-unit:Dyz:18170:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "quran-form:Dyz-diza:s1"
+      ],
+      "note": "The Quran-attested adjective is represented with its deficient or unjust-division meaning."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

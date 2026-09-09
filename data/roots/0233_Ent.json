@@ -1,0 +1,630 @@
+{
+  "root": "Ent",
+  "arabic": "عنت",
+  "root_idea": {
+    "summary": "The root centers on encountering or imposing hardship, distress, and what is contrary to ease.",
+    "development": "From the basic idea of severe difficulty, the lexicon develops causative uses for imposing hardship, and related uses for peril, wrongdoing, physical harm, and entangling difficulty.",
+    "source_refs": [
+      "maqayis:row:3320",
+      "mufradat:row:1016"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Ent:Eani:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-ent-fi",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Ent:>aEonata:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-ent-fiv",
+      "reason": "Displayed as the distinct Form IV causative verb."
+    },
+    {
+      "form_group_id": "qac-form:Ent:Eanat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-ent-noun",
+      "reason": "Displayed as the noun citation form عَنَتٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-ent-fi",
+      "form_group_ids": [
+        "qac-form:Ent:Eani:verb:I"
+      ],
+      "headword_arabic": "عَنِتَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qf-ent-fi-s1",
+          "definition": "To fall into, experience, or suffer difficulty, hardship, or distress.",
+          "usage_conditions": "In the Quranic occurrences, the verb describes hardship or distress affecting the addressee or community. It may be used of what causes such difficulty.",
+          "source_refs": [
+            "lane:entry:4930",
+            "mufradat:row:1016"
+          ]
+        },
+        {
+          "sense_id": "qf-ent-fi-s2",
+          "definition": "To incur or commit sinful wrongdoing.",
+          "usage_conditions": "A secondary interpretation of ما عَنِتُّمْ in 3:118 understands the expression as referring to having sinned; this reading is distinct from the ordinary sense of experiencing hardship.",
+          "source_refs": [
+            "lane:entry:4930"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:118",
+          "word_location": "3:118:14",
+          "sense_ids": [
+            "qf-ent-fi-s1",
+            "qf-ent-fi-s2"
+          ]
+        },
+        {
+          "verse_key": "9:128",
+          "word_location": "9:128:9",
+          "sense_ids": [
+            "qf-ent-fi-s1"
+          ]
+        },
+        {
+          "verse_key": "49:7",
+          "word_location": "49:7:12",
+          "sense_ids": [
+            "qf-ent-fi-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-ent-fiv",
+      "form_group_ids": [
+        "qac-form:Ent:>aEonata:verb:IV"
+      ],
+      "headword_arabic": "أَعْنَتَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-ent-fiv-s1",
+          "definition": "To cause someone to fall into hardship or distress; to impose a severe constraint or demand.",
+          "usage_conditions": "In لَأَعْنَتَكُمْ, the causative verb can describe imposing a burden or requiring what is difficult, or beyond one's power, to perform.",
+          "source_refs": [
+            "lane:entry:4931",
+            "lane:entry:4932",
+            "mufradat:row:1016"
+          ]
+        },
+        {
+          "sense_id": "qf-ent-fiv-s2",
+          "definition": "To destroy or cause to perish.",
+          "usage_conditions": "This is an alternative interpretation of لَأَعْنَتَكُمْ in 2:220, presenting the imposed hardship as destruction or ruin.",
+          "source_refs": [
+            "lane:entry:4931"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:220",
+          "word_location": "2:220:22",
+          "sense_ids": [
+            "qf-ent-fiv-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-ent-noun",
+      "form_group_ids": [
+        "qac-form:Ent:Eanat:nominal:-"
+      ],
+      "headword_arabic": "عَنَتٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-ent-noun-s1",
+          "definition": "Severe hardship, distress, or peril, including the prospect of ruin.",
+          "usage_conditions": "In خَشِيَ الْعَنَتَ, the noun denotes a feared condition of severe difficulty or peril; some interpretations specifically explain it as perdition or destruction.",
+          "source_refs": [
+            "lane:entry:4935",
+            "mufradat:row:1016"
+          ]
+        },
+        {
+          "sense_id": "qf-ent-noun-s2",
+          "definition": "Fornication or adultery, understood as grave sexual sin.",
+          "usage_conditions": "A conventional Quranic interpretation of الْعَنَتَ in 4:25; some explanations describe the meaning as perdition through fornication rather than the act alone.",
+          "source_refs": [
+            "lane:entry:4935",
+            "mufradat:row:1016"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:25",
+          "word_location": "4:25:50",
+          "sense_ids": [
+            "qf-ent-noun-s1",
+            "qf-ent-noun-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-ent-fi-lame",
+      "headword_arabic": "عَنِتَ",
+      "definition": "Of a beast: to become lame or halt because of harsh or rough treatment.",
+      "usage_conditions": "A physical use describing impairment resulting from treatment the animal cannot bear.",
+      "source_refs": [
+        "lane:entry:4930"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-fi-bonebreak",
+      "headword_arabic": "عَنِتَ",
+      "definition": "Of a bone: to weaken and break, or to break again after having been set and united.",
+      "usage_conditions": "Used of a previously treated fracture or of a bone that becomes weak after being set.",
+      "source_refs": [
+        "lane:entry:4930"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-fii-hard",
+      "headword_arabic": "عَنَّتَهُ",
+      "definition": "To treat someone with hardness or severity and constrain him to do what is difficult for him.",
+      "usage_conditions": "This is the Form II causative/intensive use, distinct from the Quranic Form IV form.",
+      "source_refs": [
+        "lane:entry:4931"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-fii-destroy",
+      "headword_arabic": "عَنَّتَهُ",
+      "definition": "To destroy someone or cause him to perish.",
+      "usage_conditions": "An extended Form II use in which severe treatment results in ruin.",
+      "source_refs": [
+        "lane:entry:4931"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-fiv-rough",
+      "headword_arabic": "أَعْنَتَهُ",
+      "definition": "To treat a beast roughly so that it becomes lame or halts; to treat a sick person without gentleness and injure him; or to worsen a previously set fracture.",
+      "usage_conditions": "A physical Form IV causative use involving harsh handling and resulting harm.",
+      "source_refs": [
+        "lane:entry:4932"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-fv-harm",
+      "headword_arabic": "تَعَنَّتَهُ",
+      "definition": "To bring annoyance, molestation, harm, or hurt upon someone, or to seek to cause him difficulty.",
+      "usage_conditions": "A Form V use describing deliberate or troublesome imposition of harm or hardship.",
+      "source_refs": [
+        "lane:entry:4933"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-fv-confuse",
+      "headword_arabic": "تَعَنَّتَهُ",
+      "definition": "To question someone in a way intended to entangle him in confusion or doubt.",
+      "usage_conditions": "Used of pressing a witness or another person with searching questions designed to create uncertainty or expose him to difficulty.",
+      "source_refs": [
+        "lane:entry:4933"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-rqi-horn",
+      "headword_arabic": "عَنْتَتَ",
+      "definition": "Of the horn of a young goat: to rise or rise high.",
+      "usage_conditions": "A specialized rural or zoological use of the R.Q. form.",
+      "source_refs": [
+        "lane:entry:4934"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-rqi-avoid",
+      "headword_arabic": "عَنْتَتَ",
+      "definition": "To turn away from, avoid, or shun someone or something.",
+      "usage_conditions": "A separate use of the same rare form, construed with عَنْهُ.",
+      "source_refs": [
+        "lane:entry:4934"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-noun-corrupt",
+      "headword_arabic": "عَنَتٌ",
+      "definition": "A bad, evil, or corrupt state, or bad, evil, or corrupt conduct.",
+      "usage_conditions": "A broader moral and behavioral noun use outside the specific Quranic interpretation retained above.",
+      "source_refs": [
+        "lane:entry:4935"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-noun-sin",
+      "headword_arabic": "عَنَتٌ",
+      "definition": "A sin, crime, or act of disobedience deserving punishment.",
+      "usage_conditions": "This general moral sense is broader than the specifically sexual Quranic interpretation of 4:25.",
+      "source_refs": [
+        "lane:entry:4935"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-noun-error",
+      "headword_arabic": "عَنَتٌ",
+      "definition": "A wrong action, error, or mistake, whether intentional or unintentional.",
+      "usage_conditions": "A general noun for erroneous or wrongful action.",
+      "source_refs": [
+        "lane:entry:4935"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-noun-harm",
+      "headword_arabic": "عَنَتٌ",
+      "definition": "Wrongful, unjust, injurious, or tyrannical conduct; annoyance, harm, hurt, or afflicting injury.",
+      "usage_conditions": "This branch emphasizes harmful treatment or conduct rather than hardship simply as a condition.",
+      "source_refs": [
+        "lane:entry:4935"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-noun-contention",
+      "headword_arabic": "عَنَتٌ",
+      "definition": "Contention, especially striving for superiority, persistent opposition, or vain disputation.",
+      "usage_conditions": "A figurative or interpersonal use attributed to the relevant lexical tradition.",
+      "source_refs": [
+        "lane:entry:4935"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-adj-bone",
+      "headword_arabic": "عَنِتٌ",
+      "definition": "A bone broken after having been set and united.",
+      "usage_conditions": "An adjectival description of a previously treated bone that has fractured again.",
+      "source_refs": [
+        "lane:entry:4936"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-hill",
+      "headword_arabic": "عَنُوتٌ",
+      "definition": "A hill difficult to ascend; a high and difficult ascent.",
+      "usage_conditions": "A topographical adjective or noun describing steepness and difficulty of ascent.",
+      "source_refs": [
+        "lane:entry:4937"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-notch",
+      "headword_arabic": "عُنْتُوتٌ",
+      "definition": "The notch in a bow into which the ring at the head of the string enters.",
+      "usage_conditions": "A specialized term for a part of a bow.",
+      "source_refs": [
+        "lane:entry:4938"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-beginning",
+      "headword_arabic": "عُنْتُوتٌ",
+      "definition": "The first part, beginning, or commencement of anything.",
+      "usage_conditions": "A nominal use unrelated to the Quranic forms displayed above.",
+      "source_refs": [
+        "lane:entry:4938"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-plant",
+      "headword_arabic": "عُنْتُوتٌ",
+      "definition": "A dry plant called حَلِيّ or حَلْي.",
+      "usage_conditions": "A botanical use recorded as a separate lexical branch.",
+      "source_refs": [
+        "lane:entry:4938"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-woman",
+      "headword_arabic": "عَانِتٌ",
+      "definition": "An epithet for a woman, equivalent to عَانِسٌ.",
+      "usage_conditions": "The evidence presents this as a dialectal, substituted, or possibly mispronounced form; it is retained as a distinct lexical item.",
+      "source_refs": [
+        "lane:entry:4939"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-cause-difficulty",
+      "headword_arabic": "مَعْنَتَةٌ",
+      "definition": "A cause of difficulty, hardship, or distress.",
+      "usage_conditions": "A derived noun denoting the source or occasion of hardship.",
+      "source_refs": [
+        "lane:entry:4941"
+      ]
+    },
+    {
+      "meaning_id": "cm-ent-mutaannit-error",
+      "headword_arabic": "مُتَعَنِّتٌ",
+      "definition": "Seeking to cause someone to fall into a wrong action, error, or wrongdoing.",
+      "usage_conditions": "Illustrated in the phrase جَاءَنِي فُلَانٌ مُتَعَنِّتًا; the participle describes the person's intention toward the other party.",
+      "source_refs": [
+        "lane:entry:4942"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Ent:4930:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-ent-fi-s1",
+        "qf-ent-fi-s2"
+      ],
+      "note": "Covers hardship and the reported Quranic interpretation as sinful wrongdoing."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4930:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-fi-lame"
+      ],
+      "note": "Physical use of a beast becoming lame or halting."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4930:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-fi-bonebreak"
+      ],
+      "note": "Breaking or weakening a previously set bone."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4930:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-ent-fi-s2"
+      ],
+      "note": "General sinful or wrongful action is covered by the Form I wrongdoing sense."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4931:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-fii-hard",
+        "cm-ent-fii-destroy",
+        "qf-ent-fiv-s1",
+        "qf-ent-fiv-s2"
+      ],
+      "note": "Contains Form II meanings and an explicit Quranic Form IV construction with two interpretations."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4931:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4932:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-ent-fiv-s1"
+      ],
+      "note": "Form IV causation of difficulty is covered by the Quranic Form IV sense."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4932:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-fiv-rough"
+      ],
+      "note": "Rough treatment causing a beast to limp or halt."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4932:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-fiv-rough"
+      ],
+      "note": "Rough medical treatment causing injury."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4932:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-fiv-rough"
+      ],
+      "note": "Breaking or worsening a set bone through rough treatment."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4933:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-fv-harm",
+        "cm-ent-fv-confuse"
+      ],
+      "note": "Covers causing harm or difficulty and questioning to create confusion or doubt."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4934:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-rqi-horn"
+      ],
+      "note": "Specialized use concerning a young goat's horn."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4934:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-rqi-avoid"
+      ],
+      "note": "Turning away, avoiding, or shunning."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4935:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-ent-noun-s1"
+      ],
+      "note": "Noun for difficulty, hardship, or distress."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4935:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-ent-noun-s1"
+      ],
+      "note": "Perdition or destruction is included in the Quranic peril sense."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4935:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-noun-corrupt"
+      ],
+      "note": "Bad, evil, or corrupt state or conduct."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4935:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-noun-sin"
+      ],
+      "note": "Sin, crime, or punishable disobedience."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4935:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-noun-error"
+      ],
+      "note": "Wrong action, error, or mistake."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4935:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-ent-noun-s1",
+        "qf-ent-noun-s2"
+      ],
+      "note": "Explicit Quranic interpretations of 4:25 as peril or fornication-related sexual sin."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4935:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-noun-harm"
+      ],
+      "note": "Wrongful or injurious conduct and harmful treatment."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4935:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-noun-contention"
+      ],
+      "note": "Contention, opposition, and vain disputation."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4936:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-adj-bone"
+      ],
+      "note": "Adjectival description of a rebroken set bone."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4937:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-hill"
+      ],
+      "note": "Hill or ascent difficult to climb."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4938:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4938:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-hill"
+      ],
+      "note": "Mountain or tapering mountain; grouped with the difficult-ascent branch."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4938:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-notch"
+      ],
+      "note": "Specialized bow terminology."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4938:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-beginning"
+      ],
+      "note": "Beginning or commencement."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4938:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-plant"
+      ],
+      "note": "Botanical term for a dry plant."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4939:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-woman"
+      ],
+      "note": "Rare epithet for a woman equivalent to عانس."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4940:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4941:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-cause-difficulty"
+      ],
+      "note": "Derived noun for a cause of hardship."
+    },
+    {
+      "unit_id": "lane-unit:Ent:4942:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ent-mutaannit-error"
+      ],
+      "note": "Participial use describing an intention to cause error or wrongdoing."
+    }
+  ],
+  "cautions": [
+    "The Quranic noun in 4:25 retains two established interpretive readings: severe hardship or peril, and fornication or grave sexual sin.",
+    "The Form I occurrence in 3:118 is ordinarily understood as distress or hardship, while a secondary lexical interpretation understands ما عَنِتُّمْ as having sinned.",
+    "The expression عَنَتِ الْوُجُوهُ cited in the Quran-focused discussion is explicitly identified there as belonging to a different etymological باب and is not assigned to this root."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

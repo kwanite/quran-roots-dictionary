@@ -1,0 +1,210 @@
+{
+  "root": "rAf",
+  "arabic": "رأف",
+  "root_idea": {
+    "summary": "The root centers on tenderness, mercy, and compassionate feeling.",
+    "development": "Its central expression is the quality of tender compassion, رأفة, together with the intensive compassionate epithet رَؤُوف and the corresponding verb.",
+    "source_refs": [
+      "maqayis:row:1936",
+      "mufradat:row:519"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rAf:ra'uwf:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rAf-rawuf",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:rAf:ra>ofap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rAf-rafa",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "rAf-rawuf",
+      "form_group_ids": [
+        "qac-form:rAf:ra'uwf:nominal:-"
+      ],
+      "headword_arabic": "رَؤُوف",
+      "public_pos_label": "Adjective · intensive epithet",
+      "verb_form": null,
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "rAf-rawuf-s1",
+          "definition": "Very compassionate; tenderly merciful.",
+          "usage_conditions": "Used adjectivally and substantivally as an intensive epithet for God and human beings.",
+          "source_refs": [
+            "lane:entry:21983",
+            "lane:entry:21984",
+            "lane:entry:21987"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:128",
+          "word_location": "9:128:13",
+          "sense_ids": [
+            "rAf-rawuf-s1"
+          ]
+        },
+        {
+          "verse_key": "59:10",
+          "word_location": "59:10:22",
+          "sense_ids": [
+            "rAf-rawuf-s1"
+          ]
+        },
+        {
+          "verse_key": "2:143",
+          "word_location": "2:143:44",
+          "sense_ids": [
+            "rAf-rawuf-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "rAf-rafa",
+      "form_group_ids": [
+        "qac-form:rAf:ra>ofap:nominal:-"
+      ],
+      "headword_arabic": "رَأْفَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "rAf-rafa-s1",
+          "definition": "Tender compassion or mercy.",
+          "usage_conditions": "Names the quality of tender pity or compassion; it can carry the nuance of a particularly tender or extreme degree of mercy. The Quran uses it in the construction رأفة في دين الله as well as in a general context of compassion.",
+          "source_refs": [
+            "lane:entry:21983",
+            "mufradat:row:519"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:2",
+          "word_location": "24:2:12",
+          "sense_ids": [
+            "rAf-rafa-s1"
+          ]
+        },
+        {
+          "verse_key": "57:27",
+          "word_location": "57:27:17",
+          "sense_ids": [
+            "rAf-rafa-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-verb-compassion",
+      "headword_arabic": "رَؤُفَ بِهِ",
+      "definition": "To pity or compassionate someone, especially tenderly.",
+      "usage_conditions": "A Form I verb used of God or a human being.",
+      "source_refs": [
+        "lane:entry:21983"
+      ]
+    },
+    {
+      "meaning_id": "cm-dialectal-still",
+      "headword_arabic": "رَأَفَ",
+      "definition": "In a dialectal usage, to be or become still, quiet, or at rest.",
+      "usage_conditions": "A dialectal branch distinguished from the compassion sense and associated with رَافَ.",
+      "source_refs": [
+        "lane:entry:21983"
+      ]
+    },
+    {
+      "meaning_id": "cm-wine",
+      "headword_arabic": "رَأْفٌ",
+      "definition": "Wine.",
+      "usage_conditions": "A rare Classical noun usage; رَافٌ is given as a dialectal variant.",
+      "source_refs": [
+        "lane:entry:21984"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rAf:21983:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rAf-rawuf-s1",
+        "rAf-rafa-s1",
+        "cm-verb-compassion",
+        "cm-dialectal-still"
+      ],
+      "note": "Covers the compassion branch, the corresponding verb, and the dialectal stillness branch."
+    },
+    {
+      "unit_id": "lane-unit:rAf:21984:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "rAf-rawuf-s1"
+      ],
+      "note": "Its compassionate and intensive adjectival epithets are covered by the Quranic epithet sense."
+    },
+    {
+      "unit_id": "lane-unit:rAf:21984:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wine"
+      ],
+      "note": "Independent noun meaning."
+    },
+    {
+      "unit_id": "lane-unit:rAf:21985:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding lexical paragraph."
+    },
+    {
+      "unit_id": "lane-unit:rAf:21986:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding lexical paragraph."
+    },
+    {
+      "unit_id": "lane-unit:rAf:21987:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رَأْفٌ."
+    },
+    {
+      "unit_id": "lane-unit:rAf:21987:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "rAf-rawuf-s1"
+      ],
+      "note": "The divine epithet meaning very merciful is covered by the Quranic epithet sense."
+    },
+    {
+      "unit_id": "lane-unit:rAf:21988:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رَأْفٌ."
+    },
+    {
+      "unit_id": "lane-unit:rAf:21989:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رَأْفٌ."
+    }
+  ],
+  "cautions": [
+    "The Quranic form رَؤُوف is tagged both as an adjective and as a noun in QAC; it is presented here under one normalized adjective/epithet headword to cover both adjectival and substantival use."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

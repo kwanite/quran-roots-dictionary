@@ -1,0 +1,74 @@
+{
+  "root": "khn",
+  "arabic": "كهن",
+  "root_idea": {
+    "summary": "The root's attested semantic field centers on soothsaying: a kāhin is one who claims to disclose hidden reports through conjecture.",
+    "development": "The noun extends to the name of the practice and to derived forms for engaging in, specializing in, or undertaking soothsaying. The supplied evidence does not establish a broader abstract root principle.",
+    "source_refs": [
+      "maqayis:row:4059",
+      "mufradat:row:1275"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:khn:kaAhin:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:khn:kaahin",
+      "reason": "Displayed under the normalized singular dictionary citation form كَاهِن."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:khn:kaahin",
+      "form_group_ids": [
+        "qac-form:khn:kaAhin:nominal:-"
+      ],
+      "headword_arabic": "كَاهِن",
+      "public_pos_label": "Noun · Soothsayer",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsense:khn:kaahin:1",
+          "definition": "A soothsayer: one who claims, by conjecture, to disclose hidden reports.",
+          "usage_conditions": "The lexical discussion specifically describes the kāhin as reporting hidden past events by conjecture, while distinguishing the ʿarrāf as one who claims to report future events. In the Quranic occurrences, كَاهِن characterizes the alleged speaker rather than specifying a separate temporal scope.",
+          "source_refs": [
+            "mufradat:row:1275"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "52:29",
+          "word_location": "52:29:6",
+          "sense_ids": [
+            "qsense:khn:kaahin:1"
+          ]
+        },
+        {
+          "verse_key": "69:42",
+          "word_location": "69:42:3",
+          "sense_ids": [
+            "qsense:khn:kaahin:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "class:khn:practice_soothsaying",
+      "headword_arabic": "كَهَانَة، كَهَنَ، تَكَهَّنَ",
+      "definition": "To engage in, specialize in, or undertake the practice of soothsaying.",
+      "usage_conditions": "The derived usages distinguish engaging in the practice, specializing in it, and undertaking or taking it up.",
+      "source_refs": [
+        "mufradat:row:1275"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [],
+  "cautions": [
+    "No Lane primary entry was matched for this root in the supplied evidence packet; the Quranic lexical sense and the derived Classical usages are therefore supported here by the supplied Mufradat discussion."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

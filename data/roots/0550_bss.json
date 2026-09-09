@@ -1,0 +1,224 @@
+{
+  "root": "bss",
+  "arabic": "بسس",
+  "root_idea": {
+    "summary": "The root has two principal semantic branches: driving or propelling, and breaking something apart, with a related use for mixing or preparing broken and moistened ingredients.",
+    "development": "The sources distinguish forceful movement and urging from the breaking, crumbling, and mixing of material. The latter develops into the preparation called بَسِيسَةٌ, while the movement branch includes urging animals and an alternative interpretation of the Quranic mountain passage.",
+    "source_refs": [
+      "maqayis:row:758",
+      "lane:entry:36333",
+      "lane:entry:36334"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bss:bus~ati:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bss-verb-I",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:bss:bas~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bss-noun",
+      "reason": "Displayed separately as the cognate verbal noun occurring in the Quranic expression."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bss-verb-I",
+      "form_group_ids": [
+        "qac-form:bss:bus~ati:verb:I"
+      ],
+      "headword_arabic": "بَسَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bss-v-s1",
+          "definition": "To break up, crumble, pulverize, or reduce to pieces.",
+          "usage_conditions": "In the Quranic passive construction بُسَّتِ الْجِبَالُ, the mountains are described as being violently broken down, levelled, mixed with dust, or reduced to scattered powder.",
+          "source_refs": [
+            "lane:entry:36333",
+            "mufradat:row:120"
+          ]
+        },
+        {
+          "sense_id": "bss-v-s2",
+          "definition": "To drive or cause to move swiftly.",
+          "usage_conditions": "An alternative interpretation of the passive mountain construction in 56:5 understands the mountains as being driven or made to move rapidly rather than primarily being pulverized.",
+          "source_refs": [
+            "mufradat:row:120"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:5",
+          "word_location": "56:5:1",
+          "sense_ids": [
+            "bss-v-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bss-noun",
+      "form_group_ids": [
+        "qac-form:bss:bas~:nominal:-"
+      ],
+      "headword_arabic": "بَسٌّ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bss-n-s1",
+          "definition": "Breaking, crumbling, or pulverization, especially a vehement reduction to pieces or powder.",
+          "usage_conditions": "In بُسَّتِ الْجِبَالُ بَسًّا (56:5), it is the cognate verbal noun describing the mountains’ violent crumbling and reduction.",
+          "source_refs": [
+            "lane:entry:36333",
+            "mufradat:row:120"
+          ]
+        },
+        {
+          "sense_id": "bss-n-s2",
+          "definition": "Driving or rapid movement.",
+          "usage_conditions": "This is an alternative Quranic interpretation of بَسًّا in 56:5, treating the expression as describing the mountains being driven swiftly.",
+          "source_refs": [
+            "mufradat:row:120"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:5",
+          "word_location": "56:5:3",
+          "sense_ids": [
+            "bss-n-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "bss-classical-break",
+      "headword_arabic": "بَسٌّ / بَسَّهُ",
+      "definition": "Breaking or crumbling something into pieces, including bruising or braying it.",
+      "usage_conditions": "The corresponding verb is attested especially of wheat and similar grain or meal, where the material is broken, crushed, or pounded.",
+      "source_refs": [
+        "lane:entry:36333"
+      ]
+    },
+    {
+      "meaning_id": "bss-classical-mix",
+      "headword_arabic": "بَسٌّ / بَسَّهُ",
+      "definition": "Mixing or moistening ingredients by stirring them together.",
+      "usage_conditions": "Attested especially of parched grain or meal, flour, or ground aqit mixed or moistened with clarified butter, olive oil, or sometimes a little water.",
+      "source_refs": [
+        "lane:entry:36333",
+        "lane:entry:36334"
+      ]
+    },
+    {
+      "meaning_id": "bss-classical-basisa",
+      "headword_arabic": "بَسِيسَةٌ",
+      "definition": "A preparation made from parched grain or meal, flour, or ground aqit stirred or moistened with butter or oil; related preparations include pounded dried bread mixed with water and barley mixed with date-stones for camels.",
+      "usage_conditions": "It is described as food eaten without cooking and as travelling provision. The term can also refer more generally to something mixed with another thing.",
+      "source_refs": [
+        "lane:entry:36334"
+      ]
+    },
+    {
+      "meaning_id": "bss-classical-drive",
+      "headword_arabic": "بَسَّ",
+      "definition": "To drive, urge, or propel livestock onward.",
+      "usage_conditions": "The attested construction concerns urging camels or other livestock during movement; the action is described as driving or chivvying them forward.",
+      "source_refs": [
+        "mufradat:row:120",
+        "maqayis:row:758"
+      ]
+    },
+    {
+      "meaning_id": "bss-classical-milking-call",
+      "headword_arabic": "أَبَسَّ",
+      "definition": "To call a she-camel to milking by using soothing, encouraging speech.",
+      "usage_conditions": "The construction أَبَسَّ بها is specifically associated with summoning a camel for milking. A بَسُوس she-camel is described as one that yields milk only after such prompting.",
+      "source_refs": [
+        "mufradat:row:120",
+        "maqayis:row:758"
+      ]
+    },
+    {
+      "meaning_id": "bss-classical-glide",
+      "headword_arabic": "انْبَسَّ",
+      "definition": "To move or glide swiftly.",
+      "usage_conditions": "The cited use describes snakes moving rapidly or gliding along.",
+      "source_refs": [
+        "mufradat:row:120"
+      ]
+    },
+    {
+      "meaning_id": "bss-classical-basus",
+      "headword_arabic": "بَسُوس",
+      "definition": "A she-camel that yields milk only when prompted.",
+      "usage_conditions": "The term describes dependence on the milking call or gentle urging expressed by الإِبْسَاس.",
+      "source_refs": [
+        "mufradat:row:120"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bss:36333:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bss-classical-break"
+      ],
+      "note": "The general breaking-into-pieces meaning is represented as a Classical lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:bss:36333:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bss-classical-mix"
+      ],
+      "note": "The independent mixing meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:bss:36333:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bss-classical-break",
+        "bss-classical-mix",
+        "bss-classical-basisa"
+      ],
+      "note": "Its breaking, mixing, and preparation branches are all represented."
+    },
+    {
+      "unit_id": "lane-unit:bss:36333:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bss-v-s1",
+        "bss-n-s1"
+      ],
+      "note": "The Quranic mountain crumbling construction is represented under both attested QAC forms."
+    },
+    {
+      "unit_id": "lane-unit:bss:36334:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bss-classical-mix",
+        "bss-classical-basisa"
+      ],
+      "note": "The food-preparation and broader mixing material is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic expression in 56:5 has two materially distinct interpretations in the lexical evidence: violent crumbling of the mountains and their being driven swiftly. Both are retained rather than collapsed into one gloss.",
+    "The QAC verb occurrence is passive feminine singular, while the public headword is normalized to the standard Form I perfect citation form بَسَّ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

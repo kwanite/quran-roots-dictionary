@@ -1,0 +1,801 @@
+{
+  "root": "Alf",
+  "arabic": "ألف",
+  "root_idea": {
+    "summary": "The root centers on joining one thing to another and on the resulting state of cohesion, familiarity, or collective grouping.",
+    "development": "This orientation develops into attachment and sociability, the causing of union, the composition of parts, and numerical aggregation, including the completed grouping represented by one thousand.",
+    "source_refs": [
+      "maqayis:row:133",
+      "mufradat:row:48"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Alf:>al~afa:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Alf:allafa",
+      "reason": "Displayed under the normalized Form II perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Alf:<ila`f:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Alf:ilaf",
+      "reason": "Displayed as the verbal-noun citation form إِيلَافٌ rather than the inflected Quranic form."
+    },
+    {
+      "form_group_id": "qac-form:Alf:>alof:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Alf:alf",
+      "reason": "Displayed under the singular numeral citation form; its plural Quranic forms remain included in the occurrence count."
+    },
+    {
+      "form_group_id": "qac-form:Alf:mu&al~afap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:Alf:muallaf",
+      "reason": "Displayed under the masculine passive-participle citation form مُؤَلَّفٌ; the supplied Quran occurrence is feminine."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:Alf:allafa",
+      "form_group_ids": [
+        "qac-form:Alf:>al~afa:verb:II"
+      ],
+      "headword_arabic": "أَلَّفَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qsen:Alf:allafa:1",
+          "definition": "To bring together and unite; to create mutual affection or concord among people, and to join or assemble separate things.",
+          "usage_conditions": "Used transitively for people, hearts, or things. The Quranic usages include creating affection between people and joining distinct parts or elements.",
+          "source_refs": [
+            "lane:entry:7034",
+            "mufradat:row:48"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:103",
+          "word_location": "3:103:14",
+          "sense_ids": [
+            "qsen:Alf:allafa:1"
+          ]
+        },
+        {
+          "verse_key": "24:43",
+          "word_location": "24:43:8",
+          "sense_ids": [
+            "qsen:Alf:allafa:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:Alf:ilaf",
+      "form_group_ids": [
+        "qac-form:Alf:<ila`f:nominal:-"
+      ],
+      "headword_arabic": "إِيلَافٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsen:Alf:ilaf:1",
+          "definition": "Familiarity and habitual attachment, especially the established keeping to or secure undertaking of a recurring journey.",
+          "usage_conditions": "In the Quranic expression concerning Quraysh, the term is interpreted as their familiarity with, or habitual association with, the winter and summer journeys.",
+          "source_refs": [
+            "lane:entry:7033",
+            "mufradat:row:48"
+          ]
+        },
+        {
+          "sense_id": "qsen:Alf:ilaf:2",
+          "definition": "The preparation and fitting out of people, animals, or provisions for a journey.",
+          "usage_conditions": "A reported interpretation of the Quranic expression in Sūrat Quraysh; this is distinct from the interpretation based on habitual familiarity.",
+          "source_refs": [
+            "lane:entry:7033"
+          ]
+        },
+        {
+          "sense_id": "qsen:Alf:ilaf:3",
+          "definition": "A covenant or obligation of protection securing safe passage or dealings.",
+          "usage_conditions": "A reported interpretation of the Quranic expression in Sūrat Quraysh, referring to security agreements or protection obtained for commercial journeys.",
+          "source_refs": [
+            "lane:entry:7033"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "106:1",
+          "word_location": "106:1:1",
+          "sense_ids": [
+            "qsen:Alf:ilaf:1"
+          ]
+        },
+        {
+          "verse_key": "106:2",
+          "word_location": "106:2:1",
+          "sense_ids": [
+            "qsen:Alf:ilaf:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:Alf:alf",
+      "form_group_ids": [
+        "qac-form:Alf:>alof:nominal:-"
+      ],
+      "headword_arabic": "أَلْفٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 14,
+      "senses": [
+        {
+          "sense_id": "qsen:Alf:alf:1",
+          "definition": "One thousand; in plural forms, thousands.",
+          "usage_conditions": "The Quranic group includes the singular ألف and plural forms such as آلاف and ألوف, with number and grammatical inflection varying by context.",
+          "source_refs": [
+            "lane:entry:7039",
+            "mufradat:row:48"
+          ]
+        },
+        {
+          "sense_id": "qsen:Alf:alf:2",
+          "definition": "Those who are familiar or attached to one another, or who habitually remain with a place or group.",
+          "usage_conditions": "An alternative analysis of أُلُوفٌ in 2:243 takes it as a plural of إِلْفٌ rather than as the numeral “thousands.”",
+          "source_refs": [
+            "lane:entry:7040"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:243",
+          "word_location": "2:243:9",
+          "sense_ids": [
+            "qsen:Alf:alf:1"
+          ]
+        },
+        {
+          "verse_key": "8:66",
+          "word_location": "8:66:21",
+          "sense_ids": [
+            "qsen:Alf:alf:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:Alf:muallaf",
+      "form_group_ids": [
+        "qac-form:Alf:mu&al~afap:nominal:-"
+      ],
+      "headword_arabic": "مُؤَلَّفٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen:Alf:muallaf:1",
+          "definition": "One whose heart is made to incline or is conciliated, especially a person courted through beneficence or gifts to win acceptance, allegiance, or support.",
+          "usage_conditions": "In the Quranic expression المُؤَلَّفَةُ قُلُوبُهُمْ, it denotes persons whose hearts are sought to be reconciled or inclined, including influential people approached in order to encourage acceptance of Islam or prevent hostility.",
+          "source_refs": [
+            "lane:entry:7052",
+            "mufradat:row:48"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:60",
+          "word_location": "9:60:7",
+          "sense_ids": [
+            "qsen:Alf:muallaf:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Alf:alifa:familiarity",
+      "headword_arabic": "أَلِفَ",
+      "definition": "To keep to or frequent a thing or place; to become familiar, accustomed, sociable, friendly, or attached to a person or thing; to like or take pleasure in it.",
+      "usage_conditions": "An intransitive usage describing habitual attachment, familiarity, or friendly association.",
+      "source_refs": [
+        "lane:entry:7033"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:alafa:give_thousand",
+      "headword_arabic": "أَلَفَ",
+      "definition": "To give someone a thousand, especially of property or camels.",
+      "usage_conditions": "A transitive numerical usage distinct from the causative sense of making a group or amount reach one thousand.",
+      "source_refs": [
+        "lane:entry:7033"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:taalif:composition",
+      "headword_arabic": "تَأْلِيفٌ",
+      "definition": "The putting of several parts or suitable things together into a unified or ordered whole; specifically, the composition of books.",
+      "usage_conditions": "The term can describe collection and arrangement of parts and is broader than mere sequencing while narrower than indiscriminate combination.",
+      "source_refs": [
+        "lane:entry:7034"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:allafa:write_alif",
+      "headword_arabic": "أَلَّفَ",
+      "definition": "To write the letter alif.",
+      "usage_conditions": "A specialized orthographic verb usage.",
+      "source_refs": [
+        "lane:entry:7034"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:aalafa:trade_protection",
+      "headword_arabic": "آلَفَ",
+      "definition": "To make a covenant of protection for a commercial journey; hence, to trade or traffic.",
+      "usage_conditions": "The covenant secures a person during travel for trade or commerce.",
+      "source_refs": [
+        "lane:entry:7035"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:mu_alafa:thousand_condition",
+      "headword_arabic": "مُؤَالَفَةٌ",
+      "definition": "A contractual condition or agreed payment of one thousand.",
+      "usage_conditions": "Used of stipulating a thousand in an agreement.",
+      "source_refs": [
+        "lane:entry:7035"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:aalafa:attach",
+      "headword_arabic": "آلَفَ",
+      "definition": "To cause someone to keep or cleave to a thing or place; to join or conjoin a thing to another.",
+      "usage_conditions": "A causative attachment or joining construction, including attachment to a particular location.",
+      "source_refs": [
+        "lane:entry:7036"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:aalafa:complete_thousand",
+      "headword_arabic": "آلَفَ",
+      "definition": "To make a group, number, or amount complete as one thousand; to become one thousand complete.",
+      "usage_conditions": "Used both transitively and intransitively of people, dirhams, or other counted quantities.",
+      "source_refs": [
+        "lane:entry:7036"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:taallafa:unite",
+      "headword_arabic": "تَأَلَّفَ",
+      "definition": "To become united, allied, concordant, or mutually familiar; of things, to come together, cohere, or become orderly.",
+      "usage_conditions": "An intransitive or quasi-passive construction describing union among people or cohesion among things.",
+      "source_refs": [
+        "lane:entry:7037"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:taallafa:protection",
+      "headword_arabic": "تَأَلَّفَ",
+      "definition": "To seek or ask for a covenant guaranteeing protection for a commercial journey.",
+      "usage_conditions": "Used with a destination or journey in the context of obtaining safe-conduct or security.",
+      "source_refs": [
+        "lane:entry:7037"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:taallafa:cajole",
+      "headword_arabic": "تَأَلَّفَ",
+      "definition": "To coax, conciliate, attract, or win someone over through friendliness, gentleness, or gifts.",
+      "usage_conditions": "The construction may describe deliberate cultivation of sociability or giving gifts in order to incline someone toward a person or cause.",
+      "source_refs": [
+        "lane:entry:7037"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:ilf:companion",
+      "headword_arabic": "إِلْفٌ",
+      "definition": "A familiar or sociable companion; one who is accustomed or attached to another, a mate, or a constant associate.",
+      "usage_conditions": "The term can denote a person or animal associated with another or attached to a customary place; its feminine forms are also used.",
+      "source_refs": [
+        "lane:entry:7040"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:alif:unmarried",
+      "headword_arabic": "أَلِفٌ",
+      "definition": "According to a reported usage, a man without a wife.",
+      "usage_conditions": "A rare, attributed lexical usage.",
+      "source_refs": [
+        "lane:entry:7041"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:alif:letter",
+      "headword_arabic": "أَلِفٌ",
+      "definition": "The letter alif, the first letter of the Arabic alphabet.",
+      "usage_conditions": "The letter may be treated as masculine or feminine in grammatical usage.",
+      "source_refs": [
+        "lane:entry:7041"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:alif:vein",
+      "headword_arabic": "أَلِفٌ",
+      "definition": "A vein running along the interior of the upper arm toward the forearm.",
+      "usage_conditions": "A technical anatomical term, named by resemblance to the shape of alif.",
+      "source_refs": [
+        "lane:entry:7041"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:alif:single_item",
+      "headword_arabic": "أَلِفٌ",
+      "definition": "A single item or one of a kind of things.",
+      "usage_conditions": "A reported analogical usage associated with alif as the sign of the number one.",
+      "source_refs": [
+        "lane:entry:7041"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:ulfah:state",
+      "headword_arabic": "أُلْفَةٌ",
+      "definition": "A state of attachment, union, alliance, agreement, familiarity, companionship, friendship, or amity.",
+      "usage_conditions": "A verbal noun denoting the state or result of becoming mutually familiar or united.",
+      "source_refs": [
+        "lane:entry:7042"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:alfiyy:thousand",
+      "headword_arabic": "أَلْفِيٌّ",
+      "definition": "Pertaining to the number one thousand.",
+      "usage_conditions": "A relational adjective derived from أَلْفٌ.",
+      "source_refs": [
+        "lane:entry:7043"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:alifiyyah:stature",
+      "headword_arabic": "أَلِفِيَّةٌ",
+      "definition": "A stature resembling the upright shape of the letter alif.",
+      "usage_conditions": "A late or specialized expression.",
+      "source_refs": [
+        "lane:entry:7044"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:ilaaf:lightning",
+      "headword_arabic": "إِلَافٌ",
+      "definition": "Lightning whose flashes are successive or continuous.",
+      "usage_conditions": "An idiomatic descriptive use applied to a particular kind of lightning.",
+      "source_refs": [
+        "lane:entry:7045"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:aluf:affection",
+      "headword_arabic": "أَلُوفٌ",
+      "definition": "Having much familiarity, sociability, or affectionate companionship.",
+      "usage_conditions": "An adjectival description of one characterized by abundant أُلْفَةٌ.",
+      "source_refs": [
+        "lane:entry:7046"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:maalaf:place",
+      "headword_arabic": "مَأْلَفٌ",
+      "definition": "An accustomed or familiar place, one to which a person, animal, or bird habitually resorts or remains attached.",
+      "usage_conditions": "Used for a customary habitat or frequented location.",
+      "source_refs": [
+        "lane:entry:7050"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:maalaf:game_trees",
+      "headword_arabic": "مَأْلَفٌ",
+      "definition": "Leafy trees to which game animals draw near because they are accustomed to them.",
+      "usage_conditions": "A specialized extension of the meaning “familiar place.”",
+      "source_refs": [
+        "lane:entry:7050"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:muallafun:thousands",
+      "headword_arabic": "مُؤَلَّفُونَ",
+      "definition": "Possessors of thousands, or men whose camels have become a thousand for each of them.",
+      "usage_conditions": "A rare nominal usage based on the numerical sense of أَلْفٌ.",
+      "source_refs": [
+        "lane:entry:7051"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:muallaf:attached",
+      "headword_arabic": "مُؤَلَّفٌ",
+      "definition": "Kept to or attached to a thing; of a person, familiar, sociable, or companionable with others.",
+      "usage_conditions": "A passive-participial description of a person or thing toward which attachment or familiarity is directed.",
+      "source_refs": [
+        "lane:entry:7052"
+      ]
+    },
+    {
+      "meaning_id": "cm:Alf:muallif:author",
+      "headword_arabic": "مُؤَلِّفٌ",
+      "definition": "A composer or author of a book or books.",
+      "usage_conditions": "A professional or functional designation derived from the composition of written works.",
+      "source_refs": [
+        "lane:entry:7053"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Alf:7033:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:alifa:familiarity"
+      ],
+      "note": "Attachment, habituation, familiarity, and sociability are represented together."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7033:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Alf:ilaf:1",
+        "qsen:Alf:ilaf:2",
+        "qsen:Alf:ilaf:3"
+      ],
+      "note": "The Quranic interpretations of the Quraysh expression are retained as distinct senses."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7033:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:alafa:give_thousand"
+      ],
+      "note": "Numerical giving usage."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7034:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Alf:allafa:1"
+      ],
+      "note": "Union, affection, and joining parts are covered by the Form II Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7034:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:taalif:composition"
+      ],
+      "note": "Composition of books."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7034:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:taalif:composition"
+      ],
+      "note": "Technical account of ordered or unified composition."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7034:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7034:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:allafa:write_alif"
+      ],
+      "note": "Specialized verb meaning “write an alif.”"
+    },
+    {
+      "unit_id": "lane-unit:Alf:7034:g4:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7035:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7035:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:aalafa:trade_protection"
+      ],
+      "note": "Protection covenant and resultant trading usage."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7035:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:mu_alafa:thousand_condition"
+      ],
+      "note": "Contractual condition involving one thousand."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7036:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7036:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:aalafa:attach"
+      ],
+      "note": "Causing adherence to a thing or place."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7036:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:aalafa:attach"
+      ],
+      "note": "Joining or conjoining a thing."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7036:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:aalafa:complete_thousand"
+      ],
+      "note": "Making a group or amount reach one thousand."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7036:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:aalafa:complete_thousand"
+      ],
+      "note": "Becoming one thousand complete."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7037:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:taallafa:unite"
+      ],
+      "note": "Becoming united, familiar, or coherently joined."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7037:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:taallafa:protection"
+      ],
+      "note": "Seeking a protection covenant for trade."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7037:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:taallafa:cajole"
+      ],
+      "note": "Coaxing, attracting, and inclining someone through sociability or gifts."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7038:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form V."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7039:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Alf:alf:1"
+      ],
+      "note": "Numeral ألف and its plural forms."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7040:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:ilf:companion",
+        "qsen:Alf:alf:2"
+      ],
+      "note": "Companion or familiar person, including the reported Quranic alternative analysis of أُلُوفٌ."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7041:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7041:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:alif:unmarried"
+      ],
+      "note": "Rare reported meaning of an unmarried man."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7041:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:alif:letter"
+      ],
+      "note": "Alphabetical letter alif."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7041:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:alif:vein"
+      ],
+      "note": "Anatomical vein."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7041:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:alif:single_item"
+      ],
+      "note": "Reported analogical usage for a single item."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7042:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:ulfah:state"
+      ],
+      "note": "State of union, familiarity, and friendship."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7043:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:alfiyy:thousand"
+      ],
+      "note": "Adjective relating to one thousand."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7044:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:alifiyyah:stature"
+      ],
+      "note": "Specialized stature expression."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7045:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Definition refers back to an already covered verbal-noun entry."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7045:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:ilaaf:lightning"
+      ],
+      "note": "Idiomatic lightning description."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7046:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:aluf:affection"
+      ],
+      "note": "Adjective denoting abundant familiarity or sociability."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7047:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7047:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7048:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7049:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7050:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:maalaf:place"
+      ],
+      "note": "Familiar or habitually frequented place."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7050:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:maalaf:game_trees"
+      ],
+      "note": "Specialized trees frequented by game."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7051:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:muallafun:thousands"
+      ],
+      "note": "Nominal usage for possessors of thousands or thousand-camel holdings."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7052:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:muallaf:attached"
+      ],
+      "note": "Passive-participial attachment and familiarity."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7052:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen:Alf:muallaf:1"
+      ],
+      "note": "Explicit Quranic usage of persons whose hearts are conciliated."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7052:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Alf:aalafa:complete_thousand"
+      ],
+      "note": "The phrase “a thousand made complete” adds no separate numerical branch."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7052:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7053:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Alf:muallif:author"
+      ],
+      "note": "Composer or author of books."
+    },
+    {
+      "unit_id": "lane-unit:Alf:7054:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The Quranic expression إِيلَافِ قُرَيْشٍ has reported variant analyses: habitual familiarity or keeping to the journeys, preparation and outfitting for travel, and covenants or protection for commercial journeys. These are retained as separate Quranic senses rather than collapsed into the contextual gloss “familiarity.”",
+    "The occurrence أُلُوفٌ in 2:243 is ordinarily understood as “thousands,” but a reported alternative analyzes it as a plural of إِلْفٌ, meaning familiar or attached companions."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,156 @@
+{
+  "root": "fsr",
+  "arabic": "فسر",
+  "root_idea": {
+    "summary": "The root denotes making something clear by revealing, explaining, or elucidating it.",
+    "development": "Its central notion of clarification develops into exposition and interpretation of meanings or difficult expressions; related Classical uses extend to explanatory indicators and diagnostic urine.",
+    "source_refs": [
+      "maqayis:row:3583",
+      "lane:entry:34166",
+      "mufradat:row:1114"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fsr:tafosiyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fsr-tafsir",
+      "reason": "Displayed under the normalized verbal-noun citation form تَفْسِير."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "fsr-tafsir",
+      "form_group_ids": [
+        "qac-form:fsr:tafosiyr:nominal:-"
+      ],
+      "headword_arabic": "تَفْسِير",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "fsr-tafsir-s1",
+          "definition": "Explanation or exposition that makes a concealed, obscure, or intellectually perceived meaning clear; interpretation of difficult expressions or other material requiring elucidation.",
+          "usage_conditions": "In the Quranic occurrence, the verbal noun denotes explanatory interpretation. The lexical use can concern individual words and unfamiliar expressions as well as broader exposition; Classical discussions sometimes distinguish this explanatory activity from taʾwīl, but that distinction does not require a separate Quranic sense here.",
+          "source_refs": [
+            "lane:entry:34166",
+            "mufradat:row:1114"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:33",
+          "word_location": "25:33:8",
+          "sense_ids": [
+            "fsr-tafsir-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "fsr-class-tafsir-dream",
+      "headword_arabic": "تَفْسِير",
+      "definition": "Interpretation of a dream.",
+      "usage_conditions": "A Classical Arabic application of explanatory interpretation to dreams; it is recorded here separately from the Quranic occurrence.",
+      "source_refs": [
+        "mufradat:row:1114"
+      ]
+    },
+    {
+      "meaning_id": "fsr-class-tafsira-indicator",
+      "headword_arabic": "تَفْسِرَة",
+      "definition": "An indicator or explanatory instrument by which the meaning or condition of something is known.",
+      "usage_conditions": "Used for something that reveals or explains a state or condition.",
+      "source_refs": [
+        "lane:entry:34170"
+      ]
+    },
+    {
+      "meaning_id": "fsr-class-tafsira-urine",
+      "headword_arabic": "فَسْر / تَفْسِرَة",
+      "definition": "Urine examined diagnostically, especially by its colour, to infer a patient’s disease.",
+      "usage_conditions": "A specialized medical usage of the related infinitival nouns.",
+      "source_refs": [
+        "lane:entry:34166",
+        "lane:entry:34170"
+      ]
+    },
+    {
+      "meaning_id": "fsr-class-istafsara",
+      "headword_arabic": "اِسْتَفْسَرَ",
+      "definition": "To ask someone to explain, expound, or interpret something.",
+      "usage_conditions": "A Form X request construction directed to a person for clarification of a matter.",
+      "source_refs": [
+        "lane:entry:34169"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fsr:34166:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsr-tafsir-s1"
+      ],
+      "note": "Its clarification, disclosure, and interpretive branches are covered by the Quranic explanatory sense."
+    },
+    {
+      "unit_id": "lane-unit:fsr:34166:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsr-class-tafsira-urine"
+      ],
+      "note": "Medical inspection of urine is represented under the diagnostic nominal use."
+    },
+    {
+      "unit_id": "lane-unit:fsr:34167:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:fsr:34168:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following paragraph."
+    },
+    {
+      "unit_id": "lane-unit:fsr:34169:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsr-class-istafsara"
+      ],
+      "note": "Form X request for explanation is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsr:34170:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsr-class-tafsira-indicator"
+      ],
+      "note": "The explanatory-indicator meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsr:34170:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsr-class-tafsira-urine"
+      ],
+      "note": "The diagnostic-urine specialization is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsr:34171:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only illustrative reference to another entry."
+    }
+  ],
+  "cautions": [
+    "The packet supplies one Quranic occurrence, تَفْسِيرًا in 25:33; the diagnostic and dream-related applications are broader Classical Arabic uses, not additional Quranic senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

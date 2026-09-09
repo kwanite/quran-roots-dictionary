@@ -1,0 +1,553 @@
+{
+  "root": "Swm",
+  "arabic": "صوم",
+  "root_idea": {
+    "summary": "The root centers on withholding or restraint, and on remaining still in place.",
+    "development": "From abstaining from an act—especially eating, drinking, speaking, or travelling—the root develops the religious sense of fasting and several Classical extensions involving stillness, stationary objects, and standing-places.",
+    "source_refs": [
+      "maqayis:row:2867",
+      "mufradat:row:860"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Swm:yaSumo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:Swm:Saama",
+      "reason": "Displayed under the normalized Form I perfect-tense dictionary citation form."
+    },
+    {
+      "form_group_id": "qac-form:Swm:Sawom:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:Swm:Sawm",
+      "reason": "Displayed as the Quran-attested verbal noun صَوْم."
+    },
+    {
+      "form_group_id": "qac-form:Swm:SiyaAm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:Swm:Siyaam",
+      "reason": "Displayed as the distinct Quran-attested verbal noun صِيَام."
+    },
+    {
+      "form_group_id": "qac-form:Swm:S~a`^}ima`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form:Swm:Saaim",
+      "reason": "The Quran-only feminine plural active participle is presented under the singular participial citation form صَائِم."
+    },
+    {
+      "form_group_id": "qac-form:Swm:S~a`^}imiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:Swm:Saaim",
+      "reason": "The Quran-only masculine plural active participle is represented under the normalized singular citation form صَائِم."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:Swm:Saama",
+      "form_group_ids": [
+        "qac-form:Swm:yaSumo:verb:I"
+      ],
+      "headword_arabic": "صَامَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense:Swm:Saama:fast",
+          "definition": "To fast; to abstain from food and drink and, in the prescribed ritual formulation, from sexual intercourse.",
+          "usage_conditions": "The Quranic Form I imperfect occurrences concern fasting, including fasting during the Ramadan period. The broader absolute sense of refraining from an act is Classical Arabic usage and is listed separately.",
+          "source_refs": [
+            "lane:entry:26936",
+            "mufradat:row:860"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:184",
+          "word_location": "2:184:27",
+          "sense_ids": [
+            "sense:Swm:Saama:fast"
+          ]
+        },
+        {
+          "verse_key": "2:185",
+          "word_location": "2:185:17",
+          "sense_ids": [
+            "sense:Swm:Saama:fast"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:Swm:Sawm",
+      "form_group_ids": [
+        "qac-form:Swm:Sawom:nominal:-"
+      ],
+      "headword_arabic": "صَوْم",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:Swm:Sawm:speech",
+          "definition": "Abstention from speech; silence, specifically the abstention vowed in the Quranic construction صَوْمًا.",
+          "usage_conditions": "In the Maryam passage, this usage is interpreted in connection with the following declaration not to speak. It is distinct from the ordinary food-and-drink fasting sense.",
+          "source_refs": [
+            "lane:entry:26936",
+            "mufradat:row:860"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:26",
+          "word_location": "19:26:14",
+          "sense_ids": [
+            "sense:Swm:Sawm:speech"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:Swm:Siyaam",
+      "form_group_ids": [
+        "qac-form:Swm:SiyaAm:nominal:-"
+      ],
+      "headword_arabic": "صِيَام",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 9,
+      "senses": [
+        {
+          "sense_id": "sense:Swm:Siyaam:fasting",
+          "definition": "Fasting; the prescribed observance of abstaining from food and drink and, in the legal formulation, from sexual intercourse.",
+          "usage_conditions": "Used for prescribed fasting and for compensatory or expiatory fasts in Quranic legal constructions.",
+          "source_refs": [
+            "lane:entry:26936",
+            "mufradat:row:860"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:183",
+          "word_location": "2:183:6",
+          "sense_ids": [
+            "sense:Swm:Siyaam:fasting"
+          ]
+        },
+        {
+          "verse_key": "4:92",
+          "word_location": "4:92:51",
+          "sense_ids": [
+            "sense:Swm:Siyaam:fasting"
+          ]
+        },
+        {
+          "verse_key": "5:89",
+          "word_location": "5:89:29",
+          "sense_ids": [
+            "sense:Swm:Siyaam:fasting"
+          ]
+        },
+        {
+          "verse_key": "58:4",
+          "word_location": "58:4:4",
+          "sense_ids": [
+            "sense:Swm:Siyaam:fasting"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:Swm:Saaim",
+      "form_group_ids": [
+        "qac-form:Swm:S~a`^}ima`t:nominal:-",
+        "qac-form:Swm:S~a`^}imiyn:nominal:-"
+      ],
+      "headword_arabic": "صَائِم",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense:Swm:Saaim:fasting",
+          "definition": "One who fasts; a person characterized by fasting.",
+          "usage_conditions": "The Quran attests masculine and feminine plural forms of the active participle; they are presented here under the singular dictionary citation form.",
+          "source_refs": [
+            "lane:entry:26943"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:35",
+          "word_location": "33:35:16",
+          "sense_ids": [
+            "sense:Swm:Saaim:fasting"
+          ]
+        },
+        {
+          "verse_key": "33:35",
+          "word_location": "33:35:17",
+          "sense_ids": [
+            "sense:Swm:Saaim:fasting"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:Swm:Saama:abstain",
+      "headword_arabic": "صَامَ",
+      "definition": "To refrain or hold back from an act; in absolute usage, to withhold from eating, speaking, or travelling, or to remain without work.",
+      "usage_conditions": "General or non-technical usage, distinct from the prescribed ritual sense of fasting.",
+      "source_refs": [
+        "lane:entry:26936"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Saama:horse-still",
+      "headword_arabic": "صَامَ",
+      "definition": "Of a horse, to stand still, especially without eating fodder.",
+      "usage_conditions": "An extended use applied specifically to a horse.",
+      "source_refs": [
+        "lane:entry:26936",
+        "lane:entry:26943"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Saama:stillness",
+      "headword_arabic": "صَامَ",
+      "definition": "To become stationary or still: of the sun at full height, the day at midday, the wind, or water.",
+      "usage_conditions": "Tropical or assumed-tropical applications to celestial, temporal, and natural phenomena.",
+      "source_refs": [
+        "lane:entry:26936"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Saama:ostrich-dung",
+      "headword_arabic": "صَامَ",
+      "definition": "Of an ostrich or domestic fowl, to cast forth dung.",
+      "usage_conditions": "A specialized Classical usage associated with the stillness accompanying the act.",
+      "source_refs": [
+        "lane:entry:26936"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Saama:death",
+      "headword_arabic": "صَامَ",
+      "definition": "To taste or experience one's death.",
+      "usage_conditions": "An idiomatic Classical expression.",
+      "source_refs": [
+        "lane:entry:26936"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Saama:shade",
+      "headword_arabic": "صَامَ",
+      "definition": "To shade oneself by means of the tree called صَوْم.",
+      "usage_conditions": "A specialized lexical use tied to the named tree.",
+      "source_refs": [
+        "lane:entry:26936"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Sawm:ramadan",
+      "headword_arabic": "صَوْم",
+      "definition": "By metonymy, Ramadan, the month of fasting.",
+      "usage_conditions": "A time-name usage, as in remaining for or passing two Ramadans.",
+      "source_refs": [
+        "lane:entry:26938"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Sawm:church",
+      "headword_arabic": "صَوْم",
+      "definition": "A Christian church, understood as a place of fasting or religious station.",
+      "usage_conditions": "A tropical or assumed-tropical noun usage.",
+      "source_refs": [
+        "lane:entry:26938"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Sawm:ostrich-dung",
+      "headword_arabic": "صَوْم",
+      "definition": "The dung of an ostrich.",
+      "usage_conditions": "A specialized noun usage corresponding to the related verb application.",
+      "source_refs": [
+        "lane:entry:26938"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Sawm:tree",
+      "headword_arabic": "صَوْم / صَوْمَة",
+      "definition": "In the dialect of Hudhayl, a certain tree or group of trees.",
+      "usage_conditions": "A dialectal botanical usage; the singular may occur with the feminine ending صَوْمَة.",
+      "source_refs": [
+        "lane:entry:26938"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Sawaam:dry-land",
+      "headword_arabic": "صَوَام",
+      "definition": "Dry land or ground in which there is no water.",
+      "usage_conditions": "Used in the expression أَرْضٌ صَوَامٌ.",
+      "source_refs": [
+        "lane:entry:26941"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Sawwaam:intensive-abstainer",
+      "headword_arabic": "صَوَّام",
+      "definition": "A habitual or intensive faster or abstainer; one who fasts often.",
+      "usage_conditions": "An intensive derivative of the participial fasting sense, often paired with frequent night prayer.",
+      "source_refs": [
+        "lane:entry:26942"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Saaim:abstainer",
+      "headword_arabic": "صَائِم",
+      "definition": "An abstainer; one who refrains generally, including from food, speech, or travelling.",
+      "usage_conditions": "Absolute and extended Classical usage of the active participle, apart from the specifically Quranic fasting use.",
+      "source_refs": [
+        "lane:entry:26943"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:Saaim:stationary",
+      "headword_arabic": "صَائِم",
+      "definition": "Still or motionless, as of a horse, a pulley sheave, or water.",
+      "usage_conditions": "An extended adjectival use applied to things that remain stationary.",
+      "source_refs": [
+        "lane:entry:26943"
+      ]
+    },
+    {
+      "meaning_id": "meaning:Swm:MaSaam:station",
+      "headword_arabic": "مَصَام",
+      "definition": "A station or standing-place; also a place where an astral body is suspended or where the sun is at mid-heaven.",
+      "usage_conditions": "Used for a horse's standing-place and, by extension, for the apparent station of the Pleiades or the sun.",
+      "source_refs": [
+        "lane:entry:26944"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Swm:26936:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Swm:Saama:fast",
+        "sense:Swm:Sawm:speech",
+        "meaning:Swm:Saama:abstain",
+        "meaning:Swm:Saama:horse-still"
+      ],
+      "note": "Covers fasting, speech abstention, general restraint, and the horse application."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26936:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Saama:stillness"
+      ],
+      "note": "Covers the sun's apparent station."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26936:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning:Swm:Saama:stillness"
+      ],
+      "note": "The day reaching midday is covered by the stillness/stationary branch."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26936:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning:Swm:Saama:stillness"
+      ],
+      "note": "The wind becoming calm is covered by the stillness branch."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26936:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning:Swm:Saama:stillness"
+      ],
+      "note": "Still water is covered by the stillness branch."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26936:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Saama:ostrich-dung"
+      ],
+      "note": "Covers the specialized verb use for an ostrich or fowl."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26936:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Saama:death"
+      ],
+      "note": "Covers the idiom of experiencing death."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26936:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Saama:shade"
+      ],
+      "note": "Covers shading oneself by the named tree."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26937:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26938:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional identification of صَوْم as a verbal noun."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26938:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Sawm:ramadan"
+      ],
+      "note": "Covers the metonymic use for Ramadan."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26938:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Sawm:church"
+      ],
+      "note": "Covers the noun meaning Christian church."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26938:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to صَائِم."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26938:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Sawm:ostrich-dung"
+      ],
+      "note": "Covers the specialized noun meaning ostrich dung."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26938:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Sawm:tree"
+      ],
+      "note": "Covers the dialectal tree name."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26939:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Identifies a verbal-noun form and points to an external example; it adds no independent meaning."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26940:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to صَائِم."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26941:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Sawaam:dry-land"
+      ],
+      "note": "Covers the dry-land adjective."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26942:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Sawwaam:intensive-abstainer"
+      ],
+      "note": "Covers the intensive participial form."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26943:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:Swm:Saaim:fasting",
+        "meaning:Swm:Saaim:abstainer"
+      ],
+      "note": "Covers the Quranic fasting participle and broader abstainer usage."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26943:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:Saaim:stationary"
+      ],
+      "note": "Covers the stationary horse use."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26943:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning:Swm:Saaim:stationary"
+      ],
+      "note": "The motionless pulley sheave is covered by the stationary branch."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26943:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning:Swm:Saaim:stationary"
+      ],
+      "note": "Still water is covered by the stationary branch."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26944:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:Swm:MaSaam:station"
+      ],
+      "note": "Covers a horse's station or standing-place."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26944:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning:Swm:MaSaam:station"
+      ],
+      "note": "The Pleiades' place of suspension is covered by the station/place branch."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26944:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "meaning:Swm:MaSaam:station"
+      ],
+      "note": "The sun's mid-heaven position is covered by the station/place branch."
+    },
+    {
+      "unit_id": "lane-unit:Swm:26945:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding مَصَام entry."
+    }
+  ],
+  "cautions": [
+    "The Quranic صَوْم in Maryam 19:26 carries the specifically attested sense of abstention from speech, distinct from ritual food-and-drink fasting. The modern example location follows the supplied QAC occurrence rather than treating a historical printed citation as a modern verse reference."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

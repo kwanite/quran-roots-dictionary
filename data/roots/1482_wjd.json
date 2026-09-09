@@ -1,0 +1,540 @@
+{
+  "root": "wjd",
+  "arabic": "وجد",
+  "root_idea": {
+    "summary": "The root centers on encountering or coming upon something: finding what is sought or present.",
+    "development": "From finding or coming upon something, the usage extends to direct perception, intellectual recognition, access to what is needed, and states of capacity. Related derived forms also express emotional response and existence, but these are not all meanings of every Quranic form.",
+    "source_refs": [
+      "maqayis:row:5034",
+      "mufradat:row:1554"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wjd:wajada:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wjd-form1-verb",
+      "reason": "Canonical Quran-attested Form I verb."
+    },
+    {
+      "form_group_id": "qac-form:wjd:wujod:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wjd-wujd-noun",
+      "reason": "Canonical Quran-attested nominal form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wjd-form1-verb",
+      "form_group_ids": [
+        "qac-form:wjd:wajada:verb:I"
+      ],
+      "headword_arabic": "وَجَدَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 106,
+      "senses": [
+        {
+          "sense_id": "wjd-form1-s1",
+          "definition": "To find, encounter, perceive, or discover someone or something.",
+          "usage_conditions": "Covers coming upon a sought or present object or person and direct perception through the senses. It can also describe finding someone or something in a particular state or situation. The Quranic passive occurrence may be rendered “be found.”",
+          "source_refs": [
+            "lane:entry:44995",
+            "mufradat:row:1554"
+          ]
+        },
+        {
+          "sense_id": "wjd-form1-s2",
+          "definition": "To have access to, be able to obtain, or find available something needed or sought.",
+          "usage_conditions": "The object is something whose availability or attainability is at issue; thus “not finding water” can mean being unable to obtain it. This is an access or attainability use, distinct from merely encountering something.",
+          "source_refs": [
+            "lane:entry:44995",
+            "mufradat:row:1554"
+          ]
+        },
+        {
+          "sense_id": "wjd-form1-s3",
+          "definition": "To know, recognize, or judge someone or something to be in a particular condition.",
+          "usage_conditions": "This may take a person or thing as the object and a second complement describing its state, and may express intellectual perception or considered recognition rather than physical discovery.",
+          "source_refs": [
+            "lane:entry:44995",
+            "mufradat:row:1554"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:15",
+          "word_location": "28:15:8",
+          "sense_ids": [
+            "wjd-form1-s1"
+          ]
+        },
+        {
+          "verse_key": "4:43",
+          "word_location": "4:43:36",
+          "sense_ids": [
+            "wjd-form1-s2"
+          ]
+        },
+        {
+          "verse_key": "7:102",
+          "word_location": "7:102:2",
+          "sense_ids": [
+            "wjd-form1-s3"
+          ]
+        },
+        {
+          "verse_key": "27:24",
+          "word_location": "27:24:1",
+          "sense_ids": [
+            "wjd-form1-s1",
+            "wjd-form1-s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wjd-wujd-noun",
+      "form_group_ids": [
+        "qac-form:wjd:wujod:nominal:-"
+      ],
+      "headword_arabic": "وُجْدٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wjd-wujd-s1",
+          "definition": "Available means, material resources, or financial capacity.",
+          "usage_conditions": "In مِنْ وُجْدِكُمْ (65:6), it denotes the capacity and means available to a person, especially the resources required for maintenance or provision.",
+          "source_refs": [
+            "mufradat:row:1554",
+            "lane:entry:45000"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "65:6",
+          "word_location": "65:6:6",
+          "sense_ids": [
+            "wjd-wujd-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wjd-c-experience",
+      "headword_arabic": "وَجَدَ",
+      "definition": "To experience or become sensible of a sensation, such as satiety.",
+      "usage_conditions": "A direct experiential use, distinguished from encountering an external object or intellectually recognizing a state.",
+      "source_refs": [
+        "lane:entry:44995"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-escape",
+      "headword_arabic": "وَجَدَ",
+      "definition": "In the idiom لَمْ أَجِدْ مِنْ ذٰلِكَ بُدًّا, to find no way to avoid or escape something.",
+      "usage_conditions": "A fixed construction expressing the absence of an alternative or means of escape.",
+      "source_refs": [
+        "lane:entry:44995"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-wealth",
+      "headword_arabic": "وَجَدَ",
+      "definition": "To become wealthy, competent, or free from want; to acquire or earn wealth.",
+      "usage_conditions": "This use concerns attaining financial sufficiency or property, not merely finding an object.",
+      "source_refs": [
+        "lane:entry:44995"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-anger",
+      "headword_arabic": "وَجَدَ عَلَيْهِ",
+      "definition": "To be angry with someone, especially with the reproachful anger of a friend.",
+      "usage_conditions": "Constructed with عَلَيْهِ and related prepositional patterns.",
+      "source_refs": [
+        "lane:entry:44995"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-love",
+      "headword_arabic": "وَجَدَ بِهِ",
+      "definition": "To love someone passionately or fondly.",
+      "usage_conditions": "Constructed with بِهِ, بِهَا, or related prepositions for the beloved.",
+      "source_refs": [
+        "lane:entry:44995"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-grief",
+      "headword_arabic": "وَجَدَ",
+      "definition": "To grieve, mourn, or sorrow for someone.",
+      "usage_conditions": "Typically constructed with بِهِ or لَهُ; this is an emotional use distinct from intellectual recognition.",
+      "source_refs": [
+        "lane:entry:44995"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-exist",
+      "headword_arabic": "وُجِدَ",
+      "definition": "To exist or come into existence from a state of nonexistence.",
+      "usage_conditions": "A passive or intransitive existence use, distinct from the Quranic passive sense “be found.”",
+      "source_refs": [
+        "lane:entry:44995"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-iv-attain",
+      "headword_arabic": "أَوْجَدَ",
+      "definition": "To cause someone to find, attain, or obtain what was sought or desired.",
+      "usage_conditions": "A causative Form IV use; the causer enables another person to reach or obtain the object, including a stray animal.",
+      "source_refs": [
+        "lane:entry:44996"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-iv-empower",
+      "headword_arabic": "أَوْجَدَ",
+      "definition": "To enrich, strengthen, or make someone financially sufficient and capable.",
+      "usage_conditions": "Includes making a person free from want or strengthening them after weakness.",
+      "source_refs": [
+        "lane:entry:44996"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-iv-create",
+      "headword_arabic": "أَوْجَدَ",
+      "definition": "To create, originate, or bring something into existence.",
+      "usage_conditions": "A causative existence use, explicitly distinguished from وَجَدَ in the sense “find.”",
+      "source_refs": [
+        "lane:entry:44996"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-v-complain",
+      "headword_arabic": "تَوَجَّدَ",
+      "definition": "To complain about sleeplessness or another distressing affair.",
+      "usage_conditions": "A Form V use referring to voicing or expressing a complaint.",
+      "source_refs": [
+        "lane:entry:44997"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-vi-feignlove",
+      "headword_arabic": "تَوَاجَدَ",
+      "definition": "To feign or make a show of love or passionate love.",
+      "usage_conditions": "A Form VI reciprocal or affected-emotion use; it need not imply genuine love.",
+      "source_refs": [
+        "lane:entry:44998"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-wujd-capacity",
+      "headword_arabic": "وُجْدٌ",
+      "definition": "Richness, general sufficiency, ability, or power.",
+      "usage_conditions": "A broader Classical nominal use than the Quranic reference to available means in 65:6.",
+      "source_refs": [
+        "lane:entry:45000"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-wajid-rich",
+      "headword_arabic": "وَاجِدٌ",
+      "definition": "Rich, solvent, or possessing sufficient means; one able to pay what is owed.",
+      "usage_conditions": "A lexicalized active-participle use, also applied as an epithet to one who has no wants.",
+      "source_refs": [
+        "lane:entry:45001"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-wajid-angry",
+      "headword_arabic": "وَاجِدٌ",
+      "definition": "Angry with a companion or associate.",
+      "usage_conditions": "A lexicalized adjectival use in the construction وَاجِدٌ عَلَى صَاحِبِهِ.",
+      "source_refs": [
+        "lane:entry:45001"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-wajid-able",
+      "headword_arabic": "وَاجِدٌ",
+      "definition": "Able or capable of doing something.",
+      "usage_conditions": "A lexicalized adjectival use expressing personal ability or power.",
+      "source_refs": [
+        "lane:entry:45001"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-wajid-love",
+      "headword_arabic": "وَاجِدٌ",
+      "definition": "In love or passionately attached to someone.",
+      "usage_conditions": "A lexicalized adjectival use with بِفُلَانَةٍ or عَلَيْهَا and related constructions.",
+      "source_refs": [
+        "lane:entry:45001"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-mawjud-exist",
+      "headword_arabic": "مَوْجُودٌ",
+      "definition": "Existing, present, or brought into existence.",
+      "usage_conditions": "A participial form referring either to what exists or to what has been caused to exist.",
+      "source_refs": [
+        "lane:entry:45002"
+      ]
+    },
+    {
+      "meaning_id": "wjd-c-mawjud-possible",
+      "headword_arabic": "مَوْجُودٌ",
+      "definition": "Within one’s power or capability.",
+      "usage_conditions": "A specialized adjectival use for something that a person is able to accomplish or control.",
+      "source_refs": [
+        "lane:entry:45002"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wjd:44995:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-form1-s1",
+        "wjd-form1-s3",
+        "wjd-c-experience"
+      ],
+      "note": "Finding and perception, intellectual recognition, and experiential sensation are represented."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44995:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-form1-s3"
+      ],
+      "note": "Knowledge and judgment use."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44995:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wjd-form1-s1"
+      ],
+      "note": "Loss-and-subsequent-finding nuance is covered by finding or encountering."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44995:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wjd-form1-s1"
+      ],
+      "note": "Finding a stray animal is covered by finding or encountering a sought object."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44995:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-escape"
+      ],
+      "note": "Fixed idiom expressing no means of escape."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44995:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-wealth"
+      ],
+      "note": "Becoming wealthy or financially sufficient."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44995:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-anger"
+      ],
+      "note": "Anger construction."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44995:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-love"
+      ],
+      "note": "Passionate love construction."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44995:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-grief"
+      ],
+      "note": "Grief and mourning use."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44995:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-exist"
+      ],
+      "note": "Passive/intransitive existence use."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44996:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-iv-attain"
+      ],
+      "note": "Causative finding or attaining."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44996:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-iv-empower"
+      ],
+      "note": "Causative enrichment."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44996:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wjd-c-iv-empower"
+      ],
+      "note": "Causative strengthening is grouped with making capable or sufficient."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44996:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-iv-create"
+      ],
+      "note": "Causative creation or bringing into existence."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44997:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-v-complain"
+      ],
+      "note": "Form V complaint use."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44997:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44998:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-vi-feignlove"
+      ],
+      "note": "Form VI feigned love."
+    },
+    {
+      "unit_id": "lane-unit:wjd:44999:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only synonym and cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45000:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-wujd-capacity"
+      ],
+      "note": "Nominal richness, sufficiency, ability, and power."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45000:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wjd-c-wujd-capacity"
+      ],
+      "note": "Illustrative result-of-power use is covered by general ability or power."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45001:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Regular active-participle derivation of وَجَدَ."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45001:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-wajid-rich"
+      ],
+      "note": "Richness and solvency use."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45001:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-wajid-angry"
+      ],
+      "note": "Angry adjectival use."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45001:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-wajid-able"
+      ],
+      "note": "Ability use."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45001:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-wajid-love"
+      ],
+      "note": "Love adjectival use."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45001:g4:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form grammatical and editorial note."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45002:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-mawjud-exist"
+      ],
+      "note": "Existing or brought into existence."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45002:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wjd-c-mawjud-exist"
+      ],
+      "note": "Synonymic restatement of present."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45002:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wjd-c-mawjud-possible"
+      ],
+      "note": "Within one’s power."
+    },
+    {
+      "unit_id": "lane-unit:wjd:45003:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to وَاجِدٌ."
+    }
+  ],
+  "cautions": [
+    "The Form I Quran group contains mostly active forms and one passive occurrence; the passive “be found” use is kept with the Quranic finding sense, while the broader Classical existence use is separate.",
+    "وُجْدٌ in 65:6 denotes available means or capacity for provision; it is distinct from the broader existence vocabulary and from the Form I verb."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

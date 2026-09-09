@@ -1,0 +1,112 @@
+{
+  "root": "hbw",
+  "arabic": "هبو",
+  "root_idea": {
+    "summary": "A semantic orientation toward dustiness or grayness together with fineness and lightness.",
+    "development": "This orientation appears in fine airborne dust and motes, dust rising or spreading, and the related description of ashes or embers mixing with dust and going out.",
+    "source_refs": [
+      "maqayis:row:4824"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hbw:habaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hbw-form-habaa",
+      "reason": "A Quran-attested nominal form with a clear classical citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "hbw-form-habaa",
+      "form_group_ids": [
+        "qac-form:hbw:habaA^':nominal:-"
+      ],
+      "headword_arabic": "هَبَاءٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "hbw-sense-habaa-finedust",
+          "definition": "Fine dust or minute motes dispersed in the air.",
+          "usage_conditions": "In the Quran, used in constructions describing dust scattered or spread abroad, including هَبَاءً مَنْثُورًا and هَبَاءً مُنْبَثًّا.",
+          "source_refs": [
+            "lane:entry:17043",
+            "mufradat:row:1508"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:23",
+          "word_location": "25:23:8",
+          "sense_ids": [
+            "hbw-sense-habaa-finedust"
+          ]
+        },
+        {
+          "verse_key": "56:6",
+          "word_location": "56:6:2",
+          "sense_ids": [
+            "hbw-sense-habaa-finedust"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "hbw-classical-haba-ashes",
+      "headword_arabic": "هَبَا الرَّمَادُ",
+      "definition": "Of ashes, and also embers: to become mixed with dust and be extinguished.",
+      "usage_conditions": "An intransitive Form I verb describing the resulting condition of ashes or embers.",
+      "source_refs": [
+        "lane:entry:17040"
+      ]
+    },
+    {
+      "meaning_id": "hbw-classical-habwah",
+      "headword_arabic": "هَبْوَةٌ",
+      "definition": "Dust rising or spreading in the sky like smoke.",
+      "usage_conditions": "A noun for a visible spread or cloud of dust.",
+      "source_refs": [
+        "lane:entry:17042"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hbw:17040:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hbw-classical-haba-ashes"
+      ],
+      "note": "The ashes/embers becoming mixed with dust and going out are represented."
+    },
+    {
+      "unit_id": "lane-unit:hbw:17041:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:hbw:17042:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hbw-classical-habwah"
+      ],
+      "note": "Dust rising or spreading like smoke is represented."
+    },
+    {
+      "unit_id": "lane-unit:hbw:17043:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hbw-sense-habaa-finedust"
+      ],
+      "note": "Fine motes visible in sunbeams are covered by the Quranic fine-dust sense."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,179 @@
+{
+  "root": "tqn",
+  "arabic": "تقن",
+  "root_idea": {
+    "summary": "The root has two principal semantic branches: making something firm, sound, and well-ordered; and sediment, mud, or clay. The material branch also extends to something used to improve or support an undertaking.",
+    "development": "The firmness branch yields the causative sense of making something sound or perfectly executed, as well as the description of a skilled person. The second branch concerns muddy sediment used to improve land and, more broadly, useful means or materials.",
+    "source_refs": [
+      "maqayis:row:947"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:tqn:>atoqana:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-tqn-atqana",
+      "reason": "Quran-attested Form IV verb with a directly supported lexical use."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-tqn-atqana",
+      "form_group_ids": [
+        "qac-form:tqn:>atoqana:verb:IV"
+      ],
+      "headword_arabic": "أَتْقَنَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s-qf-tqn-atqana-1",
+          "definition": "To make something firm, sound, thoroughly executed, and fitly fashioned or ordered; to perfect it.",
+          "usage_conditions": "In the Quranic occurrence, the verb is transitive and describes making all things firm, sound, and disposed in the proper manner.",
+          "source_refs": [
+            "lane:entry:16728"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:88",
+          "word_location": "27:88:12",
+          "sense_ids": [
+            "s-qf-tqn-atqana-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-tqn-taqqana-land",
+      "headword_arabic": "تَقَّنَ",
+      "definition": "To treat or irrigate land with thick, muddy, or sediment-laden water so as to improve it.",
+      "usage_conditions": "A Form II verb used of land and the application of muddy water or water containing تِقْن.",
+      "source_refs": [
+        "lane:entry:16727"
+      ]
+    },
+    {
+      "meaning_id": "cm-tqn-tiqn-sediment",
+      "headword_arabic": "تِقْنٌ",
+      "definition": "Sediment, slime, or thick mud carried by water and deposited in a stream, torrent channel, or well.",
+      "usage_conditions": "The material may be used to improve land; descriptions include dark or fetid mud mixed with slime.",
+      "source_refs": [
+        "lane:entry:16729"
+      ]
+    },
+    {
+      "meaning_id": "cm-tqn-tiqn-resource",
+      "headword_arabic": "تِقْنٌ",
+      "definition": "A resource, material, or means by which a person is supported or an affair is improved and well managed.",
+      "usage_conditions": "May refer to useful materials such as iron or other substances, and more generally to anything that improves an undertaking.",
+      "source_refs": [
+        "lane:entry:16729"
+      ]
+    },
+    {
+      "meaning_id": "cm-tqn-atqana-skill",
+      "headword_arabic": "أَتْقَنَ",
+      "definition": "To exercise or possess the skill required for an affair.",
+      "usage_conditions": "In the construction أَتْقَنَ لَهُ, said of having the requisite competence for a matter.",
+      "source_refs": [
+        "lane:entry:16728"
+      ]
+    },
+    {
+      "meaning_id": "cm-tqn-atqana-knowledge",
+      "headword_arabic": "أَتْقَنَ",
+      "definition": "To make one's knowledge sound and thorough, or to master and learn a report or tradition accurately.",
+      "usage_conditions": "Used with knowledge or learning, including the construction أَتْقَنَ عَنْهُ for learning something thoroughly from another person.",
+      "source_refs": [
+        "lane:entry:16728"
+      ]
+    },
+    {
+      "meaning_id": "cm-tqn-tiqn-skilled",
+      "headword_arabic": "تِقْنٌ",
+      "definition": "A skilled, capable, or adept person.",
+      "usage_conditions": "The associated proper name or surname ابن تِقْنٍ refers to a man proverbial for exceptional skill in shooting; this is an application of the sense ‘skilled person,’ not a separate basic meaning.",
+      "source_refs": [
+        "lane:entry:16729"
+      ]
+    },
+    {
+      "meaning_id": "cm-tqn-tiqn-nature",
+      "headword_arabic": "تِقْنٌ",
+      "definition": "Nature, natural disposition, or an inherent quality.",
+      "usage_conditions": "Used of a quality that belongs to a person's nature, such as eloquence being part of his disposition.",
+      "source_refs": [
+        "lane:entry:16729"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:tqn:16727:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tqn-taqqana-land"
+      ],
+      "note": "Form II land-improvement use is represented."
+    },
+    {
+      "unit_id": "lane-unit:tqn:16728:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s-qf-tqn-atqana-1",
+        "cm-tqn-atqana-skill",
+        "cm-tqn-atqana-knowledge"
+      ],
+      "note": "The unit contains the Quran-attested perfection sense and two broader Form IV constructions."
+    },
+    {
+      "unit_id": "lane-unit:tqn:16729:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tqn-tiqn-sediment"
+      ],
+      "note": "Sediment, slime, and mud sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:tqn:16729:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tqn-tiqn-resource"
+      ],
+      "note": "Resource or improving means sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:tqn:16729:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tqn-tiqn-skilled"
+      ],
+      "note": "Skilled-person sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:tqn:16729:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-tqn-tiqn-skilled"
+      ],
+      "note": "The proverbial name Ibn Tiqn is an application of the skilled-person sense."
+    },
+    {
+      "unit_id": "lane-unit:tqn:16729:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tqn-tiqn-nature"
+      ],
+      "note": "Nature or natural-disposition sense is represented."
+    }
+  ],
+  "cautions": [
+    "The Lane Quran citation is preserved as historical source evidence; the modern location 27:88:12 is used here only because it is independently supplied by QAC."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,909 @@
+{
+  "root": "bEd",
+  "arabic": "بعد",
+  "root_idea": {
+    "summary": "The root expresses remoteness as the opposite of nearness, and succession as the counterpart of what comes before.",
+    "development": "Its meanings extend from physical distance to conceptual remoteness, separation and estrangement, temporal succession, alienation, and—in particular constructions—perishing or imprecation.",
+    "source_refs": [
+      "maqayis:row:793",
+      "mufradat:row:138"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bEd:baEudato:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_bEd_bu3uda",
+      "reason": "Displayed as the normalized Form I verb; the evidence includes both بَعُدَتْ and the variant بَعِدَتْ."
+    },
+    {
+      "form_group_id": "qac-form:bEd:ba`Eido:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_bEd_ba3ada",
+      "reason": "Displayed under the normalized perfect-tense citation form."
+    },
+    {
+      "form_group_id": "qac-form:bEd:baEiyd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_bEd_ba3id",
+      "reason": "Displayed under the adjective citation form بَعِيد."
+    },
+    {
+      "form_group_id": "qac-form:bEd:baEod:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_bEd_ba3d",
+      "reason": "Displayed as the nominal/adverbial noun بَعْد."
+    },
+    {
+      "form_group_id": "qac-form:bEd:buEod:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_bEd_bu3d",
+      "reason": "Displayed as the verbal noun بُعْد."
+    },
+    {
+      "form_group_id": "qac-form:bEd:muboEaduwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_bEd_mub3ad",
+      "reason": "Displayed under the normalized singular passive-participle citation form مُبْعَد; the Quran occurrence is plural."
+    },
+    {
+      "form_group_id": "qac-form:bEd:baEod:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform_bEd_ba3d",
+      "reason": "The T-tagged group is the same lexical item بَعْد used adverbially and is merged with the noun/adverbial-noun public form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_bEd_bu3uda",
+      "form_group_ids": [
+        "qac-form:bEd:baEudato:verb:I"
+      ],
+      "headword_arabic": "بَعُدَ / بَعِدَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "s_bEd_bu3uda_far",
+          "definition": "to become distant, remote, or far away",
+          "usage_conditions": "The Quranic group contains the surface forms بَعُدَتْ and بَعِدَتْ; the sense denotes becoming distant or removed.",
+          "source_refs": [
+            "lane:entry:36712",
+            "mufradat:row:138"
+          ]
+        },
+        {
+          "sense_id": "s_bEd_bu3uda_perish",
+          "definition": "to perish or die",
+          "usage_conditions": "A distinct Quranic use, especially associated with the بَعِدَ form and the expression concerning Thamud; the lexical sources also report disagreement about using بَعُدَ in this sense.",
+          "source_refs": [
+            "lane:entry:36712",
+            "mufradat:row:138"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:42",
+          "word_location": "9:42:9",
+          "sense_ids": [
+            "s_bEd_bu3uda_far"
+          ]
+        },
+        {
+          "verse_key": "11:95",
+          "word_location": "11:95:9",
+          "sense_ids": [
+            "s_bEd_bu3uda_perish"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_bEd_ba3ada",
+      "form_group_ids": [
+        "qac-form:bEd:ba`Eido:verb:III"
+      ],
+      "headword_arabic": "بَاعَدَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_bEd_ba3ada_separate",
+          "definition": "to make distant, put far apart, or widen the separation between",
+          "usage_conditions": "Used transitively for extending the distance or separation between persons, places, or journeys; the Quranic construction is an imperative request to make the spaces between journeys far apart.",
+          "source_refs": [
+            "lane:entry:36714",
+            "lane:entry:36715"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "34:19",
+          "word_location": "34:19:3",
+          "sense_ids": [
+            "s_bEd_ba3ada_separate"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_bEd_ba3id",
+      "form_group_ids": [
+        "qac-form:bEd:baEiyd:nominal:-"
+      ],
+      "headword_arabic": "بَعِيد",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 25,
+      "senses": [
+        {
+          "sense_id": "s_bEd_ba3id_far",
+          "definition": "far, distant, remote, or extended in spatial or temporal distance",
+          "usage_conditions": "Used of physical distance and, by extension, of an extended interval, range, or remoteness from something.",
+          "source_refs": [
+            "lane:entry:36728",
+            "mufradat:row:138"
+          ]
+        },
+        {
+          "sense_id": "s_bEd_ba3id_abstract",
+          "definition": "far removed in an abstract or evaluative sense; far astray, remote from truth, or far-fetched",
+          "usage_conditions": "May describe conceptual or moral remoteness, including a state from which return to guidance is difficult, or a saying far from what is correct.",
+          "source_refs": [
+            "lane:entry:36728",
+            "mufradat:row:138"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:83",
+          "word_location": "11:83:8",
+          "sense_ids": [
+            "s_bEd_ba3id_far"
+          ]
+        },
+        {
+          "verse_key": "4:167",
+          "word_location": "4:167:11",
+          "sense_ids": [
+            "s_bEd_ba3id_abstract"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_bEd_ba3d",
+      "form_group_ids": [
+        "qac-form:bEd:baEod:nominal:-",
+        "qac-form:bEd:baEod:other:-"
+      ],
+      "headword_arabic": "بَعْد",
+      "public_pos_label": "Noun / adverbial noun",
+      "verb_form": null,
+      "occurrence_count": 199,
+      "senses": [
+        {
+          "sense_id": "s_bEd_ba3d_after",
+          "definition": "after; subsequently; thereafter",
+          "usage_conditions": "A temporal noun or adverb, often governing a following genitive complement or occurring with an understood complement, including after a person, event, statement, or action.",
+          "source_refs": [
+            "lane:entry:36720",
+            "lane:entry:36721",
+            "mufradat:row:138"
+          ]
+        },
+        {
+          "sense_id": "s_bEd_ba3d_with",
+          "definition": "after that in the sense of despite or notwithstanding that",
+          "usage_conditions": "A reported Quranic construction in which بَعْدَ ذَلِكَ is interpreted as meaning مع ذلك, “notwithstanding that.”",
+          "source_refs": [
+            "lane:entry:36721"
+          ]
+        },
+        {
+          "sense_id": "s_bEd_ba3d_before",
+          "definition": "before, in a reported contrary interpretation of after",
+          "usage_conditions": "A disputed interpretation reported for Quranic expressions in 79:30 and 21:105; it is not the ordinary temporal sense and is attributed to a minority reading or explanation.",
+          "source_refs": [
+            "lane:entry:36721"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:32",
+          "word_location": "10:32:6",
+          "sense_ids": [
+            "s_bEd_ba3d_after"
+          ]
+        },
+        {
+          "verse_key": "2:51",
+          "word_location": "2:51:10",
+          "sense_ids": [
+            "s_bEd_ba3d_after"
+          ]
+        },
+        {
+          "verse_key": "79:30",
+          "word_location": "79:30:2",
+          "sense_ids": [
+            "s_bEd_ba3d_before"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_bEd_bu3d",
+      "form_group_ids": [
+        "qac-form:bEd:buEod:nominal:-"
+      ],
+      "headword_arabic": "بُعْد",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "s_bEd_bu3d_distance",
+          "definition": "distance or remoteness",
+          "usage_conditions": "The noun denotes distance itself, whether literal or relational; in Quranic usage it may occur as an expression of separation or distance.",
+          "source_refs": [
+            "lane:entry:36722",
+            "mufradat:row:138"
+          ]
+        },
+        {
+          "sense_id": "s_bEd_bu3d_imprecation",
+          "definition": "away with; an imprecation of removal, alienation, or perdition",
+          "usage_conditions": "Used in an imprecatory formula wishing a people removal from good or prosperity, and by extension expressing their perdition or destruction.",
+          "source_refs": [
+            "lane:entry:36712",
+            "lane:entry:36722",
+            "mufradat:row:138"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "43:38",
+          "word_location": "43:38:8",
+          "sense_ids": [
+            "s_bEd_bu3d_distance"
+          ]
+        },
+        {
+          "verse_key": "11:44",
+          "word_location": "11:44:15",
+          "sense_ids": [
+            "s_bEd_bu3d_imprecation"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_bEd_mub3ad",
+      "form_group_ids": [
+        "qac-form:bEd:muboEaduwn:nominal:-"
+      ],
+      "headword_arabic": "مُبْعَد",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_bEd_mub3ad_removed",
+          "definition": "removed far away; kept at a distance",
+          "usage_conditions": "Passive result of causing someone or something to be distant, remote, or removed.",
+          "source_refs": [
+            "lane:entry:36715"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:101",
+          "word_location": "21:101:9",
+          "sense_ids": [
+            "s_bEd_mub3ad_removed"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_bEd_bu3uda_improbable",
+      "headword_arabic": "بَعُدَ",
+      "definition": "to be far from probability or correctness; to be improbable, extraordinary, or strange",
+      "usage_conditions": "Used of a saying, event, or matter judged remote from what is probable or correct.",
+      "source_refs": [
+        "lane:entry:36712"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_bu3uda_overreach",
+      "headword_arabic": "أَبْعَدَ",
+      "definition": "to exceed the proper bounds in bargaining or in demanding a price",
+      "usage_conditions": "A specialized use in offering or negotiating a sale.",
+      "source_refs": [
+        "lane:entry:36712"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_bu3uda_grief",
+      "headword_arabic": "بَعُدَ",
+      "definition": "In the expression أَخَذَهُ مَا قَرُبَ وَمَا بَعُدَ: to be overtaken by both recent and old griefs",
+      "usage_conditions": "An idiomatic construction contrasting what is near or recent with what is distant or old.",
+      "source_refs": [
+        "lane:entry:36712"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_bu3uda_homestrangement",
+      "headword_arabic": "بَعِدَ / بَعُدَ",
+      "definition": "to become far removed from one's home or native country; to become a stranger or estranged there",
+      "usage_conditions": "A Classical branch distinct from merely being physically distant and from the Quranic perishing use.",
+      "source_refs": [
+        "lane:entry:36712"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ba33ada_remove",
+      "headword_arabic": "بَعَّدَ",
+      "definition": "to declare someone or something far removed, especially from evil",
+      "usage_conditions": "A causative Form II construction; the supplied entry also cross-references the broader causative usage.",
+      "source_refs": [
+        "lane:entry:36713"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ba3ada_distant",
+      "headword_arabic": "بَاعَدَ",
+      "definition": "to become distant from another or to be in a different part, quarter, or tract",
+      "usage_conditions": "A Form III use describing separation or occupying a different region, rather than the Quranic causative command to widen distances.",
+      "source_refs": [
+        "lane:entry:36714"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ab3ada_causative",
+      "headword_arabic": "أَبْعَدَ",
+      "definition": "to make or cause distant; to remove, send away, alienate, or estrange",
+      "usage_conditions": "A transitive Form IV branch, including imprecatory language wishing someone alienation from good or prosperity.",
+      "source_refs": [
+        "lane:entry:36715"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ab3ada_exclamation",
+      "headword_arabic": "أَبْعَدَ",
+      "definition": "How far it is from what is right or correct!",
+      "usage_conditions": "Used in an exclamatory construction about a saying or judgment.",
+      "source_refs": [
+        "lane:entry:36715"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_taba3ada_mutual",
+      "headword_arabic": "تَبَاعَدَ",
+      "definition": "to become mutually distant, remote, or estranged; to withdraw from one another",
+      "usage_conditions": "The Form VI reciprocal or reflexive branch, including estrangement from family or friends and mutual withdrawal.",
+      "source_refs": [
+        "lane:entry:36717"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ba3d_spatial",
+      "headword_arabic": "بَعْد",
+      "definition": "behind in place; beyond; with nothing further or no higher degree beyond it",
+      "usage_conditions": "A less common spatial or limiting use of the adverbial noun, distinct from its ordinary temporal sense.",
+      "source_refs": [
+        "lane:entry:36720"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ba3d_transition",
+      "headword_arabic": "أَمَّا بَعْدُ",
+      "definition": "now then; a formula marking transition in an address or discourse",
+      "usage_conditions": "A conventional expression used after introductory praise, prayer, or preliminary remarks.",
+      "source_refs": [
+        "lane:entry:36721"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ba3d_near_after",
+      "headword_arabic": "بُعَيْد",
+      "definition": "a little after; shortly after",
+      "usage_conditions": "The diminutive form denotes a time near to the preceding event or time.",
+      "source_refs": [
+        "lane:entry:36721"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ba3d_yet",
+      "headword_arabic": "بَعْدُ",
+      "definition": "yet or as yet",
+      "usage_conditions": "Especially common in negative expressions such as “he has not died yet.”",
+      "source_refs": [
+        "lane:entry:36721"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_bu3d_improbable",
+      "headword_arabic": "بُعْد",
+      "definition": "remoteness from probability or correctness; improbability or strangeness",
+      "usage_conditions": "A figurative noun use describing a matter as extraordinary or unlikely.",
+      "source_refs": [
+        "lane:entry:36722"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_bu3d_judgment",
+      "headword_arabic": "بُعْد",
+      "definition": "penetrating, profound, or far-reaching judgment and prudence",
+      "usage_conditions": "Used in expressions describing a person as possessing depth or effectiveness of judgment; it may also describe going far in hostility.",
+      "source_refs": [
+        "lane:entry:36722"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ba3id_far_aiming",
+      "headword_arabic": "بَعِيد",
+      "definition": "far-reaching in purpose, ambition, or design; long-standing in time or acquaintance; extraordinary in its kind",
+      "usage_conditions": "Classical extensions concerning an intention, a long interval, or an unusual affair, not treated as separate Quranic senses here.",
+      "source_refs": [
+        "lane:entry:36728"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ba3id_relation",
+      "headword_arabic": "بَعِيد",
+      "definition": "distant in kinship or relationship; a stranger or remote dependent",
+      "usage_conditions": "In this relational sense the adjective may describe persons who are not close relations or immediate companions.",
+      "source_refs": [
+        "lane:entry:36728"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_baaid_estrangement",
+      "headword_arabic": "بَاعِدُ",
+      "definition": "perishing, or far removed from one's home and native country in estrangement",
+      "usage_conditions": "A separate unclassified lexical headword, not simply an inflectional form of the Quranic بَعِيد entry.",
+      "source_refs": [
+        "lane:entry:36730"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ab3ad_comparative",
+      "headword_arabic": "أَبْعَدُ",
+      "definition": "more distant, most distant, or farther removed, including in relationship",
+      "usage_conditions": "The comparative and superlative form may describe spatial distance, remote sources, or a more distant relation.",
+      "source_refs": [
+        "lane:entry:36731"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ab3ad_extreme",
+      "headword_arabic": "أَبْعَدُ",
+      "definition": "more or most extreme, excessive, egregious, or extraordinary in its kind",
+      "usage_conditions": "Used of an unusual degree or of a person lacking excellence, power, or anything of value.",
+      "source_refs": [
+        "lane:entry:36731"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_ab3ad_dispraise",
+      "headword_arabic": "الأَبْعَد",
+      "definition": "the remote one, especially one remote from good, continence, intelligence, or faithfulness",
+      "usage_conditions": "A euphemistic or indirect epithet in malediction and dispraise; the evidence reports senses including foolishness and treachery.",
+      "source_refs": [
+        "lane:entry:36731"
+      ]
+    },
+    {
+      "meaning_id": "cm_bEd_mib3ad_journeys",
+      "headword_arabic": "مِبْعَد",
+      "definition": "a man who makes far journeys",
+      "usage_conditions": "A specialized nominal use for a person characterized by undertaking distant travel.",
+      "source_refs": [
+        "lane:entry:36732"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bEd:36712:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_bu3uda_far"
+      ],
+      "note": "Distance and remoteness are represented under the Quranic Form I sense."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36712:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_bu3uda_improbable",
+        "cm_bEd_bu3uda_overreach"
+      ],
+      "note": "Improbability and exceeding bounds in bargaining are separately preserved."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36712:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_bu3uda_grief"
+      ],
+      "note": "The idiomatic grief expression is preserved."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36712:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Constructional and grammatical information about a contracted verb of praise or dispraise."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36712:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_bu3uda_perish",
+        "cm_bEd_bu3uda_homestrangement",
+        "s_bEd_bu3d_imprecation"
+      ],
+      "note": "Perishing, estrangement from home, and the imprecatory formula are represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36712:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Prepositional/transitivity information without an independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36713:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36713:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ba33ada_remove"
+      ],
+      "note": "Form II declaration of removal from evil is represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36714:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ba3ada_distant"
+      ],
+      "note": "The Form III separation/different-region use is represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36714:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36715:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36715:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_ba3ada_separate",
+        "cm_bEd_ab3ada_causative"
+      ],
+      "note": "The Quran-attested widening of distance and the broader Form IV causative are both represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36715:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ab3ada_causative"
+      ],
+      "note": "The imprecatory causative use is included under the Form IV causative meaning."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36715:g2:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36715:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ab3ada_exclamation"
+      ],
+      "note": "The exclamation about distance from correctness is represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36716:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36717:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36717:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_taba3ada_mutual"
+      ],
+      "note": "Estrangement from family or friends is represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36717:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_taba3ada_mutual"
+      ],
+      "note": "Mutual distancing and withdrawal are represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36718:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36719:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_bu3uda_improbable"
+      ],
+      "note": "The Form X evaluation of a thing or saying as improbable or strange is represented under the same lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36719:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36720:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_ba3d_after",
+        "cm_bEd_ba3d_spatial"
+      ],
+      "note": "Temporal succession and the reported spatial/limiting use are represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36721:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_ba3d_after",
+        "cm_bEd_ba3d_transition"
+      ],
+      "note": "Ordinary succession and the discourse-transition formula are represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36721:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ba3d_near_after"
+      ],
+      "note": "The diminutive sense of shortly after is represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36721:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ba3d_yet"
+      ],
+      "note": "The sense yet/as yet is represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36721:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_ba3d_with"
+      ],
+      "note": "The explicitly Quran-related notwithstanding construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36721:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_ba3d_after",
+        "s_bEd_ba3d_before"
+      ],
+      "note": "Both the ordinary reading and the reported disputed before-interpretation are preserved."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36722:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_bu3d_distance"
+      ],
+      "note": "Distance and remoteness are represented under the Quranic verbal noun."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36722:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_bu3d_improbable"
+      ],
+      "note": "Figurative improbability is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36722:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_bu3d_imprecation"
+      ],
+      "note": "The Quran-related perdition/death interpretation is represented under the imprecatory sense."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36722:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_bu3d_judgment"
+      ],
+      "note": "Far-reaching judgment and prudence are represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36722:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_bu3d_imprecation"
+      ],
+      "note": "Cursing and execration are covered by the imprecatory sense."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36723:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36723:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36724:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36725:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36726:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36726:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36727:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36728:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_bEd_ba3id_far",
+        "s_bEd_ba3id_abstract",
+        "cm_bEd_ba3id_far_aiming"
+      ],
+      "note": "Physical distance, abstract remoteness, and far-reaching or long-standing extensions are represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36728:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ba3id_relation"
+      ],
+      "note": "Relational distance, strangers, and remote dependents are represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36728:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36728:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36729:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36730:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36730:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_baaid_estrangement"
+      ],
+      "note": "The separate بَاعِدُ use meaning perishing or estrangement from home is represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36731:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ab3ad_comparative"
+      ],
+      "note": "Comparative and superlative distance are represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36731:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ab3ad_extreme"
+      ],
+      "note": "Extreme or extraordinary degree is represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36731:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ab3ad_dispraise"
+      ],
+      "note": "The euphemistic dispraise and remote-from-good branch are represented."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36731:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_ab3ad_comparative"
+      ],
+      "note": "Comparatively distant relationship is covered by the comparative entry."
+    },
+    {
+      "unit_id": "lane-unit:bEd:36732:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bEd_mib3ad_journeys"
+      ],
+      "note": "The specialized traveler noun is represented."
+    }
+  ],
+  "cautions": [
+    "The Form I Quran group contains both بَعُدَتْ and بَعِدَتْ; the perishing sense is especially associated with the latter and is subject to classical disagreement about the two vocalisms.",
+    "The interpretation of بَعْدَ as “before” in the cited Quran passages is explicitly disputed and should not be treated as its ordinary meaning.",
+    "The public مُبْعَد citation is normalized to the singular passive participle although the supplied Quran occurrence is plural."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

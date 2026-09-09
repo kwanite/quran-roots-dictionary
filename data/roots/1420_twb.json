@@ -1,0 +1,332 @@
+{
+  "root": "twb",
+  "arabic": "توب",
+  "root_idea": {
+    "summary": "A return: turning back from a prior state, especially returning from sin toward God and obedience.",
+    "development": "The root develops from physical or general return into the religious sense of abandoning sin, regretting it, resolving not to resume it, and turning toward God; with God as subject, it denotes a merciful return toward the servant and acceptance of repentance.",
+    "source_refs": [
+      "maqayis:row:968",
+      "mufradat:row:192"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:twb:taAba:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:twb:taba",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:twb:mataAb:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf:twb:tawba",
+      "reason": "مَتَاب is explicitly treated as synonymous with تَوْبَة; its Quranic uses express return or repentance within the same lexical branch."
+    },
+    {
+      "form_group_id": "qac-form:twb:ta`^}iba`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf:twb:taib",
+      "reason": "The Quranic feminine plural is presented under the normalized singular active-participle citation form تَائِب."
+    },
+    {
+      "form_group_id": "qac-form:twb:tawobap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:twb:tawba",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:twb:taw~aAb:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:twb:tawwab",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:twb:t~a`^}ibuwn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf:twb:taib",
+      "reason": "The Quranic masculine plural is presented under the normalized singular active-participle citation form تَائِب."
+    },
+    {
+      "form_group_id": "qac-form:twb:t~awob:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf:twb:tawba",
+      "reason": "تَوْب is explicitly identified as synonymous with تَوْبَة and is therefore grouped under the standard feminine-noun citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf:twb:taba",
+      "form_group_ids": [
+        "qac-form:twb:taAba:verb:I"
+      ],
+      "headword_arabic": "تَابَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 63,
+      "senses": [
+        {
+          "sense_id": "s:twb:taba:human",
+          "definition": "To turn back from sin or disobedience and return to obedience; to repent.",
+          "usage_conditions": "With a human subject, the verb denotes abandoning wrongdoing and turning toward God or obedience. It may be construed with مِنْ or عَنْ for what one turns away from, and with إِلَى for the direction of return.",
+          "source_refs": [
+            "lane:entry:16921",
+            "mufradat:row:192"
+          ]
+        },
+        {
+          "sense_id": "s:twb:taba:divine",
+          "definition": "To turn toward a servant with forgiveness, mercy, favor, or acceptance of repentance.",
+          "usage_conditions": "With God as subject and the servant expressed with عَلَى, the verb describes divine restoration of favor and acceptance of the servant's repentance, rather than the servant's own act of repenting.",
+          "source_refs": [
+            "lane:entry:16921",
+            "mufradat:row:192"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:160",
+          "word_location": "2:160:3",
+          "sense_ids": [
+            "s:twb:taba:human"
+          ]
+        },
+        {
+          "verse_key": "2:37",
+          "word_location": "2:37:6",
+          "sense_ids": [
+            "s:twb:taba:divine"
+          ]
+        },
+        {
+          "verse_key": "24:31",
+          "word_location": "24:31:71",
+          "sense_ids": [
+            "s:twb:taba:human"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:twb:tawba",
+      "form_group_ids": [
+        "qac-form:twb:mataAb:nominal:-",
+        "qac-form:twb:tawobap:nominal:-",
+        "qac-form:twb:t~awob:nominal:-"
+      ],
+      "headword_arabic": "تَوْبَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "s:twb:tawba:repentance",
+          "definition": "Repentance: abandoning sin because of its wrongness, regretting it, acknowledging responsibility, resolving not to return to it, and making amends where possible.",
+          "usage_conditions": "The Quranic noun covers return from sin toward God. In the related form مَتَاب, it can be expressed as one's return or recourse to God; with righteous action, it may denote complete repentance that combines abandoning wrong with pursuing what is good.",
+          "source_refs": [
+            "lane:entry:16921",
+            "mufradat:row:192"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "13:30",
+          "word_location": "13:30:28",
+          "sense_ids": [
+            "s:twb:tawba:repentance"
+          ]
+        },
+        {
+          "verse_key": "25:71",
+          "word_location": "25:71:9",
+          "sense_ids": [
+            "s:twb:tawba:repentance"
+          ]
+        },
+        {
+          "verse_key": "40:3",
+          "word_location": "40:3:4",
+          "sense_ids": [
+            "s:twb:tawba:repentance"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:twb:tawwab",
+      "form_group_ids": [
+        "qac-form:twb:taw~aAb:nominal:-"
+      ],
+      "headword_arabic": "تَوَّاب",
+      "public_pos_label": "Active participle · intensive",
+      "verb_form": null,
+      "occurrence_count": 12,
+      "senses": [
+        {
+          "sense_id": "s:twb:tawwab:human",
+          "definition": "One who repents often or repeatedly, continually returning from disobedience to obedience.",
+          "usage_conditions": "Applied to human beings, the intensive form emphasizes repeated or habitual repentance rather than a single act.",
+          "source_refs": [
+            "lane:entry:16924",
+            "mufradat:row:192"
+          ]
+        },
+        {
+          "sense_id": "s:twb:tawwab:divine",
+          "definition": "One who repeatedly turns toward repentant servants with forgiveness, mercy, and acceptance of their repentance.",
+          "usage_conditions": "When applied to God, the form describes the repeated acceptance of servants' repentance and the recurring return of favor toward those who turn to Him.",
+          "source_refs": [
+            "lane:entry:16924",
+            "mufradat:row:192"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:222",
+          "word_location": "2:222:25",
+          "sense_ids": [
+            "s:twb:tawwab:human"
+          ]
+        },
+        {
+          "verse_key": "2:37",
+          "word_location": "2:37:10",
+          "sense_ids": [
+            "s:twb:tawwab:divine"
+          ]
+        },
+        {
+          "verse_key": "9:104",
+          "word_location": "9:104:15",
+          "sense_ids": [
+            "s:twb:tawwab:divine"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:twb:taib",
+      "form_group_ids": [
+        "qac-form:twb:ta`^}iba`t:nominal:-",
+        "qac-form:twb:t~a`^}ibuwn:nominal:-"
+      ],
+      "headword_arabic": "تَائِب",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "s:twb:taib:repentant",
+          "definition": "Repentant; one who turns away from sin and returns to obedience to God.",
+          "usage_conditions": "The Quranic occurrences are plural masculine and feminine forms referring to people characterized by repentance; the singular citation form is تَائِب.",
+          "source_refs": [
+            "lane:entry:16925",
+            "mufradat:row:192"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:112",
+          "word_location": "9:112:1",
+          "sense_ids": [
+            "s:twb:taib:repentant"
+          ]
+        },
+        {
+          "verse_key": "66:5",
+          "word_location": "66:5:13",
+          "sense_ids": [
+            "s:twb:taib:repentant"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:twb:istataba",
+      "headword_arabic": "اسْتَتَابَ",
+      "definition": "To ask or propose that someone return from sin or disobedience and repent; to call on someone to desist from wrongdoing.",
+      "usage_conditions": "A Form X causative/request construction in which one person urges another to return to obedience or abandon a sin.",
+      "source_refs": [
+        "lane:entry:16922"
+      ]
+    },
+    {
+      "meaning_id": "cm:twb:tabut",
+      "headword_arabic": "تَابُوت",
+      "definition": "A chest or box; by extension, the rib-cage or chest as a bodily container, including what it contains, and hence the breast or bosom.",
+      "usage_conditions": "The chest-and-box senses are linked by the image of a container. The word is also reported in later usage for a bier or coffin; its etymological assignment is treated variously in the lexical discussion.",
+      "source_refs": [
+        "lane:entry:16923"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:twb:16921:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:twb:taba:human",
+        "s:twb:tawba:repentance"
+      ],
+      "note": "Covers human return from sin and the synonymous repentance nouns."
+    },
+    {
+      "unit_id": "lane-unit:twb:16921:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:twb:taba:divine"
+      ],
+      "note": "Covers the divine return toward a servant with forgiveness and mercy."
+    },
+    {
+      "unit_id": "lane-unit:twb:16922:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:twb:istataba"
+      ],
+      "note": "Independent Form X request to repent."
+    },
+    {
+      "unit_id": "lane-unit:twb:16923:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:twb:tabut"
+      ],
+      "note": "Chest, box, and anatomical container senses."
+    },
+    {
+      "unit_id": "lane-unit:twb:16924:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:twb:tawwab:human"
+      ],
+      "note": "Frequent human repentance."
+    },
+    {
+      "unit_id": "lane-unit:twb:16924:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:twb:tawwab:divine"
+      ],
+      "note": "Repeated divine acceptance of repentance and return of favor."
+    },
+    {
+      "unit_id": "lane-unit:twb:16925:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:twb:taib:repentant"
+      ],
+      "note": "The active participle for one who repents."
+    }
+  ],
+  "cautions": [
+    "تَوَّاب has distinct Quranic human and divine subject uses: frequent repentance by a servant versus repeated acceptance of repentance by God.",
+    "The inclusion of تَابُوت under this root follows the supplied lexical root record, while the same discussion reports alternative etymological analysis and placement; its chest, box, and anatomical meanings are retained as Classical evidence rather than Quranic senses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

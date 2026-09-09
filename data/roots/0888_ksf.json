@@ -1,0 +1,130 @@
+{
+  "root": "ksf",
+  "arabic": "كسف",
+  "root_idea": {
+    "summary": "The root conveys an adverse change in a thing's condition and the separation or cutting off of a part from a whole.",
+    "development": "Its semantic development includes obscuration or eclipse, with figurative gloom in a person's face or condition, and the separation of a portion into a piece or fragment. These root-level orientations do not by themselves assign every branch to each Quranic form.",
+    "source_refs": [
+      "maqayis:row:3986",
+      "mufradat:row:1248"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ksf:kisof:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-ksf-kisf",
+      "reason": "Displayed under the singular Quranic citation form for the piece/fragment lexical item."
+    },
+    {
+      "form_group_id": "qac-form:ksf:kisaf:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-ksf-kisf",
+      "reason": "The Quranic كِسَف form expresses the same piece/fragment branch as the normalized singular entry كِسْف; its number and vocalization difference does not require a separate public form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-ksf-kisf",
+      "form_group_ids": [
+        "qac-form:ksf:kisof:nominal:-",
+        "qac-form:ksf:kisaf:nominal:-"
+      ],
+      "headword_arabic": "كِسْف",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qsen-ksf-kisf-1",
+          "definition": "A piece, portion, or fragment of a larger mass, especially a piece or fragment of cloud or sky.",
+          "usage_conditions": "Used in Quranic expressions for a portion or pieces of the sky/heaven and for cloud fragments. The Quran attests both كِسْف and كِسَف; the difference in number or vocalization does not establish a separate lexical sense.",
+          "source_refs": [
+            "mufradat:row:1248"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:92",
+          "word_location": "17:92:7",
+          "sense_ids": [
+            "qsen-ksf-kisf-1"
+          ]
+        },
+        {
+          "verse_key": "26:187",
+          "word_location": "26:187:3",
+          "sense_ids": [
+            "qsen-ksf-kisf-1"
+          ]
+        },
+        {
+          "verse_key": "30:48",
+          "word_location": "30:48:13",
+          "sense_ids": [
+            "qsen-ksf-kisf-1"
+          ]
+        },
+        {
+          "verse_key": "52:44",
+          "word_location": "52:44:3",
+          "sense_ids": [
+            "qsen-ksf-kisf-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "clm-ksf-kusuf",
+      "headword_arabic": "كُسُوف",
+      "definition": "An eclipse or obscuration of the sun or moon.",
+      "usage_conditions": "Describes their being hidden or deprived of their light by a particular intervening phenomenon.",
+      "source_refs": [
+        "mufradat:row:1248"
+      ]
+    },
+    {
+      "meaning_id": "clm-ksf-kasif",
+      "headword_arabic": "كَاسِف",
+      "definition": "Gloomy or frowning in the face, and by extension in one's condition or state.",
+      "usage_conditions": "Used in expressions such as كَاسِفُ الوجه and كَاسِفُ الحال, as a figurative extension from eclipse or obscuration.",
+      "source_refs": [
+        "mufradat:row:1248"
+      ]
+    },
+    {
+      "meaning_id": "clm-ksf-kisfah-material",
+      "headword_arabic": "كِسْفَة",
+      "definition": "A piece or portion of cloth, cotton, or a comparable loosely textured material.",
+      "usage_conditions": "A concrete noun for a separated portion of such material; the same item-name is also applied to a piece of cloud, while the Quranic sky and cloud attestations are recorded under the public form كِسْف.",
+      "source_refs": [
+        "mufradat:row:1248"
+      ]
+    },
+    {
+      "meaning_id": "clm-ksf-cut",
+      "headword_arabic": "كَسَفَ",
+      "definition": "To cut or sever something into pieces.",
+      "usage_conditions": "Reported for cutting cloth into pieces. An application to cutting the hock of a camel is also reported, but some authorities regard that usage as كَسَحَ instead.",
+      "source_refs": [
+        "mufradat:row:1248"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ksf:32856:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to بَالٌ; it supplies no independent lexical definition in this root entry."
+    }
+  ],
+  "cautions": [
+    "The two QAC nominal groupings are presented together under the normalized citation form كِسْف; the supplied evidence supports one Quranic piece/fragment branch rather than separate meanings.",
+    "The reported application of كَسَفَ to cutting a camel's hock is lexically disputed and is retained with that qualification."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

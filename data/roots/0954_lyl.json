@@ -1,0 +1,285 @@
+{
+  "root": "lyl",
+  "arabic": "ليل",
+  "root_idea": {
+    "summary": "The root denotes night as the temporal counterpart of day, with لَيْل referring generally to night and لَيْلَة to an individual or designated night.",
+    "development": "The lexical family distinguishes the general night-period from a counted or specified night and its plural forms, including لَيَالٍ and لَيْلَاتٌ.",
+    "source_refs": [
+      "maqayis:row:4266",
+      "mufradat:row:1336"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lyl:layol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-lyl-layl",
+      "reason": "Displayed under the normalized noun لَيْل."
+    },
+    {
+      "form_group_id": "qac-form:lyl:layol:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form-lyl-layl",
+      "reason": "The T-tagged occurrences are temporal or adverbial uses of the same noun لَيْل, not a separate lexical headword."
+    },
+    {
+      "form_group_id": "qac-form:lyl:layolap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-lyl-laylah",
+      "reason": "Displayed under the normalized noun لَيْلَة."
+    },
+    {
+      "form_group_id": "qac-form:lyl:layolap:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form-lyl-laylah",
+      "reason": "The T-tagged occurrence is an adverbial use of the same noun لَيْلَة, not a separate lexical headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-lyl-layl",
+      "form_group_ids": [
+        "qac-form:lyl:layol:nominal:-",
+        "qac-form:lyl:layol:other:-"
+      ],
+      "headword_arabic": "لَيْل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 84,
+      "senses": [
+        {
+          "sense_id": "sense-lyl-layl-1",
+          "definition": "Night; the period opposed to daytime.",
+          "usage_conditions": "Used as a temporal noun, including prepositional and adverbial constructions meaning by, in, or at night. Its plural forms include لَيَالٍ and لَيْلَاتٌ; these are grammatical variants of the same lexical branch.",
+          "source_refs": [
+            "mufradat:row:1336",
+            "maqayis:row:4266"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:164",
+          "word_location": "2:164:7",
+          "sense_ids": [
+            "sense-lyl-layl-1"
+          ]
+        },
+        {
+          "verse_key": "17:1",
+          "word_location": "17:1:5",
+          "sense_ids": [
+            "sense-lyl-layl-1"
+          ]
+        },
+        {
+          "verse_key": "19:10",
+          "word_location": "19:10:12",
+          "sense_ids": [
+            "sense-lyl-layl-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form-lyl-laylah",
+      "form_group_ids": [
+        "qac-form:lyl:layolap:nominal:-",
+        "qac-form:lyl:layolap:other:-"
+      ],
+      "headword_arabic": "لَيْلَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "sense-lyl-laylah-1",
+          "definition": "A single, counted, or specifically designated night.",
+          "usage_conditions": "Used for an individual night or a night identified by an event or designation, including a specified number of nights and the Night of Decree. Its plural forms include لَيَالٍ and لَيْلَاتٌ.",
+          "source_refs": [
+            "mufradat:row:1336",
+            "maqayis:row:4266"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "44:3",
+          "word_location": "44:3:4",
+          "sense_ids": [
+            "sense-lyl-laylah-1"
+          ]
+        },
+        {
+          "verse_key": "97:1",
+          "word_location": "97:1:4",
+          "sense_ids": [
+            "sense-lyl-laylah-1"
+          ]
+        },
+        {
+          "verse_key": "2:51",
+          "word_location": "2:51:5",
+          "sense_ids": [
+            "sense-lyl-laylah-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-lyl-banat-al-layl",
+      "headword_arabic": "بَنَاتُ اللَّيْلِ",
+      "definition": "In the expression بَنَاتُ اللَّيْلِ, wishes and anxieties.",
+      "usage_conditions": "An idiomatic plural expression rather than a separate basic meaning of لَيْل.",
+      "source_refs": [
+        "lane:entry:20782"
+      ]
+    },
+    {
+      "meaning_id": "cm-lyl-ibn-al-layl-thief",
+      "headword_arabic": "ابْنُ اللَّيْلِ",
+      "definition": "In the expression ابْنُ اللَّيْلِ, a thief or robber.",
+      "usage_conditions": "An idiomatic expression.",
+      "source_refs": [
+        "lane:entry:20782"
+      ]
+    },
+    {
+      "meaning_id": "cm-lyl-ibn-al-layl-wayfarer",
+      "headword_arabic": "ابْنُ اللَّيْلِ",
+      "definition": "In the expression ابْنُ اللَّيْلِ, a wayfarer or traveller.",
+      "usage_conditions": "An idiomatic expression with a distinct sense from the use meaning thief or robber.",
+      "source_refs": [
+        "lane:entry:20782"
+      ]
+    },
+    {
+      "meaning_id": "cm-lyl-akhu-al-layl",
+      "headword_arabic": "أَخُو اللَّيْلِ",
+      "definition": "In the expression أَخُو اللَّيْلِ, a nightfarer.",
+      "usage_conditions": "A conventional idiomatic designation for one who travels by night.",
+      "source_refs": [
+        "lane:entry:20782"
+      ]
+    },
+    {
+      "meaning_id": "cm-lyl-laylah-night-journey",
+      "headword_arabic": "لَيْلَة",
+      "definition": "A night-journey or a journey made at night.",
+      "usage_conditions": "A specialized conventional use of لَيْلَة, distinct from its ordinary meaning ‘a night’.",
+      "source_refs": [
+        "lane:entry:20783"
+      ]
+    },
+    {
+      "meaning_id": "cm-lyl-laylah-temporal",
+      "headword_arabic": "لَيْلَة",
+      "definition": "Used adverbially to refer to a particular night, such as ‘tonight’ or ‘last night’, according to context.",
+      "usage_conditions": "Occurs in temporal expressions with the accusative form لَيْلَةَ.",
+      "source_refs": [
+        "lane:entry:20783"
+      ]
+    },
+    {
+      "meaning_id": "cm-lyl-umm-layla",
+      "headword_arabic": "أُمُّ لَيْلَى",
+      "definition": "Wine; in this expression, لَيْلَى signifies intoxication or ecstasy.",
+      "usage_conditions": "A specialized idiomatic expression, not a general meaning of لَيْل or لَيْلَة.",
+      "source_refs": [
+        "lane:entry:20784"
+      ]
+    },
+    {
+      "meaning_id": "cm-lyl-mulayalah",
+      "headword_arabic": "مُلَايَلَة",
+      "definition": "A night-by-night arrangement or practice, analogous to a daily or monthly arrangement.",
+      "usage_conditions": "A derived verbal noun formed from the notion of night; it is not a synonym for the basic noun ‘night’.",
+      "source_refs": [
+        "lane:entry:20787"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lyl:20782:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَهَارٌ."
+    },
+    {
+      "unit_id": "lane-unit:lyl:20782:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lyl-banat-al-layl"
+      ],
+      "note": "Idiomatic expression meaning wishes and anxieties."
+    },
+    {
+      "unit_id": "lane-unit:lyl:20782:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lyl-ibn-al-layl-thief",
+        "cm-lyl-ibn-al-layl-wayfarer"
+      ],
+      "note": "Two stated senses of ابن الليل."
+    },
+    {
+      "unit_id": "lane-unit:lyl:20782:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lyl-akhu-al-layl"
+      ],
+      "note": "Idiomatic designation of a nightfarer."
+    },
+    {
+      "unit_id": "lane-unit:lyl:20783:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lyl-laylah-night-journey"
+      ],
+      "note": "Specialized meaning of لَيْلَة as a night-journey."
+    },
+    {
+      "unit_id": "lane-unit:lyl:20783:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lyl-laylah-temporal"
+      ],
+      "note": "Temporal adverbial use in expressions referring to a particular night."
+    },
+    {
+      "unit_id": "lane-unit:lyl:20784:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lyl-umm-layla"
+      ],
+      "note": "Idiomatic expression for wine and intoxication."
+    },
+    {
+      "unit_id": "lane-unit:lyl:20785:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَهِرٌ."
+    },
+    {
+      "unit_id": "lane-unit:lyl:20786:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural-form statement only; it adds no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:lyl:20787:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-lyl-mulayalah"
+      ],
+      "note": "Derived noun for a night-based arrangement or practice."
+    }
+  ],
+  "cautions": [
+    "The principal meaning ‘night, opposite to day’ is explicit in the root-level and Quran-focused evidence; the main Lane line for لَيْل is a cross-reference rather than a full definition."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

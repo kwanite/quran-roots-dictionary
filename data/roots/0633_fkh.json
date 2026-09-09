@@ -1,0 +1,677 @@
+{
+  "root": "fkh",
+  "arabic": "فكه",
+  "root_idea": {
+    "summary": "The root centers on pleasantness, savoring, and what is experienced as agreeable or enjoyable.",
+    "development": "From this orientation it extends to fruit as something relished, cheerfulness and pleasant conversation, and certain specialized descriptions of especially good milk. The Quranic expression تَفَكَّهُونَ in 56:65 is disputed in the lexical tradition: it is variously connected with fruit-taking, banter, wonder, or regret, while one analysis treats it as related to تَفَكَّنُونَ through substitution.",
+    "source_refs": [
+      "maqayis:row:3636",
+      "mufradat:row:1131"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fkh:tafak~ahu:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fkh-tafakkaha",
+      "reason": "Displayed under the normalized Form V perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:fkh:fa`kihap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fkh-fakihah",
+      "reason": "Displayed as the singular noun citation form."
+    },
+    {
+      "form_group_id": "qac-form:fkh:fa`kihiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fkh-fakih",
+      "reason": "Displayed under the singular active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:fkh:fakihiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fkh-fakih-short",
+      "reason": "Displayed as the distinct short-vowel adjective citation form."
+    },
+    {
+      "form_group_id": "qac-form:fkh:fawa`kih:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "fkh-fakihah",
+      "reason": "The Quranic plural is presented under the supported singular noun citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "fkh-fakihah",
+      "form_group_ids": [
+        "qac-form:fkh:fa`kihap:nominal:-",
+        "qac-form:fkh:fawa`kih:nominal:-"
+      ],
+      "headword_arabic": "فَاكِهَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 14,
+      "senses": [
+        {
+          "sense_id": "fkh-fakihah-s1",
+          "definition": "Fruit; something whose eating is enjoyed.",
+          "usage_conditions": "The Quranic noun is used for fruit generally, including fruit described alongside dates and pomegranates; the lexical evidence records discussion over the scope of that category.",
+          "source_refs": [
+            "lane:entry:34775",
+            "mufradat:row:1131"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "55:68",
+          "word_location": "55:68:2",
+          "sense_ids": [
+            "fkh-fakihah-s1"
+          ]
+        },
+        {
+          "verse_key": "37:42",
+          "word_location": "37:42:1",
+          "sense_ids": [
+            "fkh-fakihah-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fkh-fakih",
+      "form_group_ids": [
+        "qac-form:fkh:fa`kihiyn:nominal:-"
+      ],
+      "headword_arabic": "فَاكِهٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "fkh-fakih-s1",
+          "definition": "Enjoying pleasure, ease, and plenty.",
+          "usage_conditions": "Used of people enjoying what has been granted to them and living in agreeable abundance.",
+          "source_refs": [
+            "lane:entry:34770",
+            "mufradat:row:1131"
+          ]
+        },
+        {
+          "sense_id": "fkh-fakih-s2",
+          "definition": "To be amused or to wonder at what has happened.",
+          "usage_conditions": "This is an alternative interpretation associated with the Quranic plural in 36:55; the supplied evidence preserves the interpretation without treating a variant vocalization as a separate Quran location.",
+          "source_refs": [
+            "lane:entry:34770"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "52:18",
+          "word_location": "52:18:1",
+          "sense_ids": [
+            "fkh-fakih-s1"
+          ]
+        },
+        {
+          "verse_key": "36:55",
+          "word_location": "36:55:7",
+          "sense_ids": [
+            "fkh-fakih-s1",
+            "fkh-fakih-s2"
+          ]
+        },
+        {
+          "verse_key": "44:27",
+          "word_location": "44:27:4",
+          "sense_ids": [
+            "fkh-fakih-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fkh-fakih-short",
+      "form_group_ids": [
+        "qac-form:fkh:fakihiyn:nominal:-"
+      ],
+      "headword_arabic": "فَكِهٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "fkh-fakih-short-s1",
+          "definition": "Jocose, cheerful, or given to jesting.",
+          "usage_conditions": "The Quranic plural at 83:31 is understood in the sense of jesting or light-hearted amusement.",
+          "source_refs": [
+            "lane:entry:34770"
+          ]
+        },
+        {
+          "sense_id": "fkh-fakih-short-s2",
+          "definition": "Exulting greatly, sometimes with insolence or ingratitude.",
+          "usage_conditions": "This meaning is reported for a short-vowel Quranic plural reading in the lexical evidence; no additional modern verse location is claimed for that reading.",
+          "source_refs": [
+            "lane:entry:34770"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "83:31",
+          "word_location": "83:31:6",
+          "sense_ids": [
+            "fkh-fakih-short-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fkh-tafakkaha",
+      "form_group_ids": [
+        "qac-form:fkh:tafak~ahu:verb:V"
+      ],
+      "headword_arabic": "تَفَكَّهَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "fkh-tafakkaha-s1",
+          "definition": "To eat or take fruit.",
+          "usage_conditions": "In the Quranic expression of 56:65, this fruit-related sense is also explained ironically as making fruit the subject of one's speech; the same discussion records explanations involving taking up fruit.",
+          "source_refs": [
+            "lane:entry:34768",
+            "mufradat:row:1131"
+          ]
+        },
+        {
+          "sense_id": "fkh-tafakkaha-s2",
+          "definition": "To discard or abstain from fruit.",
+          "usage_conditions": "A contrary fruit-related interpretation reported in the discussion of 56:65; it is preserved as a lexical alternative rather than generalized as the ordinary meaning of the verb.",
+          "source_refs": [
+            "lane:entry:34768"
+          ]
+        },
+        {
+          "sense_id": "fkh-tafakkaha-s3",
+          "definition": "To engage in pleasant talk or banter.",
+          "usage_conditions": "In the Quranic interpretation of 56:65, this is understood as engaging in فُكَاهَة, while the same construction can more generally describe amusement through conversation.",
+          "source_refs": [
+            "lane:entry:34768",
+            "mufradat:row:1131"
+          ]
+        },
+        {
+          "sense_id": "fkh-tafakkaha-s4",
+          "definition": "To wonder at or be astonished by what has happened.",
+          "usage_conditions": "One explicit interpretation of the Quranic expression in 56:65.",
+          "source_refs": [
+            "lane:entry:34768",
+            "mufradat:row:1131"
+          ]
+        },
+        {
+          "sense_id": "fkh-tafakkaha-s5",
+          "definition": "To repent, grieve, lament, or regret.",
+          "usage_conditions": "Another explicit interpretation of the Quranic expression in 56:65; one root-level analysis connects this interpretation with a substituted form related to تَفَكَّنُونَ.",
+          "source_refs": [
+            "lane:entry:34768",
+            "mufradat:row:1131",
+            "maqayis:row:3636"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:65",
+          "word_location": "56:65:6",
+          "sense_ids": [
+            "fkh-tafakkaha-s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-fakiha-cheerful",
+      "headword_arabic": "فَكِهَ",
+      "definition": "To become cheerful, happy, or free from constraint; to be jocose and given to laughter, including making one's companions laugh.",
+      "usage_conditions": "A Form I verbal use describing a cheerful or joking disposition.",
+      "source_refs": [
+        "lane:entry:34764"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakkaha-fruit",
+      "headword_arabic": "فَكَّهَ",
+      "definition": "To bring fruit to people.",
+      "usage_conditions": "Form II causative usage.",
+      "source_refs": [
+        "lane:entry:34765"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakkaha-entertain",
+      "headword_arabic": "فَكَّهَ",
+      "definition": "To entertain people with novel or facetious sayings.",
+      "usage_conditions": "A figurative Form II causative use involving amusing conversation.",
+      "source_refs": [
+        "lane:entry:34765"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakaha-joke-with",
+      "headword_arabic": "فَاكَهَ",
+      "definition": "To jest or joke with someone and indulge in pleasantry with them.",
+      "usage_conditions": "Form III reciprocal or interpersonal construction.",
+      "source_refs": [
+        "lane:entry:34766"
+      ]
+    },
+    {
+      "meaning_id": "cm-afkahata-milk",
+      "headword_arabic": "أَفْكَهَتْ",
+      "definition": "Of a she-camel: to yield milk plentifully in connection with eating spring herbage before parturition.",
+      "usage_conditions": "A specialized Form IV use; related descriptions mention laxity near parturition and enlargement of the udder.",
+      "source_refs": [
+        "lane:entry:34767"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakih-eater",
+      "headword_arabic": "فَكِهٌ",
+      "definition": "One who eats fruit, or is characterized by eating fruit.",
+      "usage_conditions": "A possessive epithet applied to a person, distinct from the adjective meaning cheerful or jocose.",
+      "source_refs": [
+        "lane:entry:34770"
+      ]
+    },
+    {
+      "meaning_id": "cm-tafakkaha-jest",
+      "headword_arabic": "تَفَكَّهَ",
+      "definition": "To amuse oneself with conversation or affect joking.",
+      "usage_conditions": "A figurative Form V use modeled on the enjoyment of fruit.",
+      "source_refs": [
+        "lane:entry:34768"
+      ]
+    },
+    {
+      "meaning_id": "cm-tafakkaha-defame",
+      "headword_arabic": "تَفَكَّهَ",
+      "definition": "To speak evil of someone in their absence and defame them while jesting with others.",
+      "usage_conditions": "Occurs with the construction تَفَكَّهَ بِفُلَانٍ.",
+      "source_refs": [
+        "lane:entry:34768"
+      ]
+    },
+    {
+      "meaning_id": "cm-tafakuh-mutual-jesting",
+      "headword_arabic": "تَفَاكُهٌ",
+      "definition": "Mutual jesting or joking among several people.",
+      "usage_conditions": "Form VI verbal noun and its corresponding reciprocal use.",
+      "source_refs": [
+        "lane:entry:34769"
+      ]
+    },
+    {
+      "meaning_id": "cm-fukahah-jesting",
+      "headword_arabic": "فُكَاهَةٌ",
+      "definition": "Jesting, joking, or light-hearted conversation.",
+      "usage_conditions": "A substantive noun for pleasantry, distinguished from the Form I infinitive in the lexical evidence.",
+      "source_refs": [
+        "lane:entry:34772"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakih-possession",
+      "headword_arabic": "فَاكِهٌ",
+      "definition": "Possessing fruit, or having fruit in abundance.",
+      "usage_conditions": "An epithet comparable to other possessive formations; it can describe one whose fruit has become plentiful.",
+      "source_refs": [
+        "lane:entry:34774"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakihah-palm",
+      "headword_arabic": "فَاكِهَةٌ",
+      "definition": "A palm tree that inspires admiration, pleasure, or joy.",
+      "usage_conditions": "A figurative or specialized use, apparently associated with the tree's abundant fruit.",
+      "source_refs": [
+        "lane:entry:34774"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakihah-sweetmeat",
+      "headword_arabic": "فَاكِهَةٌ",
+      "definition": "Sweetmeat or confection.",
+      "usage_conditions": "A comparative figurative extension of the fruit term.",
+      "source_refs": [
+        "lane:entry:34775"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakihah-winter-fire",
+      "headword_arabic": "فَاكِهَةُ الشِّتَاءِ",
+      "definition": "Fire, literally “the fruit of winter.”",
+      "usage_conditions": "A fixed metonymic expression.",
+      "source_refs": [
+        "lane:entry:34775"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakihani-seller",
+      "headword_arabic": "فَاكِهَانِيٌّ",
+      "definition": "A seller of fruit.",
+      "usage_conditions": "A relational noun formed from فَاكِهَةٌ.",
+      "source_refs": [
+        "lane:entry:34778"
+      ]
+    },
+    {
+      "meaning_id": "cm-ufkuha-wonder",
+      "headword_arabic": "أُفْكُوهَةٌ",
+      "definition": "A wonderful or astonishing thing, including a remarkable saying or story.",
+      "usage_conditions": "Used of something that provokes wonder or admiration.",
+      "source_refs": [
+        "lane:entry:34780"
+      ]
+    },
+    {
+      "meaning_id": "cm-mufkih-camel",
+      "headword_arabic": "مُفْكِهٌ",
+      "definition": "A she-camel whose milk is thick like colostrum or flows plentifully around parturition.",
+      "usage_conditions": "A specialized active-participial noun; descriptions also connect it with abundant milk before giving birth.",
+      "source_refs": [
+        "lane:entry:34781"
+      ]
+    },
+    {
+      "meaning_id": "cm-fakih-malicious",
+      "headword_arabic": "فَكِهٌ",
+      "definition": "One who delights in speaking evil of people, especially in their absence.",
+      "usage_conditions": "A specialized interpersonal use describing pleasure in malicious talk; distinct from ordinary cheerfulness or joking.",
+      "source_refs": [
+        "lane:entry:34770"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fkh:34764:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakiha-cheerful"
+      ],
+      "note": "Form I cheerful and jocose disposition."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34764:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34765:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakkaha-fruit"
+      ],
+      "note": "Form II bringing fruit."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34765:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakkaha-entertain"
+      ],
+      "note": "Form II entertaining with facetious speech."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34766:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakaha-joke-with"
+      ],
+      "note": "Jesting with another person."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34767:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-afkahata-milk"
+      ],
+      "note": "Specialized Form IV camel-milk use."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34768:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fkh-tafakkaha-s1",
+        "fkh-tafakkaha-s2"
+      ],
+      "note": "Fruit-taking and contrary fruit-abstention interpretations, including the Quranic construction."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34768:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tafakkaha-jest"
+      ],
+      "note": "Metaphorical amusement through talk."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34768:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tafakkaha-jest"
+      ],
+      "note": "Affected joking."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34768:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tafakkaha-defame"
+      ],
+      "note": "Jesting while speaking evil of an absent person."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34768:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "fkh-tafakkaha-s1"
+      ],
+      "note": "Enjoying or eating fruit is covered by the fruit-taking sense."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34768:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fkh-tafakkaha-s4"
+      ],
+      "note": "Wondering at what happened, including the Quranic interpretation."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34768:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fkh-tafakkaha-s5"
+      ],
+      "note": "Repenting, grieving, lamenting, or regretting."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34769:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tafakuh-mutual-jesting"
+      ],
+      "note": "Mutual joking among several people."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34770:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakih-eater"
+      ],
+      "note": "Fakih as one who eats fruit."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34770:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakiha-cheerful",
+        "fkh-fakih-short-s1"
+      ],
+      "note": "Cheerful, jocose, and laughter-making adjective, including the Quranic short-vowel adjective sense."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34770:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fkh-fakih-s1",
+        "fkh-fakih-short-s2"
+      ],
+      "note": "Enjoying ease and plenty, alongside the reported excessive-exultation reading."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34770:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fkh-fakih-s2"
+      ],
+      "note": "Alternative Quranic interpretation as wondering."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34770:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakih-malicious"
+      ],
+      "note": "Delighting in malicious talk about people."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34771:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "The reported gloss is explicitly corrected as belonging to another word."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34772:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fukahah-jesting"
+      ],
+      "note": "Substantive noun for joking."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34773:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34774:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakih-possession"
+      ],
+      "note": "Possessing or having abundant fruit."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34774:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34774:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakihah-palm"
+      ],
+      "note": "Specialized use for an admired or pleasing palm tree."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34775:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fkh-fakihah-s1"
+      ],
+      "note": "Fruit in the general Quran-attested lexical sense."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34775:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakihah-sweetmeat"
+      ],
+      "note": "Sweetmeat extension."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34775:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakihah-winter-fire"
+      ],
+      "note": "Fixed winter-fruit metonym for fire."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34776:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34777:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34778:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-fakihani-seller"
+      ],
+      "note": "Fruit seller."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34779:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-fakiha-cheerful"
+      ],
+      "note": "Superlative phrase covered by the cheerful and jocose meaning."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34780:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-ufkuha-wonder"
+      ],
+      "note": "Wonderful or astonishing thing."
+    },
+    {
+      "unit_id": "lane-unit:fkh:34781:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mufkih-camel"
+      ],
+      "note": "Specialized camel-milk description."
+    }
+  ],
+  "cautions": [
+    "The interpretations of تَفَكَّهُونَ in 56:65 are genuinely divided among fruit-taking, fruit-abstention, banter, wonder, and regret; the entry preserves these as distinct Quran-attested alternatives rather than treating the contextual English gloss as decisive.",
+    "The evidence reports Quranic readings and interpretations with differing vocalizations for فَاكِهِينَ and فَكِهِينَ. The cited historical reference for the short-vowel exultation reading is not converted into an additional modern verse location.",
+    "Some Classical meanings are specialized or figurative extensions of the fruit and pleasantness vocabulary and should not be assumed for every Quran occurrence."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Lane report connecting the short-vowel plural فَكِهِينَ with a Quranic reading cannot be securely matched to a separate supplied QAC occurrence and modern location; its lexical content is retained under فَكِهٌ as a variant Quran-attested sense without assigning an invented verse key."
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "root": "bkm",
+  "arabic": "بكم",
+  "root_idea": {
+    "summary": "A rare root centered on muteness: the loss, absence, or failure of articulate speech.",
+    "development": "The basic sense is inability to speak, especially from birth. The usage extends to withholding speech, inability to answer or express oneself through weak understanding, and speech that has become impeded.",
+    "source_refs": [
+      "maqayis:row:822",
+      "mufradat:row:151",
+      "lane:entry:36969",
+      "lane:entry:36970"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bkm:>abokam:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bkm-abkam",
+      "reason": "Displayed under the normalized singular citation form أَبْكَم; the QAC group includes its Quranic singular and plural inflections."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bkm-abkam",
+      "form_group_ids": [
+        "qac-form:bkm:>abokam:nominal:-"
+      ],
+      "headword_arabic": "أَبْكَم",
+      "public_pos_label": "Adjective / noun",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "bkm-abkam-s1",
+          "definition": "Mute; a person born without the faculty of speech.",
+          "usage_conditions": "The Quranic nominal use includes the singular أَبْكَمُ and plural بُكْمٌ. This sense describes literal muteness, especially congenital muteness.",
+          "source_refs": [
+            "lane:entry:36972",
+            "mufradat:row:151"
+          ]
+        },
+        {
+          "sense_id": "bkm-abkam-s2",
+          "definition": "Figuratively mute through lack of understanding: unable to answer, express oneself effectively, or benefit from the faculty of speech.",
+          "usage_conditions": "A Quran-attested interpretive use applies بُكْمٌ to people who are deprived of understanding or are ignorant and ineffective in their use of speech, as though physically mute.",
+          "source_refs": [
+            "lane:entry:36972"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:18",
+          "word_location": "2:18:2",
+          "sense_ids": [
+            "bkm-abkam-s1"
+          ]
+        },
+        {
+          "verse_key": "16:76",
+          "word_location": "16:76:6",
+          "sense_ids": [
+            "bkm-abkam-s1"
+          ]
+        },
+        {
+          "verse_key": "2:171",
+          "word_location": "2:171:14",
+          "sense_ids": [
+            "bkm-abkam-s2"
+          ]
+        },
+        {
+          "verse_key": "17:97",
+          "word_location": "17:97:20",
+          "sense_ids": [
+            "bkm-abkam-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "bkm-bakima-dumb",
+      "headword_arabic": "بَكِمَ",
+      "definition": "To be dumb: to lack the ability to speak or to frame words and answer well, whether from a natural condition or from impaired understanding; some descriptions extend the condition to congenital deafness and blindness.",
+      "usage_conditions": "Classical Form I verb. The usage covers both absence of the speech faculty and ineffective speech despite possessing it.",
+      "source_refs": [
+        "lane:entry:36969",
+        "mufradat:row:151"
+      ]
+    },
+    {
+      "meaning_id": "bkm-bakuma-refrain",
+      "headword_arabic": "بَكُمَ",
+      "definition": "To refrain, break off, or cease from speaking.",
+      "usage_conditions": "Used with عن الكلام; the cessation may be deliberate or may arise from ignorance.",
+      "source_refs": [
+        "lane:entry:36969"
+      ]
+    },
+    {
+      "meaning_id": "bkm-bakuma-intercourse",
+      "headword_arabic": "بَكُمَ",
+      "definition": "To cut oneself off from marriage or to desist from sexual intercourse.",
+      "usage_conditions": "A figurative or tropical extension; the withdrawal may be intentional or due to ignorance.",
+      "source_refs": [
+        "lane:entry:36969"
+      ]
+    },
+    {
+      "meaning_id": "bkm-tabakkama",
+      "headword_arabic": "تَبَكَّمَ",
+      "definition": "For speech to become impeded, or for a speaker to be unable to speak freely.",
+      "usage_conditions": "The construction تَبَكَّمَ عَلَيْهِ الكَلَامُ describes speech as impeded upon the speaker.",
+      "source_refs": [
+        "lane:entry:36970"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bkm:36969:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkm-bakima-dumb"
+      ],
+      "note": "The Form I meanings of muteness and impaired articulation or response are grouped under the verb entry."
+    },
+    {
+      "unit_id": "lane-unit:bkm:36969:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkm-bakuma-refrain"
+      ],
+      "note": "Covers refraining or ceasing from speech."
+    },
+    {
+      "unit_id": "lane-unit:bkm:36969:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkm-bakuma-intercourse"
+      ],
+      "note": "Covers the figurative withdrawal from marriage or sexual intercourse."
+    },
+    {
+      "unit_id": "lane-unit:bkm:36970:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkm-tabakkama"
+      ],
+      "note": "Covers impeded speech in the Form V construction."
+    },
+    {
+      "unit_id": "lane-unit:bkm:36971:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry with no recoverable lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:bkm:36972:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bkm-abkam-s1",
+        "bkm-abkam-s2"
+      ],
+      "note": "Covers the literal and figurative Quran-attested interpretations of أَبْكَم and بُكْم."
+    }
+  ],
+  "cautions": [
+    "The English gloss “dumb” can represent either literal muteness or figurative inability to understand or benefit from speech; these are separated here because the lexical evidence supports both.",
+    "Lane's printed Quran citation “Kur ii. 166” is retained only as reported evidence and has not been converted into a modern surah-and-ayah location."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The historical Lane citation “Kur ii. 166” cannot be securely identified with a supplied modern Quran location; its associated lexical interpretations are represented without assigning that citation to a verse example."
+  ]
+}

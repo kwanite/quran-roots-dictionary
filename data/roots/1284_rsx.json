@@ -1,0 +1,155 @@
+{
+  "root": "rsx",
+  "arabic": "رسخ",
+  "root_idea": {
+    "summary": "The root centers on firm, settled stability and enduring establishment.",
+    "development": "Its concrete sense of becoming fixed or settled extends to being deeply rooted in knowledge and to things sinking or becoming established in the earth; the causative form expresses making something firm.",
+    "source_refs": [
+      "maqayis:row:2025",
+      "mufradat:row:551",
+      "lane:entry:23213"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rsx:r~a`sixuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_rsx_rasikh",
+      "reason": "The Quranic plural is normalized to the singular active-participle citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_rsx_rasikh",
+      "form_group_ids": [
+        "qac-form:rsx:r~a`sixuwn:nominal:-"
+      ],
+      "headword_arabic": "رَاسِخ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_rsx_rasikh_knowledge",
+          "definition": "Firmly rooted and established in knowledge; possessing settled understanding that is not shaken by doubt.",
+          "usage_conditions": "Used in the Quranic construction الرَّاسِخُونَ فِي الْعِلْمِ for those firmly grounded or advanced in knowledge. The construction is also explained in terms of studying, memorizing, and recalling the revealed Book and its teachings.",
+          "source_refs": [
+            "lane:entry:23215",
+            "mufradat:row:551"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:7",
+          "word_location": "3:7:32",
+          "sense_ids": [
+            "sense_rsx_rasikh_knowledge"
+          ]
+        },
+        {
+          "verse_key": "4:162",
+          "word_location": "4:162:2",
+          "sense_ids": [
+            "sense_rsx_rasikh_knowledge"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_rsx_rasakha_firm",
+      "headword_arabic": "رَسَخَ",
+      "definition": "To become firm, steady, fixed, settled, or established; to become deeply rooted or fixed.",
+      "usage_conditions": "Used literally of something fixed in its place and figuratively of ink fixed on a surface or love fixed in the heart.",
+      "source_refs": [
+        "lane:entry:23213"
+      ]
+    },
+    {
+      "meaning_id": "cm_rsx_rasakha_sink",
+      "headword_arabic": "رَسَخَ",
+      "definition": "Of water or rain, to sink into the earth and disappear or penetrate into the soil.",
+      "usage_conditions": "Applied to a pool left by a torrent and to rain sinking into the earth until the moisture below meets it.",
+      "source_refs": [
+        "lane:entry:23213"
+      ]
+    },
+    {
+      "meaning_id": "cm_rsx_rasakh_rare_transmigration",
+      "headword_arabic": "رَسْخ",
+      "definition": "A reported technical term for the soul’s connection, after leaving the body, with an inanimate, non-growing body.",
+      "usage_conditions": "A rare, marginally reported usage distinguished from related terms for connection with a human, animal, or plant body.",
+      "source_refs": [
+        "lane:entry:23213"
+      ]
+    },
+    {
+      "meaning_id": "cm_rsx_arsakha_causative",
+      "headword_arabic": "أَرْسَخَ",
+      "definition": "To make something firm, steady, fixed, settled, or established.",
+      "usage_conditions": "A transitive causative construction expressing the establishment of an object in a firm or stable state.",
+      "source_refs": [
+        "lane:entry:23214"
+      ]
+    },
+    {
+      "meaning_id": "cm_rsx_rasikh_firm",
+      "headword_arabic": "رَاسِخ",
+      "definition": "Firm, steadfast, fixed, settled, or established.",
+      "usage_conditions": "An adjective used literally of something firmly fixed, such as a mountain or a compacted deposit, and figuratively of a firm footing or established standing.",
+      "source_refs": [
+        "lane:entry:23215"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rsx:23213:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_rsx_rasikh_knowledge",
+        "cm_rsx_rasakha_firm"
+      ],
+      "note": "The firm or fixed sense and the knowledge-rooted construction are represented."
+    },
+    {
+      "unit_id": "lane-unit:rsx:23213:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rsx_rasakha_sink"
+      ],
+      "note": "The sinking or absorption sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:rsx:23213:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rsx_rasakh_rare_transmigration"
+      ],
+      "note": "The rare technical usage is represented with its attribution noted."
+    },
+    {
+      "unit_id": "lane-unit:rsx:23214:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_rsx_arsakha_causative"
+      ],
+      "note": "The causative Form IV meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:rsx:23215:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_rsx_rasikh_knowledge",
+        "cm_rsx_rasikh_firm"
+      ],
+      "note": "The Quranic knowledge construction and the broader adjective meaning are represented."
+    }
+  ],
+  "cautions": [
+    "The lexical discussion invokes 49:15 as a characterization of the firmly rooted in knowledge, not as an additional supplied occurrence of this form; the counted Quranic occurrences are 3:7 and 4:162."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

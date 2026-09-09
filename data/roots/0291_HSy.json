@@ -1,0 +1,129 @@
+{
+  "root": "HSy",
+  "arabic": "حصي",
+  "root_idea": {
+    "summary": "The root is oriented toward making something fully determined by number: what is counted is gathered into a total and thereby encompassed.",
+    "development": "The lexical discussion connects the usage with counting by means of pebbles. From literal enumeration, the semantic development extends to comprehensive reckoning and, in negative constructions, the inability to fully realize or attain something.",
+    "source_refs": [
+      "mufradat:row:328"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:HSy:>aHoSaY`:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hsy_ahsa_v4",
+      "reason": "Form IV finite verb displayed under its normalized perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:HSy:>aHoSaY`2:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_hsy_ahsa_nominal",
+      "reason": "Displayed separately because this homographic occurrence is nominal and has an elative/adjectival reckoning sense."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_hsy_ahsa_v4",
+      "form_group_ids": [
+        "qac-form:HSy:>aHoSaY`:verb:IV"
+      ],
+      "headword_arabic": "أَحْصَىٰ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "hsy_v4_s1",
+          "definition": "To enumerate, count, or keep a tally of something.",
+          "usage_conditions": "Used when items or a quantity are brought into a numerical reckoning.",
+          "source_refs": [
+            "mufradat:row:328"
+          ]
+        },
+        {
+          "sense_id": "hsy_v4_s2",
+          "definition": "To take full account of and encompass something through comprehensive reckoning.",
+          "usage_conditions": "The meaning extends beyond a simple tally to the complete gathering or accounting for all of something.",
+          "source_refs": [
+            "mufradat:row:328"
+          ]
+        },
+        {
+          "sense_id": "hsy_v4_s3",
+          "definition": "To fully realize, attain, or exhaustively accomplish something.",
+          "usage_conditions": "In the Quranic construction لَنْ تُحْصُوهُ, the object is something whose complete measure or realization cannot be fully attained or taken in.",
+          "source_refs": [
+            "mufradat:row:328"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:34",
+          "word_location": "14:34:11",
+          "sense_ids": [
+            "hsy_v4_s1"
+          ]
+        },
+        {
+          "verse_key": "72:28",
+          "word_location": "72:28:10",
+          "sense_ids": [
+            "hsy_v4_s2"
+          ]
+        },
+        {
+          "verse_key": "73:20",
+          "word_location": "73:20:23",
+          "sense_ids": [
+            "hsy_v4_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_hsy_ahsa_nominal",
+      "form_group_ids": [
+        "qac-form:HSy:>aHoSaY`2:nominal:-"
+      ],
+      "headword_arabic": "أَحْصَىٰ",
+      "public_pos_label": "Adjective · Elative",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "hsy_nom_s1",
+          "definition": "More exact or more comprehensive in reckoning; best at calculating a measure.",
+          "usage_conditions": "Nominal elative use describing the greater precision of a reckoning, as in calculating a period or span.",
+          "source_refs": [
+            "mufradat:row:328"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:12",
+          "word_location": "18:12:6",
+          "sense_ids": [
+            "hsy_nom_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:HSy:14791:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit directing the reader to حصو; no lexical content is supplied in this packet."
+    }
+  ],
+  "cautions": [
+    "The two Quranic form groups share the spelling أَحْصَىٰ but are separated here because one is a Form IV verb and the other is a nominal elative use.",
+    "The supplied Lane primary entry contains only a cross-reference pointer, so the lexical senses are supported by the unique Quran-focused entry."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,108 @@
+{
+  "root": "lys",
+  "arabic": "ليس",
+  "root_idea": {
+    "summary": "The supplied evidence supports negation as the central orientation: ليس denies a predicate or asserted state.",
+    "development": "The form is a defective Form I verb whose ordinary predicate-negation may, by context, refer beyond the present and may also acquire generalized force in constructions meaning that there is no such circumstance.",
+    "source_refs": [
+      "lane:entry:10062"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lys:l~ayosa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "lys_laysa",
+      "reason": "The supplied QAC group represents the Quranic Form I verb ليس and is displayed under its normalized Classical Arabic citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "lys_laysa",
+      "form_group_ids": [
+        "qac-form:lys:l~ayosa:verb:I"
+      ],
+      "headword_arabic": "لَيْسَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 89,
+      "senses": [
+        {
+          "sense_id": "lys_s1",
+          "definition": "To be not; to negate a predicate or asserted state.",
+          "usage_conditions": "A defective negative verb, ordinarily used for particular predicate-negation, especially concerning the present state. It governs a nominative subject and an accusative predicate; context can extend the negation to another time, and the verb may also negate a following verbal assertion.",
+          "source_refs": [
+            "lane:entry:10062"
+          ]
+        },
+        {
+          "sense_id": "lys_s2",
+          "definition": "To negate generally or universally: there is no such thing, circumstance, or liability.",
+          "usage_conditions": "Used in a generalizing negative construction, equivalent in force to لا التبرئة. This includes constructions such as ليس عليكم جناح, in which no blame or liability is asserted.",
+          "source_refs": [
+            "lane:entry:10062"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:177",
+          "word_location": "2:177:1",
+          "sense_ids": [
+            "lys_s1"
+          ]
+        },
+        {
+          "verse_key": "24:61",
+          "word_location": "24:61:1",
+          "sense_ids": [
+            "lys_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "lys_cm_exceptive",
+      "headword_arabic": "لَيْسَ",
+      "definition": "An exceptive particle: except, excluding.",
+      "usage_conditions": "Used in place of إِلَّا. In this construction, the understood subject is nominative and the predicate is accusative; it may also be followed by a pronoun.",
+      "source_refs": [
+        "lane:entry:10062"
+      ]
+    },
+    {
+      "meaning_id": "lys_cm_connective",
+      "headword_arabic": "لَيْسَ",
+      "definition": "A connective negative particle, equivalent to لا in a coordinated or contrastive statement.",
+      "usage_conditions": "The construction may contain a suppressed predicate, so that ليس links a preceding expression with a negated identification or contrast.",
+      "source_refs": [
+        "lane:entry:10062"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lys:10062:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "lys_s1",
+        "lys_s2",
+        "lys_cm_exceptive",
+        "lys_cm_connective"
+      ],
+      "note": "Its lexical branches are covered by ordinary and generalized Quranic negation and by the two Classical particle uses."
+    },
+    {
+      "unit_id": "lane-unit:lys:20777:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no independent lexical statement."
+    }
+  ],
+  "cautions": [
+    "Classical grammatical analysis records disagreement over whether ليس is a defective verb or a particle; QAC identifies the supplied Quranic occurrences as Verb · Form I."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

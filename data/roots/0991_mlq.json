@@ -1,0 +1,130 @@
+{
+  "root": "mlq",
+  "arabic": "ملق",
+  "root_idea": {
+    "summary": "The root’s semantic orientation involves being stripped or bare and becoming soft or yielding.",
+    "development": "The lexical analysis connects impoverishment with being divested of wealth until one is in need, while relating other branches to softening, smooth or unmarked surfaces, abrasion, and cleansing by removal.",
+    "source_refs": [
+      "maqayis:row:4461"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:mlq:<imola`q:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:mlq:imlaq",
+      "reason": "The Quran-attested verbal noun is retained as a normalized public form. The packet does not provide qualifying Lane or unique Mufradat evidence for a numbered Quranic sense."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:mlq:imlaq",
+      "form_group_ids": [
+        "qac-form:mlq:<imola`q:nominal:-"
+      ],
+      "headword_arabic": "إِمْلَاق",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [],
+      "quran_examples": []
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "class:imlaq-impoverishment",
+      "headword_arabic": "إِمْلَاق",
+      "definition": "Impoverishment through depletion of wealth, leaving a person in need.",
+      "usage_conditions": "Describes loss or exhaustion of wealth resulting in need.",
+      "source_refs": [
+        "maqayis:row:4461"
+      ]
+    },
+    {
+      "meaning_id": "class:malaqa-flay-whip",
+      "headword_arabic": "مَلَقَ",
+      "definition": "To flay someone with a whip.",
+      "usage_conditions": "Transitive construction; the person is the object and the whip is the instrument.",
+      "source_refs": [
+        "lane:entry:5809"
+      ]
+    },
+    {
+      "meaning_id": "class:tamallaqa-affectionate-coaxing",
+      "headword_arabic": "تَمَلَّقَ",
+      "definition": "To behave toward someone in a loving, affectionate, flattering, or coaxing manner.",
+      "usage_conditions": "Used with a direct object or with لِـ; the associated verbal nouns are تَمَلُّق and تِمِلَّاق.",
+      "source_refs": [
+        "lane:entry:5810"
+      ]
+    },
+    {
+      "meaning_id": "class:malaqiyya-swift-mare",
+      "headword_arabic": "مَلَقِيَّة",
+      "definition": "A swiftly running mare.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:5811"
+      ]
+    },
+    {
+      "meaning_id": "class:mallaq-swift-pace",
+      "headword_arabic": "مَلَّاق",
+      "definition": "Vehement or energetic in journeying or pace.",
+      "usage_conditions": "Describes forcefulness or vigor in travel or movement.",
+      "source_refs": [
+        "lane:entry:5811"
+      ]
+    },
+    {
+      "meaning_id": "class:mimlaqa-harrow",
+      "headword_arabic": "مِمْلَقَة",
+      "definition": "A harrow.",
+      "usage_conditions": "An agricultural implement.",
+      "source_refs": [
+        "lane:entry:5812"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:mlq:5809:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class:malaqa-flay-whip"
+      ],
+      "note": "The unit directly defines مَلَقَ as flaying with a whip."
+    },
+    {
+      "unit_id": "lane-unit:mlq:5810:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class:tamallaqa-affectionate-coaxing"
+      ],
+      "note": "The unit directly defines تَمَلَّقَ as affectionate, flattering, or coaxing behavior."
+    },
+    {
+      "unit_id": "lane-unit:mlq:5811:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class:malaqiyya-swift-mare",
+        "class:mallaq-swift-pace"
+      ],
+      "note": "The unit contains distinct lexical statements for a swiftly running mare and for vehement pace or journeying."
+    },
+    {
+      "unit_id": "lane-unit:mlq:5812:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "class:mimlaqa-harrow"
+      ],
+      "note": "The unit directly defines مِمْلَقَة as a harrow."
+    }
+  ],
+  "cautions": [
+    "The two Quran occurrences of إِمْلَاق are contextually glossed as poverty, but this packet supplies no Lane primary or unique Mufradat explanation that directly establishes that usage as a Quranic-form sense."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Quran Foundation occurrences qf:word:6:151:18 and qf:word:17:31:5 are glossed as poverty. Because Quran Foundation context alone cannot create a sense and the packet lacks qualifying Lane or unique Mufradat form-level evidence, this Quranic usage remains unassigned to a numbered Quranic sense; the related Classical lexical meaning is preserved under إِمْلَاق."
+  ]
+}

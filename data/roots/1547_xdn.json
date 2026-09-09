@@ -1,0 +1,180 @@
+{
+  "root": "xdn",
+  "arabic": "خدن",
+  "root_idea": {
+    "summary": "The root denotes companionship and association.",
+    "development": "From the basic idea of companionship, the root develops terms for a friend or companion, association as a friend, and a specialized secret or amorous companionship. Related derivatives describe habitual association and having such companions.",
+    "source_refs": [
+      "maqayis:row:1538",
+      "lane:entry:18631",
+      "lane:entry:18632",
+      "mufradat:row:394"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:xdn:>axodaAn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-xdn-khidn",
+      "reason": "Displayed under the normalized singular dictionary citation form خِدْن; the supplied QAC form is its Quranic plural أخدان."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-xdn-khidn",
+      "form_group_ids": [
+        "qac-form:xdn:>axodaAn:nominal:-"
+      ],
+      "headword_arabic": "خِدْن",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense-xdn-akhdan-secret-lover",
+          "definition": "A secret lover or intimate sexual companion.",
+          "usage_conditions": "In the Quranic plural أخدان, the word denotes companions maintained for fornication in secret; this is the concealed sexual-association use rather than the generic sense of companion.",
+          "source_refs": [
+            "lane:entry:18632",
+            "mufradat:row:394"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:25",
+          "word_location": "4:25:34",
+          "sense_ids": [
+            "sense-xdn-akhdan-secret-lover"
+          ]
+        },
+        {
+          "verse_key": "5:5",
+          "word_location": "5:5:32",
+          "sense_ids": [
+            "sense-xdn-akhdan-secret-lover"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-xdn-khidn-companion",
+      "headword_arabic": "خِدْن",
+      "definition": "A friend, companion, or associate, especially a private companion or one who converses with another.",
+      "usage_conditions": "The term may apply to a male or female companion. It can also denote an amorous companion and may be used metaphorically for an object of devoted attachment, such as eminence. In the phrase خِدْنُ الجارية, it denotes the girl's conversational companion.",
+      "source_refs": [
+        "lane:entry:18632"
+      ]
+    },
+    {
+      "meaning_id": "cm-xdn-khadana-associate",
+      "headword_arabic": "خَادَنَ",
+      "definition": "To associate or keep company with another as a friend or companion.",
+      "usage_conditions": "Form III. The attested legal expression applies this association to someone whose occupation brings people together; this is a contextual use of the companionship sense.",
+      "source_refs": [
+        "lane:entry:18631"
+      ]
+    },
+    {
+      "meaning_id": "cm-xdn-mukhadana-amatory-talk",
+      "headword_arabic": "مُخَادَنَة",
+      "definition": "Reciprocal amatory signaling through contracting the eyes while exchanging enticing talk.",
+      "usage_conditions": "A specialized conventional use of the verbal noun مُخَادَنَة.",
+      "source_refs": [
+        "lane:entry:18631"
+      ]
+    },
+    {
+      "meaning_id": "cm-xdn-khadin-close-companion",
+      "headword_arabic": "خَدِين",
+      "definition": "A close friend or companion who remains with another in every affair, both open and private.",
+      "usage_conditions": "This derived form emphasizes enduring companionship and presence in all circumstances.",
+      "source_refs": [
+        "lane:entry:18632"
+      ]
+    },
+    {
+      "meaning_id": "cm-xdn-khudana-frequent-associate",
+      "headword_arabic": "خُدَنَة",
+      "definition": "One who frequently associates with men as a friend or secret companion.",
+      "usage_conditions": "The attested lexical description concerns repeated association as a خِدْن.",
+      "source_refs": [
+        "lane:entry:18633"
+      ]
+    },
+    {
+      "meaning_id": "cm-xdn-akhdan-having-companions",
+      "headword_arabic": "أَخْدَن",
+      "definition": "Having friends or secret companions.",
+      "usage_conditions": "An adjectival description of one who has أخدان.",
+      "source_refs": [
+        "lane:entry:18635"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:xdn:18631:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xdn-khadana-associate"
+      ],
+      "note": "The Form III association sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:xdn:18631:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xdn-mukhadana-amatory-talk"
+      ],
+      "note": "The specialized amatory-talk construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:xdn:18631:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-xdn-khadana-associate"
+      ],
+      "note": "The legal example is a contextual application of the association sense."
+    },
+    {
+      "unit_id": "lane-unit:xdn:18632:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-xdn-akhdan-secret-lover",
+        "cm-xdn-khidn-companion",
+        "cm-xdn-khadin-close-companion"
+      ],
+      "note": "The unit supplies the Quranic secret-lover use, the broader companion branch, and the related close-companion form."
+    },
+    {
+      "unit_id": "lane-unit:xdn:18633:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xdn-khudana-frequent-associate"
+      ],
+      "note": "The frequent-association derivative is represented."
+    },
+    {
+      "unit_id": "lane-unit:xdn:18634:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to خَدِين; it adds no independent lexical statement."
+    },
+    {
+      "unit_id": "lane-unit:xdn:18635:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-xdn-akhdan-having-companions"
+      ],
+      "note": "The adjectival meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrences are plural أخدان; the public headword is normalized to the singular citation form خِدْن.",
+    "The historical Quran citation notation in the lexical evidence is not used to infer a modern verse location; the displayed locations are the supplied QAC occurrences."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

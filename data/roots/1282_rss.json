@@ -1,0 +1,170 @@
+{
+  "root": "rss",
+  "arabic": "رسس",
+  "root_idea": {
+    "summary": "The root centers on becoming fixed, settled, or firmly established, with related developments involving a trace that remains perceptible.",
+    "development": "From firmness and settling, the evidence extends to something taking hold in the heart or body, an initial trace or onset, speech lodging in the mind, burial that leaves only a trace, and certain named places. These root-level developments should not be treated as meanings of every derived form.",
+    "source_refs": [
+      "maqayis:row:2022",
+      "mufradat:row:549",
+      "lane:entry:23190",
+      "lane:entry:23192"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rss:r~as~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-rass",
+      "reason": "The Quran-attested nominal is presented as the normalized place-name al-Rass."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-rass",
+      "form_group_ids": [
+        "qac-form:rss:r~as~:nominal:-"
+      ],
+      "headword_arabic": "الرَّسّ",
+      "public_pos_label": "Proper noun · place name",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform-rass-s1",
+          "definition": "Al-Rass, a named place reported in the supplied lexical evidence as a valley, in the expression “the Companions of al-Rass.”",
+          "usage_conditions": "Proper-name use in the Quranic expression أَصْحَابُ الرَّسِّ. The identification specifically as a valley is reported rather than presented as certain.",
+          "source_refs": [
+            "mufradat:row:549",
+            "lane:entry:23192"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:38",
+          "word_location": "25:38:4",
+          "sense_ids": [
+            "qform-rass-s1"
+          ]
+        },
+        {
+          "verse_key": "50:12",
+          "word_location": "50:12:6",
+          "sense_ids": [
+            "qform-rass-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-rass-settle",
+      "headword_arabic": "رَسَّ / رَسِيسٌ",
+      "definition": "To become fixed, firmly settled, or established; رَسِيسٌ denotes something fixed or settled.",
+      "usage_conditions": "The verb may describe love taking hold in the heart, disease settling in the body, or speech lodging in the mind.",
+      "source_refs": [
+        "lane:entry:23190",
+        "maqayis:row:2022",
+        "mufradat:row:549"
+      ]
+    },
+    {
+      "meaning_id": "cm-rass-onset",
+      "headword_arabic": "رَسٌّ / رَسِيسٌ",
+      "definition": "The beginning, first stage, or initial touch of something, especially the onset of fever or the original feeling of love.",
+      "usage_conditions": "For fever, the word refers to its first touch before it becomes severe or fully apparent.",
+      "source_refs": [
+        "lane:entry:23190",
+        "lane:entry:23192",
+        "mufradat:row:549"
+      ]
+    },
+    {
+      "meaning_id": "cm-rass-trace",
+      "headword_arabic": "رَسٌّ",
+      "definition": "A slight trace, remnant, or fragment of something, including a trace of love or an initial fragment of news.",
+      "usage_conditions": "The expression رَسٌّ مِنْ خَبَرٍ can denote a small or initial piece of news.",
+      "source_refs": [
+        "lane:entry:23192",
+        "mufradat:row:549"
+      ]
+    },
+    {
+      "meaning_id": "cm-rass-untrue-report",
+      "headword_arabic": "رَسٌّ",
+      "definition": "An untrue or unreliable report or piece of news.",
+      "usage_conditions": "This is a separately reported use of رَسٌّ مِنْ خَبَرٍ and does not apply automatically to every occurrence of رَسٌّ with news.",
+      "source_refs": [
+        "lane:entry:23192"
+      ]
+    },
+    {
+      "meaning_id": "cm-russ-buried",
+      "headword_arabic": "رُسَّ",
+      "definition": "To be buried, of a dead person, so that only a trace remains after his former presence.",
+      "usage_conditions": "Used in the passive expression for the dead person being buried.",
+      "source_refs": [
+        "maqayis:row:2022",
+        "mufradat:row:549"
+      ]
+    },
+    {
+      "meaning_id": "cm-rassras-camel",
+      "headword_arabic": "رَسْرَسَ",
+      "definition": "Of a camel, to move or press its knee against the ground while intending to rise.",
+      "usage_conditions": "A specialized Classical Arabic usage describing the camel’s movement while rising.",
+      "source_refs": [
+        "maqayis:row:2022"
+      ]
+    },
+    {
+      "meaning_id": "cm-rass-social-relation",
+      "headword_arabic": "رَسٌّ",
+      "definition": "To establish affection or enmity between people.",
+      "usage_conditions": "Reported as a contranym: it may refer either to reconciliation or to causing discord; both applications are understood as establishing a relation between people.",
+      "source_refs": [
+        "maqayis:row:2022"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rss:23190:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rass-settle",
+        "cm-rass-onset"
+      ],
+      "note": "Covers taking hold or becoming established, and the reported onset use of fever."
+    },
+    {
+      "unit_id": "lane-unit:rss:23191:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit referring to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:rss:23192:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-rass-s1",
+        "cm-rass-onset",
+        "cm-rass-trace",
+        "cm-rass-untrue-report"
+      ],
+      "note": "Covers the named valley, onset or beginning, slight trace or fragment, and untrue news."
+    },
+    {
+      "unit_id": "lane-unit:rss:23193:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit directing the reader to رَسٌّ throughout."
+    }
+  ],
+  "cautions": [
+    "The Quranic designation is a place-name; the supplied evidence reports its identification as a valley but does not establish that identification as certain."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

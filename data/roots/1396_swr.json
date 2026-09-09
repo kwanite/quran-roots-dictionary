@@ -1,0 +1,951 @@
+{
+  "root": "swr",
+  "arabic": "سور",
+  "root_idea": {
+    "summary": "The root is oriented toward elevation, rising, and forceful upward movement.",
+    "development": "From this orientation develop meanings of leaping or surging, eminence and structural tiers, ascent over a wall, and the Qur’anic sūrah as a distinct elevated or bounded section. The bracelet and Persian-leader terms are reported as Arabicized borrowings rather than as straightforward native developments of the root.",
+    "source_refs": [
+      "maqayis:row:2522",
+      "mufradat:row:739"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:swr:tasaw~aru:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "swr_tasawwara",
+      "reason": "The Quran-attested Form V verb has a distinct wall-scaling use and is normalized to the perfect-tense dictionary citation form."
+    },
+    {
+      "form_group_id": "qac-form:swr:>asaAwir:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "swr_siwār",
+      "reason": "The Quranic plural is presented under the supported singular citation form سِوَارٌ."
+    },
+    {
+      "form_group_id": "qac-form:swr:suwr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "swr_sūr",
+      "reason": "This is a distinct Quran-attested noun meaning a wall."
+    },
+    {
+      "form_group_id": "qac-form:swr:suwrap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "swr_sūrah",
+      "reason": "This is a distinct Quran-attested noun meaning a Qur’anic chapter or section."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "swr_tasawwara",
+      "form_group_ids": [
+        "qac-form:swr:tasaw~aru:verb:V"
+      ],
+      "headword_arabic": "تَسَوَّرَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "swr_tasawwara_s1",
+          "definition": "To climb or scale a wall, including climbing over it to gain access.",
+          "usage_conditions": "Quran-attested Form V usage describing ascent over a wall; the associated construction may use the wall as the object or refer to climbing upon its wall.",
+          "source_refs": [
+            "lane:entry:42665"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "38:21",
+          "word_location": "38:21:6",
+          "sense_ids": [
+            "swr_tasawwara_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "swr_siwār",
+      "form_group_ids": [
+        "qac-form:swr:>asaAwir:nominal:-"
+      ],
+      "headword_arabic": "سِوَارٌ",
+      "public_pos_label": "Noun · plural form in Quran",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "swr_siwār_s1",
+          "definition": "A bracelet or armlet worn as adornment.",
+          "usage_conditions": "The Quranic form is the plural أَسَاوِرُ. In the supplied Quran-focused discussion, أَسْوِرَةٌ is associated with gold in 43:53, while أَسَاوِرُ is used for silver in 76:21; this is a contextual usage distinction, not a different basic object.",
+          "source_refs": [
+            "lane:entry:42672",
+            "mufradat:row:739"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:31",
+          "word_location": "18:31:12",
+          "sense_ids": [
+            "swr_siwār_s1"
+          ]
+        },
+        {
+          "verse_key": "43:53",
+          "word_location": "43:53:4",
+          "sense_ids": [
+            "swr_siwār_s1"
+          ]
+        },
+        {
+          "verse_key": "76:21",
+          "word_location": "76:21:7",
+          "sense_ids": [
+            "swr_siwār_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "swr_sūr",
+      "form_group_ids": [
+        "qac-form:swr:suwr:nominal:-"
+      ],
+      "headword_arabic": "سُورٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "swr_sūr_s1",
+          "definition": "A wall.",
+          "usage_conditions": "In its Quranic occurrence, the word denotes a separating wall or barrier.",
+          "source_refs": [
+            "lane:entry:42668"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "57:13",
+          "word_location": "57:13:18",
+          "sense_ids": [
+            "swr_sūr_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "swr_sūrah",
+      "form_group_ids": [
+        "qac-form:swr:suwrap:nominal:-"
+      ],
+      "headword_arabic": "سُورَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "swr_sūrah_s1",
+          "definition": "A distinct chapter or section of the Qur’an.",
+          "usage_conditions": "The Qur’anic term presents each sūrah as a bounded unit of revelation, a distinct degree or section within the whole, sometimes explained by comparison with a city wall or with an elevated degree.",
+          "source_refs": [
+            "lane:entry:42670",
+            "mufradat:row:739"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:23",
+          "word_location": "2:23:10",
+          "sense_ids": [
+            "swr_sūrah_s1"
+          ]
+        },
+        {
+          "verse_key": "24:1",
+          "word_location": "24:1:1",
+          "sense_ids": [
+            "swr_sūrah_s1"
+          ]
+        },
+        {
+          "verse_key": "11:13",
+          "word_location": "11:13:7",
+          "sense_ids": [
+            "swr_sūrah_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_sār_leap_assault",
+      "headword_arabic": "سَارَ",
+      "definition": "To leap or spring toward or upon someone; to assault or assail.",
+      "usage_conditions": "The verb may describe a direct attack or an aggressive leap, including the conventional image of an intoxicated drinking companion assaulting another.",
+      "source_refs": [
+        "lane:entry:42662"
+      ]
+    },
+    {
+      "meaning_id": "cm_sār_wine_rise",
+      "headword_arabic": "سَارَ",
+      "definition": "To rush, rise, or circulate into the head; to have an overpowering effect.",
+      "usage_conditions": "Especially said of wine or the force of a cup mounting into the drinker’s head.",
+      "source_refs": [
+        "lane:entry:42662"
+      ]
+    },
+    {
+      "meaning_id": "cm_sār_anger",
+      "headword_arabic": "سَارَ",
+      "definition": "To become angry.",
+      "usage_conditions": "A figurative extension of forceful rising or assault.",
+      "source_refs": [
+        "lane:entry:42662"
+      ]
+    },
+    {
+      "meaning_id": "cm_sār_rise_ascend",
+      "headword_arabic": "سَارَ",
+      "definition": "To rise, become elevated, or ascend, including ascending a wall; figuratively, to aspire to eminence.",
+      "usage_conditions": "The wall-ascent usage and the idiom of rising toward eminence belong to the same elevation branch.",
+      "source_refs": [
+        "lane:entry:42662"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawwara_wall",
+      "headword_arabic": "سَوَّرَ",
+      "definition": "To wall or enclose a city, town, or similar place.",
+      "usage_conditions": "Form II causative construction meaning to provide a place with a wall.",
+      "source_refs": [
+        "lane:entry:42663"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawwara_bracelet",
+      "headword_arabic": "سَوَّرَ",
+      "definition": "To put a bracelet or bracelets upon someone; to deck someone with bracelets.",
+      "usage_conditions": "A derived construction formed from سِوَارٌ.",
+      "source_refs": [
+        "lane:entry:42663"
+      ]
+    },
+    {
+      "meaning_id": "cm_musāwarah_assault",
+      "headword_arabic": "مُسَاوَرَةٌ",
+      "definition": "Mutual leaping upon one another, assault, or fighting.",
+      "usage_conditions": "The Form III verbal noun describes reciprocal attack; it can also be used figuratively when anxieties or other forces assail a person.",
+      "source_refs": [
+        "lane:entry:42664"
+      ]
+    },
+    {
+      "meaning_id": "cm_musāwarah_overpower",
+      "headword_arabic": "مُسَاوَرَةٌ",
+      "definition": "An overpowering influence on the head, said of speech or language.",
+      "usage_conditions": "A figurative use equating forceful impact with something taking hold of the head.",
+      "source_refs": [
+        "lane:entry:42664"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasawwur_climb_seize",
+      "headword_arabic": "تَسَوَّرَ",
+      "definition": "To climb or ascend and take or seize what has been reached.",
+      "usage_conditions": "A Classical construction recorded alongside wall-scaling, in which ascent is followed by acquisition of the place or object.",
+      "source_refs": [
+        "lane:entry:42665"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasawwara_bracelet",
+      "headword_arabic": "تَسَوَّرَ",
+      "definition": "To put on a bracelet or bracelets, or deck oneself with them.",
+      "usage_conditions": "A Form V reflexive bracelet-related use, distinct from the Quranic wall-scaling use.",
+      "source_refs": [
+        "lane:entry:42665"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasāwur_leap",
+      "headword_arabic": "تَسَاوُرٌ",
+      "definition": "Leaping or springing with or upon another.",
+      "usage_conditions": "A reciprocal Form VI action.",
+      "source_refs": [
+        "lane:entry:42666"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasāwur_raise",
+      "headword_arabic": "تَسَاوُرٌ",
+      "definition": "To raise or stretch oneself up toward someone or something.",
+      "usage_conditions": "An idiomatic elevation construction comparable to stretching oneself upward.",
+      "source_refs": [
+        "lane:entry:42666"
+      ]
+    },
+    {
+      "meaning_id": "cm_sūr_headtop",
+      "headword_arabic": "سُورٌ",
+      "definition": "The uppermost part or crown of the head.",
+      "usage_conditions": "A rare traditional usage reported with variant interpretations.",
+      "source_refs": [
+        "lane:entry:42668"
+      ]
+    },
+    {
+      "meaning_id": "cm_sūr_entertainment",
+      "headword_arabic": "سُورٌ",
+      "definition": "An entertainment or repast to which guests are invited.",
+      "usage_conditions": "A lexical item reported as Persian and adopted into Arabic usage.",
+      "source_refs": [
+        "lane:entry:42668"
+      ]
+    },
+    {
+      "meaning_id": "cm_sūr_fig",
+      "headword_arabic": "سُورٌ",
+      "definition": "A species of fig, identified as ficus sur.",
+      "usage_conditions": "A plant name, distinct from the wall meaning.",
+      "source_refs": [
+        "lane:entry:42668"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawrah_leap",
+      "headword_arabic": "سَوْرَةٌ",
+      "definition": "A leap or spring.",
+      "usage_conditions": "The basic nominal action of forceful upward movement.",
+      "source_refs": [
+        "lane:entry:42669"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawrah_surge",
+      "headword_arabic": "سَوْرَةٌ",
+      "definition": "A surge, force, or overpowering effect, as of wine, venom, hunger, or joy.",
+      "usage_conditions": "The word may describe something rushing into or taking effect in the head, or an intense movement of emotion or appetite.",
+      "source_refs": [
+        "lane:entry:42669"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawrah_fever",
+      "headword_arabic": "سَوْرَةٌ",
+      "definition": "A paroxysm or fit of fever.",
+      "usage_conditions": "A specialized usage for an acute outbreak of fever.",
+      "source_refs": [
+        "lane:entry:42669"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawrah_anger",
+      "headword_arabic": "سَوْرَةٌ",
+      "definition": "An outburst, fit, or vehemence of anger.",
+      "usage_conditions": "It can denote either the eruption of anger or, by extension, anger itself.",
+      "source_refs": [
+        "lane:entry:42669"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawrah_impetuousness",
+      "headword_arabic": "سَوْرَةٌ",
+      "definition": "Impetuousness or ardor, especially the flush of youth or the impetuousness of battle.",
+      "usage_conditions": "The domain is supplied by the expression: the term is not restricted to one age group or object class in general.",
+      "source_refs": [
+        "lane:entry:42669"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawrah_authority",
+      "headword_arabic": "سَوْرَةٌ",
+      "definition": "The coercive force, tyranny, might, or valor of a sultan.",
+      "usage_conditions": "A usage for the force exerted by political authority.",
+      "source_refs": [
+        "lane:entry:42669"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawrah_cold",
+      "headword_arabic": "سَوْرَةٌ",
+      "definition": "The vehemence or intensity of cold.",
+      "usage_conditions": "Used of severe cold as an intense onset or force.",
+      "source_refs": [
+        "lane:entry:42669"
+      ]
+    },
+    {
+      "meaning_id": "cm_sūrah_eminence",
+      "headword_arabic": "سُورَةٌ",
+      "definition": "Eminence, nobility, high rank, station, or excellence; also superior or hardy quality in camels.",
+      "usage_conditions": "A Classical meaning of the headword distinct from its Quranic technical sense of a chapter.",
+      "source_refs": [
+        "lane:entry:42670"
+      ]
+    },
+    {
+      "meaning_id": "cm_sūrah_structure",
+      "headword_arabic": "سُورَةٌ",
+      "definition": "A goodly, tall, or elevated structure; a course or row of stones or bricks, or a level of a structure.",
+      "usage_conditions": "The structural uses include a tier or degree of a building or wall.",
+      "source_refs": [
+        "lane:entry:42670"
+      ]
+    },
+    {
+      "meaning_id": "cm_sūrah_extremity",
+      "headword_arabic": "سُورَةٌ",
+      "definition": "The extremity or limit of a thing.",
+      "usage_conditions": "A general boundary or terminal-point usage.",
+      "source_refs": [
+        "lane:entry:42670"
+      ]
+    },
+    {
+      "meaning_id": "cm_sūrah_sign",
+      "headword_arabic": "سُورَةٌ",
+      "definition": "A sign or token, especially a mark of glory, honor, dignity, or nobility.",
+      "usage_conditions": "The generic sign meaning and the more specific sign of status are recorded under the same lexical branch.",
+      "source_refs": [
+        "lane:entry:42670"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawwar_assailant",
+      "headword_arabic": "سَوَّارٌ",
+      "definition": "One accustomed to spring upon or assault another; an epithet for a dog or a lion because of its leaping attack.",
+      "usage_conditions": "The human use includes an assailant who attacks or insults a drinking companion.",
+      "source_refs": [
+        "lane:entry:42673"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawwar_wine",
+      "headword_arabic": "سَوَّارٌ",
+      "definition": "One into whose head wine quickly rises.",
+      "usage_conditions": "A figurative agent noun based on the rapid upward effect of wine.",
+      "source_refs": [
+        "lane:entry:42673"
+      ]
+    },
+    {
+      "meaning_id": "cm_sawwar_speech",
+      "headword_arabic": "سَوَّارٌ",
+      "definition": "Speech or language that has an overpowering effect on the head.",
+      "usage_conditions": "A figurative adjectival use for forceful or overwhelming speech.",
+      "source_refs": [
+        "lane:entry:42673"
+      ]
+    },
+    {
+      "meaning_id": "cm_suwārā_height",
+      "headword_arabic": "سُوَّارَى",
+      "definition": "Height or an elevated degree.",
+      "usage_conditions": "Occurs in an idiomatic expression for an affection rising to a high degree.",
+      "source_refs": [
+        "lane:entry:42674"
+      ]
+    },
+    {
+      "meaning_id": "cm_iswār_persian_leader",
+      "headword_arabic": "إِسْوَارٌ",
+      "definition": "A Persian leader or horseman, especially one firm and skilled on horseback and in archery.",
+      "usage_conditions": "An Arabicized Persian title or designation, with reported senses ranging from a great king to a capable mounted fighter.",
+      "source_refs": [
+        "lane:entry:42676"
+      ]
+    },
+    {
+      "meaning_id": "cm_miswar_pillow",
+      "headword_arabic": "مِسْوَرٌ",
+      "definition": "A leather pillow or cushion on which one leans or reclines.",
+      "usage_conditions": "The plural is مَسَاوِرُ.",
+      "source_refs": [
+        "lane:entry:42677"
+      ]
+    },
+    {
+      "meaning_id": "cm_musawwar_adorned",
+      "headword_arabic": "مُسَوَّرٌ",
+      "definition": "Adorned with a bracelet or bracelets; figuratively, made a king or chief.",
+      "usage_conditions": "The political sense is explained as arising from bracelet adornment as a sign of leadership.",
+      "source_refs": [
+        "lane:entry:42679"
+      ]
+    },
+    {
+      "meaning_id": "cm_musawwar_bracelet_place",
+      "headword_arabic": "مُسَوَّرٌ",
+      "definition": "The place where a bracelet is worn.",
+      "usage_conditions": "A place-noun-like use parallel to other formations naming the place of an adornment.",
+      "source_refs": [
+        "lane:entry:42679"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:swr:42662:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sār_leap_assault"
+      ],
+      "note": "Leaping or springing toward or upon another."
+    },
+    {
+      "unit_id": "lane-unit:swr:42662:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sār_leap_assault"
+      ],
+      "note": "Assaultive leap is covered by the broader leap/assault meaning."
+    },
+    {
+      "unit_id": "lane-unit:swr:42662:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sār_wine_rise"
+      ],
+      "note": "Wine rising or rushing into the head."
+    },
+    {
+      "unit_id": "lane-unit:swr:42662:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sār_anger"
+      ],
+      "note": "Becoming angry."
+    },
+    {
+      "unit_id": "lane-unit:swr:42662:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sār_rise_ascend"
+      ],
+      "note": "Rising or ascending, including ascent upon a wall."
+    },
+    {
+      "unit_id": "lane-unit:swr:42662:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sār_rise_ascend"
+      ],
+      "note": "Idiomatic rising toward eminence is covered by the elevation branch."
+    },
+    {
+      "unit_id": "lane-unit:swr:42662:g1:sub7",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:swr:42662:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:swr:42663:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawwara_wall"
+      ],
+      "note": "Walling or enclosing a city or town."
+    },
+    {
+      "unit_id": "lane-unit:swr:42663:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:swr:42663:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawwara_bracelet"
+      ],
+      "note": "Putting bracelets upon someone."
+    },
+    {
+      "unit_id": "lane-unit:swr:42664:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_musāwarah_assault"
+      ],
+      "note": "Mutual leaping or assault."
+    },
+    {
+      "unit_id": "lane-unit:swr:42664:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_musāwarah_assault"
+      ],
+      "note": "Reciprocal assault and figurative assailing are covered by the same branch."
+    },
+    {
+      "unit_id": "lane-unit:swr:42664:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_musāwarah_overpower"
+      ],
+      "note": "Overpowering effect of speech or language."
+    },
+    {
+      "unit_id": "lane-unit:swr:42665:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swr_tasawwara_s1",
+        "cm_tasawwur_climb_seize"
+      ],
+      "note": "Wall scaling is Quran-attested; the additional climb-and-take construction is separately preserved."
+    },
+    {
+      "unit_id": "lane-unit:swr:42665:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tasawwara_bracelet"
+      ],
+      "note": "Putting bracelets on oneself."
+    },
+    {
+      "unit_id": "lane-unit:swr:42666:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tasāwur_leap"
+      ],
+      "note": "Reciprocal leaping."
+    },
+    {
+      "unit_id": "lane-unit:swr:42666:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tasāwur_raise"
+      ],
+      "note": "Raising or stretching oneself upward."
+    },
+    {
+      "unit_id": "lane-unit:swr:42667:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Transposition and cross-reference without an independently stated meaning."
+    },
+    {
+      "unit_id": "lane-unit:swr:42668:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swr_sūr_s1"
+      ],
+      "note": "Wall of a city or town."
+    },
+    {
+      "unit_id": "lane-unit:swr:42668:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sūr_headtop"
+      ],
+      "note": "Uppermost part of the head."
+    },
+    {
+      "unit_id": "lane-unit:swr:42668:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to سُورَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:swr:42668:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to bracelet vocabulary."
+    },
+    {
+      "unit_id": "lane-unit:swr:42668:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sūr_entertainment"
+      ],
+      "note": "Entertainment or invited repast."
+    },
+    {
+      "unit_id": "lane-unit:swr:42668:g5:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sūr_fig"
+      ],
+      "note": "Name of a species of fig."
+    },
+    {
+      "unit_id": "lane-unit:swr:42669:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawrah_leap"
+      ],
+      "note": "A leap or spring."
+    },
+    {
+      "unit_id": "lane-unit:swr:42669:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawrah_surge"
+      ],
+      "note": "Surge or overpowering effect of wine, venom, hunger, or joy."
+    },
+    {
+      "unit_id": "lane-unit:swr:42669:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawrah_fever"
+      ],
+      "note": "Paroxysm of fever."
+    },
+    {
+      "unit_id": "lane-unit:swr:42669:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawrah_anger"
+      ],
+      "note": "Outburst or fit of anger."
+    },
+    {
+      "unit_id": "lane-unit:swr:42669:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawrah_impetuousness"
+      ],
+      "note": "Impetuousness or flush of youth."
+    },
+    {
+      "unit_id": "lane-unit:swr:42669:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sawrah_impetuousness"
+      ],
+      "note": "Impetuousness in war is covered by the same intensity branch."
+    },
+    {
+      "unit_id": "lane-unit:swr:42669:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawrah_authority"
+      ],
+      "note": "Force, tyranny, or might of a sultan."
+    },
+    {
+      "unit_id": "lane-unit:swr:42669:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawrah_cold"
+      ],
+      "note": "Intensity of cold."
+    },
+    {
+      "unit_id": "lane-unit:swr:42669:g1:sub9",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:swr:42670:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sūrah_eminence",
+        "cm_sūrah_sign"
+      ],
+      "note": "Eminence, rank, excellence, and a mark of glory are distinct branches stated in one unit."
+    },
+    {
+      "unit_id": "lane-unit:swr:42670:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sūrah_structure"
+      ],
+      "note": "Tall or goodly structures."
+    },
+    {
+      "unit_id": "lane-unit:swr:42670:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sūrah_extremity"
+      ],
+      "note": "Extremity or limit of anything."
+    },
+    {
+      "unit_id": "lane-unit:swr:42670:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:swr:42670:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sūrah_structure"
+      ],
+      "note": "Rows, courses, and degrees of a structure are covered by the structural-tier meaning."
+    },
+    {
+      "unit_id": "lane-unit:swr:42670:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swr_sūrah_s1"
+      ],
+      "note": "Explicit Quranic application to a chapter or distinct degree of revelation."
+    },
+    {
+      "unit_id": "lane-unit:swr:42670:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sūrah_sign"
+      ],
+      "note": "Generic sign or token."
+    },
+    {
+      "unit_id": "lane-unit:swr:42671:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سَوْرَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:swr:42671:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Editorial continuation and pointer only."
+    },
+    {
+      "unit_id": "lane-unit:swr:42672:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "swr_siwār_s1"
+      ],
+      "note": "Bracelet and its Quranic plural forms."
+    },
+    {
+      "unit_id": "lane-unit:swr:42673:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawwar_assailant"
+      ],
+      "note": "Assaultive epithet applied to a dog."
+    },
+    {
+      "unit_id": "lane-unit:swr:42673:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sawwar_assailant"
+      ],
+      "note": "Lion epithet explained by leaping attack."
+    },
+    {
+      "unit_id": "lane-unit:swr:42673:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_sawwar_assailant"
+      ],
+      "note": "Human assailant and drinking-companion use are covered by the same assaultive meaning."
+    },
+    {
+      "unit_id": "lane-unit:swr:42673:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawwar_wine"
+      ],
+      "note": "One rapidly affected by wine rising into the head."
+    },
+    {
+      "unit_id": "lane-unit:swr:42673:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sawwar_speech"
+      ],
+      "note": "Speech with an overpowering effect."
+    },
+    {
+      "unit_id": "lane-unit:swr:42674:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_suwārā_height"
+      ],
+      "note": "Height or elevated degree."
+    },
+    {
+      "unit_id": "lane-unit:swr:42675:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:swr:42675:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to bracelet vocabulary."
+    },
+    {
+      "unit_id": "lane-unit:swr:42676:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_iswār_persian_leader"
+      ],
+      "note": "Persian leader or skilled horseman."
+    },
+    {
+      "unit_id": "lane-unit:swr:42676:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:swr:42676:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:swr:42677:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_miswar_pillow"
+      ],
+      "note": "Leather pillow or reclining cushion."
+    },
+    {
+      "unit_id": "lane-unit:swr:42678:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding lexical entry."
+    },
+    {
+      "unit_id": "lane-unit:swr:42679:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_musawwar_adorned"
+      ],
+      "note": "Bracelet-adorned and figuratively made king or chief."
+    },
+    {
+      "unit_id": "lane-unit:swr:42679:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_musawwar_bracelet_place"
+      ],
+      "note": "Place where a bracelet is worn."
+    },
+    {
+      "unit_id": "lane-unit:swr:42680:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to سَوَّارٌ."
+    }
+  ],
+  "cautions": [
+    "Lane's printed Quran reference for the Form V wall-scaling entry uses the historical notation “xxxviii. 20”; the public Quran example follows the independently supplied QAC location 38:21 and does not treat the printed citation as a modern location.",
+    "The bracelet vocabulary and إِسْوَارٌ ‘Persian leader or horseman’ are described in the supplied lexical evidence as Arabicized or borrowed terms; their inclusion here does not assert that every such form derives natively from the root’s core semantic principle."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

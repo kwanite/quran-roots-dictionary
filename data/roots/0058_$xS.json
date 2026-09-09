@@ -1,0 +1,615 @@
+{
+  "root": "$xS",
+  "arabic": "شخص",
+  "root_idea": {
+    "summary": "The root centers on something rising, elevated, or standing out visibly.",
+    "development": "From elevation, the lexicon extends to a figure rising into view, departure, raised or fixed sight, an arrow overshooting its target, swelling, and bodily bulk. Derived forms also express causing elevation or movement and individuating something.",
+    "source_refs": [
+      "maqayis:row:2590",
+      "mufradat:row:753",
+      "lane:entry:38053"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$xS:ta$oxaSu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:$xS:shakhasa",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:$xS:$a`xiSap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:$xS:shaakhis",
+      "reason": "Displayed under the singular active-participle citation form corresponding to the supplied feminine Quranic form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:$xS:shakhasa",
+      "form_group_ids": [
+        "qac-form:$xS:ta$oxaSu:verb:I"
+      ],
+      "headword_arabic": "شَخَصَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:$xS:shakhasa:stare",
+          "definition": "To become fixedly open and staring; of the eyes or sight, to remain raised or stretched without blinking.",
+          "usage_conditions": "Used of the eyes or sight in the Quranic description of intense, motionless staring.",
+          "source_refs": [
+            "lane:entry:38053",
+            "mufradat:row:753"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:42",
+          "word_location": "14:42:11",
+          "sense_ids": [
+            "sense:$xS:shakhasa:stare"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:$xS:shaakhis",
+      "form_group_ids": [
+        "qac-form:$xS:$a`xiSap:nominal:-"
+      ],
+      "headword_arabic": "شَاخِصٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:$xS:shaakhis:staring",
+          "definition": "Fixedly open and staring, with the eyes held motionless and unblinking.",
+          "usage_conditions": "Active participle describing eyes or sight in the Quranic context.",
+          "source_refs": [
+            "lane:entry:38060",
+            "mufradat:row:753"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:97",
+          "word_location": "21:97:6",
+          "sense_ids": [
+            "sense:$xS:shaakhis:staring"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:$xS:shakhasa:rise",
+      "headword_arabic": "شَخَصَ",
+      "definition": "To rise, become elevated, or appear above or into view; said, for example, of a star or a visible figure.",
+      "usage_conditions": "Intransitive Form I usage describing physical or visual elevation.",
+      "source_refs": [
+        "lane:entry:38053"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhasa:voice",
+      "headword_arabic": "شَخَصَ",
+      "definition": "To raise the voice so that it cannot be lowered.",
+      "usage_conditions": "A vocal or speech construction; the Lane evidence also describes a word or sentence rising toward the palate.",
+      "source_refs": [
+        "lane:entry:38053"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhasa:arrow",
+      "headword_arabic": "شَخَصَ",
+      "definition": "Of an arrow, to rise above and pass beyond the target or object of aim.",
+      "usage_conditions": "Used of an arrow overshooting by going above its intended target.",
+      "source_refs": [
+        "lane:entry:38053"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhasa:depart",
+      "headword_arabic": "شَخَصَ",
+      "definition": "To go away or travel from one place, town, or country to another.",
+      "usage_conditions": "Intransitive movement or departure from a place of residence or settlement.",
+      "source_refs": [
+        "lane:entry:38053"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhasa:swell",
+      "headword_arabic": "شَخَصَ",
+      "definition": "To rise, swell, or become protuberant or prominent.",
+      "usage_conditions": "Applied to a thing or to a wound that rises and becomes swollen.",
+      "source_refs": [
+        "lane:entry:38053"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhasa:disturbed",
+      "headword_arabic": "شَخَصَ",
+      "definition": "To become disquieted by something that happens, or to have a disturbing event befall one.",
+      "usage_conditions": "A figurative usage presenting the disturbed person as if raised from the ground by agitation.",
+      "source_refs": [
+        "lane:entry:38053"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakusa:bulky",
+      "headword_arabic": "شَخُصَ",
+      "definition": "To be or become big, bulky, or corpulent.",
+      "usage_conditions": "Describes bodily size or build.",
+      "source_refs": [
+        "lane:entry:38053"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhkhisa:individuate",
+      "headword_arabic": "شَخَّصَ",
+      "definition": "To individuate, identify, or specify a thing.",
+      "usage_conditions": "Form II transitive usage meaning to assign a thing its particular identity or designation.",
+      "source_refs": [
+        "lane:entry:38054"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:ashkhaca:raise",
+      "headword_arabic": "أَشْخَصَ",
+      "definition": "To make someone or something rise or become elevated; to raise oneself.",
+      "usage_conditions": "Form IV causative usage.",
+      "source_refs": [
+        "lane:entry:38055"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:ashkhaca:arrow",
+      "headword_arabic": "أَشْخَصَ",
+      "definition": "Of an archer or arrow, to cause an arrow to pass above and beyond the target.",
+      "usage_conditions": "Causative and intransitive formulations are both attested for an arrow overshooting its object of aim.",
+      "source_refs": [
+        "lane:entry:38055"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:ashkhaca:depart",
+      "headword_arabic": "أَشْخَصَ",
+      "definition": "To make someone go away or travel from one place to another.",
+      "usage_conditions": "Form IV causative movement or departure.",
+      "source_refs": [
+        "lane:entry:38055"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:ashkhaca:disturb",
+      "headword_arabic": "أَشْخَصَ",
+      "definition": "To disquiet someone, causing him to leave a place.",
+      "usage_conditions": "Figurative causative usage linking disturbance with departure.",
+      "source_refs": [
+        "lane:entry:38055"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:ashkhaca:journeytime",
+      "headword_arabic": "أَشْخَصَ",
+      "definition": "Of the time for journeying, to arrive or become due.",
+      "usage_conditions": "An impersonal temporal construction concerning the time of departure or travel.",
+      "source_refs": [
+        "lane:entry:38055"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:ashkhaca:sourface",
+      "headword_arabic": "أَشْخَصَ",
+      "definition": "To show someone a sour, crabbed, or austere face or manner.",
+      "usage_conditions": "Used with a person as the object of the hostile or displeased look.",
+      "source_refs": [
+        "lane:entry:38055"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:ashkhaca:backbite",
+      "headword_arabic": "أَشْخَصَ",
+      "definition": "To speak ill of someone behind his back; to backbite him.",
+      "usage_conditions": "A Form IV idiomatic usage concerning speech about an absent person.",
+      "source_refs": [
+        "lane:entry:38055"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:tashakhkhaca:individuality",
+      "headword_arabic": "تَشَخَّصَ",
+      "definition": "To become individuated or assume the quality of individuality or personality.",
+      "usage_conditions": "Quasi-passive or reflexive Form V usage.",
+      "source_refs": [
+        "lane:entry:38056"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhs:body",
+      "headword_arabic": "شَخْصٌ",
+      "definition": "A visible body, bodily form, figure, or material substance, especially one that has height and can be seen from a distance.",
+      "usage_conditions": "Physical usage applied to a person or another material object.",
+      "source_refs": [
+        "lane:entry:38057"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhs:person",
+      "headword_arabic": "شَخْصٌ",
+      "definition": "A person, individual, self, or being.",
+      "usage_conditions": "Extended usage for a person or personal entity, including metaphorical use for a self or being.",
+      "source_refs": [
+        "lane:entry:38057"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhis:bulky",
+      "headword_arabic": "شَخِيصٌ",
+      "definition": "Big, bulky, corpulent, or great in bodily make.",
+      "usage_conditions": "An adjective describing substantial bodily build.",
+      "source_refs": [
+        "lane:entry:38058"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhis:rank",
+      "headword_arabic": "شَخِيصٌ",
+      "definition": "A lord, master, chief, person of rank, or personage.",
+      "usage_conditions": "A designation of status or social standing.",
+      "source_refs": [
+        "lane:entry:38058"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhis:sour",
+      "headword_arabic": "شَخِيصٌ",
+      "definition": "Sour, crabbed, or austere in speech.",
+      "usage_conditions": "Applied to language or manner of speaking.",
+      "source_refs": [
+        "lane:entry:38058"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shakhasa:bulkiness",
+      "headword_arabic": "شَخَاصَةٌ",
+      "definition": "Bigness, bulkiness, or corpulence; greatness of bodily build.",
+      "usage_conditions": "A noun of bodily size or substantial form.",
+      "source_refs": [
+        "lane:entry:38059"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shaakhis:arrow",
+      "headword_arabic": "شَاخِصٌ",
+      "definition": "Of an arrow, passing beyond the target or object of aim by going above it.",
+      "usage_conditions": "Active-participial description of an overshooting arrow.",
+      "source_refs": [
+        "lane:entry:38060"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:shaakhis:wartraveler",
+      "headword_arabic": "شَاخِصٌ",
+      "definition": "A person prosecuting war continuously for three or more days, rather than on alternate days.",
+      "usage_conditions": "A specialized traditional usage associated with the traveler who may shorten prayer.",
+      "source_refs": [
+        "lane:entry:38060"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:mashkhas:image",
+      "headword_arabic": "مَشْخَصٌ",
+      "definition": "A figured representation or image; in later usage, the singular of a term for coins stamped with figures or effigies.",
+      "usage_conditions": "Later or modern usage; the source presents the citation and derivation tentatively.",
+      "source_refs": [
+        "lane:entry:38061"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:mushakhkhas:individuated",
+      "headword_arabic": "مُشَخَّصٌ",
+      "definition": "An individuated or specifically identified thing.",
+      "usage_conditions": "Passive-participial nominal usage.",
+      "source_refs": [
+        "lane:entry:38062"
+      ]
+    },
+    {
+      "meaning_id": "cm:$xS:mutashaakhis:discordant",
+      "headword_arabic": "مُتَشَاخِصٌ",
+      "definition": "Discordant or at odds.",
+      "usage_conditions": "Applied to language or speech, and also to a thing or affair.",
+      "source_refs": [
+        "lane:entry:38063"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$xS:38053:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhasa:rise"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:$xS:shakhasa:rise"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:$xS:shakhasa:stare",
+        "sense:$xS:shaakhis:staring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhasa:voice"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhasa:arrow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhasa:depart"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhasa:swell"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense:$xS:shakhasa:stare",
+        "sense:$xS:shaakhis:staring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:$xS:shakhasa:voice"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhasa:disturbed"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38053:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakusa:bulky"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38054:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhkhisa:individuate"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38055:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:ashkhaca:raise"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38055:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:ashkhaca:arrow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38055:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:ashkhaca:depart"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38055:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:ashkhaca:disturb"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38055:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:$xS:ashkhaca:arrow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38055:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:ashkhaca:journeytime"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38055:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:ashkhaca:sourface"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38055:g4:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:ashkhaca:backbite"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38056:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:tashakhkhaca:individuality"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38057:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhs:body"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38057:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhs:person"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38058:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhis:bulky"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38058:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhis:rank"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38058:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhis:sour"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38059:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shakhasa:bulkiness"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38060:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:$xS:shaakhis:staring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38060:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shaakhis:arrow"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38060:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:shaakhis:wartraveler"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38060:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense:$xS:shaakhis:staring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38061:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:mashkhas:image"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38062:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:mushakhkhas:individuated"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$xS:38063:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:$xS:mutashaakhis:discordant"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The modern verse keys and word locations in the examples are the supplied QAC locations; Lane's printed Quran references use historical citation conventions and are not independently converted here.",
+    "One Lane subunit prints سَخَصَتِ الكَلِمَةُ while a parallel subunit under the same entry explicitly gives the corresponding شَخَصَ voice usage; the raising-the-voice meaning is retained with this orthographic caution."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

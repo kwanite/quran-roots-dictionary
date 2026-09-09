@@ -1,0 +1,484 @@
+{
+  "root": "fsq",
+  "arabic": "فسق",
+  "root_idea": {
+    "summary": "The root centers on going out from an enclosure or norm: physically emerging from a covering and, by extension, departing from obedience and right conduct.",
+    "development": "The semantic development moves from an object coming out of its integument to a person or act leaving the bounds of obedience, truth, or prescribed conduct. Related figurative usages preserve the idea of going beyond a proper boundary.",
+    "source_refs": [
+      "maqayis:row:3585",
+      "mufradat:row:1115"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fsq:fasaqa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fsq_fasaqa",
+      "reason": "Distinct Quran-attested Form I verb."
+    },
+    {
+      "form_group_id": "qac-form:fsq:faAsiq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fsq_fasiq",
+      "reason": "Distinct Quran-attested active participle used adjectivally and substantivally."
+    },
+    {
+      "form_group_id": "qac-form:fsq:fisoq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fsq_fisq",
+      "reason": "Distinct Quran-attested verbal noun or simple noun."
+    },
+    {
+      "form_group_id": "qac-form:fsq:fusuwq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "fsq_fusuq",
+      "reason": "Distinct Quran-attested noun with a general conduct sense and a specific naming construction."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "fsq_fasaqa",
+      "form_group_ids": [
+        "qac-form:fsq:fasaqa:verb:I"
+      ],
+      "headword_arabic": "فَسَقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "fsq_fasaqa_s1",
+          "definition": "To depart from obedience or the right way; to disobey, rebel, or act defiantly.",
+          "usage_conditions": "In Quranic use, it describes departure from God's command and related acts or states of defiant disobedience. The construction فَسَقَ عَنْ may express departure from a command or proper course.",
+          "source_refs": [
+            "lane:entry:34173",
+            "mufradat:row:1115"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:50",
+          "word_location": "18:50:12",
+          "sense_ids": [
+            "fsq_fasaqa_s1"
+          ]
+        },
+        {
+          "verse_key": "17:16",
+          "word_location": "17:16:8",
+          "sense_ids": [
+            "fsq_fasaqa_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fsq_fasiq",
+      "form_group_ids": [
+        "qac-form:fsq:faAsiq:nominal:-"
+      ],
+      "headword_arabic": "فَاسِق",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 37,
+      "senses": [
+        {
+          "sense_id": "fsq_fasiq_s1",
+          "definition": "A person characterized by departure from obedience: disobedient, rebellious, or defiantly transgressive.",
+          "usage_conditions": "The term may describe one who has acknowledged the authority of revealed law and then violated some or all of it; it can also be applied to an unbeliever by reference to failure of an obligation recognized by reason or natural constitution. In the Quranic usage, it is broader than كافر and is contrasted with مؤمن in one passage.",
+          "source_refs": [
+            "lane:entry:34181",
+            "mufradat:row:1115"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "32:18",
+          "word_location": "32:18:6",
+          "sense_ids": [
+            "fsq_fasiq_s1"
+          ]
+        },
+        {
+          "verse_key": "49:6",
+          "word_location": "49:6:6",
+          "sense_ids": [
+            "fsq_fasiq_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fsq_fisq",
+      "form_group_ids": [
+        "qac-form:fsq:fisoq:nominal:-"
+      ],
+      "headword_arabic": "فِسْق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "fsq_fisq_s1",
+          "definition": "Departure from truth or obedience; disobedience, sinful conduct, or transgression.",
+          "usage_conditions": "The term can apply to a small or a large amount of wrongdoing, though it is conventionally associated especially with extensive or serious disobedience. It is presented as broader than unbelief rather than identical with it.",
+          "source_refs": [
+            "lane:entry:34176",
+            "mufradat:row:1115"
+          ]
+        },
+        {
+          "sense_id": "fsq_fisq_s2",
+          "definition": "A slaughtered animal or act of slaughter treated as fisq in a Quranic dietary-law construction.",
+          "usage_conditions": "This is a specialized Quranic application of the noun in a dietary context, distinct from its general meaning of disobedience or sinful conduct.",
+          "source_refs": [
+            "lane:entry:34176"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:3",
+          "word_location": "5:3:30",
+          "sense_ids": [
+            "fsq_fisq_s1"
+          ]
+        },
+        {
+          "verse_key": "6:145",
+          "word_location": "6:145:25",
+          "sense_ids": [
+            "fsq_fisq_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "fsq_fusuq",
+      "form_group_ids": [
+        "qac-form:fsq:fusuwq:nominal:-"
+      ],
+      "headword_arabic": "فُسُوق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "fsq_fusuq_s1",
+          "definition": "Sinful or disobedient conduct; wickedness and defiance.",
+          "usage_conditions": "Used as a noun for conduct that departs from obedience or prescribed propriety, including conduct prohibited in ethical, legal, or devotional settings.",
+          "source_refs": [
+            "lane:entry:34173",
+            "mufradat:row:1115"
+          ]
+        },
+        {
+          "sense_id": "fsq_fusuq_s2",
+          "definition": "Reproachful name-calling or the use of insulting labels for others.",
+          "usage_conditions": "In the Quranic naming construction, it includes addressing believers with disparaging labels such as “Jew” or “Christian” after they have become believers.",
+          "source_refs": [
+            "lane:entry:34173"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:197",
+          "word_location": "2:197:11",
+          "sense_ids": [
+            "fsq_fusuq_s1"
+          ]
+        },
+        {
+          "verse_key": "49:11",
+          "word_location": "49:11:31",
+          "sense_ids": [
+            "fsq_fusuq_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_fasaq_emerge",
+      "headword_arabic": "فَسَقَ",
+      "definition": "To come forth from an integument or covering, or to go out from one thing in a bad or corrupt manner.",
+      "usage_conditions": "The basic physical usage includes a fresh ripe date coming out of its skin and can be extended to other things emerging from their coverings.",
+      "source_refs": [
+        "lane:entry:34173"
+      ]
+    },
+    {
+      "meaning_id": "cm_fasaq_deviate",
+      "headword_arabic": "فَسَقَ",
+      "definition": "To decline or deviate from a directed course.",
+      "usage_conditions": "Used of a traveler or conveyance that turns away from the proper direction of a road.",
+      "source_refs": [
+        "lane:entry:34173"
+      ]
+    },
+    {
+      "meaning_id": "cm_fasaq_worldly",
+      "headword_arabic": "فَسَقَ",
+      "definition": "To have a wide, unrestricted range in worldly affairs and to treat them as easy or unconfined.",
+      "usage_conditions": "A specialized expression concerning a person's unconstrained management of worldly matters.",
+      "source_refs": [
+        "lane:entry:34173"
+      ]
+    },
+    {
+      "meaning_id": "cm_fasaq_property",
+      "headword_arabic": "فَسَقَ مَالَهُ",
+      "definition": "To make away with, dispose of, or spend one's property.",
+      "usage_conditions": "A transitive property-related construction.",
+      "source_refs": [
+        "lane:entry:34173"
+      ]
+    },
+    {
+      "meaning_id": "cm_tafsiq",
+      "headword_arabic": "تَفْسِيقٌ",
+      "definition": "To declare someone characterized by fisq or to charge someone with disobedience.",
+      "usage_conditions": "A causative or attributive usage, including a formal pronouncement that a person possesses the quality of fisq.",
+      "source_refs": [
+        "lane:entry:34174"
+      ]
+    },
+    {
+      "meaning_id": "cm_infasaq",
+      "headword_arabic": "اِنْفَسَقَ",
+      "definition": "To become divested of good.",
+      "usage_conditions": "A derived Form VII usage describing the loss or removal of good from a person.",
+      "source_refs": [
+        "lane:entry:34175"
+      ]
+    },
+    {
+      "meaning_id": "cm_fusuq_polytheism",
+      "headword_arabic": "فُسُوق",
+      "definition": "Polytheistic belief.",
+      "usage_conditions": "An occasional Classical Arabic use of the noun, distinct from its more general sense of sinful or disobedient conduct.",
+      "source_refs": [
+        "lane:entry:34173"
+      ]
+    },
+    {
+      "meaning_id": "cm_fusaq_habitual",
+      "headword_arabic": "فُسَقٌ",
+      "definition": "A habitual disobedient person, one persistently characterized by fisq.",
+      "usage_conditions": "The form is also used as an epithet or vocative designation for such a person.",
+      "source_refs": [
+        "lane:entry:34177"
+      ]
+    },
+    {
+      "meaning_id": "cm_fasqiyya_basin",
+      "headword_arabic": "فَسْقِيَّةٌ",
+      "definition": "A basin or shallow pool used for ablution, especially one with a fountain.",
+      "usage_conditions": "A post-Classical, Arabicized term, also pronounced فِسْقِيَّة in some usage.",
+      "source_refs": [
+        "lane:entry:34178"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawasiq_animals",
+      "headword_arabic": "فَوَاسِقُ",
+      "definition": "The five conventionally designated noxious animals, metaphorically called “transgressors.”",
+      "usage_conditions": "A conventional plural designation based on their harmfulness or their being outside the sphere of inviolability.",
+      "source_refs": [
+        "lane:entry:34181"
+      ]
+    },
+    {
+      "meaning_id": "cm_fawasiq_women",
+      "headword_arabic": "فَوَاسِقُ",
+      "definition": "Dissolute or adulterous women.",
+      "usage_conditions": "A feminine plural usage of the participial noun, with فَوَاجِرُ given as its equivalent.",
+      "source_refs": [
+        "lane:entry:34181"
+      ]
+    },
+    {
+      "meaning_id": "cm_fasiqiyya_turban",
+      "headword_arabic": "فَاسِقِيَّةٌ",
+      "definition": "A particular mode of wearing or arranging a turban.",
+      "usage_conditions": "A named style of turban attire.",
+      "source_refs": [
+        "lane:entry:34182"
+      ]
+    },
+    {
+      "meaning_id": "cm_fuwaysiqa_rat",
+      "headword_arabic": "الفُوَيْسِقَةُ",
+      "definition": "The rat or mouse.",
+      "usage_conditions": "A diminutive designation explained by the animal's coming out of its hole or by its harmfulness in houses.",
+      "source_refs": [
+        "lane:entry:34183"
+      ]
+    },
+    {
+      "meaning_id": "cm_afsaq",
+      "headword_arabic": "أَفْسَقُ",
+      "definition": "More or most characterized by fisq.",
+      "usage_conditions": "A comparative or superlative form used in comparisons of disobedience or wickedness.",
+      "source_refs": [
+        "lane:entry:34184"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fsq:34173:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fasaq_emerge"
+      ],
+      "note": "Physical emergence from an integument is represented as a Classical branch."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34173:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsq_fasaqa_s1",
+        "fsq_fisq_s1",
+        "fsq_fusuq_s1",
+        "fsq_fusuq_s2",
+        "cm_fasaq_deviate",
+        "cm_fusuq_polytheism"
+      ],
+      "note": "Covers departure from obedience, deviation, the Quranic naming construction, and the additional classical noun use."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34173:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fasaq_worldly"
+      ],
+      "note": "Worldly unconstrained management is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34173:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fasaq_property"
+      ],
+      "note": "The property-spending construction is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34174:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tafsiq"
+      ],
+      "note": "The Form II causative/attributive usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34175:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the second sentence of the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34175:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_infasaq"
+      ],
+      "note": "The independent Form VII usage means becoming divested of good."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34176:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsq_fisq_s1",
+        "fsq_fisq_s2"
+      ],
+      "note": "Covers the noun's general disobedience branch and its specialized dietary application."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34177:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fusaq_habitual"
+      ],
+      "note": "The habitual-disobedient epithet is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34177:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fusaq_habitual"
+      ],
+      "note": "The vocative use is included in the habitual-disobedient entry."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34178:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fasqiyya_basin"
+      ],
+      "note": "The post-Classical basin term is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34179:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to فُسَقٌ."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34180:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to فُسَقٌ."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34181:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "fsq_fasiq_s1",
+        "cm_fawasiq_women"
+      ],
+      "note": "Covers the Quran-attested person noun/adjective and the specialized feminine plural usage."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34181:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fawasiq_animals"
+      ],
+      "note": "The conventional designation for five harmful animals is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34182:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fasiqiyya_turban"
+      ],
+      "note": "The turban-attire term is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34183:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_fuwaysiqa_rat"
+      ],
+      "note": "The rat or mouse designation is represented."
+    },
+    {
+      "unit_id": "lane-unit:fsq:34184:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_afsaq"
+      ],
+      "note": "The comparative/superlative form is represented."
+    }
+  ],
+  "cautions": [
+    "The dietary-law sense of فِسْق is anchored to the supplied QAC occurrence at 6:145. A Lane citation printed as “vi. 146” is retained as historical source context and has not been mechanically converted into a modern verse location.",
+    "فَاسِق is not restricted to unbelievers: the lexical evidence explicitly presents it as a broader term that can also describe disobedience by those who acknowledge the law."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

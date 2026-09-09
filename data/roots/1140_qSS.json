@@ -1,0 +1,927 @@
+{
+  "root": "qSS",
+  "arabic": "قصص",
+  "root_idea": {
+    "summary": "The root centers on following or tracing something step by step.",
+    "development": "From tracing a physical track develop the senses of recounting events in their sequence and of requiting an act with a matching act. Cutting and leveling are also attested branches, especially in descriptions of hair and other material.",
+    "source_refs": [
+      "maqayis:row:3786",
+      "mufradat:row:1184"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qSS:qaS~a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qSS_qaSsa_verb_I",
+      "reason": "Distinct Quran-attested Form I verb."
+    },
+    {
+      "form_group_id": "qac-form:qSS:qaSaS:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qSS_qaSaS_noun",
+      "reason": "Distinct Quran-attested noun for tracing and narrative."
+    },
+    {
+      "form_group_id": "qac-form:qSS:qiSaAS:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qSS_qiSaaS_noun",
+      "reason": "Distinct Quran-attested noun for legal retaliation."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qSS_qaSsa_verb_I",
+      "form_group_ids": [
+        "qac-form:qSS:qaS~a:verb:I"
+      ],
+      "headword_arabic": "قَصَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 20,
+      "senses": [
+        {
+          "sense_id": "qSS_vI_follow",
+          "definition": "To follow or retrace a track, footprint, or course.",
+          "usage_conditions": "Used with an object or construction referring to a trace, footsteps, or someone being followed; the Quran also uses the imperative in this sense.",
+          "source_refs": [
+            "lane:entry:8376",
+            "mufradat:row:1184"
+          ]
+        },
+        {
+          "sense_id": "qSS_vI_relate",
+          "definition": "To relate, recount, or narrate an account in its proper sequence.",
+          "usage_conditions": "Used for relating news, stories, accounts, or events, often with عَلَى marking the person to whom the account is related.",
+          "source_refs": [
+            "lane:entry:8376",
+            "mufradat:row:1184"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:11",
+          "word_location": "28:11:3",
+          "sense_ids": [
+            "qSS_vI_follow"
+          ]
+        },
+        {
+          "verse_key": "12:3",
+          "word_location": "12:3:2",
+          "sense_ids": [
+            "qSS_vI_relate"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qSS_qaSaS_noun",
+      "form_group_ids": [
+        "qac-form:qSS:qaSaS:nominal:-"
+      ],
+      "headword_arabic": "قَصَصٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "qSS_n_following",
+          "definition": "Following or retracing a track or course.",
+          "usage_conditions": "A verbal-noun use describing the act of following traces; the Quran applies it to retracing a route or footsteps.",
+          "source_refs": [
+            "lane:entry:8376",
+            "mufradat:row:1184"
+          ]
+        },
+        {
+          "sense_id": "qSS_n_narrative",
+          "definition": "A narrative, story, or connected account.",
+          "usage_conditions": "Refers to events or reports followed and recounted in sequence; the Quran uses it for narratives presented as true or instructive.",
+          "source_refs": [
+            "lane:entry:8376",
+            "mufradat:row:1184"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:64",
+          "word_location": "18:64:9",
+          "sense_ids": [
+            "qSS_n_following"
+          ]
+        },
+        {
+          "verse_key": "12:111",
+          "word_location": "12:111:4",
+          "sense_ids": [
+            "qSS_n_narrative"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qSS_qiSaaS_noun",
+      "form_group_ids": [
+        "qac-form:qSS:qiSaAS:nominal:-"
+      ],
+      "headword_arabic": "قِصَاصٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qSS_qisas_retribution",
+          "definition": "Legal retaliation by matching a killing or injury with a corresponding penalty.",
+          "usage_conditions": "In Quranic usage, the term denotes prescribed retribution for homicide or bodily injury, including like-for-like killing or wounding.",
+          "source_refs": [
+            "lane:entry:8392",
+            "mufradat:row:1184"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:179",
+          "word_location": "2:179:3",
+          "sense_ids": [
+            "qSS_qisas_retribution"
+          ]
+        },
+        {
+          "verse_key": "5:45",
+          "word_location": "5:45:16",
+          "sense_ids": [
+            "qSS_qisas_retribution"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_cut_qass",
+      "headword_arabic": "قَصَّ",
+      "definition": "To cut, clip, shear, pare, or cut off material.",
+      "usage_conditions": "Applied especially to hair, wool, plumage, nails, cloth ends, and similar material; it can also refer to cutting off an extremity.",
+      "source_refs": [
+        "lane:entry:8376"
+      ]
+    },
+    {
+      "meaning_id": "cm_diminish_qass",
+      "headword_arabic": "قَصَّ",
+      "definition": "To diminish, deduct, or reduce.",
+      "usage_conditions": "A figurative use, including reducing an account or deduction from the account of sins.",
+      "source_refs": [
+        "lane:entry:8376"
+      ]
+    },
+    {
+      "meaning_id": "cm_plaster_qassas",
+      "headword_arabic": "قَصَّصَ، مُقَصَّصٌ",
+      "definition": "To plaster or build with gypsum; plastered with gypsum.",
+      "usage_conditions": "Applied to houses, tombs, and, adjectivally, to a city or other structure treated with gypsum.",
+      "source_refs": [
+        "lane:entry:8377",
+        "lane:entry:8403"
+      ]
+    },
+    {
+      "meaning_id": "cm_qaasah_retal",
+      "headword_arabic": "قَاصَّ",
+      "definition": "To retaliate against someone by killing, wounding, or mutilating him in like measure.",
+      "usage_conditions": "The subject may be the relative of a slain or injured person; the construction expresses making the offender quit or even with the injured party.",
+      "source_refs": [
+        "lane:entry:8378"
+      ]
+    },
+    {
+      "meaning_id": "cm_qaasah_settle",
+      "headword_arabic": "قَاصَّ",
+      "definition": "To settle accounts with someone by offsetting reciprocal debts or claims.",
+      "usage_conditions": "A generalized, figurative extension of matching one obligation against another.",
+      "source_refs": [
+        "lane:entry:8378"
+      ]
+    },
+    {
+      "meaning_id": "cm_aqass_retal",
+      "headword_arabic": "أَقَصَّ",
+      "definition": "To retaliate for one person against another.",
+      "usage_conditions": "Used of a governor or other authority imposing a like wound or killing on behalf of the injured or slain party.",
+      "source_refs": [
+        "lane:entry:8379"
+      ]
+    },
+    {
+      "meaning_id": "cm_aqass_authorize",
+      "headword_arabic": "أَقَصَّ",
+      "definition": "To authorize someone to retaliate against oneself.",
+      "usage_conditions": "The authorized retaliation may involve killing, mutilation, beating, or wounding.",
+      "source_refs": [
+        "lane:entry:8379"
+      ]
+    },
+    {
+      "meaning_id": "cm_aqass_death",
+      "headword_arabic": "أَقَصَّ",
+      "definition": "To bring someone near death, or to become near the point of death.",
+      "usage_conditions": "The causative construction describes beating or weakening someone until death is near; the intransitive use describes reaching that condition and possibly escaping it.",
+      "source_refs": [
+        "lane:entry:8379"
+      ]
+    },
+    {
+      "meaning_id": "cm_taqass_memory",
+      "headword_arabic": "تَقَصَّصَ",
+      "definition": "To preserve someone's speech or discourse in memory.",
+      "usage_conditions": "Applied to retaining another person's words or discourse accurately.",
+      "source_refs": [
+        "lane:entry:8380"
+      ]
+    },
+    {
+      "meaning_id": "cm_taqas_retal",
+      "headword_arabic": "تَقَاصَّ",
+      "definition": "To make one another quit or even by reciprocal retaliation.",
+      "usage_conditions": "Used for mutual like-for-like killing or wounding.",
+      "source_refs": [
+        "lane:entry:8381"
+      ]
+    },
+    {
+      "meaning_id": "cm_taqas_settle",
+      "headword_arabic": "تَقَاصَّ",
+      "definition": "To settle accounts mutually by offsetting reciprocal debts or claims.",
+      "usage_conditions": "A figurative accounting use parallel to reciprocal retaliation.",
+      "source_refs": [
+        "lane:entry:8381"
+      ]
+    },
+    {
+      "meaning_id": "cm_iqtass_cut",
+      "headword_arabic": "اِقْتَصَّ",
+      "definition": "To be cut, clipped, or shorn.",
+      "usage_conditions": "Applied to hair or similar material cut with scissors.",
+      "source_refs": [
+        "lane:entry:8382"
+      ]
+    },
+    {
+      "meaning_id": "cm_iqtass_retal",
+      "headword_arabic": "اِقْتَصَّ، اِقْتِصَاصٌ",
+      "definition": "To retaliate, or to undergo requital by having done to one what one has done.",
+      "usage_conditions": "The matching act may be killing, mutilation, beating, or wounding; the noun denotes the resulting requital.",
+      "source_refs": [
+        "lane:entry:8382"
+      ]
+    },
+    {
+      "meaning_id": "cm_istiqass",
+      "headword_arabic": "اِسْتَقَصَّ",
+      "definition": "To seek or demand retaliation, or to ask someone to retaliate on one's behalf.",
+      "usage_conditions": "The requested retaliation is like-for-like killing or wounding.",
+      "source_refs": [
+        "lane:entry:8383"
+      ]
+    },
+    {
+      "meaning_id": "cm_qass_cuttings",
+      "headword_arabic": "قَصٌّ، قُصَاصَةٌ",
+      "definition": "Cuttings or material cut off.",
+      "usage_conditions": "Applied especially to cuttings of hair and to the unwoven end of a garment or piece of cloth.",
+      "source_refs": [
+        "lane:entry:8384",
+        "lane:entry:8394"
+      ]
+    },
+    {
+      "meaning_id": "cm_qass_breast",
+      "headword_arabic": "قَصٌّ",
+      "definition": "The breast, breastbone, or central sternum of a person or animal.",
+      "usage_conditions": "The term can also designate the place where breast hair grows.",
+      "source_refs": [
+        "lane:entry:8384"
+      ]
+    },
+    {
+      "meaning_id": "cm_qass_idiom_adherent",
+      "headword_arabic": "قَصٌّ",
+      "definition": "An inseparable adherent, in an idiomatic expression.",
+      "usage_conditions": "Applied to someone who will not separate from another, including one who denies a relationship or a due obligation.",
+      "source_refs": [
+        "lane:entry:8384"
+      ]
+    },
+    {
+      "meaning_id": "cm_qass_gypsum",
+      "headword_arabic": "قَصٌّ، قِصٌّ",
+      "definition": "Gypsum or gypsum stone.",
+      "usage_conditions": "A dialectal lexical variant of the word for gypsum; it also occurs in descriptions of gypsum-plastered structures.",
+      "source_refs": [
+        "lane:entry:8384"
+      ]
+    },
+    {
+      "meaning_id": "cm_qussa_forelock",
+      "headword_arabic": "قُصَّةٌ",
+      "definition": "The forelock, front hair, or a lock of hair.",
+      "usage_conditions": "May refer to the hair over the forehead, a cut fringe, or any individual lock of hair.",
+      "source_refs": [
+        "lane:entry:8387"
+      ]
+    },
+    {
+      "meaning_id": "cm_qissa_story",
+      "headword_arabic": "قِصَّةٌ",
+      "definition": "A story, narrative, or written account.",
+      "usage_conditions": "The term may denote a related narrative, something written, or a report presented as an account.",
+      "source_refs": [
+        "lane:entry:8388"
+      ]
+    },
+    {
+      "meaning_id": "cm_qissa_affair",
+      "headword_arabic": "قِصَّةٌ",
+      "definition": "An affair, case, or matter at issue.",
+      "usage_conditions": "Used of a person's situation or a case referred to an authority; this is distinct from the narrative sense.",
+      "source_refs": [
+        "lane:entry:8388"
+      ]
+    },
+    {
+      "meaning_id": "cm_qusas_hairline",
+      "headword_arabic": "قُصَاصُ الشَّعَرِ",
+      "definition": "The line or extremity where hair growth ends.",
+      "usage_conditions": "Used of the front, back, or circuit of the hair of the head, including the part along which scissors run.",
+      "source_refs": [
+        "lane:entry:8391"
+      ]
+    },
+    {
+      "meaning_id": "cm_qusas_hands",
+      "headword_arabic": "قُصَاصُ الكَفَّيْنِ",
+      "definition": "The extremities of the two hands where they meet.",
+      "usage_conditions": "Appears in an idiomatic expression describing biting those extremities.",
+      "source_refs": [
+        "lane:entry:8391"
+      ]
+    },
+    {
+      "meaning_id": "cm_qasisa_tracker",
+      "headword_arabic": "قَصِيصَةٌ",
+      "definition": "An animal used for following tracks.",
+      "usage_conditions": "Applied especially to a camel, horse, or similar animal that follows the footsteps of traveling camels.",
+      "source_refs": [
+        "lane:entry:8395"
+      ]
+    },
+    {
+      "meaning_id": "cm_qasis_remnant",
+      "headword_arabic": "قَصِيصٌ",
+      "definition": "Remaining herbage whose trace is followed.",
+      "usage_conditions": "A term for what remains of pasture and is sought by tracking its signs.",
+      "source_refs": [
+        "mufradat:row:1184"
+      ]
+    },
+    {
+      "meaning_id": "cm_qassas_storyteller",
+      "headword_arabic": "قَاصٌّ",
+      "definition": "A relater or storyteller who presents a story in its proper course.",
+      "usage_conditions": "The term can describe one who follows the meanings and expressions of a narrative while recounting it.",
+      "source_refs": [
+        "lane:entry:8399"
+      ]
+    },
+    {
+      "meaning_id": "cm_qassas_preacher",
+      "headword_arabic": "قَاصٌّ",
+      "definition": "One who recites or delivers a formal discourse or sermon.",
+      "usage_conditions": "Refers specifically to delivering the discourse called خُطْبَةٌ.",
+      "source_refs": [
+        "lane:entry:8399"
+      ]
+    },
+    {
+      "meaning_id": "cm_miqass",
+      "headword_arabic": "مِقَصٌّ",
+      "definition": "Scissors, shears, or a cutting blade.",
+      "usage_conditions": "The term may refer to a single blade or to the implement used for cutting hair and similar materials; a pair is also called مِقَصَّانِ.",
+      "source_refs": [
+        "lane:entry:8402"
+      ]
+    },
+    {
+      "meaning_id": "cm_maqsus_clipped",
+      "headword_arabic": "مَقْصُوصٌ",
+      "definition": "Cut, clipped, or shorn.",
+      "usage_conditions": "Applied to hair, forelocks, wings, and similar parts; a bird may be described as having a clipped wing.",
+      "source_refs": [
+        "lane:entry:8404"
+      ]
+    },
+    {
+      "meaning_id": "cm_qasq_asad",
+      "headword_arabic": "قَصْقَاصٌ",
+      "definition": "A lion.",
+      "usage_conditions": "Reported as an anomalous usage rather than a regular development of the root principle.",
+      "source_refs": [
+        "maqayis:row:3786"
+      ]
+    },
+    {
+      "meaning_id": "cm_qusq_suq",
+      "headword_arabic": "قُصْقُصَةٌ",
+      "definition": "A short man.",
+      "usage_conditions": "Reported as an anomalous usage rather than a regular development of the root principle.",
+      "source_refs": [
+        "maqayis:row:3786"
+      ]
+    },
+    {
+      "meaning_id": "cm_qasis_plant",
+      "headword_arabic": "قَصِيصٌ",
+      "definition": "A plant.",
+      "usage_conditions": "Reported as an anomalous usage rather than a regular development of the root principle.",
+      "source_refs": [
+        "maqayis:row:3786"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qSS:8376:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_cut_qass"
+      ],
+      "note": "Cutting and clipping branch."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8376:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_cut_qass"
+      ],
+      "note": "Cutting the unwoven cloth end."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8376:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_cut_qass"
+      ],
+      "note": "Cutting off extremities; source notes a possible alternative root."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8376:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_diminish_qass"
+      ],
+      "note": "Figurative reduction or deduction."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8376:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qSS_vI_follow",
+        "qSS_n_following"
+      ],
+      "note": "Following a track and the corresponding verbal noun."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8376:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qSS_vI_relate",
+        "qSS_n_narrative"
+      ],
+      "note": "Relating news or narrative."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8376:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8377:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_cut_qass"
+      ],
+      "note": "Explicitly equates the Form-II use with the Form-I cutting sense."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8377:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_plaster_qassas"
+      ],
+      "note": "Plastering or building with gypsum."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8378:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qaasah_retal"
+      ],
+      "note": "Like-for-like retaliation."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8378:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qaasah_settle"
+      ],
+      "note": "Settling reciprocal debts or claims."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8379:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_aqass_retal"
+      ],
+      "note": "Retaliating for one person against another."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8379:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_aqass_authorize"
+      ],
+      "note": "Authorizing retaliation against oneself."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8379:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_aqass_death"
+      ],
+      "note": "Bringing someone near death."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8379:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_aqass_death"
+      ],
+      "note": "Being near the point of death."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8380:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8380:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8380:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8380:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taqass_memory"
+      ],
+      "note": "Preserving speech in memory."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8381:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taqas_retal"
+      ],
+      "note": "Mutual retaliation."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8381:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_taqas_settle"
+      ],
+      "note": "Mutual settlement of accounts."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8382:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_iqtass_cut"
+      ],
+      "note": "Being cut or shorn."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8382:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8382:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8382:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_iqtass_retal"
+      ],
+      "note": "Form-VIII retaliation."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8382:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_iqtass_retal"
+      ],
+      "note": "The resulting like-for-like requital."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8382:g3:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8383:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istiqass"
+      ],
+      "note": "Seeking or demanding retaliation."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8383:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_istiqass"
+      ],
+      "note": "Requesting retaliation on one's behalf."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8384:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qass_cuttings"
+      ],
+      "note": "Cuttings of wool or similar material."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8384:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qass_breast",
+        "cm_qass_idiom_adherent"
+      ],
+      "note": "Anatomical breast sense and associated idiom."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8384:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qass_breast"
+      ],
+      "note": "Place where breast hair grows."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8384:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qass_gypsum"
+      ],
+      "note": "Gypsum."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8385:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8386:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8387:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qussa_forelock"
+      ],
+      "note": "Forelock or lock of hair."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8388:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qissa_story",
+        "cm_qissa_affair"
+      ],
+      "note": "Story, written account, and affair or case."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8388:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8389:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8389:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8389:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8390:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8391:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qusas_hairline"
+      ],
+      "note": "Hairline or termination of hair growth."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8391:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qusas_hands"
+      ],
+      "note": "Idiom concerning the extremities of the hands."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8392:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8392:g2:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qSS_qisas_retribution"
+      ],
+      "note": "The same like-for-like retaliation branch represented in the Quranic noun."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8393:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8393:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8393:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8394:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qass_cuttings"
+      ],
+      "note": "Cuttings or material cut off."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8394:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8395:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qasisa_tracker"
+      ],
+      "note": "Animal used for following tracks."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8395:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8396:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8397:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8398:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8399:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qassas_storyteller"
+      ],
+      "note": "Relater of stories."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8399:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_qassas_preacher"
+      ],
+      "note": "Deliverer of a formal discourse."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8400:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8401:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8402:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_miqass"
+      ],
+      "note": "Scissors or shears."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8403:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8403:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_plaster_qassas"
+      ],
+      "note": "Gypsum-plastered tomb or city."
+    },
+    {
+      "unit_id": "lane-unit:qSS:8404:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maqsus_clipped"
+      ],
+      "note": "Cut or clipped hair, wing, or forelock."
+    }
+  ],
+  "cautions": [
+    "The Form I verb and the noun قَصَصٌ share both the tracing and narrative branches; their Quranic senses are separated by grammatical form and construction rather than by unrelated roots.",
+    "Several reported classical forms are explicitly described as anomalous to the regular root pattern; they are retained separately rather than treated as ordinary developments.",
+    "The historical citation convention in the lexical evidence is not used to infer Quran locations; examples use only secure QAC word locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

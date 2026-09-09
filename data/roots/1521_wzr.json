@@ -1,0 +1,623 @@
+{
+  "root": "wzr",
+  "arabic": "وزر",
+  "root_idea": {
+    "summary": "The root has two principal semantic orientations: refuge or stronghold, and weight or burden.",
+    "development": "From weight and carried burden develop the Quranic meanings of moral guilt and liability, and the association of war equipment with burdens carried into battle. The minister is one who bears another's burden, while the refuge sense develops from the mountain or stronghold to which one flees for safety.",
+    "source_refs": [
+      "maqayis:row:5094",
+      "mufradat:row:1570"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wzr:yaziru:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wzr_verb_I",
+      "reason": "Distinct Quran-attested Form I verb, normalized to its perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:wzr:waAzirap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wzr_wazir_active",
+      "reason": "Distinct Quran-attested active-participle form."
+    },
+    {
+      "form_group_id": "qac-form:wzr:wazar:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wzr_wazar",
+      "reason": "Distinct Quran-attested noun meaning refuge."
+    },
+    {
+      "form_group_id": "qac-form:wzr:waziyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wzr_wazir_noun",
+      "reason": "Distinct Quran-attested agent noun for an assistant or minister."
+    },
+    {
+      "form_group_id": "qac-form:wzr:wizor:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wzr_wizr",
+      "reason": "Distinct Quran-attested noun with burden, moral guilt, and war-equipment senses."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wzr_verb_I",
+      "form_group_ids": [
+        "qac-form:wzr:yaziru:verb:I"
+      ],
+      "headword_arabic": "وَزَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "wzr_verb_I_s1",
+          "definition": "To bear or carry a burden.",
+          "usage_conditions": "In the Quranic constructions, the burden is borne by a soul or community; the wording can be general, while the surrounding context often specifies a moral burden.",
+          "source_refs": [
+            "lane:entry:45218",
+            "mufradat:row:1570"
+          ]
+        },
+        {
+          "sense_id": "wzr_verb_I_s2",
+          "definition": "To bear the burden of sin.",
+          "usage_conditions": "Used in statements of moral responsibility, especially the principle that one soul does not bear another soul's burden in place of it.",
+          "source_refs": [
+            "lane:entry:45218",
+            "mufradat:row:1570"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:164",
+          "word_location": "6:164:17",
+          "sense_ids": [
+            "wzr_verb_I_s2"
+          ]
+        },
+        {
+          "verse_key": "16:25",
+          "word_location": "16:25:15",
+          "sense_ids": [
+            "wzr_verb_I_s2"
+          ]
+        },
+        {
+          "verse_key": "17:15",
+          "word_location": "17:15:12",
+          "sense_ids": [
+            "wzr_verb_I_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wzr_wazir_active",
+      "form_group_ids": [
+        "qac-form:wzr:waAzirap:nominal:-"
+      ],
+      "headword_arabic": "وَازِر",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "wzr_wazir_active_s1",
+          "definition": "One that bears or carries a burden.",
+          "usage_conditions": "The supplied Quran tokens are the feminine form وَازِرَةٌ in the construction of a soul bearing its burden; in these passages the burden is understood morally, and no gender restriction is intrinsic to the lexical definition.",
+          "source_refs": [
+            "lane:entry:45218",
+            "lane:entry:45228",
+            "mufradat:row:1570"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:164",
+          "word_location": "6:164:18",
+          "sense_ids": [
+            "wzr_wazir_active_s1"
+          ]
+        },
+        {
+          "verse_key": "35:18",
+          "word_location": "35:18:3",
+          "sense_ids": [
+            "wzr_wazir_active_s1"
+          ]
+        },
+        {
+          "verse_key": "53:38",
+          "word_location": "53:38:3",
+          "sense_ids": [
+            "wzr_wazir_active_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wzr_wazar",
+      "form_group_ids": [
+        "qac-form:wzr:wazar:nominal:-"
+      ],
+      "headword_arabic": "وَزَر",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wzr_wazar_s1",
+          "definition": "A refuge or place of safety to which one flees.",
+          "usage_conditions": "In the Quranic occurrence, the word appears in a negated statement meaning that there is no refuge available from the final judgment.",
+          "source_refs": [
+            "lane:entry:45225",
+            "mufradat:row:1570"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "75:11",
+          "word_location": "75:11:3",
+          "sense_ids": [
+            "wzr_wazar_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wzr_wazir_noun",
+      "form_group_ids": [
+        "qac-form:wzr:waziyr:nominal:-"
+      ],
+      "headword_arabic": "وَزِير",
+      "public_pos_label": "Noun · agent",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "wzr_wazir_noun_s1",
+          "definition": "An assistant or minister who bears another's burden and supports him.",
+          "usage_conditions": "The Quranic use presents the wazir as a trusted supporter appointed to strengthen another in carrying out an important responsibility.",
+          "source_refs": [
+            "lane:entry:45226",
+            "mufradat:row:1570"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:29",
+          "word_location": "20:29:3",
+          "sense_ids": [
+            "wzr_wazir_noun_s1"
+          ]
+        },
+        {
+          "verse_key": "25:35",
+          "word_location": "25:35:9",
+          "sense_ids": [
+            "wzr_wazir_noun_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wzr_wizr",
+      "form_group_ids": [
+        "qac-form:wzr:wizor:nominal:-"
+      ],
+      "headword_arabic": "وِزْر",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 12,
+      "senses": [
+        {
+          "sense_id": "wzr_wizr_s1",
+          "definition": "A weight, load, or burden.",
+          "usage_conditions": "The Quran uses the singular and plural forms for burdens or loads, including burdens associated with worldly adornment and other carried matters.",
+          "source_refs": [
+            "lane:entry:45224",
+            "mufradat:row:1570"
+          ]
+        },
+        {
+          "sense_id": "wzr_wizr_s2",
+          "definition": "A burden of sin or moral guilt.",
+          "usage_conditions": "Sin is conceived as a weight borne by the responsible person; the term also occurs in contexts concerning the consequences associated with those whom someone misleads.",
+          "source_refs": [
+            "lane:entry:45218",
+            "lane:entry:45224",
+            "mufradat:row:1570"
+          ]
+        },
+        {
+          "sense_id": "wzr_wizr_s3",
+          "definition": "Weapons or other equipment of war.",
+          "usage_conditions": "In the expression concerning war laying down its burdens, the word refers to arms and war equipment, whose being laid down marks the termination of fighting.",
+          "source_refs": [
+            "lane:entry:45224",
+            "mufradat:row:1570"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:87",
+          "word_location": "20:87:8",
+          "sense_ids": [
+            "wzr_wizr_s1"
+          ]
+        },
+        {
+          "verse_key": "16:25",
+          "word_location": "16:25:2",
+          "sense_ids": [
+            "wzr_wizr_s2"
+          ]
+        },
+        {
+          "verse_key": "94:2",
+          "word_location": "94:2:3",
+          "sense_ids": [
+            "wzr_wizr_s2"
+          ]
+        },
+        {
+          "verse_key": "47:4",
+          "word_location": "47:4:20",
+          "sense_ids": [
+            "wzr_wizr_s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wzr_class_verb_sin",
+      "headword_arabic": "وَزَرَ",
+      "definition": "To sin; to bear a burden of sin.",
+      "usage_conditions": "A figurative verbal use distinct from the Quranic expression of bearing a burden as an object.",
+      "source_refs": [
+        "lane:entry:45218"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_passive_accused",
+      "headword_arabic": "وُزِرَ",
+      "definition": "To be charged with or accused of a sin.",
+      "usage_conditions": "Passive or related verbal usage.",
+      "source_refs": [
+        "lane:entry:45218"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_verb_minister",
+      "headword_arabic": "وَزَرَ لِلْأَمِيرِ",
+      "definition": "To become a vizier or deputy to a governor, sultan, or king.",
+      "usage_conditions": "Used with the governing authority as its complement.",
+      "source_refs": [
+        "lane:entry:45218"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_formIII_bear",
+      "headword_arabic": "وَازَرَ",
+      "definition": "To bear a burden with another; to share another's burden, including the burden of office.",
+      "usage_conditions": "The construction may describe sharing the responsibilities of a ruler or another person.",
+      "source_refs": [
+        "lane:entry:45219"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_formIII_assist",
+      "headword_arabic": "وَازَرَ",
+      "definition": "To aid, assist, help, or strengthen another in an undertaking.",
+      "usage_conditions": "A causative-supportive construction with another person as the one assisted.",
+      "source_refs": [
+        "lane:entry:45219"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_formIV_refuge",
+      "headword_arabic": "أَوْزَرَهُ",
+      "definition": "To appoint someone a refuge or provide him with a place of refuge.",
+      "usage_conditions": "The object is made a وَزَر, a place to which one may betake oneself for safety.",
+      "source_refs": [
+        "lane:entry:45220"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_formV_minister",
+      "headword_arabic": "تَوَزَّرَ",
+      "definition": "To become a vizier or minister.",
+      "usage_conditions": "A derived reflexive usage referring to entering the ministerial role.",
+      "source_refs": [
+        "lane:entry:45221",
+        "lane:entry:45218"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_formVIII_sin",
+      "headword_arabic": "اِتَّزَرَ",
+      "definition": "To commit a sin.",
+      "usage_conditions": "A derived verbal form with the sin meaning.",
+      "source_refs": [
+        "lane:entry:45222"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_formX_choose",
+      "headword_arabic": "اِسْتَوْزَرَهُ",
+      "definition": "To take or choose someone as a minister.",
+      "usage_conditions": "The person chosen is appointed to serve as a وَزِير.",
+      "source_refs": [
+        "lane:entry:45223"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_wazar_mountain",
+      "headword_arabic": "وَزَر",
+      "definition": "A mountain, especially one difficult or strong of access.",
+      "usage_conditions": "This is the concrete mountain sense underlying the related idea of a place of refuge; the Quranic noun entry is separately presented for the refuge use.",
+      "source_refs": [
+        "lane:entry:45225"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_wazir_state_minister",
+      "headword_arabic": "وَزِير",
+      "definition": "A ruler's vicegerent or confidential minister of state.",
+      "usage_conditions": "The office is understood as bearing the ruler's administrative burden and supporting him by counsel.",
+      "source_refs": [
+        "lane:entry:45226"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_ministry",
+      "headword_arabic": "وِزَارَة",
+      "definition": "The condition or office of a minister.",
+      "usage_conditions": "An abstract noun for ministerial office or status.",
+      "source_refs": [
+        "lane:entry:45227"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_wazir_sinning",
+      "headword_arabic": "وَازِر",
+      "definition": "Sinning or bearing a burden of sin.",
+      "usage_conditions": "A figurative participial use reported alongside the basic sense of bearing a physical burden.",
+      "source_refs": [
+        "lane:entry:45228"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_awzara_secure",
+      "headword_arabic": "أَوْزَرَ",
+      "definition": "To secure or preserve something.",
+      "usage_conditions": "A rare usage reported as a lexical account; its attestation is expressly presented as tentative.",
+      "source_refs": [
+        "maqayis:row:5094"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_awzara_take_property",
+      "headword_arabic": "أَوْزَرَ",
+      "definition": "To take away someone's property.",
+      "usage_conditions": "A rare reported usage whose correctness is explicitly left uncertain.",
+      "source_refs": [
+        "maqayis:row:5094"
+      ]
+    },
+    {
+      "meaning_id": "wzr_class_wazara_overcome",
+      "headword_arabic": "وَزَرَ",
+      "definition": "To overcome someone.",
+      "usage_conditions": "A rare reported usage whose correctness is explicitly left uncertain.",
+      "source_refs": [
+        "maqayis:row:5094"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wzr:45218:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_verb_I_s1",
+        "wzr_verb_I_s2",
+        "wzr_wazir_active_s1",
+        "wzr_wizr_s2"
+      ],
+      "note": "Verb, bearer, and burden-of-sin content in the Quranic construction are represented."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45218:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_verb_sin"
+      ],
+      "note": "Classical verbal sin use."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45218:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_passive_accused"
+      ],
+      "note": "Classical charged-or-accused construction."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45218:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_verb_minister"
+      ],
+      "note": "Becoming a minister or deputy."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45219:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_formIII_bear"
+      ],
+      "note": "Bearing a burden with another."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45219:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wzr_class_formIII_bear"
+      ],
+      "note": "Sharing the burden of royal office is covered by the broader bear-with-another construction."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45219:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_formIII_assist"
+      ],
+      "note": "Aid, assistance, and strengthening."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45220:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_formIV_refuge"
+      ],
+      "note": "Appointing someone a refuge."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45221:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_formV_minister"
+      ],
+      "note": "Becoming a minister."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45222:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_formVIII_sin"
+      ],
+      "note": "Committing a sin in Form VIII."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45223:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_formX_choose"
+      ],
+      "note": "Choosing someone as a minister."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45224:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_wizr_s1"
+      ],
+      "note": "Weight, load, and burden."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45224:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_wizr_s1",
+        "wzr_wizr_s2",
+        "wzr_wizr_s3"
+      ],
+      "note": "War burdens, weapons, and the reported sin interpretation of the Quranic expression."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45224:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wzr_wizr_s2"
+      ],
+      "note": "The noun's sin sense is covered by the Quranic moral-burden sense."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45225:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_wazar_mountain"
+      ],
+      "note": "Mountain sense."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45225:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_wazar_s1"
+      ],
+      "note": "Place-of-refuge sense, explicitly linked to the Quran."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45225:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45226:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_wazir_noun_s1"
+      ],
+      "note": "One who bears another's burden or assists him."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45226:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_wazir_noun_s1",
+        "wzr_class_wazir_state_minister"
+      ],
+      "note": "Ministerial and ruler's-counselor applications."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45227:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_class_ministry"
+      ],
+      "note": "The office or condition of a minister."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45228:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_wazir_active_s1"
+      ],
+      "note": "Bearing or carrying a burden."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45228:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wzr_wazir_active_s1",
+        "wzr_class_wazir_sinning"
+      ],
+      "note": "Participial bearing of sin and the distinct reported sinning use."
+    },
+    {
+      "unit_id": "lane-unit:wzr:45229:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding participial entry."
+    }
+  ],
+  "cautions": [
+    "The verb is cited under the perfect form وَزَرَ; the supplied Quran occurrences are active imperfect forms يَزِرُ and تَزِرُ.",
+    "The active-participle entry is cited as وَازِر; all supplied Quran tokens are the feminine form وَازِرَةٌ in context.",
+    "The Quran-group assignment of أَوْزَار follows the supplied QAC identity under وِزْر. Classical evidence also records أَوْزَار as a plural associated with وَزِير, but that alternative is not used to reclassify these Quran occurrences."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

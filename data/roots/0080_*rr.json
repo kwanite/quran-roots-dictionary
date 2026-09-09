@@ -1,0 +1,449 @@
+{
+  "root": "*rr",
+  "arabic": "ذرر",
+  "root_idea": {
+    "summary": "The root centers on fineness joined with spreading or dispersal: minute particles, sprinkling, and things emerging in small dispersed forms.",
+    "development": "The semantic orientation extends from scattering salt, grain, or medicine to fine particles, dispersed light at sunrise, and the emergence of small shoots or parts. Some further usages are figurative or divergent extensions.",
+    "source_refs": [
+      "maqayis:row:1887",
+      "lane:entry:21382"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:*rr:*ar~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-dharrat",
+      "reason": "Distinct Quranic nominal citation form."
+    },
+    {
+      "form_group_id": "qac-form:*rr:*ur~iy~a`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-dhurriyya",
+      "reason": "Plural ذُرِّيَّات is presented under the normalized singular citation form ذُرِّيَّة."
+    },
+    {
+      "form_group_id": "qac-form:*rr:*ur~iy~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-dhurriyya",
+      "reason": "Normalized singular citation form for the Quranic offspring noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-dharrat",
+      "form_group_ids": [
+        "qac-form:*rr:*ar~ap:nominal:-"
+      ],
+      "headword_arabic": "ذَرَّة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "qs-dharrat-particle",
+          "definition": "An atom-sized particle, mote, or speck.",
+          "usage_conditions": "In Quranic expressions concerning the weight or effect of even the smallest amount, it denotes an exceedingly minute particle.",
+          "source_refs": [
+            "lane:entry:21385",
+            "mufradat:row:501"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "10:61",
+          "word_location": "10:61:27",
+          "sense_ids": [
+            "qs-dharrat-particle"
+          ]
+        },
+        {
+          "verse_key": "34:22",
+          "word_location": "34:22:11",
+          "sense_ids": [
+            "qs-dharrat-particle"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-dhurriyya",
+      "form_group_ids": [
+        "qac-form:*rr:*ur~iy~ap:nominal:-",
+        "qac-form:*rr:*ur~iy~a`t:nominal:-"
+      ],
+      "headword_arabic": "ذُرِّيَّة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 32,
+      "senses": [
+        {
+          "sense_id": "qs-dhurriyya-offspring",
+          "definition": "Offspring, children, or descendants.",
+          "usage_conditions": "A collective family term that can refer to a person's children or continuing progeny; the Quranic form occurs in both singular and plural morphology.",
+          "source_refs": [
+            "lane:entry:21390",
+            "mufradat:row:501"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:124",
+          "word_location": "2:124:14",
+          "sense_ids": [
+            "qs-dhurriyya-offspring"
+          ]
+        },
+        {
+          "verse_key": "25:74",
+          "word_location": "25:74:8",
+          "sense_ids": [
+            "qs-dhurriyya-offspring"
+          ]
+        },
+        {
+          "verse_key": "6:87",
+          "word_location": "6:87:3",
+          "sense_ids": [
+            "qs-dhurriyya-offspring"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-dharr-scatter",
+      "headword_arabic": "ذَرَّ",
+      "definition": "To sprinkle or scatter something, and to spread or disperse people or things.",
+      "usage_conditions": "Used of scattering salt, pepper, medicine, or grain; also of spreading people over the earth. The repeated-action noun ذَرْذَرَةٌ is likewise associated with this action.",
+      "source_refs": [
+        "lane:entry:21382"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharr-emerge",
+      "headword_arabic": "ذَرَّ",
+      "definition": "To emerge, come up, or begin to put forth a small part of itself.",
+      "usage_conditions": "Used of a plant coming up from the ground and of something such as a horn beginning to appear.",
+      "source_refs": [
+        "lane:entry:21382"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharr-sunrise",
+      "headword_arabic": "ذَرَّ",
+      "definition": "To rise, appear, or begin to rise, especially of the sun.",
+      "usage_conditions": "The expression describes the sun's rising and its light becoming visible.",
+      "source_refs": [
+        "lane:entry:21382"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharr-contract",
+      "headword_arabic": "ذَرَّ",
+      "definition": "For flesh to become contracted, shrunk, or wrinkled.",
+      "usage_conditions": "A bodily condition expressed as a specialized verbal usage.",
+      "source_refs": [
+        "lane:entry:21382"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharr-hoary",
+      "headword_arabic": "ذَرَّ",
+      "definition": "For the forepart of the head to become white or hoary.",
+      "usage_conditions": "Used of the whitening of the front part of a person's head.",
+      "source_refs": [
+        "lane:entry:21382"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharr-ants",
+      "headword_arabic": "ذَرٌّ",
+      "definition": "Young ants, including very small or small red ants.",
+      "usage_conditions": "The singular or unit noun is ذَرَّةٌ; this zoological meaning is distinct from the Quranic sense of ذَرَّة as a minute particle.",
+      "source_refs": [
+        "lane:entry:21385"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharur-medicament",
+      "headword_arabic": "ذَرُورٌ",
+      "definition": "A thing sprinkled, especially a dry medicament sprinkled into the eye or onto a wound or sore.",
+      "usage_conditions": "Also used for a kind of إثمد, an antimony-based eye cosmetic or medicament.",
+      "source_refs": [
+        "lane:entry:21386"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharara-sprinkled-particles",
+      "headword_arabic": "ذُرَارَةٌ",
+      "definition": "What falls about when perfume or another substance is sprinkled; a particle or sprinkling of such material.",
+      "usage_conditions": "Refers to the particles that fall from perfume, a dry medicament, or something else being scattered.",
+      "source_refs": [
+        "lane:entry:21387"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharira-perfume",
+      "headword_arabic": "ذَرِيرَةٌ",
+      "definition": "A kind of perfume, especially powdered calamus aromaticus.",
+      "usage_conditions": "The perfume is described as having particles from the aromatic reed; it is also reported as a mixed perfume.",
+      "source_refs": [
+        "lane:entry:21388"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharri-sword-marks",
+      "headword_arabic": "ذَرِّىٌّ",
+      "definition": "The diversified wavy marks, streaks, or grain of a sword; by extension, a sword bearing such marks.",
+      "usage_conditions": "The markings are likened to the tracks or appearance of young ants.",
+      "source_refs": [
+        "lane:entry:21389"
+      ]
+    },
+    {
+      "meaning_id": "cm-dhurriyya-ancestors",
+      "headword_arabic": "ذُرِّيَّةٌ",
+      "definition": "Progenitors or ancestors.",
+      "usage_conditions": "A broader Classical Arabic usage distinct from the Quranic offspring sense.",
+      "source_refs": [
+        "lane:entry:21390"
+      ]
+    },
+    {
+      "meaning_id": "cm-dhurriyya-women",
+      "headword_arabic": "ذُرِّيَّةٌ",
+      "definition": "Women.",
+      "usage_conditions": "A specialized Classical Arabic usage reported separately from the ordinary offspring sense.",
+      "source_refs": [
+        "lane:entry:21390"
+      ]
+    },
+    {
+      "meaning_id": "cm-midharra-grain-scatterer",
+      "headword_arabic": "مِذَرَّةٌ",
+      "definition": "An instrument used for scattering grain.",
+      "usage_conditions": "A tool named in relation to the act of scattering.",
+      "source_refs": [
+        "lane:entry:21391"
+      ]
+    },
+    {
+      "meaning_id": "cm-dharr-aversion",
+      "headword_arabic": "ذَارَّتْ / مُذَارٌّ",
+      "definition": "Of a she-camel, to be evil in disposition; in a person, anger-driven aversion or disapprobation.",
+      "usage_conditions": "The camel usage describes an irritable or hostile disposition, while the personal construction denotes anger and turning away. The form is discussed as ذَارَّتْ and مُذَارٌّ, with an etymological disagreement over its relation to ذَأَرَ.",
+      "source_refs": [
+        "lane:entry:21383",
+        "lane:entry:21392"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:*rr:21382:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-scatter"
+      ],
+      "note": "Sprinkling and scattering usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21382:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-scatter"
+      ],
+      "note": "Dispersal or spreading usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21382:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-emerge"
+      ],
+      "note": "Putting forth plants is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21382:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-emerge"
+      ],
+      "note": "Emergence of plants or a small part is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21382:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-sunrise"
+      ],
+      "note": "Rising or appearing of the sun is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21382:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-contract"
+      ],
+      "note": "Contraction or wrinkling of flesh is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21382:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-hoary"
+      ],
+      "note": "Whitening of the forepart of the head is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21383:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-aversion"
+      ],
+      "note": "The evil-tempered she-camel usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21383:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-aversion"
+      ],
+      "note": "Personal anger, aversion, and disapprobation are represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21384:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the first ذَرَّ sentence; no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21385:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qs-dharrat-particle",
+        "cm-dharr-ants"
+      ],
+      "note": "The particle or mote sense and the young-ants sense are both represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21385:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذُرِّيَّةٌ; no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21386:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharur-medicament"
+      ],
+      "note": "Sprinkled material and dry medicament are represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21386:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to ذَرِيرَةٌ; no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21387:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharara-sprinkled-particles"
+      ],
+      "note": "Falling particles of perfume or sprinkled material are represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21388:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharira-perfume"
+      ],
+      "note": "The specialized perfume meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21389:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharri-sword-marks"
+      ],
+      "note": "Wavy sword markings are represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21389:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharri-sword-marks"
+      ],
+      "note": "A sword bearing those markings is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21390:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qs-dhurriyya-offspring"
+      ],
+      "note": "Children and offspring are represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21390:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dhurriyya-ancestors"
+      ],
+      "note": "The ancestors usage is kept as Classical Arabic."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21390:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dhurriyya-women"
+      ],
+      "note": "The specialized women usage is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21390:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Number-use information only; it creates no independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21390:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural and orthographic information only."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21390:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to examples under ذَرَأَ; no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21391:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-midharra-grain-scatterer"
+      ],
+      "note": "The grain-scattering instrument is represented."
+    },
+    {
+      "unit_id": "lane-unit:*rr:21392:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dharr-aversion"
+      ],
+      "note": "The مُذَارٌّ she-camel usage is represented with its cross-referenced branch."
+    }
+  ],
+  "cautions": [
+    "The packet records an unresolved suggestion that ذُرِّيَّة may originally involve hamza; this artifact follows the canonical QAC root ذ ر ر.",
+    "The aversion branch has a reported etymological disagreement over whether it belongs with ذَرَّ or ذَأَرَ, but it is retained because it is directly included in the supplied lexical evidence."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

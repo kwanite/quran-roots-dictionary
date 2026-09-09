@@ -1,0 +1,374 @@
+{
+  "root": "ndw",
+  "arabic": "ندو",
+  "root_idea": {
+    "summary": "The root's central orientation is vocal emergence: a raised, perceptible voice becomes a call or summons, with related extensions to gathering and generosity.",
+    "development": "The supplied lexical discussion connects calling with moisture or dew: a moist mouth produces a clear, resonant voice. Calling then gives rise to terms for assemblies, where people gather, and figuratively to bounty or generosity.",
+    "source_refs": [
+      "mufradat:row:1425"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ndw:tanaAda:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ndw_tanada",
+      "reason": "Displayed as the normalized perfect citation form for the reciprocal calling verb."
+    },
+    {
+      "form_group_id": "qac-form:ndw:naAdaY`:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ndw_nada_iii",
+      "reason": "Displayed as the principal Quranic Form III verb."
+    },
+    {
+      "form_group_id": "qac-form:ndw:munaAd:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form_ndw_munadi",
+      "reason": "The inflected form مُنَادِ is the same active-participle lexeme as مُنَادِي; both are presented under the normalized citation form مُنَادٍ."
+    },
+    {
+      "form_group_id": "qac-form:ndw:munaAdiy:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ndw_munadi",
+      "reason": "Displayed with the corresponding مُنَادِ group under one normalized active-participle headword."
+    },
+    {
+      "form_group_id": "qac-form:ndw:naAdiy:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ndw_nadi_assembly",
+      "reason": "Displayed as the noun for an assembly, meeting place, or gathered company."
+    },
+    {
+      "form_group_id": "qac-form:ndw:nadiy~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ndw_nadiy",
+      "reason": "Displayed as the distinct noun نَدِيّ, used Quranically for an assembly."
+    },
+    {
+      "form_group_id": "qac-form:ndw:nidaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ndw_nida",
+      "reason": "Displayed as the verbal noun for calling or a call."
+    },
+    {
+      "form_group_id": "qac-form:ndw:t~anaAd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ndw_tanadi",
+      "reason": "Displayed as the verbal noun for mutual calling."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_ndw_tanada",
+      "form_group_ids": [
+        "qac-form:ndw:tanaAda:verb:I"
+      ],
+      "headword_arabic": "تَنَادَىٰ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_ndw_tanada_mutual_calling",
+          "definition": "To call out to one another.",
+          "usage_conditions": "The reciprocal construction presents calling as mutual or exchanged among the participants.",
+          "source_refs": [
+            "mufradat:row:1425"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "68:21",
+          "word_location": "68:21:1",
+          "sense_ids": [
+            "sense_ndw_tanada_mutual_calling"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ndw_nada_iii",
+      "form_group_ids": [
+        "qac-form:ndw:naAdaY`:verb:III"
+      ],
+      "headword_arabic": "نَادَىٰ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 44,
+      "senses": [
+        {
+          "sense_id": "sense_ndw_nada_raised_voice",
+          "definition": "To call out by raising the voice and making it heard.",
+          "usage_conditions": "This can involve a cry or vocal address; passive forms mean to be called or addressed.",
+          "source_refs": [
+            "mufradat:row:1425"
+          ]
+        },
+        {
+          "sense_id": "sense_ndw_nada_meaningful_summons",
+          "definition": "To call, address, or summon someone with an intelligible utterance; to call or invite to something.",
+          "usage_conditions": "The construction includes meaningful address, calling to prayer, and calling toward faith. Quranic wording may also describe a summons across a distance or a call directed to God.",
+          "source_refs": [
+            "mufradat:row:1425"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:24",
+          "word_location": "19:24:1",
+          "sense_ids": [
+            "sense_ndw_nada_raised_voice"
+          ]
+        },
+        {
+          "verse_key": "5:58",
+          "word_location": "5:58:2",
+          "sense_ids": [
+            "sense_ndw_nada_meaningful_summons"
+          ]
+        },
+        {
+          "verse_key": "41:44",
+          "word_location": "41:44:27",
+          "sense_ids": [
+            "sense_ndw_nada_meaningful_summons"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ndw_munadi",
+      "form_group_ids": [
+        "qac-form:ndw:munaAd:nominal:-",
+        "qac-form:ndw:munaAdiy:nominal:-"
+      ],
+      "headword_arabic": "مُنَادٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_ndw_munadi_caller",
+          "definition": "One who calls, summons, or announces; a caller or herald.",
+          "usage_conditions": "In the Quranic call to faith, the caller is interpreted broadly as the intellect, revealed Scripture, the sent messenger, and signs that make faith manifest and urge people toward it.",
+          "source_refs": [
+            "mufradat:row:1425"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:193",
+          "word_location": "3:193:4",
+          "sense_ids": [
+            "sense_ndw_munadi_caller"
+          ]
+        },
+        {
+          "verse_key": "50:41",
+          "word_location": "50:41:4",
+          "sense_ids": [
+            "sense_ndw_munadi_caller"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ndw_nadi_assembly",
+      "form_group_ids": [
+        "qac-form:ndw:naAdiy:nominal:-"
+      ],
+      "headword_arabic": "نَادِي",
+      "public_pos_label": "Noun · assembly",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_ndw_nadi_assembly",
+          "definition": "A gathering place, assembly, or the company gathered there.",
+          "usage_conditions": "The noun can designate the meeting place itself or the associates constituting the gathering.",
+          "source_refs": [
+            "mufradat:row:1425"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "29:29",
+          "word_location": "29:29:8",
+          "sense_ids": [
+            "sense_ndw_nadi_assembly"
+          ]
+        },
+        {
+          "verse_key": "96:17",
+          "word_location": "96:17:2",
+          "sense_ids": [
+            "sense_ndw_nadi_assembly"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ndw_nadiy",
+      "form_group_ids": [
+        "qac-form:ndw:nadiy~:nominal:-"
+      ],
+      "headword_arabic": "نَدِيّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_ndw_nadiy_assembly",
+          "definition": "An assembly or gathering.",
+          "usage_conditions": "A noun for a gathered company or meeting, within the lexical branch that also names a meeting place.",
+          "source_refs": [
+            "mufradat:row:1425"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:73",
+          "word_location": "19:73:16",
+          "sense_ids": [
+            "sense_ndw_nadiy_assembly"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ndw_nida",
+      "form_group_ids": [
+        "qac-form:ndw:nidaA^':nominal:-"
+      ],
+      "headword_arabic": "نِدَاء",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_ndw_nida_bare_sound",
+          "definition": "A raised, audible cry or sound.",
+          "usage_conditions": "This may refer to sound considered apart from the intelligible meaning conveyed by a composed utterance.",
+          "source_refs": [
+            "mufradat:row:1425"
+          ]
+        },
+        {
+          "sense_id": "sense_ndw_nida_meaningful_call",
+          "definition": "A call, address, or summons conveying an understood meaning.",
+          "usage_conditions": "This includes a call directed to God and the established call to prayer; in Quranic rhetoric, calling language can highlight distance from guidance or truth.",
+          "source_refs": [
+            "mufradat:row:1425"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:171",
+          "word_location": "2:171:12",
+          "sense_ids": [
+            "sense_ndw_nida_bare_sound"
+          ]
+        },
+        {
+          "verse_key": "19:3",
+          "word_location": "19:3:4",
+          "sense_ids": [
+            "sense_ndw_nida_meaningful_call"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ndw_tanadi",
+      "form_group_ids": [
+        "qac-form:ndw:t~anaAd:nominal:-"
+      ],
+      "headword_arabic": "تَنَادٍ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_ndw_tanadi_mutual_calling",
+          "definition": "Mutual calling or calling one another.",
+          "usage_conditions": "The verbal noun denotes an exchange of calls among participants rather than a one-sided summons.",
+          "source_refs": [
+            "mufradat:row:1425"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "40:32",
+          "word_location": "40:32:6",
+          "sense_ids": [
+            "sense_ndw_tanadi_mutual_calling"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_ndw_nada_moisture",
+      "headword_arabic": "نَدًى",
+      "definition": "Moisture, dew, or wetness.",
+      "usage_conditions": "The lexical discussion also associates the name with trees by their relation to moisture.",
+      "source_refs": [
+        "mufradat:row:1425"
+      ]
+    },
+    {
+      "meaning_id": "cm_ndw_nadiy_voice",
+      "headword_arabic": "نَدِيّ",
+      "definition": "Of a voice: clear, resonant, and high.",
+      "usage_conditions": "This adjectival use is distinct from the Quranic noun نَدِيّ meaning an assembly.",
+      "source_refs": [
+        "mufradat:row:1425"
+      ]
+    },
+    {
+      "meaning_id": "cm_ndw_nada_generosity",
+      "headword_arabic": "نَدًى",
+      "definition": "Generosity, bounty, or open-handedness.",
+      "usage_conditions": "It may describe bounty received from someone, as in the expression meaning that one received no generosity from him.",
+      "source_refs": [
+        "mufradat:row:1425"
+      ]
+    },
+    {
+      "meaning_id": "cm_ndw_tanadda_generosity",
+      "headword_arabic": "تَنَدَّى",
+      "definition": "To act generously or lavishly toward one's companions.",
+      "usage_conditions": "A derived construction describing the exercise of generosity toward associates.",
+      "source_refs": [
+        "mufradat:row:1425"
+      ]
+    },
+    {
+      "meaning_id": "cm_ndw_mundiyat_words",
+      "headword_arabic": "مُنْدِيَاتُ الكَلِم",
+      "definition": "Shameful or exposing words that bring disgrace and become known.",
+      "usage_conditions": "A fixed lexical expression for words whose revelation is humiliating.",
+      "source_refs": [
+        "mufradat:row:1425"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [],
+  "cautions": [
+    "No Lane primary evidence or Maqayis entry matched this root in the supplied packet; broader coverage is therefore limited to the supplied Mufradat discussion.",
+    "The QAC morphology for نَادِي is tagged as an active participle, but its lexical evidence and Quranic contexts support the noun meaning “assembly” or “associates,” so it is presented as a noun.",
+    "The distance-from-guidance interpretation associated with some Quranic calls is retained as a usage nuance under calling and summons, not as an independent basic lexical meaning."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "No Lane primary source units or Maqayis entries were supplied, so any additional Classical branches or an independently documented root principle beyond the supplied Mufradat evidence cannot be assessed."
+  ]
+}

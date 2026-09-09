@@ -1,0 +1,136 @@
+{
+  "root": "wdq",
+  "arabic": "ودق",
+  "root_idea": {
+    "summary": "A semantic orientation of coming to, approaching, and becoming familiar or at ease with someone or something.",
+    "development": "The lexical field extends from approach and familiarity to a place of arrival or stopping, while rain is understood as what comes from the sky. Specialized branches also describe an animal's sexual receptivity and red spots in the eye.",
+    "source_refs": [
+      "maqayis:row:5067",
+      "mufradat:row:1564"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wdq:wadoq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf_wdq_wadq",
+      "reason": "The Quranic noun is a distinct lexical item and is presented under its normalized citation form وَدْقٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf_wdq_wadq",
+      "form_group_ids": [
+        "qac-form:wdq:wadoq:nominal:-"
+      ],
+      "headword_arabic": "وَدْقٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf_wdq_wadq_s1",
+          "definition": "Rain; the rain or rain-like precipitation seen issuing through cloud layers.",
+          "usage_conditions": "In the Quran, the word denotes rain generally, including rain described as gentle or violent. In 24:43 it refers to the precipitation seen emerging from within the clouds.",
+          "source_refs": [
+            "lane:entry:30433",
+            "lane:entry:30435",
+            "mufradat:row:1564"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:43",
+          "word_location": "24:43:14",
+          "sense_ids": [
+            "qf_wdq_wadq_s1"
+          ]
+        },
+        {
+          "verse_key": "30:48",
+          "word_location": "30:48:15",
+          "sense_ids": [
+            "qf_wdq_wadq_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl_wdq_familiarity",
+      "headword_arabic": "وَدَقَ بِهِ",
+      "definition": "To become familiar or at ease with someone; to approach someone in companionship.",
+      "usage_conditions": "A classical verbal usage expressing approach accompanied by familiarity or comfort.",
+      "source_refs": [
+        "maqayis:row:5067"
+      ]
+    },
+    {
+      "meaning_id": "cl_mawdiq_place",
+      "headword_arabic": "المَوْدِقُ",
+      "definition": "A place of approach, arrival, or stopping; also, a place where rain falls.",
+      "usage_conditions": "The term can denote a station where one or an animal comes and stands, as well as the place in which rain occurs.",
+      "source_refs": [
+        "maqayis:row:5067",
+        "mufradat:row:1564"
+      ]
+    },
+    {
+      "meaning_id": "cl_wadiq_animal",
+      "headword_arabic": "وَدِيقٌ / وَدُوقٌ",
+      "definition": "Of a female animal, sexually receptive and showing moisture when seeking a male.",
+      "usage_conditions": "An animal-specific expression for readiness to mate, also associated with the verbs وَدَقَتْ and اسْتَوْدَقَتْ.",
+      "source_refs": [
+        "mufradat:row:1564"
+      ]
+    },
+    {
+      "meaning_id": "cl_wadiqa_heat_haze",
+      "headword_arabic": "وَدِيقَةٌ",
+      "definition": "A haze or dust-like appearance in the air during intense heat.",
+      "usage_conditions": "A specialized term for what becomes visible in the heated air.",
+      "source_refs": [
+        "mufradat:row:1564"
+      ]
+    },
+    {
+      "meaning_id": "cl_wdq_eye_spots",
+      "headword_arabic": "وَدَقٌ",
+      "definition": "Red spots appearing in the eye.",
+      "usage_conditions": "A separate, anomalous lexical branch; the singular is وَدَقَةٌ.",
+      "source_refs": [
+        "maqayis:row:5067"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wdq:30433:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf_wdq_wadq_s1"
+      ],
+      "note": "Rain, including gentle or violent rain, is covered by the Quranic rain sense."
+    },
+    {
+      "unit_id": "lane-unit:wdq:30434:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference; this unit supplies no lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:wdq:30435:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf_wdq_wadq_s1"
+      ],
+      "note": "Its identification of الوَدْق as violent rain is covered by the Quranic rain sense."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrences have the inflected surface form وَدْقَ; the public headword is normalized to the citation form وَدْقٌ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

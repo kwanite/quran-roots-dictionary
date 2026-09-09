@@ -1,0 +1,160 @@
+{
+  "root": "jyb",
+  "arabic": "جيب",
+  "root_idea": {
+    "summary": "An opening made by piercing or hollowing, especially the opening of a shirt or similar garment.",
+    "development": "The root is connected with making an opening or cavity, possibly through an underlying wāw alternation. From this developed the garment opening and related derived usages.",
+    "source_refs": [
+      "maqayis:row:1266"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jyb:jayob:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jyb_jayb",
+      "reason": "Displayed under the normalized singular noun citation form جَيْبٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "jyb_jayb",
+      "form_group_ids": [
+        "qac-form:jyb:jayob:nominal:-"
+      ],
+      "headword_arabic": "جَيْبٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "jyb_jayb_s1",
+          "definition": "An opening in a garment, especially the opening at the neck or upper breast—the bosom opening.",
+          "usage_conditions": "The Quranic occurrences use inflected singular and plural forms for a garment opening. The plural occurs in 24:31, while the singular occurs in the construction “your jayb” in 27:12 and 28:32.",
+          "source_refs": [
+            "lane:entry:47880",
+            "mufradat:row:282"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:31",
+          "word_location": "24:31:18",
+          "sense_ids": [
+            "jyb_jayb_s1"
+          ]
+        },
+        {
+          "verse_key": "27:12",
+          "word_location": "27:12:4",
+          "sense_ids": [
+            "jyb_jayb_s1"
+          ]
+        },
+        {
+          "verse_key": "28:32",
+          "word_location": "28:32:4",
+          "sense_ids": [
+            "jyb_jayb_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "jyb_pocket",
+      "headword_arabic": "جَيْبٌ",
+      "definition": "A pocket or receptacle in a shirt or similar garment.",
+      "usage_conditions": "An extended application arising from the practice of carrying things within the bosom or opening of a garment.",
+      "source_refs": [
+        "lane:entry:47880"
+      ]
+    },
+    {
+      "meaning_id": "jyb_heart_bosom",
+      "headword_arabic": "جَيْبٌ",
+      "definition": "The heart or inner bosom, figuratively; hence the seat of sincerity, trustworthiness, or foul character.",
+      "usage_conditions": "Used in metaphorical expressions describing the moral or inward state of a person.",
+      "source_refs": [
+        "lane:entry:47880"
+      ]
+    },
+    {
+      "meaning_id": "jyb_land_entrance",
+      "headword_arabic": "جَيْبُ الأَرْضِ",
+      "definition": "The entrance or access-way of a land or country.",
+      "usage_conditions": "A specialized figurative application, with a plural جُيُوبٌ also reported.",
+      "source_refs": [
+        "lane:entry:47880"
+      ]
+    },
+    {
+      "meaning_id": "jyb_hollowed_sapphire",
+      "headword_arabic": "مُجَيَّبٌ",
+      "definition": "Hollowed or excavated, specifically of a sapphire in a reported traditional expression.",
+      "usage_conditions": "A specialized passive-participial usage; variant readings of the expression are reported.",
+      "source_refs": [
+        "lane:entry:47882"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jyb:47878:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another article."
+    },
+    {
+      "unit_id": "lane-unit:jyb:47879:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another article."
+    },
+    {
+      "unit_id": "lane-unit:jyb:47880:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jyb_jayb_s1",
+        "jyb_pocket"
+      ],
+      "note": "Covers the garment opening and its extended pocket application."
+    },
+    {
+      "unit_id": "lane-unit:jyb:47880:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jyb_heart_bosom"
+      ],
+      "note": "Covers the figurative heart or inner-bosom sense."
+    },
+    {
+      "unit_id": "lane-unit:jyb:47880:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jyb_land_entrance"
+      ],
+      "note": "Covers the entrance of a land or country."
+    },
+    {
+      "unit_id": "lane-unit:jyb:47881:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another article."
+    },
+    {
+      "unit_id": "lane-unit:jyb:47882:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jyb_hollowed_sapphire"
+      ],
+      "note": "Defines the specialized derived-form usage meaning hollowed."
+    }
+  ],
+  "cautions": [
+    "The contextual gloss “bosom” is treated here as a rendering of the Quranic garment opening; the figurative heart or inner-bosom sense is separately attested as a broader Classical Arabic usage."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

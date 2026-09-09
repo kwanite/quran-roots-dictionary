@@ -1,0 +1,255 @@
+{
+  "root": "nml",
+  "arabic": "نمل",
+  "root_idea": {
+    "summary": "The root is oriented toward gathering or aggregation together with smallness and lightness.",
+    "development": "From the image of small, lightly moving creatures gathered together, the lexicon develops related uses for ants, ant-affected food, light-footedness, spreading sores, and the fingertips.",
+    "source_refs": [
+      "maqayis:row:4761",
+      "mufradat:row:1490"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nml:>anaAmil:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nml-unmula",
+      "reason": "The Quranic plural أَنَامِل is presented under the supported singular citation form أُنْمُلَة."
+    },
+    {
+      "form_group_id": "qac-form:nml:namolap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nml-namla",
+      "reason": "This is the Quranic singular noun نَمْلَة, distinct from the plural/collective نَمْل."
+    },
+    {
+      "form_group_id": "qac-form:nml:n~amol:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nml-naml",
+      "reason": "نَمْل is a supported plural or collective noun and is retained as its own dictionary form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nml-unmula",
+      "form_group_ids": [
+        "qac-form:nml:>anaAmil:nominal:-"
+      ],
+      "headword_arabic": "أُنْمُلَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nml-unmula-s1",
+          "definition": "Fingertip; the terminal part or nail-bearing joint of a finger.",
+          "usage_conditions": "The Quranic form is the plural أَنَامِل, referring to the fingertips.",
+          "source_refs": [
+            "lane:entry:32425",
+            "mufradat:row:1490"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:119",
+          "word_location": "3:119:17",
+          "sense_ids": [
+            "nml-unmula-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nml-namla",
+      "form_group_ids": [
+        "qac-form:nml:namolap:nominal:-"
+      ],
+      "headword_arabic": "نَمْلَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nml-namla-s1",
+          "definition": "An ant.",
+          "usage_conditions": "Singular noun; in the Quranic passage, it denotes the individual ant addressing the other ants.",
+          "source_refs": [
+            "mufradat:row:1490"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:18",
+          "word_location": "27:18:8",
+          "sense_ids": [
+            "nml-namla-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nml-naml",
+      "form_group_ids": [
+        "qac-form:nml:n~amol:nominal:-"
+      ],
+      "headword_arabic": "نَمْل",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "nml-naml-s1",
+          "definition": "Ants; the plural or collective designation of the ant.",
+          "usage_conditions": "Plural or collective noun, explicitly treated as the plural of نَمْلَة; the Quran uses its genitive and nominative forms in 27:18.",
+          "source_refs": [
+            "mufradat:row:1490"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:18",
+          "word_location": "27:18:6",
+          "sense_ids": [
+            "nml-naml-s1"
+          ]
+        },
+        {
+          "verse_key": "27:18",
+          "word_location": "27:18:10",
+          "sense_ids": [
+            "nml-naml-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nml-c-nammala-thawb",
+      "headword_arabic": "نَمَّلَ الثَّوْبَ",
+      "definition": "To mend a garment.",
+      "usage_conditions": "Form II transitive construction.",
+      "source_refs": [
+        "lane:entry:32422"
+      ]
+    },
+    {
+      "meaning_id": "nml-c-tanammul-formication",
+      "headword_arabic": "تَنَمُّلٌ",
+      "definition": "Formication: a tingling, stinging, or prickling sensation.",
+      "usage_conditions": "The cited lexical example is the sensation associated with a torpedo fish.",
+      "source_refs": [
+        "lane:entry:32423"
+      ]
+    },
+    {
+      "meaning_id": "nml-c-naml-sulayman",
+      "headword_arabic": "نَمْلُ سُلَيْمَانَ",
+      "definition": "Red ants.",
+      "usage_conditions": "A conventional expression referring to red ants.",
+      "source_refs": [
+        "lane:entry:32424"
+      ]
+    },
+    {
+      "meaning_id": "nml-c-food-munmul",
+      "headword_arabic": "طَعَامٌ مَنْمُولٌ",
+      "definition": "Food into which ants have entered or which has been affected by ants.",
+      "usage_conditions": "Used in the expression طَعَامٌ مَنْمُولٌ.",
+      "source_refs": [
+        "maqayis:row:4761",
+        "mufradat:row:1490"
+      ]
+    },
+    {
+      "meaning_id": "nml-c-side-sore",
+      "headword_arabic": "نَمْلَة",
+      "definition": "A sore appearing on the side, named by resemblance to an ant in its appearance and spreading.",
+      "usage_conditions": "A distinct medical or bodily use of نَمْلَة, not the insect.",
+      "source_refs": [
+        "maqayis:row:4761",
+        "mufradat:row:1490"
+      ]
+    },
+    {
+      "meaning_id": "nml-c-hoof-crack",
+      "headword_arabic": "نَمْلَة",
+      "definition": "A crack in a horse’s hoof.",
+      "usage_conditions": "A distinct equine use of نَمْلَة.",
+      "source_refs": [
+        "maqayis:row:4761",
+        "mufradat:row:1490"
+      ]
+    },
+    {
+      "meaning_id": "nml-c-light-footed-horse",
+      "headword_arabic": "فَرَسٌ نَمِلُ القَوَائِمِ",
+      "definition": "Light-footed or light in the legs, said of a horse.",
+      "usage_conditions": "Used in the construction فَرَسٌ نَمِلُ القَوَائِمِ, by comparison with the light movement of ants.",
+      "source_refs": [
+        "maqayis:row:4761",
+        "mufradat:row:1490"
+      ]
+    },
+    {
+      "meaning_id": "nml-c-talebearing",
+      "headword_arabic": "نَمِلٌ / ذُو نَمْلَةٍ / نَمَّالٌ",
+      "definition": "Talebearing or gossip; a talebearer.",
+      "usage_conditions": "A figurative use based on the creeping or spreading movement associated with ants; the cited forms include نَمِلٌ, ذُو نَمْلَةٍ, and نَمَّالٌ.",
+      "source_refs": [
+        "maqayis:row:4761",
+        "mufradat:row:1490"
+      ]
+    },
+    {
+      "meaning_id": "nml-c-tanammul-dispersal",
+      "headword_arabic": "تَنَمَّلَ القَوْمُ",
+      "definition": "To disperse among people in order to gather, like ants spreading out.",
+      "usage_conditions": "A conventional figurative construction describing a group’s dispersal for gathering.",
+      "source_refs": [
+        "mufradat:row:1490"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nml:32422:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nml-c-nammala-thawb"
+      ],
+      "note": "Form II garment-mending use."
+    },
+    {
+      "unit_id": "lane-unit:nml:32423:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nml-c-tanammul-formication"
+      ],
+      "note": "Form V formication or stinging use."
+    },
+    {
+      "unit_id": "lane-unit:nml:32424:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nml-c-naml-sulayman"
+      ],
+      "note": "Expression for red ants."
+    },
+    {
+      "unit_id": "lane-unit:nml:32425:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nml-unmula-s1"
+      ],
+      "note": "Fingertip and terminal finger-joint meaning represented by the Quranic plural."
+    }
+  ],
+  "cautions": [
+    "The Quranic form أَنَامِل is presented under the normalized singular citation form أُنْمُلَة; the supplied Lane evidence also records the variant spelling أَنْمَلَة."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

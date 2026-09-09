@@ -1,0 +1,770 @@
+{
+  "root": "sjr",
+  "arabic": "سجر",
+  "root_idea": {
+    "summary": "The root centers on three semantic orientations: filling or overflowing, mixing or intermingling, and kindling or ignition.",
+    "development": "From these orientations, Classical Arabic develops usages for filled waters and vessels, flowing or hanging things, companionship and mixed coloration, and the heating or kindling of fire.",
+    "source_refs": [
+      "maqayis:row:2361"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:sjr:yusojaru:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_sjr_I",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:sjr:suj~irato:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_sjr_II",
+      "reason": "Displayed under the normalized Form II perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:sjr:masojuwr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_masjur",
+      "reason": "Displayed under the singular passive-participle citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_sjr_I",
+      "form_group_ids": [
+        "qac-form:sjr:yusojaru:verb:I"
+      ],
+      "headword_arabic": "سَجَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_sjr_I_s1",
+          "definition": "To be kindled or burned in fire.",
+          "usage_conditions": "Quranic passive use describing people being subjected to fire; the form is passive and imperfect in its attested occurrence.",
+          "source_refs": [
+            "lane:entry:40250",
+            "mufradat:row:662"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "40:72",
+          "word_location": "40:72:6",
+          "sense_ids": [
+            "qform_sjr_I_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_sjr_II",
+      "form_group_ids": [
+        "qac-form:sjr:suj~irato:verb:II"
+      ],
+      "headword_arabic": "سَجَّرَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_sjr_II_s1",
+          "definition": "To fill, cause to overflow, or make water flow together into one body.",
+          "usage_conditions": "In the passive Quranic construction concerning the seas, this supports readings in which the seas are filled, overflow, or flow together and become one sea.",
+          "source_refs": [
+            "lane:entry:40250",
+            "lane:entry:40251"
+          ]
+        },
+        {
+          "sense_id": "qform_sjr_II_s2",
+          "definition": "To kindle, set ablaze, or turn into fire.",
+          "usage_conditions": "In the passive Quranic construction concerning the seas, this supports readings in which they are kindled, dried up through fire, or become fire.",
+          "source_refs": [
+            "lane:entry:40250",
+            "mufradat:row:662"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "81:6",
+          "word_location": "81:6:3",
+          "sense_ids": [
+            "qform_sjr_II_s1",
+            "qform_sjr_II_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_masjur",
+      "form_group_ids": [
+        "qac-form:sjr:masojuwr:nominal:-"
+      ],
+      "headword_arabic": "مَسْجُورٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_masjur_s1",
+          "definition": "Filled or full, especially describing a sea or body of water.",
+          "usage_conditions": "Quranic passive-participle use describing the sea; the expression is also associated with readings of overflowing or being filled to capacity.",
+          "source_refs": [
+            "lane:entry:40265"
+          ]
+        },
+        {
+          "sense_id": "qform_masjur_s2",
+          "definition": "Filled with fire; kindled or ablaze.",
+          "usage_conditions": "A Quran-attested interpretation of the sea expression connects the participle with kindling and fire rather than water alone.",
+          "source_refs": [
+            "lane:entry:40265",
+            "mufradat:row:662"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "52:6",
+          "word_location": "52:6:2",
+          "sense_ids": [
+            "qform_masjur_s1",
+            "qform_masjur_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_sjr_fill",
+      "headword_arabic": "سَجَرَ",
+      "definition": "To fill a river, channel, well, or vessel with water.",
+      "usage_conditions": "Used transitively of water filling a container or watercourse; the torrent may be the filling agent.",
+      "source_refs": [
+        "lane:entry:40250"
+      ]
+    },
+    {
+      "meaning_id": "cm_sjr_pour",
+      "headword_arabic": "سَجَرَ",
+      "definition": "To pour water into the throat.",
+      "usage_conditions": "A fixed transitive construction referring to forcing or pouring liquid into someone's throat.",
+      "source_refs": [
+        "lane:entry:40250"
+      ]
+    },
+    {
+      "meaning_id": "cm_sjr_oven",
+      "headword_arabic": "سَجَرَ",
+      "definition": "To heat an oven, kindle a fire in it, or fill it with fuel; also to tend or stir its fuel.",
+      "usage_conditions": "Used with an oven or its fuel and with the implement used to stir the fuel.",
+      "source_refs": [
+        "lane:entry:40250"
+      ]
+    },
+    {
+      "meaning_id": "cm_sjr_camelcry",
+      "headword_arabic": "سَجَرَتِ النَّاقَةُ",
+      "definition": "Of a she-camel, to emit a prolonged yearning cry and fill her mouth with it.",
+      "usage_conditions": "A figurative or specialized animal usage associated with intense yearning for the young.",
+      "source_refs": [
+        "lane:entry:40250"
+      ]
+    },
+    {
+      "meaning_id": "cm_sjr_hanghair",
+      "headword_arabic": "سَجَرَ",
+      "definition": "To make hair or similar material hang down.",
+      "usage_conditions": "A causative usage describing the arrangement or falling of hair.",
+      "source_refs": [
+        "lane:entry:40250"
+      ]
+    },
+    {
+      "meaning_id": "cm_sjr_dogcollarverb",
+      "headword_arabic": "سَجَرَ",
+      "definition": "To put a collar or neck-piece on a dog, or bind the dog with one.",
+      "usage_conditions": "Used with the dog-collar called سَاجُور.",
+      "source_refs": [
+        "lane:entry:40250"
+      ]
+    },
+    {
+      "meaning_id": "cm_sajir_friendverb",
+      "headword_arabic": "سَاجَرَ",
+      "definition": "To associate or interact with someone as a friend, or mix and hold intercourse with him.",
+      "usage_conditions": "A figurative Form III usage derived from the imagery of mutual yearning and association.",
+      "source_refs": [
+        "lane:entry:40252"
+      ]
+    },
+    {
+      "meaning_id": "cm_insjar_full",
+      "headword_arabic": "اِنْسَجَرَ",
+      "definition": "To become full, especially of a vessel.",
+      "usage_conditions": "Intransitive usage describing a vessel reaching fullness.",
+      "source_refs": [
+        "lane:entry:40253"
+      ]
+    },
+    {
+      "meaning_id": "cm_insjar_hair",
+      "headword_arabic": "اِنْسَجَرَ",
+      "definition": "Of hair, to hang down.",
+      "usage_conditions": "Intransitive usage describing hair falling or extending downward.",
+      "source_refs": [
+        "lane:entry:40253"
+      ]
+    },
+    {
+      "meaning_id": "cm_insjar_camels",
+      "headword_arabic": "اِنْسَجَرَتِ الإِبِلُ",
+      "definition": "Of camels, to proceed in an uninterrupted series, or to advance and hasten.",
+      "usage_conditions": "Used of continuous, energetic movement in a line or succession.",
+      "source_refs": [
+        "lane:entry:40253"
+      ]
+    },
+    {
+      "meaning_id": "cm_sajar_turbidity",
+      "headword_arabic": "سَجَرٌ",
+      "definition": "Turbidness or dinginess; in the eye, a reddish or otherwise mixed discoloration.",
+      "usage_conditions": "The eye usage covers an intermixture of redness or a dingy tinge in the white or dark part of the eye.",
+      "source_refs": [
+        "lane:entry:40255"
+      ]
+    },
+    {
+      "meaning_id": "cm_sujra_rainwater",
+      "headword_arabic": "سُجْرَةٌ",
+      "definition": "Rainwater collected in and filling a natural depression; also a rain-filled depression.",
+      "usage_conditions": "The plural is سُجَرٌ.",
+      "source_refs": [
+        "lane:entry:40256"
+      ]
+    },
+    {
+      "meaning_id": "cm_sujurr_well",
+      "headword_arabic": "سُجُرٌّ",
+      "definition": "Full, of a well.",
+      "usage_conditions": "Used in the expression بِئْرٌ سُجُرٌّ.",
+      "source_refs": [
+        "lane:entry:40257"
+      ]
+    },
+    {
+      "meaning_id": "cm_sajur_fuel",
+      "headword_arabic": "سَجُورٌ",
+      "definition": "Fuel used to heat an oven.",
+      "usage_conditions": "Refers to the fuel or wood by which a tannūr is heated.",
+      "source_refs": [
+        "lane:entry:40258"
+      ]
+    },
+    {
+      "meaning_id": "cm_sajir_friendnoun",
+      "headword_arabic": "سَجِيرٌ",
+      "definition": "A friend, close companion, or sincere associate.",
+      "usage_conditions": "The plural is سُجَرَاءُ; the meaning is figuratively connected with mutual yearning and affection.",
+      "source_refs": [
+        "lane:entry:40259"
+      ]
+    },
+    {
+      "meaning_id": "cm_sajir_sword",
+      "headword_arabic": "سَجِيرٌ",
+      "definition": "A sword.",
+      "usage_conditions": "A rare, expressly figurative or assumed-tropical usage.",
+      "source_refs": [
+        "lane:entry:40259"
+      ]
+    },
+    {
+      "meaning_id": "cm_sajir_torrent",
+      "headword_arabic": "سَاجِرٌ",
+      "definition": "A torrent that fills everything, or a place reached and filled by a torrent.",
+      "usage_conditions": "The second use is a possessive or passive-like epithet for the place overrun by floodwater.",
+      "source_refs": [
+        "lane:entry:40260"
+      ]
+    },
+    {
+      "meaning_id": "cm_sajur_collar",
+      "headword_arabic": "سَاجُورٌ",
+      "definition": "A wooden neck-piece, or an iron collar or ring, put on a dog's neck.",
+      "usage_conditions": "The plural forms include سَوَاجِيرُ and سَوَاجِرُ; the word may denote either the material or the collar itself.",
+      "source_refs": [
+        "lane:entry:40261"
+      ]
+    },
+    {
+      "meaning_id": "cm_asjar_water",
+      "headword_arabic": "أَسْجَرُ",
+      "definition": "Turbid, muddy, or reddish, of a pool, rainwater, or drop.",
+      "usage_conditions": "The description includes water with mud or redness that has not yet cleared.",
+      "source_refs": [
+        "lane:entry:40262"
+      ]
+    },
+    {
+      "meaning_id": "cm_asjar_eye",
+      "headword_arabic": "أَسْجَرُ",
+      "definition": "Having the white of the eye intermixed with redness.",
+      "usage_conditions": "The feminine form سَجْرَاءُ is used with an eye or similar feminine noun.",
+      "source_refs": [
+        "lane:entry:40262"
+      ]
+    },
+    {
+      "meaning_id": "cm_misjara_stick",
+      "headword_arabic": "مِسْجَرَةٌ",
+      "definition": "A wooden stick used to stir or tend fuel in an oven.",
+      "usage_conditions": "A related instrumental form is مِسْجَرٌ.",
+      "source_refs": [
+        "lane:entry:40264"
+      ]
+    },
+    {
+      "meaning_id": "cm_masjur_eye_full",
+      "headword_arabic": "مَسْجُورٌ",
+      "definition": "Full or well-filled, of an eye, spring, or source.",
+      "usage_conditions": "This is a Classical use distinct from the Quranic sea expression.",
+      "source_refs": [
+        "lane:entry:40265"
+      ]
+    },
+    {
+      "meaning_id": "cm_masjur_milk",
+      "headword_arabic": "مَسْجُورٌ",
+      "definition": "Containing more water than milk.",
+      "usage_conditions": "Used of milk diluted so that the water predominates over the milk itself.",
+      "source_refs": [
+        "lane:entry:40265"
+      ]
+    },
+    {
+      "meaning_id": "cm_masjur_flow",
+      "headword_arabic": "مَسْجُورٌ",
+      "definition": "Made to flow forth.",
+      "usage_conditions": "A passive-participle use describing something caused to flow or pour out.",
+      "source_refs": [
+        "lane:entry:40265"
+      ]
+    },
+    {
+      "meaning_id": "cm_masjur_empty",
+      "headword_arabic": "مَسْجُورٌ",
+      "definition": "Empty or drained.",
+      "usage_conditions": "A rare contrary meaning, explicitly reported alongside the sense of being filled.",
+      "source_refs": [
+        "lane:entry:40265"
+      ]
+    },
+    {
+      "meaning_id": "cm_masjur_still",
+      "headword_arabic": "مَسْجُورٌ",
+      "definition": "Still or quiet; in some usage, still and full at the same time.",
+      "usage_conditions": "A specialized descriptive use whose combination of stillness and fullness is retained where stated.",
+      "source_refs": [
+        "lane:entry:40265"
+      ]
+    },
+    {
+      "meaning_id": "cm_masjur_pearls",
+      "headword_arabic": "مَسْجُورٌ",
+      "definition": "Of pearls, strung and hanging down, or fallen and scattered from their string.",
+      "usage_conditions": "The meaning is applied to pearls in relation to their string or their dispersal from it.",
+      "source_refs": [
+        "lane:entry:40265"
+      ]
+    },
+    {
+      "meaning_id": "cm_masjur_pearl",
+      "headword_arabic": "مَسْجُورٌ",
+      "definition": "Highly brilliant, of a pearl.",
+      "usage_conditions": "Used of a single pearl as a specialized descriptive expression.",
+      "source_refs": [
+        "lane:entry:40265"
+      ]
+    },
+    {
+      "meaning_id": "cm_masjur_hair",
+      "headword_arabic": "مَسْجُورٌ",
+      "definition": "Hanging down, of hair.",
+      "usage_conditions": "A passive-participle description of hair arranged or falling downward.",
+      "source_refs": [
+        "lane:entry:40265"
+      ]
+    },
+    {
+      "meaning_id": "cm_masjur_dog",
+      "headword_arabic": "مَسْجُورٌ",
+      "definition": "Having a dog-collar or neck-piece attached.",
+      "usage_conditions": "Used of a dog bearing a سَاجُور.",
+      "source_refs": [
+        "lane:entry:40265"
+      ]
+    },
+    {
+      "meaning_id": "cm_musajjar_dried",
+      "headword_arabic": "مُسَجَّرٌ",
+      "definition": "Dried up, of water that has sunk into the ground.",
+      "usage_conditions": "A specialized passive-participle usage describing water no longer remaining on the surface.",
+      "source_refs": [
+        "lane:entry:40266"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:sjr:40250:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sjr_fill",
+        "qform_sjr_II_s1"
+      ],
+      "note": "Filling and the Quranic filling, overflowing, and confluence readings are covered."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40250:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sjr_pour"
+      ],
+      "note": "The throat-pouring construction is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40250:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sjr_oven",
+        "qform_sjr_I_s1",
+        "qform_sjr_II_s2"
+      ],
+      "note": "Oven-kindling and the Quranic kindling branch are covered."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40250:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sjr_camelcry"
+      ],
+      "note": "The camel's intense yearning cry is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40250:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sjr_hanghair"
+      ],
+      "note": "Making hair hang down is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40250:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sjr_dogcollarverb"
+      ],
+      "note": "The dog-collaring verb is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40251:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform_sjr_II_s1"
+      ],
+      "note": "Causing water to flow is covered by the Form II Quranic water-flow sense."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40251:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40252:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sajir_friendverb"
+      ],
+      "note": "The Form III association and intercourse usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40253:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_insjar_full"
+      ],
+      "note": "The vessel becoming full is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40253:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_insjar_hair"
+      ],
+      "note": "Hair hanging down is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40253:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_insjar_camels"
+      ],
+      "note": "The camels' continuous or hastened advance is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40254:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to material located under another entry."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40255:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sajar_turbidity"
+      ],
+      "note": "Turbidity and mixed eye coloration are represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40256:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40256:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sujra_rainwater"
+      ],
+      "note": "The rain-filled depression usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40257:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sujurr_well"
+      ],
+      "note": "A full well is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40258:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sajur_fuel"
+      ],
+      "note": "Oven fuel is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40259:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sajir_friendnoun"
+      ],
+      "note": "The friend or sincere companion noun is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40259:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sajir_sword"
+      ],
+      "note": "The rare sword usage is retained."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40260:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sajir_torrent"
+      ],
+      "note": "The torrent that fills everything is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40260:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sajir_torrent"
+      ],
+      "note": "The place filled by a torrent is included in the same lexical entry."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40260:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40261:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_sajur_collar"
+      ],
+      "note": "The dog collar or neck-piece is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40262:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asjar_water"
+      ],
+      "note": "The turbid or reddish pool and water adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40262:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asjar_eye"
+      ],
+      "note": "The eye-coloration adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40262:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asjar_eye"
+      ],
+      "note": "The red-mixed eye construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40262:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_asjar_water"
+      ],
+      "note": "The turbid-drop usage is included with the water and liquid adjective."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40263:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40264:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the oven-fuel implement."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40264:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_misjara_stick"
+      ],
+      "note": "The stick used to stir oven fuel is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40265:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_masjur_s1",
+        "qform_masjur_s2",
+        "cm_masjur_eye_full"
+      ],
+      "note": "The filled sea, fire-filled reading, and full eye or source are all represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40265:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masjur_milk"
+      ],
+      "note": "The water-heavy milk usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40265:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masjur_flow"
+      ],
+      "note": "The made-to-flow usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40265:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masjur_empty"
+      ],
+      "note": "The contrary empty or drained meaning is retained."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40265:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform_masjur_s2"
+      ],
+      "note": "Kindled is covered by the Quranic fire-filled sense."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40265:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masjur_still"
+      ],
+      "note": "The still or quiet specialized meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40265:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masjur_pearls",
+        "cm_masjur_pearl"
+      ],
+      "note": "The pearl usages involving hanging, scattering, and brilliance are all represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40265:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masjur_hair"
+      ],
+      "note": "Hanging hair is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40265:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_masjur_dog"
+      ],
+      "note": "The collared dog usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40266:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40266:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_musajjar_dried"
+      ],
+      "note": "The dried-up water usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40267:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    },
+    {
+      "unit_id": "lane-unit:sjr:40268:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference."
+    }
+  ],
+  "cautions": [
+    "The Quranic sea expressions support distinct traditional readings of filling or overflowing and kindling or becoming fire; these are retained as separate senses rather than collapsed into the contextual gloss alone.",
+    "Lane's printed Quran citation conventions are historical and are not used here to construct additional modern verse locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

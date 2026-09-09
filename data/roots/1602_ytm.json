@@ -1,0 +1,100 @@
+{
+  "root": "ytm",
+  "arabic": "يتم",
+  "root_idea": {
+    "summary": "The root centers on orphanhood as separation from one's originating parent and extends lexically to the condition of standing alone or being peerless.",
+    "development": "In human usage, orphanhood is loss of the father before maturity; in animals, it is loss of the mother. The same idea of separation and singularity can extend to any solitary or unmatched thing. The Qur'anic form represents the human branch.",
+    "source_refs": [
+      "maqayis:row:5248",
+      "mufradat:row:1624"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ytm:yatiym:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ytm-yatim",
+      "reason": "The QAC group is represented under the normalized singular citation form يَتِيم, covering its singular and plural Quranic inflections."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "ytm-yatim",
+      "form_group_ids": [
+        "qac-form:ytm:yatiym:nominal:-"
+      ],
+      "headword_arabic": "يَتِيم",
+      "public_pos_label": "Noun · Adjective",
+      "verb_form": null,
+      "occurrence_count": 23,
+      "senses": [
+        {
+          "sense_id": "ytm-yatim-s1",
+          "definition": "A child deprived of his or her father before reaching maturity; an orphan.",
+          "usage_conditions": "The Qur'anic form includes the singular يَتِيم and the plural يَتَامَى, used substantivally and adjectivally for human orphans.",
+          "source_refs": [
+            "mufradat:row:1624"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "93:6",
+          "word_location": "93:6:3",
+          "sense_ids": [
+            "ytm-yatim-s1"
+          ]
+        },
+        {
+          "verse_key": "4:2",
+          "word_location": "4:2:2",
+          "sense_ids": [
+            "ytm-yatim-s1"
+          ]
+        },
+        {
+          "verse_key": "17:34",
+          "word_location": "17:34:4",
+          "sense_ids": [
+            "ytm-yatim-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "ytm-aytama-s1",
+      "headword_arabic": "أَيْتَمَ",
+      "definition": "To make someone fatherless; to cause someone to become an orphan.",
+      "usage_conditions": "A transitive Form IV verb describing the causative action of making a person an orphan.",
+      "source_refs": [
+        "lane:entry:12162"
+      ]
+    },
+    {
+      "meaning_id": "ytm-yatim-s2",
+      "headword_arabic": "يَتِيم",
+      "definition": "A solitary or peerless thing, such as a unique pearl; by extension, an exceptional or singular poetic verse.",
+      "usage_conditions": "A broader figurative use based on being separated from one's source or having no equal; this is not the human-orphan sense represented by the Qur'anic occurrences.",
+      "source_refs": [
+        "mufradat:row:1624",
+        "maqayis:row:5248"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ytm:12162:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ytm-aytama-s1"
+      ],
+      "note": "The unit explicitly defines the Form IV causative verb as making someone fatherless."
+    }
+  ],
+  "cautions": [
+    "The QAC group combines singular يَتِيم and plural يَتَامَى forms with noun and adjective analyses; the public headword is the singular dictionary citation form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

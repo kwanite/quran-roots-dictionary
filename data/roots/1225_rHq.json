@@ -1,0 +1,123 @@
+{
+  "root": "rHq",
+  "arabic": "رحق",
+  "root_idea": {
+    "summary": "A term for wine, especially wine distinguished by excellence and purity.",
+    "development": "The root's lexical development centers on raḥīq as a name for wine, particularly the finest or purest kind; related Classical usage extends the notion of purity or genuineness adjectivally.",
+    "source_refs": [
+      "maqayis:row:1984",
+      "lane:entry:22774"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rHq:r~aHiyq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:rHq:rahiq",
+      "reason": "The Quran-attested noun is presented under the normalized Classical Arabic citation form رَحِيق."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:rHq:rahiq",
+      "form_group_ids": [
+        "qac-form:rHq:r~aHiyq:nominal:-"
+      ],
+      "headword_arabic": "رَحِيق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "quran-form:rHq:rahiq:s1",
+          "definition": "Pure, choice wine.",
+          "usage_conditions": "A noun for wine characterized as pure, clear, excellent, or otherwise of the finest quality; in the Quran it occurs in the expression رَحِيقٍ مَخْتُومٍ.",
+          "source_refs": [
+            "lane:entry:22774",
+            "mufradat:row:539"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "83:25",
+          "word_location": "83:25:3",
+          "sense_ids": [
+            "quran-form:rHq:rahiq:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-rHq-perfume",
+      "headword_arabic": "رَحِيق",
+      "definition": "A kind of perfume.",
+      "usage_conditions": "A Classical Arabic nominal usage distinct from the wine sense.",
+      "source_refs": [
+        "lane:entry:22774"
+      ]
+    },
+    {
+      "meaning_id": "cm-rHq-honey",
+      "headword_arabic": "رَحِيق",
+      "definition": "Honey.",
+      "usage_conditions": "A Classical Arabic nominal usage.",
+      "source_refs": [
+        "lane:entry:22774"
+      ]
+    },
+    {
+      "meaning_id": "cm-rHq-epithet",
+      "headword_arabic": "رَحِيق",
+      "definition": "Pure or genuine, used as an epithet for something regarded as unadulterated or authentic.",
+      "usage_conditions": "An adjectival or epithetical use, attested in expressions for unadulterated musk and for pure or genuine grounds of honor or social standing.",
+      "source_refs": [
+        "lane:entry:22774"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rHq:22773:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:rHq:22774:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "quran-form:rHq:rahiq:s1"
+      ],
+      "note": "Wine meanings and the Quran-attested usage are covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:rHq:22774:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rHq-perfume"
+      ],
+      "note": "Distinct perfume meaning."
+    },
+    {
+      "unit_id": "lane-unit:rHq:22774:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rHq-honey"
+      ],
+      "note": "Distinct honey meaning."
+    },
+    {
+      "unit_id": "lane-unit:rHq:22774:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-rHq-epithet"
+      ],
+      "note": "Epithetical sense of purity or genuineness."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

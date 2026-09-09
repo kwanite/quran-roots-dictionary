@@ -1,0 +1,940 @@
+{
+  "root": "bdw",
+  "arabic": "بدو",
+  "root_idea": {
+    "summary": "The root centers on something becoming apparent, exposed, or manifest.",
+    "development": "From the notion of appearing in an open, uncovered space developed the designation of the desert and its inhabitants; the same semantic field also includes an opinion arising or changing in the mind.",
+    "source_refs": [
+      "maqayis:row:719",
+      "mufradat:row:101"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bdw:badaA:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdw-bada",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bdw:yubodiYa:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdw-abda",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bdw:baAd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdw-badin",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bdw:baAdiY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdw-badi-alray",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bdw:baAduwn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "bdw-badin",
+      "reason": "Plural active-participle form of بَادٍ; represented under its singular citation form."
+    },
+    {
+      "form_group_id": "qac-form:bdw:badow:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdw-badw",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bdw:mubodiy:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "bdw-mubdi",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "bdw-bada",
+      "form_group_ids": [
+        "qac-form:bdw:badaA:verb:I"
+      ],
+      "headword_arabic": "بَدَا",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "bdw-bada-s1",
+          "definition": "To appear, become apparent, or come into view; to become manifest or evident.",
+          "usage_conditions": "An intransitive use describing something previously hidden or unapparent becoming perceptible or clear.",
+          "source_refs": [
+            "lane:entry:35845",
+            "mufradat:row:101"
+          ]
+        },
+        {
+          "sense_id": "bdw-bada-s2",
+          "definition": "For an opinion or decision to arise in someone’s mind, especially as a view different from an earlier one.",
+          "usage_conditions": "Used in the construction بَدَا لَهُ فِي الأَمْرِ, literally that something appeared to him concerning the matter; the Quranic usage concerns a decision arising after the relevant signs had been seen.",
+          "source_refs": [
+            "lane:entry:35845"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:47",
+          "word_location": "39:47:18",
+          "sense_ids": [
+            "bdw-bada-s1"
+          ]
+        },
+        {
+          "verse_key": "12:35",
+          "word_location": "12:35:2",
+          "sense_ids": [
+            "bdw-bada-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bdw-abda",
+      "form_group_ids": [
+        "qac-form:bdw:yubodiYa:verb:IV"
+      ],
+      "headword_arabic": "أَبْدَى",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 15,
+      "senses": [
+        {
+          "sense_id": "bdw-abda-s1",
+          "definition": "To make something apparent, show it, exhibit it, manifest it, or disclose it.",
+          "usage_conditions": "A transitive causative use with a thing, matter, thought, or feature as its object; the Quran also uses it for making something ordinarily concealed visible.",
+          "source_refs": [
+            "lane:entry:35848"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:271",
+          "word_location": "2:271:2",
+          "sense_ids": [
+            "bdw-abda-s1"
+          ]
+        },
+        {
+          "verse_key": "24:31",
+          "word_location": "24:31:20",
+          "sense_ids": [
+            "bdw-abda-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bdw-badin",
+      "form_group_ids": [
+        "qac-form:bdw:baAd:nominal:-",
+        "qac-form:bdw:baAduwn:nominal:-"
+      ],
+      "headword_arabic": "بَادٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "bdw-badin-s1",
+          "definition": "A person of the open country: a desert-dweller or one coming from the desert, outside settled habitation.",
+          "usage_conditions": "The singular بَادٍ and the Quranic plural بَادُونَ designate people associated with the bādiyah, in contrast with settled towns or permanent settlements.",
+          "source_refs": [
+            "lane:entry:35865",
+            "mufradat:row:101"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:25",
+          "word_location": "22:25:16",
+          "sense_ids": [
+            "bdw-badin-s1"
+          ]
+        },
+        {
+          "verse_key": "33:20",
+          "word_location": "33:20:11",
+          "sense_ids": [
+            "bdw-badin-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bdw-badi-alray",
+      "form_group_ids": [
+        "qac-form:bdw:baAdiY:nominal:-"
+      ],
+      "headword_arabic": "بَادِيَ الرَّأْيِ",
+      "public_pos_label": "Adverbial expression",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bdw-badi-alray-s1",
+          "definition": "At the first or outward appearance of an opinion; hence, according to an initial, superficial, or possibly inconsiderate judgment.",
+          "usage_conditions": "A conventional construction, بَادِيَ الرَّأْيِ, describing the first impression or apparent judgment rather than a considered conclusion.",
+          "source_refs": [
+            "lane:entry:35865"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:27",
+          "word_location": "11:27:19",
+          "sense_ids": [
+            "bdw-badi-alray-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bdw-badw",
+      "form_group_ids": [
+        "qac-form:bdw:badow:nominal:-"
+      ],
+      "headword_arabic": "بَدْوٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bdw-badw-s1",
+          "definition": "The desert or open-country way of life, and the region outside settled habitation.",
+          "usage_conditions": "Used in opposition to settled urban or village life; in the Quranic construction مِنَ الْبَدْوِ, it denotes the desert country or its way of life.",
+          "source_refs": [
+            "mufradat:row:101",
+            "lane:entry:35867"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:100",
+          "word_location": "12:100:29",
+          "sense_ids": [
+            "bdw-badw-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "bdw-mubdi",
+      "form_group_ids": [
+        "qac-form:bdw:mubodiy:nominal:-"
+      ],
+      "headword_arabic": "مُبْدٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "bdw-mubdi-s1",
+          "definition": "One who makes something apparent or discloses it.",
+          "usage_conditions": "The active participle of أَبْدَى; in the Quranic occurrence it is used with a concealed matter as its object.",
+          "source_refs": [
+            "lane:entry:35848"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:37",
+          "word_location": "33:37:19",
+          "sense_ids": [
+            "bdw-mubdi-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_bada_begin",
+      "headword_arabic": "بَدَانِي",
+      "definition": "To begin with someone by doing something.",
+      "usage_conditions": "A lexical alternative to بَدَأَنِي.",
+      "source_refs": [
+        "lane:entry:35845"
+      ]
+    },
+    {
+      "meaning_id": "cm_bada_desert",
+      "headword_arabic": "بَدَا",
+      "definition": "To go out from settled land to the desert or its pasturing places, or to dwell in the desert.",
+      "usage_conditions": "Describes departure from permanent sources of water or cultivated and settled areas toward open-country pasture, and can also mean remaining there.",
+      "source_refs": [
+        "lane:entry:35845"
+      ]
+    },
+    {
+      "meaning_id": "cm_bada_voiding",
+      "headword_arabic": "بَدَا",
+      "definition": "To void excrement.",
+      "usage_conditions": "A specialized usage explained as going out from tents or houses into the open country.",
+      "source_refs": [
+        "lane:entry:35845"
+      ]
+    },
+    {
+      "meaning_id": "cm_bada_desire",
+      "headword_arabic": "بَدَا لَهُ",
+      "definition": "To desire or intend to do something, in a figurative usage of the construction in which a course of action presents itself.",
+      "usage_conditions": "A tropical interpretation of بَدَا لَهُ أَنْ يَفْعَلَ; it is distinct from the literal arising of an opinion.",
+      "source_refs": [
+        "lane:entry:35845"
+      ]
+    },
+    {
+      "meaning_id": "cm_badi_land_truffles",
+      "headword_arabic": "بَدِيَتِ الأَرْضُ",
+      "definition": "The land to produce or contain truffles.",
+      "usage_conditions": "Used of land in which بَدَاةٌ, truffles, are found.",
+      "source_refs": [
+        "lane:entry:35845"
+      ]
+    },
+    {
+      "meaning_id": "cm_badi_land_dust",
+      "headword_arabic": "بَدِيَتِ الأَرْضُ",
+      "definition": "The land to contain dust or earth.",
+      "usage_conditions": "A lexical use of the verb with dust or earth as what the land contains.",
+      "source_refs": [
+        "lane:entry:35845"
+      ]
+    },
+    {
+      "meaning_id": "cm_badda_need",
+      "headword_arabic": "بَدَّى",
+      "definition": "To make known a want or need that has arisen.",
+      "usage_conditions": "The object is a need or want that has presented itself to the person.",
+      "source_refs": [
+        "lane:entry:35846"
+      ]
+    },
+    {
+      "meaning_id": "cm_badda_pasture",
+      "headword_arabic": "بَدَّى",
+      "definition": "To send a horse or other beast out to a place of pasture.",
+      "usage_conditions": "The reported usage concerns sending an animal to pasture, apparently in the desert.",
+      "source_refs": [
+        "lane:entry:35846"
+      ]
+    },
+    {
+      "meaning_id": "cm_mubad_battle",
+      "headword_arabic": "مُبَادَاةٌ",
+      "definition": "Going out into the field to encounter another in battle or war.",
+      "usage_conditions": "A military use of the verbal noun.",
+      "source_refs": [
+        "lane:entry:35847"
+      ]
+    },
+    {
+      "meaning_id": "cm_mubad_hostility",
+      "headword_arabic": "مُبَادَاةٌ",
+      "definition": "Showing open enmity or hostility toward another.",
+      "usage_conditions": "The construction مُبَادَاةٌ بِالعَدَاوَةِ means openly displaying hostility.",
+      "source_refs": [
+        "lane:entry:35847"
+      ]
+    },
+    {
+      "meaning_id": "cm_mubad_reveal",
+      "headword_arabic": "مُبَادَاةٌ",
+      "definition": "Showing or revealing an affair to people or to another person.",
+      "usage_conditions": "A transitive construction meaning to make an affair open or known.",
+      "source_refs": [
+        "lane:entry:35847"
+      ]
+    },
+    {
+      "meaning_id": "cm_mubad_compare",
+      "headword_arabic": "مُبَادَاةٌ",
+      "definition": "Measuring or comparing two things with each other.",
+      "usage_conditions": "Used in the construction بَادَى بَيْنَهُمَا.",
+      "source_refs": [
+        "lane:entry:35847"
+      ]
+    },
+    {
+      "meaning_id": "cm_abda_hostility",
+      "headword_arabic": "أَبْدَى",
+      "definition": "To show open enmity or hostility toward someone.",
+      "usage_conditions": "A figurative extension of making one’s hostile attitude openly visible.",
+      "source_refs": [
+        "lane:entry:35848"
+      ]
+    },
+    {
+      "meaning_id": "cm_abda_water_bottom",
+      "headword_arabic": "أَبْدَى",
+      "definition": "Of clear water, to show its bottom.",
+      "usage_conditions": "Used of the bottom becoming visible because the water is clear.",
+      "source_refs": [
+        "lane:entry:35848"
+      ]
+    },
+    {
+      "meaning_id": "cm_abda_speech_deviation",
+      "headword_arabic": "أَبْدَى فِي مَنْطِقِهِ",
+      "definition": "To deviate from the right way in one’s speech.",
+      "usage_conditions": "An idiomatic use referring to faulty or wayward expression.",
+      "source_refs": [
+        "lane:entry:35848"
+      ]
+    },
+    {
+      "meaning_id": "cm_tabadda_breakfast",
+      "headword_arabic": "تَبَدَّى",
+      "definition": "To eat the morning meal.",
+      "usage_conditions": "A dialectal usage reported for the common speech of Yemen; it is synonymous with تَغَدَّى.",
+      "source_refs": [
+        "lane:entry:35849"
+      ]
+    },
+    {
+      "meaning_id": "cm_tabad_imitation",
+      "headword_arabic": "تَبَادَى",
+      "definition": "To affect the manner of, or imitate, the people of the desert.",
+      "usage_conditions": "A reciprocal-form usage concerning adopting Bedouin behavior or appearance.",
+      "source_refs": [
+        "lane:entry:35850"
+      ]
+    },
+    {
+      "meaning_id": "cm_badaa_excrement",
+      "headword_arabic": "بَدًا",
+      "definition": "Excrement from the anus.",
+      "usage_conditions": "A noun denoting the bodily waste itself.",
+      "source_refs": [
+        "lane:entry:35852"
+      ]
+    },
+    {
+      "meaning_id": "cm_badaa_joint",
+      "headword_arabic": "بَدًا",
+      "definition": "A human joint.",
+      "usage_conditions": "The plural is أَبْدَاءٌ; this is a distinct anatomical noun from the excrement sense.",
+      "source_refs": [
+        "lane:entry:35852"
+      ]
+    },
+    {
+      "meaning_id": "cm_badw_first",
+      "headword_arabic": "بَدْوٌ",
+      "definition": "The first part or beginning of a thing.",
+      "usage_conditions": "Used in expressions meaning first of all or at the outset; the form is related in spelling to the root’s appearance vocabulary but has its own lexical value.",
+      "source_refs": [
+        "lane:entry:35853"
+      ]
+    },
+    {
+      "meaning_id": "cm_badaa_truffles",
+      "headword_arabic": "بَدَاةٌ",
+      "definition": "Truffles.",
+      "usage_conditions": "A noun synonymous with كَمْأَةٌ.",
+      "source_refs": [
+        "lane:entry:35855"
+      ]
+    },
+    {
+      "meaning_id": "cm_badaa_dust",
+      "headword_arabic": "بَدَاةٌ",
+      "definition": "Dust or earth.",
+      "usage_conditions": "A distinct noun sense from بَدَاةٌ meaning truffles.",
+      "source_refs": [
+        "lane:entry:35855"
+      ]
+    },
+    {
+      "meaning_id": "cm_badwa_valley_side",
+      "headword_arabic": "بَدْوَةٌ",
+      "definition": "Either side of a valley.",
+      "usage_conditions": "A geographical noun for one of the valley’s two sides.",
+      "source_refs": [
+        "lane:entry:35856"
+      ]
+    },
+    {
+      "meaning_id": "cm_badawi_bedouin",
+      "headword_arabic": "بَدَوِيٌّ",
+      "definition": "Of, belonging to, or relating to the desert; as a substantive, a Bedouin or desert Arab.",
+      "usage_conditions": "The relational adjective is opposed to the townsman or villager.",
+      "source_refs": [
+        "lane:entry:35857"
+      ]
+    },
+    {
+      "meaning_id": "cm_badaa_opinion",
+      "headword_arabic": "بَدَاءٌ",
+      "definition": "An opinion that arises in the mind, especially one different from a former opinion.",
+      "usage_conditions": "A noun derived from بَدَا لَهُ فِي الأَمْرِ; it may describe someone subject to successive opinions, whether approvingly or disparagingly.",
+      "source_refs": [
+        "lane:entry:35859"
+      ]
+    },
+    {
+      "meaning_id": "cm_bidaa_breakfast",
+      "headword_arabic": "بِدَاءٌ",
+      "definition": "The morning meal.",
+      "usage_conditions": "A dialectal usage of Yemen, synonymous with غَدَاءٌ.",
+      "source_refs": [
+        "lane:entry:35860"
+      ]
+    },
+    {
+      "meaning_id": "cm_badi_well",
+      "headword_arabic": "بَدِيٌّ",
+      "definition": "A well, especially one that is not ancient.",
+      "usage_conditions": "A lexical adjective or noun used of a newly established or non-ancient well.",
+      "source_refs": [
+        "lane:entry:35861"
+      ]
+    },
+    {
+      "meaning_id": "cm_badaa_needs",
+      "headword_arabic": "بَدَاءَةٌ",
+      "definition": "A want or need that appears or becomes apparent.",
+      "usage_conditions": "The plural denotes wants or needs that emerge and become noticeable.",
+      "source_refs": [
+        "lane:entry:35862"
+      ]
+    },
+    {
+      "meaning_id": "cm_badaawa_first_appears",
+      "headword_arabic": "بَدَاوَةٌ",
+      "definition": "The first thing that appears or becomes apparent.",
+      "usage_conditions": "A noun for the initial manifestation of something.",
+      "source_refs": [
+        "lane:entry:35863"
+      ]
+    },
+    {
+      "meaning_id": "cm_badi_calamity",
+      "headword_arabic": "بَادِي بَدِي",
+      "definition": "A calamity or misfortune.",
+      "usage_conditions": "An idiomatic expression formed from two nouns.",
+      "source_refs": [
+        "lane:entry:35865"
+      ]
+    },
+    {
+      "meaning_id": "cm_badiya_desert",
+      "headword_arabic": "بَادِيَةٌ",
+      "definition": "The desert or open country; land without towns, villages, or cultivated soil.",
+      "usage_conditions": "Also denotes the places to which people migrate from permanent water sources while seeking pasture; it is opposed to settled country.",
+      "source_refs": [
+        "lane:entry:35867"
+      ]
+    },
+    {
+      "meaning_id": "cm_mubdi_water_uncovered",
+      "headword_arabic": "رَكِيٌّ مُبْدٍ",
+      "definition": "A well whose water is showing and uncovered by dust or earth.",
+      "usage_conditions": "The expression describes a well with visible water, opposed to one whose water is covered or hidden.",
+      "source_refs": [
+        "lane:entry:35869"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bdw:35845:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdw-bada-s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35845:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdw-bada-s2",
+        "cm_bada_desire"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35845:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bada_desert"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35845:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bada_voiding"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35845:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bada_begin"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35845:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badi_land_truffles"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35845:g3:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badi_land_dust"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35846:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badda_need"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35846:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badda_pasture"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35847:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mubad_battle"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35847:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mubad_hostility",
+        "cm_mubad_reveal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35847:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mubad_compare"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35848:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdw-abda-s1",
+        "cm_abda_hostility",
+        "cm_abda_water_bottom"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35848:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_abda_speech_deviation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35848:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35849:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35849:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tabadda_breakfast"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35850:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35850:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tabad_imitation"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35851:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35852:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badaa_excrement"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35852:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badaa_joint"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35852:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35853:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35853:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35853:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badw_first"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35854:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35855:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35855:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35855:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badaa_truffles"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35855:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badaa_dust"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35856:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badwa_valley_side"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35857:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badawi_bedouin"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35858:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35859:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badaa_opinion"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35860:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_bidaa_breakfast"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35861:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35861:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35861:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badi_well"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35862:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badaa_needs"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35863:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35863:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badaawa_first_appears"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35864:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35865:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdw-badi-alray-s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35865:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badi_calamity"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35865:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "bdw-badin-s1"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35866:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35867:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_badiya_desert"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:bdw:35867:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35868:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:bdw:35869:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mubdi_water_uncovered"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The Lane citation for بَادِيَ الرَّأْيِ uses historical Quran citation notation and has not been converted into a modern verse location; the example shown uses the independently supplied QAC occurrence at 11:27:19.",
+    "The contextual gloss attached to the Mufradat heading باد discusses بَادَ يَبِيدُ, a different lexical root despite the matching spelling, and is not used as evidence for this root."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "Mufradat row 88 concerns بَادَ يَبِيدُ, 'to perish or disperse in the desert,' rather than the ب د و root; it is therefore left unassigned."
+  ]
+}

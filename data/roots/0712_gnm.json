@@ -1,0 +1,503 @@
+{
+  "root": "gnm",
+  "arabic": "غنم",
+  "root_idea": {
+    "summary": "The root centers on acquiring something not previously possessed, with a prominent specialization in spoil taken from an adversary.",
+    "development": "The semantic field extends from general attainment to war booty and to derived notions of taking, granting, and seizing an opportunity. غَنَمٌ denotes sheep and goats; its possible derivation from the acquisition sense is reported cautiously rather than asserted as certain.",
+    "source_refs": [
+      "maqayis:row:3471",
+      "lane:entry:30023",
+      "lane:entry:30029"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:gnm:ganimo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_gnm_ghanim",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gnm:ganam:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_gnm_ghanam",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:gnm:magaAnim:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_gnm_maghnam",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_gnm_ghanim",
+      "form_group_ids": [
+        "qac-form:gnm:ganimo:verb:I"
+      ],
+      "headword_arabic": "غَنِمَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense_gnm_ghanim_spoil",
+          "definition": "To obtain or take as spoil; to gain something acquired from an opposing party.",
+          "usage_conditions": "The Quranic occurrences are active perfect forms referring to war booty obtained from unbelievers.",
+          "source_refs": [
+            "lane:entry:30023",
+            "mufradat:row:1071"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:41",
+          "word_location": "8:41:3",
+          "sense_ids": [
+            "sense_gnm_ghanim_spoil"
+          ]
+        },
+        {
+          "verse_key": "8:69",
+          "word_location": "8:69:3",
+          "sense_ids": [
+            "sense_gnm_ghanim_spoil"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_gnm_ghanam",
+      "form_group_ids": [
+        "qac-form:gnm:ganam:nominal:-"
+      ],
+      "headword_arabic": "غَنَمٌ",
+      "public_pos_label": "Noun · Collective noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense_gnm_ghanam_sheepgoats",
+          "definition": "A collective term for sheep and goats; sheep or goats considered as a flock or herd.",
+          "usage_conditions": "The collective noun applies to males, females, or both together and has no derived singular; شاة is used for an individual.",
+          "source_refs": [
+            "lane:entry:30029",
+            "mufradat:row:1071"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:146",
+          "word_location": "6:146:10",
+          "sense_ids": [
+            "sense_gnm_ghanam_sheepgoats"
+          ]
+        },
+        {
+          "verse_key": "20:18",
+          "word_location": "20:18:9",
+          "sense_ids": [
+            "sense_gnm_ghanam_sheepgoats"
+          ]
+        },
+        {
+          "verse_key": "21:78",
+          "word_location": "21:78:10",
+          "sense_ids": [
+            "sense_gnm_ghanam_sheepgoats"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_gnm_maghnam",
+      "form_group_ids": [
+        "qac-form:gnm:magaAnim:nominal:-"
+      ],
+      "headword_arabic": "مَغْنَمٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "sense_gnm_maghnam_gain",
+          "definition": "An acquired gain or benefit; something obtained.",
+          "usage_conditions": "This is a result noun for what is gained; its Quranic plural is مَغَانِمُ.",
+          "source_refs": [
+            "mufradat:row:1071",
+            "lane:entry:30031"
+          ]
+        },
+        {
+          "sense_id": "sense_gnm_maghnam_booty",
+          "definition": "Spoils or booty obtained in war.",
+          "usage_conditions": "In the Quranic contexts, the plural denotes material property acquired from an opposing party. In the associated legal terminology, war booty is distinguished from فَيْءٌ acquired without battle and نَفَلٌ granted in addition to a normal share.",
+          "source_refs": [
+            "lane:entry:30031",
+            "mufradat:row:1071"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:94",
+          "word_location": "4:94:24",
+          "sense_ids": [
+            "sense_gnm_maghnam_booty"
+          ]
+        },
+        {
+          "verse_key": "48:19",
+          "word_location": "48:19:1",
+          "sense_ids": [
+            "sense_gnm_maghnam_booty"
+          ]
+        },
+        {
+          "verse_key": "48:20",
+          "word_location": "48:20:3",
+          "sense_ids": [
+            "sense_gnm_maghnam_booty"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_gnm_ghanim_easy_gain",
+      "headword_arabic": "غَنِمَ",
+      "definition": "To acquire or gain a thing without difficulty, trouble, or inconvenience.",
+      "usage_conditions": "A broader Classical Arabic use of the Form I verb, distinct from its Quranic war-spoils context.",
+      "source_refs": [
+        "lane:entry:30023"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_gannama_gift",
+      "headword_arabic": "غَنَّمَ",
+      "definition": "To give someone spoil or a free, disinterested gift.",
+      "usage_conditions": "Form II is used transitively with the recipient and the thing given.",
+      "source_refs": [
+        "lane:entry:30024"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_agnama_make_spoil",
+      "headword_arabic": "أَغْنَمَ",
+      "definition": "To make a thing become spoil for someone.",
+      "usage_conditions": "A causative Form IV construction with the thing made available as spoil.",
+      "source_refs": [
+        "lane:entry:30025"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_taghanama_desire",
+      "headword_arabic": "تَغَنَّمَ",
+      "definition": "To eagerly desire an affair as one eagerly desires spoil.",
+      "usage_conditions": "Used in the construction يَتَغَنَّمُ الأَمْرَ, expressing eager desire for an undertaking.",
+      "source_refs": [
+        "lane:entry:30026"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_taghanama_sheep",
+      "headword_arabic": "تَغَنَّمَ",
+      "definition": "To take for oneself, acquire, or gain sheep or goats.",
+      "usage_conditions": "Used with غَنَمًا for acquiring sheep, goats, or both.",
+      "source_refs": [
+        "lane:entry:30026"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_ightanama_spoil",
+      "headword_arabic": "اِغْتَنَمَ",
+      "definition": "To reckon something as spoil, or to take, seize, catch, or snatch it as spoil.",
+      "usage_conditions": "Form VIII may describe treating an object as spoil or actively taking it as spoil.",
+      "source_refs": [
+        "lane:entry:30027"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_ightanama_opportunity",
+      "headword_arabic": "اِغْتَنَمَ",
+      "definition": "To seize or avail oneself of an opportunity.",
+      "usage_conditions": "In اِغْتَنَمَ الفُرْصَةَ, the opportunity is taken promptly or eagerly.",
+      "source_refs": [
+        "lane:entry:30027"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_gunm_pledge",
+      "headword_arabic": "غُنْمٌ",
+      "definition": "The recovery of a pledged property together with any increase, growth, or excess in its value.",
+      "usage_conditions": "A legal usage paired with غُرْمٌ, the liability associated with the pledged property.",
+      "source_refs": [
+        "lane:entry:30028"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_gunm_idol",
+      "headword_arabic": "غُنْمٌ",
+      "definition": "The reported name of a certain idol.",
+      "usage_conditions": "A rare proper-name usage attributed to one authority.",
+      "source_refs": [
+        "lane:entry:30028"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_ghanima_easy_gain",
+      "headword_arabic": "غَنِيمَةٌ",
+      "definition": "An acquisition or gain made without difficulty, trouble, or inconvenience.",
+      "usage_conditions": "This is a Classical nominal use distinct from the technical war-booty sense.",
+      "source_refs": [
+        "lane:entry:30031"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_ghanima_legal",
+      "headword_arabic": "غَنِيمَةٌ",
+      "definition": "In legal terminology, property seized by force in war, subject to a prescribed fifth, with the remainder distributed among those who obtained it.",
+      "usage_conditions": "The term is distinguished from فَيْءٌ, property acquired after the laying down of arms or without battle, and from نَفَلٌ, an additional grant to a warrior.",
+      "source_refs": [
+        "lane:entry:30031"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_ganam_fizr",
+      "headword_arabic": "غَنَمٌ",
+      "definition": "In the expression غَنَمُ الفِزْرِ, ever or indefinitely.",
+      "usage_conditions": "This idiomatic expression functions as an adverbial expression of time rather than as an ordinary livestock noun.",
+      "source_refs": [
+        "lane:entry:30029"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_aghnam_stars",
+      "headword_arabic": "الأَغْنَامُ",
+      "definition": "The name of certain small stars between the legs of Cepheus and the star الجَدْيُ.",
+      "usage_conditions": "A technical astronomical usage.",
+      "source_refs": [
+        "lane:entry:30029"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_gunamak_utmost",
+      "headword_arabic": "غُنَامَاكَ",
+      "definition": "One’s utmost capacity, ability, or aim; the utmost one can or eagerly seeks to do.",
+      "usage_conditions": "In غُنَامَاكَ أَنْ تَفْعَلَ كَذَا, the expression presents doing the stated action as the utmost of one’s power or desire.",
+      "source_refs": [
+        "lane:entry:30033"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_ghanim_taker",
+      "headword_arabic": "غَانِمٌ",
+      "definition": "Taking or a taker of spoil.",
+      "usage_conditions": "An active participial noun for one who takes غَنِيمَة.",
+      "source_refs": [
+        "lane:entry:30035"
+      ]
+    },
+    {
+      "meaning_id": "cm_gnm_ghanam_collected",
+      "headword_arabic": "غَنَمٌ مُغْنَمَةٌ / غَنَمٌ مُغَنَّمَةٌ",
+      "definition": "Sheep or goats gathered together, numerous, or collected into a herd.",
+      "usage_conditions": "One reported explanation further specifies distinct flocks or herds, each with its own shepherd.",
+      "source_refs": [
+        "lane:entry:30037"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:gnm:30023:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_gnm_ghanim_spoil",
+        "cm_gnm_ghanim_easy_gain"
+      ],
+      "note": "Covers the Quranic spoil sense and the broader easy-acquisition branch."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30024:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_gannama_gift"
+      ],
+      "note": "Form II gifting construction."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30025:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_agnama_make_spoil"
+      ],
+      "note": "Form IV causative spoil construction."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30026:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form VIII."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30026:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_taghanama_desire"
+      ],
+      "note": "Eager-desire construction."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30026:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_taghanama_sheep"
+      ],
+      "note": "Acquisition of sheep or goats."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30027:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_ightanama_spoil"
+      ],
+      "note": "Taking or reckoning something as spoil."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30027:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_ightanama_opportunity"
+      ],
+      "note": "Seizing an opportunity."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30028:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to غَنِيمَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30028:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_gunm_pledge"
+      ],
+      "note": "Pledge-law meaning of غُنْمٌ."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30028:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to غُنَامَاكَ."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30028:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_gunm_idol"
+      ],
+      "note": "Reported idol name."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30029:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_gnm_ghanam_sheepgoats",
+        "sense_gnm_ghanam_sheepgoats"
+      ],
+      "note": "Collective sheep-and-goats noun."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30029:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_ganam_fizr"
+      ],
+      "note": "Idiomatic time expression."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30029:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_aghnam_stars"
+      ],
+      "note": "Astronomical star-name usage."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30030:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30031:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_gnm_maghnam_gain",
+        "sense_gnm_maghnam_booty",
+        "cm_gnm_ghanima_easy_gain",
+        "cm_gnm_ghanima_legal"
+      ],
+      "note": "Covers acquired gain, war booty, and the related legal distinctions."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30032:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive and derivational information only."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30033:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_gunamak_utmost"
+      ],
+      "note": "Expression for utmost capacity or aim."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30034:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the preceding expression."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30035:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_ghanim_taker"
+      ],
+      "note": "Active participial meaning."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30035:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to illustrative examples elsewhere."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30036:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to غَنِيمَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:gnm:30037:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_gnm_ghanam_collected"
+      ],
+      "note": "Collected or numerous sheep and goats."
+    }
+  ],
+  "cautions": [
+    "The QAC verb identity غَنِمْ is normalized to the Classical Arabic perfect citation form غَنِمَ.",
+    "The Quranic plural مَغَانِمُ is presented under the supported singular citation form مَغْنَمٌ."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

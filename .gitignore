@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary/build
+tmp/
+build/
+dist/
+_site/
+
+# Local source downloads used for reproduction.
+# Do not commit third-party raw datasets automatically.
+vendor/
+sources/local/
+
+# Research/private staging
+_private/
+private/
+*.env
+.env.*
+
+# Logs
+*.log

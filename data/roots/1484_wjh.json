@@ -1,0 +1,965 @@
+{
+  "root": "wjh",
+  "arabic": "وجه",
+  "root_idea": {
+    "summary": "The root centers on facing or presenting oneself toward something: the face is what directly meets what is before it.",
+    "development": "From the physical face and front, the lexical field extends to facing, encounter, direction, purpose, course, the self, and social standing. Related forms develop meanings of orientation and the place or manner toward which something proceeds.",
+    "source_refs": [
+      "maqayis:row:5042",
+      "mufradat:row:1558"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wjh:waj~aho:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_wjh_wajjaha",
+      "reason": "Displayed under the normalized Form II perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:wjh:tawaj~aha:verb:V",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_wjh_tawajjaha",
+      "reason": "Displayed under the Form V perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:wjh:wajiyh:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_wjh_wajih",
+      "reason": "Displayed as the adjective or substantive adjective وَجِيهٌ."
+    },
+    {
+      "form_group_id": "qac-form:wjh:wajoh:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_wjh_wajh",
+      "reason": "Displayed under the normalized nominal citation form وَجْهٌ; inflected singulars and plural وُجُوهٌ are included."
+    },
+    {
+      "form_group_id": "qac-form:wjh:wijohap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf_wjh_wijhah",
+      "reason": "Displayed as the feminine noun وِجْهَةٌ."
+    },
+    {
+      "form_group_id": "qac-form:wjh:wajoh:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "pf_wjh_wajh",
+      "reason": "The occurrence is the same lexical noun وَجْهٌ and is merged with the principal nominal form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf_wjh_wajjaha",
+      "form_group_ids": [
+        "qac-form:wjh:waj~aho:verb:II"
+      ],
+      "headword_arabic": "وَجَّهَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "s_wjh_wajjaha_direct",
+          "definition": "To direct or turn something or someone toward a direction.",
+          "usage_conditions": "A transitive Form II construction; the directed object may be a person, thing, or one's own face.",
+          "source_refs": [
+            "mufradat:row:1558"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:79",
+          "word_location": "6:79:2",
+          "sense_ids": [
+            "s_wjh_wajjaha_direct"
+          ]
+        },
+        {
+          "verse_key": "16:76",
+          "word_location": "16:76:16",
+          "sense_ids": [
+            "s_wjh_wajjaha_direct"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_wjh_tawajjaha",
+      "form_group_ids": [
+        "qac-form:wjh:tawaj~aha:verb:V"
+      ],
+      "headword_arabic": "تَوَجَّهَ",
+      "public_pos_label": "Verb · Form V",
+      "verb_form": "V",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_wjh_tawajjaha_turntoward",
+          "definition": "To turn, tend, or betake oneself toward a person, place, or direction.",
+          "usage_conditions": "An intransitive or reflexive orientation toward a destination or object of pursuit; the Quranic occurrence describes setting out toward a place.",
+          "source_refs": [
+            "lane:entry:30386",
+            "mufradat:row:1558"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "28:22",
+          "word_location": "28:22:2",
+          "sense_ids": [
+            "s_wjh_tawajjaha_turntoward"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_wjh_wajih",
+      "form_group_ids": [
+        "qac-form:wjh:wajiyh:nominal:-"
+      ],
+      "headword_arabic": "وَجِيهٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "s_wjh_wajih_honored",
+          "definition": "Worthy of regard; honored or held in high standing.",
+          "usage_conditions": "Describes a person who possesses esteem, distinction, or recognized standing.",
+          "source_refs": [
+            "mufradat:row:1558",
+            "lane:entry:30391"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:45",
+          "word_location": "3:45:15",
+          "sense_ids": [
+            "s_wjh_wajih_honored"
+          ]
+        },
+        {
+          "verse_key": "33:69",
+          "word_location": "33:69:16",
+          "sense_ids": [
+            "s_wjh_wajih_honored"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_wjh_wajh",
+      "form_group_ids": [
+        "qac-form:wjh:wajoh:nominal:-",
+        "qac-form:wjh:wajoh:other:-"
+      ],
+      "headword_arabic": "وَجْهٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 72,
+      "senses": [
+        {
+          "sense_id": "s_wjh_face",
+          "definition": "The face or front of a living body.",
+          "usage_conditions": "The primary bodily sense, including the face as the foremost and outward part of the body.",
+          "source_refs": [
+            "mufradat:row:1558"
+          ]
+        },
+        {
+          "sense_id": "s_wjh_self",
+          "definition": "The self, person, or whole being, represented by the face.",
+          "usage_conditions": "A metonymic use in which the face stands for the person or being as a whole; it can also occur in expressions concerning the divine face or being.",
+          "source_refs": [
+            "mufradat:row:1558"
+          ]
+        },
+        {
+          "sense_id": "s_wjh_orientation",
+          "definition": "One's orientation, turning, or directed commitment toward God or a chosen object.",
+          "usage_conditions": "Used in constructions such as submitting, establishing, or turning the face; the face may represent the direction and sincerity of one's worship or allegiance.",
+          "source_refs": [
+            "mufradat:row:1558",
+            "lane:entry:30388"
+          ]
+        },
+        {
+          "sense_id": "s_wjh_devotional_aim",
+          "definition": "In devotional expressions, the favor, acceptance, or reward of God sought through an action.",
+          "usage_conditions": "Especially in constructions such as seeking or acting for God's face; the expression may be interpreted as aiming at God, His favor, or the reward of acts intended for Him.",
+          "source_refs": [
+            "mufradat:row:1558",
+            "lane:entry:30388"
+          ]
+        },
+        {
+          "sense_id": "s_wjh_daybeginning",
+          "definition": "The beginning or early part of the day.",
+          "usage_conditions": "The Quranic expression وَجْهَ النَّهَارِ refers to the opening part of the day.",
+          "source_refs": [
+            "mufradat:row:1558"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "75:22",
+          "word_location": "75:22:1",
+          "sense_ids": [
+            "s_wjh_face"
+          ]
+        },
+        {
+          "verse_key": "3:20",
+          "word_location": "3:20:5",
+          "sense_ids": [
+            "s_wjh_self",
+            "s_wjh_orientation"
+          ]
+        },
+        {
+          "verse_key": "55:27",
+          "word_location": "55:27:2",
+          "sense_ids": [
+            "s_wjh_self"
+          ]
+        },
+        {
+          "verse_key": "76:9",
+          "word_location": "76:9:3",
+          "sense_ids": [
+            "s_wjh_devotional_aim"
+          ]
+        },
+        {
+          "verse_key": "3:72",
+          "word_location": "3:72:12",
+          "sense_ids": [
+            "s_wjh_daybeginning"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf_wjh_wijhah",
+      "form_group_ids": [
+        "qac-form:wjh:wijohap:nominal:-"
+      ],
+      "headword_arabic": "وِجْهَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_wjh_wijhah_direction",
+          "definition": "A direction, orientation, or destination toward which one turns.",
+          "usage_conditions": "In the Quranic occurrence, it denotes an appointed orientation or religious direction toward which a community turns.",
+          "source_refs": [
+            "mufradat:row:1558",
+            "lane:entry:30390"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:148",
+          "word_location": "2:148:2",
+          "sense_ids": [
+            "s_wjh_wijhah_direction"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_wjh_wajjaha_uncovering",
+      "headword_arabic": "وَجَّهَ",
+      "definition": "In an idiomatic expression, to tear or open a woman's covering, described as taking her face; the related expression is also glossed as degrading her or taking her maidenhead.",
+      "usage_conditions": "A rare idiomatic use preserved with the tentative wording of the lexical evidence.",
+      "source_refs": [
+        "lane:entry:30383",
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_wajaha_confront",
+      "headword_arabic": "وَاجَهَ",
+      "definition": "To face, confront, encounter, or meet someone face to face, including confronting someone with speech.",
+      "usage_conditions": "Form III; the confrontation may be physical, face-to-face, or verbal.",
+      "source_refs": [
+        "lane:entry:30384"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_awjaha_repel",
+      "headword_arabic": "أَوْجَهَ",
+      "definition": "To repel or reject a petitioner, asker, or beggar.",
+      "usage_conditions": "Form IV, especially in the cited construction involving a person who asks or begs.",
+      "source_refs": [
+        "lane:entry:30385"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_tawajjaha_idiom",
+      "headword_arabic": "تَوَجَّهَ",
+      "definition": "In an idiom, a stupid person who cannot manage or accomplish his affair properly.",
+      "usage_conditions": "A phrase-based characterization rather than the ordinary directional meaning of the verb.",
+      "source_refs": [
+        "lane:entry:30386"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_ittajaha_misapply",
+      "headword_arabic": "اِتَّجَهَ",
+      "definition": "To fail to apply oneself rightly, or to lack knowledge of the right course to pursue.",
+      "usage_conditions": "Attested in the negative expression meaning that a person did not proceed correctly in anything.",
+      "source_refs": [
+        "lane:entry:30387"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_ittajaha_opinion",
+      "headword_arabic": "اِتَّجَهَ",
+      "definition": "Of an opinion or idea, to occur or present itself.",
+      "usage_conditions": "An idiomatic construction equivalent to an idea occurring to someone.",
+      "source_refs": [
+        "lane:entry:30387"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_ittajaha_convalesce",
+      "headword_arabic": "اِتَّجَهَ",
+      "definition": "To become convalescent or recover toward health.",
+      "usage_conditions": "A specialized intransitive use describing improvement in a patient's condition.",
+      "source_refs": [
+        "lane:entry:30387"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_perspective",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "A respect, aspect, or point of view from which something is considered.",
+      "usage_conditions": "Used in expressions such as “in every respect” or “from every point of view.”",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_validity",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The proper, valid, reasonable, or correct way of understanding or accounting for something.",
+      "usage_conditions": "Said of an argument, saying, phrase, or proposed course when it has—or lacks—a sound rationale or correctness.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_authority",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The standing or authority of a word, expression, or view; by extension, its respectability or propriety.",
+      "usage_conditions": "Used to say that a statement is or is not of respectable authority, and in related usage that it is or is not the proper way.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_course",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "A course, purpose, object, or aspect toward which a person or thing proceeds or through which an affair is approached.",
+      "usage_conditions": "Covers expressions for pursuing a purpose, restraining something from its course, turning it back, approaching an affair from its proper aspect, or shooting in one direction.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_place_direction",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The place, region, quarter, point, or direction toward which a person or thing goes, tends, or looks.",
+      "usage_conditions": "May denote the bearing or point of orientation of a person, thing, road, or movement.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_result",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The end or result toward which an affair leads or tends.",
+      "usage_conditions": "A figurative extension from the direction or course of an affair to its eventual outcome.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_method",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The mode, manner, or method of doing something.",
+      "usage_conditions": "A lexical use equivalent to طريقة in describing how an action or matter is carried out.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_intellect",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "Brightness or clarity of intellect.",
+      "usage_conditions": "A figurative use referring to intellectual brightness rather than the bodily face.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_facialhair",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The hair of the face, in an expression describing its growth.",
+      "usage_conditions": "Attested in the phrase for the hair of a person's face growing out.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_period_beginning",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The beginning or first part of a period, including the beginning of time or the early part of the forenoon.",
+      "usage_conditions": "A temporal idiomatic use such as وجه الدهر or وجه الضحى; the Quranic beginning-of-day use is listed separately under the Quranic form.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_report_verbatim",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The original, exact, or unaltered form in which something is reported or recited.",
+      "usage_conditions": "Used with reporting or transmitting speech or a narration in its proper form.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_drift",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The drift or direction of speech.",
+      "usage_conditions": "A specialized figurative use concerning the course taken by discourse.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_random",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "A random, heedless, or headlong course or manner of proceeding.",
+      "usage_conditions": "Used in expressions for going one's way without guidance or restraint.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_rank",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "A prominent person, chief, or person of good rank or station.",
+      "usage_conditions": "In singular or plural expressions, the face represents the leading or socially prominent member of a group.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_regard",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "Consideration or regard.",
+      "usage_conditions": "A figurative use marked in the evidence as an assumed tropical extension.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    },
+    {
+      "meaning_id": "cm_jihah_reference",
+      "headword_arabic": "جَهَةٌ",
+      "definition": "A respect or relation in which something is considered; with reference to, by reason of, or on account of something.",
+      "usage_conditions": "Used in expressions equivalent to “in respect of” or “with reference to.”",
+      "source_refs": [
+        "lane:entry:30389"
+      ]
+    },
+    {
+      "meaning_id": "cm_jihah_sixdirections",
+      "headword_arabic": "جَهَةٌ",
+      "definition": "A relative direction or location, including above, below, before, behind, right, and left.",
+      "usage_conditions": "The six conventional relative points or directions are explicitly enumerated in the lexical evidence.",
+      "source_refs": [
+        "lane:entry:30389"
+      ]
+    },
+    {
+      "meaning_id": "cm_wijhah_mode",
+      "headword_arabic": "وِجْهَةٌ",
+      "definition": "A way, mode, or manner of acting.",
+      "usage_conditions": "A Classical use of the noun beyond its Quranic occurrence as a direction or orientation.",
+      "source_refs": [
+        "lane:entry:30390"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_wajih_comparative",
+      "headword_arabic": "أَوْجَهُ",
+      "definition": "More or most worthy of regard.",
+      "usage_conditions": "The comparative or superlative form of the standing or esteem expressed by وَجِيهٌ.",
+      "source_refs": [
+        "lane:entry:30392"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_tawjih_equivocation",
+      "headword_arabic": "تَوْجِيهٌ",
+      "definition": "Equivocation or indirect wording.",
+      "usage_conditions": "A specialized nominal use equated in the evidence with التورية.",
+      "source_refs": [
+        "lane:entry:30393"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_mutawajjih_place",
+      "headword_arabic": "مُتَوَجَّهٌ",
+      "definition": "A place toward which one tends, proceeds, or betakes oneself.",
+      "usage_conditions": "A passive-participial noun referring to the destination or object of movement.",
+      "source_refs": [
+        "lane:entry:30394"
+      ]
+    },
+    {
+      "meaning_id": "cm_wjh_signification",
+      "headword_arabic": "وَجْهٌ",
+      "definition": "The meaning or signification of something.",
+      "usage_conditions": "Used in the expression asking what a thing, statement, or expression means.",
+      "source_refs": [
+        "lane:entry:30388"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wjh:30383:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_wajjaha_uncovering"
+      ],
+      "note": "Rare Form II idiomatic use is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30384:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_wajaha_confront"
+      ],
+      "note": "Confrontation and face-to-face encounter are represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30385:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_awjaha_repel"
+      ],
+      "note": "Repelling a petitioner is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30385:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30386:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_wjh_tawajjaha_turntoward"
+      ],
+      "note": "Directional Form V meaning is represented under the Quranic form."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30386:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_tawajjaha_idiom"
+      ],
+      "note": "Specialized stupidity idiom is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30387:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_ittajaha_misapply"
+      ],
+      "note": "Failure to apply oneself rightly is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30387:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_ittajaha_opinion"
+      ],
+      "note": "The idiom for an opinion occurring is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30387:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_ittajaha_convalesce"
+      ],
+      "note": "The convalescent use is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Headword-only pointer unit."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_wjh_self",
+        "s_wjh_orientation"
+      ],
+      "note": "Face as whole self and directed submission are represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_perspective"
+      ],
+      "note": "Respect or point of view is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_validity"
+      ],
+      "note": "Proper or reasonable way is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_course"
+      ],
+      "note": "Course, purpose, object, and direction are represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_course"
+      ],
+      "note": "Way of a thing is covered by the course branch."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_validity"
+      ],
+      "note": "Lack of correctness is covered by the validity branch."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_intellect"
+      ],
+      "note": "Intellectual brightness is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_wjh_devotional_aim"
+      ],
+      "note": "The Quranic devotional construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub10",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_validity"
+      ],
+      "note": "Reasonableness is covered by the validity branch."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub11",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_validity"
+      ],
+      "note": "Reasonable accounting is covered by the validity branch."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_validity",
+        "cm_wjh_authority"
+      ],
+      "note": "The unit contains both propriety and authority nuances."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub13",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_wjh_devotional_aim"
+      ],
+      "note": "Seeking divine favor or recompense is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub14",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_course"
+      ],
+      "note": "Restraint from a course or purpose is covered."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub15",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_course"
+      ],
+      "note": "Turning something from its course is covered."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub16",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_facialhair"
+      ],
+      "note": "Facial hair is represented as a phrase-specific use."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub17",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_wjh_daybeginning",
+        "cm_wjh_period_beginning"
+      ],
+      "note": "Day and broader temporal beginning uses are both covered."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub18",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_report_verbatim"
+      ],
+      "note": "Reporting something in its exact form is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub19",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_course"
+      ],
+      "note": "Approaching an affair from its aspect is covered by the course branch."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub20",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_drift"
+      ],
+      "note": "Drift of speech is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub21",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_random"
+      ],
+      "note": "Random or heedless proceeding is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub22",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_random"
+      ],
+      "note": "The parallel random-course idiom is covered."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub23",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Untranslated pointer-only phrase."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub24",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_rank"
+      ],
+      "note": "Persons of good rank or station are represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub25",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_regard"
+      ],
+      "note": "The marked figurative sense of consideration is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub26",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_place_direction"
+      ],
+      "note": "Place or point toward which something goes or looks is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub27",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_result"
+      ],
+      "note": "End or result of an affair is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub28",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_course"
+      ],
+      "note": "Shooting in one direction is covered by the course branch."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub29",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_period_beginning"
+      ],
+      "note": "Beginning of the forenoon is covered by the temporal beginning branch."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub30",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_rank"
+      ],
+      "note": "Chief or leading person is covered by the rank branch."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub31",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_wjh_course"
+      ],
+      "note": "The directional idiom is covered by the course branch."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub32",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_method"
+      ],
+      "note": "Mode or manner is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub34",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_signification"
+      ],
+      "note": "Meaning or signification is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30388:g1:sub35",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_wajjaha_uncovering"
+      ],
+      "note": "The tentative maidenhead/degradation idiom is covered with the related covering idiom."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30389:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to وَجْهٌ throughout."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30389:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jihah_reference"
+      ],
+      "note": "Reference, respect, and causal relation are represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30389:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_jihah_sixdirections"
+      ],
+      "note": "The six relative directions are represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30390:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30390:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wijhah_mode"
+      ],
+      "note": "Way, mode, or manner of acting is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30391:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_wjh_wajih_honored"
+      ],
+      "note": "Worthy of regard is represented under the Quranic adjective."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30392:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_wajih_comparative"
+      ],
+      "note": "Comparative or superlative esteem is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30393:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30393:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_tawjih_equivocation"
+      ],
+      "note": "Equivocation or indirect wording is represented."
+    },
+    {
+      "unit_id": "lane-unit:wjh:30394:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wjh_mutawajjih_place"
+      ],
+      "note": "Destination or place toward which one tends is represented."
+    }
+  ],
+  "cautions": [
+    "Expressions involving وَجْهُ اللَّهِ are context-sensitive: the evidence records readings involving divine self or essence, orientation toward God, and God's favor or the reward intended for Him; these are kept as distinct supported uses rather than collapsed into one gloss.",
+    "Lane's historical Quran citation conventions were not converted into modern verse locations unless the corresponding location was independently supplied by QAC.",
+    "The rare idiomatic senses involving a covering, degradation, or maidenhead are retained with cautious wording because the supplied lexical text itself uses tentative language."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

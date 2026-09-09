@@ -1,0 +1,258 @@
+{
+  "root": "nhj",
+  "arabic": "نهج",
+  "root_idea": {
+    "summary": "The root centers on a clear or open path and the making of something manifest, alongside a distinct lexical branch involving interrupted breath, fatigue, and wearing out.",
+    "development": "The path-and-clarity branch yields nouns for a clear road or way and verbs meaning to become or make manifest. Classical evidence also preserves a separate branch of panting or becoming breathless, falling from beating, and garment wear.",
+    "source_refs": [
+      "maqayis:row:4768",
+      "mufradat:row:1491"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nhj:minohaAj:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nhj-minhaj",
+      "reason": "Display as the normalized dictionary citation form مِنْهَاج rather than the Quranic accusative surface form مِنْهَاجًا."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nhj-minhaj",
+      "form_group_ids": [
+        "qac-form:nhj:minohaAj:nominal:-"
+      ],
+      "headword_arabic": "مِنْهَاج",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nhj-minhaj-s1",
+          "definition": "A clear, plainly apparent way or path.",
+          "usage_conditions": "In the supplied Quran occurrence, the noun is paired with شِرْعَةً in the expression “a law and a clear way.” The evidence supports the lexical value of a clear way or path.",
+          "source_refs": [
+            "mufradat:row:1491",
+            "lane:entry:44606"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:48",
+          "word_location": "5:48:29",
+          "sense_ids": [
+            "nhj-minhaj-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nhj-clarity",
+      "headword_arabic": "نَهَجَ / أَنْهَجَ",
+      "definition": "To become manifest, plainly apparent, or open; to make a road, way, or affair manifest or clear.",
+      "usage_conditions": "The intransitive use describes something becoming clear or open; the transitive or causative use describes making it clear, including a road, way, or affair.",
+      "source_refs": [
+        "lane:entry:44603"
+      ]
+    },
+    {
+      "meaning_id": "nhj-travel-road",
+      "headword_arabic": "نَهَجَ الطَّرِيقَ",
+      "definition": "To go along a road.",
+      "usage_conditions": "Used with a road or way as its object.",
+      "source_refs": [
+        "lane:entry:44603"
+      ]
+    },
+    {
+      "meaning_id": "nhj-wearout",
+      "headword_arabic": "نَهَجَ / نَهِجَ / نَهُجَ / أَنْهَجَ",
+      "definition": "Of a garment, to become old and worn out without being torn into several pieces; to wear a garment out.",
+      "usage_conditions": "The intransitive forms describe a garment becoming worn from attrition; the causative use describes wearing it out or the effect of wear spreading through it.",
+      "source_refs": [
+        "lane:entry:44603",
+        "mufradat:row:1491"
+      ]
+    },
+    {
+      "meaning_id": "nhj-pant",
+      "headword_arabic": "نَهِجَ",
+      "definition": "To become out of breath, breathe short, or pant.",
+      "usage_conditions": "The use describes breathlessness or panting resulting from violent motion or exertion and is attested of persons and animals.",
+      "source_refs": [
+        "lane:entry:44603"
+      ]
+    },
+    {
+      "meaning_id": "nhj-beat-fall",
+      "headword_arabic": "أَنْهَجَ",
+      "definition": "To beat someone until he fell or lay stretched out.",
+      "usage_conditions": "This is a resultative construction describing the outcome of severe beating.",
+      "source_refs": [
+        "lane:entry:44604",
+        "maqayis:row:4768"
+      ]
+    },
+    {
+      "meaning_id": "nhj-cause-pant",
+      "headword_arabic": "أَنْهَجَ",
+      "definition": "To cause a person or riding animal to pant and become fatigued or jaded.",
+      "usage_conditions": "The Form IV causative describes inducing breathlessness and exhaustion, including by riding an animal hard.",
+      "source_refs": [
+        "lane:entry:44604"
+      ]
+    },
+    {
+      "meaning_id": "nhj-follow-way",
+      "headword_arabic": "اِسْتَنْهَجَ",
+      "definition": "To follow another person’s way or path.",
+      "usage_conditions": "The construction is attested with سبيل or طريق followed by the person whose way is taken.",
+      "source_refs": [
+        "lane:entry:44605"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nhj:44603:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhj-clarity"
+      ],
+      "note": "Manifestness and making clear."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44603:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nhj-clarity"
+      ],
+      "note": "Causative clarity use covered by the same meaning."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44603:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Illustrative example of the clarity construction."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44603:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhj-wearout"
+      ],
+      "note": "Garment becoming or being made worn out."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44603:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nhj-wearout"
+      ],
+      "note": "Variant forms and the same garment-wear branch."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44603:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhj-travel-road"
+      ],
+      "note": "Going along a road."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44603:g4:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhj-pant"
+      ],
+      "note": "Breathlessness and panting."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44604:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhj-beat-fall"
+      ],
+      "note": "Beating until falling or becoming stretched out."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44604:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhj-cause-pant"
+      ],
+      "note": "Causative breathlessness and fatigue."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44604:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44605:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44605:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhj-follow-way"
+      ],
+      "note": "Following another’s way."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44606:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nhj-minhaj-s1"
+      ],
+      "note": "Clear or manifest road and way."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44606:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nhj-minhaj-s1"
+      ],
+      "note": "Manifest roads or ways."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44606:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nhj-minhaj-s1"
+      ],
+      "note": "Plain or open track of a road."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44607:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَهْج."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44608:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَهْج."
+    },
+    {
+      "unit_id": "lane-unit:nhj:44609:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference identifying مِنْهَاج through نَهْج."
+    }
+  ],
+  "cautions": [
+    "The supplied Quran evidence attests مِنْهَاج only as a noun in one occurrence; the Form I, Form IV, and Form X verbal branches are supported here as broader Classical Arabic meanings.",
+    "One Form IV passage records an alternative reading of the result of beating as “wept,” but the same passage flags that reading as likely erroneous; the supported sense is falling or becoming stretched out."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

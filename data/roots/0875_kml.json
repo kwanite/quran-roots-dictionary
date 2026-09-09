@@ -1,0 +1,185 @@
+{
+  "root": "kml",
+  "arabic": "كمل",
+  "root_idea": {
+    "summary": "The root centers on completion: reaching the intended end, full measure, or perfection.",
+    "development": "The lexical pattern extends from being or becoming complete or perfect to bringing something to completion in Form IV; كَامِلٌ denotes what has reached its full measure or intended completeness.",
+    "source_refs": [
+      "maqayis:row:4036",
+      "mufradat:row:1268",
+      "lane:entry:32947"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kml:>akomalo:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-kml-akmala",
+      "reason": "Presented under the normalized Form IV perfect citation form أَكْمَلَ rather than the inflected QAC lemma candidate."
+    },
+    {
+      "form_group_id": "qac-form:kml:kaAmilap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-kml-kamil",
+      "reason": "Presented under the normalized masculine singular active-participle citation form كَامِلٌ; the Quranic occurrence is feminine."
+    },
+    {
+      "form_group_id": "qac-form:kml:kaAmilayon:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-kml-kamil",
+      "reason": "Inflected dual active-participle form of كَامِلٌ, represented under the same normalized dictionary headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-kml-akmala",
+      "form_group_ids": [
+        "qac-form:kml:>akomalo:verb:IV"
+      ],
+      "headword_arabic": "أَكْمَلَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsense-kml-akmala-1",
+          "definition": "To complete, bring to full measure, or perfect something.",
+          "usage_conditions": "Transitive Form IV; in the Quran it is used for completing a prescribed measure or course and for bringing a religious order to perfection.",
+          "source_refs": [
+            "lane:entry:32947",
+            "mufradat:row:1268",
+            "maqayis:row:4036"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:185",
+          "word_location": "2:185:36",
+          "sense_ids": [
+            "qsense-kml-akmala-1"
+          ]
+        },
+        {
+          "verse_key": "5:3",
+          "word_location": "5:3:41",
+          "sense_ids": [
+            "qsense-kml-akmala-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-kml-kamil",
+      "form_group_ids": [
+        "qac-form:kml:kaAmilap:nominal:-",
+        "qac-form:kml:kaAmilayon:nominal:-"
+      ],
+      "headword_arabic": "كَامِلٌ",
+      "public_pos_label": "Active participle / adjective",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qsense-kml-kamil-1",
+          "definition": "Complete or full, having reached the whole measure or intended fulfillment of something.",
+          "usage_conditions": "Used adjectivally, including with a duration, number, quantity, or burden, to indicate that the relevant whole or full measure has been attained; its gender and number vary with the noun modified.",
+          "source_refs": [
+            "mufradat:row:1268",
+            "lane:entry:32947"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:233",
+          "word_location": "2:233:5",
+          "sense_ids": [
+            "qsense-kml-kamil-1"
+          ]
+        },
+        {
+          "verse_key": "2:196",
+          "word_location": "2:196:58",
+          "sense_ids": [
+            "qsense-kml-kamil-1"
+          ]
+        },
+        {
+          "verse_key": "16:25",
+          "word_location": "16:25:3",
+          "sense_ids": [
+            "qsense-kml-kamil-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-kml-kamala",
+      "headword_arabic": "كَمَلَ",
+      "definition": "To be or become perfect; in some usage, to become complete, entire, whole, or full.",
+      "usage_conditions": "Intransitive Form I verb describing the attainment or emergence of completeness or perfection.",
+      "source_refs": [
+        "lane:entry:32947"
+      ]
+    },
+    {
+      "meaning_id": "cm-kml-kamil-bodily",
+      "headword_arabic": "كَامِلٌ",
+      "definition": "Fully developed in bodily vigor, having reached the customary term of physical maturity; consummate or perfect.",
+      "usage_conditions": "A Classical specialization of كَامِلٌ concerning developed bodily strength or maturity.",
+      "source_refs": [
+        "lane:entry:32948"
+      ]
+    },
+    {
+      "meaning_id": "cm-kml-mukammilat",
+      "headword_arabic": "مُكَمِّلَاتٌ",
+      "definition": "Supererogatory acts of religious service.",
+      "usage_conditions": "Plural noun for optional religious acts performed beyond the obligatory service.",
+      "source_refs": [
+        "lane:entry:32950"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kml:32947:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kml-kamala",
+        "qsense-kml-akmala-1",
+        "qsense-kml-kamil-1"
+      ],
+      "note": "The unit's completion, perfection, wholeness, and fullness branches are represented across the Form I classical meaning and the Quran-attested completion senses."
+    },
+    {
+      "unit_id": "lane-unit:kml:32948:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kml-kamil-bodily"
+      ],
+      "note": "The bodily-vigor and maturity specialization is represented separately as Classical Arabic."
+    },
+    {
+      "unit_id": "lane-unit:kml:32949:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:kml:32950:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-kml-mukammilat"
+      ],
+      "note": "The specialized noun for supererogatory religious acts is represented as a Classical meaning."
+    }
+  ],
+  "cautions": [
+    "The feminine and dual Quranic forms grouped under كَامِلٌ are presented together under the normalized masculine singular active-participle citation form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,97 @@
+{
+  "root": "swH",
+  "arabic": "سوح",
+  "root_idea": {
+    "summary": "The root centers on an open area or expanse associated with a house or settlement.",
+    "development": "The lexical range extends from a house's open court or yard to a spacious area among dwellings and, more broadly, to a side, quarter, region, or territory.",
+    "source_refs": [
+      "maqayis:row:2519",
+      "lane:entry:42607"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:swH:saAHat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-saha",
+      "reason": "The Quranic noun is presented under its normalized Classical Arabic citation form سَاحَة."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-saha",
+      "form_group_ids": [
+        "qac-form:swH:saAHat:nominal:-"
+      ],
+      "headword_arabic": "سَاحَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform-saha-s1",
+          "definition": "A side, quarter, region, or territory; in بِسَاحَتِهِمْ, the area or territory of a people.",
+          "usage_conditions": "Quran-attested in a possessive expression referring to the area or territory associated with a people.",
+          "source_refs": [
+            "lane:entry:42607"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:177",
+          "word_location": "37:177:3",
+          "sense_ids": [
+            "qform-saha-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical-saha-open-area",
+      "headword_arabic": "سَاحَة",
+      "definition": "An open court, yard, or unbuilt area of a house; more broadly, a spacious area among dwellings.",
+      "usage_conditions": "Includes an unbuilt or roofless part of a house, its yard, and a broad open place among a community's dwellings.",
+      "source_refs": [
+        "lane:entry:42607"
+      ]
+    },
+    {
+      "meaning_id": "classical-saha-idiom",
+      "headword_arabic": "سَاحَة",
+      "definition": "In بَرِيءُ السَّاحَةِ, free from accusation or blame; innocent.",
+      "usage_conditions": "A conventional idiomatic expression.",
+      "source_refs": [
+        "lane:entry:42607"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:swH:42606:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only unit directing the reader to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:swH:42607:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-saha-s1",
+        "classical-saha-open-area",
+        "classical-saha-idiom"
+      ],
+      "note": "Covers the territorial, open-area, and idiomatic branches represented above."
+    },
+    {
+      "unit_id": "lane-unit:swH:42608:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive cross-reference; it contributes no independent lexical branch."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

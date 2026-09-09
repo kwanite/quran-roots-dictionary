@@ -1,0 +1,192 @@
+{
+  "root": "nSt",
+  "arabic": "نصت",
+  "root_idea": {
+    "summary": "The root centers on silence, especially silence maintained for listening.",
+    "development": "The basic notion of silence extends to attentive listening. Its derived forms also express causing someone to be silent, requesting silence, and standing or pausing while listening.",
+    "source_refs": [
+      "maqayis:row:4647",
+      "lane:entry:43807",
+      "lane:entry:43808",
+      "lane:entry:43810"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nSt:>anSitu:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:nSt:ansata:IV",
+      "reason": "The group is a Quran-attested Form IV verb with a distinct listening construction."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:nSt:ansata:IV",
+      "form_group_ids": [
+        "qac-form:nSt:>anSitu:verb:IV"
+      ],
+      "headword_arabic": "أَنْصَتَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense:nSt:ansata:IV:listen",
+          "definition": "To be silent in order to listen attentively; to listen quietly.",
+          "usage_conditions": "Used in the Quran in the imperative plural, in the construction of remaining silent and listening to recited or spoken discourse.",
+          "source_refs": [
+            "lane:entry:43807"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:204",
+          "word_location": "7:204:6",
+          "sense_ids": [
+            "sense:nSt:ansata:IV:listen"
+          ]
+        },
+        {
+          "verse_key": "46:29",
+          "word_location": "46:29:12",
+          "sense_ids": [
+            "sense:nSt:ansata:IV:listen"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:nSt:nasata:silent",
+      "headword_arabic": "نَصَتَ",
+      "definition": "To be silent; to listen, particularly by remaining silent while hearing speech.",
+      "usage_conditions": "Form I usage, including the construction of being silent and listening to someone's speech.",
+      "source_refs": [
+        "lane:entry:43807"
+      ]
+    },
+    {
+      "meaning_id": "cm:nSt:intasaba:standlisten",
+      "headword_arabic": "اِنْتَصَبَ",
+      "definition": "To stand or pause while listening.",
+      "usage_conditions": "A derived posture-and-listening usage reported in connection with the root's silence-and-listening branch.",
+      "source_refs": [
+        "lane:entry:43807"
+      ]
+    },
+    {
+      "meaning_id": "cm:nSt:ansata:silence",
+      "headword_arabic": "أَنْصَتَ",
+      "definition": "To make someone silent; to silence someone, including by making that person refrain from speaking.",
+      "usage_conditions": "Transitive Form IV usage; with عَنْ, the construction can express making someone abstain from speaking about or to the speaker.",
+      "source_refs": [
+        "lane:entry:43808"
+      ]
+    },
+    {
+      "meaning_id": "cm:nSt:ansata:play",
+      "headword_arabic": "أَنْصَتَ",
+      "definition": "To incline toward play or sport.",
+      "usage_conditions": "Occurs in the construction أَنْصَتَ لِلَّهْوِ.",
+      "source_refs": [
+        "lane:entry:43808"
+      ]
+    },
+    {
+      "meaning_id": "cm:nSt:istanṣata:request",
+      "headword_arabic": "اِسْتَنْصَتَ",
+      "definition": "To ask or desire someone to be silent, or to be silent and listen to the speaker.",
+      "usage_conditions": "Form X request or desire for silence and attentive listening.",
+      "source_refs": [
+        "lane:entry:43810"
+      ]
+    },
+    {
+      "meaning_id": "cm:nSt:nuṣta:silence",
+      "headword_arabic": "نُصْتَةٌ",
+      "definition": "Silence, or silence accompanied by listening.",
+      "usage_conditions": "Nominal usage for the state or act of silent listening.",
+      "source_refs": [
+        "lane:entry:43811"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nSt:43807:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:nSt:nasata:silent",
+        "cm:nSt:intasaba:standlisten"
+      ],
+      "note": "Covers silence/listening and standing or pausing while listening."
+    },
+    {
+      "unit_id": "lane-unit:nSt:43807:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:nSt:ansata:IV:listen"
+      ],
+      "note": "Explicitly gives the silent-listening construction for أنصت له."
+    },
+    {
+      "unit_id": "lane-unit:nSt:43808:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:nSt:ansata:silence"
+      ],
+      "note": "Covers the transitive silencing use."
+    },
+    {
+      "unit_id": "lane-unit:nSt:43808:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:nSt:ansata:silence"
+      ],
+      "note": "Its عن construction is included in the transitive silencing meaning."
+    },
+    {
+      "unit_id": "lane-unit:nSt:43808:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nSt:43808:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:nSt:ansata:play"
+      ],
+      "note": "Covers the specialized inclination-to-play usage."
+    },
+    {
+      "unit_id": "lane-unit:nSt:43809:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:nSt:43810:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:nSt:istanṣata:request"
+      ],
+      "note": "Covers requesting or desiring silence and listening."
+    },
+    {
+      "unit_id": "lane-unit:nSt:43811:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:nSt:nuṣta:silence"
+      ],
+      "note": "Covers the nominal state of silence or silent listening."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrences are imperative plural surface forms; the public headword is normalized to the Form IV perfect citation form أَنْصَتَ.",
+    "Form IV also has a transitive Classical Arabic meaning, 'to silence someone'; that meaning is listed separately from the Quranic silent-listening usage."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

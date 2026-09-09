@@ -1,0 +1,698 @@
+{
+  "root": "Any",
+  "arabic": "أني",
+  "root_idea": {
+    "summary": "The root centers on reaching an appointed time, full state, or point of attainment, with related branches involving time, readiness, deliberateness, and receptacles.",
+    "development": "The lexical field develops from due time and attainment into slowness or patient deliberation, periods of time, completion or ripeness, intense heat, and vessel terminology. These are related lexical branches, not a single meaning shared by every form.",
+    "source_refs": [
+      "maqayis:row:159"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Any:ya>oni:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Any_yana",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Any:'aAn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Any_aan",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Any:'aAnaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Any_anaa",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Any:'aAniyap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Any_aniyah",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Any:<inaY`:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Any_ina",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Any:>an~aY`:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "Any_anna",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:Any:'aAnaA^':other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "Any_anaa",
+      "reason": "The T-tagged occurrence is the same Quranic plural time noun represented by the nominal group."
+    },
+    {
+      "form_group_id": "qac-form:Any:>an~aY`:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "Any_anna",
+      "reason": "The INTG-tagged occurrences belong to the same public interrogative form as the nominally tagged occurrence."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "Any_yana",
+      "form_group_ids": [
+        "qac-form:Any:ya>oni:verb:I"
+      ],
+      "headword_arabic": "أَنَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "Any_yana_s1",
+          "definition": "To become due; have its time come or draw near.",
+          "usage_conditions": "In the Quranic occurrence, the subject is the time at which hearts should become receptive and responsive.",
+          "source_refs": [
+            "lane:entry:7393",
+            "mufradat:row:56"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "57:16",
+          "word_location": "57:16:2",
+          "sense_ids": [
+            "Any_yana_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "Any_aan",
+      "form_group_ids": [
+        "qac-form:Any:'aAn:nominal:-"
+      ],
+      "headword_arabic": "آنٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "Any_aan_s1",
+          "definition": "Intensely hot; heated to the utmost degree.",
+          "usage_conditions": "An active participle describing water or another liquid that has reached extreme heat.",
+          "source_refs": [
+            "lane:entry:7410",
+            "mufradat:row:56"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "55:44",
+          "word_location": "55:44:5",
+          "sense_ids": [
+            "Any_aan_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "Any_anaa",
+      "form_group_ids": [
+        "qac-form:Any:'aAnaA^':nominal:-",
+        "qac-form:Any:'aAnaA^':other:-"
+      ],
+      "headword_arabic": "آناء",
+      "public_pos_label": "Noun · plural",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "Any_anaa_s1",
+          "definition": "Hours or periods of the night.",
+          "usage_conditions": "A plural time noun used with reference to devotional activity during different portions of the night.",
+          "source_refs": [
+            "lane:entry:7400",
+            "mufradat:row:56"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:113",
+          "word_location": "3:113:11",
+          "sense_ids": [
+            "Any_anaa_s1"
+          ]
+        },
+        {
+          "verse_key": "20:130",
+          "word_location": "20:130:14",
+          "sense_ids": [
+            "Any_anaa_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "Any_aniyah",
+      "form_group_ids": [
+        "qac-form:Any:'aAniyap:nominal:-"
+      ],
+      "headword_arabic": "آنِيَة",
+      "public_pos_label": "Noun / adjective",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "Any_aniyah_s1",
+          "definition": "Vessels or receptacles.",
+          "usage_conditions": "A plural noun referring to containers in which food or drink is placed.",
+          "source_refs": [
+            "lane:entry:7404",
+            "mufradat:row:56"
+          ]
+        },
+        {
+          "sense_id": "Any_aniyah_s2",
+          "definition": "Intensely hot; fully heated.",
+          "usage_conditions": "A feminine active-participial adjective describing a spring or liquid that has reached the utmost degree of heat.",
+          "source_refs": [
+            "lane:entry:7410",
+            "mufradat:row:56"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "76:15",
+          "word_location": "76:15:3",
+          "sense_ids": [
+            "Any_aniyah_s1"
+          ]
+        },
+        {
+          "verse_key": "88:5",
+          "word_location": "88:5:4",
+          "sense_ids": [
+            "Any_aniyah_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "Any_ina",
+      "form_group_ids": [
+        "qac-form:Any:<inaY`:nominal:-"
+      ],
+      "headword_arabic": "إِنَىٰ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "Any_ina_s1",
+          "definition": "The appointed completion or full readiness of something; in context, its preparation or cooking being complete.",
+          "usage_conditions": "In the Quranic expression إِنَاهُ, referring to the time or state at which the food has reached readiness and is fit to be served.",
+          "source_refs": [
+            "lane:entry:7393",
+            "lane:entry:7401",
+            "mufradat:row:56"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:53",
+          "word_location": "33:53:16",
+          "sense_ids": [
+            "Any_ina_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "Any_anna",
+      "form_group_ids": [
+        "qac-form:Any:>an~aY`:nominal:-",
+        "qac-form:Any:>an~aY`:other:-"
+      ],
+      "headword_arabic": "أَنَّىٰ",
+      "public_pos_label": "Interrogative adverb",
+      "verb_form": null,
+      "occurrence_count": 28,
+      "senses": [
+        {
+          "sense_id": "Any_anna_s1",
+          "definition": "Whence? From where, or from what direction or source?",
+          "usage_conditions": "An interrogative asking about the origin, source, or direction from which something comes.",
+          "source_refs": [
+            "lane:entry:7408",
+            "lane:entry:7409",
+            "mufradat:row:60"
+          ]
+        },
+        {
+          "sense_id": "Any_anna_s2",
+          "definition": "How? In what way, or how can it be possible?",
+          "usage_conditions": "An interrogative asking about manner, means, or possibility; the surrounding context determines whether the emphasis is on manner or feasibility.",
+          "source_refs": [
+            "lane:entry:7408",
+            "lane:entry:7409",
+            "mufradat:row:60"
+          ]
+        },
+        {
+          "sense_id": "Any_anna_s3",
+          "definition": "When? At what time?",
+          "usage_conditions": "A temporal interrogative reading found in Quranic contexts where the question concerns the time of an event.",
+          "source_refs": [
+            "lane:entry:7408",
+            "lane:entry:7409"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:37",
+          "word_location": "3:37:20",
+          "sense_ids": [
+            "Any_anna_s1"
+          ]
+        },
+        {
+          "verse_key": "19:20",
+          "word_location": "19:20:2",
+          "sense_ids": [
+            "Any_anna_s2"
+          ]
+        },
+        {
+          "verse_key": "2:223",
+          "word_location": "2:223:6",
+          "sense_ids": [
+            "Any_anna_s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_late",
+      "headword_arabic": "أَنَى",
+      "definition": "To be behind its time; be late, delayed, or held back.",
+      "usage_conditions": "A distinct Form I branch describing lateness or falling behind, rather than the arrival of the due time.",
+      "source_refs": [
+        "lane:entry:7393",
+        "lane:entry:7406"
+      ]
+    },
+    {
+      "meaning_id": "cm_cook_heat",
+      "headword_arabic": "أَنَى",
+      "definition": "To become thoroughly cooked or intensely heated.",
+      "usage_conditions": "Used of food becoming fully cooked and of water or hot liquid becoming heated to the utmost degree.",
+      "source_refs": [
+        "lane:entry:7393"
+      ]
+    },
+    {
+      "meaning_id": "cm_mature",
+      "headword_arabic": "أَنِيّ",
+      "definition": "Having reached its due time or full state; mature or ripe.",
+      "usage_conditions": "An active-participial adjective applied to a thing that has attained maturity, ripeness, or its final state.",
+      "source_refs": [
+        "lane:entry:7393",
+        "lane:entry:7406"
+      ]
+    },
+    {
+      "meaning_id": "cm_remiss",
+      "headword_arabic": "أَنَّىَ",
+      "definition": "To fall short, be remiss, or fail to do what is requisite in a matter.",
+      "usage_conditions": "A Form II usage describing deficiency or negligence with respect to an undertaking.",
+      "source_refs": [
+        "lane:entry:7395"
+      ]
+    },
+    {
+      "meaning_id": "cm_postpone",
+      "headword_arabic": "آنَى",
+      "definition": "To postpone, defer, delay, hold back, withhold, or impede.",
+      "usage_conditions": "A Form IV causative/transitive branch applied to any thing or opportunity that is delayed or restrained; its verbal noun is also reported as إِيناءٌ and أَنَاءٌ.",
+      "source_refs": [
+        "lane:entry:7396",
+        "lane:entry:7403"
+      ]
+    },
+    {
+      "meaning_id": "cm_estrange",
+      "headword_arabic": "آنَى",
+      "definition": "To make distant or remote; remove, alienate, or estrange.",
+      "usage_conditions": "A separate Form IV transitive branch involving removal or estrangement rather than postponement.",
+      "source_refs": [
+        "lane:entry:7396"
+      ]
+    },
+    {
+      "meaning_id": "cm_deliberate",
+      "headword_arabic": "تَأَنَّى",
+      "definition": "To act deliberately, gently, patiently, and without haste; wait with patience.",
+      "usage_conditions": "The Form V branch may describe proceeding with moderation in an affair or waiting for a person, result, or food to be ready.",
+      "source_refs": [
+        "lane:entry:7397",
+        "lane:entry:7405",
+        "lane:entry:7410"
+      ]
+    },
+    {
+      "meaning_id": "cm_time_period",
+      "headword_arabic": "إِنْىٌ",
+      "definition": "An hour, short period, or period of time, especially of the night.",
+      "usage_conditions": "The ordinary lexical range concerns a portion or season of the night; some authorities extend it to an entire day or to time more generally.",
+      "source_refs": [
+        "lane:entry:7400"
+      ]
+    },
+    {
+      "meaning_id": "cm_ultimate",
+      "headword_arabic": "أَنًى",
+      "definition": "The utmost point, reach, or degree of a thing; its full or final state.",
+      "usage_conditions": "A nominal branch referring to attainment of the maximum or completed state, including maturity or thorough cooking in appropriate contexts.",
+      "source_refs": [
+        "lane:entry:7401"
+      ]
+    },
+    {
+      "meaning_id": "cm_hope",
+      "headword_arabic": "أَنَاة",
+      "definition": "Hope or continued expectation of good from someone.",
+      "usage_conditions": "An attested noun usage in which hope is not abandoned despite a person's poor reputation.",
+      "source_refs": [
+        "lane:entry:7405"
+      ]
+    },
+    {
+      "meaning_id": "cm_woman",
+      "headword_arabic": "أَنَاة",
+      "definition": "A woman characterized by languor or slowness in rising and by gentle, grave, or composed deportment.",
+      "usage_conditions": "A specialized classical application; some authorities additionally describe such a woman as blessed, forbearing, compliant, or abounding in good.",
+      "source_refs": [
+        "lane:entry:7405"
+      ]
+    },
+    {
+      "meaning_id": "cm_interjection",
+      "headword_arabic": "إِنِيهْ",
+      "definition": "An interjection expressing disapproval or treating something as remote or improbable.",
+      "usage_conditions": "An archaic expression with reported disagreement about its grammatical analysis and formation.",
+      "source_refs": [
+        "lane:entry:7407"
+      ]
+    },
+    {
+      "meaning_id": "cm_anna_conditional",
+      "headword_arabic": "أَنَّى",
+      "definition": "Whencesoever, wherever, whenever, or however.",
+      "usage_conditions": "An adverbial or conditional use referring to any direction, place, time, or manner; it is broader than the principal interrogative readings.",
+      "source_refs": [
+        "lane:entry:7408",
+        "lane:entry:7409"
+      ]
+    },
+    {
+      "meaning_id": "cm_time_after_time",
+      "headword_arabic": "آتَيْتُهُ آنِيَةً بَعْدَ آنِيَةٍ",
+      "definition": "Time after time; on successive occasions.",
+      "usage_conditions": "A reported and disputed phrase; the lexical form in this expression may instead be related to آوِنَة or آئِنَة according to the cited discussion.",
+      "source_refs": [
+        "lane:entry:7411"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Any:7393:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Any_yana_s1"
+      ],
+      "note": "Due time and drawing near are represented by the Quranic Form I verb."
+    },
+    {
+      "unit_id": "lane-unit:Any:7393:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Any_ina_s1",
+        "cm_cook_heat",
+        "cm_mature"
+      ],
+      "note": "Completion/readiness, cooking or intense heating, and maturity are assigned to their respective targets."
+    },
+    {
+      "unit_id": "lane-unit:Any:7393:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_late"
+      ],
+      "note": "Late or behind its time."
+    },
+    {
+      "unit_id": "lane-unit:Any:7394:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Variant spellings and a pointer without an independent lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:Any:7394:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Any:7395:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Any:7395:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Any:7395:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_remiss"
+      ],
+      "note": "Falling short or being remiss."
+    },
+    {
+      "unit_id": "lane-unit:Any:7396:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_postpone"
+      ],
+      "note": "Postponing, withholding, or impeding."
+    },
+    {
+      "unit_id": "lane-unit:Any:7396:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_estrange"
+      ],
+      "note": "Making distant or estranging."
+    },
+    {
+      "unit_id": "lane-unit:Any:7397:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_deliberate"
+      ],
+      "note": "Deliberate, patient, and unhurried action."
+    },
+    {
+      "unit_id": "lane-unit:Any:7398:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form V discussion without additional lexical content."
+    },
+    {
+      "unit_id": "lane-unit:Any:7399:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Any:7400:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Any_anaa_s1",
+        "cm_time_period"
+      ],
+      "note": "Night hours and the broader time-period range."
+    },
+    {
+      "unit_id": "lane-unit:Any:7401:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Any:7401:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Any_ina_s1",
+        "cm_ultimate"
+      ],
+      "note": "Full completion in the Quranic construction and the broader utmost-degree meaning."
+    },
+    {
+      "unit_id": "lane-unit:Any:7401:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Any:7402:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Variant-form and pointer material without an independent meaning."
+    },
+    {
+      "unit_id": "lane-unit:Any:7402:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Any:7403:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_postpone"
+      ],
+      "note": "The noun for postponement or deferral."
+    },
+    {
+      "unit_id": "lane-unit:Any:7404:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Any_aniyah_s1"
+      ],
+      "note": "Vessel or receptacle."
+    },
+    {
+      "unit_id": "lane-unit:Any:7405:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_deliberate"
+      ],
+      "note": "Moderation, gentleness, patience, and composure."
+    },
+    {
+      "unit_id": "lane-unit:Any:7405:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_hope"
+      ],
+      "note": "Hope as an independent noun meaning."
+    },
+    {
+      "unit_id": "lane-unit:Any:7405:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_woman"
+      ],
+      "note": "Specialized application to a woman of languid or composed deportment."
+    },
+    {
+      "unit_id": "lane-unit:Any:7406:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mature"
+      ],
+      "note": "A thing that has reached maturity or its full state."
+    },
+    {
+      "unit_id": "lane-unit:Any:7406:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_late"
+      ],
+      "note": "Late, delayed, or held back."
+    },
+    {
+      "unit_id": "lane-unit:Any:7407:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_interjection"
+      ],
+      "note": "Interjection of disapproval or improbability."
+    },
+    {
+      "unit_id": "lane-unit:Any:7408:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Any_anna_s1",
+        "Any_anna_s2",
+        "Any_anna_s3",
+        "cm_anna_conditional"
+      ],
+      "note": "Interrogative and conditional adverbial branches, including Quran-attested whence, how, and when readings."
+    },
+    {
+      "unit_id": "lane-unit:Any:7409:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Any_anna_s1",
+        "Any_anna_s2",
+        "Any_anna_s3",
+        "cm_anna_conditional"
+      ],
+      "note": "Quran-cited whence, how, and when interpretations together with conditional wherever/however usage."
+    },
+    {
+      "unit_id": "lane-unit:Any:7410:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "Any_aan_s1",
+        "Any_aniyah_s2"
+      ],
+      "note": "Masculine and feminine active-participial forms for extreme heat."
+    },
+    {
+      "unit_id": "lane-unit:Any:7410:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Any:7410:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_deliberate"
+      ],
+      "note": "A man characterized by moderation and deliberateness."
+    },
+    {
+      "unit_id": "lane-unit:Any:7411:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_time_after_time"
+      ],
+      "note": "A reported, explicitly interpreted phrase meaning time after time, with its lexical uncertainty retained in usage conditions."
+    }
+  ],
+  "cautions": [
+    "أَنَّىٰ is context-sensitive: Quranic and classical interpretation may select whence, how, or when, and the form also has a broader conditional-adverbial use.",
+    "آنٍ and the adjective sense of آنِيَة are heat terms, while the noun sense of آنِيَة denotes vessels; their identical spelling does not imply identical lexical identity.",
+    "The phrase آتَيْتُهُ آنِيَةً بَعْدَ آنِيَةٍ is reported with a competing lexical analysis and is retained as a cautious classical phrase rather than a regular Quranic form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

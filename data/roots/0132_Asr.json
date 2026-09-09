@@ -1,0 +1,480 @@
+{
+  "root": "Asr",
+  "arabic": "أسر",
+  "root_idea": {
+    "summary": "The root centers on holding fast, binding, or retaining something.",
+    "development": "Physical fastening with a thong or cord extends to taking and holding a captive. Related Classical Arabic branches describe firmly joined bodily structure, supportive kinship, fastening equipment, and urinary retention.",
+    "source_refs": [
+      "maqayis:row:88",
+      "lane:entry:6700",
+      "lane:entry:6706",
+      "lane:entry:6709",
+      "lane:entry:6710"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:Asr:ta>osiru:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Asr:asara:verbI",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:Asr:>asiyr:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Asr:asir",
+      "reason": "Displayed under the singular lexical citation form أَسِير, with Quranic plural occurrences grouped under it."
+    },
+    {
+      "form_group_id": "qac-form:Asr:>asor:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "pf:Asr:asr",
+      "reason": "Displayed as the distinct Quranic noun أَسْر."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "pf:Asr:asara:verbI",
+      "form_group_ids": [
+        "qac-form:Asr:ta>osiru:verb:I"
+      ],
+      "headword_arabic": "أَسَرَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:Asr:verb:capture",
+          "definition": "To capture, take prisoner, or imprison.",
+          "usage_conditions": "The Quranic occurrence is an active imperfect form meaning to take captive.",
+          "source_refs": [
+            "lane:entry:6700",
+            "mufradat:row:35"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "33:26",
+          "word_location": "33:26:15",
+          "sense_ids": [
+            "s:Asr:verb:capture"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:Asr:asir",
+      "form_group_ids": [
+        "qac-form:Asr:>asiyr:nominal:-"
+      ],
+      "headword_arabic": "أَسِيرٌ",
+      "public_pos_label": "Noun / adjective",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "s:Asr:asir:captive",
+          "definition": "A captive or prisoner: one taken and held, whether or not still physically bound.",
+          "usage_conditions": "The Quranic group includes the singular أَسِيرًا and the plurals أَسْرَىٰ and أُسَارَىٰ. When explicitly referring to a woman, the feminine أَسِيرَةٌ may be used.",
+          "source_refs": [
+            "lane:entry:6711",
+            "mufradat:row:35"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:67",
+          "word_location": "8:67:7",
+          "sense_ids": [
+            "s:Asr:asir:captive"
+          ]
+        },
+        {
+          "verse_key": "76:8",
+          "word_location": "76:8:7",
+          "sense_ids": [
+            "s:Asr:asir:captive"
+          ]
+        },
+        {
+          "verse_key": "2:85",
+          "word_location": "2:85:17",
+          "sense_ids": [
+            "s:Asr:asir:captive"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "pf:Asr:asr",
+      "form_group_ids": [
+        "qac-form:Asr:>asor:nominal:-"
+      ],
+      "headword_arabic": "أَسْرٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s:Asr:asr:bodilyform",
+          "definition": "Bodily make, constitution, or structural framework.",
+          "usage_conditions": "In شَدَدْنَا أَسْرَهُمْ (76:28), the noun refers to the firmly joined human bodily structure; the passage is interpreted in terms of bodily form, joints, or the constricting outlets for urine and feces.",
+          "source_refs": [
+            "lane:entry:6706",
+            "mufradat:row:35"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "76:28",
+          "word_location": "76:28:4",
+          "sense_ids": [
+            "s:Asr:asr:bodilyform"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:Asr:bind",
+      "headword_arabic": "أَسَرَ",
+      "definition": "To bind, brace, or fasten a person or an object, such as a saddle, with a thong.",
+      "usage_conditions": "The intensive Form II is also used for binding or tying tightly or firmly.",
+      "source_refs": [
+        "lane:entry:6700",
+        "lane:entry:6701"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:createform",
+      "headword_arabic": "أَسَرَ",
+      "definition": "To create or form someone in a goodly manner.",
+      "usage_conditions": "A figurative Classical Arabic use of the Form I verb.",
+      "source_refs": [
+        "lane:entry:6700"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:urineverb",
+      "headword_arabic": "أُسِرَ / أَسِرَ",
+      "definition": "To suffer suppression or obstruction of the urine.",
+      "usage_conditions": "The sources record more than one vocalized verbal pattern for this medical use.",
+      "source_refs": [
+        "lane:entry:6700"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:slowexcuse",
+      "headword_arabic": "تَأَسَّرَ",
+      "definition": "To excuse oneself to someone while delaying or lingering.",
+      "usage_conditions": "Used with عَلَيْهِ in the recorded construction; the usage is figurative and independently reported as a specialized expression.",
+      "source_refs": [
+        "lane:entry:6703"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:submitcaptive",
+      "headword_arabic": "اِسْتَأْسَرَ",
+      "definition": "To submit oneself as a captive to the enemy.",
+      "usage_conditions": "The recorded construction is استأسر للعدوّ; the imperative may mean “be captive to me.”",
+      "source_refs": [
+        "lane:entry:6705"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:entirety",
+      "headword_arabic": "أَسْرٌ",
+      "definition": "Altogether or in entirety.",
+      "usage_conditions": "Used in the idiom بِأَسْرِهِ, as in taking or possessing something completely and people coming together as a whole.",
+      "source_refs": [
+        "lane:entry:6706"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:urineretention",
+      "headword_arabic": "أُسْرٌ",
+      "definition": "Urinary retention or obstruction; also described as painful dribbling with bladder pain and spasms.",
+      "usage_conditions": "This is the medical noun; suppression of feces is distinguished by حَصْرٌ.",
+      "source_refs": [
+        "lane:entry:6707",
+        "mufradat:row:35"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:urineretentionstick",
+      "headword_arabic": "عُودُ أُسْرٍ",
+      "definition": "A stick or piece of wood placed on the abdomen to treat urinary retention.",
+      "usage_conditions": "A technical therapeutic expression associated with the medical sense of أُسْرٌ.",
+      "source_refs": [
+        "lane:entry:6707"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:family",
+      "headword_arabic": "أُسْرَةٌ",
+      "definition": "A man’s near kinsmen or close relations, regarded as a source of strength.",
+      "usage_conditions": "The close relations may be specified generally or, in one description, as the nearer relations on the father’s side.",
+      "source_refs": [
+        "lane:entry:6709"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:isarbind",
+      "headword_arabic": "إِسَارٌ",
+      "definition": "A binding thong of untanned hide, a rope or cord, or a pair of shackles.",
+      "usage_conditions": "Used for fastening a camel’s or horse’s saddle and for binding a captive.",
+      "source_refs": [
+        "lane:entry:6710",
+        "lane:entry:6706"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:isarcaptive",
+      "headword_arabic": "إِسَارٌ",
+      "definition": "A captive.",
+      "usage_conditions": "This lexical use is recorded alongside the noun’s sense of a binding implement.",
+      "source_refs": [
+        "lane:entry:6710"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:asirfigurative",
+      "headword_arabic": "أَسِيرٌ",
+      "definition": "Figuratively, one held by or dependent upon another’s benefaction.",
+      "usage_conditions": "A metaphorical use derived from the condition of being held captive.",
+      "source_refs": [
+        "mufradat:row:35"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:tasirsaddle",
+      "headword_arabic": "تَأْسِيرُ السَّرْجِ",
+      "definition": "The thongs of a horse’s saddle by which it is fastened.",
+      "usage_conditions": "This expression is treated as a plural with no singular form in the cited lexical discussion.",
+      "source_refs": [
+        "lane:entry:6712"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:masursaddle",
+      "headword_arabic": "مَأْسُورٌ",
+      "definition": "A camel’s saddle fastened with a binding thong.",
+      "usage_conditions": "A specialized nominal use describing the secured saddle rather than a captive person.",
+      "source_refs": [
+        "lane:entry:6713"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:masurjoints",
+      "headword_arabic": "مَأْسُورٌ",
+      "definition": "A man or beast having strongly knit joints.",
+      "usage_conditions": "The recorded application is to a human or an animal whose joints are firmly joined.",
+      "source_refs": [
+        "lane:entry:6713"
+      ]
+    },
+    {
+      "meaning_id": "cm:Asr:masururine",
+      "headword_arabic": "مَأْسُورٌ",
+      "definition": "A man suffering urinary retention.",
+      "usage_conditions": "An adjectival description derived from the medical sense of أُسْرٌ.",
+      "source_refs": [
+        "lane:entry:6713"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:Asr:6700:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:bind"
+      ],
+      "note": "Binding or fastening use."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6700:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:Asr:verb:capture"
+      ],
+      "note": "Taking captive and imprisoning."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6700:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:createform"
+      ],
+      "note": "Creating or forming well."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6700:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:urineverb"
+      ],
+      "note": "Urinary suppression as a verbal use."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6701:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm:Asr:bind"
+      ],
+      "note": "Intensive binding is covered by the broader binding meaning."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6702:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6703:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:slowexcuse"
+      ],
+      "note": "Specialized use meaning excuse oneself and delay."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6704:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another root entry without a lexical definition."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6705:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:submitcaptive"
+      ],
+      "note": "Submitting oneself as a captive."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6705:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6706:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:entirety",
+        "cm:Asr:isarbind"
+      ],
+      "note": "Binding-implement equivalence and the idiom meaning altogether."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6706:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:Asr:asr:bodilyform"
+      ],
+      "note": "Strength or firmness of make."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6706:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:Asr:asr:bodilyform"
+      ],
+      "note": "Quranic bodily-structure interpretation."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6707:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:urineretention"
+      ],
+      "note": "Medical noun for urinary retention."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6707:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:urineretentionstick"
+      ],
+      "note": "Therapeutic stick expression."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6708:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant reference."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6709:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:family"
+      ],
+      "note": "Near kinship as a source of strength."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6710:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:isarbind",
+        "cm:Asr:isarcaptive"
+      ],
+      "note": "Binding implement and captive uses."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6710:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6711:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s:Asr:asir:captive"
+      ],
+      "note": "Captive, prisoner, and related plural usage."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6712:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:tasirsaddle"
+      ],
+      "note": "Saddle thongs."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6713:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:masursaddle"
+      ],
+      "note": "Saddle bound with a thong."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6713:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:masurjoints"
+      ],
+      "note": "Strongly knit joints in a man or beast."
+    },
+    {
+      "unit_id": "lane-unit:Asr:6713:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:Asr:masururine"
+      ],
+      "note": "Urinary-retention adjective."
+    }
+  ],
+  "cautions": [
+    "The Quranic expression أَسْرَهُمْ in 76:28 has closely related but distinct traditional interpretations—bodily make or form, joints, and the constricting outlets for urine and feces—so these are retained as constructional nuances of one sense rather than treated as unrelated meanings."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

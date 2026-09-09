@@ -1,0 +1,151 @@
+{
+  "root": "ldn",
+  "arabic": "لدن",
+  "root_idea": {
+    "summary": "The root has two attested orientations: physical pliancy or softness, and a locative relation marking a point of presence or origin.",
+    "development": "The locative value of لَدُنْ is more specific than ordinary عند and, in the Quranic مِنْ لَدُنْ construction, marks origin from a specified presence or source. The related adjective لَدْنٌ retains the sense of being supple or flexible.",
+    "source_refs": [
+      "maqayis:row:4143",
+      "mufradat:row:1298"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:ldn:l~adun:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "ldn-form-ladun",
+      "reason": "Primary public citation form for the Quranic lexical item لَدُنْ."
+    },
+    {
+      "form_group_id": "qac-form:ldn:l~adun:other:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "ldn-form-ladun",
+      "reason": "The QAC tag split is grammatical rather than lexical; this occurrence belongs under the same public headword لَدُنْ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "ldn-form-ladun",
+      "form_group_ids": [
+        "qac-form:ldn:l~adun:nominal:-",
+        "qac-form:ldn:l~adun:other:-"
+      ],
+      "headword_arabic": "لَدُنْ",
+      "public_pos_label": "Adverbial noun / preposition",
+      "verb_form": null,
+      "occurrence_count": 18,
+      "senses": [
+        {
+          "sense_id": "ldn-form-ladun-s1",
+          "definition": "From the presence, side, or source of a specified referent.",
+          "usage_conditions": "In the Quran it occurs in مِنْ لَدُنْ constructions, including forms with attached pronouns and with a named source. The expression marks origin from a particular presence or source; contextual renderings such as “from Yourself,” “from Us,” and “near Him” reflect this construction rather than separate lexical senses.",
+          "source_refs": [
+            "mufradat:row:1298",
+            "lane:entry:20597"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:10",
+          "word_location": "18:10:10",
+          "sense_ids": [
+            "ldn-form-ladun-s1"
+          ]
+        },
+        {
+          "verse_key": "18:65",
+          "word_location": "18:65:11",
+          "sense_ids": [
+            "ldn-form-ladun-s1"
+          ]
+        },
+        {
+          "verse_key": "18:2",
+          "word_location": "18:2:6",
+          "sense_ids": [
+            "ldn-form-ladun-s1"
+          ]
+        },
+        {
+          "verse_key": "11:1",
+          "word_location": "11:1:8",
+          "sense_ids": [
+            "ldn-form-ladun-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "ldn-classical-soft",
+      "headword_arabic": "لَدْنٌ",
+      "definition": "Supple, pliant, limber, flexible, or soft.",
+      "usage_conditions": "An adjectival description of something characterized by physical pliancy or flexibility.",
+      "source_refs": [
+        "lane:entry:20596"
+      ]
+    },
+    {
+      "meaning_id": "ldn-classical-locative",
+      "headword_arabic": "لَدُنْ",
+      "definition": "At or near; in the presence of a specified point or person.",
+      "usage_conditions": "A locative value more specific than عند and reported as capable of replacing it in suitable usage.",
+      "source_refs": [
+        "mufradat:row:1298"
+      ]
+    },
+    {
+      "meaning_id": "ldn-classical-temporal",
+      "headword_arabic": "مِنْ لَدُنْ",
+      "definition": "From the time of; since a specified time.",
+      "usage_conditions": "A temporal starting-point construction marking the beginning of a period or interval.",
+      "source_refs": [
+        "lane:entry:20597"
+      ]
+    },
+    {
+      "meaning_id": "ldn-classical-agency",
+      "headword_arabic": "مِنْ لَدُنْهُ",
+      "definition": "From his side; on his part, that is, from him.",
+      "usage_conditions": "A conventional construction used of a matter attributed to or proceeding from a person, equivalent in the cited usage to مِنْ قِبَلِهِ.",
+      "source_refs": [
+        "lane:entry:20597"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:ldn:20596:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ldn-classical-soft"
+      ],
+      "note": "Physical pliancy and flexibility."
+    },
+    {
+      "unit_id": "lane-unit:ldn:20597:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ldn-classical-temporal"
+      ],
+      "note": "Temporal مِنْ لَدُنْ construction."
+    },
+    {
+      "unit_id": "lane-unit:ldn:20597:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "ldn-classical-agency"
+      ],
+      "note": "From-his-side or on-his-part construction."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrences supplied here are overwhelmingly مِنْ لَدُنْ constructions; apparent variations such as “near Him” and “Yourself” are contextual renderings of the same source/presence sense.",
+    "A Lane pointer associated with the temporal construction does not provide a secure modern verse location, so no Quran example is claimed for that classical temporal use."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The temporal مِنْ لَدُنْ statement in Lane points to a verse through another article, but the cited passage and its modern location are not supplied; its Quranic status therefore cannot be verified from this packet."
+  ]
+}

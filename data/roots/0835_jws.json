@@ -1,0 +1,174 @@
+{
+  "root": "jws",
+  "arabic": "جوس",
+  "root_idea": {
+    "summary": "The root centers on penetrating through and moving within something, especially by passing among its parts or interior.",
+    "development": "This orientation develops into traversing dwellings while searching what they contain, forceful movement among people or places, and associated usages of treading and causing mischief. The Quranic construction also received an interpretation emphasizing the violent result of such an incursion.",
+    "source_refs": [
+      "maqayis:row:1258",
+      "lane:entry:47776"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:jws:jaAsu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "jws-form1-jasa",
+      "reason": "Displayed as the normalized Classical Arabic Form I perfect citation form جَاسَ rather than the inflected QAC lemma جَاسُ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "jws-form1-jasa",
+      "form_group_ids": [
+        "qac-form:jws:jaAsu:verb:I"
+      ],
+      "headword_arabic": "جَاسَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "jws-form1-jasa-s1",
+          "definition": "To pass through the midst of dwellings, moving to and fro among them and searching what they contain.",
+          "usage_conditions": "In the Quranic construction فَجَاسُوا خِلَالَ الدِّيَارِ, the verb describes penetrating and moving among the houses rather than merely entering one of them.",
+          "source_refs": [
+            "lane:entry:47776",
+            "mufradat:row:219"
+          ]
+        },
+        {
+          "sense_id": "jws-form1-jasa-s2",
+          "definition": "To move to and fro among dwellings in a sudden hostile attack, causing mischief.",
+          "usage_conditions": "A Quran-attested interpretation of فَجَاسُوا خِلَالَ الدِّيَارِ that emphasizes the incursion and its destructive action.",
+          "source_refs": [
+            "lane:entry:47776"
+          ]
+        },
+        {
+          "sense_id": "jws-form1-jasa-s3",
+          "definition": "To slay people amid their dwellings.",
+          "usage_conditions": "A reported interpretation of the Quranic construction فَجَاسُوا خِلَالَ الدِّيَارِ, foregrounding the violent result of the movement through the houses.",
+          "source_refs": [
+            "lane:entry:47776"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:5",
+          "word_location": "17:5:12",
+          "sense_ids": [
+            "jws-form1-jasa-s1",
+            "jws-form1-jasa-s2",
+            "jws-form1-jasa-s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "jws-classical-seek-thoroughly",
+      "headword_arabic": "جَاسَ",
+      "definition": "To seek after a thing, news, or tidings with the utmost endeavour.",
+      "usage_conditions": "A broader Classical Arabic use of the Form I verb, not restricted to movement among dwellings.",
+      "source_refs": [
+        "lane:entry:47776",
+        "mufradat:row:219"
+      ]
+    },
+    {
+      "meaning_id": "jws-classical-tread",
+      "headword_arabic": "جِيسَ / جَاسَ",
+      "definition": "To be trodden; to tread upon or step over people or a place, including entering among them and causing mischief.",
+      "usage_conditions": "The evidence includes both the passive form جِيسَ and active uses such as stepping over people or coming into their midst.",
+      "source_refs": [
+        "lane:entry:47776"
+      ]
+    },
+    {
+      "meaning_id": "jws-classical-jawwas-agent",
+      "headword_arabic": "جَوَّاسٌ",
+      "definition": "One who treads upon everything or enters among people and causes mischief.",
+      "usage_conditions": "An agent noun describing a person characterized by pervasive treading or disruptive intrusion.",
+      "source_refs": [
+        "lane:entry:47778"
+      ]
+    },
+    {
+      "meaning_id": "jws-classical-jawwas-lion",
+      "headword_arabic": "جَوَّاسٌ",
+      "definition": "A lion; by extension, the term may also be applied to a man.",
+      "usage_conditions": "A conventional Classical application of the agent-noun epithet.",
+      "source_refs": [
+        "lane:entry:47778"
+      ]
+    },
+    {
+      "meaning_id": "jws-classical-night-circuit",
+      "headword_arabic": "جَاسَ",
+      "definition": "To go around among houses at night, looking for anyone who remains or doing mischief.",
+      "usage_conditions": "A reported night-time construction, associated with the verbal noun جَوَسَانٌ; the night specification belongs to this Classical usage and is not imposed on the Quranic occurrence generally.",
+      "source_refs": [
+        "lane:entry:47776"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:jws:47776:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jws-classical-seek-thoroughly"
+      ],
+      "note": "The unit's distinct meaning of seeking a thing or tidings is represented as a Classical sense."
+    },
+    {
+      "unit_id": "lane-unit:jws:47776:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jws-form1-jasa-s1",
+        "jws-form1-jasa-s2",
+        "jws-form1-jasa-s3",
+        "jws-classical-night-circuit"
+      ],
+      "note": "The unit contains the Quranic traversal, hostile-incursion, and killing interpretations, plus the distinct reported night-circuit use."
+    },
+    {
+      "unit_id": "lane-unit:jws:47776:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jws-classical-tread"
+      ],
+      "note": "The unit's treading, stepping over, and disruptive entry usages are grouped under one Classical tread branch."
+    },
+    {
+      "unit_id": "lane-unit:jws:47777:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 47776."
+    },
+    {
+      "unit_id": "lane-unit:jws:47778:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jws-classical-jawwas-agent"
+      ],
+      "note": "The unit defines جَوَّاسٌ as an agent characterized by treading or disruptive entry."
+    },
+    {
+      "unit_id": "lane-unit:jws:47778:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "jws-classical-jawwas-lion"
+      ],
+      "note": "The unit records the lexical application of جَوَّاسٌ to a lion and, secondarily, a man."
+    }
+  ],
+  "cautions": [
+    "The single Quranic occurrence is associated with closely related interpretations: movement through and among the dwellings, a hostile raid, and the resulting killing. The contextual rendering “and they entered” reflects the movement-focused interpretation.],",
+    "unassigned_or_ambiguous_evidence([])"
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

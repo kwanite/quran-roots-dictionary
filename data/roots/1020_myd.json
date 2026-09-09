@@ -1,0 +1,729 @@
+{
+  "root": "myd",
+  "arabic": "ميد",
+  "root_idea": {
+    "summary": "The root has two documented semantic axes: movement or agitation, and benefit, giving, or nourishment.",
+    "development": "The movement axis develops through shaking, swaying, convulsion, inclination, and dizziness. The benefactive axis extends through giving and supplying food to the food-laden table designated by مَائِدَةٌ.",
+    "source_refs": [
+      "maqayis:row:4494",
+      "mufradat:row:1398"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:myd:tamiyda:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_mad_a",
+      "reason": "Displayed under the normalized Form I perfect citation form مَادَ rather than the Quranic imperfect تَمِيدَ."
+    },
+    {
+      "form_group_id": "qac-form:myd:maA^}idap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_maida",
+      "reason": "Displayed as the normalized nominal citation form مَائِدَةٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_mad_a",
+      "form_group_ids": [
+        "qac-form:myd:tamiyda:verb:I"
+      ],
+      "headword_arabic": "مَادَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform_mad_a_s1",
+          "definition": "To move, sway, or convulse violently.",
+          "usage_conditions": "In the Quranic occurrences, the earth is the subject and the construction with بِـ describes its convulsive movement affecting people: أَنْ تَمِيدَ بِكُمْ and أَنْ تَمِيدَ بِهِمْ.",
+          "source_refs": [
+            "lane:entry:13176",
+            "mufradat:row:1398"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:15",
+          "word_location": "16:15:6",
+          "sense_ids": [
+            "qform_mad_a_s1"
+          ]
+        },
+        {
+          "verse_key": "21:31",
+          "word_location": "21:31:6",
+          "sense_ids": [
+            "qform_mad_a_s1"
+          ]
+        },
+        {
+          "verse_key": "31:10",
+          "word_location": "31:10:11",
+          "sense_ids": [
+            "qform_mad_a_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform_maida",
+      "form_group_ids": [
+        "qac-form:myd:maA^}idap:nominal:-"
+      ],
+      "headword_arabic": "مَائِدَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform_maida_s1",
+          "definition": "A table spread or laid with food; a food-laden table.",
+          "usage_conditions": "In the Quranic occurrences, the word denotes the heavenly table spread with food.",
+          "source_refs": [
+            "lane:entry:13189",
+            "mufradat:row:1398"
+          ]
+        },
+        {
+          "sense_id": "qform_maida_s2",
+          "definition": "The nourishment requested from heaven, figuratively understood as knowledge that nourishes the hearts.",
+          "usage_conditions": "This is a reported Quran-focused interpretation of the heavenly-table request, especially the passage in 5:114; it is a figurative extension rather than the ordinary physical definition of the noun.",
+          "source_refs": [
+            "mufradat:row:1398"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "5:112",
+          "word_location": "5:112:13",
+          "sense_ids": [
+            "qform_maida_s1"
+          ]
+        },
+        {
+          "verse_key": "5:114",
+          "word_location": "5:114:9",
+          "sense_ids": [
+            "qform_maida_s1",
+            "qform_maida_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_mad_twist",
+      "headword_arabic": "مَادَ",
+      "definition": "To turn or twist about, becoming contorted or convulsed.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_writhe",
+      "headword_arabic": "مَادَ",
+      "definition": "To writhe upon a spear after being pierced.",
+      "usage_conditions": "A conventional construction describing the contortions of a wounded person.",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_mirage",
+      "headword_arabic": "مَادَ",
+      "definition": "To quiver or tremble, as a mirage.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_confusion",
+      "headword_arabic": "مَادَ",
+      "definition": "To become confounded, perplexed, or amazed.",
+      "usage_conditions": "Recorded as a figurative use.",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_seasickness",
+      "headword_arabic": "مَادَ",
+      "definition": "To experience heaving of the stomach, a tendency to vomit, and dizziness.",
+      "usage_conditions": "A figurative or physical use associated with intoxication or travel by sea.",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_reeling",
+      "headword_arabic": "مَادَ",
+      "definition": "To cause someone to reel or be carried round through the motion of the sea or ground.",
+      "usage_conditions": "Used in constructions such as مَادَ بِهِ الْبَحْرُ and مَادَتْ بِهِ الْأَرْضُ.",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_moisture",
+      "headword_arabic": "مَادَ",
+      "definition": "To become altered in odor, or become stinking, through dew or moisture.",
+      "usage_conditions": "Recorded of the colocynth and, similarly, a date.",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_sway",
+      "headword_arabic": "مَادَ",
+      "definition": "To incline or sway from side to side.",
+      "usage_conditions": "Recorded of branches, a person's gait, and an earth described as inclining; the human-gait use can convey affected elegance, pride, or self-conceit.",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_bestow",
+      "headword_arabic": "مَادَ",
+      "definition": "To bestow a benefit, favor, or gift; to give.",
+      "usage_conditions": "The object may be a person receiving the benefit or gift.",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_provision",
+      "headword_arabic": "مَادَ",
+      "definition": "To furnish travelers with provisions or bring people wheat or food.",
+      "usage_conditions": "The provisioning use is compared with زَادَ; bringing wheat or food is also recorded as a dialectal equivalent of مَارَ.",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_trade",
+      "headword_arabic": "مَادَ",
+      "definition": "To trade as a merchant.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_mad_increase",
+      "headword_arabic": "مَادَ",
+      "definition": "To increase or grow.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:13176"
+      ]
+    },
+    {
+      "meaning_id": "cm_emtad_request",
+      "headword_arabic": "اِمْتَادَهُ",
+      "definition": "To ask or desire someone to give something, especially wheat or food.",
+      "usage_conditions": "The food-related use is a specific application of the construction of seeking something from another person.",
+      "source_refs": [
+        "lane:entry:13178"
+      ]
+    },
+    {
+      "meaning_id": "cm_mayda_particle",
+      "headword_arabic": "مَيْدَ",
+      "definition": "A dialectal particle meaning other than or except, on or upon, or because of.",
+      "usage_conditions": "It is recorded as a dialectal form of بَيْدَ with several particle functions.",
+      "source_refs": [
+        "lane:entry:13179"
+      ]
+    },
+    {
+      "meaning_id": "cm_mayda_cause",
+      "headword_arabic": "مَيْدَا ذَلِكَ",
+      "definition": "On account of that; for the sake of that.",
+      "usage_conditions": "Used in the fixed expression فَعَلْتُهُ مَيْدَا ذَلِكَ or مَيْدَ ذَلِكَ.",
+      "source_refs": [
+        "lane:entry:13180"
+      ]
+    },
+    {
+      "meaning_id": "cm_mida_extent",
+      "headword_arabic": "مِيدَاءٌ",
+      "definition": "The amount, measure, dimensions, or extent of a thing; also the surface or extent of a road and the furthest distance to which horses run.",
+      "usage_conditions": "The term can refer to the measure of a thing's sides or its spatial limit.",
+      "source_refs": [
+        "lane:entry:13182"
+      ]
+    },
+    {
+      "meaning_id": "cm_mida_mode",
+      "headword_arabic": "مِيدَاءٌ",
+      "definition": "A mode, manner, or fashion.",
+      "usage_conditions": "Used in expressions describing things constructed according to one mode.",
+      "source_refs": [
+        "lane:entry:13182"
+      ]
+    },
+    {
+      "meaning_id": "cm_mida_opposite",
+      "headword_arabic": "مِيدَاؤُهُ",
+      "definition": "Opposite to or facing something; directly across from it.",
+      "usage_conditions": "Used of one house or place in relation to another.",
+      "source_refs": [
+        "lane:entry:13183"
+      ]
+    },
+    {
+      "meaning_id": "cm_maydan_race",
+      "headword_arabic": "مَيْدَانٌ",
+      "definition": "A horse-course, race-ground, or hippodrome.",
+      "usage_conditions": "The plural is مَيَادِينُ.",
+      "source_refs": [
+        "lane:entry:13184"
+      ]
+    },
+    {
+      "meaning_id": "cm_maydan_life",
+      "headword_arabic": "مَيْدَانٌ",
+      "definition": "A delicate, pleasant, ample, or easy life.",
+      "usage_conditions": "Used in the expression عَيْشٌ مَيْدَانٌ.",
+      "source_refs": [
+        "lane:entry:13184"
+      ]
+    },
+    {
+      "meaning_id": "cm_maydan_caliphate",
+      "headword_arabic": "مَيْدَانٌ",
+      "definition": "A historical term for the period of a caliph's reign, given as roughly twenty to twenty-four years.",
+      "usage_conditions": "Used in مَيْدَانُ الْخُلَفَاءِ.",
+      "source_refs": [
+        "lane:entry:13184"
+      ]
+    },
+    {
+      "meaning_id": "cm_mayud",
+      "headword_arabic": "مَيُودٌ",
+      "definition": "Much moving, agitated, or vacillating.",
+      "usage_conditions": "An intensive epithet also applied figuratively to worldly prosperity.",
+      "source_refs": [
+        "lane:entry:13186"
+      ]
+    },
+    {
+      "meaning_id": "cm_maid_seasick",
+      "headword_arabic": "مَائِدٌ",
+      "definition": "Affected by heaving of the stomach, a tendency to vomit, and dizziness.",
+      "usage_conditions": "Associated with intoxication or voyaging upon the sea.",
+      "source_refs": [
+        "lane:entry:13188"
+      ]
+    },
+    {
+      "meaning_id": "cm_maid_sway",
+      "headword_arabic": "مَائِدٌ",
+      "definition": "Inclining or swaying from side to side.",
+      "usage_conditions": "Recorded of a branch and of a person whose affected gait conveys elegance, pride, or self-conceit.",
+      "source_refs": [
+        "lane:entry:13188"
+      ]
+    },
+    {
+      "meaning_id": "cm_maida_metonymy",
+      "headword_arabic": "مَائِدَةٌ",
+      "definition": "By metonymy, the table itself even without food, or the food itself even without a table.",
+      "usage_conditions": "The table-alone extension is reported with disagreement among authorities; the food-alone extension is also recorded.",
+      "source_refs": [
+        "lane:entry:13189",
+        "mufradat:row:1398"
+      ]
+    },
+    {
+      "meaning_id": "cm_maida_ground",
+      "headword_arabic": "مَائِدَةٌ",
+      "definition": "A round piece of ground or land, by comparison with a table.",
+      "usage_conditions": "A figurative use.",
+      "source_refs": [
+        "lane:entry:13189"
+      ]
+    },
+    {
+      "meaning_id": "cm_mawaid_calamities",
+      "headword_arabic": "مَوَائِدُ",
+      "definition": "Calamities.",
+      "usage_conditions": "Recorded as a transposed form related to مَآوِدُ, distinct from the ordinary plural of مَائِدَةٌ.",
+      "source_refs": [
+        "lane:entry:13190"
+      ]
+    },
+    {
+      "meaning_id": "cm_mumtad",
+      "headword_arabic": "مُمْتَادٌ",
+      "definition": "One who asks or desires a gift, or one from whom a gift is requested; also one asking to bring wheat or food.",
+      "usage_conditions": "The entry records both participant-role readings of the gift-seeking relation, with the food-related use as a specific application.",
+      "source_refs": [
+        "lane:entry:13191"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:myd:13176:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_mad_a_s1"
+      ],
+      "note": "Quran-attested movement and convulsion."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_twist"
+      ],
+      "note": "Turning, twisting, and contortion."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_writhe"
+      ],
+      "note": "Wriggling after being pierced."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_mirage"
+      ],
+      "note": "Quivering of a mirage."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_confusion"
+      ],
+      "note": "Figurative perplexity."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_seasickness"
+      ],
+      "note": "Seasickness and dizziness."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_reeling"
+      ],
+      "note": "Being made to reel by sea or ground."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_moisture"
+      ],
+      "note": "Moisture-induced alteration in plants or dates."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_sway"
+      ],
+      "note": "Side-to-side inclination."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_sway"
+      ],
+      "note": "Swaying in walking."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub11",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_sway"
+      ],
+      "note": "Inclination attributed to the earth."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g1:sub12",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_sway"
+      ],
+      "note": "Affected swaying gait."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_bestow"
+      ],
+      "note": "Bestowing benefits or favors."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_bestow"
+      ],
+      "note": "Giving."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_provision"
+      ],
+      "note": "Supplying travel provisions."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_provision"
+      ],
+      "note": "Bringing wheat or food."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_trade"
+      ],
+      "note": "Trading as a merchant."
+    },
+    {
+      "unit_id": "lane-unit:myd:13176:g2:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mad_increase"
+      ],
+      "note": "Increasing or growing."
+    },
+    {
+      "unit_id": "lane-unit:myd:13177:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to entry 1."
+    },
+    {
+      "unit_id": "lane-unit:myd:13178:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_emtad_request"
+      ],
+      "note": "Seeking a gift from another."
+    },
+    {
+      "unit_id": "lane-unit:myd:13178:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_emtad_request"
+      ],
+      "note": "Seeking wheat or food."
+    },
+    {
+      "unit_id": "lane-unit:myd:13179:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mayda_particle"
+      ],
+      "note": "Dialectal particle uses."
+    },
+    {
+      "unit_id": "lane-unit:myd:13180:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mayda_cause"
+      ],
+      "note": "Fixed causal expression."
+    },
+    {
+      "unit_id": "lane-unit:myd:13181:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مَائِدَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:myd:13182:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mida_extent"
+      ],
+      "note": "Measure, extent, and road surface."
+    },
+    {
+      "unit_id": "lane-unit:myd:13182:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mida_extent"
+      ],
+      "note": "Furthest running distance."
+    },
+    {
+      "unit_id": "lane-unit:myd:13182:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mida_mode"
+      ],
+      "note": "Mode or manner."
+    },
+    {
+      "unit_id": "lane-unit:myd:13183:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mida_opposite"
+      ],
+      "note": "Opposite or facing."
+    },
+    {
+      "unit_id": "lane-unit:myd:13183:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:myd:13184:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maydan_race"
+      ],
+      "note": "Horse-course meaning."
+    },
+    {
+      "unit_id": "lane-unit:myd:13184:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maydan_life"
+      ],
+      "note": "Pleasant or ample life."
+    },
+    {
+      "unit_id": "lane-unit:myd:13184:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maydan_caliphate"
+      ],
+      "note": "Historical caliphate-period term."
+    },
+    {
+      "unit_id": "lane-unit:myd:13185:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مَيْدَانٌ."
+    },
+    {
+      "unit_id": "lane-unit:myd:13186:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mayud"
+      ],
+      "note": "Intensive epithet for movement or vacillation."
+    },
+    {
+      "unit_id": "lane-unit:myd:13187:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مَائِدٌ."
+    },
+    {
+      "unit_id": "lane-unit:myd:13188:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maid_seasick"
+      ],
+      "note": "Seasickness and dizziness."
+    },
+    {
+      "unit_id": "lane-unit:myd:13188:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maid_sway"
+      ],
+      "note": "Inclining branch or gait."
+    },
+    {
+      "unit_id": "lane-unit:myd:13188:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maid_sway"
+      ],
+      "note": "Affected swaying gait."
+    },
+    {
+      "unit_id": "lane-unit:myd:13189:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_maida_s1",
+        "cm_maida_metonymy"
+      ],
+      "note": "Food-laden table and metonymic extensions."
+    },
+    {
+      "unit_id": "lane-unit:myd:13189:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_maida_ground"
+      ],
+      "note": "Round piece of ground."
+    },
+    {
+      "unit_id": "lane-unit:myd:13190:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to مَائِدَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:myd:13190:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mawaid_calamities"
+      ],
+      "note": "Calamities as a reported transposed form."
+    },
+    {
+      "unit_id": "lane-unit:myd:13191:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mumtad"
+      ],
+      "note": "Gift-seeking participant roles."
+    },
+    {
+      "unit_id": "lane-unit:myd:13191:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mumtad"
+      ],
+      "note": "Continuation of the gift-seeking description."
+    },
+    {
+      "unit_id": "lane-unit:myd:13191:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mumtad"
+      ],
+      "note": "Food-related gift-seeking use."
+    }
+  ],
+  "cautions": [
+    "The Quranic verb is displayed under the perfect citation form مَادَ, while all supplied Quran occurrences are the imperfect تَمِيدَ.",
+    "The knowledge reading of مَائِدَةٌ is explicitly reported as a figurative interpretation of the heavenly-table passage, not as its ordinary physical gloss."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

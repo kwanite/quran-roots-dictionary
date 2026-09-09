@@ -1,0 +1,821 @@
+{
+  "root": "hdy",
+  "arabic": "هدي",
+  "root_idea": {
+    "summary": "The root centers on advancing or directing toward a way, especially by guidance, and on extending a gracious gift.",
+    "development": "From the idea of preceding another to guide arise guidance, right direction, the guide, and related notions of a way or manner. A distinct branch concerns presenting a gift or offering, including an offering brought to the Sacred House.",
+    "source_refs": [
+      "maqayis:row:4855",
+      "mufradat:row:1515"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hdy:hadaY:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdy_hada",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:hdy:{hotadaY`:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdy_ihtada",
+      "reason": "Displayed under the normalized Form VIII perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:hdy:>ahodaY`:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdy_ahda",
+      "reason": "Displayed as the Quranic comparative adjective."
+    },
+    {
+      "form_group_id": "qac-form:hdy:haAd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdy_hadin",
+      "reason": "Displayed under the active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:hdy:haAdiy:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "hdy_hadin",
+      "reason": "Inflectional spelling of the same active participle, هَادٍ."
+    },
+    {
+      "form_group_id": "qac-form:hdy:ha`diY:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "hdy_hadin",
+      "reason": "Orthographic and inflectional variant of the same active participle."
+    },
+    {
+      "form_group_id": "qac-form:hdy:hadiy~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdy_hadiyyah",
+      "reason": "Displayed as the feminine noun هَدِيَّة."
+    },
+    {
+      "form_group_id": "qac-form:hdy:hadoy:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdy_hady",
+      "reason": "Displayed as the noun هَدْي."
+    },
+    {
+      "form_group_id": "qac-form:hdy:hudFY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdy_huda",
+      "reason": "Displayed under the normalized noun هُدًى."
+    },
+    {
+      "form_group_id": "qac-form:hdy:muhotadiY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "hdy_muhtadi",
+      "reason": "Displayed under the singular active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:hdy:m~uhotad:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "hdy_muhtadi",
+      "reason": "Case and article variants of مُهْتَدٍ."
+    },
+    {
+      "form_group_id": "qac-form:hdy:m~uhotaduwn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "hdy_muhtadi",
+      "reason": "Sound masculine plural of the same active participle."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "hdy_hada",
+      "form_group_ids": [
+        "qac-form:hdy:hadaY:verb:I"
+      ],
+      "headword_arabic": "هَدَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 144,
+      "senses": [
+        {
+          "sense_id": "hdy_hada_s1",
+          "definition": "To guide, direct, or show someone a way or course, especially a right way.",
+          "usage_conditions": "May take a direct object or be construed with إلى or لام. It can describe indicating a path, teaching, calling, or directing without implying that the recipient necessarily accepts or follows the guidance.",
+          "source_refs": [
+            "lane:entry:17072",
+            "mufradat:row:1515"
+          ]
+        },
+        {
+          "sense_id": "hdy_hada_s2",
+          "definition": "To grant or bring about successful guidance: to enable someone to recognize, accept, and follow the truth.",
+          "usage_conditions": "In divine contexts this includes guidance of the heart and enabling or granting success. Human guidance is ordinarily limited to explaining or indicating the way, whereas this inward result is not under human control.",
+          "source_refs": [
+            "mufradat:row:1515"
+          ]
+        },
+        {
+          "sense_id": "hdy_hada_s3",
+          "definition": "To lead or bring someone to a final destination or good outcome, including the reward or abode of Paradise.",
+          "usage_conditions": "This use presents guidance as reaching the intended final state, not merely being shown the route.",
+          "source_refs": [
+            "mufradat:row:1515"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "1:6",
+          "word_location": "1:6:1",
+          "sense_ids": [
+            "hdy_hada_s1"
+          ]
+        },
+        {
+          "verse_key": "90:10",
+          "word_location": "90:10:1",
+          "sense_ids": [
+            "hdy_hada_s1"
+          ]
+        },
+        {
+          "verse_key": "47:5",
+          "word_location": "47:5:1",
+          "sense_ids": [
+            "hdy_hada_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hdy_ihtada",
+      "form_group_ids": [
+        "qac-form:hdy:{hotadaY`:verb:VIII"
+      ],
+      "headword_arabic": "اِهْتَدَى",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 40,
+      "senses": [
+        {
+          "sense_id": "hdy_ihtada_s1",
+          "definition": "To find, follow, or accept the right way; to become rightly guided.",
+          "usage_conditions": "The Form VIII reflexive sense presents guidance as pursued, received, or realized by the subject. It can include guiding oneself, choosing a right course, and continuing to seek or remain in guidance.",
+          "source_refs": [
+            "lane:entry:17075",
+            "mufradat:row:1515"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "16:16",
+          "word_location": "16:16:4",
+          "sense_ids": [
+            "hdy_ihtada_s1"
+          ]
+        },
+        {
+          "verse_key": "19:76",
+          "word_location": "19:76:4",
+          "sense_ids": [
+            "hdy_ihtada_s1"
+          ]
+        },
+        {
+          "verse_key": "20:82",
+          "word_location": "20:82:9",
+          "sense_ids": [
+            "hdy_ihtada_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hdy_ahda",
+      "form_group_ids": [
+        "qac-form:hdy:>ahodaY`:nominal:-"
+      ],
+      "headword_arabic": "أَهْدَى",
+      "public_pos_label": "Adjective · comparative",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "hdy_ahda_s1",
+          "definition": "More guiding, better directed, or more expert in finding the right way.",
+          "usage_conditions": "A comparative form; Quranic contexts compare the degree of guidance or the effectiveness of a guide or way.",
+          "source_refs": [
+            "lane:entry:17081"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:51",
+          "word_location": "4:51:16",
+          "sense_ids": [
+            "hdy_ahda_s1"
+          ]
+        },
+        {
+          "verse_key": "28:49",
+          "word_location": "28:49:8",
+          "sense_ids": [
+            "hdy_ahda_s1"
+          ]
+        },
+        {
+          "verse_key": "17:84",
+          "word_location": "17:84:10",
+          "sense_ids": [
+            "hdy_ahda_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hdy_hadin",
+      "form_group_ids": [
+        "qac-form:hdy:haAd:nominal:-",
+        "qac-form:hdy:haAdiy:nominal:-",
+        "qac-form:hdy:ha`diY:nominal:-"
+      ],
+      "headword_arabic": "هَادٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "hdy_hadin_s1",
+          "definition": "A guide; one who directs or calls another to a way.",
+          "usage_conditions": "The active participle may refer to a person or other agent characterized by guiding or directing.",
+          "source_refs": [
+            "mufradat:row:1515"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "13:7",
+          "word_location": "13:7:15",
+          "sense_ids": [
+            "hdy_hadin_s1"
+          ]
+        },
+        {
+          "verse_key": "25:31",
+          "word_location": "25:31:10",
+          "sense_ids": [
+            "hdy_hadin_s1"
+          ]
+        },
+        {
+          "verse_key": "27:81",
+          "word_location": "27:81:3",
+          "sense_ids": [
+            "hdy_hadin_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hdy_hadiyyah",
+      "form_group_ids": [
+        "qac-form:hdy:hadiy~ap:nominal:-"
+      ],
+      "headword_arabic": "هَدِيَّة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "hdy_hadiyyah_s1",
+          "definition": "A gift or present given to another as a token of courtesy, affection, or honor.",
+          "usage_conditions": "Refers to a gift exchanged between people, distinct from a sacrificial offering brought to the Sacred House.",
+          "source_refs": [
+            "lane:entry:17079",
+            "mufradat:row:1515"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "27:35",
+          "word_location": "27:35:4",
+          "sense_ids": [
+            "hdy_hadiyyah_s1"
+          ]
+        },
+        {
+          "verse_key": "27:36",
+          "word_location": "27:36:15",
+          "sense_ids": [
+            "hdy_hadiyyah_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hdy_hady",
+      "form_group_ids": [
+        "qac-form:hdy:hadoy:nominal:-"
+      ],
+      "headword_arabic": "هَدْي",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "hdy_hady_s1",
+          "definition": "An offering brought to the Sacred House or sanctuary, especially a sacrificial animal offered in worship.",
+          "usage_conditions": "A cultic offering associated with the Kaaba, the Haram, or pilgrimage regulations; Quranic contexts include the animal or offering itself.",
+          "source_refs": [
+            "lane:entry:17079",
+            "mufradat:row:1515"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:196",
+          "word_location": "2:196:10",
+          "sense_ids": [
+            "hdy_hady_s1"
+          ]
+        },
+        {
+          "verse_key": "5:95",
+          "word_location": "5:95:24",
+          "sense_ids": [
+            "hdy_hady_s1"
+          ]
+        },
+        {
+          "verse_key": "48:25",
+          "word_location": "48:25:8",
+          "sense_ids": [
+            "hdy_hady_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hdy_huda",
+      "form_group_ids": [
+        "qac-form:hdy:hudFY:nominal:-"
+      ],
+      "headword_arabic": "هُدًى",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 85,
+      "senses": [
+        {
+          "sense_id": "hdy_huda_s1",
+          "definition": "Guidance or right direction, especially the guidance granted or revealed by God.",
+          "usage_conditions": "May denote the indication of the right path, guidance through revelation and prophetic teaching, enabling guidance, or the state of being on the right way.",
+          "source_refs": [
+            "mufradat:row:1515",
+            "lane:entry:17077"
+          ]
+        },
+        {
+          "sense_id": "hdy_huda_s2",
+          "definition": "The Qur’an, understood as the revealed guidance.",
+          "usage_conditions": "A conventional metonymic use in which the revealed book is named by its guiding function.",
+          "source_refs": [
+            "lane:entry:17077"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:2",
+          "word_location": "2:2:6",
+          "sense_ids": [
+            "hdy_huda_s1"
+          ]
+        },
+        {
+          "verse_key": "2:185",
+          "word_location": "2:185:7",
+          "sense_ids": [
+            "hdy_huda_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "hdy_muhtadi",
+      "form_group_ids": [
+        "qac-form:hdy:muhotadiY:nominal:-",
+        "qac-form:hdy:m~uhotad:nominal:-",
+        "qac-form:hdy:m~uhotaduwn:nominal:-"
+      ],
+      "headword_arabic": "مُهْتَدٍ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 21,
+      "senses": [
+        {
+          "sense_id": "hdy_muhtadi_s1",
+          "definition": "One who has found, accepted, and follows the right guidance; a rightly guided person.",
+          "usage_conditions": "An active participle of اِهْتَدَى; it can describe someone guided in belief, conduct, or chosen course.",
+          "source_refs": [
+            "lane:entry:17075",
+            "mufradat:row:1515"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:178",
+          "word_location": "7:178:5",
+          "sense_ids": [
+            "hdy_muhtadi_s1"
+          ]
+        },
+        {
+          "verse_key": "2:157",
+          "word_location": "2:157:9",
+          "sense_ids": [
+            "hdy_muhtadi_s1"
+          ]
+        },
+        {
+          "verse_key": "36:21",
+          "word_location": "36:21:7",
+          "sense_ids": [
+            "hdy_muhtadi_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "hdy_classic_deliver",
+      "headword_arabic": "هَدَى",
+      "definition": "To convey or deliver, in the construction يَهْدِي meaning يُؤَدِّي.",
+      "usage_conditions": "A specialized Form I construction distinct from ordinary guidance.",
+      "source_refs": [
+        "lane:entry:17072"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_bride",
+      "headword_arabic": "هَدَى العَرُوسَ",
+      "definition": "To send or conduct a bride to her husband or to her husband’s house.",
+      "usage_conditions": "A conventional expression for escorting or sending the bride to the marital home.",
+      "source_refs": [
+        "lane:entry:17072"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_giftverb",
+      "headword_arabic": "أَهْدَى",
+      "definition": "To give or present a gift.",
+      "usage_conditions": "The Form IV verb denotes giving, in contrast with هَدَى for directing or showing a way.",
+      "source_refs": [
+        "mufradat:row:1515"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_truce",
+      "headword_arabic": "تَهَادَنَا",
+      "definition": "For two parties who had been at war to make a truce with one another.",
+      "usage_conditions": "A reciprocal Form VI construction.",
+      "source_refs": [
+        "lane:entry:17074"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_cannotfind",
+      "headword_arabic": "اِهْتَدَى",
+      "definition": "To fail to find a way, direction, or means of accomplishing an affair.",
+      "usage_conditions": "Occurs in negative constructions such as لَا يَهْتَدِي إِلَى جِهَةٍ and لَا يَهْتَدِي لِأَمْرِهِ.",
+      "source_refs": [
+        "lane:entry:17075"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_calamity",
+      "headword_arabic": "اِهْتَدَى",
+      "definition": "In an idiom, a calamity from which one cannot discern the right course or means of escape.",
+      "usage_conditions": "A specialized expression describing a calamity that leaves no apparent way forward.",
+      "source_refs": [
+        "lane:entry:17075"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_way",
+      "headword_arabic": "هَدْيٌ",
+      "definition": "A way, course, method, manner, or mode of conduct; also calm or placid deportment.",
+      "usage_conditions": "A nominal branch concerning a person’s manner of acting, proceeding, or comportment.",
+      "source_refs": [
+        "lane:entry:17076"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_hadygoods",
+      "headword_arabic": "هَدِيٌّ",
+      "definition": "Goods or commodities brought to the Haram as an offering.",
+      "usage_conditions": "A broader collective use of the offering term beyond the Quranic focus on sacrificial animals.",
+      "source_refs": [
+        "lane:entry:17079"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_camels",
+      "headword_arabic": "هَدِيٌّ",
+      "definition": "Camels considered absolutely, without further qualification.",
+      "usage_conditions": "An absolute lexical use reported for the collective offering term.",
+      "source_refs": [
+        "lane:entry:17079"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_honor",
+      "headword_arabic": "هَدِيٌّ",
+      "definition": "One entitled to respect, honor, or protection.",
+      "usage_conditions": "An archaic nominal use distinct from the offering and gift branches.",
+      "source_refs": [
+        "lane:entry:17079"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_horsefront",
+      "headword_arabic": "هَادِيَةٌ",
+      "definition": "The forepart or leading part of a horse’s neck; the plural هَوَادِي denotes horses’ necks.",
+      "usage_conditions": "A specialized anatomical and figurative extension associated with what leads or is foremost.",
+      "source_refs": [
+        "lane:entry:17080"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_millhandle",
+      "headword_arabic": "هَادِي",
+      "definition": "The handle of a mill.",
+      "usage_conditions": "A specialized noun for the part that leads or turns the millstone.",
+      "source_refs": [
+        "lane:entry:17080"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_mahdi",
+      "headword_arabic": "المَهْدِيّ",
+      "definition": "The one directed by God to the truth; also a proper name for the eschatological figure whose coming is expected.",
+      "usage_conditions": "A later proper-name use, distinct from the ordinary active participles مُهْتَدٍ and هَادٍ.",
+      "source_refs": [
+        "lane:entry:17082"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_mihda",
+      "headword_arabic": "المِهْدَى",
+      "definition": "A tray or platter on which a gift is presented.",
+      "usage_conditions": "A derived noun associated with presenting gifts.",
+      "source_refs": [
+        "mufradat:row:1515"
+      ]
+    },
+    {
+      "meaning_id": "hdy_classic_mihdaa",
+      "headword_arabic": "المِهْدَاء",
+      "definition": "One who frequently gives gifts.",
+      "usage_conditions": "An intensive derived noun from the gift branch.",
+      "source_refs": [
+        "mufradat:row:1515"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hdy:17072:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_hada_s1"
+      ],
+      "note": "Ordinary Form I guidance is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17072:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_bride"
+      ],
+      "note": "Bride-conducting construction is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17072:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_deliver"
+      ],
+      "note": "Specialized conveyance use is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17073:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17074:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_truce"
+      ],
+      "note": "Reciprocal truce construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17075:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_ihtada_s1"
+      ],
+      "note": "Becoming or following rightly is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17075:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hdy_ihtada_s1"
+      ],
+      "note": "Self-guidance is covered by the Form VIII sense."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17075:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hdy_ihtada_s1"
+      ],
+      "note": "Going the right way is covered by the Form VIII sense."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17075:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_cannotfind"
+      ],
+      "note": "Inability to find a direction is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17075:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_cannotfind"
+      ],
+      "note": "Inability to find means for an affair is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17075:g1:sub6",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hdy_ihtada_s1"
+      ],
+      "note": "Finding or taking the right way is covered by the Form VIII sense."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17075:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_calamity"
+      ],
+      "note": "The calamity idiom is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17075:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_ihtada_s1"
+      ],
+      "note": "Continuing or seeking right direction is stated in the usage conditions."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17075:g1:sub9",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Variant pronunciation or orthographic form of اِهْتَدَى."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17076:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_way"
+      ],
+      "note": "Way, manner, conduct, and placid deportment are grouped."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17076:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hdy_classic_way"
+      ],
+      "note": "Conduct and mode of life are covered by the broader manner sense."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17076:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17077:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_huda_s1"
+      ],
+      "note": "Following a right direction is covered by the guidance noun."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17077:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_huda_s2"
+      ],
+      "note": "The Quran-designation use is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17078:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to هَدْيٌ and هَدِيَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17079:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_hadiyyah_s1"
+      ],
+      "note": "Gift or present is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17079:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_hady_s1",
+        "hdy_classic_hadygoods"
+      ],
+      "note": "Sacred offering and its broader goods extension are both represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17079:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_camels"
+      ],
+      "note": "Absolute camel use is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17079:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_honor"
+      ],
+      "note": "The honor or protection sense is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17080:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_horsefront"
+      ],
+      "note": "Horse-neck use is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17080:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "hdy_classic_horsefront"
+      ],
+      "note": "Forepart of the horse’s neck is covered by the grouped anatomical sense."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17080:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_millhandle"
+      ],
+      "note": "Mill-handle use is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17081:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_ahda_s1"
+      ],
+      "note": "Comparative expertise or guidance is represented."
+    },
+    {
+      "unit_id": "lane-unit:hdy:17082:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "hdy_classic_mahdi"
+      ],
+      "note": "Proper-name and eschatological use is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic أَهْدَىٰ group is treated as a comparative adjective or noun meaning “more/better guided”; this is distinct from the Form IV verb أَهْدَىَ, which Lane cross-references but which is not a supplied QAC form group.",
+    "The هَادٍ, هَادِي, and هَٰدِي groups are inflectional or orthographic realizations of one active-participle lexeme, and the singular and plural مُهْتَدٍ groups are presented under one active-participle headword."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

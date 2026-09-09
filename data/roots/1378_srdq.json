@@ -1,0 +1,146 @@
+{
+  "root": "srdq",
+  "arabic": "سردق",
+  "root_idea": {
+    "summary": "The supplied evidence centers on a structure that covers or encloses something, especially a canopy, tent, or surrounding barrier.",
+    "development": "The noun is described as an Arabicized Persian loanword. Its attested extensions move from physical canopies and tent enclosures to surrounding dust or smoke, including the Qur'anic fiery enclosure.",
+    "source_refs": [
+      "lane:entry:40913",
+      "mufradat:row:681"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:srdq:suraAdiq:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_srdq_suradiq",
+      "reason": "Quran-attested nominal with a distinct lexical headword normalized to the classical citation form سُرَادِق."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_srdq_suradiq",
+      "form_group_ids": [
+        "qac-form:srdq:suraAdiq:nominal:-"
+      ],
+      "headword_arabic": "سُرَادِق",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform_srdq_suradiq_s1",
+          "definition": "The enclosing barrier of Hell surrounding its inhabitants.",
+          "usage_conditions": "In the Qur'anic possessive expression سُرَادِقُهَا, it is interpreted as a tent-like enclosure or as the wall or surrounding barrier of the fire.",
+          "source_refs": [
+            "lane:entry:40913",
+            "mufradat:row:681"
+          ]
+        },
+        {
+          "sense_id": "qform_srdq_suradiq_s2",
+          "definition": "The smoke of Hell rising and surrounding its inhabitants.",
+          "usage_conditions": "This is an alternative Quran-attested interpretation of the same expression, focusing on the fire's enveloping smoke rather than a solid enclosure.",
+          "source_refs": [
+            "lane:entry:40913"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:29",
+          "word_location": "18:29:17",
+          "sense_ids": [
+            "qform_srdq_suradiq_s1",
+            "qform_srdq_suradiq_s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_srdq_canopy",
+      "headword_arabic": "سُرَادِق",
+      "definition": "A canopy, tent covering, or fabric enclosure around a court, tent, or other structure; by extension, a surrounding wall or enclosure.",
+      "usage_conditions": "The enclosure may be roofed or unroofed. The word can also be used tropically of a canopy extended over something.",
+      "source_refs": [
+        "lane:entry:40913"
+      ]
+    },
+    {
+      "meaning_id": "cm_srdq_dust",
+      "headword_arabic": "سُرَادِق",
+      "definition": "Dust rising, spreading, or diffusing itself.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:40913"
+      ]
+    },
+    {
+      "meaning_id": "cm_srdq_smoke",
+      "headword_arabic": "سُرَادِق",
+      "definition": "Smoke rising high and surrounding a thing.",
+      "usage_conditions": "This is the general Classical Arabic lexical use; the specifically Hell-related application is recorded separately under the Quranic form.",
+      "source_refs": [
+        "lane:entry:40913"
+      ]
+    },
+    {
+      "meaning_id": "cm_musardaq_house",
+      "headword_arabic": "مُسَرْدَق",
+      "definition": "A house or tent furnished with a سُرَادِق.",
+      "usage_conditions": "It is also described as having its upper and lower parts fastened, curtained, or closed; the precise interpretation of this description is reported variably.",
+      "source_refs": [
+        "lane:entry:40914"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:srdq:40913:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_srdq_canopy"
+      ],
+      "note": "The physical canopy, tent, and enclosing-wall branch is represented together."
+    },
+    {
+      "unit_id": "lane-unit:srdq:40913:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_srdq_dust"
+      ],
+      "note": "The dust extension is represented."
+    },
+    {
+      "unit_id": "lane-unit:srdq:40913:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_srdq_smoke"
+      ],
+      "note": "The general surrounding-smoke use is represented."
+    },
+    {
+      "unit_id": "lane-unit:srdq:40913:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform_srdq_suradiq_s1",
+        "qform_srdq_suradiq_s2"
+      ],
+      "note": "The Quranic enclosure, wall, and smoke interpretations are represented under the attested form."
+    },
+    {
+      "unit_id": "lane-unit:srdq:40914:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_musardaq_house"
+      ],
+      "note": "The derived adjective and its house-or-tent construction are represented separately."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is a single possessive form, and the lexical interpretation allows both an enclosing wall or tent-like barrier and enveloping fire-smoke; these are kept as separate senses to preserve the attested interpretive distinction."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

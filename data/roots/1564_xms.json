@@ -1,0 +1,845 @@
+{
+  "root": "xms",
+  "arabic": "خمس",
+  "root_idea": {
+    "summary": "The root centers on the number five and its relations: five as a count, a fifth position, and one part out of five.",
+    "development": "From the numerical core, the lexical field extends to taking or dividing into fifths, becoming or making a group five, fifth-day watering cycles, five-unit measurements, and conventional terms associated with five.",
+    "source_refs": [
+      "maqayis:row:1644",
+      "mufradat:row:436"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:xms:xa`misap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:xms:khamis",
+      "reason": "The Quranic feminine form is normalized under the masculine ordinal citation form خَامِس."
+    },
+    {
+      "form_group_id": "qac-form:xms:xamosap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:xms:khamsa",
+      "reason": "Distinct cardinal numeral meaning: five."
+    },
+    {
+      "form_group_id": "qac-form:xms:xamosiyn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:xms:khamsun",
+      "reason": "Distinct cardinal numeral meaning: fifty; the Quranic form is the inflected form خَمْسِينَ."
+    },
+    {
+      "form_group_id": "qac-form:xms:xumus:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:xms:khums",
+      "reason": "Distinct fractional noun meaning: one fifth or a fifth part."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:xms:khamis",
+      "form_group_ids": [
+        "qac-form:xms:xa`misap:nominal:-"
+      ],
+      "headword_arabic": "خَامِس",
+      "public_pos_label": "Ordinal numeral",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense:xms:khamis:fifth",
+          "definition": "Fifth; occupying the fifth position in an ordered series.",
+          "usage_conditions": "The supplied Quranic occurrences use the feminine form خَامِسَةُ/خَامِسَةَ in the reciprocal-oath construction of 24:7 and 24:9.",
+          "source_refs": [
+            "lane:entry:20071"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:7",
+          "word_location": "24:7:1",
+          "sense_ids": [
+            "sense:xms:khamis:fifth"
+          ]
+        },
+        {
+          "verse_key": "24:9",
+          "word_location": "24:9:1",
+          "sense_ids": [
+            "sense:xms:khamis:fifth"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:xms:khamsa",
+      "form_group_ids": [
+        "qac-form:xms:xamosap:nominal:-"
+      ],
+      "headword_arabic": "خَمْسَة",
+      "public_pos_label": "Cardinal numeral",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "sense:xms:khamsa:five",
+          "definition": "Five; the number five.",
+          "usage_conditions": "A cardinal numeral used with counted nouns and as a standalone count.",
+          "source_refs": [
+            "lane:entry:20065",
+            "mufradat:row:436"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:22",
+          "word_location": "18:22:6",
+          "sense_ids": [
+            "sense:xms:khamsa:five"
+          ]
+        },
+        {
+          "verse_key": "3:125",
+          "word_location": "3:125:11",
+          "sense_ids": [
+            "sense:xms:khamsa:five"
+          ]
+        },
+        {
+          "verse_key": "58:7",
+          "word_location": "58:7:21",
+          "sense_ids": [
+            "sense:xms:khamsa:five"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:xms:khamsun",
+      "form_group_ids": [
+        "qac-form:xms:xamosiyn:nominal:-"
+      ],
+      "headword_arabic": "خَمْسُونَ",
+      "public_pos_label": "Cardinal numeral",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "sense:xms:khamsun:fifty",
+          "definition": "Fifty; the number fifty.",
+          "usage_conditions": "The Quranic occurrences use the oblique form خَمْسِينَ.",
+          "source_refs": [
+            "lane:entry:20066",
+            "mufradat:row:436"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "29:14",
+          "word_location": "29:14:11",
+          "sense_ids": [
+            "sense:xms:khamsun:fifty"
+          ]
+        },
+        {
+          "verse_key": "70:4",
+          "word_location": "70:4:9",
+          "sense_ids": [
+            "sense:xms:khamsun:fifty"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:xms:khums",
+      "form_group_ids": [
+        "qac-form:xms:xumus:nominal:-"
+      ],
+      "headword_arabic": "خُمُس",
+      "public_pos_label": "Fractional noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:xms:khums:onefifth",
+          "definition": "One fifth; a fifth part or share of a whole.",
+          "usage_conditions": "In the supplied Quranic occurrence, it denotes one fifth of the spoils, with the pronoun referring back to them.",
+          "source_refs": [
+            "lane:entry:20064",
+            "mufradat:row:436"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:41",
+          "word_location": "8:41:8",
+          "sense_ids": [
+            "sense:xms:khums:onefifth"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:xms:khamasa:takefifth",
+      "headword_arabic": "خَمَسَ",
+      "definition": "To take a fifth part of people's possessions or of property.",
+      "usage_conditions": "The action is also described as taking one from five, especially in the division of spoil.",
+      "source_refs": [
+        "lane:entry:20058",
+        "mufradat:row:436"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamasa:befifth",
+      "headword_arabic": "خَمَسَ",
+      "definition": "To be fifth among a group, or to make a group five by joining it; by extension, to complete a count such as fourteen to fifteen or forty-nine to fifty.",
+      "usage_conditions": "The subject may be a member entering a group or the agent who completes its number.",
+      "source_refs": [
+        "lane:entry:20058"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamasa:ropefive",
+      "headword_arabic": "خَمَسَ",
+      "definition": "To make a rope of five strands twisted together.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:20058"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamasa:camelwater",
+      "headword_arabic": "خَمَسَ",
+      "definition": "Of camels, to drink on the fifth day in the watering cycle.",
+      "usage_conditions": "The day-counting convention is the one specified in the lexical discussion of the fifth-day watering schedule.",
+      "source_refs": [
+        "lane:entry:20058"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khammassa:makefive",
+      "headword_arabic": "خَمَّسَ",
+      "definition": "To make something five.",
+      "usage_conditions": "This is the causative Form II use of making an object or quantity five.",
+      "source_refs": [
+        "lane:entry:20059"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khammassa:partition",
+      "headword_arabic": "خَمَّسَ",
+      "definition": "To divide something into five fifths.",
+      "usage_conditions": "This is the partitioning use, distinct from merely making a count reach five.",
+      "source_refs": [
+        "lane:entry:20059"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khammassa:pentagonal",
+      "headword_arabic": "خَمَّسَ",
+      "definition": "To make something five-cornered, five-angled, or pentagonal.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:20059"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khammassa:fifthoffspring",
+      "headword_arabic": "خَمَّسَ",
+      "definition": "Of a female, to give birth to her fifth offspring.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:20059"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khammassa:fivenights",
+      "headword_arabic": "خَمَّسَ",
+      "definition": "To remain five nights with someone, or to perform an action for a five-unit period.",
+      "usage_conditions": "The cited construction is used with a wife, but the source extends the expression to other actions and relations without restricting its object to that example.",
+      "source_refs": [
+        "lane:entry:20059"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khammassa:landwatering",
+      "headword_arabic": "تَخْمِيسٌ",
+      "definition": "The fifth-day watering of land or seed-produce in a watering cycle.",
+      "usage_conditions": "It is the watering that follows the tarbīʿ, or fourth-day watering, in the stated agricultural schedule.",
+      "source_refs": [
+        "lane:entry:20059"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:akhmasa:becomefive",
+      "headword_arabic": "أَخْمَسَ",
+      "definition": "Of a group, to become five or fifty.",
+      "usage_conditions": "The two numerical values are recorded as related intransitive uses of the Form IV verb.",
+      "source_refs": [
+        "lane:entry:20060"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:akhmasa:camelperson",
+      "headword_arabic": "أَخْمَسَ",
+      "definition": "To be associated with a fifth-day camel-watering schedule.",
+      "usage_conditions": "Applied to a man whose camels come to water on the fifth day, under the stated counting convention.",
+      "source_refs": [
+        "lane:entry:20060"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khims:camelwatering",
+      "headword_arabic": "خِمْس",
+      "definition": "The fifth-day watering interval of camels.",
+      "usage_conditions": "The sources record variant explanations of whether the preceding watering day is included in the count.",
+      "source_refs": [
+        "lane:entry:20063"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khims:desertjourney",
+      "headword_arabic": "خِمْس",
+      "definition": "A desert, journey, or route in which water is reached only after a fifth-day interval.",
+      "usage_conditions": "The term can describe a long waterless passage or a journey in which camels are watered only at the beginning and end of the interval.",
+      "source_refs": [
+        "lane:entry:20063"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khims:deceptionidiom",
+      "headword_arabic": "يَضْرِبُ أَخْمَاسًا لِأَسْدَاسٍ",
+      "definition": "To use a pretext, pretend one thing while intending another, or proceed by artifice toward a concealed aim.",
+      "usage_conditions": "A conventional proverb based on advancing camels from a fifth-day to a sixth-day watering schedule.",
+      "source_refs": [
+        "lane:entry:20063"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khims:fifthoffspring",
+      "headword_arabic": "خِمْس",
+      "definition": "The fifth young one or offspring.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:20063"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khims:yemenigarment",
+      "headword_arabic": "خِمْس",
+      "definition": "A Yemeni garment of the burd type.",
+      "usage_conditions": "The term is explained either by the name of an early Yemeni maker or by association with the numerical root; a variant form is also reported in the lexical discussion.",
+      "source_refs": [
+        "lane:entry:20063"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khumus:sensesidiom",
+      "headword_arabic": "ضَرَبَ أَخْمَاسَهُ فِي أَسْدَاسِهِ",
+      "definition": "To direct one's five senses toward all six directions, concentrating one's thoughts and attention on an investigation.",
+      "usage_conditions": "An idiomatic extension of the numerical expression, with the six directions understood as above, below, before, behind, right, and left.",
+      "source_refs": [
+        "lane:entry:20064"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamsa:fifteen",
+      "headword_arabic": "خَمْسَةَ عَشَرَ",
+      "definition": "Fifteen.",
+      "usage_conditions": "A compound cardinal numeral with the masculine counted-noun pattern; the corresponding feminine form is also recorded.",
+      "source_refs": [
+        "lane:entry:20065"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamsun:fiftieth",
+      "headword_arabic": "خَمْسُونَ",
+      "definition": "Fiftieth.",
+      "usage_conditions": "An ordinal use in addition to the cardinal meaning fifty.",
+      "source_refs": [
+        "lane:entry:20066"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khumas:groupsfive",
+      "headword_arabic": "خُمَاسَ",
+      "definition": "In groups of five; five at a time.",
+      "usage_conditions": "A distributive adverbial expression, as in people arriving five and five together or successively.",
+      "source_refs": [
+        "lane:entry:20067"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamis:army",
+      "headword_arabic": "خَمِيس",
+      "definition": "An army or military host.",
+      "usage_conditions": "The term is explained as an army arranged in five divisions, as associated with fifth-share distribution, or as a heavily armed host; these are explanations of the same military designation.",
+      "source_refs": [
+        "lane:entry:20068"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamis:thursday",
+      "headword_arabic": "خَمِيس",
+      "definition": "Thursday, the fifth day of the week.",
+      "usage_conditions": "The word is used independently or in the phrase يَوْمُ الخَمِيسِ.",
+      "source_refs": [
+        "lane:entry:20068",
+        "mufradat:row:436"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamis:company",
+      "headword_arabic": "خَمِيسُ النَّاسِ",
+      "definition": "A company or group of men.",
+      "usage_conditions": "Used in the expression asking what company of men someone belongs to.",
+      "source_refs": [
+        "lane:entry:20068"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khumasi:fivespans",
+      "headword_arabic": "خُمَاسِيّ",
+      "definition": "Measuring five spans; especially, a growing boy who is five spans in height and has not reached full stature.",
+      "usage_conditions": "In other applications, the adjective may denote something that reaches or consists of five; the boy-specific use is explicitly limited to the stated stage of growth.",
+      "source_refs": [
+        "lane:entry:20069"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khumasi:fiveletters",
+      "headword_arabic": "خُمَاسِيّ",
+      "definition": "In grammatical terminology, a word composed of five letters, whether all are radicals or some are augmentative.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:20069"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamisi:thursdayfaster",
+      "headword_arabic": "خَمِيسِيّ",
+      "definition": "A person who fasts alone on Thursday.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:20070"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamis:fifteenth",
+      "headword_arabic": "خَامِسَ عَشَرَ",
+      "definition": "Fifteenth.",
+      "usage_conditions": "A compound ordinal numeral with masculine and feminine variants.",
+      "source_refs": [
+        "lane:entry:20071"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:khamisa:cameladjective",
+      "headword_arabic": "خَامِسَة",
+      "definition": "Of camels, adhering to a fifth-day watering schedule.",
+      "usage_conditions": "The adjective is applied to camels that drink on the fifth day or pasture for three days before returning to water under the alternative count described in the source.",
+      "source_refs": [
+        "lane:entry:20071"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:mukhammass:pentagonal",
+      "headword_arabic": "مُخَمَّس",
+      "definition": "Five-cornered, five-angled, or pentagonal.",
+      "usage_conditions": "An adjective or noun for a thing having five corners or angles.",
+      "source_refs": [
+        "lane:entry:20073"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:makhmous:fivecubits",
+      "headword_arabic": "مَخْمُوس",
+      "definition": "Five cubits in length, applied especially to a spear or to a garment or piece of cloth.",
+      "usage_conditions": "The same measurement may be used of a small garment or cloth.",
+      "source_refs": [
+        "lane:entry:20074"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:makhmous:near",
+      "headword_arabic": "فِي بُرْدَةٍ",
+      "definition": "Near together and in a state of agreement.",
+      "usage_conditions": "A figurative idiom imagining two people fitting together within a five-cubit garment.",
+      "source_refs": [
+        "lane:entry:20074"
+      ]
+    },
+    {
+      "meaning_id": "cm:xms:makhmous:rope",
+      "headword_arabic": "مَخْمُوس",
+      "definition": "A rope made of five strands twisted together.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:20074"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:xms:20058:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamasa:takefifth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20058:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamasa:befifth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20058:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamasa:befifth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20058:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamasa:befifth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20058:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamasa:ropefive"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20058:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamasa:camelwater"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20058:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamasa:befifth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20059:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khammassa:makefive"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20059:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khammassa:pentagonal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20059:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khammassa:fifthoffspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20059:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khammassa:partition"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20059:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khammassa:fivenights"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20059:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khammassa:landwatering"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20060:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:akhmasa:becomefive"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20060:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:akhmasa:becomefive"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20060:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:akhmasa:camelperson"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20061:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Feminine grammatical cross-reference only; no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:xms:20062:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to خُمُس."
+    },
+    {
+      "unit_id": "lane-unit:xms:20063:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khims:camelwatering",
+        "cm:xms:khims:desertjourney",
+        "cm:xms:khims:deceptionidiom"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20063:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khims:desertjourney"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20063:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khims:fifthoffspring"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20063:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khims:yemenigarment"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20064:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense:xms:khums:onefifth"
+      ],
+      "note": "The fifth-part meaning is represented by the Quranic fractional sense."
+    },
+    {
+      "unit_id": "lane-unit:xms:20064:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khumus:sensesidiom"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20065:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense:xms:khamsa:five"
+      ],
+      "note": "The cardinal meaning, including ordinary counted objects, is represented by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:xms:20065:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamsa:fifteen"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20066:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:xms:khamsun:fifty",
+        "cm:xms:khamsun:fiftieth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20067:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khumas:groupsfive"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20068:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to خُمُس."
+    },
+    {
+      "unit_id": "lane-unit:xms:20068:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only mention of مَخْمُوس."
+    },
+    {
+      "unit_id": "lane-unit:xms:20068:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamis:army"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20068:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamis:thursday"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20068:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the final meaning of خِمْس."
+    },
+    {
+      "unit_id": "lane-unit:xms:20068:g3:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamis:company"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20069:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khumasi:fivespans"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20069:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَخْمُوس."
+    },
+    {
+      "unit_id": "lane-unit:xms:20069:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khumasi:fiveletters"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20070:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamisi:thursdayfaster"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20071:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense:xms:khamis:fifth"
+      ],
+      "note": "The ordinal meaning is represented under the normalized public citation form خَامِس."
+    },
+    {
+      "unit_id": "lane-unit:xms:20071:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamis:fifteenth"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20071:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:khamisa:cameladjective"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20072:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to خُمَاسَ."
+    },
+    {
+      "unit_id": "lane-unit:xms:20073:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:mukhammass:pentagonal"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20074:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:makhmous:fivecubits",
+        "cm:xms:makhmous:near"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:xms:20074:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:xms:makhmous:rope"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The Quranic cardinal, ordinal, and fractional forms are distinct: خَمْسَة is five, خَامِسَة is fifth, and خُمُس is one fifth.",
+    "The classical descriptions of خِمْس and related camel-watering terms preserve variant conventions for counting the watering days."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,160 @@
+{
+  "root": "kyf",
+  "arabic": "كيف",
+  "root_idea": {
+    "summary": "The direct semantic center of كَيْف is inquiry into a describable state, quality, or manner—“how?”. The same root record also contains the distinct noun الكِيفَة, “a piece of cloth.”",
+    "development": "The evidence juxtaposes the cloth noun with the interrogative كيف without establishing a secure derivational path between them. In Quranic usage, inquiry into state or manner also functions rhetorically to alert or rebuke the addressee.",
+    "source_refs": [
+      "maqayis:row:4078",
+      "mufradat:row:1280"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:kyf:kayof:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-kyf-kayfa",
+      "reason": "The three QAC occurrences tagged N are the same lexical كيف interrogative as the larger INTG group; the tag difference does not require a separate public headword."
+    },
+    {
+      "form_group_id": "qac-form:kyf:kayof:other:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-kyf-kayfa",
+      "reason": ""
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-kyf-kayfa",
+      "form_group_ids": [
+        "qac-form:kyf:kayof:nominal:-",
+        "qac-form:kyf:kayof:other:-"
+      ],
+      "headword_arabic": "كَيْف",
+      "public_pos_label": "Interrogative adverb",
+      "verb_form": null,
+      "occurrence_count": 83,
+      "senses": [
+        {
+          "sense_id": "qform-kyf-s1",
+          "definition": "How?—asking about the state, quality, or manner of a person, thing, or event.",
+          "usage_conditions": "The question concerns a describable condition or mode of occurrence, whether the answer is explicit or understood. Quranic rhetorical references to divine matters are treated under the following usage.",
+          "source_refs": [
+            "mufradat:row:1280"
+          ]
+        },
+        {
+          "sense_id": "qform-kyf-s2",
+          "definition": "How could, can, or will it be?—a rhetorical question used to draw attention to a matter or to rebuke the addressee.",
+          "usage_conditions": "In Quranic rhetoric, especially in statements concerning divine acts or the conduct of people, كيف may alert or reproach rather than seek an ordinary informational answer.",
+          "source_refs": [
+            "mufradat:row:1280"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:260",
+          "word_location": "2:260:6",
+          "sense_ids": [
+            "qform-kyf-s1"
+          ]
+        },
+        {
+          "verse_key": "29:20",
+          "word_location": "29:20:6",
+          "sense_ids": [
+            "qform-kyf-s1"
+          ]
+        },
+        {
+          "verse_key": "3:86",
+          "word_location": "3:86:1",
+          "sense_ids": [
+            "qform-kyf-s2"
+          ]
+        },
+        {
+          "verse_key": "18:68",
+          "word_location": "18:68:1",
+          "sense_ids": [
+            "qform-kyf-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical-kifa-cloth-piece",
+      "headword_arabic": "الكِيفَة",
+      "definition": "A piece or cut section of cloth.",
+      "usage_conditions": "A distinct nominal lexical item recorded separately from the interrogative كيف.",
+      "source_refs": [
+        "maqayis:row:4078"
+      ]
+    },
+    {
+      "meaning_id": "classical-kayyafa",
+      "headword_arabic": "كَيَّفَ",
+      "definition": "To specify something by ascribing a quality to it; to make it defined by a particular quality.",
+      "usage_conditions": "Form II usage in theological terminology; the formation is reported as analogical rather than as a form heard from the Arabs.",
+      "source_refs": [
+        "lane:entry:33001"
+      ]
+    },
+    {
+      "meaning_id": "classical-takayafa",
+      "headword_arabic": "تَكَيَّفَ",
+      "definition": "To become specified by, or acquire, a particular quality.",
+      "usage_conditions": "Form V usage in the same theological terminology; the formation is reported as analogical rather than as a form heard from the Arabs.",
+      "source_refs": [
+        "lane:entry:33001"
+      ]
+    },
+    {
+      "meaning_id": "classical-kayfiya",
+      "headword_arabic": "كَيْفِيَّة",
+      "definition": "Quality as answering the question “how?”; the mode or manner of being.",
+      "usage_conditions": "An abstract noun referring to the quality, mode, or manner in which something exists or occurs.",
+      "source_refs": [
+        "lane:entry:33003"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:kyf:33001:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-kayyafa",
+        "classical-takayafa"
+      ],
+      "note": "States the Form II causative and Form V inchoative theological uses."
+    },
+    {
+      "unit_id": "lane-unit:kyf:33002:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference with no independent definition."
+    },
+    {
+      "unit_id": "lane-unit:kyf:33003:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical-kayfiya"
+      ],
+      "note": "Defines كيفية as quality, mode, or manner of being."
+    },
+    {
+      "unit_id": "lane-unit:kyf:33004:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only variant reference."
+    }
+  ],
+  "cautions": [
+    "QAC separates three occurrences under a nominal tag and eighty under INTG; they are presented together because the evidence supports one lexical interrogative كيف with the same Quranic uses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

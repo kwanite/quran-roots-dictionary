@@ -1,0 +1,115 @@
+{
+  "root": "bgt",
+  "arabic": "بغت",
+  "root_idea": {
+    "summary": "The root centers on something breaking in upon a person or situation unexpectedly, without being anticipated.",
+    "development": "The basic notion of sudden onset develops into the adverbial noun بَغْتَة for an unforeseen occurrence or arrival.",
+    "source_refs": [
+      "maqayis:row:803",
+      "mufradat:row:142"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bgt:bagotap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:bgt:baghtah",
+      "reason": "The Quran-attested nominal بَغْتَة is a distinct lexical item meaning sudden or unforeseen occurrence."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:bgt:baghtah",
+      "form_group_ids": [
+        "qac-form:bgt:bagotap:nominal:-"
+      ],
+      "headword_arabic": "بَغْتَة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 13,
+      "senses": [
+        {
+          "sense_id": "qsense:bgt:baghtah:1",
+          "definition": "Suddenly; unexpectedly, as something arrives or occurs without being anticipated.",
+          "usage_conditions": "An adverbial noun used with arrival, occurrence, coming, or encounter; in Quranic usage it describes an event overtaking people without prior awareness or expectation.",
+          "source_refs": [
+            "lane:entry:36773",
+            "mufradat:row:142"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:40",
+          "word_location": "21:40:3",
+          "sense_ids": [
+            "qsense:bgt:baghtah:1"
+          ]
+        },
+        {
+          "verse_key": "12:107",
+          "word_location": "12:107:11",
+          "sense_ids": [
+            "qsense:bgt:baghtah:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:bgt:baghut:festival",
+      "headword_arabic": "البَاغُوتُ",
+      "definition": "A Christian festival, identified in one account as Easter.",
+      "usage_conditions": "The identification is reported with some variation; another transmitted form is الباعوث.",
+      "source_refs": [
+        "lane:entry:36775"
+      ]
+    },
+    {
+      "meaning_id": "cm:bgt:mabghut:confounded",
+      "headword_arabic": "مَبْغُوتٌ",
+      "definition": "Confounded or perplexed, unable to discern the right course.",
+      "usage_conditions": "Used as a descriptive participial term, including in the expression لَا رَأْىَ لِمَبْغُوتٍ, “a confounded person has no sound judgment.”",
+      "source_refs": [
+        "lane:entry:36776"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bgt:36773:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense:bgt:baghtah:1"
+      ],
+      "note": "The sudden, unexpected occurrence and surprise construction are covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:bgt:36774:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only entry referring back to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:bgt:36775:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:bgt:baghut:festival"
+      ],
+      "note": "Separate lexical name for a Christian festival."
+    },
+    {
+      "unit_id": "lane-unit:bgt:36776:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:bgt:mabghut:confounded"
+      ],
+      "note": "Separate lexical term for a confounded or perplexed person."
+    }
+  ],
+  "cautions": [
+    "Lane records variant forms and a variant Quran reading, while the public Quranic headword follows the QAC-attested form بَغْتَة."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

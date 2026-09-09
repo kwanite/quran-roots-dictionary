@@ -1,0 +1,819 @@
+{
+  "root": "drs",
+  "arabic": "درس",
+  "root_idea": {
+    "summary": "The root centers on traces becoming faint, effaced, or difficult to perceive, and on repeatedly following a trace or path.",
+    "development": "From the effacement of physical traces and the repeated passage that wears or marks something, the root develops the sense of repeatedly following a text's traces through reading and study, leading to retention and learning.",
+    "source_refs": [
+      "maqayis:row:1741",
+      "mufradat:row:466"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:drs:darasu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-drs-darasa",
+      "reason": "Canonical Quran-attested Form I verb, normalized to the Classical Arabic perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:drs:diraAsat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-drs-dirasa",
+      "reason": "A distinct Quran-attested verbal noun, normalized to دِرَاسَةٌ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-drs-darasa",
+      "form_group_ids": [
+        "qac-form:drs:darasu:verb:I"
+      ],
+      "headword_arabic": "دَرَسَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qsen-drs-darasa-1",
+          "definition": "To read or study a text repeatedly, retaining or learning its contents.",
+          "usage_conditions": "Used with books, scripture, knowledge, or other written material; the repeated activity may include memorization and learning.",
+          "source_refs": [
+            "lane:entry:536",
+            "mufradat:row:466"
+          ]
+        },
+        {
+          "sense_id": "qsen-drs-darasa-2",
+          "definition": "To study a text but leave its contents unacted upon.",
+          "usage_conditions": "Reported as an interpretation of وَدَرَسُوا مَا فِيهِ in 7:169; this consequence is an explicitly reported interpretation in that context, not a required feature of the ordinary verb.",
+          "source_refs": [
+            "mufradat:row:466"
+          ]
+        },
+        {
+          "sense_id": "qsen-drs-darasa-3",
+          "definition": "To become effaced, obsolete, or dissipated, said of narratives, signs, or their traces.",
+          "usage_conditions": "Reported in Lane's discussion of alternative Quranic readings and interpretations; it should not be imposed on all canonical occurrences of the supplied QAC Form I group.",
+          "source_refs": [
+            "lane:entry:536"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:79",
+          "word_location": "3:79:28",
+          "sense_ids": [
+            "qsen-drs-darasa-1"
+          ]
+        },
+        {
+          "verse_key": "6:105",
+          "word_location": "6:105:5",
+          "sense_ids": [
+            "qsen-drs-darasa-1"
+          ]
+        },
+        {
+          "verse_key": "7:169",
+          "word_location": "7:169:31",
+          "sense_ids": [
+            "qsen-drs-darasa-1",
+            "qsen-drs-darasa-2"
+          ]
+        },
+        {
+          "verse_key": "34:44",
+          "word_location": "34:44:5",
+          "sense_ids": [
+            "qsen-drs-darasa-1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-drs-dirasa",
+      "form_group_ids": [
+        "qac-form:drs:diraAsat:nominal:-"
+      ],
+      "headword_arabic": "دِرَاسَةٌ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qsen-drs-dirasa-1",
+          "definition": "Study or sustained reading of a text for retention and learning.",
+          "usage_conditions": "A verbal noun denoting the activity expressed by دَرَسَ, especially repeated engagement with scripture or other written material.",
+          "source_refs": [
+            "lane:entry:536",
+            "mufradat:row:466"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:156",
+          "word_location": "6:156:13",
+          "sense_ids": [
+            "qsen-drs-dirasa-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-drs-efface-intrans",
+      "headword_arabic": "دَرَسَ",
+      "definition": "To become effaced, erased, or obliterated; said especially of a trace, house, or place whose remains disappear.",
+      "usage_conditions": "The disappearance may result from wind, sand, or the passage of time.",
+      "source_refs": [
+        "lane:entry:536"
+      ]
+    },
+    {
+      "meaning_id": "cm-drs-efface-trans",
+      "headword_arabic": "دَرَسَ",
+      "definition": "To efface, erase, or obliterate something by repeated passage over it.",
+      "usage_conditions": "Used with a wind, winds, people, traces, houses, or other things that are worn away through repeated action.",
+      "source_refs": [
+        "lane:entry:536"
+      ]
+    },
+    {
+      "meaning_id": "cm-drs-book-old",
+      "headword_arabic": "دَرَسَ",
+      "definition": "For a book or writing to become old or obsolete.",
+      "usage_conditions": "A figurative extension of physical wearing and effacement, distinct from actively reading or studying a book.",
+      "source_refs": [
+        "lane:entry:536"
+      ]
+    },
+    {
+      "meaning_id": "cm-drs-worn",
+      "headword_arabic": "دَرَسَ",
+      "definition": "For a garment or piece of cloth to become old and worn out; also, to render it so.",
+      "usage_conditions": "Used both intransitively of the garment and transitively of the person or thing causing the wear.",
+      "source_refs": [
+        "lane:entry:536"
+      ]
+    },
+    {
+      "meaning_id": "cm-drs-thresh",
+      "headword_arabic": "دَرَسَ",
+      "definition": "To tread or thresh grain, especially wheat.",
+      "usage_conditions": "The sense is associated with repeatedly passing over grain; regional usage is reported.",
+      "source_refs": [
+        "lane:entry:536"
+      ]
+    },
+    {
+      "meaning_id": "cm-drs-sexual",
+      "headword_arabic": "دَرَسَ",
+      "definition": "To approach sexually or have sexual intercourse with another person.",
+      "usage_conditions": "A transitive figurative usage; the cited lexical construction does not establish a restriction on the object's class beyond the construction itself.",
+      "source_refs": [
+        "lane:entry:536"
+      ]
+    },
+    {
+      "meaning_id": "cm-drs-camel",
+      "headword_arabic": "دَرَسَ",
+      "definition": "To break, train, or accustom a camel through repeated handling.",
+      "usage_conditions": "Used of training or disciplining a camel; the sense emphasizes repeated tending or returning to the animal.",
+      "source_refs": [
+        "lane:entry:536"
+      ]
+    },
+    {
+      "meaning_id": "cm-drs-menstruate",
+      "headword_arabic": "دَرَسَ",
+      "definition": "For a woman to menstruate.",
+      "usage_conditions": "A euphemistic figurative usage explicitly applied to a woman or girl.",
+      "source_refs": [
+        "lane:entry:536"
+      ]
+    },
+    {
+      "meaning_id": "cm-darrasa-teach",
+      "headword_arabic": "دَرَّسَ",
+      "definition": "To teach someone to read, study, or learn; to instruct or lecture someone.",
+      "usage_conditions": "May take a learner and a book or other subject as objects.",
+      "source_refs": [
+        "lane:entry:537"
+      ]
+    },
+    {
+      "meaning_id": "cm-daras-mutual",
+      "headword_arabic": "دَارَسَ",
+      "definition": "To read or study with another, each helping or teaching the other; by extension, to confer or discuss a subject.",
+      "usage_conditions": "The reciprocal study sense may involve repeated reading of a book. It is also reported in a variant Quranic reading associated with reading or consulting with the People of Scripture.",
+      "source_refs": [
+        "lane:entry:538",
+        "lane:entry:536"
+      ]
+    },
+    {
+      "meaning_id": "cm-tadarasa-old-clothes",
+      "headword_arabic": "تَدَرَّسَ",
+      "definition": "To put on old and worn-out garments.",
+      "usage_conditions": "An archaic figurative usage associated with wearing clothing that has become worn.",
+      "source_refs": [
+        "lane:entry:540"
+      ]
+    },
+    {
+      "meaning_id": "cm-tadarasa-study",
+      "headword_arabic": "تَدَارَسَ",
+      "definition": "To study or read together, teaching one another until the material is retained in memory.",
+      "usage_conditions": "A reciprocal construction involving joint, repeated study.",
+      "source_refs": [
+        "lane:entry:541"
+      ]
+    },
+    {
+      "meaning_id": "cm-dars-road",
+      "headword_arabic": "دَرْسٌ",
+      "definition": "An obscure or scarcely perceptible road or way.",
+      "usage_conditions": "The road is conceived as one whose traces have become effaced.",
+      "source_refs": [
+        "lane:entry:543"
+      ]
+    },
+    {
+      "meaning_id": "cm-dars-lecture",
+      "headword_arabic": "دَرْسٌ",
+      "definition": "A lesson or lecture.",
+      "usage_conditions": "The plural is دُرُوسٌ.",
+      "source_refs": [
+        "lane:entry:543"
+      ]
+    },
+    {
+      "meaning_id": "cm-dirs-relic",
+      "headword_arabic": "دِرْسٌ",
+      "definition": "A relic, trace, or mark of something that is being effaced or obliterated.",
+      "usage_conditions": "The word denotes the remaining visible trace rather than the act of effacement itself.",
+      "source_refs": [
+        "lane:entry:544"
+      ]
+    },
+    {
+      "meaning_id": "cm-dirs-worn",
+      "headword_arabic": "دِرْسٌ",
+      "definition": "An old and worn-out garment or piece of cloth; by extension, something worn out, such as a carpet, coat of mail, or sword.",
+      "usage_conditions": "It may function as a substantive or as an adjective applied to worn objects.",
+      "source_refs": [
+        "lane:entry:544"
+      ]
+    },
+    {
+      "meaning_id": "cm-dirs-pudendum",
+      "headword_arabic": "أَبُو أَدْرَاسٍ",
+      "definition": "A euphemistic name for the female pudendum.",
+      "usage_conditions": "An anatomical idiom associated in the lexical discussion with menstruation.",
+      "source_refs": [
+        "lane:entry:544"
+      ]
+    },
+    {
+      "meaning_id": "cm-dursa-training",
+      "headword_arabic": "دُرْسَةٌ",
+      "definition": "Training, discipline, or habituation.",
+      "usage_conditions": "A verbal noun or abstract noun associated with repeated handling and training.",
+      "source_refs": [
+        "lane:entry:545"
+      ]
+    },
+    {
+      "meaning_id": "cm-daris-trefoil",
+      "headword_arabic": "دَرِيسٌ",
+      "definition": "Alexandrian trefoil or bersim, a clover-like plant.",
+      "usage_conditions": "A separately attested lexical item despite the related form of the word.",
+      "source_refs": [
+        "lane:entry:546"
+      ]
+    },
+    {
+      "meaning_id": "cm-daris-house",
+      "headword_arabic": "دَارِسٌ",
+      "definition": "Describing a house whose remains are becoming effaced or obliterated.",
+      "usage_conditions": "Used adjectivally of a dwelling or its ruins.",
+      "source_refs": [
+        "lane:entry:547"
+      ]
+    },
+    {
+      "meaning_id": "cm-daris-menstruating",
+      "headword_arabic": "دَارِسٌ",
+      "definition": "A menstruating woman or girl.",
+      "usage_conditions": "An adjectival or substantive usage explicitly applied to a female person.",
+      "source_refs": [
+        "lane:entry:547"
+      ]
+    },
+    {
+      "meaning_id": "cm-idris-penis",
+      "headword_arabic": "أَبُو إِدْرِيسَ",
+      "definition": "A euphemistic name for the penis.",
+      "usage_conditions": "An anatomical idiom.",
+      "source_refs": [
+        "lane:entry:548"
+      ]
+    },
+    {
+      "meaning_id": "cm-tadris-technical",
+      "headword_arabic": "تَدْرِيسٌ",
+      "definition": "A conventional technical term or signification used in teaching or lecturing.",
+      "usage_conditions": "A specialized educational usage.",
+      "source_refs": [
+        "lane:entry:549"
+      ]
+    },
+    {
+      "meaning_id": "cm-midras-book",
+      "headword_arabic": "مِدْرَسٌ",
+      "definition": "A book or piece of writing; also, a commentary used for teaching.",
+      "usage_conditions": "The commentary sense is reported as a secondary lexical explanation.",
+      "source_refs": [
+        "lane:entry:550"
+      ]
+    },
+    {
+      "meaning_id": "cm-madrasa-study-place",
+      "headword_arabic": "مَدْرَسَةٌ",
+      "definition": "A place for reading or study, such as a college, academy, collegiate mosque, or synagogue.",
+      "usage_conditions": "The term can refer specifically to a Jewish house in which the revealed Book is read repeatedly.",
+      "source_refs": [
+        "lane:entry:551"
+      ]
+    },
+    {
+      "meaning_id": "cm-madrasa-livestock-track",
+      "headword_arabic": "مَدْرَسَةُ النَّعَمِ",
+      "definition": "The road or track followed by camels or other livestock.",
+      "usage_conditions": "A specialized expression for an animal route.",
+      "source_refs": [
+        "lane:entry:551"
+      ]
+    },
+    {
+      "meaning_id": "cm-mudarras-bed",
+      "headword_arabic": "مُدَرَّسٌ",
+      "definition": "A bed or resting place made level, smooth, and easy to lie upon.",
+      "usage_conditions": "A figurative passive-participial usage.",
+      "source_refs": [
+        "lane:entry:552"
+      ]
+    },
+    {
+      "meaning_id": "cm-mudarras-expert",
+      "headword_arabic": "مُدَرَّسٌ",
+      "definition": "A person tried, strengthened, or made expert through use and experience.",
+      "usage_conditions": "Applied to someone tested and seasoned by practice.",
+      "source_refs": [
+        "lane:entry:552"
+      ]
+    },
+    {
+      "meaning_id": "cm-mudarris-reader-teacher",
+      "headword_arabic": "مُدَرِّسٌ",
+      "definition": "One who reads or studies much and repeatedly; hence, a teacher, lecturer, or professor.",
+      "usage_conditions": "The educational occupation sense is associated with a teacher in a place of study.",
+      "source_refs": [
+        "lane:entry:553"
+      ]
+    },
+    {
+      "meaning_id": "cm-midras-jewish-reader",
+      "headword_arabic": "مِدْرَاسٌ",
+      "definition": "One who reads or studies the books of the Jews.",
+      "usage_conditions": "The form conveys an intensive association with repeated study.",
+      "source_refs": [
+        "lane:entry:554"
+      ]
+    },
+    {
+      "meaning_id": "cm-madrous-house",
+      "headword_arabic": "مَدْرُوسٌ",
+      "definition": "Describing a house whose remains have been effaced or obliterated.",
+      "usage_conditions": "A passive participial description of ruins or a vanished dwelling.",
+      "source_refs": [
+        "lane:entry:555"
+      ]
+    },
+    {
+      "meaning_id": "cm-madrous-road",
+      "headword_arabic": "مَدْرُوسٌ",
+      "definition": "Describing a road much beaten by travelers and thereby made easy to follow.",
+      "usage_conditions": "The sense develops from repeated passage over a route.",
+      "source_refs": [
+        "lane:entry:555"
+      ]
+    },
+    {
+      "meaning_id": "cm-mudaris-study-companion",
+      "headword_arabic": "مُدَارِسٌ",
+      "definition": "One who studies or reads with another; also, one who has read books.",
+      "usage_conditions": "The first sense is relational, while the second emphasizes acquired familiarity with books.",
+      "source_refs": [
+        "lane:entry:556"
+      ]
+    },
+    {
+      "meaning_id": "cm-dars-mange",
+      "headword_arabic": "دَرْسٌ",
+      "definition": "A slight or limited case of mange affecting a camel.",
+      "usage_conditions": "A rare lexical specialization reported independently from the principal semantic branch.",
+      "source_refs": [
+        "maqayis:row:1741"
+      ]
+    },
+    {
+      "meaning_id": "cm-dirwas-thick-neck",
+      "headword_arabic": "دِرْوَاسٌ",
+      "definition": "A thick-necked person or animal.",
+      "usage_conditions": "Reported as an anomalous lexical branch outside the root's principal semantic development.",
+      "source_refs": [
+        "maqayis:row:1741"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:drs:536:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drs-efface-intrans"
+      ],
+      "note": "Intransitive effacement of traces, houses, or things."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to a later discussion of the Quranic expression."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drs-worn"
+      ],
+      "note": "A garment becoming old and worn."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drs-book-old"
+      ],
+      "note": "A book or writing becoming old."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drs-menstruate"
+      ],
+      "note": "The euphemistic verb for menstruation."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drs-efface-trans"
+      ],
+      "note": "Transitive effacement by wind, repeated passage, or people."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drs-worn"
+      ],
+      "note": "Rendering a garment old and worn."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drs-thresh"
+      ],
+      "note": "Treading or threshing grain."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drs-sexual"
+      ],
+      "note": "Sexual approach or intercourse construction."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g2:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-drs-camel"
+      ],
+      "note": "Breaking, training, and repeatedly handling a camel."
+    },
+    {
+      "unit_id": "lane-unit:drs:536:g2:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen-drs-darasa-1",
+        "qsen-drs-darasa-3",
+        "cm-daras-mutual"
+      ],
+      "note": "Reading and learning, plus alternative Quranic readings involving effacement and reciprocal study or consultation."
+    },
+    {
+      "unit_id": "lane-unit:drs:537:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-darrasa-teach"
+      ],
+      "note": "Causative teaching or instructing."
+    },
+    {
+      "unit_id": "lane-unit:drs:537:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I book-reading discussion."
+    },
+    {
+      "unit_id": "lane-unit:drs:538:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I discussion."
+    },
+    {
+      "unit_id": "lane-unit:drs:538:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the camel-training discussion."
+    },
+    {
+      "unit_id": "lane-unit:drs:538:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-daras-mutual"
+      ],
+      "note": "Reciprocal study and conferring."
+    },
+    {
+      "unit_id": "lane-unit:drs:539:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to Form II."
+    },
+    {
+      "unit_id": "lane-unit:drs:539:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the Form I book-reading discussion."
+    },
+    {
+      "unit_id": "lane-unit:drs:540:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tadarasa-old-clothes"
+      ],
+      "note": "Putting on old and worn garments."
+    },
+    {
+      "unit_id": "lane-unit:drs:541:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tadarasa-study"
+      ],
+      "note": "Joint study with mutual teaching until memorization."
+    },
+    {
+      "unit_id": "lane-unit:drs:541:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to already described study constructions."
+    },
+    {
+      "unit_id": "lane-unit:drs:542:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the first effacement signification."
+    },
+    {
+      "unit_id": "lane-unit:drs:543:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dars-road"
+      ],
+      "note": "An obscure or effaced road."
+    },
+    {
+      "unit_id": "lane-unit:drs:543:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دِرْسٌ."
+    },
+    {
+      "unit_id": "lane-unit:drs:543:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dars-lecture"
+      ],
+      "note": "Lecture or lesson."
+    },
+    {
+      "unit_id": "lane-unit:drs:544:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dirs-relic"
+      ],
+      "note": "Relic, trace, or mark."
+    },
+    {
+      "unit_id": "lane-unit:drs:544:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dirs-worn"
+      ],
+      "note": "Old and worn garment or worn object."
+    },
+    {
+      "unit_id": "lane-unit:drs:544:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dirs-pudendum"
+      ],
+      "note": "Anatomical euphemism for the female pudendum."
+    },
+    {
+      "unit_id": "lane-unit:drs:545:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-dursa-training"
+      ],
+      "note": "Training or discipline."
+    },
+    {
+      "unit_id": "lane-unit:drs:546:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to دِرْسٌ."
+    },
+    {
+      "unit_id": "lane-unit:drs:546:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-daris-trefoil"
+      ],
+      "note": "Alexandrian trefoil or bersim."
+    },
+    {
+      "unit_id": "lane-unit:drs:547:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-daris-house"
+      ],
+      "note": "A house whose remains are becoming effaced."
+    },
+    {
+      "unit_id": "lane-unit:drs:547:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-daris-menstruating"
+      ],
+      "note": "A menstruating woman or girl."
+    },
+    {
+      "unit_id": "lane-unit:drs:548:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-idris-penis"
+      ],
+      "note": "Anatomical euphemism for the penis."
+    },
+    {
+      "unit_id": "lane-unit:drs:549:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer identifying the verbal noun of Form II."
+    },
+    {
+      "unit_id": "lane-unit:drs:549:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-tadris-technical"
+      ],
+      "note": "Specialized educational terminology."
+    },
+    {
+      "unit_id": "lane-unit:drs:550:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-midras-book"
+      ],
+      "note": "Book, writing, or teaching commentary."
+    },
+    {
+      "unit_id": "lane-unit:drs:550:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:drs:551:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-madrasa-study-place"
+      ],
+      "note": "Place of reading or study, including a Jewish study house or synagogue."
+    },
+    {
+      "unit_id": "lane-unit:drs:551:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-madrasa-livestock-track"
+      ],
+      "note": "Livestock road or track."
+    },
+    {
+      "unit_id": "lane-unit:drs:552:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mudarras-bed"
+      ],
+      "note": "A smooth, level bed."
+    },
+    {
+      "unit_id": "lane-unit:drs:552:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mudarras-expert"
+      ],
+      "note": "A tried or experienced person."
+    },
+    {
+      "unit_id": "lane-unit:drs:553:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mudarris-reader-teacher"
+      ],
+      "note": "One who reads much; a teacher or lecturer."
+    },
+    {
+      "unit_id": "lane-unit:drs:553:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-mudarris-reader-teacher"
+      ],
+      "note": "The school-teacher specialization is covered by the teacher sense."
+    },
+    {
+      "unit_id": "lane-unit:drs:554:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the school or study-place entry."
+    },
+    {
+      "unit_id": "lane-unit:drs:554:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-midras-jewish-reader"
+      ],
+      "note": "One who intensively reads or studies Jewish books."
+    },
+    {
+      "unit_id": "lane-unit:drs:555:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-madrous-house"
+      ],
+      "note": "A house whose remains are effaced."
+    },
+    {
+      "unit_id": "lane-unit:drs:555:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-madrous-road"
+      ],
+      "note": "A road made easy by repeated travel."
+    },
+    {
+      "unit_id": "lane-unit:drs:556:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mudaris-study-companion"
+      ],
+      "note": "One who studies with another or has read books."
+    }
+  ],
+  "cautions": [
+    "The interpretation of 7:169 as studying a text but abandoning its practical application is explicitly reported as an alternative contextual explanation, not as the obligatory meaning of every occurrence.",
+    "Lane records alternative Quranic readings involving effacement and reciprocal study; the artifact does not assign those readings modern verse locations beyond the independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

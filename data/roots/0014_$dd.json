@@ -1,0 +1,907 @@
+{
+  "root": "$dd",
+  "arabic": "شدد",
+  "root_idea": {
+    "summary": "A basic sense of القوة في الشيء: strength or force in a thing, especially as made firm by tightening or binding.",
+    "development": "The root develops from firm binding and strengthening to force, intensity, severity, contest, hardship, and the attainment of full human strength or maturity.",
+    "source_refs": [
+      "maqayis:row:2593",
+      "mufradat:row:754"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$dd:$adado:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_shadda_I",
+      "reason": "Distinct Quranic Form I verb with strengthening, binding, and a special construction concerning hearts."
+    },
+    {
+      "form_group_id": "qac-form:$dd:{$otad~ato:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ishtadda_VIII",
+      "reason": "Distinct Quranic Form VIII verb, attested of the wind becoming intensely violent."
+    },
+    {
+      "form_group_id": "qac-form:$dd:$adiyd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_shadid",
+      "reason": "Distinct Quranic adjective or substantivized adjective with strength, severity, and stinginess senses."
+    },
+    {
+      "form_group_id": "qac-form:$dd:>a$ad~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ashad",
+      "reason": "Distinct comparative or superlative nominal form."
+    },
+    {
+      "form_group_id": "qac-form:$dd:>a$ud~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_ashudd",
+      "reason": "Distinct Quranic noun denoting the stage of full strength or maturity."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_shadda_I",
+      "form_group_ids": [
+        "qac-form:$dd:$adado:verb:I"
+      ],
+      "headword_arabic": "شَدَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "s_shadda_strength",
+          "definition": "To make or render firm, strong, sound, or reinforced; to strengthen.",
+          "usage_conditions": "Used transitively for strengthening a person, body, support, power, or other established thing.",
+          "source_refs": [
+            "lane:entry:38064",
+            "mufradat:row:754"
+          ]
+        },
+        {
+          "sense_id": "s_shadda_bind",
+          "definition": "To bind, tie, or fasten firmly.",
+          "usage_conditions": "Used with bonds, restraints, knots, or other things that are tightened or securely fastened.",
+          "source_refs": [
+            "lane:entry:38064",
+            "mufradat:row:754"
+          ]
+        },
+        {
+          "sense_id": "s_shadda_heart",
+          "definition": "To make hearts firm against guidance, effectively sealing them from heeding admonition.",
+          "usage_conditions": "A Quran-specific construction with على القلوب, as in the prayer شَدَّ على قلوبهم; this is a specialized result of making firm rather than an ordinary physical binding.",
+          "source_refs": [
+            "lane:entry:38064"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "20:31",
+          "word_location": "20:31:1",
+          "sense_ids": [
+            "s_shadda_strength"
+          ]
+        },
+        {
+          "verse_key": "47:4",
+          "word_location": "47:4:10",
+          "sense_ids": [
+            "s_shadda_bind"
+          ]
+        },
+        {
+          "verse_key": "10:88",
+          "word_location": "10:88:21",
+          "sense_ids": [
+            "s_shadda_heart"
+          ]
+        },
+        {
+          "verse_key": "76:28",
+          "word_location": "76:28:3",
+          "sense_ids": [
+            "s_shadda_strength"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ishtadda_VIII",
+      "form_group_ids": [
+        "qac-form:$dd:{$otad~ato:verb:VIII"
+      ],
+      "headword_arabic": "اِشْتَدَّ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_ishtadda_intensify",
+          "definition": "To become intensely strong or violent; of the wind, to blow with great force.",
+          "usage_conditions": "The Quranic occurrence describes the wind becoming violently intense and thereby driving or scattering something.",
+          "source_refs": [
+            "mufradat:row:754",
+            "lane:entry:38070"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "14:18",
+          "word_location": "14:18:7",
+          "sense_ids": [
+            "s_ishtadda_intensify"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_shadid",
+      "form_group_ids": [
+        "qac-form:$dd:$adiyd:nominal:-"
+      ],
+      "headword_arabic": "شَدِيدٌ",
+      "public_pos_label": "Adjective · also substantivized noun",
+      "verb_form": null,
+      "occurrence_count": 56,
+      "senses": [
+        {
+          "sense_id": "s_shadid_strength",
+          "definition": "Strong, powerful, forceful, vigorous, or mighty.",
+          "usage_conditions": "May describe a person, power, force, or thing possessing pronounced strength or force.",
+          "source_refs": [
+            "lane:entry:38075",
+            "mufradat:row:754"
+          ]
+        },
+        {
+          "sense_id": "s_shadid_severity",
+          "definition": "Severe, intense, harsh, or difficult to bear.",
+          "usage_conditions": "Used of punishment, distress, conflict, circumstances, or any attribute whose force or intensity is extreme.",
+          "source_refs": [
+            "lane:entry:38075",
+            "mufradat:row:754"
+          ]
+        },
+        {
+          "sense_id": "s_shadid_niggardly",
+          "definition": "Miserly, withholding, tenacious of wealth, or avaricious.",
+          "usage_conditions": "In the construction لِحُبِّ الْخَيْرِ لَشَدِيدٌ, the adjective characterizes a person as intensely withholding of wealth; this is a lexical interpretation distinct from merely being strong or severe.",
+          "source_refs": [
+            "lane:entry:38075",
+            "mufradat:row:754"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:80",
+          "word_location": "11:80:11",
+          "sense_ids": [
+            "s_shadid_strength"
+          ]
+        },
+        {
+          "verse_key": "14:2",
+          "word_location": "14:2:14",
+          "sense_ids": [
+            "s_shadid_severity"
+          ]
+        },
+        {
+          "verse_key": "100:8",
+          "word_location": "100:8:4",
+          "sense_ids": [
+            "s_shadid_niggardly"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ashad",
+      "form_group_ids": [
+        "qac-form:$dd:>a$ad~:nominal:-"
+      ],
+      "headword_arabic": "أَشَدُّ",
+      "public_pos_label": "Comparative adjective / noun",
+      "verb_form": null,
+      "occurrence_count": 31,
+      "senses": [
+        {
+          "sense_id": "s_ashad_comparative",
+          "definition": "Stronger, more intense, more severe, or mightier; strongest or most intense in superlative use.",
+          "usage_conditions": "The comparative or superlative degree may be explicit or understood from context and may concern strength, severity, intensity, difficulty, or power.",
+          "source_refs": [
+            "lane:entry:38077",
+            "mufradat:row:754"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:165",
+          "word_location": "2:165:14",
+          "sense_ids": [
+            "s_ashad_comparative"
+          ]
+        },
+        {
+          "verse_key": "20:127",
+          "word_location": "20:127:11",
+          "sense_ids": [
+            "s_ashad_comparative"
+          ]
+        },
+        {
+          "verse_key": "5:82",
+          "word_location": "5:82:2",
+          "sense_ids": [
+            "s_ashad_comparative"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_ashudd",
+      "form_group_ids": [
+        "qac-form:$dd:>a$ud~:nominal:-"
+      ],
+      "headword_arabic": "أَشُدٌّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "s_ashudd_maturity",
+          "definition": "The state or stage of full strength, maturity, and sound judgment.",
+          "usage_conditions": "Usually occurs in expressions meaning to reach or attain one's full strength or maturity. Classical explanations assign the stage varying age limits, including puberty, the period of mature strength, and forty years; the shared lexical notion is attained human maturity and vigor.",
+          "source_refs": [
+            "lane:entry:38078",
+            "mufradat:row:754"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "12:22",
+          "word_location": "12:22:3",
+          "sense_ids": [
+            "s_ashudd_maturity"
+          ]
+        },
+        {
+          "verse_key": "28:14",
+          "word_location": "28:14:3",
+          "sense_ids": [
+            "s_ashudd_maturity"
+          ]
+        },
+        {
+          "verse_key": "40:67",
+          "word_location": "40:67:17",
+          "sense_ids": [
+            "s_ashudd_maturity"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_shadda_intensive",
+      "headword_arabic": "شَدَّ",
+      "definition": "In the expression لَشَدَّ مَا or شَدَّ مَا, an intensive or emphatic expression meaning indeed, very much, or greatly.",
+      "usage_conditions": "An idiomatic intensifier rather than the ordinary transitive verb.",
+      "source_refs": [
+        "lane:entry:38064"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_attack",
+      "headword_arabic": "شَدَّ",
+      "definition": "To charge, assault, or attack an opponent or enemy.",
+      "usage_conditions": "Typically constructed with عَلَى and used of war, battle, or a sudden attack.",
+      "source_refs": [
+        "lane:entry:38064"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_run",
+      "headword_arabic": "شَدَّ",
+      "definition": "To run, hasten, or move quickly.",
+      "usage_conditions": "Used of running or rapid movement, including the construction شَدَّ فِي العَدْوِ.",
+      "source_refs": [
+        "lane:entry:38064"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_day",
+      "headword_arabic": "شَدَّ",
+      "definition": "Of the day or morning, to become advanced while the sun is high.",
+      "usage_conditions": "A temporal expression such as شَدَّ النَّهَارُ or شَدَّ الضُّحَى.",
+      "source_refs": [
+        "lane:entry:38064"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_press",
+      "headword_arabic": "شَدَّ",
+      "definition": "To press, compress, squeeze, pull, or strain something.",
+      "usage_conditions": "A broader physical use distinct from fastening or strengthening.",
+      "source_refs": [
+        "lane:entry:38064"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_journey",
+      "headword_arabic": "شَدُّ الرِّحالِ",
+      "definition": "To set out on a journey, literally to bind the saddles or travel gear onto the mounts.",
+      "usage_conditions": "A metonymical expression for departing on a journey.",
+      "source_refs": [
+        "lane:entry:38064"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_mizar",
+      "headword_arabic": "شَدُّ المِئْزَرِ",
+      "definition": "To avoid sexual relations, to exert oneself vigorously in work, or both.",
+      "usage_conditions": "An idiomatic expression whose interpretation depends on context.",
+      "source_refs": [
+        "lane:entry:38064"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_no_control",
+      "headword_arabic": "شَدٌّ وَإِرْخَاءٌ",
+      "definition": "In مَا أَمْلِكُ شَدًّا وَلَا إِرْخَاءً, the ability to do anything or exercise control.",
+      "usage_conditions": "A fixed contrast between tightening and loosening.",
+      "source_refs": [
+        "lane:entry:38064"
+      ]
+    },
+    {
+      "meaning_id": "cm_shaddada_intensify",
+      "headword_arabic": "شَدَّدَ",
+      "definition": "To intensify, aggravate, or make a burden, suffering, treatment, or matter harsh, severe, or difficult to bear.",
+      "usage_conditions": "Often constructed with عَلَى and contrasted with خَفَّفَ; this Form II meaning is causative or intensifying rather than simple strengthening.",
+      "source_refs": [
+        "lane:entry:38065"
+      ]
+    },
+    {
+      "meaning_id": "cm_tashdid_pronunciation",
+      "headword_arabic": "تَشْدِيدٌ",
+      "definition": "The lengthened or doubled pronunciation of a consonant, represented in writing by the shaddah sign.",
+      "usage_conditions": "A grammatical and prosodic technical term.",
+      "source_refs": [
+        "lane:entry:38065"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_compete",
+      "headword_arabic": "شَادَّ",
+      "definition": "To vie, contend, or strive to surpass another in strength, power, or force.",
+      "usage_conditions": "May describe opposition or competition with another person or with an undertaking.",
+      "source_refs": [
+        "lane:entry:38066"
+      ]
+    },
+    {
+      "meaning_id": "cm_ashadda_beast",
+      "headword_arabic": "أَشَدَّ",
+      "definition": "To have, or to have with one, a strong beast or strong beasts.",
+      "usage_conditions": "A Form IV verb concerning a person's or group's mounts or pack animals.",
+      "source_refs": [
+        "lane:entry:38067"
+      ]
+    },
+    {
+      "meaning_id": "cm_ashadda_exclamation",
+      "headword_arabic": "مَا أَشَدَّ",
+      "definition": "How hard, intense, vehement, violent, or great a thing is.",
+      "usage_conditions": "An exclamatory construction with ما.",
+      "source_refs": [
+        "lane:entry:38067"
+      ]
+    },
+    {
+      "meaning_id": "cm_tashaddada_exert",
+      "headword_arabic": "تَشَدَّدَ",
+      "definition": "To act with forced hardness, firmness, strength, courage, severity, or rigor; to exert or strain oneself severely.",
+      "usage_conditions": "May be constructed with فِي or لِ and describe vigorous application to an affair.",
+      "source_refs": [
+        "lane:entry:38068"
+      ]
+    },
+    {
+      "meaning_id": "cm_tashaddada_hard",
+      "headword_arabic": "تَشَدَّدَ",
+      "definition": "To become hard or difficult toward someone.",
+      "usage_conditions": "Used of a person who deals harshly or makes a request difficult for another.",
+      "source_refs": [
+        "lane:entry:38068"
+      ]
+    },
+    {
+      "meaning_id": "cm_tashaddada_niggardly",
+      "headword_arabic": "تَشَدَّدَ",
+      "definition": "To become niggardly, tenacious, or avaricious.",
+      "usage_conditions": "A Form V development describing withholding conduct.",
+      "source_refs": [
+        "lane:entry:38068"
+      ]
+    },
+    {
+      "meaning_id": "cm_tashaddu_compete",
+      "headword_arabic": "تَشَادَّ",
+      "definition": "To vie or contend with one another for superiority in strength, power, or force.",
+      "usage_conditions": "A reciprocal Form VI construction.",
+      "source_refs": [
+        "lane:entry:38069"
+      ]
+    },
+    {
+      "meaning_id": "cm_ishtadda_firm",
+      "headword_arabic": "اِشْتَدَّ",
+      "definition": "To become hard, firm, compact, sound, strong, or tightly fastened.",
+      "usage_conditions": "Used of substances, attributes, knots, bonds, or other things becoming firm or secure.",
+      "source_refs": [
+        "lane:entry:38070"
+      ]
+    },
+    {
+      "meaning_id": "cm_ishtadda_severe",
+      "headword_arabic": "اِشْتَدَّ",
+      "definition": "To become vehement, violent, intense, pressing, severe, distressing, difficult, or adverse.",
+      "usage_conditions": "Used of time, fortune, affairs, or circumstances becoming harsh or burdensome.",
+      "source_refs": [
+        "lane:entry:38070"
+      ]
+    },
+    {
+      "meaning_id": "cm_shaddun_day",
+      "headword_arabic": "شَدٌّ",
+      "definition": "The advanced part of the day or morning, when the sun is high.",
+      "usage_conditions": "A nominal temporal expression such as شَدُّ النَّهَارِ or شَدُّ الضُّحَى.",
+      "source_refs": [
+        "lane:entry:38071"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_single_act",
+      "headword_arabic": "شَدَّةٌ",
+      "definition": "A single act of making firm, strong, or compact, or of binding or tying firmly.",
+      "usage_conditions": "The feminine singular verbal noun denotes one occurrence of the action.",
+      "source_refs": [
+        "lane:entry:38072"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadda_single_attack",
+      "headword_arabic": "شَدَّةٌ",
+      "definition": "A single charge, assault, or attack in war or battle.",
+      "usage_conditions": "A nominal use of the Form I attack sense.",
+      "source_refs": [
+        "lane:entry:38072"
+      ]
+    },
+    {
+      "meaning_id": "cm_shidda_hardness",
+      "headword_arabic": "شِدَّةٌ",
+      "definition": "Hardness, firmness, compactness, strength, power, force, vigor, robustness, hardiness, or courage.",
+      "usage_conditions": "Used of substances, attributes, bodily or personal powers, and degrees of force.",
+      "source_refs": [
+        "lane:entry:38073"
+      ]
+    },
+    {
+      "meaning_id": "cm_shidda_severity",
+      "headword_arabic": "شِدَّةٌ",
+      "definition": "Vehemence, violence, intensity, pressure, severity, hardship, famine, distress, calamity, or adversity.",
+      "usage_conditions": "May denote either an intense degree or a distressing event or condition, including the rigors of death.",
+      "source_refs": [
+        "lane:entry:38073"
+      ]
+    },
+    {
+      "meaning_id": "cm_shidda_niggardly",
+      "headword_arabic": "شِدَّةٌ",
+      "definition": "Niggardliness, tenaciousness, or avarice.",
+      "usage_conditions": "A nominal expression for the withholding disposition associated with شديد or متشدّد.",
+      "source_refs": [
+        "lane:entry:38073"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadaid_sedition",
+      "headword_arabic": "شَدَائِدُ",
+      "definition": "Seditions, discords, or dissensions that throw people into commotion.",
+      "usage_conditions": "A plural use developed from severe or distressing events.",
+      "source_refs": [
+        "lane:entry:38073"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadid_brave",
+      "headword_arabic": "شَدِيدٌ",
+      "definition": "Courageous, brave, or firm of heart.",
+      "usage_conditions": "A Classical specialization describing personal courage rather than merely physical strength.",
+      "source_refs": [
+        "lane:entry:38075"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadid_wakefulness",
+      "headword_arabic": "شَدِيدُ العَيْنِ",
+      "definition": "Of a person, not readily overcome by sleep.",
+      "usage_conditions": "An idiomatic expression; شَدِيدَةُ جَفْنِ العَيْنِ may be applied metaphorically to a she-camel.",
+      "source_refs": [
+        "lane:entry:38075"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadid_lion",
+      "headword_arabic": "الشَّدِيدُ",
+      "definition": "The lion.",
+      "usage_conditions": "A substantivized noun referring to the lion because of its strength and hardiness.",
+      "source_refs": [
+        "lane:entry:38075"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadid_intensive",
+      "headword_arabic": "شَدِيدٌ",
+      "definition": "An intensive modifier indicating a very high degree of the following quality.",
+      "usage_conditions": "With a following noun or verbal noun in the genitive, as in شَدِيدُ السَّوَادِ or شَدِيدُ الغَضَبِ.",
+      "source_refs": [
+        "lane:entry:38075"
+      ]
+    },
+    {
+      "meaning_id": "cm_shadid_letters",
+      "headword_arabic": "الحُرُوفُ الشَّدِيدَةُ",
+      "definition": "The strong or obstructive consonants that, when quiescent, prevent the voice from flowing during their articulation.",
+      "usage_conditions": "A technical phonetic classification of the letters أ، ب، ت، ج، د، ط، ق، ك.",
+      "source_refs": [
+        "lane:entry:38075"
+      ]
+    },
+    {
+      "meaning_id": "cm_ashad_day",
+      "headword_arabic": "أَشَدُّ النَّهَارِ",
+      "definition": "The time when the day is most advanced and the sun is at its highest.",
+      "usage_conditions": "A temporal expression using the comparative or superlative form.",
+      "source_refs": [
+        "lane:entry:38077"
+      ]
+    },
+    {
+      "meaning_id": "cm_mashadd_place",
+      "headword_arabic": "مَشَدُّ العِصَابَةِ",
+      "definition": "The place or part where a fillet, band, or similar item is bound.",
+      "usage_conditions": "A locative noun referring to the point of fastening.",
+      "source_refs": [
+        "lane:entry:38079"
+      ]
+    },
+    {
+      "meaning_id": "cm_mushidd_beast",
+      "headword_arabic": "مُشِدٌّ",
+      "definition": "A person who has or travels with a strong beast or strong beasts.",
+      "usage_conditions": "The opposite of مُضْعِفٌ, one who has weak mounts; traditionally used of a strong warrior or plunderer.",
+      "source_refs": [
+        "lane:entry:38080"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$dd:38064:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer and grammatical information referring to another paragraph."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38064:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shadda_intensive"
+      ],
+      "note": "Idiomatic intensifier."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38064:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shadda_attack"
+      ],
+      "note": "Charging or attacking."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38064:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shadda_run"
+      ],
+      "note": "Running or hastening."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38064:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shadda_day"
+      ],
+      "note": "The day becoming advanced."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38064:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_shadda_strength",
+        "s_shadda_bind",
+        "s_shadda_heart",
+        "cm_shadda_press",
+        "cm_shadda_journey",
+        "cm_shadda_mizar",
+        "cm_shadda_no_control"
+      ],
+      "note": "Strengthening, binding, the heart construction, and related idioms."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38064:g3:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Anomalous orthographic or lexical identification with أَشْهَدُ."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38065:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38065:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shaddada_intensify"
+      ],
+      "note": "Intensifying or aggravating treatment."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38065:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tashdid_pronunciation"
+      ],
+      "note": "Technical pronunciation and writing term."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38065:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to another entry."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38066:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shadda_compete"
+      ],
+      "note": "Contending for superiority."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38066:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38067:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ashadda_beast"
+      ],
+      "note": "Having strong beasts."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38067:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ashadda_exclamation"
+      ],
+      "note": "Exclamatory construction."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38068:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tashaddada_exert"
+      ],
+      "note": "Forced exertion, rigor, or showing hardness."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38068:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tashaddada_hard"
+      ],
+      "note": "Becoming hard or difficult toward someone."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38068:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tashaddada_niggardly"
+      ],
+      "note": "Becoming niggardly or avaricious."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38069:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tashaddu_compete"
+      ],
+      "note": "Reciprocal competition."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38069:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38070:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ishtadda_intensify",
+        "cm_ishtadda_firm",
+        "cm_ishtadda_severe"
+      ],
+      "note": "Becoming firm, intense, severe, or difficult."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38070:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to material already treated under another entry."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38071:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Verbal-noun identification only."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38071:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shaddun_day"
+      ],
+      "note": "Temporal noun for the advanced day."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38072:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shadda_single_act"
+      ],
+      "note": "A single act of firming or binding."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38072:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38072:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shadda_single_attack"
+      ],
+      "note": "A single attack."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38073:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shidda_hardness",
+        "cm_shidda_severity",
+        "cm_shidda_niggardly",
+        "cm_shadaid_sedition"
+      ],
+      "note": "Nominal branches of strength, severity, avarice, and distress-related plural usage."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38074:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to شِدَّةٌ."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38075:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_shadid_strength",
+        "s_shadid_severity",
+        "s_shadid_niggardly",
+        "cm_shadid_brave",
+        "cm_shadid_wakefulness",
+        "cm_shadid_lion",
+        "cm_shadid_intensive"
+      ],
+      "note": "Quranic and Classical adjective branches."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38075:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_shadid_letters"
+      ],
+      "note": "Technical classification of strong letters."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38076:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to شِدَّةٌ without independent lexical content."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38077:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ashad_comparative"
+      ],
+      "note": "Comparative and superlative meaning."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38077:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_ashad_day"
+      ],
+      "note": "Temporal expression for the most advanced day."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38078:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_ashudd_maturity"
+      ],
+      "note": "Maturity, full strength, and competing age explanations."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38079:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mashadd_place"
+      ],
+      "note": "Place where a band is fastened."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38080:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mushidd_beast"
+      ],
+      "note": "Person with strong beasts."
+    },
+    {
+      "unit_id": "lane-unit:$dd:38081:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer back to شَدِيدٌ."
+    }
+  ],
+  "cautions": [
+    "أَشُدٌّ has a stable core meaning of attained strength or maturity, but the sources give differing age ranges and differing grammatical analyses of its form.",
+    "شَدِيدٌ in the expression concerning love of wealth is explicitly interpreted as miserly or withholding, despite contextual English renderings that may emphasize intensity.",
+    "أَشَدُّ is used both adjectivally and substantivally in the Quran; its comparative or superlative force is determined by construction and context."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

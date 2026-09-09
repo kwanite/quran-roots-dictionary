@@ -1,0 +1,387 @@
+{
+  "root": "wzn",
+  "arabic": "وزن",
+  "root_idea": {
+    "summary": "The root centers on adjusting and determining a thing's measure, yielding balance, proportion, and fair assessment.",
+    "development": "From weighing and the amount measured, the lexical field extends to physical equilibrium, proportionate creation, equitable judgment, and soundness of opinion; isolated technical usages are also recorded.",
+    "source_refs": [
+      "maqayis:row:5099",
+      "mufradat:row:1572"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wzn:w~azanu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:wzn:wazana",
+      "reason": "Displayed under the normalized Form I perfect citation وَزَنَ."
+    },
+    {
+      "form_group_id": "qac-form:wzn:miyzaAn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:wzn:mizan",
+      "reason": "Displayed under the singular nominal citation مِيزَان, covering its Quranic singular and plural surface forms."
+    },
+    {
+      "form_group_id": "qac-form:wzn:m~awozuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:wzn:mawzun",
+      "reason": "Displayed as the passive participle مَوْزُون rather than the inflected Quranic form."
+    },
+    {
+      "form_group_id": "qac-form:wzn:wazon:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:wzn:wazn",
+      "reason": "Displayed under the nominal citation وَزْن."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:wzn:wazana",
+      "form_group_ids": [
+        "qac-form:wzn:w~azanu:verb:I"
+      ],
+      "headword_arabic": "وَزَنَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform:wzn:wazana:s1",
+          "definition": "To weigh something; to determine its amount, measure, or weight.",
+          "usage_conditions": "The Quranic imperative is used for weighing in commercial dealings. In وَزَنُوهُمْ, the construction means to weigh something for or on behalf of them; the construction itself does not make the verb mean to cheat.",
+          "source_refs": [
+            "mufradat:row:1572"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:35",
+          "word_location": "17:35:5",
+          "sense_ids": [
+            "qform:wzn:wazana:s1"
+          ]
+        },
+        {
+          "verse_key": "83:3",
+          "word_location": "83:3:4",
+          "sense_ids": [
+            "qform:wzn:wazana:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:wzn:mizan",
+      "form_group_ids": [
+        "qac-form:wzn:miyzaAn:nominal:-"
+      ],
+      "headword_arabic": "مِيزَان",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 16,
+      "senses": [
+        {
+          "sense_id": "qform:wzn:mizan:s1",
+          "definition": "A weighing instrument: a balance, scale, or pair of scales; also the weight or measure of a thing.",
+          "usage_conditions": "The noun can refer literally to an instrument used for weighing or to the weight determined by it. The Quranic form group includes both singular and plural surface forms under this citation.",
+          "source_refs": [
+            "lane:entry:30481",
+            "mufradat:row:1572"
+          ]
+        },
+        {
+          "sense_id": "qform:wzn:mizan:s2",
+          "definition": "A balance or standard of just assessment by which people or their deeds are reckoned.",
+          "usage_conditions": "In moral and eschatological contexts, مِيزَان and مَوَازِين refer to the balance or balances of justice. The singular and plural are explained in relation to the reckoner or reckoners being considered.",
+          "source_refs": [
+            "mufradat:row:1572"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:152",
+          "word_location": "6:152:14",
+          "sense_ids": [
+            "qform:wzn:mizan:s1"
+          ]
+        },
+        {
+          "verse_key": "55:7",
+          "word_location": "55:7:4",
+          "sense_ids": [
+            "qform:wzn:mizan:s2"
+          ]
+        },
+        {
+          "verse_key": "21:47",
+          "word_location": "21:47:2",
+          "sense_ids": [
+            "qform:wzn:mizan:s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:wzn:mawzun",
+      "form_group_ids": [
+        "qac-form:wzn:m~awozuwn:nominal:-"
+      ],
+      "headword_arabic": "مَوْزُون",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform:wzn:mawzun:s1",
+          "definition": "Measured, proportioned, or well-balanced.",
+          "usage_conditions": "In 15:19, the expression describes what is brought forth from the earth. It has been interpreted either specifically of measured substances such as metals or more broadly of all things created in due proportion.",
+          "source_refs": [
+            "mufradat:row:1572"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "15:19",
+          "word_location": "15:19:11",
+          "sense_ids": [
+            "qform:wzn:mawzun:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform:wzn:wazn",
+      "form_group_ids": [
+        "qac-form:wzn:wazon:nominal:-"
+      ],
+      "headword_arabic": "وَزْن",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform:wzn:wazn:s1",
+          "definition": "Weighing; the determination of a thing's amount, measure, or weight.",
+          "usage_conditions": "The Quranic weighing expressions may concern physical measure and may also serve as the basis for an equitable standard.",
+          "source_refs": [
+            "mufradat:row:1572"
+          ]
+        },
+        {
+          "sense_id": "qform:wzn:wazn:s2",
+          "definition": "Equitable measure or just assessment in conduct and reckoning.",
+          "usage_conditions": "The weighing is explicitly extended to observing fairness in human actions and speech, and to just accounting for people; this accounts for translations involving justice or fairness.",
+          "source_refs": [
+            "mufradat:row:1572"
+          ]
+        },
+        {
+          "sense_id": "qform:wzn:wazn:s3",
+          "definition": "Weight, worth, or significance assigned in reckoning.",
+          "usage_conditions": "In the negative expression concerning the Day of Resurrection, having no weight means having no recognized value or significance.",
+          "source_refs": [
+            "mufradat:row:1572"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:8",
+          "word_location": "7:8:1",
+          "sense_ids": [
+            "qform:wzn:wazn:s1",
+            "qform:wzn:wazn:s2"
+          ]
+        },
+        {
+          "verse_key": "55:9",
+          "word_location": "55:9:2",
+          "sense_ids": [
+            "qform:wzn:wazn:s2"
+          ]
+        },
+        {
+          "verse_key": "18:105",
+          "word_location": "18:105:14",
+          "sense_ids": [
+            "qform:wzn:wazn:s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm:wzn:wazana-heavy",
+      "headword_arabic": "وَزَنَ",
+      "definition": "To be heavy, outweigh, or preponderate.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:30474"
+      ]
+    },
+    {
+      "meaning_id": "cm:wzn:wazana-equiponderant",
+      "headword_arabic": "وَازَنَ",
+      "definition": "To be equal in weight with, or equiponderant to, something.",
+      "usage_conditions": "Used in the construction of one thing being equiponderant with another.",
+      "source_refs": [
+        "lane:entry:30475"
+      ]
+    },
+    {
+      "meaning_id": "cm:wzn:ittazan-by-weight",
+      "headword_arabic": "اِتَّزَنَهُ",
+      "definition": "To take or receive something by weight.",
+      "usage_conditions": "A Form VIII construction with the thing taken or received as its object.",
+      "source_refs": [
+        "lane:entry:30476"
+      ]
+    },
+    {
+      "meaning_id": "cm:wzn:alwazn-star",
+      "headword_arabic": "الوَزْنُ",
+      "definition": "A star in the left foreleg of Centaurus.",
+      "usage_conditions": "A specialized astronomical name.",
+      "source_refs": [
+        "lane:entry:30477"
+      ]
+    },
+    {
+      "meaning_id": "cm:wzn:wazin-fullweight",
+      "headword_arabic": "وَازِنٌ",
+      "definition": "Having full weight; heavy or complete in weight.",
+      "usage_conditions": "It may describe a full-weight or heavy dirham and, more generally, something of full weight.",
+      "source_refs": [
+        "lane:entry:30479"
+      ]
+    },
+    {
+      "meaning_id": "cm:wzn:wazzan-weigher",
+      "headword_arabic": "وَزَّانٌ",
+      "definition": "A person who weighs things; a weigher.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:30480"
+      ]
+    },
+    {
+      "meaning_id": "cm:wzn:mizan-midday",
+      "headword_arabic": "مِيزَان",
+      "definition": "In the expression قام مِيزَانُ النَّهَارِ, the midpoint of the day; midday.",
+      "usage_conditions": "A conventional expression for the day reaching its midpoint.",
+      "source_refs": [
+        "mufradat:row:1572",
+        "maqayis:row:5099"
+      ]
+    },
+    {
+      "meaning_id": "cm:wzn:wazin-opinion",
+      "headword_arabic": "وَزِينٌ",
+      "definition": "Balanced or sound in judgment; of an opinion, moderate and well-considered.",
+      "usage_conditions": "It may be attributed to a person in connection with weighty judgment and strength of intellect.",
+      "source_refs": [
+        "maqayis:row:5099"
+      ]
+    },
+    {
+      "meaning_id": "cm:wzn:wazin-colocynth",
+      "headword_arabic": "وَزِينٌ",
+      "definition": "Prepared or kneaded colocynth used as food.",
+      "usage_conditions": "An isolated, expressly exceptional lexical usage.",
+      "source_refs": [
+        "maqayis:row:5099"
+      ]
+    },
+    {
+      "meaning_id": "cm:wzn:wazn-dates",
+      "headword_arabic": "وَزْن",
+      "definition": "A chunk or lump of dates.",
+      "usage_conditions": "An isolated lexical usage reported for a piece of dates.",
+      "source_refs": [
+        "maqayis:row:5099"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wzn:30474:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:wzn:wazana-heavy"
+      ],
+      "note": "The unit's heavy, outweighing, and preponderating branch is represented."
+    },
+    {
+      "unit_id": "lane-unit:wzn:30475:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:wzn:wazana-equiponderant"
+      ],
+      "note": "The Form III equiponderance construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:wzn:30476:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:wzn:ittazan-by-weight"
+      ],
+      "note": "The Form VIII taking or receiving by weight is represented."
+    },
+    {
+      "unit_id": "lane-unit:wzn:30477:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:wzn:alwazn-star"
+      ],
+      "note": "The specialized star name is represented."
+    },
+    {
+      "unit_id": "lane-unit:wzn:30478:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "A relational adjective of زِنَةٌ is given without an independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:wzn:30479:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:wzn:wazin-fullweight"
+      ],
+      "note": "The full-weight or heavy adjective is represented."
+    },
+    {
+      "unit_id": "lane-unit:wzn:30480:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm:wzn:wazzan-weigher"
+      ],
+      "note": "The agent noun meaning a weigher is represented."
+    },
+    {
+      "unit_id": "lane-unit:wzn:30481:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:wzn:mizan:s1"
+      ],
+      "note": "The weighing instrument, balance, and scales are represented under the Quranic مِيزَان form."
+    },
+    {
+      "unit_id": "lane-unit:wzn:30481:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qform:wzn:mizan:s1"
+      ],
+      "note": "The weight-of-a-thing use is explicitly included in the instrument, weight, and measure sense."
+    }
+  ],
+  "cautions": [
+    "مِيزَان may denote a literal weighing instrument or weight, and in Quranic moral and eschatological contexts a just standard of assessment; context determines the appropriate English rendering.",
+    "The interpretation of مَوْزُون in 15:19 is reported both specifically for measured substances and broadly for creation made in due proportion."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

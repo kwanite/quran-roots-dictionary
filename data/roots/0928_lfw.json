@@ -1,0 +1,64 @@
+{
+  "root": "lfw",
+  "arabic": "لفو",
+  "root_idea": {
+    "summary": "No root-level semantic principle is established by the supplied evidence.",
+    "development": "",
+    "source_refs": []
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lfw:>alofa:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:lfw:alfa:IV",
+      "reason": "The form is Quran-attested and is displayed under its normalized Form IV perfect citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:lfw:alfa:IV",
+      "form_group_ids": [
+        "qac-form:lfw:>alofa:verb:IV"
+      ],
+      "headword_arabic": "أَلْفَى",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 3,
+      "senses": [],
+      "quran_examples": []
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "classical:lfw:talaafa:repair",
+      "headword_arabic": "تَلَافَى",
+      "definition": "To repair or remedy a shortcoming, failure, deficiency, or inconsistent act; to restore a condition, including by reconciliation.",
+      "usage_conditions": "A Form VI derived verb; may be used of repairing an affair or condition, including through peace or reconciliation.",
+      "source_refs": [
+        "lane:entry:20679"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lfw:20679:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "classical:lfw:talaafa:repair"
+      ],
+      "note": "The Form VI repair/remedy construction is represented as a Classical Arabic meaning."
+    },
+    {
+      "unit_id": "lane-unit:lfw:20680:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference with no independent lexical definition."
+    }
+  ],
+  "cautions": [
+    "The supplied Quran Foundation glosses translate the three Quran occurrences of أَلْفَى as forms of “find,” but no supplied Lane or Mufradat evidence directly establishes that Quranic sense; it is therefore not presented as a numbered dictionary sense."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "The Quran-attested Form IV verb أَلْفَى occurs at 2:170:12, 12:25:7, and 37:69:2 with contextual glosses meaning “find,” but the packet supplies no direct lexical evidence from Lane or Mufradat for assigning that meaning."
+  ]
+}

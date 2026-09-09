@@ -1,0 +1,108 @@
+{
+  "root": "dEE",
+  "arabic": "دعع",
+  "root_idea": {
+    "summary": "The root centers on movement combined with pushing, thrusting, and agitation.",
+    "development": "Its direct Quranic branch is forceful pushing or driving away. Related formations extend the dynamic idea to stirring, shaking, and irregular movement.",
+    "source_refs": [
+      "maqayis:row:1758"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:dEE:yaduE~u:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dEE-verb-d3",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:dEE:daE~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "dEE-noun-d3",
+      "reason": "Displayed as the attested verbal noun."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "dEE-verb-d3",
+      "form_group_ids": [
+        "qac-form:dEE:yaduE~u:verb:I"
+      ],
+      "headword_arabic": "دَعَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "dEE-verb-d3-s1",
+          "definition": "To push, thrust, or drive away with force; to repel harshly or violently.",
+          "usage_conditions": "In the Quran, this describes thrusting an orphan away and driving people forcefully toward Hell. The active and passive occurrences express the same forceful lexical action, with harshness or roughness included where the context supports it.",
+          "source_refs": [
+            "lane:entry:688",
+            "mufradat:row:473"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "107:2",
+          "word_location": "107:2:3",
+          "sense_ids": [
+            "dEE-verb-d3-s1"
+          ]
+        },
+        {
+          "verse_key": "52:13",
+          "word_location": "52:13:2",
+          "sense_ids": [
+            "dEE-verb-d3-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "dEE-noun-d3",
+      "form_group_ids": [
+        "qac-form:dEE:daE~:nominal:-"
+      ],
+      "headword_arabic": "دَعّ",
+      "public_pos_label": "Verbal noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "dEE-noun-d3-s1",
+          "definition": "Forceful pushing, thrusting, or driving away.",
+          "usage_conditions": "Verbal noun of دَعَّ. In the Quranic construction دَعًّا, it denotes the forceful action or manner of being driven toward Hell.",
+          "source_refs": [
+            "lane:entry:688",
+            "mufradat:row:473"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "52:13",
+          "word_location": "52:13:6",
+          "sense_ids": [
+            "dEE-noun-d3-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:dEE:688:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "dEE-verb-d3-s1",
+        "dEE-noun-d3-s1"
+      ],
+      "note": "The forceful pushing, repelling, driving, and corresponding verbal-noun usage are represented under the Quranic forms."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

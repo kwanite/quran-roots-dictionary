@@ -1,0 +1,404 @@
+{
+  "root": "tsE",
+  "arabic": "تسع",
+  "root_idea": {
+    "summary": "The root centers on the number nine and the act of reaching or occupying the ninth position.",
+    "development": "From the cardinal number nine, the lexical field extends to becoming or making a group nine, taking a ninth part, ordinal uses, nine-day intervals, and named groups of three nights ending with the ninth night.",
+    "source_refs": [
+      "maqayis:row:932",
+      "mufradat:row:184"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:tsE:tisoE:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform_tsE_nine",
+      "reason": "The group contains the alternate cardinal form تِسْعٌ and the tens form تِسْعُونَ; both belong under the normalized numeral entry تِسْعَةٌ, with ninety represented as a separate Quranic sense."
+    },
+    {
+      "form_group_id": "qac-form:tsE:tisoEap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform_tsE_nine",
+      "reason": "تِسْعَةٌ is the supported classical citation form for the Quranic cardinal numeral."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform_tsE_nine",
+      "form_group_ids": [
+        "qac-form:tsE:tisoE:nominal:-",
+        "qac-form:tsE:tisoEap:nominal:-"
+      ],
+      "headword_arabic": "تِسْعَةٌ",
+      "public_pos_label": "Cardinal numeral",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "qsen_tsE_nine",
+          "definition": "The cardinal number nine; a quantity or group of nine.",
+          "usage_conditions": "The Quranic forms include تِسْعٌ and تِسْعَةٌ, distributed according to the grammatical gender of the counted noun. The same cardinal value occurs as the nine component in تِسْعٌ وَتِسْعُونَ, “ninety-nine,” and تِسْعَةَ عَشَرَ, “nineteen.”",
+          "source_refs": [
+            "lane:entry:16675",
+            "mufradat:row:184"
+          ]
+        },
+        {
+          "sense_id": "qsen_tsE_ninety",
+          "definition": "Ninety, the tens numeral formed with nine.",
+          "usage_conditions": "The Quranic surface form is تِسْعُونَ in the expression تِسْعٌ وَتِسْعُونَ نَعْجَةً, where it denotes ninety rather than nine in isolation.",
+          "source_refs": [
+            "lane:entry:16676",
+            "mufradat:row:184"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:101",
+          "word_location": "17:101:4",
+          "sense_ids": [
+            "qsen_tsE_nine"
+          ]
+        },
+        {
+          "verse_key": "27:48",
+          "word_location": "27:48:4",
+          "sense_ids": [
+            "qsen_tsE_nine"
+          ]
+        },
+        {
+          "verse_key": "38:23",
+          "word_location": "38:23:5",
+          "sense_ids": [
+            "qsen_tsE_nine"
+          ]
+        },
+        {
+          "verse_key": "38:23",
+          "word_location": "38:23:6",
+          "sense_ids": [
+            "qsen_tsE_ninety"
+          ]
+        },
+        {
+          "verse_key": "74:30",
+          "word_location": "74:30:2",
+          "sense_ids": [
+            "qsen_tsE_nine"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_tasa_take_ninth",
+      "headword_arabic": "تَسَعَ",
+      "definition": "To take a ninth part of a people's possessions.",
+      "usage_conditions": "A Form I verbal use concerning division of property.",
+      "source_refs": [
+        "lane:entry:16667",
+        "mufradat:row:184"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasa_become_ninth",
+      "headword_arabic": "تَسَعَ",
+      "definition": "To become the ninth member of a group, or by joining it to make a group of eight into nine.",
+      "usage_conditions": "A Form I verbal use describing the subject's addition to an existing group.",
+      "source_refs": [
+        "lane:entry:16667",
+        "mufradat:row:184"
+      ]
+    },
+    {
+      "meaning_id": "cm_tassa_make_nine",
+      "headword_arabic": "تَسَّعَ",
+      "definition": "To make something nine.",
+      "usage_conditions": "A Form II causative use; this is distinct from the temporal idiom recorded below.",
+      "source_refs": [
+        "lane:entry:16668"
+      ]
+    },
+    {
+      "meaning_id": "cm_tassa_nine_nights",
+      "headword_arabic": "تَسَّعَ",
+      "definition": "To remain nine nights with one's wife.",
+      "usage_conditions": "A conventional temporal use, which is also said to extend analogically to other actions or sayings.",
+      "source_refs": [
+        "lane:entry:16668"
+      ]
+    },
+    {
+      "meaning_id": "cm_atsa_become_nine",
+      "headword_arabic": "أَتْسَعَ",
+      "definition": "To become nine, or to become ninety.",
+      "usage_conditions": "The supplied Form IV entry records the subject as reaching either of these numerical totals.",
+      "source_refs": [
+        "lane:entry:16669"
+      ]
+    },
+    {
+      "meaning_id": "cm_atsa_camel_interval",
+      "headword_arabic": "أَتْسَعَ",
+      "definition": "To be on a nine-day watering interval, of camels.",
+      "usage_conditions": "The interval is described as nine days, with eight nights between waterings.",
+      "source_refs": [
+        "lane:entry:16669"
+      ]
+    },
+    {
+      "meaning_id": "cm_tus_fraction",
+      "headword_arabic": "تُسْعٌ",
+      "definition": "A ninth part; one of nine equal parts.",
+      "usage_conditions": "A fractional noun distinct from the cardinal numeral.",
+      "source_refs": [
+        "lane:entry:16671",
+        "mufradat:row:184"
+      ]
+    },
+    {
+      "meaning_id": "cm_tis_camel_interval",
+      "headword_arabic": "تِسْعٌ",
+      "definition": "A ninth-day watering interval for camels.",
+      "usage_conditions": "A named interval in camel watering practice, counted as nine days or eight nights between waterings.",
+      "source_refs": [
+        "lane:entry:16672",
+        "mufradat:row:184"
+      ]
+    },
+    {
+      "meaning_id": "cm_tis_ninth_offspring",
+      "headword_arabic": "تِسْعٌ",
+      "definition": "The ninth young one or offspring.",
+      "usage_conditions": "A specialized nominal use for birth order.",
+      "source_refs": [
+        "lane:entry:16672"
+      ]
+    },
+    {
+      "meaning_id": "cm_tusa_month_nights",
+      "headword_arabic": "تُسَعٌ",
+      "definition": "A set of three nights of the lunar month ending with the ninth night.",
+      "usage_conditions": "Usually the seventh, eighth, and ninth nights; one reported view applies the term to the first three nights instead.",
+      "source_refs": [
+        "lane:entry:16673"
+      ]
+    },
+    {
+      "meaning_id": "cm_tis_ninetieth",
+      "headword_arabic": "تِسْعُونَ",
+      "definition": "The ordinal “ninetieth.”",
+      "usage_conditions": "An ordinal use distinct from the Quran-attested cardinal sense “ninety.”",
+      "source_refs": [
+        "lane:entry:16676"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasi_ninth",
+      "headword_arabic": "تَاسِعٌ",
+      "definition": "Ninth; one who or that which makes a group of eight nine by joining it.",
+      "usage_conditions": "The ordinal and its underlying participial relation are recorded together; compounds such as تَاسِعَ عَشَرَ denote “nineteenth.”",
+      "source_refs": [
+        "lane:entry:16679"
+      ]
+    },
+    {
+      "meaning_id": "cm_tasua_day",
+      "headword_arabic": "تَاسُوعَاءُ",
+      "definition": "The tenth day of Muḥarram, or the day before ʿĀshūrāʾ according to the reported usage.",
+      "usage_conditions": "A post-classical or disputedly classical calendrical term, also reported as a name for the same day as ʿĀshūrāʾ.",
+      "source_refs": [
+        "lane:entry:16680"
+      ]
+    },
+    {
+      "meaning_id": "cm_matsuo_rope",
+      "headword_arabic": "مَتْسُوعٌ",
+      "definition": "A rope consisting of nine strands.",
+      "usage_conditions": "A concrete noun for a nine-stranded rope.",
+      "source_refs": [
+        "lane:entry:16682"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:tsE:16667:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tasa_take_ninth",
+        "cm_tasa_become_ninth"
+      ],
+      "note": "Both the fractional-taking and ninth-member uses are represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16668:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tassa_make_nine"
+      ],
+      "note": "Making something nine is represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16668:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tassa_nine_nights"
+      ],
+      "note": "The nine-night temporal idiom is represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16669:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_atsa_become_nine"
+      ],
+      "note": "Becoming nine or ninety is represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16669:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_atsa_camel_interval"
+      ],
+      "note": "The camel-watering interval is represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16670:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to تِسْعَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16671:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tus_fraction"
+      ],
+      "note": "The ninth-part meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16672:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsen_tsE_nine"
+      ],
+      "note": "The gendered cardinal variant is covered by the Quranic numeral sense."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16672:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tis_camel_interval"
+      ],
+      "note": "The specialized camel-watering meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16672:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tis_ninth_offspring"
+      ],
+      "note": "The ninth-offspring meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16673:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tusa_month_nights"
+      ],
+      "note": "The named group of lunar nights is represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16674:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the ninth-part noun."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16675:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_tsE_nine"
+      ],
+      "note": "The cardinal number and its Quran-attested use are represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16675:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_tsE_nine"
+      ],
+      "note": "The compound construction for nineteen is covered in the cardinal sense."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16676:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsen_tsE_ninety",
+        "cm_tis_ninetieth"
+      ],
+      "note": "Both the cardinal ninety and ordinal ninetieth branches are represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16677:g1:main",
+      "status": "AMBIGUOUS",
+      "target_ids": [],
+      "note": "A proposed distributive meaning “nine and nine” is explicitly said to seem unattested."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16678:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the ninth-part noun."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16679:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tasi_ninth"
+      ],
+      "note": "The ordinal and joining-to-make-nine relation are represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16679:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tasi_ninth"
+      ],
+      "note": "The compound ordinal nineteenth is covered."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16680:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tasua_day"
+      ],
+      "note": "The calendrical term is represented."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16681:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Passive-participle pointer without an independently stated meaning."
+    },
+    {
+      "unit_id": "lane-unit:tsE:16682:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_matsuo_rope"
+      ],
+      "note": "The nine-stranded rope meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The supplied QAC grouping combines the cardinal forms تِسْعٌ and تِسْعَةٌ with the surface form تِسْعُونَ at 38:23; the latter is therefore represented explicitly as the Quranic sense “ninety.”"
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "lane-unit:tsE:16677:g1:main records تُسَاعَ as potentially meaning “nine and nine” or “nine at a time,” but states that the form seems not to have been in use; it is retained as an unresolved lexical report rather than treated as an established meaning."
+  ]
+}

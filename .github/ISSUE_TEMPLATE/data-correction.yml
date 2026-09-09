@@ -1,0 +1,38 @@
+name: Data correction
+description: Propose an evidence-backed correction to a root record
+title: "[Data] "
+labels: ["data-correction"]
+body:
+  - type: input
+    id: root_id
+    attributes:
+      label: Root ID
+      placeholder: "0049"
+    validations:
+      required: true
+  - type: input
+    id: root
+    attributes:
+      label: Exact QAC root
+      placeholder: "$rr"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current value / problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and source references
+      description: Include Lane/Maqayis/Mufradat refs and Quran locations where relevant.
+    validations:
+      required: true

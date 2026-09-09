@@ -1,0 +1,213 @@
+{
+  "root": "$ks",
+  "arabic": "شكس",
+  "root_idea": {
+    "summary": "The supplied evidence centers on a harsh or ill-natured disposition that manifests in contentious, oppositional behavior.",
+    "development": "The lexical pattern extends from being refractory or ill-natured to treating others harshly and disagreeing or contending reciprocally; the Quranic participle presents this as mutual quarrelling.",
+    "source_refs": [
+      "lane:entry:39044",
+      "lane:entry:39046",
+      "mufradat:row:782"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$ks:muta$a`kisuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-$ks-mutashakis",
+      "reason": "Displayed under the normalized singular active-participle citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-$ks-mutashakis",
+      "form_group_ids": [
+        "qac-form:$ks:muta$a`kisuwn:nominal:-"
+      ],
+      "headword_arabic": "مُتَشَاكِسٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-$ks-mutashakis-s1",
+          "definition": "Mutually contentious, disagreeing, or quarreling, and behaving toward one another harshly because of ill nature.",
+          "usage_conditions": "Plural active participle in the reciprocal Form VI pattern; in the Quranic construction, the parties are characterized by mutual dispute and harsh conduct.",
+          "source_refs": [
+            "lane:entry:39052",
+            "mufradat:row:782"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:29",
+          "word_location": "39:29:7",
+          "sense_ids": [
+            "qf-$ks-mutashakis-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-$ks-shakisa-verb",
+      "headword_arabic": "شَكِسَ / شَكُسَ",
+      "definition": "To be refractory, untractable, perverse, stubborn, or obstinate in disposition; to be hard or ill-natured in behavior or dealings.",
+      "usage_conditions": "Form I verb; the vocalic variant شَكُسَ is also reported.",
+      "source_refs": [
+        "lane:entry:39044"
+      ]
+    },
+    {
+      "meaning_id": "cm-$ks-shakasa-form3",
+      "headword_arabic": "شَاكَسَ",
+      "definition": "To treat or behave toward someone with hardness, harshness, or ill nature.",
+      "usage_conditions": "Transitive Form III construction.",
+      "source_refs": [
+        "lane:entry:39045"
+      ]
+    },
+    {
+      "meaning_id": "cm-$ks-tashakasa-reciprocal",
+      "headword_arabic": "تَشَاكَسَ",
+      "definition": "To treat one another harshly or contentiously; to disagree or oppose one another, including in buying and selling; figuratively, of night and day, to stand opposed or alternate.",
+      "usage_conditions": "Reciprocal Form VI construction; the night-and-day usage is explicitly figurative.",
+      "source_refs": [
+        "lane:entry:39046"
+      ]
+    },
+    {
+      "meaning_id": "cm-$ks-mahalla",
+      "headword_arabic": "مَحَلَّةٌ شَكْسٌ",
+      "definition": "A narrow or confined place of alighting or abode.",
+      "usage_conditions": "A figurative or extended nominal expression.",
+      "source_refs": [
+        "lane:entry:39047"
+      ]
+    },
+    {
+      "meaning_id": "cm-$ks-muhaq",
+      "headword_arabic": "الشَّكْسُ",
+      "definition": "The day or two before the new moon; the interval called المُحَاقُ.",
+      "usage_conditions": "A calendrical or astronomical noun.",
+      "source_refs": [
+        "lane:entry:39047"
+      ]
+    },
+    {
+      "meaning_id": "cm-$ks-shakis-adjective",
+      "headword_arabic": "شَكِسٌ",
+      "definition": "Refractory, untractable, perverse, stubborn, obstinate, hard in disposition, or ill-natured.",
+      "usage_conditions": "An adjective or epithet; the plural شُكْسٌ is reported, along with vocalic variants.",
+      "source_refs": [
+        "lane:entry:39050"
+      ]
+    },
+    {
+      "meaning_id": "cm-$ks-shakis-avaricious",
+      "headword_arabic": "شَكِسٌ",
+      "definition": "Niggardly, tenacious, or avaricious.",
+      "usage_conditions": "An explicitly marked figurative extension of the adjective.",
+      "source_refs": [
+        "lane:entry:39050"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$ks:39044:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-$ks-shakisa-verb"
+      ],
+      "note": "Form I disposition and behavior meaning."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39045:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-$ks-shakasa-form3"
+      ],
+      "note": "Form III causative/interpersonal harshness."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39046:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-$ks-tashakasa-reciprocal"
+      ],
+      "note": "Reciprocal harshness, disagreement, opposition, and related figurative usage."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39047:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39047:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-$ks-mahalla"
+      ],
+      "note": "Narrow place of alighting or abode."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39047:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-$ks-muhaq"
+      ],
+      "note": "Calendrical meaning."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39048:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39049:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39050:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-$ks-shakis-adjective"
+      ],
+      "note": "Adjectival disposition meaning."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39050:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-$ks-shakis-avaricious"
+      ],
+      "note": "Figurative avarice meaning."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39051:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:$ks:39052:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-$ks-mutashakis-s1"
+      ],
+      "note": "Quran-attested reciprocal disagreement and harshness."
+    }
+  ],
+  "cautions": [
+    "The supplied Quran occurrence is the plural active participle مُتَشَاكِسُونَ; the public headword is normalized to the singular citation form مُتَشَاكِسٌ.",
+    "The modern example location 39:29:7 is taken from the independent QAC occurrence data, not inferred from Lane's printed Quran citation."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,74 @@
+{
+  "root": "qSm",
+  "arabic": "قصم",
+  "root_idea": {
+    "summary": "The root centers on breaking, crushing, or shattering.",
+    "development": "The Quranic usage extends physical breaking into a figurative expression for destroying or annihilating a people or settlement, especially one characterized as unjust.",
+    "source_refs": [
+      "maqayis:row:3793",
+      "mufradat:row:1186"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:qSm:qaSamo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qSm-f1-qasama",
+      "reason": "The Quran-attested Form I verb is presented under its normalized perfect-tense dictionary citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qSm-f1-qasama",
+      "form_group_ids": [
+        "qac-form:qSm:qaSamo:verb:I"
+      ],
+      "headword_arabic": "قَصَمَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qSm-f1-qasama-s1",
+          "definition": "To shatter, crush, or break; in the Quranic usage, to destroy or annihilate.",
+          "usage_conditions": "In وَكَمْ قَصَمْنَا مِنْ قَرْيَةٍ, the imagery of breaking or crushing expresses the destruction of a town and its people.",
+          "source_refs": [
+            "mufradat:row:1186"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:11",
+          "word_location": "21:11:2",
+          "sense_ids": [
+            "qSm-f1-qasama-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "qSm-qaysum-plant",
+      "headword_arabic": "قَيْصُومٌ",
+      "definition": "A plant identified as Artemisia abrotanum, or southern-wood; قَيْصُومٌ ذَكَرٌ is also used, while قَيْصُومٌ أُنْثَى denotes santolina.",
+      "usage_conditions": "A botanical name and its specified plant-name variants.",
+      "source_refs": [
+        "lane:entry:20989"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:qSm:20989:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qSm-qaysum-plant"
+      ],
+      "note": "Botanical lexical entry represented as a Classical meaning under its own headword."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

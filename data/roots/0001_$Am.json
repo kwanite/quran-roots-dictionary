@@ -1,0 +1,501 @@
+{
+  "root": "$Am",
+  "arabic": "شأم",
+  "root_idea": {
+    "summary": "The root is oriented around the left-hand side or direction.",
+    "development": "From the left-side orientation, the lexicon develops related geographical senses for al-Shām and the northern region, as well as figurative senses of ill fortune and inauspiciousness.",
+    "source_refs": [
+      "maqayis:row:2544"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$Am:ma$o_#amap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-mashama",
+      "reason": "A Quran-attested nominal form with an independently supported lexical meaning and a normalized citation headword."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-mashama",
+      "form_group_ids": [
+        "qac-form:$Am:ma$o_#amap:nominal:-"
+      ],
+      "headword_arabic": "مَشْأَمَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "qform-mashama-s1",
+          "definition": "The left side, direction, or relative location.",
+          "usage_conditions": "In the Quranic construction أصحاب المشأمة, the word has a literal spatial association with the left side or direction.",
+          "source_refs": [
+            "lane:entry:37627"
+          ]
+        },
+        {
+          "sense_id": "qform-mashama-s2",
+          "definition": "The occupants of the left; those whose records are given into their left hands.",
+          "usage_conditions": "A Quranic designation in أصحاب المشأمة, contrasted with أصحاب الميمنة and understood as referring to those assigned to the left or receiving their records in their left hands.",
+          "source_refs": [
+            "lane:entry:37627"
+          ]
+        },
+        {
+          "sense_id": "qform-mashama-s3",
+          "definition": "The occupants of a low or ignoble station.",
+          "usage_conditions": "An explicitly reported interpretive reading of أصحاب المشأمة in the Quranic passages where the expression occurs.",
+          "source_refs": [
+            "lane:entry:37627"
+          ]
+        },
+        {
+          "sense_id": "qform-mashama-s4",
+          "definition": "Those characterized by misfortune or ill fortune.",
+          "usage_conditions": "An explicitly reported interpretive reading of أصحاب المشأمة, connecting the designation with unfortunateness rather than merely physical leftness.",
+          "source_refs": [
+            "lane:entry:37627"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:9",
+          "word_location": "56:9:2",
+          "sense_ids": [
+            "qform-mashama-s1",
+            "qform-mashama-s2"
+          ]
+        },
+        {
+          "verse_key": "56:9",
+          "word_location": "56:9:5",
+          "sense_ids": [
+            "qform-mashama-s2",
+            "qform-mashama-s3",
+            "qform-mashama-s4"
+          ]
+        },
+        {
+          "verse_key": "90:19",
+          "word_location": "90:19:6",
+          "sense_ids": [
+            "qform-mashama-s1",
+            "qform-mashama-s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-shum-verb",
+      "headword_arabic": "شُئِمَ، شَأَمَ، شَؤُمَ، تَشَأَّمَ، تَشَاءَمَ",
+      "definition": "To be or become unlucky; to cause ill fortune to befall someone; or to regard someone or something as an evil omen.",
+      "usage_conditions": "The evidence includes constructions with عَلَى and بِهِ, including finding a person or thing unlucky, becoming unlucky through it, and auguring evil from it.",
+      "source_refs": [
+        "lane:entry:37618",
+        "lane:entry:37622",
+        "lane:entry:37623"
+      ]
+    },
+    {
+      "meaning_id": "cm-shum-noun",
+      "headword_arabic": "شُؤْمٌ",
+      "definition": "Unluckiness, inauspiciousness, ill fortune, or an evil omen; more generally, evil or misfortune.",
+      "usage_conditions": "A nominal expression for the state or consequence of being unlucky, opposed to good fortune; it can also denote an evil omen or a cause of unluckiness.",
+      "source_refs": [
+        "lane:entry:37626"
+      ]
+    },
+    {
+      "meaning_id": "cm-sham-direction",
+      "headword_arabic": "شَائِمْ، تَشَأَّمَ",
+      "definition": "To take the direction of the left hand.",
+      "usage_conditions": "A directional construction, opposed to taking the direction of the right hand.",
+      "source_refs": [
+        "lane:entry:37620",
+        "lane:entry:37622"
+      ]
+    },
+    {
+      "meaning_id": "cm-asham-desire-left",
+      "headword_arabic": "أَشْأَمَ",
+      "definition": "To desire the left.",
+      "usage_conditions": "A Form IV usage contrasted with أَيْمَنَ, to desire the right.",
+      "source_refs": [
+        "lane:entry:37621"
+      ]
+    },
+    {
+      "meaning_id": "cm-sham-go-syria",
+      "headword_arabic": "شَأَمَ، شَامَ، أَشْأَمَ، تَشَاءَمَ",
+      "definition": "To go to or come to al-Shām, or to send or direct someone there.",
+      "usage_conditions": "The evidence includes both intransitive movement toward Syria and causing others to journey there, as well as taking the direction of al-Shām.",
+      "source_refs": [
+        "lane:entry:37618",
+        "lane:entry:37620",
+        "lane:entry:37621",
+        "lane:entry:37623"
+      ]
+    },
+    {
+      "meaning_id": "cm-sham-kinship",
+      "headword_arabic": "تَشَأَّمَ",
+      "definition": "To assert a relationship to the people of al-Shām.",
+      "usage_conditions": "A conventional Form V usage concerning claimed affiliation with the people of Syria.",
+      "source_refs": [
+        "lane:entry:37622"
+      ]
+    },
+    {
+      "meaning_id": "cm-sham-country",
+      "headword_arabic": "الشَّأْمُ",
+      "definition": "Al-Shām, the country or region known as Syria; by extension, the northern region.",
+      "usage_conditions": "The geographical sense may be used for the northern region of Arabia, contrasted with al-Yaman to the south.",
+      "source_refs": [
+        "lane:entry:37625"
+      ]
+    },
+    {
+      "meaning_id": "cm-shaima-mole",
+      "headword_arabic": "شَأْمَةٌ",
+      "definition": "A mole on a person's body.",
+      "usage_conditions": "This is a separate nominal usage from the directional and ill-fortune senses.",
+      "source_refs": [
+        "lane:entry:37627"
+      ]
+    },
+    {
+      "meaning_id": "cm-shima-disposition",
+      "headword_arabic": "شِئْمَةٌ",
+      "definition": "Nature, innate disposition, temperament, or another inherent quality.",
+      "usage_conditions": "The pronunciation with hamza is reported, though its status is treated as unusual by one authority.",
+      "source_refs": [
+        "lane:entry:37628"
+      ]
+    },
+    {
+      "meaning_id": "cm-shami-gentilic",
+      "headword_arabic": "شَامِيٌّ، شَامٍ، شَامِيَّةٌ",
+      "definition": "Syrian; of or relating to al-Shām; northern.",
+      "usage_conditions": "The feminine forms apply to a woman or feminine referent, and the geographical adjective is normally formed without retaining the hamza of the country name.",
+      "source_refs": [
+        "lane:entry:37629"
+      ]
+    },
+    {
+      "meaning_id": "cm-asham-superlative",
+      "headword_arabic": "أَشْأَمُ",
+      "definition": "More or most unlucky, inauspicious, or unfortunate.",
+      "usage_conditions": "It may be used substantively in the sense of شُؤْمٌ; in a poetic expression it characterizes boys as bearers of ill luck, and in a proverb an expression with this form is explained idiomatically of the tongue.",
+      "source_refs": [
+        "lane:entry:37633"
+      ]
+    },
+    {
+      "meaning_id": "cm-asham-left-hand",
+      "headword_arabic": "أَشْأَمُ",
+      "definition": "The left hand or arm.",
+      "usage_conditions": "A lexicalized directional adjective, opposed to أَيْمَنُ and equivalent in this use to الشِّمَالُ.",
+      "source_refs": [
+        "lane:entry:37633"
+      ]
+    },
+    {
+      "meaning_id": "cm-mashum-adjective",
+      "headword_arabic": "مَشْؤُومٌ",
+      "definition": "Unlucky or inauspicious; bringing ill fortune; an unlucky omen.",
+      "usage_conditions": "Used as both an epithet and a substantive, of a person or thing and of an omen; plural forms are also reported.",
+      "source_refs": [
+        "lane:entry:37635"
+      ]
+    },
+    {
+      "meaning_id": "cm-shum-black-camels",
+      "headword_arabic": "شُومٌ",
+      "definition": "Black camels.",
+      "usage_conditions": "Reported as a plural without a singular by some authorities; another analysis treats the form as شِيمٌ, the plural of أَشْيَمُ.",
+      "source_refs": [
+        "lane:entry:37626"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$Am:37618:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shum-verb"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37618:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sham-go-syria"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37619:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following entry."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37620:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sham-direction"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37620:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sham-go-syria"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37621:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asham-desire-left"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37621:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sham-go-syria"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37621:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asham-superlative"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37622:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shum-verb"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37622:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sham-direction"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37622:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sham-kinship"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37623:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shum-verb"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37623:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sham-go-syria"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37623:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding Form V entry."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37624:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding entry."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37625:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sham-country"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37625:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-sham-country"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37626:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shum-noun"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37626:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the entry for مَشْؤُومٌ."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37626:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shum-black-camels"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37627:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform-mashama-s1",
+        "qform-mashama-s2",
+        "qform-mashama-s3",
+        "qform-mashama-s4"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37627:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shaima-mole"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37627:g2:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to a different root entry."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37628:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shima-disposition"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37629:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shami-gentilic"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37629:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-shami-gentilic"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37630:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Continuation listing forms without an independent lexical meaning."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37631:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding gentilic entry."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37632:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the entry for مَشْؤُومٌ."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37633:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asham-superlative"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37633:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asham-left-hand"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37633:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the entry for مَشْؤُومٌ."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37633:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-asham-superlative"
+      ],
+      "note": ""
+    },
+    {
+      "unit_id": "lane-unit:$Am:37634:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to شُؤْمٌ."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37634:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to شَأْمَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:$Am:37635:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-mashum-adjective"
+      ],
+      "note": ""
+    }
+  ],
+  "cautions": [
+    "The Quranic expression أصحاب المشأمة is explicitly given several interpretive readings: literal leftness, receipt of records in the left hand, low or ignoble station, and unfortunateness. These are retained as distinct Quran-attested senses rather than treated as interchangeable contextual glosses."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

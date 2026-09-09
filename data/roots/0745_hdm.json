@@ -1,0 +1,151 @@
+{
+  "root": "hdm",
+  "arabic": "هدم",
+  "root_idea": {
+    "summary": "The root centers on bringing a built thing down from its standing state: demolishing, dismantling, or collapsing a structure.",
+    "development": "The core image extends to things reduced to ruin or forfeited, with related nominal uses for a worn-out garment, wasted blood, and earth excavated from a pit or well. These extensions are not all Quranic.",
+    "source_refs": [
+      "maqayis:row:4853",
+      "mufradat:row:1514"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:hdm:hud~imato:verb:II",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform:hdm:haddama",
+      "reason": "Displayed under the normalized Form II perfect citation form هَدَّمَ rather than the inflected passive Quran occurrence هُدِّمَتْ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform:hdm:haddama",
+      "form_group_ids": [
+        "qac-form:hdm:hud~imato:verb:II"
+      ],
+      "headword_arabic": "هَدَّمَ",
+      "public_pos_label": "Verb · Form II",
+      "verb_form": "II",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qform:hdm:haddama:s1",
+          "definition": "To demolish or destroy a building or other structure; in the attested passive construction, to be demolished.",
+          "usage_conditions": "The Quran occurrence is a passive perfect Form II verb with a structure as the affected object. Form II may convey intensified or thorough demolition in this construction.",
+          "source_refs": [
+            "mufradat:row:1514",
+            "lane:entry:17065"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "22:40",
+          "word_location": "22:40:18",
+          "sense_ids": [
+            "qform:hdm:haddama:s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "clm-hdm-tahadama-gradual-collapse",
+      "headword_arabic": "تَهَادَمَ",
+      "definition": "To fall into ruin or collapse by degrees.",
+      "usage_conditions": "An intransitive construction used of structures that progressively fall apart.",
+      "source_refs": [
+        "lane:entry:17066"
+      ]
+    },
+    {
+      "meaning_id": "clm-hdm-inhadama-collapse",
+      "headword_arabic": "اِنْهَدَمَ",
+      "definition": "To collapse, fall to pieces, or become a ruin.",
+      "usage_conditions": "An intransitive construction; it can describe a structure falling from its place without being actively pulled to pieces.",
+      "source_refs": [
+        "lane:entry:17067"
+      ]
+    },
+    {
+      "meaning_id": "clm-hdm-hadam-excavated-earth",
+      "headword_arabic": "هَدَمٌ",
+      "definition": "Earth dug out from a pit or well.",
+      "usage_conditions": "",
+      "source_refs": [
+        "lane:entry:17069"
+      ]
+    },
+    {
+      "meaning_id": "clm-hdm-hadm-wasted-blood",
+      "headword_arabic": "هَدْمٌ",
+      "definition": "Blood regarded as wasted or left unavenged.",
+      "usage_conditions": "A nominal use in the expression دم هَدْمٌ.",
+      "source_refs": [
+        "mufradat:row:1514"
+      ]
+    },
+    {
+      "meaning_id": "clm-hdm-hidm-worn-garment",
+      "headword_arabic": "هِدْمٌ",
+      "definition": "A worn-out or tattered garment.",
+      "usage_conditions": "The noun is used in this specialized nominal sense, with the plural أهدام reported in the lexical evidence.",
+      "source_refs": [
+        "mufradat:row:1514"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:hdm:17065:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qform:hdm:haddama:s1"
+      ],
+      "note": "Demolition and destruction of a structure are covered by the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:hdm:17066:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-hdm-tahadama-gradual-collapse"
+      ],
+      "note": "Progressive collapse is represented as a distinct intransitive construction."
+    },
+    {
+      "unit_id": "lane-unit:hdm:17067:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-hdm-inhadama-collapse"
+      ],
+      "note": "Intransitive collapse and becoming a ruin are represented."
+    },
+    {
+      "unit_id": "lane-unit:hdm:17067:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "clm-hdm-inhadama-collapse"
+      ],
+      "note": "The spontaneous falling of a wall from its place is covered by the intransitive collapse meaning."
+    },
+    {
+      "unit_id": "lane-unit:hdm:17068:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to another root entry."
+    },
+    {
+      "unit_id": "lane-unit:hdm:17069:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "clm-hdm-hadam-excavated-earth"
+      ],
+      "note": "The lexical meaning of earth excavated from a pit or well is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is a passive Form II form; the Form VI and Form VII entries are separate Classical intransitive constructions."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

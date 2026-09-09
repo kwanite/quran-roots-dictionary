@@ -1,0 +1,471 @@
+{
+  "root": "rjz",
+  "arabic": "رجز",
+  "root_idea": {
+    "summary": "The root centers on agitation, convulsive movement, and successive or unsettled motion.",
+    "development": "The physical notion of trembling develops into the camel disease called رَجَز, the metrical movement of rajaz verse, repeated or continuous sounds, and related objects named for their motion. In Quranic usage, رِجْز is chiefly punishment or torment, while the reading رُجْز in 74:5 has several reported moral and idolatrous interpretations.",
+    "source_refs": [
+      "maqayis:row:1973",
+      "mufradat:row:532"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rjz:rijoz:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:rjz:rijz",
+      "reason": "Normalized citation form for the nine-occurrence Quranic noun."
+    },
+    {
+      "form_group_id": "qac-form:rjz:r~ujoz:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form:rjz:rijz",
+      "reason": "A one-occurrence Quranic vocalization variant, confined to 74:5, is presented under the same normalized noun entry while its distinct reported interpretations remain explicit."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:rjz:rijz",
+      "form_group_ids": [
+        "qac-form:rjz:rijoz:nominal:-",
+        "qac-form:rjz:r~ujoz:nominal:-"
+      ],
+      "headword_arabic": "رِجْز / رُجْز",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 10,
+      "senses": [
+        {
+          "sense_id": "sense:rjz:punishment",
+          "definition": "Punishment, torment, or a painful affliction.",
+          "usage_conditions": "Used for divine punishment, including punishment sent down upon a people or from heaven. The lexical explanation connects this punishment with a violently agitating or convulsive affliction.",
+          "source_refs": [
+            "lane:entry:22567",
+            "mufradat:row:532"
+          ]
+        },
+        {
+          "sense_id": "sense:rjz:satanic-evil",
+          "definition": "The evil prompting or corrupting influence attributed to Satan.",
+          "usage_conditions": "In the construction رِجْزَ الشَّيْطَانِ, this includes Satanic suggestions and the impulses toward disbelief, falsehood, or فساد.",
+          "source_refs": [
+            "lane:entry:22567",
+            "mufradat:row:532"
+          ]
+        },
+        {
+          "sense_id": "sense:rjz:idol-idolatry",
+          "definition": "An idol or idolatrous worship.",
+          "usage_conditions": "One reported interpretation of الرُّجْزَ in 74:5; the interpretation may refer either to idol worship generally or to a particular idol.",
+          "source_refs": [
+            "lane:entry:22567",
+            "mufradat:row:532"
+          ]
+        },
+        {
+          "sense_id": "sense:rjz:sin-uncleanness",
+          "definition": "Sinful conduct, moral or spiritual uncleanness, or filth.",
+          "usage_conditions": "Reported for الرُّجْزَ in 74:5, including conduct that leads to punishment; the alternatives reflect the exegetical readings recorded for that verse.",
+          "source_refs": [
+            "lane:entry:22567",
+            "mufradat:row:532"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:59",
+          "word_location": "2:59:13",
+          "sense_ids": [
+            "sense:rjz:punishment"
+          ]
+        },
+        {
+          "verse_key": "7:162",
+          "word_location": "7:162:12",
+          "sense_ids": [
+            "sense:rjz:punishment"
+          ]
+        },
+        {
+          "verse_key": "8:11",
+          "word_location": "8:11:15",
+          "sense_ids": [
+            "sense:rjz:satanic-evil"
+          ]
+        },
+        {
+          "verse_key": "29:34",
+          "word_location": "29:34:7",
+          "sense_ids": [
+            "sense:rjz:punishment"
+          ]
+        },
+        {
+          "verse_key": "34:5",
+          "word_location": "34:5:10",
+          "sense_ids": [
+            "sense:rjz:punishment"
+          ]
+        },
+        {
+          "verse_key": "74:5",
+          "word_location": "74:5:1",
+          "sense_ids": [
+            "sense:rjz:idol-idolatry",
+            "sense:rjz:sin-uncleanness"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:rjz:commotion",
+      "headword_arabic": "رِجْز",
+      "definition": "Commotion, agitation, convulsion, or successive movement.",
+      "usage_conditions": "The basic lexical signification from which several physical, poetic, and figurative branches are explained.",
+      "source_refs": [
+        "lane:entry:22567"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:camel-disease",
+      "headword_arabic": "رَجَز",
+      "definition": "A disease of camels causing trembling or convulsive movement in the hindquarters when the animal rises or is roused.",
+      "usage_conditions": "A specialized animal-disease term; the affected animal may have trembling thighs followed by sudden extension.",
+      "source_refs": [
+        "lane:entry:22559",
+        "lane:entry:22568"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:affected-camel",
+      "headword_arabic": "أَرْجَز",
+      "definition": "A camel afflicted with رَجَز.",
+      "usage_conditions": "The feminine form رَجْزَاءُ is also used, including of a camel weak in the rump and unable to rise without vehement trembling.",
+      "source_refs": [
+        "lane:entry:22572"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:rajaz-meter",
+      "headword_arabic": "رَجَز",
+      "definition": "The rajaz metrical form of Arabic verse.",
+      "usage_conditions": "A verse meter characterized by successive patterned movements; it may be shortened and was also used in work songs and in driving camels.",
+      "source_refs": [
+        "lane:entry:22568"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:recite-rajaz",
+      "headword_arabic": "رَجَزَ",
+      "definition": "To recite, compose, or versify in the rajaz meter; also to sing rajaz in order to urge camels.",
+      "usage_conditions": "The verb takes the poetic or metrical sense, including reciting a rajaz poem to another person.",
+      "source_refs": [
+        "lane:entry:22559"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:recite-with-companion",
+      "headword_arabic": "رَاجَزَ",
+      "definition": "To recite rajaz verse with another person or vie with a companion in doing so.",
+      "usage_conditions": "A reciprocal or competitive poetic construction.",
+      "source_refs": [
+        "lane:entry:22561"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:recite-mutually",
+      "headword_arabic": "تَرَاجَزَ",
+      "definition": "To recite rajaz verse with one another or compete in reciting it.",
+      "usage_conditions": "Used for mutual participation in rajaz recitation.",
+      "source_refs": [
+        "lane:entry:22564"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:continuous-sound",
+      "headword_arabic": "رَجَزَ",
+      "definition": "Of wind, thunder, the sea, or clouds: to make continuous, consecutive, or murmuring sounds.",
+      "usage_conditions": "The usage is figurative or descriptive of sustained motion and sound; clouds may also move slowly because of the abundance of their water.",
+      "source_refs": [
+        "lane:entry:22559"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:cloud-mutual-thunder",
+      "headword_arabic": "تَرَاجَزَ",
+      "definition": "Of clouds: to thunder together or produce uninterrupted successive thunder.",
+      "usage_conditions": "A reciprocal cloud-sound construction.",
+      "source_refs": [
+        "lane:entry:22564"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:thundering-cloud",
+      "headword_arabic": "رَاجِز",
+      "definition": "A cloud that thunders much or continuously; rain accompanied by thunder.",
+      "usage_conditions": "A descriptive active-participial use applied to clouds or rain.",
+      "source_refs": [
+        "lane:entry:22571"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:continuous-wind",
+      "headword_arabic": "رَجْزَاء",
+      "definition": "Of the wind: continuous or lasting.",
+      "usage_conditions": "A feminine adjectival form used in a figurative description of sustained wind.",
+      "source_refs": [
+        "lane:entry:22572"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:plague",
+      "headword_arabic": "رِجْز",
+      "definition": "Plague or pestilence.",
+      "usage_conditions": "A specialized classical synonym for طَاعُونٌ.",
+      "source_refs": [
+        "lane:entry:22567"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:howdah-attachment",
+      "headword_arabic": "رِجَازَة",
+      "definition": "A small women's vehicle like a howdah, or a weighted, padded, or ornamental attachment hung from a howdah.",
+      "usage_conditions": "The attachment may contain stones, pillows, skins, hair, or wool: it is used to balance a tilting howdah or for ornament.",
+      "source_refs": [
+        "lane:entry:22569"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:rajiz-poet",
+      "headword_arabic": "رَاجِز",
+      "definition": "One who recites, composes, or frequently performs rajaz verse.",
+      "usage_conditions": "The intensive forms رَجَّاز and رَجَّازَة are cross-referred to this poetic-agent meaning.",
+      "source_refs": [
+        "lane:entry:22571"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:urjuzah",
+      "headword_arabic": "أُرْجُوزَة",
+      "definition": "A poem composed in the rajaz meter.",
+      "usage_conditions": "Its plural is أَرَاجِيزُ.",
+      "source_refs": [
+        "lane:entry:22573"
+      ]
+    },
+    {
+      "meaning_id": "meaning:rjz:heavy-cooking-pot",
+      "headword_arabic": "رَجْزَاء",
+      "definition": "A great, heavy cooking pot.",
+      "usage_conditions": "A specialized expression in رَجْزَاءُ القِيَامِ.",
+      "source_refs": [
+        "lane:entry:22572"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rjz:22559:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:camel-disease"
+      ],
+      "note": "Camel disease."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22559:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:recite-rajaz"
+      ],
+      "note": "Reciting rajaz and urging camels by singing it."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22559:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:continuous-sound"
+      ],
+      "note": "Continuous or successive natural sounds and cloud movement."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22560:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22561:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:recite-with-companion"
+      ],
+      "note": "Reciting rajaz with or against a companion."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22562:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22563:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22564:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:recite-mutually"
+      ],
+      "note": "Mutual or competitive rajaz recitation."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22564:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:cloud-mutual-thunder"
+      ],
+      "note": "Clouds thundering together."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22565:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22566:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to the next paragraph."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22567:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:commotion"
+      ],
+      "note": "Primary sense of commotion and agitation."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22567:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:rjz:punishment"
+      ],
+      "note": "Quran-attested punishment meaning."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22567:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:rjz:satanic-evil",
+        "sense:rjz:idol-idolatry",
+        "sense:rjz:sin-uncleanness"
+      ],
+      "note": "Reported Quranic interpretations involving Satanic suggestions, idolatry, sin, and uncleanness."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22567:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:plague"
+      ],
+      "note": "Plague or pestilence."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22568:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:camel-disease"
+      ],
+      "note": "Camel disease."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22568:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:rajaz-meter"
+      ],
+      "note": "Rajaz verse meter."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22569:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:howdah-attachment"
+      ],
+      "note": "Howdah vehicle, balancing attachment, and ornament."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22570:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to رَاجِز."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22571:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:rajiz-poet"
+      ],
+      "note": "Agent noun for a rajaz reciter."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22571:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:thundering-cloud"
+      ],
+      "note": "Thundering cloud and thunder-bearing rain."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22572:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:affected-camel"
+      ],
+      "note": "Adjective for a camel afflicted with رَجَز."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22572:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:continuous-wind",
+        "meaning:rjz:heavy-cooking-pot"
+      ],
+      "note": "Continuous wind and the specialized heavy-pot expression."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22573:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:rjz:urjuzah"
+      ],
+      "note": "Rajaz poem."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22574:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to رَاجِز."
+    },
+    {
+      "unit_id": "lane-unit:rjz:22575:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only reference to رَاجِز."
+    }
+  ],
+  "cautions": [
+    "The QAC data separates رِجْز and رُجْز as two nominal lemma groups; they are normalized here under one public noun entry, while the special interpretations associated with رُجْز in 74:5 remain explicit.",
+    "The interpretations of 74:5 are reported alternatives, including an idol or idolatry and sin or uncleanness; they should not be treated as a single uncontested gloss."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

@@ -1,0 +1,585 @@
+{
+  "root": "wqf",
+  "arabic": "وقف",
+  "root_idea": {
+    "summary": "The root centers on remaining or lingering at a point, with related extensions involving standing, stopping, or fixed placement.",
+    "development": "From physical standing or staying, the lexicon develops uses for pausing, attending, being brought before something, informing, mutual standing, and things fixed or dedicated in place.",
+    "source_refs": [
+      "maqayis:row:5188",
+      "mufradat:row:1605"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wqf:wuqifu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wqf_v1",
+      "reason": "Normalized from the internal QAC lemma to the Classical Arabic Form I citation headword وَقَفَ."
+    },
+    {
+      "form_group_id": "qac-form:wqf:mawoquwfuwn:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wqf_mawquf",
+      "reason": "Presented under the singular passive-participle citation form مَوْقُوفٌ rather than the Quranic plural مَوْقُوفُونَ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wqf_v1",
+      "form_group_ids": [
+        "qac-form:wqf:wuqifu:verb:I"
+      ],
+      "headword_arabic": "وَقَفَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 3,
+      "senses": [
+        {
+          "sense_id": "wqf_v1_s1",
+          "definition": "To stop, hold stationary, or stand still.",
+          "usage_conditions": "The active imperative is transitive in وَقِفُوهُمْ, “make them stop” or “hold them back”; passive forms express being made to stand. Voice and construction determine whether the subject stops or is caused to stop.",
+          "source_refs": [
+            "lane:entry:30626",
+            "mufradat:row:1605"
+          ]
+        },
+        {
+          "sense_id": "wqf_v1_s2",
+          "definition": "To be brought before something and made to see or know what is in it; to be confronted with it.",
+          "usage_conditions": "Especially associated with the passive construction وَقِفَ عَلَيْهِ. In the Quran-attested usage, the expression can convey presentation or confrontation with something, not merely physical halting.",
+          "source_refs": [
+            "lane:entry:30626"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "37:24",
+          "word_location": "37:24:1",
+          "sense_ids": [
+            "wqf_v1_s1"
+          ]
+        },
+        {
+          "verse_key": "6:27",
+          "word_location": "6:27:4",
+          "sense_ids": [
+            "wqf_v1_s2"
+          ]
+        },
+        {
+          "verse_key": "6:30",
+          "word_location": "6:30:4",
+          "sense_ids": [
+            "wqf_v1_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wqf_mawquf",
+      "form_group_ids": [
+        "qac-form:wqf:mawoquwfuwn:nominal:-"
+      ],
+      "headword_arabic": "مَوْقُوفٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wqf_mawquf_s1",
+          "definition": "One who is made to stand or brought before something.",
+          "usage_conditions": "The Quranic occurrence is the masculine plural مَوْقُوفُونَ and describes people being made to stand or brought before an object of confrontation.",
+          "source_refs": [
+            "lane:entry:30626"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "34:31",
+          "word_location": "34:31:16",
+          "sense_ids": [
+            "wqf_mawquf_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_wqf_attention",
+      "headword_arabic": "وَقَفَ",
+      "definition": "To pause at a thing and give it attention.",
+      "usage_conditions": "Used with عَلَى for pausing at and attending to something.",
+      "source_refs": [
+        "lane:entry:30626"
+      ]
+    },
+    {
+      "meaning_id": "cm_wqf_understand",
+      "headword_arabic": "وَقَفَ",
+      "definition": "To comprehend a meaning; to understand it.",
+      "usage_conditions": "A specialized use of وَقَفَ عَلَيْهِ with a meaning as its object.",
+      "source_refs": [
+        "lane:entry:30626"
+      ]
+    },
+    {
+      "meaning_id": "cm_wqf_reading",
+      "headword_arabic": "وَقَفَ",
+      "definition": "To come upon or meet a word or the like while reading.",
+      "usage_conditions": "Used of encountering a word or comparable expression during reading.",
+      "source_refs": [
+        "lane:entry:30626"
+      ]
+    },
+    {
+      "meaning_id": "cm_wqf_acquaint",
+      "headword_arabic": "وَقَفَ",
+      "definition": "To acquaint someone with a crime, fault, or similar matter.",
+      "usage_conditions": "The construction وَقَفْتُهُ عَلَى ذَنْبِهِ means that the person was informed of or made acquainted with the offense.",
+      "source_refs": [
+        "lane:entry:30626"
+      ]
+    },
+    {
+      "meaning_id": "cm_wqf_resist",
+      "headword_arabic": "وَقَفَ",
+      "definition": "To withstand or resist.",
+      "usage_conditions": "This use governs by عَنْ.",
+      "source_refs": [
+        "lane:entry:30626"
+      ]
+    },
+    {
+      "meaning_id": "cm_wqf_endow",
+      "headword_arabic": "وَقَفَ",
+      "definition": "To make property an inalienable endowment, or to give it as an unalienable legacy.",
+      "usage_conditions": "The transitive verbal use is also reported as rare or disapproved; the related noun وَقْفٌ denotes the endowment itself.",
+      "source_refs": [
+        "lane:entry:30626",
+        "mufradat:row:1605"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqqafa_wait",
+      "headword_arabic": "وَقَّفَ",
+      "definition": "To make someone pause or wait at a matter.",
+      "usage_conditions": "A causative Form II construction, commonly used with عَلَى for the matter at which someone is made to wait.",
+      "source_refs": [
+        "lane:entry:30627"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqqafa_recitation",
+      "headword_arabic": "وَقَّفَ",
+      "definition": "To teach the places at which one should pause in recitation.",
+      "usage_conditions": "Used of instructing someone in the stopping points of reading.",
+      "source_refs": [
+        "lane:entry:30627"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqqafa_inform",
+      "headword_arabic": "وَقَّفَ",
+      "definition": "To acquaint, inform, or reveal a thing to someone.",
+      "usage_conditions": "The construction وَقَّفَهُ عَلَى الشَّيْءِ conveys making someone acquainted with or informed of the thing.",
+      "source_refs": [
+        "lane:entry:30627"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqqafa_explain",
+      "headword_arabic": "وَقَّفَ",
+      "definition": "To explain or clarify a tradition.",
+      "usage_conditions": "Used with a tradition or report as the object of explanation.",
+      "source_refs": [
+        "lane:entry:30627"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqafa_compete",
+      "headword_arabic": "وَاقَفَ",
+      "definition": "To stand with another in competition or act as a partner in a match.",
+      "usage_conditions": "A reciprocal or competitive construction involving standing alongside another.",
+      "source_refs": [
+        "lane:entry:30628"
+      ]
+    },
+    {
+      "meaning_id": "cm_awqafa_acquaint",
+      "headword_arabic": "أَوْقَفَ",
+      "definition": "To acquaint someone with a thing.",
+      "usage_conditions": "The construction أَوْقَفَهُ عَلَى conveys informing or making someone acquainted with the matter.",
+      "source_refs": [
+        "lane:entry:30629"
+      ]
+    },
+    {
+      "meaning_id": "cm_tawaqqafa_wait",
+      "headword_arabic": "تَوَقَّفَ",
+      "definition": "To pause or wait at a matter; by extension, to restrict oneself to what has been heard and not go beyond it.",
+      "usage_conditions": "The latter restriction is used of adhering to established transmitted usage, especially in linguistic matters.",
+      "source_refs": [
+        "lane:entry:30630"
+      ]
+    },
+    {
+      "meaning_id": "cm_tawaqqafa_hesitate",
+      "headword_arabic": "تَوَقَّفَ",
+      "definition": "To hesitate or deliberate about a matter.",
+      "usage_conditions": "Used with فِي for hesitation or deliberation concerning something.",
+      "source_refs": [
+        "lane:entry:30630"
+      ]
+    },
+    {
+      "meaning_id": "cm_tawaqqafa_refrain",
+      "headword_arabic": "تَوَقَّفَ",
+      "definition": "To refrain or abstain from a matter.",
+      "usage_conditions": "Used with عَنْ for holding back from or abstaining from something.",
+      "source_refs": [
+        "lane:entry:30630"
+      ]
+    },
+    {
+      "meaning_id": "cm_tawaqqafa_depend",
+      "headword_arabic": "تَوَقَّفَ",
+      "definition": "To depend on, rest on, or be grounded in something.",
+      "usage_conditions": "Used with عَلَى of an opinion, judgment, proof, inquiry, or result whose validity or occurrence depends on something else.",
+      "source_refs": [
+        "lane:entry:30630"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqf_endowment",
+      "headword_arabic": "وَقْفٌ",
+      "definition": "An inalienable endowment, legacy, or gift; a mortmain.",
+      "usage_conditions": "A nominal legal and property use for something dedicated so that it is not alienated.",
+      "source_refs": [
+        "lane:entry:30631",
+        "mufradat:row:1605"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqf_arafat",
+      "headword_arabic": "وَقْفٌ",
+      "definition": "The halting or stationing of pilgrims at ʿArafāt.",
+      "usage_conditions": "A conventional expression for the pilgrims’ ritual halt at the designated place.",
+      "source_refs": [
+        "lane:entry:30631"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqf_bracelet",
+      "headword_arabic": "وَقْفٌ",
+      "definition": "An ivory bracelet.",
+      "usage_conditions": "A nominal object-name associated with something fixed around its place.",
+      "source_refs": [
+        "mufradat:row:1605"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwaqqaf_marked",
+      "headword_arabic": "مُوَقَّفٌ",
+      "definition": "Having white markings at the fetlocks, like an ivory bracelet.",
+      "usage_conditions": "Said specifically of a donkey whose fetlocks bear this pattern of white.",
+      "source_refs": [
+        "mufradat:row:1605"
+      ]
+    },
+    {
+      "meaning_id": "cm_mawqif_place",
+      "headword_arabic": "مَوْقِفٌ",
+      "definition": "The place where a person or other thing stands.",
+      "usage_conditions": "A place-noun referring to the location of standing or stationing.",
+      "source_refs": [
+        "mufradat:row:1605"
+      ]
+    },
+    {
+      "meaning_id": "cm_muwaqafa_match",
+      "headword_arabic": "مُوَاقَفَةٌ",
+      "definition": "Mutual standing with another in a competition or match.",
+      "usage_conditions": "A reciprocal relation in which each party takes a position in relation to the other.",
+      "source_refs": [
+        "lane:entry:30628",
+        "mufradat:row:1605"
+      ]
+    },
+    {
+      "meaning_id": "cm_waqifa_wild",
+      "headword_arabic": "وَقِيفَةٌ",
+      "definition": "A wild animal forced by a hunter to stand until it can be caught.",
+      "usage_conditions": "Used of game brought to a standstill or trapped in a position from which it cannot escape.",
+      "source_refs": [
+        "mufradat:row:1605"
+      ]
+    },
+    {
+      "meaning_id": "cm_mawqif_horse",
+      "headword_arabic": "مَوْقِفٌ",
+      "definition": "In the expression حَبِطَ مَوْقِفُ الفَرَسِ, the horse’s belly became inflated.",
+      "usage_conditions": "An anatomical or idiomatic equine use.",
+      "source_refs": [
+        "lane:entry:30632"
+      ]
+    },
+    {
+      "meaning_id": "cm_mawquf_verge",
+      "headword_arabic": "مَوْقُوفٌ",
+      "definition": "Brought to the verge of infidelity.",
+      "usage_conditions": "Used in the expression مَوْقُوفٌ عَلَى حَدِّ كُفْرٍ for being brought to the limit or brink of disbelief.",
+      "source_refs": [
+        "lane:entry:30633"
+      ]
+    },
+    {
+      "meaning_id": "cm_mutawaqqif",
+      "headword_arabic": "مُتَوَقِّفٌ",
+      "definition": "Hesitant and withholding a decided opinion.",
+      "usage_conditions": "Describes someone who does not adopt or issue a firm judgment concerning the matter.",
+      "source_refs": [
+        "lane:entry:30634"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wqf_v1_s1"
+      ],
+      "note": "Standing still and remaining stationary are covered by the Form I stopping sense."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wqf_v1_s1"
+      ],
+      "note": "Making a beast stationary is a causative instance of stopping."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wqf_v1_s1"
+      ],
+      "note": "Stopping or pausing at someone or something is covered by the stopping sense."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqf_attention"
+      ],
+      "note": "The attention-oriented construction is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqf_understand"
+      ],
+      "note": "Comprehending a meaning is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqf_reading"
+      ],
+      "note": "Encountering a word in reading is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wqf_v1_s2",
+        "wqf_mawquf_s1"
+      ],
+      "note": "The Quran-linked passive confrontation or being-made-to-stand use is represented on both relevant public forms."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqf_acquaint"
+      ],
+      "note": "Making someone acquainted with a fault is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:sub9",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqf_resist"
+      ],
+      "note": "The resist or withstand construction is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30626:g1:sub10",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_wqf_endow"
+      ],
+      "note": "The reported inalienable-giving verbal use is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30627:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqqafa_wait"
+      ],
+      "note": "The Form II causative waiting construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30627:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqqafa_recitation",
+        "cm_waqqafa_inform"
+      ],
+      "note": "Both teaching recitation stops and the related making-known use are represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30627:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqqafa_inform"
+      ],
+      "note": "Acquainting, informing, or revealing is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30627:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqqafa_explain"
+      ],
+      "note": "Explaining a tradition is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30627:g1:sub5",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "A pointer to a legal term without a definition."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30627:g1:sub6",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30628:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqafa_compete",
+        "cm_muwaqafa_match"
+      ],
+      "note": "Competitive or reciprocal standing is represented in verbal and nominal wording."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30629:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30629:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_awqafa_acquaint"
+      ],
+      "note": "The Form IV acquainting construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30629:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_awqafa_acquaint"
+      ],
+      "note": "The crime-related construction is covered by the same Form IV acquainting meaning."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30630:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tawaqqafa_wait"
+      ],
+      "note": "Pausing, waiting, and restricting oneself to transmitted usage are represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30630:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tawaqqafa_hesitate"
+      ],
+      "note": "Hesitation or deliberation is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30630:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tawaqqafa_refrain"
+      ],
+      "note": "Refraining or abstaining is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30630:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_tawaqqafa_depend"
+      ],
+      "note": "Dependence or being grounded in something is separately represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30631:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqf_endowment"
+      ],
+      "note": "The noun’s endowment meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30631:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_waqf_arafat"
+      ],
+      "note": "The conventional expression for halting at ʿArafāt is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30632:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mawqif_horse"
+      ],
+      "note": "The specialized equine anatomical use is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30633:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mawquf_verge"
+      ],
+      "note": "The idiom for being brought to the verge of infidelity is represented."
+    },
+    {
+      "unit_id": "lane-unit:wqf:30634:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_mutawaqqif"
+      ],
+      "note": "The adjective for withholding a decided opinion is represented."
+    }
+  ],
+  "cautions": [
+    "The normalized Form I headword covers both the active imperative in 37:24 and passive occurrences in 6:27 and 6:30; voice and construction account for their differing English realizations.",
+    "The Quranic passive participle is presented in singular citation form مَوْقُوفٌ although its supplied Quran occurrence is the plural مَوْقُوفُونَ.",
+    "The endowment meaning is distinct from physical standing and is reported both as an established noun and as a rare or disapproved transitive verbal usage."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

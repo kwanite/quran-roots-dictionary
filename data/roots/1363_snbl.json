@@ -1,0 +1,198 @@
+{
+  "root": "snbl",
+  "arabic": "سنبل",
+  "root_idea": {
+    "summary": "The clearest attested semantic center is the ear or spike borne by grain, with a related verb describing grain as putting forth such ears.",
+    "development": "The supplied evidence supports an association between سُنْبُلٌ and سَنْبَلَ الزرع. Separate botanical, astronomical, perfumery, garment, and garment-description uses are preserved independently rather than being derived from an asserted root principle.",
+    "source_refs": [
+      "lane:entry:42319",
+      "lane:entry:42320"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:snbl:sunbul:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form-snbl-sunbul",
+      "reason": "Used as the normalized public citation form for the Quranic grain-ear noun."
+    },
+    {
+      "form_group_id": "qac-form:snbl:sunbula`t:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form-snbl-sunbul",
+      "reason": "The plural سُنْبُلَات is represented under the normalized grain-ear headword سُنْبُلٌ."
+    },
+    {
+      "form_group_id": "qac-form:snbl:sunbulap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "form-snbl-sunbul",
+      "reason": "The unit noun سُنْبُلَة and its pluralized Quranic forms belong to the same grain-ear lexical entry."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form-snbl-sunbul",
+      "form_group_ids": [
+        "qac-form:snbl:sunbul:nominal:-",
+        "qac-form:snbl:sunbula`t:nominal:-",
+        "qac-form:snbl:sunbulap:nominal:-"
+      ],
+      "headword_arabic": "سُنْبُلٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "sense-snbl-grain-ear",
+          "definition": "An ear or spike of grain, especially an ear of corn.",
+          "usage_conditions": "Used for the ear or spike of a grain plant and for ears collectively. The unit form is سُنْبُلَةٌ, with plurals سَنَابِلُ and سُنْبُلَاتٌ; the supplied Quranic occurrences include unit, plural, and possessive forms.",
+          "source_refs": [
+            "lane:entry:42320"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:261",
+          "word_location": "2:261:12",
+          "sense_ids": [
+            "sense-snbl-grain-ear"
+          ]
+        },
+        {
+          "verse_key": "2:261",
+          "word_location": "2:261:15",
+          "sense_ids": [
+            "sense-snbl-grain-ear"
+          ]
+        },
+        {
+          "verse_key": "12:43",
+          "word_location": "12:43:12",
+          "sense_ids": [
+            "sense-snbl-grain-ear"
+          ]
+        },
+        {
+          "verse_key": "12:47",
+          "word_location": "12:47:10",
+          "sense_ids": [
+            "sense-snbl-grain-ear"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cl-snbl-sambala-ear",
+      "headword_arabic": "سَنْبَلَ",
+      "definition": "Of a crop or seed-produce: to put forth ears.",
+      "usage_conditions": "An intransitive verbal use describing the emergence of ears from grain.",
+      "source_refs": [
+        "lane:entry:42319"
+      ]
+    },
+    {
+      "meaning_id": "cl-snbl-sambala-garment",
+      "headword_arabic": "سَنْبَلَ",
+      "definition": "To drag a shirt or other garment behind or before oneself.",
+      "usage_conditions": "A garment-related verbal construction, distinct from the crop-related sense.",
+      "source_refs": [
+        "lane:entry:42319"
+      ]
+    },
+    {
+      "meaning_id": "cl-snbl-sunbul-zodiac",
+      "headword_arabic": "سُنْبُلَةٌ",
+      "definition": "Virgo, the sixth sign of the zodiac; also a star in Virgo.",
+      "usage_conditions": "An astronomical designation, distinct from the grain-ear noun.",
+      "source_refs": [
+        "lane:entry:42320"
+      ]
+    },
+    {
+      "meaning_id": "cl-snbl-sunbul-perfume",
+      "headword_arabic": "سُنْبُلٌ",
+      "definition": "A sweet-scented plant or perfume, especially spikenard.",
+      "usage_conditions": "Used in botanical, perfumery, and materia-medica contexts; regional varieties are also recorded.",
+      "source_refs": [
+        "lane:entry:42320"
+      ]
+    },
+    {
+      "meaning_id": "cl-snbl-sanbala-tree",
+      "headword_arabic": "سَنْبَلَةٌ",
+      "definition": "A kind of tree belonging to the class called عِضَاه.",
+      "usage_conditions": "A botanical use of the vocalized form سَنْبَلَةٌ, distinct from the Quranic grain-ear noun سُنْبُلَةٌ.",
+      "source_refs": [
+        "lane:entry:42321"
+      ]
+    },
+    {
+      "meaning_id": "cl-snbl-sunbulani-shirt",
+      "headword_arabic": "سُنْبُلَانِيٌّ",
+      "definition": "Describing a shirt that is ample in length or reaches toward the ground; alternatively, a designation relating to a town or district in the Greek Empire.",
+      "usage_conditions": "Used in the expression قَمِيصٌ سُنْبُلَانِيٌّ; the source records both a garment-description and a geographic explanation.",
+      "source_refs": [
+        "lane:entry:42322"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:snbl:42319:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-snbl-sambala-ear"
+      ],
+      "note": "Crop putting forth ears is represented as a Classical verbal meaning."
+    },
+    {
+      "unit_id": "lane-unit:snbl:42319:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-snbl-sambala-garment"
+      ],
+      "note": "The garment-dragging verbal use is represented separately."
+    },
+    {
+      "unit_id": "lane-unit:snbl:42320:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense-snbl-grain-ear",
+        "cl-snbl-sunbul-zodiac"
+      ],
+      "note": "Both the grain-ear meaning and the zodiac designation are represented."
+    },
+    {
+      "unit_id": "lane-unit:snbl:42320:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-snbl-sunbul-perfume"
+      ],
+      "note": "The sweet-scented plant or perfume meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:snbl:42321:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-snbl-sanbala-tree"
+      ],
+      "note": "The distinct botanical use of سَنْبَلَةٌ is represented."
+    },
+    {
+      "unit_id": "lane-unit:snbl:42322:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cl-snbl-sunbulani-shirt"
+      ],
+      "note": "The سُنْبُلَانِيّ garment description and its alternative geographic explanation are represented."
+    }
+  ],
+  "cautions": [
+    "No matched Maqāyīs or Mufradāt material was supplied; the root-level orientation is therefore limited to the supplied Lane evidence.",
+    "The Quranic noun forms are normalized under سُنْبُلٌ, while سُنْبُلَةٌ, سَنَابِلُ, and سُنْبُلَاتٌ are retained as its unit and plural forms."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

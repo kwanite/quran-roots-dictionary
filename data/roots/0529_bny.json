@@ -1,0 +1,1331 @@
+{
+  "root": "bny",
+  "arabic": "بني",
+  "root_idea": {
+    "summary": "The root centers on building: joining parts together to form a whole, structure, or established configuration.",
+    "development": "From physical construction, the lexicon extends to structures and their forms, the establishment of honor or status, and relational terms for offspring as those brought into being or formed by a parent.",
+    "source_refs": [
+      "maqayis:row:852",
+      "mufradat:row:160"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bny:banaY`:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-bny-bana",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bny:banaAt:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qf-bny-bint",
+      "reason": "Quranic plural بنات is presented under the singular dictionary citation بِنْت."
+    },
+    {
+      "form_group_id": "qac-form:bny:ban~aA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-bny-bannaa",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bny:binaA^':nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-bny-binaa",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bny:bunaY~:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qf-bny-ibn",
+      "reason": "The group contains the plural forms بني/بنون and the diminutive بُنَيّ; these are represented under the normalized citation form اِبْن with distinct usage senses."
+    },
+    {
+      "form_group_id": "qac-form:bny:bunoya`n:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-bny-bunyan",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bny:m~aboniy~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-bny-mabni",
+      "reason": "The Quranic feminine form is normalized to the passive-participle citation form مَبْنِيّ."
+    },
+    {
+      "form_group_id": "qac-form:bny:{bon:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-bny-ibn",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:bny:{bonat:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qf-bny-bint",
+      "reason": "The Quranic form ابنَت is an inflected form of the feminine citation noun بِنْت."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-bny-bana",
+      "form_group_ids": [
+        "qac-form:bny:banaY`:verb:I"
+      ],
+      "headword_arabic": "بَنَى",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 11,
+      "senses": [
+        {
+          "sense_id": "qf-bny-bana-s1",
+          "definition": "To build, construct, or raise a structure.",
+          "usage_conditions": "Used of constructing or forming a physical structure, including the heavens and other built or established structures; the Quranic forms include perfect, imperfect, and imperative forms.",
+          "source_refs": [
+            "lane:entry:37245",
+            "mufradat:row:160"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:128",
+          "word_location": "26:128:1",
+          "sense_ids": [
+            "qf-bny-bana-s1"
+          ]
+        },
+        {
+          "verse_key": "50:6",
+          "word_location": "50:6:7",
+          "sense_ids": [
+            "qf-bny-bana-s1"
+          ]
+        },
+        {
+          "verse_key": "9:110",
+          "word_location": "9:110:5",
+          "sense_ids": [
+            "qf-bny-bana-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-bny-bint",
+      "form_group_ids": [
+        "qac-form:bny:banaAt:nominal:-",
+        "qac-form:bny:{bonat:nominal:-"
+      ],
+      "headword_arabic": "بِنْت",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 19,
+      "senses": [
+        {
+          "sense_id": "qf-bny-bint-s1",
+          "definition": "A daughter; a female child in relation to a parent.",
+          "usage_conditions": "The Quran uses the singular and plural forms بِنْت and بَنَات, including in claims about daughters attributed to a deity and in direct familial reference.",
+          "source_refs": [
+            "lane:entry:37269",
+            "lane:entry:37250",
+            "mufradat:row:160"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:78",
+          "word_location": "11:78:13",
+          "sense_ids": [
+            "qf-bny-bint-s1"
+          ]
+        },
+        {
+          "verse_key": "28:27",
+          "word_location": "28:27:7",
+          "sense_ids": [
+            "qf-bny-bint-s1"
+          ]
+        },
+        {
+          "verse_key": "66:12",
+          "word_location": "66:12:2",
+          "sense_ids": [
+            "qf-bny-bint-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-bny-bannaa",
+      "form_group_ids": [
+        "qac-form:bny:ban~aA^':nominal:-"
+      ],
+      "headword_arabic": "بَنَّاء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-bny-bannaa-s1",
+          "definition": "A builder; one whose work is building.",
+          "usage_conditions": "An occupational noun denoting a person engaged in building or construction.",
+          "source_refs": [
+            "lane:entry:37265"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "38:37",
+          "word_location": "38:37:3",
+          "sense_ids": [
+            "qf-bny-bannaa-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-bny-binaa",
+      "form_group_ids": [
+        "qac-form:bny:binaA^':nominal:-"
+      ],
+      "headword_arabic": "بِنَاء",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf-bny-binaa-s1",
+          "definition": "A built thing, building, or structure.",
+          "usage_conditions": "A noun for something constructed or established; the Quranic occurrences refer to the heaven as a construction or covering.",
+          "source_refs": [
+            "lane:entry:37261",
+            "mufradat:row:160"
+          ]
+        },
+        {
+          "sense_id": "qf-bny-binaa-s2",
+          "definition": "A roof, ceiling, or canopy spread over or pitched above something.",
+          "usage_conditions": "A Quranic construction in which the sky is described as a covering above the earth; the historical citation in the lexical evidence is not treated as a modern verse reference.",
+          "source_refs": [
+            "lane:entry:37261"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:22",
+          "word_location": "2:22:7",
+          "sense_ids": [
+            "qf-bny-binaa-s2"
+          ]
+        },
+        {
+          "verse_key": "40:64",
+          "word_location": "40:64:8",
+          "sense_ids": [
+            "qf-bny-binaa-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-bny-ibn",
+      "form_group_ids": [
+        "qac-form:bny:bunaY~:nominal:-",
+        "qac-form:bny:{bon:nominal:-"
+      ],
+      "headword_arabic": "اِبْن",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 143,
+      "senses": [
+        {
+          "sense_id": "qf-bny-ibn-s1",
+          "definition": "A son or male child; in the plural, sons, children, or descendants belonging to a named parent, ancestor, or people.",
+          "usage_conditions": "The Quran uses اِبْن for an individual son and plural forms such as أَبْنَاء, بَنُون, بَنِينَ, and بَنِي for family, lineage, and community designations.",
+          "source_refs": [
+            "lane:entry:37269",
+            "mufradat:row:160"
+          ]
+        },
+        {
+          "sense_id": "qf-bny-ibn-s2",
+          "definition": "A person closely connected with or characterized by the following noun, in an established relational compound; in the Quran, ابن السبيل denotes a wayfarer or traveler.",
+          "usage_conditions": "This is a conventional compound use rather than a claim of biological sonship; the Quranic expression ابن السبيل identifies one connected with the road through travel.",
+          "source_refs": [
+            "lane:entry:37269",
+            "lane:entry:37270",
+            "mufradat:row:160"
+          ]
+        },
+        {
+          "sense_id": "qf-bny-ibn-s3",
+          "definition": "A little son or dear child, expressed by the diminutive بُنَيّ.",
+          "usage_conditions": "Used especially in affectionate or intimate address, including the Quranic vocative يَا بُنَيَّ.",
+          "source_refs": [
+            "lane:entry:37262",
+            "lane:entry:37277",
+            "mufradat:row:160"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:34",
+          "word_location": "19:34:3",
+          "sense_ids": [
+            "qf-bny-ibn-s1"
+          ]
+        },
+        {
+          "verse_key": "2:40",
+          "word_location": "2:40:1",
+          "sense_ids": [
+            "qf-bny-ibn-s1"
+          ]
+        },
+        {
+          "verse_key": "12:5",
+          "word_location": "12:5:2",
+          "sense_ids": [
+            "qf-bny-ibn-s3"
+          ]
+        },
+        {
+          "verse_key": "2:177",
+          "word_location": "2:177:27",
+          "sense_ids": [
+            "qf-bny-ibn-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-bny-bunyan",
+      "form_group_ids": [
+        "qac-form:bny:bunoya`n:nominal:-"
+      ],
+      "headword_arabic": "بُنْيَان",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 7,
+      "senses": [
+        {
+          "sense_id": "qf-bny-bunyan-s1",
+          "definition": "A building, structure, or edifice.",
+          "usage_conditions": "A noun for a constructed structure, including a structure conceived as a unified or solid whole.",
+          "source_refs": [
+            "lane:entry:37261",
+            "mufradat:row:160"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:110",
+          "word_location": "9:110:3",
+          "sense_ids": [
+            "qf-bny-bunyan-s1"
+          ]
+        },
+        {
+          "verse_key": "61:4",
+          "word_location": "61:4:10",
+          "sense_ids": [
+            "qf-bny-bunyan-s1"
+          ]
+        },
+        {
+          "verse_key": "18:21",
+          "word_location": "18:21:21",
+          "sense_ids": [
+            "qf-bny-bunyan-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf-bny-mabni",
+      "form_group_ids": [
+        "qac-form:bny:m~aboniy~ap:nominal:-"
+      ],
+      "headword_arabic": "مَبْنِيّ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-bny-mabni-s1",
+          "definition": "Built or constructed.",
+          "usage_conditions": "A passive participle describing something made into a structure; the Quranic occurrence is feminine in agreement with غرف.",
+          "source_refs": [
+            "lane:entry:37281",
+            "mufradat:row:160"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "39:20",
+          "word_location": "39:20:10",
+          "sense_ids": [
+            "qf-bny-mabni-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-bny-marriage",
+      "headword_arabic": "بَنَى",
+      "definition": "To bring a bride to the bridegroom or consummate the marriage.",
+      "usage_conditions": "A conventional use of بَنَى عَلَى or بَنَى بِـ, originally associated with pitching and furnishing a tent for the bride.",
+      "source_refs": [
+        "lane:entry:37245"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-nobility",
+      "headword_arabic": "بَنَى",
+      "definition": "To establish or raise a house of nobility, honor, or high status.",
+      "usage_conditions": "A figurative extension of building applied to attaining elevated degrees or collective distinction.",
+      "source_refs": [
+        "lane:entry:37245"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-fatten",
+      "headword_arabic": "بَنَى",
+      "definition": "To make the body or flesh grow and become large.",
+      "usage_conditions": "Used of food as the agent producing bodily growth or fattening.",
+      "source_refs": [
+        "lane:entry:37245"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-rear",
+      "headword_arabic": "بَنَى",
+      "definition": "To rear, bring up, or educate a person.",
+      "usage_conditions": "A causative developmental use of the verb.",
+      "source_refs": [
+        "lane:entry:37245"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-word",
+      "headword_arabic": "بَنَى كَلِمَةً",
+      "definition": "To form or construct a word.",
+      "usage_conditions": "A technical linguistic use of building imagery applied to the formation of a word.",
+      "source_refs": [
+        "lane:entry:37245"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-grammar",
+      "headword_arabic": "بِنَاءُ كَلِمَةٍ",
+      "definition": "The fixed grammatical form of a word, with an invariant ending.",
+      "usage_conditions": "A grammatical technical term for a word remaining on one termination, such as a fixed sukūn or vowel, independently of a governing word.",
+      "source_refs": [
+        "lane:entry:37245"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-rhyme",
+      "headword_arabic": "بَنَى القَصِيدَةَ",
+      "definition": "To give a poem a specified rhyme letter.",
+      "usage_conditions": "A poetic construction in which the poem is made to follow a particular final or chief rhyme.",
+      "source_refs": [
+        "lane:entry:37245"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-bow",
+      "headword_arabic": "بَنَتِ القَوْسُ",
+      "definition": "For a bow to cling to its string so tightly that the string nearly breaks.",
+      "usage_conditions": "A specialized description of a bow's faulty relation to its string.",
+      "source_refs": [
+        "lane:entry:37245"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-intensive",
+      "headword_arabic": "بَنَّى",
+      "definition": "To build repeatedly, extensively, or on many objects.",
+      "usage_conditions": "The Form II pattern can mark frequency, intensity, or application to numerous structures.",
+      "source_refs": [
+        "lane:entry:37245",
+        "lane:entry:37246"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-formiv-give",
+      "headword_arabic": "أَبْنَى",
+      "definition": "To make someone build, or to provide him with a building or the means to build one.",
+      "usage_conditions": "Form IV is causative and may mean giving a house, tent, or building materials.",
+      "source_refs": [
+        "lane:entry:37247"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-formiv-marriage",
+      "headword_arabic": "أَبْنَى",
+      "definition": "To introduce a man to his wife on the occasion of marriage.",
+      "usage_conditions": "A causative marital use related to the construction-based marriage expression.",
+      "source_refs": [
+        "lane:entry:37247"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-formv-tentlike",
+      "headword_arabic": "تَبَنَّى",
+      "definition": "For a seated woman to become tent-like in shape or to spread her legs.",
+      "usage_conditions": "The expression compares bodily shape or posture with a pitched skin tent.",
+      "source_refs": [
+        "lane:entry:37248"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-formv-hump",
+      "headword_arabic": "تَبَنَّى",
+      "definition": "For a camel's hump to become fat.",
+      "usage_conditions": "A specialized bodily-growth use.",
+      "source_refs": [
+        "lane:entry:37248"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-formv-adopt",
+      "headword_arabic": "تَبَنَّى",
+      "definition": "To adopt someone as a son, or claim him as a son.",
+      "usage_conditions": "A Form V relational use of taking or asserting someone as one's son.",
+      "source_refs": [
+        "lane:entry:37248"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-formviii-become-built",
+      "headword_arabic": "اِبْتَنَى",
+      "definition": "To become built, framed, or constructed.",
+      "usage_conditions": "An intransitive or passive-result use of Form VIII.",
+      "source_refs": [
+        "lane:entry:37249"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-binya-form",
+      "headword_arabic": "بِنْيَة",
+      "definition": "The form, mode, or manner of building or construction.",
+      "usage_conditions": "May describe how something is formed or constructed rather than the resulting structure itself.",
+      "source_refs": [
+        "lane:entry:37257"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-binya-constitution",
+      "headword_arabic": "بِنْيَة",
+      "definition": "Natural bodily constitution or physical build.",
+      "usage_conditions": "Used in expressions describing someone as sound or healthy in constitution.",
+      "source_refs": [
+        "lane:entry:37257"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-binaa-honor",
+      "headword_arabic": "بِنَاء",
+      "definition": "An established state of glory, nobility, or honor conceived metaphorically as a building.",
+      "usage_conditions": "A figurative extension distinguished in the lexical evidence from construction of a physical object.",
+      "source_refs": [
+        "lane:entry:37261"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-binaa-body",
+      "headword_arabic": "بِنَاء",
+      "definition": "The body together with its limbs or members.",
+      "usage_conditions": "A nominal use referring to the bodily composition or assembled bodily whole.",
+      "source_refs": [
+        "lane:entry:37261"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-binaa-leather-spread",
+      "headword_arabic": "بِنَاء",
+      "definition": "A leather spread used on the ground, especially as a surface for food or prayer.",
+      "usage_conditions": "A specialized traditional object, also identified with نِطْع.",
+      "source_refs": [
+        "lane:entry:37261"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-bunayy-roads",
+      "headword_arabic": "بُنَيَّاتُ الطَّرِيقِ",
+      "definition": "Small roads or paths branching from a main road.",
+      "usage_conditions": "A diminutive-derived idiom for subsidiary routes.",
+      "source_refs": [
+        "lane:entry:37262"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-bunayy-idiom",
+      "headword_arabic": "بُنَيّ",
+      "definition": "In an idiomatic comparison, something regarded as the offspring or derivative of another.",
+      "usage_conditions": "Illustrated by the proverbial expression treating gentleness as the 'son' of forbearance.",
+      "source_refs": [
+        "lane:entry:37262"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-sonship",
+      "headword_arabic": "بُنُوَّة",
+      "definition": "Sonship or the condition of being a son.",
+      "usage_conditions": "An abstract noun denoting the filial relation.",
+      "source_refs": [
+        "lane:entry:37263"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-kaaba",
+      "headword_arabic": "البَنِيَّة",
+      "definition": "The Kaaba, regarded as the noble building.",
+      "usage_conditions": "A conventional honorific designation, including in oaths and the expression بَنِيَّةُ إِبْرَاهِيمَ.",
+      "source_refs": [
+        "lane:entry:37264"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-baan-builder",
+      "headword_arabic": "بَانٍ",
+      "definition": "One who builds, frames, or constructs.",
+      "usage_conditions": "An active participle distinct from the occupational noun بَنَّاء.",
+      "source_refs": [
+        "lane:entry:37266"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-baan-marriage",
+      "headword_arabic": "بَانٍ",
+      "definition": "A bridegroom, or one going in to his wife.",
+      "usage_conditions": "A conventional extension from the marital use of بَنَى عَلَى أَهْلِهِ.",
+      "source_refs": [
+        "lane:entry:37266"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-baan-bow",
+      "headword_arabic": "بَانٍ",
+      "definition": "Clinging to a bowstring, or, in a dialectal usage, widely separated from it.",
+      "usage_conditions": "A specialized bow description with variant interpretation in the lexical evidence.",
+      "source_refs": [
+        "lane:entry:37266"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-baanaa-bowbender",
+      "headword_arabic": "بَانَاة",
+      "definition": "A man who bends himself over his bowstring when shooting.",
+      "usage_conditions": "A specialized noun associated with the bow and string.",
+      "source_refs": [
+        "lane:entry:37267"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-baanaa-arrows",
+      "headword_arabic": "بَانَاة",
+      "definition": "Small arrows.",
+      "usage_conditions": "A separate technical nominal use reported for the same form.",
+      "source_refs": [
+        "lane:entry:37267"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-bawani",
+      "headword_arabic": "بَوَانٍ",
+      "definition": "The ribs or breast bones, the shoulder blades and legs, or the legs of a she-camel.",
+      "usage_conditions": "The form is also used in idioms for settling or taking up residence, and for rain held by the sky.",
+      "source_refs": [
+        "lane:entry:37268"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-remote-descendant",
+      "headword_arabic": "اِبْن",
+      "definition": "A more remote male descendant, such as a son's son, by extension of the son relation.",
+      "usage_conditions": "A broader genealogical extension beyond the immediate son sense.",
+      "source_refs": [
+        "lane:entry:37269"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-nonhuman-ibn",
+      "headword_arabic": "اِبْن",
+      "definition": "An individual or member of a non-human class designated in an ابن compound.",
+      "usage_conditions": "For irrational beings, the plural may take بنات, as in established terms for camels or stars.",
+      "source_refs": [
+        "lane:entry:37269"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-dolls",
+      "headword_arabic": "بِنْت",
+      "definition": "A doll or dolls used by young girls in play.",
+      "usage_conditions": "A figurative plural use distinct from the kinship noun daughter.",
+      "source_refs": [
+        "lane:entry:37269"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-ibn-adam",
+      "headword_arabic": "اِبْنُ الطِّينِ",
+      "definition": "Adam, literally the son of earth or clay.",
+      "usage_conditions": "A fixed compound designation.",
+      "source_refs": [
+        "lane:entry:37269"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-lexical-compounds",
+      "headword_arabic": "اِبْن",
+      "definition": "In lexicalized compounds, a person characterized by or closely associated with the following noun, including a thief, warrior, or rich man.",
+      "usage_conditions": "Examples include ابن الليل and ابن الطريق for a thief or robber, ابن حرب for a warrior or defender, and ابن الدنيا for a rich man; these are distinct from the Quranic ابن السبيل use.",
+      "source_refs": [
+        "lane:entry:37270"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-animal-compounds",
+      "headword_arabic": "اِبْن",
+      "definition": "A named animal or creature in fixed compounds, such as a jackal or weasel.",
+      "usage_conditions": "Examples include ابن آوى and ابن عرس.",
+      "source_refs": [
+        "lane:entry:37270"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-water-skin",
+      "headword_arabic": "اِبْنُ أَدِيم",
+      "definition": "A skin container for water or milk made from one or more hides.",
+      "usage_conditions": "The compound distinguishes containers made from one, two, or three hides.",
+      "source_refs": [
+        "lane:entry:37270"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-mountain-echo",
+      "headword_arabic": "بِنْتُ الجَبَلِ",
+      "definition": "An echo.",
+      "usage_conditions": "A fixed compound meaning literally the daughter of the mountain.",
+      "source_refs": [
+        "lane:entry:37270"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-calamities",
+      "headword_arabic": "بَنَات",
+      "definition": "Calamities or misfortunes.",
+      "usage_conditions": "Used in fixed expressions such as بَنَاتُ بَئْسٍ and related compounds.",
+      "source_refs": [
+        "lane:entry:37270"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-pebbles",
+      "headword_arabic": "بَنَاتُ مَسَاجِدِ الله",
+      "definition": "Pebbles of the mosques of God, in a rare figurative expression.",
+      "usage_conditions": "An idiomatic characterization rather than a literal kinship expression.",
+      "source_refs": [
+        "lane:entry:37270"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-girl-flesh",
+      "headword_arabic": "بَنَاةُ اللَّحْم",
+      "definition": "A girl whose flesh has grown or become large; an alternative interpretation relates the phrase to the sweet odor of flesh.",
+      "usage_conditions": "The lexical evidence reports both interpretations and records disagreement over the wording.",
+      "source_refs": [
+        "lane:entry:37253"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-mibnaat",
+      "headword_arabic": "مِبْنَاة",
+      "definition": "A skin screen, tent-like hide structure, mat, leather spread, or receptacle.",
+      "usage_conditions": "The term covers several traditional objects made from joined skins, including a small tent-like enclosure.",
+      "source_refs": [
+        "lane:entry:37280"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-mubannaa",
+      "headword_arabic": "مُبَنًّى",
+      "definition": "Raised high, especially a palace or pavilion.",
+      "usage_conditions": "A Form II passive-participle-derived adjective or noun, distinct from the Form I passive participle مَبْنِيّ.",
+      "source_refs": [
+        "lane:entry:37282"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-mubtanaa",
+      "headword_arabic": "مُبْتَنًى",
+      "definition": "The act of building, framing, or constructing.",
+      "usage_conditions": "A nominal use of the Form VIII passive participle in place of the verbal noun.",
+      "source_refs": [
+        "lane:entry:37283"
+      ]
+    },
+    {
+      "meaning_id": "cm-bny-banawi-relational",
+      "headword_arabic": "بَنَوِيّ",
+      "definition": "Of or relating to a son or daughter.",
+      "usage_conditions": "A relational adjective derived from اِبْن or بِنْت; the lexical evidence records relational uses referring to both sons and daughters, with variant forms.",
+      "source_refs": [
+        "lane:entry:37259"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bny:37245:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-bny-bana-s1",
+        "cm-bny-intensive"
+      ],
+      "note": "Construction and intensive Form II branch represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37245:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-marriage"
+      ],
+      "note": "Marital construction represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37245:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-nobility"
+      ],
+      "note": "Figurative nobility branch represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37245:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-fatten"
+      ],
+      "note": "Bodily-growth use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37245:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-rear"
+      ],
+      "note": "Rearing and educating use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37245:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-word"
+      ],
+      "note": "Word-formation use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37245:g1:sub7",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-grammar"
+      ],
+      "note": "Grammatical technical use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37245:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-rhyme"
+      ],
+      "note": "Poetic rhyme construction represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37245:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-bow"
+      ],
+      "note": "Bow-and-string use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37246:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the first Form I discussion; its lexical branch is covered there."
+    },
+    {
+      "unit_id": "lane-unit:bny:37247:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-formiv-give"
+      ],
+      "note": "Causative provision of building represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37247:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-formiv-marriage"
+      ],
+      "note": "Causative marital use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37248:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-formv-tentlike",
+        "cm-bny-formv-hump"
+      ],
+      "note": "Two Form V bodily branches represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37248:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-formv-adopt"
+      ],
+      "note": "Adoption or claimed sonship represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37249:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to three Form I locations."
+    },
+    {
+      "unit_id": "lane-unit:bny:37249:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-formviii-become-built"
+      ],
+      "note": "Resultative becoming built represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37250:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Feminine cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:bny:37251:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بِنَاء."
+    },
+    {
+      "unit_id": "lane-unit:bny:37252:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بِنَاء."
+    },
+    {
+      "unit_id": "lane-unit:bny:37253:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-girl-flesh"
+      ],
+      "note": "Specialized phrase and its reported variant represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37254:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:bny:37255:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:bny:37256:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بِنَاء."
+    },
+    {
+      "unit_id": "lane-unit:bny:37257:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-binya-form",
+        "cm-bny-binya-constitution"
+      ],
+      "note": "Form-of-construction and bodily-constitution branches represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37257:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer only."
+    },
+    {
+      "unit_id": "lane-unit:bny:37258:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following relational adjective."
+    },
+    {
+      "unit_id": "lane-unit:bny:37259:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-banawi-relational"
+      ],
+      "note": "Relational adjective use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37259:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-bunayy-roads"
+      ],
+      "note": "Branch-road expression is covered by the diminutive-derived road meaning."
+    },
+    {
+      "unit_id": "lane-unit:bny:37260:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the following building entry."
+    },
+    {
+      "unit_id": "lane-unit:bny:37261:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-bny-binaa-s1",
+        "qf-bny-bunyan-s1",
+        "cm-bny-binaa-honor"
+      ],
+      "note": "Built-structure and figurative honor branches represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37261:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-bny-binaa-s2"
+      ],
+      "note": "Quran-attested roof or canopy use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37261:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-binaa-body"
+      ],
+      "note": "Body-and-limbs use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37261:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-binaa-leather-spread"
+      ],
+      "note": "Leather-spread use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37262:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-bny-ibn-s3"
+      ],
+      "note": "Diminutive son or dear child represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37262:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-bunayy-roads"
+      ],
+      "note": "Subsidiary-road expression represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37262:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-bunayy-idiom"
+      ],
+      "note": "Proverbial offspring comparison represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37263:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-sonship"
+      ],
+      "note": "Abstract sonship represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37264:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-kaaba"
+      ],
+      "note": "Kaaba designation represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37265:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-bny-bannaa-s1"
+      ],
+      "note": "Builder noun represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37266:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-baan-builder"
+      ],
+      "note": "Active-participle builder use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37266:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-baan-marriage"
+      ],
+      "note": "Bridegroom use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37266:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-baan-bow"
+      ],
+      "note": "Bow-string use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37267:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to بَانٍ."
+    },
+    {
+      "unit_id": "lane-unit:bny:37267:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-baanaa-bowbender"
+      ],
+      "note": "Bow-bender noun represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37267:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-baanaa-arrows"
+      ],
+      "note": "Small-arrows use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37268:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Feminine cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:bny:37268:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-bawani"
+      ],
+      "note": "Bones, legs, and associated settling idioms represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37269:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-bny-ibn-s1",
+        "qf-bny-ibn-s2",
+        "cm-bny-remote-descendant"
+      ],
+      "note": "Son, relational, and remote-descendant branches represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37269:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-nonhuman-ibn"
+      ],
+      "note": "Non-human compound use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37269:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-dolls"
+      ],
+      "note": "Doll use represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37269:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-bny-ibn-s2"
+      ],
+      "note": "General compound-forming construction is covered by the Quran-attested relational-compound sense."
+    },
+    {
+      "unit_id": "lane-unit:bny:37269:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-ibn-adam"
+      ],
+      "note": "Fixed ابن الطين compound represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37270:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-lexical-compounds"
+      ],
+      "note": "Lexicalized compound meanings represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37270:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-animal-compounds"
+      ],
+      "note": "Animal compound meanings represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37270:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-water-skin"
+      ],
+      "note": "Skin-container compounds represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37270:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-mountain-echo"
+      ],
+      "note": "Mountain-echo compound represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37270:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-calamities"
+      ],
+      "note": "Calamity expressions represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37270:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-pebbles"
+      ],
+      "note": "Rare mosque-pebble expression represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37271:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Feminine cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:bny:37272:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Cross-reference to اِبْن."
+    },
+    {
+      "unit_id": "lane-unit:bny:37273:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Quasi-plural cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:bny:37274:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Relational-adjective cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:bny:37275:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Variant-form cross-reference only."
+    },
+    {
+      "unit_id": "lane-unit:bny:37276:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Unused or unusual diminutive pointer."
+    },
+    {
+      "unit_id": "lane-unit:bny:37277:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf-bny-ibn-s3"
+      ],
+      "note": "Alternative diminutive discussion is covered by the Quranic little-son sense."
+    },
+    {
+      "unit_id": "lane-unit:bny:37278:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding diminutive discussion."
+    },
+    {
+      "unit_id": "lane-unit:bny:37279:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer to the preceding diminutive discussion."
+    },
+    {
+      "unit_id": "lane-unit:bny:37280:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-mibnaat"
+      ],
+      "note": "Skin screen, tent, mat, and receptacle meanings represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37281:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-bny-mabni-s1"
+      ],
+      "note": "Form I passive participle represented."
+    },
+    {
+      "unit_id": "lane-unit:bny:37282:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-mubannaa"
+      ],
+      "note": "Form II raised-high meaning represented separately."
+    },
+    {
+      "unit_id": "lane-unit:bny:37283:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bny-mubtanaa"
+      ],
+      "note": "Form VIII nominalized building action represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic form group bunaY~ combines ordinary plural forms such as بَنِي and بَنُون with the diminutive بُنَيَّ; these are retained under اِبْن with separate senses rather than treated as unrelated roots.",
+    "The QAC packet flags 20:94:2 in the metadata for the ابنَت group as a multi-root location, while that location is listed among the اِبْن occurrences and is not separately assigned to بِنْت.",
+    "Lane's historical Quran citation in the بِنَاء discussion is preserved as lexical evidence but is not converted into a modern surah:ayah reference."
+  ],
+  "unassigned_or_ambiguous_evidence": [
+    "QAC marks 20:94:2 as an ambiguous multi-root location in the form-group metadata for qac-form:bny:{bonat:nominal:-}; the packet's occurrence lists place 20:94:2 under qac-form:bny:{bon:nominal:-}, so no additional daughter-form occurrence is claimed."
+  ]
+}

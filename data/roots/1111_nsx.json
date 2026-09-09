@@ -1,0 +1,509 @@
+{
+  "root": "nsx",
+  "arabic": "نسخ",
+  "root_idea": {
+    "summary": "A relation in which one thing is removed, replaced, transferred, or reproduced in connection with another succeeding thing.",
+    "development": "The root develops along two closely related paths: removal or replacement by a successor, and transfer or reproduction of an existing form. These underlie abrogation, copying, succession, and the preservation of a record.",
+    "source_refs": [
+      "maqayis:row:4618",
+      "mufradat:row:1435"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:nsx:yansaxu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nsx-f1",
+      "reason": "Displayed under the normalized Form I perfect citation form نَسَخَ."
+    },
+    {
+      "form_group_id": "qac-form:nsx:nasotansixu:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nsx-f10",
+      "reason": "Displayed under the normalized Form X perfect citation form اِسْتَنْسَخَ."
+    },
+    {
+      "form_group_id": "qac-form:nsx:nusoxat:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "nsx-nuskha",
+      "reason": "Displayed under the normalized nominal citation form نُسْخَةٌ rather than the inflected Quranic form نُسْخَتِ."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "nsx-f1",
+      "form_group_ids": [
+        "qac-form:nsx:yansaxu:verb:I"
+      ],
+      "headword_arabic": "نَسَخَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "nsx-f1-s1",
+          "definition": "To remove, annul, abrogate, or supersede one thing by a succeeding thing or ruling.",
+          "usage_conditions": "In Quranic and legal usage, this may concern a prior verse, command, ruling, or what has been cast into a matter; the wording, legal force, or both may be affected. The related participial usage describes a verse that abrogates another or is treated as abrogated.",
+          "source_refs": [
+            "lane:entry:43638",
+            "lane:entry:43645",
+            "mufradat:row:1435"
+          ]
+        },
+        {
+          "sense_id": "nsx-f1-s2",
+          "definition": "To bring forth and send down a succeeding revelation or replacement.",
+          "usage_conditions": "This is an alternative Quranic interpretation of 2:106, emphasizing establishment of the successor rather than removal of the earlier matter.",
+          "source_refs": [
+            "mufradat:row:1435"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:106",
+          "word_location": "2:106:2",
+          "sense_ids": [
+            "nsx-f1-s1",
+            "nsx-f1-s2"
+          ]
+        },
+        {
+          "verse_key": "22:52",
+          "word_location": "22:52:16",
+          "sense_ids": [
+            "nsx-f1-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nsx-f10",
+      "form_group_ids": [
+        "qac-form:nsx:nasotansixu:verb:X"
+      ],
+      "headword_arabic": "اِسْتَنْسَخَ",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nsx-f10-s1",
+          "definition": "To have something transcribed, recorded, or preserved in a written record.",
+          "usage_conditions": "In 45:29, the construction concerns having people's deeds transcribed or registered and thereby preserved; the Form X usage can emphasize undertaking or causing the transcription.",
+          "source_refs": [
+            "lane:entry:43638",
+            "mufradat:row:1435"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "45:29",
+          "word_location": "45:29:8",
+          "sense_ids": [
+            "nsx-f10-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "nsx-nuskha",
+      "form_group_ids": [
+        "qac-form:nsx:nusoxat:nominal:-"
+      ],
+      "headword_arabic": "نُسْخَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "nsx-nuskha-s1",
+          "definition": "A copy, transcript, or written version.",
+          "usage_conditions": "In 7:154, the possessed form refers to a written copy or inscription.",
+          "source_refs": [
+            "lane:entry:43642",
+            "mufradat:row:1435"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "7:154",
+          "word_location": "7:154:9",
+          "sense_ids": [
+            "nsx-nuskha-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "nsx-cm-change",
+      "headword_arabic": "نَسَخَ",
+      "definition": "To change or alter a thing, including effacing or altering existing traces.",
+      "usage_conditions": "A general Classical Arabic use distinct from the explicit abrogation-by-a-successor construction.",
+      "source_refs": [
+        "lane:entry:43638"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-metamorphosis",
+      "headword_arabic": "نَسَخَ",
+      "definition": "To transform or metamorphose someone into a worse, fouler, or uglier shape.",
+      "usage_conditions": "A rare lexical use equated with transformation into another form.",
+      "source_refs": [
+        "lane:entry:43638"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-soul-transfer",
+      "headword_arabic": "نَسْخٌ",
+      "definition": "The transmigration of a soul from one human body into another.",
+      "usage_conditions": "A rare or post-classical theological usage; the cited terminology distinguishes transfer into a beast by another term.",
+      "source_refs": [
+        "lane:entry:43638",
+        "lane:entry:43641",
+        "mufradat:row:1435"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-transfer",
+      "headword_arabic": "نَسَخَ",
+      "definition": "To transfer something from one place to another while it remains materially the same.",
+      "usage_conditions": "The lexical evidence illustrates transfer of contents between places, but does not restrict the meaning to that example.",
+      "source_refs": [
+        "lane:entry:43638"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-copy-verb",
+      "headword_arabic": "نَسَخَ",
+      "definition": "To copy or transcribe a writing or book, reproducing it letter for letter.",
+      "usage_conditions": "Faithful reproduction is contrasted with merely corrupting a copy by changing its diacritical points or meanings.",
+      "source_refs": [
+        "lane:entry:43638",
+        "mufradat:row:1435"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-form4-abrogate",
+      "headword_arabic": "أَنْسَخَ",
+      "definition": "To cause a verse to be annulled, abrogated, or superseded by another, or to find it in that state.",
+      "usage_conditions": "A Quran-attested derived Form IV construction recorded separately because no Form IV QAC form group is supplied.",
+      "source_refs": [
+        "lane:entry:43640"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-succession",
+      "headword_arabic": "تَنَاسَخَ",
+      "definition": "To succeed one another, with each thing, time, generation, or state taking the place of what came before.",
+      "usage_conditions": "Used for the succession of things, times, and generations, and for change from one state to another.",
+      "source_refs": [
+        "lane:entry:43641"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-inheritance",
+      "headword_arabic": "تَنَاسُخُ الْوَرَثَةِ",
+      "definition": "The successive death of heirs while the original inheritance remains undivided.",
+      "usage_conditions": "A technical inheritance term, also applied to succession involving the fixed primary shares of an inheritance.",
+      "source_refs": [
+        "lane:entry:43641",
+        "mufradat:row:1435"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-nuskha-exemplar",
+      "headword_arabic": "نُسْخَةٌ",
+      "definition": "An exemplar or original from which a transcript is made.",
+      "usage_conditions": "This is the source-copy sense of the noun, distinct from the Quranic use referring to a copy or written version.",
+      "source_refs": [
+        "lane:entry:43642"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-nasikha",
+      "headword_arabic": "نَسِيخَةٌ",
+      "definition": "A distant town, district, or country; also, a transverse or cross wind.",
+      "usage_conditions": "The two glosses are recorded under the same rare lexical headword.",
+      "source_refs": [
+        "lane:entry:43644"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-nasikh-copier",
+      "headword_arabic": "نَاسِخٌ",
+      "definition": "A copier or transcriber of writing or books.",
+      "usage_conditions": "The active-participial noun denotes the person performing the copying action.",
+      "source_refs": [
+        "lane:entry:43645"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-nasikh-grammar",
+      "headword_arabic": "نَاسِخٌ",
+      "definition": "A grammatical operator that changes the grammatical form or meaning of a nominal proposition.",
+      "usage_conditions": "A technical grammatical term applied to certain particles and verbs that alter the construction before which they occur.",
+      "source_refs": [
+        "lane:entry:43645"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-mansukh",
+      "headword_arabic": "مَنْسُوخٌ",
+      "definition": "A writing or book that has been copied or transcribed.",
+      "usage_conditions": "This is the passive-participial object sense of the copying branch.",
+      "source_refs": [
+        "lane:entry:43647"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-tanasukh",
+      "headword_arabic": "تَنَاسُخٌ",
+      "definition": "The transmigration of souls from body to body.",
+      "usage_conditions": "A theological doctrine involving the continuing transfer of souls between bodies.",
+      "source_refs": [
+        "lane:entry:43638",
+        "lane:entry:43641",
+        "mufradat:row:1435"
+      ]
+    },
+    {
+      "meaning_id": "nsx-cm-tanasukhiyya",
+      "headword_arabic": "التَّنَاسُخِيَّةُ",
+      "definition": "A sect or doctrine that holds the transmigration of souls and denies the resurrection.",
+      "usage_conditions": "A doctrinal designation derived from the transmigration sense.",
+      "source_refs": [
+        "lane:entry:43646",
+        "mufradat:row:1435"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:nsx:43638:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-f1-s1"
+      ],
+      "note": "Abrogation, supersession, and replacement branch."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43638:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-change"
+      ],
+      "note": "Change or alteration branch."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43638:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-metamorphosis"
+      ],
+      "note": "Metamorphosis branch."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43638:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-soul-transfer"
+      ],
+      "note": "Soul-transfer usage."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43638:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-transfer"
+      ],
+      "note": "Transfer without change."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43638:g1:sub6",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-copy-verb",
+        "nsx-f10-s1"
+      ],
+      "note": "Copying/transcription branch, including the Form X relation."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43638:g1:sub7",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nsx-cm-copy-verb"
+      ],
+      "note": "Faithful copying contrasted with corruption."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43638:g1:sub8",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-f10-s1"
+      ],
+      "note": "Quranic registering, transcription, and preservation usage."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43639:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only Form III cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43640:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-form4-abrogate"
+      ],
+      "note": "Form IV causative or factitive abrogation construction."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43641:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-succession"
+      ],
+      "note": "Mutual succession branch."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43641:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nsx-cm-succession"
+      ],
+      "note": "Succession of times and generations."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43641:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-inheritance"
+      ],
+      "note": "Technical inheritance usage."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43641:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "nsx-cm-succession"
+      ],
+      "note": "Change from one state to another."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43641:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-tanasukh"
+      ],
+      "note": "Soul-transmigration usage."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43642:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-nuskha-s1"
+      ],
+      "note": "Copy or transcript noun."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43642:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-nuskha-s1",
+        "nsx-cm-nuskha-exemplar"
+      ],
+      "note": "Copy sense and source-copy sense."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43643:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَسِيخَةٌ."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43644:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-nasikha"
+      ],
+      "note": "Rare distant-place meaning."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43644:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-nasikha"
+      ],
+      "note": "Cross-wind gloss retained as an attested lexical use."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43645:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-nasikh-copier"
+      ],
+      "note": "Copier or transcriber."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43645:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-f1-s1"
+      ],
+      "note": "Quranic abrogating and abrogated verse terminology."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43645:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-nasikh-grammar"
+      ],
+      "note": "Technical grammatical operator usage."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43646:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-tanasukhiyya"
+      ],
+      "note": "Sectarian designation."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43647:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "nsx-cm-mansukh"
+      ],
+      "note": "Copied or transcribed writing/book."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43647:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَاسِخٌ."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43648:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to مَنْسُوخٌ."
+    },
+    {
+      "unit_id": "lane-unit:nsx:43649:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to نَاسِخٌ."
+    }
+  ],
+  "cautions": [
+    "The alternative interpretation of 2:106 as bringing forth and sending down a successor is represented separately from the ordinary abrogation sense.",
+    "The Form IV Quranic construction is retained as a separate derived lexical item because the supplied QAC groups contain Form I and Form X but no Form IV group.",
+    "Lane's historical Quran citation notation has not been converted into an unverified modern verse location; secure modern examples are taken from the supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

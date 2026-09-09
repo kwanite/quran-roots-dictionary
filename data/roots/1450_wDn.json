@@ -1,0 +1,95 @@
+{
+  "root": "wDn",
+  "arabic": "وضن",
+  "root_idea": {
+    "summary": "The root centers on weaving or interlacing into a close, firm structure.",
+    "development": "From weaving armor, the sense extends to any tightly woven or intricately interlaced workmanship, including the Quranic description of woven couches.",
+    "source_refs": [
+      "mufradat:row:1588"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wDn:m~awoDuwnap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf-wDn-mawDun",
+      "reason": "Displayed under the normalized passive-participle citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf-wDn-mawDun",
+      "form_group_ids": [
+        "qac-form:wDn:m~awoDuwnap:nominal:-"
+      ],
+      "headword_arabic": "مَوْضُونٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf-wDn-mawDun-s1",
+          "definition": "Closely woven or intricately interlaced.",
+          "usage_conditions": "In the Quran, the feminine form describes the couches of Paradise in 56:15; the contextual rendering “decorated” reflects their elaborate woven workmanship.",
+          "source_refs": [
+            "mufradat:row:1588",
+            "lane:entry:30571"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "56:15",
+          "word_location": "56:15:3",
+          "sense_ids": [
+            "qf-wDn-mawDun-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-wDn-wadin",
+      "headword_arabic": "وَضِينٌ",
+      "definition": "A girth or harness strap, especially a broad strap woven from thongs or hair, or made of skin.",
+      "usage_conditions": "Used as equipment fitted to a saddle or howdah, with related saddle-harness terminology distinguishing its particular application.",
+      "source_refs": [
+        "lane:entry:30571"
+      ]
+    },
+    {
+      "meaning_id": "cm-wDn-miydana",
+      "headword_arabic": "مِيضَنَةٌ",
+      "definition": "A basket or container, identified with a marjūnah.",
+      "usage_conditions": "A specialized Classical Arabic noun for a type of basket or container.",
+      "source_refs": [
+        "lane:entry:30572"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wDn:30571:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf-wDn-mawDun-s1",
+        "cm-wDn-wadin"
+      ],
+      "note": "Its woven-workmanship and girth meanings are represented."
+    },
+    {
+      "unit_id": "lane-unit:wDn:30572:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-wDn-miydana"
+      ],
+      "note": "Its basket/container meaning is represented."
+    }
+  ],
+  "cautions": [
+    "The Quranic occurrence is the feminine inflected form مَوْضُونَةٍ; the public headword is normalized to the masculine singular passive-participle citation form مَوْضُونٌ.",
+    "The English gloss “decorated” is contextual support for the Quranic woven-workmanship sense, not a separate lexical sense."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

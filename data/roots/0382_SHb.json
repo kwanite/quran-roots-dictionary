@@ -1,0 +1,907 @@
+{
+  "root": "SHb",
+  "arabic": "صحب",
+  "root_idea": {
+    "summary": "The root centers on the juxtaposition, proximity, and sustained association of one thing with another.",
+    "development": "From proximity and companionship develop meanings of accompanying, making something a companion, adhering to or carrying something along, becoming tractable through association, and designating a companion, possessor, or associated group.",
+    "source_refs": [
+      "maqayis:row:2755",
+      "mufradat:row:815"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:SHb:yuSoHabu:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf_SHb_yasHabu",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:SHb:tuSa`Hibo:verb:III",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf_SHb_sahaba",
+      "reason": "Displayed under the normalized Form III perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:SHb:>aSoHa`b:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf_SHb_asHab",
+      "reason": "Displayed as the Quranic plural noun."
+    },
+    {
+      "form_group_id": "qac-form:SHb:SaAHib:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf_SHb_sahib",
+      "reason": "Displayed under the singular nominal citation form."
+    },
+    {
+      "form_group_id": "qac-form:SHb:SaY`Hib:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qf_SHb_sahib",
+      "reason": "This Quranic group is the dual vocative form of صَاحِب and is normalized under the singular citation form."
+    },
+    {
+      "form_group_id": "qac-form:SHb:Sa`Hibap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qf_SHb_sahibah",
+      "reason": "Displayed under the normalized feminine nominal citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qf_SHb_yasHabu",
+      "form_group_ids": [
+        "qac-form:SHb:yuSoHabu:verb:I"
+      ],
+      "headword_arabic": "صَحِبَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "qf_SHb_yasHabu_s1",
+          "definition": "To protect, defend, or keep safe.",
+          "usage_conditions": "Quranically attested in the passive construction يُصْحَبُونَ, describing people who receive no protection or safeguarding from others.",
+          "source_refs": [
+            "lane:entry:25386",
+            "mufradat:row:815"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:43",
+          "word_location": "21:43:14",
+          "sense_ids": [
+            "qf_SHb_yasHabu_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf_SHb_sahaba",
+      "form_group_ids": [
+        "qac-form:SHb:tuSa`Hibo:verb:III"
+      ],
+      "headword_arabic": "صَاحَبَ",
+      "public_pos_label": "Verb · Form III",
+      "verb_form": "III",
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qf_SHb_sahaba_s1",
+          "definition": "To accompany, associate with, or keep company with.",
+          "usage_conditions": "The construction denotes sustained companionship or association rather than a merely momentary meeting; it may be used with a person or group.",
+          "source_refs": [
+            "lane:entry:25387",
+            "lane:entry:25386",
+            "mufradat:row:815"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:76",
+          "word_location": "18:76:8",
+          "sense_ids": [
+            "qf_SHb_sahaba_s1"
+          ]
+        },
+        {
+          "verse_key": "31:15",
+          "word_location": "31:15:14",
+          "sense_ids": [
+            "qf_SHb_sahaba_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf_SHb_asHab",
+      "form_group_ids": [
+        "qac-form:SHb:>aSoHa`b:nominal:-"
+      ],
+      "headword_arabic": "أَصْحَاب",
+      "public_pos_label": "Noun · plural",
+      "verb_form": null,
+      "occurrence_count": 78,
+      "senses": [
+        {
+          "sense_id": "qf_SHb_asHab_s1",
+          "definition": "Companions, associates, or people associated with a person, place, event, or thing.",
+          "usage_conditions": "The plural frequently forms names for groups linked to a particular person, location, episode, or distinguishing circumstance; context may render it as the people or inhabitants of that association.",
+          "source_refs": [
+            "lane:entry:25397",
+            "mufradat:row:815"
+          ]
+        },
+        {
+          "sense_id": "qf_SHb_asHab_s2",
+          "definition": "Occupants or inmates of a place or state.",
+          "usage_conditions": "In expressions such as أصحاب الجنة and أصحاب النار, the noun denotes those who inhabit or belong to Paradise or the Fire, rather than ordinary companions.",
+          "source_refs": [
+            "lane:entry:25397",
+            "mufradat:row:815"
+          ]
+        },
+        {
+          "sense_id": "qf_SHb_asHab_s3",
+          "definition": "Appointed keepers or custodians.",
+          "usage_conditions": "In أصحاب النار in the construction cited for 74:31, the referents are those entrusted with the Fire, not its punished inmates.",
+          "source_refs": [
+            "lane:entry:25397",
+            "mufradat:row:815"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "18:9",
+          "word_location": "18:9:4",
+          "sense_ids": [
+            "qf_SHb_asHab_s1"
+          ]
+        },
+        {
+          "verse_key": "2:82",
+          "word_location": "2:82:6",
+          "sense_ids": [
+            "qf_SHb_asHab_s2"
+          ]
+        },
+        {
+          "verse_key": "74:31",
+          "word_location": "74:31:3",
+          "sense_ids": [
+            "qf_SHb_asHab_s3"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf_SHb_sahib",
+      "form_group_ids": [
+        "qac-form:SHb:SaAHib:nominal:-",
+        "qac-form:SHb:SaY`Hib:nominal:-"
+      ],
+      "headword_arabic": "صَاحِب",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 12,
+      "senses": [
+        {
+          "sense_id": "qf_SHb_sahib_s1",
+          "definition": "A companion, associate, fellow, or close companion.",
+          "usage_conditions": "The noun normally denotes a person characterized by sustained association; it can also be used for an associated person in relation to an animal, place, time, or circumstance.",
+          "source_refs": [
+            "lane:entry:25397",
+            "mufradat:row:815"
+          ]
+        },
+        {
+          "sense_id": "qf_SHb_sahib_s2",
+          "definition": "A fellow inmate or fellow occupant.",
+          "usage_conditions": "In the dual vocative صاحبي السجن, it denotes the two fellow prisoners addressed in the Quranic narrative.",
+          "source_refs": [
+            "lane:entry:25397",
+            "mufradat:row:815"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "9:40",
+          "word_location": "9:40:18",
+          "sense_ids": [
+            "qf_SHb_sahib_s1"
+          ]
+        },
+        {
+          "verse_key": "53:2",
+          "word_location": "53:2:3",
+          "sense_ids": [
+            "qf_SHb_sahib_s1"
+          ]
+        },
+        {
+          "verse_key": "12:39",
+          "word_location": "12:39:1",
+          "sense_ids": [
+            "qf_SHb_sahib_s2"
+          ]
+        },
+        {
+          "verse_key": "12:41",
+          "word_location": "12:41:1",
+          "sense_ids": [
+            "qf_SHb_sahib_s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qf_SHb_sahibah",
+      "form_group_ids": [
+        "qac-form:SHb:Sa`Hibap:nominal:-"
+      ],
+      "headword_arabic": "صَاحِبَة",
+      "public_pos_label": "Noun · feminine",
+      "verb_form": null,
+      "occurrence_count": 4,
+      "senses": [
+        {
+          "sense_id": "qf_SHb_sahibah_s1",
+          "definition": "A female companion or associate; a female consort or spouse.",
+          "usage_conditions": "The feminine noun denotes a female counterpart in an association. In possessive constructions referring to a male's female counterpart, Quranic context specifies the sense as spouse or wife.",
+          "source_refs": [
+            "lane:entry:25397",
+            "mufradat:row:815"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:101",
+          "word_location": "6:101:11",
+          "sense_ids": [
+            "qf_SHb_sahibah_s1"
+          ]
+        },
+        {
+          "verse_key": "70:12",
+          "word_location": "70:12:1",
+          "sense_ids": [
+            "qf_SHb_sahibah_s1"
+          ]
+        },
+        {
+          "verse_key": "72:3",
+          "word_location": "72:3:7",
+          "sense_ids": [
+            "qf_SHb_sahibah_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_SHb_skinning",
+      "headword_arabic": "صَحَبَ",
+      "definition": "To skin a slaughtered animal.",
+      "usage_conditions": "A distinct classical Form I use.",
+      "source_refs": [
+        "lane:entry:25386"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_makecompanion",
+      "headword_arabic": "أَصْحَبَ",
+      "definition": "To make a person or thing a companion or associate of another.",
+      "usage_conditions": "It may take a person as a companion or make an object, such as a book or writing, accompany someone metaphorically.",
+      "source_refs": [
+        "lane:entry:25388"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_leavehair",
+      "headword_arabic": "أَصْحَبَ",
+      "definition": "To leave the hair or wool upon a skin instead of stripping it.",
+      "usage_conditions": "Used of a skin or hide that has not undergone the relevant removal or preparation process.",
+      "source_refs": [
+        "lane:entry:25388"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_havecompanion",
+      "headword_arabic": "أَصْحَبَ",
+      "definition": "To become one who has a companion or companions.",
+      "usage_conditions": "The intransitive Form IV use describes acquiring or coming to have a companion.",
+      "source_refs": [
+        "lane:entry:25388"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_sonmature",
+      "headword_arabic": "أَصْحَبَ",
+      "definition": "To have a son who has reached manhood and become a companion-like equal.",
+      "usage_conditions": "A conventional extension describing the father's changed status when his son reaches maturity.",
+      "source_refs": [
+        "lane:entry:25388"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_tractable",
+      "headword_arabic": "أَصْحَبَ",
+      "definition": "To become tractable, submissive, or compliant after being refractory.",
+      "usage_conditions": "Used of a person or animal that becomes manageable or yields to another.",
+      "source_refs": [
+        "lane:entry:25388",
+        "lane:entry:25388",
+        "lane:entry:25401",
+        "lane:entry:25402"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_wateralgae",
+      "headword_arabic": "أَصْحَبَ",
+      "definition": "For water, to become covered with algae.",
+      "usage_conditions": "A specialized classical use applied to water.",
+      "source_refs": [
+        "lane:entry:25388"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_shy",
+      "headword_arabic": "يَتَصَحَّبُ",
+      "definition": "To be ashamed, bashful, or shy of associating with someone or doing something.",
+      "usage_conditions": "The use may describe reluctance to sit with others or failure to avoid a shameful act, depending on the construction.",
+      "source_refs": [
+        "lane:entry:25389"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_mutualassociation",
+      "headword_arabic": "تَصَاحَبَ",
+      "definition": "For two or more people, to associate or keep company with one another.",
+      "usage_conditions": "A reciprocal Form VI use.",
+      "source_refs": [
+        "lane:entry:25391"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_seekcompanion",
+      "headword_arabic": "اِسْتَصْحَبَ",
+      "definition": "To seek, choose, invite, or take someone as a companion, and to keep him with oneself.",
+      "usage_conditions": "The Form X use may emphasize requesting companionship, choosing an associate, or retaining the companion.",
+      "source_refs": [
+        "lane:entry:25392"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_carryalong",
+      "headword_arabic": "اِسْتَصْحَبَ",
+      "definition": "To carry or take something along as a companion.",
+      "usage_conditions": "Used especially of carrying a book or another object with oneself.",
+      "source_refs": [
+        "lane:entry:25392",
+        "lane:entry:25394"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_adhere",
+      "headword_arabic": "اِسْتَصْحَبَ",
+      "definition": "To adhere, cling, hold fast, or coalesce with something.",
+      "usage_conditions": "A specialized Form X extension for things that remain attached or become united.",
+      "source_refs": [
+        "lane:entry:25392"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_companionship",
+      "headword_arabic": "صُحْبَة",
+      "definition": "Companionship or company.",
+      "usage_conditions": "The verbal noun may describe being in someone's company or carrying something along with oneself.",
+      "source_refs": [
+        "lane:entry:25394"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_propheticcompanions",
+      "headword_arabic": "صَحَابَة",
+      "definition": "The conventional collective designation for the Companions of the Prophet Muhammad.",
+      "usage_conditions": "In later usage, it denotes those who saw Muhammad and had recognized companionship with him, with variation over how long that companionship must have lasted.",
+      "source_refs": [
+        "lane:entry:25395"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_owner",
+      "headword_arabic": "صَاحِب",
+      "definition": "An owner, possessor, master, occupant, or person having control of something.",
+      "usage_conditions": "This is a possessive or relational use of صاحب distinct from simple interpersonal companionship.",
+      "source_refs": [
+        "lane:entry:25397"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_roleassociate",
+      "headword_arabic": "صَاحِب",
+      "definition": "A person characterized by association with a role, object, office, doctrine, text, or affair.",
+      "usage_conditions": "Depending on the construction, it can denote an attendant or official, accomplice, follower of a school, author, manager, disposer, person with authority, or debtor.",
+      "source_refs": [
+        "lane:entry:25397"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_redcolor",
+      "headword_arabic": "أَصْحَبُ",
+      "definition": "Of a color, inclining toward redness.",
+      "usage_conditions": "A specialized descriptive adjective applied to a wild ass or similar animal.",
+      "source_refs": [
+        "lane:entry:25399"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_madecompanion",
+      "headword_arabic": "مُصْحَب",
+      "definition": "Made to have a companion.",
+      "usage_conditions": "The passive participial form of the causative association branch; it also has specialized lexical extensions below.",
+      "source_refs": [
+        "lane:entry:25400"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_demonic",
+      "headword_arabic": "مُصْحَب",
+      "definition": "Possessed by a jinn or demon; demoniac or insane.",
+      "usage_conditions": "A specialized assumed-tropical use.",
+      "source_refs": [
+        "lane:entry:25400"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_hairyhide",
+      "headword_arabic": "مُصْحَب",
+      "definition": "A skin or hide retaining its hair, wool, or fur.",
+      "usage_conditions": "Includes a water-skin retaining some hair or wool and not subjected to the specified preparation process.",
+      "source_refs": [
+        "lane:entry:25400"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_barkbranch",
+      "headword_arabic": "مُصْحَب",
+      "definition": "A branch or stick retaining its bark.",
+      "usage_conditions": "A specialized description of wood that has not been stripped.",
+      "source_refs": [
+        "lane:entry:25400"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_havingcompanion",
+      "headword_arabic": "مُصْحِب",
+      "definition": "Having a companion.",
+      "usage_conditions": "It may describe a man whose son has reached manhood and become companion-like, as well as the general state of having an associate.",
+      "source_refs": [
+        "lane:entry:25401"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_selftalk",
+      "headword_arabic": "مُصْحِب",
+      "definition": "One who talks to himself.",
+      "usage_conditions": "A tropical descriptive use.",
+      "source_refs": [
+        "lane:entry:25401"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_straighton",
+      "headword_arabic": "مُصْحِب",
+      "definition": "Going straight on or proceeding without delay.",
+      "usage_conditions": "A specialized assumed-tropical descriptive use.",
+      "source_refs": [
+        "lane:entry:25401"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_accompanied",
+      "headword_arabic": "مَصْحُوب",
+      "definition": "Associated with or accompanied by something or someone.",
+      "usage_conditions": "The passive participle can also occur in a farewell formula meaning that the departing person is kept safe or preserved from harm.",
+      "source_refs": [
+        "lane:entry:25403"
+      ]
+    },
+    {
+      "meaning_id": "cm_SHb_safe",
+      "headword_arabic": "مَصْحُوب",
+      "definition": "Sent away safely or preserved from harm.",
+      "usage_conditions": "A conventional farewell or protective idiom, not a general restriction on the ordinary meaning of accompaniment.",
+      "source_refs": [
+        "lane:entry:25403"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:SHb:25386:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qf_SHb_sahaba_s1"
+      ],
+      "note": "Explicitly equated with the Quran-attested Form III association sense."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25386:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf_SHb_yasHabu_s1"
+      ],
+      "note": "Quran-linked protective construction."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25386:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25386:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_skinning"
+      ],
+      "note": "Distinct skinning use."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25387:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf_SHb_sahaba_s1"
+      ],
+      "note": "Direct Form III association meaning."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25387:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25388:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_makecompanion"
+      ],
+      "note": "Causative making of a companion."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25388:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_SHb_makecompanion"
+      ],
+      "note": "Same causative association branch."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25388:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_leavehair"
+      ],
+      "note": "Leaving hair or wool on a skin."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25388:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25388:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_havecompanion"
+      ],
+      "note": "Intransitive having a companion."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25388:g2:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_sonmature"
+      ],
+      "note": "Mature son becoming companion-like."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25388:g2:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_tractable"
+      ],
+      "note": "Becoming tractable after resistance."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25388:g2:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_wateralgae"
+      ],
+      "note": "Water covered with algae."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25389:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_shy"
+      ],
+      "note": "Shame or avoidance of association."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25390:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25391:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_mutualassociation"
+      ],
+      "note": "Reciprocal association."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25391:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25392:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_seekcompanion",
+        "cm_SHb_adhere"
+      ],
+      "note": "Seeking or taking a companion and clinging to him."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25392:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_carryalong",
+        "cm_SHb_adhere"
+      ],
+      "note": "Carrying along and adhering or coalescing."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25392:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25392:g2:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25393:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to صاحب."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25394:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_companionship"
+      ],
+      "note": "Companionship as a verbal noun and substantive."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25394:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_companionship",
+        "cm_SHb_carryalong"
+      ],
+      "note": "Companionship and carrying an object along."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25394:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25395:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Inflectional derivation statement only."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25395:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_propheticcompanions"
+      ],
+      "note": "Conventional historical designation."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25396:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25397:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qf_SHb_sahib_s1",
+        "qf_SHb_sahib_s2",
+        "qf_SHb_asHab_s1",
+        "qf_SHb_asHab_s2",
+        "qf_SHb_asHab_s3",
+        "cm_SHb_owner",
+        "cm_SHb_roleassociate"
+      ],
+      "note": "Contains interpersonal, possessive, role-based, named-group, occupant, and custodian constructions."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25398:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Diminutive cross-reference with no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25399:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_redcolor"
+      ],
+      "note": "Distinct color adjective."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25400:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_madecompanion"
+      ],
+      "note": "Passive causative association meaning."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25400:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_demonic"
+      ],
+      "note": "Demonic possession meaning."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25400:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25400:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_hairyhide"
+      ],
+      "note": "Hairy or wool-bearing hide."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25400:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_barkbranch"
+      ],
+      "note": "Branch retaining its bark."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25401:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_havingcompanion"
+      ],
+      "note": "Having a companion."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25401:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_SHb_sonmature"
+      ],
+      "note": "Same mature-son specialization as the Form IV entry."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25401:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_selftalk"
+      ],
+      "note": "Talking to oneself."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25401:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_SHb_tractable"
+      ],
+      "note": "Same tractability branch."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25401:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_straighton"
+      ],
+      "note": "Proceeding straight without delay."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25402:g1:main",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_SHb_tractable"
+      ],
+      "note": "Same compliant or submissive meaning."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25403:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_accompanied"
+      ],
+      "note": "Passive association or accompaniment."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25403:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_SHb_safe"
+      ],
+      "note": "Farewell idiom of being preserved from harm."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25403:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25404:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only synonym reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25405:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25406:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:SHb:25407:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    }
+  ],
+  "cautions": [
+    "The Form I Quran occurrence is represented specifically in the protective or defensive construction يُصْحَبُونَ; this does not generalize the protective sense to every ordinary use of the root.",
+    "صَاحِب and أَصْحَاب vary between interpersonal companionship, named association, occupancy, and custodianship according to their construction and Quranic context."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

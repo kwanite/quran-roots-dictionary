@@ -1,0 +1,184 @@
+{
+  "root": "bzg",
+  "arabic": "بزغ",
+  "root_idea": {
+    "summary": "The root centers on the rising, emergence, and visible appearance of something.",
+    "development": "The basic image develops from something breaking forth into view, especially celestial rising and the eruption of a tooth. A related technical branch applies the same image to opening flesh and causing blood to flow.",
+    "source_refs": [
+      "maqayis:row:752",
+      "mufradat:row:119"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:bzg:baAzig:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-bzg-bazigh",
+      "reason": "Displayed under the normalized singular masculine active-participle citation form."
+    },
+    {
+      "form_group_id": "qac-form:bzg:baAzigap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-bzg-bazigh",
+      "reason": "Feminine active-participle inflection of the same Quranic lexical item; merged under the singular citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-bzg-bazigh",
+      "form_group_ids": [
+        "qac-form:bzg:baAzig:nominal:-",
+        "qac-form:bzg:baAzigap:nominal:-"
+      ],
+      "headword_arabic": "بَازِغٌ",
+      "public_pos_label": "Active participle",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qsense-bzg-bazigh-rising",
+          "definition": "Beginning to rise or coming forth into view; rising visibly with spreading light.",
+          "usage_conditions": "In the Quranic occurrences, the active participle describes the moon and the sun as they rise into view and their light spreads.",
+          "source_refs": [
+            "lane:entry:36298",
+            "mufradat:row:119"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "6:77",
+          "word_location": "6:77:4",
+          "sense_ids": [
+            "qsense-bzg-bazigh-rising"
+          ]
+        },
+        {
+          "verse_key": "6:78",
+          "word_location": "6:78:4",
+          "sense_ids": [
+            "qsense-bzg-bazigh-rising"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-bzg-tooth-eruption",
+      "headword_arabic": "بَزَغَ",
+      "definition": "Of a tooth, tusk, or canine: to come forth by breaking through the flesh.",
+      "usage_conditions": "A Classical usage specifically applied to an erupting tooth or tusk.",
+      "source_refs": [
+        "lane:entry:36294"
+      ]
+    },
+    {
+      "meaning_id": "cm-bzg-bloodletting",
+      "headword_arabic": "بَزَغَ",
+      "definition": "To scarify and make blood flow by a slight incision.",
+      "usage_conditions": "A technical use of a cupper or farrier; the incision is described as slight and not reaching the sinews or tendons.",
+      "source_refs": [
+        "lane:entry:36294"
+      ]
+    },
+    {
+      "meaning_id": "cm-bzg-spring-arrival",
+      "headword_arabic": "اِنْبَزَغَ",
+      "definition": "To begin or come, of the season, rain, or herbage called ربيع.",
+      "usage_conditions": "Form VII usage with الربيع and its associated seasonal growth or rain.",
+      "source_refs": [
+        "lane:entry:36296"
+      ]
+    },
+    {
+      "meaning_id": "cm-bzg-lancet",
+      "headword_arabic": "مِبْزَغٌ",
+      "definition": "A lancet used by a cupper or farrier.",
+      "usage_conditions": "Technical instrument terminology.",
+      "source_refs": [
+        "lane:entry:36299"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:bzg:36294:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense-bzg-bazigh-rising"
+      ],
+      "note": "Primary meaning of beginning to rise or come forth is stated in the Quranic sense."
+    },
+    {
+      "unit_id": "lane-unit:bzg:36294:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bzg-tooth-eruption"
+      ],
+      "note": "Tooth or tusk eruption is represented as a distinct Classical branch."
+    },
+    {
+      "unit_id": "lane-unit:bzg:36294:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "qsense-bzg-bazigh-rising"
+      ],
+      "note": "Sun and moon rising is covered by the Quranic rising sense."
+    },
+    {
+      "unit_id": "lane-unit:bzg:36294:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bzg-bloodletting"
+      ],
+      "note": "Scarifying and drawing blood is represented as a technical Classical branch."
+    },
+    {
+      "unit_id": "lane-unit:bzg:36294:g2:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm-bzg-bloodletting"
+      ],
+      "note": "Making blood flow is covered by the bloodletting meaning."
+    },
+    {
+      "unit_id": "lane-unit:bzg:36295:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to entry 1; it adds no independent lexical statement."
+    },
+    {
+      "unit_id": "lane-unit:bzg:36296:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bzg-spring-arrival"
+      ],
+      "note": "Form VII usage concerning the arrival of ربيع is represented."
+    },
+    {
+      "unit_id": "lane-unit:bzg:36297:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to Form VII; it adds no independent lexical statement."
+    },
+    {
+      "unit_id": "lane-unit:bzg:36298:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "qsense-bzg-bazigh-rising"
+      ],
+      "note": "The active-participle headword and its celestial rising meaning are represented."
+    },
+    {
+      "unit_id": "lane-unit:bzg:36299:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm-bzg-lancet"
+      ],
+      "note": "The instrument meaning is represented separately."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

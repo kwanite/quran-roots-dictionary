@@ -1,0 +1,102 @@
+{
+  "root": "$r*m",
+  "arabic": "شرذم",
+  "root_idea": {
+    "summary": "A semantic orientation toward separation into detached portions: a detached small group, a piece of a thing, or things reduced to torn fragments.",
+    "development": "The supplied evidence connects the Quranic people-group noun with being cut off or separated, while Classical usage extends the same imagery to individual portions and much-torn garments.",
+    "source_refs": [
+      "mufradat:row:759",
+      "lane:entry:38266"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:$r*m:$iro*imap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_shirdhimah",
+      "reason": "The Quran-attested noun has a distinct lexical identity and is presented under its normalized citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_shirdhimah",
+      "form_group_ids": [
+        "qac-form:$r*m:$iro*imap:nominal:-"
+      ],
+      "headword_arabic": "شِرْذِمَةٌ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense_shirdhimah_1",
+          "definition": "A detached small group or band of people.",
+          "usage_conditions": "The Quranic usage denotes a people-group characterized as separated or detached and few.",
+          "source_refs": [
+            "lane:entry:38266",
+            "mufradat:row:759"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "26:54",
+          "word_location": "26:54:3",
+          "sense_ids": [
+            "sense_shirdhimah_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning_shirdhimah_piece",
+      "headword_arabic": "شِرْذِمَةٌ",
+      "definition": "A piece or portion of a thing.",
+      "usage_conditions": "The recorded plural forms are شَرَاذِمُ and شَرَاذِيمُ; the usage includes a portion of such things as a quince.",
+      "source_refs": [
+        "lane:entry:38266"
+      ]
+    },
+    {
+      "meaning_id": "meaning_sharadhim_torn_garment",
+      "headword_arabic": "شَرَاذِمُ",
+      "definition": "Old, worn-out, and much-torn, said of a garment or garments.",
+      "usage_conditions": "A conventional plural expression, as in ثَوْبٌ شَرَاذِمُ or ثِيَابٌ شَرَاذِمُ.",
+      "source_refs": [
+        "lane:entry:38266"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:$r*m:38266:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense_shirdhimah_1"
+      ],
+      "note": "The Quran-attested people-group meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:$r*m:38266:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_shirdhimah_piece"
+      ],
+      "note": "The portion-of-a-thing meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:$r*m:38266:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning_sharadhim_torn_garment"
+      ],
+      "note": "The torn-garment construction is represented."
+    }
+  ],
+  "cautions": [
+    "Lane records a variant شِرْدِمَةٌ with unpointed د; it is not treated as a separate Quranic form."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

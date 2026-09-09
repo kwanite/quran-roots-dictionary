@@ -1,0 +1,578 @@
+{
+  "root": "wdd",
+  "arabic": "ودد",
+  "root_idea": {
+    "summary": "The root centers on love, affection, and positive attachment, with wishing understood as desiring what one loves.",
+    "development": "The lexical tradition distinguishes affection itself from wishing for a desired outcome, and extends the root to mutual or expressed affection. A separate homonymous branch denotes a peg or stake.",
+    "source_refs": [
+      "maqayis:row:5061",
+      "mufradat:row:1562"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wdd:wad~a:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wdd_formI_wadda",
+      "reason": "Distinct Quran-attested verb group with both affection and wishing usages."
+    },
+    {
+      "form_group_id": "qac-form:wdd:m~awad~ap:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wdd_mawadda",
+      "reason": "Distinct Quran-attested noun meaning love or affection."
+    },
+    {
+      "form_group_id": "qac-form:wdd:waduwd:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wdd_wadud",
+      "reason": "Distinct Quran-attested adjective and divine epithet."
+    },
+    {
+      "form_group_id": "qac-form:wdd:wad~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wdd_wadd_idol",
+      "reason": "Quran-attested proper name of the idol Wadd."
+    },
+    {
+      "form_group_id": "qac-form:wdd:wud~:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "wdd_wudd_affection",
+      "reason": "Distinct Quran-attested noun for affection or gracious acceptance."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "wdd_formI_wadda",
+      "form_group_ids": [
+        "qac-form:wdd:wad~a:verb:I"
+      ],
+      "headword_arabic": "وَدَّ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 17,
+      "senses": [
+        {
+          "sense_id": "wdd_formI_love",
+          "definition": "To love, feel affection for, or favor a person or thing.",
+          "usage_conditions": "The verb denotes affection or positive attachment toward its object. Voice, tense, and subject differences in the Quran do not create separate lexical meanings.",
+          "source_refs": [
+            "lane:entry:45093",
+            "mufradat:row:1562"
+          ]
+        },
+        {
+          "sense_id": "wdd_formI_wish",
+          "definition": "To wish for or desire that something happen or be the case.",
+          "usage_conditions": "Frequently followed by لَوْ or أَنْ and directed toward a hoped-for, desired, or regretted outcome. This is the desiderative use of the verb, distinct from affection itself.",
+          "source_refs": [
+            "lane:entry:45093",
+            "mufradat:row:1562"
+          ]
+        },
+        {
+          "sense_id": "wdd_formI_friendly_allegiance",
+          "definition": "To show or maintain friendly affection toward someone, including friendly allegiance or supportive association.",
+          "usage_conditions": "In the Quranic relational construction concerning those opposed to God and His Messenger, the verb expresses affiliating with or supporting them through the signs and causes of affection, rather than merely wishing for something.",
+          "source_refs": [
+            "mufradat:row:1562"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "2:96",
+          "word_location": "2:96:9",
+          "sense_ids": [
+            "wdd_formI_love"
+          ]
+        },
+        {
+          "verse_key": "3:118",
+          "word_location": "3:118:12",
+          "sense_ids": [
+            "wdd_formI_wish"
+          ]
+        },
+        {
+          "verse_key": "58:22",
+          "word_location": "58:22:8",
+          "sense_ids": [
+            "wdd_formI_friendly_allegiance"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wdd_mawadda",
+      "form_group_ids": [
+        "qac-form:wdd:m~awad~ap:nominal:-"
+      ],
+      "headword_arabic": "مَوَدَّة",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "wdd_mawadda_affection",
+          "definition": "Love, affection, or a bond of affection between persons.",
+          "usage_conditions": "May denote affection itself or its expression and causes within a relationship, including friendly or supportive attachment. The Quran applies it to marital affection, kinship-related love, and expressed affiliation.",
+          "source_refs": [
+            "lane:entry:45107",
+            "mufradat:row:1562"
+          ]
+        },
+        {
+          "sense_id": "wdd_mawadda_letter",
+          "definition": "A letter or epistle.",
+          "usage_conditions": "A rare and explicitly disputed interpretation reported for the first occurrence of مَوَدَّة in Quran 60:1; it is not the ordinary sense of the noun.",
+          "source_refs": [
+            "lane:entry:45107"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "30:21",
+          "word_location": "30:21:13",
+          "sense_ids": [
+            "wdd_mawadda_affection"
+          ]
+        },
+        {
+          "verse_key": "60:1",
+          "word_location": "60:1:11",
+          "sense_ids": [
+            "wdd_mawadda_affection"
+          ]
+        },
+        {
+          "verse_key": "42:23",
+          "word_location": "42:23:16",
+          "sense_ids": [
+            "wdd_mawadda_affection"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wdd_wadud",
+      "form_group_ids": [
+        "qac-form:wdd:waduwd:nominal:-"
+      ],
+      "headword_arabic": "وَدُود",
+      "public_pos_label": "Adjective / divine epithet",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "wdd_wadud_loving_beloved",
+          "definition": "Loving and beloved; as a divine epithet, the One who loves His servants and is beloved by the righteous.",
+          "usage_conditions": "In the Quran it is an epithet of God, combining divine love toward servants with the resulting love or approval directed toward Him.",
+          "source_refs": [
+            "lane:entry:45101",
+            "mufradat:row:1562"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "11:90",
+          "word_location": "11:90:9",
+          "sense_ids": [
+            "wdd_wadud_loving_beloved"
+          ]
+        },
+        {
+          "verse_key": "85:14",
+          "word_location": "85:14:3",
+          "sense_ids": [
+            "wdd_wadud_loving_beloved"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wdd_wadd_idol",
+      "form_group_ids": [
+        "qac-form:wdd:wad~:nominal:-"
+      ],
+      "headword_arabic": "وَدّ",
+      "public_pos_label": "Proper noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wdd_wadd_idol",
+          "definition": "Wadd, the name of an idol worshipped in pre-Islamic Arabia and associated with the people of Noah.",
+          "usage_conditions": "A proper name in the Quranic account of the idols invoked by Noah's people.",
+          "source_refs": [
+            "lane:entry:45099",
+            "mufradat:row:1562"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "71:23",
+          "word_location": "71:23:7",
+          "sense_ids": [
+            "wdd_wadd_idol"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "wdd_wudd_affection",
+      "form_group_ids": [
+        "qac-form:wdd:wud~:nominal:-"
+      ],
+      "headword_arabic": "وُدّ",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "wdd_wudd_affection",
+          "definition": "Affection, love, or gracious acceptance bestowed between people.",
+          "usage_conditions": "In the Quran, it denotes the affection and acceptance God establishes for those who believe and act righteously.",
+          "source_refs": [
+            "lane:entry:45093",
+            "mufradat:row:1562"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "19:96",
+          "word_location": "19:96:9",
+          "sense_ids": [
+            "wdd_wudd_affection"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "wdd_waddu_mutual",
+      "headword_arabic": "وَادَّ",
+      "definition": "To love or favor one another; to reciprocate affection.",
+      "usage_conditions": "Form III reciprocal construction.",
+      "source_refs": [
+        "lane:entry:45094"
+      ]
+    },
+    {
+      "meaning_id": "wdd_tawaddada_attract",
+      "headword_arabic": "تَوَدَّدَ",
+      "definition": "To seek to attract another's love or affection.",
+      "usage_conditions": "Form V causative or self-directed construction describing cultivation of another person's affection.",
+      "source_refs": [
+        "lane:entry:45096"
+      ]
+    },
+    {
+      "meaning_id": "wdd_tawaddada_show",
+      "headword_arabic": "تَوَدَّدَ",
+      "definition": "To show or manifest love or affection toward someone.",
+      "usage_conditions": "Form V construction with إِلَى may mark the person toward whom affection is expressed.",
+      "source_refs": [
+        "lane:entry:45096"
+      ]
+    },
+    {
+      "meaning_id": "wdd_tawadda_mutual",
+      "headword_arabic": "تَوَادَّ",
+      "definition": "To love one another and reciprocate affection.",
+      "usage_conditions": "Form VI reciprocal construction.",
+      "source_refs": [
+        "lane:entry:45097"
+      ]
+    },
+    {
+      "meaning_id": "wdd_widd_beloved",
+      "headword_arabic": "وِدّ",
+      "definition": "A beloved person, an object of love, or a friend.",
+      "usage_conditions": "Used of one who is loved or regarded as a friend; the noun may also function directly as an epithet without an understood ذو.",
+      "source_refs": [
+        "lane:entry:45098"
+      ]
+    },
+    {
+      "meaning_id": "wdd_widd_loving",
+      "headword_arabic": "وِدّ",
+      "definition": "A loving or affectionate person.",
+      "usage_conditions": "The term can describe one who loves or is affectionate, including emphatic use for someone possessing much love or affection; it is used alike of masculine and feminine referents.",
+      "source_refs": [
+        "lane:entry:45098"
+      ]
+    },
+    {
+      "meaning_id": "wdd_wadd_peg",
+      "headword_arabic": "وَدّ",
+      "definition": "A wooden pin, peg, or stake.",
+      "usage_conditions": "A dialectal form identified with وَتِدٌ, especially associated with the dialects of Temeem or Nejd.",
+      "source_refs": [
+        "lane:entry:45099"
+      ]
+    },
+    {
+      "meaning_id": "wdd_wudd_wish",
+      "headword_arabic": "وُدّ",
+      "definition": "A wish or desire that something be or come to pass.",
+      "usage_conditions": "Occurs in the construction بِوُدِّي أَنْ, meaning “I wish that …”; vowel lengthening in the cited poetic example is metrical.",
+      "source_refs": [
+        "lane:entry:45100"
+      ]
+    },
+    {
+      "meaning_id": "wdd_wadud_mare",
+      "headword_arabic": "وَدُود",
+      "definition": "A mare that exerts all her power in running.",
+      "usage_conditions": "A rare specialized equine usage.",
+      "source_refs": [
+        "lane:entry:45102"
+      ]
+    },
+    {
+      "meaning_id": "wdd_awadd_comparative",
+      "headword_arabic": "أَوَدُّ",
+      "definition": "More loving or most loving; more or most affectionate.",
+      "usage_conditions": "A comparative or superlative adjective, not a separate basic semantic branch from loving or affectionate.",
+      "source_refs": [
+        "lane:entry:45105"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wdd:45093:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_formI_love"
+      ],
+      "note": "Basic verb of love or affection."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45093:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wdd_formI_love"
+      ],
+      "note": "Dialectal imperative expressing love."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45093:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_formI_wish"
+      ],
+      "note": "Wish construction with لو."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45093:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_formI_wish"
+      ],
+      "note": "Wish construction with لو كان."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45093:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_formI_wish"
+      ],
+      "note": "Wish for a thing, identified as a secondary verb sense."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45094:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_waddu_mutual"
+      ],
+      "note": "Form III reciprocal affection."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45095:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45096:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_tawaddada_attract"
+      ],
+      "note": "Form V seeking to attract affection."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45096:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_tawaddada_show"
+      ],
+      "note": "Form V showing affection."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45097:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_tawadda_mutual"
+      ],
+      "note": "Form VI reciprocal affection."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45098:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_widd_beloved"
+      ],
+      "note": "Beloved person, object of love, or friend."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45098:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_widd_loving"
+      ],
+      "note": "Loving or affectionate person."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45098:g1:sub3",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wdd_widd_loving"
+      ],
+      "note": "Intensive loving or affectionate usage."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45098:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Plural formations and grammatical distribution."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45098:g1:sub5",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "wdd_widd_beloved",
+        "wdd_widd_loving"
+      ],
+      "note": "Epithet and synonymic usage without a new lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45099:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45099:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_wadd_idol"
+      ],
+      "note": "Idol Wadd, explicitly associated with a Quran passage."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45099:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Oath example referring to the already represented idol name."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45099:g2:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_wadd_peg"
+      ],
+      "note": "Dialectal peg or stake meaning."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45100:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45100:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_wudd_wish"
+      ],
+      "note": "Nominal wish construction."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45101:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45101:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_wadud_loving_beloved"
+      ],
+      "note": "Divine epithet involving love and being beloved."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45102:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_wadud_mare"
+      ],
+      "note": "Specialized equine meaning."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45103:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45104:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45105:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_awadd_comparative"
+      ],
+      "note": "Comparative or superlative adjective."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45106:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45107:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_mawadda_affection"
+      ],
+      "note": "Love or affection noun."
+    },
+    {
+      "unit_id": "lane-unit:wdd:45107:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "wdd_mawadda_letter"
+      ],
+      "note": "Rare Quran-linked interpretation as letter or epistle."
+    }
+  ],
+  "cautions": [
+    "The interpretation of مَوَدَّة in Quran 60:1 as “a letter” is explicitly reported as strange or disputed; the ordinary Quranic sense is love or affection.",
+    "وَدّ as the idol's proper name is distinct from the separately reported dialectal noun meaning a peg or stake."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

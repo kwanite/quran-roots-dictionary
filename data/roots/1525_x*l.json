@@ -1,0 +1,447 @@
+{
+  "root": "x*l",
+  "arabic": "خذل",
+  "root_idea": {
+    "summary": "The root centers on leaving something and holding back from it, especially by withholding aid or assistance.",
+    "development": "This principle extends to abandonment, being left without support, and reciprocal desertion. Related Classical usages describe an animal remaining behind and a limb failing to support its bearer.",
+    "source_refs": [
+      "maqayis:row:1543",
+      "mufradat:row:396",
+      "lane:entry:18649",
+      "lane:entry:18652"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:x*l:yaxo*ulo:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_xadhal",
+      "reason": "Distinct Quran-attested Form I verb group, normalized to the Classical perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:x*l:m~axo*uwl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_makhdhul",
+      "reason": "Distinct Quran-attested passive participle."
+    },
+    {
+      "form_group_id": "qac-form:x*l:xa*uwl:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form_khadhul",
+      "reason": "Distinct Quran-attested adjective with an established habitual-agent meaning."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form_xadhal",
+      "form_group_ids": [
+        "qac-form:x*l:yaxo*ulo:verb:I"
+      ],
+      "headword_arabic": "خَذَلَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_xadhal_1",
+          "definition": "To withhold aid from, hold back from, abandon, or forsake someone.",
+          "usage_conditions": "In the Quranic occurrence, the verb describes the withholding of help from those addressed.",
+          "source_refs": [
+            "lane:entry:18649"
+          ]
+        },
+        {
+          "sense_id": "s_xadhal_2",
+          "definition": "To fail to preserve or protect someone, so that he falls into an evil action.",
+          "usage_conditions": "This preservation or protection nuance is explicitly associated with the Quranic Form I usage alongside the sense of failing to aid.",
+          "source_refs": [
+            "lane:entry:18649"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "3:160",
+          "word_location": "3:160:8",
+          "sense_ids": [
+            "s_xadhal_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_makhdhul",
+      "form_group_ids": [
+        "qac-form:x*l:m~axo*uwl:nominal:-"
+      ],
+      "headword_arabic": "مَخْذُولٌ",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_makhdhul_1",
+          "definition": "Left without an aider or assister; forsaken and unsupported.",
+          "usage_conditions": "A passive-participial description of one who has been deprived of support.",
+          "source_refs": [
+            "lane:entry:18659"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "17:22",
+          "word_location": "17:22:9",
+          "sense_ids": [
+            "s_makhdhul_1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form_khadhul",
+      "form_group_ids": [
+        "qac-form:x*l:xa*uwl:nominal:-"
+      ],
+      "headword_arabic": "خَذُولٌ",
+      "public_pos_label": "Adjective",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "s_khadhul_1",
+          "definition": "One who habitually withholds aid or repeatedly abandons those who rely on him.",
+          "usage_conditions": "In the Quranic occurrence, the adjective is applied to Satan, who forsakes the unbeliever and disavows him in a time of trial or affliction.",
+          "source_refs": [
+            "lane:entry:18656",
+            "mufradat:row:396"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "25:29",
+          "word_location": "25:29:11",
+          "sense_ids": [
+            "s_khadhul_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm_xadhal_wild",
+      "headword_arabic": "خَذَلَ",
+      "definition": "Of a gazelle or other wild animal, to hold back from the herd and remain behind, including remaining with its young.",
+      "usage_conditions": "Used in descriptions of a wild animal that does not keep pace with its companions.",
+      "source_refs": [
+        "lane:entry:18649"
+      ]
+    },
+    {
+      "meaning_id": "cm_xadhdhal",
+      "headword_arabic": "خَذَّلَ",
+      "definition": "To incite or induce someone to withhold aid, and to hinder or prevent him from assisting another; also to make him cowardly or weak-hearted and refrain from fighting.",
+      "usage_conditions": "A causative Form II usage involving dissuasion from aiding or fighting.",
+      "source_refs": [
+        "lane:entry:18650"
+      ]
+    },
+    {
+      "meaning_id": "cm_akhdhal_wild",
+      "headword_arabic": "أَخْذَلَ",
+      "definition": "Of a young wild animal, to find its mother holding back from the herd, leaving it, or remaining behind with it.",
+      "usage_conditions": "A construction describing the young animal's perception of the mother's withdrawal.",
+      "source_refs": [
+        "lane:entry:18651"
+      ]
+    },
+    {
+      "meaning_id": "cm_takhadhul_desertion",
+      "headword_arabic": "تَخَاذَلَ",
+      "definition": "To mutually withhold aid or abandon one another in trouble; also, to flee from battle.",
+      "usage_conditions": "A reciprocal Form VI usage describing collective withdrawal or desertion.",
+      "source_refs": [
+        "lane:entry:18652"
+      ]
+    },
+    {
+      "meaning_id": "cm_takhadhul_weakness",
+      "headword_arabic": "تَخَاذَلَ",
+      "definition": "Of a person's legs, to become weak and fail to support him.",
+      "usage_conditions": "Said of the legs when weakened by an ailment or other adverse condition.",
+      "source_refs": [
+        "lane:entry:18652"
+      ]
+    },
+    {
+      "meaning_id": "cm_takhadhul_behind",
+      "headword_arabic": "تَخَاذَلَ",
+      "definition": "To be or become behind.",
+      "usage_conditions": "A Classical usage describing a position of lagging behind.",
+      "source_refs": [
+        "lane:entry:18652"
+      ]
+    },
+    {
+      "meaning_id": "cm_inkhadhal",
+      "headword_arabic": "اِنْخَذَلَ",
+      "definition": "To be without aid or assistance; also, to flee.",
+      "usage_conditions": "A Form VII usage expressing lack of support or withdrawal.",
+      "source_refs": [
+        "lane:entry:18653"
+      ]
+    },
+    {
+      "meaning_id": "cm_khudhAllah",
+      "headword_arabic": "خُذَلَةٌ",
+      "definition": "A man who habitually withholds or neglects aid.",
+      "usage_conditions": "A characterization of persistent failure to assist others.",
+      "source_refs": [
+        "lane:entry:18654",
+        "mufradat:row:396"
+      ]
+    },
+    {
+      "meaning_id": "cm_khadhul_mare",
+      "headword_arabic": "خَذُولٌ",
+      "definition": "A mare that remains in place during the pain of parturition.",
+      "usage_conditions": "A specialized Classical description of a mare during labor.",
+      "source_refs": [
+        "lane:entry:18656"
+      ]
+    },
+    {
+      "meaning_id": "cm_khadhul_leg",
+      "headword_arabic": "خَذُولُ الرِّجْلِ",
+      "definition": "A man whose leg fails to support him because of weakness, an ailment, or intoxication.",
+      "usage_conditions": "An idiomatic bodily description centered on the leg's failure to aid its bearer.",
+      "source_refs": [
+        "lane:entry:18656"
+      ]
+    },
+    {
+      "meaning_id": "cm_khadhil_aider",
+      "headword_arabic": "خَاذِلٌ",
+      "definition": "One who withholds aid or leaves, forsakes, or deserts another.",
+      "usage_conditions": "A general active-participial description of failure to assist or abandonment.",
+      "source_refs": [
+        "lane:entry:18657"
+      ]
+    },
+    {
+      "meaning_id": "cm_khadhil_animal",
+      "headword_arabic": "خَاذِلٌ",
+      "definition": "A female gazelle or wild cow that holds back from her companions, remains behind or alone with her young, or has deserted her young.",
+      "usage_conditions": "Used in specialized animal descriptions; the reported variants concern remaining with or leaving the young.",
+      "source_refs": [
+        "lane:entry:18657"
+      ]
+    },
+    {
+      "meaning_id": "cm_khadhil_routed",
+      "headword_arabic": "خَاذِلٌ",
+      "definition": "Routed, defeated, or put to flight.",
+      "usage_conditions": "A Classical resultative usage describing one overcome in conflict.",
+      "source_refs": [
+        "lane:entry:18657"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:x*l:18649:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_xadhal_1",
+        "s_xadhal_2"
+      ],
+      "note": "Aid-withholding, abandonment, and failure to preserve are covered by the two Quranic senses."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18649:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_xadhal_wild"
+      ],
+      "note": "Wild-animal remaining behind is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18649:g1:sub3",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Poetic illustration of separation; it adds no independent lexical branch."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18650:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_xadhdhal"
+      ],
+      "note": "Causative inducement to withhold aid is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18650:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_xadhdhal"
+      ],
+      "note": "Inducing cowardice and refraining from fighting is stated within the Form II causative entry."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18651:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18651:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_akhdhal_wild"
+      ],
+      "note": "Young-animal and mother construction is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18652:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_takhadhul_desertion"
+      ],
+      "note": "Mutual abandonment and the reported battle-flight usage are represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18652:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_takhadhul_weakness"
+      ],
+      "note": "Weakening of the legs is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18652:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_takhadhul_behind"
+      ],
+      "note": "Being or becoming behind is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18652:g1:sub4",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18653:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_inkhadhal"
+      ],
+      "note": "Lack of aid and the reported flight usage are represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18654:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_khudhAllah"
+      ],
+      "note": "Habitual failure to render aid is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18655:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the Form I entry."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18656:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_khadhul_1"
+      ],
+      "note": "The Quran-attested habitual deserter meaning is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18656:g1:sub2",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18656:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_khadhul_mare"
+      ],
+      "note": "The specialized mare usage is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18656:g1:sub4",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_khadhul_leg"
+      ],
+      "note": "The leg-weakness idiom is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18657:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_khadhil_aider"
+      ],
+      "note": "Withholding aid is represented under the distinct headword خَاذِلٌ."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18657:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_khadhil_aider"
+      ],
+      "note": "Leaving, forsaking, and deserting are included in the same headword's broader entry."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18657:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_khadhil_animal"
+      ],
+      "note": "Female wild-animal withdrawal and abandonment of young are represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18657:g1:sub4",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "cm_khadhil_animal"
+      ],
+      "note": "Remaining with the young is included in the animal entry."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18657:g1:sub5",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "cm_khadhil_routed"
+      ],
+      "note": "Routed or defeated is represented."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18658:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference."
+    },
+    {
+      "unit_id": "lane-unit:x*l:18659:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "s_makhdhul_1"
+      ],
+      "note": "Having no aider is represented under the Quranic passive participle."
+    }
+  ],
+  "cautions": [
+    "Historical Quran citations in the lexical evidence are not converted into modern verse locations; the Quran examples here use the independently supplied QAC locations."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

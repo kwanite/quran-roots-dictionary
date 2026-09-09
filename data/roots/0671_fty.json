@@ -1,0 +1,292 @@
+{
+  "root": "fty",
+  "arabic": "فتي",
+  "root_idea": {
+    "summary": "The root has two principal semantic branches: freshness and youth on the one hand, and clarification of a ruling or answer on the other.",
+    "development": "The freshness branch denotes young people and extends to gendered forms and euphemistic designations for servants or slaves. The ruling branch yields أفتى, to provide an answer or ruling, and استفتى, to seek one.",
+    "source_refs": [
+      "maqayis:row:3511",
+      "mufradat:row:1088"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:fty:yufotiy:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-fty-afta",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:fty:yasotafotu:verb:X",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-fty-istafata",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:fty:fatFY:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-fty-fata",
+      "reason": ""
+    },
+    {
+      "form_group_id": "qac-form:fty:fataY`:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-fty-fata",
+      "reason": "Inflectional and orthographic Quranic variant of the singular citation form فَتًى."
+    },
+    {
+      "form_group_id": "qac-form:fty:fatayaAn:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-fty-fata",
+      "reason": "Sound dual form of the masculine noun فَتًى."
+    },
+    {
+      "form_group_id": "qac-form:fty:fataya`t:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "qform-fty-fatat",
+      "reason": "Normalized from the supplied feminine plural to the supported singular lexical citation form فَتَاةٌ."
+    },
+    {
+      "form_group_id": "qac-form:fty:fitoyap:nominal:-",
+      "disposition": "MERGE",
+      "target_public_form_id": "qform-fty-fata",
+      "reason": "Plural form فِتْيَة of the masculine noun فَتًى."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "qform-fty-afta",
+      "form_group_ids": [
+        "qac-form:fty:yufotiy:verb:IV"
+      ],
+      "headword_arabic": "أَفْتَى",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 5,
+      "senses": [
+        {
+          "sense_id": "qform-fty-afta-s1",
+          "definition": "To give an answer, explanation, or ruling when consulted; to clarify what is sought in a difficult matter.",
+          "usage_conditions": "Form IV. In the Quran, the response may concern a legal matter, a dream, or another affair requiring an authoritative explanation or considered advice.",
+          "source_refs": [
+            "mufradat:row:1088"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:127",
+          "word_location": "4:127:6",
+          "sense_ids": [
+            "qform-fty-afta-s1"
+          ]
+        },
+        {
+          "verse_key": "12:43",
+          "word_location": "12:43:18",
+          "sense_ids": [
+            "qform-fty-afta-s1"
+          ]
+        },
+        {
+          "verse_key": "27:32",
+          "word_location": "27:32:4",
+          "sense_ids": [
+            "qform-fty-afta-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-fty-istafata",
+      "form_group_ids": [
+        "qac-form:fty:yasotafotu:verb:X"
+      ],
+      "headword_arabic": "اِسْتَفْتَى",
+      "public_pos_label": "Verb · Form X",
+      "verb_form": "X",
+      "occurrence_count": 6,
+      "senses": [
+        {
+          "sense_id": "qform-fty-istafata-s1",
+          "definition": "To ask for an answer, explanation, or ruling; to seek a considered response from someone.",
+          "usage_conditions": "Form X. Used for seeking a ruling or explanation and for asking about an unclear matter, including questions addressed to a person or concerning a particular issue.",
+          "source_refs": [
+            "mufradat:row:1088"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:127",
+          "word_location": "4:127:1",
+          "sense_ids": [
+            "qform-fty-istafata-s1"
+          ]
+        },
+        {
+          "verse_key": "12:41",
+          "word_location": "12:41:19",
+          "sense_ids": [
+            "qform-fty-istafata-s1"
+          ]
+        },
+        {
+          "verse_key": "37:11",
+          "word_location": "37:11:1",
+          "sense_ids": [
+            "qform-fty-istafata-s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-fty-fata",
+      "form_group_ids": [
+        "qac-form:fty:fatFY:nominal:-",
+        "qac-form:fty:fataY`:nominal:-",
+        "qac-form:fty:fatayaAn:nominal:-",
+        "qac-form:fty:fitoyap:nominal:-"
+      ],
+      "headword_arabic": "فَتًى",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 8,
+      "senses": [
+        {
+          "sense_id": "qform-fty-fata-s1",
+          "definition": "A youth or young male.",
+          "usage_conditions": "Masculine personal noun. Its Quranic plural forms include فِتْيَة and فِتْيَان.",
+          "source_refs": [
+            "mufradat:row:1088"
+          ]
+        },
+        {
+          "sense_id": "qform-fty-fata-s2",
+          "definition": "A male servant or slave, used as a euphemistic designation.",
+          "usage_conditions": "The term may designate a male bondsman or attendant; the Quranic evidence includes Joseph’s servant and his male servants.",
+          "source_refs": [
+            "mufradat:row:1088"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "21:60",
+          "word_location": "21:60:3",
+          "sense_ids": [
+            "qform-fty-fata-s1"
+          ]
+        },
+        {
+          "verse_key": "12:36",
+          "word_location": "12:36:4",
+          "sense_ids": [
+            "qform-fty-fata-s1"
+          ]
+        },
+        {
+          "verse_key": "18:10",
+          "word_location": "18:10:3",
+          "sense_ids": [
+            "qform-fty-fata-s1"
+          ]
+        },
+        {
+          "verse_key": "12:30",
+          "word_location": "12:30:8",
+          "sense_ids": [
+            "qform-fty-fata-s2"
+          ]
+        },
+        {
+          "verse_key": "12:62",
+          "word_location": "12:62:2",
+          "sense_ids": [
+            "qform-fty-fata-s2"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "qform-fty-fatat",
+      "form_group_ids": [
+        "qac-form:fty:fataya`t:nominal:-"
+      ],
+      "headword_arabic": "فَتَاةٌ",
+      "public_pos_label": "Noun · feminine",
+      "verb_form": null,
+      "occurrence_count": 2,
+      "senses": [
+        {
+          "sense_id": "qform-fty-fatat-s1",
+          "definition": "A female servant or slave, used as a euphemistic designation.",
+          "usage_conditions": "Feminine noun. In the supplied Quranic occurrences, the plural refers to enslaved women or female servants.",
+          "source_refs": [
+            "mufradat:row:1088"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "4:25",
+          "word_location": "4:25:15",
+          "sense_ids": [
+            "qform-fty-fatat-s1"
+          ]
+        },
+        {
+          "verse_key": "24:33",
+          "word_location": "24:33:30",
+          "sense_ids": [
+            "qform-fty-fatat-s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "cm-fty-fatat-youngwoman",
+      "headword_arabic": "فَتَاةٌ",
+      "definition": "A young woman or girl; the feminine counterpart of فَتًى when referring to youth.",
+      "usage_conditions": "This is the ordinary feminine-youth use, distinct from the euphemistic designation for a female slave or servant.",
+      "source_refs": [
+        "mufradat:row:1088"
+      ]
+    },
+    {
+      "meaning_id": "cm-fty-fataa-youthfulness",
+      "headword_arabic": "فَتَاءٌ",
+      "definition": "Youthfulness; the condition or vigor of being young.",
+      "usage_conditions": "An abstract noun associated with the youth branch of the root.",
+      "source_refs": [
+        "maqayis:row:3511",
+        "mufradat:row:1088"
+      ]
+    },
+    {
+      "meaning_id": "cm-fty-fati-tendercamel",
+      "headword_arabic": "فَتِيٌّ",
+      "definition": "Tender or fresh, especially said of a young camel.",
+      "usage_conditions": "Applied to a camel described as tender or fresh; this belongs to the freshness branch rather than the personal noun for a youth.",
+      "source_refs": [
+        "maqayis:row:3511",
+        "mufradat:row:1088"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:fty:33237:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference reading: “See فتو”; the supplied unit contains no lexical definition for this root."
+    }
+  ],
+  "cautions": [
+    "The supplied Lane primary material is only a pointer to فتو, so no independent Lane lexical definition was assigned.",
+    "Maqayis separately discusses the hamzated forms فَتِئَ and فَتَأَ and explicitly places them outside the two branches treated for فتي; they are not included here."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

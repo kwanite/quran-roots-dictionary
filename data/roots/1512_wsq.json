@@ -1,0 +1,176 @@
+{
+  "root": "wsq",
+  "arabic": "وسق",
+  "root_idea": {
+    "summary": "The root centers on bringing dispersed things together and carrying or holding them as a collected load.",
+    "development": "The basic orientation of gathering and carrying yields concrete terms for a measured load and a gathered herd, as well as Quranic uses for what night gathers and for the moon's attaining coherent fullness.",
+    "source_refs": [
+      "maqayis:row:5108",
+      "mufradat:row:1575"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:wsq:wasaqa:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:wsq:wasaqa",
+      "reason": "Distinct Quran-attested Form I verb meaning to gather or contain what is dispersed."
+    },
+    {
+      "form_group_id": "qac-form:wsq:{t~asaqa:verb:VIII",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "form:wsq:ittasaqa",
+      "reason": "Distinct Quran-attested Form VIII construction describing coming together into fullness and regularity."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "form:wsq:wasaqa",
+      "form_group_ids": [
+        "qac-form:wsq:wasaqa:verb:I"
+      ],
+      "headword_arabic": "وَسَقَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:wsq:wasaqa:1",
+          "definition": "To gather and contain what is dispersed.",
+          "usage_conditions": "In the Quranic expression وَاللَّيْلِ وَمَا وَسَقَ, the object is understood as what night gathers, including the darkness or nocturnal things and visitors.",
+          "source_refs": [
+            "mufradat:row:1575"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "84:17",
+          "word_location": "84:17:3",
+          "sense_ids": [
+            "sense:wsq:wasaqa:1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "form:wsq:ittasaqa",
+      "form_group_ids": [
+        "qac-form:wsq:{t~asaqa:verb:VIII"
+      ],
+      "headword_arabic": "اِتَّسَقَ",
+      "public_pos_label": "Verb · Form VIII",
+      "verb_form": "VIII",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:wsq:ittasaqa:1",
+          "definition": "To come together into a coherent, complete, and orderly state.",
+          "usage_conditions": "In the Quranic description of the moon, it denotes attaining fullness or becoming fully coherent and regular.",
+          "source_refs": [
+            "mufradat:row:1575"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "84:18",
+          "word_location": "84:18:3",
+          "sense_ids": [
+            "sense:wsq:ittasaqa:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:wsq:wasq-load",
+      "headword_arabic": "وَسْقٌ",
+      "definition": "A camel's load; by extension, a conventional measure of sixty ṣāʿs.",
+      "usage_conditions": "A noun for a defined load or measure.",
+      "source_refs": [
+        "lane:entry:30497",
+        "mufradat:row:1575"
+      ]
+    },
+    {
+      "meaning_id": "meaning:wsq:awsaqa",
+      "headword_arabic": "أَوْسَقَ",
+      "definition": "To load a camel with its burden.",
+      "usage_conditions": "A causative Form IV use applied to loading a camel.",
+      "source_refs": [
+        "mufradat:row:1575"
+      ]
+    },
+    {
+      "meaning_id": "meaning:wsq:wassaq-grain",
+      "headword_arabic": "وَسَّقَ",
+      "definition": "To make grain into a wasq, assigning it to the standard load measure.",
+      "usage_conditions": "A causative Form II use applied specifically to grain being made into a wasq.",
+      "source_refs": [
+        "mufradat:row:1575"
+      ]
+    },
+    {
+      "meaning_id": "meaning:wsq:wasiqa-eye",
+      "headword_arabic": "وَسِقَ",
+      "definition": "To hold or carry water, said of the eye.",
+      "usage_conditions": "Used of the eye retaining water; also found in the idiomatic expression “as long as my eye holds water.”",
+      "source_refs": [
+        "mufradat:row:1575"
+      ]
+    },
+    {
+      "meaning_id": "meaning:wsq:wasiq-loaded-camels",
+      "headword_arabic": "وَاسِقٌ / مَوَاسِيقُ",
+      "definition": "A she-camel, or camels, bearing a load.",
+      "usage_conditions": "An adjectival or substantivized description of female camel(s) carrying their loads.",
+      "source_refs": [
+        "mufradat:row:1575"
+      ]
+    },
+    {
+      "meaning_id": "meaning:wsq:wasiqah-herd",
+      "headword_arabic": "وَسِيقَةٌ",
+      "definition": "A gathered or driven herd or mob of camels or cattle.",
+      "usage_conditions": "A collective noun for animals assembled and moved together.",
+      "source_refs": [
+        "lane:entry:30498",
+        "mufradat:row:1575"
+      ]
+    },
+    {
+      "meaning_id": "meaning:wsq:misaq-bird",
+      "headword_arabic": "مِيسَاقٌ",
+      "definition": "A bird that flaps its wings while flying.",
+      "usage_conditions": "A rare lexical item; the form may also be pronounced with hamza.",
+      "source_refs": [
+        "maqayis:row:5108"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:wsq:30497:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:wsq:wasq-load"
+      ],
+      "note": "The unit directly defines وَسْقٌ as a camel's load."
+    },
+    {
+      "unit_id": "lane-unit:wsq:30498:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:wsq:wasiqah-herd"
+      ],
+      "note": "The unit directly defines وَسِيقَةٌ as a mob of driven cattle."
+    }
+  ],
+  "cautions": [
+    "The Quranic interpretation of what night gathers in 84:17 is reported in more than one way: as darkness or as nocturnal things and visitors.",
+    "مِيسَاقٌ is reported as a rare, anomalous lexical branch rather than a central application of the root."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}

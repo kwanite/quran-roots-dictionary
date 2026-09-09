@@ -1,0 +1,135 @@
+{
+  "root": "lhm",
+  "arabic": "لهم",
+  "root_idea": {
+    "summary": "The root is oriented toward taking something in fully—swallowing or absorbing it—and, by extension, to something being cast into the inner self and received as inspiration.",
+    "development": "The literal image of swallowing or taking in is extended metaphorically to inspiration: what is placed in the inner self is received as ilhām. Related Classical usages apply the image to swift movement, overwhelming calamity, and largeness or generosity.",
+    "source_refs": [
+      "maqayis:row:4240",
+      "mufradat:row:1326"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:lhm:>alohama:verb:IV",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "quran-form:lhm:alhama",
+      "reason": "Quran-attested Form IV verb, normalized to its Classical Arabic perfect citation form."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "quran-form:lhm:alhama",
+      "form_group_ids": [
+        "qac-form:lhm:>alohama:verb:IV"
+      ],
+      "headword_arabic": "أَلْهَمَ",
+      "public_pos_label": "Verb · Form IV",
+      "verb_form": "IV",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "sense:lhm:alhama:1",
+          "definition": "To inspire or direct by placing a prompting, awareness, or guidance into the inner self; in the Quran, God inspires the soul with its wickedness and piety.",
+          "usage_conditions": "Form IV. The construction denotes inward impartation or direction through inspiration. In 91:8, the object is the soul and the inspired content is its فجور and تقوى.",
+          "source_refs": [
+            "lane:entry:20738",
+            "mufradat:row:1326"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "91:8",
+          "word_location": "91:8:1",
+          "sense_ids": [
+            "sense:lhm:alhama:1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "meaning:lhm:iltahama:1",
+      "headword_arabic": "اِلْتَهَمَ",
+      "definition": "To gulp or swallow, taking something in fully.",
+      "usage_conditions": "Form VIII; used for the act of swallowing or gulping.",
+      "source_refs": [
+        "lane:entry:20739",
+        "maqayis:row:4240"
+      ]
+    },
+    {
+      "meaning_id": "meaning:lhm:lahimm:1",
+      "headword_arabic": "لَهِمّ",
+      "definition": "Swift-running; especially an exceptionally fast horse.",
+      "usage_conditions": "An epithet applied to a horse, figuratively likened to gulping the ground because of the speed of its running.",
+      "source_refs": [
+        "maqayis:row:4240",
+        "mufradat:row:1326"
+      ]
+    },
+    {
+      "meaning_id": "meaning:lhm:luhaim:1",
+      "headword_arabic": "اللُّهَيْم",
+      "definition": "A great or overwhelming calamity; also called أُمُّ اللُّهَيْم.",
+      "usage_conditions": "An intensive figurative designation for a disaster conceived as consuming whatever it encounters.",
+      "source_refs": [
+        "maqayis:row:4240"
+      ]
+    },
+    {
+      "meaning_id": "meaning:lhm:lihamm:1",
+      "headword_arabic": "اللِّهَمّ",
+      "definition": "A great, ample, or sufficient one.",
+      "usage_conditions": "A Classical term for something characterized by greatness and sufficiency.",
+      "source_refs": [
+        "maqayis:row:4240"
+      ]
+    },
+    {
+      "meaning_id": "meaning:lhm:luhmum:1",
+      "headword_arabic": "اللُّهْمُوم",
+      "definition": "A generous man.",
+      "usage_conditions": "A Classical descriptive term for a person marked by munificence.",
+      "source_refs": [
+        "maqayis:row:4240"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:lhm:20738:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "sense:lhm:alhama:1"
+      ],
+      "note": "Inspiration as divine direction is covered by the Quranic Form IV sense."
+    },
+    {
+      "unit_id": "lane-unit:lhm:20738:g1:sub2",
+      "status": "SUBSUMED",
+      "target_ids": [
+        "sense:lhm:alhama:1"
+      ],
+      "note": "Suggesting something and putting it into the mind are covered by the same inward-impartation sense."
+    },
+    {
+      "unit_id": "lane-unit:lhm:20739:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "meaning:lhm:iltahama:1"
+      ],
+      "note": "The Form VIII meaning ‘to gulp’ is represented as a Classical meaning."
+    },
+    {
+      "unit_id": "lane-unit:lhm:20740:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the entry for الله."
+    }
+  ],
+  "cautions": [],
+  "unassigned_or_ambiguous_evidence": []
+}

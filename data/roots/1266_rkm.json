@@ -1,0 +1,282 @@
+{
+  "root": "rkm",
+  "arabic": "ركم",
+  "root_idea": {
+    "summary": "The root centers on gathering material by placing one part upon another, producing a heap or accumulated mass.",
+    "development": "The concrete act of piling develops into names for heaps and masses, states of density or buildup, and figurative applications such as accumulated flesh or a road's worn central track.",
+    "source_refs": [
+      "maqayis:row:2129",
+      "mufradat:row:582",
+      "lane:entry:24365",
+      "lane:entry:24370",
+      "lane:entry:24372"
+    ]
+  },
+  "qac_form_accounting": [
+    {
+      "form_group_id": "qac-form:rkm:yarokuma:verb:I",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rkm_verb_I",
+      "reason": "Displayed under the normalized Form I perfect citation form."
+    },
+    {
+      "form_group_id": "qac-form:rkm:m~arokuwm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rkm_markum_pp",
+      "reason": "Displayed under the normalized singular passive-participial citation form."
+    },
+    {
+      "form_group_id": "qac-form:rkm:rukaAm:nominal:-",
+      "disposition": "DISPLAY",
+      "target_public_form_id": "rkm_rukam_n",
+      "reason": "Displayed as the Quranic noun رُكَام."
+    }
+  ],
+  "quranic_forms": [
+    {
+      "public_form_id": "rkm_verb_I",
+      "form_group_ids": [
+        "qac-form:rkm:yarokuma:verb:I"
+      ],
+      "headword_arabic": "رَكَمَ",
+      "public_pos_label": "Verb · Form I",
+      "verb_form": "I",
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "rkm_verb_I_s1",
+          "definition": "To heap, pile, or accumulate one thing upon another.",
+          "usage_conditions": "In the Quranic construction, things or persons are brought together into a heap or accumulated mass.",
+          "source_refs": [
+            "lane:entry:24365"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "8:37",
+          "word_location": "8:37:11",
+          "sense_ids": [
+            "rkm_verb_I_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "rkm_markum_pp",
+      "form_group_ids": [
+        "qac-form:rkm:m~arokuwm:nominal:-"
+      ],
+      "headword_arabic": "مَرْكُوم",
+      "public_pos_label": "Passive participle",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "rkm_markum_pp_s1",
+          "definition": "Heaped up, piled one upon another, or accumulated.",
+          "usage_conditions": "In the Quranic usage, the adjective describes clouds gathered and piled into a mass.",
+          "source_refs": [
+            "mufradat:row:582"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "52:44",
+          "word_location": "52:44:9",
+          "sense_ids": [
+            "rkm_markum_pp_s1"
+          ]
+        }
+      ]
+    },
+    {
+      "public_form_id": "rkm_rukam_n",
+      "form_group_ids": [
+        "qac-form:rkm:rukaAm:nominal:-"
+      ],
+      "headword_arabic": "رُكَام",
+      "public_pos_label": "Noun",
+      "verb_form": null,
+      "occurrence_count": 1,
+      "senses": [
+        {
+          "sense_id": "rkm_rukam_n_s1",
+          "definition": "A mass or heap formed by things piled one upon another.",
+          "usage_conditions": "In the Quranic passage, it refers to a mass formed as clouds are gathered and heaped together.",
+          "source_refs": [
+            "mufradat:row:582",
+            "lane:entry:24370"
+          ]
+        }
+      ],
+      "quran_examples": [
+        {
+          "verse_key": "24:43",
+          "word_location": "24:43:12",
+          "sense_ids": [
+            "rkm_rukam_n_s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "other_classical_meanings": [
+    {
+      "meaning_id": "rkm_tarakum_change",
+      "headword_arabic": "تَرَاكَمَ",
+      "definition": "To become heaped, piled up, or accumulated.",
+      "usage_conditions": "Form VI, expressing a change into a piled or accumulated state; applied to clouds, occupations, darkness becoming dense, and flesh becoming accumulated and fat.",
+      "source_refs": [
+        "lane:entry:24366"
+      ]
+    },
+    {
+      "meaning_id": "rkm_rukmah_heap",
+      "headword_arabic": "رُكْمَة",
+      "definition": "A heap or lump of clay, mud, earth, or dust collected together.",
+      "usage_conditions": "A concrete collected or apparently heaped mass.",
+      "source_refs": [
+        "lane:entry:24369"
+      ]
+    },
+    {
+      "meaning_id": "rkm_rukam_herd",
+      "headword_arabic": "رُكَام",
+      "definition": "A large herd, flock, or comparable group, figuratively likened to a heap.",
+      "usage_conditions": "A figurative application to a large gathered group.",
+      "source_refs": [
+        "lane:entry:24370"
+      ]
+    },
+    {
+      "meaning_id": "rkm_markum_fat_camel",
+      "headword_arabic": "مَرْكُوم",
+      "definition": "Fat, as an epithet for a she-camel.",
+      "usage_conditions": "A figurative application associated with flesh accumulated through fattening.",
+      "source_refs": [
+        "lane:entry:24371"
+      ]
+    },
+    {
+      "meaning_id": "rkm_markum_dense_darkness",
+      "headword_arabic": "مَرْكُوم",
+      "definition": "Densely dark, as though layers of darkness were piled upon one another.",
+      "usage_conditions": "Applied as an epithet to midnight or the middle of the night.",
+      "source_refs": [
+        "lane:entry:24371"
+      ]
+    },
+    {
+      "meaning_id": "rkm_murtakam_road",
+      "headword_arabic": "مُرْتَكَم",
+      "definition": "The main or middle part of a road.",
+      "usage_conditions": "A conventional designation of the road's traveled track, explained through the accumulation of tracks left by passersby.",
+      "source_refs": [
+        "lane:entry:24372",
+        "mufradat:row:582"
+      ]
+    }
+  ],
+  "lane_unit_coverage": [
+    {
+      "unit_id": "lane-unit:rkm:24365:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rkm_verb_I_s1"
+      ],
+      "note": "Form I piling and accumulation."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24366:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rkm_tarakum_change"
+      ],
+      "note": "Form VI change into a piled, dense, fat, or accumulated state."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24367:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24368:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رُكَام."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24369:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rkm_rukmah_heap"
+      ],
+      "note": "Collected clay, mud, earth, or dust."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24370:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rkm_rukam_n_s1"
+      ],
+      "note": "Clouds, sand, or things accumulated into a heap or mass."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24370:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rkm_rukam_herd"
+      ],
+      "note": "Figurative use for a large herd or flock."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24371:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to the preceding paragraph."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24371:g1:sub2",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rkm_markum_fat_camel"
+      ],
+      "note": "Specialized epithet for a fat she-camel."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24371:g1:sub3",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rkm_markum_dense_darkness"
+      ],
+      "note": "Epithet for densely dark midnight."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24372:g1:main",
+      "status": "REPRESENTED",
+      "target_ids": [
+        "rkm_murtakam_road"
+      ],
+      "note": "Main or middle part of a road."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24373:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رُكَام."
+    },
+    {
+      "unit_id": "lane-unit:rkm:24374:g1:main",
+      "status": "NON_SEMANTIC",
+      "target_ids": [],
+      "note": "Pointer-only cross-reference to رُكَام."
+    }
+  ],
+  "cautions": [
+    "A classical Quran citation associated with the Form VI darkness usage is preserved only as lexical context; it is not converted into a modern verse location because no corresponding QAC occurrence for that Form VI expression is supplied."
+  ],
+  "unassigned_or_ambiguous_evidence": []
+}
