@@ -1,5 +1,8 @@
 # Quran Roots Dictionary
 
+> **View the dictionary online:** https://kwanite.github.io/quran-roots-dictionary/  
+> A user-friendly browser for exploring the public root data without downloading or reading the JSON files directly.
+
 A structured, auditable Quranic Arabic root dictionary built from Quranic
 morphology and Classical Arabic lexical evidence.
 
@@ -107,8 +110,13 @@ Use `data/root-index.json` rather than guessing filenames.
 
 ## Website
 
-The `site/` folder is a dependency-free static browser. GitHub Actions can
-publish it to GitHub Pages together with the public root data.
+The public browser is available at:
+
+https://kwanite.github.io/quran-roots-dictionary/
+
+The `site/` folder contains the dependency-free static browser used by GitHub
+Pages. It reads the published JSON data directly; no separate JavaScript data
+files are generated.
 
 ## Contributions
 
