@@ -234,7 +234,7 @@ function renderRoot(id, d) {
     <div class="root-head">
       <div>
         <div class="root-kicker">ROOT ${esc(id)} · ${esc(d.root)}</div>
-        <h3>${esc(idea.summary || d.root || "")}</h3>
+        <h2>${esc(idea.summary || d.root || "")}</h2>
       </div>
       <div class="root-arabic arabic">${esc(d.arabic || "")}</div>
     </div>
