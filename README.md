@@ -1,5 +1,7 @@
 # Quran Roots Dictionary
 
+> **Read the Quran by inspecting roots:** https://prayforthetruth.com
+
 > **View the dictionary online:** https://kwanite.github.io/quran-roots-dictionary/  
 > A user-friendly browser for exploring the public root data without downloading or reading the JSON files directly.
 
